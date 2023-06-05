@@ -1,0 +1,115 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q16116629 a schema:Dataset ;
+	schema:about wd:Q16116629 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1700604137"^^xsd:integer ;
+	schema:dateModified "2022-08-10T05:50:50Z"^^xsd:dateTime .
+
+wd:Q16116629 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_buriat,_Russia> a schema:Article ;
+	schema:about wd:Q16116629 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga buriat, Russia"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Ruski_burjatski_jezik> a schema:Article ;
+	schema:about wd:Q16116629 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Ruski burjatski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q16116629 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "bxr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bxr> ;
+	wdt:P1394 "russ1264" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/russ1264> ;
+	wdt:P279 wd:Q33120 ;
+	wdt:P2192 "4012" ;
+	wdt:P305 "bxr" ;
+	wdt:P1627 "bxr" ;
+	wdt:P3823 wd:Q29051547 ;
+	wdt:P424 "bxr" ;
+	wdt:P17 wd:Q159 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BXR> ;
+	wdt:P1098 "+219000"^^xsd:decimal ;
+	rdfs:label "Ruski burjatski jezik"@hr ;
+	skos:prefLabel "Ruski burjatski jezik"@hr ;
+	schema:name "Ruski burjatski jezik"@hr ;
+	rdfs:label "Russisch-Boerjatisch"@nl ;
+	skos:prefLabel "Russisch-Boerjatisch"@nl ;
+	schema:name "Russisch-Boerjatisch"@nl ;
+	rdfs:label "Russia Buriat"@en ;
+	skos:prefLabel "Russia Buriat"@en ;
+	schema:name "Russia Buriat"@en ;
+	rdfs:label "Russia Buriat"@en-gb ;
+	skos:prefLabel "Russia Buriat"@en-gb ;
+	schema:name "Russia Buriat"@en-gb ;
+	rdfs:label "bouriate de Russie"@fr ;
+	skos:prefLabel "bouriate de Russie"@fr ;
+	schema:name "bouriate de Russie"@fr ;
+	rdfs:label "俄罗斯布里亚特语"@zh-hans ;
+	skos:prefLabel "俄罗斯布里亚特语"@zh-hans ;
+	schema:name "俄罗斯布里亚特语"@zh-hans ;
+	rdfs:label "Lenga buriat, Russia"@pms ;
+	skos:prefLabel "Lenga buriat, Russia"@pms ;
+	schema:name "Lenga buriat, Russia"@pms ;
+	rdfs:label "burià de Rùsia"@vec ;
+	skos:prefLabel "burià de Rùsia"@vec ;
+	schema:name "burià de Rùsia"@vec ;
+	rdfs:label "ਰੂਸ ਬੁਰਿਆਤ"@pa ;
+	skos:prefLabel "ਰੂਸ ਬੁਰਿਆਤ"@pa ;
+	schema:name "ਰੂਸ ਬੁਰਿਆਤ"@pa ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"Buryat language"@en,
+		"langue mongole"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"iaith"@cy,
+		"lingua"@la,
+		"ਭਾਸ਼ਾ"@pa ;
+	skos:altLabel "Western Buryat"@en,
+		"Boerjatisch"@nl,
+		"bxr"@bxr,
+		"ਰੂਸ ਬੁਰਿਆਤ ਭਾਸ਼ਾ"@pa .
+
+wd:Q50925037 owl:sameAs wd:Q16116629 .

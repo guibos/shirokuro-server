@@ -1,0 +1,120 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3913767 a schema:Dataset ;
+	schema:about wd:Q3913767 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1958507730"^^xsd:integer ;
+	schema:dateModified "2023-08-22T01:30:57Z"^^xsd:dateTime .
+
+wd:Q3913767 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_wandarang> a schema:Article ;
+	schema:about wd:Q3913767 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga wandarang"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Wandarang> a schema:Article ;
+	schema:about wd:Q3913767 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Wandarang"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiwandarang> a schema:Article ;
+	schema:about wd:Q3913767 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiwandarang"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Warndarrang_language> a schema:Article ;
+	schema:about wd:Q3913767 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Warndarrang language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3913767 wdt:P220 "wnd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/wnd> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "wand1263" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/wand1263> ;
+	wdt:P1466 "wrn" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_wrn> ;
+	wdt:P279 wd:Q56241850 ;
+	wdt:P2192 "6651" ;
+	wdt:P1252 "N120" ;
+	wdt:P305 "wnd" ;
+	wdt:P1627 "wnd" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3235 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/WND> ;
+	wdt:P6915 "Warndarrang" ;
+	wdt:P646 "/m/02hx9tq" ;
+	rdfs:label "Lenga wandarang"@pms ;
+	skos:prefLabel "Lenga wandarang"@pms ;
+	schema:name "Lenga wandarang"@pms ;
+	rdfs:label "Warndarang"@en ;
+	skos:prefLabel "Warndarang"@en ;
+	schema:name "Warndarang"@en ;
+	rdfs:label "Wandarang"@sv ;
+	skos:prefLabel "Wandarang"@sv ;
+	schema:name "Wandarang"@sv ;
+	rdfs:label "Kiwandarang"@sw ;
+	skos:prefLabel "Kiwandarang"@sw ;
+	schema:name "Kiwandarang"@sw ;
+	rdfs:label "wandarang"@fr ;
+	skos:prefLabel "wandarang"@fr ;
+	schema:name "wandarang"@fr ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue mangarrayi-maran"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"utdött australiskt språk"@sv ;
+	skos:altLabel "Wandarang"@en,
+		"Warndarang language"@en .

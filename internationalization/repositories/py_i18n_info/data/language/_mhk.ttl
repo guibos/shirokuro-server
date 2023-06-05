@@ -1,0 +1,155 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36068 a schema:Dataset ;
+	schema:about wd:Q36068 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1892671473"^^xsd:integer ;
+	schema:dateModified "2023-05-09T06:53:52Z"^^xsd:dateTime .
+
+wd:Q36068 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Mungaka> a schema:Article ;
+	schema:about wd:Q36068 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Mungaka"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mungaka> a schema:Article ;
+	schema:about wd:Q36068 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mungaka"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimungaka> a schema:Article ;
+	schema:about wd:Q36068 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimungaka"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Mungaka> a schema:Article ;
+	schema:about wd:Q36068 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Mungaka"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Mungaka_jezik> a schema:Article ;
+	schema:about wd:Q36068 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Mungaka jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nga%CA%BCka_language> a schema:Article ;
+	schema:about wd:Q36068 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ngaʼka language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36068 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P244 "sh94002687" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh94002687> ;
+	wdt:P268 "15040283r" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb15040283r#about> ;
+	wdt:P220 "mhk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mhk> ;
+	wdt:P279 wd:Q750932,
+		wd:Q13654297 ;
+	wdt:P1394 "mung1266" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mung1266> ;
+	wdt:P1466 "mgk" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_mgk> ;
+	wdt:P305 "mhk" ;
+	wdt:P1627 "mhk" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1009 ;
+	wdt:P2341 wd:Q845168,
+		wd:Q502341,
+		wd:Q165784,
+		wd:Q857122 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MHK> ;
+	wdt:P646 "/m/05f7tjs" ;
+	wdt:P910 wd:Q105714101 ;
+	wdt:P373 "Nga'ka language" ;
+	wdt:P10369 "Q52072" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q52072> ;
+	wdt:P8189 "987007532330605171" ;
+	rdfs:label "Kimungaka"@sw ;
+	skos:prefLabel "Kimungaka"@sw ;
+	schema:name "Kimungaka"@sw ;
+	rdfs:label "Lenga Mungaka"@pms ;
+	skos:prefLabel "Lenga Mungaka"@pms ;
+	schema:name "Lenga Mungaka"@pms ;
+	rdfs:label "Mungaka"@de ;
+	skos:prefLabel "Mungaka"@de ;
+	schema:name "Mungaka"@de ;
+	rdfs:label "Mungaka jezik"@hr ;
+	skos:prefLabel "Mungaka jezik"@hr ;
+	schema:name "Mungaka jezik"@hr ;
+	rdfs:label "Nga'ka"@en ;
+	skos:prefLabel "Nga'ka"@en ;
+	schema:name "Nga'ka"@en ;
+	rdfs:label "mungaka"@fr ;
+	skos:prefLabel "mungaka"@fr ;
+	schema:name "mungaka"@fr ;
+	rdfs:label "Wikang Nga'ka"@tl ;
+	skos:prefLabel "Wikang Nga'ka"@tl ;
+	schema:name "Wikang Nga'ka"@tl ;
+	rdfs:label "Mungaka"@nl ;
+	skos:prefLabel "Mungaka"@nl ;
+	schema:name "Mungaka"@nl ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue bantoïde"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Mungaka language"@en,
+		"Nga'ka language"@en .
+
+wd:Q16919821 owl:sameAs wd:Q36068 .

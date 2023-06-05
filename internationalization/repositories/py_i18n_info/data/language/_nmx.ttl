@@ -1,0 +1,125 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q20812287 a schema:Dataset ;
+	schema:about wd:Q20812287 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1658148566"^^xsd:integer ;
+	schema:dateModified "2022-06-11T05:46:34Z"^^xsd:dateTime .
+
+wd:Q20812287 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Nama,_Papua> a schema:Article ;
+	schema:about wd:Q20812287 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Nama, Papua"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinama_(Papua)> a schema:Article ;
+	schema:about wd:Q20812287 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinama (Papua)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nama_language_(Papuan)> a schema:Article ;
+	schema:about wd:Q20812287 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nama language (Papuan)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Nama_(Papuano)> a schema:Article ;
+	schema:about wd:Q20812287 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Nama (Papuano)"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q20812287 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "nmx" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nmx> ;
+	wdt:P1394 "nama1266" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nama1266> ;
+	wdt:P279 wd:Q6961418 ;
+	wdt:P5198 "294927115" ;
+	wdt:P305 "nmx" ;
+	wdt:P1627 "nmx" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q849790 ;
+	wdt:P1417 "topic/Nama-language" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NMX> ;
+	wdt:P2671 "/g/11jffpj72t" ;
+	wdtn:P2671 <http://g.co/kg/g/11jffpj72t> ;
+	rdfs:label "Kinama (Papua)"@sw ;
+	skos:prefLabel "Kinama (Papua)"@sw ;
+	schema:name "Kinama (Papua)"@sw ;
+	rdfs:label "Lenga Nama, Papua"@pms ;
+	skos:prefLabel "Lenga Nama, Papua"@pms ;
+	schema:name "Lenga Nama, Papua"@pms ;
+	rdfs:label "Nama"@en ;
+	skos:prefLabel "Nama"@en ;
+	schema:name "Nama"@en ;
+	rdfs:label "Nama"@de ;
+	skos:prefLabel "Nama"@de ;
+	schema:name "Nama"@de ;
+	rdfs:label "nama"@fr ;
+	skos:prefLabel "nama"@fr ;
+	schema:name "nama"@fr ;
+	rdfs:label "nama keel"@et ;
+	skos:prefLabel "nama keel"@et ;
+	schema:name "nama keel"@et ;
+	rdfs:label "pagsasao a Nama"@ilo ;
+	skos:prefLabel "pagsasao a Nama"@ilo ;
+	schema:name "pagsasao a Nama"@ilo ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue morehead-wasur"@fr,
+		"paapua keel"@et,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language spoken in Papua New Guinea"@en,
+		"iaith"@cy,
+		"lingua"@la,
+		"pagsasao a naisasao iti Papua Baro a Guinea"@ilo ;
+	skos:altLabel "Nama language"@en .
+
+wd:Q96394797 owl:sameAs wd:Q20812287 .

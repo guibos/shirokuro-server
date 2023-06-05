@@ -1,0 +1,120 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6558822 a schema:Dataset ;
+	schema:about wd:Q6558822 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1862659241"^^xsd:integer ;
+	schema:dateModified "2023-03-27T16:06:36Z"^^xsd:dateTime .
+
+wd:Q6558822 a wikibase:Item .
+
+<https://sw.wikipedia.org/wiki/Kilish> a schema:Article ;
+	schema:about wd:Q6558822 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilish"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Lish_language> a schema:Article ;
+	schema:about wd:Q6558822 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Lish language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%B2%E0%A4%BF%E0%A4%B6_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q6558822 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "लिश भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pa.wikipedia.org/wiki/%E0%A8%B2%E0%A8%BF%E0%A8%B8%E0%A8%BC_%E0%A8%AD%E0%A8%BE%E0%A8%B8%E0%A8%BC%E0%A8%BE> a schema:Article ;
+	schema:about wd:Q6558822 ;
+	schema:inLanguage "pa" ;
+	schema:isPartOf <https://pa.wikipedia.org/> ;
+	schema:name "ਲਿਸ਼ ਭਾਸ਼ਾ"@pa .
+
+<https://pa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6558822 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "lish1235" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lish1235> ;
+	wdt:P2355 "1226" ;
+	wdt:P279 wd:Q6401917 ;
+	wdt:P220 "lsh" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lsh> ;
+	wdt:P305 "lsh" ;
+	wdt:P1627 "lsh" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1162 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LSH> ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P646 "/m/0h7qq0y" ;
+	rdfs:label "Lish"@en ;
+	skos:prefLabel "Lish"@en ;
+	schema:name "Lish"@en ;
+	rdfs:label "Kilish"@sw ;
+	skos:prefLabel "Kilish"@sw ;
+	schema:name "Kilish"@sw ;
+	rdfs:label "lish"@fr ;
+	skos:prefLabel "lish"@fr ;
+	schema:name "lish"@fr ;
+	rdfs:label "ਲਿਸ਼ ਭਾਸ਼ਾ"@pa ;
+	skos:prefLabel "ਲਿਸ਼ ਭਾਸ਼ਾ"@pa ;
+	schema:name "ਲਿਸ਼ ਭਾਸ਼ਾ"@pa ;
+	rdfs:label "लिश भाषा"@hi ;
+	skos:prefLabel "लिश भाषा"@hi ;
+	schema:name "लिश भाषा"@hi ;
+	rdfs:label "লিশ ভাষা"@bn ;
+	skos:prefLabel "লিশ ভাষা"@bn ;
+	schema:name "লিশ ভাষা"@bn ;
+	schema:description "langue sino-tibétaine"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Lish language"@en,
+		"Lishpa language"@en,
+		"monpa"@fr,
+		"ਲਿਸ਼ਪਾ ਭਾਸ਼ਾ"@pa,
+		"লিশপা ভাষা"@bn .

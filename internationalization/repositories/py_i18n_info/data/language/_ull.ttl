@@ -1,0 +1,134 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q8761579 a schema:Dataset ;
+	schema:about wd:Q8761579 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961430052"^^xsd:integer ;
+	schema:dateModified "2023-08-26T03:06:18Z"^^xsd:dateTime .
+
+wd:Q8761579 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Ullatan> a schema:Article ;
+	schema:about wd:Q8761579 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Ullatan"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%90%D7%95%D7%9C%D7%90%D7%98%D7%90%D7%A0%D7%99%D7%AA> a schema:Article ;
+	schema:about wd:Q8761579 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "אולאטאנית"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiullatan> a schema:Article ;
+	schema:about wd:Q8761579 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiullatan"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ullatan_language> a schema:Article ;
+	schema:about wd:Q8761579 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ullatan language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sd.wikipedia.org/wiki/%D8%A7%D9%84%D8%A7%D8%AA%D8%A7%D9%86_%D9%BB%D9%88%D9%84%D9%8A> a schema:Article ;
+	schema:about wd:Q8761579 ;
+	schema:inLanguage "sd" ;
+	schema:isPartOf <https://sd.wikipedia.org/> ;
+	schema:name "الاتان ٻولي"@sd .
+
+<https://sd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q8761579 wdt:P220 "ull" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ull> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q16112843 ;
+	wdt:P1394 "ulla1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ulla1237> ;
+	wdt:P305 "ull" ;
+	wdt:P1627 "ull" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1186 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/ULL> ;
+	wdt:P4839 "Entity[\"Language\", \"Ullatan::qr2p8\"]",
+		"Entity[\"Language\", \"Ullatan\"]" ;
+	wdt:P646 "/m/02hx88h" ;
+	rdfs:label "уллатанский язык"@ru ;
+	skos:prefLabel "уллатанский язык"@ru ;
+	schema:name "уллатанский язык"@ru ;
+	rdfs:label "Ullatan"@en ;
+	skos:prefLabel "Ullatan"@en ;
+	schema:name "Ullatan"@en ;
+	rdfs:label "Lenga Ullatan"@pms ;
+	skos:prefLabel "Lenga Ullatan"@pms ;
+	schema:name "Lenga Ullatan"@pms ;
+	rdfs:label "Kiullatan"@sw ;
+	skos:prefLabel "Kiullatan"@sw ;
+	schema:name "Kiullatan"@sw ;
+	rdfs:label "Ullatan"@en-gb ;
+	skos:prefLabel "Ullatan"@en-gb ;
+	schema:name "Ullatan"@en-gb ;
+	rdfs:label "الاتان ٻولي"@sd ;
+	skos:prefLabel "الاتان ٻولي"@sd ;
+	schema:name "الاتان ٻولي"@sd ;
+	rdfs:label "אולאטאנית"@he ;
+	skos:prefLabel "אולאטאנית"@he ;
+	schema:name "אולאטאנית"@he ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"язык в Индии"@ru,
+		"ٻولي"@sd,
+		"ভারতের ভাষা"@bn,
+		"ഭാഷ"@ml ;
+	skos:altLabel "Ullatan language"@en .
+
+wd:Q12953243 owl:sameAs wd:Q8761579 .

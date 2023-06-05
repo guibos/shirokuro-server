@@ -1,0 +1,88 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33712499 a schema:Dataset ;
+	schema:about wd:Q33712499 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1569588767"^^xsd:integer ;
+	schema:dateModified "2022-01-29T06:49:53Z"^^xsd:dateTime .
+
+wd:Q33712499 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Nyiakeng_Puachue_Hmong> a schema:Article ;
+	schema:about wd:Q33712499 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nyiakeng Puachue Hmong"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%89%B5%E4%B8%96%E7%B4%80%E8%8B%97%E6%96%87> a schema:Article ;
+	schema:about wd:Q33712499 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "創世紀苗文"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33712499 wdt:P31 wd:Q8192,
+		wd:Q9779,
+		wd:Q1191702,
+		wd:Q4004706 ;
+	wdt:P506 "Hmnp" ;
+	wdt:P2620 "451" ;
+	wdt:P2671 "/g/11f5h23tx9" ;
+	wdtn:P2671 <http://g.co/kg/g/11f5h23tx9> ;
+	wdt:P5949 "U+1E100-1E4F" ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P2561 "Nyiakeng Puachue Hmong"@en,
+		"nyiakeng puachue hmong"@fr ;
+	wdt:P1705 "𞄐𞄦𞄲𞄤𞄎𞄫𞄰𞄚𞄧𞄲𞄤𞄔𞄬𞄱"@en ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Nyiakeng%20Puachue%20Script%20Sample.svg> ;
+	wdt:P170 wd:Q105502034 ;
+	wdt:P571 "1980-01-01T00:00:00Z"^^xsd:dateTime ;
+	rdfs:label "Nyiakeng Puachue Hmong"@en ;
+	skos:prefLabel "Nyiakeng Puachue Hmong"@en ;
+	schema:name "Nyiakeng Puachue Hmong"@en ;
+	rdfs:label "nyiakeng puachue hmong"@fr ;
+	skos:prefLabel "nyiakeng puachue hmong"@fr ;
+	schema:name "nyiakeng puachue hmong"@fr ;
+	rdfs:label "尼亞坑普阿綽苗文"@zh-hant ;
+	skos:prefLabel "尼亞坑普阿綽苗文"@zh-hant ;
+	schema:name "尼亞坑普阿綽苗文"@zh-hant ;
+	rdfs:label "尼亚坑普阿绰苗文"@zh-hans ;
+	skos:prefLabel "尼亚坑普阿绰苗文"@zh-hans ;
+	schema:name "尼亚坑普阿绰苗文"@zh-hans ;
+	rdfs:label "創世紀苗文"@zh ;
+	skos:prefLabel "創世紀苗文"@zh ;
+	schema:name "創世紀苗文"@zh ;
+	schema:description "writing system"@en .

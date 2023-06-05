@@ -1,0 +1,132 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q8826802 a schema:Dataset ;
+	schema:about wd:Q8826802 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1904656197"^^xsd:integer ;
+	schema:dateModified "2023-05-29T17:12:04Z"^^xsd:dateTime .
+
+wd:Q8826802 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Barwe_(langue)> a schema:Article ;
+	schema:about wd:Q8826802 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Barwe (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Barwe> a schema:Article ;
+	schema:about wd:Q8826802 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Barwe"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibarwe> a schema:Article ;
+	schema:about wd:Q8826802 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibarwe"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Barwe_jezik> a schema:Article ;
+	schema:about wd:Q8826802 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Barwe jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q8826802 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "bwg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bwg> ;
+	wdt:P279 wd:Q2964008 ;
+	wdt:P244 "sh96000932" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh96000932> ;
+	wdt:P1394 "barw1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/barw1243> ;
+	wdt:P305 "bwg" ;
+	wdt:P1627 "bwg" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q1029,
+		wd:Q954 ;
+	wdt:P2341 wd:Q622792,
+		wd:Q465847,
+		wd:Q465853 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BWG> ;
+	wdt:P2671 "/g/122g3w7_" ;
+	wdtn:P2671 <http://g.co/kg/g/122g3w7_> ;
+	wdt:P8189 "987007539510605171" ;
+	rdfs:label "Barwe"@en ;
+	skos:prefLabel "Barwe"@en ;
+	schema:name "Barwe"@en ;
+	rdfs:label "Kibarwe"@sw ;
+	skos:prefLabel "Kibarwe"@sw ;
+	schema:name "Kibarwe"@sw ;
+	rdfs:label "Barwe jezik"@hr ;
+	skos:prefLabel "Barwe jezik"@hr ;
+	schema:name "Barwe jezik"@hr ;
+	rdfs:label "Lenga Barwe"@pms ;
+	skos:prefLabel "Lenga Barwe"@pms ;
+	schema:name "Lenga Barwe"@pms ;
+	rdfs:label "barwe"@fr ;
+	skos:prefLabel "barwe"@fr ;
+	schema:name "barwe"@fr ;
+	rdfs:label "バルウェ語"@ja ;
+	skos:prefLabel "バルウェ語"@ja ;
+	schema:name "バルウェ語"@ja ;
+	rdfs:label "Barwe"@de ;
+	skos:prefLabel "Barwe"@de ;
+	schema:name "Barwe"@de ;
+	rdfs:label "barwe"@ca ;
+	skos:prefLabel "barwe"@ca ;
+	schema:name "barwe"@ca ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue bantoue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Barwe language"@en,
+		"Chibarwe"@en,
+		"セナ語"@ja .
+
+wd:Q16626760 owl:sameAs wd:Q8826802 .

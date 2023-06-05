@@ -1,0 +1,116 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2963909 a schema:Dataset ;
+	schema:about wd:Q2963909 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961136030"^^xsd:integer ;
+	schema:dateModified "2023-08-25T18:45:46Z"^^xsd:dateTime .
+
+wd:Q2963909 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Chirima> a schema:Article ;
+	schema:about wd:Q2963909 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Chirima"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Makhuwa-Shirima_language> a schema:Article ;
+	schema:about wd:Q2963909 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Makhuwa-Shirima language"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimakhuwa-Shirima> a schema:Article ;
+	schema:about wd:Q2963909 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimakhuwa-Shirima"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Makhuwa-Shirima> a schema:Article ;
+	schema:about wd:Q2963909 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Makhuwa-Shirima"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2963909 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "vmk" ;
+	wdt:P279 wd:Q6740431 ;
+	wdt:P220 "vmk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/vmk> ;
+	wdt:P1394 "makh1260" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/makh1260> ;
+	wdt:P1627 "vmk" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q1029 ;
+	wdt:P2341 wd:Q622799,
+		wd:Q622794,
+		wd:Q622803 ;
+	wdt:P2671 "/g/1203npfjn" ;
+	wdtn:P2671 <http://g.co/kg/g/1203npfjn> ;
+	wdt:P910 wd:Q105714049 ;
+	rdfs:label "chirima"@fr ;
+	skos:prefLabel "chirima"@fr ;
+	schema:name "chirima"@fr ;
+	rdfs:label "Makhuwa-Shirima"@en ;
+	skos:prefLabel "Makhuwa-Shirima"@en ;
+	schema:name "Makhuwa-Shirima"@en ;
+	rdfs:label "Kimakhuwa-Shirima"@sw ;
+	skos:prefLabel "Kimakhuwa-Shirima"@sw ;
+	schema:name "Kimakhuwa-Shirima"@sw ;
+	rdfs:label "Lenga Makhuwa-Shirima"@pms ;
+	skos:prefLabel "Lenga Makhuwa-Shirima"@pms ;
+	schema:name "Lenga Makhuwa-Shirima"@pms ;
+	rdfs:label "Makhuwa-Shirima"@en-gb ;
+	skos:prefLabel "Makhuwa-Shirima"@en-gb ;
+	schema:name "Makhuwa-Shirima"@en-gb ;
+	schema:description "שפה"@he,
+		"langue bantoue"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Makhuwa-Shirima language"@en .

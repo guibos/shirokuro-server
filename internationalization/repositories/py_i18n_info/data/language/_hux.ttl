@@ -1,0 +1,166 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56333 a schema:Dataset ;
+	schema:about wd:Q56333 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1597084721"^^xsd:integer ;
+	schema:dateModified "2022-03-18T00:25:37Z"^^xsd:dateTime .
+
+wd:Q56333 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Witoto_nipode> a schema:Article ;
+	schema:about wd:Q56333 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Witoto nipode"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_huitoto,_n%C3%BCpode> a schema:Article ;
+	schema:about wd:Q56333 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga huitoto, nüpode"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/N%C3%BCpode_Huitoto_language> a schema:Article ;
+	schema:about wd:Q56333 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nüpode Huitoto language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Nipodeg> a schema:Article ;
+	schema:about wd:Q56333 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Nipodeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/N%C3%B5pode_keel> a schema:Article ;
+	schema:about wd:Q56333 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Nõpode keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9D%D1%8B%D0%BF%D0%BE%D0%B4%D0%B5> a schema:Article ;
+	schema:about wd:Q56333 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Ныподе"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/N%C3%BCpode_huitoto> a schema:Article ;
+	schema:about wd:Q56333 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Nüpode huitoto"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56333 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "hux" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hux> ;
+	wdt:P305 "hux" ;
+	wdt:P279 wd:Q43079317 ;
+	wdt:P1394 "nupo1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nupo1240> ;
+	wdt:P1466 "hmu" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_hmu> ;
+	wdt:P2581 "00218055n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s00218055n> ;
+	wdt:P910 wd:Q33669899 ;
+	wdt:P2192 "2982" ;
+	wdt:P1627 "hux" ;
+	wdt:P3823 wd:Q29051555 ;
+	wdt:P17 wd:Q419 ;
+	wdt:P2341 wd:Q200938 ;
+	wdt:P1245 "722043" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HUX> ;
+	wdt:P646 "/m/02hxbtt" ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/N%C3%BCpodehuitotoper%C3%BA.jpg> ;
+	wdt:P1098 "+100"^^xsd:decimal ;
+	rdfs:label "Lenga huitoto"@pms ;
+	skos:prefLabel "Lenga huitoto"@pms ;
+	schema:name "Lenga huitoto"@pms ;
+	rdfs:label "nipodeg"@br ;
+	skos:prefLabel "nipodeg"@br ;
+	schema:name "nipodeg"@br ;
+	rdfs:label "witoto nipode"@fr ;
+	skos:prefLabel "witoto nipode"@fr ;
+	schema:name "witoto nipode"@fr ;
+	rdfs:label "Nüpode Huitoto"@en ;
+	skos:prefLabel "Nüpode Huitoto"@en ;
+	schema:name "Nüpode Huitoto"@en ;
+	rdfs:label "nipode"@es ;
+	skos:prefLabel "nipode"@es ;
+	schema:name "nipode"@es ;
+	rdfs:label "Нюподе-уитотский язык"@ru ;
+	skos:prefLabel "Нюподе-уитотский язык"@ru ;
+	schema:name "Нюподе-уитотский язык"@ru ;
+	rdfs:label "Nüpode Huitoto"@en-gb ;
+	skos:prefLabel "Nüpode Huitoto"@en-gb ;
+	schema:name "Nüpode Huitoto"@en-gb ;
+	rdfs:label "nõpode keel"@et ;
+	skos:prefLabel "nõpode keel"@et ;
+	schema:name "nõpode keel"@et ;
+	rdfs:label "Wikang Nüpode Huitoto"@tl ;
+	skos:prefLabel "Wikang Nüpode Huitoto"@tl ;
+	schema:name "Wikang Nüpode Huitoto"@tl ;
+	rdfs:label "Nüpode huitoto"@ca ;
+	skos:prefLabel "Nüpode huitoto"@ca ;
+	schema:name "Nüpode huitoto"@ca ;
+	schema:description "lengua indígena del Perú"@es,
+		"Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue witoto"@fr,
+		"yezh"@br,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "nüpode"@es,
+		"nüpode huitoto"@es,
+		"witoto nipode"@es,
+		"huitoto nipode"@es,
+		"Nüpode Huitoto language"@en .
+
+wd:Q61096102 owl:sameAs wd:Q56333 .

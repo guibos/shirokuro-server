@@ -1,0 +1,137 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7637021 a schema:Dataset ;
+	schema:about wd:Q7637021 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960453296"^^xsd:integer ;
+	schema:dateModified "2023-08-24T21:02:38Z"^^xsd:dateTime .
+
+wd:Q7637021 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Sumau_language> a schema:Article ;
+	schema:about wd:Q7637021 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sumau language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Sumau> a schema:Article ;
+	schema:about wd:Q7637021 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Sumau"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E8%98%87%E8%8C%82%E6%96%87> a schema:Article ;
+	schema:about wd:Q7637021 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "蘇茂文"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisumau> a schema:Article ;
+	schema:about wd:Q7637021 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisumau"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Sumau> a schema:Article ;
+	schema:about wd:Q7637021 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Sumau"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7637021 wdt:P361 wd:Q34018 ;
+	wdt:P220 "six" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/six> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q236425 ;
+	wdt:P1394 "suma1270" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/suma1270> ;
+	wdt:P2581 "02618050n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s02618050n> ;
+	wdt:P305 "six" ;
+	wdt:P1627 "six" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q326254 ;
+	wdt:P910 wd:Q33659053 ;
+	rdfs:label "Sumau"@en ;
+	skos:prefLabel "Sumau"@en ;
+	schema:name "Sumau"@en ;
+	rdfs:label "Lenga Sumau"@pms ;
+	skos:prefLabel "Lenga Sumau"@pms ;
+	schema:name "Lenga Sumau"@pms ;
+	rdfs:label "蘇茂文"@yue ;
+	skos:prefLabel "蘇茂文"@yue ;
+	schema:name "蘇茂文"@yue ;
+	rdfs:label "Kisumau"@sw ;
+	skos:prefLabel "Kisumau"@sw ;
+	schema:name "Kisumau"@sw ;
+	rdfs:label "ガリア語"@ja ;
+	skos:prefLabel "ガリア語"@ja ;
+	schema:name "ガリア語"@ja ;
+	rdfs:label "Sumau"@ilo ;
+	skos:prefLabel "Sumau"@ilo ;
+	schema:name "Sumau"@ilo ;
+	rdfs:label "Sumau"@en-gb ;
+	skos:prefLabel "Sumau"@en-gb ;
+	schema:name "Sumau"@en-gb ;
+	rdfs:label "Język sumau"@pl ;
+	skos:prefLabel "Język sumau"@pl ;
+	schema:name "Język sumau"@pl ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"パプアニューギニアの言語"@ja ;
+	skos:altLabel "Sumau language"@en .
+
+wd:Q11732668 owl:sameAs wd:Q7637021 .
+
+wd:Q12953159 owl:sameAs wd:Q7637021 .

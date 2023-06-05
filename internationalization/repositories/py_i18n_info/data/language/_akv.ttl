@@ -1,0 +1,382 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56423 a schema:Dataset ;
+	schema:about wd:Q56423 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1902190182"^^xsd:integer ;
+	schema:dateModified "2023-05-24T20:41:19Z"^^xsd:dateTime .
+
+wd:Q56423 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Akhvakh> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Akhvakh"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://xmf.wikipedia.org/wiki/%E1%83%90%E1%83%AE%E1%83%95%E1%83%90%E1%83%AE%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%9C%E1%83%98%E1%83%9C%E1%83%90> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "xmf" ;
+	schema:isPartOf <https://xmf.wikipedia.org/> ;
+	schema:name "ახვახური ნინა"@xmf .
+
+<https://xmf.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%90%E1%83%AE%E1%83%95%E1%83%90%E1%83%AE%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%94%E1%83%9C%E1%83%90> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "ახვახური ენა"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%90%D1%85%D0%B2%D0%B0%D1%85%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Ахвахский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_achwaski> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język achwaski"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%90%D1%85%D0%B2%D0%B0%D1%85%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Ахвахська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Akhvakh_language> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Akhvakh language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Ahvahski_jezik> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Ahvahski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_akhvakh> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua akhvakh"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Akhvakh> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Akhvakh"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szl.wikipedia.org/wiki/Achwask%C5%8F_g%C5%8Fdka> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "szl" ;
+	schema:isPartOf <https://szl.wikipedia.org/> ;
+	schema:name "Achwaskŏ gŏdka"@szl .
+
+<https://szl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D8%A2%D8%AE%D9%88%D8%A7%D8%AE_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "آخواخ دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%90%D1%85%D0%B2%D0%B0%D1%85%D1%81%D0%BA%D0%B8_%D1%98%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Ахвахски језик"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%90%D1%85%D0%B2%D0%B0%D1%88%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Ахвашки јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiakhvakh> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiakhvakh"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%A7%D8%AE%D9%88%D8%AE%DB%8C> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان اخوخی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Ac%27hvac%27heg> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Ac'hvac'heg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_akhvakh> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua akhvakh"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D4%B1%D5%AD%D5%BE%D5%A1%D5%AD%D5%A5%D6%80%D5%A5%D5%B6> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Ախվախերեն"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Akhvakh> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Akhvakh"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_akhvakh> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua akhvakh"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%90%D1%85%D0%B2%D0%B0%D1%85_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Ахвах теле"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Axvax_dili> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Axvax dili"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Ahvahin_kieli> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Ahvahin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Akhvakh> a schema:Article ;
+	schema:about wd:Q56423 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Akhvakh"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56423 wdt:P220 "akv" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/akv> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568,
+		wd:Q4085712 ;
+	wdt:P646 "/m/04dzftm" ;
+	wdt:P305 "akv" ;
+	a wdno:P282 ;
+	wdt:P1627 "akv" ;
+	wdt:P1098 "+210"^^xsd:decimal ;
+	wdt:P279 wd:Q492152 ;
+	wdt:P1394 "akhv1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/akhv1239> ;
+	wdt:P2355 "1039" ;
+	wdt:P4132 wd:Q7888721 ;
+	wdt:P1466 "axv" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_axv> ;
+	wdt:P2924 "4324702" ;
+	wdt:P2192 "941" ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q159 ;
+	wdt:P2341 wd:Q5118 ;
+	wdt:P1014 "300387797" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300387797> ;
+	wdt:P1245 "565616" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/AKV> ;
+	wdt:P910 wd:Q31159737 ;
+	wdt:P11514 "akhvakhskii-iazyk-ca7e27" ;
+	rdfs:label "Língua akhvakh"@pt ;
+	skos:prefLabel "Língua akhvakh"@pt ;
+	schema:name "Língua akhvakh"@pt ;
+	rdfs:label "Lenga Akhvakh"@pms ;
+	skos:prefLabel "Lenga Akhvakh"@pms ;
+	schema:name "Lenga Akhvakh"@pms ;
+	rdfs:label "Język achwaski"@pl ;
+	skos:prefLabel "Język achwaski"@pl ;
+	schema:name "Język achwaski"@pl ;
+	rdfs:label "akhvakh"@fr ;
+	skos:prefLabel "akhvakh"@fr ;
+	schema:name "akhvakh"@fr ;
+	rdfs:label "Ахвахский язык"@ru ;
+	skos:prefLabel "Ахвахский язык"@ru ;
+	schema:name "Ахвахский язык"@ru ;
+	rdfs:label "Akhvakh"@en ;
+	skos:prefLabel "Akhvakh"@en ;
+	schema:name "Akhvakh"@en ;
+	rdfs:label "Ахвашки јазик"@mk ;
+	skos:prefLabel "Ахвашки јазик"@mk ;
+	schema:name "Ахвашки јазик"@mk ;
+	rdfs:label "Ahvahin kieli"@fi ;
+	skos:prefLabel "Ahvahin kieli"@fi ;
+	schema:name "Ahvahin kieli"@fi ;
+	rdfs:label "ахвахська мова"@uk ;
+	skos:prefLabel "ахвахська мова"@uk ;
+	schema:name "ахвахська мова"@uk ;
+	rdfs:label "lingua akhvakh"@it ;
+	skos:prefLabel "lingua akhvakh"@it ;
+	schema:name "lingua akhvakh"@it ;
+	rdfs:label "Lingua akhvakh"@gl ;
+	skos:prefLabel "Lingua akhvakh"@gl ;
+	schema:name "Lingua akhvakh"@gl ;
+	rdfs:label "ac'hvac'heg"@br ;
+	skos:prefLabel "ac'hvac'heg"@br ;
+	schema:name "ac'hvac'heg"@br ;
+	rdfs:label "ახვახური ენა"@ka ;
+	skos:prefLabel "ახვახური ენა"@ka ;
+	schema:name "ახვახური ენა"@ka ;
+	rdfs:label "Ahvahski jezik"@hr ;
+	skos:prefLabel "Ahvahski jezik"@hr ;
+	schema:name "Ahvahski jezik"@hr ;
+	rdfs:label "Ахвах теле"@tt ;
+	skos:prefLabel "Ахвах теле"@tt ;
+	schema:name "Ахвах теле"@tt ;
+	rdfs:label "ajvaj"@es ;
+	skos:prefLabel "ajvaj"@es ;
+	schema:name "ajvaj"@es ;
+	rdfs:label "Axvax dili"@az ;
+	skos:prefLabel "Axvax dili"@az ;
+	schema:name "Axvax dili"@az ;
+	rdfs:label "زبان اخوخی"@fa ;
+	skos:prefLabel "زبان اخوخی"@fa ;
+	schema:name "زبان اخوخی"@fa ;
+	rdfs:label "ախվախերեն"@hy ;
+	skos:prefLabel "ախվախերեն"@hy ;
+	schema:name "ախվախերեն"@hy ;
+	rdfs:label "Akhvakh"@hif ;
+	skos:prefLabel "Akhvakh"@hif ;
+	schema:name "Akhvakh"@hif ;
+	rdfs:label "Achwaskŏ gŏdka"@szl ;
+	skos:prefLabel "Achwaskŏ gŏdka"@szl ;
+	schema:name "Achwaskŏ gŏdka"@szl ;
+	rdfs:label "アフバフ語"@ja ;
+	skos:prefLabel "アフバフ語"@ja ;
+	schema:name "アフバフ語"@ja ;
+	rdfs:label "ახვახური ნინა"@xmf ;
+	skos:prefLabel "ახვახური ნინა"@xmf ;
+	schema:name "ახვახური ნინა"@xmf ;
+	rdfs:label "Kiakhvakh"@sw ;
+	skos:prefLabel "Kiakhvakh"@sw ;
+	schema:name "Kiakhvakh"@sw ;
+	rdfs:label "Akhvakh"@en-gb ;
+	skos:prefLabel "Akhvakh"@en-gb ;
+	schema:name "Akhvakh"@en-gb ;
+	rdfs:label "ahvahhi keel"@et ;
+	skos:prefLabel "ahvahhi keel"@et ;
+	schema:name "ahvahhi keel"@et ;
+	rdfs:label "آخواخ دیلی"@azb ;
+	skos:prefLabel "آخواخ دیلی"@azb ;
+	schema:name "آخواخ دیلی"@azb ;
+	rdfs:label "Ахвахски језик"@sr ;
+	skos:prefLabel "Ахвахски језик"@sr ;
+	schema:name "Ахвахски језик"@sr ;
+	rdfs:label "阿克瓦克語"@zh ;
+	skos:prefLabel "阿克瓦克語"@zh ;
+	schema:name "阿克瓦克語"@zh ;
+	rdfs:label "Akhvakh"@oc ;
+	skos:prefLabel "Akhvakh"@oc ;
+	schema:name "Akhvakh"@oc ;
+	rdfs:label "akhvakh"@vec ;
+	skos:prefLabel "akhvakh"@vec ;
+	schema:name "akhvakh"@vec ;
+	rdfs:label "Achvach"@nl ;
+	skos:prefLabel "Achvach"@nl ;
+	schema:name "Achvach"@nl ;
+	rdfs:label "akhvakh"@ca ;
+	skos:prefLabel "akhvakh"@ca ;
+	schema:name "akhvakh"@ca ;
+	schema:description "lengua caucásica"@es,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"langue nakho-daghestanienne"@fr,
+		"yezh"@br,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Akhvakh"@gl,
+		"Akhvakh language"@en .
+
+wd:Q13153077 owl:sameAs wd:Q56423 .

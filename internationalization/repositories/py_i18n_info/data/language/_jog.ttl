@@ -1,0 +1,106 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q19572305 a schema:Dataset ;
+	schema:about wd:Q19572305 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1661708394"^^xsd:integer ;
+	schema:dateModified "2022-06-17T02:53:37Z"^^xsd:dateTime .
+
+wd:Q19572305 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Jogi_language> a schema:Article ;
+	schema:about wd:Q19572305 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Jogi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D8%AC%D9%88%DA%AF%DB%8C_%D8%B2%D8%A8%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q19572305 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "جوگی زبان"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sd.wikipedia.org/wiki/%D8%AC%D9%88%DA%B3%D9%8A_%D9%BB%D9%88%D9%84%D9%8A> a schema:Article ;
+	schema:about wd:Q19572305 ;
+	schema:inLanguage "sd" ;
+	schema:isPartOf <https://sd.wikipedia.org/> ;
+	schema:name "جوڳي ٻولي"@sd .
+
+<https://sd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Jogi_language> a schema:Article ;
+	schema:about wd:Q19572305 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Jogi language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q19572305 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "jog" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/jog> ;
+	wdt:P279 wd:Q33577 ;
+	wdt:P305 "jog" ;
+	wdt:P1627 "jog" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q843 ;
+	wdt:P2341 wd:Q37211 ;
+	wdt:P646 "/m/012w4ckl" ;
+	rdfs:label "Jogi"@en ;
+	skos:prefLabel "Jogi"@en ;
+	schema:name "Jogi"@en ;
+	rdfs:label "jogi"@fr ;
+	skos:prefLabel "jogi"@fr ;
+	schema:name "jogi"@fr ;
+	rdfs:label "جوگی زبان"@ur ;
+	skos:prefLabel "جوگی زبان"@ur ;
+	schema:name "جوگی زبان"@ur ;
+	rdfs:label "جوڳي ٻولي"@sd ;
+	skos:prefLabel "جوڳي ٻولي"@sd ;
+	schema:name "جوڳي ٻولي"@sd ;
+	schema:description "langue indo-aryenne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"iaith"@cy,
+		"lingua"@la,
+		"هند يورپي ـ هند آريائي ٻولي"@sd ;
+	skos:altLabel "Jogi language"@en .

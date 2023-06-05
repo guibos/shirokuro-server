@@ -1,0 +1,300 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56567 a schema:Dataset ;
+	schema:about wd:Q56567 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1922963871"^^xsd:integer ;
+	schema:dateModified "2023-06-24T15:08:00Z"^^xsd:dateTime .
+
+wd:Q56567 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Chamalal> a schema:Article ;
+	schema:about wd:Q56567 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Chamalal"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://xmf.wikipedia.org/wiki/%E1%83%AD%E1%83%90%E1%83%9B%E1%83%90%E1%83%9A%E1%83%90%E1%83%9A%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%9C%E1%83%98%E1%83%9C%E1%83%90> a schema:Article ;
+	schema:about wd:Q56567 ;
+	schema:inLanguage "xmf" ;
+	schema:isPartOf <https://xmf.wikipedia.org/> ;
+	schema:name "ჭამალალური ნინა"@xmf .
+
+<https://xmf.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%AD%E1%83%90%E1%83%9B%E1%83%90%E1%83%9A%E1%83%90%E1%83%9A%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%94%E1%83%9C%E1%83%90> a schema:Article ;
+	schema:about wd:Q56567 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "ჭამალალური ენა"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D0%BC%D0%B0%D0%BB%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q56567 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Чамалинский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_czamalalski> a schema:Article ;
+	schema:about wd:Q56567 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język czamalalski"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%A7%D0%B0%D0%BC%D0%B0%D0%BB%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q56567 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Чамалинська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Chamalal_language> a schema:Article ;
+	schema:about wd:Q56567 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Chamalal language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_chamalal> a schema:Article ;
+	schema:about wd:Q56567 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua chamalal"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Chamalal> a schema:Article ;
+	schema:about wd:Q56567 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Chamalal"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szl.wikipedia.org/wiki/Czamalalsk%C5%8F_g%C5%8Fdka> a schema:Article ;
+	schema:about wd:Q56567 ;
+	schema:inLanguage "szl" ;
+	schema:isPartOf <https://szl.wikipedia.org/> ;
+	schema:name "Czamalalskŏ gŏdka"@szl .
+
+<https://szl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%A7%D0%B0%D0%BC%D0%B0%D0%BB%D0%B0%D0%BB%D1%81%D0%BA%D0%B8_%D1%98%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q56567 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Чамалалски језик"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%A7%D0%B0%D0%BC%D0%B0%D0%BB%D0%B0%D0%BB%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q56567 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Чамалалски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kichamalal> a schema:Article ;
+	schema:about wd:Q56567 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kichamalal"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Tchamalaleg> a schema:Article ;
+	schema:about wd:Q56567 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Tchamalaleg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/T%C5%A1amalalin_kieli> a schema:Article ;
+	schema:about wd:Q56567 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Tšamalalin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Chamalal> a schema:Article ;
+	schema:about wd:Q56567 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Chamalal"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%A7%D0%B0%D0%BC%D0%B0%D0%BB%D0%B8%D0%BD_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q56567 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Чамалин теле"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Chamalal_language> a schema:Article ;
+	schema:about wd:Q56567 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Chamalal language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56567 wdt:P220 "cji" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cji> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568,
+		wd:Q4085712 ;
+	wdt:P646 "/m/09ghn_7" ;
+	wdt:P305 "cji" ;
+	a wdno:P282 ;
+	wdt:P1627 "cji" ;
+	wdt:P1098 "+500"^^xsd:decimal ;
+	wdt:P279 wd:Q4055404 ;
+	wdt:P1394 "cham1309" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/cham1309> ;
+	wdt:P2355 "1046" ;
+	wdt:P4132 wd:Q7888721 ;
+	wdt:P17 wd:Q159 ;
+	wdt:P1466 "chm" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_chm> ;
+	wdt:P1014 "300388085" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388085> ;
+	wdt:P2924 "4679837" ;
+	wdt:P910 wd:Q32828473 ;
+	wdt:P2192 "1234" ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2341 wd:Q5187,
+		wd:Q5118 ;
+	wdt:P1245 "565520" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CJI> ;
+	wdt:P131 wd:Q2556844 ;
+	wdt:P1368 "000306756" ;
+	wdt:P11514 "chamalinskii-iazyk-2c684c" ;
+	rdfs:label "tchamalaleg"@br ;
+	skos:prefLabel "tchamalaleg"@br ;
+	schema:name "tchamalaleg"@br ;
+	rdfs:label "Język czamalalski"@pl ;
+	skos:prefLabel "Język czamalalski"@pl ;
+	schema:name "Język czamalalski"@pl ;
+	rdfs:label "chamalal"@fr ;
+	skos:prefLabel "chamalal"@fr ;
+	schema:name "chamalal"@fr ;
+	rdfs:label "чамалинский язык"@ru ;
+	skos:prefLabel "чамалинский язык"@ru ;
+	schema:name "чамалинский язык"@ru ;
+	rdfs:label "ჭამალალური ენა"@ka ;
+	skos:prefLabel "ჭამალალური ენა"@ka ;
+	schema:name "ჭამალალური ენა"@ka ;
+	rdfs:label "Chamalal"@en ;
+	skos:prefLabel "Chamalal"@en ;
+	schema:name "Chamalal"@en ;
+	rdfs:label "Чамалалски јазик"@mk ;
+	skos:prefLabel "Чамалалски јазик"@mk ;
+	schema:name "Чамалалски јазик"@mk ;
+	rdfs:label "Tšamalalin kieli"@fi ;
+	skos:prefLabel "Tšamalalin kieli"@fi ;
+	schema:name "Tšamalalin kieli"@fi ;
+	rdfs:label "чамалинська мова"@uk ;
+	skos:prefLabel "чамалинська мова"@uk ;
+	schema:name "чамалинська мова"@uk ;
+	rdfs:label "Lenga Chamalal"@pms ;
+	skos:prefLabel "Lenga Chamalal"@pms ;
+	schema:name "Lenga Chamalal"@pms ;
+	rdfs:label "Língua chamalal"@pt ;
+	skos:prefLabel "Língua chamalal"@pt ;
+	schema:name "Língua chamalal"@pt ;
+	rdfs:label "Czamalalskŏ gŏdka"@szl ;
+	skos:prefLabel "Czamalalskŏ gŏdka"@szl ;
+	schema:name "Czamalalskŏ gŏdka"@szl ;
+	rdfs:label "チャマラル語"@ja ;
+	skos:prefLabel "チャマラル語"@ja ;
+	schema:name "チャマラル語"@ja ;
+	rdfs:label "ჭამალალური ნინა"@xmf ;
+	skos:prefLabel "ჭამალალური ნინა"@xmf ;
+	schema:name "ჭამალალური ნინა"@xmf ;
+	rdfs:label "Kichamalal"@sw ;
+	skos:prefLabel "Kichamalal"@sw ;
+	schema:name "Kichamalal"@sw ;
+	rdfs:label "Chamalal"@en-gb ;
+	skos:prefLabel "Chamalal"@en-gb ;
+	schema:name "Chamalal"@en-gb ;
+	rdfs:label "tšamali keel"@et ;
+	skos:prefLabel "tšamali keel"@et ;
+	schema:name "tšamali keel"@et ;
+	rdfs:label "Чамалалски језик"@sr ;
+	skos:prefLabel "Чамалалски језик"@sr ;
+	schema:name "Чамалалски језик"@sr ;
+	rdfs:label "Chamalal"@oc ;
+	skos:prefLabel "Chamalal"@oc ;
+	schema:name "Chamalal"@oc ;
+	rdfs:label "Tschamalinisch"@de ;
+	skos:prefLabel "Tschamalinisch"@de ;
+	schema:name "Tschamalinisch"@de ;
+	rdfs:label "čamalu valoda"@lv ;
+	skos:prefLabel "čamalu valoda"@lv ;
+	schema:name "čamalu valoda"@lv ;
+	rdfs:label "Чамалин теле"@tt ;
+	skos:prefLabel "Чамалин теле"@tt ;
+	schema:name "Чамалин теле"@tt ;
+	rdfs:label "chamalal"@ca ;
+	skos:prefLabel "chamalal"@ca ;
+	schema:name "chamalal"@ca ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue nakho-daghestanienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"небольшой кавказский язык"@ru ;
+	skos:altLabel "Tshamalalin kieli"@fi,
+		"Tšamalin kieli"@fi,
+		"Chamalal language"@en,
+		"Tschamalisch"@de .

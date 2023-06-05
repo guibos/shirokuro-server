@@ -1,0 +1,156 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2194290 a schema:Dataset ;
+	schema:about wd:Q2194290 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1779443596"^^xsd:integer ;
+	schema:dateModified "2022-11-27T03:14:56Z"^^xsd:dateTime .
+
+wd:Q2194290 a wikibase:Item .
+
+<https://nl.wikipedia.org/wiki/Nahuatl_van_de_Centrale_Huasteca> a schema:Article ;
+	schema:about wd:Q2194290 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Nahuatl van de Centrale Huasteca"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_nahuatl,_huasteca_sentral> a schema:Article ;
+	schema:about wd:Q2194290 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga nahuatl, huasteca sentral"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Central_Huasteca_Nahuatl> a schema:Article ;
+	schema:about wd:Q2194290 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Central Huasteca Nahuatl"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_nahuatl_huaxteca_centrale> a schema:Article ;
+	schema:about wd:Q2194290 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua nahuatl huaxteca centrale"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wiktionary.org/wiki/Wikcionario:Referencia/NCH> a schema:Article ;
+	schema:about wd:Q2194290 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wiktionary.org/> ;
+	schema:name "Wikcionario:Referencia/NCH"@es .
+
+<https://es.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://es.wikipedia.org/wiki/Mexicano_de_la_Huasteca_hidalguense> a schema:Article ;
+	schema:about wd:Q2194290 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Mexicano de la Huasteca hidalguense"@es ;
+	wikibase:badge wd:Q70893996 .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikibooks.org/wiki/N%C3%A1huatl_cl%C3%A1sico/N%C3%A1huatl_de_la_Huasteca_hidalguense> a schema:Article ;
+	schema:about wd:Q2194290 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikibooks.org/> ;
+	schema:name "Náhuatl clásico/Náhuatl de la Huasteca hidalguense"@es .
+
+<https://es.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+wd:Q2194290 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "nch" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nch> ;
+	wdt:P1394 "cent2134" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/cent2134> ;
+	wdt:P279 wd:Q3832950 ;
+	wdt:P910 wd:Q30738853 ;
+	wdt:P305 "nch" ;
+	wdt:P1627 "nch" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q96 ;
+	wdt:P2341 wd:Q80903,
+		wd:Q60130 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NCH> ;
+	wdt:P646 "/m/05sx70m" ;
+	rdfs:label "Nahuatl van de Centrale Huasteca"@nl ;
+	skos:prefLabel "Nahuatl van de Centrale Huasteca"@nl ;
+	schema:name "Nahuatl van de Centrale Huasteca"@nl ;
+	rdfs:label "Central Huasteca Nahuatl"@hif ;
+	skos:prefLabel "Central Huasteca Nahuatl"@hif ;
+	schema:name "Central Huasteca Nahuatl"@hif ;
+	rdfs:label "Central Huasteca Nahuatl"@en ;
+	skos:prefLabel "Central Huasteca Nahuatl"@en ;
+	schema:name "Central Huasteca Nahuatl"@en ;
+	rdfs:label "lingua nahuatl huaxteca centrale"@it ;
+	skos:prefLabel "lingua nahuatl huaxteca centrale"@it ;
+	schema:name "lingua nahuatl huaxteca centrale"@it ;
+	rdfs:label "Central Huasteca Nahuatl"@en-gb ;
+	skos:prefLabel "Central Huasteca Nahuatl"@en-gb ;
+	schema:name "Central Huasteca Nahuatl"@en-gb ;
+	rdfs:label "nahuatl du Huasteca central"@fr ;
+	skos:prefLabel "nahuatl du Huasteca central"@fr ;
+	schema:name "nahuatl du Huasteca central"@fr ;
+	rdfs:label "Lenga nahuatl, huasteca sentral"@pms ;
+	skos:prefLabel "Lenga nahuatl, huasteca sentral"@pms ;
+	schema:name "Lenga nahuatl, huasteca sentral"@pms ;
+	rdfs:label "Mexicano de la Huasteca hidalguense"@es ;
+	skos:prefLabel "Mexicano de la Huasteca hidalguense"@es ;
+	schema:name "Mexicano de la Huasteca hidalguense"@es ;
+	rdfs:label "центрально-уастеканский науатль"@ru ;
+	skos:prefLabel "центрально-уастеканский науатль"@ru ;
+	schema:name "центрально-уастеканский науатль"@ru ;
+	rdfs:label "nahuatl huaxteca sentrałe"@vec ;
+	skos:prefLabel "nahuatl huaxteca sentrałe"@vec ;
+	schema:name "nahuatl huaxteca sentrałe"@vec ;
+	schema:description "langue aztèque"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Centraal-Huasteca-Nahuatl"@nl,
+		"nahuatl central huastèque"@fr .
+
+wd:Q25645502 owl:sameAs wd:Q2194290 .

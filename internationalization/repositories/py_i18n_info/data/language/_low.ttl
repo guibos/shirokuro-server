@@ -1,0 +1,95 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953674 a schema:Dataset ;
+	schema:about wd:Q12953674 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1163512682"^^xsd:integer ;
+	schema:dateModified "2020-04-22T10:10:56Z"^^xsd:dateTime .
+
+wd:Q12953674 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_lobu,_tampias> a schema:Article ;
+	schema:about wd:Q12953674 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga lobu, tampias"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilobu_cha_Tampias> a schema:Article ;
+	schema:about wd:Q12953674 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilobu cha Tampias"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953674 wdt:P220 "low" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/low> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "tamp1254" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tamp1254> ;
+	wdt:P279 wd:Q3217508 ;
+	wdt:P305 "low" ;
+	wdt:P1627 "low" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q833 ;
+	wdt:P2341 wd:Q179029 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LOW> ;
+	rdfs:label "Lenga lobu, tampias"@pms ;
+	skos:prefLabel "Lenga lobu, tampias"@pms ;
+	schema:name "Lenga lobu, tampias"@pms ;
+	rdfs:label "Tampias Lobu"@en ;
+	skos:prefLabel "Tampias Lobu"@en ;
+	schema:name "Tampias Lobu"@en ;
+	rdfs:label "Kilobu ya Tampias"@sw ;
+	skos:prefLabel "Kilobu ya Tampias"@sw ;
+	schema:name "Kilobu ya Tampias"@sw ;
+	rdfs:label "Tampias Lobu"@en-gb ;
+	skos:prefLabel "Tampias Lobu"@en-gb ;
+	schema:name "Tampias Lobu"@en-gb ;
+	rdfs:label "lobu tampias"@fr ;
+	skos:prefLabel "lobu tampias"@fr ;
+	schema:name "lobu tampias"@fr ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue bornéo du Nord"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Tampias Lobu language"@en .

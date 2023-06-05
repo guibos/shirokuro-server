@@ -1,0 +1,364 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7513600 a schema:Dataset ;
+	schema:about wd:Q7513600 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960504635"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:15:15Z"^^xsd:dateTime .
+
+wd:Q7513600 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Sikaritai_language> a schema:Article ;
+	schema:about wd:Q7513600 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sikaritai language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Sikaritaieg> a schema:Article ;
+	schema:about wd:Q7513600 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Sikaritaieg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_sikaritai> a schema:Article ;
+	schema:about wd:Q7513600 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga sikaritai"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisikaritai> a schema:Article ;
+	schema:about wd:Q7513600 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisikaritai"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Sikaritai> a schema:Article ;
+	schema:about wd:Q7513600 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Sikaritai"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_sikaritai> a schema:Article ;
+	schema:about wd:Q7513600 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język sikaritai"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7513600 wdt:P220 "tty" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tty> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "sika1263" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sika1263> ;
+	wdt:P2590 "0810 5" ;
+	wdt:P1705 "bahasa Aikwakai"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P1466 "skr" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_skr> ;
+	wdt:P305 "tty" ;
+	wdt:P1627 "tty" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2341 wd:Q5095 ;
+	wdt:P646 "/m/02hwpcb" ;
+	wdt:P910 wd:Q33660385 ;
+	rdfs:label "Sikaritai"@en ;
+	skos:prefLabel "Sikaritai"@en ;
+	schema:name "Sikaritai"@en ;
+	rdfs:label "sikaritaieg"@br ;
+	skos:prefLabel "sikaritaieg"@br ;
+	schema:name "sikaritaieg"@br ;
+	rdfs:label "Lenga sikaritai"@pms ;
+	skos:prefLabel "Lenga sikaritai"@pms ;
+	schema:name "Lenga sikaritai"@pms ;
+	rdfs:label "Kisikaritai"@sw ;
+	skos:prefLabel "Kisikaritai"@sw ;
+	schema:name "Kisikaritai"@sw ;
+	rdfs:label "Sikaritai"@ilo ;
+	skos:prefLabel "Sikaritai"@ilo ;
+	schema:name "Sikaritai"@ilo ;
+	rdfs:label "Sikaritai"@en-gb ;
+	skos:prefLabel "Sikaritai"@en-gb ;
+	schema:name "Sikaritai"@en-gb ;
+	rdfs:label "Język tori aikwakai"@pl ;
+	skos:prefLabel "Język tori aikwakai"@pl ;
+	schema:name "Język tori aikwakai"@pl ;
+	rdfs:label "Aikwakai"@id ;
+	skos:prefLabel "Aikwakai"@id ;
+	schema:name "Aikwakai"@id ;
+	rdfs:label "Aikwakai"@ace ;
+	skos:prefLabel "Aikwakai"@ace ;
+	schema:name "Aikwakai"@ace ;
+	rdfs:label "Aikwakai"@af ;
+	skos:prefLabel "Aikwakai"@af ;
+	schema:name "Aikwakai"@af ;
+	rdfs:label "Aikwakai"@an ;
+	skos:prefLabel "Aikwakai"@an ;
+	schema:name "Aikwakai"@an ;
+	rdfs:label "Aikwakai"@ast ;
+	skos:prefLabel "Aikwakai"@ast ;
+	schema:name "Aikwakai"@ast ;
+	rdfs:label "Aikwakai"@bar ;
+	skos:prefLabel "Aikwakai"@bar ;
+	schema:name "Aikwakai"@bar ;
+	rdfs:label "aikwakai"@ca ;
+	skos:prefLabel "aikwakai"@ca ;
+	schema:name "aikwakai"@ca ;
+	rdfs:label "Aikwakai"@co ;
+	skos:prefLabel "Aikwakai"@co ;
+	schema:name "Aikwakai"@co ;
+	rdfs:label "Aikwakai"@cs ;
+	skos:prefLabel "Aikwakai"@cs ;
+	schema:name "Aikwakai"@cs ;
+	rdfs:label "Aikwakai"@cy ;
+	skos:prefLabel "Aikwakai"@cy ;
+	schema:name "Aikwakai"@cy ;
+	rdfs:label "Aikwakai"@da ;
+	skos:prefLabel "Aikwakai"@da ;
+	schema:name "Aikwakai"@da ;
+	rdfs:label "Aikwakai"@de ;
+	skos:prefLabel "Aikwakai"@de ;
+	schema:name "Aikwakai"@de ;
+	rdfs:label "Aikwakai"@de-at ;
+	skos:prefLabel "Aikwakai"@de-at ;
+	schema:name "Aikwakai"@de-at ;
+	rdfs:label "Aikwakai"@de-ch ;
+	skos:prefLabel "Aikwakai"@de-ch ;
+	schema:name "Aikwakai"@de-ch ;
+	rdfs:label "Aikwakai"@en-ca ;
+	skos:prefLabel "Aikwakai"@en-ca ;
+	schema:name "Aikwakai"@en-ca ;
+	rdfs:label "Aikwakai"@eo ;
+	skos:prefLabel "Aikwakai"@eo ;
+	schema:name "Aikwakai"@eo ;
+	rdfs:label "Aikwakai"@es ;
+	skos:prefLabel "Aikwakai"@es ;
+	schema:name "Aikwakai"@es ;
+	rdfs:label "Aikwakai"@et ;
+	skos:prefLabel "Aikwakai"@et ;
+	schema:name "Aikwakai"@et ;
+	rdfs:label "Aikwakai"@eu ;
+	skos:prefLabel "Aikwakai"@eu ;
+	schema:name "Aikwakai"@eu ;
+	rdfs:label "Aikwakai"@fi ;
+	skos:prefLabel "Aikwakai"@fi ;
+	schema:name "Aikwakai"@fi ;
+	rdfs:label "aikwakai"@fr ;
+	skos:prefLabel "aikwakai"@fr ;
+	schema:name "aikwakai"@fr ;
+	rdfs:label "Aikwakai"@frp ;
+	skos:prefLabel "Aikwakai"@frp ;
+	schema:name "Aikwakai"@frp ;
+	rdfs:label "Aikwakai"@fur ;
+	skos:prefLabel "Aikwakai"@fur ;
+	schema:name "Aikwakai"@fur ;
+	rdfs:label "Aikwakai"@ga ;
+	skos:prefLabel "Aikwakai"@ga ;
+	schema:name "Aikwakai"@ga ;
+	rdfs:label "Aikwakai"@gd ;
+	skos:prefLabel "Aikwakai"@gd ;
+	schema:name "Aikwakai"@gd ;
+	rdfs:label "Aikwakai"@gl ;
+	skos:prefLabel "Aikwakai"@gl ;
+	schema:name "Aikwakai"@gl ;
+	rdfs:label "Aikwakai"@gsw ;
+	skos:prefLabel "Aikwakai"@gsw ;
+	schema:name "Aikwakai"@gsw ;
+	rdfs:label "Aikwakai"@hr ;
+	skos:prefLabel "Aikwakai"@hr ;
+	schema:name "Aikwakai"@hr ;
+	rdfs:label "Aikwakai"@hu ;
+	skos:prefLabel "Aikwakai"@hu ;
+	schema:name "Aikwakai"@hu ;
+	rdfs:label "Aikwakai"@ia ;
+	skos:prefLabel "Aikwakai"@ia ;
+	schema:name "Aikwakai"@ia ;
+	rdfs:label "Aikwakai"@ie ;
+	skos:prefLabel "Aikwakai"@ie ;
+	schema:name "Aikwakai"@ie ;
+	rdfs:label "Aikwakai"@io ;
+	skos:prefLabel "Aikwakai"@io ;
+	schema:name "Aikwakai"@io ;
+	rdfs:label "Aikwakai"@is ;
+	skos:prefLabel "Aikwakai"@is ;
+	schema:name "Aikwakai"@is ;
+	rdfs:label "aikwakai"@it ;
+	skos:prefLabel "aikwakai"@it ;
+	schema:name "aikwakai"@it ;
+	rdfs:label "Aikwakai"@jv ;
+	skos:prefLabel "Aikwakai"@jv ;
+	schema:name "Aikwakai"@jv ;
+	rdfs:label "Aikwakai"@kg ;
+	skos:prefLabel "Aikwakai"@kg ;
+	schema:name "Aikwakai"@kg ;
+	rdfs:label "Aikwakai"@lb ;
+	skos:prefLabel "Aikwakai"@lb ;
+	schema:name "Aikwakai"@lb ;
+	rdfs:label "Aikwakai"@li ;
+	skos:prefLabel "Aikwakai"@li ;
+	schema:name "Aikwakai"@li ;
+	rdfs:label "Aikwakai"@lij ;
+	skos:prefLabel "Aikwakai"@lij ;
+	schema:name "Aikwakai"@lij ;
+	rdfs:label "Aikwakai"@mg ;
+	skos:prefLabel "Aikwakai"@mg ;
+	schema:name "Aikwakai"@mg ;
+	rdfs:label "Aikwakai"@min ;
+	skos:prefLabel "Aikwakai"@min ;
+	schema:name "Aikwakai"@min ;
+	rdfs:label "Aikwakai"@ms ;
+	skos:prefLabel "Aikwakai"@ms ;
+	schema:name "Aikwakai"@ms ;
+	rdfs:label "Aikwakai"@nap ;
+	skos:prefLabel "Aikwakai"@nap ;
+	schema:name "Aikwakai"@nap ;
+	rdfs:label "Aikwakai"@nb ;
+	skos:prefLabel "Aikwakai"@nb ;
+	schema:name "Aikwakai"@nb ;
+	rdfs:label "Aikwakai"@nds ;
+	skos:prefLabel "Aikwakai"@nds ;
+	schema:name "Aikwakai"@nds ;
+	rdfs:label "Aikwakai"@nds-nl ;
+	skos:prefLabel "Aikwakai"@nds-nl ;
+	schema:name "Aikwakai"@nds-nl ;
+	rdfs:label "Aikwakai"@nl ;
+	skos:prefLabel "Aikwakai"@nl ;
+	schema:name "Aikwakai"@nl ;
+	rdfs:label "Aikwakai"@nn ;
+	skos:prefLabel "Aikwakai"@nn ;
+	schema:name "Aikwakai"@nn ;
+	rdfs:label "Aikwakai"@nrm ;
+	skos:prefLabel "Aikwakai"@nrm ;
+	schema:name "Aikwakai"@nrm ;
+	rdfs:label "Aikwakai"@oc ;
+	skos:prefLabel "Aikwakai"@oc ;
+	schema:name "Aikwakai"@oc ;
+	rdfs:label "Aikwakai"@pcd ;
+	skos:prefLabel "Aikwakai"@pcd ;
+	schema:name "Aikwakai"@pcd ;
+	rdfs:label "Aikwakai"@pt ;
+	skos:prefLabel "Aikwakai"@pt ;
+	schema:name "Aikwakai"@pt ;
+	rdfs:label "Aikwakai"@pt-br ;
+	skos:prefLabel "Aikwakai"@pt-br ;
+	schema:name "Aikwakai"@pt-br ;
+	rdfs:label "Aikwakai"@rm ;
+	skos:prefLabel "Aikwakai"@rm ;
+	schema:name "Aikwakai"@rm ;
+	rdfs:label "Aikwakai"@ro ;
+	skos:prefLabel "Aikwakai"@ro ;
+	schema:name "Aikwakai"@ro ;
+	rdfs:label "Aikwakai"@sc ;
+	skos:prefLabel "Aikwakai"@sc ;
+	schema:name "Aikwakai"@sc ;
+	rdfs:label "Aikwakai"@scn ;
+	skos:prefLabel "Aikwakai"@scn ;
+	schema:name "Aikwakai"@scn ;
+	rdfs:label "Aikwakai"@sco ;
+	skos:prefLabel "Aikwakai"@sco ;
+	schema:name "Aikwakai"@sco ;
+	rdfs:label "Aikwakai"@sk ;
+	skos:prefLabel "Aikwakai"@sk ;
+	schema:name "Aikwakai"@sk ;
+	rdfs:label "Aikwakai"@sl ;
+	skos:prefLabel "Aikwakai"@sl ;
+	schema:name "Aikwakai"@sl ;
+	rdfs:label "Aikwakai"@sr-el ;
+	skos:prefLabel "Aikwakai"@sr-el ;
+	schema:name "Aikwakai"@sr-el ;
+	rdfs:label "Aikwakai"@su ;
+	skos:prefLabel "Aikwakai"@su ;
+	schema:name "Aikwakai"@su ;
+	rdfs:label "Aikwakai"@sv ;
+	skos:prefLabel "Aikwakai"@sv ;
+	schema:name "Aikwakai"@sv ;
+	rdfs:label "Aikwakai"@vec ;
+	skos:prefLabel "Aikwakai"@vec ;
+	schema:name "Aikwakai"@vec ;
+	rdfs:label "Aikwakai"@vi ;
+	skos:prefLabel "Aikwakai"@vi ;
+	schema:name "Aikwakai"@vi ;
+	rdfs:label "Aikwakai"@vls ;
+	skos:prefLabel "Aikwakai"@vls ;
+	schema:name "Aikwakai"@vls ;
+	rdfs:label "Aikwakai"@vo ;
+	skos:prefLabel "Aikwakai"@vo ;
+	schema:name "Aikwakai"@vo ;
+	rdfs:label "Aikwakai"@wa ;
+	skos:prefLabel "Aikwakai"@wa ;
+	schema:name "Aikwakai"@wa ;
+	rdfs:label "Aikwakai"@wo ;
+	skos:prefLabel "Aikwakai"@wo ;
+	schema:name "Aikwakai"@wo ;
+	rdfs:label "Aikwakai"@zu ;
+	skos:prefLabel "Aikwakai"@zu ;
+	schema:name "Aikwakai"@zu ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"pagsasao idiay Indonesia"@ilo,
+		"bahasa di provinsi Papua"@id,
+		"taal"@nl,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Sikaritai language"@en,
+		"Aikwakai"@en,
+		"Aikwakai"@br,
+		"Aikwakai"@en-gb,
+		"Aikwakai"@pms,
+		"Aikwakai"@sw,
+		"bahasa Aikwakai"@id,
+		"bahasa Araikurioko"@id,
+		"bahasa Sikari"@id,
+		"bahasa Sikaritai"@id,
+		"bahasa Tori"@id,
+		"bahasa Tori Aikwakai"@id .
+
+wd:Q11732698 owl:sameAs wd:Q7513600 .
+
+wd:Q25927370 owl:sameAs wd:Q7513600 .

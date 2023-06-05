@@ -1,0 +1,130 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7842493 a schema:Dataset ;
+	schema:about wd:Q7842493 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1965680397"^^xsd:integer ;
+	schema:dateModified "2023-08-31T22:23:10Z"^^xsd:dateTime .
+
+wd:Q7842493 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_cr%C3%A9ola_angl%C3%A8isa_%C3%ABd_Trinidad> a schema:Article ;
+	schema:about wd:Q7842493 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga créola anglèisa ëd Trinidad"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%83%D8%B1%D9%8A%D9%88%D9%84%D9%8A%D8%A9_%D8%AA%D8%B1%D9%8A%D9%86%D9%8A%D8%AF%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q7842493 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "كريولية ترينيدية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Trinidadian_Creole> a schema:Article ;
+	schema:about wd:Q7842493 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Trinidadian Creole"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_crioula_inglesa_de_Trindade> a schema:Article ;
+	schema:about wd:Q7842493 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua crioula inglesa de Trindade"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7842493 wdt:P220 "trf" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/trf> ;
+	wdt:P31 wd:Q33289,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "trin1276" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/trin1276> ;
+	wdt:P279 wd:Q31989 ;
+	wdt:P1889 wd:Q3006283 ;
+	wdt:P305 "trf" ;
+	wdt:P1627 "trf" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q754 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TRF> ;
+	wdt:P646 "/m/02hwq75" ;
+	wdt:P910 wd:Q105714966 ;
+	rdfs:label "Trinidadian Creole"@en ;
+	skos:prefLabel "Trinidadian Creole"@en ;
+	schema:name "Trinidadian Creole"@en ;
+	rdfs:label "Lenga trinidadian creole english"@pms ;
+	skos:prefLabel "Lenga trinidadian creole english"@pms ;
+	schema:name "Lenga trinidadian creole english"@pms ;
+	rdfs:label "Crioulo inglês de Trinidad"@pt ;
+	skos:prefLabel "Crioulo inglês de Trinidad"@pt ;
+	schema:name "Crioulo inglês de Trinidad"@pt ;
+	rdfs:label "كريولية ترينيدية"@ar ;
+	skos:prefLabel "كريولية ترينيدية"@ar ;
+	schema:name "كريولية ترينيدية"@ar ;
+	rdfs:label "特立尼達混合語"@zh-hant ;
+	skos:prefLabel "特立尼達混合語"@zh-hant ;
+	schema:name "特立尼達混合語"@zh-hant ;
+	rdfs:label "特立尼达混合语"@zh-cn ;
+	skos:prefLabel "特立尼达混合语"@zh-cn ;
+	schema:name "特立尼达混合语"@zh-cn ;
+	rdfs:label "créole trinidadien"@fr ;
+	skos:prefLabel "créole trinidadien"@fr ;
+	schema:name "créole trinidadien"@fr ;
+	rdfs:label "trinidada angladevena kreola lingvo"@eo ;
+	skos:prefLabel "trinidada angladevena kreola lingvo"@eo ;
+	schema:name "trinidada angladevena kreola lingvo"@eo ;
+	rdfs:label "特立尼达混合语"@zh-hans ;
+	skos:prefLabel "特立尼达混合语"@zh-hans ;
+	schema:name "特立尼达混合语"@zh-hans ;
+	rdfs:label "特立尼达混合语"@zh ;
+	skos:prefLabel "特立尼达混合语"@zh ;
+	schema:name "特立尼达混合语"@zh ;
+	rdfs:label "trinidadska kreolščina"@sl ;
+	skos:prefLabel "trinidadska kreolščina"@sl ;
+	schema:name "trinidadska kreolščina"@sl ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"créole à base lexicale anglaise"@fr,
+		"English-based creole language spoken in Trinidad"@en,
+		"yezh kreolek"@br ;
+	skos:altLabel "Trinidadian Creole English"@en,
+		"特立尼達克里奧爾語"@zh,
+		"千里達克里奧爾語"@zh,
+		"trinidadska kreolska angleščina"@sl .

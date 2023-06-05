@@ -1,0 +1,642 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3321131 a schema:Dataset ;
+	schema:about wd:Q3321131 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912055188"^^xsd:integer ;
+	schema:dateModified "2023-06-10T08:44:10Z"^^xsd:dateTime .
+
+wd:Q3321131 a wikibase:Item .
+
+<https://gl.wikipedia.org/wiki/Lingua_airoran> a schema:Article ;
+	schema:about wd:Q3321131 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua airoran"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Airoran> a schema:Article ;
+	schema:about wd:Q3321131 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Airoran"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Airoran> a schema:Article ;
+	schema:about wd:Q3321131 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Airoran"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Airoran_language> a schema:Article ;
+	schema:about wd:Q3321131 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Airoran language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Airoran_jezik> a schema:Article ;
+	schema:about wd:Q3321131 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Airoran jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiairoran> a schema:Article ;
+	schema:about wd:Q3321131 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiairoran"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Airoran> a schema:Article ;
+	schema:about wd:Q3321131 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Airoran"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Airoran> a schema:Article ;
+	schema:about wd:Q3321131 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Airoran"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_airoran> a schema:Article ;
+	schema:about wd:Q3321131 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język airoran"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3321131 wdt:P220 "air" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/air> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0g0kzl" ;
+	wdt:P1394 "airo1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/airo1242> ;
+	wdt:P2590 "0806 2" ;
+	wdt:P1705 "bahasa Adora"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P305 "air" ;
+	wdt:P1098 "+1000"^^xsd:decimal ;
+	wdt:P276 wd:Q26219413,
+		wd:Q4192499,
+		wd:Q13148908 ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P910 wd:Q33286122 ;
+	wdt:P279 wd:Q12635134 ;
+	wdt:P1627 "air" ;
+	wdt:P2341 wd:Q5095 ;
+	wdt:P4839 "Entity[\"Language\", \"Airoran::5598x\"]",
+		"Entity[\"Language\", \"Airoran\"]" ;
+	rdfs:label "Lingua airoran"@gl ;
+	skos:prefLabel "Lingua airoran"@gl ;
+	schema:name "Lingua airoran"@gl ;
+	rdfs:label "Lenga Airoran"@pms ;
+	skos:prefLabel "Lenga Airoran"@pms ;
+	schema:name "Lenga Airoran"@pms ;
+	rdfs:label "Airoran"@id ;
+	skos:prefLabel "Airoran"@id ;
+	schema:name "Airoran"@id ;
+	rdfs:label "Język airoran"@pl ;
+	skos:prefLabel "Język airoran"@pl ;
+	schema:name "Język airoran"@pl ;
+	rdfs:label "Airoran"@en ;
+	skos:prefLabel "Airoran"@en ;
+	schema:name "Airoran"@en ;
+	rdfs:label "Airoran jezik"@hr ;
+	skos:prefLabel "Airoran jezik"@hr ;
+	schema:name "Airoran jezik"@hr ;
+	rdfs:label "Kiairoran"@sw ;
+	skos:prefLabel "Kiairoran"@sw ;
+	schema:name "Kiairoran"@sw ;
+	rdfs:label "Airoran"@ace ;
+	skos:prefLabel "Airoran"@ace ;
+	schema:name "Airoran"@ace ;
+	rdfs:label "Airoran"@af ;
+	skos:prefLabel "Airoran"@af ;
+	schema:name "Airoran"@af ;
+	rdfs:label "Airoran"@an ;
+	skos:prefLabel "Airoran"@an ;
+	schema:name "Airoran"@an ;
+	rdfs:label "Airoran"@ast ;
+	skos:prefLabel "Airoran"@ast ;
+	schema:name "Airoran"@ast ;
+	rdfs:label "Airoran"@bar ;
+	skos:prefLabel "Airoran"@bar ;
+	schema:name "Airoran"@bar ;
+	rdfs:label "airoran"@br ;
+	skos:prefLabel "airoran"@br ;
+	schema:name "airoran"@br ;
+	rdfs:label "airoran"@ca ;
+	skos:prefLabel "airoran"@ca ;
+	schema:name "airoran"@ca ;
+	rdfs:label "Airoran"@co ;
+	skos:prefLabel "Airoran"@co ;
+	schema:name "Airoran"@co ;
+	rdfs:label "Airoran"@cs ;
+	skos:prefLabel "Airoran"@cs ;
+	schema:name "Airoran"@cs ;
+	rdfs:label "Airoran"@cy ;
+	skos:prefLabel "Airoran"@cy ;
+	schema:name "Airoran"@cy ;
+	rdfs:label "Airoran"@da ;
+	skos:prefLabel "Airoran"@da ;
+	schema:name "Airoran"@da ;
+	rdfs:label "Airoran"@de ;
+	skos:prefLabel "Airoran"@de ;
+	schema:name "Airoran"@de ;
+	rdfs:label "Airoran"@de-at ;
+	skos:prefLabel "Airoran"@de-at ;
+	schema:name "Airoran"@de-at ;
+	rdfs:label "Airoran"@de-ch ;
+	skos:prefLabel "Airoran"@de-ch ;
+	schema:name "Airoran"@de-ch ;
+	rdfs:label "Airoran"@en-ca ;
+	skos:prefLabel "Airoran"@en-ca ;
+	schema:name "Airoran"@en-ca ;
+	rdfs:label "Airoran"@en-gb ;
+	skos:prefLabel "Airoran"@en-gb ;
+	schema:name "Airoran"@en-gb ;
+	rdfs:label "Airoran"@eo ;
+	skos:prefLabel "Airoran"@eo ;
+	schema:name "Airoran"@eo ;
+	rdfs:label "Airoran"@es ;
+	skos:prefLabel "Airoran"@es ;
+	schema:name "Airoran"@es ;
+	rdfs:label "Airoran"@et ;
+	skos:prefLabel "Airoran"@et ;
+	schema:name "Airoran"@et ;
+	rdfs:label "Airoran"@eu ;
+	skos:prefLabel "Airoran"@eu ;
+	schema:name "Airoran"@eu ;
+	rdfs:label "Airoran"@fi ;
+	skos:prefLabel "Airoran"@fi ;
+	schema:name "Airoran"@fi ;
+	rdfs:label "airoran"@fr ;
+	skos:prefLabel "airoran"@fr ;
+	schema:name "airoran"@fr ;
+	rdfs:label "Airoran"@frp ;
+	skos:prefLabel "Airoran"@frp ;
+	schema:name "Airoran"@frp ;
+	rdfs:label "Airoran"@fur ;
+	skos:prefLabel "Airoran"@fur ;
+	schema:name "Airoran"@fur ;
+	rdfs:label "Airoran"@ga ;
+	skos:prefLabel "Airoran"@ga ;
+	schema:name "Airoran"@ga ;
+	rdfs:label "Airoran"@gd ;
+	skos:prefLabel "Airoran"@gd ;
+	schema:name "Airoran"@gd ;
+	rdfs:label "Airoran"@gsw ;
+	skos:prefLabel "Airoran"@gsw ;
+	schema:name "Airoran"@gsw ;
+	rdfs:label "Airoran"@hu ;
+	skos:prefLabel "Airoran"@hu ;
+	schema:name "Airoran"@hu ;
+	rdfs:label "Airoran"@ia ;
+	skos:prefLabel "Airoran"@ia ;
+	schema:name "Airoran"@ia ;
+	rdfs:label "Airoran"@ie ;
+	skos:prefLabel "Airoran"@ie ;
+	schema:name "Airoran"@ie ;
+	rdfs:label "Airoran"@io ;
+	skos:prefLabel "Airoran"@io ;
+	schema:name "Airoran"@io ;
+	rdfs:label "Airoran"@is ;
+	skos:prefLabel "Airoran"@is ;
+	schema:name "Airoran"@is ;
+	rdfs:label "airoran"@it ;
+	skos:prefLabel "airoran"@it ;
+	schema:name "airoran"@it ;
+	rdfs:label "Airoran"@jv ;
+	skos:prefLabel "Airoran"@jv ;
+	schema:name "Airoran"@jv ;
+	rdfs:label "Airoran"@kg ;
+	skos:prefLabel "Airoran"@kg ;
+	schema:name "Airoran"@kg ;
+	rdfs:label "Airoran"@lb ;
+	skos:prefLabel "Airoran"@lb ;
+	schema:name "Airoran"@lb ;
+	rdfs:label "Airoran"@li ;
+	skos:prefLabel "Airoran"@li ;
+	schema:name "Airoran"@li ;
+	rdfs:label "Airoran"@lij ;
+	skos:prefLabel "Airoran"@lij ;
+	schema:name "Airoran"@lij ;
+	rdfs:label "Airoran"@mg ;
+	skos:prefLabel "Airoran"@mg ;
+	schema:name "Airoran"@mg ;
+	rdfs:label "Airoran"@min ;
+	skos:prefLabel "Airoran"@min ;
+	schema:name "Airoran"@min ;
+	rdfs:label "Airoran"@ms ;
+	skos:prefLabel "Airoran"@ms ;
+	schema:name "Airoran"@ms ;
+	rdfs:label "Airoran"@nap ;
+	skos:prefLabel "Airoran"@nap ;
+	schema:name "Airoran"@nap ;
+	rdfs:label "Airoran"@nb ;
+	skos:prefLabel "Airoran"@nb ;
+	schema:name "Airoran"@nb ;
+	rdfs:label "Airoran"@nds ;
+	skos:prefLabel "Airoran"@nds ;
+	schema:name "Airoran"@nds ;
+	rdfs:label "Airoran"@nds-nl ;
+	skos:prefLabel "Airoran"@nds-nl ;
+	schema:name "Airoran"@nds-nl ;
+	rdfs:label "Airoran"@nl ;
+	skos:prefLabel "Airoran"@nl ;
+	schema:name "Airoran"@nl ;
+	rdfs:label "Airoran"@nn ;
+	skos:prefLabel "Airoran"@nn ;
+	schema:name "Airoran"@nn ;
+	rdfs:label "Airoran"@nrm ;
+	skos:prefLabel "Airoran"@nrm ;
+	schema:name "Airoran"@nrm ;
+	rdfs:label "Airoran"@oc ;
+	skos:prefLabel "Airoran"@oc ;
+	schema:name "Airoran"@oc ;
+	rdfs:label "Airoran"@pcd ;
+	skos:prefLabel "Airoran"@pcd ;
+	schema:name "Airoran"@pcd ;
+	rdfs:label "Airoran"@pt ;
+	skos:prefLabel "Airoran"@pt ;
+	schema:name "Airoran"@pt ;
+	rdfs:label "Airoran"@pt-br ;
+	skos:prefLabel "Airoran"@pt-br ;
+	schema:name "Airoran"@pt-br ;
+	rdfs:label "Airoran"@rm ;
+	skos:prefLabel "Airoran"@rm ;
+	schema:name "Airoran"@rm ;
+	rdfs:label "Airoran"@ro ;
+	skos:prefLabel "Airoran"@ro ;
+	schema:name "Airoran"@ro ;
+	rdfs:label "Airoran"@sc ;
+	skos:prefLabel "Airoran"@sc ;
+	schema:name "Airoran"@sc ;
+	rdfs:label "Airoran"@scn ;
+	skos:prefLabel "Airoran"@scn ;
+	schema:name "Airoran"@scn ;
+	rdfs:label "Airoran"@sco ;
+	skos:prefLabel "Airoran"@sco ;
+	schema:name "Airoran"@sco ;
+	rdfs:label "Airoran"@sk ;
+	skos:prefLabel "Airoran"@sk ;
+	schema:name "Airoran"@sk ;
+	rdfs:label "Airoran"@sl ;
+	skos:prefLabel "Airoran"@sl ;
+	schema:name "Airoran"@sl ;
+	rdfs:label "Airoran"@sr-el ;
+	skos:prefLabel "Airoran"@sr-el ;
+	schema:name "Airoran"@sr-el ;
+	rdfs:label "Airoran"@su ;
+	skos:prefLabel "Airoran"@su ;
+	schema:name "Airoran"@su ;
+	rdfs:label "Airoran"@sv ;
+	skos:prefLabel "Airoran"@sv ;
+	schema:name "Airoran"@sv ;
+	rdfs:label "Airoran"@vec ;
+	skos:prefLabel "Airoran"@vec ;
+	schema:name "Airoran"@vec ;
+	rdfs:label "Airoran"@vi ;
+	skos:prefLabel "Airoran"@vi ;
+	schema:name "Airoran"@vi ;
+	rdfs:label "Airoran"@vls ;
+	skos:prefLabel "Airoran"@vls ;
+	schema:name "Airoran"@vls ;
+	rdfs:label "Airoran"@vo ;
+	skos:prefLabel "Airoran"@vo ;
+	schema:name "Airoran"@vo ;
+	rdfs:label "Airoran"@wa ;
+	skos:prefLabel "Airoran"@wa ;
+	schema:name "Airoran"@wa ;
+	rdfs:label "Airoran"@wo ;
+	skos:prefLabel "Airoran"@wo ;
+	schema:name "Airoran"@wo ;
+	rdfs:label "Airoran"@zu ;
+	skos:prefLabel "Airoran"@zu ;
+	schema:name "Airoran"@zu ;
+	rdfs:label "Airoran"@ilo ;
+	skos:prefLabel "Airoran"@ilo ;
+	schema:name "Airoran"@ilo ;
+	rdfs:label "Airoran"@ban ;
+	skos:prefLabel "Airoran"@ban ;
+	schema:name "Airoran"@ban ;
+	rdfs:label "Airoran"@bjn ;
+	skos:prefLabel "Airoran"@bjn ;
+	schema:name "Airoran"@bjn ;
+	rdfs:label "Airoran"@bug ;
+	skos:prefLabel "Airoran"@bug ;
+	schema:name "Airoran"@bug ;
+	rdfs:label "Airoran"@map-bms ;
+	skos:prefLabel "Airoran"@map-bms ;
+	schema:name "Airoran"@map-bms ;
+	rdfs:label "Tataramon na Airoran"@bcl ;
+	skos:prefLabel "Tataramon na Airoran"@bcl ;
+	schema:name "Tataramon na Airoran"@bcl ;
+	schema:description "Sprache"@de,
+		"bagian dari rumpun bahasa Papua"@id,
+		"taal"@nl,
+		"שפה"@he,
+		"pagsasao idiay Indonesia"@ilo,
+		"language in West Papua"@en,
+		"basa ing Papua Kulon"@jv,
+		"bahasa di Papua Barat"@ms,
+		"langue kwerba"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Airoran"@gl,
+		"Adora"@gl,
+		"Aeroran"@gl,
+		"Iriemkena"@gl,
+		"Airoran language"@en,
+		"Adora"@en,
+		"Aeroran"@en,
+		"Iriemkena"@en,
+		"Adora"@id,
+		"bahasa Adora"@id,
+		"bahasa Aeroran"@id,
+		"bahasa Airoran"@id,
+		"bahasa Iriemkena"@id,
+		"Aeroran"@id,
+		"Iriemkena"@id,
+		"Adora"@ace,
+		"Aeroran"@ace,
+		"Iriemkena"@ace,
+		"Adora"@af,
+		"Aeroran"@af,
+		"Iriemkena"@af,
+		"Adora"@an,
+		"Aeroran"@an,
+		"Iriemkena"@an,
+		"Adora"@ast,
+		"Aeroran"@ast,
+		"Iriemkena"@ast,
+		"Adora"@ban,
+		"Aeroran"@ban,
+		"Iriemkena"@ban,
+		"Adora"@bar,
+		"Aeroran"@bar,
+		"Iriemkena"@bar,
+		"Adora"@bjn,
+		"Aeroran"@bjn,
+		"Iriemkena"@bjn,
+		"Adora"@br,
+		"Aeroran"@br,
+		"Iriemkena"@br,
+		"Adora"@bug,
+		"Aeroran"@bug,
+		"Iriemkena"@bug,
+		"Adora"@ca,
+		"Aeroran"@ca,
+		"Iriemkena"@ca,
+		"Adora"@co,
+		"Aeroran"@co,
+		"Iriemkena"@co,
+		"Adora"@cs,
+		"Aeroran"@cs,
+		"Iriemkena"@cs,
+		"Adora"@cy,
+		"Aeroran"@cy,
+		"Iriemkena"@cy,
+		"Adora"@da,
+		"Aeroran"@da,
+		"Iriemkena"@da,
+		"Adora"@de,
+		"Aeroran"@de,
+		"Iriemkena"@de,
+		"Adora"@de-at,
+		"Aeroran"@de-at,
+		"Iriemkena"@de-at,
+		"Adora"@de-ch,
+		"Aeroran"@de-ch,
+		"Iriemkena"@de-ch,
+		"Adora"@en-ca,
+		"Aeroran"@en-ca,
+		"Iriemkena"@en-ca,
+		"Adora"@en-gb,
+		"Aeroran"@en-gb,
+		"Iriemkena"@en-gb,
+		"Adora"@eo,
+		"Aeroran"@eo,
+		"Iriemkena"@eo,
+		"Adora"@es,
+		"Aeroran"@es,
+		"Iriemkena"@es,
+		"Adora"@et,
+		"Aeroran"@et,
+		"Iriemkena"@et,
+		"Adora"@eu,
+		"Aeroran"@eu,
+		"Iriemkena"@eu,
+		"Adora"@fi,
+		"Aeroran"@fi,
+		"Iriemkena"@fi,
+		"Adora"@fr,
+		"Aeroran"@fr,
+		"Iriemkena"@fr,
+		"Adora"@frp,
+		"Aeroran"@frp,
+		"Iriemkena"@frp,
+		"Adora"@fur,
+		"Aeroran"@fur,
+		"Iriemkena"@fur,
+		"Adora"@ga,
+		"Aeroran"@ga,
+		"Iriemkena"@ga,
+		"Adora"@gd,
+		"Aeroran"@gd,
+		"Iriemkena"@gd,
+		"Adora"@gsw,
+		"Aeroran"@gsw,
+		"Iriemkena"@gsw,
+		"Adora"@hr,
+		"Aeroran"@hr,
+		"Iriemkena"@hr,
+		"Adora"@hu,
+		"Aeroran"@hu,
+		"Iriemkena"@hu,
+		"Adora"@ia,
+		"Aeroran"@ia,
+		"Iriemkena"@ia,
+		"Adora"@ie,
+		"Aeroran"@ie,
+		"Iriemkena"@ie,
+		"Adora"@io,
+		"Aeroran"@io,
+		"Iriemkena"@io,
+		"Adora"@is,
+		"Aeroran"@is,
+		"Iriemkena"@is,
+		"Adora"@it,
+		"Aeroran"@it,
+		"Iriemkena"@it,
+		"Adora"@jv,
+		"Aeroran"@jv,
+		"Iriemkena"@jv,
+		"Adora"@kg,
+		"Aeroran"@kg,
+		"Iriemkena"@kg,
+		"Adora"@lb,
+		"Aeroran"@lb,
+		"Iriemkena"@lb,
+		"Adora"@li,
+		"Aeroran"@li,
+		"Iriemkena"@li,
+		"Adora"@lij,
+		"Aeroran"@lij,
+		"Iriemkena"@lij,
+		"Adora"@map-bms,
+		"Aeroran"@map-bms,
+		"Iriemkena"@map-bms,
+		"Adora"@mg,
+		"Aeroran"@mg,
+		"Iriemkena"@mg,
+		"Adora"@min,
+		"Aeroran"@min,
+		"Iriemkena"@min,
+		"Adora"@ms,
+		"Aeroran"@ms,
+		"Iriemkena"@ms,
+		"Adora"@nap,
+		"Aeroran"@nap,
+		"Iriemkena"@nap,
+		"Adora"@nb,
+		"Aeroran"@nb,
+		"Iriemkena"@nb,
+		"Adora"@nds,
+		"Aeroran"@nds,
+		"Iriemkena"@nds,
+		"Adora"@nds-nl,
+		"Aeroran"@nds-nl,
+		"Iriemkena"@nds-nl,
+		"Adora"@nl,
+		"Aeroran"@nl,
+		"Iriemkena"@nl,
+		"Adora"@nn,
+		"Aeroran"@nn,
+		"Iriemkena"@nn,
+		"Adora"@nrm,
+		"Aeroran"@nrm,
+		"Iriemkena"@nrm,
+		"Adora"@oc,
+		"Aeroran"@oc,
+		"Iriemkena"@oc,
+		"Adora"@pcd,
+		"Aeroran"@pcd,
+		"Iriemkena"@pcd,
+		"Adora"@pl,
+		"Aeroran"@pl,
+		"Iriemkena"@pl,
+		"Adora"@pms,
+		"Aeroran"@pms,
+		"Iriemkena"@pms,
+		"Adora"@pt,
+		"Aeroran"@pt,
+		"Iriemkena"@pt,
+		"Adora"@pt-br,
+		"Aeroran"@pt-br,
+		"Iriemkena"@pt-br,
+		"Adora"@rm,
+		"Aeroran"@rm,
+		"Iriemkena"@rm,
+		"Adora"@ro,
+		"Aeroran"@ro,
+		"Iriemkena"@ro,
+		"Adora"@sc,
+		"Aeroran"@sc,
+		"Iriemkena"@sc,
+		"Adora"@scn,
+		"Aeroran"@scn,
+		"Iriemkena"@scn,
+		"Adora"@sco,
+		"Aeroran"@sco,
+		"Iriemkena"@sco,
+		"Adora"@sk,
+		"Aeroran"@sk,
+		"Iriemkena"@sk,
+		"Adora"@sl,
+		"Aeroran"@sl,
+		"Iriemkena"@sl,
+		"Adora"@sr-el,
+		"Aeroran"@sr-el,
+		"Iriemkena"@sr-el,
+		"Adora"@su,
+		"Aeroran"@su,
+		"Iriemkena"@su,
+		"Adora"@sv,
+		"Aeroran"@sv,
+		"Iriemkena"@sv,
+		"Adora"@sw,
+		"Aeroran"@sw,
+		"Iriemkena"@sw,
+		"Adora"@vec,
+		"Aeroran"@vec,
+		"Iriemkena"@vec,
+		"Adora"@vi,
+		"Aeroran"@vi,
+		"Iriemkena"@vi,
+		"Adora"@vls,
+		"Aeroran"@vls,
+		"Iriemkena"@vls,
+		"Adora"@vo,
+		"Aeroran"@vo,
+		"Iriemkena"@vo,
+		"Adora"@wa,
+		"Aeroran"@wa,
+		"Iriemkena"@wa,
+		"Adora"@wo,
+		"Aeroran"@wo,
+		"Iriemkena"@wo,
+		"Adora"@zu,
+		"Aeroran"@zu,
+		"Iriemkena"@zu .
+
+wd:Q25927365 owl:sameAs wd:Q3321131 .

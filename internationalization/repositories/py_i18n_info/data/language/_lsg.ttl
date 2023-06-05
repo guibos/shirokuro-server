@@ -1,0 +1,105 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6709802 a schema:Dataset ;
+	schema:about wd:Q6709802 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1779933131"^^xsd:integer ;
+	schema:dateModified "2022-11-27T21:19:25Z"^^xsd:dateTime .
+
+wd:Q6709802 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Lyons_Sign_Language> a schema:Article ;
+	schema:about wd:Q6709802 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Lyons Sign Language"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_dij_segn_lyons> a schema:Article ;
+	schema:about wd:Q6709802 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga dij segn lyons"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Langue_des_signes_lyonnaise> a schema:Article ;
+	schema:about wd:Q6709802 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Langue des signes lyonnaise"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BE%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%B6%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q6709802 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Лионский жестовый язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6709802 wdt:P220 "lsg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lsg> ;
+	wdt:P31 wd:Q34228,
+		wd:Q5015649 ;
+	wdt:P305 "lsg" ;
+	wdt:P1394 "lyon1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lyon1239> ;
+	wdt:P646 "/m/02hwtz7" ;
+	rdfs:label "Lyons Sign Language"@en ;
+	skos:prefLabel "Lyons Sign Language"@en ;
+	schema:name "Lyons Sign Language"@en ;
+	rdfs:label "Lenga dij segn lyons"@pms ;
+	skos:prefLabel "Lenga dij segn lyons"@pms ;
+	schema:name "Lenga dij segn lyons"@pms ;
+	rdfs:label "langue des signes lyonnaise"@fr ;
+	skos:prefLabel "langue des signes lyonnaise"@fr ;
+	schema:name "langue des signes lyonnaise"@fr ;
+	rdfs:label "Лионский жестовый язык"@ru ;
+	skos:prefLabel "Лионский жестовый язык"@ru ;
+	schema:name "Лионский жестовый язык"@ru ;
+	rdfs:label "liona signolingvo"@eo ;
+	skos:prefLabel "liona signolingvo"@eo ;
+	schema:name "liona signolingvo"@eo ;
+	rdfs:label "Lyons Sign Language"@en-gb ;
+	skos:prefLabel "Lyons Sign Language"@en-gb ;
+	schema:name "Lyons Sign Language"@en-gb ;
+	rdfs:label "Lyonesische Gebärdensprache"@de ;
+	skos:prefLabel "Lyonesische Gebärdensprache"@de ;
+	schema:name "Lyonesische Gebärdensprache"@de ;
+	rdfs:label "リヨン手話"@ja ;
+	skos:prefLabel "リヨン手話"@ja ;
+	schema:name "リヨン手話"@ja .

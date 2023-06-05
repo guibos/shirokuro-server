@@ -1,0 +1,168 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35814 a schema:Dataset ;
+	schema:about wd:Q35814 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1890688135"^^xsd:integer ;
+	schema:dateModified "2023-05-06T16:48:03Z"^^xsd:dateTime .
+
+wd:Q35814 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Mansoanka> a schema:Article ;
+	schema:about wd:Q35814 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Mansoanka"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mansoanka> a schema:Article ;
+	schema:about wd:Q35814 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mansoanka"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Sua> a schema:Article ;
+	schema:about wd:Q35814 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Sua"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimansoanka> a schema:Article ;
+	schema:about wd:Q35814 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimansoanka"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sua_language> a schema:Article ;
+	schema:about wd:Q35814 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sua language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Mansoanka> a schema:Article ;
+	schema:about wd:Q35814 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Mansoanka"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Mansoanka_jezik> a schema:Article ;
+	schema:about wd:Q35814 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Mansoanka jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Sua_(langue)> a schema:Article ;
+	schema:about wd:Q35814 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Sua (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ha.wikipedia.org/wiki/Harshen_Sua> a schema:Article ;
+	schema:about wd:Q35814 ;
+	schema:inLanguage "ha" ;
+	schema:isPartOf <https://ha.wikipedia.org/> ;
+	schema:name "Harshen Sua"@ha .
+
+<https://ha.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35814 wdt:P220 "msw" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/msw> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "mans1259" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mans1259> ;
+	wdt:P305 "msw" ;
+	wdt:P279 wd:Q12122355 ;
+	wdt:P2192 "7715" ;
+	wdt:P1627 "msw" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1007 ;
+	wdt:P2341 wd:Q853991 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MSW> ;
+	wdt:P646 "/m/02hxcsn" ;
+	rdfs:label "Kimansoanka"@sw ;
+	skos:prefLabel "Kimansoanka"@sw ;
+	schema:name "Kimansoanka"@sw ;
+	rdfs:label "Lenga Mansoanka"@pms ;
+	skos:prefLabel "Lenga Mansoanka"@pms ;
+	schema:name "Lenga Mansoanka"@pms ;
+	rdfs:label "Mansoanka"@de ;
+	skos:prefLabel "Mansoanka"@de ;
+	schema:name "Mansoanka"@de ;
+	rdfs:label "Sua"@en ;
+	skos:prefLabel "Sua"@en ;
+	schema:name "Sua"@en ;
+	rdfs:label "Mansoanka jezik"@hr ;
+	skos:prefLabel "Mansoanka jezik"@hr ;
+	schema:name "Mansoanka jezik"@hr ;
+	rdfs:label "mansoanka"@ca ;
+	skos:prefLabel "mansoanka"@ca ;
+	schema:name "mansoanka"@ca ;
+	rdfs:label "Wikang Sua"@tl ;
+	skos:prefLabel "Wikang Sua"@tl ;
+	schema:name "Wikang Sua"@tl ;
+	rdfs:label "mansoanka"@fr ;
+	skos:prefLabel "mansoanka"@fr ;
+	schema:name "mansoanka"@fr ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue atlantico-congolaise"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"язык"@ru ;
+	skos:altLabel "Kikunante"@sw,
+		"Kisua"@sw,
+		"Mansonka"@de,
+		"Mansoanka"@en,
+		"Sua language"@en,
+		"sua"@fr .

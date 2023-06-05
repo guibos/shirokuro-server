@@ -1,0 +1,101 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4985178 a schema:Dataset ;
+	schema:about wd:Q4985178 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1655083136"^^xsd:integer ;
+	schema:dateModified "2022-06-05T16:38:47Z"^^xsd:dateTime .
+
+wd:Q4985178 a wikibase:Item .
+
+<https://sw.wikipedia.org/wiki/Kidogon,_Bunoge> a schema:Article ;
+	schema:about wd:Q4985178 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kidogon, Bunoge"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Budu_Dogon> a schema:Article ;
+	schema:about wd:Q4985178 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Budu Dogon"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4985178 wdt:P220 "dgb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dgb> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "buno1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/buno1241> ;
+	wdt:P2192 "8742" ;
+	wdt:P279 wd:Q1234776 ;
+	wdt:P910 wd:Q33674016 ;
+	wdt:P305 "dgb" ;
+	wdt:P1627 "dgb" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q912 ;
+	wdt:P2341 wd:Q214155 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DGB> ;
+	wdt:P646 "/m/05sx8w2" ;
+	rdfs:label "Budu Dogon"@en ;
+	skos:prefLabel "Budu Dogon"@en ;
+	schema:name "Budu Dogon"@en ;
+	rdfs:label "Kidogon, Bunoge"@sw ;
+	skos:prefLabel "Kidogon, Bunoge"@sw ;
+	schema:name "Kidogon, Bunoge"@sw ;
+	rdfs:label "bunoge"@fr ;
+	skos:prefLabel "bunoge"@fr ;
+	schema:name "bunoge"@fr ;
+	rdfs:label "Wikang Budu Dogon"@tl ;
+	skos:prefLabel "Wikang Budu Dogon"@tl ;
+	schema:name "Wikang Budu Dogon"@tl ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"Dogon language"@en,
+		"langue dogon"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kibunoge"@sw,
+		"Bunoge Dogon"@en,
+		"Bunoge"@en .
+
+wd:Q50927246 owl:sameAs wd:Q4985178 .
+
+wd:Q61094687 owl:sameAs wd:Q4985178 .

@@ -1,0 +1,139 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6269820 a schema:Dataset ;
+	schema:about wd:Q6269820 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1602472200"^^xsd:integer ;
+	schema:dateModified "2022-03-25T15:32:05Z"^^xsd:dateTime .
+
+wd:Q6269820 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Jola-Felupe> a schema:Article ;
+	schema:about wd:Q6269820 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Jola-Felupe"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Ejamat> a schema:Article ;
+	schema:about wd:Q6269820 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Ejamat"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiejamat> a schema:Article ;
+	schema:about wd:Q6269820 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiejamat"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Jola-Felupe_language> a schema:Article ;
+	schema:about wd:Q6269820 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Jola-Felupe language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Jola-Felupe_jezik> a schema:Article ;
+	schema:about wd:Q6269820 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Jola-Felupe jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6269820 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "eja" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/eja> ;
+	wdt:P2355 "1306" ;
+	wdt:P1394 "ejam1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ejam1238> ;
+	wdt:P279 wd:Q12632219 ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P2192 "7712" ;
+	wdt:P305 "eja" ;
+	wdt:P1627 "eja" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1007,
+		wd:Q1041 ;
+	wdt:P2341 wd:Q780838,
+		wd:Q822692 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/EJA> ;
+	wdt:P646 "/m/02hwnld" ;
+	rdfs:label "Jola-Felupe jezik"@hr ;
+	skos:prefLabel "Jola-Felupe jezik"@hr ;
+	schema:name "Jola-Felupe jezik"@hr ;
+	rdfs:label "Jola-Felupe"@en ;
+	skos:prefLabel "Jola-Felupe"@en ;
+	schema:name "Jola-Felupe"@en ;
+	rdfs:label "Jola-Felupe"@ca ;
+	skos:prefLabel "Jola-Felupe"@ca ;
+	schema:name "Jola-Felupe"@ca ;
+	rdfs:label "Lenga Ejamat"@pms ;
+	skos:prefLabel "Lenga Ejamat"@pms ;
+	schema:name "Lenga Ejamat"@pms ;
+	rdfs:label "Kiejamat"@sw ;
+	skos:prefLabel "Kiejamat"@sw ;
+	schema:name "Kiejamat"@sw ;
+	rdfs:label "Ejamat"@en-gb ;
+	skos:prefLabel "Ejamat"@en-gb ;
+	schema:name "Ejamat"@en-gb ;
+	rdfs:label "ejamat"@fr ;
+	skos:prefLabel "ejamat"@fr ;
+	schema:name "ejamat"@fr ;
+	rdfs:label "Wikang Jola-Felupe"@tl ;
+	skos:prefLabel "Wikang Jola-Felupe"@tl ;
+	schema:name "Wikang Jola-Felupe"@tl ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue atlantique centrale"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Ejamat"@en,
+		"Ejamat language"@en,
+		"Jola-Felupe language"@en,
+		"ediamat"@fr .
+
+wd:Q10973375 owl:sameAs wd:Q6269820 .

@@ -1,0 +1,136 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4938812 a schema:Dataset ;
+	schema:about wd:Q4938812 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1761468974"^^xsd:integer ;
+	schema:dateModified "2022-10-31T01:17:42Z"^^xsd:dateTime .
+
+wd:Q4938812 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Bokoto> a schema:Article ;
+	schema:about wd:Q4938812 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Bokoto"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibokoto> a schema:Article ;
+	schema:about wd:Q4938812 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibokoto"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Bokoto_language> a schema:Article ;
+	schema:about wd:Q4938812 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Bokoto language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Bokoto_jezik> a schema:Article ;
+	schema:about wd:Q4938812 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Bokoto jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Bokoto> a schema:Article ;
+	schema:about wd:Q4938812 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Bokoto"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4938812 wdt:P220 "bdt" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bdt> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "boko1261" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/boko1261> ;
+	wdt:P910 wd:Q33656754 ;
+	wdt:P279 wd:Q3099986 ;
+	wdt:P305 "bdt" ;
+	wdt:P1627 "bdt" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q929 ;
+	wdt:P2341 wd:Q726620,
+		wd:Q848567,
+		wd:Q821037,
+		wd:Q378970,
+		wd:Q742455,
+		wd:Q848591,
+		wd:Q856237 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BDT> ;
+	wdt:P646 "/m/02hwxq4" ;
+	rdfs:label "Bokoto"@en ;
+	skos:prefLabel "Bokoto"@en ;
+	schema:name "Bokoto"@en ;
+	rdfs:label "Bokoto jezik"@hr ;
+	skos:prefLabel "Bokoto jezik"@hr ;
+	schema:name "Bokoto jezik"@hr ;
+	rdfs:label "Kibokoto"@sw ;
+	skos:prefLabel "Kibokoto"@sw ;
+	schema:name "Kibokoto"@sw ;
+	rdfs:label "Lenga Bokoto"@pms ;
+	skos:prefLabel "Lenga Bokoto"@pms ;
+	schema:name "Lenga Bokoto"@pms ;
+	rdfs:label "Bokoto"@en-gb ;
+	skos:prefLabel "Bokoto"@en-gb ;
+	schema:name "Bokoto"@en-gb ;
+	rdfs:label "bokoto"@fr ;
+	skos:prefLabel "bokoto"@fr ;
+	schema:name "bokoto"@fr ;
+	rdfs:label "Asụsụ Bokoto"@ig ;
+	skos:prefLabel "Asụsụ Bokoto"@ig ;
+	schema:name "Asụsụ Bokoto"@ig ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue voltaïco-congolaise"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Bokoto language"@en,
+		"gbaya bokoto"@fr .
+
+wd:Q11017330 owl:sameAs wd:Q4938812 .

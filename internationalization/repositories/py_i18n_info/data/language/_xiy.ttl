@@ -1,0 +1,191 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q13226 a schema:Dataset ;
+	schema:about wd:Q13226 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960617610"^^xsd:integer ;
+	schema:dateModified "2023-08-25T01:03:55Z"^^xsd:dateTime .
+
+wd:Q13226 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_xipaya> a schema:Article ;
+	schema:about wd:Q13226 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga xipaya"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A8%D0%B8%D0%BF%D0%B0%D1%8F_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q13226 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Шипая (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Xipaya_language> a schema:Article ;
+	schema:about wd:Q13226 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Xipaya language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Xipaya_jezik> a schema:Article ;
+	schema:about wd:Q13226 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Xipaya jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/%C5%A0ipaj%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q13226 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Šipajų kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_xipaia> a schema:Article ;
+	schema:about wd:Q13226 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua xipaia"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Xipaya> a schema:Article ;
+	schema:about wd:Q13226 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Xipaya"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Xipaya_language> a schema:Article ;
+	schema:about wd:Q13226 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Xipaya language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q13226 wdt:P220 "xiy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xiy> ;
+	wdt:P31 wd:Q34770 ;
+	wdt:P646 "/m/027x4cz" ;
+	wdt:P279 wd:Q51739,
+		wd:Q34070 ;
+	wdt:P1394 "xipa1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/xipa1240> ;
+	wdt:P2192 "1001" ;
+	wdt:P305 "xiy" ;
+	wdt:P1627 "xiy" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P17 wd:Q155 ;
+	wdt:P2341 wd:Q39517 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XIY> ;
+	wdt:P3219 "tupi" ;
+	wdt:P910 wd:Q33077466 ;
+	wdt:P268 "18088759f" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb18088759f#about> ;
+	rdfs:label "Xipaya"@en ;
+	skos:prefLabel "Xipaya"@en ;
+	schema:name "Xipaya"@en ;
+	rdfs:label "xipaya"@fr ;
+	skos:prefLabel "xipaya"@fr ;
+	schema:name "xipaya"@fr ;
+	rdfs:label "Xipaya"@en-ca ;
+	skos:prefLabel "Xipaya"@en-ca ;
+	schema:name "Xipaya"@en-ca ;
+	rdfs:label "Xipaya"@en-gb ;
+	skos:prefLabel "Xipaya"@en-gb ;
+	schema:name "Xipaya"@en-gb ;
+	rdfs:label "Xipaya"@fi ;
+	skos:prefLabel "Xipaya"@fi ;
+	schema:name "Xipaya"@fi ;
+	rdfs:label "Xipaya jezik"@hr ;
+	skos:prefLabel "Xipaya jezik"@hr ;
+	schema:name "Xipaya jezik"@hr ;
+	rdfs:label "Šipajų kalba"@lt ;
+	skos:prefLabel "Šipajų kalba"@lt ;
+	schema:name "Šipajų kalba"@lt ;
+	rdfs:label "Lenga xipaya"@pms ;
+	skos:prefLabel "Lenga xipaya"@pms ;
+	schema:name "Lenga xipaya"@pms ;
+	rdfs:label "Língua xipaia"@pt ;
+	skos:prefLabel "Língua xipaia"@pt ;
+	schema:name "Língua xipaia"@pt ;
+	rdfs:label "Língua xipaia"@pt-br ;
+	skos:prefLabel "Língua xipaia"@pt-br ;
+	schema:name "Língua xipaia"@pt-br ;
+	rdfs:label "xipaya"@es ;
+	skos:prefLabel "xipaya"@es ;
+	schema:name "xipaya"@es ;
+	rdfs:label "Xipaya"@de ;
+	skos:prefLabel "Xipaya"@de ;
+	schema:name "Xipaya"@de ;
+	rdfs:label "xipaya"@it ;
+	skos:prefLabel "xipaya"@it ;
+	schema:name "xipaya"@it ;
+	rdfs:label "Шипая"@ru ;
+	skos:prefLabel "Шипая"@ru ;
+	schema:name "Шипая"@ru ;
+	rdfs:label "Wikang Xipaya"@tl ;
+	skos:prefLabel "Wikang Xipaya"@tl ;
+	schema:name "Wikang Xipaya"@tl ;
+	rdfs:label "xipaya"@vec ;
+	skos:prefLabel "xipaya"@vec ;
+	schema:name "xipaya"@vec ;
+	schema:description "endangered language spoken in the Pará region of Brazil"@en,
+		"langue tupi jadis parlées dans la région du Pará au Brésil, et aujourd'hui quasiment éteinte"@fr,
+		"lengua hablada en Brasil"@es,
+		"Sprache in Brasilien"@de,
+		"lingua nativo americana"@it,
+		"שפה"@he,
+		"yezh"@br,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Xipaia"@en,
+		"Shipaja"@en,
+		"Xipaya language"@en,
+		"Shipaja"@de,
+		"Xipaia"@de,
+		"lingua xipaya"@it .
+
+wd:Q61095377 owl:sameAs wd:Q13226 .
+
+wd:Q97222642 owl:sameAs wd:Q13226 .

@@ -1,0 +1,121 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4904029 a schema:Dataset ;
+	schema:about wd:Q4904029 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960527218"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:44:18Z"^^xsd:dateTime .
+
+wd:Q4904029 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Crioll_portugu%C3%A8s_de_Bidau> a schema:Article ;
+	schema:about wd:Q4904029 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Crioll portuguès de Bidau"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_pidgin,_Timor> a schema:Article ;
+	schema:about wd:Q4904029 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga pidgin, Timor"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Bidau_Creole_Portuguese> a schema:Article ;
+	schema:about wd:Q4904029 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Bidau Creole Portuguese"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Crioulo_portugu%C3%AAs_de_Bidau> a schema:Article ;
+	schema:about wd:Q4904029 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Crioulo português de Bidau"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Bidaukreools> a schema:Article ;
+	schema:about wd:Q4904029 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Bidaukreools"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4904029 wdt:P220 "tvy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tvy> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P17 wd:Q574 ;
+	wdt:P1394 "timo1258" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/timo1258> ;
+	wdt:P279 wd:Q25418924 ;
+	wdt:P305 "tvy" ;
+	wdt:P1627 "tvy" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P2341 wd:Q405100 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TVY> ;
+	wdt:P646 "/m/09wshl" ;
+	rdfs:label "Bidau Creole Portuguese"@en ;
+	skos:prefLabel "Bidau Creole Portuguese"@en ;
+	schema:name "Bidau Creole Portuguese"@en ;
+	rdfs:label "Lenga pidgin, Timor"@pms ;
+	skos:prefLabel "Lenga pidgin, Timor"@pms ;
+	schema:name "Lenga pidgin, Timor"@pms ;
+	rdfs:label "Crioulo Português de Bidau"@pt ;
+	skos:prefLabel "Crioulo Português de Bidau"@pt ;
+	schema:name "Crioulo Português de Bidau"@pt ;
+	rdfs:label "crioll portuguès de Bidau"@ca ;
+	skos:prefLabel "crioll portuguès de Bidau"@ca ;
+	schema:name "crioll portuguès de Bidau"@ca ;
+	rdfs:label "Bidaukreools"@af ;
+	skos:prefLabel "Bidaukreools"@af ;
+	schema:name "Bidaukreools"@af ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Portuguese-based creole language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Timor Pidgin"@en .

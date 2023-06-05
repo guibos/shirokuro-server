@@ -1,0 +1,148 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11732209 a schema:Dataset ;
+	schema:about wd:Q11732209 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1564305590"^^xsd:integer ;
+	schema:dateModified "2022-01-18T11:33:16Z"^^xsd:dateTime .
+
+wd:Q11732209 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Gimi> a schema:Article ;
+	schema:about wd:Q11732209 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Gimi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigimi-Labogai> a schema:Article ;
+	schema:about wd:Q11732209 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigimi-Labogai"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Gimi_language> a schema:Article ;
+	schema:about wd:Q11732209 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Gimi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Gimi> a schema:Article ;
+	schema:about wd:Q11732209 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Gimi"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://diq.wikipedia.org/wiki/Gimiki> a schema:Article ;
+	schema:about wd:Q11732209 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Gimiki"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EA%B8%B0%EB%AF%B8%EC%96%B4> a schema:Article ;
+	schema:about wd:Q11732209 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "기미어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11732209 wdt:P220 "gim" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gim> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "gimi1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gimi1243> ;
+	wdt:P305 "gim" ;
+	wdt:P1627 "gim" ;
+	wdt:P910 wd:Q36157338 ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q599448,
+		wd:Q849812 ;
+	wdt:P1245 "714474" ;
+	wdt:P646 "/m/02hx3l2" ;
+	rdfs:label "Język gimi"@pl ;
+	skos:prefLabel "Język gimi"@pl ;
+	schema:name "Język gimi"@pl ;
+	rdfs:label "Lenga Gimi"@pms ;
+	skos:prefLabel "Lenga Gimi"@pms ;
+	schema:name "Lenga Gimi"@pms ;
+	rdfs:label "Gimi"@en ;
+	skos:prefLabel "Gimi"@en ;
+	schema:name "Gimi"@en ;
+	rdfs:label "Kigimi-Labogai"@sw ;
+	skos:prefLabel "Kigimi-Labogai"@sw ;
+	schema:name "Kigimi-Labogai"@sw ;
+	rdfs:label "ギミ語"@ja ;
+	skos:prefLabel "ギミ語"@ja ;
+	schema:name "ギミ語"@ja ;
+	rdfs:label "Gimi"@ilo ;
+	skos:prefLabel "Gimi"@ilo ;
+	schema:name "Gimi"@ilo ;
+	rdfs:label "Gimiki"@diq ;
+	skos:prefLabel "Gimiki"@diq ;
+	schema:name "Gimiki"@diq ;
+	rdfs:label "幾密語"@zh ;
+	skos:prefLabel "幾密語"@zh ;
+	schema:name "幾密語"@zh ;
+	rdfs:label "기미어"@ko ;
+	skos:prefLabel "기미어"@ko ;
+	schema:name "기미어"@ko ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"언어"@ko ;
+	skos:altLabel "Gimi (Eastern Highlands)"@en,
+		"Gimi language"@en .
+
+wd:Q5562689 owl:sameAs wd:Q11732209 .
+
+wd:Q12952458 owl:sameAs wd:Q11732209 .

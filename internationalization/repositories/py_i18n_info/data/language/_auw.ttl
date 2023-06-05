@@ -1,0 +1,389 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3513326 a schema:Dataset ;
+	schema:about wd:Q3513326 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912060860"^^xsd:integer ;
+	schema:dateModified "2023-06-10T08:52:46Z"^^xsd:dateTime .
+
+wd:Q3513326 a wikibase:Item .
+
+<https://id.wikipedia.org/wiki/Bahasa_Awyi> a schema:Article ;
+	schema:about wd:Q3513326 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Awyi"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Awyi_language> a schema:Article ;
+	schema:about wd:Q3513326 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Awyi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Awyi_jezik> a schema:Article ;
+	schema:about wd:Q3513326 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Awyi jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Awyi> a schema:Article ;
+	schema:about wd:Q3513326 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Awyi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiawyi> a schema:Article ;
+	schema:about wd:Q3513326 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiawyi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%80%E0%B8%AD%E0%B8%B2%E0%B8%A2%E0%B8%B5> a schema:Article ;
+	schema:about wd:Q3513326 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาเอายี"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Awyi> a schema:Article ;
+	schema:about wd:Q3513326 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Awyi"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_awyi> a schema:Article ;
+	schema:about wd:Q3513326 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język awyi"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3513326 wdt:P220 "auw" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/auw> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "awyi1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/awyi1241> ;
+	wdt:P2355 "2519" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P1098 "+350"^^xsd:decimal ;
+	wdt:P1627 "auw" ;
+	wdt:P2341 wd:Q26236561 ;
+	wdt:P1466 "awy" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_awy> ;
+	wdt:P2192 "1353" ;
+	wdt:P2590 "0852 6" ;
+	wdt:P1705 "bahasa Awje"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P279 wd:Q1752158 ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P305 "auw" ;
+	wdt:P646 "/m/02hxby2" ;
+	wdt:P910 wd:Q33656769 ;
+	rdfs:label "Awyi"@id ;
+	skos:prefLabel "Awyi"@id ;
+	schema:name "Awyi"@id ;
+	rdfs:label "Awyi"@en ;
+	skos:prefLabel "Awyi"@en ;
+	schema:name "Awyi"@en ;
+	rdfs:label "Awyi jezik"@hr ;
+	skos:prefLabel "Awyi jezik"@hr ;
+	schema:name "Awyi jezik"@hr ;
+	rdfs:label "Lenga Awyi"@pms ;
+	skos:prefLabel "Lenga Awyi"@pms ;
+	schema:name "Lenga Awyi"@pms ;
+	rdfs:label "Kiawyi"@sw ;
+	skos:prefLabel "Kiawyi"@sw ;
+	schema:name "Kiawyi"@sw ;
+	rdfs:label "ภาษาเอายี"@th ;
+	skos:prefLabel "ภาษาเอายี"@th ;
+	schema:name "ภาษาเอายี"@th ;
+	rdfs:label "Język awyi"@pl ;
+	skos:prefLabel "Język awyi"@pl ;
+	schema:name "Język awyi"@pl ;
+	rdfs:label "Awyi"@ilo ;
+	skos:prefLabel "Awyi"@ilo ;
+	schema:name "Awyi"@ilo ;
+	rdfs:label "Awyi"@ace ;
+	skos:prefLabel "Awyi"@ace ;
+	schema:name "Awyi"@ace ;
+	rdfs:label "Awyi"@af ;
+	skos:prefLabel "Awyi"@af ;
+	schema:name "Awyi"@af ;
+	rdfs:label "Awyi"@an ;
+	skos:prefLabel "Awyi"@an ;
+	schema:name "Awyi"@an ;
+	rdfs:label "Awyi"@ast ;
+	skos:prefLabel "Awyi"@ast ;
+	schema:name "Awyi"@ast ;
+	rdfs:label "Awyi"@bar ;
+	skos:prefLabel "Awyi"@bar ;
+	schema:name "Awyi"@bar ;
+	rdfs:label "awyi"@br ;
+	skos:prefLabel "awyi"@br ;
+	schema:name "awyi"@br ;
+	rdfs:label "awyi"@ca ;
+	skos:prefLabel "awyi"@ca ;
+	schema:name "awyi"@ca ;
+	rdfs:label "Awyi"@co ;
+	skos:prefLabel "Awyi"@co ;
+	schema:name "Awyi"@co ;
+	rdfs:label "Awyi"@cs ;
+	skos:prefLabel "Awyi"@cs ;
+	schema:name "Awyi"@cs ;
+	rdfs:label "Awyi"@cy ;
+	skos:prefLabel "Awyi"@cy ;
+	schema:name "Awyi"@cy ;
+	rdfs:label "Awyi"@da ;
+	skos:prefLabel "Awyi"@da ;
+	schema:name "Awyi"@da ;
+	rdfs:label "Awyi"@de ;
+	skos:prefLabel "Awyi"@de ;
+	schema:name "Awyi"@de ;
+	rdfs:label "Awyi"@de-at ;
+	skos:prefLabel "Awyi"@de-at ;
+	schema:name "Awyi"@de-at ;
+	rdfs:label "Awyi"@de-ch ;
+	skos:prefLabel "Awyi"@de-ch ;
+	schema:name "Awyi"@de-ch ;
+	rdfs:label "Awyi"@en-ca ;
+	skos:prefLabel "Awyi"@en-ca ;
+	schema:name "Awyi"@en-ca ;
+	rdfs:label "Awyi"@en-gb ;
+	skos:prefLabel "Awyi"@en-gb ;
+	schema:name "Awyi"@en-gb ;
+	rdfs:label "Awyi"@eo ;
+	skos:prefLabel "Awyi"@eo ;
+	schema:name "Awyi"@eo ;
+	rdfs:label "Awyi"@es ;
+	skos:prefLabel "Awyi"@es ;
+	schema:name "Awyi"@es ;
+	rdfs:label "Awyi"@et ;
+	skos:prefLabel "Awyi"@et ;
+	schema:name "Awyi"@et ;
+	rdfs:label "Awyi"@eu ;
+	skos:prefLabel "Awyi"@eu ;
+	schema:name "Awyi"@eu ;
+	rdfs:label "Awyi"@fi ;
+	skos:prefLabel "Awyi"@fi ;
+	schema:name "Awyi"@fi ;
+	rdfs:label "awyi"@fr ;
+	skos:prefLabel "awyi"@fr ;
+	schema:name "awyi"@fr ;
+	rdfs:label "Awyi"@frp ;
+	skos:prefLabel "Awyi"@frp ;
+	schema:name "Awyi"@frp ;
+	rdfs:label "Awyi"@fur ;
+	skos:prefLabel "Awyi"@fur ;
+	schema:name "Awyi"@fur ;
+	rdfs:label "Awyi"@ga ;
+	skos:prefLabel "Awyi"@ga ;
+	schema:name "Awyi"@ga ;
+	rdfs:label "Awyi"@gd ;
+	skos:prefLabel "Awyi"@gd ;
+	schema:name "Awyi"@gd ;
+	rdfs:label "Awyi"@gl ;
+	skos:prefLabel "Awyi"@gl ;
+	schema:name "Awyi"@gl ;
+	rdfs:label "Awyi"@gsw ;
+	skos:prefLabel "Awyi"@gsw ;
+	schema:name "Awyi"@gsw ;
+	rdfs:label "Awyi"@hu ;
+	skos:prefLabel "Awyi"@hu ;
+	schema:name "Awyi"@hu ;
+	rdfs:label "Awyi"@ia ;
+	skos:prefLabel "Awyi"@ia ;
+	schema:name "Awyi"@ia ;
+	rdfs:label "Awyi"@ie ;
+	skos:prefLabel "Awyi"@ie ;
+	schema:name "Awyi"@ie ;
+	rdfs:label "Awyi"@io ;
+	skos:prefLabel "Awyi"@io ;
+	schema:name "Awyi"@io ;
+	rdfs:label "Awyi"@is ;
+	skos:prefLabel "Awyi"@is ;
+	schema:name "Awyi"@is ;
+	rdfs:label "awyi"@it ;
+	skos:prefLabel "awyi"@it ;
+	schema:name "awyi"@it ;
+	rdfs:label "Awyi"@jv ;
+	skos:prefLabel "Awyi"@jv ;
+	schema:name "Awyi"@jv ;
+	rdfs:label "Awyi"@kg ;
+	skos:prefLabel "Awyi"@kg ;
+	schema:name "Awyi"@kg ;
+	rdfs:label "Awyi"@lb ;
+	skos:prefLabel "Awyi"@lb ;
+	schema:name "Awyi"@lb ;
+	rdfs:label "Awyi"@li ;
+	skos:prefLabel "Awyi"@li ;
+	schema:name "Awyi"@li ;
+	rdfs:label "Awyi"@lij ;
+	skos:prefLabel "Awyi"@lij ;
+	schema:name "Awyi"@lij ;
+	rdfs:label "Awyi"@mg ;
+	skos:prefLabel "Awyi"@mg ;
+	schema:name "Awyi"@mg ;
+	rdfs:label "Awyi"@min ;
+	skos:prefLabel "Awyi"@min ;
+	schema:name "Awyi"@min ;
+	rdfs:label "Awyi"@ms ;
+	skos:prefLabel "Awyi"@ms ;
+	schema:name "Awyi"@ms ;
+	rdfs:label "Awyi"@nap ;
+	skos:prefLabel "Awyi"@nap ;
+	schema:name "Awyi"@nap ;
+	rdfs:label "Awyi"@nb ;
+	skos:prefLabel "Awyi"@nb ;
+	schema:name "Awyi"@nb ;
+	rdfs:label "Awyi"@nds ;
+	skos:prefLabel "Awyi"@nds ;
+	schema:name "Awyi"@nds ;
+	rdfs:label "Awyi"@nds-nl ;
+	skos:prefLabel "Awyi"@nds-nl ;
+	schema:name "Awyi"@nds-nl ;
+	rdfs:label "Awyi"@nl ;
+	skos:prefLabel "Awyi"@nl ;
+	schema:name "Awyi"@nl ;
+	rdfs:label "Awyi"@nn ;
+	skos:prefLabel "Awyi"@nn ;
+	schema:name "Awyi"@nn ;
+	rdfs:label "Awyi"@nrm ;
+	skos:prefLabel "Awyi"@nrm ;
+	schema:name "Awyi"@nrm ;
+	rdfs:label "Awyi"@oc ;
+	skos:prefLabel "Awyi"@oc ;
+	schema:name "Awyi"@oc ;
+	rdfs:label "Awyi"@pcd ;
+	skos:prefLabel "Awyi"@pcd ;
+	schema:name "Awyi"@pcd ;
+	rdfs:label "Awyi"@pt ;
+	skos:prefLabel "Awyi"@pt ;
+	schema:name "Awyi"@pt ;
+	rdfs:label "Awyi"@pt-br ;
+	skos:prefLabel "Awyi"@pt-br ;
+	schema:name "Awyi"@pt-br ;
+	rdfs:label "Awyi"@rm ;
+	skos:prefLabel "Awyi"@rm ;
+	schema:name "Awyi"@rm ;
+	rdfs:label "Awyi"@ro ;
+	skos:prefLabel "Awyi"@ro ;
+	schema:name "Awyi"@ro ;
+	rdfs:label "Awyi"@sc ;
+	skos:prefLabel "Awyi"@sc ;
+	schema:name "Awyi"@sc ;
+	rdfs:label "Awyi"@scn ;
+	skos:prefLabel "Awyi"@scn ;
+	schema:name "Awyi"@scn ;
+	rdfs:label "Awyi"@sco ;
+	skos:prefLabel "Awyi"@sco ;
+	schema:name "Awyi"@sco ;
+	rdfs:label "Awyi"@sk ;
+	skos:prefLabel "Awyi"@sk ;
+	schema:name "Awyi"@sk ;
+	rdfs:label "Awyi"@sl ;
+	skos:prefLabel "Awyi"@sl ;
+	schema:name "Awyi"@sl ;
+	rdfs:label "Awyi"@sr-el ;
+	skos:prefLabel "Awyi"@sr-el ;
+	schema:name "Awyi"@sr-el ;
+	rdfs:label "Awyi"@su ;
+	skos:prefLabel "Awyi"@su ;
+	schema:name "Awyi"@su ;
+	rdfs:label "Awyi"@sv ;
+	skos:prefLabel "Awyi"@sv ;
+	schema:name "Awyi"@sv ;
+	rdfs:label "Awyi"@vec ;
+	skos:prefLabel "Awyi"@vec ;
+	schema:name "Awyi"@vec ;
+	rdfs:label "Awyi"@vi ;
+	skos:prefLabel "Awyi"@vi ;
+	schema:name "Awyi"@vi ;
+	rdfs:label "Awyi"@vls ;
+	skos:prefLabel "Awyi"@vls ;
+	schema:name "Awyi"@vls ;
+	rdfs:label "Awyi"@vo ;
+	skos:prefLabel "Awyi"@vo ;
+	schema:name "Awyi"@vo ;
+	rdfs:label "Awyi"@wa ;
+	skos:prefLabel "Awyi"@wa ;
+	schema:name "Awyi"@wa ;
+	rdfs:label "Awyi"@wo ;
+	skos:prefLabel "Awyi"@wo ;
+	schema:name "Awyi"@wo ;
+	rdfs:label "Awyi"@zu ;
+	skos:prefLabel "Awyi"@zu ;
+	schema:name "Awyi"@zu ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"pagsasao idiay Indonesia"@ilo,
+		"bagian dari rumpun bahasa Papua"@id,
+		"Papuan language"@en,
+		"taal"@nl,
+		"langue de la frontière"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Awyi language"@en,
+		"Awye"@id,
+		"Awje"@id,
+		"bahasa Awje"@id,
+		"bahasa Awji"@id,
+		"bahasa Awye"@id,
+		"bahasa Awyi"@id,
+		"bahasa Njao"@id,
+		"bahasa Nyao"@id .
+
+wd:Q11732061 owl:sameAs wd:Q3513326 .
+
+wd:Q12952242 owl:sameAs wd:Q3513326 .
+
+wd:Q25927494 owl:sameAs wd:Q3513326 .
+
+wd:Q50927222 owl:sameAs wd:Q3513326 .

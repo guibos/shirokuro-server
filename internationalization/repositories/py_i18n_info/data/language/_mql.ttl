@@ -1,0 +1,157 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4286473 a schema:Dataset ;
+	schema:about wd:Q4286473 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1868478162"^^xsd:integer ;
+	schema:dateModified "2023-04-04T22:25:59Z"^^xsd:dateTime .
+
+wd:Q4286473 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Mb%C3%A8lim%C3%A8> a schema:Article ;
+	schema:about wd:Q4286473 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Mbèlimè"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mbelime> a schema:Article ;
+	schema:about wd:Q4286473 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mbelime"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9C%D0%B1%D0%B5%D0%BB%D0%B8%D0%BC%D0%B5_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q4286473 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Мбелиме (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimbelime> a schema:Article ;
+	schema:about wd:Q4286473 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimbelime"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mbelime_language> a schema:Article ;
+	schema:about wd:Q4286473 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mbelime language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Mbelime> a schema:Article ;
+	schema:about wd:Q4286473 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Mbelime"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://anp.wikipedia.org/wiki/%E0%A4%8F%E0%A4%AE%E0%A4%AC%E0%A5%87%E0%A4%B2%E0%A4%BF%E0%A4%AE_%E2%80%8B%E2%80%8B%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q4286473 ;
+	schema:inLanguage "anp" ;
+	schema:isPartOf <https://anp.wikipedia.org/> ;
+	schema:name "एमबेलिम ​​भाषा"@anp .
+
+<https://anp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4286473 wdt:P220 "mql" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mql> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "mql" ;
+	wdt:P279 wd:Q1157178 ;
+	wdt:P1394 "mbel1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mbel1240> ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P17 wd:Q962,
+		wd:Q945 ;
+	wdt:P2581 "02717447n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s02717447n> ;
+	wdt:P5198 "294924779" ;
+	wdt:P1627 "mql" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2341 wd:Q29154,
+		wd:Q316216 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MQL> ;
+	wdt:P646 "/m/02hwm2v" ;
+	wdt:P1098 "+24500"^^xsd:decimal ;
+	rdfs:label "Мбелиме"@ru ;
+	skos:prefLabel "Мбелиме"@ru ;
+	schema:name "Мбелиме"@ru ;
+	rdfs:label "Mbelime"@en ;
+	skos:prefLabel "Mbelime"@en ;
+	schema:name "Mbelime"@en ;
+	rdfs:label "Kimbelime"@sw ;
+	skos:prefLabel "Kimbelime"@sw ;
+	schema:name "Kimbelime"@sw ;
+	rdfs:label "Lenga Mbelime"@pms ;
+	skos:prefLabel "Lenga Mbelime"@pms ;
+	schema:name "Lenga Mbelime"@pms ;
+	rdfs:label "mbèlimè"@fr ;
+	skos:prefLabel "mbèlimè"@fr ;
+	schema:name "mbèlimè"@fr ;
+	rdfs:label "Mbelime"@en-gb ;
+	skos:prefLabel "Mbelime"@en-gb ;
+	schema:name "Mbelime"@en-gb ;
+	rdfs:label "Wikang Mbelime"@tl ;
+	skos:prefLabel "Wikang Mbelime"@tl ;
+	schema:name "Wikang Mbelime"@tl ;
+	rdfs:label "Mbelime"@oc ;
+	skos:prefLabel "Mbelime"@oc ;
+	schema:name "Mbelime"@oc ;
+	rdfs:label "एमबेलिम ​​भाषा"@anp ;
+	skos:prefLabel "एमबेलिम ​​भाषा"@anp ;
+	schema:name "एमबेलिम ​​भाषा"@anp ;
+	schema:description "Sprache"@de,
+		"один из языков группы гур"@ru,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Mbelime language"@en,
+		"mbɛlimɛ"@fr .

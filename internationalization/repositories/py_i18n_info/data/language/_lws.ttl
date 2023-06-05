@@ -1,0 +1,109 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q47522462 a schema:Dataset ;
+	schema:about wd:Q47522462 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1924351176"^^xsd:integer ;
+	schema:dateModified "2023-06-26T18:50:43Z"^^xsd:dateTime .
+
+wd:Q47522462 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Malawian_Sign_Language> a schema:Article ;
+	schema:about wd:Q47522462 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Malawian Sign Language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Ogbi_nke_Malawi> a schema:Article ;
+	schema:about wd:Q47522462 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Ogbi nke Malawi"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q47522462 wdt:P31 wd:Q34228 ;
+	wdt:P220 "lws" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lws> ;
+	wdt:P305 "lws" ;
+	wdt:P17 wd:Q1020 ;
+	wdt:P1394 "mala1549" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mala1549> ;
+	wdt:P1627 "lws" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2671 "/g/11f3xmdstb" ;
+	wdtn:P2671 <http://g.co/kg/g/11f3xmdstb> ;
+	wdt:P910 wd:Q105715604 ;
+	rdfs:label "Malawian Sign Language"@en ;
+	skos:prefLabel "Malawian Sign Language"@en ;
+	schema:name "Malawian Sign Language"@en ;
+	rdfs:label "malavia signolingvo"@eo ;
+	skos:prefLabel "malavia signolingvo"@eo ;
+	schema:name "malavia signolingvo"@eo ;
+	rdfs:label "Malawische Gebärdensprache"@de ;
+	skos:prefLabel "Malawische Gebärdensprache"@de ;
+	schema:name "Malawische Gebärdensprache"@de ;
+	rdfs:label "langue des signes malawite"@fr ;
+	skos:prefLabel "langue des signes malawite"@fr ;
+	schema:name "langue des signes malawite"@fr ;
+	rdfs:label "lengua de signos malauí"@es ;
+	skos:prefLabel "lengua de signos malauí"@es ;
+	schema:name "lengua de signos malauí"@es ;
+	rdfs:label "малавийский жестовый язык"@ru ;
+	skos:prefLabel "малавийский жестовый язык"@ru ;
+	schema:name "малавийский жестовый язык"@ru ;
+	rdfs:label "Malawische Gebarentaal"@nl ;
+	skos:prefLabel "Malawische Gebarentaal"@nl ;
+	schema:name "Malawische Gebarentaal"@nl ;
+	rdfs:label "lingua dei segni malawiana"@it ;
+	skos:prefLabel "lingua dei segni malawiana"@it ;
+	schema:name "lingua dei segni malawiana"@it ;
+	rdfs:label "lingua de sinia malaui"@lfn ;
+	skos:prefLabel "lingua de sinia malaui"@lfn ;
+	schema:name "lingua de sinia malaui"@lfn ;
+	rdfs:label "Malawian Sign Language"@en-gb ;
+	skos:prefLabel "Malawian Sign Language"@en-gb ;
+	schema:name "Malawian Sign Language"@en-gb ;
+	rdfs:label "マラウイ手話"@ja ;
+	skos:prefLabel "マラウイ手話"@ja ;
+	schema:name "マラウイ手話"@ja ;
+	rdfs:label "toki luka Malawi"@tok ;
+	skos:prefLabel "toki luka Malawi"@tok ;
+	schema:name "toki luka Malawi"@tok ;
+	rdfs:label "Asụsụ Ogbi nke Malawi"@ig ;
+	skos:prefLabel "Asụsụ Ogbi nke Malawi"@ig ;
+	schema:name "Asụsụ Ogbi nke Malawi"@ig ;
+	schema:description "sign language used in Malawi"@en,
+		"toki luka pi ma Malawi"@tok .

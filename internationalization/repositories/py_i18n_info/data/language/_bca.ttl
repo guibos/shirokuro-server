@@ -1,0 +1,128 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12628803 a schema:Dataset ;
+	schema:about wd:Q12628803 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1832333858"^^xsd:integer ;
+	schema:dateModified "2023-02-12T06:37:01Z"^^xsd:dateTime .
+
+wd:Q12628803 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Bai_sentral> a schema:Article ;
+	schema:about wd:Q12628803 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Bai sentral"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibai_cha_Kati> a schema:Article ;
+	schema:about wd:Q12628803 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibai cha Kati"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Centralni_bai_jezik> a schema:Article ;
+	schema:about wd:Q12628803 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Centralni bai jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Central_Bai_language> a schema:Article ;
+	schema:about wd:Q12628803 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Central Bai language"@en ;
+	wikibase:badge wd:Q70894304 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12628803 wdt:P31 wd:Q34770,
+		wd:Q33384,
+		wd:Q1288568 ;
+	wdt:P220 "bca" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bca> ;
+	wdt:P361 wd:Q35103 ;
+	wdt:P1394 "cent2004" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/cent2004> ;
+	wdt:P1466 "bai" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_bai> ;
+	wdt:P305 "bca" ;
+	wdt:P1627 "bca" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q47097,
+		wd:Q43194 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BCA> ;
+	wdt:P4839 "Entity[\"Language\", \"BaiCentral::6w9t6\"]",
+		"Entity[\"Language\", \"BaiCentral\"]" ;
+	wdt:P910 wd:Q33674100 ;
+	rdfs:label "Centralni bai jezik"@hr ;
+	skos:prefLabel "Centralni bai jezik"@hr ;
+	schema:name "Centralni bai jezik"@hr ;
+	rdfs:label "Lenga Bai sentral"@pms ;
+	skos:prefLabel "Lenga Bai sentral"@pms ;
+	schema:name "Lenga Bai sentral"@pms ;
+	rdfs:label "Central Bai"@en ;
+	skos:prefLabel "Central Bai"@en ;
+	schema:name "Central Bai"@en ;
+	rdfs:label "bai central"@fr ;
+	skos:prefLabel "bai central"@fr ;
+	schema:name "bai central"@fr ;
+	rdfs:label "Kibai ya Kati"@sw ;
+	skos:prefLabel "Kibai ya Kati"@sw ;
+	schema:name "Kibai ya Kati"@sw ;
+	rdfs:label "Central Bai"@en-gb ;
+	skos:prefLabel "Central Bai"@en-gb ;
+	schema:name "Central Bai"@en-gb ;
+	rdfs:label "白语中部方言"@zh ;
+	skos:prefLabel "白语中部方言"@zh ;
+	schema:name "白语中部方言"@zh ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "bai de Jianchuan"@fr,
+		"Central Bai language"@en .
+
+wd:Q12952248 owl:sameAs wd:Q12628803 .

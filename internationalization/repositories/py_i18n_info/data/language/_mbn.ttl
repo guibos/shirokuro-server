@@ -1,0 +1,179 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3273980 a schema:Dataset ;
+	schema:about wd:Q3273980 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1864301817"^^xsd:integer ;
+	schema:dateModified "2023-03-30T01:11:05Z"^^xsd:dateTime .
+
+wd:Q3273980 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Macagu%C3%A1n> a schema:Article ;
+	schema:about wd:Q3273980 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Macaguán"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_macagu%C3%A1n> a schema:Article ;
+	schema:about wd:Q3273980 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga macaguán"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BA%D0%B0%D0%B3%D1%83%D0%B0%D0%BD_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q3273980 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Макагуан (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Macagu%C3%A1n_language> a schema:Article ;
+	schema:about wd:Q3273980 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Macaguán language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sco.wikipedia.org/wiki/Macagu%C3%A1n_leid> a schema:Article ;
+	schema:about wd:Q3273980 ;
+	schema:inLanguage "sco" ;
+	schema:isPartOf <https://sco.wikipedia.org/> ;
+	schema:name "Macaguán leid"@sco .
+
+<https://sco.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_hitn%C3%BC> a schema:Article ;
+	schema:about wd:Q3273980 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma hitnü"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_macagu%C3%A1n> a schema:Article ;
+	schema:about wd:Q3273980 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua macaguán"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Hitn%C3%BC> a schema:Article ;
+	schema:about wd:Q3273980 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Hitnü"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3273980 wdt:P220 "mbn" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mbn> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "mbn" ;
+	wdt:P279 wd:Q944056 ;
+	wdt:P1394 "maca1259" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/maca1259> ;
+	wdt:P2355 "2019" ;
+	wdt:P17 wd:Q739 ;
+	wdt:P1466 "mcg" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_mcg> ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P910 wd:Q33076613 ;
+	wdt:P2192 "3025" ;
+	wdt:P1627 "mbn" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2341 wd:Q230223,
+		wd:Q13984 ;
+	wdt:P1245 "1696502" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MBN> ;
+	wdt:P646 "/m/02hwzgg" ;
+	wdt:P1098 "+513"^^xsd:decimal ;
+	wdt:P1846 <http://commons.wikimedia.org/wiki/Special:FilePath/Macagu%C3%A1n.png> ;
+	wdt:P9717 "hitnu" ;
+	rdfs:label "macaguán"@fr ;
+	skos:prefLabel "macaguán"@fr ;
+	schema:name "macaguán"@fr ;
+	rdfs:label "Macaguán"@en ;
+	skos:prefLabel "Macaguán"@en ;
+	schema:name "Macaguán"@en ;
+	rdfs:label "Lenga macaguán"@pms ;
+	skos:prefLabel "Lenga macaguán"@pms ;
+	schema:name "Lenga macaguán"@pms ;
+	rdfs:label "Макагуан"@ru ;
+	skos:prefLabel "Макагуан"@ru ;
+	schema:name "Макагуан"@ru ;
+	rdfs:label "Macaguán leid"@sco ;
+	skos:prefLabel "Macaguán leid"@sco ;
+	schema:name "Macaguán leid"@sco ;
+	rdfs:label "Macaguán"@en-gb ;
+	skos:prefLabel "Macaguán"@en-gb ;
+	schema:name "Macaguán"@en-gb ;
+	rdfs:label "Wikang Macaguán"@tl ;
+	skos:prefLabel "Wikang Macaguán"@tl ;
+	schema:name "Wikang Macaguán"@tl ;
+	rdfs:label "Macaguán"@es ;
+	skos:prefLabel "Macaguán"@es ;
+	schema:name "Macaguán"@es ;
+	rdfs:label "Lingua macaguán"@gl ;
+	skos:prefLabel "Lingua macaguán"@gl ;
+	schema:name "Lingua macaguán"@gl ;
+	rdfs:label "hitnü"@ca ;
+	skos:prefLabel "hitnü"@ca ;
+	schema:name "hitnü"@ca ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue guahibane parlée en Colombie"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"lingua da familia guahibana falada en Colombia"@gl,
+		"llengua de la família guajibana"@ca ;
+	skos:altLabel "Macaguán language"@en,
+		"Macaguan"@en,
+		"Macaguan language"@en,
+		"Hitnü"@es,
+		"Jitnu"@es,
+		"Lingua hitnü"@gl .
+
+wd:Q61095739 owl:sameAs wd:Q3273980 .

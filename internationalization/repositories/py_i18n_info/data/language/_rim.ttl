@@ -1,0 +1,187 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7193418 a schema:Dataset ;
+	schema:about wd:Q7193418 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961116801"^^xsd:integer ;
+	schema:dateModified "2023-08-25T18:07:33Z"^^xsd:dateTime .
+
+wd:Q7193418 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Nyaturu_(langue)> a schema:Article ;
+	schema:about wd:Q7193418 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Nyaturu (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Nyataru> a schema:Article ;
+	schema:about wd:Q7193418 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Nyataru"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_nyaturu> a schema:Article ;
+	schema:about wd:Q7193418 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język nyaturu"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinyaturu> a schema:Article ;
+	schema:about wd:Q7193418 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinyaturu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Turu_language> a schema:Article ;
+	schema:about wd:Q7193418 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Turu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_turu> a schema:Article ;
+	schema:about wd:Q7193418 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua turu"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Turu> a schema:Article ;
+	schema:about wd:Q7193418 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Turu"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Turu> a schema:Article ;
+	schema:about wd:Q7193418 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Turu"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7193418 wdt:P220 "rim" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/rim> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P2161 "F.32" ;
+	wdt:P279 wd:Q41347250 ;
+	wdt:P1394 "nyat1246" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nyat1246> ;
+	wdt:P910 wd:Q33076841 ;
+	wdt:P1466 "rim" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_rim> ;
+	wdt:P5198 "294929681" ;
+	wdt:P17 wd:Q924 ;
+	wdt:P305 "rim" ;
+	wdt:P1627 "rim" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q213268,
+		wd:Q153326,
+		wd:Q153335,
+		wd:Q331117 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/RIM> ;
+	wdt:P646 "/m/02hwxkw" ;
+	rdfs:label "Kinyaturu"@sw ;
+	skos:prefLabel "Kinyaturu"@sw ;
+	schema:name "Kinyaturu"@sw ;
+	rdfs:label "Język nyaturu"@pl ;
+	skos:prefLabel "Język nyaturu"@pl ;
+	schema:name "Język nyaturu"@pl ;
+	rdfs:label "Turu"@en ;
+	skos:prefLabel "Turu"@en ;
+	schema:name "Turu"@en ;
+	rdfs:label "Língua turu"@pt ;
+	skos:prefLabel "Língua turu"@pt ;
+	schema:name "Língua turu"@pt ;
+	rdfs:label "Lenga Nyataru"@pms ;
+	skos:prefLabel "Lenga Nyataru"@pms ;
+	schema:name "Lenga Nyataru"@pms ;
+	rdfs:label "nyaturu"@fr ;
+	skos:prefLabel "nyaturu"@fr ;
+	schema:name "nyaturu"@fr ;
+	rdfs:label "Wikang Turu"@tl ;
+	skos:prefLabel "Wikang Turu"@tl ;
+	schema:name "Wikang Turu"@tl ;
+	rdfs:label "Turu"@oc ;
+	skos:prefLabel "Turu"@oc ;
+	schema:name "Turu"@oc ;
+	rdfs:label "Asụsụ Turu"@ig ;
+	skos:prefLabel "Asụsụ Turu"@ig ;
+	schema:name "Asụsụ Turu"@ig ;
+	rdfs:label "Igituru"@rw ;
+	skos:prefLabel "Igituru"@rw ;
+	schema:name "Igituru"@rw ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue bantoue"@fr,
+		"Bantu language spoken in Tanzania"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua bantu nativa della Tanzania"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"język z rodziny bantu"@pl ;
+	skos:altLabel "Kirimi"@sw,
+		"Język kinyaturu"@pl,
+		"Język kirimi"@pl,
+		"Język rimi"@pl,
+		"Nyaturu language"@en,
+		"Keremi language"@en,
+		"Kinyaturu language"@en,
+		"Kiremi language"@en,
+		"Limi language"@en,
+		"Remi language"@en,
+		"Rimi language"@en,
+		"Turu language"@en,
+		"Ikinyaturu"@rw,
+		"Ikiremi"@rw,
+		"Ikirimi"@rw,
+		"Ikikiremi"@rw,
+		"Ikilimi"@rw,
+		"Ikikeremi"@rw .
+
+wd:Q12952978 owl:sameAs wd:Q7193418 .

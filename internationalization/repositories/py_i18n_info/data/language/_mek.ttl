@@ -1,0 +1,136 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3304803 a schema:Dataset ;
+	schema:about wd:Q3304803 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1556056323"^^xsd:integer ;
+	schema:dateModified "2022-01-04T15:48:28Z"^^xsd:dateTime .
+
+wd:Q3304803 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Mekeo> a schema:Article ;
+	schema:about wd:Q3304803 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Mekeo"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mekeo> a schema:Article ;
+	schema:about wd:Q3304803 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mekeo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Mekeo> a schema:Article ;
+	schema:about wd:Q3304803 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Mekeo"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimekeo> a schema:Article ;
+	schema:about wd:Q3304803 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimekeo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mekeo_language> a schema:Article ;
+	schema:about wd:Q3304803 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mekeo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3304803 wdt:P305 "mek" ;
+	wdt:P220 "mek" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mek> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0hhssp7" ;
+	wdt:P279 wd:Q3039108 ;
+	wdt:P1394 "meke1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/meke1243> ;
+	wdt:P1466 "mke" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_mke> ;
+	wdt:P17 wd:Q691 ;
+	wdt:P1098 "+19000"^^xsd:decimal ;
+	wdt:P361 wd:Q324457,
+		wd:Q49228 ;
+	wdt:P1627 "mek" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2341 wd:Q874942 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MEK> ;
+	wdt:P910 wd:Q33672706 ;
+	rdfs:label "mekeo"@fr ;
+	skos:prefLabel "mekeo"@fr ;
+	schema:name "mekeo"@fr ;
+	rdfs:label "Mekeo"@en ;
+	skos:prefLabel "Mekeo"@en ;
+	schema:name "Mekeo"@en ;
+	rdfs:label "メケオ語"@ja ;
+	skos:prefLabel "メケオ語"@ja ;
+	schema:name "メケオ語"@ja ;
+	rdfs:label "Lenga Mekeo"@pms ;
+	skos:prefLabel "Lenga Mekeo"@pms ;
+	schema:name "Lenga Mekeo"@pms ;
+	rdfs:label "Kimekeo"@sw ;
+	skos:prefLabel "Kimekeo"@sw ;
+	schema:name "Kimekeo"@sw ;
+	rdfs:label "Mekeo"@ilo ;
+	skos:prefLabel "Mekeo"@ilo ;
+	schema:name "Mekeo"@ilo ;
+	rdfs:label "Mekeo"@en-gb ;
+	skos:prefLabel "Mekeo"@en-gb ;
+	schema:name "Mekeo"@en-gb ;
+	rdfs:label "Mekeo"@nl ;
+	skos:prefLabel "Mekeo"@nl ;
+	schema:name "Mekeo"@nl ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"language spoken in Papua New Guinea"@en,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Mekeo language"@en .

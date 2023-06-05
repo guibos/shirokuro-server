@@ -1,0 +1,400 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6426967 a schema:Dataset ;
+	schema:about wd:Q6426967 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912145542"^^xsd:integer ;
+	schema:dateModified "2023-06-10T10:56:45Z"^^xsd:dateTime .
+
+wd:Q6426967 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kola> a schema:Article ;
+	schema:about wd:Q6426967 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kola"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Kola> a schema:Article ;
+	schema:about wd:Q6426967 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Kola"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BB%D0%B0_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q6426967 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Кола (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikola> a schema:Article ;
+	schema:about wd:Q6426967 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikola"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kola_language> a schema:Article ;
+	schema:about wd:Q6426967 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kola language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Kola> a schema:Article ;
+	schema:about wd:Q6426967 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Kola"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Kola> a schema:Article ;
+	schema:about wd:Q6426967 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Kola"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_kola> a schema:Article ;
+	schema:about wd:Q6426967 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język kola"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6426967 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kola1285" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kola1285> ;
+	wdt:P1098 "+500"^^xsd:decimal,
+		"+2750"^^xsd:decimal ;
+	wdt:P279 wd:Q3217369 ;
+	wdt:P2341 wd:Q24386127,
+		wd:Q24383458,
+		wd:Q5093,
+		wd:Q24383443,
+		wd:Q24385691,
+		wd:Q24384767 ;
+	wdt:P220 "kvv" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kvv> ;
+	wdt:P1466 "koo" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_koo> ;
+	wdt:P2590 "0720 2" ;
+	wdt:P1705 "bahasa Kola"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P305 "kvv" ;
+	wdt:P1627 "kvv" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P1245 "880601" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KVV> ;
+	wdt:P646 "/m/02hx6dp" ;
+	rdfs:label "Kola"@en ;
+	skos:prefLabel "Kola"@en ;
+	schema:name "Kola"@en ;
+	rdfs:label "Кола (язык)"@ru ;
+	skos:prefLabel "Кола (язык)"@ru ;
+	schema:name "Кола (язык)"@ru ;
+	rdfs:label "Lenga Kola"@pms ;
+	skos:prefLabel "Lenga Kola"@pms ;
+	schema:name "Lenga Kola"@pms ;
+	rdfs:label "Kikola"@sw ;
+	skos:prefLabel "Kikola"@sw ;
+	schema:name "Kikola"@sw ;
+	rdfs:label "Kola"@id ;
+	skos:prefLabel "Kola"@id ;
+	schema:name "Kola"@id ;
+	rdfs:label "Kola"@ace ;
+	skos:prefLabel "Kola"@ace ;
+	schema:name "Kola"@ace ;
+	rdfs:label "Kola"@af ;
+	skos:prefLabel "Kola"@af ;
+	schema:name "Kola"@af ;
+	rdfs:label "Kola"@an ;
+	skos:prefLabel "Kola"@an ;
+	schema:name "Kola"@an ;
+	rdfs:label "Kola"@ast ;
+	skos:prefLabel "Kola"@ast ;
+	schema:name "Kola"@ast ;
+	rdfs:label "Kola"@bar ;
+	skos:prefLabel "Kola"@bar ;
+	schema:name "Kola"@bar ;
+	rdfs:label "kola"@br ;
+	skos:prefLabel "kola"@br ;
+	schema:name "kola"@br ;
+	rdfs:label "kola"@ca ;
+	skos:prefLabel "kola"@ca ;
+	schema:name "kola"@ca ;
+	rdfs:label "Kola"@co ;
+	skos:prefLabel "Kola"@co ;
+	schema:name "Kola"@co ;
+	rdfs:label "Kola"@cs ;
+	skos:prefLabel "Kola"@cs ;
+	schema:name "Kola"@cs ;
+	rdfs:label "Kola"@cy ;
+	skos:prefLabel "Kola"@cy ;
+	schema:name "Kola"@cy ;
+	rdfs:label "Kola"@da ;
+	skos:prefLabel "Kola"@da ;
+	schema:name "Kola"@da ;
+	rdfs:label "Kola"@de ;
+	skos:prefLabel "Kola"@de ;
+	schema:name "Kola"@de ;
+	rdfs:label "Kola"@de-at ;
+	skos:prefLabel "Kola"@de-at ;
+	schema:name "Kola"@de-at ;
+	rdfs:label "Kola"@de-ch ;
+	skos:prefLabel "Kola"@de-ch ;
+	schema:name "Kola"@de-ch ;
+	rdfs:label "Kola"@en-ca ;
+	skos:prefLabel "Kola"@en-ca ;
+	schema:name "Kola"@en-ca ;
+	rdfs:label "Kola"@en-gb ;
+	skos:prefLabel "Kola"@en-gb ;
+	schema:name "Kola"@en-gb ;
+	rdfs:label "Kola"@eo ;
+	skos:prefLabel "Kola"@eo ;
+	schema:name "Kola"@eo ;
+	rdfs:label "Kola"@es ;
+	skos:prefLabel "Kola"@es ;
+	schema:name "Kola"@es ;
+	rdfs:label "Kola"@et ;
+	skos:prefLabel "Kola"@et ;
+	schema:name "Kola"@et ;
+	rdfs:label "Kola"@eu ;
+	skos:prefLabel "Kola"@eu ;
+	schema:name "Kola"@eu ;
+	rdfs:label "Kola"@fi ;
+	skos:prefLabel "Kola"@fi ;
+	schema:name "Kola"@fi ;
+	rdfs:label "kola"@fr ;
+	skos:prefLabel "kola"@fr ;
+	schema:name "kola"@fr ;
+	rdfs:label "Kola"@frp ;
+	skos:prefLabel "Kola"@frp ;
+	schema:name "Kola"@frp ;
+	rdfs:label "Kola"@fur ;
+	skos:prefLabel "Kola"@fur ;
+	schema:name "Kola"@fur ;
+	rdfs:label "Kola"@ga ;
+	skos:prefLabel "Kola"@ga ;
+	schema:name "Kola"@ga ;
+	rdfs:label "Kola"@gd ;
+	skos:prefLabel "Kola"@gd ;
+	schema:name "Kola"@gd ;
+	rdfs:label "Kola"@gl ;
+	skos:prefLabel "Kola"@gl ;
+	schema:name "Kola"@gl ;
+	rdfs:label "Kola"@gsw ;
+	skos:prefLabel "Kola"@gsw ;
+	schema:name "Kola"@gsw ;
+	rdfs:label "Kola"@hr ;
+	skos:prefLabel "Kola"@hr ;
+	schema:name "Kola"@hr ;
+	rdfs:label "Kola"@hu ;
+	skos:prefLabel "Kola"@hu ;
+	schema:name "Kola"@hu ;
+	rdfs:label "Kola"@ia ;
+	skos:prefLabel "Kola"@ia ;
+	schema:name "Kola"@ia ;
+	rdfs:label "Kola"@ie ;
+	skos:prefLabel "Kola"@ie ;
+	schema:name "Kola"@ie ;
+	rdfs:label "Kola"@io ;
+	skos:prefLabel "Kola"@io ;
+	schema:name "Kola"@io ;
+	rdfs:label "Kola"@is ;
+	skos:prefLabel "Kola"@is ;
+	schema:name "Kola"@is ;
+	rdfs:label "kola"@it ;
+	skos:prefLabel "kola"@it ;
+	schema:name "kola"@it ;
+	rdfs:label "Kola"@jv ;
+	skos:prefLabel "Kola"@jv ;
+	schema:name "Kola"@jv ;
+	rdfs:label "Kola"@kg ;
+	skos:prefLabel "Kola"@kg ;
+	schema:name "Kola"@kg ;
+	rdfs:label "Kola"@lb ;
+	skos:prefLabel "Kola"@lb ;
+	schema:name "Kola"@lb ;
+	rdfs:label "Kola"@li ;
+	skos:prefLabel "Kola"@li ;
+	schema:name "Kola"@li ;
+	rdfs:label "Kola"@lij ;
+	skos:prefLabel "Kola"@lij ;
+	schema:name "Kola"@lij ;
+	rdfs:label "Kola"@mg ;
+	skos:prefLabel "Kola"@mg ;
+	schema:name "Kola"@mg ;
+	rdfs:label "Kola"@min ;
+	skos:prefLabel "Kola"@min ;
+	schema:name "Kola"@min ;
+	rdfs:label "Kola"@ms ;
+	skos:prefLabel "Kola"@ms ;
+	schema:name "Kola"@ms ;
+	rdfs:label "Kola"@nap ;
+	skos:prefLabel "Kola"@nap ;
+	schema:name "Kola"@nap ;
+	rdfs:label "Kola"@nb ;
+	skos:prefLabel "Kola"@nb ;
+	schema:name "Kola"@nb ;
+	rdfs:label "Kola"@nds ;
+	skos:prefLabel "Kola"@nds ;
+	schema:name "Kola"@nds ;
+	rdfs:label "Kola"@nds-nl ;
+	skos:prefLabel "Kola"@nds-nl ;
+	schema:name "Kola"@nds-nl ;
+	rdfs:label "Kola"@nl ;
+	skos:prefLabel "Kola"@nl ;
+	schema:name "Kola"@nl ;
+	rdfs:label "Kola"@nn ;
+	skos:prefLabel "Kola"@nn ;
+	schema:name "Kola"@nn ;
+	rdfs:label "Kola"@nrm ;
+	skos:prefLabel "Kola"@nrm ;
+	schema:name "Kola"@nrm ;
+	rdfs:label "Kola"@oc ;
+	skos:prefLabel "Kola"@oc ;
+	schema:name "Kola"@oc ;
+	rdfs:label "Kola"@pcd ;
+	skos:prefLabel "Kola"@pcd ;
+	schema:name "Kola"@pcd ;
+	rdfs:label "język kola"@pl ;
+	skos:prefLabel "język kola"@pl ;
+	schema:name "język kola"@pl ;
+	rdfs:label "Kola"@pt ;
+	skos:prefLabel "Kola"@pt ;
+	schema:name "Kola"@pt ;
+	rdfs:label "Kola"@pt-br ;
+	skos:prefLabel "Kola"@pt-br ;
+	schema:name "Kola"@pt-br ;
+	rdfs:label "Kola"@rm ;
+	skos:prefLabel "Kola"@rm ;
+	schema:name "Kola"@rm ;
+	rdfs:label "Kola"@ro ;
+	skos:prefLabel "Kola"@ro ;
+	schema:name "Kola"@ro ;
+	rdfs:label "Kola"@sc ;
+	skos:prefLabel "Kola"@sc ;
+	schema:name "Kola"@sc ;
+	rdfs:label "Kola"@scn ;
+	skos:prefLabel "Kola"@scn ;
+	schema:name "Kola"@scn ;
+	rdfs:label "Kola"@sco ;
+	skos:prefLabel "Kola"@sco ;
+	schema:name "Kola"@sco ;
+	rdfs:label "Kola"@sk ;
+	skos:prefLabel "Kola"@sk ;
+	schema:name "Kola"@sk ;
+	rdfs:label "Kola"@sl ;
+	skos:prefLabel "Kola"@sl ;
+	schema:name "Kola"@sl ;
+	rdfs:label "Kola"@sr-el ;
+	skos:prefLabel "Kola"@sr-el ;
+	schema:name "Kola"@sr-el ;
+	rdfs:label "Kola"@su ;
+	skos:prefLabel "Kola"@su ;
+	schema:name "Kola"@su ;
+	rdfs:label "Kola"@sv ;
+	skos:prefLabel "Kola"@sv ;
+	schema:name "Kola"@sv ;
+	rdfs:label "Kola"@vec ;
+	skos:prefLabel "Kola"@vec ;
+	schema:name "Kola"@vec ;
+	rdfs:label "Kola"@vi ;
+	skos:prefLabel "Kola"@vi ;
+	schema:name "Kola"@vi ;
+	rdfs:label "Kola"@vls ;
+	skos:prefLabel "Kola"@vls ;
+	schema:name "Kola"@vls ;
+	rdfs:label "Kola"@vo ;
+	skos:prefLabel "Kola"@vo ;
+	schema:name "Kola"@vo ;
+	rdfs:label "Kola"@wa ;
+	skos:prefLabel "Kola"@wa ;
+	schema:name "Kola"@wa ;
+	rdfs:label "Kola"@wo ;
+	skos:prefLabel "Kola"@wo ;
+	schema:name "Kola"@wo ;
+	rdfs:label "Kola"@zu ;
+	skos:prefLabel "Kola"@zu ;
+	schema:name "Kola"@zu ;
+	rdfs:label "Kola"@ilo ;
+	skos:prefLabel "Kola"@ilo ;
+	schema:name "Kola"@ilo ;
+	rdfs:label "Wikang Kola"@tl ;
+	skos:prefLabel "Wikang Kola"@tl ;
+	schema:name "Wikang Kola"@tl ;
+	rdfs:label "Tataramon na Kola"@bcl ;
+	skos:prefLabel "Tataramon na Kola"@bcl ;
+	schema:name "Tataramon na Kola"@bcl ;
+	schema:description "bagian dari rumpun bahasa Austronesia"@id,
+		"pagsasao idiay Indonesia"@ilo,
+		"taal"@nl,
+		"שפה"@he,
+		"langue malayo-polynésienne"@fr,
+		"Austronesian language in Maluku"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl ;
+	skos:altLabel "Bahasa Kola"@id,
+		"Warilau"@id,
+		"bahasa Warilau"@id,
+		"Kulaha"@id,
+		"bahasa Kulaha"@id,
+		"Marlasi"@id,
+		"bahasa Marlasi"@id,
+		"bahasa Kola"@id,
+		"Kola language"@en,
+		"Marlasi language"@en,
+		"Marlasi"@en .
+
+wd:Q24273521 owl:sameAs wd:Q6426967 .
+
+wd:Q25893712 owl:sameAs wd:Q6426967 .
+
+wd:Q31441667 owl:sameAs wd:Q6426967 .

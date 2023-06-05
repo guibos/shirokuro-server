@@ -1,0 +1,129 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5583349 a schema:Dataset ;
+	schema:about wd:Q5583349 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1810842769"^^xsd:integer ;
+	schema:dateModified "2023-01-13T17:34:14Z"^^xsd:dateTime .
+
+wd:Q5583349 a wikibase:Item .
+
+<https://no.wikipedia.org/wiki/Dogri-kangri> a schema:Article ;
+	schema:about wd:Q5583349 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Dogri-kangri"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Dogri-kangri> a schema:Article ;
+	schema:about wd:Q5583349 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Dogri-kangri"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5583349 wdt:P31 wd:Q25295,
+		wd:Q33742,
+		wd:Q152559,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q946077,
+		wd:Q2656685 ;
+	wdt:P1394 "indo1311" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/indo1311> ;
+	wdt:P219 "doi" ;
+	wdt:P220 "doi" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/doi> ;
+	wdt:P305 "doi" ;
+	wdt:P1627 "doi" ;
+	wdt:P4801 "languages/doi" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/doi> ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DOI> ;
+	wdt:P2671 "/g/120qqkns" ;
+	wdtn:P2671 <http://g.co/kg/g/120qqkns> ;
+	wdt:P227 "4347212-6" ;
+	wdtn:P227 <https://d-nb.info/gnd/4347212-6> ;
+	wdt:P460 wd:Q32730 ;
+	rdfs:label "Dogri-Kangri-Bhateali"@en ;
+	skos:prefLabel "Dogri-Kangri-Bhateali"@en ;
+	schema:name "Dogri-Kangri-Bhateali"@en ;
+	rdfs:label "Dogri-kangri"@nb ;
+	skos:prefLabel "Dogri-kangri"@nb ;
+	schema:name "Dogri-kangri"@nb ;
+	rdfs:label "Dogri-kangri"@nn ;
+	skos:prefLabel "Dogri-kangri"@nn ;
+	schema:name "Dogri-kangri"@nn ;
+	rdfs:label "ドーグリー・カーングリー諸語"@ja ;
+	skos:prefLabel "ドーグリー・カーングリー諸語"@ja ;
+	schema:name "ドーグリー・カーングリー諸語"@ja ;
+	rdfs:label "langues kangri-dogri"@fr ;
+	skos:prefLabel "langues kangri-dogri"@fr ;
+	schema:name "langues kangri-dogri"@fr ;
+	rdfs:label "Dogri–Kangri-Sprachen"@de ;
+	skos:prefLabel "Dogri–Kangri-Sprachen"@de ;
+	schema:name "Dogri–Kangri-Sprachen"@de ;
+	rdfs:label "ਪੱਛਮੀ ਪਹਾੜੀ ਭਾਸ਼ਾਵਾਂ"@pa ;
+	skos:prefLabel "ਪੱਛਮੀ ਪਹਾੜੀ ਭਾਸ਼ਾਵਾਂ"@pa ;
+	schema:name "ਪੱਛਮੀ ਪਹਾੜੀ ਭਾਸ਼ਾਵਾਂ"@pa ;
+	rdfs:label "догранско-кангрански јазици"@mk ;
+	skos:prefLabel "догранско-кангрански јазици"@mk ;
+	schema:name "догранско-кангрански јазици"@mk ;
+	rdfs:label "Dogri-Kangri"@nl ;
+	skos:prefLabel "Dogri-Kangri"@nl ;
+	schema:name "Dogri-Kangri"@nl ;
+	rdfs:label "łéngue kangri-dogri"@vec ;
+	skos:prefLabel "łéngue kangri-dogri"@vec ;
+	schema:name "łéngue kangri-dogri"@vec ;
+	rdfs:label "ڈوگری-کانٛگری"@ks ;
+	skos:prefLabel "ڈوگری-کانٛگری"@ks ;
+	schema:name "ڈوگری-کانٛگری"@ks ;
+	rdfs:label "ڈوگری کانگڑی بھٹیالی"@pnb ;
+	skos:prefLabel "ڈوگری کانگڑی بھٹیالی"@pnb ;
+	schema:name "ڈوگری کانگڑی بھٹیالی"@pnb ;
+	schema:description "famille de langues"@fr,
+		"Sprachfamilie"@de,
+		"language family"@en,
+		"ਪੱਛਮੀ ਹਿਮਾਚਲ ਪ੍ਰਦੇਸ਼ ਦੀਆਂ ਭਾਸ਼ਾਵਾਂ"@pa,
+		"familh yezhoù"@br,
+		"groep Indische talen gesproken in India en Pakistan"@nl ;
+	skos:altLabel "ヒマーチャル語"@ja,
+		"Kangri-Dogri languages"@en,
+		"Dogri–Kangri languages"@en,
+		"Dogri–Kangri"@en,
+		"Bhateali-Kangri-Dogri"@en,
+		"Dogri-Bhateali-Kangri"@en,
+		"Kangri-Bhateali-Dogri"@en,
+		"Kangri-Dogri-Bhateali"@en,
+		"ਪੱਛਮੀ ਪਹਾੜੀ ਬੋਲੀਆਂ"@pa,
+		"догри-кангри"@mk .

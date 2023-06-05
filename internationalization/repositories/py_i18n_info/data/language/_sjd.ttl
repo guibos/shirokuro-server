@@ -1,0 +1,732 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33656 a schema:Dataset ;
+	schema:about wd:Q33656 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960583293"^^xsd:integer ;
+	schema:dateModified "2023-08-25T00:03:27Z"^^xsd:dateTime .
+
+wd:Q33656 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Saami,_Kildin> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Saami, Kildin"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://myv.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BB%D0%B0-%D1%81%D0%B0%D0%B0%D0%BC%D0%BE%D0%BD%D1%8C_%D0%BA%D0%B5%D0%BB%D1%8C> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "myv" ;
+	schema:isPartOf <https://myv.wikipedia.org/> ;
+	schema:name "Кола-саамонь кель"@myv .
+
+<https://myv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D0%BB%D1%8C%D0%B4%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%B0%D0%B0%D0%BC%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Кильдинский саамский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://se.wikipedia.org/wiki/Gielddas%C3%A1megiella> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "se" ;
+	schema:isPartOf <https://se.wikipedia.org/> ;
+	schema:name "Gielddasámegiella"@se .
+
+<https://se.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Kildinsamisk> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Kildinsamisk"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Kildinskolaponski_jezik> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Kildinskolaponski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_lap%C3%B4nica_de_Quildim> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua lapônica de Quildim"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://olo.wikipedia.org/wiki/Kiltin%C3%A4nsaamen_kieli> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "olo" ;
+	schema:isPartOf <https://olo.wikipedia.org/> ;
+	schema:name "Kiltinänsaamen kieli"@olo .
+
+<https://olo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bat-smg.wikipedia.org/wiki/K%C4%97ld%C4%97na_samiu_kalba> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "sgs" ;
+	schema:isPartOf <https://bat-smg.wikipedia.org/> ;
+	schema:name "Kėldėna samiu kalba"@sgs .
+
+<https://bat-smg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisaami_cha_Kildin> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisaami cha Kildin"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%9A%D0%B8%D0%BB%D1%8C%D0%B4%D0%B8%D0%BD_%D1%81%D0%B0%D0%B0%D0%BC%D0%B8_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Кильдин саами кыв"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%AB%E3%83%87%E3%82%A3%E3%83%B3%E3%83%BB%E3%82%B5%E3%83%BC%E3%83%9F%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "キルディン・サーミ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Kildinsamische_Sprache> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Kildinsamische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mhr.wikipedia.org/wiki/%D0%9A%D0%B8%D0%BB%D1%8C%D0%B4%D0%B8%D0%BD_%D0%B9%D1%8B%D0%BB%D0%BC%D0%B5> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "mhr" ;
+	schema:isPartOf <https://mhr.wikipedia.org/> ;
+	schema:name "Кильдин йылме"@mhr .
+
+<https://mhr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Kildinsk%C3%A1_s%C3%A1m%C5%A1tina> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Kildinská sámština"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_sami_di_Kildin> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua sami di Kildin"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Kildini_sz%C3%A1mi_nyelv> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Kildini számi nyelv"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Kildino_sami%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Kildino samių kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Kildin_Samice> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Kildin Samice"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9A%D0%B8%D0%BB%D1%8C%D0%B4%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%B0%D0%B0%D0%BC%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikinews.org/> ;
+	schema:name "Категория:Кильдинский саамский язык"@ru .
+
+<https://ru.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://sv.wikipedia.org/wiki/Kildinsamiska> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Kildinsamiska"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/Kildinsam%C3%ADska> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Kildinsamíska"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%99%E1%83%98%E1%83%9A%E1%83%93%E1%83%98%E1%83%9C-%E1%83%A1%E1%83%90%E1%83%90%E1%83%9B%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%94%E1%83%9C%E1%83%90> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "კილდინ-საამური ენა"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ce.wikipedia.org/wiki/%D0%9A%D0%B8%D0%BB%D0%B4%D0%B8%D0%B9%D0%BD-%D1%81%D0%B0%D0%B0%D0%BC%D0%B8%D0%B9%D0%BD_%D0%BC%D0%BE%D1%82%D1%82> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "ce" ;
+	schema:isPartOf <https://ce.wikipedia.org/> ;
+	schema:name "Килдийн-саамийн мотт"@ce .
+
+<https://ce.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_kildin> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język kildin"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Sami_kildin> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Sami kildin"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fiu-vro.wikipedia.org/wiki/Kildinisaami_kiil> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "vro" ;
+	schema:isPartOf <https://fiu-vro.wikipedia.org/> ;
+	schema:name "Kildinisaami kiil"@vro .
+
+<https://fiu-vro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%9A%D0%B8%D0%BB%D0%B4%D0%B8%D0%BD-%D1%81%D0%B0%D0%B0%D0%BC%D1%81%D0%BA%D0%B8_%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Килдин-саамски език"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%9A%D1%96%D0%BB%D1%8C%D0%B4%D0%B7%D1%96%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D0%B0%D0%B0%D0%BC%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Кільдзінская саамская мова"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Kildini_saami_keel> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Kildini saami keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Sami_kildin> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Sami kildin"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Same_de_Kildin> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Same de Kildin"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Kildin-samea_lingvo> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Kildin-samea lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Samieg_Kildin> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Samieg Kildin"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_saami_de_Kildin> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua saami de Kildin"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Kildinsamisk> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Kildinsamisk"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cu.wikipedia.org/wiki/%D0%9A%D0%B8%D0%BB%D1%8C%D0%B4%D0%B8%D0%BD%D1%8C%D1%81%D0%BA%D1%8A_%D1%81%D0%B0%D0%B0%D0%BC%D1%8C%D1%81%D0%BA%D1%8A_%D1%A9%EA%99%81%EA%99%91%D0%BA%D1%8A> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "cu" ;
+	schema:isPartOf <https://cu.wikipedia.org/> ;
+	schema:name "Кильдиньскъ саамьскъ ѩꙁꙑкъ"@cu .
+
+<https://cu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Sami_kildin> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Sami kildin"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Kildin_Sami> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Kildin Sami"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Kiltin%C3%A4nsaame> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Kiltinänsaame"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%ED%82%AC%EB%94%98_%EC%82%AC%EB%AF%B8%EC%96%B4> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "킬딘 사미어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%9F%BA%E7%88%BE%E4%B8%81%E8%96%A9%E7%B1%B3%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "基爾丁薩米語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Kildin-Samisch> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Kildin-Samisch"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Lapponica_Kildinensis> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Lapponica Kildinensis"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%9A%D0%B8%D0%BB%D0%B4%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%BB%D0%B0%D0%BF%D0%BE%D0%BD%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Килдинсколапонски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://smn.wikipedia.org/wiki/Kield%C3%A2s%C3%A4mikiel%C3%A2> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "smn" ;
+	schema:isPartOf <https://smn.wikipedia.org/> ;
+	schema:name "Kieldâsämikielâ"@smn .
+
+<https://smn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%B3%D8%A7%D9%85%DB%8C_%DA%A9%DB%8C%D9%84%D8%AF%DB%8C%D9%86> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان سامی کیلدین"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vep.wikipedia.org/wiki/Kildinsaamen_kel%27> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "vep" ;
+	schema:isPartOf <https://vep.wikipedia.org/> ;
+	schema:name "Kildinsaamen kel'"@vep .
+
+<https://vep.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kildin_S%C3%A1mi> a schema:Article ;
+	schema:about wd:Q33656 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kildin Sámi"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33656 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "sjd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/sjd> ;
+	wdt:P646 "/m/02lpds" ;
+	wdt:P910 wd:Q10090010 ;
+	wdt:P305 "sjd" ;
+	wdt:P282 wd:Q8209 ;
+	wdt:P279 wd:Q3501268 ;
+	wdt:P1098 "+500"^^xsd:decimal,
+		"+350"^^xsd:decimal ;
+	wdt:P373 "Kildin Sami language" ;
+	wdt:P1394 "kild1236" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kild1236> ;
+	wdt:P2355 "372" ;
+	wdt:P1846 <http://commons.wikimedia.org/wiki/Special:FilePath/Sami%20languages%20large.png> ;
+	wdt:P278 "саа 575" ;
+	wdt:P17 wd:Q159 ;
+	wdt:P131 wd:Q1759 ;
+	wdt:P1466 "ski" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ski> ;
+	wdt:P2581 "03318406n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s03318406n> ;
+	wdt:P1627 "sjd" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P2192 "3565" ;
+	wdt:P244 "sh89006379" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh89006379> ;
+	wdt:P424 "sjd" ;
+	wdt:P2341 wd:Q1759 ;
+	wdt:P1396 "41-AAB-bd" ;
+	wdt:P1705 "кӣллт са̄мь кӣлл"@sjd,
+		"кӣлтса̄мь кӣлл"@sjd ;
+	wdt:P1245 "1477618" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SJD> ;
+	wdt:P9318 "gielddasamegiella" ;
+	wdt:P2347 "29561" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p29561> ;
+	wdt:P6293 "Y212430" ;
+	wdtn:P6293 <http://www.yso.fi/onto/ysa/Y212430> ;
+	wdt:P9013 "Kildininsaame" ;
+	wdt:P4342 "kildinsamisk" ;
+	wdt:P8189 "987007536826505171" ;
+	rdfs:label "基爾丁薩米語"@zh ;
+	skos:prefLabel "基爾丁薩米語"@zh ;
+	schema:name "基爾丁薩米語"@zh ;
+	rdfs:label "Lenga Saami"@pms ;
+	skos:prefLabel "Lenga Saami"@pms ;
+	schema:name "Lenga Saami"@pms ;
+	rdfs:label "same de Kildin"@fr ;
+	skos:prefLabel "same de Kildin"@fr ;
+	schema:name "same de Kildin"@fr ;
+	rdfs:label "sami kildin"@es ;
+	skos:prefLabel "sami kildin"@es ;
+	schema:name "sami kildin"@es ;
+	rdfs:label "kildini számi"@hu ;
+	skos:prefLabel "kildini számi"@hu ;
+	schema:name "kildini számi"@hu ;
+	rdfs:label "Килдийн-саамийн мотт"@ce ;
+	skos:prefLabel "Килдийн-саамийн мотт"@ce ;
+	schema:name "Килдийн-саамийн мотт"@ce ;
+	rdfs:label "lingua sami di Kildin"@it ;
+	skos:prefLabel "lingua sami di Kildin"@it ;
+	schema:name "lingua sami di Kildin"@it ;
+	rdfs:label "kildini saami keel"@et ;
+	skos:prefLabel "kildini saami keel"@et ;
+	schema:name "kildini saami keel"@et ;
+	rdfs:label "Kildinsamisch"@de ;
+	skos:prefLabel "Kildinsamisch"@de ;
+	schema:name "Kildinsamisch"@de ;
+	rdfs:label "samieg Kildin"@br ;
+	skos:prefLabel "samieg Kildin"@br ;
+	schema:name "samieg Kildin"@br ;
+	rdfs:label "Кильдиньскъ саамьскъ ѩꙁꙑкъ"@cu ;
+	skos:prefLabel "Кильдиньскъ саамьскъ ѩꙁꙑкъ"@cu ;
+	schema:name "Кильдиньскъ саамьскъ ѩꙁꙑкъ"@cu ;
+	rdfs:label "kildinsamiska"@sv ;
+	skos:prefLabel "kildinsamiska"@sv ;
+	schema:name "kildinsamiska"@sv ;
+	rdfs:label "Língua sami de Kildin"@pt ;
+	skos:prefLabel "Língua sami de Kildin"@pt ;
+	schema:name "Língua sami de Kildin"@pt ;
+	rdfs:label "kildin-samea lingvo"@eo ;
+	skos:prefLabel "kildin-samea lingvo"@eo ;
+	schema:name "kildin-samea lingvo"@eo ;
+	rdfs:label "Kildinsamíska"@is ;
+	skos:prefLabel "Kildinsamíska"@is ;
+	schema:name "Kildinsamíska"@is ;
+	rdfs:label "кильдинский саамский язык"@ru ;
+	skos:prefLabel "кильдинский саамский язык"@ru ;
+	schema:name "кильдинский саамский язык"@ru ;
+	rdfs:label "Kildin Sami"@en ;
+	skos:prefLabel "Kildin Sami"@en ;
+	schema:name "Kildin Sami"@en ;
+	rdfs:label "gielddasámegiella"@se ;
+	skos:prefLabel "gielddasámegiella"@se ;
+	schema:name "gielddasámegiella"@se ;
+	rdfs:label "килдинсколапонски јазик"@mk ;
+	skos:prefLabel "килдинсколапонски јазик"@mk ;
+	schema:name "килдинсколапонски јазик"@mk ;
+	rdfs:label "kiltinänsaame"@fi ;
+	skos:prefLabel "kiltinänsaame"@fi ;
+	schema:name "kiltinänsaame"@fi ;
+	rdfs:label "Кільдзінская саамская мова"@be-tarask ;
+	skos:prefLabel "Кільдзінская саамская мова"@be-tarask ;
+	schema:name "Кільдзінская саамская мова"@be-tarask ;
+	rdfs:label "kildinsamisk"@nn ;
+	skos:prefLabel "kildinsamisk"@nn ;
+	schema:name "kildinsamisk"@nn ;
+	rdfs:label "кильдин йылме"@mhr ;
+	skos:prefLabel "кильдин йылме"@mhr ;
+	schema:name "кильдин йылме"@mhr ;
+	rdfs:label "Kėldėna samiu kalba"@sgs ;
+	skos:prefLabel "Kėldėna samiu kalba"@sgs ;
+	schema:name "Kėldėna samiu kalba"@sgs ;
+	rdfs:label "kildinská sámština"@cs ;
+	skos:prefLabel "kildinská sámština"@cs ;
+	schema:name "kildinská sámština"@cs ;
+	rdfs:label "Килдин-саамски език"@bg ;
+	skos:prefLabel "Килдин-саамски език"@bg ;
+	schema:name "Килдин-саамски език"@bg ;
+	rdfs:label "кильдин саами кыв"@kv ;
+	skos:prefLabel "кильдин саами кыв"@kv ;
+	schema:name "кильдин саами кыв"@kv ;
+	rdfs:label "Kildin laponski"@hr ;
+	skos:prefLabel "Kildin laponski"@hr ;
+	schema:name "Kildin laponski"@hr ;
+	rdfs:label "Kildino samių kalba"@lt ;
+	skos:prefLabel "Kildino samių kalba"@lt ;
+	schema:name "Kildino samių kalba"@lt ;
+	rdfs:label "kildinsamisk"@nb ;
+	skos:prefLabel "kildinsamisk"@nb ;
+	schema:name "kildinsamisk"@nb ;
+	rdfs:label "Język kildin"@pl ;
+	skos:prefLabel "Język kildin"@pl ;
+	schema:name "Język kildin"@pl ;
+	rdfs:label "Kildinisaami kiil"@vro ;
+	skos:prefLabel "Kildinisaami kiil"@vro ;
+	schema:name "Kildinisaami kiil"@vro ;
+	rdfs:label "Kildin Sami"@hif ;
+	skos:prefLabel "Kildin Sami"@hif ;
+	schema:name "Kildin Sami"@hif ;
+	rdfs:label "Lingua saami de Kildin"@gl ;
+	skos:prefLabel "Lingua saami de Kildin"@gl ;
+	schema:name "Lingua saami de Kildin"@gl ;
+	rdfs:label "Кола-саамонь кель"@myv ;
+	skos:prefLabel "Кола-саамонь кель"@myv ;
+	schema:name "Кола-саамонь кель"@myv ;
+	rdfs:label "sami kildin"@ca ;
+	skos:prefLabel "sami kildin"@ca ;
+	schema:name "sami kildin"@ca ;
+	rdfs:label "キルディン・サーミ語"@ja ;
+	skos:prefLabel "キルディン・サーミ語"@ja ;
+	schema:name "キルディン・サーミ語"@ja ;
+	rdfs:label "Kildin-Samisch"@nl ;
+	skos:prefLabel "Kildin-Samisch"@nl ;
+	schema:name "Kildin-Samisch"@nl ;
+	rdfs:label "Kisaami cha Kildin"@sw ;
+	skos:prefLabel "Kisaami cha Kildin"@sw ;
+	schema:name "Kisaami cha Kildin"@sw ;
+	rdfs:label "Kildin Samice"@tr ;
+	skos:prefLabel "Kildin Samice"@tr ;
+	schema:name "Kildin Samice"@tr ;
+	rdfs:label "Kildin Sami"@en-gb ;
+	skos:prefLabel "Kildin Sami"@en-gb ;
+	schema:name "Kildin Sami"@en-gb ;
+	rdfs:label "sami cildin"@cy ;
+	skos:prefLabel "sami cildin"@cy ;
+	schema:name "sami cildin"@cy ;
+	rdfs:label "Kiltinänsaamen kieli"@olo ;
+	skos:prefLabel "Kiltinänsaamen kieli"@olo ;
+	schema:name "Kiltinänsaamen kieli"@olo ;
+	rdfs:label "კილდინ-საამური ენა"@ka ;
+	skos:prefLabel "კილდინ-საამური ენა"@ka ;
+	schema:name "კილდინ-საამური ენა"@ka ;
+	rdfs:label "Sami kildin"@ast ;
+	skos:prefLabel "Sami kildin"@ast ;
+	schema:name "Sami kildin"@ast ;
+	rdfs:label "킬딘 사미어"@ko ;
+	skos:prefLabel "킬딘 사미어"@ko ;
+	schema:name "킬딘 사미어"@ko ;
+	rdfs:label "кӣллт са̄мь кӣлл"@sjd ;
+	skos:prefLabel "кӣллт са̄мь кӣлл"@sjd ;
+	schema:name "кӣллт са̄мь кӣлл"@sjd ;
+	rdfs:label "kildin saemiengïele"@sma ;
+	skos:prefLabel "kildin saemiengïele"@sma ;
+	schema:name "kildin saemiengïele"@sma ;
+	rdfs:label "gielldasámegiella"@smj ;
+	skos:prefLabel "gielldasámegiella"@smj ;
+	schema:name "gielldasámegiella"@smj ;
+	rdfs:label "kieldâsämikielâ"@smn ;
+	skos:prefLabel "kieldâsämikielâ"@smn ;
+	schema:name "kieldâsämikielâ"@smn ;
+	rdfs:label "ǩiʹlddsääʹmǩiõll"@sms ;
+	skos:prefLabel "ǩiʹlddsääʹmǩiõll"@sms ;
+	schema:name "ǩiʹlddsääʹmǩiõll"@sms ;
+	rdfs:label "lingua Lapponica Kildinensis"@la ;
+	skos:prefLabel "lingua Lapponica Kildinensis"@la ;
+	schema:name "lingua Lapponica Kildinensis"@la ;
+	rdfs:label "زبان سامی کیلدین"@fa ;
+	skos:prefLabel "زبان سامی کیلدین"@fa ;
+	schema:name "زبان سامی کیلدین"@fa ;
+	rdfs:label "кільдинська саамська мова"@uk ;
+	skos:prefLabel "кільдинська саамська мова"@uk ;
+	schema:name "кільдинська саамська мова"@uk ;
+	rdfs:label "Kildinsaamen kel'"@vep ;
+	skos:prefLabel "Kildinsaamen kel'"@vep ;
+	schema:name "Kildinsaamen kel'"@vep ;
+	rdfs:label "sami de kildin"@vec ;
+	skos:prefLabel "sami de kildin"@vec ;
+	schema:name "sami de kildin"@vec ;
+	rdfs:label "কিলদিন সামি"@bn ;
+	skos:prefLabel "কিলদিন সামি"@bn ;
+	schema:name "কিলদিন সামি"@bn ;
+	rdfs:label "基爾丁薩米語"@zh-hant ;
+	skos:prefLabel "基爾丁薩米語"@zh-hant ;
+	schema:name "基爾丁薩米語"@zh-hant ;
+	rdfs:label "基爾丁薩米語"@zh-hk ;
+	skos:prefLabel "基爾丁薩米語"@zh-hk ;
+	schema:name "基爾丁薩米語"@zh-hk ;
+	rdfs:label "基爾丁薩米語"@zh-mo ;
+	skos:prefLabel "基爾丁薩米語"@zh-mo ;
+	schema:name "基爾丁薩米語"@zh-mo ;
+	rdfs:label "基爾丁薩米語"@zh-tw ;
+	skos:prefLabel "基爾丁薩米語"@zh-tw ;
+	schema:name "基爾丁薩米語"@zh-tw ;
+	rdfs:label "基尔丁萨米语"@zh-hans ;
+	skos:prefLabel "基尔丁萨米语"@zh-hans ;
+	schema:name "基尔丁萨米语"@zh-hans ;
+	rdfs:label "基尔丁萨米语"@zh-cn ;
+	skos:prefLabel "基尔丁萨米语"@zh-cn ;
+	schema:name "基尔丁萨米语"@zh-cn ;
+	rdfs:label "基尔丁萨米语"@zh-sg ;
+	skos:prefLabel "基尔丁萨米语"@zh-sg ;
+	schema:name "基尔丁萨米语"@zh-sg ;
+	rdfs:label "基尔丁萨米语"@zh-my ;
+	skos:prefLabel "基尔丁萨米语"@zh-my ;
+	schema:name "基尔丁萨米语"@zh-my ;
+	rdfs:label "kildinska samijščina"@sl ;
+	skos:prefLabel "kildinska samijščina"@sl ;
+	schema:name "kildinska samijščina"@sl ;
+	schema:description "idioma humano"@es,
+		"uralische Sprache im Nordwesten Russlands gesprochen"@de,
+		"lingua sami parlata in Russia"@it,
+		"Lingua urálica"@gl,
+		"Uralic language spoken in northwestern Russia"@en,
+		"taal"@nl,
+		"samisk språk"@nb,
+		"samisk språk"@nn,
+		"שפה"@he,
+		"Uralic language spoken in northwestern Russia"@en-gb,
+		"iaith Wralaidd siarad yn gogledd-orllewin Rwsia"@cy,
+		"yezh"@br,
+		"langue"@fr,
+		"lingua"@la,
+		"samiskt språk"@sv,
+		"Venäjällä puhuttava saamelaiskieli"@fi,
+		"один из саамских языков, основной язык саамов России"@ru,
+		"زبان سامی"@fa,
+		"unu el la sameaj lingvoj"@eo,
+		"llengua sami"@ca ;
+	skos:altLabel "基尔丁萨米语"@zh,
+		"Кильдин Саамхойн мотт"@ce,
+		"Килдин-саами мотт"@ce,
+		"Lingua lappone di Kildin"@it,
+		"kildini keel"@et,
+		"koola-lapi kirjakeel"@et,
+		"vene-lapi kirjakeel"@et,
+		"kildinisaami keel"@et,
+		"kildinilapi keel"@et,
+		"Кильди́ньскъ саа́мьскъ ѩꙁꙑ́къ"@cu,
+		"кильдинский диалект"@ru,
+		"кильдинско-саамский язык"@ru,
+		"кильдинский"@ru,
+		"кильдинский диалект саамского языка"@ru,
+		"кильдинский язык"@ru,
+		"кильдин-саамский язык"@ru,
+		"Кільдзінская мова"@be-tarask,
+		"kildinsamisk språk"@nn,
+		"саам-кильдин йылме"@mhr,
+		"Kildin Sami language"@en,
+		"Kildin Saami"@en,
+		"sjd"@en,
+		"самь кӣлл"@nb,
+		"kildinsamische Sprache"@de,
+		"kiltinänsaamen kieli"@fi,
+		"kildininsaame"@fi,
+		"kildininsaamen kieli"@fi,
+		"кӣлтса̄мь кӣлл"@sjd,
+		"sjd"@sjd,
+		"kildinsaemien"@sma,
+		"Kildin-Sami"@nl,
+		"килдински лапонски јазик"@mk,
+		"kildini számi nyelv"@hu,
+		"кільдин-саамська мова"@uk,
+		"kildinskosamijski jezik"@sl,
+		"sjd"@sl .
+
+wd:Q13154541 owl:sameAs wd:Q33656 .

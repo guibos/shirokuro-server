@@ -1,0 +1,164 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5917269 a schema:Dataset ;
+	schema:about wd:Q5917269 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912433037"^^xsd:integer ;
+	schema:dateModified "2023-06-10T17:56:53Z"^^xsd:dateTime .
+
+wd:Q5917269 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Hovongan> a schema:Article ;
+	schema:about wd:Q5917269 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Hovongan"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Hovongan> a schema:Article ;
+	schema:about wd:Q5917269 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Hovongan"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kihovongan> a schema:Article ;
+	schema:about wd:Q5917269 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kihovongan"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Hovongan_language> a schema:Article ;
+	schema:about wd:Q5917269 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Hovongan language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Hobongan> a schema:Article ;
+	schema:about wd:Q5917269 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Hobongan"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%82%E0%B8%AE%E0%B9%82%E0%B8%A7%E0%B8%87%E0%B8%B1%E0%B8%99> a schema:Article ;
+	schema:about wd:Q5917269 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาโฮโวงัน"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Hovongan> a schema:Article ;
+	schema:about wd:Q5917269 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Hovongan"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Bungan> a schema:Article ;
+	schema:about wd:Q5917269 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Bungan"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5917269 wdt:P220 "hov" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hov> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "hovo1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/hovo1239> ;
+	wdt:P305 "hov" ;
+	wdt:P1627 "hov" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2341 wd:Q3795,
+		wd:Q3916,
+		wd:Q3899 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HOV> ;
+	wdt:P646 "/m/02hwfsb" ;
+	rdfs:label "Hovongan"@en ;
+	skos:prefLabel "Hovongan"@en ;
+	schema:name "Hovongan"@en ;
+	rdfs:label "Lenga Hovongan"@pms ;
+	skos:prefLabel "Lenga Hovongan"@pms ;
+	schema:name "Lenga Hovongan"@pms ;
+	rdfs:label "Kihovongan"@sw ;
+	skos:prefLabel "Kihovongan"@sw ;
+	schema:name "Kihovongan"@sw ;
+	rdfs:label "Bahasa Hovongan"@id ;
+	skos:prefLabel "Bahasa Hovongan"@id ;
+	schema:name "Bahasa Hovongan"@id ;
+	rdfs:label "ภาษาโฮโวงัน"@th ;
+	skos:prefLabel "ภาษาโฮโวงัน"@th ;
+	schema:name "ภาษาโฮโวงัน"@th ;
+	rdfs:label "Hovongan"@ilo ;
+	skos:prefLabel "Hovongan"@ilo ;
+	schema:name "Hovongan"@ilo ;
+	rdfs:label "Hovongan"@en-gb ;
+	skos:prefLabel "Hovongan"@en-gb ;
+	schema:name "Hovongan"@en-gb ;
+	rdfs:label "Wikang Hovongan"@tl ;
+	skos:prefLabel "Wikang Hovongan"@tl ;
+	schema:name "Wikang Hovongan"@tl ;
+	rdfs:label "Tataramon na Hobongan"@bcl ;
+	skos:prefLabel "Tataramon na Hobongan"@bcl ;
+	schema:name "Tataramon na Hobongan"@bcl ;
+	rdfs:label "Bahasa Bungan"@ms ;
+	skos:prefLabel "Bahasa Bungan"@ms ;
+	schema:name "Bahasa Bungan"@ms ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Indonesia"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"bagian dari rumpun bahasa Austronesia"@id ;
+	skos:altLabel "Hovongan language"@en .
+
+wd:Q31441541 owl:sameAs wd:Q5917269 .

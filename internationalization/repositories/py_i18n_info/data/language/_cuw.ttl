@@ -1,0 +1,122 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12629033 a schema:Dataset ;
+	schema:about wd:Q12629033 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1349571255"^^xsd:integer ;
+	schema:dateModified "2021-01-28T00:02:10Z"^^xsd:dateTime .
+
+wd:Q12629033 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Chukwa> a schema:Article ;
+	schema:about wd:Q12629033 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Chukwa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kichukwa> a schema:Article ;
+	schema:about wd:Q12629033 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kichukwa"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Tchoukweg> a schema:Article ;
+	schema:about wd:Q12629033 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Tchoukweg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Chukwa_jezik> a schema:Article ;
+	schema:about wd:Q12629033 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Chukwa jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12629033 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "cuw" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cuw> ;
+	wdt:P1394 "chuk1270" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/chuk1270> ;
+	wdt:P2192 "4060" ;
+	wdt:P279 wd:Q922148 ;
+	wdt:P305 "cuw" ;
+	wdt:P1627 "cuw" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P17 wd:Q837 ;
+	wdt:P2341 wd:Q9170 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CUW> ;
+	rdfs:label "Chukwa jezik"@hr ;
+	skos:prefLabel "Chukwa jezik"@hr ;
+	schema:name "Chukwa jezik"@hr ;
+	rdfs:label "Lenga Chukwa"@pms ;
+	skos:prefLabel "Lenga Chukwa"@pms ;
+	schema:name "Lenga Chukwa"@pms ;
+	rdfs:label "Chukwa"@en ;
+	skos:prefLabel "Chukwa"@en ;
+	schema:name "Chukwa"@en ;
+	rdfs:label "tchoukweg"@br ;
+	skos:prefLabel "tchoukweg"@br ;
+	schema:name "tchoukweg"@br ;
+	rdfs:label "Kichukwa"@sw ;
+	skos:prefLabel "Kichukwa"@sw ;
+	schema:name "Kichukwa"@sw ;
+	rdfs:label "Chukwa"@en-gb ;
+	skos:prefLabel "Chukwa"@en-gb ;
+	schema:name "Chukwa"@en-gb ;
+	rdfs:label "chukwa"@fr ;
+	skos:prefLabel "chukwa"@fr ;
+	schema:name "chukwa"@fr ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"language"@en,
+		"langue himalayenne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Chukwa language"@en .
+
+wd:Q12952346 owl:sameAs wd:Q12629033 .
+
+wd:Q50934538 owl:sameAs wd:Q12629033 .

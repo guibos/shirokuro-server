@@ -1,0 +1,188 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3360016 a schema:Dataset ;
+	schema:about wd:Q3360016 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1896759522"^^xsd:integer ;
+	schema:dateModified "2023-05-15T15:22:34Z"^^xsd:dateTime .
+
+wd:Q3360016 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_amarag> a schema:Article ;
+	schema:about wd:Q3360016 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga amarag"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Amurdag> a schema:Article ;
+	schema:about wd:Q3360016 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Amurdag"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiamurdak> a schema:Article ;
+	schema:about wd:Q3360016 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiamurdak"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Amurdag> a schema:Article ;
+	schema:about wd:Q3360016 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Amurdag"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Amurdag> a schema:Article ;
+	schema:about wd:Q3360016 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Amurdag"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Amurdagi_keel> a schema:Article ;
+	schema:about wd:Q3360016 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Amurdagi keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Amarag_jezik> a schema:Article ;
+	schema:about wd:Q3360016 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Amarag jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%90%D0%BC%D1%83%D1%80%D1%82%D0%B0%D0%BA> a schema:Article ;
+	schema:about wd:Q3360016 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Амуртак"@ru ;
+	wikibase:badge wd:Q17559452 .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Amurdak_language> a schema:Article ;
+	schema:about wd:Q3360016 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Amurdak language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3360016 wdt:P220 "amg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/amg> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568,
+		wd:Q45762 ;
+	wdt:P646 "/m/03c22cx" ;
+	wdt:P1394 "amar1271" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/amar1271> ;
+	wdt:P2192 "1382" ;
+	wdt:P279 wd:Q4196968 ;
+	wdt:P910 wd:Q33115160 ;
+	wdt:P305 "amg" ;
+	wdt:P1627 "amg" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P1251 "8156" ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3235 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/AMG> ;
+	wdt:P1252 "N47" ;
+	wdt:P131 wd:Q3235 ;
+	wdt:P1098 "+0"^^xsd:decimal ;
+	wdt:P576 "2016-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P282 wd:Q41670,
+		wd:Q8229 ;
+	wdt:P1999 wd:Q20672091 ;
+	rdfs:label "Lenga amarag"@pms ;
+	skos:prefLabel "Lenga amarag"@pms ;
+	schema:name "Lenga amarag"@pms ;
+	rdfs:label "Amurdag"@en ;
+	skos:prefLabel "Amurdag"@en ;
+	schema:name "Amurdag"@en ;
+	rdfs:label "Amarag jezik"@hr ;
+	skos:prefLabel "Amarag jezik"@hr ;
+	schema:name "Amarag jezik"@hr ;
+	rdfs:label "Amurdag"@sv ;
+	skos:prefLabel "Amurdag"@sv ;
+	schema:name "Amurdag"@sv ;
+	rdfs:label "Amurdag"@nb ;
+	skos:prefLabel "Amurdag"@nb ;
+	schema:name "Amurdag"@nb ;
+	rdfs:label "Amurdagi keel"@et ;
+	skos:prefLabel "Amurdagi keel"@et ;
+	schema:name "Amurdagi keel"@et ;
+	rdfs:label "Amurdag"@nn ;
+	skos:prefLabel "Amurdag"@nn ;
+	schema:name "Amurdag"@nn ;
+	rdfs:label "amurdak"@fr ;
+	skos:prefLabel "amurdak"@fr ;
+	schema:name "amurdak"@fr ;
+	rdfs:label "Kiamurdak"@sw ;
+	skos:prefLabel "Kiamurdak"@sw ;
+	schema:name "Kiamurdak"@sw ;
+	rdfs:label "Amurdag"@nl ;
+	skos:prefLabel "Amurdag"@nl ;
+	schema:name "Amurdag"@nl ;
+	rdfs:label "амуртак"@ru ;
+	skos:prefLabel "амуртак"@ru ;
+	schema:name "амуртак"@ru ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue iwaidjane"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"вымерший австралийский язык"@ru ;
+	skos:altLabel "Amurdak"@en,
+		"Amurdag language"@en,
+		"Wureidbug"@en,
+		"Amarag"@sv,
+		"варатьпак"@ru,
+		"амарак"@ru .

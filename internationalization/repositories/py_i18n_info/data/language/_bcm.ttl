@@ -1,0 +1,165 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2882857 a schema:Dataset ;
+	schema:about wd:Q2882857 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1727760219"^^xsd:integer ;
+	schema:dateModified "2022-09-13T10:20:26Z"^^xsd:dateTime .
+
+wd:Q2882857 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Bannoni> a schema:Article ;
+	schema:about wd:Q2882857 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Bannoni"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Bannoni> a schema:Article ;
+	schema:about wd:Q2882857 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Bannoni"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Bannoni> a schema:Article ;
+	schema:about wd:Q2882857 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Bannoni"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%91%D0%B0%D0%BD%D0%BE%D0%BD%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q2882857 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Банонски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibannoni> a schema:Article ;
+	schema:about wd:Q2882857 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibannoni"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Bannoni_language> a schema:Article ;
+	schema:about wd:Q2882857 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Bannoni language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Bannoni_jezik> a schema:Article ;
+	schema:about wd:Q2882857 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Bannoni jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2882857 wdt:P305 "bcm" ;
+	wdt:P220 "bcm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bcm> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q6491579 ;
+	wdt:P1394 "bann1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/bann1247> ;
+	wdt:P1014 "300387943" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300387943> ;
+	wdt:P1466 "bnn" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_bnn> ;
+	wdt:P1627 "bcm" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q18826 ;
+	wdt:P1245 "671142" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BCM> ;
+	wdt:P646 "/m/02hxjc3" ;
+	wdt:P910 wd:Q33656912 ;
+	wdt:P4839 "Entity[\"Language\", \"Bannoni::365cq\"]",
+		"Entity[\"Language\", \"Bannoni\"]" ;
+	rdfs:label "bannoni"@fr ;
+	skos:prefLabel "bannoni"@fr ;
+	schema:name "bannoni"@fr ;
+	rdfs:label "Bannoni"@en ;
+	skos:prefLabel "Bannoni"@en ;
+	schema:name "Bannoni"@en ;
+	rdfs:label "Lenga Bannoni"@pms ;
+	skos:prefLabel "Lenga Bannoni"@pms ;
+	schema:name "Lenga Bannoni"@pms ;
+	rdfs:label "Bannoni jezik"@hr ;
+	skos:prefLabel "Bannoni jezik"@hr ;
+	schema:name "Bannoni jezik"@hr ;
+	rdfs:label "Kibannoni"@sw ;
+	skos:prefLabel "Kibannoni"@sw ;
+	schema:name "Kibannoni"@sw ;
+	rdfs:label "バノニ語"@ja ;
+	skos:prefLabel "バノニ語"@ja ;
+	schema:name "バノニ語"@ja ;
+	rdfs:label "Bannoni"@ilo ;
+	skos:prefLabel "Bannoni"@ilo ;
+	schema:name "Bannoni"@ilo ;
+	rdfs:label "Bannoni"@en-gb ;
+	skos:prefLabel "Bannoni"@en-gb ;
+	schema:name "Bannoni"@en-gb ;
+	rdfs:label "Банонски јазик"@mk ;
+	skos:prefLabel "Банонски јазик"@mk ;
+	schema:name "Банонски јазик"@mk ;
+	rdfs:label "Banoni"@nl ;
+	skos:prefLabel "Banoni"@nl ;
+	schema:name "Banoni"@nl ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Banoni"@fr,
+		"Bannoni language"@en .
+
+wd:Q11187866 owl:sameAs wd:Q2882857 .
+
+wd:Q4857009 owl:sameAs wd:Q2882857 .

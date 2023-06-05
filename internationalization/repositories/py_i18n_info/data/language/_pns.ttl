@@ -1,0 +1,393 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7227956 a schema:Dataset ;
+	schema:about wd:Q7227956 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912166729"^^xsd:integer ;
+	schema:dateModified "2023-06-10T11:28:30Z"^^xsd:dateTime .
+
+wd:Q7227956 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Ponosakan> a schema:Article ;
+	schema:about wd:Q7227956 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Ponosakan"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_ponosakan> a schema:Article ;
+	schema:about wd:Q7227956 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga ponosakan"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Ponosakan> a schema:Article ;
+	schema:about wd:Q7227956 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Ponosakan"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiponosakan> a schema:Article ;
+	schema:about wd:Q7227956 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiponosakan"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ponosakan_language> a schema:Article ;
+	schema:about wd:Q7227956 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ponosakan language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Ponosakan> a schema:Article ;
+	schema:about wd:Q7227956 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Ponosakan"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Ponosakan> a schema:Article ;
+	schema:about wd:Q7227956 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Ponosakan"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_ponosakan> a schema:Article ;
+	schema:about wd:Q7227956 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język ponosakan"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7227956 wdt:P220 "pns" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pns> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "pono1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/pono1240> ;
+	wdt:P276 wd:Q12518463 ;
+	wdt:P305 "pns" ;
+	wdt:P1627 "pns" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2341 wd:Q5068,
+		wd:Q3812 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PNS> ;
+	wdt:P646 "/m/02hxzxx" ;
+	wdt:P910 wd:Q33663499 ;
+	rdfs:label "Ponosakan"@en ;
+	skos:prefLabel "Ponosakan"@en ;
+	schema:name "Ponosakan"@en ;
+	rdfs:label "Lenga ponosakan"@pms ;
+	skos:prefLabel "Lenga ponosakan"@pms ;
+	schema:name "Lenga ponosakan"@pms ;
+	rdfs:label "Kiponosakan"@sw ;
+	skos:prefLabel "Kiponosakan"@sw ;
+	schema:name "Kiponosakan"@sw ;
+	rdfs:label "Ponosakan"@id ;
+	skos:prefLabel "Ponosakan"@id ;
+	schema:name "Ponosakan"@id ;
+	rdfs:label "Ponosakan"@ilo ;
+	skos:prefLabel "Ponosakan"@ilo ;
+	schema:name "Ponosakan"@ilo ;
+	rdfs:label "Ponosakan"@ace ;
+	skos:prefLabel "Ponosakan"@ace ;
+	schema:name "Ponosakan"@ace ;
+	rdfs:label "Ponosakan"@af ;
+	skos:prefLabel "Ponosakan"@af ;
+	schema:name "Ponosakan"@af ;
+	rdfs:label "Ponosakan"@an ;
+	skos:prefLabel "Ponosakan"@an ;
+	schema:name "Ponosakan"@an ;
+	rdfs:label "Ponosakan"@ast ;
+	skos:prefLabel "Ponosakan"@ast ;
+	schema:name "Ponosakan"@ast ;
+	rdfs:label "Ponosakan"@ban ;
+	skos:prefLabel "Ponosakan"@ban ;
+	schema:name "Ponosakan"@ban ;
+	rdfs:label "Ponosakan"@bar ;
+	skos:prefLabel "Ponosakan"@bar ;
+	schema:name "Ponosakan"@bar ;
+	rdfs:label "Ponosakan"@bjn ;
+	skos:prefLabel "Ponosakan"@bjn ;
+	schema:name "Ponosakan"@bjn ;
+	rdfs:label "ponosakan"@br ;
+	skos:prefLabel "ponosakan"@br ;
+	schema:name "ponosakan"@br ;
+	rdfs:label "Ponosakan"@bug ;
+	skos:prefLabel "Ponosakan"@bug ;
+	schema:name "Ponosakan"@bug ;
+	rdfs:label "ponosakan"@ca ;
+	skos:prefLabel "ponosakan"@ca ;
+	schema:name "ponosakan"@ca ;
+	rdfs:label "Ponosakan"@co ;
+	skos:prefLabel "Ponosakan"@co ;
+	schema:name "Ponosakan"@co ;
+	rdfs:label "Ponosakan"@cs ;
+	skos:prefLabel "Ponosakan"@cs ;
+	schema:name "Ponosakan"@cs ;
+	rdfs:label "Ponosakan"@cy ;
+	skos:prefLabel "Ponosakan"@cy ;
+	schema:name "Ponosakan"@cy ;
+	rdfs:label "Ponosakan"@da ;
+	skos:prefLabel "Ponosakan"@da ;
+	schema:name "Ponosakan"@da ;
+	rdfs:label "Ponosakan"@de ;
+	skos:prefLabel "Ponosakan"@de ;
+	schema:name "Ponosakan"@de ;
+	rdfs:label "Ponosakan"@de-at ;
+	skos:prefLabel "Ponosakan"@de-at ;
+	schema:name "Ponosakan"@de-at ;
+	rdfs:label "Ponosakan"@de-ch ;
+	skos:prefLabel "Ponosakan"@de-ch ;
+	schema:name "Ponosakan"@de-ch ;
+	rdfs:label "Ponosakan"@en-ca ;
+	skos:prefLabel "Ponosakan"@en-ca ;
+	schema:name "Ponosakan"@en-ca ;
+	rdfs:label "Ponosakan"@en-gb ;
+	skos:prefLabel "Ponosakan"@en-gb ;
+	schema:name "Ponosakan"@en-gb ;
+	rdfs:label "Ponosakan"@eo ;
+	skos:prefLabel "Ponosakan"@eo ;
+	schema:name "Ponosakan"@eo ;
+	rdfs:label "Ponosakan"@es ;
+	skos:prefLabel "Ponosakan"@es ;
+	schema:name "Ponosakan"@es ;
+	rdfs:label "Ponosakan"@et ;
+	skos:prefLabel "Ponosakan"@et ;
+	schema:name "Ponosakan"@et ;
+	rdfs:label "Ponosakan"@eu ;
+	skos:prefLabel "Ponosakan"@eu ;
+	schema:name "Ponosakan"@eu ;
+	rdfs:label "Ponosakan"@fi ;
+	skos:prefLabel "Ponosakan"@fi ;
+	schema:name "Ponosakan"@fi ;
+	rdfs:label "ponosakan"@fr ;
+	skos:prefLabel "ponosakan"@fr ;
+	schema:name "ponosakan"@fr ;
+	rdfs:label "Ponosakan"@frp ;
+	skos:prefLabel "Ponosakan"@frp ;
+	schema:name "Ponosakan"@frp ;
+	rdfs:label "Ponosakan"@fur ;
+	skos:prefLabel "Ponosakan"@fur ;
+	schema:name "Ponosakan"@fur ;
+	rdfs:label "Ponosakan"@ga ;
+	skos:prefLabel "Ponosakan"@ga ;
+	schema:name "Ponosakan"@ga ;
+	rdfs:label "Ponosakan"@gd ;
+	skos:prefLabel "Ponosakan"@gd ;
+	schema:name "Ponosakan"@gd ;
+	rdfs:label "Ponosakan"@gl ;
+	skos:prefLabel "Ponosakan"@gl ;
+	schema:name "Ponosakan"@gl ;
+	rdfs:label "Ponosakan"@gsw ;
+	skos:prefLabel "Ponosakan"@gsw ;
+	schema:name "Ponosakan"@gsw ;
+	rdfs:label "Ponosakan"@hr ;
+	skos:prefLabel "Ponosakan"@hr ;
+	schema:name "Ponosakan"@hr ;
+	rdfs:label "Ponosakan"@hu ;
+	skos:prefLabel "Ponosakan"@hu ;
+	schema:name "Ponosakan"@hu ;
+	rdfs:label "Ponosakan"@ia ;
+	skos:prefLabel "Ponosakan"@ia ;
+	schema:name "Ponosakan"@ia ;
+	rdfs:label "Ponosakan"@ie ;
+	skos:prefLabel "Ponosakan"@ie ;
+	schema:name "Ponosakan"@ie ;
+	rdfs:label "Ponosakan"@io ;
+	skos:prefLabel "Ponosakan"@io ;
+	schema:name "Ponosakan"@io ;
+	rdfs:label "Ponosakan"@is ;
+	skos:prefLabel "Ponosakan"@is ;
+	schema:name "Ponosakan"@is ;
+	rdfs:label "ponosakan"@it ;
+	skos:prefLabel "ponosakan"@it ;
+	schema:name "ponosakan"@it ;
+	rdfs:label "Ponosakan"@jv ;
+	skos:prefLabel "Ponosakan"@jv ;
+	schema:name "Ponosakan"@jv ;
+	rdfs:label "Ponosakan"@kg ;
+	skos:prefLabel "Ponosakan"@kg ;
+	schema:name "Ponosakan"@kg ;
+	rdfs:label "Ponosakan"@lb ;
+	skos:prefLabel "Ponosakan"@lb ;
+	schema:name "Ponosakan"@lb ;
+	rdfs:label "Ponosakan"@li ;
+	skos:prefLabel "Ponosakan"@li ;
+	schema:name "Ponosakan"@li ;
+	rdfs:label "Ponosakan"@lij ;
+	skos:prefLabel "Ponosakan"@lij ;
+	schema:name "Ponosakan"@lij ;
+	rdfs:label "Ponosakan"@map-bms ;
+	skos:prefLabel "Ponosakan"@map-bms ;
+	schema:name "Ponosakan"@map-bms ;
+	rdfs:label "Ponosakan"@mg ;
+	skos:prefLabel "Ponosakan"@mg ;
+	schema:name "Ponosakan"@mg ;
+	rdfs:label "Ponosakan"@min ;
+	skos:prefLabel "Ponosakan"@min ;
+	schema:name "Ponosakan"@min ;
+	rdfs:label "Ponosakan"@ms ;
+	skos:prefLabel "Ponosakan"@ms ;
+	schema:name "Ponosakan"@ms ;
+	rdfs:label "Ponosakan"@nap ;
+	skos:prefLabel "Ponosakan"@nap ;
+	schema:name "Ponosakan"@nap ;
+	rdfs:label "Ponosakan"@nb ;
+	skos:prefLabel "Ponosakan"@nb ;
+	schema:name "Ponosakan"@nb ;
+	rdfs:label "Ponosakan"@nds ;
+	skos:prefLabel "Ponosakan"@nds ;
+	schema:name "Ponosakan"@nds ;
+	rdfs:label "Ponosakan"@nds-nl ;
+	skos:prefLabel "Ponosakan"@nds-nl ;
+	schema:name "Ponosakan"@nds-nl ;
+	rdfs:label "Ponosakan"@nl ;
+	skos:prefLabel "Ponosakan"@nl ;
+	schema:name "Ponosakan"@nl ;
+	rdfs:label "Ponosakan"@nn ;
+	skos:prefLabel "Ponosakan"@nn ;
+	schema:name "Ponosakan"@nn ;
+	rdfs:label "Ponosakan"@nrm ;
+	skos:prefLabel "Ponosakan"@nrm ;
+	schema:name "Ponosakan"@nrm ;
+	rdfs:label "Ponosakan"@oc ;
+	skos:prefLabel "Ponosakan"@oc ;
+	schema:name "Ponosakan"@oc ;
+	rdfs:label "Ponosakan"@pcd ;
+	skos:prefLabel "Ponosakan"@pcd ;
+	schema:name "Ponosakan"@pcd ;
+	rdfs:label "język ponosakan"@pl ;
+	skos:prefLabel "język ponosakan"@pl ;
+	schema:name "język ponosakan"@pl ;
+	rdfs:label "Ponosakan"@pt ;
+	skos:prefLabel "Ponosakan"@pt ;
+	schema:name "Ponosakan"@pt ;
+	rdfs:label "Ponosakan"@pt-br ;
+	skos:prefLabel "Ponosakan"@pt-br ;
+	schema:name "Ponosakan"@pt-br ;
+	rdfs:label "Ponosakan"@rm ;
+	skos:prefLabel "Ponosakan"@rm ;
+	schema:name "Ponosakan"@rm ;
+	rdfs:label "Ponosakan"@ro ;
+	skos:prefLabel "Ponosakan"@ro ;
+	schema:name "Ponosakan"@ro ;
+	rdfs:label "Ponosakan"@sc ;
+	skos:prefLabel "Ponosakan"@sc ;
+	schema:name "Ponosakan"@sc ;
+	rdfs:label "Ponosakan"@scn ;
+	skos:prefLabel "Ponosakan"@scn ;
+	schema:name "Ponosakan"@scn ;
+	rdfs:label "Ponosakan"@sco ;
+	skos:prefLabel "Ponosakan"@sco ;
+	schema:name "Ponosakan"@sco ;
+	rdfs:label "Ponosakan"@sk ;
+	skos:prefLabel "Ponosakan"@sk ;
+	schema:name "Ponosakan"@sk ;
+	rdfs:label "Ponosakan"@sl ;
+	skos:prefLabel "Ponosakan"@sl ;
+	schema:name "Ponosakan"@sl ;
+	rdfs:label "Ponosakan"@sr-el ;
+	skos:prefLabel "Ponosakan"@sr-el ;
+	schema:name "Ponosakan"@sr-el ;
+	rdfs:label "Ponosakan"@su ;
+	skos:prefLabel "Ponosakan"@su ;
+	schema:name "Ponosakan"@su ;
+	rdfs:label "Ponosakan"@sv ;
+	skos:prefLabel "Ponosakan"@sv ;
+	schema:name "Ponosakan"@sv ;
+	rdfs:label "Ponosakan"@vec ;
+	skos:prefLabel "Ponosakan"@vec ;
+	schema:name "Ponosakan"@vec ;
+	rdfs:label "Ponosakan"@vi ;
+	skos:prefLabel "Ponosakan"@vi ;
+	schema:name "Ponosakan"@vi ;
+	rdfs:label "Ponosakan"@vls ;
+	skos:prefLabel "Ponosakan"@vls ;
+	schema:name "Ponosakan"@vls ;
+	rdfs:label "Ponosakan"@vo ;
+	skos:prefLabel "Ponosakan"@vo ;
+	schema:name "Ponosakan"@vo ;
+	rdfs:label "Ponosakan"@wa ;
+	skos:prefLabel "Ponosakan"@wa ;
+	schema:name "Ponosakan"@wa ;
+	rdfs:label "Ponosakan"@wo ;
+	skos:prefLabel "Ponosakan"@wo ;
+	schema:name "Ponosakan"@wo ;
+	rdfs:label "Ponosakan"@zu ;
+	skos:prefLabel "Ponosakan"@zu ;
+	schema:name "Ponosakan"@zu ;
+	rdfs:label "Wikang Ponosakan"@tl ;
+	skos:prefLabel "Wikang Ponosakan"@tl ;
+	schema:name "Wikang Ponosakan"@tl ;
+	rdfs:label "Tataramon na Ponosakan"@bcl ;
+	skos:prefLabel "Tataramon na Ponosakan"@bcl ;
+	schema:name "Tataramon na Ponosakan"@bcl ;
+	rdfs:label "ポノサカン語"@ja ;
+	skos:prefLabel "ポノサカン語"@ja ;
+	schema:name "ポノサカン語"@ja ;
+	schema:description "Sprache"@de,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"pagsasao idiay Amianan a Sulawesi, Indonesia"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Austronesian language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl ;
+	skos:altLabel "Ponosakan language"@en,
+		"Ponasakan"@id,
+		"bahasa Ponasakan"@id,
+		"bahasa Ponosakan"@id .
+
+wd:Q12953821 owl:sameAs wd:Q7227956 .
+
+wd:Q31441630 owl:sameAs wd:Q7227956 .

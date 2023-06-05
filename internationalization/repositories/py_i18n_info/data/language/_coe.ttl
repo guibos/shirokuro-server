@@ -1,0 +1,202 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3198924 a schema:Dataset ;
+	schema:about wd:Q3198924 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1864031499"^^xsd:integer ;
+	schema:dateModified "2023-03-29T15:54:55Z"^^xsd:dateTime .
+
+wd:Q3198924 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Koreguaje> a schema:Article ;
+	schema:about wd:Q3198924 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Koreguaje"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_koreguaje> a schema:Article ;
+	schema:about wd:Q3198924 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga koreguaje"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%B5%D0%B3%D1%83%D0%B0%D1%85%D0%B5> a schema:Article ;
+	schema:about wd:Q3198924 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Корегуахе"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ckb.wikipedia.org/wiki/%D8%B2%D9%85%D8%A7%D9%86%DB%8C_%DA%A9%DB%86%DA%95%DA%AF%D9%88%D8%A7%DA%BE%DB%8E> a schema:Article ;
+	schema:about wd:Q3198924 ;
+	schema:inLanguage "ckb" ;
+	schema:isPartOf <https://ckb.wikipedia.org/> ;
+	schema:name "زمانی کۆڕگواھێ"@ckb .
+
+<https://ckb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Koreguaje_language> a schema:Article ;
+	schema:about wd:Q3198924 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Koreguaje language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Koreguahe_keel> a schema:Article ;
+	schema:about wd:Q3198924 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Koreguahe keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_koreguaje> a schema:Article ;
+	schema:about wd:Q3198924 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua koreguaje"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Koreguaje> a schema:Article ;
+	schema:about wd:Q3198924 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Koreguaje"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3198924 wdt:P305 "coe" ;
+	wdt:P220 "coe" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/coe> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q5972954 ;
+	wdt:P1394 "kore1283" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kore1283> ;
+	wdt:P2355 "2051" ;
+	wdt:P1466 "kje" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_kje> ;
+	wdt:P910 wd:Q33076501 ;
+	wdt:P2192 "3091" ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P1627 "coe" ;
+	wdt:P244 "sh85033031" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85033031> ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q739 ;
+	wdt:P2341 wd:Q13985,
+		wd:Q232953 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/COE> ;
+	wdt:P646 "/m/02hxv46" ;
+	wdt:P1559 "Ko'reuaju"@es ;
+	wdt:P1098 "+2100"^^xsd:decimal ;
+	wdt:P10369 "Q590223" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q590223> ;
+	wdt:P8189 "987007567883205171" ;
+	wdt:P1846 <http://commons.wikimedia.org/wiki/Special:FilePath/Koreguaje.png> ;
+	rdfs:label "koreguaje"@fr ;
+	skos:prefLabel "koreguaje"@fr ;
+	schema:name "koreguaje"@fr ;
+	rdfs:label "Koreguaje"@en ;
+	skos:prefLabel "Koreguaje"@en ;
+	schema:name "Koreguaje"@en ;
+	rdfs:label "Lenga koreguaje"@pms ;
+	skos:prefLabel "Lenga koreguaje"@pms ;
+	schema:name "Lenga koreguaje"@pms ;
+	rdfs:label "Корегуахе"@ru ;
+	skos:prefLabel "Корегуахе"@ru ;
+	schema:name "Корегуахе"@ru ;
+	rdfs:label "Coreguaje"@es ;
+	skos:prefLabel "Coreguaje"@es ;
+	schema:name "Coreguaje"@es ;
+	rdfs:label "Correguaje"@hr ;
+	skos:prefLabel "Correguaje"@hr ;
+	schema:name "Correguaje"@hr ;
+	rdfs:label "coreguaje"@it ;
+	skos:prefLabel "coreguaje"@it ;
+	schema:name "coreguaje"@it ;
+	rdfs:label "Koreguaje"@nl ;
+	skos:prefLabel "Koreguaje"@nl ;
+	schema:name "Koreguaje"@nl ;
+	rdfs:label "Koreguaje"@en-gb ;
+	skos:prefLabel "Koreguaje"@en-gb ;
+	schema:name "Koreguaje"@en-gb ;
+	rdfs:label "Wikang Koreguaje"@tl ;
+	skos:prefLabel "Wikang Koreguaje"@tl ;
+	schema:name "Wikang Koreguaje"@tl ;
+	rdfs:label "زمانی کۆڕگواھێ"@ckb ;
+	skos:prefLabel "زمانی کۆڕگواھێ"@ckb ;
+	schema:name "زمانی کۆڕگواھێ"@ckb ;
+	rdfs:label "Koreguahe keel"@et ;
+	skos:prefLabel "Koreguahe keel"@et ;
+	schema:name "Koreguahe keel"@et ;
+	rdfs:label "Lingua koreguaje"@gl ;
+	skos:prefLabel "Lingua koreguaje"@gl ;
+	schema:name "Lingua koreguaje"@gl ;
+	rdfs:label "Koreguaje"@ca ;
+	skos:prefLabel "Koreguaje"@ca ;
+	schema:name "Koreguaje"@ca ;
+	rdfs:label "coreguaje"@vec ;
+	skos:prefLabel "coreguaje"@vec ;
+	schema:name "coreguaje"@vec ;
+	schema:description "Sprache"@de,
+		"Tucanoan language from Colombia"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"langue tucanoane"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"lingua da familia tucana falada en Colombia"@gl ;
+	skos:altLabel "Coreguaje"@en,
+		"Correguaje"@en,
+		"Korewaje"@en,
+		"Koreguaie"@en,
+		"Ko'reuaju"@en,
+		"Koreguaje people"@en,
+		"Koreguaje"@es,
+		"Coreguaje"@hr,
+		"coreguaje"@fr .
+
+wd:Q3510139 owl:sameAs wd:Q3198924 .
+
+wd:Q61095758 owl:sameAs wd:Q3198924 .

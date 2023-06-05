@@ -1,0 +1,184 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3913852 a schema:Dataset ;
+	schema:about wd:Q3913852 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1783635058"^^xsd:integer ;
+	schema:dateModified "2022-12-03T20:46:21Z"^^xsd:dateTime .
+
+wd:Q3913852 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_bardi> a schema:Article ;
+	schema:about wd:Q3913852 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga bardi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Bardi_(spr%C3%A5k)> a schema:Article ;
+	schema:about wd:Q3913852 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Bardi (språk)"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibardi> a schema:Article ;
+	schema:about wd:Q3913852 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibardi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Bardi_language> a schema:Article ;
+	schema:about wd:Q3913852 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Bardi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_bardi> a schema:Article ;
+	schema:about wd:Q3913852 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua bardi"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Bardi_(jezik)> a schema:Article ;
+	schema:about wd:Q3913852 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Bardi (jezik)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_bardi> a schema:Article ;
+	schema:about wd:Q3913852 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua bardi"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Bardin_kieli> a schema:Article ;
+	schema:about wd:Q3913852 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Bardin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3913852 wdt:P220 "bcj" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bcj> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "bard1255" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/bard1255> ;
+	wdt:P1252 "K15",
+		"K69" ;
+	wdt:P2355 "169" ;
+	wdt:P1466 "brd" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_brd> ;
+	wdt:P279 wd:Q2039408,
+		wd:Q109633616 ;
+	wdt:P2192 "3892" ;
+	wdt:P910 wd:Q33675136 ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P305 "bcj" ;
+	wdt:P1627 "bcj" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P1251 "8801" ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3206 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BCJ> ;
+	wdt:P6915 "Bardi" ;
+	wdt:P646 "/m/02hxl98" ;
+	wdt:P4839 "Entity[\"Language\", \"Bardi::2n738\"]",
+		"Entity[\"Language\", \"Bardi\"]" ;
+	rdfs:label "Lenga bardi"@pms ;
+	skos:prefLabel "Lenga bardi"@pms ;
+	schema:name "Lenga bardi"@pms ;
+	rdfs:label "Bardi"@en ;
+	skos:prefLabel "Bardi"@en ;
+	schema:name "Bardi"@en ;
+	rdfs:label "Bardi"@sv ;
+	skos:prefLabel "Bardi"@sv ;
+	schema:name "Bardi"@sv ;
+	rdfs:label "Bardi (jezik)"@hr ;
+	skos:prefLabel "Bardi (jezik)"@hr ;
+	schema:name "Bardi (jezik)"@hr ;
+	rdfs:label "Lingua bardi"@gl ;
+	skos:prefLabel "Lingua bardi"@gl ;
+	schema:name "Lingua bardi"@gl ;
+	rdfs:label "Bardi"@en-gb ;
+	skos:prefLabel "Bardi"@en-gb ;
+	schema:name "Bardi"@en-gb ;
+	rdfs:label "bardi"@fr ;
+	skos:prefLabel "bardi"@fr ;
+	schema:name "bardi"@fr ;
+	rdfs:label "Kibardi"@sw ;
+	skos:prefLabel "Kibardi"@sw ;
+	schema:name "Kibardi"@sw ;
+	rdfs:label "Bardi語"@ja ;
+	skos:prefLabel "Bardi語"@ja ;
+	schema:name "Bardi語"@ja ;
+	rdfs:label "Língua bardi"@pt ;
+	skos:prefLabel "Língua bardi"@pt ;
+	schema:name "Língua bardi"@pt ;
+	rdfs:label "Bardin kieli"@fi ;
+	skos:prefLabel "Bardin kieli"@fi ;
+	schema:name "Bardin kieli"@fi ;
+	rdfs:label "바르디어"@ko ;
+	skos:prefLabel "바르디어"@ko ;
+	schema:name "바르디어"@ko ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue nyulnyulan"@fr,
+		"language"@en,
+		"lingua australiana"@gl,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"språk"@sv ;
+	skos:altLabel "Bardi language"@en,
+		"Baard"@en,
+		"バルディ語"@ja .
+
+wd:Q50934438 owl:sameAs wd:Q3913852 .

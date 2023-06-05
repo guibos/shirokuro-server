@@ -1,0 +1,145 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3450556 a schema:Dataset ;
+	schema:about wd:Q3450556 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960633020"^^xsd:integer ;
+	schema:dateModified "2023-08-25T01:32:16Z"^^xsd:dateTime .
+
+wd:Q3450556 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_saraveca> a schema:Article ;
+	schema:about wd:Q3450556 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga saraveca"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D1%80%D0%B0%D0%B2%D0%B5%D0%BA%D0%B0> a schema:Article ;
+	schema:about wd:Q3450556 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Саравека"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Saraveca_language> a schema:Article ;
+	schema:about wd:Q3450556 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Saraveca language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Saraveca_jezik> a schema:Article ;
+	schema:about wd:Q3450556 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Saraveca jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_sarave> a schema:Article ;
+	schema:about wd:Q3450556 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua sarave"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Saraveca> a schema:Article ;
+	schema:about wd:Q3450556 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Saraveca"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3450556 wdt:P220 "sar" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/sar> ;
+	wdt:P31 wd:Q38058796,
+		wd:Q34770,
+		wd:Q45762,
+		wd:Q4085712 ;
+	wdt:P1394 "sara1331" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sara1331> ;
+	wdt:P279 wd:Q7136862 ;
+	wdt:P1417 "topic/Saraveca-language" ;
+	wdt:P2192 "2748" ;
+	wdt:P17 wd:Q750 ;
+	wdt:P305 "sar" ;
+	a wdno:P282 ;
+	wdt:P1627 "sar" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P2341 wd:Q235106 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SAR> ;
+	wdt:P646 "/m/0gpyh3" ;
+	wdt:P910 wd:Q36165432 ;
+	rdfs:label "Lenga saraveca"@pms ;
+	skos:prefLabel "Lenga saraveca"@pms ;
+	schema:name "Lenga saraveca"@pms ;
+	rdfs:label "Saraveca"@en ;
+	skos:prefLabel "Saraveca"@en ;
+	schema:name "Saraveca"@en ;
+	rdfs:label "Saraveca jezik"@hr ;
+	skos:prefLabel "Saraveca jezik"@hr ;
+	schema:name "Saraveca jezik"@hr ;
+	rdfs:label "Саравека"@ru ;
+	skos:prefLabel "Саравека"@ru ;
+	schema:name "Саравека"@ru ;
+	rdfs:label "Saraveca"@en-gb ;
+	skos:prefLabel "Saraveca"@en-gb ;
+	schema:name "Saraveca"@en-gb ;
+	rdfs:label "サラヴェカ語"@ja ;
+	skos:prefLabel "サラヴェカ語"@ja ;
+	schema:name "サラヴェカ語"@ja ;
+	rdfs:label "saraveca"@fr ;
+	skos:prefLabel "saraveca"@fr ;
+	schema:name "saraveca"@fr ;
+	rdfs:label "saraveka keel"@et ;
+	skos:prefLabel "saraveka keel"@et ;
+	schema:name "saraveka keel"@et ;
+	rdfs:label "Língua sarave"@pt ;
+	skos:prefLabel "Língua sarave"@pt ;
+	schema:name "Língua sarave"@pt ;
+	rdfs:label "Saraveca"@ca ;
+	skos:prefLabel "Saraveca"@ca ;
+	schema:name "Saraveca"@ca ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue arawakienne"@fr,
+		"yezh"@br,
+		"llengua arawak del grup de Llengües Paresí-Waurá"@ca,
+		"Extinct Arawakan language of Bolivia"@en ;
+	skos:altLabel "Saraveca language"@en .

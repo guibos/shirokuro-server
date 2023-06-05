@@ -1,0 +1,176 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3388339 a schema:Dataset ;
+	schema:about wd:Q3388339 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1721196597"^^xsd:integer ;
+	schema:dateModified "2022-09-05T01:07:24Z"^^xsd:dateTime .
+
+wd:Q3388339 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Pije> a schema:Article ;
+	schema:about wd:Q3388339 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Pije"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Pije> a schema:Article ;
+	schema:about wd:Q3388339 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Pije"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Pije> a schema:Article ;
+	schema:about wd:Q3388339 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Pije"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Pije> a schema:Article ;
+	schema:about wd:Q3388339 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Pije"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kipije> a schema:Article ;
+	schema:about wd:Q3388339 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kipije"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Pije_language> a schema:Article ;
+	schema:about wd:Q3388339 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Pije language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_pije> a schema:Article ;
+	schema:about wd:Q3388339 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma pije"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Pije> a schema:Article ;
+	schema:about wd:Q3388339 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Pije"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_pije> a schema:Article ;
+	schema:about wd:Q3388339 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język pije"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3388339 wdt:P220 "piz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/piz> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "piz" ;
+	wdt:P279 wd:Q3091221 ;
+	wdt:P1394 "pije1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/pije1237> ;
+	wdt:P2355 "2494" ;
+	wdt:P17 wd:Q142 ;
+	wdt:P2581 "14743952n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s14743952n> ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P910 wd:Q33076928 ;
+	wdt:P2192 "2529" ;
+	wdt:P1627 "piz" ;
+	wdt:P361 wd:Q62067599 ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P1018 wd:Q2822383 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PIZ> ;
+	wdt:P646 "/m/02hxb7w" ;
+	rdfs:label "pije"@fr ;
+	skos:prefLabel "pije"@fr ;
+	schema:name "pije"@fr ;
+	rdfs:label "Pije"@en ;
+	skos:prefLabel "Pije"@en ;
+	schema:name "Pije"@en ;
+	rdfs:label "Lenga Pije"@pms ;
+	skos:prefLabel "Lenga Pije"@pms ;
+	schema:name "Lenga Pije"@pms ;
+	rdfs:label "pije"@ca ;
+	skos:prefLabel "pije"@ca ;
+	schema:name "pije"@ca ;
+	rdfs:label "Kipije"@sw ;
+	skos:prefLabel "Kipije"@sw ;
+	schema:name "Kipije"@sw ;
+	rdfs:label "Pije"@ilo ;
+	skos:prefLabel "Pije"@ilo ;
+	schema:name "Pije"@ilo ;
+	rdfs:label "Pije"@en-gb ;
+	skos:prefLabel "Pije"@en-gb ;
+	schema:name "Pije"@en-gb ;
+	rdfs:label "Idioma pije"@es ;
+	skos:prefLabel "Idioma pije"@es ;
+	schema:name "Idioma pije"@es ;
+	rdfs:label "Pije"@oc ;
+	skos:prefLabel "Pije"@oc ;
+	schema:name "Pije"@oc ;
+	rdfs:label "Język pije"@pl ;
+	skos:prefLabel "Język pije"@pl ;
+	schema:name "Język pije"@pl ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Baro a Caledonia"@ilo,
+		"שפה"@he,
+		"langue kanak"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl ;
+	skos:altLabel "Pije language"@en .

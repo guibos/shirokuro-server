@@ -1,0 +1,108 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953845 a schema:Dataset ;
+	schema:about wd:Q12953845 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960635955"^^xsd:integer ;
+	schema:dateModified "2023-08-25T01:37:16Z"^^xsd:dateTime .
+
+wd:Q12953845 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_quichua,_chimborazo_highland> a schema:Article ;
+	schema:about wd:Q12953845 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga quichua, chimborazo highland"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%B3%E3%83%9C%E3%83%A9%E3%82%BD%E9%AB%98%E5%9C%B0%E3%82%B1%E3%83%81%E3%83%A5%E3%82%A2%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q12953845 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "チンボラソ高地ケチュア語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953845 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "qug" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/qug> ;
+	wdt:P1394 "chim1302" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/chim1302> ;
+	wdt:P1466 "qec" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_qec> ;
+	wdt:P305 "qug" ;
+	wdt:P1627 "qug" ;
+	wdt:P910 wd:Q36165059 ;
+	wdt:P279 wd:Q62385735 ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P2355 "1935" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q736 ;
+	wdt:P2341 wd:Q238492,
+		wd:Q504260,
+		wd:Q504252,
+		wd:Q241140 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/QUG> ;
+	wdt:P646 "/m/02hxpfp" ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P9060 "qug" ;
+	rdfs:label "Lenga quichua, chimborazo highland"@pms ;
+	skos:prefLabel "Lenga quichua, chimborazo highland"@pms ;
+	schema:name "Lenga quichua, chimborazo highland"@pms ;
+	rdfs:label "チンボラソ高地ケチュア語"@ja ;
+	skos:prefLabel "チンボラソ高地ケチュア語"@ja ;
+	schema:name "チンボラソ高地ケチュア語"@ja ;
+	rdfs:label "Chimborazo Highland Quichua"@en ;
+	skos:prefLabel "Chimborazo Highland Quichua"@en ;
+	schema:name "Chimborazo Highland Quichua"@en ;
+	rdfs:label "Chimborazo Highland Quichua"@en-gb ;
+	skos:prefLabel "Chimborazo Highland Quichua"@en-gb ;
+	schema:name "Chimborazo Highland Quichua"@en-gb ;
+	rdfs:label "quichua du Chimborazo"@fr ;
+	skos:prefLabel "quichua du Chimborazo"@fr ;
+	schema:name "quichua du Chimborazo"@fr ;
+	rdfs:label "Kichwa"@nl ;
+	skos:prefLabel "Kichwa"@nl ;
+	schema:name "Kichwa"@nl ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue quechua"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la .

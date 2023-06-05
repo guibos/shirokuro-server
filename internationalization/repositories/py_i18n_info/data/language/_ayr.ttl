@@ -1,0 +1,102 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q20526610 a schema:Dataset ;
+	schema:about wd:Q20526610 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1062557415"^^xsd:integer ;
+	schema:dateModified "2019-11-26T10:54:00Z"^^xsd:dateTime .
+
+wd:Q20526610 a wikibase:Item .
+
+<https://hif.wikipedia.org/wiki/Central_Aymara> a schema:Article ;
+	schema:about wd:Q20526610 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Central Aymara"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Centralnoajmarski_jezik> a schema:Article ;
+	schema:about wd:Q20526610 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Centralnoajmarski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q20526610 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "ayr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ayr> ;
+	wdt:P1394 "cent2142" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/cent2142> ;
+	wdt:P279 wd:Q33010 ;
+	wdt:P305 "ayr" ;
+	wdt:P1627 "ayr" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q750,
+		wd:Q298,
+		wd:Q419 ;
+	wdt:P2341 wd:Q272784,
+		wd:Q1061368,
+		wd:Q238079,
+		wd:Q2118,
+		wd:Q2114 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/AYR> ;
+	rdfs:label "Centralnoajmarski jezik"@hr ;
+	skos:prefLabel "Centralnoajmarski jezik"@hr ;
+	schema:name "Centralnoajmarski jezik"@hr ;
+	rdfs:label "Central Aymara"@en ;
+	skos:prefLabel "Central Aymara"@en ;
+	schema:name "Central Aymara"@en ;
+	rdfs:label "Central Aymara"@en-gb ;
+	skos:prefLabel "Central Aymara"@en-gb ;
+	schema:name "Central Aymara"@en-gb ;
+	rdfs:label "Central Aymara"@hif ;
+	skos:prefLabel "Central Aymara"@hif ;
+	schema:name "Central Aymara"@hif ;
+	rdfs:label "aymara central"@fr ;
+	skos:prefLabel "aymara central"@fr ;
+	schema:name "aymara central"@fr ;
+	schema:description "שפה"@he,
+		"langue parlée par les Aymara"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"iaith"@cy,
+		"lingua"@la .
+
+wd:Q25645473 owl:sameAs wd:Q20526610 .

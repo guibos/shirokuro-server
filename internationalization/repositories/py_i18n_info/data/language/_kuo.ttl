@@ -1,0 +1,132 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11732362 a schema:Dataset ;
+	schema:about wd:Q11732362 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1372676352"^^xsd:integer ;
+	schema:dateModified "2021-02-28T23:17:16Z"^^xsd:dateTime .
+
+wd:Q11732362 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kumukio> a schema:Article ;
+	schema:about wd:Q11732362 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kumukio"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kumukio_language> a schema:Article ;
+	schema:about wd:Q11732362 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kumukio language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikumukio> a schema:Article ;
+	schema:about wd:Q11732362 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikumukio"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Kumukio> a schema:Article ;
+	schema:about wd:Q11732362 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Kumukio"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://diq.wikipedia.org/wiki/Kumokioki> a schema:Article ;
+	schema:about wd:Q11732362 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Kumokioki"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11732362 wdt:P220 "kuo" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kuo> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kumu1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kumu1247> ;
+	wdt:P305 "kuo" ;
+	wdt:P1627 "kuo" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q853664,
+		wd:Q753686 ;
+	wdt:P1245 "876256" ;
+	wdt:P646 "/m/02hx84s" ;
+	wdt:P910 wd:Q33663669 ;
+	rdfs:label "Język kumokio"@pl ;
+	skos:prefLabel "Język kumokio"@pl ;
+	schema:name "Język kumokio"@pl ;
+	rdfs:label "Lenga Kumukio"@pms ;
+	skos:prefLabel "Lenga Kumukio"@pms ;
+	schema:name "Lenga Kumukio"@pms ;
+	rdfs:label "Kumukio"@en ;
+	skos:prefLabel "Kumukio"@en ;
+	schema:name "Kumukio"@en ;
+	rdfs:label "Kikumukio"@sw ;
+	skos:prefLabel "Kikumukio"@sw ;
+	schema:name "Kikumukio"@sw ;
+	rdfs:label "Kumukio"@ilo ;
+	skos:prefLabel "Kumukio"@ilo ;
+	schema:name "Kumukio"@ilo ;
+	rdfs:label "Kumukio"@en-gb ;
+	skos:prefLabel "Kumukio"@en-gb ;
+	schema:name "Kumukio"@en-gb ;
+	rdfs:label "Kumokioki"@diq ;
+	skos:prefLabel "Kumokioki"@diq ;
+	schema:name "Kumokioki"@diq ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kumukio language"@en .
+
+wd:Q6444081 owl:sameAs wd:Q11732362 .
+
+wd:Q12952672 owl:sameAs wd:Q11732362 .

@@ -1,0 +1,410 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33960 a schema:Dataset ;
+	schema:about wd:Q33960 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960503357"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:13:41Z"^^xsd:dateTime .
+
+wd:Q33960 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Sika_(langue)> a schema:Article ;
+	schema:about wd:Q33960 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Sika (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Sika> a schema:Article ;
+	schema:about wd:Q33960 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Sika"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Sika> a schema:Article ;
+	schema:about wd:Q33960 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Sika"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisika> a schema:Article ;
+	schema:about wd:Q33960 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisika"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Sika_(Sprache)> a schema:Article ;
+	schema:about wd:Q33960 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Sika (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Sika_keel> a schema:Article ;
+	schema:about wd:Q33960 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Sika keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Sikka> a schema:Article ;
+	schema:about wd:Q33960 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Sikka"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_sika> a schema:Article ;
+	schema:about wd:Q33960 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język sika"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sikka_language> a schema:Article ;
+	schema:about wd:Q33960 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sikka language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33960 wdt:P220 "ski" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ski> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "ski" ;
+	wdt:P279 wd:Q2269883 ;
+	wdt:P1014 "300389274" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389274> ;
+	wdt:P1394 "sika1262" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sika1262> ;
+	wdt:P2590 "0149 5" ;
+	wdt:P1705 "bahasa Sika"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P1098 "+175000"^^xsd:decimal ;
+	wdt:P276 wd:Q14150,
+		wd:Q30337711,
+		wd:Q24847501,
+		wd:Q1911163 ;
+	wdt:P1466 "sik" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_sik> ;
+	wdt:P1627 "ski" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q5061,
+		wd:Q3803 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SKI> ;
+	wdt:P646 "/m/07lrlj" ;
+	wdt:P910 wd:Q32859938 ;
+	rdfs:label "Lenga Sika"@pms ;
+	skos:prefLabel "Lenga Sika"@pms ;
+	schema:name "Lenga Sika"@pms ;
+	rdfs:label "sika"@fr ;
+	skos:prefLabel "sika"@fr ;
+	schema:name "sika"@fr ;
+	rdfs:label "Sika"@en ;
+	skos:prefLabel "Sika"@en ;
+	schema:name "Sika"@en ;
+	rdfs:label "Sika"@de ;
+	skos:prefLabel "Sika"@de ;
+	schema:name "Sika"@de ;
+	rdfs:label "Sika"@id ;
+	skos:prefLabel "Sika"@id ;
+	schema:name "Sika"@id ;
+	rdfs:label "Kisika"@sw ;
+	skos:prefLabel "Kisika"@sw ;
+	schema:name "Kisika"@sw ;
+	rdfs:label "Sika"@ilo ;
+	skos:prefLabel "Sika"@ilo ;
+	schema:name "Sika"@ilo ;
+	rdfs:label "Sika"@ace ;
+	skos:prefLabel "Sika"@ace ;
+	schema:name "Sika"@ace ;
+	rdfs:label "Sika"@af ;
+	skos:prefLabel "Sika"@af ;
+	schema:name "Sika"@af ;
+	rdfs:label "Sika"@an ;
+	skos:prefLabel "Sika"@an ;
+	schema:name "Sika"@an ;
+	rdfs:label "Sika"@ast ;
+	skos:prefLabel "Sika"@ast ;
+	schema:name "Sika"@ast ;
+	rdfs:label "Sika"@bar ;
+	skos:prefLabel "Sika"@bar ;
+	schema:name "Sika"@bar ;
+	rdfs:label "sika"@br ;
+	skos:prefLabel "sika"@br ;
+	schema:name "sika"@br ;
+	rdfs:label "sika"@ca ;
+	skos:prefLabel "sika"@ca ;
+	schema:name "sika"@ca ;
+	rdfs:label "Sika"@co ;
+	skos:prefLabel "Sika"@co ;
+	schema:name "Sika"@co ;
+	rdfs:label "Sika"@cs ;
+	skos:prefLabel "Sika"@cs ;
+	schema:name "Sika"@cs ;
+	rdfs:label "Sika"@cy ;
+	skos:prefLabel "Sika"@cy ;
+	schema:name "Sika"@cy ;
+	rdfs:label "Sika"@da ;
+	skos:prefLabel "Sika"@da ;
+	schema:name "Sika"@da ;
+	rdfs:label "Sika"@de-at ;
+	skos:prefLabel "Sika"@de-at ;
+	schema:name "Sika"@de-at ;
+	rdfs:label "Sika"@de-ch ;
+	skos:prefLabel "Sika"@de-ch ;
+	schema:name "Sika"@de-ch ;
+	rdfs:label "Sika"@en-ca ;
+	skos:prefLabel "Sika"@en-ca ;
+	schema:name "Sika"@en-ca ;
+	rdfs:label "Sika"@en-gb ;
+	skos:prefLabel "Sika"@en-gb ;
+	schema:name "Sika"@en-gb ;
+	rdfs:label "Sika"@eo ;
+	skos:prefLabel "Sika"@eo ;
+	schema:name "Sika"@eo ;
+	rdfs:label "Sika"@es ;
+	skos:prefLabel "Sika"@es ;
+	schema:name "Sika"@es ;
+	rdfs:label "Sika"@et ;
+	skos:prefLabel "Sika"@et ;
+	schema:name "Sika"@et ;
+	rdfs:label "Sika"@eu ;
+	skos:prefLabel "Sika"@eu ;
+	schema:name "Sika"@eu ;
+	rdfs:label "Sika"@fi ;
+	skos:prefLabel "Sika"@fi ;
+	schema:name "Sika"@fi ;
+	rdfs:label "Sika"@frp ;
+	skos:prefLabel "Sika"@frp ;
+	schema:name "Sika"@frp ;
+	rdfs:label "Sika"@fur ;
+	skos:prefLabel "Sika"@fur ;
+	schema:name "Sika"@fur ;
+	rdfs:label "Sika"@ga ;
+	skos:prefLabel "Sika"@ga ;
+	schema:name "Sika"@ga ;
+	rdfs:label "Sika"@gd ;
+	skos:prefLabel "Sika"@gd ;
+	schema:name "Sika"@gd ;
+	rdfs:label "Sika"@gl ;
+	skos:prefLabel "Sika"@gl ;
+	schema:name "Sika"@gl ;
+	rdfs:label "Sika"@gsw ;
+	skos:prefLabel "Sika"@gsw ;
+	schema:name "Sika"@gsw ;
+	rdfs:label "Sika"@hr ;
+	skos:prefLabel "Sika"@hr ;
+	schema:name "Sika"@hr ;
+	rdfs:label "Sika"@hu ;
+	skos:prefLabel "Sika"@hu ;
+	schema:name "Sika"@hu ;
+	rdfs:label "Sika"@ia ;
+	skos:prefLabel "Sika"@ia ;
+	schema:name "Sika"@ia ;
+	rdfs:label "Sika"@ie ;
+	skos:prefLabel "Sika"@ie ;
+	schema:name "Sika"@ie ;
+	rdfs:label "Sika"@io ;
+	skos:prefLabel "Sika"@io ;
+	schema:name "Sika"@io ;
+	rdfs:label "Sika"@is ;
+	skos:prefLabel "Sika"@is ;
+	schema:name "Sika"@is ;
+	rdfs:label "sika"@it ;
+	skos:prefLabel "sika"@it ;
+	schema:name "sika"@it ;
+	rdfs:label "Sika"@jv ;
+	skos:prefLabel "Sika"@jv ;
+	schema:name "Sika"@jv ;
+	rdfs:label "Sika"@kg ;
+	skos:prefLabel "Sika"@kg ;
+	schema:name "Sika"@kg ;
+	rdfs:label "Sika"@lb ;
+	skos:prefLabel "Sika"@lb ;
+	schema:name "Sika"@lb ;
+	rdfs:label "Sika"@li ;
+	skos:prefLabel "Sika"@li ;
+	schema:name "Sika"@li ;
+	rdfs:label "Sika"@lij ;
+	skos:prefLabel "Sika"@lij ;
+	schema:name "Sika"@lij ;
+	rdfs:label "Sika"@mg ;
+	skos:prefLabel "Sika"@mg ;
+	schema:name "Sika"@mg ;
+	rdfs:label "Sika"@min ;
+	skos:prefLabel "Sika"@min ;
+	schema:name "Sika"@min ;
+	rdfs:label "Sika"@ms ;
+	skos:prefLabel "Sika"@ms ;
+	schema:name "Sika"@ms ;
+	rdfs:label "Sika"@nap ;
+	skos:prefLabel "Sika"@nap ;
+	schema:name "Sika"@nap ;
+	rdfs:label "Sika"@nb ;
+	skos:prefLabel "Sika"@nb ;
+	schema:name "Sika"@nb ;
+	rdfs:label "Sika"@nds ;
+	skos:prefLabel "Sika"@nds ;
+	schema:name "Sika"@nds ;
+	rdfs:label "Sika"@nds-nl ;
+	skos:prefLabel "Sika"@nds-nl ;
+	schema:name "Sika"@nds-nl ;
+	rdfs:label "Sika"@nl ;
+	skos:prefLabel "Sika"@nl ;
+	schema:name "Sika"@nl ;
+	rdfs:label "Sika"@nn ;
+	skos:prefLabel "Sika"@nn ;
+	schema:name "Sika"@nn ;
+	rdfs:label "Sika"@nrm ;
+	skos:prefLabel "Sika"@nrm ;
+	schema:name "Sika"@nrm ;
+	rdfs:label "Sika"@oc ;
+	skos:prefLabel "Sika"@oc ;
+	schema:name "Sika"@oc ;
+	rdfs:label "Sika"@pcd ;
+	skos:prefLabel "Sika"@pcd ;
+	schema:name "Sika"@pcd ;
+	rdfs:label "Sika"@pl ;
+	skos:prefLabel "Sika"@pl ;
+	schema:name "Sika"@pl ;
+	rdfs:label "Sika"@pt ;
+	skos:prefLabel "Sika"@pt ;
+	schema:name "Sika"@pt ;
+	rdfs:label "Sika"@pt-br ;
+	skos:prefLabel "Sika"@pt-br ;
+	schema:name "Sika"@pt-br ;
+	rdfs:label "Sika"@rm ;
+	skos:prefLabel "Sika"@rm ;
+	schema:name "Sika"@rm ;
+	rdfs:label "Sika"@ro ;
+	skos:prefLabel "Sika"@ro ;
+	schema:name "Sika"@ro ;
+	rdfs:label "Sika"@sc ;
+	skos:prefLabel "Sika"@sc ;
+	schema:name "Sika"@sc ;
+	rdfs:label "Sika"@scn ;
+	skos:prefLabel "Sika"@scn ;
+	schema:name "Sika"@scn ;
+	rdfs:label "Sika"@sco ;
+	skos:prefLabel "Sika"@sco ;
+	schema:name "Sika"@sco ;
+	rdfs:label "Sika"@sk ;
+	skos:prefLabel "Sika"@sk ;
+	schema:name "Sika"@sk ;
+	rdfs:label "Sika"@sl ;
+	skos:prefLabel "Sika"@sl ;
+	schema:name "Sika"@sl ;
+	rdfs:label "Sika"@sr-el ;
+	skos:prefLabel "Sika"@sr-el ;
+	schema:name "Sika"@sr-el ;
+	rdfs:label "Sika"@su ;
+	skos:prefLabel "Sika"@su ;
+	schema:name "Sika"@su ;
+	rdfs:label "Sika"@sv ;
+	skos:prefLabel "Sika"@sv ;
+	schema:name "Sika"@sv ;
+	rdfs:label "Sika"@vec ;
+	skos:prefLabel "Sika"@vec ;
+	schema:name "Sika"@vec ;
+	rdfs:label "Sika"@vi ;
+	skos:prefLabel "Sika"@vi ;
+	schema:name "Sika"@vi ;
+	rdfs:label "Sika"@vls ;
+	skos:prefLabel "Sika"@vls ;
+	schema:name "Sika"@vls ;
+	rdfs:label "Sika"@vo ;
+	skos:prefLabel "Sika"@vo ;
+	schema:name "Sika"@vo ;
+	rdfs:label "Sika"@wa ;
+	skos:prefLabel "Sika"@wa ;
+	schema:name "Sika"@wa ;
+	rdfs:label "Sika"@wo ;
+	skos:prefLabel "Sika"@wo ;
+	schema:name "Sika"@wo ;
+	rdfs:label "Sika"@zu ;
+	skos:prefLabel "Sika"@zu ;
+	schema:name "Sika"@zu ;
+	rdfs:label "Sika"@bjn ;
+	skos:prefLabel "Sika"@bjn ;
+	schema:name "Sika"@bjn ;
+	rdfs:label "Sika"@bug ;
+	skos:prefLabel "Sika"@bug ;
+	schema:name "Sika"@bug ;
+	rdfs:label "Sika"@map-bms ;
+	skos:prefLabel "Sika"@map-bms ;
+	schema:name "Sika"@map-bms ;
+	rdfs:label "Wikang Sika"@tl ;
+	skos:prefLabel "Wikang Sika"@tl ;
+	schema:name "Wikang Sika"@tl ;
+	rdfs:label "西卡語"@zh ;
+	skos:prefLabel "西卡語"@zh ;
+	schema:name "西卡語"@zh ;
+	schema:description "austronesische Sprache"@de,
+		"language spoken in Indonesia"@en,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"pagsasao idiay Indonesia"@ilo,
+		"שפה"@he,
+		"langue parlée en Indonésie"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl ;
+	skos:altLabel "Maumere"@en,
+		"Krowe"@en,
+		"Sara Sikka"@en,
+		"Sika language"@en,
+		"bahasa Sika"@id,
+		"bahasa Sara Sikka"@id,
+		"bahasa Maumere"@id,
+		"bahasa Krowe"@id .
+
+wd:Q12473468 owl:sameAs wd:Q33960 .
+
+wd:Q31441746 owl:sameAs wd:Q33960 .

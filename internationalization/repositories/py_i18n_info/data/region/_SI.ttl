@@ -1,0 +1,4211 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q215 a schema:Dataset ;
+	schema:about wd:Q215 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1923528052"^^xsd:integer ;
+	schema:dateModified "2023-06-25T09:50:36Z"^^xsd:dateTime .
+
+wd:Q215 a wikibase:Item .
+
+<https://it.wikivoyage.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikivoyage.org/> ;
+	schema:name "Slovenia"@it .
+
+<https://it.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ru.wikivoyage.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikivoyage.org/> ;
+	schema:name "Словения"@ru .
+
+<https://ru.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://fa.wikiquote.org/wiki/%D8%A7%D8%B3%D9%84%D9%88%D9%88%D9%86%DB%8C> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikiquote.org/> ;
+	schema:name "اسلوونی"@fa .
+
+<https://fa.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://de.wikivoyage.org/wiki/Slowenien> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikivoyage.org/> ;
+	schema:name "Slowenien"@de ;
+	wikibase:badge wd:Q17559452 .
+
+<https://de.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://en.wikivoyage.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikivoyage.org/> ;
+	schema:name "Slovenia"@en .
+
+<https://en.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://he.wikivoyage.org/wiki/%D7%A1%D7%9C%D7%95%D7%91%D7%A0%D7%99%D7%94> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikivoyage.org/> ;
+	schema:name "סלובניה"@he ;
+	wikibase:badge wd:Q17437798 .
+
+<https://he.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://fr.wikinews.org/wiki/Cat%C3%A9gorie:Slov%C3%A9nie> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikinews.org/> ;
+	schema:name "Catégorie:Slovénie"@fr .
+
+<https://fr.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://pl.wikiquote.org/wiki/S%C5%82owenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikiquote.org/> ;
+	schema:name "Słowenia"@pl .
+
+<https://pl.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://nl.wikinews.org/wiki/Categorie:Sloveni%C3%AB> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikinews.org/> ;
+	schema:name "Categorie:Slovenië"@nl .
+
+<https://nl.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://ro.wikivoyage.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikivoyage.org/> ;
+	schema:name "Slovenia"@ro .
+
+<https://ro.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://sv.wikivoyage.org/wiki/Slovenien> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikivoyage.org/> ;
+	schema:name "Slovenien"@sv .
+
+<https://sv.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ar.wikinews.org/wiki/%D8%AA%D8%B5%D9%86%D9%8A%D9%81:%D8%B3%D9%84%D9%88%D9%81%D9%8A%D9%86%D9%8A%D8%A7> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikinews.org/> ;
+	schema:name "تصنيف:سلوفينيا"@ar .
+
+<https://ar.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://fr.wikivoyage.org/wiki/Slov%C3%A9nie> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikivoyage.org/> ;
+	schema:name "Slovénie"@fr .
+
+<https://fr.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://zh.wikivoyage.org/wiki/%E6%96%AF%E6%B4%9B%E6%96%87%E5%B0%BC%E4%BA%9A> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikivoyage.org/> ;
+	schema:name "斯洛文尼亚"@zh .
+
+<https://zh.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ro.wikinews.org/wiki/Categorie:Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikinews.org/> ;
+	schema:name "Categorie:Slovenia"@ro .
+
+<https://ro.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://pl.wikinews.org/wiki/Kategoria:S%C5%82owenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikinews.org/> ;
+	schema:name "Kategoria:Słowenia"@pl .
+
+<https://pl.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://ja.wikinews.org/wiki/%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA:%E3%82%B9%E3%83%AD%E3%83%99%E3%83%8B%E3%82%A2> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikinews.org/> ;
+	schema:name "カテゴリ:スロベニア"@ja .
+
+<https://ja.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://vi.wikivoyage.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikivoyage.org/> ;
+	schema:name "Slovenia"@vi .
+
+<https://vi.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://fi.wikinews.org/wiki/Luokka:Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikinews.org/> ;
+	schema:name "Luokka:Slovenia"@fi .
+
+<https://fi.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://fa.wikivoyage.org/wiki/%D8%A7%D8%B3%D9%84%D9%88%D9%88%D9%86%DB%8C> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikivoyage.org/> ;
+	schema:name "اسلوونی"@fa .
+
+<https://fa.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://pl.wikivoyage.org/wiki/S%C5%82owenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikivoyage.org/> ;
+	schema:name "Słowenia"@pl .
+
+<https://pl.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://eo.wikinews.org/wiki/Kategorio:Slovenujo> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikinews.org/> ;
+	schema:name "Kategorio:Slovenujo"@eo .
+
+<https://eo.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://sr.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%98%D0%B0:%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%98%D0%B0> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikinews.org/> ;
+	schema:name "Категорија:Словенија"@sr .
+
+<https://sr.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://pt.wikivoyage.org/wiki/Eslov%C3%AAnia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikivoyage.org/> ;
+	schema:name "Eslovênia"@pt .
+
+<https://pt.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://en.wikinews.org/wiki/Category:Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikinews.org/> ;
+	schema:name "Category:Slovenia"@en .
+
+<https://en.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://sv.wikinews.org/wiki/Kategori:Slovenien> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikinews.org/> ;
+	schema:name "Kategori:Slovenien"@sv .
+
+<https://sv.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://es.wikivoyage.org/wiki/Eslovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikivoyage.org/> ;
+	schema:name "Eslovenia"@es .
+
+<https://es.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://el.wikinews.org/wiki/%CE%9A%CE%B1%CF%84%CE%B7%CE%B3%CE%BF%CF%81%CE%AF%CE%B1:%CE%A3%CE%BB%CE%BF%CE%B2%CE%B5%CE%BD%CE%AF%CE%B1> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikinews.org/> ;
+	schema:name "Κατηγορία:Σλοβενία"@el .
+
+<https://el.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://commons.wikimedia.org/wiki/Slovenija> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "Slovenija"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+<https://sq.wikinews.org/wiki/Kategoria:Slloveni> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sq" ;
+	schema:isPartOf <https://sq.wikinews.org/> ;
+	schema:name "Kategoria:Slloveni"@sq .
+
+<https://sq.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://es.wikinews.org/wiki/Categor%C3%ADa:Eslovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikinews.org/> ;
+	schema:name "Categoría:Eslovenia"@es .
+
+<https://es.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://cs.wikinews.org/wiki/Kategorie:Slovinsko> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikinews.org/> ;
+	schema:name "Kategorie:Slovinsko"@cs .
+
+<https://cs.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://uk.wikivoyage.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikivoyage.org/> ;
+	schema:name "Словенія"@uk .
+
+<https://uk.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://nl.wikivoyage.org/wiki/Sloveni%C3%AB> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikivoyage.org/> ;
+	schema:name "Slovenië"@nl .
+
+<https://nl.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://hu.wikinews.org/wiki/Kateg%C3%B3ria:Szlov%C3%A9nia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikinews.org/> ;
+	schema:name "Kategória:Szlovénia"@hu .
+
+<https://hu.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://ru.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikinews.org/> ;
+	schema:name "Категория:Словения"@ru .
+
+<https://ru.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://sl.wikiquote.org/wiki/Slovenija> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikiquote.org/> ;
+	schema:name "Slovenija"@sl .
+
+<https://sl.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://ta.wikinews.org/wiki/%E0%AE%AA%E0%AE%95%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81:%E0%AE%9A%E0%AF%81%E0%AE%B2%E0%AF%8B%E0%AE%B5%E0%AF%80%E0%AE%A9%E0%AE%BF%E0%AE%AF%E0%AE%BE> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikinews.org/> ;
+	schema:name "பகுப்பு:சுலோவீனியா"@ta .
+
+<https://ta.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://de.wikinews.org/wiki/Kategorie:Slowenien> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikinews.org/> ;
+	schema:name "Kategorie:Slowenien"@de .
+
+<https://de.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://it.wikinews.org/wiki/Categoria:Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikinews.org/> ;
+	schema:name "Categoria:Slovenia"@it .
+
+<https://it.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://el.wikivoyage.org/wiki/%CE%A3%CE%BB%CE%BF%CE%B2%CE%B5%CE%BD%CE%AF%CE%B1> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikivoyage.org/> ;
+	schema:name "Σλοβενία"@el .
+
+<https://el.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://fa.wikinews.org/wiki/%D8%B1%D8%AF%D9%87:%D8%A7%D8%B3%D9%84%D9%88%D9%88%D9%86%DB%8C> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikinews.org/> ;
+	schema:name "رده:اسلوونی"@fa .
+
+<https://fa.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://fi.wikivoyage.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikivoyage.org/> ;
+	schema:name "Slovenia"@fi .
+
+<https://fi.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ja.wikivoyage.org/wiki/%E3%82%B9%E3%83%AD%E3%83%99%E3%83%8B%E3%82%A2> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikivoyage.org/> ;
+	schema:name "スロベニア"@ja ;
+	wikibase:badge wd:Q17559452 .
+
+<https://ja.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://pt.wikinews.org/wiki/Categoria:Eslov%C3%AAnia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikinews.org/> ;
+	schema:name "Categoria:Eslovênia"@pt .
+
+<https://pt.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://eo.wikivoyage.org/wiki/Slovenio> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikivoyage.org/> ;
+	schema:name "Slovenio"@eo .
+
+<https://eo.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://en.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Slovenia"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Slowenien> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Slowenien"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Slov%C3%A9nie> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Slovénie"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Eslovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Eslovenia"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Словения"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Slovenia"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%AD%E3%83%99%E3%83%8B%E3%82%A2> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "スロベニア"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Sloveni%C3%AB> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Slovenië"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/S%C5%82owenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Słowenia"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Eslov%C3%A9nia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Eslovénia"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%96%AF%E6%B4%9B%E6%96%87%E5%B0%BC%E4%BA%9A> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "斯洛文尼亚"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Slovenien> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Slovenien"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%A7%D8%B3%D9%84%D9%88%D9%88%D9%86%DB%8C> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "اسلوونی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%A1%D7%9C%D7%95%D7%91%D7%A0%D7%99%D7%94> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "סלובניה"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Slovenya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Slovenya"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Szlov%C3%A9nia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Szlovénia"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Slovenia"@fi ;
+	wikibase:badge wd:Q17559452 .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%B3%D9%84%D9%88%D9%81%D9%8A%D9%86%D9%8A%D8%A7> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "سلوفينيا"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Slovenia"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Slovenia"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Словенія"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%8A%AC%EB%A1%9C%EB%B2%A0%EB%8B%88%EC%95%84> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "슬로베니아"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Eslov%C3%A8nia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Eslovènia"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Slovinsko> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Slovinsko"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%98%D0%B0> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Словенија"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Slovenia"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Slovenia"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/Slovenien> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Slovenien"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Slovenia"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Словения"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ab.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D0%B0> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ab" ;
+	schema:isPartOf <https://ab.wikipedia.org/> ;
+	schema:name "Словениа"@ab .
+
+<https://ab.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ace.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ace" ;
+	schema:isPartOf <https://ace.wikipedia.org/> ;
+	schema:name "Slovenia"@ace .
+
+<https://ace.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ady.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D0%B5> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ady" ;
+	schema:isPartOf <https://ady.wikipedia.org/> ;
+	schema:name "Словение"@ady .
+
+<https://ady.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Sloweni%C3%AB> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Slowenië"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://als.wikipedia.org/wiki/Slowenien> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "gsw" ;
+	schema:isPartOf <https://als.wikipedia.org/> ;
+	schema:name "Slowenien"@gsw .
+
+<https://als.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://am.wikipedia.org/wiki/%E1%88%B5%E1%88%8E%E1%89%AC%E1%8A%92%E1%8B%AB> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "am" ;
+	schema:isPartOf <https://am.wikipedia.org/> ;
+	schema:name "ስሎቬኒያ"@am .
+
+<https://am.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ami.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ami" ;
+	schema:isPartOf <https://ami.wikipedia.org/> ;
+	schema:name "Slovenia"@ami .
+
+<https://ami.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://an.wikipedia.org/wiki/Eslovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "an" ;
+	schema:isPartOf <https://an.wikipedia.org/> ;
+	schema:name "Eslovenia"@an .
+
+<https://an.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ang.wikipedia.org/wiki/Slofenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ang" ;
+	schema:isPartOf <https://ang.wikipedia.org/> ;
+	schema:name "Slofenia"@ang .
+
+<https://ang.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arc.wikipedia.org/wiki/%DC%A3%DC%A0%DC%98%DC%92%DC%A2%DC%9D%DC%90> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "arc" ;
+	schema:isPartOf <https://arc.wikipedia.org/> ;
+	schema:name "ܣܠܘܒܢܝܐ"@arc .
+
+<https://arc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ary.wikipedia.org/wiki/%D8%B5%D9%84%D9%88%DA%A4%D9%8A%D9%86%D9%8A%D8%A7> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ary" ;
+	schema:isPartOf <https://ary.wikipedia.org/> ;
+	schema:name "صلوڤينيا"@ary .
+
+<https://ary.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D8%B3%D9%84%D9%88%D9%81%D9%8A%D9%86%D9%8A%D8%A7> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "سلوفينيا"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Eslovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Eslovenia"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://av.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "av" ;
+	schema:isPartOf <https://av.wikipedia.org/> ;
+	schema:name "Словения"@av .
+
+<https://av.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://avk.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "avk" ;
+	schema:isPartOf <https://avk.wikipedia.org/> ;
+	schema:name "Slovenia"@avk .
+
+<https://avk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://awa.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8D%E0%A4%B2%E0%A5%8B%E0%A4%B5%E0%A5%87%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "awa" ;
+	schema:isPartOf <https://awa.wikipedia.org/> ;
+	schema:name "स्लोवेनिया"@awa .
+
+<https://awa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ay.wikipedia.org/wiki/Isluwi%C3%B1a> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ay" ;
+	schema:isPartOf <https://ay.wikipedia.org/> ;
+	schema:name "Isluwiña"@ay .
+
+<https://ay.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Sloveniya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Sloveniya"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D8%A7%DB%8C%D8%B3%D9%84%D9%88%D9%88%D9%86%DB%8C> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "ایسلوونی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ba.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ba" ;
+	schema:isPartOf <https://ba.wikipedia.org/> ;
+	schema:name "Словения"@ba .
+
+<https://ba.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ban.wikipedia.org/wiki/Slov%C3%A9nia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ban" ;
+	schema:isPartOf <https://ban.wikipedia.org/> ;
+	schema:name "Slovénia"@ban .
+
+<https://ban.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bar.wikipedia.org/wiki/Slowenien> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "bar" ;
+	schema:isPartOf <https://bar.wikipedia.org/> ;
+	schema:name "Slowenien"@bar .
+
+<https://bar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bat-smg.wikipedia.org/wiki/Slovien%C4%97j%C4%97> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sgs" ;
+	schema:isPartOf <https://bat-smg.wikipedia.org/> ;
+	schema:name "Slovienėjė"@sgs .
+
+<https://bat-smg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Slobinya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Slobinya"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%A1%D0%BB%D0%B0%D0%B2%D0%B5%D0%BD%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Славенія"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%A1%D0%BB%D0%B0%D0%B2%D0%B5%D0%BD%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Славенія"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bh.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8D%E0%A4%B2%E0%A5%8B%E0%A4%B5%E0%A5%87%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "bho" ;
+	schema:isPartOf <https://bh.wikipedia.org/> ;
+	schema:name "स्लोवेनिया"@bho .
+
+<https://bh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bi.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "bi" ;
+	schema:isPartOf <https://bi.wikipedia.org/> ;
+	schema:name "Slovenia"@bi .
+
+<https://bi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A7%8D%E0%A6%B2%E0%A7%8B%E0%A6%AD%E0%A7%87%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "স্লোভেনিয়া"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bo.wikipedia.org/wiki/%E0%BD%A6%E0%BD%B2%E0%BC%8B%E0%BD%A3%E0%BD%BC%E0%BC%8B%E0%BD%9D%E0%BD%BA%E0%BC%8B%E0%BD%93%E0%BD%B2%E0%BC%8B%E0%BD%A1%E0%BC%8D> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "bo" ;
+	schema:isPartOf <https://bo.wikipedia.org/> ;
+	schema:name "སི་ལོ་ཝེ་ནི་ཡ།"@bo .
+
+<https://bo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bpy.wikipedia.org/wiki/%E0%A6%B8%E0%A7%8D%E0%A6%B2%E0%A7%8B%E0%A6%AD%E0%A7%87%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "bpy" ;
+	schema:isPartOf <https://bpy.wikipedia.org/> ;
+	schema:name "স্লোভেনিয়া"@bpy .
+
+<https://bpy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Slovenia"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bs.wikipedia.org/wiki/Slovenija> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "bs" ;
+	schema:isPartOf <https://bs.wikipedia.org/> ;
+	schema:name "Slovenija"@bs ;
+	wikibase:badge wd:Q17437796 .
+
+<https://bs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bxr.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "bxr" ;
+	schema:isPartOf <https://bxr.wikipedia.org/> ;
+	schema:name "Словени"@bxr .
+
+<https://bxr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cbk-zam.wikipedia.org/wiki/Eslovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "cbk-x-zam" ;
+	schema:isPartOf <https://cbk-zam.wikipedia.org/> ;
+	schema:name "Eslovenia"@cbk-x-zam .
+
+<https://cbk-zam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cdo.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "cdo" ;
+	schema:isPartOf <https://cdo.wikipedia.org/> ;
+	schema:name "Slovenia"@cdo .
+
+<https://cdo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ce.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ce" ;
+	schema:isPartOf <https://ce.wikipedia.org/> ;
+	schema:name "Словени"@ce .
+
+<https://ce.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ch.wikipedia.org/wiki/Eslovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ch" ;
+	schema:isPartOf <https://ch.wikipedia.org/> ;
+	schema:name "Eslovenia"@ch .
+
+<https://ch.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://chr.wikipedia.org/wiki/%E1%8F%8D%E1%8E%B6%E1%8F%AB%E1%8F%82%E1%8E%A0> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "chr" ;
+	schema:isPartOf <https://chr.wikipedia.org/> ;
+	schema:name "ᏍᎶᏫᏂᎠ"@chr .
+
+<https://chr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://chy.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "chy" ;
+	schema:isPartOf <https://chy.wikipedia.org/> ;
+	schema:name "Slovenia"@chy .
+
+<https://chy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ckb.wikipedia.org/wiki/%D8%B3%D9%84%DB%86%DA%A4%DB%8E%D9%86%DB%8C%D8%A7> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ckb" ;
+	schema:isPartOf <https://ckb.wikipedia.org/> ;
+	schema:name "سلۆڤێنیا"@ckb .
+
+<https://ckb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://co.wikipedia.org/wiki/Sluvenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "co" ;
+	schema:isPartOf <https://co.wikipedia.org/> ;
+	schema:name "Sluvenia"@co .
+
+<https://co.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://crh.wikipedia.org/wiki/Sloveniya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "crh-Latn" ;
+	schema:isPartOf <https://crh.wikipedia.org/> ;
+	schema:name "Sloveniya"@crh-Latn .
+
+<https://crh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://csb.wikipedia.org/wiki/S%C5%82oweni%C3%B4> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "csb" ;
+	schema:isPartOf <https://csb.wikipedia.org/> ;
+	schema:name "Słoweniô"@csb .
+
+<https://csb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cu.wikipedia.org/wiki/%D0%87%D0%BB%D0%BB%D1%B7%D1%80%D1%97%D0%B8%D1%81%D0%BA%D0%B0_%D0%A1%D0%BB%D0%BE%D0%B2%D1%A3%D0%BD%D1%97%EA%99%97> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "cu" ;
+	schema:isPartOf <https://cu.wikipedia.org/> ;
+	schema:name "Їллѷрїиска Словѣнїꙗ"@cu .
+
+<https://cu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cv.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "cv" ;
+	schema:isPartOf <https://cv.wikipedia.org/> ;
+	schema:name "Словени"@cv .
+
+<https://cv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cy.wikipedia.org/wiki/Slofenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "cy" ;
+	schema:isPartOf <https://cy.wikipedia.org/> ;
+	schema:name "Slofenia"@cy .
+
+<https://cy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://diq.wikipedia.org/wiki/Slowenya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Slowenya"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dsb.wikipedia.org/wiki/S%C5%82owje%C5%84ska> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "dsb" ;
+	schema:isPartOf <https://dsb.wikipedia.org/> ;
+	schema:name "Słowjeńska"@dsb .
+
+<https://dsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dty.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8D%E0%A4%B2%E0%A5%8B%E0%A4%AD%E0%A5%87%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "dty" ;
+	schema:isPartOf <https://dty.wikipedia.org/> ;
+	schema:name "स्लोभेनिया"@dty .
+
+<https://dty.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dv.wikipedia.org/wiki/%DE%90%DE%AA%DE%8D%DE%AE%DE%88%DE%A9%DE%82%DE%A8%DE%87%DE%A7> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "dv" ;
+	schema:isPartOf <https://dv.wikipedia.org/> ;
+	schema:name "ސުލޮވީނިއާ"@dv .
+
+<https://dv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ee.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ee" ;
+	schema:isPartOf <https://ee.wikipedia.org/> ;
+	schema:name "Slovenia"@ee .
+
+<https://ee.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%A3%CE%BB%CE%BF%CE%B2%CE%B5%CE%BD%CE%AF%CE%B1> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Σλοβενία"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eml.wikipedia.org/wiki/%C5%9Aluv%C3%A8gna> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "egl" ;
+	schema:isPartOf <https://eml.wikipedia.org/> ;
+	schema:name "Śluvègna"@egl .
+
+<https://eml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Slovenio> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Slovenio"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Sloveenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Sloveenia"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Eslovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Eslovenia"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ff.wikipedia.org/wiki/Suloweniya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ff" ;
+	schema:isPartOf <https://ff.wikipedia.org/> ;
+	schema:name "Suloweniya"@ff .
+
+<https://ff.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fiu-vro.wikipedia.org/wiki/Sloveeni%C3%A4> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "vro" ;
+	schema:isPartOf <https://fiu-vro.wikipedia.org/> ;
+	schema:name "Sloveeniä"@vro .
+
+<https://fiu-vro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fo.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "fo" ;
+	schema:isPartOf <https://fo.wikipedia.org/> ;
+	schema:name "Slovenia"@fo .
+
+<https://fo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frp.wikipedia.org/wiki/Slov%C3%A8nia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "frp" ;
+	schema:isPartOf <https://frp.wikipedia.org/> ;
+	schema:name "Slovènia"@frp .
+
+<https://frp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fur.wikipedia.org/wiki/Slovenie> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "fur" ;
+	schema:isPartOf <https://fur.wikipedia.org/> ;
+	schema:name "Slovenie"@fur .
+
+<https://fur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fy.wikipedia.org/wiki/Sloveenje> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "fy" ;
+	schema:isPartOf <https://fy.wikipedia.org/> ;
+	schema:name "Sloveenje"@fy .
+
+<https://fy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ga.wikipedia.org/wiki/An_tSl%C3%B3iv%C3%A9in> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ga" ;
+	schema:isPartOf <https://ga.wikipedia.org/> ;
+	schema:name "An tSlóivéin"@ga .
+
+<https://ga.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gag.wikipedia.org/wiki/Sloveniya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "gag" ;
+	schema:isPartOf <https://gag.wikipedia.org/> ;
+	schema:name "Sloveniya"@gag .
+
+<https://gag.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gcr.wikipedia.org/wiki/Slov%C3%A9ni> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "gcr" ;
+	schema:isPartOf <https://gcr.wikipedia.org/> ;
+	schema:name "Slovéni"@gcr .
+
+<https://gcr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gd.wikipedia.org/wiki/Sloibh%C3%ACnia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "gd" ;
+	schema:isPartOf <https://gd.wikipedia.org/> ;
+	schema:name "Sloibhìnia"@gd .
+
+<https://gd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Eslovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Eslovenia"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gn.wikipedia.org/wiki/Elov%C3%A9%C3%B1a> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "gn" ;
+	schema:isPartOf <https://gn.wikipedia.org/> ;
+	schema:name "Elovéña"@gn .
+
+<https://gn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gom.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8D%E0%A4%B2%E0%A5%8B%E0%A4%B5%E0%A5%8D%E0%A4%B9%E0%A5%87%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "gom" ;
+	schema:isPartOf <https://gom.wikipedia.org/> ;
+	schema:name "स्लोव्हेनिया"@gom .
+
+<https://gom.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://got.wikipedia.org/wiki/%F0%90%8D%83%F0%90%8C%BB%F0%90%8C%B0%F0%90%8C%BF%F0%90%8C%B1%F0%90%8C%B0%F0%90%8C%B9%F0%90%8C%BD%F0%90%8C%BE%F0%90%8C%B0> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "got" ;
+	schema:isPartOf <https://got.wikipedia.org/> ;
+	schema:name "𐍃𐌻𐌰𐌿𐌱𐌰𐌹𐌽𐌾𐌰"@got .
+
+<https://got.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gu.wikipedia.org/wiki/%E0%AA%B8%E0%AB%8D%E0%AA%B2%E0%AB%8B%E0%AA%B5%E0%AB%87%E0%AA%A8%E0%AA%BF%E0%AA%AF%E0%AA%BE> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "gu" ;
+	schema:isPartOf <https://gu.wikipedia.org/> ;
+	schema:name "સ્લોવેનિયા"@gu .
+
+<https://gu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gv.wikipedia.org/wiki/Yn_Clovean> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "gv" ;
+	schema:isPartOf <https://gv.wikipedia.org/> ;
+	schema:name "Yn Clovean"@gv .
+
+<https://gv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ha.wikipedia.org/wiki/Sloveniya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ha" ;
+	schema:isPartOf <https://ha.wikipedia.org/> ;
+	schema:name "Sloveniya"@ha .
+
+<https://ha.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hak.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "hak" ;
+	schema:isPartOf <https://hak.wikipedia.org/> ;
+	schema:name "Slovenia"@hak .
+
+<https://hak.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://haw.wikipedia.org/wiki/Solowenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "haw" ;
+	schema:isPartOf <https://haw.wikipedia.org/> ;
+	schema:name "Solowenia"@haw .
+
+<https://haw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8D%E0%A4%B2%E0%A5%8B%E0%A4%B5%E0%A5%87%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "स्लोवेनिया"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Slovenia"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Slovenija> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Slovenija"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hsb.wikipedia.org/wiki/S%C5%82owjenska> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "hsb" ;
+	schema:isPartOf <https://hsb.wikipedia.org/> ;
+	schema:name "Słowjenska"@hsb .
+
+<https://hsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ht.wikipedia.org/wiki/Sloveni> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ht" ;
+	schema:isPartOf <https://ht.wikipedia.org/> ;
+	schema:name "Sloveni"@ht .
+
+<https://ht.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D5%8D%D5%AC%D5%B8%D5%BE%D5%A5%D5%B6%D5%AB%D5%A1> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Սլովենիա"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hyw.wikipedia.org/wiki/%D5%8D%D5%AC%D5%B8%D5%BE%D5%A5%D5%B6%D5%AB%D5%A1> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "hyw" ;
+	schema:isPartOf <https://hyw.wikipedia.org/> ;
+	schema:name "Սլովենիա"@hyw .
+
+<https://hyw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ia.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ia" ;
+	schema:isPartOf <https://ia.wikipedia.org/> ;
+	schema:name "Slovenia"@ia .
+
+<https://ia.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ie.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ie" ;
+	schema:isPartOf <https://ie.wikipedia.org/> ;
+	schema:name "Slovenia"@ie .
+
+<https://ie.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Slovenia"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Eslobenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Eslobenia"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://io.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "io" ;
+	schema:isPartOf <https://io.wikipedia.org/> ;
+	schema:name "Slovenia"@io .
+
+<https://io.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/Sl%C3%B3ven%C3%ADa> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Slóvenía"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jam.wikipedia.org/wiki/Sloviinia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "jam" ;
+	schema:isPartOf <https://jam.wikipedia.org/> ;
+	schema:name "Sloviinia"@jam .
+
+<https://jam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jbo.wikipedia.org/wiki/slovEni,as> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "jbo" ;
+	schema:isPartOf <https://jbo.wikipedia.org/> ;
+	schema:name "slovEni,as"@jbo .
+
+<https://jbo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jv.wikipedia.org/wiki/Slow%C3%A9n> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "jv" ;
+	schema:isPartOf <https://jv.wikipedia.org/> ;
+	schema:name "Slowén"@jv .
+
+<https://jv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%A1%E1%83%9A%E1%83%9D%E1%83%95%E1%83%94%E1%83%9C%E1%83%98%E1%83%90> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "სლოვენია"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kaa.wikipedia.org/wiki/Sloveniya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "kaa" ;
+	schema:isPartOf <https://kaa.wikipedia.org/> ;
+	schema:name "Sloveniya"@kaa .
+
+<https://kaa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kbd.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8D> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "kbd" ;
+	schema:isPartOf <https://kbd.wikipedia.org/> ;
+	schema:name "Словениэ"@kbd .
+
+<https://kbd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kbp.wikipedia.org/wiki/Siloveni> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "kbp" ;
+	schema:isPartOf <https://kbp.wikipedia.org/> ;
+	schema:name "Siloveni"@kbp .
+
+<https://kbp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kg.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "kg" ;
+	schema:isPartOf <https://kg.wikipedia.org/> ;
+	schema:name "Slovenia"@kg .
+
+<https://kg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kk.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "kk" ;
+	schema:isPartOf <https://kk.wikipedia.org/> ;
+	schema:name "Словения"@kk .
+
+<https://kk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kn.wikipedia.org/wiki/%E0%B2%B8%E0%B3%8D%E0%B2%B2%E0%B3%8A%E0%B2%B5%E0%B3%87%E0%B2%A8%E0%B2%BF%E0%B2%AF> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "kn" ;
+	schema:isPartOf <https://kn.wikipedia.org/> ;
+	schema:name "ಸ್ಲೊವೇನಿಯ"@kn .
+
+<https://kn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://koi.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "koi" ;
+	schema:isPartOf <https://koi.wikipedia.org/> ;
+	schema:name "Словения"@koi .
+
+<https://koi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://krc.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "krc" ;
+	schema:isPartOf <https://krc.wikipedia.org/> ;
+	schema:name "Словения"@krc .
+
+<https://krc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ku.wikipedia.org/wiki/Slovenya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ku" ;
+	schema:isPartOf <https://ku.wikipedia.org/> ;
+	schema:name "Slovenya"@ku .
+
+<https://ku.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Словения"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kw.wikipedia.org/wiki/Sloveni> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "kw" ;
+	schema:isPartOf <https://kw.wikipedia.org/> ;
+	schema:name "Sloveni"@kw .
+
+<https://kw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ky.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ky" ;
+	schema:isPartOf <https://ky.wikipedia.org/> ;
+	schema:name "Словения"@ky .
+
+<https://ky.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Slovenia"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lad.wikipedia.org/wiki/Eslovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "lad" ;
+	schema:isPartOf <https://lad.wikipedia.org/> ;
+	schema:name "Eslovenia"@lad .
+
+<https://lad.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lb.wikipedia.org/wiki/Slowenien> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "lb" ;
+	schema:isPartOf <https://lb.wikipedia.org/> ;
+	schema:name "Slowenien"@lb .
+
+<https://lb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lez.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "lez" ;
+	schema:isPartOf <https://lez.wikipedia.org/> ;
+	schema:name "Словения"@lez .
+
+<https://lez.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lfn.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "lfn" ;
+	schema:isPartOf <https://lfn.wikipedia.org/> ;
+	schema:name "Slovenia"@lfn .
+
+<https://lfn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://li.wikipedia.org/wiki/Sloveni%C3%AB> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "li" ;
+	schema:isPartOf <https://li.wikipedia.org/> ;
+	schema:name "Slovenië"@li .
+
+<https://li.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lij.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "lij" ;
+	schema:isPartOf <https://lij.wikipedia.org/> ;
+	schema:name "Slovenia"@lij .
+
+<https://lij.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lld.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "lld" ;
+	schema:isPartOf <https://lld.wikipedia.org/> ;
+	schema:name "Slovenia"@lld .
+
+<https://lld.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lmo.wikipedia.org/wiki/Sluenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "lmo" ;
+	schema:isPartOf <https://lmo.wikipedia.org/> ;
+	schema:name "Sluenia"@lmo .
+
+<https://lmo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ln.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ln" ;
+	schema:isPartOf <https://ln.wikipedia.org/> ;
+	schema:name "Slovenia"@ln .
+
+<https://ln.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lo.wikipedia.org/wiki/%E0%BA%9B%E0%BA%B0%E0%BB%80%E0%BA%97%E0%BA%94%E0%BA%AA%E0%BA%B0%E0%BB%82%E0%BA%A5%E0%BB%80%E0%BA%A7%E0%BA%99%E0%BA%B5> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "lo" ;
+	schema:isPartOf <https://lo.wikipedia.org/> ;
+	schema:name "ປະເທດສະໂລເວນີ"@lo .
+
+<https://lo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Slov%C4%97nija> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Slovėnija"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ltg.wikipedia.org/wiki/Sloveneja> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ltg" ;
+	schema:isPartOf <https://ltg.wikipedia.org/> ;
+	schema:name "Sloveneja"@ltg .
+
+<https://ltg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Slov%C4%93nija> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Slovēnija"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://map-bms.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "jv-x-bms" ;
+	schema:isPartOf <https://map-bms.wikipedia.org/> ;
+	schema:name "Slovenia"@jv-x-bms .
+
+<https://map-bms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mg.wikipedia.org/wiki/Sl%C3%B4venia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "mg" ;
+	schema:isPartOf <https://mg.wikipedia.org/> ;
+	schema:name "Slôvenia"@mg .
+
+<https://mg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mhr.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D0%B9> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "mhr" ;
+	schema:isPartOf <https://mhr.wikipedia.org/> ;
+	schema:name "Словений"@mhr .
+
+<https://mhr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mi.wikipedia.org/wiki/Horowinia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "mi" ;
+	schema:isPartOf <https://mi.wikipedia.org/> ;
+	schema:name "Horowinia"@mi .
+
+<https://mi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%98%D0%B0> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Словенија"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%B8%E0%B5%8D%E0%B4%B2%E0%B5%8A%E0%B4%B5%E0%B5%80%E0%B4%A8%E0%B5%8D%E0%B4%AF> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "സ്ലൊവീന്യ"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mn.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "mn" ;
+	schema:isPartOf <https://mn.wikipedia.org/> ;
+	schema:name "Словени"@mn .
+
+<https://mn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mni.wikipedia.org/wiki/%EA%AF%81%EA%AF%AD%EA%AF%82%EA%AF%A3%EA%AF%9A%EA%AF%A6%EA%AF%85%EA%AF%A4%EA%AF%8C%EA%AF%A5> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "mni" ;
+	schema:isPartOf <https://mni.wikipedia.org/> ;
+	schema:name "ꯁ꯭ꯂꯣꯚꯦꯅꯤꯌꯥ"@mni .
+
+<https://mni.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8D%E0%A4%B2%E0%A5%8B%E0%A4%B5%E0%A5%8D%E0%A4%B9%E0%A5%87%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "mr" ;
+	schema:isPartOf <https://mr.wikipedia.org/> ;
+	schema:name "स्लोव्हेनिया"@mr .
+
+<https://mr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Slovenia"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mt.wikipedia.org/wiki/Slovenja> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "mt" ;
+	schema:isPartOf <https://mt.wikipedia.org/> ;
+	schema:name "Slovenja"@mt .
+
+<https://mt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mwl.wikipedia.org/wiki/Slob%C3%A9nia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "mwl" ;
+	schema:isPartOf <https://mwl.wikipedia.org/> ;
+	schema:name "Slobénia"@mwl .
+
+<https://mwl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://my.wikipedia.org/wiki/%E1%80%86%E1%80%9C%E1%80%AD%E1%80%AF%E1%80%97%E1%80%B1%E1%80%B8%E1%80%94%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8%E1%80%94%E1%80%AD%E1%80%AF%E1%80%84%E1%80%BA%E1%80%84%E1%80%B6> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "my" ;
+	schema:isPartOf <https://my.wikipedia.org/> ;
+	schema:name "ဆလိုဗေးနီးယားနိုင်ငံ"@my .
+
+<https://my.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://myv.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F_%D0%9C%D0%B0%D1%81%D1%82%D0%BE%D1%80> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "myv" ;
+	schema:isPartOf <https://myv.wikipedia.org/> ;
+	schema:name "Словения Мастор"@myv .
+
+<https://myv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mzn.wikipedia.org/wiki/%D8%A7%D8%B3%D9%84%D9%88%D9%86%DB%8C> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "mzn" ;
+	schema:isPartOf <https://mzn.wikipedia.org/> ;
+	schema:name "اسلونی"@mzn .
+
+<https://mzn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nds.wikipedia.org/wiki/Slowenien> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "nds" ;
+	schema:isPartOf <https://nds.wikipedia.org/> ;
+	schema:name "Slowenien"@nds .
+
+<https://nds.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nds-nl.wikipedia.org/wiki/Sloveni%C3%ABn> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "nds-NL" ;
+	schema:isPartOf <https://nds-nl.wikipedia.org/> ;
+	schema:name "Sloveniën"@nds-NL .
+
+<https://nds-nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ne.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8D%E0%A4%B2%E0%A5%8B%E0%A4%AD%E0%A5%87%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ne" ;
+	schema:isPartOf <https://ne.wikipedia.org/> ;
+	schema:name "स्लोभेनिया"@ne .
+
+<https://ne.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://new.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8D%E0%A4%B2%E0%A5%8B%E0%A4%AD%E0%A5%87%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "new" ;
+	schema:isPartOf <https://new.wikipedia.org/> ;
+	schema:name "स्लोभेनिया"@new .
+
+<https://new.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Slovenia"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nov.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "nov" ;
+	schema:isPartOf <https://nov.wikipedia.org/> ;
+	schema:name "Slovenia"@nov .
+
+<https://nov.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nrm.wikipedia.org/wiki/Slov%C3%A9nie> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "fr-x-nrm" ;
+	schema:isPartOf <https://nrm.wikipedia.org/> ;
+	schema:name "Slovénie"@fr-x-nrm .
+
+<https://nrm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Eslov%C3%A8nia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Eslovènia"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://olo.wikipedia.org/wiki/Slovenii> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "olo" ;
+	schema:isPartOf <https://olo.wikipedia.org/> ;
+	schema:name "Slovenii"@olo .
+
+<https://olo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://om.wikipedia.org/wiki/Isloveeniyaa> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "om" ;
+	schema:isPartOf <https://om.wikipedia.org/> ;
+	schema:name "Isloveeniyaa"@om .
+
+<https://om.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://or.wikipedia.org/wiki/%E0%AC%B8%E0%AD%8D%E0%AC%B2%E0%AD%8B%E0%AC%AD%E0%AD%87%E0%AC%A8%E0%AC%BF%E0%AC%86> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "or" ;
+	schema:isPartOf <https://or.wikipedia.org/> ;
+	schema:name "ସ୍ଲୋଭେନିଆ"@or .
+
+<https://or.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://os.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "os" ;
+	schema:isPartOf <https://os.wikipedia.org/> ;
+	schema:name "Словени"@os .
+
+<https://os.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pa.wikipedia.org/wiki/%E0%A8%B8%E0%A8%B2%E0%A9%8B%E0%A8%B5%E0%A9%87%E0%A8%A8%E0%A9%80%E0%A8%86> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "pa" ;
+	schema:isPartOf <https://pa.wikipedia.org/> ;
+	schema:name "ਸਲੋਵੇਨੀਆ"@pa .
+
+<https://pa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pag.wikipedia.org/wiki/Eslovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "pag" ;
+	schema:isPartOf <https://pag.wikipedia.org/> ;
+	schema:name "Eslovenia"@pag .
+
+<https://pag.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pam.wikipedia.org/wiki/Eslobenya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "pam" ;
+	schema:isPartOf <https://pam.wikipedia.org/> ;
+	schema:name "Eslobenya"@pam .
+
+<https://pam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pap.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "pap" ;
+	schema:isPartOf <https://pap.wikipedia.org/> ;
+	schema:name "Slovenia"@pap .
+
+<https://pap.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pcd.wikipedia.org/wiki/Slov%C3%A9nie> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "pcd" ;
+	schema:isPartOf <https://pcd.wikipedia.org/> ;
+	schema:name "Slovénie"@pcd .
+
+<https://pcd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pi.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8D%E0%A4%B2%E0%A5%8B%E0%A4%B5%E0%A5%80%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "pi" ;
+	schema:isPartOf <https://pi.wikipedia.org/> ;
+	schema:name "स्लोवीनिया"@pi .
+
+<https://pi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pih.wikipedia.org/wiki/Slowenya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "pih" ;
+	schema:isPartOf <https://pih.wikipedia.org/> ;
+	schema:name "Slowenya"@pih .
+
+<https://pih.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Slovenia"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%D8%B3%D9%84%D9%88%DB%8C%D9%86%DB%8C%D8%A7> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "سلوینیا"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnt.wikipedia.org/wiki/%CE%A3%CE%BB%CE%BF%CE%B2%CE%B5%CE%BD%CE%AF%CE%B1> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "pnt" ;
+	schema:isPartOf <https://pnt.wikipedia.org/> ;
+	schema:name "Σλοβενία"@pnt .
+
+<https://pnt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ps.wikipedia.org/wiki/%D8%B3%D9%84%D9%88%D9%88%D8%A7%D9%86%DB%8C%D8%A7> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ps" ;
+	schema:isPartOf <https://ps.wikipedia.org/> ;
+	schema:name "سلووانیا"@ps .
+
+<https://ps.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://qu.wikipedia.org/wiki/Isluwinya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "qu" ;
+	schema:isPartOf <https://qu.wikipedia.org/> ;
+	schema:name "Isluwinya"@qu .
+
+<https://qu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rm.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "rm" ;
+	schema:isPartOf <https://rm.wikipedia.org/> ;
+	schema:name "Slovenia"@rm .
+
+<https://rm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://roa-rup.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "rup" ;
+	schema:isPartOf <https://roa-rup.wikipedia.org/> ;
+	schema:name "Slovenia"@rup .
+
+<https://roa-rup.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://roa-tara.wikipedia.org/wiki/Slovenie> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "it-x-tara" ;
+	schema:isPartOf <https://roa-tara.wikipedia.org/> ;
+	schema:name "Slovenie"@it-x-tara .
+
+<https://roa-tara.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rue.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "rue" ;
+	schema:isPartOf <https://rue.wikipedia.org/> ;
+	schema:name "Словенія"@rue .
+
+<https://rue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rw.wikipedia.org/wiki/Siloveniya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "rw" ;
+	schema:isPartOf <https://rw.wikipedia.org/> ;
+	schema:name "Siloveniya"@rw .
+
+<https://rw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sa.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8D%E0%A4%B2%E0%A5%8B%E0%A4%B5%E0%A5%80%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sa" ;
+	schema:isPartOf <https://sa.wikipedia.org/> ;
+	schema:name "स्लोवीनिया"@sa .
+
+<https://sa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sah.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sah" ;
+	schema:isPartOf <https://sah.wikipedia.org/> ;
+	schema:name "Словения"@sah .
+
+<https://sah.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%A5%E1%B1%9E%E1%B1%B3%E1%B1%B5%E1%B1%B7%E1%B1%AE%E1%B1%B1%E1%B1%A4%E1%B1%AD%E1%B1%9F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱥᱞᱳᱵᱷᱮᱱᱤᱭᱟ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sc.wikipedia.org/wiki/Islov%C3%A8nia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sc" ;
+	schema:isPartOf <https://sc.wikipedia.org/> ;
+	schema:name "Islovènia"@sc .
+
+<https://sc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://scn.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "scn" ;
+	schema:isPartOf <https://scn.wikipedia.org/> ;
+	schema:name "Slovenia"@scn .
+
+<https://scn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sco.wikipedia.org/wiki/Slovenie> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sco" ;
+	schema:isPartOf <https://sco.wikipedia.org/> ;
+	schema:name "Slovenie"@sco .
+
+<https://sco.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sd.wikipedia.org/wiki/%D8%B3%D9%84%D9%88%D9%88%D9%8A%D9%86%DB%8C%D8%A7> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sd" ;
+	schema:isPartOf <https://sd.wikipedia.org/> ;
+	schema:name "سلووينیا"@sd .
+
+<https://sd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://se.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "se" ;
+	schema:isPartOf <https://se.wikipedia.org/> ;
+	schema:name "Slovenia"@se .
+
+<https://se.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Slovenija> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Slovenija"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://shn.wikipedia.org/wiki/%E1%80%99%E1%80%AD%E1%80%B0%E1%80%84%E1%80%BA%E1%80%B8%E1%80%9E%E1%80%9C%E1%80%B0%E1%80%9D%E1%80%BA%E1%82%87%E1%80%9D%E1%80%B1%E1%80%B8%E1%81%BC%E1%80%AE%E1%80%B8%E1%80%9A%E1%82%83%E1%80%B8> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "shn" ;
+	schema:isPartOf <https://shn.wikipedia.org/> ;
+	schema:name "မိူင်းသလူဝ်ႇဝေးၼီးယႃး"@shn .
+
+<https://shn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://si.wikipedia.org/wiki/%E0%B7%83%E0%B7%8A%E0%B6%BD%E0%B7%9D%E0%B7%80%E0%B7%9A%E0%B6%B1%E0%B7%92%E0%B6%BA%E0%B7%8F%E0%B7%80> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "si" ;
+	schema:isPartOf <https://si.wikipedia.org/> ;
+	schema:name "ස්ලෝවේනියාව"@si .
+
+<https://si.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sk.wikipedia.org/wiki/Slovinsko> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sk" ;
+	schema:isPartOf <https://sk.wikipedia.org/> ;
+	schema:name "Slovinsko"@sk .
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sl.wikipedia.org/wiki/Slovenija> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikipedia.org/> ;
+	schema:name "Slovenija"@sl .
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sm.wikipedia.org/wiki/Solovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sm" ;
+	schema:isPartOf <https://sm.wikipedia.org/> ;
+	schema:name "Solovenia"@sm .
+
+<https://sm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://smn.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "smn" ;
+	schema:isPartOf <https://smn.wikipedia.org/> ;
+	schema:name "Slovenia"@smn .
+
+<https://smn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sn.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sn" ;
+	schema:isPartOf <https://sn.wikipedia.org/> ;
+	schema:name "Slovenia"@sn .
+
+<https://sn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://so.wikipedia.org/wiki/Isloveeniya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "so" ;
+	schema:isPartOf <https://so.wikipedia.org/> ;
+	schema:name "Isloveeniya"@so .
+
+<https://so.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sq.wikipedia.org/wiki/Sllovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sq" ;
+	schema:isPartOf <https://sq.wikipedia.org/> ;
+	schema:name "Sllovenia"@sq .
+
+<https://sq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://srn.wikipedia.org/wiki/Slovenikondre> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "srn" ;
+	schema:isPartOf <https://srn.wikipedia.org/> ;
+	schema:name "Slovenikondre"@srn .
+
+<https://srn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ss.wikipedia.org/wiki/Siloveni> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ss" ;
+	schema:isPartOf <https://ss.wikipedia.org/> ;
+	schema:name "Siloveni"@ss .
+
+<https://ss.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://st.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "st" ;
+	schema:isPartOf <https://st.wikipedia.org/> ;
+	schema:name "Slovenia"@st .
+
+<https://st.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://stq.wikipedia.org/wiki/Slowenien> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "stq" ;
+	schema:isPartOf <https://stq.wikipedia.org/> ;
+	schema:name "Slowenien"@stq .
+
+<https://stq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://su.wikipedia.org/wiki/Slov%C3%A9nia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "su" ;
+	schema:isPartOf <https://su.wikipedia.org/> ;
+	schema:name "Slovénia"@su .
+
+<https://su.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Slovenia"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szl.wikipedia.org/wiki/S%C5%82owy%C5%84ijo> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "szl" ;
+	schema:isPartOf <https://szl.wikipedia.org/> ;
+	schema:name "Słowyńijo"@szl .
+
+<https://szl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szy.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "szy" ;
+	schema:isPartOf <https://szy.wikipedia.org/> ;
+	schema:name "Slovenia"@szy .
+
+<https://szy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%9A%E0%AF%81%E0%AE%B2%E0%AF%8B%E0%AE%B5%E0%AF%80%E0%AE%A9%E0%AE%BF%E0%AE%AF%E0%AE%BE> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "சுலோவீனியா"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://te.wikipedia.org/wiki/%E0%B0%B8%E0%B1%8D%E0%B0%B2%E0%B1%8B%E0%B0%B5%E0%B1%87%E0%B0%A8%E0%B0%BF%E0%B0%AF%E0%B0%BE> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "te" ;
+	schema:isPartOf <https://te.wikipedia.org/> ;
+	schema:name "స్లోవేనియా"@te .
+
+<https://te.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tet.wikipedia.org/wiki/Eslov%C3%A9nia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "tet" ;
+	schema:isPartOf <https://tet.wikipedia.org/> ;
+	schema:name "Eslovénia"@tet .
+
+<https://tet.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tg.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "tg" ;
+	schema:isPartOf <https://tg.wikipedia.org/> ;
+	schema:name "Словения"@tg .
+
+<https://tg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%AA%E0%B9%82%E0%B8%A5%E0%B8%A7%E0%B8%B5%E0%B9%80%E0%B8%99%E0%B8%B5%E0%B8%A2> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ประเทศสโลวีเนีย"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tk.wikipedia.org/wiki/Sloweni%C3%BDa> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "tk" ;
+	schema:isPartOf <https://tk.wikipedia.org/> ;
+	schema:name "Sloweniýa"@tk .
+
+<https://tk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Eslobenya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Eslobenya"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tpi.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "tpi" ;
+	schema:isPartOf <https://tpi.wikipedia.org/> ;
+	schema:name "Slovenia"@tpi .
+
+<https://tpi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://trv.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "trv" ;
+	schema:isPartOf <https://trv.wikipedia.org/> ;
+	schema:name "Slovenia"@trv .
+
+<https://trv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ts.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ts" ;
+	schema:isPartOf <https://ts.wikipedia.org/> ;
+	schema:name "Slovenia"@ts .
+
+<https://ts.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Словения"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tum.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "tum" ;
+	schema:isPartOf <https://tum.wikipedia.org/> ;
+	schema:name "Slovenia"@tum .
+
+<https://tum.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tw.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "tw" ;
+	schema:isPartOf <https://tw.wikipedia.org/> ;
+	schema:name "Slovenia"@tw .
+
+<https://tw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://udm.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "udm" ;
+	schema:isPartOf <https://udm.wikipedia.org/> ;
+	schema:name "Словения"@udm .
+
+<https://udm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ug.wikipedia.org/wiki/%D8%B3%D9%84%D9%88%DB%8B%DB%90%D9%86%D9%89%D9%8A%DB%95> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ug" ;
+	schema:isPartOf <https://ug.wikipedia.org/> ;
+	schema:name "سلوۋېنىيە"@ug .
+
+<https://ug.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D8%B3%D9%84%D9%88%D9%88%DB%8C%D9%86%DB%8C%D8%A7> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "سلووینیا"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Sloveniya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Sloveniya"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vec.wikipedia.org/wiki/Slov%C3%A8nia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "vec" ;
+	schema:isPartOf <https://vec.wikipedia.org/> ;
+	schema:name "Slovènia"@vec .
+
+<https://vec.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vep.wikipedia.org/wiki/Slovenii> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "vep" ;
+	schema:isPartOf <https://vep.wikipedia.org/> ;
+	schema:name "Slovenii"@vep .
+
+<https://vep.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vls.wikipedia.org/wiki/Sloveni%C3%AB> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "vls" ;
+	schema:isPartOf <https://vls.wikipedia.org/> ;
+	schema:name "Slovenië"@vls .
+
+<https://vls.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wa.wikipedia.org/wiki/Sloveneye> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "wa" ;
+	schema:isPartOf <https://wa.wikipedia.org/> ;
+	schema:name "Sloveneye"@wa .
+
+<https://wa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://war.wikipedia.org/wiki/Eslovenya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "war" ;
+	schema:isPartOf <https://war.wikipedia.org/> ;
+	schema:name "Eslovenya"@war .
+
+<https://war.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wo.wikipedia.org/wiki/Esloweeni> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "wo" ;
+	schema:isPartOf <https://wo.wikipedia.org/> ;
+	schema:name "Esloweeni"@wo .
+
+<https://wo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E6%96%AF%E6%B4%9B%E6%96%87%E5%B0%BC%E4%BA%9A> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "斯洛文尼亚"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://xal.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%BC%D1%83%D0%B4%D0%B8%D0%BD_%D0%9E%D1%80%D0%BD> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "xal" ;
+	schema:isPartOf <https://xal.wikipedia.org/> ;
+	schema:name "Словенмудин Орн"@xal .
+
+<https://xal.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://xmf.wikipedia.org/wiki/%E1%83%A1%E1%83%9A%E1%83%9D%E1%83%95%E1%83%94%E1%83%9C%E1%83%98%E1%83%90> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "xmf" ;
+	schema:isPartOf <https://xmf.wikipedia.org/> ;
+	schema:name "სლოვენია"@xmf .
+
+<https://xmf.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://yi.wikipedia.org/wiki/%D7%A1%D7%9C%D7%90%D7%95%D7%95%D7%A2%D7%A0%D7%99%D7%A2> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "yi" ;
+	schema:isPartOf <https://yi.wikipedia.org/> ;
+	schema:name "סלאוועניע"@yi .
+
+<https://yi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://yo.wikipedia.org/wiki/Slof%C3%A9n%C3%AD%C3%A0> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "yo" ;
+	schema:isPartOf <https://yo.wikipedia.org/> ;
+	schema:name "Sloféníà"@yo .
+
+<https://yo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://za.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "za" ;
+	schema:isPartOf <https://za.wikipedia.org/> ;
+	schema:name "Slovenia"@za .
+
+<https://za.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zea.wikipedia.org/wiki/Sloveni%C3%AB> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "zea" ;
+	schema:isPartOf <https://zea.wikipedia.org/> ;
+	schema:name "Slovenië"@zea .
+
+<https://zea.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-classical.wikipedia.org/wiki/%E6%96%AF%E6%B4%9B%E6%96%87%E5%B0%BC%E4%BA%9E> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "lzh" ;
+	schema:isPartOf <https://zh-classical.wikipedia.org/> ;
+	schema:name "斯洛文尼亞"@lzh .
+
+<https://zh-classical.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-min-nan.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "nan" ;
+	schema:isPartOf <https://zh-min-nan.wikipedia.org/> ;
+	schema:name "Slovenia"@nan .
+
+<https://zh-min-nan.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E6%96%AF%E6%B4%9B%E6%96%87%E5%B0%BC%E4%BA%9E> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "斯洛文尼亞"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zu.wikipedia.org/wiki/ISloveniya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "zu" ;
+	schema:isPartOf <https://zu.wikipedia.org/> ;
+	schema:name "ISloveniya"@zu .
+
+<https://zu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mad.wikipedia.org/wiki/Slovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "mad" ;
+	schema:isPartOf <https://mad.wikipedia.org/> ;
+	schema:name "Slovenia"@mad .
+
+<https://mad.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ceb.wikipedia.org/wiki/Eslobenya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ceb" ;
+	schema:isPartOf <https://ceb.wikipedia.org/> ;
+	schema:name "Eslobenya"@ceb .
+
+<https://ceb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nv.wikipedia.org/wiki/T%C3%A1%CA%BC%C3%ADdziilnii_Bik%C3%A9yah> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "nv" ;
+	schema:isPartOf <https://nv.wikipedia.org/> ;
+	schema:name "Táʼídziilnii Bikéyah"@nv .
+
+<https://nv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mdf.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "mdf" ;
+	schema:isPartOf <https://mdf.wikipedia.org/> ;
+	schema:name "Словения"@mdf .
+
+<https://mdf.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikivoyage.org/wiki/%E0%A6%B8%E0%A7%8D%E0%A6%B2%E0%A7%8B%E0%A6%AD%E0%A7%87%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikivoyage.org/> ;
+	schema:name "স্লোভেনিয়া"@bn .
+
+<https://bn.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://rmy.wikipedia.org/wiki/Sloveniya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "rmy" ;
+	schema:isPartOf <https://rmy.wikipedia.org/> ;
+	schema:name "Sloveniya"@rmy .
+
+<https://rmy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Sloweenien/mo> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Sloweenien/mo"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://to.wikipedia.org/wiki/Sil%C5%8Dvenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "to" ;
+	schema:isPartOf <https://to.wikipedia.org/> ;
+	schema:name "Silōvenia"@to .
+
+<https://to.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikivoyage.org/wiki/Slovenya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikivoyage.org/> ;
+	schema:name "Slovenya"@tr .
+
+<https://tr.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ext.wikipedia.org/wiki/Eslovenia> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "ext" ;
+	schema:isPartOf <https://ext.wikipedia.org/> ;
+	schema:name "Eslovenia"@ext .
+
+<https://ext.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikiquote.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%98%D0%B0> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikiquote.org/> ;
+	schema:name "Словенија"@sr .
+
+<https://sr.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://kab.wikipedia.org/wiki/Sluvinya> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "kab" ;
+	schema:isPartOf <https://kab.wikipedia.org/> ;
+	schema:name "Sluvinya"@kab .
+
+<https://kab.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://anp.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8D%E0%A4%B2%E0%A5%8B%E0%A4%B5%E0%A5%87%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "anp" ;
+	schema:isPartOf <https://anp.wikipedia.org/> ;
+	schema:name "स्लोवेनिया"@anp .
+
+<https://anp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vo.wikipedia.org/wiki/Sloven%C3%A4n> a schema:Article ;
+	schema:about wd:Q215 ;
+	schema:inLanguage "vo" ;
+	schema:isPartOf <https://vo.wikipedia.org/> ;
+	schema:name "Slovenän"@vo .
+
+<https://vo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q215 wdt:P2924 "5603789" ;
+	wdt:P1082 "+2066880"^^xsd:decimal ;
+	wdt:P1667 "7006670" ;
+	wdtn:P1667 <http://vocab.getty.edu/tgn/7006670> ;
+	wdt:P1151 wd:Q10815317 ;
+	wdt:P1333 "Point(15.17724752 45.42179897)"^^geo:wktLiteral ;
+	wdt:P5125 wd:Q7112452 ;
+	wdt:P349 "00577333" ;
+	wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00577333> ;
+	wdt:P38 wd:Q4916 ;
+	wdt:P3221 "destination/slovenia" ;
+	wdt:P2581 "00067230n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s00067230n> ;
+	wdt:P1566 "3190538" ;
+	wdtn:P1566 <http://sws.geonames.org/3190538/> ;
+	wdt:P227 "4055302-4" ;
+	wdtn:P227 <https://d-nb.info/gnd/4055302-4> ;
+	wdt:P487 "🇸🇮" ;
+	wdt:P1792 wd:Q7074547 ;
+	wdt:P2852 wd:Q1061257,
+		wd:Q25648804 ;
+	wdt:P3916 "concept8622" ;
+	wdtn:P3916 <http://vocabularies.unesco.org/thesaurus/concept8622> ;
+	wdt:P2853 wd:Q1378312,
+		wd:Q1123613 ;
+	wdt:P395 "SLO" ;
+	wdt:P3238 "0" ;
+	wdt:P1335 "Point(13.37537706 46.29772959)"^^geo:wktLiteral ;
+	wdt:P2633 wd:Q837309 ;
+	wdt:P298 "SVN" ;
+	wdt:P1313 wd:Q45758 ;
+	wdt:P213 "0000 0001 2110 9038" ;
+	wdt:P3417 "Slovenia" ;
+	wdt:P3529 "+25085"^^xsd:decimal ;
+	wdt:P998 "Regional/Europe/Slovenia/" ;
+	wdt:P17 wd:Q215 ;
+	wdt:P3219 "slovenie" ;
+	wdt:P486 "D017524" ;
+	wdtn:P486 <http://id.nlm.nih.gov/mesh/D017524> ;
+	wdt:P2959 wd:Q27103273 ;
+	wdt:P3106 "world/slovenia" ;
+	wdt:P122 wd:Q5255892 ;
+	wdt:P982 "5b0b6225-584c-3942-b69d-5efceb9989af" ;
+	wdtn:P982 <http://musicbrainz.org/area/5b0b6225-584c-3942-b69d-5efceb9989af> ;
+	wdt:P1552 wd:Q3174312 ;
+	wdt:P94 <http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Slovenia.svg> ;
+	wdt:P2981 "SLO" ;
+	wdt:P2573 "+6716"^^xsd:decimal ;
+	wdt:P30 wd:Q46 ;
+	wdt:P3422 "99145" ;
+	wdt:P5698 "108559" ;
+	wdt:P530 wd:Q38,
+		wd:Q183,
+		wd:Q408,
+		wd:Q801,
+		wd:Q224,
+		wd:Q30,
+		wd:Q184,
+		wd:Q214,
+		wd:Q219,
+		wd:Q16,
+		wd:Q35,
+		wd:Q79,
+		wd:Q33,
+		wd:Q1246,
+		wd:Q217,
+		wd:Q55,
+		wd:Q218,
+		wd:Q221,
+		wd:Q96,
+		wd:Q865,
+		wd:Q159,
+		wd:Q236,
+		wd:Q403,
+		wd:Q28,
+		wd:Q423,
+		wd:Q148 ;
+	wdt:P571 "1991-06-25T00:00:00Z"^^xsd:dateTime ;
+	wdt:P4212 "pcrtQaSzfXMOcR" ;
+	wdtn:P4212 <https://ark.frantiq.fr/ark:/26678/pcrtQaSzfXMOcR> ;
+	wdt:P1906 wd:Q495877 ;
+	wdt:P935 "Slovenija" ;
+	wdt:P194 wd:Q1288169 ;
+	wdt:P299 "705" ;
+	wdt:P605 "SI" ;
+	wdtn:P605 <http://data.europa.eu/nuts/code/SI> ;
+	wdt:P605 "SI0" ;
+	wdtn:P605 <http://data.europa.eu/nuts/code/SI0> ;
+	wdt:P2184 wd:Q324945 ;
+	wdt:P1296 "0024758" ;
+	wdt:P3911 "18226-5" ;
+	wdtn:P3911 <http://zbw.eu/stw/descriptor/18226-5> ;
+	wdt:P1365 wd:Q83286,
+		wd:Q211092 ;
+	wdt:P214 "141826349" ;
+	wdtn:P214 <http://viaf.org/viaf/141826349> ;
+	wdt:P3984 "Slovenia" ;
+	wdt:P206 wd:Q13924,
+		wd:Q4918 ;
+	wdt:P36 wd:Q437 ;
+	wdt:P856 <http://www.gov.si/>,
+		<https://www.gov.si/en/>,
+		<https://www.gov.si/it/> ;
+	wdt:P237 wd:Q173189 ;
+	wdt:P1549 "Slowene"@de,
+		"Slowenin"@de,
+		"Sloveen"@nl,
+		"Slovenec"@sl,
+		"Slovenka"@sl,
+		"szlovén"@hu,
+		"Slovene"@en,
+		"Sloveniano"@io,
+		"sloveno"@eo,
+		"Sloveniyänan"@vo,
+		"سلوفيني"@ar,
+		"سلوفينية"@ar,
+		"سلوفينيون"@ar,
+		"словенцы"@ru,
+		"словенец"@ru,
+		"словенка"@ru,
+		"словенець"@uk,
+		"словенка"@uk,
+		"словенці"@uk,
+		"Slovenian"@en,
+		"סלובני"@he,
+		"סלובנית"@he,
+		"sloveni"@ro,
+		"sloven"@ro,
+		"slovenă"@ro,
+		"স্লোভেনীয়"@bn,
+		"Slovène"@fr,
+		"sloveno"@it,
+		"slovena"@it,
+		"sloveni"@it,
+		"slovene"@it,
+		"slovenian"@lfn,
+		"eslovenu"@ast,
+		"eslovena"@ast,
+		"esloveno"@ast,
+		"sloveni"@vec,
+		"sloven"@vec,
+		"slovena"@vec,
+		"slovene"@vec ;
+	wdt:P3271 "+15"^^xsd:decimal ;
+	wdt:P3896 <http://commons.wikimedia.org/data/main/Data:Slovenia.map> ;
+	wdt:P949 "000984326" ;
+	wdt:P402 "218657" ;
+	wdtn:P402 <https://www.openstreetmap.org/relation/218657> ;
+	wdt:P5198 "369184459" ;
+	wdt:P3068 "SI" ;
+	wdt:P1280 "288961123" ;
+	wdt:P691 "ge130856" ;
+	wdt:P2258 "293" ;
+	wdt:P4841 "+1.55"^^xsd:decimal ;
+	wdt:P2979 "278" ;
+	wdt:P1225 "10045308" ;
+	wdt:P3270 "+6"^^xsd:decimal ;
+	wdt:P3000 "+18"^^xsd:decimal ;
+	wdt:P910 wd:Q4368574 ;
+	wdt:P6 wd:Q18645045 ;
+	wdt:P1304 wd:Q26662 ;
+	wdt:P1791 wd:Q8328777 ;
+	wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/EU-Slovenia.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/LocationSlovenia.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Slovenia%20on%20the%20globe%20%28Europe%20centered%29.svg> ;
+	wdt:P1617 "f5ab04b1-0b88-4b7c-ad9c-1d29d4b3b936" ;
+	wdtn:P1617 <http://www.bbc.co.uk/things/f5ab04b1-0b88-4b7c-ad9c-1d29d4b3b936#id> ;
+	wdt:P2997 "+18"^^xsd:decimal ;
+	wdt:P1036 "2--4973" ;
+	wdt:P1334 "Point(16.61068976 46.46978084)"^^geo:wktLiteral ;
+	wdt:P2046 "+20271"^^xsd:decimal ;
+	wdt:P3743 "2.16.705" ;
+	wdt:P3612 "pays/slovenie" ;
+	wdt:P984 "SLO" ;
+	wdt:P463 wd:Q458,
+		wd:Q1065,
+		wd:Q7184,
+		wd:Q41550,
+		wd:Q8908,
+		wd:Q7825,
+		wd:Q81299,
+		wd:Q191384,
+		wd:Q827525,
+		wd:Q656801,
+		wd:Q1043527,
+		wd:Q899770,
+		wd:Q782942,
+		wd:Q663492,
+		wd:Q1928989,
+		wd:Q8475,
+		wd:Q1480793,
+		wd:Q842490,
+		wd:Q3866537,
+		wd:Q1579424,
+		wd:Q233611,
+		wd:Q7809,
+		wd:Q5611262,
+		wd:Q17495,
+		wd:Q376150,
+		wd:Q1969730,
+		wd:Q45177,
+		wd:Q170424,
+		wd:Q7817,
+		wd:Q498496 ;
+	wdt:P1448 "Republika Slovenija"@sl,
+		"Slovenija"@sl,
+		"la République de Slovénie"@fr ;
+	wdt:P1198 "+10"^^xsd:decimal ;
+	wdt:P5658 wd:Q13196750 ;
+	wdt:P4427 "193" ;
+	wdt:P5573 "2298" ;
+	wdt:P1417 "place/Slovenia" ;
+	wdt:P3067 "383" ;
+	wdt:P706 wd:Q27509,
+		wd:Q23522 ;
+	wdt:P948 <http://commons.wikimedia.org/wiki/Special:FilePath/Izlake%20banner.jpg> ;
+	wdt:P1740 wd:Q8458211 ;
+	wdt:P2884 "+230"^^xsd:decimal ;
+	wdt:P208 wd:Q1264458 ;
+	wdt:P421 wd:Q6655 ;
+	wdt:P1465 wd:Q7482647 ;
+	wdt:P2347 "107594" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p107594> ;
+	wdt:P85 wd:Q169215 ;
+	wdt:P2250 "+80.77561"^^xsd:decimal ;
+	wdt:P373 "Slovenia" ;
+	wdt:P78 wd:Q58723 ;
+	wdt:P47 wd:Q38,
+		wd:Q40,
+		wd:Q224,
+		wd:Q28 ;
+	wdt:P31 wd:Q3624078,
+		wd:Q51576574,
+		wd:Q6256,
+		wd:Q113489728 ;
+	wdt:P610 wd:Q1024 ;
+	wdt:P1464 wd:Q8073194 ;
+	wdt:P1813 "🇸🇮"@zxx ;
+	wdt:P1332 "Point(16.23 46.88)"^^geo:wktLiteral ;
+	wdt:P1622 wd:Q14565199 ;
+	wdt:P2982 "79" ;
+	wdt:P1589 wd:Q13924 ;
+	wdt:P898 "ʂluˈʋeːnɪɑ",
+		"slɐˈvʲenʲɪjə" ;
+	wdt:P5180 "slovenia" ;
+	wdt:P37 wd:Q9063 ;
+	wdt:P5247 "3035-2883" ;
+	wdt:P150 wd:Q331701,
+		wd:Q778542,
+		wd:Q647572,
+		wd:Q3661628,
+		wd:Q13377747,
+		wd:Q3259688,
+		wd:Q763400,
+		wd:Q849320,
+		wd:Q906879,
+		wd:Q1276793,
+		wd:Q3441823,
+		wd:Q859679,
+		wd:Q13107298,
+		wd:Q13220435,
+		wd:Q341658,
+		wd:Q279072,
+		wd:Q3482211,
+		wd:Q570618,
+		wd:Q557216,
+		wd:Q1009409,
+		wd:Q1005208,
+		wd:Q998557,
+		wd:Q13377763,
+		wd:Q1003969,
+		wd:Q3503123,
+		wd:Q999589,
+		wd:Q1005224,
+		wd:Q632998,
+		wd:Q570397,
+		wd:Q726548,
+		wd:Q3435689,
+		wd:Q13377778,
+		wd:Q13378373,
+		wd:Q13377780,
+		wd:Q556206,
+		wd:Q3441842,
+		wd:Q917397,
+		wd:Q13377784,
+		wd:Q1008048,
+		wd:Q12042076,
+		wd:Q15881,
+		wd:Q1003984,
+		wd:Q3503153,
+		wd:Q3435496,
+		wd:Q776770,
+		wd:Q688287,
+		wd:Q927718,
+		wd:Q15884,
+		wd:Q15283322,
+		wd:Q556203,
+		wd:Q1009421,
+		wd:Q3441893,
+		wd:Q507051,
+		wd:Q3484655,
+		wd:Q998566,
+		wd:Q906636,
+		wd:Q15887,
+		wd:Q13365883,
+		wd:Q587328,
+		wd:Q15891,
+		wd:Q3434113,
+		wd:Q773659,
+		wd:Q15892,
+		wd:Q15893,
+		wd:Q999525,
+		wd:Q999553,
+		wd:Q669648,
+		wd:Q946766,
+		wd:Q1002371,
+		wd:Q3435104,
+		wd:Q15894,
+		wd:Q15895,
+		wd:Q3441856,
+		wd:Q678147,
+		wd:Q658076,
+		wd:Q999584,
+		wd:Q1012761,
+		wd:Q3494723,
+		wd:Q670975,
+		wd:Q9273677,
+		wd:Q6309297,
+		wd:Q1569014,
+		wd:Q954987,
+		wd:Q3435478,
+		wd:Q398116,
+		wd:Q924698,
+		wd:Q15900,
+		wd:Q778147,
+		wd:Q995048,
+		wd:Q565170,
+		wd:Q252154,
+		wd:Q999540,
+		wd:Q1016800,
+		wd:Q2242799,
+		wd:Q539864,
+		wd:Q3441808,
+		wd:Q921092,
+		wd:Q731093,
+		wd:Q13377986,
+		wd:Q338743,
+		wd:Q1005364,
+		wd:Q15910,
+		wd:Q13378051,
+		wd:Q15912,
+		wd:Q599480,
+		wd:Q15913,
+		wd:Q1027245,
+		wd:Q3346841,
+		wd:Q1587704,
+		wd:Q11214302,
+		wd:Q554854,
+		wd:Q3441817,
+		wd:Q11211457,
+		wd:Q13378155,
+		wd:Q1016826,
+		wd:Q920353,
+		wd:Q2346638,
+		wd:Q391446,
+		wd:Q1016812,
+		wd:Q13378384,
+		wd:Q391800,
+		wd:Q2318898,
+		wd:Q392103,
+		wd:Q392173,
+		wd:Q392188,
+		wd:Q15923,
+		wd:Q392468,
+		wd:Q15924,
+		wd:Q15925,
+		wd:Q13378243,
+		wd:Q15927,
+		wd:Q201074,
+		wd:Q3441849,
+		wd:Q13378281,
+		wd:Q1002863,
+		wd:Q1002229,
+		wd:Q13378288,
+		wd:Q13378292,
+		wd:Q2134561,
+		wd:Q9014817,
+		wd:Q370390,
+		wd:Q13378328,
+		wd:Q167001,
+		wd:Q227163,
+		wd:Q15932,
+		wd:Q394087,
+		wd:Q779018,
+		wd:Q13377731,
+		wd:Q164123,
+		wd:Q1034410,
+		wd:Q13377751,
+		wd:Q1252438,
+		wd:Q1008179,
+		wd:Q999579,
+		wd:Q13365892,
+		wd:Q1016840,
+		wd:Q1019067,
+		wd:Q995065,
+		wd:Q1008102,
+		wd:Q13365904,
+		wd:Q1005185,
+		wd:Q1688771,
+		wd:Q963986,
+		wd:Q3434092,
+		wd:Q999563,
+		wd:Q25110,
+		wd:Q1008095,
+		wd:Q1005165,
+		wd:Q1016805,
+		wd:Q1587261,
+		wd:Q1002247,
+		wd:Q938443,
+		wd:Q1016698,
+		wd:Q650009,
+		wd:Q3435117,
+		wd:Q1009413,
+		wd:Q919934,
+		wd:Q1008079,
+		wd:Q1313614,
+		wd:Q990063,
+		wd:Q925149,
+		wd:Q391428,
+		wd:Q999530,
+		wd:Q999559,
+		wd:Q773160,
+		wd:Q995101,
+		wd:Q1008086,
+		wd:Q13378299,
+		wd:Q15931,
+		wd:Q393910,
+		wd:Q394103,
+		wd:Q13377798,
+		wd:Q13378453,
+		wd:Q3278915,
+		wd:Q13370246,
+		wd:Q12062190,
+		wd:Q1808143,
+		wd:Q1027078,
+		wd:Q594852,
+		wd:Q612216,
+		wd:Q3441796,
+		wd:Q1784972,
+		wd:Q1016820,
+		wd:Q1016831,
+		wd:Q3509893,
+		wd:Q1027062,
+		wd:Q1027089,
+		wd:Q13378058,
+		wd:Q1008144,
+		wd:Q3487128,
+		wd:Q1515842,
+		wd:Q12042075 ;
+	wdt:P3024 "SVN" ;
+	wdt:P474 "+386" ;
+	wdt:P646 "/m/06t8v" ;
+	wdt:P3175 "usi" ;
+	wdt:P244 "n81035365" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/n81035365> ;
+	wdt:P297 "SI" ;
+	wdt:P163 wd:Q130807 ;
+	wdt:P625 "Point(15 46)"^^geo:wktLiteral ;
+	wdt:P901 "SI" ;
+	wdt:P41 <http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Slovenia.svg> ;
+	wdt:P5019 "slowenien" ;
+	wdt:P6104 wd:Q11034628 ;
+	wdt:P6573 "Slowenien" ;
+	wdt:P4801 "countries/xv" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/countries/xv> ;
+	wdt:P1705 "Slovenija"@sl ;
+	wdt:P2936 wd:Q9063,
+		wd:Q652,
+		wd:Q9067 ;
+	wdt:P5905 "4020-56523" ;
+	wdt:P5250 "1406" ;
+	wdt:P6766 "85633779" ;
+	wdt:P7012 "slovenia" ;
+	wdt:P6849 "slovenien" ;
+	wdt:P6404 "slovenia" ;
+	wdt:P1245 "8000" ;
+	wdt:P902 "032209" ;
+	wdt:P2596 wd:Q3007297 ;
+	wdt:P5400 "D0Iyab" ;
+	wdt:P6058 "pays/wd/144580" ;
+	wdt:P7870 "9597" ;
+	wdt:P7867 wd:Q8607484 ;
+	wdt:P2855 "+22"^^xsd:decimal ;
+	wdt:P7818 "Slovénie" ;
+	wdt:P7829 "Slovenia" ;
+	wdt:P7827 "Eslovenia" ;
+	wdt:P7832 "Eslovenia" ;
+	wdt:P443 <http://commons.wikimedia.org/wiki/Special:FilePath/Lb-Slowenien.ogg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q7913%20%28ron%29-KlaudiuMihaila-Slovenia.wav>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q33810%20%28ori%29-Psubhashish-%E0%AC%B8%E0%AD%8D%E0%AC%B2%E0%AD%8B%E0%AC%AD%E0%AD%87%E0%AC%A8%E0%AC%BF%E0%AC%86.wav> ;
+	wdt:P5437 "5898" ;
+	wdtn:P5437 <http://eurovoc.europa.eu/5898> ;
+	wdt:P7859 "lccn-n81035365" ;
+	wdt:P6262 "countries:slovenia",
+		"yugoslavia:slovenia",
+		"slovenia:Slovenia" ;
+	wdt:P1889 wd:Q214,
+		wd:Q681964 ;
+	wdt:P1451 "I feel SLOVEnia"@en ;
+	wdt:P7314 "slovenya" ;
+	wdt:P8061 "c_34123" ;
+	wdtn:P8061 <http://aims.fao.org/aos/agrovoc/c_34123> ;
+	wdt:P8365 "10064134" ;
+	wdt:P8374 "7812" ;
+	wdt:P8370 "1005930" ;
+	wdtn:P8370 <http://metadata.un.org/thesaurus/1005930> ;
+	wdt:P2004 "15649" ;
+	wdtn:P2004 <https://lod.nal.usda.gov/nalt/15649> ;
+	wdt:P8072 "9604" ;
+	wdt:P8408 "Slovenia" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/Slovenia> ;
+	wdt:P8402 wd:Q97119097 ;
+	wdt:P8406 "T079233" ;
+	wdtn:P8406 <http://dx.doi.org/10.1093/gao/9781884446054.article.T079233> ;
+	wdt:P8477 "+9.45"^^xsd:decimal,
+		"+9.49"^^xsd:decimal,
+		"+9.52"^^xsd:decimal,
+		"+9.11"^^xsd:decimal,
+		"+9.01"^^xsd:decimal,
+		"+9.18"^^xsd:decimal,
+		"+9.27"^^xsd:decimal,
+		"+8.9"^^xsd:decimal ;
+	wdt:P8476 "+7.41"^^xsd:decimal,
+		"+6.83"^^xsd:decimal,
+		"+6.55"^^xsd:decimal,
+		"+6.57"^^xsd:decimal,
+		"+6.3"^^xsd:decimal,
+		"+6.47"^^xsd:decimal,
+		"+6.78"^^xsd:decimal,
+		"+6.72"^^xsd:decimal,
+		"+6.2"^^xsd:decimal ;
+	wdt:P8519 "25477" ;
+	wdtn:P8519 <https://data.rkd.nl/thesau/25477> ;
+	wdt:P361 wd:Q27509,
+		wd:Q458,
+		wd:Q8932,
+		wd:Q114839890 ;
+	wdt:P5063 "i83183" ;
+	wdtn:P5063 <http://globalwordnet.org/ili/i83183> ;
+	wdt:P8744 wd:Q1299355 ;
+	wdt:P4527 "12846" ;
+	wdtn:P4527 <http://data.parliament.uk/terms/12846> ;
+	wdt:P8717 "-1019551327" ;
+	wdtn:P8717 <https://metadata.ilo.org/thesaurus/-1019551327> ;
+	wdt:P155 wd:Q211092 ;
+	wdt:P5456 "slovenia" ;
+	wdt:P8974 "p/680f848b-5bfe-4218-9d56-915417e30a00" ;
+	wdtn:P8974 <http://data.performing-arts.ch/p/680f848b-5bfe-4218-9d56-915417e30a00> ;
+	wdt:P1438 "13843" ;
+	wdt:P9037 "6ce7bf2f-0a71-4070-841b-d81c20f18c0c" ;
+	wdt:P9100 "slovenia" ;
+	wdt:P8328 "+7.54"^^xsd:decimal ;
+	wdt:P8814 "08836296-n" ;
+	wdtn:P8814 <http://wordnet-rdf.princeton.edu/rdf/id/08836296-n> ;
+	wdt:P9241 wd:Q525236 ;
+	wdt:P7471 "8228" ;
+	wdt:P5991 "+15365000"^^xsd:decimal,
+		"+15939000"^^xsd:decimal,
+		"+18334000"^^xsd:decimal,
+		"+16624000"^^xsd:decimal ;
+	wdt:P9498 "3255" ;
+	wdt:P9545 "231504" ;
+	wdt:P7850 "7eedf53b-778a-48b5-9869-1dd6a88d0759" ;
+	wdtn:P7850 <http://data.culture.fr/thesaurus/resource/ark:/67717/7eedf53b-778a-48b5-9869-1dd6a88d0759> ;
+	wdt:P8217 "2059272" ;
+	wdt:P9757 "3345" ;
+	wdt:P9886 "169500728" ;
+	wdt:P9948 "slovenia" ;
+	wdt:P4073 "slovenia" ;
+	wdt:P8189 "987007554897405171" ;
+	wdt:P8248 "SG--59223" ;
+	wdt:P3365 "slovenia" ;
+	wdt:P7305 "4169146" ;
+	wdt:P4342 "Slovenia" ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/SLO%20%E2%80%94%20Ljubljana%20%28Blick%20auf%20Burg%29%202020.JPG> ;
+	wdt:P8885 "슬로베니아" ;
+	wdt:P10234 "slowenien",
+		"slovenia_en" ;
+	wdt:P9466 "Slovenien" ;
+	wdt:P9957 "6418" ;
+	wdt:P6293 "Y107594" ;
+	wdtn:P6293 <http://www.yso.fi/onto/ysa/Y107594> ;
+	wdt:P8309 "18-178195" ;
+	wdt:P9937 "6691" ;
+	wdt:P10297 "m06t8v" ;
+	wdt:P6385 "strany_mira/SLOVENIYA.html" ;
+	wdt:P8313 "Slovenien" ;
+	wdt:P10456 "82" ;
+	wdt:P3006 "2188" ;
+	wdtn:P3006 <http://marineregions.org/mrgid/2188> ;
+	wdt:P10730 "country/SVN" ;
+	wdt:P6200 "c50znx8v0pvt" ;
+	wdt:P2082 "705" ;
+	wdt:P35 wd:Q12797332 ;
+	wdt:P10916 "Slowenien" ;
+	wdt:P8168 "Q436372" ;
+	wdtn:P8168 <https://database.factgrid.de/entity/Q436372> ;
+	wdt:P7127 "slovenia" ;
+	wdt:P1081 "+0.918"^^xsd:decimal ;
+	wdt:P9495 "geo/4BA50D91-3081-4506-85EB-EE0417917E70" ;
+	wdt:P11012 "Q27" ;
+	wdtn:P11012 <https://linkedopendata.eu/entity/Q27> ;
+	wdt:P2572 "Slovenia" ;
+	wdt:P5008 wd:Q6173448 ;
+	wdt:P209 wd:Q12040608 ;
+	wdt:P6778 "00002955" ;
+	wdtn:P6778 <http://purl.obolibrary.org/obo/GAZ_00002955> ;
+	wdt:P11547 "+47.9"^^xsd:decimal ;
+	wdt:P1125 "+24.4"^^xsd:decimal ;
+	wdt:P11593 "+0.878"^^xsd:decimal ;
+	wdt:P3864 "+14.0"^^xsd:decimal ;
+	wdt:P11693 "208592566" ;
+	wdt:P10565 "584929" ;
+	wdt:P10832 "E39PBJm4PB4qggMDvbW3fqhvHC" ;
+	wdt:P6621 "Slovénie" ;
+	wdt:P11835 "1310" ;
+	rdfs:label "Словения"@tg ;
+	skos:prefLabel "Словения"@tg ;
+	schema:name "Словения"@tg ;
+	rdfs:label "Slovinsko"@sk ;
+	skos:prefLabel "Slovinsko"@sk ;
+	schema:name "Slovinsko"@sk ;
+	rdfs:label "سلوینیا"@pnb ;
+	skos:prefLabel "سلوینیا"@pnb ;
+	schema:name "سلوینیا"@pnb ;
+	rdfs:label "Tsirobeniya"@na ;
+	skos:prefLabel "Tsirobeniya"@na ;
+	schema:name "Tsirobeniya"@na ;
+	rdfs:label "Словенија"@mk ;
+	skos:prefLabel "Словенија"@mk ;
+	schema:name "Словенија"@mk ;
+	rdfs:label "স্লোভেনিয়া"@bn ;
+	skos:prefLabel "স্লোভেনিয়া"@bn ;
+	schema:name "স্লোভেনিয়া"@bn ;
+	rdfs:label "ISloveniya"@zu ;
+	skos:prefLabel "ISloveniya"@zu ;
+	schema:name "ISloveniya"@zu ;
+	rdfs:label "স্লোভেনিয়া"@bpy ;
+	skos:prefLabel "স্লোভেনিয়া"@bpy ;
+	schema:name "স্লোভেনিয়া"@bpy ;
+	rdfs:label "स्लोवेनिया"@hi ;
+	skos:prefLabel "स्लोवेनिया"@hi ;
+	schema:name "स्लोवेनिया"@hi ;
+	rdfs:label "Sloviinia"@jam ;
+	skos:prefLabel "Sloviinia"@jam ;
+	schema:name "Sloviinia"@jam ;
+	rdfs:label "سلووینیا"@ur ;
+	skos:prefLabel "سلووینیا"@ur ;
+	schema:name "سلووینیا"@ur ;
+	rdfs:label "Isloveeniya"@so ;
+	skos:prefLabel "Isloveeniya"@so ;
+	schema:name "Isloveeniya"@so ;
+	rdfs:label "Slovenia"@tl ;
+	skos:prefLabel "Slovenia"@tl ;
+	schema:name "Slovenia"@tl ;
+	rdfs:label "Словенія"@uk ;
+	skos:prefLabel "Словенія"@uk ;
+	schema:name "Словенія"@uk ;
+	rdfs:label "Словения"@tt ;
+	skos:prefLabel "Словения"@tt ;
+	schema:name "Словения"@tt ;
+	rdfs:label "Словен"@bxr ;
+	skos:prefLabel "Словен"@bxr ;
+	schema:name "Словен"@bxr ;
+	rdfs:label "Suloweniya"@ff ;
+	skos:prefLabel "Suloweniya"@ff ;
+	schema:name "Suloweniya"@ff ;
+	rdfs:label "Slovenia"@za ;
+	skos:prefLabel "Slovenia"@za ;
+	schema:name "Slovenia"@za ;
+	rdfs:label "Sloféníà"@yo ;
+	skos:prefLabel "Sloféníà"@yo ;
+	schema:name "Sloféníà"@yo ;
+	rdfs:label "Eslovénia"@ext ;
+	skos:prefLabel "Eslovénia"@ext ;
+	schema:name "Eslovénia"@ext ;
+	rdfs:label "斯洛維尼亞"@zh-tw ;
+	skos:prefLabel "斯洛維尼亞"@zh-tw ;
+	schema:name "斯洛維尼亞"@zh-tw ;
+	rdfs:label "Eslovenia"@es ;
+	skos:prefLabel "Eslovenia"@es ;
+	schema:name "Eslovenia"@es ;
+	rdfs:label "ସ୍ଲୋଭେନିଆ"@or ;
+	skos:prefLabel "ସ୍ଲୋଭେନିଆ"@or ;
+	schema:name "ସ୍ଲୋଭେନିଆ"@or ;
+	rdfs:label "Словения Мастор"@myv ;
+	skos:prefLabel "Словения Мастор"@myv ;
+	schema:name "Словения Мастор"@myv ;
+	rdfs:label "סלאוועניע"@yi ;
+	skos:prefLabel "סלאוועניע"@yi ;
+	schema:name "סלאוועניע"@yi ;
+	rdfs:label "An tSlóivéin"@ga ;
+	skos:prefLabel "An tSlóivéin"@ga ;
+	schema:name "An tSlóivéin"@ga ;
+	rdfs:label "Sloweńskô"@csb ;
+	skos:prefLabel "Sloweńskô"@csb ;
+	schema:name "Sloweńskô"@csb ;
+	rdfs:label "Sloveniya"@gag ;
+	skos:prefLabel "Sloveniya"@gag ;
+	schema:name "Sloveniya"@gag ;
+	rdfs:label "Eslovènia"@oc ;
+	skos:prefLabel "Eslovènia"@oc ;
+	schema:name "Eslovènia"@oc ;
+	rdfs:label "Siloveniya"@rw ;
+	skos:prefLabel "Siloveniya"@rw ;
+	schema:name "Siloveniya"@rw ;
+	rdfs:label "Slovenie"@sco ;
+	skos:prefLabel "Slovenie"@sco ;
+	schema:name "Slovenie"@sco ;
+	rdfs:label "Slovienėjė"@sgs ;
+	skos:prefLabel "Slovienėjė"@sgs ;
+	schema:name "Slovienėjė"@sgs ;
+	rdfs:label "Sloveneja"@ltg ;
+	skos:prefLabel "Sloveneja"@ltg ;
+	schema:name "Sloveneja"@ltg ;
+	rdfs:label "Słobíín Bikéyah"@nv ;
+	skos:prefLabel "Słobíín Bikéyah"@nv ;
+	schema:name "Słobíín Bikéyah"@nv ;
+	rdfs:label "Slovenia"@ak ;
+	skos:prefLabel "Slovenia"@ak ;
+	schema:name "Slovenia"@ak ;
+	rdfs:label "Eslovénia"@tet ;
+	skos:prefLabel "Eslovénia"@tet ;
+	schema:name "Eslovénia"@tet ;
+	rdfs:label "Sloveniya"@az ;
+	skos:prefLabel "Sloveniya"@az ;
+	schema:name "Sloveniya"@az ;
+	rdfs:label "اسلونی"@mzn ;
+	skos:prefLabel "اسلونی"@mzn ;
+	schema:name "اسلونی"@mzn ;
+	rdfs:label "斯洛文尼亞"@zh-hk ;
+	skos:prefLabel "斯洛文尼亞"@zh-hk ;
+	schema:name "斯洛文尼亞"@zh-hk ;
+	rdfs:label "Slovenija"@sr-el ;
+	skos:prefLabel "Slovenija"@sr-el ;
+	schema:name "Slovenija"@sr-el ;
+	rdfs:label "斯洛文尼亞"@zh ;
+	skos:prefLabel "斯洛文尼亞"@zh ;
+	schema:name "斯洛文尼亞"@zh ;
+	rdfs:label "Slovenia"@st ;
+	skos:prefLabel "Slovenia"@st ;
+	schema:name "Slovenia"@st ;
+	rdfs:label "Eslovenia"@ast ;
+	skos:prefLabel "Eslovenia"@ast ;
+	schema:name "Eslovenia"@ast ;
+	rdfs:label "சுலோவீனியா"@ta ;
+	skos:prefLabel "சுலோவீனியா"@ta ;
+	schema:name "சுலோவீனியா"@ta ;
+	rdfs:label "Slovénia"@jv ;
+	skos:prefLabel "Slovénia"@jv ;
+	schema:name "Slovénia"@jv ;
+	rdfs:label "Slovėnija"@lt ;
+	skos:prefLabel "Slovėnija"@lt ;
+	schema:name "Slovėnija"@lt ;
+	rdfs:label "סלובניה"@he ;
+	skos:prefLabel "סלובניה"@he ;
+	schema:name "סלובניה"@he ;
+	rdfs:label "Словен"@mn ;
+	skos:prefLabel "Словен"@mn ;
+	schema:name "Словен"@mn ;
+	rdfs:label "Slovenia"@pms ;
+	skos:prefLabel "Slovenia"@pms ;
+	schema:name "Slovenia"@pms ;
+	rdfs:label "Isloveeniyaa"@om ;
+	skos:prefLabel "Isloveeniyaa"@om ;
+	schema:name "Isloveeniyaa"@om ;
+	rdfs:label "Slovenija"@sl ;
+	skos:prefLabel "Slovenija"@sl ;
+	schema:name "Slovenija"@sl ;
+	rdfs:label "Sloveniya"@crh ;
+	skos:prefLabel "Sloveniya"@crh ;
+	schema:name "Sloveniya"@crh ;
+	rdfs:label "Slovenia"@ms ;
+	skos:prefLabel "Slovenia"@ms ;
+	schema:name "Slovenia"@ms ;
+	rdfs:label "Slovenia"@ro ;
+	skos:prefLabel "Slovenia"@ro ;
+	schema:name "Slovenia"@ro ;
+	rdfs:label "स्लोवेनिया"@bho ;
+	skos:prefLabel "स्लोवेनिया"@bho ;
+	schema:name "स्लोवेनिया"@bho ;
+	rdfs:label "Словения"@av ;
+	skos:prefLabel "Словения"@av ;
+	schema:name "Словения"@av ;
+	rdfs:label "Slowenien"@lb ;
+	skos:prefLabel "Slowenien"@lb ;
+	schema:name "Slowenien"@lb ;
+	rdfs:label "Slovenia"@en-gb ;
+	skos:prefLabel "Slovenia"@en-gb ;
+	schema:name "Slovenia"@en-gb ;
+	rdfs:label "Sloveniya"@kaa ;
+	skos:prefLabel "Sloveniya"@kaa ;
+	schema:name "Sloveniya"@kaa ;
+	rdfs:label "سلووانیا"@ps ;
+	skos:prefLabel "سلووانیا"@ps ;
+	schema:name "سلووانیا"@ps ;
+	rdfs:label "Slowenien"@stq ;
+	skos:prefLabel "Slowenien"@stq ;
+	schema:name "Slowenien"@stq ;
+	rdfs:label "سلوڥينيا"@aeb-arab ;
+	skos:prefLabel "سلوڥينيا"@aeb-arab ;
+	schema:name "سلوڥينيا"@aeb-arab ;
+	rdfs:label "ປະເທດສະໂລເວນີ"@lo ;
+	skos:prefLabel "ປະເທດສະໂລເວນີ"@lo ;
+	schema:name "ປະເທດສະໂລເວນີ"@lo ;
+	rdfs:label "Slovenia"@sw ;
+	skos:prefLabel "Slovenia"@sw ;
+	schema:name "Slovenia"@sw ;
+	rdfs:label "Slowenien"@nds ;
+	skos:prefLabel "Slowenien"@nds ;
+	schema:name "Slowenien"@nds ;
+	rdfs:label "Eslovenia"@pag ;
+	skos:prefLabel "Eslovenia"@pag ;
+	schema:name "Eslovenia"@pag ;
+	rdfs:label "Slobinya"@bcl ;
+	skos:prefLabel "Slobinya"@bcl ;
+	schema:name "Slobinya"@bcl ;
+	rdfs:label "Slovenien"@da ;
+	skos:prefLabel "Slovenien"@da ;
+	schema:name "Slovenien"@da ;
+	rdfs:label "स्लोव्हेनिया"@gom-deva ;
+	skos:prefLabel "स्लोव्हेनिया"@gom-deva ;
+	schema:name "स्लोव्हेनिया"@gom-deva ;
+	rdfs:label "Slovenien"@sv ;
+	skos:prefLabel "Slovenien"@sv ;
+	schema:name "Slovenien"@sv ;
+	rdfs:label "Sloveniya"@crh-latn ;
+	skos:prefLabel "Sloveniya"@crh-latn ;
+	schema:name "Sloveniya"@crh-latn ;
+	rdfs:label "Slovēnija"@lv ;
+	skos:prefLabel "Slovēnija"@lv ;
+	schema:name "Slovēnija"@lv ;
+	rdfs:label "Slovenia"@rup ;
+	skos:prefLabel "Slovenia"@rup ;
+	schema:name "Slovenia"@rup ;
+	rdfs:label "Словение"@ady ;
+	skos:prefLabel "Словение"@ady ;
+	schema:name "Словение"@ady ;
+	rdfs:label "Siloveni"@kbp ;
+	skos:prefLabel "Siloveni"@kbp ;
+	schema:name "Siloveni"@kbp ;
+	rdfs:label "Yn Clovean"@gv ;
+	skos:prefLabel "Yn Clovean"@gv ;
+	schema:name "Yn Clovean"@gv ;
+	rdfs:label "سلوفينيا"@ar ;
+	skos:prefLabel "سلوفينيا"@ar ;
+	schema:name "سلوفينيا"@ar ;
+	rdfs:label "Slovenikondre"@srn ;
+	skos:prefLabel "Slovenikondre"@srn ;
+	schema:name "Slovenikondre"@srn ;
+	rdfs:label "Eslovenia"@ch ;
+	skos:prefLabel "Eslovenia"@ch ;
+	schema:name "Eslovenia"@ch ;
+	rdfs:label "Slowenya"@diq ;
+	skos:prefLabel "Slowenya"@diq ;
+	schema:name "Slowenya"@diq ;
+	rdfs:label "Slowenya"@pih ;
+	skos:prefLabel "Slowenya"@pih ;
+	schema:name "Slowenya"@pih ;
+	rdfs:label "Słowyńijo"@szl ;
+	skos:prefLabel "Słowyńijo"@szl ;
+	schema:name "Słowyńijo"@szl ;
+	rdfs:label "Slovenia"@ace ;
+	skos:prefLabel "Slovenia"@ace ;
+	schema:name "Slovenia"@ace ;
+	rdfs:label "Словени"@cv ;
+	skos:prefLabel "Словени"@cv ;
+	schema:name "Словени"@cv ;
+	rdfs:label "Slovenia"@tpi ;
+	skos:prefLabel "Slovenia"@tpi ;
+	schema:name "Slovenia"@tpi ;
+	rdfs:label "Eslovénia"@pt ;
+	skos:prefLabel "Eslovénia"@pt ;
+	schema:name "Eslovénia"@pt ;
+	rdfs:label "Slovenia"@io ;
+	skos:prefLabel "Slovenia"@io ;
+	schema:name "Slovenia"@io ;
+	rdfs:label "Словения"@ru ;
+	skos:prefLabel "Словения"@ru ;
+	schema:name "Словения"@ru ;
+	rdfs:label "Slowenien"@de-ch ;
+	skos:prefLabel "Slowenien"@de-ch ;
+	schema:name "Slowenien"@de-ch ;
+	rdfs:label "ประเทศสโลวีเนีย"@th ;
+	skos:prefLabel "ประเทศสโลวีเนีย"@th ;
+	schema:name "ประเทศสโลวีเนีย"@th ;
+	rdfs:label "Sloveniya"@ha ;
+	skos:prefLabel "Sloveniya"@ha ;
+	schema:name "Sloveniya"@ha ;
+	rdfs:label "Silaovenia"@mg ;
+	skos:prefLabel "Silaovenia"@mg ;
+	schema:name "Silaovenia"@mg ;
+	rdfs:label "ایسلوونی"@azb ;
+	skos:prefLabel "ایسلوونی"@azb ;
+	schema:name "ایسلوونی"@azb ;
+	rdfs:label "Eslovenia"@an ;
+	skos:prefLabel "Eslovenia"@an ;
+	schema:name "Eslovenia"@an ;
+	rdfs:label "Śluvègna"@eml ;
+	skos:prefLabel "Śluvègna"@eml ;
+	schema:name "Śluvègna"@eml ;
+	rdfs:label "Սլովենիա"@hy ;
+	skos:prefLabel "Սլովենիա"@hy ;
+	schema:name "Սլովենիա"@hy ;
+	rdfs:label "Slovenii"@vep ;
+	skos:prefLabel "Slovenii"@vep ;
+	schema:name "Slovenii"@vep ;
+	rdfs:label "Slovenia"@nov ;
+	skos:prefLabel "Slovenia"@nov ;
+	schema:name "Slovenia"@nov ;
+	rdfs:label "स्लोभेनिया"@ne ;
+	skos:prefLabel "स्लोभेनिया"@ne ;
+	schema:name "स्लोभेनिया"@ne ;
+	rdfs:label "Slovenië"@nl ;
+	skos:prefLabel "Slovenië"@nl ;
+	schema:name "Slovenië"@nl ;
+	rdfs:label "Slowenien"@de ;
+	skos:prefLabel "Slowenien"@de ;
+	schema:name "Slowenien"@de ;
+	rdfs:label "Slovenia"@ig ;
+	skos:prefLabel "Slovenia"@ig ;
+	schema:name "Slovenia"@ig ;
+	rdfs:label "Slovenia"@sm ;
+	skos:prefLabel "Slovenia"@sm ;
+	schema:name "Slovenia"@sm ;
+	rdfs:label "Slovenia"@pam ;
+	skos:prefLabel "Slovenia"@pam ;
+	schema:name "Slovenia"@pam ;
+	rdfs:label "Eslovenya"@war ;
+	skos:prefLabel "Eslovenya"@war ;
+	schema:name "Eslovenya"@war ;
+	rdfs:label "slovEni,as"@jbo ;
+	skos:prefLabel "slovEni,as"@jbo ;
+	schema:name "slovEni,as"@jbo ;
+	rdfs:label "Слоуэнэ"@kbd ;
+	skos:prefLabel "Слоуэнэ"@kbd ;
+	schema:name "Слоуэнэ"@kbd ;
+	rdfs:label "Словения"@mdf ;
+	skos:prefLabel "Словения"@mdf ;
+	schema:name "Словения"@mdf ;
+	rdfs:label "Slobénia"@mwl ;
+	skos:prefLabel "Slobénia"@mwl ;
+	schema:name "Slobénia"@mwl ;
+	rdfs:label "Slovenia"@en ;
+	skos:prefLabel "Slovenia"@en ;
+	schema:name "Slovenia"@en ;
+	rdfs:label "سلوانیا"@bgn ;
+	skos:prefLabel "سلوانیا"@bgn ;
+	schema:name "سلوانیا"@bgn ;
+	rdfs:label "Sloveenje"@fy ;
+	skos:prefLabel "Sloveenje"@fy ;
+	schema:name "Sloveenje"@fy ;
+	rdfs:label "ဆလိုဗေးနီးယားနိုင်ငံ"@my ;
+	skos:prefLabel "ဆလိုဗေးနီးယားနိုင်ငံ"@my ;
+	schema:name "ဆလိုဗေးနီးယားနိုင်ငံ"@my ;
+	rdfs:label "斯洛文尼亚"@zh-cn ;
+	skos:prefLabel "斯洛文尼亚"@zh-cn ;
+	schema:name "斯洛文尼亚"@zh-cn ;
+	rdfs:label "Sloveenia"@sma ;
+	skos:prefLabel "Sloveenia"@sma ;
+	schema:name "Sloveenia"@sma ;
+	rdfs:label "Sloveenia"@et ;
+	skos:prefLabel "Sloveenia"@et ;
+	schema:name "Sloveenia"@et ;
+	rdfs:label "Eslovenia"@cbk-zam ;
+	skos:prefLabel "Eslovenia"@cbk-zam ;
+	schema:name "Eslovenia"@cbk-zam ;
+	rdfs:label "Esloweeni"@wo ;
+	skos:prefLabel "Esloweeni"@wo ;
+	schema:name "Esloweeni"@wo ;
+	rdfs:label "Словени"@os ;
+	skos:prefLabel "Словени"@os ;
+	schema:name "Словени"@os ;
+	rdfs:label "Slovenia"@nn ;
+	skos:prefLabel "Slovenia"@nn ;
+	schema:name "Slovenia"@nn ;
+	rdfs:label "Eslovènia"@ca ;
+	skos:prefLabel "Eslovènia"@ca ;
+	schema:name "Eslovènia"@ca ;
+	rdfs:label "斯洛文尼亚"@wuu ;
+	skos:prefLabel "斯洛文尼亚"@wuu ;
+	schema:name "斯洛文尼亚"@wuu ;
+	rdfs:label "Slovénie"@nrm ;
+	skos:prefLabel "Slovénie"@nrm ;
+	schema:name "Slovénie"@nrm ;
+	rdfs:label "Eslovenia"@gl ;
+	skos:prefLabel "Eslovenia"@gl ;
+	schema:name "Eslovenia"@gl ;
+	rdfs:label "Slovenio"@eo ;
+	skos:prefLabel "Slovenio"@eo ;
+	schema:name "Slovenio"@eo ;
+	rdfs:label "Slovenia"@ee ;
+	skos:prefLabel "Slovenia"@ee ;
+	schema:name "Slovenia"@ee ;
+	rdfs:label "Slovenia"@bi ;
+	skos:prefLabel "Slovenia"@bi ;
+	schema:name "Slovenia"@bi ;
+	rdfs:label "Slovenia"@rm ;
+	skos:prefLabel "Slovenia"@rm ;
+	schema:name "Slovenia"@rm ;
+	rdfs:label "സ്ലൊവീന്യ"@ml ;
+	skos:prefLabel "സ്ലൊവീന്യ"@ml ;
+	schema:name "സ്ലൊവീന്യ"@ml ;
+	rdfs:label "سلۆڤێنیا"@ckb ;
+	skos:prefLabel "سلۆڤێنیا"@ckb ;
+	schema:name "سلۆڤێنیا"@ckb ;
+	rdfs:label "Slovenia"@ln ;
+	skos:prefLabel "Slovenia"@ln ;
+	schema:name "Slovenia"@ln ;
+	rdfs:label "Slovènie"@frp ;
+	skos:prefLabel "Slovènie"@frp ;
+	schema:name "Slovènie"@frp ;
+	rdfs:label "Slofenia"@cy ;
+	skos:prefLabel "Slofenia"@cy ;
+	schema:name "Slofenia"@cy ;
+	rdfs:label "Slovenia"@la ;
+	skos:prefLabel "Slovenia"@la ;
+	schema:name "Slovenia"@la ;
+	rdfs:label "Slowenien"@frr ;
+	skos:prefLabel "Slowenien"@frr ;
+	schema:name "Slowenien"@frr ;
+	rdfs:label "Slovenië"@zea ;
+	skos:prefLabel "Slovenië"@zea ;
+	schema:name "Slovenië"@zea ;
+	rdfs:label "स्लोव्हेनिया"@mr ;
+	skos:prefLabel "स्लोव्हेनिया"@mr ;
+	schema:name "स्लोव्हेनिया"@mr ;
+	rdfs:label "Slovenia"@fo ;
+	skos:prefLabel "Slovenia"@fo ;
+	schema:name "Slovenia"@fo ;
+	rdfs:label "Slovénie"@fr ;
+	skos:prefLabel "Slovénie"@fr ;
+	schema:name "Slovénie"@fr ;
+	rdfs:label "Slóvenía"@is ;
+	skos:prefLabel "Slóvenía"@is ;
+	schema:name "Slóvenía"@is ;
+	rdfs:label "斯洛維尼亞"@lzh ;
+	skos:prefLabel "斯洛維尼亞"@lzh ;
+	schema:name "斯洛維尼亞"@lzh ;
+	rdfs:label "Słowjenska"@hsb ;
+	skos:prefLabel "Słowjenska"@hsb ;
+	schema:name "Słowjenska"@hsb ;
+	rdfs:label "Slovenja"@mt ;
+	skos:prefLabel "Slovenja"@mt ;
+	schema:name "Slovenja"@mt ;
+	rdfs:label "Slovenië"@li ;
+	skos:prefLabel "Slovenië"@li ;
+	schema:name "Slovenië"@li ;
+	rdfs:label "स्लोभेनिया"@new ;
+	skos:prefLabel "स्लोभेनिया"@new ;
+	schema:name "स्लोभेनिया"@new ;
+	rdfs:label "Sloveeniä"@vro ;
+	skos:prefLabel "Sloveeniä"@vro ;
+	schema:name "Sloveeniä"@vro ;
+	rdfs:label "Slovenia"@fi ;
+	skos:prefLabel "Slovenia"@fi ;
+	schema:name "Slovenia"@fi ;
+	rdfs:label "斯洛維尼亞"@zh-hant ;
+	skos:prefLabel "斯洛維尼亞"@zh-hant ;
+	schema:name "斯洛維尼亞"@zh-hant ;
+	rdfs:label "Slovenia"@id ;
+	skos:prefLabel "Slovenia"@id ;
+	schema:name "Slovenia"@id ;
+	rdfs:label "स्लोव्हेनिया"@gom ;
+	skos:prefLabel "स्लोव्हेनिया"@gom ;
+	schema:name "स्लोव्हेनिया"@gom ;
+	rdfs:label "સ્લોવેનિયા"@gu ;
+	skos:prefLabel "સ્લોવેનિયા"@gu ;
+	schema:name "સ્લોવેનિયા"@gu ;
+	rdfs:label "Slovénia"@su ;
+	skos:prefLabel "Slovénia"@su ;
+	schema:name "Slovénia"@su ;
+	rdfs:label "Slovenia"@ia ;
+	skos:prefLabel "Slovenia"@ia ;
+	schema:name "Slovenia"@ia ;
+	rdfs:label "ਸਲੋਵੇਨੀਆ"@pa ;
+	skos:prefLabel "ਸਲੋਵੇਨੀਆ"@pa ;
+	schema:name "ਸਲੋਵੇਨੀਆ"@pa ;
+	rdfs:label "Sloveneye"@wa ;
+	skos:prefLabel "Sloveneye"@wa ;
+	schema:name "Sloveneye"@wa ;
+	rdfs:label "Slovenia"@vi ;
+	skos:prefLabel "Slovenia"@vi ;
+	schema:name "Slovenia"@vi ;
+	rdfs:label "Eslobenia"@ilo ;
+	skos:prefLabel "Eslobenia"@ilo ;
+	schema:name "Eslobenia"@ilo ;
+	rdfs:label "Slovenie"@roa-tara ;
+	skos:prefLabel "Slovenie"@roa-tara ;
+	schema:name "Slovenie"@roa-tara ;
+	rdfs:label "Slovenia"@gom-latn ;
+	skos:prefLabel "Slovenia"@gom-latn ;
+	schema:name "Slovenia"@gom-latn ;
+	rdfs:label "Slowenië"@af ;
+	skos:prefLabel "Slowenië"@af ;
+	schema:name "Slowenië"@af ;
+	rdfs:label "Eslobenya"@ceb ;
+	skos:prefLabel "Eslobenya"@ceb ;
+	schema:name "Eslobenya"@ceb ;
+	rdfs:label "Словения"@krc ;
+	skos:prefLabel "Словения"@krc ;
+	schema:name "Словения"@krc ;
+	rdfs:label "Slovenia"@nb ;
+	skos:prefLabel "Slovenia"@nb ;
+	schema:name "Slovenia"@nb ;
+	rdfs:label "Slowenia"@gsw ;
+	skos:prefLabel "Slowenia"@gsw ;
+	schema:name "Slowenia"@gsw ;
+	rdfs:label "ස්ලෝවේනියාව"@si ;
+	skos:prefLabel "ස්ලෝවේනියාව"@si ;
+	schema:name "ස්ලෝවේනියාව"@si ;
+	rdfs:label "斯洛文尼亚"@zh-hans ;
+	skos:prefLabel "斯洛文尼亚"@zh-hans ;
+	schema:name "斯洛文尼亚"@zh-hans ;
+	rdfs:label "Slovēnij"@liv ;
+	skos:prefLabel "Slovēnij"@liv ;
+	schema:name "Slovēnij"@liv ;
+	rdfs:label "Slovenia"@scn ;
+	skos:prefLabel "Slovenia"@scn ;
+	schema:name "Slovenia"@scn ;
+	rdfs:label "Словения"@bg ;
+	skos:prefLabel "Словения"@bg ;
+	schema:name "Словения"@bg ;
+	rdfs:label "Eslovenia"@eu ;
+	skos:prefLabel "Eslovenia"@eu ;
+	schema:name "Eslovenia"@eu ;
+	rdfs:label "სლოვენია"@xmf ;
+	skos:prefLabel "სლოვენია"@xmf ;
+	schema:name "სლოვენია"@xmf ;
+	rdfs:label "Sloveniyän"@vo ;
+	skos:prefLabel "Sloveniyän"@vo ;
+	schema:name "Sloveniyän"@vo ;
+	rdfs:label "Slovenia"@it ;
+	skos:prefLabel "Slovenia"@it ;
+	schema:name "Slovenia"@it ;
+	rdfs:label "Slovenia"@pap ;
+	skos:prefLabel "Slovenia"@pap ;
+	schema:name "Slovenia"@pap ;
+	rdfs:label "ᏍᎶᏫᏂᎠ"@chr ;
+	skos:prefLabel "ᏍᎶᏫᏂᎠ"@chr ;
+	schema:name "ᏍᎶᏫᏂᎠ"@chr ;
+	rdfs:label "Solowenia"@haw ;
+	skos:prefLabel "Solowenia"@haw ;
+	schema:name "Solowenia"@haw ;
+	rdfs:label "Slovenia"@tum ;
+	skos:prefLabel "Slovenia"@tum ;
+	schema:name "Slovenia"@tum ;
+	rdfs:label "Slovénie"@pcd ;
+	skos:prefLabel "Slovénie"@pcd ;
+	schema:name "Slovénie"@pcd ;
+	rdfs:label "Slovenia"@kl ;
+	skos:prefLabel "Slovenia"@kl ;
+	schema:name "Slovenia"@kl ;
+	rdfs:label "Sluvenia"@co ;
+	skos:prefLabel "Sluvenia"@co ;
+	schema:name "Sluvenia"@co ;
+	rdfs:label "Słowjeńska"@dsb ;
+	skos:prefLabel "Słowjeńska"@dsb ;
+	schema:name "Słowjeńska"@dsb ;
+	rdfs:label "Славенія"@be-tarask ;
+	skos:prefLabel "Славенія"@be-tarask ;
+	schema:name "Славенія"@be-tarask ;
+	rdfs:label "Slovènia"@vec ;
+	skos:prefLabel "Slovènia"@vec ;
+	schema:name "Slovènia"@vec ;
+	rdfs:label "Slovenia"@cdo ;
+	skos:prefLabel "Slovenia"@cdo ;
+	schema:name "Slovenia"@cdo ;
+	rdfs:label "Slovenia"@nan ;
+	skos:prefLabel "Slovenia"@nan ;
+	schema:name "Slovenia"@nan ;
+	rdfs:label "Eloveña"@gn ;
+	skos:prefLabel "Eloveña"@gn ;
+	schema:name "Eloveña"@gn ;
+	rdfs:label "Slovenija"@bs ;
+	skos:prefLabel "Slovenija"@bs ;
+	schema:name "Slovenija"@bs ;
+	rdfs:label "Словения"@ky ;
+	skos:prefLabel "Словения"@ky ;
+	schema:name "Словения"@ky ;
+	rdfs:label "Slovenija"@sh ;
+	skos:prefLabel "Slovenija"@sh ;
+	schema:name "Slovenija"@sh ;
+	rdfs:label "Szlovénia"@hu ;
+	skos:prefLabel "Szlovénia"@hu ;
+	schema:name "Szlovénia"@hu ;
+	rdfs:label "斯洛文尼亞"@yue ;
+	skos:prefLabel "斯洛文尼亞"@yue ;
+	schema:name "斯洛文尼亞"@yue ;
+	rdfs:label "స్లోవేనియా"@te ;
+	skos:prefLabel "స్లోవేనియా"@te ;
+	schema:name "స్లోవేనియా"@te ;
+	rdfs:label "Словения"@koi ;
+	skos:prefLabel "Словения"@koi ;
+	schema:name "Словения"@koi ;
+	rdfs:label "Словения"@ba ;
+	skos:prefLabel "Словения"@ba ;
+	schema:name "Словения"@ba ;
+	rdfs:label "Словения"@sah ;
+	skos:prefLabel "Словения"@sah ;
+	schema:name "Словения"@sah ;
+	rdfs:label "Slofenia"@ang ;
+	skos:prefLabel "Slofenia"@ang ;
+	schema:name "Slofenia"@ang ;
+	rdfs:label "स्लोवीनिया"@pi ;
+	skos:prefLabel "स्लोवीनिया"@pi ;
+	schema:name "स्लोवीनिया"@pi ;
+	rdfs:label "Sloveniya"@uz ;
+	skos:prefLabel "Sloveniya"@uz ;
+	schema:name "Sloveniya"@uz ;
+	rdfs:label "Sloweniýa"@tk ;
+	skos:prefLabel "Sloweniýa"@tk ;
+	schema:name "Sloweniýa"@tk ;
+	rdfs:label "Slovenia"@hif ;
+	skos:prefLabel "Slovenia"@hif ;
+	schema:name "Slovenia"@hif ;
+	rdfs:label "Словенмудин Орн"@xal ;
+	skos:prefLabel "Словенмудин Орн"@xal ;
+	schema:name "Словенмудин Орн"@xal ;
+	rdfs:label "Їллѷрїиска Словѣнїꙗ"@cu ;
+	skos:prefLabel "Їллѷрїиска Словѣнїꙗ"@cu ;
+	schema:name "Їллѷрїиска Словѣнїꙗ"@cu ;
+	rdfs:label "Slowénien"@bar ;
+	skos:prefLabel "Slowénien"@bar ;
+	schema:name "Slowénien"@bar ;
+	rdfs:label "Slovenie"@fur ;
+	skos:prefLabel "Slovenie"@fur ;
+	schema:name "Slovenie"@fur ;
+	rdfs:label "Sloveni"@ht ;
+	skos:prefLabel "Sloveni"@ht ;
+	schema:name "Sloveni"@ht ;
+	rdfs:label "Slovenia"@sn ;
+	skos:prefLabel "Slovenia"@sn ;
+	schema:name "Slovenia"@sn ;
+	rdfs:label "Slovenya"@tr ;
+	skos:prefLabel "Slovenya"@tr ;
+	schema:name "Slovenya"@tr ;
+	rdfs:label "Slovenia"@ie ;
+	skos:prefLabel "Slovenia"@ie ;
+	schema:name "Slovenia"@ie ;
+	rdfs:label "An t-Slòbhain"@gd ;
+	skos:prefLabel "An t-Slòbhain"@gd ;
+	schema:name "An t-Slòbhain"@gd ;
+	rdfs:label "Славенія"@be ;
+	skos:prefLabel "Славенія"@be ;
+	schema:name "Славенія"@be ;
+	rdfs:label "სლოვენია"@ka ;
+	skos:prefLabel "სლოვენია"@ka ;
+	schema:name "სლოვენია"@ka ;
+	rdfs:label "Словени"@ce ;
+	skos:prefLabel "Словени"@ce ;
+	schema:name "Словени"@ce ;
+	rdfs:label "Словения"@kv ;
+	skos:prefLabel "Словения"@kv ;
+	schema:name "Словения"@kv ;
+	rdfs:label "اسلوونی"@fa ;
+	skos:prefLabel "اسلوونی"@fa ;
+	schema:name "اسلوونی"@fa ;
+	rdfs:label "Sloveniën"@nds-nl ;
+	skos:prefLabel "Sloveniën"@nds-nl ;
+	schema:name "Sloveniën"@nds-nl ;
+	rdfs:label "སི་ལོ་ཝེ་ནི་ཡ།"@bo ;
+	skos:prefLabel "སི་ལོ་ཝེ་ནི་ཡ།"@bo ;
+	schema:name "སི་ལོ་ཝེ་ནི་ཡ།"@bo ;
+	rdfs:label "Horowinia"@mi ;
+	skos:prefLabel "Horowinia"@mi ;
+	schema:name "Horowinia"@mi ;
+	rdfs:label "Słowenia"@pl ;
+	skos:prefLabel "Słowenia"@pl ;
+	schema:name "Słowenia"@pl ;
+	rdfs:label "Slovenia"@en-ca ;
+	skos:prefLabel "Slovenia"@en-ca ;
+	schema:name "Slovenia"@en-ca ;
+	rdfs:label "Slovenia"@tw ;
+	skos:prefLabel "Slovenia"@tw ;
+	schema:name "Slovenia"@tw ;
+	rdfs:label "ስሎቬኒያ"@am ;
+	skos:prefLabel "ስሎቬኒያ"@am ;
+	schema:name "ስሎቬኒያ"@am ;
+	rdfs:label "Словения"@udm ;
+	skos:prefLabel "Словения"@udm ;
+	schema:name "Словения"@udm ;
+	rdfs:label "Словения"@kk ;
+	skos:prefLabel "Словения"@kk ;
+	schema:name "Словения"@kk ;
+	rdfs:label "ಸ್ಲೊವೇನಿಯ"@kn ;
+	skos:prefLabel "ಸ್ಲೊವೇನಿಯ"@kn ;
+	schema:name "ಸ್ಲೊವೇನಿಯ"@kn ;
+	rdfs:label "Σλοβενία"@el ;
+	skos:prefLabel "Σλοβενία"@el ;
+	schema:name "Σλοβενία"@el ;
+	rdfs:label "Slovenië"@vls ;
+	skos:prefLabel "Slovenië"@vls ;
+	schema:name "Slovenië"@vls ;
+	rdfs:label "Sllovenia"@sq ;
+	skos:prefLabel "Sllovenia"@sq ;
+	schema:name "Sllovenia"@sq ;
+	rdfs:label "Slovenia"@kg ;
+	skos:prefLabel "Slovenia"@kg ;
+	schema:name "Slovenia"@kg ;
+	rdfs:label "Σλοβενία"@pnt ;
+	skos:prefLabel "Σλοβενία"@pnt ;
+	schema:name "Σλοβενία"@pnt ;
+	rdfs:label "Eslovênia"@pt-br ;
+	skos:prefLabel "Eslovênia"@pt-br ;
+	schema:name "Eslovênia"@pt-br ;
+	rdfs:label "Словений"@mhr ;
+	skos:prefLabel "Словений"@mhr ;
+	schema:name "Словений"@mhr ;
+	rdfs:label "Slowéniye"@ug ;
+	skos:prefLabel "Slowéniye"@ug ;
+	schema:name "Slowéniye"@ug ;
+	rdfs:label "Словенія"@rue ;
+	skos:prefLabel "Словенія"@rue ;
+	schema:name "Словенія"@rue ;
+	rdfs:label "Islovènia"@sc ;
+	skos:prefLabel "Islovènia"@sc ;
+	schema:name "Islovènia"@sc ;
+	rdfs:label "Slovenya"@ku ;
+	skos:prefLabel "Slovenya"@ku ;
+	schema:name "Slovenya"@ku ;
+	rdfs:label "Slovenii"@olo ;
+	skos:prefLabel "Slovenii"@olo ;
+	schema:name "Slovenii"@olo ;
+	rdfs:label "ܣܠܘܒܢܝܐ"@arc ;
+	skos:prefLabel "ܣܠܘܒܢܝܐ"@arc ;
+	schema:name "ܣܠܘܒܢܝܐ"@arc ;
+	rdfs:label "Siloveni"@ss ;
+	skos:prefLabel "Siloveni"@ss ;
+	schema:name "Siloveni"@ss ;
+	rdfs:label "Slovenia"@ts ;
+	skos:prefLabel "Slovenia"@ts ;
+	schema:name "Slovenia"@ts ;
+	rdfs:label "ސުލޮވީނިއާ"@dv ;
+	skos:prefLabel "ސުލޮވީނިއާ"@dv ;
+	schema:name "ސުލޮވީނިއާ"@dv ;
+	rdfs:label "سلوفينيا"@arz ;
+	skos:prefLabel "سلوفينيا"@arz ;
+	schema:name "سلوفينيا"@arz ;
+	rdfs:label "Slovenia"@se ;
+	skos:prefLabel "Slovenia"@se ;
+	schema:name "Slovenia"@se ;
+	rdfs:label "Eslovenia"@nah ;
+	skos:prefLabel "Eslovenia"@nah ;
+	schema:name "Eslovenia"@nah ;
+	rdfs:label "Isluwinya"@qu ;
+	skos:prefLabel "Isluwinya"@qu ;
+	schema:name "Isluwinya"@qu ;
+	rdfs:label "Slovinsko"@cs ;
+	skos:prefLabel "Slovinsko"@cs ;
+	schema:name "Slovinsko"@cs ;
+	rdfs:label "Sloveni"@kw ;
+	skos:prefLabel "Sloveni"@kw ;
+	schema:name "Sloveni"@kw ;
+	rdfs:label "Slovénia"@lij ;
+	skos:prefLabel "Slovénia"@lij ;
+	schema:name "Slovénia"@lij ;
+	rdfs:label "Eslovenia"@lad ;
+	skos:prefLabel "Eslovenia"@lad ;
+	schema:name "Eslovenia"@lad ;
+	rdfs:label "Словенија"@sr-ec ;
+	skos:prefLabel "Словенија"@sr-ec ;
+	schema:name "Словенија"@sr-ec ;
+	rdfs:label "Slovenija"@hr ;
+	skos:prefLabel "Slovenija"@hr ;
+	schema:name "Slovenija"@hr ;
+	rdfs:label "スロベニア"@ja ;
+	skos:prefLabel "スロベニア"@ja ;
+	schema:name "スロベニア"@ja ;
+	rdfs:label "슬로베니아"@ko ;
+	skos:prefLabel "슬로베니아"@ko ;
+	schema:name "슬로베니아"@ko ;
+	rdfs:label "Slovenia"@lfn ;
+	skos:prefLabel "Slovenia"@lfn ;
+	schema:name "Slovenia"@lfn ;
+	rdfs:label "Slovenia"@br ;
+	skos:prefLabel "Slovenia"@br ;
+	schema:name "Slovenia"@br ;
+	rdfs:label "Slovenia"@chy ;
+	skos:prefLabel "Slovenia"@chy ;
+	schema:name "Slovenia"@chy ;
+	rdfs:label "स्लोवीनिया"@sa ;
+	skos:prefLabel "स्लोवीनिया"@sa ;
+	schema:name "स्लोवीनिया"@sa ;
+	rdfs:label "Sluenia"@lmo ;
+	skos:prefLabel "Sluenia"@lmo ;
+	schema:name "Sluenia"@lmo ;
+	rdfs:label "Slovenia"@hak ;
+	skos:prefLabel "Slovenia"@hak ;
+	schema:name "Slovenia"@hak ;
+	rdfs:label "स्लोभेनिया"@dty ;
+	skos:prefLabel "स्लोभेनिया"@dty ;
+	schema:name "स्लोभेनिया"@dty ;
+	rdfs:label "Словенија"@sr ;
+	skos:prefLabel "Словенија"@sr ;
+	schema:name "Словенија"@sr ;
+	rdfs:label "Slowenien"@de-at ;
+	skos:prefLabel "Slowenien"@de-at ;
+	schema:name "Slowenien"@de-at ;
+	rdfs:label "Словения"@lez ;
+	skos:prefLabel "Словения"@lez ;
+	schema:name "Словения"@lez ;
+	rdfs:label "Սլովենիա"@hyw ;
+	skos:prefLabel "Սլովենիա"@hyw ;
+	schema:name "Սլովենիա"@hyw ;
+	rdfs:label "Словениа"@ab ;
+	skos:prefLabel "Словениа"@ab ;
+	schema:name "Словениа"@ab ;
+	rdfs:label "Isluwiña"@ay ;
+	skos:prefLabel "Isluwiña"@ay ;
+	schema:name "Isluwiña"@ay ;
+	rdfs:label "سلووينیا"@sd ;
+	skos:prefLabel "سلووينیا"@sd ;
+	schema:name "سلووينیا"@sd ;
+	rdfs:label "Slovénia"@ban ;
+	skos:prefLabel "Slovénia"@ban ;
+	schema:name "Slovénia"@ban ;
+	rdfs:label "𐍃𐌻𐌰𐌿𐌱𐌰𐌹𐌽𐌾𐌰"@got ;
+	skos:prefLabel "𐍃𐌻𐌰𐌿𐌱𐌰𐌹𐌽𐌾𐌰"@got ;
+	schema:name "𐍃𐌻𐌰𐌿𐌱𐌰𐌹𐌽𐌾𐌰"@got ;
+	rdfs:label "Slovenia"@szy ;
+	skos:prefLabel "Slovenia"@szy ;
+	schema:name "Slovenia"@szy ;
+	rdfs:label "Slovéni"@gcr ;
+	skos:prefLabel "Slovéni"@gcr ;
+	schema:name "Slovéni"@gcr ;
+	rdfs:label "صلوڤينيا"@ary ;
+	skos:prefLabel "صلوڤينيا"@ary ;
+	schema:name "صلوڤينيا"@ary ;
+	rdfs:label "Slovenia"@map-bms ;
+	skos:prefLabel "Slovenia"@map-bms ;
+	schema:name "Slovenia"@map-bms ;
+	rdfs:label "မိူင်းသလူဝ်ႇဝေးၼီးယႃး"@shn ;
+	skos:prefLabel "မိူင်းသလူဝ်ႇဝေးၼီးယႃး"@shn ;
+	schema:name "မိူင်းသလူဝ်ႇဝေးၼီးယႃး"@shn ;
+	rdfs:label "Slovenia"@smn ;
+	skos:prefLabel "Slovenia"@smn ;
+	schema:name "Slovenia"@smn ;
+	rdfs:label "Slovenia"@sms ;
+	skos:prefLabel "Slovenia"@sms ;
+	schema:name "Slovenia"@sms ;
+	rdfs:label "Slovenia"@avk ;
+	skos:prefLabel "Slovenia"@avk ;
+	schema:name "Slovenia"@avk ;
+	rdfs:label "Slovenia"@lld ;
+	skos:prefLabel "Slovenia"@lld ;
+	schema:name "Slovenia"@lld ;
+	rdfs:label "ᱥᱞᱳᱵᱷᱮᱱᱤᱭᱟ"@sat ;
+	skos:prefLabel "ᱥᱞᱳᱵᱷᱮᱱᱤᱭᱟ"@sat ;
+	schema:name "ᱥᱞᱳᱵᱷᱮᱱᱤᱭᱟ"@sat ;
+	rdfs:label "ꯁ꯭ꯂꯣꯚꯦꯅꯤꯌꯥ"@mni ;
+	skos:prefLabel "ꯁ꯭ꯂꯣꯚꯦꯅꯤꯌꯥ"@mni ;
+	schema:name "ꯁ꯭ꯂꯣꯚꯦꯅꯤꯌꯥ"@mni ;
+	rdfs:label "स्लोवेनिया"@awa ;
+	skos:prefLabel "स्लोवेनिया"@awa ;
+	schema:name "स्लोवेनिया"@awa ;
+	rdfs:label "Slovenia"@trv ;
+	skos:prefLabel "Slovenia"@trv ;
+	schema:name "Slovenia"@trv ;
+	rdfs:label "Slovenia"@mad ;
+	skos:prefLabel "Slovenia"@mad ;
+	schema:name "Slovenia"@mad ;
+	rdfs:label "Slovenia"@ami ;
+	skos:prefLabel "Slovenia"@ami ;
+	schema:name "Slovenia"@ami ;
+	rdfs:label "Slovenia"@dag ;
+	skos:prefLabel "Slovenia"@dag ;
+	schema:name "Slovenia"@dag ;
+	rdfs:label "Sloveniya"@rmy ;
+	skos:prefLabel "Sloveniya"@rmy ;
+	schema:name "Sloveniya"@rmy ;
+	rdfs:label "Silōvenia"@to ;
+	skos:prefLabel "Silōvenia"@to ;
+	schema:name "Silōvenia"@to ;
+	rdfs:label "Sluvinya"@kab ;
+	skos:prefLabel "Sluvinya"@kab ;
+	schema:name "Sluvinya"@kab ;
+	rdfs:label "ma Lowensina"@tok ;
+	skos:prefLabel "ma Lowensina"@tok ;
+	schema:name "ma Lowensina"@tok ;
+	rdfs:label "स्लोवेनिया"@anp ;
+	skos:prefLabel "स्लोवेनिया"@anp ;
+	schema:name "स्लोवेनिया"@anp ;
+	rdfs:label "Slovenia"@gpe ;
+	skos:prefLabel "Slovenia"@gpe ;
+	schema:name "Slovenia"@gpe ;
+	rdfs:label "Slovenia"@mos ;
+	skos:prefLabel "Slovenia"@mos ;
+	schema:name "Slovenia"@mos ;
+	schema:description "страна в Европе"@ru,
+		"civitas Europae"@la,
+		"país da Europa"@pt-br,
+		"država u srednjoj Evropi"@sr-el,
+		"pays d'Europe centrale"@fr,
+		"country in Central Europe"@en,
+		"stato dell'Europa centrale, membro dell'Unione europea"@it,
+		"stat w srjedźnej Europje"@hsb,
+		"南ヨーロッパの国"@ja,
+		"štát v strednej Európe"@sk,
+		"valtio Etelä-Euroopassa"@fi,
+		"країна на півдні Європи"@uk,
+		"negara di Eropa Tengah"@id,
+		"ქვეყანა ევროპაში"@ka,
+		"țară din Europa"@ro,
+		"stát v jižní Evropě"@cs,
+		"država v Evropi"@sl,
+		"Staat in Mitteleuropa"@de-ch,
+		"کشوری در قارهٔ اروپا"@fa,
+		"país na Europa Central"@pt,
+		"מדינה אירופאית"@he,
+		"ಮಧ್ಯ ಪೂರ್ವ-ದಕ್ಷಿಣ ಯುರೋಪ್ನಲ್ಲಿ ಗಣರಾಜ್ಯ"@kn,
+		"pagilian idiay Europa"@ilo,
+		"país de Europa"@es,
+		"دولة في أوروبا الوسطى"@ar,
+		"држава у средњој Европи"@sr-ec,
+		"republic in Central-Eastern-Southern Europe"@en-gb,
+		"država u srednjoj Europi"@hr,
+		"państwo w Europie Środkowej"@pl,
+		"republic in Central-Eastern-Southern Europe"@en-ca,
+		"Staat in Mitteleuropa"@de-at,
+		"land i Europa"@nb,
+		"állam Közép-Európában"@hu,
+		"युरोपको देश"@ne,
+		"位于中欧南部的国家"@zh-hans,
+		"land in Europa"@nl,
+		"Staat in Mitteleuropa"@de,
+		"държава в Централна Европа"@bg,
+		"држава у средњој Европи"@sr,
+		"χώρα στη κεντρική Ευρώπη"@el,
+		"lando en centra Eŭropo"@eo,
+		"republik i Centraleuropa"@sv,
+		"Un Land in Europa"@ie,
+		"estáu d'Europa"@ast,
+		"തെക്കൻ മദ്ധ്യ യൂറോപ്പിലെ ഒരു രാജ്യം"@ml,
+		"riika Eurohpás"@se,
+		"quốc gia ở Nam Âu"@vi,
+		"مرڪزي يورپ ۾ جمھوريہ"@sd,
+		"gweriniaeth yng Nghanol Ewrop"@cy,
+		"位於歐洲中部的國家"@zh,
+		"وڵات لە ناوەندی ئەورووپا"@ckb,
+		"Orta Avrupa'da yer alan bir ülke"@tr,
+		"Land in suidelike Sentraal-Europa"@af,
+		"মধ্য ইউরোপের সার্বভৌম রাষ্ট্র"@bn,
+		"država u srednjoj Evropi"@bs,
+		"位於歐洲中部的國家"@zh-hk,
+		"位於歐洲中部的國家"@zh-tw,
+		"pajjiż fl-Ewropa Ċentrali"@mt,
+		"país europeu"@ca,
+		"동남유럽의 국가"@ko,
+		"Estau d'Europa"@an,
+		"pàize de l'Eoröpa"@lij,
+		"مُلُک"@ks,
+		"tamurt n Turuft"@kab,
+		"Republik an Europa"@lb,
+		"nagara ing Eropa Tengah"@jv,
+		"ma lon ma Elopa"@tok,
+		"e land in Centroal-Europa"@vls ;
+	skos:altLabel "Республика Словения"@ru,
+		"斯洛文尼亞共和國"@zh-hk,
+		"República da Eslovênia"@pt-br,
+		"République de Slovénie"@fr,
+		"SI"@fr,
+		"la République de Slovénie"@fr,
+		"Slovenija"@en,
+		"Republika Slovenija"@en,
+		"si"@en,
+		"🇸🇮"@en,
+		"svn"@en,
+		"slo"@en,
+		"Republic of Slovenia"@en,
+		"SLO"@en,
+		"Republika Słowjenska"@hsb,
+		"Republika Słowenii"@pl,
+		"Slovenija"@pl,
+		"Republika Slovenija"@pl,
+		"🇸🇮"@pl,
+		"slo"@pl,
+		"si"@pl,
+		"svn"@pl,
+		"Slovėnėjė"@sgs,
+		"Sluovienėjė"@sgs,
+		"Република Словения"@bg,
+		"Sloibhìnia"@gd,
+		"Eslovenia"@pt,
+		"Eslovênia"@pt,
+		"Slovenija"@pt,
+		"Republika Slovenija"@pt,
+		"si"@pt,
+		"🇸🇮"@pt,
+		"svn"@pt,
+		"slo"@pt,
+		"República da Eslovênia"@pt,
+		"SLO"@pt,
+		"Republika Slovenija"@sl,
+		"Eslovenia"@tl,
+		"Slovenië"@nds-nl,
+		"Slovenie"@nds-nl,
+		"República de Eslovenia"@es,
+		"Republica de Eslovenia"@es,
+		"🇸🇮"@es,
+		"si"@es,
+		"svn"@es,
+		"slo"@es,
+		"Carnicola"@es,
+		"斯洛文尼亞"@lzh,
+		"Slovenia"@roa-tara,
+		"スロヴェニア"@ja,
+		"スロベニア共和国"@ja,
+		"Szlovén Köztársaság"@hu,
+		"Republiek Slovenië"@nl,
+		"Slovenie"@nl,
+		"SI"@nl,
+		"SVN"@nl,
+		"斯洛文尼亚"@yue,
+		"史洛文尼亞"@yue,
+		"史洛文尼亚"@yue,
+		"Република Словенија"@sr,
+		"Republik Slowenien"@de,
+		"Respubliko Slovenio"@eo,
+		"SI"@eo,
+		"Republiken Slovenien"@sv,
+		"Slovenija"@sv,
+		"Republika Slovenija"@sv,
+		"Slovenija"@ast,
+		"República d'Eslovenia"@ast,
+		"svn"@ast,
+		"slo"@ast,
+		"Slovenian tasavalta"@fi,
+		"Republikken Slovenia"@nb,
+		"Slovenia täsiväldi"@smn,
+		"Slovenia tääʹssväʹldd"@sms,
+		"斯洛維尼亞"@zh,
+		"斯洛文尼亚"@zh,
+		"Repubblika tas-Slovenja"@mt,
+		"Slovegna"@vec,
+		"جمهورية سلوفينيا"@ar,
+		"Slovenia"@lij,
+		"سلووینیا"@fa,
+		"Республикась Словения"@mdf,
+		"Slovinská republika"@sk,
+		"슬로베니아 공화국"@ko,
+		"Slovinská republika"@cs .
+
+wd:Q12946945 owl:sameAs wd:Q215 .
+
+wd:Q13161638 owl:sameAs wd:Q215 .
+
+wd:Q19747871 owl:sameAs wd:Q215 .
+
+wd:Q13055489 owl:sameAs wd:Q215 .
+
+wd:Q34362711 owl:sameAs wd:Q215 .

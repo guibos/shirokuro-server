@@ -1,0 +1,160 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3915429 a schema:Dataset ;
+	schema:about wd:Q3915429 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961429231"^^xsd:integer ;
+	schema:dateModified "2023-08-26T03:03:20Z"^^xsd:dateTime .
+
+wd:Q3915429 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_shekhawati> a schema:Article ;
+	schema:about wd:Q3915429 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga shekhawati"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A8%D0%B5%D0%BA%D1%85%D0%B0%D0%B2%D0%B0%D1%82%D0%B8> a schema:Article ;
+	schema:about wd:Q3915429 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Шекхавати"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kishekhawati> a schema:Article ;
+	schema:about wd:Q3915429 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kishekhawati"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Shekhawati_language> a schema:Article ;
+	schema:about wd:Q3915429 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Shekhawati language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%A7%E3%82%AB%E3%83%AF%E3%83%86%E3%82%A3%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q3915429 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "シェカワティ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%80%E0%B8%AA%E0%B8%82%E0%B8%A7%E0%B8%B2%E0%B8%95%E0%B8%B5> a schema:Article ;
+	schema:about wd:Q3915429 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาเสขวาตี"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Shekhawati> a schema:Article ;
+	schema:about wd:Q3915429 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Shekhawati"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3915429 wdt:P220 "swv" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/swv> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q13196 ;
+	wdt:P1394 "shek1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/shek1243> ;
+	wdt:P282 wd:Q38592 ;
+	wdt:P1466 "skw" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_skw> ;
+	wdt:P305 "swv" ;
+	wdt:P1627 "swv" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1174,
+		wd:Q1437 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SWV> ;
+	wdt:P244 "sh85121269" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85121269> ;
+	wdt:P2163 "1115638" ;
+	wdtn:P2163 <http://id.worldcat.org/fast/1115638> ;
+	wdt:P1149 "PK2469.S4" ;
+	wdtn:P1149 <http://id.loc.gov/authorities/classification/PK2469.S4> ;
+	wdt:P268 "160322897" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb160322897#about> ;
+	wdt:P646 "/m/05sx7sq" ;
+	wdt:P8189 "987007536316205171" ;
+	rdfs:label "Lenga shekhawati"@pms ;
+	skos:prefLabel "Lenga shekhawati"@pms ;
+	schema:name "Lenga shekhawati"@pms ;
+	rdfs:label "Шекхавати"@ru ;
+	skos:prefLabel "Шекхавати"@ru ;
+	schema:name "Шекхавати"@ru ;
+	rdfs:label "Shekhawati"@en ;
+	skos:prefLabel "Shekhawati"@en ;
+	schema:name "Shekhawati"@en ;
+	rdfs:label "ภาษาเสขวาตี"@th ;
+	skos:prefLabel "ภาษาเสขวาตี"@th ;
+	schema:name "ภาษาเสขวาตี"@th ;
+	rdfs:label "シェカワティ語"@ja ;
+	skos:prefLabel "シェカワティ語"@ja ;
+	schema:name "シェカワティ語"@ja ;
+	rdfs:label "Kishekhawati"@sw ;
+	skos:prefLabel "Kishekhawati"@sw ;
+	schema:name "Kishekhawati"@sw ;
+	rdfs:label "Shekhawati"@en-gb ;
+	skos:prefLabel "Shekhawati"@en-gb ;
+	schema:name "Shekhawati"@en-gb ;
+	rdfs:label "Shekhawati"@oc ;
+	skos:prefLabel "Shekhawati"@oc ;
+	schema:name "Shekhawati"@oc ;
+	schema:description "indogermanische Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ভারতের ভাষা"@bn,
+		"язык"@ru ;
+	skos:altLabel "Shekhawati language"@en .

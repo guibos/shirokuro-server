@@ -1,0 +1,101 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2011413 a schema:Dataset ;
+	schema:about wd:Q2011413 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1593424022"^^xsd:integer ;
+	schema:dateModified "2022-03-13T17:57:56Z"^^xsd:dateTime .
+
+wd:Q2011413 a wikibase:Item .
+
+<https://nl.wikipedia.org/wiki/Noordelijk_Oaxaca-Nahuatl> a schema:Article ;
+	schema:about wd:Q2011413 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Noordelijk Oaxaca-Nahuatl"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_nahuatl,_oaxaca_setentrional> a schema:Article ;
+	schema:about wd:Q2011413 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga nahuatl, oaxaca setentrional"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2011413 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q13300 ;
+	wdt:P220 "nhy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nhy> ;
+	wdt:P1394 "nort2958" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nort2958> ;
+	wdt:P305 "nhy" ;
+	wdt:P1627 "nhy" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q96 ;
+	wdt:P2341 wd:Q34110,
+		wd:Q79923,
+		wd:Q60130 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NHY> ;
+	wdt:P2671 "/g/1229dwbr" ;
+	wdtn:P2671 <http://g.co/kg/g/1229dwbr> ;
+	wdt:P910 wd:Q33101160 ;
+	rdfs:label "Noordelijk Oaxaca-Nahuatl"@nl ;
+	skos:prefLabel "Noordelijk Oaxaca-Nahuatl"@nl ;
+	schema:name "Noordelijk Oaxaca-Nahuatl"@nl ;
+	rdfs:label "Northern Oaxaca Nahuatl"@en ;
+	skos:prefLabel "Northern Oaxaca Nahuatl"@en ;
+	schema:name "Northern Oaxaca Nahuatl"@en ;
+	rdfs:label "Lenga nahuatl, oaxaca setentrional"@pms ;
+	skos:prefLabel "Lenga nahuatl, oaxaca setentrional"@pms ;
+	schema:name "Lenga nahuatl, oaxaca setentrional"@pms ;
+	rdfs:label "nahuatl de l’Oaxaca du Nord"@fr ;
+	skos:prefLabel "nahuatl de l’Oaxaca du Nord"@fr ;
+	schema:name "nahuatl de l’Oaxaca du Nord"@fr ;
+	rdfs:label "Northern Oaxaca Nahuatl"@en-gb ;
+	skos:prefLabel "Northern Oaxaca Nahuatl"@en-gb ;
+	schema:name "Northern Oaxaca Nahuatl"@en-gb ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue aztèque"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la .
+
+wd:Q12953763 owl:sameAs wd:Q2011413 .

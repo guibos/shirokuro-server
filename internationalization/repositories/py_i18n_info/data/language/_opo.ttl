@@ -1,0 +1,153 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7095585 a schema:Dataset ;
+	schema:about wd:Q7095585 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1854430338"^^xsd:integer ;
+	schema:dateModified "2023-03-17T20:48:40Z"^^xsd:dateTime .
+
+wd:Q7095585 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Opao_language> a schema:Article ;
+	schema:about wd:Q7095585 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Opao language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Opao> a schema:Article ;
+	schema:about wd:Q7095585 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Opao"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiopao> a schema:Article ;
+	schema:about wd:Q7095585 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiopao"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Opao> a schema:Article ;
+	schema:about wd:Q7095585 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Opao"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7095585 wdt:P220 "opo" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/opo> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "opao1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/opao1240> ;
+	wdt:P305 "opo" ;
+	wdt:P1627 "opo" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q874980,
+		wd:Q753686 ;
+	wdt:P646 "/m/02hxhmd" ;
+	wdt:P910 wd:Q33672885 ;
+	rdfs:label "Opao language"@en ;
+	skos:prefLabel "Opao language"@en ;
+	schema:name "Opao language"@en ;
+	rdfs:label "Lenga Opao"@pms ;
+	skos:prefLabel "Lenga Opao"@pms ;
+	schema:name "Lenga Opao"@pms ;
+	rdfs:label "Kiopao"@sw ;
+	skos:prefLabel "Kiopao"@sw ;
+	schema:name "Kiopao"@sw ;
+	rdfs:label "Język opao"@pl ;
+	skos:prefLabel "Język opao"@pl ;
+	schema:name "Język opao"@pl ;
+	rdfs:label "Opao"@ilo ;
+	skos:prefLabel "Opao"@ilo ;
+	schema:name "Opao"@ilo ;
+	rdfs:label "Opao"@en-gb ;
+	skos:prefLabel "Opao"@en-gb ;
+	schema:name "Opao"@en-gb ;
+	rdfs:label "オパオ語"@ja ;
+	skos:prefLabel "オパオ語"@ja ;
+	schema:name "オパオ語"@ja ;
+	rdfs:label "Opao"@sv ;
+	skos:prefLabel "Opao"@sv ;
+	schema:name "Opao"@sv ;
+	rdfs:label "Opao"@da ;
+	skos:prefLabel "Opao"@da ;
+	schema:name "Opao"@da ;
+	rdfs:label "Opao"@de ;
+	skos:prefLabel "Opao"@de ;
+	schema:name "Opao"@de ;
+	rdfs:label "Opao"@fr ;
+	skos:prefLabel "Opao"@fr ;
+	schema:name "Opao"@fr ;
+	rdfs:label "Opao"@nl ;
+	skos:prefLabel "Opao"@nl ;
+	schema:name "Opao"@nl ;
+	rdfs:label "Opao"@br ;
+	skos:prefLabel "Opao"@br ;
+	schema:name "Opao"@br ;
+	rdfs:label "Opao"@cy ;
+	skos:prefLabel "Opao"@cy ;
+	schema:name "Opao"@cy ;
+	rdfs:label "Opao"@es ;
+	skos:prefLabel "Opao"@es ;
+	schema:name "Opao"@es ;
+	rdfs:label "Opao"@it ;
+	skos:prefLabel "Opao"@it ;
+	schema:name "Opao"@it ;
+	rdfs:label "Opao"@la ;
+	skos:prefLabel "Opao"@la ;
+	schema:name "Opao"@la ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"papuanskt språk"@sv,
+		"language"@en-gb ;
+	skos:altLabel "Opao"@en .
+
+wd:Q11732549 owl:sameAs wd:Q7095585 .

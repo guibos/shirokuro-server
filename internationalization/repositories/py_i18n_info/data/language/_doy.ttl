@@ -1,0 +1,159 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35270 a schema:Dataset ;
+	schema:about wd:Q35270 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1896753414"^^xsd:integer ;
+	schema:dateModified "2023-05-15T15:02:44Z"^^xsd:dateTime .
+
+wd:Q35270 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Dompo> a schema:Article ;
+	schema:about wd:Q35270 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Dompo"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Dompo> a schema:Article ;
+	schema:about wd:Q35270 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Dompo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kidompo> a schema:Article ;
+	schema:about wd:Q35270 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kidompo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Dompo_language> a schema:Article ;
+	schema:about wd:Q35270 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Dompo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Dompo_(Sprache)> a schema:Article ;
+	schema:about wd:Q35270 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Dompo (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Dompo> a schema:Article ;
+	schema:about wd:Q35270 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Dompo"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35270 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "doy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/doy> ;
+	wdt:P1394 "domp1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/domp1238> ;
+	wdt:P910 wd:Q33672686 ;
+	wdt:P17 wd:Q117 ;
+	wdt:P2192 "3745" ;
+	wdt:P305 "doy" ;
+	wdt:P1627 "doy" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P2341 wd:Q397737 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DOY> ;
+	wdt:P279 wd:Q684009 ;
+	wdt:P646 "/m/02hwk7b" ;
+	wdt:P10422 <https://sites.google.com/site/ghanaplacenames/languages-locations/dompo> ;
+	rdfs:label "Kidompo"@sw ;
+	skos:prefLabel "Kidompo"@sw ;
+	schema:name "Kidompo"@sw ;
+	rdfs:label "Dompo"@de ;
+	skos:prefLabel "Dompo"@de ;
+	schema:name "Dompo"@de ;
+	rdfs:label "Lenga Dompo"@pms ;
+	skos:prefLabel "Lenga Dompo"@pms ;
+	schema:name "Lenga Dompo"@pms ;
+	rdfs:label "dompo"@es ;
+	skos:prefLabel "dompo"@es ;
+	schema:name "dompo"@es ;
+	rdfs:label "Dompo"@en ;
+	skos:prefLabel "Dompo"@en ;
+	schema:name "Dompo"@en ;
+	rdfs:label "Dompo"@de-ch ;
+	skos:prefLabel "Dompo"@de-ch ;
+	schema:name "Dompo"@de-ch ;
+	rdfs:label "Dompo"@en-ca ;
+	skos:prefLabel "Dompo"@en-ca ;
+	schema:name "Dompo"@en-ca ;
+	rdfs:label "Dompo"@en-gb ;
+	skos:prefLabel "Dompo"@en-gb ;
+	schema:name "Dompo"@en-gb ;
+	rdfs:label "dompo"@fr ;
+	skos:prefLabel "dompo"@fr ;
+	schema:name "dompo"@fr ;
+	rdfs:label "dompo"@ca ;
+	skos:prefLabel "dompo"@ca ;
+	schema:name "dompo"@ca ;
+	rdfs:label "Dompo"@oc ;
+	skos:prefLabel "Dompo"@oc ;
+	schema:name "Dompo"@oc ;
+	rdfs:label "Dompo"@nl ;
+	skos:prefLabel "Dompo"@nl ;
+	schema:name "Dompo"@nl ;
+	rdfs:label "Asụsụ Dompo"@ig ;
+	skos:prefLabel "Asụsụ Dompo"@ig ;
+	schema:name "Asụsụ Dompo"@ig ;
+	schema:description "language of Ghana"@en,
+		"idioma hablado en Ghana"@es,
+		"Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue kwa"@fr,
+		"yezh"@br,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Dumpo"@de,
+		"Ndmpo"@de,
+		"Dompo language"@en .
+
+wd:Q5291355 owl:sameAs wd:Q35270 .

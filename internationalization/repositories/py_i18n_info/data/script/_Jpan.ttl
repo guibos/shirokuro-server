@@ -1,0 +1,829 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q190502 a schema:Dataset ;
+	schema:about wd:Q190502 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1910187515"^^xsd:integer ;
+	schema:dateModified "2023-06-07T13:06:24Z"^^xsd:dateTime .
+
+wd:Q190502 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Japanese_writing_system> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Japanese writing system"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Japanische_Schrift> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Japanische Schrift"@de ;
+	wikibase:badge wd:Q17437796 .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/%C3%89critures_du_japonais> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Écritures du japonais"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Escritura_japonesa> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Escritura japonesa"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Японская письменность"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Sistema_di_scrittura_giapponese> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Sistema di scrittura giapponese"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E8%A1%A8%E8%A8%98%E4%BD%93%E7%B3%BB> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "日本語の表記体系"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Japans_schrift> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Japans schrift"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/Pismo_japo%C5%84skie> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Pismo japońskie"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Escrita_japonesa> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Escrita japonesa"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Japanska_skriftspr%C3%A5ket> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Japanska skriftspråket"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87_%D9%86%DA%AF%D8%A7%D8%B1%D8%B4_%D8%B2%D8%A8%D8%A7%D9%86_%DA%98%D8%A7%D9%BE%D9%86%DB%8C> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "سامانه نگارش زبان ژاپنی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Japon_yaz%C4%B1_sistemi> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Japon yazı sistemi"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Japanin_kirjoitusj%C3%A4rjestelm%C3%A4> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Japanin kirjoitusjärjestelmä"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%86%D8%B8%D8%A7%D9%85_%D9%83%D8%AA%D8%A7%D8%A8%D8%A9_%D9%8A%D8%A7%D8%A8%D8%A7%D9%86%D9%8A> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "نظام كتابة ياباني"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Japansk_skrift> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Japansk skrift"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%BF%D0%B8%D1%81%D0%B5%D0%BC%D0%BD%D1%96%D1%81%D1%82%D1%8C> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Японська писемність"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%9D%BC%EB%B3%B8%EC%96%B4_%ED%91%9C%EA%B8%B0_%EC%B2%B4%EA%B3%84> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "일본어 표기 체계"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Escriptura_japonesa> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Escriptura japonesa"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%88%D0%B0%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B0_%D0%BF%D0%B8%D1%81%D0%BC%D0%B0> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Јапанска писма"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Scrierea_japonez%C4%83> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Scrierea japoneză"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Sistem_penulisan_bahasa_Jepang> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Sistem penulisan bahasa Jepang"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Japannese_skryfstelsel> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Japannese skryfstelsel"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Escritura_xaponesa> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Escritura xaponesa"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D1%96%D1%81%D1%8C%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%81%D1%86%D1%8C> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Японская пісьменнасць"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%9C%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A6%BF_%E0%A6%B2%E0%A6%BF%E0%A6%96%E0%A6%A8_%E0%A6%AA%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%A4%E0%A6%BF> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "জাপানি লিখন পদ্ধতি"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://diq.wikipedia.org/wiki/Sistem%C3%AA_nu%C5%9Ft%C4%B1%C5%9F%C3%AA_Japoni> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Sistemê nuştışê Japoni"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dsb.wikipedia.org/wiki/Japaniske_pismo> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "dsb" ;
+	schema:isPartOf <https://dsb.wikipedia.org/> ;
+	schema:name "Japaniske pismo"@dsb .
+
+<https://dsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%99%CE%B1%CF%80%CF%89%CE%BD%CE%B9%CE%BA%CE%AE_%CE%B3%CF%81%CE%B1%CF%86%CE%AE> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Ιαπωνική γραφή"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Japanaj_skribsistemoj> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Japanaj skribsistemoj"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Escrita_xaponesa> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Escrita xaponesa"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%A8%E0%A5%80_%E0%A4%B2%E0%A5%87%E0%A4%96%E0%A4%A8_%E0%A4%AA%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%A4%E0%A4%BF> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "जापानी लेखन पद्धति"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D5%83%D5%A1%D5%BA%D5%B8%D5%B6%D5%A1%D5%AF%D5%A1%D5%B6_%D5%A3%D5%AB%D6%80> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Ճապոնական գիր"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%98%E1%83%90%E1%83%9E%E1%83%9D%E1%83%9C%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%93%E1%83%90%E1%83%9B%E1%83%AC%E1%83%94%E1%83%A0%E1%83%9A%E1%83%9D%E1%83%91%E1%83%90> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "იაპონური დამწერლობა"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kk.wikipedia.org/wiki/%D0%96%D0%B0%D0%BF%D0%BE%D0%BD_%D0%B6%D0%B0%D0%B7%D1%83%D1%8B> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "kk" ;
+	schema:isPartOf <https://kk.wikipedia.org/> ;
+	schema:name "Жапон жазуы"@kk .
+
+<https://kk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Scriptura_Iaponica> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Scriptura Iaponica"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lmo.wikipedia.org/wiki/Scrittura_giapponesa> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "lmo" ;
+	schema:isPartOf <https://lmo.wikipedia.org/> ;
+	schema:name "Scrittura giapponesa"@lmo ;
+	wikibase:badge wd:Q17437796 .
+
+<https://lmo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Japon%C5%B3_ra%C5%A1tas> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Japonų raštas"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Jap%C4%81%C5%86u_rakst%C4%ABba> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Japāņu rakstība"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Japansk_skrift> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Japansk skrift"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sk.wikipedia.org/wiki/Japonsk%C3%A9_p%C3%ADsmo> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "sk" ;
+	schema:isPartOf <https://sk.wikipedia.org/> ;
+	schema:name "Japonské písmo"@sk .
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://su.wikipedia.org/wiki/Sistim_tulis_Jepang> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "su" ;
+	schema:isPartOf <https://su.wikipedia.org/> ;
+	schema:name "Sistim tulis Jepang"@su .
+
+<https://su.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A3%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "อักษรญี่ปุ่น"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D8%AC%D8%A7%D9%BE%D8%A7%D9%86%DB%8C_%D8%B1%D8%B3%D9%85_%D8%A7%D9%84%D8%AE%D8%B7> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "جاپانی رسم الخط"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/H%E1%BB%87_th%E1%BB%91ng_ch%E1%BB%AF_vi%E1%BA%BFt_ti%E1%BA%BFng_Nh%E1%BA%ADt> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Hệ thống chữ viết tiếng Nhật"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D1%81%D0%BA%D0%B0_%D0%BF%D0%B8%D1%81%D0%BC%D0%B5%D0%BD%D0%BE%D1%81%D1%82> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Японска писменост"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikibooks.org/wiki/%D9%8A%D8%A7%D8%A8%D8%A7%D9%86%D9%8A%D8%A9/%D8%A3%D9%86%D8%B8%D9%85%D8%A9_%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8%D8%A9> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikibooks.org/> ;
+	schema:name "يابانية/أنظمة الكتابة"@ar .
+
+<https://ar.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://zh.wikipedia.org/wiki/%E6%97%A5%E8%AA%9E%E6%9B%B8%E5%AF%AB%E7%B3%BB%E7%B5%B1> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "日語書寫系統"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikibooks.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0/%D0%AF%D0%BF%D0%BE%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B0> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikibooks.org/> ;
+	schema:name "Японська мова/Японська система письма"@uk .
+
+<https://uk.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://en.wikibooks.org/wiki/Japanese/Japanese_writing_system> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikibooks.org/> ;
+	schema:name "Japanese/Japanese writing system"@en .
+
+<https://en.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://ja.wikibooks.org/wiki/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E6%96%87%E5%AD%97> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikibooks.org/> ;
+	schema:name "日本語/文字"@ja .
+
+<https://ja.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://zh.wikibooks.org/wiki/%E6%97%A5%E8%AF%AD/%E6%96%87%E5%AD%97> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikibooks.org/> ;
+	schema:name "日语/文字"@zh .
+
+<https://zh.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://ky.wikipedia.org/wiki/%D0%96%D0%B0%D0%BF%D0%BE%D0%BD_%D0%B6%D0%B0%D0%B7%D1%83%D1%83%D1%81%D1%83> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "ky" ;
+	schema:isPartOf <https://ky.wikipedia.org/> ;
+	schema:name "Жапон жазуусу"@ky .
+
+<https://ky.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E6%97%A5%E6%96%87%E5%98%85%E6%9B%B8%E5%AF%AB%E7%B3%BB%E7%B5%B1> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "日文嘅書寫系統"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pam.wikipedia.org/wiki/Japanese_writing_system> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "pam" ;
+	schema:isPartOf <https://pam.wikipedia.org/> ;
+	schema:name "Japanese writing system"@pam .
+
+<https://pam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Sistem_tulisan_Jepun> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Sistem tulisan Jepun"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://als.wikipedia.org/wiki/Japanische_Schrift> a schema:Article ;
+	schema:about wd:Q190502 ;
+	schema:inLanguage "gsw" ;
+	schema:isPartOf <https://als.wikipedia.org/> ;
+	schema:name "Japanische Schrift"@gsw .
+
+<https://als.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q190502 wdt:P373 "Japanese writing" ;
+	wdt:P910 wd:Q7238063 ;
+	wdt:P646 "/m/04ksmj" ;
+	wdt:P1343 wd:Q2657718 ;
+	wdt:P227 "4444558-1" ;
+	wdtn:P227 <https://d-nb.info/gnd/4444558-1> ;
+	wdt:P1424 wd:Q5869475 ;
+	wdt:P366 wd:Q5287 ;
+	wdt:P527 wd:Q48332,
+		wd:Q82946,
+		wd:Q82772,
+		wd:Q192509,
+		wd:Q607460 ;
+	wdt:P1417 "topic/Japanese-writing-system" ;
+	wdt:P2581 "00385519n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s00385519n> ;
+	wdt:P2924 "4919867" ;
+	wdt:P407 wd:Q5287 ;
+	wdt:P495 wd:Q17 ;
+	wdt:P691 "ph508975" ;
+	wdt:P244 "sh85069660" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85069660> ;
+	wdt:P1296 "0118153" ;
+	wdt:P1245 "939352" ;
+	wdt:P7033 "scot/7246" ;
+	wdtn:P7033 <http://vocabulary.curriculum.edu.au/scot/7246.rdf> ;
+	wdt:P6366 "551154717" ;
+	wdtn:P6366 <http://ma-graph.org/entity/551154717> ;
+	wdt:P8408 "JapaneseWritingSystem" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/JapaneseWritingSystem> ;
+	wdt:P506 "Jpan" ;
+	wdt:P2620 "413" ;
+	wdt:P2561 "Japanese (alias for Han + Hiragana + Katakana)"@en,
+		"japonais (alias pour han + hiragana + katakana)"@fr ;
+	wdt:P31 wd:Q8192 ;
+	wdt:P349 "00568393" ;
+	wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00568393> ;
+	wdt:P3847 "japanese_language_writing" ;
+	wdt:P1552 wd:Q1133837 ;
+	wdt:P1406 wd:Q105395084,
+		wd:Q17321844 ;
+	wdt:P8189 "987007531545005171" ;
+	wdt:P571 "0400-01-01T00:00:00Z"^^xsd:dateTime ;
+	rdfs:label "日语书写系统"@zh-hans ;
+	skos:prefLabel "日语书写系统"@zh-hans ;
+	schema:name "日语书写系统"@zh-hans ;
+	rdfs:label "日語書寫系統"@zh-hant ;
+	skos:prefLabel "日語書寫系統"@zh-hant ;
+	schema:name "日語書寫系統"@zh-hant ;
+	rdfs:label "日語書寫系統"@zh-hk ;
+	skos:prefLabel "日語書寫系統"@zh-hk ;
+	schema:name "日語書寫系統"@zh-hk ;
+	rdfs:label "日语书写系统"@zh-cn ;
+	skos:prefLabel "日语书写系统"@zh-cn ;
+	schema:name "日语书写系统"@zh-cn ;
+	rdfs:label "日语书写系统"@zh-sg ;
+	skos:prefLabel "日语书写系统"@zh-sg ;
+	schema:name "日语书写系统"@zh-sg ;
+	rdfs:label "日語書寫系統"@zh-tw ;
+	skos:prefLabel "日語書寫系統"@zh-tw ;
+	schema:name "日語書寫系統"@zh-tw ;
+	rdfs:label "pismo japońskie"@pl ;
+	skos:prefLabel "pismo japońskie"@pl ;
+	schema:name "pismo japońskie"@pl ;
+	rdfs:label "écritures du japonais"@fr ;
+	skos:prefLabel "écritures du japonais"@fr ;
+	schema:name "écritures du japonais"@fr ;
+	rdfs:label "escritura japonesa"@es ;
+	skos:prefLabel "escritura japonesa"@es ;
+	schema:name "escritura japonesa"@es ;
+	rdfs:label "Japannese skryfstelsel"@af ;
+	skos:prefLabel "Japannese skryfstelsel"@af ;
+	schema:name "Japannese skryfstelsel"@af ;
+	rdfs:label "Japāņu rakstība"@lv ;
+	skos:prefLabel "Japāņu rakstība"@lv ;
+	schema:name "Japāņu rakstība"@lv ;
+	rdfs:label "Escrita xaponesa"@gl ;
+	skos:prefLabel "Escrita xaponesa"@gl ;
+	schema:name "Escrita xaponesa"@gl ;
+	rdfs:label "japanische Schrift"@de ;
+	skos:prefLabel "japanische Schrift"@de ;
+	schema:name "japanische Schrift"@de ;
+	rdfs:label "Sistem penulisan bahasa Jepang"@id ;
+	skos:prefLabel "Sistem penulisan bahasa Jepang"@id ;
+	schema:name "Sistem penulisan bahasa Jepang"@id ;
+	rdfs:label "日本語の表記体系"@ja ;
+	skos:prefLabel "日本語の表記体系"@ja ;
+	schema:name "日本語の表記体系"@ja ;
+	rdfs:label "জাপানি লিখন পদ্ধতি"@bn ;
+	skos:prefLabel "জাপানি লিখন পদ্ধতি"@bn ;
+	schema:name "জাপানি লিখন পদ্ধতি"@bn ;
+	rdfs:label "Ιαπωνική γραφή"@el ;
+	skos:prefLabel "Ιαπωνική γραφή"@el ;
+	schema:name "Ιαπωνική γραφή"@el ;
+	rdfs:label "Japans schrift"@nl ;
+	skos:prefLabel "Japans schrift"@nl ;
+	schema:name "Japans schrift"@nl ;
+	rdfs:label "نظام كتابة ياباني"@ar ;
+	skos:prefLabel "نظام كتابة ياباني"@ar ;
+	schema:name "نظام كتابة ياباني"@ar ;
+	rdfs:label "Escrita japonesa"@pt ;
+	skos:prefLabel "Escrita japonesa"@pt ;
+	schema:name "Escrita japonesa"@pt ;
+	rdfs:label "Japanaj skribsistemoj"@eo ;
+	skos:prefLabel "Japanaj skribsistemoj"@eo ;
+	schema:name "Japanaj skribsistemoj"@eo ;
+	rdfs:label "Japonské písmo"@sk ;
+	skos:prefLabel "Japonské písmo"@sk ;
+	schema:name "Japonské písmo"@sk ;
+	rdfs:label "Sistim tulis Jepang"@su ;
+	skos:prefLabel "Sistim tulis Jepang"@su ;
+	schema:name "Sistim tulis Jepang"@su ;
+	rdfs:label "японское письмо"@ru ;
+	skos:prefLabel "японское письмо"@ru ;
+	schema:name "японское письмо"@ru ;
+	rdfs:label "Japanese writing system"@en ;
+	skos:prefLabel "Japanese writing system"@en ;
+	schema:name "Japanese writing system"@en ;
+	rdfs:label "Japanska pisma"@sr-el ;
+	skos:prefLabel "Japanska pisma"@sr-el ;
+	schema:name "Japanska pisma"@sr-el ;
+	rdfs:label "Јапанска писма"@sr-ec ;
+	skos:prefLabel "Јапанска писма"@sr-ec ;
+	schema:name "Јапанска писма"@sr-ec ;
+	rdfs:label "อักษรญี่ปุ่น"@th ;
+	skos:prefLabel "อักษรญี่ปุ่น"@th ;
+	schema:name "อักษรญี่ปุ่น"@th ;
+	rdfs:label "Scrierea japoneză"@ro ;
+	skos:prefLabel "Scrierea japoneză"@ro ;
+	schema:name "Scrierea japoneză"@ro ;
+	rdfs:label "escriptura japonesa"@ca ;
+	skos:prefLabel "escriptura japonesa"@ca ;
+	schema:name "escriptura japonesa"@ca ;
+	rdfs:label "Japanin kirjoitusjärjestelmä"@fi ;
+	skos:prefLabel "Japanin kirjoitusjärjestelmä"@fi ;
+	schema:name "Japanin kirjoitusjärjestelmä"@fi ;
+	rdfs:label "японська писемність"@uk ;
+	skos:prefLabel "японська писемність"@uk ;
+	schema:name "японська писемність"@uk ;
+	rdfs:label "Scriptura Iaponica"@la ;
+	skos:prefLabel "Scriptura Iaponica"@la ;
+	schema:name "Scriptura Iaponica"@la ;
+	rdfs:label "سامانه نگارش زبان ژاپنی"@fa ;
+	skos:prefLabel "سامانه نگارش زبان ژاپنی"@fa ;
+	schema:name "سامانه نگارش زبان ژاپنی"@fa ;
+	rdfs:label "Японско писмо"@bg ;
+	skos:prefLabel "Японско писмо"@bg ;
+	schema:name "Японско писмо"@bg ;
+	rdfs:label "جاپانی رسم الخط"@ur ;
+	skos:prefLabel "جاپانی رسم الخط"@ur ;
+	schema:name "جاپانی رسم الخط"@ur ;
+	rdfs:label "იაპონური დამწერლობა"@ka ;
+	skos:prefLabel "იაპონური დამწერლობა"@ka ;
+	schema:name "იაპონური დამწერლობა"@ka ;
+	rdfs:label "Japonų raštas"@lt ;
+	skos:prefLabel "Japonų raštas"@lt ;
+	schema:name "Japonų raštas"@lt ;
+	rdfs:label "جاپون جازۋى"@kk-arab ;
+	skos:prefLabel "جاپون جازۋى"@kk-arab ;
+	schema:name "جاپون جازۋى"@kk-arab ;
+	rdfs:label "جاپون جازۋى"@kk-cn ;
+	skos:prefLabel "جاپون جازۋى"@kk-cn ;
+	schema:name "جاپون جازۋى"@kk-cn ;
+	rdfs:label "Japon jazwı"@kk-tr ;
+	skos:prefLabel "Japon jazwı"@kk-tr ;
+	schema:name "Japon jazwı"@kk-tr ;
+	rdfs:label "Жапон жазуы"@kk-kz ;
+	skos:prefLabel "Жапон жазуы"@kk-kz ;
+	schema:name "Жапон жазуы"@kk-kz ;
+	rdfs:label "Жапон жазуы"@kk-cyrl ;
+	skos:prefLabel "Жапон жазуы"@kk-cyrl ;
+	schema:name "Жапон жазуы"@kk-cyrl ;
+	rdfs:label "Japon jazwı"@kk-latn ;
+	skos:prefLabel "Japon jazwı"@kk-latn ;
+	schema:name "Japon jazwı"@kk-latn ;
+	rdfs:label "Жапон жазуы"@kk ;
+	skos:prefLabel "Жапон жазуы"@kk ;
+	schema:name "Жапон жазуы"@kk ;
+	rdfs:label "日語書寫系統"@zh ;
+	skos:prefLabel "日語書寫系統"@zh ;
+	schema:name "日語書寫系統"@zh ;
+	rdfs:label "Japaniske pismo"@dsb ;
+	skos:prefLabel "Japaniske pismo"@dsb ;
+	schema:name "Japaniske pismo"@dsb ;
+	rdfs:label "japansk skrift"@nn ;
+	skos:prefLabel "japansk skrift"@nn ;
+	schema:name "japansk skrift"@nn ;
+	rdfs:label "јапанска писма"@sr ;
+	skos:prefLabel "јапанска писма"@sr ;
+	schema:name "јапанска писма"@sr ;
+	rdfs:label "sistema di scrittura giapponese"@it ;
+	skos:prefLabel "sistema di scrittura giapponese"@it ;
+	schema:name "sistema di scrittura giapponese"@it ;
+	rdfs:label "japansk skrift"@nb ;
+	skos:prefLabel "japansk skrift"@nb ;
+	schema:name "japansk skrift"@nb ;
+	rdfs:label "japanska skriftspråket"@sv ;
+	skos:prefLabel "japanska skriftspråket"@sv ;
+	schema:name "japanska skriftspråket"@sv ;
+	rdfs:label "ଜାପାନୀ ଲିଖନ ପ୍ରଣାଳୀ"@or ;
+	skos:prefLabel "ଜାପାନୀ ଲିଖନ ପ୍ରଣାଳୀ"@or ;
+	schema:name "ଜାପାନୀ ଲିଖନ ପ୍ରଣାଳୀ"@or ;
+	rdfs:label "ճապոնական գիր"@hy ;
+	skos:prefLabel "ճապոնական գիր"@hy ;
+	schema:name "ճապոնական գիր"@hy ;
+	rdfs:label "јапонско писмо"@mk ;
+	skos:prefLabel "јапонско писмо"@mk ;
+	schema:name "јапонско писмо"@mk ;
+	rdfs:label "японская пісьменнасць"@be ;
+	skos:prefLabel "японская пісьменнасць"@be ;
+	schema:name "японская пісьменнасць"@be ;
+	rdfs:label "японскае пісьмо"@be-tarask ;
+	skos:prefLabel "японскае пісьмо"@be-tarask ;
+	schema:name "японскае пісьмо"@be-tarask ;
+	rdfs:label "sistema d'escritura xaponés"@ast ;
+	skos:prefLabel "sistema d'escritura xaponés"@ast ;
+	schema:name "sistema d'escritura xaponés"@ast ;
+	rdfs:label "Japon yazı sistemi"@tr ;
+	skos:prefLabel "Japon yazı sistemi"@tr ;
+	schema:name "Japon yazı sistemi"@tr ;
+	rdfs:label "जापानी लेखन पद्धति"@hi ;
+	skos:prefLabel "जापानी लेखन पद्धति"@hi ;
+	schema:name "जापानी लेखन पद्धति"@hi ;
+	rdfs:label "japonské písmo"@cs ;
+	skos:prefLabel "japonské písmo"@cs ;
+	schema:name "japonské písmo"@cs ;
+	rdfs:label "שיטת כתב יפנית"@he ;
+	skos:prefLabel "שיטת כתב יפנית"@he ;
+	schema:name "שיטת כתב יפנית"@he ;
+	rdfs:label "일본어 표기 체계"@ko ;
+	skos:prefLabel "일본어 표기 체계"@ko ;
+	schema:name "일본어 표기 체계"@ko ;
+	rdfs:label "Scrittura giapponesa"@lmo ;
+	skos:prefLabel "Scrittura giapponesa"@lmo ;
+	schema:name "Scrittura giapponesa"@lmo ;
+	rdfs:label "Sistemê nuştışê Japoni"@diq ;
+	skos:prefLabel "Sistemê nuştışê Japoni"@diq ;
+	schema:name "Sistemê nuştışê Japoni"@diq ;
+	rdfs:label "Hệ thống chữ viết tiếng Nhật"@vi ;
+	skos:prefLabel "Hệ thống chữ viết tiếng Nhật"@vi ;
+	schema:name "Hệ thống chữ viết tiếng Nhật"@vi ;
+	rdfs:label "Japoniar idazkera sistema"@eu ;
+	skos:prefLabel "Japoniar idazkera sistema"@eu ;
+	schema:name "Japoniar idazkera sistema"@eu ;
+	rdfs:label "Jaapani kirjasüsteem"@et ;
+	skos:prefLabel "Jaapani kirjasüsteem"@et ;
+	schema:name "Jaapani kirjasüsteem"@et ;
+	rdfs:label "japansk skiftsystem"@da ;
+	skos:prefLabel "japansk skiftsystem"@da ;
+	schema:name "japansk skiftsystem"@da ;
+	rdfs:label "Жапон жазуусу"@ky ;
+	skos:prefLabel "Жапон жазуусу"@ky ;
+	schema:name "Жапон жазуусу"@ky ;
+	rdfs:label "日文嘅書寫系統"@yue ;
+	skos:prefLabel "日文嘅書寫系統"@yue ;
+	schema:name "日文嘅書寫系統"@yue ;
+	rdfs:label "Japanese writing system"@pam ;
+	skos:prefLabel "Japanese writing system"@pam ;
+	schema:name "Japanese writing system"@pam ;
+	rdfs:label "Sistem tulisan Jepun"@ms ;
+	skos:prefLabel "Sistem tulisan Jepun"@ms ;
+	schema:name "Sistem tulisan Jepun"@ms ;
+	rdfs:label "japonska pisava"@sl ;
+	skos:prefLabel "japonska pisava"@sl ;
+	schema:name "japonska pisava"@sl ;
+	schema:description "estructura del sistema japonés de escritura"@es,
+		"schrijfmethoden"@nl,
+		"три основные системы письма для японского языка"@ru,
+		"pismo używane do zapisu języka japońskiego"@pl,
+		"Schriftart"@de,
+		"سامانهٔ نوشتاری رسمی مردم و دولت ژاپن"@fa,
+		"概述當代日本語的書寫方式及其寫作系統的演變"@zh,
+		"idazkera sistema mota"@eu,
+		"সমসাময়িক যুগে জাপানি ভাষা কীভাবে লেখা হয় এবং উক্ত লিখন পদ্ধতির ঐতিহাসিক বিবর্তন"@bn,
+		"lühike ülevaade jaapani kirjasüsteemist (kasutamine, ajalugu)"@et,
+		"日本語文章表記1の体系"@ja,
+		"panoramica sul sistema di scrittura della lingua giapponese"@it,
+		"modern Japon yazı sistemi"@tr,
+		"différents modes d’écriture de cette langue"@fr,
+		"structure of the Japanese writing system"@en ;
+	skos:altLabel "日本语书写系统"@zh,
+		"日语/文字"@zh,
+		"écriture japonaise"@fr,
+		"calligraphie japonaise"@fr,
+		"système d'écriture du japonais"@fr,
+		"écriture du japonais"@fr,
+		"Alfabeto japonés"@es,
+		"Alfabeto japones"@es,
+		"Manyōgana"@de,
+		"Rômazi"@de,
+		"Romazi"@de,
+		"Manyogana"@de,
+		"Man’yōgana"@de,
+		"japanisches Alphabet"@de,
+		"japanische Schriftzeichen"@de,
+		"japanisches Schriftsystem"@de,
+		"كتابة يابانية"@ar,
+		"نظام الكتابة الياباني"@ar,
+		"Japanese writing system"@su,
+		"японская письменность"@ru,
+		"японский алфавит"@ru,
+		"японские иероглифы"@ru,
+		"японская азбука"@ru,
+		"Sistema d'escriptura del japonès"@ca,
+		"Japanilainen kirjoitusjärjestelmä"@fi,
+		"Scriptum Iaponicum"@la,
+		"سیستم نوشتاری ژاپنی"@fa,
+		"الفبای ژاپنی"@fa,
+		"نگارش ژاپنی"@fa,
+		"سامانهٔ نگارش زبان ژاپنی"@fa,
+		"سامانه نوشتاری ژاپنی"@fa,
+		"نگارش زبان ژاپنی"@fa,
+		"سامانهٔ نوشتاری ژاپنی"@fa,
+		"سیستم نگارش ژاپنی"@fa,
+		"japanske skrifttegn"@nb,
+		"јапонски писма"@mk,
+		"Японская пісьмовасьць"@be-tarask,
+		"日本語文字"@ja,
+		"日本語/文字"@ja,
+		"Han + Hiragana + Katakana"@en,
+		"Japanese"@en,
+		"hiragana-kanji-katakana"@et,
+		"Японська мова/Японська система письма"@uk .
+
+wd:Q15647809 owl:sameAs wd:Q190502 .
+
+wd:Q31448497 owl:sameAs wd:Q190502 .
+
+wd:Q64082728 owl:sameAs wd:Q190502 .
+
+wd:Q96143075 owl:sameAs wd:Q190502 .

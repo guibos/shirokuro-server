@@ -1,0 +1,1302 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q401 a schema:Dataset ;
+	schema:about wd:Q401 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1915854568"^^xsd:integer ;
+	schema:dateModified "2023-06-15T14:23:38Z"^^xsd:dateTime .
+
+wd:Q401 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Cuneiform> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Cuneiform"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Keilschrift> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Keilschrift"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Cun%C3%A9iforme> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Cunéiforme"@fr ;
+	wikibase:badge wd:Q17437796 .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Escritura_cuneiforme> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Escritura cuneiforme"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B8%D0%BD%D0%BE%D0%BF%D0%B8%D1%81%D1%8C> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Клинопись"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Scrittura_cuneiforme> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Scrittura cuneiforme"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E6%A5%94%E5%BD%A2%E6%96%87%E5%AD%97> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "楔形文字"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Spijkerschrift> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Spijkerschrift"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/Pismo_klinowe> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Pismo klinowe"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Escrita_cuneiforme> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Escrita cuneiforme"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%A5%94%E5%BD%A2%E6%96%87%E5%AD%97> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "楔形文字"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Kilskrift> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Kilskrift"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%AE%D8%B7_%D9%85%DB%8C%D8%AE%DB%8C> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "خط میخی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%9B%D7%AA%D7%91_%D7%99%D7%AA%D7%93%D7%95%D7%AA> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "כתב יתדות"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/%C3%87ivi_yaz%C4%B1s%C4%B1> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Çivi yazısı"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/%C3%89k%C3%ADr%C3%A1s> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Ékírás"@hu ;
+	wikibase:badge wd:Q17437796 .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Nuolenp%C3%A4%C3%A4kirjoitus> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Nuolenpääkirjoitus"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%83%D8%AA%D8%A7%D8%A8%D8%A9_%D9%85%D8%B3%D9%85%D8%A7%D8%B1%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "كتابة مسمارية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ch%E1%BB%AF_h%C3%ACnh_n%C3%AAm> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Chữ hình nêm"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Kileskrift> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Kileskrift"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B8%D0%BD%D0%BE%D0%BF%D0%B8%D1%81> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Клинопис"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%90%90%EA%B8%B0_%EB%AC%B8%EC%9E%90> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "쐐기 문자"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Escriptura_cune%C3%AFforme> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Escriptura cuneïforme"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Kl%C3%ADnov%C3%A9_p%C3%ADsmo> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Klínové písmo"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B0%D1%81%D1%82%D0%BE_%D0%BF%D0%B8%D1%81%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Клинасто писмо"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Scriere_cuneiform%C4%83> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Scriere cuneiformă"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Aksara_paku> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Aksara paku"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/Kileskrift> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Kileskrift"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Cuneiform> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Cuneiform"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B8%D0%BD%D0%BE%D0%BF%D0%B8%D1%81%D0%BD%D0%BE_%D0%BF%D0%B8%D1%81%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Клинописно писмо"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Wigskrif> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Wigskrif"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://als.wikipedia.org/wiki/Keilschrift> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "gsw" ;
+	schema:isPartOf <https://als.wikipedia.org/> ;
+	schema:name "Keilschrift"@gsw .
+
+<https://als.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arc.wikipedia.org/wiki/%DC%9F%DC%AC%DC%92%DC%AC%DC%90_%DC%95%DC%A8%DC%A8%DC%90> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "arc" ;
+	schema:isPartOf <https://arc.wikipedia.org/> ;
+	schema:name "ܟܬܒܬܐ ܕܨܨܐ"@arc .
+
+<https://arc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Escritura_cuneiforme> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Escritura cuneiforme"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Mixi_yaz%C4%B1> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Mixi yazı"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ba.wikipedia.org/wiki/%D0%A8%D1%8B%D0%BD%D0%B0_%D1%8F%D2%99%D1%8B%D1%83> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "ba" ;
+	schema:isPartOf <https://ba.wikipedia.org/> ;
+	schema:name "Шына яҙыу"@ba .
+
+<https://ba.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bar.wikipedia.org/wiki/Keuschrift> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "bar" ;
+	schema:isPartOf <https://bar.wikipedia.org/> ;
+	schema:name "Keuschrift"@bar .
+
+<https://bar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%9A%D0%BB%D1%96%D0%BD%D0%B0%D0%BF%D1%96%D1%81> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Клінапіс"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%9A%D0%BB%D1%96%D0%BD%D0%B0%D0%BF%D1%96%D1%81> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Клінапіс"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bjn.wikipedia.org/wiki/Tulisan_Paku> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "bjn" ;
+	schema:isPartOf <https://bjn.wikipedia.org/> ;
+	schema:name "Tulisan Paku"@bjn .
+
+<https://bjn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%95%E0%A7%80%E0%A6%B2%E0%A6%95%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%B0_%E0%A6%B2%E0%A6%BF%E0%A6%96%E0%A6%A8_%E0%A6%AA%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%A4%E0%A6%BF> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "কীলকাকার লিখন পদ্ধতি"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Skritur_gennhe%C3%B1vel> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Skritur gennheñvel"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bs.wikipedia.org/wiki/Klinasto_pismo> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "bs" ;
+	schema:isPartOf <https://bs.wikipedia.org/> ;
+	schema:name "Klinasto pismo"@bs .
+
+<https://bs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cdo.wikipedia.org/wiki/D%C4%ADng-t%C3%A0u-c%C3%AA> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "cdo" ;
+	schema:isPartOf <https://cdo.wikipedia.org/> ;
+	schema:name "Dĭng-tàu-cê"@cdo .
+
+<https://cdo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ceb.wikipedia.org/wiki/Cuneiform> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "ceb" ;
+	schema:isPartOf <https://ceb.wikipedia.org/> ;
+	schema:name "Cuneiform"@ceb .
+
+<https://ceb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ckb.wikipedia.org/wiki/%D9%86%D9%88%D9%88%D8%B3%DB%8C%D9%86%DB%8C_%D8%A8%D8%B2%D9%85%D8%A7%D8%B1%DB%8C> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "ckb" ;
+	schema:isPartOf <https://ckb.wikipedia.org/> ;
+	schema:name "نووسینی بزماری"@ckb .
+
+<https://ckb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cv.wikipedia.org/wiki/%D0%A1%D0%B0%D0%B2%C4%83%D0%BB_%C3%A7%D1%8B%D1%80%D1%83%D0%BB%C4%83%D1%85%C4%95> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "cv" ;
+	schema:isPartOf <https://cv.wikipedia.org/> ;
+	schema:name "Савăл çырулăхĕ"@cv .
+
+<https://cv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cy.wikipedia.org/wiki/Ysgrifen_gynffurf> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "cy" ;
+	schema:isPartOf <https://cy.wikipedia.org/> ;
+	schema:name "Ysgrifen gynffurf"@cy .
+
+<https://cy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://diq.wikipedia.org/wiki/Nu%C5%9Ft%C4%B1%C5%9F%C3%AA_m%C3%AAxi> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Nuştışê mêxi"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%A3%CF%86%CE%B7%CE%BD%CE%BF%CE%B5%CE%B9%CE%B4%CE%AE%CF%82_%CE%B3%CF%81%CE%B1%CF%86%CE%AE> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Σφηνοειδής γραφή"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Kojnoskribo> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Kojnoskribo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Kiilkiri> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Kiilkiri"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Idazkera_kuneiforme> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Idazkera kuneiforme"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fy.wikipedia.org/wiki/Spikerskrift> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "fy" ;
+	schema:isPartOf <https://fy.wikipedia.org/> ;
+	schema:name "Spikerskrift"@fy .
+
+<https://fy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ga.wikipedia.org/wiki/Dingchruthach> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "ga" ;
+	schema:isPartOf <https://ga.wikipedia.org/> ;
+	schema:name "Dingchruthach"@ga .
+
+<https://ga.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Escrita_cuneiforme> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Escrita cuneiforme"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%85%E0%A4%82%E0%A4%95%E0%A4%A8_(%E0%A4%B2%E0%A4%BF%E0%A4%AA%E0%A4%BF)> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "अंकन (लिपि)"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Klinopis> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Klinopis"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D5%8D%D5%A5%D5%BA%D5%A1%D5%A3%D5%AB%D6%80> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Սեպագիր"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/Fleygr%C3%BAnir> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Fleygrúnir"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jv.wikipedia.org/wiki/Cuneiform> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "jv" ;
+	schema:isPartOf <https://jv.wikipedia.org/> ;
+	schema:name "Cuneiform"@jv .
+
+<https://jv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%A1%E1%83%9D%E1%83%9A%E1%83%98%E1%83%A1%E1%83%94%E1%83%91%E1%83%A0%E1%83%98_%E1%83%93%E1%83%90%E1%83%9B%E1%83%AC%E1%83%94%E1%83%A0%E1%83%9A%E1%83%9D%E1%83%91%E1%83%90> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "სოლისებრი დამწერლობა"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kk.wikipedia.org/wiki/%D0%A8%D1%83%D0%BC%D0%B5%D1%80_%D0%B6%D0%B0%D0%B7%D1%83%D1%8B> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "kk" ;
+	schema:isPartOf <https://kk.wikipedia.org/> ;
+	schema:name "Шумер жазуы"@kk .
+
+<https://kk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kn.wikipedia.org/wiki/%E0%B2%95%E0%B3%8D%E0%B2%AF%E0%B3%81%E0%B2%A8%E0%B2%BF%E0%B2%AB%E0%B2%BE%E0%B2%B0%E0%B2%82_%E0%B2%B2%E0%B2%BF%E0%B2%AA%E0%B2%BF> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "kn" ;
+	schema:isPartOf <https://kn.wikipedia.org/> ;
+	schema:name "ಕ್ಯುನಿಫಾರಂ ಲಿಪಿ"@kn .
+
+<https://kn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ku.wikipedia.org/wiki/Niv%C3%AEsa_m%C3%AEx%C3%AE> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "ku" ;
+	schema:isPartOf <https://ku.wikipedia.org/> ;
+	schema:name "Nivîsa mîxî"@ku .
+
+<https://ku.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Scriptura_cuneiformis> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Scriptura cuneiformis"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lfn.wikipedia.org/wiki/Cuneforma> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "lfn" ;
+	schema:isPartOf <https://lfn.wikipedia.org/> ;
+	schema:name "Cuneforma"@lfn .
+
+<https://lfn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://li.wikipedia.org/wiki/Nagelsjrif> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "li" ;
+	schema:isPartOf <https://li.wikipedia.org/> ;
+	schema:name "Nagelsjrif"@li .
+
+<https://li.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Dantira%C5%A1tis> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Dantiraštis"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/%C4%B6%C4%AB%C4%BCu_raksts> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Ķīļu raksts"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mg.wikipedia.org/wiki/Soratra_miendri-pantsika> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "mg" ;
+	schema:isPartOf <https://mg.wikipedia.org/> ;
+	schema:name "Soratra miendri-pantsika"@mg .
+
+<https://mg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B5%D1%81%D1%82%D0%BE_%D0%BF%D0%B8%D1%81%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Клинесто писмо"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%95%E0%B5%8D%E0%B4%AF%E0%B5%82%E0%B4%A3%E0%B4%BF%E0%B4%AB%E0%B5%8B%E0%B4%82_%E0%B4%B2%E0%B4%BF%E0%B4%AA%E0%B4%BF> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "ക്യൂണിഫോം ലിപി"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Tulisan_pepaku> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Tulisan pepaku"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://my.wikipedia.org/wiki/%E1%80%80%E1%80%BB%E1%80%B0%E1%80%94%E1%80%AE%E1%80%B8%E1%80%96%E1%80%B1%E1%80%AC%E1%80%84%E1%80%BA%E1%80%B8%E1%80%85%E1%80%AC> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "my" ;
+	schema:isPartOf <https://my.wikipedia.org/> ;
+	schema:name "ကျူနီးဖောင်းစာ"@my .
+
+<https://my.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Kileskrift> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Kileskrift"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nrm.wikipedia.org/wiki/%C3%8Acrituthe_%C3%A0_s%C3%A8rres> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "fr-x-nrm" ;
+	schema:isPartOf <https://nrm.wikipedia.org/> ;
+	schema:name "Êcrituthe à sèrres"@fr-x-nrm .
+
+<https://nrm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Cune%C3%AFf%C3%B2rme> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Cuneïfòrme"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pa.wikipedia.org/wiki/%E0%A8%95%E0%A9%80%E0%A8%B2%E0%A8%BE%E0%A8%95%E0%A8%BE%E0%A8%B0_%E0%A8%B2%E0%A8%BF%E0%A8%AA%E0%A9%80> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "pa" ;
+	schema:isPartOf <https://pa.wikipedia.org/> ;
+	schema:name "ਕੀਲਾਕਾਰ ਲਿਪੀ"@pa .
+
+<https://pa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ps.wikipedia.org/wiki/%D9%85%DB%90%D8%AE%D9%8A_%D9%84%D9%8A%DA%A9%D8%AF%D9%88%D8%AF> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "ps" ;
+	schema:isPartOf <https://ps.wikipedia.org/> ;
+	schema:name "مېخي ليکدود"@ps .
+
+<https://ps.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Klinasto_pismo> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Klinasto pismo"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sk.wikipedia.org/wiki/Klinov%C3%A9_p%C3%ADsmo> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "sk" ;
+	schema:isPartOf <https://sk.wikipedia.org/> ;
+	schema:name "Klinové písmo"@sk .
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sl.wikipedia.org/wiki/Klinopis> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikipedia.org/> ;
+	schema:name "Klinopis"@sl ;
+	wikibase:badge wd:Q17437796 .
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Mwandiko_wa_kikabari> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Mwandiko wa kikabari"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%86%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%86%E0%AE%B4%E0%AF%81%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%81> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "ஆப்பெழுத்து"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tg.wikipedia.org/wiki/%D0%A5%D0%B0%D1%82%D0%B8_%D0%BC%D0%B5%D1%85%D3%A3> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "tg" ;
+	schema:isPartOf <https://tg.wikipedia.org/> ;
+	schema:name "Хати мехӣ"@tg .
+
+<https://tg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A3%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%A5%E0%B8%B4%E0%B9%88%E0%B8%A1> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "อักษรรูปลิ่ม"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Kuneiporme> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Kuneiporme"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D8%AE%D8%B7_%D9%85%DB%8C%D8%AE%D9%86%DB%8C> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "خط میخنی"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Mixxat> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Mixxat"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://war.wikipedia.org/wiki/Kuneiporme> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "war" ;
+	schema:isPartOf <https://war.wikipedia.org/> ;
+	schema:name "Kuneiporme"@war .
+
+<https://war.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E6%A5%94%E5%BD%A2%E6%96%87%E5%AD%97> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "楔形文字"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://xmf.wikipedia.org/wiki/%E1%83%A1%E1%83%90%E1%83%9A%E1%83%98%E1%83%A8%E1%83%9D%E1%83%91%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%AD%E1%83%90%E1%83%A0%E1%83%90%E1%83%9A%E1%83%A3%E1%83%90> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "xmf" ;
+	schema:isPartOf <https://xmf.wikipedia.org/> ;
+	schema:name "სალიშობური ჭარალუა"@xmf .
+
+<https://xmf.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-min-nan.wikipedia.org/wiki/Teng-%C3%A1-j%C4%AB> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "nan" ;
+	schema:isPartOf <https://zh-min-nan.wikipedia.org/> ;
+	schema:name "Teng-á-jī"@nan .
+
+<https://zh-min-nan.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E6%A5%94%E5%BD%A2%E5%AD%97> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "楔形字"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gn.wikipedia.org/wiki/Kuneira%E2%80%99%C3%A3nga> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "gn" ;
+	schema:isPartOf <https://gn.wikipedia.org/> ;
+	schema:name "Kuneira’ãnga"@gn .
+
+<https://gn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hyw.wikipedia.org/wiki/%D5%8D%D5%A5%D5%BA%D5%A1%D5%A3%D5%AB%D6%80> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "hyw" ;
+	schema:isPartOf <https://hyw.wikipedia.org/> ;
+	schema:name "Սեպագիր"@hyw .
+
+<https://hyw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://io.wikipedia.org/wiki/Konioforma_skripturo> a schema:Article ;
+	schema:about wd:Q401 ;
+	schema:inLanguage "io" ;
+	schema:isPartOf <https://io.wikipedia.org/> ;
+	schema:name "Konioforma skripturo"@io .
+
+<https://io.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q401 wdt:P373 "Cuneiform" ;
+	wdt:P508 "9339" ;
+	wdtn:P508 <http://purl.org/bncf/tid/9339> ;
+	wdt:P506 "Xsux" ;
+	wdt:P910 wd:Q8980508 ;
+	wdt:P349 "00570625" ;
+	wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00570625> ;
+	wdt:P646 "/m/01z4vn" ;
+	wdt:P1296 "0173562" ;
+	wdt:P227 "4163552-8" ;
+	wdtn:P227 <https://d-nb.info/gnd/4163552-8> ;
+	wdt:P571 "-2999-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P61 wd:Q656043 ;
+	wdt:P2620 "020" ;
+	wdt:P582 "-0050-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P1417 "topic/cuneiform",
+		"topic/Old-Akkadian-cuneiform",
+		"topic/Old-Babylonian-cuneiform" ;
+	wdt:P3417 "Cuneiform" ;
+	wdt:P3569 "geschiedenis-oudheid/spijkerschrift" ;
+	wdt:P3827 "cuneiform" ;
+	wdt:P279 wd:Q29517555,
+		wd:Q3953107 ;
+	wdt:P1014 "300028711" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300028711> ;
+	wdt:P4212 "pcrtjJY5uUr5Sl" ;
+	wdtn:P4212 <https://ark.frantiq.fr/ark:/26678/pcrtjJY5uUr5Sl> ;
+	wdt:P3219 "mesopotamie-l-ecriture-cuneiforme" ;
+	wdt:P407 wd:Q36790,
+		wd:Q35518,
+		wd:Q35345,
+		wd:Q35470,
+		wd:Q35668,
+		wd:Q35740,
+		wd:Q10713,
+		wd:Q36934,
+		wd:Q35225,
+		wd:Q36582,
+		wd:Q36928 ;
+	wdt:P2924 "2073875" ;
+	wdt:P5019 "keilschrift" ;
+	wdt:P5398 "000002338" ;
+	wdt:P691 "ph191048" ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Sales%20contract%20Shuruppak%20Louvre%20AO3766.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Sumero-Akkadian%20cuneiform%20syllabary.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Cuneiform%20evolution%20from%20archaic%20script.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Sumerian%2026th%20c%20Adab.jpg> ;
+	wdt:P244 "sh85034811" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85034811> ;
+	wdt:P31 wd:Q8192,
+		wd:Q3953107,
+		wd:Q182133,
+		wd:Q29517555,
+		wd:Q4004706 ;
+	wdt:P1535 wd:Q66018222 ;
+	wdt:P1343 wd:Q3181656,
+		wd:Q602358,
+		wd:Q3181656,
+		wd:Q19180675,
+		wd:Q106727050,
+		wd:Q19219752 ;
+	wdt:P1245 "716678" ;
+	wdt:P7033 "scot/15598" ;
+	wdtn:P7033 <http://vocabulary.curriculum.edu.au/scot/15598.rdf> ;
+	wdt:P7818 "Cunéiforme" ;
+	wdt:P7832 "Idazkera_kuneiforme" ;
+	wdt:P6366 "157511935" ;
+	wdtn:P6366 <http://ma-graph.org/entity/157511935> ;
+	wdt:P7884 "T520-141" ;
+	wdtn:P7884 <http://data.culture.fr/thesaurus/resource/ark:/67717/T520-141> ;
+	wdt:P8408 "Cuneiform" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/Cuneiform> ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P2347 "7611" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p7611> ;
+	wdt:P5949 "U+12000-123FF",
+		"U+12400-1247F",
+		"U+12480-1254F" ;
+	wdt:P8814 "06373042-n" ;
+	wdtn:P8814 <http://wordnet-rdf.princeton.edu/rdf/id/06373042-n> ;
+	wdt:P2561 "Cuneiform, Sumero-Akkadian"@en,
+		"cunéiforme suméro-akkadien"@fr,
+		"Cuneiform"@en ;
+	wdt:P138 wd:Q37077 ;
+	wdt:P3222 "kilskrift" ;
+	wdt:P4342 "kileskrift" ;
+	wdt:P9000 "cuneiform" ;
+	wdt:P9106 "1952" ;
+	wdtn:P9106 <http://dx.doi.org/10.1093/acrefore/9780199381135.013.1952> ;
+	wdt:P268 "119552161" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb119552161#about> ;
+	wdt:P8189 "987007538333605171" ;
+	wdt:P10077 "tecnicas/1214625" ;
+	wdtn:P10077 <http://tesauros.mecd.es/tesauros/tecnicas/1214625> ;
+	wdt:P10283 "C157511935" ;
+	wdt:P8313 "kileskrift",
+		"cuneiform" ;
+	wdt:P8636 "C/cuneiform" ;
+	wdt:P920 "LEM201200559" ;
+	wdtn:P920 <http://id.sgcb.mcu.es/Autoridades/LEM201200559/concept> ;
+	wdt:P950 "XX527007" ;
+	wdtn:P950 <http://datos.bne.es/resource/XX527007> ;
+	wdt:P2163 "885203" ;
+	wdtn:P2163 <http://id.worldcat.org/fast/885203> ;
+	wdt:P5160 "tgm002803" ;
+	wdtn:P5160 <http://id.loc.gov/vocabulary/graphicMaterials/tgm002803> ;
+	wdt:P5063 "i69910" ;
+	wdtn:P5063 <http://globalwordnet.org/ili/i69910> ;
+	wdt:P1149 "PJ3191-PJ3225" ;
+	wdtn:P1149 <http://id.loc.gov/authorities/classification/PJ3191-PJ3225> ;
+	wdt:P8168 "Q390181" ;
+	wdtn:P8168 <https://database.factgrid.de/entity/Q390181> ;
+	wdt:P5008 wd:Q6173448 ;
+	wdt:P276 wd:Q48214 ;
+	wdt:P9495 "term/55000C51-77B9-4086-B462-7D999C06C5AF" ;
+	wdt:P1617 "0cb48ffe-0c14-4a14-b7cf-12918d7658d5" ;
+	wdtn:P1617 <http://www.bbc.co.uk/things/0cb48ffe-0c14-4a14-b7cf-12918d7658d5#id> ;
+	rdfs:label "cuneiform"@en ;
+	skos:prefLabel "cuneiform"@en ;
+	schema:name "cuneiform"@en ;
+	rdfs:label "scrittura cuneiforme"@it ;
+	skos:prefLabel "scrittura cuneiforme"@it ;
+	schema:name "scrittura cuneiforme"@it ;
+	rdfs:label "pismo klinowe"@pl ;
+	skos:prefLabel "pismo klinowe"@pl ;
+	schema:name "pismo klinowe"@pl ;
+	rdfs:label "cunéiforme"@fr ;
+	skos:prefLabel "cunéiforme"@fr ;
+	schema:name "cunéiforme"@fr ;
+	rdfs:label "escritura cuneiforme"@es ;
+	skos:prefLabel "escritura cuneiforme"@es ;
+	schema:name "escritura cuneiforme"@es ;
+	rdfs:label "escrita cuneiforme"@pt ;
+	skos:prefLabel "escrita cuneiforme"@pt ;
+	schema:name "escrita cuneiforme"@pt ;
+	rdfs:label "Wigskrif"@af ;
+	skos:prefLabel "Wigskrif"@af ;
+	schema:name "Wigskrif"@af ;
+	rdfs:label "كتابة مسمارية"@ar ;
+	skos:prefLabel "كتابة مسمارية"@ar ;
+	schema:name "كتابة مسمارية"@ar ;
+	rdfs:label "Mixi yazı"@az ;
+	skos:prefLabel "Mixi yazı"@az ;
+	schema:name "Mixi yazı"@az ;
+	rdfs:label "Клінапіс"@be ;
+	skos:prefLabel "Клінапіс"@be ;
+	schema:name "Клінапіс"@be ;
+	rdfs:label "Клинописно писмо"@bg ;
+	skos:prefLabel "Клинописно писмо"@bg ;
+	schema:name "Клинописно писмо"@bg ;
+	rdfs:label "Skritur gennheñvel"@br ;
+	skos:prefLabel "Skritur gennheñvel"@br ;
+	schema:name "Skritur gennheñvel"@br ;
+	rdfs:label "Klinasto pismo"@bs ;
+	skos:prefLabel "Klinasto pismo"@bs ;
+	schema:name "Klinasto pismo"@bs ;
+	rdfs:label "escriptura cuneïforme"@ca ;
+	skos:prefLabel "escriptura cuneïforme"@ca ;
+	schema:name "escriptura cuneïforme"@ca ;
+	rdfs:label "klínové písmo"@cs ;
+	skos:prefLabel "klínové písmo"@cs ;
+	schema:name "klínové písmo"@cs ;
+	rdfs:label "Савăл çырулăхĕ"@cv ;
+	skos:prefLabel "Савăл çырулăхĕ"@cv ;
+	schema:name "Савăл çырулăхĕ"@cv ;
+	rdfs:label "kileskrift"@da ;
+	skos:prefLabel "kileskrift"@da ;
+	schema:name "kileskrift"@da ;
+	rdfs:label "Keilschrift"@de ;
+	skos:prefLabel "Keilschrift"@de ;
+	schema:name "Keilschrift"@de ;
+	rdfs:label "kojnoskribo"@eo ;
+	skos:prefLabel "kojnoskribo"@eo ;
+	schema:name "kojnoskribo"@eo ;
+	rdfs:label "Kiilkiri"@et ;
+	skos:prefLabel "Kiilkiri"@et ;
+	schema:name "Kiilkiri"@et ;
+	rdfs:label "Idazkera kuneiforme"@eu ;
+	skos:prefLabel "Idazkera kuneiforme"@eu ;
+	schema:name "Idazkera kuneiforme"@eu ;
+	rdfs:label "خط میخی"@fa ;
+	skos:prefLabel "خط میخی"@fa ;
+	schema:name "خط میخی"@fa ;
+	rdfs:label "nuolenpääkirjoitus"@fi ;
+	skos:prefLabel "nuolenpääkirjoitus"@fi ;
+	schema:name "nuolenpääkirjoitus"@fi ;
+	rdfs:label "Spikerskrift"@fy ;
+	skos:prefLabel "Spikerskrift"@fy ;
+	schema:name "Spikerskrift"@fy ;
+	rdfs:label "Escrita cuneiforme"@gl ;
+	skos:prefLabel "Escrita cuneiforme"@gl ;
+	schema:name "Escrita cuneiforme"@gl ;
+	rdfs:label "כתב יתדות"@he ;
+	skos:prefLabel "כתב יתדות"@he ;
+	schema:name "כתב יתדות"@he ;
+	rdfs:label "अंकन"@hi ;
+	skos:prefLabel "अंकन"@hi ;
+	schema:name "अंकन"@hi ;
+	rdfs:label "Klinasto pismo"@hr ;
+	skos:prefLabel "Klinasto pismo"@hr ;
+	schema:name "Klinasto pismo"@hr ;
+	rdfs:label "ékírás"@hu ;
+	skos:prefLabel "ékírás"@hu ;
+	schema:name "ékírás"@hu ;
+	rdfs:label "kuneiform"@id ;
+	skos:prefLabel "kuneiform"@id ;
+	schema:name "kuneiform"@id ;
+	rdfs:label "Fleygrúnir"@is ;
+	skos:prefLabel "Fleygrúnir"@is ;
+	schema:name "Fleygrúnir"@is ;
+	rdfs:label "楔形文字"@ja ;
+	skos:prefLabel "楔形文字"@ja ;
+	schema:name "楔形文字"@ja ;
+	rdfs:label "სოლისებრი დამწერლობა"@ka ;
+	skos:prefLabel "სოლისებრი დამწერლობა"@ka ;
+	schema:name "სოლისებრი დამწერლობა"@ka ;
+	rdfs:label "쐐기 문자"@ko ;
+	skos:prefLabel "쐐기 문자"@ko ;
+	schema:name "쐐기 문자"@ko ;
+	rdfs:label "Nivîsa mîxî"@ku ;
+	skos:prefLabel "Nivîsa mîxî"@ku ;
+	schema:name "Nivîsa mîxî"@ku ;
+	rdfs:label "Scriptura cuneiformis"@la ;
+	skos:prefLabel "Scriptura cuneiformis"@la ;
+	schema:name "Scriptura cuneiformis"@la ;
+	rdfs:label "Dantiraštis"@lt ;
+	skos:prefLabel "Dantiraštis"@lt ;
+	schema:name "Dantiraštis"@lt ;
+	rdfs:label "ķīļraksts"@lv ;
+	skos:prefLabel "ķīļraksts"@lv ;
+	schema:name "ķīļraksts"@lv ;
+	rdfs:label "ക്യൂണിഫോം ലിപി"@ml ;
+	skos:prefLabel "ക്യൂണിഫോം ലിപി"@ml ;
+	schema:name "ക്യൂണിഫോം ലിപി"@ml ;
+	rdfs:label "ကျူနီးဖောင်းစာ"@my ;
+	skos:prefLabel "ကျူနီးဖောင်းစာ"@my ;
+	schema:name "ကျူနီးဖောင်းစာ"@my ;
+	rdfs:label "spijkerschrift"@nl ;
+	skos:prefLabel "spijkerschrift"@nl ;
+	schema:name "spijkerschrift"@nl ;
+	rdfs:label "kileskrift"@nn ;
+	skos:prefLabel "kileskrift"@nn ;
+	schema:name "kileskrift"@nn ;
+	rdfs:label "Êcrituthe à sèrres"@nrm ;
+	skos:prefLabel "Êcrituthe à sèrres"@nrm ;
+	schema:name "Êcrituthe à sèrres"@nrm ;
+	rdfs:label "ਕੀਲਾਕਾਰ ਲਿਪੀ"@pa ;
+	skos:prefLabel "ਕੀਲਾਕਾਰ ਲਿਪੀ"@pa ;
+	schema:name "ਕੀਲਾਕਾਰ ਲਿਪੀ"@pa ;
+	rdfs:label "مېخي ليکدود"@ps ;
+	skos:prefLabel "مېخي ليکدود"@ps ;
+	schema:name "مېخي ليکدود"@ps ;
+	rdfs:label "scriere cuneiformă"@ro ;
+	skos:prefLabel "scriere cuneiformă"@ro ;
+	schema:name "scriere cuneiformă"@ro ;
+	rdfs:label "клинопись"@ru ;
+	skos:prefLabel "клинопись"@ru ;
+	schema:name "клинопись"@ru ;
+	rdfs:label "Klinasto pismo"@sh ;
+	skos:prefLabel "Klinasto pismo"@sh ;
+	schema:name "Klinasto pismo"@sh ;
+	rdfs:label "Klinové písmo"@sk ;
+	skos:prefLabel "Klinové písmo"@sk ;
+	schema:name "Klinové písmo"@sk ;
+	rdfs:label "klinopis"@sl ;
+	skos:prefLabel "klinopis"@sl ;
+	schema:name "klinopis"@sl ;
+	rdfs:label "клинасто писмо"@sr ;
+	skos:prefLabel "клинасто писмо"@sr ;
+	schema:name "клинасто писмо"@sr ;
+	rdfs:label "kilskrift"@sv ;
+	skos:prefLabel "kilskrift"@sv ;
+	schema:name "kilskrift"@sv ;
+	rdfs:label "Mwandiko wa kikabari"@sw ;
+	skos:prefLabel "Mwandiko wa kikabari"@sw ;
+	schema:name "Mwandiko wa kikabari"@sw ;
+	rdfs:label "อักษรรูปลิ่ม"@th ;
+	skos:prefLabel "อักษรรูปลิ่ม"@th ;
+	schema:name "อักษรรูปลิ่ม"@th ;
+	rdfs:label "Kuneiporma"@tl ;
+	skos:prefLabel "Kuneiporma"@tl ;
+	schema:name "Kuneiporma"@tl ;
+	rdfs:label "Çivi yazısı"@tr ;
+	skos:prefLabel "Çivi yazısı"@tr ;
+	schema:name "Çivi yazısı"@tr ;
+	rdfs:label "клинопис"@uk ;
+	skos:prefLabel "клинопис"@uk ;
+	schema:name "клинопис"@uk ;
+	rdfs:label "خط میخنی"@ur ;
+	skos:prefLabel "خط میخنی"@ur ;
+	schema:name "خط میخنی"@ur ;
+	rdfs:label "楔形文字"@zh ;
+	skos:prefLabel "楔形文字"@zh ;
+	schema:name "楔形文字"@zh ;
+	rdfs:label "kileskrift"@nb ;
+	skos:prefLabel "kileskrift"@nb ;
+	schema:name "kileskrift"@nb ;
+	rdfs:label "কীলকাকার লিখন পদ্ধতি"@bn ;
+	skos:prefLabel "কীলকাকার লিখন পদ্ধতি"@bn ;
+	schema:name "কীলকাকার লিখন পদ্ধতি"@bn ;
+	rdfs:label "ஆப்பெழுத்து"@ta ;
+	skos:prefLabel "ஆப்பெழுத்து"@ta ;
+	schema:name "ஆப்பெழுத்து"@ta ;
+	rdfs:label "Cuneïfòrme"@oc ;
+	skos:prefLabel "Cuneïfòrme"@oc ;
+	schema:name "Cuneïfòrme"@oc ;
+	rdfs:label "սեպագիր"@hy ;
+	skos:prefLabel "սեպագիր"@hy ;
+	schema:name "սեպագիր"@hy ;
+	rdfs:label "chữ hình nêm"@vi ;
+	skos:prefLabel "chữ hình nêm"@vi ;
+	schema:name "chữ hình nêm"@vi ;
+	rdfs:label "Dingchruthach"@ga ;
+	skos:prefLabel "Dingchruthach"@ga ;
+	schema:name "Dingchruthach"@ga ;
+	rdfs:label "Keuschrift"@bar ;
+	skos:prefLabel "Keuschrift"@bar ;
+	schema:name "Keuschrift"@bar ;
+	rdfs:label "escrita cuneiforme"@pt-br ;
+	skos:prefLabel "escrita cuneiforme"@pt-br ;
+	schema:name "escrita cuneiforme"@pt-br ;
+	rdfs:label "Сына жазуы"@kk ;
+	skos:prefLabel "Сына жазуы"@kk ;
+	schema:name "Сына жазуы"@kk ;
+	rdfs:label "Keilschrift"@gsw ;
+	skos:prefLabel "Keilschrift"@gsw ;
+	schema:name "Keilschrift"@gsw ;
+	rdfs:label "楔形字"@yue ;
+	skos:prefLabel "楔形字"@yue ;
+	schema:name "楔形字"@yue ;
+	rdfs:label "Клінапіс"@be-tarask ;
+	skos:prefLabel "Клінапіс"@be-tarask ;
+	schema:name "Клінапіс"@be-tarask ;
+	rdfs:label "Tulisan pepaku"@ms ;
+	skos:prefLabel "Tulisan pepaku"@ms ;
+	schema:name "Tulisan pepaku"@ms ;
+	rdfs:label "Mixxat"@uz ;
+	skos:prefLabel "Mixxat"@uz ;
+	schema:name "Mixxat"@uz ;
+	rdfs:label "klinesto"@mk ;
+	skos:prefLabel "klinesto"@mk ;
+	schema:name "klinesto"@mk ;
+	rdfs:label "Σφηνοειδής γραφή"@el ;
+	skos:prefLabel "Σφηνοειδής γραφή"@el ;
+	schema:name "Σφηνοειδής γραφή"@el ;
+	rdfs:label "Хатти мехӣ"@tg ;
+	skos:prefLabel "Хатти мехӣ"@tg ;
+	schema:name "Хатти мехӣ"@tg ;
+	rdfs:label "cuneiform"@sco ;
+	skos:prefLabel "cuneiform"@sco ;
+	schema:name "cuneiform"@sco ;
+	rdfs:label "Dĭng-tàu-cê"@cdo ;
+	skos:prefLabel "Dĭng-tàu-cê"@cdo ;
+	schema:name "Dĭng-tàu-cê"@cdo ;
+	rdfs:label "Cuneiform"@ceb ;
+	skos:prefLabel "Cuneiform"@ceb ;
+	schema:name "Cuneiform"@ceb ;
+	rdfs:label "Teng-á-jī"@nan ;
+	skos:prefLabel "Teng-á-jī"@nan ;
+	schema:name "Teng-á-jī"@nan ;
+	rdfs:label "ಕ್ಯುನಿಫಾರಂ ಲಿಪಿ"@kn ;
+	skos:prefLabel "ಕ್ಯುನಿಫಾರಂ ಲಿಪಿ"@kn ;
+	schema:name "ಕ್ಯುನಿಫಾರಂ ಲಿಪಿ"@kn ;
+	rdfs:label "Ysgrifen gynffurf"@cy ;
+	skos:prefLabel "Ysgrifen gynffurf"@cy ;
+	schema:name "Ysgrifen gynffurf"@cy ;
+	rdfs:label "хати мехӣ"@tg-cyrl ;
+	skos:prefLabel "хати мехӣ"@tg-cyrl ;
+	schema:name "хати мехӣ"@tg-cyrl ;
+	rdfs:label "Cuneiform"@jv ;
+	skos:prefLabel "Cuneiform"@jv ;
+	schema:name "Cuneiform"@jv ;
+	rdfs:label "Cuneforma"@lfn ;
+	skos:prefLabel "Cuneforma"@lfn ;
+	schema:name "Cuneforma"@lfn ;
+	rdfs:label "Escritura cuneiforme"@ast ;
+	skos:prefLabel "Escritura cuneiforme"@ast ;
+	schema:name "Escritura cuneiforme"@ast ;
+	rdfs:label "Nagelsjrif"@li ;
+	skos:prefLabel "Nagelsjrif"@li ;
+	schema:name "Nagelsjrif"@li ;
+	rdfs:label "Nuştışê mêxi"@diq ;
+	skos:prefLabel "Nuştışê mêxi"@diq ;
+	schema:name "Nuştışê mêxi"@diq ;
+	rdfs:label "نووسینی بزماری"@ckb ;
+	skos:prefLabel "نووسینی بزماری"@ckb ;
+	schema:name "نووسینی بزماری"@ckb ;
+	rdfs:label "楔形文字"@wuu ;
+	skos:prefLabel "楔形文字"@wuu ;
+	schema:name "楔形文字"@wuu ;
+	rdfs:label "სალიშობური ჭარალუა"@xmf ;
+	skos:prefLabel "სალიშობური ჭარალუა"@xmf ;
+	schema:name "სალიშობური ჭარალუა"@xmf ;
+	rdfs:label "Kuneiporme"@war ;
+	skos:prefLabel "Kuneiporme"@war ;
+	schema:name "Kuneiporme"@war ;
+	rdfs:label "楔形文字"@zh-tw ;
+	skos:prefLabel "楔形文字"@zh-tw ;
+	schema:name "楔形文字"@zh-tw ;
+	rdfs:label "楔形文字"@zh-hant ;
+	skos:prefLabel "楔形文字"@zh-hant ;
+	schema:name "楔形文字"@zh-hant ;
+	rdfs:label "ܟܬܒܬܐ ܕܨܨܐ"@arc ;
+	skos:prefLabel "ܟܬܒܬܐ ܕܨܨܐ"@arc ;
+	schema:name "ܟܬܒܬܐ ܕܨܨܐ"@arc ;
+	rdfs:label "Tulisan Paku"@bjn ;
+	skos:prefLabel "Tulisan Paku"@bjn ;
+	schema:name "Tulisan Paku"@bjn ;
+	rdfs:label "шына яҙыу"@ba ;
+	skos:prefLabel "шына яҙыу"@ba ;
+	schema:name "шына яҙыу"@ba ;
+	rdfs:label "Soratra miendri-pantsika"@mg ;
+	skos:prefLabel "Soratra miendri-pantsika"@mg ;
+	schema:name "Soratra miendri-pantsika"@mg ;
+	rdfs:label "Kuneira’ãnga"@gn ;
+	skos:prefLabel "Kuneira’ãnga"@gn ;
+	schema:name "Kuneira’ãnga"@gn ;
+	rdfs:label "Սեպագիր"@hyw ;
+	skos:prefLabel "Սեպագիր"@hyw ;
+	schema:name "Սեպագիր"@hyw ;
+	rdfs:label "楔形文字"@zh-hans ;
+	skos:prefLabel "楔形文字"@zh-hans ;
+	schema:name "楔形文字"@zh-hans ;
+	rdfs:label "Konioforma skripturo"@io ;
+	skos:prefLabel "Konioforma skripturo"@io ;
+	schema:name "Konioforma skripturo"@io ;
+	schema:description "ancient writing system used for many languages, including Akkadian and Hittite"@en,
+		"najstarsza odmiana pisma na Bliskim Wschodzie"@pl,
+		"sistema di scrittura"@it,
+		"système d'écriture de Mésopotamie"@fr,
+		"antiguo sistema de escritura mesopotámico"@es,
+		"Bilderschrift, deren Formen durch die Eindrücke eines Schreibgriffels in den noch weichen Beschreibstoff Ton entstanden"@de,
+		"наиболее ранняя из известных систем письма"@ru,
+		"skriftform brukt i oldtiden"@nb,
+		"Mesopotamiassa käytetty kirjoitusjärjestelmä"@fi,
+		"源于底格里斯河和幼发拉底河流域的古老文字"@zh-hans,
+		"система письма, якою користувалися жителі древньої Месопотамії, перша система письма, винайдена людством"@uk,
+		"legkorábbi ismert írástípusok közé tartozó írásrendszer"@hu,
+		"klinesto pismo"@mk,
+		"яке аз аввалин хатҳои қадима"@tg-cyrl,
+		"старо писмо"@sr,
+		"ord- och stavelseskrift"@sv,
+		"antigo sistema de escrita mesopotâmico"@pt,
+		"soustava grafických znaků, které kombinacemi otisků rákosového pisátka do hlíny vyznačovaly zpočátku symboly pojmů, posléze slabiky a částečně i jednotlivé hlásky"@cs,
+		"世界上最古老的文字，由苏美尔人发明"@zh,
+		"نوعی نوشته یا خط بشکل میخ روی سنگ یاگل وچوب که درحدود ۵۰۰۰سال قبل از م توسط سومریان ابداع شد."@fa,
+		"ord og stavelse"@da,
+		"oud schriftsysteem, geschreven op kleitabletten"@nl,
+		"иң боронғо яҙыу системаһы"@ba,
+		"antic sistema d'escriptura mesopotàmic"@ca,
+		"نوع من الكتابة القديمة تنقش فوق ألواح الطين والحجر والشمع والمعادن وغيرها"@ar,
+		"tulisan Kuno"@id,
+		"メソポタミア文明で諸言語の表記に用いられた表語文字、および音節文字"@ja,
+		"ရှေးခေတ်စာရေးနည်းတစ်မျိုး"@my,
+		"αρχαίο σύστημα γραφής που χρησιμοποιήθηκε για πολλές γλώσσες, συμπεριλαμβανομένων των Ακκαδιανών και των Χετταίων"@el,
+		"Mohendapyrã ohaihína mesopotamia rehegua ymaguaré"@gn,
+		"প্রাচীন নিকট প্রাচ্যের লিখন পদ্ধতি"@bn ;
+	skos:altLabel "kiilakirjoitus"@fi,
+		"cuneiforme"@es,
+		"cuneiforme sumerio"@es,
+		"アッカド語楔形文字"@ja,
+		"шына яҙма"@ba,
+		"Sumero-Akkadia cuneiform"@en,
+		"cuneiform script"@en,
+		"cuneiform writing"@en,
+		"arrow-headed characters"@en,
+		"cuneiforme"@it .
+
+wd:Q11842619 owl:sameAs wd:Q401 .
+
+wd:Q13092511 owl:sameAs wd:Q401 .
+
+wd:Q12563591 owl:sameAs wd:Q401 .
+
+wd:Q97271998 owl:sameAs wd:Q401 .

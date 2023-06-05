@@ -1,0 +1,599 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q34139 a schema:Dataset ;
+	schema:about wd:Q34139 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1868427885"^^xsd:integer ;
+	schema:dateModified "2023-04-04T20:29:39Z"^^xsd:dateTime .
+
+wd:Q34139 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_shor> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga shor"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Shor_tili> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Shor tili"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A8%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Шорский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cv.wikipedia.org/wiki/%D0%A8%D0%BE%D1%80_%D1%87%C4%95%D0%BB%D1%85%D0%B8> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "cv" ;
+	schema:isPartOf <https://cv.wikipedia.org/> ;
+	schema:name "Шор чĕлхи"@cv .
+
+<https://cv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Shor_language> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Shor language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/%C5%A0orski_jezik> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Šorski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_shor> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua shor"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szl.wikipedia.org/wiki/Szoryjsk%C5%8F_g%C5%8Fdka> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "szl" ;
+	schema:isPartOf <https://szl.wikipedia.org/> ;
+	schema:name "Szoryjskŏ gŏdka"@szl .
+
+<https://szl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bat-smg.wikipedia.org/wiki/%C5%A0uoru_kalba> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "sgs" ;
+	schema:isPartOf <https://bat-smg.wikipedia.org/> ;
+	schema:name "Šuoru kalba"@sgs .
+
+<https://bat-smg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%A8%D0%BE%D1%80%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Шорски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%A8%D0%BE%D1%80_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Шор кыв"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%A7%E3%83%AB%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ショル語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Schorische_Sprache> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Schorische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/%C5%9Eor_dili> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Şor dili"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/%C5%A0or%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Šorų kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/%C5%9Eorca> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Şorca"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kk.wikipedia.org/wiki/%D0%A8%D0%BE%D1%80_%D1%82%D1%96%D0%BB%D1%96> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "kk" ;
+	schema:isPartOf <https://kk.wikipedia.org/> ;
+	schema:name "Шор тілі"@kk .
+
+<https://kk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D8%B4%D9%88%D8%B1> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "لغة الشور"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ky.wikipedia.org/wiki/%D0%A8%D0%BE%D1%80_%D1%82%D0%B8%D0%BB%D0%B8> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "ky" ;
+	schema:isPartOf <https://ky.wikipedia.org/> ;
+	schema:name "Шор тили"@ky .
+
+<https://ky.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%A8%D0%BE%D1%80%D1%81%D0%BA%D0%B8_%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Шорски език"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/%C5%A0oori_keel> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Šoori keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Shor> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Shor"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Chor> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Chor"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Sjor> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Sjor"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D8%B4%D9%88%D8%B1_%D8%AA%D9%88%D8%B1%DA%A9%D8%AC%D9%87%E2%80%8C%D8%B3%DB%8C> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "شور تورکجه‌سی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gag.wikipedia.org/wiki/%C5%9Eor_dili> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "gag" ;
+	schema:isPartOf <https://gag.wikipedia.org/> ;
+	schema:name "Şor dili"@gag .
+
+<https://gag.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/%C5%9Cora_lingvo> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Ŝora lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%B4%D9%88%D8%B1> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان شور"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Choreg> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Choreg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_shor> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma shor"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://udm.wikipedia.org/wiki/%D0%A8%D0%BE%D1%80%D0%B5%D1%86%D1%8A%D1%91%D1%81%D0%BB%D1%8D%D0%BD_%D0%BA%D1%8B%D0%BB%D0%B7%D1%8B> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "udm" ;
+	schema:isPartOf <https://udm.wikipedia.org/> ;
+	schema:name "Шорецъёслэн кылзы"@udm .
+
+<https://udm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/%C5%A0oorin_kieli> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Šoorin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%87%BC%EB%A5%B4%EC%96%B4> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "쇼르어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ba.wikipedia.org/wiki/%D0%A8%D0%BE%D1%80_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "ba" ;
+	schema:isPartOf <https://ba.wikipedia.org/> ;
+	schema:name "Шор теле"@ba .
+
+<https://ba.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sah.wikipedia.org/wiki/%D0%A8%D0%BE%D1%80_%D1%82%D1%8B%D0%BB%D0%B0> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "sah" ;
+	schema:isPartOf <https://sah.wikipedia.org/> ;
+	schema:name "Шор тыла"@sah .
+
+<https://sah.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%A8%D0%BE%D1%80%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Шорська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%A8%E1%83%9D%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%94%E1%83%9C%E1%83%90> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "შორული ენა"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Shor_bhasa> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Shor bhasa"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E9%82%B5%E7%88%BE%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "邵爾語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Shor> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Shor"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%A8%D0%BE%D1%80_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Шор теле"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ps.wikipedia.org/wiki/%D8%B4%D9%88%D8%B1%D9%8A_%DA%98%D8%A8%D9%87> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "ps" ;
+	schema:isPartOf <https://ps.wikipedia.org/> ;
+	schema:name "شوري ژبه"@ps .
+
+<https://ps.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Sjortsisk> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Sjortsisk"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cdo.wikipedia.org/wiki/Shor-ng%E1%B9%B3%CC%84> a schema:Article ;
+	schema:about wd:Q34139 ;
+	schema:inLanguage "cdo" ;
+	schema:isPartOf <https://cdo.wikipedia.org/> ;
+	schema:name "Shor-ngṳ̄"@cdo .
+
+<https://cdo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q34139 wdt:P220 "cjs" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cjs> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/07gfwy" ;
+	wdt:P305 "cjs" ;
+	wdt:P279 wd:Q4494894 ;
+	wdt:P910 wd:Q20741341 ;
+	wdt:P1394 "shor1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/shor1247> ;
+	wdt:P278 "шор 810" ;
+	wdt:P2355 "498" ;
+	wdt:P4132 wd:Q171263 ;
+	wdt:P282 wd:Q8209,
+		wd:Q3409293 ;
+	wdt:P17 wd:Q159 ;
+	wdt:P131 wd:Q6076 ;
+	wdt:P1098 "+2839"^^xsd:decimal ;
+	wdt:P1466 "shr" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_shr> ;
+	wdt:P2924 "4945147" ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P2192 "3048" ;
+	wdt:P1627 "cjs" ;
+	wdt:P3823 wd:Q29051555 ;
+	wdt:P1245 "547002" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CJS> ;
+	wdt:P1889 wd:Q4526206 ;
+	rdfs:label "Lenga shor"@pms ;
+	skos:prefLabel "Lenga shor"@pms ;
+	schema:name "Lenga shor"@pms ;
+	rdfs:label "Шор тили"@ky ;
+	skos:prefLabel "Шор тили"@ky ;
+	schema:name "Шор тили"@ky ;
+	rdfs:label "Шорец кыл"@udm ;
+	skos:prefLabel "Шорец кыл"@udm ;
+	schema:name "Шорец кыл"@udm ;
+	rdfs:label "chor"@fr ;
+	skos:prefLabel "chor"@fr ;
+	schema:name "chor"@fr ;
+	rdfs:label "쇼르어"@ko ;
+	skos:prefLabel "쇼르어"@ko ;
+	schema:name "쇼르어"@ko ;
+	rdfs:label "Shor tili"@uz ;
+	skos:prefLabel "Shor tili"@uz ;
+	schema:name "Shor tili"@uz ;
+	rdfs:label "Şor dili"@gag ;
+	skos:prefLabel "Şor dili"@gag ;
+	schema:name "Şor dili"@gag ;
+	rdfs:label "Schorisch"@de ;
+	skos:prefLabel "Schorisch"@de ;
+	schema:name "Schorisch"@de ;
+	rdfs:label "ショル語"@ja ;
+	skos:prefLabel "ショル語"@ja ;
+	schema:name "ショル語"@ja ;
+	rdfs:label "choreg"@br ;
+	skos:prefLabel "choreg"@br ;
+	schema:name "choreg"@br ;
+	rdfs:label "Língua shor"@pt ;
+	skos:prefLabel "Língua shor"@pt ;
+	schema:name "Língua shor"@pt ;
+	rdfs:label "Ŝora lingvo"@eo ;
+	skos:prefLabel "Ŝora lingvo"@eo ;
+	schema:name "Ŝora lingvo"@eo ;
+	rdfs:label "шорский язык"@ru ;
+	skos:prefLabel "шорский язык"@ru ;
+	schema:name "шорский язык"@ru ;
+	rdfs:label "Shor"@en ;
+	skos:prefLabel "Shor"@en ;
+	schema:name "Shor"@en ;
+	rdfs:label "Şorca"@tr ;
+	skos:prefLabel "Şorca"@tr ;
+	schema:name "Şorca"@tr ;
+	rdfs:label "Шор чĕлхи"@cv ;
+	skos:prefLabel "Шор чĕлхи"@cv ;
+	schema:name "Шор чĕлхи"@cv ;
+	rdfs:label "Шорски јазик"@mk ;
+	skos:prefLabel "Шорски јазик"@mk ;
+	schema:name "Шорски јазик"@mk ;
+	rdfs:label "shor"@ca ;
+	skos:prefLabel "shor"@ca ;
+	schema:name "shor"@ca ;
+	rdfs:label "Šoorin kieli"@fi ;
+	skos:prefLabel "Šoorin kieli"@fi ;
+	schema:name "Šoorin kieli"@fi ;
+	rdfs:label "Šuoru kalba"@sgs ;
+	skos:prefLabel "Šuoru kalba"@sgs ;
+	schema:name "Šuoru kalba"@sgs ;
+	rdfs:label "Шорски език"@bg ;
+	skos:prefLabel "Шорски език"@bg ;
+	schema:name "Шорски език"@bg ;
+	rdfs:label "Шор кыв"@kv ;
+	skos:prefLabel "Шор кыв"@kv ;
+	schema:name "Шор кыв"@kv ;
+	rdfs:label "Šorski jezik"@hr ;
+	skos:prefLabel "Šorski jezik"@hr ;
+	schema:name "Šorski jezik"@hr ;
+	rdfs:label "Šorų kalba"@lt ;
+	skos:prefLabel "Šorų kalba"@lt ;
+	schema:name "Šorų kalba"@lt ;
+	rdfs:label "Шор тілі"@kk ;
+	skos:prefLabel "Шор тілі"@kk ;
+	schema:name "Шор тілі"@kk ;
+	rdfs:label "Shor"@oc ;
+	skos:prefLabel "Shor"@oc ;
+	schema:name "Shor"@oc ;
+	rdfs:label "Sjor"@nl ;
+	skos:prefLabel "Sjor"@nl ;
+	schema:name "Sjor"@nl ;
+	rdfs:label "Szoryjskŏ gŏdka"@szl ;
+	skos:prefLabel "Szoryjskŏ gŏdka"@szl ;
+	schema:name "Szoryjskŏ gŏdka"@szl ;
+	rdfs:label "Şor dili"@az ;
+	skos:prefLabel "Şor dili"@az ;
+	schema:name "Şor dili"@az ;
+	rdfs:label "Shor language"@hif ;
+	skos:prefLabel "Shor language"@hif ;
+	schema:name "Shor language"@hif ;
+	rdfs:label "Šoori keel"@et ;
+	skos:prefLabel "Šoori keel"@et ;
+	schema:name "Šoori keel"@et ;
+	rdfs:label "لغة الشور"@ar ;
+	skos:prefLabel "لغة الشور"@ar ;
+	schema:name "لغة الشور"@ar ;
+	rdfs:label "索爾語"@zh ;
+	skos:prefLabel "索爾語"@zh ;
+	schema:name "索爾語"@zh ;
+	rdfs:label "Shor"@en-gb ;
+	skos:prefLabel "Shor"@en-gb ;
+	schema:name "Shor"@en-gb ;
+	rdfs:label "شور تورکجه‌سی"@azb ;
+	skos:prefLabel "شور تورکجه‌سی"@azb ;
+	schema:name "شور تورکجه‌سی"@azb ;
+	rdfs:label "زبان شور"@fa ;
+	skos:prefLabel "زبان شور"@fa ;
+	schema:name "زبان شور"@fa ;
+	rdfs:label "শোর ভাষা"@bn ;
+	skos:prefLabel "শোর ভাষা"@bn ;
+	schema:name "শোর ভাষা"@bn ;
+	rdfs:label "Idioma shor"@es ;
+	skos:prefLabel "Idioma shor"@es ;
+	schema:name "Idioma shor"@es ;
+	rdfs:label "шор теле"@tt ;
+	skos:prefLabel "шор теле"@tt ;
+	schema:name "шор теле"@tt ;
+	rdfs:label "Шор теле"@ba ;
+	skos:prefLabel "Шор теле"@ba ;
+	schema:name "Шор теле"@ba ;
+	rdfs:label "Шор тыла"@sah ;
+	skos:prefLabel "Шор тыла"@sah ;
+	schema:name "Шор тыла"@sah ;
+	rdfs:label "шор теле"@tt-cyrl ;
+	skos:prefLabel "шор теле"@tt-cyrl ;
+	schema:name "шор теле"@tt-cyrl ;
+	rdfs:label "Шорська мова"@uk ;
+	skos:prefLabel "Шорська мова"@uk ;
+	schema:name "Шорська мова"@uk ;
+	rdfs:label "შორული ენა"@ka ;
+	skos:prefLabel "შორული ენა"@ka ;
+	schema:name "შორული ენა"@ka ;
+	rdfs:label "Tiếng Shor"@vi ;
+	skos:prefLabel "Tiếng Shor"@vi ;
+	schema:name "Tiếng Shor"@vi ;
+	rdfs:label "شوري ژبه"@ps ;
+	skos:prefLabel "شوري ژبه"@ps ;
+	schema:name "شوري ژبه"@ps ;
+	rdfs:label "Sjortsisk"@nb ;
+	skos:prefLabel "Sjortsisk"@nb ;
+	schema:name "Sjortsisk"@nb ;
+	rdfs:label "Shor-ngṳ̄"@cdo ;
+	skos:prefLabel "Shor-ngṳ̄"@cdo ;
+	schema:name "Shor-ngṳ̄"@cdo ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"langue turque"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"шор халҡының теле, Рәсәйҙең Кемерово өлкәһендә, Алтай тауҙары итәгендә таралған"@ba,
+		"یکی از زبان‌های ترکی‌تبار"@fa,
+		"язык хакасской подгруппы северо-восточной группы тюркских языков, распространён в Кемеровской области у шорцев"@ru,
+		"Ngôn ngữ Turk"@vi,
+		"언어"@ko ;
+	skos:altLabel "Shor"@fr,
+		"шорский"@ru,
+		"Шoр тил"@ru,
+		"язык шорцев"@ru,
+		"Şor Türkçesi"@tr,
+		"Şor dili"@tr,
+		"Shoori"@fi,
+		"Shoorin kieli"@fi,
+		"Šoori"@fi,
+		"Shor language"@en,
+		"邵爾語"@zh,
+		"休爾語"@zh,
+		"шорлар теле"@tt,
+		"шорча"@tt,
+		"шорлар теле"@tt-cyrl,
+		"шорча"@tt-cyrl,
+		"schorische Sprache"@de,
+		"xor"@ca .
+
+wd:Q13155586 owl:sameAs wd:Q34139 .

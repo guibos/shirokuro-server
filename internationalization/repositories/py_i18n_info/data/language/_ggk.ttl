@@ -1,0 +1,119 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6444516 a schema:Dataset ;
+	schema:about wd:Q6444516 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1349564210"^^xsd:integer ;
+	schema:dateModified "2021-01-27T23:46:14Z"^^xsd:dateTime .
+
+wd:Q6444516 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_kungarakany> a schema:Article ;
+	schema:about wd:Q6444516 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kungarakany"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Kungarakany> a schema:Article ;
+	schema:about wd:Q6444516 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Kungarakany"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikungarakany> a schema:Article ;
+	schema:about wd:Q6444516 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikungarakany"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kungarakany_language> a schema:Article ;
+	schema:about wd:Q6444516 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kungarakany language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6444516 wdt:P220 "ggk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ggk> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "kung1259" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kung1259> ;
+	wdt:P305 "ggk" ;
+	wdt:P4132 wd:Q33648 ;
+	wdt:P1252 "N14" ;
+	wdt:P2192 "6660" ;
+	wdt:P1627 "ggk" ;
+	wdt:P6915 "Kungarakany" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GGK> ;
+	wdt:P646 "/m/02hxxhn" ;
+	rdfs:label "Kungarakany"@en ;
+	skos:prefLabel "Kungarakany"@en ;
+	schema:name "Kungarakany"@en ;
+	rdfs:label "Kungarakany"@sv ;
+	skos:prefLabel "Kungarakany"@sv ;
+	schema:name "Kungarakany"@sv ;
+	rdfs:label "Lenga kungarakany"@pms ;
+	skos:prefLabel "Lenga kungarakany"@pms ;
+	schema:name "Lenga kungarakany"@pms ;
+	rdfs:label "Kungarakany"@en-gb ;
+	skos:prefLabel "Kungarakany"@en-gb ;
+	schema:name "Kungarakany"@en-gb ;
+	rdfs:label "kungarakani keel"@et ;
+	skos:prefLabel "kungarakani keel"@et ;
+	schema:name "kungarakani keel"@et ;
+	rdfs:label "Kikungarakany"@sw ;
+	skos:prefLabel "Kikungarakany"@sw ;
+	schema:name "Kikungarakany"@sw ;
+	rdfs:label "kungarakany"@fr ;
+	skos:prefLabel "kungarakany"@fr ;
+	schema:name "kungarakany"@fr ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue isolée parlée en Australie"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kungarakany language"@en .

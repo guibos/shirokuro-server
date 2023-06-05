@@ -1,0 +1,169 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q34776 a schema:Dataset ;
+	schema:about wd:Q34776 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1556066270"^^xsd:integer ;
+	schema:dateModified "2022-01-04T16:03:56Z"^^xsd:dateTime .
+
+wd:Q34776 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Peul_de_l%27Adamaoua> a schema:Article ;
+	schema:about wd:Q34776 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Peul de l'Adamaoua"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Fulfulde_Adamawa> a schema:Article ;
+	schema:about wd:Q34776 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Fulfulde Adamawa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kifulfulde-Adamawa> a schema:Article ;
+	schema:about wd:Q34776 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kifulfulde-Adamawa"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://yo.wikipedia.org/wiki/%C3%88d%C3%A8_F%C3%BAl%C3%A0n%C3%AD_Ad%C3%A1m%C3%A1w%C3%A1> a schema:Article ;
+	schema:about wd:Q34776 ;
+	schema:inLanguage "yo" ;
+	schema:isPartOf <https://yo.wikipedia.org/> ;
+	schema:name "Èdè Fúlàní Adámáwá"@yo .
+
+<https://yo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Adamaua-Fulfulde> a schema:Article ;
+	schema:about wd:Q34776 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Adamaua-Fulfulde"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Adamawa_Fulfulde_jezik> a schema:Article ;
+	schema:about wd:Q34776 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Adamawa Fulfulde jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_fula_de_Adamaua> a schema:Article ;
+	schema:about wd:Q34776 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua fula de Adamaua"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q34776 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "fub" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/fub> ;
+	wdt:P279 wd:Q33454 ;
+	wdt:P1394 "adam1253" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/adam1253> ;
+	wdt:P1466 "fua" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_fua> ;
+	wdt:P305 "fub" ;
+	wdt:P3823 wd:Q29051549 ;
+	wdt:P1627 "fub" ;
+	wdt:P17 wd:Q1009,
+		wd:Q657,
+		wd:Q1033 ;
+	wdt:P2341 wd:Q351514,
+		wd:Q823976,
+		wd:Q502341,
+		wd:Q337514,
+		wd:Q463959,
+		wd:Q910393 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/FUB> ;
+	wdt:P646 "/m/02hwsmw" ;
+	rdfs:label "Kifulfulde-Adamawa"@sw ;
+	skos:prefLabel "Kifulfulde-Adamawa"@sw ;
+	schema:name "Kifulfulde-Adamawa"@sw ;
+	rdfs:label "Adamaua-Fulfulde"@de ;
+	skos:prefLabel "Adamaua-Fulfulde"@de ;
+	schema:name "Adamaua-Fulfulde"@de ;
+	rdfs:label "Lenga Fulfulde Adamawa"@pms ;
+	skos:prefLabel "Lenga Fulfulde Adamawa"@pms ;
+	schema:name "Lenga Fulfulde Adamawa"@pms ;
+	rdfs:label "Adamawa Fulfulde jezik"@hr ;
+	skos:prefLabel "Adamawa Fulfulde jezik"@hr ;
+	schema:name "Adamawa Fulfulde jezik"@hr ;
+	rdfs:label "Èdè Fúlàní Adámáwá"@yo ;
+	skos:prefLabel "Èdè Fúlàní Adámáwá"@yo ;
+	schema:name "Èdè Fúlàní Adámáwá"@yo ;
+	rdfs:label "Adamaua-Fulfulde"@ca ;
+	skos:prefLabel "Adamaua-Fulfulde"@ca ;
+	schema:name "Adamaua-Fulfulde"@ca ;
+	rdfs:label "Adamaua-Fulfulde"@oc ;
+	skos:prefLabel "Adamaua-Fulfulde"@oc ;
+	schema:name "Adamaua-Fulfulde"@oc ;
+	rdfs:label "Adamaua-Fulfulde"@en ;
+	skos:prefLabel "Adamaua-Fulfulde"@en ;
+	schema:name "Adamaua-Fulfulde"@en ;
+	rdfs:label "Adamaua-Fulfulde"@nl ;
+	skos:prefLabel "Adamaua-Fulfulde"@nl ;
+	schema:name "Adamaua-Fulfulde"@nl ;
+	rdfs:label "Língua adamaua fulfulde"@pt ;
+	skos:prefLabel "Língua adamaua fulfulde"@pt ;
+	schema:name "Língua adamaua fulfulde"@pt ;
+	rdfs:label "peul de l'Adamaoua"@fr ;
+	skos:prefLabel "peul de l'Adamaoua"@fr ;
+	schema:name "peul de l'Adamaoua"@fr ;
+	schema:description "Dialekt des Fulfulde"@de,
+		"language of Nigeria"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue sénégambienne"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Adamawa-Fulfulde"@de,
+		"Adamawa Fulfulde"@de,
+		"Adamawa Fulfulde"@yo,
+		"adamaua fulani"@en,
+		"Adamawa Fulfulde"@en .
+
+wd:Q61813135 owl:sameAs wd:Q34776 .

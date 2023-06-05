@@ -1,0 +1,231 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56320 a schema:Dataset ;
+	schema:about wd:Q56320 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1866847249"^^xsd:integer ;
+	schema:dateModified "2023-04-02T16:32:45Z"^^xsd:dateTime .
+
+wd:Q56320 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_fas> a schema:Article ;
+	schema:about wd:Q56320 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga fas"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Faseg> a schema:Article ;
+	schema:about wd:Q56320 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Faseg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Fas_language> a schema:Article ;
+	schema:about wd:Q56320 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Fas language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Fas_(jezik)> a schema:Article ;
+	schema:about wd:Q56320 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Fas (jezik)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Fas_(langue)> a schema:Article ;
+	schema:about wd:Q56320 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Fas (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kifas> a schema:Article ;
+	schema:about wd:Q56320 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kifas"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Fas> a schema:Article ;
+	schema:about wd:Q56320 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Fas"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_fas> a schema:Article ;
+	schema:about wd:Q56320 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język fas"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56320 wdt:P220 "fqs" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/fqs> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "fass1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/fass1245> ;
+	wdt:P1466 "fqs" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_fqs> ;
+	wdt:P2192 "1373" ;
+	wdt:P279 wd:Q3502658 ;
+	wdt:P305 "fqs" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P910 wd:Q33669512 ;
+	wdt:P1627 "fqs" ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q753689 ;
+	wdt:P646 "/m/02hxc_f" ;
+	rdfs:label "Lenga fas"@pms ;
+	skos:prefLabel "Lenga fas"@pms ;
+	schema:name "Lenga fas"@pms ;
+	rdfs:label "faseg"@br ;
+	skos:prefLabel "faseg"@br ;
+	schema:name "faseg"@br ;
+	rdfs:label "Fas"@en ;
+	skos:prefLabel "Fas"@en ;
+	schema:name "Fas"@en ;
+	rdfs:label "Fas"@hr ;
+	skos:prefLabel "Fas"@hr ;
+	schema:name "Fas"@hr ;
+	rdfs:label "fas"@es ;
+	skos:prefLabel "fas"@es ;
+	schema:name "fas"@es ;
+	rdfs:label "Język fas"@pl ;
+	skos:prefLabel "Język fas"@pl ;
+	schema:name "Język fas"@pl ;
+	rdfs:label "fas"@fr ;
+	skos:prefLabel "fas"@fr ;
+	schema:name "fas"@fr ;
+	rdfs:label "Kifas"@sw ;
+	skos:prefLabel "Kifas"@sw ;
+	schema:name "Kifas"@sw ;
+	rdfs:label "Fas"@ilo ;
+	skos:prefLabel "Fas"@ilo ;
+	schema:name "Fas"@ilo ;
+	rdfs:label "Fas"@en-gb ;
+	skos:prefLabel "Fas"@en-gb ;
+	schema:name "Fas"@en-gb ;
+	rdfs:label "法斯语"@zh ;
+	skos:prefLabel "法斯语"@zh ;
+	schema:name "法斯语"@zh ;
+	rdfs:label "فاس"@fa ;
+	skos:prefLabel "فاس"@fa ;
+	schema:name "فاس"@fa ;
+	schema:description "lengua de Papúa Nueva Guinea"@es,
+		"Sprache"@de,
+		"bahsa"@ace,
+		"taal"@af,
+		"idioma"@an,
+		"bahasa"@bjn,
+		"ভাষা"@bn,
+		"yezh"@br,
+		"jezik"@bs,
+		"llengua"@ca,
+		"زمان"@ckb,
+		"lingua"@co,
+		"jazyk"@cs,
+		"sprog"@da,
+		"lısan"@diq,
+		"γλώσσα"@el,
+		"langua"@eml,
+		"language"@en,
+		"lingvo"@eo,
+		"keel"@et,
+		"hizkuntza"@eu,
+		"luenga"@ext,
+		"زبان"@fa,
+		"kieli"@fi,
+		"langue fas parlée en Papouasie-Nouvelle-Guinée"@fr,
+		"lengoua"@frp,
+		"lenghe"@fur,
+		"taal"@fy,
+		"teanga"@ga,
+		"lingua"@gl,
+		"ભાષા"@gu,
+		"שפה"@he,
+		"nyelv"@hu,
+		"bahasa"@id,
+		"linguo"@io,
+		"tungumál"@is,
+		"lingua"@it,
+		"言語"@ja,
+		"basa"@jv,
+		"ndinga"@kg,
+		"언어"@ko,
+		"lingua"@la,
+		"kalba"@lt,
+		"valoda"@lv,
+		"語言"@lzh,
+		"fiteny"@mg,
+		"bahaso"@min,
+		"јазик"@mk,
+		"bahasa"@ms,
+		"språk"@nb,
+		"Spraak"@nds,
+		"taal"@nl,
+		"språk"@nn,
+		"langue"@pcd,
+		"język"@pl,
+		"língua"@pt,
+		"limba"@ro,
+		"язык"@ru,
+		"jazyk"@sk,
+		"basa"@su,
+		"språk"@sv,
+		"reo"@ty,
+		"tiếng"@vi,
+		"làkk"@wo,
+		"语言"@zh,
+		"语言"@zh-hans,
+		"語言"@zh-hant,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"iaith"@cy ;
+	skos:altLabel "Fas language"@en,
+		"Momu"@en,
+		"فاز"@fa .
+
+wd:Q11732183 owl:sameAs wd:Q56320 .

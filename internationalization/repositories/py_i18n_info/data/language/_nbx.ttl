@@ -1,0 +1,92 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q13653138 a schema:Dataset ;
+	schema:about wd:Q13653138 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1579864091"^^xsd:integer ;
+	schema:dateModified "2022-02-19T17:11:38Z"^^xsd:dateTime .
+
+wd:Q13653138 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_ngura> a schema:Article ;
+	schema:about wd:Q13653138 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga ngura"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikarniki_cha_Mashariki> a schema:Article ;
+	schema:about wd:Q13653138 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikarniki cha Mashariki"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ngura_languages> a schema:Article ;
+	schema:about wd:Q13653138 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ngura languages"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q13653138 wdt:P31 wd:Q25295 ;
+	wdt:P220 "nbx" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nbx> ;
+	wdt:P1394 "ngur1261" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ngur1261> ;
+	wdt:P279 wd:Q4215578 ;
+	wdt:P305 "nbx" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NBX> ;
+	wdt:P646 "/m/0jkylvx" ;
+	rdfs:label "Ngura"@en ;
+	skos:prefLabel "Ngura"@en ;
+	schema:name "Ngura"@en ;
+	rdfs:label "Lenga ngura"@pms ;
+	skos:prefLabel "Lenga ngura"@pms ;
+	schema:name "Lenga ngura"@pms ;
+	rdfs:label "ngura"@fr ;
+	skos:prefLabel "ngura"@fr ;
+	schema:name "ngura"@fr ;
+	rdfs:label "Kikarniki cha Mashariki"@sw ;
+	skos:prefLabel "Kikarniki cha Mashariki"@sw ;
+	schema:name "Kikarniki cha Mashariki"@sw ;
+	rdfs:label "ngura"@vec ;
+	skos:prefLabel "ngura"@vec ;
+	schema:name "ngura"@vec ;
+	schema:description "famille de langues"@fr,
+		"familh yezhoù"@br,
+		"extinct Australian Aboriginal language"@en ;
+	skos:altLabel "Ngura languages"@en .

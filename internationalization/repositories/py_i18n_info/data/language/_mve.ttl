@@ -1,0 +1,85 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q67093214 a schema:Dataset ;
+	schema:about wd:Q67093214 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1873678944"^^xsd:integer ;
+	schema:dateModified "2023-04-12T22:56:02Z"^^xsd:dateTime .
+
+wd:Q67093214 a wikibase:Item .
+
+<https://skr.wikipedia.org/wiki/%D9%85%D8%A7%D8%B1%D9%88%D8%A7%DA%91%DB%8C> a schema:Article ;
+	schema:about wd:Q67093214 ;
+	schema:inLanguage "skr" ;
+	schema:isPartOf <https://skr.wikipedia.org/> ;
+	schema:name "مارواڑی"@skr .
+
+<https://skr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q67093214 wdt:P31 wd:Q1288568 ;
+	wdt:P220 "mve" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mve> ;
+	wdt:P305 "mve" ;
+	a wdno:P424 ;
+	wdt:P282 wd:Q1828555 ;
+	wdt:P276 wd:Q4478,
+		wd:Q37211 ;
+	wdt:P1889 wd:Q65455884 ;
+	wdt:P17 wd:Q843 ;
+	wdt:P4132 wd:Q539808 ;
+	wdt:P1098 "+146000"^^xsd:decimal ;
+	wdt:P1627 "mve" ;
+	wdt:P3823 wd:Q29051550 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MVE> ;
+	wdt:P279 wd:Q56312 ;
+	rdfs:label "marvari (Pakistan)"@fr ;
+	skos:prefLabel "marvari (Pakistan)"@fr ;
+	schema:name "marvari (Pakistan)"@fr ;
+	rdfs:label "Marwari"@en ;
+	skos:prefLabel "Marwari"@en ;
+	schema:name "Marwari"@en ;
+	rdfs:label "مارواڑی‎"@pnb ;
+	skos:prefLabel "مارواڑی‎"@pnb ;
+	schema:name "مارواڑی‎"@pnb ;
+	rdfs:label "مارواڑی"@skr ;
+	skos:prefLabel "مارواڑی"@skr ;
+	schema:name "مارواڑی"@skr ;
+	schema:description "langue indo-aryenne"@fr,
+		"Indo-Aryan language spoken in Pakistan"@en ;
+	skos:altLabel "Jaiselmer"@en,
+		"Marawar"@en,
+		"Merwari"@en,
+		"Rajasthani"@en,
+		"Mārwāṛī"@en,
+		"mve"@en,
+		"marwari (Pakistan)"@fr .

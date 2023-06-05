@@ -1,0 +1,141 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5196729 a schema:Dataset ;
+	schema:about wd:Q5196729 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1901127865"^^xsd:integer ;
+	schema:dateModified "2023-05-22T17:57:55Z"^^xsd:dateTime .
+
+wd:Q5196729 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_cutchi-swahili> a schema:Article ;
+	schema:about wd:Q5196729 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga cutchi-swahili"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Cutchi-Swahili_jezik> a schema:Article ;
+	schema:about wd:Q5196729 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Cutchi-Swahili jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gu.wikipedia.org/wiki/%E0%AA%95%E0%AA%9A%E0%AB%8D%E0%AA%9B%E0%AB%80-%E0%AA%B8%E0%AB%8D%E0%AA%B5%E0%AA%BE%E0%AA%B9%E0%AA%BF%E0%AA%B2%E0%AB%80> a schema:Article ;
+	schema:about wd:Q5196729 ;
+	schema:inLanguage "gu" ;
+	schema:isPartOf <https://gu.wikipedia.org/> ;
+	schema:name "કચ્છી-સ્વાહિલી"@gu .
+
+<https://gu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mr.wikipedia.org/wiki/%E0%A4%95%E0%A4%9A%E0%A5%8D%E0%A4%9B%E0%A5%80-%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%B2%E0%A5%80> a schema:Article ;
+	schema:about wd:Q5196729 ;
+	schema:inLanguage "mr" ;
+	schema:isPartOf <https://mr.wikipedia.org/> ;
+	schema:name "कच्छी-स्वाहिली"@mr .
+
+<https://mr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kutchi-Swahili> a schema:Article ;
+	schema:about wd:Q5196729 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kutchi-Swahili"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kutchi-Swahili> a schema:Article ;
+	schema:about wd:Q5196729 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kutchi-Swahili"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5196729 wdt:P220 "ccl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ccl> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "cutc1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/cutc1238> ;
+	wdt:P305 "ccl" ;
+	wdt:P1627 "ccl" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q924 ;
+	wdt:P2341 wd:Q329261,
+		wd:Q213268,
+		wd:Q458412,
+		wd:Q331117 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CCL> ;
+	wdt:P646 "/m/02hwx5j" ;
+	wdt:P279 wd:Q7057848 ;
+	rdfs:label "Cutchi-Swahili"@en ;
+	skos:prefLabel "Cutchi-Swahili"@en ;
+	schema:name "Cutchi-Swahili"@en ;
+	rdfs:label "Lenga cutchi-swahili"@pms ;
+	skos:prefLabel "Lenga cutchi-swahili"@pms ;
+	schema:name "Lenga cutchi-swahili"@pms ;
+	rdfs:label "Cutchi-Swahili jezik"@hr ;
+	skos:prefLabel "Cutchi-Swahili jezik"@hr ;
+	schema:name "Cutchi-Swahili jezik"@hr ;
+	rdfs:label "Cutchi-Swahili"@en-gb ;
+	skos:prefLabel "Cutchi-Swahili"@en-gb ;
+	schema:name "Cutchi-Swahili"@en-gb ;
+	rdfs:label "કચ્છી-સ્વાહિલી"@gu ;
+	skos:prefLabel "કચ્છી-સ્વાહિલી"@gu ;
+	schema:name "કચ્છી-સ્વાહિલી"@gu ;
+	rdfs:label "कच्छी-स्वाहिली"@mr ;
+	skos:prefLabel "कच्छी-स्वाहिली"@mr ;
+	schema:name "कच्छी-स्वाहिली"@mr ;
+	rdfs:label "Kutchi-Swahili"@sw ;
+	skos:prefLabel "Kutchi-Swahili"@sw ;
+	schema:name "Kutchi-Swahili"@sw ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kutchi-Swahili"@en .
+
+wd:Q12629418 owl:sameAs wd:Q5196729 .
+
+wd:Q12953462 owl:sameAs wd:Q5196729 .

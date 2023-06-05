@@ -1,0 +1,128 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7958705 a schema:Dataset ;
+	schema:about wd:Q7958705 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1372704018"^^xsd:integer ;
+	schema:dateModified "2021-03-01T00:06:01Z"^^xsd:dateTime .
+
+wd:Q7958705 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Waboda> a schema:Article ;
+	schema:about wd:Q7958705 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Waboda"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Waboda> a schema:Article ;
+	schema:about wd:Q7958705 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Waboda"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Waboda> a schema:Article ;
+	schema:about wd:Q7958705 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Waboda"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiwaboda> a schema:Article ;
+	schema:about wd:Q7958705 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiwaboda"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Waboda_language> a schema:Article ;
+	schema:about wd:Q7958705 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Waboda language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7958705 wdt:P361 wd:Q34018 ;
+	wdt:P220 "kmx" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kmx> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q236425 ;
+	wdt:P1394 "wabo1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/wabo1241> ;
+	wdt:P305 "kmx" ;
+	wdt:P1627 "kmx" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q849790 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KMX> ;
+	wdt:P646 "/m/02hwlkf" ;
+	wdt:P910 wd:Q33672878 ;
+	rdfs:label "Waboda"@en ;
+	skos:prefLabel "Waboda"@en ;
+	schema:name "Waboda"@en ;
+	rdfs:label "Lenga Waboda"@pms ;
+	skos:prefLabel "Lenga Waboda"@pms ;
+	schema:name "Lenga Waboda"@pms ;
+	rdfs:label "waboda"@fr ;
+	skos:prefLabel "waboda"@fr ;
+	schema:name "waboda"@fr ;
+	rdfs:label "Kiwaboda"@sw ;
+	skos:prefLabel "Kiwaboda"@sw ;
+	schema:name "Kiwaboda"@sw ;
+	rdfs:label "Waboda"@ilo ;
+	skos:prefLabel "Waboda"@ilo ;
+	schema:name "Waboda"@ilo ;
+	rdfs:label "Waboda"@en-gb ;
+	skos:prefLabel "Waboda"@en-gb ;
+	schema:name "Waboda"@en-gb ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Waboda language"@en .
+
+wd:Q12953267 owl:sameAs wd:Q7958705 .

@@ -1,0 +1,102 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4856243 a schema:Dataset ;
+	schema:about wd:Q4856243 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1540190064"^^xsd:integer ;
+	schema:dateModified "2021-12-08T01:51:55Z"^^xsd:dateTime .
+
+wd:Q4856243 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Bankan_Tey_Dogon> a schema:Article ;
+	schema:about wd:Q4856243 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Bankan Tey Dogon"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kidogon,_Walo_Kumbe> a schema:Article ;
+	schema:about wd:Q4856243 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kidogon, Walo Kumbe"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4856243 wdt:P220 "dbw" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dbw> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "bank1259" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/bank1259> ;
+	wdt:P2192 "8732" ;
+	wdt:P910 wd:Q33666707 ;
+	wdt:P279 wd:Q1234776 ;
+	wdt:P305 "dbw" ;
+	wdt:P1627 "dbw" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q912 ;
+	wdt:P2341 wd:Q214155 ;
+	wdt:P646 "/m/0gy1znh" ;
+	rdfs:label "Bankan Tey Dogon"@en ;
+	skos:prefLabel "Bankan Tey Dogon"@en ;
+	schema:name "Bankan Tey Dogon"@en ;
+	rdfs:label "Kidogon, Walo Kumbe"@sw ;
+	skos:prefLabel "Kidogon, Walo Kumbe"@sw ;
+	schema:name "Kidogon, Walo Kumbe"@sw ;
+	rdfs:label "Bankan Tey Dogon"@en-gb ;
+	skos:prefLabel "Bankan Tey Dogon"@en-gb ;
+	schema:name "Bankan Tey Dogon"@en-gb ;
+	rdfs:label "bankan tey"@fr ;
+	skos:prefLabel "bankan tey"@fr ;
+	schema:name "bankan tey"@fr ;
+	rdfs:label "Wikang Bankan Tey"@tl ;
+	skos:prefLabel "Wikang Bankan Tey"@tl ;
+	schema:name "Wikang Bankan Tey"@tl ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"language"@en,
+		"langue dogon"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kiwalo-Kumbe"@sw,
+		"Bankan Tey"@en .
+
+wd:Q50934455 owl:sameAs wd:Q4856243 .
+
+wd:Q61094671 owl:sameAs wd:Q4856243 .

@@ -1,0 +1,145 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q15549890 a schema:Dataset ;
+	schema:about wd:Q15549890 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1727762114"^^xsd:integer ;
+	schema:dateModified "2022-09-13T10:23:28Z"^^xsd:dateTime .
+
+wd:Q15549890 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_ahirani> a schema:Article ;
+	schema:about wd:Q15549890 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga ahirani"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiahirani> a schema:Article ;
+	schema:about wd:Q15549890 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiahirani"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%92%E3%83%A9%E3%83%BC%E3%83%8B%E3%83%BC%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q15549890 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "アヒラーニー語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_ahirani> a schema:Article ;
+	schema:about wd:Q15549890 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua ahirani"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Ahirani_(jezik)> a schema:Article ;
+	schema:about wd:Q15549890 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Ahirani (jezik)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q15549890 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "ahr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ahr> ;
+	wdt:P279 wd:Q33726 ;
+	wdt:P3417 "Ahirani-Language" ;
+	wdt:P460 wd:Q33726 ;
+	wdt:P1394 "ahir1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ahir1243> ;
+	wdt:P305 "ahr" ;
+	wdt:P1627 "ahr" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1061,
+		wd:Q1191 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/AHR> ;
+	wdt:P910 wd:Q105714499 ;
+	wdt:P646 "/m/0d0bk8" ;
+	wdt:P4839 "Entity[\"Language\", \"Ahirani::v8srr\"]",
+		"Entity[\"Language\", \"Ahirani\"]" ;
+	wdt:P4913 wd:Q1571 ;
+	rdfs:label "ahirani"@fr ;
+	skos:prefLabel "ahirani"@fr ;
+	schema:name "ahirani"@fr ;
+	rdfs:label "Ahirani"@en ;
+	skos:prefLabel "Ahirani"@en ;
+	schema:name "Ahirani"@en ;
+	rdfs:label "Ahirani"@nl ;
+	skos:prefLabel "Ahirani"@nl ;
+	schema:name "Ahirani"@nl ;
+	rdfs:label "Ahirani"@de ;
+	skos:prefLabel "Ahirani"@de ;
+	schema:name "Ahirani"@de ;
+	rdfs:label "Ahirani"@hr ;
+	skos:prefLabel "Ahirani"@hr ;
+	schema:name "Ahirani"@hr ;
+	rdfs:label "Lingua ahirani"@gl ;
+	skos:prefLabel "Lingua ahirani"@gl ;
+	schema:name "Lingua ahirani"@gl ;
+	rdfs:label "Lenga ahirani"@pms ;
+	skos:prefLabel "Lenga ahirani"@pms ;
+	schema:name "Lenga ahirani"@pms ;
+	rdfs:label "アヒラーニー語"@ja ;
+	skos:prefLabel "アヒラーニー語"@ja ;
+	schema:name "アヒラーニー語"@ja ;
+	rdfs:label "Kiahirani"@sw ;
+	skos:prefLabel "Kiahirani"@sw ;
+	schema:name "Kiahirani"@sw ;
+	rdfs:label "Ahirani"@en-gb ;
+	skos:prefLabel "Ahirani"@en-gb ;
+	schema:name "Ahirani"@en-gb ;
+	schema:description "indogermanische Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"Indo European language"@en,
+		"langue indo-aryenne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"iaith"@cy,
+		"lingua"@la,
+		"ভারতীয় ভাষা"@bn ;
+	skos:altLabel "Ahirani language"@en .
+
+wd:Q15614236 owl:sameAs wd:Q15549890 .

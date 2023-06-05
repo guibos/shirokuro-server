@@ -1,0 +1,133 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6743201 a schema:Dataset ;
+	schema:about wd:Q6743201 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1958507068"^^xsd:integer ;
+	schema:dateModified "2023-08-22T01:29:49Z"^^xsd:dateTime .
+
+wd:Q6743201 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_malgana> a schema:Article ;
+	schema:about wd:Q6743201 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga malgana"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Malgana> a schema:Article ;
+	schema:about wd:Q6743201 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Malgana"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimalgana> a schema:Article ;
+	schema:about wd:Q6743201 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimalgana"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Malgana_language> a schema:Article ;
+	schema:about wd:Q6743201 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Malgana language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%B0%94%E5%8A%A0%E7%BA%B3%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q6743201 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "马尔加纳语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6743201 wdt:P220 "vml" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/vml> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "malg1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/malg1242> ;
+	wdt:P279 wd:Q6373586 ;
+	wdt:P910 wd:Q36161648 ;
+	wdt:P305 "vml" ;
+	wdt:P1252 "W18" ;
+	wdt:P2192 "6672" ;
+	wdt:P1627 "vml" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3206 ;
+	wdt:P6915 "Malgana" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/VML> ;
+	wdt:P646 "/m/08jpz7" ;
+	rdfs:label "Malgana"@en ;
+	skos:prefLabel "Malgana"@en ;
+	schema:name "Malgana"@en ;
+	rdfs:label "Lenga malgana"@pms ;
+	skos:prefLabel "Lenga malgana"@pms ;
+	schema:name "Lenga malgana"@pms ;
+	rdfs:label "Malgana"@sv ;
+	skos:prefLabel "Malgana"@sv ;
+	schema:name "Malgana"@sv ;
+	rdfs:label "马尔加纳语"@zh ;
+	skos:prefLabel "马尔加纳语"@zh ;
+	schema:name "马尔加纳语"@zh ;
+	rdfs:label "Malgana"@en-gb ;
+	skos:prefLabel "Malgana"@en-gb ;
+	schema:name "Malgana"@en-gb ;
+	rdfs:label "Kimalgana"@sw ;
+	skos:prefLabel "Kimalgana"@sw ;
+	schema:name "Kimalgana"@sw ;
+	rdfs:label "malgana"@fr ;
+	skos:prefLabel "malgana"@fr ;
+	schema:name "malgana"@fr ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"lugha ya asili ya Australia iliyotoweka"@sw,
+		"langue pama-nyungan"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language of Western Australia"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"utdött australiskt språk"@sv ;
+	skos:altLabel "Malgana language"@en .

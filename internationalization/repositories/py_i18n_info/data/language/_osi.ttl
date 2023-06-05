@@ -1,0 +1,498 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2701322 a schema:Dataset ;
+	schema:about wd:Q2701322 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1907143332"^^xsd:integer ;
+	schema:dateModified "2023-06-03T06:58:47Z"^^xsd:dateTime .
+
+wd:Q2701322 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Osing> a schema:Article ;
+	schema:about wd:Q2701322 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Osing"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9E%D1%81%D0%B8%D0%BD%D0%B3> a schema:Article ;
+	schema:about wd:Q2701322 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Осинг"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jv.wikipedia.org/wiki/Basa_Using> a schema:Article ;
+	schema:about wd:Q2701322 ;
+	schema:inLanguage "jv" ;
+	schema:isPartOf <https://jv.wikipedia.org/> ;
+	schema:name "Basa Using"@jv .
+
+<https://jv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Osing_language> a schema:Article ;
+	schema:about wd:Q2701322 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Osing language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Diyalektong_Osing> a schema:Article ;
+	schema:about wd:Q2701322 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Diyalektong Osing"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%82%E0%B8%AD%E0%B8%8B%E0%B8%B4%E0%B8%87> a schema:Article ;
+	schema:about wd:Q2701322 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาโอซิง"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://diq.wikipedia.org/wiki/Osingki> a schema:Article ;
+	schema:about wd:Q2701322 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Osingki"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Dialekto_nga_Osing> a schema:Article ;
+	schema:about wd:Q2701322 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Dialekto nga Osing"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%9E%D1%81%D0%B8%D0%BD%D1%88%D0%BA%D0%B8_%D0%B4%D0%B8%D1%98%D0%B0%D0%BB%D0%B5%D0%BA%D1%82> a schema:Article ;
+	schema:about wd:Q2701322 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Осиншки дијалект"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiosing> a schema:Article ;
+	schema:about wd:Q2701322 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiosing"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Osing> a schema:Article ;
+	schema:about wd:Q2701322 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Osing"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_osing> a schema:Article ;
+	schema:about wd:Q2701322 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua osing"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://map-bms.wikipedia.org/wiki/Dialek_Banyuwangi> a schema:Article ;
+	schema:about wd:Q2701322 ;
+	schema:inLanguage "jv-x-bms" ;
+	schema:isPartOf <https://map-bms.wikipedia.org/> ;
+	schema:name "Dialek Banyuwangi"@jv-x-bms .
+
+<https://map-bms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Osing> a schema:Article ;
+	schema:about wd:Q2701322 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Osing"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikivoyage.org/wiki/Osing_phrasebook> a schema:Article ;
+	schema:about wd:Q2701322 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikivoyage.org/> ;
+	schema:name "Osing phrasebook"@en .
+
+<https://en.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://id.wiktionary.org/wiki/bahasa_Osing> a schema:Article ;
+	schema:about wd:Q2701322 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wiktionary.org/> ;
+	schema:name "bahasa Osing"@id .
+
+<https://id.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://commons.wikimedia.org/wiki/Category:Osing_language> a schema:Article ;
+	schema:about wd:Q2701322 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "Category:Osing language"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+wd:Q2701322 wdt:P220 "osi" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/osi> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/02hx7pb" ;
+	wdt:P279 wd:Q12509159 ;
+	wdt:P1394 "osin1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/osin1237> ;
+	wdt:P2590 "0090 2" ;
+	wdt:P1705 "basa Osing"@und ;
+	wdt:P17 wd:Q252 ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P276 wd:Q3586,
+		wd:Q11067 ;
+	wdt:P1098 "+300000"^^xsd:decimal ;
+	wdt:P305 "osi" ;
+	wdt:P1627 "osi" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q3125978,
+		wd:Q3586,
+		wd:Q3757 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/OSI> ;
+	wdt:P373 "Osing language" ;
+	rdfs:label "Osing"@id ;
+	skos:prefLabel "Osing"@id ;
+	schema:name "Osing"@id ;
+	rdfs:label "Basa Osing"@jv ;
+	skos:prefLabel "Basa Osing"@jv ;
+	schema:name "Basa Osing"@jv ;
+	rdfs:label "Osing"@en ;
+	skos:prefLabel "Osing"@en ;
+	schema:name "Osing"@en ;
+	rdfs:label "Осиншки дијалект"@mk ;
+	skos:prefLabel "Осиншки дијалект"@mk ;
+	schema:name "Осиншки дијалект"@mk ;
+	rdfs:label "Osing"@ms ;
+	skos:prefLabel "Osing"@ms ;
+	schema:name "Osing"@ms ;
+	rdfs:label "lingua osing"@it ;
+	skos:prefLabel "lingua osing"@it ;
+	schema:name "lingua osing"@it ;
+	rdfs:label "Осинг"@ru ;
+	skos:prefLabel "Осинг"@ru ;
+	schema:name "Осинг"@ru ;
+	rdfs:label "Lenga Osing"@pms ;
+	skos:prefLabel "Lenga Osing"@pms ;
+	schema:name "Lenga Osing"@pms ;
+	rdfs:label "Kiosing"@sw ;
+	skos:prefLabel "Kiosing"@sw ;
+	schema:name "Kiosing"@sw ;
+	rdfs:label "ภาษาโอซิง"@th ;
+	skos:prefLabel "ภาษาโอซิง"@th ;
+	schema:name "ภาษาโอซิง"@th ;
+	rdfs:label "Osing"@nl ;
+	skos:prefLabel "Osing"@nl ;
+	schema:name "Osing"@nl ;
+	rdfs:label "Osing"@ace ;
+	skos:prefLabel "Osing"@ace ;
+	schema:name "Osing"@ace ;
+	rdfs:label "Osing"@af ;
+	skos:prefLabel "Osing"@af ;
+	schema:name "Osing"@af ;
+	rdfs:label "Osing"@an ;
+	skos:prefLabel "Osing"@an ;
+	schema:name "Osing"@an ;
+	rdfs:label "Osing"@ast ;
+	skos:prefLabel "Osing"@ast ;
+	schema:name "Osing"@ast ;
+	rdfs:label "Osing"@bar ;
+	skos:prefLabel "Osing"@bar ;
+	schema:name "Osing"@bar ;
+	rdfs:label "osing"@br ;
+	skos:prefLabel "osing"@br ;
+	schema:name "osing"@br ;
+	rdfs:label "osing"@ca ;
+	skos:prefLabel "osing"@ca ;
+	schema:name "osing"@ca ;
+	rdfs:label "Osing"@co ;
+	skos:prefLabel "Osing"@co ;
+	schema:name "Osing"@co ;
+	rdfs:label "Osing"@cs ;
+	skos:prefLabel "Osing"@cs ;
+	schema:name "Osing"@cs ;
+	rdfs:label "Osing"@cy ;
+	skos:prefLabel "Osing"@cy ;
+	schema:name "Osing"@cy ;
+	rdfs:label "Osing"@da ;
+	skos:prefLabel "Osing"@da ;
+	schema:name "Osing"@da ;
+	rdfs:label "Osing"@de ;
+	skos:prefLabel "Osing"@de ;
+	schema:name "Osing"@de ;
+	rdfs:label "Osing"@de-at ;
+	skos:prefLabel "Osing"@de-at ;
+	schema:name "Osing"@de-at ;
+	rdfs:label "Osing"@de-ch ;
+	skos:prefLabel "Osing"@de-ch ;
+	schema:name "Osing"@de-ch ;
+	rdfs:label "Osing"@en-ca ;
+	skos:prefLabel "Osing"@en-ca ;
+	schema:name "Osing"@en-ca ;
+	rdfs:label "Osing"@en-gb ;
+	skos:prefLabel "Osing"@en-gb ;
+	schema:name "Osing"@en-gb ;
+	rdfs:label "Osing"@eo ;
+	skos:prefLabel "Osing"@eo ;
+	schema:name "Osing"@eo ;
+	rdfs:label "Osing"@es ;
+	skos:prefLabel "Osing"@es ;
+	schema:name "Osing"@es ;
+	rdfs:label "Osing"@et ;
+	skos:prefLabel "Osing"@et ;
+	schema:name "Osing"@et ;
+	rdfs:label "Osing"@eu ;
+	skos:prefLabel "Osing"@eu ;
+	schema:name "Osing"@eu ;
+	rdfs:label "Osing"@fi ;
+	skos:prefLabel "Osing"@fi ;
+	schema:name "Osing"@fi ;
+	rdfs:label "osing"@fr ;
+	skos:prefLabel "osing"@fr ;
+	schema:name "osing"@fr ;
+	rdfs:label "Osing"@frp ;
+	skos:prefLabel "Osing"@frp ;
+	schema:name "Osing"@frp ;
+	rdfs:label "Osing"@fur ;
+	skos:prefLabel "Osing"@fur ;
+	schema:name "Osing"@fur ;
+	rdfs:label "Osing"@ga ;
+	skos:prefLabel "Osing"@ga ;
+	schema:name "Osing"@ga ;
+	rdfs:label "Osing"@gd ;
+	skos:prefLabel "Osing"@gd ;
+	schema:name "Osing"@gd ;
+	rdfs:label "Osing"@gl ;
+	skos:prefLabel "Osing"@gl ;
+	schema:name "Osing"@gl ;
+	rdfs:label "Osing"@gsw ;
+	skos:prefLabel "Osing"@gsw ;
+	schema:name "Osing"@gsw ;
+	rdfs:label "Osing"@hr ;
+	skos:prefLabel "Osing"@hr ;
+	schema:name "Osing"@hr ;
+	rdfs:label "Osing"@hu ;
+	skos:prefLabel "Osing"@hu ;
+	schema:name "Osing"@hu ;
+	rdfs:label "Osing"@ia ;
+	skos:prefLabel "Osing"@ia ;
+	schema:name "Osing"@ia ;
+	rdfs:label "Osing"@ie ;
+	skos:prefLabel "Osing"@ie ;
+	schema:name "Osing"@ie ;
+	rdfs:label "Osing"@io ;
+	skos:prefLabel "Osing"@io ;
+	schema:name "Osing"@io ;
+	rdfs:label "Osing"@is ;
+	skos:prefLabel "Osing"@is ;
+	schema:name "Osing"@is ;
+	rdfs:label "Osing"@kg ;
+	skos:prefLabel "Osing"@kg ;
+	schema:name "Osing"@kg ;
+	rdfs:label "Osing"@lb ;
+	skos:prefLabel "Osing"@lb ;
+	schema:name "Osing"@lb ;
+	rdfs:label "Osing"@li ;
+	skos:prefLabel "Osing"@li ;
+	schema:name "Osing"@li ;
+	rdfs:label "Osing"@lij ;
+	skos:prefLabel "Osing"@lij ;
+	schema:name "Osing"@lij ;
+	rdfs:label "Osing"@mg ;
+	skos:prefLabel "Osing"@mg ;
+	schema:name "Osing"@mg ;
+	rdfs:label "Osing"@min ;
+	skos:prefLabel "Osing"@min ;
+	schema:name "Osing"@min ;
+	rdfs:label "Osing"@nap ;
+	skos:prefLabel "Osing"@nap ;
+	schema:name "Osing"@nap ;
+	rdfs:label "Osing"@nb ;
+	skos:prefLabel "Osing"@nb ;
+	schema:name "Osing"@nb ;
+	rdfs:label "Osing"@nds ;
+	skos:prefLabel "Osing"@nds ;
+	schema:name "Osing"@nds ;
+	rdfs:label "Osing"@nds-nl ;
+	skos:prefLabel "Osing"@nds-nl ;
+	schema:name "Osing"@nds-nl ;
+	rdfs:label "Osing"@nn ;
+	skos:prefLabel "Osing"@nn ;
+	schema:name "Osing"@nn ;
+	rdfs:label "Osing"@nrm ;
+	skos:prefLabel "Osing"@nrm ;
+	schema:name "Osing"@nrm ;
+	rdfs:label "Osing"@oc ;
+	skos:prefLabel "Osing"@oc ;
+	schema:name "Osing"@oc ;
+	rdfs:label "Osing"@pcd ;
+	skos:prefLabel "Osing"@pcd ;
+	schema:name "Osing"@pcd ;
+	rdfs:label "Osing"@pl ;
+	skos:prefLabel "Osing"@pl ;
+	schema:name "Osing"@pl ;
+	rdfs:label "Osing"@pt ;
+	skos:prefLabel "Osing"@pt ;
+	schema:name "Osing"@pt ;
+	rdfs:label "Osing"@pt-br ;
+	skos:prefLabel "Osing"@pt-br ;
+	schema:name "Osing"@pt-br ;
+	rdfs:label "Osing"@rm ;
+	skos:prefLabel "Osing"@rm ;
+	schema:name "Osing"@rm ;
+	rdfs:label "Osing"@ro ;
+	skos:prefLabel "Osing"@ro ;
+	schema:name "Osing"@ro ;
+	rdfs:label "Osing"@sc ;
+	skos:prefLabel "Osing"@sc ;
+	schema:name "Osing"@sc ;
+	rdfs:label "Osing"@scn ;
+	skos:prefLabel "Osing"@scn ;
+	schema:name "Osing"@scn ;
+	rdfs:label "Osing"@sco ;
+	skos:prefLabel "Osing"@sco ;
+	schema:name "Osing"@sco ;
+	rdfs:label "Osing"@sk ;
+	skos:prefLabel "Osing"@sk ;
+	schema:name "Osing"@sk ;
+	rdfs:label "Osing"@sl ;
+	skos:prefLabel "Osing"@sl ;
+	schema:name "Osing"@sl ;
+	rdfs:label "Osing"@sr-el ;
+	skos:prefLabel "Osing"@sr-el ;
+	schema:name "Osing"@sr-el ;
+	rdfs:label "Osing"@su ;
+	skos:prefLabel "Osing"@su ;
+	schema:name "Osing"@su ;
+	rdfs:label "Osing"@sv ;
+	skos:prefLabel "Osing"@sv ;
+	schema:name "Osing"@sv ;
+	rdfs:label "Osing"@vec ;
+	skos:prefLabel "Osing"@vec ;
+	schema:name "Osing"@vec ;
+	rdfs:label "Osing"@vi ;
+	skos:prefLabel "Osing"@vi ;
+	schema:name "Osing"@vi ;
+	rdfs:label "Osing"@vls ;
+	skos:prefLabel "Osing"@vls ;
+	schema:name "Osing"@vls ;
+	rdfs:label "Osing"@vo ;
+	skos:prefLabel "Osing"@vo ;
+	schema:name "Osing"@vo ;
+	rdfs:label "Osing"@wa ;
+	skos:prefLabel "Osing"@wa ;
+	schema:name "Osing"@wa ;
+	rdfs:label "Osing"@wo ;
+	skos:prefLabel "Osing"@wo ;
+	schema:name "Osing"@wo ;
+	rdfs:label "Osing"@zu ;
+	skos:prefLabel "Osing"@zu ;
+	schema:name "Osing"@zu ;
+	rdfs:label "Osing"@ilo ;
+	skos:prefLabel "Osing"@ilo ;
+	schema:name "Osing"@ilo ;
+	rdfs:label "Osingki"@diq ;
+	skos:prefLabel "Osingki"@diq ;
+	schema:name "Osingki"@diq ;
+	rdfs:label "ウシン語"@ja ;
+	skos:prefLabel "ウシン語"@ja ;
+	schema:name "ウシン語"@ja ;
+	rdfs:label "Wikaing Osing"@tl ;
+	skos:prefLabel "Wikaing Osing"@tl ;
+	schema:name "Wikaing Osing"@tl ;
+	rdfs:label "Dialek Banyuwangi"@map-bms ;
+	skos:prefLabel "Dialek Banyuwangi"@map-bms ;
+	schema:name "Dialek Banyuwangi"@map-bms ;
+	rdfs:label "Diyalektong Osing"@bcl ;
+	skos:prefLabel "Diyalektong Osing"@bcl ;
+	schema:name "Diyalektong Osing"@bcl ;
+	rdfs:label "歐信族語"@zh ;
+	skos:prefLabel "歐信族語"@zh ;
+	schema:name "歐信族語"@zh ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"pagsasao idiay Indonesia"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Javanic language spoken predominantly by the Osing ethnic gruoup"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"bahasa Jawanik bangsa Osing"@ms ;
+	skos:altLabel "Bahasa Osing"@id,
+		"bahasa osing"@id,
+		"bahasa Osing"@id,
+		"Bahasa osing"@id,
+		"Using"@id,
+		"Bahasa Using"@id,
+		"bahasa using"@id,
+		"bahasa Using"@id,
+		"Bahasa using"@id,
+		"Osing language"@en,
+		"Using"@en,
+		"Using language"@en,
+		"Ousing"@en,
+		"Ousing language"@en,
+		"歐信語"@zh,
+		"歐信族語言"@zh,
+		"Osing-taal"@nl,
+		"Bahasa Osing"@ms .
+
+wd:Q12953001 owl:sameAs wd:Q2701322 .
+
+wd:Q24705492 owl:sameAs wd:Q2701322 .
+
+wd:Q25664192 owl:sameAs wd:Q2701322 .
+
+wd:Q31441463 owl:sameAs wd:Q2701322 .
+
+wd:Q32168476 owl:sameAs wd:Q2701322 .

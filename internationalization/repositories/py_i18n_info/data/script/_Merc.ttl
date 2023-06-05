@@ -1,0 +1,77 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q73028124 a schema:Dataset ;
+	schema:about wd:Q73028124 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1745980881"^^xsd:integer ;
+	schema:dateModified "2022-10-08T13:32:12Z"^^xsd:dateTime .
+
+wd:Q73028124 a wikibase:Item .
+
+<https://commons.wikimedia.org/wiki/Category:Meroitic_Cursive> a schema:Article ;
+	schema:about wd:Q73028124 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "Category:Meroitic Cursive"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+wd:Q73028124 wdt:P31 wd:Q335806,
+		wd:Q29517555,
+		wd:Q4004706 ;
+	wdt:P2620 "101" ;
+	wdt:P506 "Merc" ;
+	wdt:P279 wd:Q1164926 ;
+	wdt:P1299 wd:Q2494006 ;
+	wdt:P5949 "U+109A0-109FF" ;
+	wdt:P1406 wd:Q7333457 ;
+	wdt:P2561 "Meroitic Cursive"@en,
+		"cursif méroïtique"@fr ;
+	wdt:P407 wd:Q13366,
+		wd:Q2268 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Meroitic%20cursive%20Wa.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/%C3%89criture%20m%C3%A9ro%C3%AFtique%20cursive.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/UCB%20Meroitic%20Cursive.png> ;
+	wdt:P571 "-0299-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P582 "0600-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P144 wd:Q188519 ;
+	wdt:P373 "Meroitic Cursive" ;
+	rdfs:label "Meroitic Cursive"@en ;
+	skos:prefLabel "Meroitic Cursive"@en ;
+	schema:name "Meroitic Cursive"@en ;
+	rdfs:label "cursif méroïtique"@fr ;
+	skos:prefLabel "cursif méroïtique"@fr ;
+	schema:name "cursif méroïtique"@fr ;
+	schema:description "cursive form of the Meroitic script"@en,
+		"forme cursive du système d'écriture méroïtique"@fr ;
+	skos:altLabel "cursive Meroitic"@en .

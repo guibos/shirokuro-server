@@ -1,0 +1,110 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10550184 a schema:Dataset ;
+	schema:about wd:Q10550184 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1349565050"^^xsd:integer ;
+	schema:dateModified "2021-01-27T23:48:09Z"^^xsd:dateTime .
+
+wd:Q10550184 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_kunggari> a schema:Article ;
+	schema:about wd:Q10550184 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kunggari"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Kunggari> a schema:Article ;
+	schema:about wd:Q10550184 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Kunggari"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikunggari> a schema:Article ;
+	schema:about wd:Q10550184 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikunggari"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10550184 wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P220 "kgl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kgl> ;
+	wdt:P1394 "kung1258" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kung1258> ;
+	wdt:P2192 "4379" ;
+	wdt:P279 wd:Q16886959 ;
+	wdt:P305 "kgl" ;
+	wdt:P1627 "kgl" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q36074 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KGL> ;
+	rdfs:label "Kunggari"@sv ;
+	skos:prefLabel "Kunggari"@sv ;
+	schema:name "Kunggari"@sv ;
+	rdfs:label "Lenga kunggari"@pms ;
+	skos:prefLabel "Lenga kunggari"@pms ;
+	schema:name "Lenga kunggari"@pms ;
+	rdfs:label "Kunggari"@en ;
+	skos:prefLabel "Kunggari"@en ;
+	schema:name "Kunggari"@en ;
+	rdfs:label "Kunggari"@en-gb ;
+	skos:prefLabel "Kunggari"@en-gb ;
+	schema:name "Kunggari"@en-gb ;
+	rdfs:label "Kikunggari"@sw ;
+	skos:prefLabel "Kikunggari"@sw ;
+	schema:name "Kikunggari"@sw ;
+	rdfs:label "kunggari"@fr ;
+	skos:prefLabel "kunggari"@fr ;
+	schema:name "kunggari"@fr ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"extinct Australian Aboriginal language"@en,
+		"Sprache"@de,
+		"lugha ya asili ya Australia iliyotoweka"@sw,
+		"langue pama-nyungan"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy .
+
+wd:Q12953662 owl:sameAs wd:Q10550184 .

@@ -1,0 +1,126 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11732427 a schema:Dataset ;
+	schema:about wd:Q11732427 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616004964"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:58:23Z"^^xsd:dateTime .
+
+wd:Q11732427 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mawak> a schema:Article ;
+	schema:about wd:Q11732427 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mawak"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mawak_language> a schema:Article ;
+	schema:about wd:Q11732427 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mawak language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimawak> a schema:Article ;
+	schema:about wd:Q11732427 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimawak"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Mawak> a schema:Article ;
+	schema:about wd:Q11732427 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Mawak"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11732427 wdt:P220 "mjj" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mjj> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "mawa1266" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mawa1266> ;
+	wdt:P2355 "2115" ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P305 "mjj" ;
+	wdt:P279 wd:Q16952821 ;
+	wdt:P2192 "2270" ;
+	wdt:P1627 "mjj" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q326254 ;
+	wdt:P646 "/m/02hwqm9" ;
+	wdt:P910 wd:Q105714796 ;
+	rdfs:label "Język mawak"@pl ;
+	skos:prefLabel "Język mawak"@pl ;
+	schema:name "Język mawak"@pl ;
+	rdfs:label "Lenga Mawak"@pms ;
+	skos:prefLabel "Lenga Mawak"@pms ;
+	schema:name "Lenga Mawak"@pms ;
+	rdfs:label "Mawak"@en ;
+	skos:prefLabel "Mawak"@en ;
+	schema:name "Mawak"@en ;
+	rdfs:label "Kimawak"@sw ;
+	skos:prefLabel "Kimawak"@sw ;
+	schema:name "Kimawak"@sw ;
+	rdfs:label "Mawak"@ilo ;
+	skos:prefLabel "Mawak"@ilo ;
+	schema:name "Mawak"@ilo ;
+	rdfs:label "Mawak"@en-gb ;
+	skos:prefLabel "Mawak"@en-gb ;
+	schema:name "Mawak"@en-gb ;
+	rdfs:label "mawak"@fr ;
+	skos:prefLabel "mawak"@fr ;
+	schema:name "mawak"@fr ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue madang"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Mawak language"@en .
+
+wd:Q6794337 owl:sameAs wd:Q11732427 .
+
+wd:Q12952825 owl:sameAs wd:Q11732427 .

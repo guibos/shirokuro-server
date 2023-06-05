@@ -1,0 +1,123 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6826835 a schema:Dataset ;
+	schema:about wd:Q6826835 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1744385070"^^xsd:integer ;
+	schema:dateModified "2022-10-06T10:16:07Z"^^xsd:dateTime .
+
+wd:Q6826835 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Mgbo_language> a schema:Article ;
+	schema:about wd:Q6826835 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mgbo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Mgbolizhia> a schema:Article ;
+	schema:about wd:Q6826835 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Mgbolizhia"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Mgbo> a schema:Article ;
+	schema:about wd:Q6826835 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Mgbo"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Mgbo> a schema:Article ;
+	schema:about wd:Q6826835 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Mgbo"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ha.wikipedia.org/wiki/Harshen_Mgbo> a schema:Article ;
+	schema:about wd:Q6826835 ;
+	schema:inLanguage "ha" ;
+	schema:isPartOf <https://ha.wikipedia.org/> ;
+	schema:name "Harshen Mgbo"@ha .
+
+<https://ha.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6826835 wdt:P220 "gmz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gmz> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "mgbo1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mgbo1238> ;
+	wdt:P305 "gmz" ;
+	wdt:P1627 "gmz" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q429908,
+		wd:Q506808,
+		wd:Q509300 ;
+	wdt:P279 wd:Q11927027 ;
+	wdt:P646 "/m/0qs8k9d" ;
+	rdfs:label "Mgbo"@en ;
+	skos:prefLabel "Mgbo"@en ;
+	schema:name "Mgbo"@en ;
+	rdfs:label "mgbolizhia"@ca ;
+	skos:prefLabel "mgbolizhia"@ca ;
+	schema:name "mgbolizhia"@ca ;
+	rdfs:label "Mgbo"@oc ;
+	skos:prefLabel "Mgbo"@oc ;
+	schema:name "Mgbo"@oc ;
+	rdfs:label "Asụsụ Mgbo"@ig ;
+	skos:prefLabel "Asụsụ Mgbo"@ig ;
+	schema:name "Asụsụ Mgbo"@ig ;
+	rdfs:label "Harshen Mgbo"@ha ;
+	skos:prefLabel "Harshen Mgbo"@ha ;
+	schema:name "Harshen Mgbo"@ha ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"Igbo language of Nigeria"@en,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"Asụsụ Igbo nke Nigeria"@ig ;
+	skos:altLabel "Mgbolizhia"@en,
+		"Mgbo language"@en .

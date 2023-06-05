@@ -1,0 +1,125 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7827518 a schema:Dataset ;
+	schema:about wd:Q7827518 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960619871"^^xsd:integer ;
+	schema:dateModified "2023-08-25T01:08:02Z"^^xsd:dateTime .
+
+wd:Q7827518 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_tor%C3%A1> a schema:Article ;
+	schema:about wd:Q7827518 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga torá"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D1%80%D0%B0_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q7827518 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Тора (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Tor%C3%A1_language> a schema:Article ;
+	schema:about wd:Q7827518 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Torá language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Toraeg> a schema:Article ;
+	schema:about wd:Q7827518 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Toraeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Tor%C3%A1> a schema:Article ;
+	schema:about wd:Q7827518 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Torá"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7827518 wdt:P220 "trz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/trz> ;
+	wdt:P31 wd:Q45762,
+		wd:Q34770,
+		wd:Q38058796 ;
+	wdt:P1394 "tora1263" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tora1263> ;
+	wdt:P2355 "1815" ;
+	wdt:P279 wd:Q1062626 ;
+	wdt:P910 wd:Q57461760 ;
+	wdt:P2192 "2140" ;
+	wdt:P305 "trz" ;
+	wdt:P1627 "trz" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q155 ;
+	wdt:P2341 wd:Q40040 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TRZ> ;
+	wdt:P646 "/m/02hxv4j" ;
+	rdfs:label "Torá"@en ;
+	skos:prefLabel "Torá"@en ;
+	schema:name "Torá"@en ;
+	rdfs:label "Lenga torá"@pms ;
+	skos:prefLabel "Lenga torá"@pms ;
+	schema:name "Lenga torá"@pms ;
+	rdfs:label "Тора"@ru ;
+	skos:prefLabel "Тора"@ru ;
+	schema:name "Тора"@ru ;
+	rdfs:label "toraeg"@br ;
+	skos:prefLabel "toraeg"@br ;
+	schema:name "toraeg"@br ;
+	rdfs:label "Torá"@en-gb ;
+	skos:prefLabel "Torá"@en-gb ;
+	schema:name "Torá"@en-gb ;
+	rdfs:label "torá"@fr ;
+	skos:prefLabel "torá"@fr ;
+	schema:name "torá"@fr ;
+	rdfs:label "Torá"@ca ;
+	skos:prefLabel "Torá"@ca ;
+	schema:name "Torá"@ca ;
+	schema:description "Chapacuran language spoken in Brazil"@en,
+		"мёртвый язык, относится к чапакурской языковой семье (Бразилия)"@ru,
+		"langue chapakura"@fr ;
+	skos:altLabel "Torá language"@en,
+		"Tora"@en,
+		"Tora language"@en .

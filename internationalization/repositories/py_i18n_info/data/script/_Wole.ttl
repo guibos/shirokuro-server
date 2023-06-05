@@ -1,0 +1,99 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6643710 a schema:Dataset ;
+	schema:about wd:Q6643710 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1370187019"^^xsd:integer ;
+	schema:dateModified "2021-02-25T19:20:22Z"^^xsd:dateTime .
+
+wd:Q6643710 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Woleai_script> a schema:Article ;
+	schema:about wd:Q6643710 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Woleai script"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A3%E0%B8%81%E0%B8%A5%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B9%81%E0%B8%84%E0%B9%82%E0%B8%A3%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C> a schema:Article ;
+	schema:about wd:Q6643710 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "อักษรกลุ่มเกาะแคโรไลน์"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A9%E3%83%AC%E3%82%A2%E3%82%A4%E6%96%87%E5%AD%97> a schema:Article ;
+	schema:about wd:Q6643710 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ウォレアイ文字"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6643710 wdt:P506 "Wole" ;
+	wdt:P2620 "480" ;
+	wdt:P31 wd:Q1191702,
+		wd:Q182133,
+		wd:Q4004706 ;
+	wdt:P646 "/m/03hkpzt" ;
+	wdt:P2561 "Woleai"@en,
+		"woléaï"@fr ;
+	wdt:P407 wd:Q34037 ;
+	wdt:P366 wd:Q34037 ;
+	wdt:P571 "1910-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P582 "1950-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Woleai%20script.gif>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Wolaian%20syllabary.png> ;
+	wdt:P138 wd:Q24571995 ;
+	wdt:P144 wd:Q8229 ;
+	wdt:P1406 wd:Q17321844 ;
+	rdfs:label "Woleai script"@en ;
+	skos:prefLabel "Woleai script"@en ;
+	schema:name "Woleai script"@en ;
+	rdfs:label "อักษรกลุ่มเกาะแคโรไลน์"@th ;
+	skos:prefLabel "อักษรกลุ่มเกาะแคโรไลน์"@th ;
+	schema:name "อักษรกลุ่มเกาะแคโรไลน์"@th ;
+	rdfs:label "Γραφή Βολεάι"@el ;
+	skos:prefLabel "Γραφή Βολεάι"@el ;
+	schema:name "Γραφή Βολεάι"@el ;
+	rdfs:label "ウォレアイ文字"@ja ;
+	skos:prefLabel "ウォレアイ文字"@ja ;
+	schema:name "ウォレアイ文字"@ja ;
+	rdfs:label "woleai"@fr ;
+	skos:prefLabel "woleai"@fr ;
+	schema:name "woleai"@fr ;
+	schema:description "script used in writing the Woleaian language"@en,
+		"syllabaire"@fr ;
+	skos:altLabel "Caroline Island script"@en .

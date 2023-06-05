@@ -1,0 +1,162 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3217483 a schema:Dataset ;
+	schema:about wd:Q3217483 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1839176612"^^xsd:integer ;
+	schema:dateModified "2023-02-22T10:17:40Z"^^xsd:dateTime .
+
+wd:Q3217483 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Langues_manobo> a schema:Article ;
+	schema:about wd:Q3217483 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Langues manobo"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Sasao_a_Manobo> a schema:Article ;
+	schema:about wd:Q3217483 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Sasao a Manobo"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BD%D0%BE%D0%BF%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D1%86%D0%B8> a schema:Article ;
+	schema:about wd:Q3217483 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Манопски јазици"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Manobo_languages> a schema:Article ;
+	schema:about wd:Q3217483 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Manobo languages"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Mga_tataramon_na_Manobo> a schema:Article ;
+	schema:about wd:Q3217483 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Mga tataramon na Manobo"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Manobo-Sprachen> a schema:Article ;
+	schema:about wd:Q3217483 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Manobo-Sprachen"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Rumpun_bahasa_Manobo> a schema:Article ;
+	schema:about wd:Q3217483 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Rumpun bahasa Manobo"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3217483 wdt:P305 "mno" ;
+	wdt:P31 wd:Q25295 ;
+	wdt:P910 wd:Q8606153 ;
+	wdt:P279 wd:Q3832998 ;
+	wdt:P1798 "mno" ;
+	wdt:P219 "mno" ;
+	wdt:P2263 "815" ;
+	wdtn:P2263 <http://www.isocat.org/datcat/DC-815> ;
+	wdt:P4801 "languages/mno" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/mno> ;
+	wdt:P4801 "iso639-2/mno" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/iso639-2/mno> ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MNO> ;
+	wdt:P373 "Manobo languages" ;
+	wdt:P646 "/m/05pcsqf" ;
+	rdfs:label "langues manobo"@fr ;
+	skos:prefLabel "langues manobo"@fr ;
+	schema:name "langues manobo"@fr ;
+	rdfs:label "Manobo"@en ;
+	skos:prefLabel "Manobo"@en ;
+	schema:name "Manobo"@en ;
+	rdfs:label "Манопски јазици"@mk ;
+	skos:prefLabel "Манопски јазици"@mk ;
+	schema:name "Манопски јазици"@mk ;
+	rdfs:label "マノボ諸語"@ja ;
+	skos:prefLabel "マノボ諸語"@ja ;
+	schema:name "マノボ諸語"@ja ;
+	rdfs:label "sasao a Manobo"@ilo ;
+	skos:prefLabel "sasao a Manobo"@ilo ;
+	schema:name "sasao a Manobo"@ilo ;
+	rdfs:label "Mga wikang Manobo"@tl ;
+	skos:prefLabel "Mga wikang Manobo"@tl ;
+	schema:name "Mga wikang Manobo"@tl ;
+	rdfs:label "Mga tataramon na Manobo"@bcl ;
+	skos:prefLabel "Mga tataramon na Manobo"@bcl ;
+	schema:name "Mga tataramon na Manobo"@bcl ;
+	rdfs:label "Manobo-Sprachen"@de ;
+	skos:prefLabel "Manobo-Sprachen"@de ;
+	schema:name "Manobo-Sprachen"@de ;
+	rdfs:label "языки манобо"@ru ;
+	skos:prefLabel "языки манобо"@ru ;
+	schema:name "языки манобо"@ru ;
+	rdfs:label "Rumpun bahasa Manobo"@id ;
+	skos:prefLabel "Rumpun bahasa Manobo"@id ;
+	schema:name "Rumpun bahasa Manobo"@id ;
+	rdfs:label "lenguas manobas"@es-formal ;
+	skos:prefLabel "lenguas manobas"@es-formal ;
+	schema:name "lenguas manobas"@es-formal ;
+	rdfs:label "lenguas manobas"@es ;
+	skos:prefLabel "lenguas manobas"@es ;
+	schema:name "lenguas manobas"@es ;
+	rdfs:label "łéngue manobo"@vec ;
+	skos:prefLabel "łéngue manobo"@vec ;
+	schema:name "łéngue manobo"@vec ;
+	schema:description "Sprachfamilie"@de,
+		"famille de langues"@fr,
+		"pamilia ti pagsasao idiay Filipinas"@ilo,
+		"language family"@en,
+		"wikang angkan"@tl,
+		"familh yezhoù"@br,
+		"artikel daftar Wikimedia"@id ;
+	skos:altLabel "マノボ語"@ja,
+		"マノボ語群"@ja,
+		"idioma manobo"@es-formal,
+		"idioma manobo"@es,
+		"Manobo languages"@en .

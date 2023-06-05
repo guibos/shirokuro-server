@@ -1,0 +1,157 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6528669 a schema:Dataset ;
+	schema:about wd:Q6528669 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1617404229"^^xsd:integer ;
+	schema:dateModified "2022-04-12T03:33:22Z"^^xsd:dateTime .
+
+wd:Q6528669 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Nakanai> a schema:Article ;
+	schema:about wd:Q6528669 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Nakanai"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Nakanai> a schema:Article ;
+	schema:about wd:Q6528669 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Nakanai"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%9D%D0%B0%D0%BA%D0%B0%D0%BD%D0%B0%D1%98%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q6528669 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Наканајски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinakanai> a schema:Article ;
+	schema:about wd:Q6528669 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinakanai"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nakanai_language> a schema:Article ;
+	schema:about wd:Q6528669 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nakanai language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%8A%E3%82%AB%E3%83%8A%E3%82%A4%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q6528669 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ナカナイ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Nakanai_keel> a schema:Article ;
+	schema:about wd:Q6528669 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Nakanai keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6528669 wdt:P220 "nak" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nak> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1014 "300388933" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388933> ;
+	wdt:P1394 "naka1262" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/naka1262> ;
+	wdt:P1466 "nak" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_nak> ;
+	wdt:P910 wd:Q33037668 ;
+	wdt:P279 wd:Q3399025 ;
+	wdt:P305 "nak" ;
+	wdt:P1627 "nak" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q753702,
+		wd:Q667468 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NAK> ;
+	wdt:P646 "/m/0b0zc1" ;
+	rdfs:label "Nakanai"@en ;
+	skos:prefLabel "Nakanai"@en ;
+	schema:name "Nakanai"@en ;
+	rdfs:label "Наканајски јазик"@mk ;
+	skos:prefLabel "Наканајски јазик"@mk ;
+	schema:name "Наканајски јазик"@mk ;
+	rdfs:label "Lenga Nakanai"@pms ;
+	skos:prefLabel "Lenga Nakanai"@pms ;
+	schema:name "Lenga Nakanai"@pms ;
+	rdfs:label "Kinakanai"@sw ;
+	skos:prefLabel "Kinakanai"@sw ;
+	schema:name "Kinakanai"@sw ;
+	rdfs:label "ナカナイ語"@ja ;
+	skos:prefLabel "ナカナイ語"@ja ;
+	schema:name "ナカナイ語"@ja ;
+	rdfs:label "Nakanai"@ilo ;
+	skos:prefLabel "Nakanai"@ilo ;
+	schema:name "Nakanai"@ilo ;
+	rdfs:label "Nakanai"@en-gb ;
+	skos:prefLabel "Nakanai"@en-gb ;
+	schema:name "Nakanai"@en-gb ;
+	rdfs:label "nakanai"@fr ;
+	skos:prefLabel "nakanai"@fr ;
+	schema:name "nakanai"@fr ;
+	rdfs:label "Nakanai keel"@et ;
+	skos:prefLabel "Nakanai keel"@et ;
+	schema:name "Nakanai keel"@et ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"langue océanienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language of the indigenous people of West New Britain Province of Papua New Guinea"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"パプアニューギニアの西ニューブリテン州に住むナカナイ人の話す固有言語"@ja ;
+	skos:altLabel "Nakanai language"@en,
+		"Lakalai"@en .

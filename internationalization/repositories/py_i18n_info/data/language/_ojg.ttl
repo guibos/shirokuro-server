@@ -1,0 +1,123 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5330342 a schema:Dataset ;
+	schema:about wd:Q5330342 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1902932992"^^xsd:integer ;
+	schema:dateModified "2023-05-26T12:33:51Z"^^xsd:dateTime .
+
+wd:Q5330342 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_ojibwa,_oriental> a schema:Article ;
+	schema:about wd:Q5330342 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga ojibwa, oriental"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D0%BE%D0%B4%D0%B6%D0%B8%D0%B1%D0%B2%D0%B5> a schema:Article ;
+	schema:about wd:Q5330342 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Восточный оджибве"@ru ;
+	wikibase:badge wd:Q70894304 .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Eastern_Ojibwa_language> a schema:Article ;
+	schema:about wd:Q5330342 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Eastern Ojibwa language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Ojibweg_ar_reter> a schema:Article ;
+	schema:about wd:Q5330342 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Ojibweg ar reter"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5330342 wdt:P220 "ojg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ojg> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "east2542" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/east2542> ;
+	wdt:P279 wd:Q33875 ;
+	wdt:P2355 "2364" ;
+	wdt:P1466 "oji" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_oji> ;
+	wdt:P2192 "4915" ;
+	wdt:P910 wd:Q32829166 ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P305 "ojg" ;
+	wdt:P1627 "ojg" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q16 ;
+	wdt:P2341 wd:Q1904 ;
+	wdt:P1245 "1704061" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/OJG> ;
+	wdt:P646 "/m/02hxcn3" ;
+	rdfs:label "Eastern Ojibwa"@en ;
+	skos:prefLabel "Eastern Ojibwa"@en ;
+	schema:name "Eastern Ojibwa"@en ;
+	rdfs:label "Lenga ojibwa, oriental"@pms ;
+	skos:prefLabel "Lenga ojibwa, oriental"@pms ;
+	schema:name "Lenga ojibwa, oriental"@pms ;
+	rdfs:label "Восточный оджибве"@ru ;
+	skos:prefLabel "Восточный оджибве"@ru ;
+	schema:name "Восточный оджибве"@ru ;
+	rdfs:label "ojibweg ar reter"@br ;
+	skos:prefLabel "ojibweg ar reter"@br ;
+	schema:name "ojibweg ar reter"@br ;
+	rdfs:label "ojibwé de l'Est"@fr ;
+	skos:prefLabel "ojibwé de l'Est"@fr ;
+	schema:name "ojibwé de l'Est"@fr ;
+	rdfs:label "Eastern Ojibwa"@en-gb ;
+	skos:prefLabel "Eastern Ojibwa"@en-gb ;
+	schema:name "Eastern Ojibwa"@en-gb ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue algonquienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Eastern Ojibwa language"@en .

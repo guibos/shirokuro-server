@@ -1,0 +1,153 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3229472 a schema:Dataset ;
+	schema:about wd:Q3229472 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1615710146"^^xsd:integer ;
+	schema:dateModified "2022-04-10T05:17:56Z"^^xsd:dateTime .
+
+wd:Q3229472 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Lenkau> a schema:Article ;
+	schema:about wd:Q3229472 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Lenkau"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Lenkau> a schema:Article ;
+	schema:about wd:Q3229472 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Lenkau"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Lenkau> a schema:Article ;
+	schema:about wd:Q3229472 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Lenkau"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9B%D0%B5%D0%BD%D0%BA%D0%B0%D1%83> a schema:Article ;
+	schema:about wd:Q3229472 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Ленкау"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%9B%D0%B5%D0%BD%D0%BA%D0%B0%D1%98%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q3229472 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Ленкајски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilenkau> a schema:Article ;
+	schema:about wd:Q3229472 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilenkau"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Lenkau_language> a schema:Article ;
+	schema:about wd:Q3229472 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Lenkau language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3229472 wdt:P305 "ler" ;
+	wdt:P220 "ler" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ler> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q2701306 ;
+	wdt:P1394 "lenk1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lenk1247> ;
+	wdt:P2192 "4496" ;
+	wdt:P1627 "ler" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q874935 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LER> ;
+	wdt:P646 "/m/02hwppg" ;
+	wdt:P625 "Point(147.716064 -2.341166)"^^geo:wktLiteral ;
+	rdfs:label "lenkau"@fr ;
+	skos:prefLabel "lenkau"@fr ;
+	schema:name "lenkau"@fr ;
+	rdfs:label "Lenkau"@en ;
+	skos:prefLabel "Lenkau"@en ;
+	schema:name "Lenkau"@en ;
+	rdfs:label "ленкајски јазик"@mk ;
+	skos:prefLabel "ленкајски јазик"@mk ;
+	schema:name "ленкајски јазик"@mk ;
+	rdfs:label "Ленкау"@ru ;
+	skos:prefLabel "Ленкау"@ru ;
+	schema:name "Ленкау"@ru ;
+	rdfs:label "Lenga Lenkau"@pms ;
+	skos:prefLabel "Lenga Lenkau"@pms ;
+	schema:name "Lenga Lenkau"@pms ;
+	rdfs:label "Kilenkau"@sw ;
+	skos:prefLabel "Kilenkau"@sw ;
+	schema:name "Kilenkau"@sw ;
+	rdfs:label "Lenkau"@ilo ;
+	skos:prefLabel "Lenkau"@ilo ;
+	schema:name "Lenkau"@ilo ;
+	rdfs:label "Lenkau"@en-gb ;
+	skos:prefLabel "Lenkau"@en-gb ;
+	schema:name "Lenkau"@en-gb ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"langue des îles de l'Amirauté"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Oceanic language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Lenkau language"@en,
+		"ленкау"@mk .
+
+wd:Q12952725 owl:sameAs wd:Q3229472 .
+
+wd:Q5477598 owl:sameAs wd:Q3229472 .

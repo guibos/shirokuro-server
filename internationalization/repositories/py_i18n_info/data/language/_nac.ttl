@@ -1,0 +1,136 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6965295 a schema:Dataset ;
+	schema:about wd:Q6965295 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1352719057"^^xsd:integer ;
+	schema:dateModified "2021-02-01T15:06:11Z"^^xsd:dateTime .
+
+wd:Q6965295 a wikibase:Item .
+
+<https://hr.wikipedia.org/wiki/Narak_jezik> a schema:Article ;
+	schema:about wd:Q6965295 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Narak jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Narak_language> a schema:Article ;
+	schema:about wd:Q6965295 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Narak language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Narak> a schema:Article ;
+	schema:about wd:Q6965295 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Narak"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinarak> a schema:Article ;
+	schema:about wd:Q6965295 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinarak"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Narak> a schema:Article ;
+	schema:about wd:Q6965295 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Narak"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6965295 wdt:P361 wd:Q34018 ;
+	wdt:P220 "nac" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nac> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q236425 ;
+	wdt:P1394 "nara1264" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nara1264> ;
+	wdt:P305 "nac" ;
+	wdt:P1627 "nac" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q326254,
+		wd:Q849807,
+		wd:Q849790 ;
+	wdt:P646 "/m/02hwqt_" ;
+	rdfs:label "Narak jezik"@hr ;
+	skos:prefLabel "Narak jezik"@hr ;
+	schema:name "Narak jezik"@hr ;
+	rdfs:label "Narak"@en ;
+	skos:prefLabel "Narak"@en ;
+	schema:name "Narak"@en ;
+	rdfs:label "Lenga Narak"@pms ;
+	skos:prefLabel "Lenga Narak"@pms ;
+	schema:name "Lenga Narak"@pms ;
+	rdfs:label "Kinarak"@sw ;
+	skos:prefLabel "Kinarak"@sw ;
+	schema:name "Kinarak"@sw ;
+	rdfs:label "Język narak"@pl ;
+	skos:prefLabel "Język narak"@pl ;
+	schema:name "Język narak"@pl ;
+	rdfs:label "Narak"@ilo ;
+	skos:prefLabel "Narak"@ilo ;
+	schema:name "Narak"@ilo ;
+	rdfs:label "Narak"@en-gb ;
+	skos:prefLabel "Narak"@en-gb ;
+	schema:name "Narak"@en-gb ;
+	rdfs:label "ナラク語"@ja ;
+	skos:prefLabel "ナラク語"@ja ;
+	schema:name "ナラク語"@ja ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Narak language"@en .
+
+wd:Q11732503 owl:sameAs wd:Q6965295 .
+
+wd:Q12952928 owl:sameAs wd:Q6965295 .

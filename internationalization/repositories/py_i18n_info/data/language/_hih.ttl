@@ -1,0 +1,116 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953011 a schema:Dataset ;
+	schema:about wd:Q12953011 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1372691896"^^xsd:integer ;
+	schema:dateModified "2021-02-28T23:44:34Z"^^xsd:dateTime .
+
+wd:Q12953011 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Pamosu> a schema:Article ;
+	schema:about wd:Q12953011 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Pamosu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Pamosu> a schema:Article ;
+	schema:about wd:Q12953011 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Pamosu"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kipamosu> a schema:Article ;
+	schema:about wd:Q12953011 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kipamosu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Pamosu_language> a schema:Article ;
+	schema:about wd:Q12953011 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Pamosu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953011 wdt:P220 "hih" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hih> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "pamo1253" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/pamo1253> ;
+	wdt:P305 "hih" ;
+	wdt:P1627 "hih" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q874942,
+		wd:Q326254 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HIH> ;
+	wdt:P646 "/m/02hxmq7" ;
+	wdt:P910 wd:Q33658707 ;
+	rdfs:label "Lenga Pamosu"@pms ;
+	skos:prefLabel "Lenga Pamosu"@pms ;
+	schema:name "Lenga Pamosu"@pms ;
+	rdfs:label "Pamosu"@en ;
+	skos:prefLabel "Pamosu"@en ;
+	schema:name "Pamosu"@en ;
+	rdfs:label "Kipamosu"@sw ;
+	skos:prefLabel "Kipamosu"@sw ;
+	schema:name "Kipamosu"@sw ;
+	rdfs:label "Pamosu"@ilo ;
+	skos:prefLabel "Pamosu"@ilo ;
+	schema:name "Pamosu"@ilo ;
+	rdfs:label "Pamosu"@en-gb ;
+	skos:prefLabel "Pamosu"@en-gb ;
+	schema:name "Pamosu"@en-gb ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Pamosu language"@en .
+
+wd:Q7129372 owl:sameAs wd:Q12953011 .

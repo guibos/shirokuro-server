@@ -1,0 +1,168 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12634001 a schema:Dataset ;
+	schema:about wd:Q12634001 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1883488236"^^xsd:integer ;
+	schema:dateModified "2023-04-27T12:49:05Z"^^xsd:dateTime .
+
+wd:Q12634001 a wikibase:Item .
+
+<https://hr.wikipedia.org/wiki/Ju%C5%BEnobalud%C5%BEijski_jezik> a schema:Article ;
+	schema:about wd:Q12634001 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Južnobaludžijski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E5%8D%97%E3%83%90%E3%83%AD%E3%83%BC%E3%83%81%E3%83%BC%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q12634001 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "南バローチー語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Balochi_meridional> a schema:Article ;
+	schema:about wd:Q12634001 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Balochi meridional"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%A8%D9%84%D9%88%DA%86%DB%8C_%D8%AC%D9%86%D9%88%D8%A8%DB%8C> a schema:Article ;
+	schema:about wd:Q12634001 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "بلوچی جنوبی"@fa ;
+	wikibase:badge wd:Q70893996 .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ckb.wikipedia.org/wiki/%D8%A8%DB%95%D9%84%DB%86%DA%86%DB%8C%DB%8C_%D8%A8%D8%A7%D8%B4%D9%88%D9%88%D8%B1%DB%8C> a schema:Article ;
+	schema:about wd:Q12634001 ;
+	schema:inLanguage "ckb" ;
+	schema:isPartOf <https://ckb.wikipedia.org/> ;
+	schema:name "بەلۆچیی باشووری"@ckb .
+
+<https://ckb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Southern_Balochi_language> a schema:Article ;
+	schema:about wd:Q12634001 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Southern Balochi language"@en ;
+	wikibase:badge wd:Q70894304 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12634001 wdt:P220 "bcc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bcc> ;
+	wdt:P31 wd:Q1208380 ;
+	wdt:P424 "bcc" ;
+	wdt:P1394 "sout2642" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sout2642> ;
+	wdt:P279 wd:Q33049 ;
+	wdt:P305 "bcc" ;
+	wdt:P1627 "bcc" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P1705 "بلوچی‎"@bcc,
+		"بلوچی زبان‎"@bcc ;
+	wdt:P17 wd:Q794,
+		wd:Q843 ;
+	wdt:P2341 wd:Q165352,
+		wd:Q633659,
+		wd:Q163239,
+		wd:Q37211 ;
+	wdt:P4913 wd:Q33049 ;
+	wdt:P2671 "/g/121bk7sf" ;
+	wdtn:P2671 <http://g.co/kg/g/121bk7sf> ;
+	rdfs:label "Južnobaludžijski jezik"@hr ;
+	skos:prefLabel "Južnobaludžijski jezik"@hr ;
+	schema:name "Južnobaludžijski jezik"@hr ;
+	rdfs:label "Southern Balochi"@en ;
+	skos:prefLabel "Southern Balochi"@en ;
+	schema:name "Southern Balochi"@en ;
+	rdfs:label "南バローチー語"@ja ;
+	skos:prefLabel "南バローチー語"@ja ;
+	schema:name "南バローチー語"@ja ;
+	rdfs:label "Lenga Balochi meridional"@pms ;
+	skos:prefLabel "Lenga Balochi meridional"@pms ;
+	schema:name "Lenga Balochi meridional"@pms ;
+	rdfs:label "بلوچی جنوبی"@fa ;
+	skos:prefLabel "بلوچی جنوبی"@fa ;
+	schema:name "بلوچی جنوبی"@fa ;
+	rdfs:label "بەلۆچی باشووری"@ckb ;
+	skos:prefLabel "بەلۆچی باشووری"@ckb ;
+	schema:name "بەلۆچی باشووری"@ckb ;
+	rdfs:label "Southern Balochi"@en-gb ;
+	skos:prefLabel "Southern Balochi"@en-gb ;
+	schema:name "Southern Balochi"@en-gb ;
+	rdfs:label "南俾路支语"@zh-hans ;
+	skos:prefLabel "南俾路支语"@zh-hans ;
+	schema:name "南俾路支语"@zh-hans ;
+	rdfs:label "南俾路支語"@zh-hant ;
+	skos:prefLabel "南俾路支語"@zh-hant ;
+	schema:name "南俾路支語"@zh-hant ;
+	rdfs:label "baloutche du sud"@fr ;
+	skos:prefLabel "baloutche du sud"@fr ;
+	schema:name "baloutche du sud"@fr ;
+	rdfs:label "южный белуджский"@ru ;
+	skos:prefLabel "южный белуджский"@ru ;
+	schema:name "южный белуджский"@ru ;
+	rdfs:label "balochi del sud"@vec ;
+	skos:prefLabel "balochi del sud"@vec ;
+	schema:name "balochi del sud"@vec ;
+	rdfs:label "balotcheg ar su"@br ;
+	skos:prefLabel "balotcheg ar su"@br ;
+	schema:name "balotcheg ar su"@br ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue"@fr,
+		"group of Balochi dialects"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Južnobelučki jezik"@hr,
+		"Southern Baluchi language"@en,
+		"bcc"@en,
+		"Southern Balochi language"@en,
+		"bcc"@bcc,
+		"baloutcheg ar su"@br .
+
+wd:Q19926372 owl:sameAs wd:Q12634001 .

@@ -1,0 +1,125 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6480151 a schema:Dataset ;
+	schema:about wd:Q6480151 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1711396325"^^xsd:integer ;
+	schema:dateModified "2022-08-23T17:07:08Z"^^xsd:dateTime .
+
+wd:Q6480151 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Lala> a schema:Article ;
+	schema:about wd:Q6480151 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Lala"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Lala_(Papua_Baro_a_Guinea)> a schema:Article ;
+	schema:about wd:Q6480151 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Lala (Papua Baro a Guinea)"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilala> a schema:Article ;
+	schema:about wd:Q6480151 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilala"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Lala_language_(Papua_New_Guinea)> a schema:Article ;
+	schema:about wd:Q6480151 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Lala language (Papua New Guinea)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Lala_jezik> a schema:Article ;
+	schema:about wd:Q6480151 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Lala jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6480151 wdt:P220 "nrz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nrz> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "lala1268" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lala1268> ;
+	wdt:P1466 "all" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_all> ;
+	wdt:P305 "nrz" ;
+	wdt:P1627 "nrz" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q874942 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NRZ> ;
+	wdt:P646 "/m/02hx076" ;
+	wdt:P910 wd:Q33036517 ;
+	wdt:P279 wd:Q143158 ;
+	rdfs:label "Lala"@en ;
+	skos:prefLabel "Lala"@en ;
+	schema:name "Lala"@en ;
+	rdfs:label "Lenga Lala"@pms ;
+	skos:prefLabel "Lenga Lala"@pms ;
+	schema:name "Lenga Lala"@pms ;
+	rdfs:label "Kilala"@sw ;
+	skos:prefLabel "Kilala"@sw ;
+	schema:name "Kilala"@sw ;
+	rdfs:label "Lala"@ilo ;
+	skos:prefLabel "Lala"@ilo ;
+	schema:name "Lala"@ilo ;
+	rdfs:label "Lala jezik"@hr ;
+	skos:prefLabel "Lala jezik"@hr ;
+	schema:name "Lala jezik"@hr ;
+	rdfs:label "Lala"@en-gb ;
+	skos:prefLabel "Lala"@en-gb ;
+	schema:name "Lala"@en-gb ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"langue malayo-polynésienne"@fr,
+		"Austronesian language spoken in Papua New Guinea"@en ;
+	skos:altLabel "Lala language"@en .
+
+wd:Q6480150 owl:sameAs wd:Q6480151 .
+
+wd:Q12635280 owl:sameAs wd:Q6480151 .

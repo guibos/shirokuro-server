@@ -1,0 +1,123 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7998197 a schema:Dataset ;
+	schema:about wd:Q7998197 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1556060187"^^xsd:integer ;
+	schema:dateModified "2022-01-04T15:53:47Z"^^xsd:dateTime .
+
+wd:Q7998197 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_wich%C3%AD_lhamt%C3%A9s_g%C3%BCisnay> a schema:Article ;
+	schema:about wd:Q7998197 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga wichí lhamtés güisnay"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%93%D1%83%D0%B8%D1%84%D0%BD%D0%B5%D0%B9> a schema:Article ;
+	schema:about wd:Q7998197 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Гуифней"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Wich%C3%AD_Lhamt%C3%A9s_G%C3%BCisnay> a schema:Article ;
+	schema:about wd:Q7998197 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Wichí Lhamtés Güisnay"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Wich%C3%AD_Lhamt%C3%A9s_G%C3%BCisnay> a schema:Article ;
+	schema:about wd:Q7998197 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Wichí Lhamtés Güisnay"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7998197 wdt:P220 "mzh" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mzh> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q3027047 ;
+	wdt:P1394 "wich1264" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/wich1264> ;
+	wdt:P305 "mzh" ;
+	wdt:P1627 "mzh" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P1466 "wch" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_wch> ;
+	wdt:P17 wd:Q414 ;
+	wdt:P2341 wd:Q44803,
+		wd:Q44761 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MZH> ;
+	wdt:P910 wd:Q52838741 ;
+	wdt:P646 "/m/026wzpf" ;
+	rdfs:label "Wichí Lhamtés Güisnay"@en ;
+	skos:prefLabel "Wichí Lhamtés Güisnay"@en ;
+	schema:name "Wichí Lhamtés Güisnay"@en ;
+	rdfs:label "Lenga wichí lhamtés güisnay"@pms ;
+	skos:prefLabel "Lenga wichí lhamtés güisnay"@pms ;
+	schema:name "Lenga wichí lhamtés güisnay"@pms ;
+	rdfs:label "Вичи-лхамтес-гюйснай"@ru ;
+	skos:prefLabel "Вичи-лхамтес-гюйснай"@ru ;
+	schema:name "Вичи-лхамтес-гюйснай"@ru ;
+	rdfs:label "Wichí Lhamtés Güisnay"@en-gb ;
+	skos:prefLabel "Wichí Lhamtés Güisnay"@en-gb ;
+	schema:name "Wichí Lhamtés Güisnay"@en-gb ;
+	rdfs:label "visnai keel"@et ;
+	skos:prefLabel "visnai keel"@et ;
+	schema:name "visnai keel"@et ;
+	rdfs:label "Wichí Lhamtés Güisnay"@hif ;
+	skos:prefLabel "Wichí Lhamtés Güisnay"@hif ;
+	schema:name "Wichí Lhamtés Güisnay"@hif ;
+	rdfs:label "Wikang Wichí Lhamtés Güisnay"@tl ;
+	skos:prefLabel "Wikang Wichí Lhamtés Güisnay"@tl ;
+	schema:name "Wikang Wichí Lhamtés Güisnay"@tl ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy .
+
+wd:Q61094952 owl:sameAs wd:Q7998197 .

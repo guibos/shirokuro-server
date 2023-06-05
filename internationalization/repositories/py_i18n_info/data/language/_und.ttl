@@ -1,0 +1,153 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q22282914 a schema:Dataset ;
+	schema:about wd:Q22282914 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1947532290"^^xsd:integer ;
+	schema:dateModified "2023-08-05T23:58:30Z"^^xsd:dateTime .
+
+wd:Q22282914 a wikibase:Item .
+
+<https://en.wiktionary.org/wiki/Wiktionary:About_undetermined_languages> a schema:Article ;
+	schema:about wd:Q22282914 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wiktionary.org/> ;
+	schema:name "Wiktionary:About undetermined languages"@en .
+
+<https://en.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+wd:Q22282914 wdt:P424 "und" ;
+	wdt:P1705 "undetermined language"@en ;
+	wdt:P31 wd:Q34770 ;
+	wdt:P220 "und" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/und> ;
+	wdt:P305 "und" ;
+	wdt:P4801 "languages/und" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/und> ;
+	wdt:P4801 "iso639-2/und" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/iso639-2/und> ;
+	wdt:P1014 "300389645" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389645> ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/UND> ;
+	wdt:P279 wd:Q34770 ;
+	wdt:P1889 wd:Q7896964,
+		wd:Q102036196 ;
+	wdt:P910 wd:Q105668494 ;
+	wdt:P9753 "und" ;
+	wdt:P219 "und" ;
+	wdt:P9060 "und" ;
+	rdfs:label "undetermined language"@en ;
+	skos:prefLabel "undetermined language"@en ;
+	schema:name "undetermined language"@en ;
+	rdfs:label "неопределённый язык"@ru ;
+	skos:prefLabel "неопределённый язык"@ru ;
+	schema:name "неопределённый язык"@ru ;
+	rdfs:label "未确定的语种"@zh-hans ;
+	skos:prefLabel "未确定的语种"@zh-hans ;
+	schema:name "未确定的语种"@zh-hans ;
+	rdfs:label "未確定的語種"@zh-hant ;
+	skos:prefLabel "未確定的語種"@zh-hant ;
+	schema:name "未確定的語種"@zh-hant ;
+	rdfs:label "unbestimmte Sprache"@de ;
+	skos:prefLabel "unbestimmte Sprache"@de ;
+	schema:name "unbestimmte Sprache"@de ;
+	rdfs:label "nekonata lingvo"@eo ;
+	skos:prefLabel "nekonata lingvo"@eo ;
+	schema:name "nekonata lingvo"@eo ;
+	rdfs:label "ubestemt språk"@nb ;
+	skos:prefLabel "ubestemt språk"@nb ;
+	schema:name "ubestemt språk"@nb ;
+	rdfs:label "llengua indeterminada"@ca ;
+	skos:prefLabel "llengua indeterminada"@ca ;
+	schema:name "llengua indeterminada"@ca ;
+	rdfs:label "lingua indeterminata"@it ;
+	skos:prefLabel "lingua indeterminata"@it ;
+	schema:name "lingua indeterminata"@it ;
+	rdfs:label "idioma indeterminado"@pt ;
+	skos:prefLabel "idioma indeterminado"@pt ;
+	schema:name "idioma indeterminado"@pt ;
+	rdfs:label "言語不明"@ja ;
+	skos:prefLabel "言語不明"@ja ;
+	schema:name "言語不明"@ja ;
+	rdfs:label "langue indéterminée"@fr ;
+	skos:prefLabel "langue indéterminée"@fr ;
+	schema:name "langue indéterminée"@fr ;
+	rdfs:label "oidentifierat språk"@sv ;
+	skos:prefLabel "oidentifierat språk"@sv ;
+	schema:name "oidentifierat språk"@sv ;
+	rdfs:label "łéngua indetermenada"@vec ;
+	skos:prefLabel "łéngua indetermenada"@vec ;
+	schema:name "łéngua indetermenada"@vec ;
+	rdfs:label "nevymezený jazyk"@cs ;
+	skos:prefLabel "nevymezený jazyk"@cs ;
+	schema:name "nevymezený jazyk"@cs ;
+	rdfs:label "meghatározatlan nyelv"@hu ;
+	skos:prefLabel "meghatározatlan nyelv"@hu ;
+	schema:name "meghatározatlan nyelv"@hu ;
+	rdfs:label "ngôn ngữ vô định"@vi ;
+	skos:prefLabel "ngôn ngữ vô định"@vi ;
+	schema:name "ngôn ngữ vô định"@vi ;
+	rdfs:label "nedoločen jezik"@sl ;
+	skos:prefLabel "nedoločen jezik"@sl ;
+	schema:name "nedoločen jezik"@sl ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"special purpose language value"@en,
+		"iaith"@cy,
+		"lingua"@la,
+		"言語が分からないこと"@ja,
+		"zvláštní kód jazyka pro situace, kdy konkrétní jazyk nebyl identifikován"@cs,
+		"giá trị ngôn ngữ cho mục đích đặc biệt"@vi ;
+	skos:altLabel "ISO 639:und"@en,
+		"und"@en,
+		"unknown language"@en,
+		"unattested language"@en,
+		"no language"@en,
+		"without language"@en,
+		"und"@ru,
+		"неизвестный язык"@ru,
+		"und"@fr,
+		"langage indéterminé"@fr,
+		"okänt språk"@sv,
+		"língua indeterminada"@pt,
+		"nevymezené"@cs,
+		"neurčený jazyk"@cs,
+		"neznámý jazyk"@cs,
+		"neidentifikovaný jazyk"@cs,
+		"meg nem határozott nyelv"@hu,
+		"ismeretlen nyelv"@hu .

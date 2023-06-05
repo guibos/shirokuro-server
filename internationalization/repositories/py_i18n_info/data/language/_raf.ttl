@@ -1,0 +1,108 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q17442461 a schema:Dataset ;
+	schema:about wd:Q17442461 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960542709"^^xsd:integer ;
+	schema:dateModified "2023-08-24T23:04:44Z"^^xsd:dateTime .
+
+wd:Q17442461 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Meohang_ossidental> a schema:Article ;
+	schema:about wd:Q17442461 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Meohang ossidental"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Meohangeg_ar_c%27horn%C3%B4g> a schema:Article ;
+	schema:about wd:Q17442461 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Meohangeg ar c'hornôg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimewahang-Magharibi> a schema:Article ;
+	schema:about wd:Q17442461 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimewahang-Magharibi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q17442461 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "raf" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/raf> ;
+	wdt:P1394 "west2422" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/west2422> ;
+	wdt:P279 wd:Q6817739 ;
+	wdt:P305 "raf" ;
+	wdt:P1627 "raf" ;
+	wdt:P2192 "5325" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q837 ;
+	wdt:P2341 wd:Q9170 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/RAF> ;
+	rdfs:label "meohangeg ar c'hornôg"@br ;
+	skos:prefLabel "meohangeg ar c'hornôg"@br ;
+	schema:name "meohangeg ar c'hornôg"@br ;
+	rdfs:label "Lenga Meohang ossidental"@pms ;
+	skos:prefLabel "Lenga Meohang ossidental"@pms ;
+	schema:name "Lenga Meohang ossidental"@pms ;
+	rdfs:label "Western Meohang"@en ;
+	skos:prefLabel "Western Meohang"@en ;
+	schema:name "Western Meohang"@en ;
+	rdfs:label "Kimewahang ya Magharibi"@sw ;
+	skos:prefLabel "Kimewahang ya Magharibi"@sw ;
+	schema:name "Kimewahang ya Magharibi"@sw ;
+	rdfs:label "Western Meohang"@en-gb ;
+	skos:prefLabel "Western Meohang"@en-gb ;
+	schema:name "Western Meohang"@en-gb ;
+	rdfs:label "meohang de l'Ouest"@fr ;
+	skos:prefLabel "meohang de l'Ouest"@fr ;
+	schema:name "meohang de l'Ouest"@fr ;
+	schema:description "Sino-Tibetan language"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"langue himalayenne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Western Mewahang"@en,
+		"Western Meohang language"@en .

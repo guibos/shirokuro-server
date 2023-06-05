@@ -1,0 +1,133 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6362384 a schema:Dataset ;
+	schema:about wd:Q6362384 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616011676"^^xsd:integer ;
+	schema:dateModified "2022-04-10T14:06:50Z"^^xsd:dateTime .
+
+wd:Q6362384 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kanga> a schema:Article ;
+	schema:about wd:Q6362384 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kanga"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BD%D0%B3%D0%B0%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q6362384 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Кангаски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikanga> a schema:Article ;
+	schema:about wd:Q6362384 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikanga"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kanga_language> a schema:Article ;
+	schema:about wd:Q6362384 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kanga language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_kanga> a schema:Article ;
+	schema:about wd:Q6362384 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua kanga"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6362384 wdt:P1245 "597936" ;
+	wdt:P220 "kcp" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kcp> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kang1288" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kang1288> ;
+	wdt:P2355 "67" ;
+	wdt:P910 wd:Q33076463 ;
+	wdt:P279 wd:Q1720989 ;
+	wdt:P2192 "4354" ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P305 "kcp" ;
+	wdt:P1627 "kcp" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q1049 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KCP> ;
+	wdt:P646 "/m/02hx1qn" ;
+	rdfs:label "Kanga"@en ;
+	skos:prefLabel "Kanga"@en ;
+	schema:name "Kanga"@en ;
+	rdfs:label "Кангаски јазик"@mk ;
+	skos:prefLabel "Кангаски јазик"@mk ;
+	schema:name "Кангаски јазик"@mk ;
+	rdfs:label "Lenga Kanga"@pms ;
+	skos:prefLabel "Lenga Kanga"@pms ;
+	schema:name "Lenga Kanga"@pms ;
+	rdfs:label "Kikanga"@sw ;
+	skos:prefLabel "Kikanga"@sw ;
+	schema:name "Kikanga"@sw ;
+	rdfs:label "Língua kanga"@pt ;
+	skos:prefLabel "Língua kanga"@pt ;
+	schema:name "Língua kanga"@pt ;
+	rdfs:label "Kanga"@en-gb ;
+	skos:prefLabel "Kanga"@en-gb ;
+	schema:name "Kanga"@en-gb ;
+	rdfs:label "kanga"@fr ;
+	skos:prefLabel "kanga"@fr ;
+	schema:name "kanga"@fr ;
+	rdfs:label "Wikang Kanga"@tl ;
+	skos:prefLabel "Wikang Kanga"@tl ;
+	schema:name "Wikang Kanga"@tl ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue kadougli"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kanga language"@en .

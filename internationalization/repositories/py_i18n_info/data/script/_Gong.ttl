@@ -1,0 +1,111 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q18125340 a schema:Dataset ;
+	schema:about wd:Q18125340 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1580679804"^^xsd:integer ;
+	schema:dateModified "2022-02-21T02:23:21Z"^^xsd:dateTime .
+
+wd:Q18125340 a wikibase:Item .
+
+<https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%A9%E3%83%BB%E3%82%B4%E3%83%BC%E3%83%B3%E3%83%87%E3%82%A3%E3%83%BC%E6%96%87%E5%AD%97> a schema:Article ;
+	schema:about wd:Q18125340 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "グンジャラ・ゴーンディー文字"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Gunjala_Gondi_script> a schema:Article ;
+	schema:about wd:Q18125340 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Gunjala Gondi script"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A3%E0%B8%84%E0%B8%B8%E0%B8%99%E0%B8%8A%E0%B8%A5%E0%B8%B2%E0%B9%82%E0%B8%84%E0%B8%99%E0%B8%91%E0%B8%B5> a schema:Article ;
+	schema:about wd:Q18125340 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "อักษรคุนชลาโคนฑี"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q18125340 wdt:P506 "Gong" ;
+	wdt:P2620 "312" ;
+	wdt:P31 wd:Q335806,
+		wd:Q29517555,
+		wd:Q4004706 ;
+	wdt:P5949 "U+11D60-11DAF" ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P646 "/m/010qgtv8" ;
+	wdt:P2561 "Gunjala Gondi"@en,
+		"gunjala gondî"@fr ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Gunjala%20Gondi%20letter%20ka.svg> ;
+	wdt:P138 wd:Q1268437,
+		wd:Q17054163 ;
+	wdt:P571 "1750-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P366 wd:Q1775361 ;
+	wdt:P407 wd:Q1775361 ;
+	wdt:P144 wd:Q1703713 ;
+	rdfs:label "Gunjala Gondi"@en ;
+	skos:prefLabel "Gunjala Gondi"@en ;
+	schema:name "Gunjala Gondi"@en ;
+	rdfs:label "Γκουντζάλα Γκόντι Λίπι"@el ;
+	skos:prefLabel "Γκουντζάλα Γκόντι Λίπι"@el ;
+	schema:name "Γκουντζάλα Γκόντι Λίπι"@el ;
+	rdfs:label "グンジャラ・ゴーンディー文字"@ja ;
+	skos:prefLabel "グンジャラ・ゴーンディー文字"@ja ;
+	schema:name "グンジャラ・ゴーンディー文字"@ja ;
+	rdfs:label "gunjala gondî"@fr ;
+	skos:prefLabel "gunjala gondî"@fr ;
+	schema:name "gunjala gondî"@fr ;
+	rdfs:label "Gunjala Gondi"@ca ;
+	skos:prefLabel "Gunjala Gondi"@ca ;
+	schema:name "Gunjala Gondi"@ca ;
+	rdfs:label "Gunjala Gondi"@es ;
+	skos:prefLabel "Gunjala Gondi"@es ;
+	schema:name "Gunjala Gondi"@es ;
+	rdfs:label "贡贾拉贡德文字"@zh ;
+	skos:prefLabel "贡贾拉贡德文字"@zh ;
+	schema:name "贡贾拉贡德文字"@zh ;
+	rdfs:label "อักษรคุนชลาโคนฑี"@th ;
+	skos:prefLabel "อักษรคุนชลาโคนฑี"@th ;
+	schema:name "อักษรคุนชลาโคนฑี"@th ;
+	schema:description "abugida"@en,
+		"abugida"@fr ;
+	skos:altLabel "Gunjala Gondi script"@en,
+		"Koytura Gunjala Lipi"@en,
+		"gunjala gondi"@fr,
+		"貢德體"@zh .

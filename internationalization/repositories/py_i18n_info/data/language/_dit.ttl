@@ -1,0 +1,115 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5285033 a schema:Dataset ;
+	schema:about wd:Q5285033 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1355223012"^^xsd:integer ;
+	schema:dateModified "2021-02-05T15:31:26Z"^^xsd:dateTime .
+
+wd:Q5285033 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_dirari> a schema:Article ;
+	schema:about wd:Q5285033 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga dirari"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Dirari> a schema:Article ;
+	schema:about wd:Q5285033 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Dirari"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kidirari> a schema:Article ;
+	schema:about wd:Q5285033 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kidirari"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5285033 wdt:P31 wd:Q34770,
+		wd:Q45762 ;
+	wdt:P220 "dit" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dit> ;
+	wdt:P1394 "dira1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/dira1238> ;
+	wdt:P279 wd:Q4215578 ;
+	wdt:P1252 "L14" ;
+	wdt:P2192 "5726" ;
+	wdt:P305 "dit" ;
+	wdt:P1627 "dit" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P1251 "8908" ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q35715 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DIT> ;
+	wdt:P6915 "Dhirari" ;
+	rdfs:label "Dhirari"@en ;
+	skos:prefLabel "Dhirari"@en ;
+	schema:name "Dhirari"@en ;
+	rdfs:label "Dirari"@sv ;
+	skos:prefLabel "Dirari"@sv ;
+	schema:name "Dirari"@sv ;
+	rdfs:label "Língua diyari"@pt ;
+	skos:prefLabel "Língua diyari"@pt ;
+	schema:name "Língua diyari"@pt ;
+	rdfs:label "Lenga dirari"@pms ;
+	skos:prefLabel "Lenga dirari"@pms ;
+	schema:name "Lenga dirari"@pms ;
+	rdfs:label "dirari"@fr ;
+	skos:prefLabel "dirari"@fr ;
+	schema:name "dirari"@fr ;
+	rdfs:label "Kidirari"@sw ;
+	skos:prefLabel "Kidirari"@sw ;
+	schema:name "Kidirari"@sw ;
+	schema:description "langue karnique"@fr,
+		"language"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Dirari language"@en,
+		"Diyari"@en,
+		"Dhirari language"@en .
+
+wd:Q10473988 owl:sameAs wd:Q5285033 .
+
+wd:Q50934794 owl:sameAs wd:Q5285033 .

@@ -1,0 +1,96 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q18748913 a schema:Dataset ;
+	schema:about wd:Q18748913 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1062554996"^^xsd:integer ;
+	schema:dateModified "2019-11-26T10:51:05Z"^^xsd:dateTime .
+
+wd:Q18748913 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kalagan,_Kagan> a schema:Article ;
+	schema:about wd:Q18748913 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kalagan, Kagan"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikalagan-Kagan> a schema:Article ;
+	schema:about wd:Q18748913 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikalagan-Kagan"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q18748913 wdt:P220 "kll" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kll> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kaga1255" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kaga1255> ;
+	wdt:P279 wd:Q6751550 ;
+	wdt:P305 "kll" ;
+	wdt:P1627 "kll" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q928 ;
+	wdt:P2341 wd:Q13694,
+		wd:Q13794 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KLL> ;
+	rdfs:label "Kikalagan-Kagan"@sw ;
+	skos:prefLabel "Kikalagan-Kagan"@sw ;
+	schema:name "Kikalagan-Kagan"@sw ;
+	rdfs:label "Lenga Kalagan, Kagan"@pms ;
+	skos:prefLabel "Lenga Kalagan, Kagan"@pms ;
+	schema:name "Lenga Kalagan, Kagan"@pms ;
+	rdfs:label "Kagan Kalagan"@en ;
+	skos:prefLabel "Kagan Kalagan"@en ;
+	schema:name "Kagan Kalagan"@en ;
+	rdfs:label "Kagan Kalagan"@en-gb ;
+	skos:prefLabel "Kagan Kalagan"@en-gb ;
+	schema:name "Kagan Kalagan"@en-gb ;
+	rdfs:label "kalagan kagan"@fr ;
+	skos:prefLabel "kalagan kagan"@fr ;
+	schema:name "kalagan kagan"@fr ;
+	schema:description "Austronesian dialect"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"langue malayo-polynésienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Kagan Kalagan language"@en .

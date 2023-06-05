@@ -1,0 +1,578 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56477 a schema:Dataset ;
+	schema:about wd:Q56477 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1920300245"^^xsd:integer ;
+	schema:dateModified "2023-06-21T01:49:57Z"^^xsd:dateTime .
+
+wd:Q56477 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Limbu> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Limbu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BC%D0%B1%D1%83_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Лимбу (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9B%D1%96%D0%BC%D0%B1%D1%83_(%D0%BC%D0%BE%D0%B2%D0%B0)> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Лімбу (мова)"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Limbu_language> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Limbu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%B2%E0%A4%BF%E0%A4%82%E0%A4%AC%E0%A5%82_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "लिंबू भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%A5%E0%B8%B4%E0%B8%A1%E0%B8%9A%E0%B8%B9> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาลิมบู"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mai.wikipedia.org/wiki/%E0%A4%B2%E0%A4%BF%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A5%82_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "mai" ;
+	schema:isPartOf <https://mai.wikipedia.org/> ;
+	schema:name "लिम्बू भाषा"@mai .
+
+<https://mai.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilimbu> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilimbu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-classical.wikipedia.org/wiki/%E6%9E%97%E5%B8%83%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "lzh" ;
+	schema:isPartOf <https://zh-classical.wikipedia.org/> ;
+	schema:name "林布語"@lzh .
+
+<https://zh-classical.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BC%D0%B1%D1%83_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Лимбу кыв"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%B3%E3%83%96%E3%83%BC%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "リンブー語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Limbu_(Sprache)> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Limbu (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ne.wikipedia.org/wiki/%E0%A4%B2%E0%A4%BF%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A5%82_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "ne" ;
+	schema:isPartOf <https://ne.wikipedia.org/> ;
+	schema:name "लिम्बू भाषा"@ne .
+
+<https://ne.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%D9%84%D9%85%D8%A8%D9%88_%D8%A8%D9%88%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "لمبو بولی"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Limbu> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Limbu"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Limbu> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Limbu"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_limbu> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język limbu"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_limbu> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma limbu"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gv.wikipedia.org/wiki/Yakthungish> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "gv" ;
+	schema:isPartOf <https://gv.wikipedia.org/> ;
+	schema:name "Yakthungish"@gv .
+
+<https://gv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Limbu> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Limbu"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Limbou_(langue)> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Limbou (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E5%BB%89%E5%B8%83%E6%96%87> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "廉布文"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Limbu> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Limbu"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Limboueg> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Limboueg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_limbu> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma limbu"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Limbu_language> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Limbu language"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Limbu> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Limbu"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%9E%97%E5%B8%83%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "林布语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kn.wikipedia.org/wiki/%E0%B2%B2%E0%B2%BF%E0%B2%82%E0%B2%AC%E0%B3%81_%E0%B2%AD%E0%B2%BE%E0%B2%B7%E0%B3%86> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "kn" ;
+	schema:isPartOf <https://kn.wikipedia.org/> ;
+	schema:name "ಲಿಂಬು ಭಾಷೆ"@kn .
+
+<https://kn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://new.wikipedia.org/wiki/%E0%A4%B2%E0%A4%BF%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A5%82_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "new" ;
+	schema:isPartOf <https://new.wikipedia.org/> ;
+	schema:name "लिम्बू भाषा"@new .
+
+<https://new.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://awa.wikipedia.org/wiki/%E0%A4%B2%E0%A4%BF%E0%A4%82%E0%A4%AC%E0%A5%82_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "awa" ;
+	schema:isPartOf <https://awa.wikipedia.org/> ;
+	schema:name "लिंबू भाषा"@awa .
+
+<https://awa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Limbun_kieli> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Limbun kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EB%A6%BC%EB%B6%80%EC%96%B4> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "림부어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gu.wikipedia.org/wiki/%E0%AA%B2%E0%AA%BF%E0%AA%AE%E0%AB%8D%E0%AA%AC%E0%AB%82_%E0%AA%AD%E0%AA%BE%E0%AA%B7%E0%AA%BE> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "gu" ;
+	schema:isPartOf <https://gu.wikipedia.org/> ;
+	schema:name "લિમ્બૂ ભાષા"@gu .
+
+<https://gu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sl.wikipedia.org/wiki/Limbuj%C5%A1%C4%8Dina> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikipedia.org/> ;
+	schema:name "Limbujščina"@sl .
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%9E%E1%B1%A4%E1%B1%A2%E1%B1%B5%E1%B1%A9_%E1%B1%AF%E1%B1%9F%E1%B1%B9%E1%B1%A8%E1%B1%A5%E1%B1%A4> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱞᱤᱢᱵᱩ ᱯᱟᱹᱨᱥᱤ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://anp.wikipedia.org/wiki/%E0%A4%B2%E0%A4%BF%E0%A4%82%E0%A4%AC%E0%A5%82_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q56477 ;
+	schema:inLanguage "anp" ;
+	schema:isPartOf <https://anp.wikipedia.org/> ;
+	schema:name "लिंबू भाषा"@anp .
+
+<https://anp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56477 wdt:P220 "lif" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lif> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/095gwq" ;
+	wdt:P282 wd:Q933796,
+		wd:Q38592 ;
+	wdt:P279 wd:Q922148 ;
+	wdt:P1098 "+420000"^^xsd:decimal,
+		"+40835"^^xsd:decimal ;
+	wdt:P1394 "limb1266" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/limb1266> ;
+	wdt:P2355 "1028" ;
+	wdt:P1466 "lim" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_lim> ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P910 wd:Q33076590 ;
+	wdt:P2192 "1621" ;
+	wdt:P2989 wd:Q2235870 ;
+	wdt:P305 "lif" ;
+	wdt:P1627 "lif" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q668,
+		wd:Q837 ;
+	wdt:P2341 wd:Q1164,
+		wd:Q1505,
+		wd:Q1356,
+		wd:Q25104008 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LIF> ;
+	wdt:P8408 "LimbuLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/LimbuLanguage> ;
+	rdfs:label "लिंबू भाषा"@hi ;
+	skos:prefLabel "लिंबू भाषा"@hi ;
+	schema:name "लिंबू भाषा"@hi ;
+	rdfs:label "林布语"@zh ;
+	skos:prefLabel "林布语"@zh ;
+	schema:name "林布语"@zh ;
+	rdfs:label "Lenga Limbu"@pms ;
+	skos:prefLabel "Lenga Limbu"@pms ;
+	schema:name "Lenga Limbu"@pms ;
+	rdfs:label "Język limbu"@pl ;
+	skos:prefLabel "Język limbu"@pl ;
+	schema:name "Język limbu"@pl ;
+	rdfs:label "Лимбу"@ru ;
+	skos:prefLabel "Лимбу"@ru ;
+	schema:name "Лимбу"@ru ;
+	rdfs:label "limbu"@es ;
+	skos:prefLabel "limbu"@es ;
+	schema:name "limbu"@es ;
+	rdfs:label "Limbu"@en ;
+	skos:prefLabel "Limbu"@en ;
+	schema:name "Limbu"@en ;
+	rdfs:label "ภาษาลิมบู"@th ;
+	skos:prefLabel "ภาษาลิมบู"@th ;
+	schema:name "ภาษาลิมบู"@th ;
+	rdfs:label "Лімбу"@uk ;
+	skos:prefLabel "Лімбу"@uk ;
+	schema:name "Лімбу"@uk ;
+	rdfs:label "lingua Limbu"@la ;
+	skos:prefLabel "lingua Limbu"@la ;
+	schema:name "lingua Limbu"@la ;
+	rdfs:label "Limbu"@de ;
+	skos:prefLabel "Limbu"@de ;
+	schema:name "Limbu"@de ;
+	rdfs:label "limboueg"@br ;
+	skos:prefLabel "limboueg"@br ;
+	schema:name "limboueg"@br ;
+	rdfs:label "लिम्बू भाषा"@ne ;
+	skos:prefLabel "लिम्बू भाषा"@ne ;
+	schema:name "लिम्बू भाषा"@ne ;
+	rdfs:label "Лимбу кыв"@kv ;
+	skos:prefLabel "Лимбу кыв"@kv ;
+	schema:name "Лимбу кыв"@kv ;
+	rdfs:label "لمبو بولی"@pnb ;
+	skos:prefLabel "لمبو بولی"@pnb ;
+	schema:name "لمبو بولی"@pnb ;
+	rdfs:label "Yakthungish"@gv ;
+	skos:prefLabel "Yakthungish"@gv ;
+	schema:name "Yakthungish"@gv ;
+	rdfs:label "Limbu"@sv ;
+	skos:prefLabel "Limbu"@sv ;
+	schema:name "Limbu"@sv ;
+	rdfs:label "Limbu language"@hif ;
+	skos:prefLabel "Limbu language"@hif ;
+	schema:name "Limbu language"@hif ;
+	rdfs:label "लिम्बू भाषा"@mai ;
+	skos:prefLabel "लिम्बू भाषा"@mai ;
+	schema:name "लिम्बू भाषा"@mai ;
+	rdfs:label "limbu"@fr ;
+	skos:prefLabel "limbu"@fr ;
+	schema:name "limbu"@fr ;
+	rdfs:label "Kilimbu"@sw ;
+	skos:prefLabel "Kilimbu"@sw ;
+	schema:name "Kilimbu"@sw ;
+	rdfs:label "Bahasa Limbu"@id ;
+	skos:prefLabel "Bahasa Limbu"@id ;
+	schema:name "Bahasa Limbu"@id ;
+	rdfs:label "リンブー語"@ja ;
+	skos:prefLabel "リンブー語"@ja ;
+	schema:name "リンブー語"@ja ;
+	rdfs:label "Limbu"@en-gb ;
+	skos:prefLabel "Limbu"@en-gb ;
+	schema:name "Limbu"@en-gb ;
+	rdfs:label "廉布文"@yue ;
+	skos:prefLabel "廉布文"@yue ;
+	schema:name "廉布文"@yue ;
+	rdfs:label "Wikang Limbu"@tl ;
+	skos:prefLabel "Wikang Limbu"@tl ;
+	schema:name "Wikang Limbu"@tl ;
+	rdfs:label "林布語"@lzh ;
+	skos:prefLabel "林布語"@lzh ;
+	schema:name "林布語"@lzh ;
+	rdfs:label "лимбуски јазик"@mk ;
+	skos:prefLabel "лимбуски јазик"@mk ;
+	schema:name "лимбуски јазик"@mk ;
+	rdfs:label "Idioma limbu"@ast ;
+	skos:prefLabel "Idioma limbu"@ast ;
+	schema:name "Idioma limbu"@ast ;
+	rdfs:label "Limbu"@eu ;
+	skos:prefLabel "Limbu"@eu ;
+	schema:name "Limbu"@eu ;
+	rdfs:label "Tiếng Limbu"@vi ;
+	skos:prefLabel "Tiếng Limbu"@vi ;
+	schema:name "Tiếng Limbu"@vi ;
+	rdfs:label "ಲಿಂಬು ಭಾಷೆ"@kn ;
+	skos:prefLabel "ಲಿಂಬು ಭಾಷೆ"@kn ;
+	schema:name "ಲಿಂಬು ಭಾಷೆ"@kn ;
+	rdfs:label "लिम्बू भाषा"@new ;
+	skos:prefLabel "लिम्बू भाषा"@new ;
+	schema:name "लिम्बू भाषा"@new ;
+	rdfs:label "लिंबू भाषा"@awa ;
+	skos:prefLabel "लिंबू भाषा"@awa ;
+	schema:name "लिंबू भाषा"@awa ;
+	rdfs:label "ਲਿੰਬੂ"@pa ;
+	skos:prefLabel "ਲਿੰਬੂ"@pa ;
+	schema:name "ਲਿੰਬੂ"@pa ;
+	rdfs:label "লিম্বু ভাষা"@bn ;
+	skos:prefLabel "লিম্বু ভাষা"@bn ;
+	schema:name "লিম্বু ভাষা"@bn ;
+	rdfs:label "Limbun kieli"@fi ;
+	skos:prefLabel "Limbun kieli"@fi ;
+	schema:name "Limbun kieli"@fi ;
+	rdfs:label "림부어"@ko ;
+	skos:prefLabel "림부어"@ko ;
+	schema:name "림부어"@ko ;
+	rdfs:label "લિમ્બૂ ભાષા"@gu ;
+	skos:prefLabel "લિમ્બૂ ભાષા"@gu ;
+	schema:name "લિમ્બૂ ભાષા"@gu ;
+	rdfs:label "Limbujščina"@sl ;
+	skos:prefLabel "Limbujščina"@sl ;
+	schema:name "Limbujščina"@sl ;
+	rdfs:label "ᱞᱤᱢᱵᱩ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	skos:prefLabel "ᱞᱤᱢᱵᱩ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	schema:name "ᱞᱤᱢᱵᱩ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	rdfs:label "लिंबू भाषा"@anp ;
+	skos:prefLabel "लिंबू भाषा"@anp ;
+	schema:name "लिंबू भाषा"@anp ;
+	schema:description "lengua"@es,
+		"Sprache"@de,
+		"لغة"@ar,
+		"bahsa"@ace,
+		"taal"@af,
+		"idioma"@an,
+		"bahasa"@bjn,
+		"ভাষা"@bn,
+		"yezh"@br,
+		"jezik"@bs,
+		"llengua"@ca,
+		"زمان"@ckb,
+		"lingua"@co,
+		"jazyk"@cs,
+		"sprog"@da,
+		"lısan"@diq,
+		"γλώσσα"@el,
+		"langua"@eml,
+		"Sino-Tibetan language of eastern Nepal and India"@en,
+		"lingvo"@eo,
+		"keel"@et,
+		"hizkuntza"@eu,
+		"luenga"@ext,
+		"زبان"@fa,
+		"kieli"@fi,
+		"langue kiranti"@fr,
+		"lengoua"@frp,
+		"lenghe"@fur,
+		"taal"@fy,
+		"teanga"@ga,
+		"lingua"@gl,
+		"ભાષા"@gu,
+		"שפה"@he,
+		"nyelv"@hu,
+		"bahasa"@id,
+		"linguo"@io,
+		"tungumál"@is,
+		"lingua"@it,
+		"言語"@ja,
+		"basa"@jv,
+		"ndinga"@kg,
+		"언어"@ko,
+		"lingua"@la,
+		"kalba"@lt,
+		"valoda"@lv,
+		"語言，屬漢藏語系"@lzh,
+		"fiteny"@mg,
+		"bahaso"@min,
+		"јазик"@mk,
+		"bahasa"@ms,
+		"språk"@nb,
+		"Spraak"@nds,
+		"taal"@nl,
+		"språk"@nn,
+		"langue"@pcd,
+		"język z rodziny sinotybetańskiej"@pl,
+		"língua"@pt,
+		"limba"@ro,
+		"язык"@ru,
+		"jazyk"@sk,
+		"basa"@su,
+		"språk"@sv,
+		"reo"@ty,
+		"tiếng"@vi,
+		"làkk"@wo,
+		"语言"@zh,
+		"语言"@zh-hans,
+		"語言"@zh-hant,
+		"漢藏語言"@yue,
+		"iaith"@cy,
+		"ਭਾਸ਼ਾ"@pa ;
+	skos:altLabel "Limbu"@es,
+		"Limbu-Sprache"@de,
+		"Limbu language"@ne,
+		"लिम्बु भाषा"@ne,
+		"Yakthung Pan"@gv,
+		"Limbu"@gv,
+		"Limbu language"@en,
+		"ਲਿੰਬੂ ਭਾਸ਼ਾ"@pa .
+
+wd:Q13154705 owl:sameAs wd:Q56477 .
+
+wd:Q31441285 owl:sameAs wd:Q56477 .
+
+wd:Q65313725 owl:sameAs wd:Q56477 .

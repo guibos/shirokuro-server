@@ -1,0 +1,66 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q75919253 a schema:Dataset ;
+	schema:about wd:Q75919253 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1364207559"^^xsd:integer ;
+	schema:dateModified "2021-02-18T11:17:06Z"^^xsd:dateTime .
+
+wd:Q75919253 a wikibase:Item ;
+	wdt:P31 wd:Q9779,
+		wd:Q1191702,
+		wd:Q4004706 ;
+	wdt:P2620 "264" ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P506 "Mroo" ;
+	wdt:P5949 "U+16A40-16A6F" ;
+	wdt:P2561 "Mro, Mru"@en,
+		"mro"@fr,
+		"Mro"@en ;
+	wdt:P407 wd:Q1951521 ;
+	wdt:P571 "1980-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P366 wd:Q1951521 ;
+	wdt:P170 wd:Q105556020 ;
+	rdfs:label "Mru"@en ;
+	skos:prefLabel "Mru"@en ;
+	schema:name "Mru"@en ;
+	rdfs:label "mro"@fr ;
+	skos:prefLabel "mro"@fr ;
+	schema:name "mro"@fr ;
+	schema:description "alphabet"@en,
+		"alphabet"@fr ;
+	skos:altLabel "Mro alphabet"@en,
+		"Mro script"@en,
+		"Mru script"@en .
+
+wd:Q104837502 owl:sameAs wd:Q75919253 .

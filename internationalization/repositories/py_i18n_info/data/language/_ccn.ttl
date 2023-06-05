@@ -1,0 +1,445 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33732 a schema:Dataset ;
+	schema:about wd:Q33732 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1880774765"^^xsd:integer ;
+	schema:dateModified "2023-04-22T19:54:15Z"^^xsd:dateTime .
+
+wd:Q33732 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/North_Caucasian_languages> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "North Caucasian languages"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Lenguas_cauc%C3%A1sicas_septentrionales> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Lenguas caucásicas septentrionales"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BE%D0%BA%D0%B0%D0%B2%D0%BA%D0%B0%D0%B7%D1%81%D0%BA%D0%B8%D0%B5_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Северокавказские языки"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E5%8C%97%E3%82%B3%E3%83%BC%E3%82%AB%E3%82%B5%E3%82%B9%E8%AA%9E%E6%97%8F> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "北コーカサス語族"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Noord-Kaukasische_talen> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Noord-Kaukasische talen"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyki_p%C3%B3%C5%82nocnokaukaskie> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Języki północnokaukaskie"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%8C%97%E9%AB%98%E5%8A%A0%E7%B4%A2%E8%AA%9E%E7%B3%BB> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "北高加索語系"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86%E2%80%8C%D9%87%D8%A7%DB%8C_%D9%82%D9%81%D9%82%D8%A7%D8%B2%DB%8C_%D8%B4%D9%85%D8%A7%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان‌های قفقازی شمالی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Kuzey_Kafkas_dilleri> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Kuzey Kafkas dilleri"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D8%BA%D8%A7%D8%AA_%D8%A7%D9%84%D9%82%D9%88%D9%82%D8%A7%D8%B2%D9%8A%D8%A9_%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "اللغات القوقازية الشمالية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EB%B6%81%EC%BA%85%EC%B9%B4%EC%8A%A4%EC%96%B4%EC%A1%B1> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "북캅카스어족"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Severokavkazsk%C3%A9_jazyky> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Severokavkazské jazyky"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Lling%C3%BCes_cauc%C3%A1siques_septentrionales> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Llingües caucásiques septentrionales"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D9%82%D9%88%D8%B2%D8%A6%DB%8C_%D9%82%D9%81%D9%82%D8%A7%D8%B2_%D8%AF%DB%8C%D9%84%D9%84%D8%B1%DB%8C> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "قوزئی قفقاز دیللری"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ba.wikipedia.org/wiki/%D0%A2%D3%A9%D0%BD%D1%8C%D1%8F%D2%A1_%D0%BA%D0%B0%D0%B2%D0%BA%D0%B0%D0%B7_%D1%82%D0%B5%D0%BB%D0%B4%D3%99%D1%80%D0%B5> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "ba" ;
+	schema:isPartOf <https://ba.wikipedia.org/> ;
+	schema:name "Төньяҡ кавказ телдәре"@ba .
+
+<https://ba.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%9F%D0%B0%D1%9E%D0%BD%D0%BE%D1%87%D0%BD%D0%B0%D0%BA%D0%B0%D1%9E%D0%BA%D0%B0%D1%81%D0%BA%D1%96%D1%8F_%D0%BC%D0%BE%D0%B2%D1%8B> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Паўночнакаўкаскія мовы"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Linguae_Caucasicae_Septentrionales> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Linguae Caucasicae Septentrionales"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Lengas_n%C3%B2rd-caucasencas> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Lengas nòrd-caucasencas"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://os.wikipedia.org/wiki/%D0%A6%C3%A6%D0%B3%D0%B0%D1%82-%D0%BA%D0%B0%D0%B2%D0%BA%D0%B0%D0%B7%D0%B0%D0%B3_%C3%A6%D0%B2%D0%B7%C3%A6%D0%B3%D1%82%C3%A6> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "os" ;
+	schema:isPartOf <https://os.wikipedia.org/> ;
+	schema:name "Цæгат-кавказаг æвзæгтæ"@os .
+
+<https://os.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenghe_n%C3%B2rd-caucasian-e> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenghe nòrd-caucasian-e"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Lugha_za_Kikaukazi_ya_Kaskazini> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Lugha za Kikaukazi ya Kaskazini"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D5%80%D5%B5%D5%B8%D6%82%D5%BD%D5%AB%D5%BD%D5%AF%D5%B8%D5%BE%D5%AF%D5%A1%D5%BD%D5%B5%D5%A1%D5%B6_%D5%AC%D5%A5%D5%A6%D5%B8%D6%82%D5%B6%D5%A5%D6%80> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Հյուսիսկովկասյան լեզուներ"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Nordkaukasische_Sprachen> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Nordkaukasische Sprachen"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Lleng%C3%BCes_cauc%C3%A0siques_septentrionals> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Llengües caucàsiques septentrionals"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Sjevernokavkaski_jezici> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Sjevernokavkaski jezici"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingue_caucasiche_settentrionali> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingue caucasiche settentrionali"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lez.wikipedia.org/wiki/%D0%9A%D0%B5%D1%84%D0%B5%D1%80%D0%BF%D0%B0%D1%82%D0%B0%D0%BD_%D0%9A%D1%8A%D0%B0%D0%B2%D0%BA%D1%8A%D0%B0%D0%B7%D0%B4%D0%B8%D0%BD_%D1%87%D3%80%D0%B0%D0%BB%D0%B0%D1%80> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "lez" ;
+	schema:isPartOf <https://lez.wikipedia.org/> ;
+	schema:name "Кеферпатан Къавкъаздин чӀалар"@lez .
+
+<https://lez.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9F%D1%96%D0%B2%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D0%BA%D0%B0%D0%B2%D0%BA%D0%B0%D0%B7%D1%8C%D0%BA%D1%96_%D0%BC%D0%BE%D0%B2%D0%B8> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Північнокавказькі мови"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Zieme%C4%BCkauk%C4%81za_valodas> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Ziemeļkaukāza valodas"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D8%B4%D9%85%D8%A7%D9%84%DB%8C_%D9%82%D9%81%D9%82%D8%A7%D8%B2%DB%8C_%D8%B2%D8%A8%D8%A7%D9%86%DB%8C%DA%BA> a schema:Article ;
+	schema:about wd:Q33732 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "شمالی قفقازی زبانیں"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33732 wdt:P31 wd:Q25295 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Caucasic%20languages.svg> ;
+	wdt:P646 "/m/01y9lb" ;
+	wdt:P1798 "ccn" ;
+	wdt:P305 "ccn" ;
+	wdt:P279 wd:Q169921 ;
+	wdt:P1417 "topic/North-Caucasian-languages" ;
+	wdt:P2581 "02785244n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s02785244n> ;
+	wdt:P2924 "3544398" ;
+	wdt:P910 wd:Q9906146 ;
+	wdt:P1245 "564614" ;
+	wdt:P2347 "29224" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p29224> ;
+	wdt:P11514 "severokavkazskie-iazyki-da29a4" ;
+	rdfs:label "severokavkazské jazyky"@cs ;
+	skos:prefLabel "severokavkazské jazyky"@cs ;
+	schema:name "severokavkazské jazyky"@cs ;
+	rdfs:label "języki północnokaukaskie"@pl ;
+	skos:prefLabel "języki północnokaukaskie"@pl ;
+	schema:name "języki północnokaukaskie"@pl ;
+	rdfs:label "Цæгат-кавказаг æвзæгтæ"@os ;
+	skos:prefLabel "Цæгат-кавказаг æвзæгтæ"@os ;
+	schema:name "Цæгат-кавказаг æвзæгтæ"@os ;
+	rdfs:label "زبان‌های قفقازی شمالی"@fa ;
+	skos:prefLabel "زبان‌های قفقازی شمالی"@fa ;
+	schema:name "زبان‌های قفقازی شمالی"@fa ;
+	rdfs:label "северокавказские языки"@ru ;
+	skos:prefLabel "северокавказские языки"@ru ;
+	schema:name "северокавказские языки"@ru ;
+	rdfs:label "북캅카스어족"@ko ;
+	skos:prefLabel "북캅카스어족"@ko ;
+	schema:name "북캅카스어족"@ko ;
+	rdfs:label "شمالی قفقازی زبانیں"@ur ;
+	skos:prefLabel "شمالی قفقازی زبانیں"@ur ;
+	schema:name "شمالی قفقازی زبانیں"@ur ;
+	rdfs:label "lenguas caucásicas septentrionales"@es ;
+	skos:prefLabel "lenguas caucásicas septentrionales"@es ;
+	schema:name "lenguas caucásicas septentrionales"@es ;
+	rdfs:label "North Caucasian"@en ;
+	skos:prefLabel "North Caucasian"@en ;
+	schema:name "North Caucasian"@en ;
+	rdfs:label "Kuzey Kafkas dilleri"@tr ;
+	skos:prefLabel "Kuzey Kafkas dilleri"@tr ;
+	schema:name "Kuzey Kafkas dilleri"@tr ;
+	rdfs:label "Noord-Kaukasische talen"@nl ;
+	skos:prefLabel "Noord-Kaukasische talen"@nl ;
+	schema:name "Noord-Kaukasische talen"@nl ;
+	rdfs:label "اللغات القوقازية الشمالية"@ar ;
+	skos:prefLabel "اللغات القوقازية الشمالية"@ar ;
+	schema:name "اللغات القوقازية الشمالية"@ar ;
+	rdfs:label "Nòrd-caucasenc"@oc ;
+	skos:prefLabel "Nòrd-caucasenc"@oc ;
+	schema:name "Nòrd-caucasenc"@oc ;
+	rdfs:label "Кеферпатан Къавкъаздин чӀалар"@lez ;
+	skos:prefLabel "Кеферпатан Къавкъаздин чӀалар"@lez ;
+	schema:name "Кеферпатан Къавкъаздин чӀалар"@lez ;
+	rdfs:label "Lenghe nòrd-caucasian-e"@pms ;
+	skos:prefLabel "Lenghe nòrd-caucasian-e"@pms ;
+	schema:name "Lenghe nòrd-caucasian-e"@pms ;
+	rdfs:label "паўночнакаўкаскія мовы"@be-tarask ;
+	skos:prefLabel "паўночнакаўкаскія мовы"@be-tarask ;
+	schema:name "паўночнакаўкаскія мовы"@be-tarask ;
+	rdfs:label "Nordkaukasisch"@de ;
+	skos:prefLabel "Nordkaukasisch"@de ;
+	schema:name "Nordkaukasisch"@de ;
+	rdfs:label "langues caucasiennes du Nord"@fr ;
+	skos:prefLabel "langues caucasiennes du Nord"@fr ;
+	schema:name "langues caucasiennes du Nord"@fr ;
+	rdfs:label "北コーカサス語族"@ja ;
+	skos:prefLabel "北コーカサス語族"@ja ;
+	schema:name "北コーカサス語族"@ja ;
+	rdfs:label "Linguae Caucasicae Septentrionales"@la ;
+	skos:prefLabel "Linguae Caucasicae Septentrionales"@la ;
+	schema:name "Linguae Caucasicae Septentrionales"@la ;
+	rdfs:label "Төньяҡ кавказ телдәре"@ba ;
+	skos:prefLabel "Төньяҡ кавказ телдәре"@ba ;
+	schema:name "Төньяҡ кавказ телдәре"@ba ;
+	rdfs:label "Lugha za Kikaukazi ya Kaskazini"@sw ;
+	skos:prefLabel "Lugha za Kikaukazi ya Kaskazini"@sw ;
+	schema:name "Lugha za Kikaukazi ya Kaskazini"@sw ;
+	rdfs:label "llengües caucàsiques del nord"@ca ;
+	skos:prefLabel "llengües caucàsiques del nord"@ca ;
+	schema:name "llengües caucàsiques del nord"@ca ;
+	rdfs:label "norda kaŭkaza lingvaro"@eo ;
+	skos:prefLabel "norda kaŭkaza lingvaro"@eo ;
+	schema:name "norda kaŭkaza lingvaro"@eo ;
+	rdfs:label "Llingües caucásiques septentrionales"@ast ;
+	skos:prefLabel "Llingües caucásiques septentrionales"@ast ;
+	schema:name "Llingües caucásiques septentrionales"@ast ;
+	rdfs:label "قوزئی قفقاز دیللری"@azb ;
+	skos:prefLabel "قوزئی قفقاز دیللری"@azb ;
+	schema:name "قوزئی قفقاز دیللری"@azb ;
+	rdfs:label "北高加索語系"@zh ;
+	skos:prefLabel "北高加索語系"@zh ;
+	schema:name "北高加索語系"@zh ;
+	rdfs:label "Հյուսիսկովկասյան լեզուներ"@hy ;
+	skos:prefLabel "Հյուսիսկովկասյան լեզուներ"@hy ;
+	schema:name "Հյուսիսկովկասյան լեզուներ"@hy ;
+	rdfs:label "ziemeļkaukāziešu valodas"@lv ;
+	skos:prefLabel "ziemeļkaukāziešu valodas"@lv ;
+	schema:name "ziemeļkaukāziešu valodas"@lv ;
+	rdfs:label "севернокакаски јазици"@mk ;
+	skos:prefLabel "севернокакаски јазици"@mk ;
+	schema:name "севернокакаски јазици"@mk ;
+	rdfs:label "північнокавказькі мови"@uk ;
+	skos:prefLabel "північнокавказькі мови"@uk ;
+	schema:name "північнокавказькі мови"@uk ;
+	rdfs:label "iparraldeko kaukasoar hizkuntzak"@eu ;
+	skos:prefLabel "iparraldeko kaukasoar hizkuntzak"@eu ;
+	schema:name "iparraldeko kaukasoar hizkuntzak"@eu ;
+	rdfs:label "Sjevernokavkaski jezici"@hr ;
+	skos:prefLabel "Sjevernokavkaski jezici"@hr ;
+	schema:name "Sjevernokavkaski jezici"@hr ;
+	rdfs:label "שפות קווקזיות צפוניות"@he ;
+	skos:prefLabel "שפות קווקזיות צפוניות"@he ;
+	schema:name "שפות קווקזיות צפוניות"@he ;
+	rdfs:label "Lingue caucasiche settentrionali"@it ;
+	skos:prefLabel "Lingue caucasiche settentrionali"@it ;
+	schema:name "Lingue caucasiche settentrionali"@it ;
+	rdfs:label "pohjoiskaukasialainen kieli"@fi ;
+	skos:prefLabel "pohjoiskaukasialainen kieli"@fi ;
+	schema:name "pohjoiskaukasialainen kieli"@fi ;
+	rdfs:label "nordkaukasiskt språk"@sv ;
+	skos:prefLabel "nordkaukasiskt språk"@sv ;
+	schema:name "nordkaukasiskt språk"@sv ;
+	rdfs:label "łéngue caucàzeghe setentrionałi"@vec ;
+	skos:prefLabel "łéngue caucàzeghe setentrionałi"@vec ;
+	schema:name "łéngue caucàzeghe setentrionałi"@vec ;
+	schema:description "familia de lenguas"@es,
+		"Sprachfamilie"@de,
+		"language families"@en,
+		"famille de langues"@fr,
+		"família lingüística"@ca,
+		"familh yezhoù"@br,
+		"моўная сям’я"@be-tarask,
+		"мовна сім'я"@uk,
+		"jazyková rodina"@cs,
+		"hizkuntza familia"@eu,
+		"Dil ailesi"@tr,
+		"taalfamilie"@nl ;
+	skos:altLabel "Цæгат кавказаг æвзæгтæ"@os,
+		"زبان های قفقازی شمالی"@fa,
+		"زبانهای قفقازی شمالی"@fa,
+		"قفقازی شمالی"@fa,
+		"Северокавказская надсемья"@ru,
+		"Севернокавказские языки"@ru,
+		"Северокавказская семья"@ru,
+		"Северокавказская языковая семья"@ru,
+		"북카프카스어족"@ko,
+		"Lenguas caucásicas del norte"@es,
+		"Lenguas caucasicas septentrionales"@es,
+		"Lenguas caucasicas del norte"@es,
+		"Lengas nòrd-caucasencas"@oc,
+		"Lenghe nòrd-caucàsiche"@pms,
+		"llengües caucàsiques septentrionals"@ca,
+		"Ziemeļkaukāza valodas"@lv,
+		"North Caucasian languages"@en,
+		"nordkaukasische Sprachen"@de .
+
+wd:Q12642183 owl:sameAs wd:Q33732 .
+
+wd:Q12949388 owl:sameAs wd:Q33732 .
+
+wd:Q12954039 owl:sameAs wd:Q33732 .

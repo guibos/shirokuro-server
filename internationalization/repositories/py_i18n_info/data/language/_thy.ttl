@@ -1,0 +1,122 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3915849 a schema:Dataset ;
+	schema:about wd:Q3915849 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961414847"^^xsd:integer ;
+	schema:dateModified "2023-08-26T02:21:40Z"^^xsd:dateTime .
+
+wd:Q3915849 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Tha> a schema:Article ;
+	schema:about wd:Q3915849 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Tha"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitha> a schema:Article ;
+	schema:about wd:Q3915849 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitha"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Tha_language> a schema:Article ;
+	schema:about wd:Q3915849 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Tha language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ha.wikipedia.org/wiki/Kapanci> a schema:Article ;
+	schema:about wd:Q3915849 ;
+	schema:inLanguage "ha" ;
+	schema:isPartOf <https://ha.wikipedia.org/> ;
+	schema:name "Kapanci"@ha .
+
+<https://ha.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3915849 wdt:P220 "thy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/thy> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "thaa1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/thaa1239> ;
+	wdt:P279 wd:Q4853456 ;
+	wdt:P2192 "4837" ;
+	wdt:P305 "thy" ;
+	wdt:P1627 "thy" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q509300,
+		wd:Q463959 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/THY> ;
+	wdt:P646 "/m/02hxkfc" ;
+	rdfs:label "Kitha"@sw ;
+	skos:prefLabel "Kitha"@sw ;
+	schema:name "Kitha"@sw ;
+	rdfs:label "Lenga Tha"@pms ;
+	skos:prefLabel "Lenga Tha"@pms ;
+	schema:name "Lenga Tha"@pms ;
+	rdfs:label "Tha"@en ;
+	skos:prefLabel "Tha"@en ;
+	schema:name "Tha"@en ;
+	rdfs:label "Tha"@en-gb ;
+	skos:prefLabel "Tha"@en-gb ;
+	schema:name "Tha"@en-gb ;
+	rdfs:label "tha"@fr ;
+	skos:prefLabel "tha"@fr ;
+	schema:name "tha"@fr ;
+	rdfs:label "Kapanci"@ha ;
+	skos:prefLabel "Kapanci"@ha ;
+	schema:name "Kapanci"@ha ;
+	rdfs:label "Tha"@ig ;
+	skos:prefLabel "Tha"@ig ;
+	schema:name "Tha"@ig ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue gur"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"Asụsụ"@ig ;
+	skos:altLabel "Tha language"@en,
+		"Asụsụ Tha"@ig .

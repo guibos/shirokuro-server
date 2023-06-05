@@ -1,0 +1,154 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7675790 a schema:Dataset ;
+	schema:about wd:Q7675790 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1840495535"^^xsd:integer ;
+	schema:dateModified "2023-02-24T11:14:22Z"^^xsd:dateTime .
+
+wd:Q7675790 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_tai_m%C3%A8ne> a schema:Article ;
+	schema:about wd:Q7675790 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga tai mène"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitai-Yo> a schema:Article ;
+	schema:about wd:Q7675790 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitai-Yo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Tai_Yo_language> a schema:Article ;
+	schema:about wd:Q7675790 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Tai Yo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Tai_Yo> a schema:Article ;
+	schema:about wd:Q7675790 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Tai Yo"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%8D%E0%B9%89%E0%B8%AD> a schema:Article ;
+	schema:about wd:Q7675790 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาญ้อ"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Tay_D%E1%BB%8D> a schema:Article ;
+	schema:about wd:Q7675790 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Tay Dọ"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%83%A5%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q7675790 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "僥語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7675790 wdt:P220 "tmp" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tmp> ;
+	wdt:P31 wd:Q34770 ;
+	wdt:P1394 "taid1248" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/taid1248> ;
+	wdt:P305 "tmp" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TMP> ;
+	wdt:P2671 "/g/121vlckb" ;
+	wdtn:P2671 <http://g.co/kg/g/121vlckb> ;
+	rdfs:label "Tai Mène"@en ;
+	skos:prefLabel "Tai Mène"@en ;
+	schema:name "Tai Mène"@en ;
+	rdfs:label "Lenga tai mène"@pms ;
+	skos:prefLabel "Lenga tai mène"@pms ;
+	schema:name "Lenga tai mène"@pms ;
+	rdfs:label "ภาษาญ้อ"@th ;
+	skos:prefLabel "ภาษาญ้อ"@th ;
+	schema:name "ภาษาญ้อ"@th ;
+	rdfs:label "Kitai-Yo"@sw ;
+	skos:prefLabel "Kitai-Yo"@sw ;
+	schema:name "Kitai-Yo"@sw ;
+	rdfs:label "タイ・メネ語"@ja ;
+	skos:prefLabel "タイ・メネ語"@ja ;
+	schema:name "タイ・メネ語"@ja ;
+	rdfs:label "Tataramon na Tai Yo"@bcl ;
+	skos:prefLabel "Tataramon na Tai Yo"@bcl ;
+	schema:name "Tataramon na Tai Yo"@bcl ;
+	rdfs:label "傣曼語"@zh-hant ;
+	skos:prefLabel "傣曼語"@zh-hant ;
+	schema:name "傣曼語"@zh-hant ;
+	rdfs:label "傣曼语"@zh-hans ;
+	skos:prefLabel "傣曼语"@zh-hans ;
+	schema:name "傣曼语"@zh-hans ;
+	rdfs:label "傣曼语"@zh ;
+	skos:prefLabel "傣曼语"@zh ;
+	schema:name "傣曼语"@zh ;
+	rdfs:label "Tiếng Tày Dọ"@vi ;
+	skos:prefLabel "Tiếng Tày Dọ"@vi ;
+	schema:name "Tiếng Tày Dọ"@vi ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Tai Mene"@en,
+		"Tai Mene language"@en,
+		"Tai Mène language"@en,
+		"ニャウ語"@ja,
+		"タイ・ドー語"@ja,
+		"ภาษาไทญ้อ"@th,
+		"ภาษาไทแมน"@th .
+
+wd:Q13018517 owl:sameAs wd:Q7675790 .

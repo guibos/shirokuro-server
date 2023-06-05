@@ -1,0 +1,135 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3915680 a schema:Dataset ;
+	schema:about wd:Q3915680 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1958506951"^^xsd:integer ;
+	schema:dateModified "2023-08-22T01:29:33Z"^^xsd:dateTime .
+
+wd:Q3915680 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_uradhi> a schema:Article ;
+	schema:about wd:Q3915680 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga uradhi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Uradhi> a schema:Article ;
+	schema:about wd:Q3915680 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Uradhi"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiuradhi> a schema:Article ;
+	schema:about wd:Q3915680 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiuradhi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Uradhi_language> a schema:Article ;
+	schema:about wd:Q3915680 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Uradhi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_uradhi> a schema:Article ;
+	schema:about wd:Q3915680 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma uradhi"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3915680 wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "urad1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/urad1238> ;
+	wdt:P220 "urf" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/urf> ;
+	wdt:P1466 "uhi" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_uhi> ;
+	wdt:P1252 "Y184*",
+		"Y184" ;
+	wdt:P279 wd:Q7054360 ;
+	wdt:P910 wd:Q36166994 ;
+	wdt:P2192 "3417" ;
+	wdt:P305 "urf" ;
+	wdt:P1627 "urf" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q36074 ;
+	wdt:P1245 "7744" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/URF> ;
+	wdt:P646 "/m/0djrxt" ;
+	rdfs:label "Lenga uradhi"@pms ;
+	skos:prefLabel "Lenga uradhi"@pms ;
+	schema:name "Lenga uradhi"@pms ;
+	rdfs:label "Uradhi"@en ;
+	skos:prefLabel "Uradhi"@en ;
+	schema:name "Uradhi"@en ;
+	rdfs:label "Uradhi"@sv ;
+	skos:prefLabel "Uradhi"@sv ;
+	schema:name "Uradhi"@sv ;
+	rdfs:label "Idioma uradhi"@es ;
+	skos:prefLabel "Idioma uradhi"@es ;
+	schema:name "Idioma uradhi"@es ;
+	rdfs:label "Uradhi"@en-gb ;
+	skos:prefLabel "Uradhi"@en-gb ;
+	schema:name "Uradhi"@en-gb ;
+	rdfs:label "Kiuradhi"@sw ;
+	skos:prefLabel "Kiuradhi"@sw ;
+	schema:name "Kiuradhi"@sw ;
+	rdfs:label "uradhi"@fr ;
+	skos:prefLabel "uradhi"@fr ;
+	schema:name "uradhi"@fr ;
+	schema:description "lugha ya asili ya Australia iliyotoweka"@sw,
+		"langue pama de Cape York du Nord"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"utdött australiskt språk"@sv ;
+	skos:altLabel "Uradhi language"@en .

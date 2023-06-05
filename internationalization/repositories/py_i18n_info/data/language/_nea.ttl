@@ -1,0 +1,349 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12473454 a schema:Dataset ;
+	schema:about wd:Q12473454 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912487574"^^xsd:integer ;
+	schema:dateModified "2023-06-10T19:30:22Z"^^xsd:dateTime .
+
+wd:Q12473454 a wikibase:Item .
+
+<https://nl.wikipedia.org/wiki/Oost-Ngadha> a schema:Article ;
+	schema:about wd:Q12473454 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Oost-Ngadha"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Ngad%27a_oriental> a schema:Article ;
+	schema:about wd:Q12473454 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Ngad'a oriental"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kingad%27a-Mashariki> a schema:Article ;
+	schema:about wd:Q12473454 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kingad'a-Mashariki"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Ngada_Timur> a schema:Article ;
+	schema:about wd:Q12473454 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Ngada Timur"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12473454 wdt:P220 "nea" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nea> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P2590 "0175 0" ;
+	wdt:P17 wd:Q252 ;
+	wdt:P276 wd:Q14919635,
+		wd:Q12512192,
+		wd:Q12518629,
+		wd:Q12511988,
+		wd:Q4193682,
+		wd:Q24631154 ;
+	wdt:P1098 "+5000"^^xsd:decimal ;
+	wdt:P279 wd:Q30307571 ;
+	wdt:P1394 "east2464" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/east2464> ;
+	wdt:P305 "nea" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P1627 "nea" ;
+	wdt:P2341 wd:Q5061,
+		wd:Q3803 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NEA> ;
+	wdt:P910 wd:Q105714641 ;
+	wdt:P2671 "/g/1211rbdx" ;
+	wdtn:P2671 <http://g.co/kg/g/1211rbdx> ;
+	rdfs:label "Ngada Timur"@id ;
+	skos:prefLabel "Ngada Timur"@id ;
+	schema:name "Ngada Timur"@id ;
+	rdfs:label "Oost-Ngadha"@nl ;
+	skos:prefLabel "Oost-Ngadha"@nl ;
+	schema:name "Oost-Ngadha"@nl ;
+	rdfs:label "Eastern Ngad'a"@en ;
+	skos:prefLabel "Eastern Ngad'a"@en ;
+	schema:name "Eastern Ngad'a"@en ;
+	rdfs:label "Lenga Ngad'a oriental"@pms ;
+	skos:prefLabel "Lenga Ngad'a oriental"@pms ;
+	schema:name "Lenga Ngad'a oriental"@pms ;
+	rdfs:label "Kingad'a-Mashariki"@sw ;
+	skos:prefLabel "Kingad'a-Mashariki"@sw ;
+	schema:name "Kingad'a-Mashariki"@sw ;
+	rdfs:label "Ngada Timur"@ace ;
+	skos:prefLabel "Ngada Timur"@ace ;
+	schema:name "Ngada Timur"@ace ;
+	rdfs:label "Ngada Timur"@af ;
+	skos:prefLabel "Ngada Timur"@af ;
+	schema:name "Ngada Timur"@af ;
+	rdfs:label "Ngada Timur"@an ;
+	skos:prefLabel "Ngada Timur"@an ;
+	schema:name "Ngada Timur"@an ;
+	rdfs:label "Ngada Timur"@ast ;
+	skos:prefLabel "Ngada Timur"@ast ;
+	schema:name "Ngada Timur"@ast ;
+	rdfs:label "Ngada Timur"@bar ;
+	skos:prefLabel "Ngada Timur"@bar ;
+	schema:name "Ngada Timur"@bar ;
+	rdfs:label "ngada Timur"@br ;
+	skos:prefLabel "ngada Timur"@br ;
+	schema:name "ngada Timur"@br ;
+	rdfs:label "ngada oriental"@ca ;
+	skos:prefLabel "ngada oriental"@ca ;
+	schema:name "ngada oriental"@ca ;
+	rdfs:label "Ngada Timur"@co ;
+	skos:prefLabel "Ngada Timur"@co ;
+	schema:name "Ngada Timur"@co ;
+	rdfs:label "Ngada Timur"@cs ;
+	skos:prefLabel "Ngada Timur"@cs ;
+	schema:name "Ngada Timur"@cs ;
+	rdfs:label "Ngada Timur"@cy ;
+	skos:prefLabel "Ngada Timur"@cy ;
+	schema:name "Ngada Timur"@cy ;
+	rdfs:label "Ngada Timur"@da ;
+	skos:prefLabel "Ngada Timur"@da ;
+	schema:name "Ngada Timur"@da ;
+	rdfs:label "Ngada Timur"@de ;
+	skos:prefLabel "Ngada Timur"@de ;
+	schema:name "Ngada Timur"@de ;
+	rdfs:label "Ngada Timur"@de-at ;
+	skos:prefLabel "Ngada Timur"@de-at ;
+	schema:name "Ngada Timur"@de-at ;
+	rdfs:label "Ngada Timur"@de-ch ;
+	skos:prefLabel "Ngada Timur"@de-ch ;
+	schema:name "Ngada Timur"@de-ch ;
+	rdfs:label "Ngada Timur"@en-ca ;
+	skos:prefLabel "Ngada Timur"@en-ca ;
+	schema:name "Ngada Timur"@en-ca ;
+	rdfs:label "Ngada Timur"@en-gb ;
+	skos:prefLabel "Ngada Timur"@en-gb ;
+	schema:name "Ngada Timur"@en-gb ;
+	rdfs:label "Ngada Timur"@eo ;
+	skos:prefLabel "Ngada Timur"@eo ;
+	schema:name "Ngada Timur"@eo ;
+	rdfs:label "Ngada Timur"@es ;
+	skos:prefLabel "Ngada Timur"@es ;
+	schema:name "Ngada Timur"@es ;
+	rdfs:label "Ngada Timur"@et ;
+	skos:prefLabel "Ngada Timur"@et ;
+	schema:name "Ngada Timur"@et ;
+	rdfs:label "Ngada Timur"@eu ;
+	skos:prefLabel "Ngada Timur"@eu ;
+	schema:name "Ngada Timur"@eu ;
+	rdfs:label "Ngada Timur"@fi ;
+	skos:prefLabel "Ngada Timur"@fi ;
+	schema:name "Ngada Timur"@fi ;
+	rdfs:label "ngada Timur"@fr ;
+	skos:prefLabel "ngada Timur"@fr ;
+	schema:name "ngada Timur"@fr ;
+	rdfs:label "Ngada Timur"@frp ;
+	skos:prefLabel "Ngada Timur"@frp ;
+	schema:name "Ngada Timur"@frp ;
+	rdfs:label "Ngada Timur"@fur ;
+	skos:prefLabel "Ngada Timur"@fur ;
+	schema:name "Ngada Timur"@fur ;
+	rdfs:label "Ngada Timur"@ga ;
+	skos:prefLabel "Ngada Timur"@ga ;
+	schema:name "Ngada Timur"@ga ;
+	rdfs:label "Ngada Timur"@gd ;
+	skos:prefLabel "Ngada Timur"@gd ;
+	schema:name "Ngada Timur"@gd ;
+	rdfs:label "Ngada Timur"@gl ;
+	skos:prefLabel "Ngada Timur"@gl ;
+	schema:name "Ngada Timur"@gl ;
+	rdfs:label "Ngada Timur"@gsw ;
+	skos:prefLabel "Ngada Timur"@gsw ;
+	schema:name "Ngada Timur"@gsw ;
+	rdfs:label "Ngada Timur"@hr ;
+	skos:prefLabel "Ngada Timur"@hr ;
+	schema:name "Ngada Timur"@hr ;
+	rdfs:label "Ngada Timur"@hu ;
+	skos:prefLabel "Ngada Timur"@hu ;
+	schema:name "Ngada Timur"@hu ;
+	rdfs:label "Ngada Timur"@ia ;
+	skos:prefLabel "Ngada Timur"@ia ;
+	schema:name "Ngada Timur"@ia ;
+	rdfs:label "Ngada Timur"@ie ;
+	skos:prefLabel "Ngada Timur"@ie ;
+	schema:name "Ngada Timur"@ie ;
+	rdfs:label "Ngada Timur"@io ;
+	skos:prefLabel "Ngada Timur"@io ;
+	schema:name "Ngada Timur"@io ;
+	rdfs:label "Ngada Timur"@is ;
+	skos:prefLabel "Ngada Timur"@is ;
+	schema:name "Ngada Timur"@is ;
+	rdfs:label "ngada timur"@it ;
+	skos:prefLabel "ngada timur"@it ;
+	schema:name "ngada timur"@it ;
+	rdfs:label "Ngada Timur"@jv ;
+	skos:prefLabel "Ngada Timur"@jv ;
+	schema:name "Ngada Timur"@jv ;
+	rdfs:label "Ngada Timur"@kg ;
+	skos:prefLabel "Ngada Timur"@kg ;
+	schema:name "Ngada Timur"@kg ;
+	rdfs:label "Ngada Timur"@lb ;
+	skos:prefLabel "Ngada Timur"@lb ;
+	schema:name "Ngada Timur"@lb ;
+	rdfs:label "Ngada Timur"@li ;
+	skos:prefLabel "Ngada Timur"@li ;
+	schema:name "Ngada Timur"@li ;
+	rdfs:label "Ngada Timur"@lij ;
+	skos:prefLabel "Ngada Timur"@lij ;
+	schema:name "Ngada Timur"@lij ;
+	rdfs:label "Ngada Timur"@mg ;
+	skos:prefLabel "Ngada Timur"@mg ;
+	schema:name "Ngada Timur"@mg ;
+	rdfs:label "Ngada Timur"@min ;
+	skos:prefLabel "Ngada Timur"@min ;
+	schema:name "Ngada Timur"@min ;
+	rdfs:label "Ngada Timur"@ms ;
+	skos:prefLabel "Ngada Timur"@ms ;
+	schema:name "Ngada Timur"@ms ;
+	rdfs:label "Ngada Timur"@nap ;
+	skos:prefLabel "Ngada Timur"@nap ;
+	schema:name "Ngada Timur"@nap ;
+	rdfs:label "Ngada Timur"@nb ;
+	skos:prefLabel "Ngada Timur"@nb ;
+	schema:name "Ngada Timur"@nb ;
+	rdfs:label "Ngada Timur"@nds ;
+	skos:prefLabel "Ngada Timur"@nds ;
+	schema:name "Ngada Timur"@nds ;
+	rdfs:label "Ngada Timur"@nds-nl ;
+	skos:prefLabel "Ngada Timur"@nds-nl ;
+	schema:name "Ngada Timur"@nds-nl ;
+	rdfs:label "Ngada Timur"@nn ;
+	skos:prefLabel "Ngada Timur"@nn ;
+	schema:name "Ngada Timur"@nn ;
+	rdfs:label "Ngada Timur"@nrm ;
+	skos:prefLabel "Ngada Timur"@nrm ;
+	schema:name "Ngada Timur"@nrm ;
+	rdfs:label "Ngada Timur"@oc ;
+	skos:prefLabel "Ngada Timur"@oc ;
+	schema:name "Ngada Timur"@oc ;
+	rdfs:label "Ngada Timur"@pcd ;
+	skos:prefLabel "Ngada Timur"@pcd ;
+	schema:name "Ngada Timur"@pcd ;
+	rdfs:label "Ngada Timur"@pl ;
+	skos:prefLabel "Ngada Timur"@pl ;
+	schema:name "Ngada Timur"@pl ;
+	rdfs:label "Ngada Timur"@pt ;
+	skos:prefLabel "Ngada Timur"@pt ;
+	schema:name "Ngada Timur"@pt ;
+	rdfs:label "Ngada Timur"@pt-br ;
+	skos:prefLabel "Ngada Timur"@pt-br ;
+	schema:name "Ngada Timur"@pt-br ;
+	rdfs:label "Ngada Timur"@rm ;
+	skos:prefLabel "Ngada Timur"@rm ;
+	schema:name "Ngada Timur"@rm ;
+	rdfs:label "Ngada Timur"@ro ;
+	skos:prefLabel "Ngada Timur"@ro ;
+	schema:name "Ngada Timur"@ro ;
+	rdfs:label "Ngada Timur"@sc ;
+	skos:prefLabel "Ngada Timur"@sc ;
+	schema:name "Ngada Timur"@sc ;
+	rdfs:label "Ngada Timur"@scn ;
+	skos:prefLabel "Ngada Timur"@scn ;
+	schema:name "Ngada Timur"@scn ;
+	rdfs:label "Ngada Timur"@sco ;
+	skos:prefLabel "Ngada Timur"@sco ;
+	schema:name "Ngada Timur"@sco ;
+	rdfs:label "Ngada Timur"@sk ;
+	skos:prefLabel "Ngada Timur"@sk ;
+	schema:name "Ngada Timur"@sk ;
+	rdfs:label "Ngada Timur"@sl ;
+	skos:prefLabel "Ngada Timur"@sl ;
+	schema:name "Ngada Timur"@sl ;
+	rdfs:label "Ngada Timur"@sr-el ;
+	skos:prefLabel "Ngada Timur"@sr-el ;
+	schema:name "Ngada Timur"@sr-el ;
+	rdfs:label "Ngada Timur"@su ;
+	skos:prefLabel "Ngada Timur"@su ;
+	schema:name "Ngada Timur"@su ;
+	rdfs:label "Ngada Timur"@sv ;
+	skos:prefLabel "Ngada Timur"@sv ;
+	schema:name "Ngada Timur"@sv ;
+	rdfs:label "Ngada Timur"@vec ;
+	skos:prefLabel "Ngada Timur"@vec ;
+	schema:name "Ngada Timur"@vec ;
+	rdfs:label "Ngada Timur"@vi ;
+	skos:prefLabel "Ngada Timur"@vi ;
+	schema:name "Ngada Timur"@vi ;
+	rdfs:label "Ngada Timur"@vls ;
+	skos:prefLabel "Ngada Timur"@vls ;
+	schema:name "Ngada Timur"@vls ;
+	rdfs:label "Ngada Timur"@vo ;
+	skos:prefLabel "Ngada Timur"@vo ;
+	schema:name "Ngada Timur"@vo ;
+	rdfs:label "Ngada Timur"@wa ;
+	skos:prefLabel "Ngada Timur"@wa ;
+	schema:name "Ngada Timur"@wa ;
+	rdfs:label "Ngada Timur"@wo ;
+	skos:prefLabel "Ngada Timur"@wo ;
+	schema:name "Ngada Timur"@wo ;
+	rdfs:label "Ngada Timur"@zu ;
+	skos:prefLabel "Ngada Timur"@zu ;
+	schema:name "Ngada Timur"@zu ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"language spoken in Indonesia"@en,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "bahasa Ngada Timur"@id,
+		"bahasa Ngada Tenggara"@id,
+		"Ngad’a Timur"@id,
+		"Ngada Tenggara"@id,
+		"Ngad'a Timur"@en,
+		"Ngad'a Tenggara"@en,
+		"Southeastern Ngad'a"@en,
+		"Eastern Ngad'a language"@en,
+		"ngada timur"@ca .
+
+wd:Q13927492 owl:sameAs wd:Q12473454 .
+
+wd:Q12952946 owl:sameAs wd:Q12473454 .

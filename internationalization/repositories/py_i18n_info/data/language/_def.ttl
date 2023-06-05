@@ -1,0 +1,157 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4115412 a schema:Dataset ;
+	schema:about wd:Q4115412 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1809889540"^^xsd:integer ;
+	schema:dateModified "2023-01-12T09:41:39Z"^^xsd:dateTime .
+
+wd:Q4115412 a wikibase:Item .
+
+<https://diq.wikipedia.org/wiki/Dezfulki> a schema:Article ;
+	schema:about wd:Q4115412 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Dezfulki"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Dezfuli> a schema:Article ;
+	schema:about wd:Q4115412 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Dezfuli"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D8%AF%D8%B2%D9%81%D9%88%D9%84_%D8%AF%DB%8C%D8%A7%D9%84%DA%A9%D8%AA%DB%8C> a schema:Article ;
+	schema:about wd:Q4115412 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "دزفول دیالکتی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%84%D9%87%D8%AC%D8%A9_%D8%AF%D8%B2%D9%81%D9%88%D9%84%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q4115412 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "لهجة دزفولية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Dezfuli_dialect> a schema:Article ;
+	schema:about wd:Q4115412 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Dezfuli dialect"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%DA%AF%D9%88%DB%8C%D8%B4_%D8%AF%D8%B2%D9%81%D9%88%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q4115412 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "گویش دزفولی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Dezful_dili> a schema:Article ;
+	schema:about wd:Q4115412 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Dezful dili"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4115412 wdt:P279 wd:Q129850 ;
+	wdt:P220 "def" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/def> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "dezf1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/dezf1238> ;
+	wdt:P305 "def" ;
+	wdt:P1627 "def" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P17 wd:Q794 ;
+	wdt:P2341 wd:Q241119 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DEF> ;
+	wdt:P646 "/m/03h089f" ;
+	wdt:P910 wd:Q105715024 ;
+	rdfs:label "گویش دزفولی"@fa ;
+	skos:prefLabel "گویش دزفولی"@fa ;
+	schema:name "گویش دزفولی"@fa ;
+	rdfs:label "Dezfuli"@en ;
+	skos:prefLabel "Dezfuli"@en ;
+	schema:name "Dezfuli"@en ;
+	rdfs:label "Dezful dili"@az ;
+	skos:prefLabel "Dezful dili"@az ;
+	schema:name "Dezful dili"@az ;
+	rdfs:label "لهجة دزفولية"@ar ;
+	skos:prefLabel "لهجة دزفولية"@ar ;
+	schema:name "لهجة دزفولية"@ar ;
+	rdfs:label "Lenga Dezfuli"@pms ;
+	skos:prefLabel "Lenga Dezfuli"@pms ;
+	schema:name "Lenga Dezfuli"@pms ;
+	rdfs:label "Dezfulki"@diq ;
+	skos:prefLabel "Dezfulki"@diq ;
+	schema:name "Dezfulki"@diq ;
+	rdfs:label "Dezfuli"@en-gb ;
+	skos:prefLabel "Dezfuli"@en-gb ;
+	schema:name "Dezfuli"@en-gb ;
+	rdfs:label "دزفول دیالکتی"@azb ;
+	skos:prefLabel "دزفول دیالکتی"@azb ;
+	schema:name "دزفول دیالکتی"@azb ;
+	rdfs:label "德茲富勒方言"@zh ;
+	skos:prefLabel "德茲富勒方言"@zh ;
+	schema:name "德茲富勒方言"@zh ;
+	rdfs:label "dezfuli"@ca ;
+	skos:prefLabel "dezfuli"@ca ;
+	schema:name "dezfuli"@ca ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Persian dialect"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"گویشی از زبان پارسی"@fa,
+		"dialecte persa"@ca ;
+	skos:altLabel "Dizful dili"@az,
+		"Dezfuli dialect"@en .
+
+wd:Q12952378 owl:sameAs wd:Q4115412 .

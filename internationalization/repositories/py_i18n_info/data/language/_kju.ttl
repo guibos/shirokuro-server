@@ -1,0 +1,183 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3193689 a schema:Dataset ;
+	schema:about wd:Q3193689 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616002271"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:55:02Z"^^xsd:dateTime .
+
+wd:Q3193689 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Kashaya> a schema:Article ;
+	schema:about wd:Q3193689 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Kashaya"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Kashaya> a schema:Article ;
+	schema:about wd:Q3193689 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kashaya"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_kashaya> a schema:Article ;
+	schema:about wd:Q3193689 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kashaya"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%88%D0%B0%D1%8F_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q3193689 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Кашая (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kashaya_language> a schema:Article ;
+	schema:about wd:Q3193689 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kashaya language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_kashaya> a schema:Article ;
+	schema:about wd:Q3193689 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua kashaya"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%8D%A1%E6%B2%99%E7%89%99%E6%B3%A2%E8%8E%AB%E8%AF%AD%E8%A8%80> a schema:Article ;
+	schema:about wd:Q3193689 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "卡沙牙波莫语言"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Kashaya_bhasa> a schema:Article ;
+	schema:about wd:Q3193689 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Kashaya bhasa"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3193689 wdt:P220 "kju" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kju> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P30 wd:Q49 ;
+	wdt:P17 wd:Q30 ;
+	wdt:P131 wd:Q108067 ;
+	wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/Pomoan%20languages%20map.svg> ;
+	wdt:P1394 "kash1280" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kash1280> ;
+	wdt:P305 "kju" ;
+	wdt:P279 wd:Q2618420 ;
+	wdt:P1098 "+45"^^xsd:decimal ;
+	wdt:P1014 "300388557" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388557> ;
+	wdt:P2355 "837" ;
+	wdt:P1466 "ksh" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ksh> ;
+	wdt:P910 wd:Q32828734 ;
+	wdt:P2192 "1534" ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P1627 "kju" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P2341 wd:Q99 ;
+	wdt:P1245 "708888" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KJU> ;
+	wdt:P646 "/m/09h2sn" ;
+	rdfs:label "kashaya"@fr ;
+	skos:prefLabel "kashaya"@fr ;
+	schema:name "kashaya"@fr ;
+	rdfs:label "Kashaya"@en ;
+	skos:prefLabel "Kashaya"@en ;
+	schema:name "Kashaya"@en ;
+	rdfs:label "Lenga kashaya"@pms ;
+	skos:prefLabel "Lenga kashaya"@pms ;
+	schema:name "Lenga kashaya"@pms ;
+	rdfs:label "Кашая"@ru ;
+	skos:prefLabel "Кашая"@ru ;
+	schema:name "Кашая"@ru ;
+	rdfs:label "kashaya"@ca ;
+	skos:prefLabel "kashaya"@ca ;
+	schema:name "kashaya"@ca ;
+	rdfs:label "Língua kashaya"@pt ;
+	skos:prefLabel "Língua kashaya"@pt ;
+	schema:name "Língua kashaya"@pt ;
+	rdfs:label "卡沙牙波莫语"@zh-hans ;
+	skos:prefLabel "卡沙牙波莫语"@zh-hans ;
+	schema:name "卡沙牙波莫语"@zh-hans ;
+	rdfs:label "卡沙牙波莫语"@zh ;
+	skos:prefLabel "卡沙牙波莫语"@zh ;
+	schema:name "卡沙牙波莫语"@zh ;
+	rdfs:label "卡沙牙波莫語"@zh-tw ;
+	skos:prefLabel "卡沙牙波莫語"@zh-tw ;
+	schema:name "卡沙牙波莫語"@zh-tw ;
+	rdfs:label "Kashaya"@en-gb ;
+	skos:prefLabel "Kashaya"@en-gb ;
+	schema:name "Kashaya"@en-gb ;
+	rdfs:label "kašaja keel"@et ;
+	skos:prefLabel "kašaja keel"@et ;
+	schema:name "kašaja keel"@et ;
+	rdfs:label "Wikang Kashaya"@tl ;
+	skos:prefLabel "Wikang Kashaya"@tl ;
+	schema:name "Wikang Kashaya"@tl ;
+	rdfs:label "Kashaya language"@hif ;
+	skos:prefLabel "Kashaya language"@hif ;
+	schema:name "Kashaya language"@hif ;
+	schema:description "language of the Kashaya people"@en,
+		"Sprache"@de,
+		"שפה"@he,
+		"langue pomo"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kashaya language"@en .
+
+wd:Q61097429 owl:sameAs wd:Q3193689 .

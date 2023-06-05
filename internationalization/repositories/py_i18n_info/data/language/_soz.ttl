@@ -1,0 +1,155 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q13278 a schema:Dataset ;
+	schema:about wd:Q13278 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961115050"^^xsd:integer ;
+	schema:dateModified "2023-08-25T18:04:16Z"^^xsd:dateTime .
+
+wd:Q13278 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Temi_(langue)> a schema:Article ;
+	schema:about wd:Q13278 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Temi (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Temi> a schema:Article ;
+	schema:about wd:Q13278 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Temi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitemi> a schema:Article ;
+	schema:about wd:Q13278 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitemi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sonjo_language> a schema:Article ;
+	schema:about wd:Q13278 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sonjo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Sonjo> a schema:Article ;
+	schema:about wd:Q13278 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Sonjo"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q13278 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "soz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/soz> ;
+	wdt:P279 wd:Q116520570 ;
+	wdt:P269 "145203182" ;
+	wdtn:P269 <http://www.idref.fr/145203182/id> ;
+	wdt:P2161 "E.46" ;
+	wdt:P1394 "temi1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/temi1247> ;
+	wdt:P305 "soz" ;
+	wdt:P1627 "soz" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q924 ;
+	wdt:P2341 wd:Q329261 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SOZ> ;
+	wdt:P646 "/m/0b8k05" ;
+	wdt:P268 "16213662g" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb16213662g#about> ;
+	rdfs:label "Sonjo"@en ;
+	skos:prefLabel "Sonjo"@en ;
+	schema:name "Sonjo"@en ;
+	rdfs:label "Sonjo"@en-ca ;
+	skos:prefLabel "Sonjo"@en-ca ;
+	schema:name "Sonjo"@en-ca ;
+	rdfs:label "Sonjo"@en-gb ;
+	skos:prefLabel "Sonjo"@en-gb ;
+	schema:name "Sonjo"@en-gb ;
+	rdfs:label "Kitemi"@sw ;
+	skos:prefLabel "Kitemi"@sw ;
+	schema:name "Kitemi"@sw ;
+	rdfs:label "sonjo"@es ;
+	skos:prefLabel "sonjo"@es ;
+	schema:name "sonjo"@es ;
+	rdfs:label "Sonjo"@de ;
+	skos:prefLabel "Sonjo"@de ;
+	schema:name "Sonjo"@de ;
+	rdfs:label "temi"@fr ;
+	skos:prefLabel "temi"@fr ;
+	schema:name "temi"@fr ;
+	rdfs:label "Lenga Temi"@pms ;
+	skos:prefLabel "Lenga Temi"@pms ;
+	schema:name "Lenga Temi"@pms ;
+	rdfs:label "lingua sonjo"@it ;
+	skos:prefLabel "lingua sonjo"@it ;
+	schema:name "lingua sonjo"@it ;
+	rdfs:label "Wikang Sonjo"@tl ;
+	skos:prefLabel "Wikang Sonjo"@tl ;
+	schema:name "Wikang Sonjo"@tl ;
+	rdfs:label "sonjo"@vec ;
+	skos:prefLabel "sonjo"@vec ;
+	schema:name "sonjo"@vec ;
+	rdfs:label "Sonjo"@ig ;
+	skos:prefLabel "Sonjo"@ig ;
+	schema:name "Sonjo"@ig ;
+	schema:description "Bantu language spoken in northern Tanzania"@en,
+		"lengua bantú"@es,
+		"Sprache in Tansania"@de,
+		"langue bantoue parlée en Tanzanie"@fr,
+		"lingua niger-kordofaniana"@it,
+		"שפה"@he,
+		"yezh"@br,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"asụsụ Bantu a na-asụ na ugwu Tanzania"@ig ;
+	skos:altLabel "Batemi"@de,
+		"Temi"@en,
+		"Sonjo language"@en,
+		"Temi"@ig,
+		"asụsụ Sonjo"@ig,
+		"kitemi"@fr,
+		"sonjo"@fr .
+
+wd:Q12953195 owl:sameAs wd:Q13278 .

@@ -1,0 +1,143 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3370188 a schema:Dataset ;
+	schema:about wd:Q3370188 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960588985"^^xsd:integer ;
+	schema:dateModified "2023-08-25T00:13:12Z"^^xsd:dateTime .
+
+wd:Q3370188 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Patwin> a schema:Article ;
+	schema:about wd:Q3370188 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Patwin"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Patwin_language> a schema:Article ;
+	schema:about wd:Q3370188 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Patwin language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%82%D0%B2%D0%B8%D0%BD_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q3370188 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Патвин (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Patwin> a schema:Article ;
+	schema:about wd:Q3370188 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Patwin"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_patwin> a schema:Article ;
+	schema:about wd:Q3370188 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua patwin"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3370188 wdt:P220 "pwi" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pwi> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P305 "pwi" ;
+	wdt:P279 wd:Q1294259 ;
+	wdt:P1394 "patw1250" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/patw1250> ;
+	wdt:P2355 "810" ;
+	wdt:P17 wd:Q30 ;
+	wdt:P1466 "ptw" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ptw> ;
+	wdt:P910 wd:Q32829236 ;
+	wdt:P2192 "1537" ;
+	wdt:P1627 "pwi" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P2341 wd:Q99 ;
+	wdt:P1245 "1703388" ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P646 "/m/0h7l64x" ;
+	wdt:P8814 "06937153-n" ;
+	wdtn:P8814 <http://wordnet-rdf.princeton.edu/rdf/id/06937153-n> ;
+	rdfs:label "patwin"@fr ;
+	skos:prefLabel "patwin"@fr ;
+	schema:name "patwin"@fr ;
+	rdfs:label "Patwin"@en ;
+	skos:prefLabel "Patwin"@en ;
+	schema:name "Patwin"@en ;
+	rdfs:label "Патвин"@ru ;
+	skos:prefLabel "Патвин"@ru ;
+	schema:name "Патвин"@ru ;
+	rdfs:label "patwin"@ca ;
+	skos:prefLabel "patwin"@ca ;
+	schema:name "patwin"@ca ;
+	rdfs:label "帕特溫語"@zh ;
+	skos:prefLabel "帕特溫語"@zh ;
+	schema:name "帕特溫語"@zh ;
+	rdfs:label "Patwin"@en-gb ;
+	skos:prefLabel "Patwin"@en-gb ;
+	schema:name "Patwin"@en-gb ;
+	rdfs:label "Wikang Patwin"@tl ;
+	skos:prefLabel "Wikang Patwin"@tl ;
+	schema:name "Wikang Patwin"@tl ;
+	rdfs:label "Língua patwin"@pt ;
+	skos:prefLabel "Língua patwin"@pt ;
+	schema:name "Língua patwin"@pt ;
+	rdfs:label "Patwin dili"@tr ;
+	skos:prefLabel "Patwin dili"@tr ;
+	schema:name "Patwin dili"@tr ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"endangered indigenous language of northern California"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Patwin language"@en,
+		"langue wintuane"@fr .
+
+wd:Q61097735 owl:sameAs wd:Q3370188 .

@@ -1,0 +1,91 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q65455884 a schema:Dataset ;
+	schema:about wd:Q65455884 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961429711"^^xsd:integer ;
+	schema:dateModified "2023-08-26T03:05:04Z"^^xsd:dateTime .
+
+wd:Q65455884 a wikibase:Item ;
+	wdt:P220 "rwr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/rwr> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "rwr" ;
+	wdt:P424 "rwr" ;
+	wdt:P17 wd:Q668,
+		wd:Q837 ;
+	wdt:P1889 wd:Q67093214 ;
+	wdt:P4132 wd:Q539808 ;
+	wdt:P1098 "+7856410"^^xsd:decimal,
+		"+7855400"^^xsd:decimal,
+		"+1010"^^xsd:decimal,
+		"+7830000"^^xsd:decimal,
+		"+25400"^^xsd:decimal ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P1627 "rwr" ;
+	wdt:P276 wd:Q1437,
+		wd:Q1498 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/RWR> ;
+	wdt:P279 wd:Q56312 ;
+	rdfs:label "Marwari"@en ;
+	skos:prefLabel "Marwari"@en ;
+	schema:name "Marwari"@en ;
+	rdfs:label "marvari"@fr ;
+	skos:prefLabel "marvari"@fr ;
+	schema:name "marvari"@fr ;
+	rdfs:label "марвари"@ru ;
+	skos:prefLabel "марвари"@ru ;
+	schema:name "марвари"@ru ;
+	rdfs:label "marwari"@sv ;
+	skos:prefLabel "marwari"@sv ;
+	schema:name "marwari"@sv ;
+	rdfs:label "Marwari"@nl ;
+	skos:prefLabel "Marwari"@nl ;
+	schema:name "Marwari"@nl ;
+	schema:description "Indo-Aryan language spoken essentially in Northwestern India, also in Nepal"@en,
+		"langue indo-aryenne essentiellement parlée au nord-ouest de l'Inde, également au Népal"@fr,
+		"индоарийский язык, диалект марвари в Индии"@ru,
+		"indoariskt språk"@sv ;
+	skos:altLabel "marwari (Inde)"@fr,
+		"marvari (Népal)"@fr,
+		"marwari (Népal)"@fr,
+		"Marwari (Nepal)"@en,
+		"Marrubhasha"@en,
+		"Marvadi"@en,
+		"Marvari"@en,
+		"Marwadi"@en,
+		"Rajasthani"@en,
+		"марвари (Индия)"@ru,
+		"rwr"@rwr,
+		"Marwari (Nepal)"@nl .

@@ -1,0 +1,171 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56337 a schema:Dataset ;
+	schema:about wd:Q56337 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1956369409"^^xsd:integer ;
+	schema:dateModified "2023-08-19T04:59:58Z"^^xsd:dateTime .
+
+wd:Q56337 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Shixing_(langue)> a schema:Article ;
+	schema:about wd:Q56337 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Shixing (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Shixing> a schema:Article ;
+	schema:about wd:Q56337 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Shixing"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Shixing> a schema:Article ;
+	schema:about wd:Q56337 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Shixing"@tl ;
+	wikibase:badge wd:Q70893996 .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kishixing> a schema:Article ;
+	schema:about wd:Q56337 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kishixing"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Shixing_language> a schema:Article ;
+	schema:about wd:Q56337 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Shixing language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Cheuchingeg> a schema:Article ;
+	schema:about wd:Q56337 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Cheuchingeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/%C5%A0isingi_keel> a schema:Article ;
+	schema:about wd:Q56337 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Šisingi keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%8F%B2%E8%88%88%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q56337 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "史興語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56337 wdt:P220 "sxg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/sxg> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "sxg" ;
+	wdt:P1394 "shix1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/shix1238> ;
+	wdt:P2355 "2437" ;
+	wdt:P279 wd:Q6982999 ;
+	wdt:P910 wd:Q32829402 ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P2192 "5431" ;
+	wdt:P1627 "sxg" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q19770 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SXG> ;
+	wdt:P646 "/m/02hxwn6" ;
+	wdt:P373 "Xumi language" ;
+	wdt:P10565 "414880" ;
+	rdfs:label "Lenga Shixing"@pms ;
+	skos:prefLabel "Lenga Shixing"@pms ;
+	schema:name "Lenga Shixing"@pms ;
+	rdfs:label "cheuchingeg"@br ;
+	skos:prefLabel "cheuchingeg"@br ;
+	schema:name "cheuchingeg"@br ;
+	rdfs:label "shixing"@fr ;
+	skos:prefLabel "shixing"@fr ;
+	schema:name "shixing"@fr ;
+	rdfs:label "Shixing"@en ;
+	skos:prefLabel "Shixing"@en ;
+	schema:name "Shixing"@en ;
+	rdfs:label "Kishixing"@sw ;
+	skos:prefLabel "Kishixing"@sw ;
+	schema:name "Kishixing"@sw ;
+	rdfs:label "Shixing"@en-gb ;
+	skos:prefLabel "Shixing"@en-gb ;
+	schema:name "Shixing"@en-gb ;
+	rdfs:label "Wikang Shixing"@tl ;
+	skos:prefLabel "Wikang Shixing"@tl ;
+	schema:name "Wikang Shixing"@tl ;
+	rdfs:label "史興語"@zh ;
+	skos:prefLabel "史興語"@zh ;
+	schema:name "史興語"@zh ;
+	rdfs:label "シヒン語"@ja ;
+	skos:prefLabel "シヒン語"@ja ;
+	schema:name "シヒン語"@ja ;
+	rdfs:label "Šisingi keel"@et ;
+	skos:prefLabel "Šisingi keel"@et ;
+	schema:name "Šisingi keel"@et ;
+	schema:description "Sprache"@de,
+		"Qiangic language"@en,
+		"שפה"@he,
+		"langue na-qianguique"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Shixing language"@en,
+		"Shuhi"@en,
+		"Xumi"@en,
+		"旭米"@zh .
+
+wd:Q31442620 owl:sameAs wd:Q56337 .

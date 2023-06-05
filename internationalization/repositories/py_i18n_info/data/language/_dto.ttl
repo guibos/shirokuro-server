@@ -1,0 +1,108 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q47012992 a schema:Dataset ;
+	schema:about wd:Q47012992 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1756925676"^^xsd:integer ;
+	schema:dateModified "2022-10-24T02:04:28Z"^^xsd:dateTime .
+
+wd:Q47012992 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Tommo_So> a schema:Article ;
+	schema:about wd:Q47012992 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Tommo So"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Tommo_so> a schema:Article ;
+	schema:about wd:Q47012992 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Tommo so"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Tommo_So> a schema:Article ;
+	schema:about wd:Q47012992 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Tommo So"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q47012992 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "tomm1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tomm1242> ;
+	wdt:P220 "dto" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dto> ;
+	wdt:P1466 "tms" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_tms> ;
+	wdt:P279 wd:Q5397128,
+		wd:Q1234776 ;
+	wdt:P305 "dto" ;
+	wdt:P910 wd:Q61950484 ;
+	wdt:P1627 "dto" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q912 ;
+	wdt:P2341 wd:Q214155 ;
+	wdt:P2671 "/g/11fly63pr1" ;
+	wdtn:P2671 <http://g.co/kg/g/11fly63pr1> ;
+	wdt:P625 "Point(-3.4166666666667 14.333333333333)"^^geo:wktLiteral ;
+	wdt:P227 "104405462X" ;
+	wdtn:P227 <https://d-nb.info/gnd/104405462X> ;
+	rdfs:label "tommo so"@fr ;
+	skos:prefLabel "tommo so"@fr ;
+	schema:name "tommo so"@fr ;
+	rdfs:label "Tommo So Dogon"@en ;
+	skos:prefLabel "Tommo So Dogon"@en ;
+	schema:name "Tommo So Dogon"@en ;
+	rdfs:label "Tommo So"@ig ;
+	skos:prefLabel "Tommo So"@ig ;
+	schema:name "Tommo So"@ig ;
+	schema:description "langue dogon"@fr,
+		"taal"@nl,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Tommo So"@en,
+		"Tɔmmɔ sɔ"@en,
+		"Tommo So"@fr .
+
+wd:Q65089498 owl:sameAs wd:Q47012992 .

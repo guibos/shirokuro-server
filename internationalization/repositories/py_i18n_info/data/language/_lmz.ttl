@@ -1,0 +1,143 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12635887 a schema:Dataset ;
+	schema:about wd:Q12635887 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1827870068"^^xsd:integer ;
+	schema:dateModified "2023-02-06T17:49:13Z"^^xsd:dateTime .
+
+wd:Q12635887 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_lumbee> a schema:Article ;
+	schema:about wd:Q12635887 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga lumbee"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Lumbee_jezik> a schema:Article ;
+	schema:about wd:Q12635887 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Lumbee jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Loumbeeg> a schema:Article ;
+	schema:about wd:Q12635887 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Loumbeeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12635887 wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P220 "lmz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lmz> ;
+	wdt:P1394 "lumb1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lumb1237> ;
+	wdt:P305 "lmz" ;
+	wdt:P1627 "lmz" ;
+	wdt:P3823 wd:Q63671741 ;
+	wdt:P17 wd:Q30 ;
+	wdt:P2341 wd:Q1391,
+		wd:Q1454,
+		wd:Q1456 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LMZ> ;
+	wdt:P1014 "300388744" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388744> ;
+	rdfs:label "Lumbee jezik"@hr ;
+	skos:prefLabel "Lumbee jezik"@hr ;
+	schema:name "Lumbee jezik"@hr ;
+	rdfs:label "Lenga lumbee"@pms ;
+	skos:prefLabel "Lenga lumbee"@pms ;
+	schema:name "Lenga lumbee"@pms ;
+	rdfs:label "Lumbee"@en ;
+	skos:prefLabel "Lumbee"@en ;
+	schema:name "Lumbee"@en ;
+	rdfs:label "Lumbee"@en-gb ;
+	skos:prefLabel "Lumbee"@en-gb ;
+	schema:name "Lumbee"@en-gb ;
+	rdfs:label "lumbee"@fr ;
+	skos:prefLabel "lumbee"@fr ;
+	schema:name "lumbee"@fr ;
+	rdfs:label "loumbeeg"@br ;
+	skos:prefLabel "loumbeeg"@br ;
+	schema:name "loumbeeg"@br ;
+	rdfs:label "Lumbee"@nl ;
+	skos:prefLabel "Lumbee"@nl ;
+	schema:name "Lumbee"@nl ;
+	rdfs:label "lumbee"@ca ;
+	skos:prefLabel "lumbee"@ca ;
+	schema:name "lumbee"@ca ;
+	rdfs:label "لومبي"@ar ;
+	skos:prefLabel "لومبي"@ar ;
+	schema:name "لومبي"@ar ;
+	rdfs:label "لومبي"@ary ;
+	skos:prefLabel "لومبي"@ary ;
+	schema:name "لومبي"@ary ;
+	rdfs:label "Lumbee"@es ;
+	skos:prefLabel "Lumbee"@es ;
+	schema:name "Lumbee"@es ;
+	rdfs:label "Lumbee"@it ;
+	skos:prefLabel "Lumbee"@it ;
+	schema:name "Lumbee"@it ;
+	rdfs:label "Lumbee"@pt ;
+	skos:prefLabel "Lumbee"@pt ;
+	schema:name "Lumbee"@pt ;
+	rdfs:label "Lumbee"@sv ;
+	skos:prefLabel "Lumbee"@sv ;
+	schema:name "Lumbee"@sv ;
+	rdfs:label "lumbee"@vec ;
+	skos:prefLabel "lumbee"@vec ;
+	schema:name "lumbee"@vec ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue non attestée"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"لغة"@ar,
+		"لغة"@ary,
+		"Språk"@sv .
+
+wd:Q20581507 owl:sameAs wd:Q12635887 .
+
+wd:Q25559601 owl:sameAs wd:Q12635887 .

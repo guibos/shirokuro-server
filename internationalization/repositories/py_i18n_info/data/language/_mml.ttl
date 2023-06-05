@@ -1,0 +1,132 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3194984 a schema:Dataset ;
+	schema:about wd:Q3194984 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1882894079"^^xsd:integer ;
+	schema:dateModified "2023-04-26T08:53:12Z"^^xsd:dateTime .
+
+wd:Q3194984 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_man_met> a schema:Article ;
+	schema:about wd:Q3194984 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga man met"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Man_Met> a schema:Article ;
+	schema:about wd:Q3194984 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Man Met"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiman-Met> a schema:Article ;
+	schema:about wd:Q3194984 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiman-Met"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Man_Met_language> a schema:Article ;
+	schema:about wd:Q3194984 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Man Met language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%85%8B%E8%94%91%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q3194984 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "克蔑语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3194984 wdt:P220 "mml" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mml> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "mml" ;
+	wdt:P279 wd:Q19839855 ;
+	wdt:P1394 "manm1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/manm1238> ;
+	wdt:P2581 "01710005n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s01710005n> ;
+	wdt:P2192 "4686" ;
+	wdt:P1627 "mml" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q43194 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MML> ;
+	wdt:P10565 "415560" ;
+	rdfs:label "kemie"@fr ;
+	skos:prefLabel "kemie"@fr ;
+	schema:name "kemie"@fr ;
+	rdfs:label "Man Met"@en ;
+	skos:prefLabel "Man Met"@en ;
+	schema:name "Man Met"@en ;
+	rdfs:label "Lenga kemiehua"@pms ;
+	skos:prefLabel "Lenga kemiehua"@pms ;
+	schema:name "Lenga kemiehua"@pms ;
+	rdfs:label "Man Met"@ilo ;
+	skos:prefLabel "Man Met"@ilo ;
+	schema:name "Man Met"@ilo ;
+	rdfs:label "Kiman-Met"@sw ;
+	skos:prefLabel "Kiman-Met"@sw ;
+	schema:name "Kiman-Met"@sw ;
+	rdfs:label "Man Met"@en-gb ;
+	skos:prefLabel "Man Met"@en-gb ;
+	schema:name "Man Met"@en-gb ;
+	rdfs:label "克蔑语"@zh ;
+	skos:prefLabel "克蔑语"@zh ;
+	schema:name "克蔑语"@zh ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Tsina"@ilo,
+		"שפה"@he,
+		"langue palaungique"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kemiehua"@fr,
+		"Kemiehua"@en,
+		"Man Met language"@en .

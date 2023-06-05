@@ -1,0 +1,598 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q1164129 a schema:Dataset ;
+	schema:about wd:Q1164129 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1886521896"^^xsd:integer ;
+	schema:dateModified "2023-05-01T09:46:38Z"^^xsd:dateTime .
+
+wd:Q1164129 a wikibase:Item .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%AE%E0%A4%B2%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AE_%E0%A4%B2%E0%A4%BF%E0%A4%AA%E0%A4%BF> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "मलयालम लिपि"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E9%A6%AC%E6%8B%89%E9%9B%85%E6%8B%89%E5%A7%86%E6%96%87> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "馬拉雅拉姆文"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%A9%E3%83%A4%E3%83%BC%E3%83%A9%E3%83%A0%E6%96%87%E5%AD%97> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "マラヤーラム文字"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Skritur_malayalamek> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Skritur malayalamek"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Malayalam-Schrift> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Malayalam-Schrift"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Malaj%C3%A1lam_%C3%ADr%C3%A1s> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Malajálam írás"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%AE%E0%B4%B2%E0%B4%AF%E0%B4%BE%E0%B4%B3%E0%B4%B2%E0%B4%BF%E0%B4%AA%E0%B4%BF> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "മലയാളലിപി"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BB%D0%B0%D1%8F%D0%BB%D0%B0%D0%BC_(%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%BE)> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Малаялам (письмо)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Tulisan_Malayalam> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Tulisan Malayalam"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%AE%E0%AE%B2%E0%AF%88%E0%AE%AF%E0%AE%BE%E0%AE%B3_%E0%AE%8E%E0%AE%B4%E0%AF%81%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%81%E0%AE%AE%E0%AF%81%E0%AE%B1%E0%AF%88> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "மலையாள எழுத்துமுறை"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://te.wikipedia.org/wiki/%E0%B0%AE%E0%B0%B2%E0%B0%AF%E0%B0%BE%E0%B0%B3_%E0%B0%85%E0%B0%95%E0%B1%8D%E0%B0%B7%E0%B0%B0%E0%B0%AE%E0%B0%BE%E0%B0%B2> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "te" ;
+	schema:isPartOf <https://te.wikipedia.org/> ;
+	schema:name "మలయాళ అక్షరమాల"@te .
+
+<https://te.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Alphasyllabaire_malayalam> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Alphasyllabaire malayalam"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ne.wikipedia.org/wiki/%E0%A4%AE%E0%A4%B2%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AE_%E0%A4%B2%E0%A4%BF%E0%A4%AA%E0%A4%BF> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "ne" ;
+	schema:isPartOf <https://ne.wikipedia.org/> ;
+	schema:name "मलयालम लिपि"@ne .
+
+<https://ne.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/Pismo_malajalam> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Pismo malajalam"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Malayalam-skrift> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Malayalam-skrift"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Malayalam_script> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Malayalam script"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Malajalamilainen_kirjaimisto> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Malajalamilainen kirjaimisto"@fi ;
+	wikibase:badge wd:Q17559452 .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Alfabeto_malayalam> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Alfabeto malayalam"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pa.wikipedia.org/wiki/%E0%A8%AE%E0%A8%B2%E0%A8%BF%E0%A8%86%E0%A8%B2%E0%A8%AE_%E0%A8%B2%E0%A8%BF%E0%A8%AA%E0%A9%80> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "pa" ;
+	schema:isPartOf <https://pa.wikipedia.org/> ;
+	schema:name "ਮਲਿਆਲਮ ਲਿਪੀ"@pa .
+
+<https://pa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://new.wikipedia.org/wiki/%E0%A4%AE%E0%A4%B2%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AE_%E0%A4%B2%E0%A4%BF%E0%A4%AA%E0%A4%BF> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "new" ;
+	schema:isPartOf <https://new.wikipedia.org/> ;
+	schema:name "मलयालम लिपि"@new .
+
+<https://new.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Malajala_skribo> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Malajala skribo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jv.wikipedia.org/wiki/Aksara_Malayalam> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "jv" ;
+	schema:isPartOf <https://jv.wikipedia.org/> ;
+	schema:name "Aksara Malayalam"@jv .
+
+<https://jv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Malayalam-skrift> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Malayalam-skrift"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Alfabeto_malabar> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Alfabeto malabar"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B2%E0%A6%AE_%E0%A6%B2%E0%A6%BF%E0%A6%AA%E0%A6%BF> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "মালয়ালম লিপি"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A3%E0%B8%A1%E0%B8%A5%E0%B8%A2%E0%B8%B2%E0%B8%AC%E0%B8%B1%E0%B8%A1> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "อักษรมลยาฬัม"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Malayalam_Skraft> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Malayalam Skraft"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Alfabet_malai%C3%A0lam> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Alfabet malaiàlam"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BB%D0%B0%D1%8F%D0%BB%D0%B0%D0%BC_(%D0%BF%D0%B8%D1%81%D0%B5%D0%BC%D0%BD%D1%96%D1%81%D1%82%D1%8C)> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Малаялам (писемність)"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Malajali%C5%B3_ra%C5%A1tas> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Malajalių raštas"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Aksara_Malayalam> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Aksara Malayalam"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kn.wikipedia.org/wiki/%E0%B2%AE%E0%B2%B2%E0%B2%AF%E0%B2%BE%E0%B2%B3%E0%B2%82_%E0%B2%B2%E0%B2%BF%E0%B2%AA%E0%B2%BF> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "kn" ;
+	schema:isPartOf <https://kn.wikipedia.org/> ;
+	schema:name "ಮಲಯಾಳಂ ಲಿಪಿ"@kn .
+
+<https://kn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Malayalamskrift> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Malayalamskrift"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EB%A7%90%EB%9D%BC%EC%96%84%EB%9E%8C_%EB%AC%B8%EC%9E%90> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "말라얄람 문자"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sa.wikipedia.org/wiki/%E0%A4%AE%E0%A4%B2%E0%A4%AF%E0%A4%BE%E0%A4%B3%E0%A4%B2%E0%A4%BF%E0%A4%AA%E0%A4%BF%E0%A4%83> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "sa" ;
+	schema:isPartOf <https://sa.wikipedia.org/> ;
+	schema:name "मलयाळलिपिः"@sa .
+
+<https://sa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A4%B2%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B3%E0%A4%AE_%E0%A4%B2%E0%A4%BF%E0%A4%AA%E0%A5%80> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "mr" ;
+	schema:isPartOf <https://mr.wikipedia.org/> ;
+	schema:name "मल्याळम लिपी"@mr .
+
+<https://mr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://anp.wikipedia.org/wiki/%E0%A4%AE%E0%A4%B2%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AE_%E0%A4%B2%E0%A4%BF%E0%A4%AA%E0%A4%BF> a schema:Article ;
+	schema:about wd:Q1164129 ;
+	schema:inLanguage "anp" ;
+	schema:isPartOf <https://anp.wikipedia.org/> ;
+	schema:name "मलयालम लिपि"@anp .
+
+<https://anp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q1164129 wdt:P506 "Mlym" ;
+	wdt:P31 wd:Q335806,
+		wd:Q29517555,
+		wd:Q4004706 ;
+	wdt:P910 wd:Q8601091 ;
+	wdt:P373 "Malayalam script" ;
+	wdt:P571 "0830-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P2620 "347" ;
+	wdt:P366 wd:Q36236 ;
+	wdt:P527 wd:Q4072920,
+		wd:Q13110201,
+		wd:Q4205418,
+		wd:Q13110477,
+		wd:Q4470325,
+		wd:Q13110567,
+		wd:Q4402112,
+		wd:Q16138057,
+		wd:Q13110582,
+		wd:Q16138058,
+		wd:Q4533303,
+		wd:Q16135903,
+		wd:Q4058859,
+		wd:Q4340365,
+		wd:Q13110834,
+		wd:Q4072410,
+		wd:Q18220751,
+		wd:Q18220762,
+		wd:Q4217765,
+		wd:Q7246228,
+		wd:Q4134297,
+		wd:Q4153167,
+		wd:Q4315293,
+		wd:Q4506874,
+		wd:Q4518428,
+		wd:Q4160000,
+		wd:Q4160674,
+		wd:Q4328658,
+		wd:Q4450120,
+		wd:Q4466850,
+		wd:Q4155341,
+		wd:Q4171470,
+		wd:Q4312514,
+		wd:Q4452810,
+		wd:Q4466845,
+		wd:Q4154109,
+		wd:Q4171469,
+		wd:Q4314663,
+		wd:Q4347307,
+		wd:Q4384966,
+		wd:Q4079774,
+		wd:Q4100775,
+		wd:Q4275249,
+		wd:Q4205790,
+		wd:Q4393521,
+		wd:Q7244253,
+		wd:Q4105351,
+		wd:Q6654911,
+		wd:Q4521147,
+		wd:Q4409443,
+		wd:Q4496673,
+		wd:Q4255311,
+		wd:Q4177890,
+		wd:Q7213684,
+		wd:Q16138054,
+		wd:Q16136501,
+		wd:Q16138063,
+		wd:Q16138061,
+		wd:Q13115276,
+		wd:Q16138062,
+		wd:Q13115277,
+		wd:Q13115279,
+		wd:Q41799026 ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P407 wd:Q36236,
+		wd:Q34239,
+		wd:Q11059,
+		wd:Q7131211,
+		wd:Q16841033,
+		wd:Q7296830 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/%D0%90%D0%BA%D1%88%D0%B0%D1%80%D0%B0%D0%BC%D0%B0%D0%BB.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Malayalam%20Alphasyllabary.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Kerala%20Sangeetha%20Nadaka%20Academy%20Trimmed.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Malayalam%20alphabet.jpg> ;
+	wdt:P8408 "MalayalamWriting" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/MalayalamWriting> ;
+	wdt:P1846 <http://commons.wikimedia.org/wiki/Special:FilePath/Malayalamspeakers.png> ;
+	wdt:P646 "/m/0155jm" ;
+	wdt:P5949 "U+0D00-0D7F" ;
+	wdt:P2561 "Malayalam"@en,
+		"malayâlam"@fr ;
+	wdt:P144 wd:Q1119274 ;
+	wdt:P1417 "topic/Tulu-Malayalam-script" ;
+	rdfs:label "малаялам"@ru ;
+	skos:prefLabel "малаялам"@ru ;
+	schema:name "малаялам"@ru ;
+	rdfs:label "馬拉雅拉姆文"@zh ;
+	skos:prefLabel "馬拉雅拉姆文"@zh ;
+	schema:name "馬拉雅拉姆文"@zh ;
+	rdfs:label "อักษรมลยาฬัม"@th ;
+	skos:prefLabel "อักษรมลยาฬัม"@th ;
+	schema:name "อักษรมลยาฬัม"@th ;
+	rdfs:label "മലയാളലിപി"@ml ;
+	skos:prefLabel "മലയാളലിപി"@ml ;
+	schema:name "മലയാളലിപി"@ml ;
+	rdfs:label "Malayalam-Schrift"@de ;
+	skos:prefLabel "Malayalam-Schrift"@de ;
+	schema:name "Malayalam-Schrift"@de ;
+	rdfs:label "malajálam írás"@hu ;
+	skos:prefLabel "malajálam írás"@hu ;
+	schema:name "malajálam írás"@hu ;
+	rdfs:label "Skritur malayalamek"@br ;
+	skos:prefLabel "Skritur malayalamek"@br ;
+	schema:name "Skritur malayalamek"@br ;
+	rdfs:label "मलयालम लिपि"@hi ;
+	skos:prefLabel "मलयालम लिपि"@hi ;
+	schema:name "मलयालम लिपि"@hi ;
+	rdfs:label "Tulisan Malayalam"@ms ;
+	skos:prefLabel "Tulisan Malayalam"@ms ;
+	schema:name "Tulisan Malayalam"@ms ;
+	rdfs:label "マラヤーラム文字"@ja ;
+	skos:prefLabel "マラヤーラム文字"@ja ;
+	schema:name "マラヤーラム文字"@ja ;
+	rdfs:label "மலையாள எழுத்துமுறை"@ta ;
+	skos:prefLabel "மலையாள எழுத்துமுறை"@ta ;
+	schema:name "மலையாள எழுத்துமுறை"@ta ;
+	rdfs:label "మలయాళ అక్షరమాల"@te ;
+	skos:prefLabel "మలయాళ అక్షరమాల"@te ;
+	schema:name "మలయాళ అక్షరమాల"@te ;
+	rdfs:label "Malayalam script"@en ;
+	skos:prefLabel "Malayalam script"@en ;
+	schema:name "Malayalam script"@en ;
+	rdfs:label "alfabeto malayalam"@it ;
+	skos:prefLabel "alfabeto malayalam"@it ;
+	schema:name "alfabeto malayalam"@it ;
+	rdfs:label "malayâlam"@fr ;
+	skos:prefLabel "malayâlam"@fr ;
+	schema:name "malayâlam"@fr ;
+	rdfs:label "मलयाळ लिपी"@mr ;
+	skos:prefLabel "मलयाळ लिपी"@mr ;
+	schema:name "मलयाळ लिपी"@mr ;
+	rdfs:label "मलयालम लिपि"@ne ;
+	skos:prefLabel "मलयालम लिपि"@ne ;
+	schema:name "मलयालम लिपि"@ne ;
+	rdfs:label "pismo malajalam"@pl ;
+	skos:prefLabel "pismo malajalam"@pl ;
+	schema:name "pismo malajalam"@pl ;
+	rdfs:label "Malayalam-skrift"@nn ;
+	skos:prefLabel "Malayalam-skrift"@nn ;
+	schema:name "Malayalam-skrift"@nn ;
+	rdfs:label "alfabeto malabar"@es ;
+	skos:prefLabel "alfabeto malabar"@es ;
+	schema:name "alfabeto malabar"@es ;
+	rdfs:label "Malajalamilainen kirjaimisto"@fi ;
+	skos:prefLabel "Malajalamilainen kirjaimisto"@fi ;
+	schema:name "Malajalamilainen kirjaimisto"@fi ;
+	rdfs:label "Malayalam script"@en-ca ;
+	skos:prefLabel "Malayalam script"@en-ca ;
+	schema:name "Malayalam script"@en-ca ;
+	rdfs:label "Malayalam script"@en-gb ;
+	skos:prefLabel "Malayalam script"@en-gb ;
+	schema:name "Malayalam script"@en-gb ;
+	rdfs:label "ਮਲਿਆਲਮ ਲਿਪੀ"@pa ;
+	skos:prefLabel "ਮਲਿਆਲਮ ਲਿਪੀ"@pa ;
+	schema:name "ਮਲਿਆਲਮ ਲਿਪੀ"@pa ;
+	rdfs:label "मलयालम लिपि"@new ;
+	skos:prefLabel "मलयालम लिपि"@new ;
+	schema:name "मलयालम लिपि"@new ;
+	rdfs:label "मलयालम लिपि"@sa ;
+	skos:prefLabel "मलयालम लिपि"@sa ;
+	schema:name "मलयालम लिपि"@sa ;
+	rdfs:label "malajala skribo"@eo ;
+	skos:prefLabel "malajala skribo"@eo ;
+	schema:name "malajala skribo"@eo ;
+	rdfs:label "Aksara Malayalam"@jv ;
+	skos:prefLabel "Aksara Malayalam"@jv ;
+	schema:name "Aksara Malayalam"@jv ;
+	rdfs:label "Malayalam-skrift"@nb ;
+	skos:prefLabel "Malayalam-skrift"@nb ;
+	schema:name "Malayalam-skrift"@nb ;
+	rdfs:label "Malayalam alfabet"@nl ;
+	skos:prefLabel "Malayalam alfabet"@nl ;
+	schema:name "Malayalam alfabet"@nl ;
+	rdfs:label "אלפבית מלאיאלמי"@he ;
+	skos:prefLabel "אלפבית מלאיאלמי"@he ;
+	schema:name "אלפבית מלאיאלמי"@he ;
+	rdfs:label "Γραφή Μαλαγιαλάμ"@el ;
+	skos:prefLabel "Γραφή Μαλαγιαλάμ"@el ;
+	schema:name "Γραφή Μαλαγιαλάμ"@el ;
+	rdfs:label "alfabet malaiàlam"@ca ;
+	skos:prefLabel "alfabet malaiàlam"@ca ;
+	schema:name "alfabet malaiàlam"@ca ;
+	rdfs:label "малајалско писмо"@mk ;
+	skos:prefLabel "малајалско писмо"@mk ;
+	schema:name "малајалско писмо"@mk ;
+	rdfs:label "মালয়ালম লিপি"@bn ;
+	skos:prefLabel "মালয়ালম লিপি"@bn ;
+	schema:name "মালয়ালম লিপি"@bn ;
+	rdfs:label "malabarerako alfabetoa"@eu ;
+	skos:prefLabel "malabarerako alfabetoa"@eu ;
+	schema:name "malabarerako alfabetoa"@eu ;
+	rdfs:label "Malayalam Skraft"@frr ;
+	skos:prefLabel "Malayalam Skraft"@frr ;
+	schema:name "Malayalam Skraft"@frr ;
+	rdfs:label "малаялам (писемність)"@uk ;
+	skos:prefLabel "малаялам (писемність)"@uk ;
+	schema:name "малаялам (писемність)"@uk ;
+	rdfs:label "Malajalių raštas"@lt ;
+	skos:prefLabel "Malajalių raštas"@lt ;
+	schema:name "Malajalių raštas"@lt ;
+	rdfs:label "Aksara Malayalam"@id ;
+	skos:prefLabel "Aksara Malayalam"@id ;
+	schema:name "Aksara Malayalam"@id ;
+	rdfs:label "ಮಲಯಾಳಂ ಲಿಪಿ"@kn ;
+	skos:prefLabel "ಮಲಯಾಳಂ ಲಿಪಿ"@kn ;
+	schema:name "ಮಲಯಾಳಂ ಲಿಪಿ"@kn ;
+	rdfs:label "Malayalamskrift"@sv ;
+	skos:prefLabel "Malayalamskrift"@sv ;
+	schema:name "Malayalamskrift"@sv ;
+	rdfs:label "말라얄람 문자"@ko ;
+	skos:prefLabel "말라얄람 문자"@ko ;
+	schema:name "말라얄람 문자"@ko ;
+	rdfs:label "मलयालम लिपि"@anp ;
+	skos:prefLabel "मलयालम लिपि"@anp ;
+	schema:name "मलयालम लिपि"@anp ;
+	schema:description "Brahmic script used commonly to write the Malayalam language"@en,
+		"письменность индийского языка малаялам"@ru,
+		"മലയാളഭാഷ എഴുതുന്ന ലിപി"@ml,
+		"alfabeto brahmico que se usa comúnmente para escribir en idioma malabar"@es,
+		"malajalamin kielen aakkosto"@fi,
+		"alfabet bràmic per escriure principalment la llengua malaiàlam, usat a Kerala"@ca,
+		"alphasyllabaire"@fr,
+		"말라얄람어의 표기 문자"@ko,
+		"मलयाळम भाषा लिहिण्यासाठी वापरली जाणारी लिपी"@mr ;
+	skos:altLabel "малаялам (письменность)"@ru,
+		"малаялам (алфавит)"@ru,
+		"малаялам (письмо)"@ru,
+		"Malayalam script"@th,
+		"อักษรมาลายาลัม"@th,
+		"മലയാളം അക്ഷരമാല"@ml,
+		"Malayalamschrift"@de,
+		"Mlym"@de,
+		"Aksara Malayalam"@ms,
+		"Abjad Malayalam"@ms,
+		"Huruf Malayalam"@ms,
+		"マラヤラム文字"@ja,
+		"மலையாள எழுத்துக்கள்"@ta,
+		"மலையாள எழுத்து"@ta,
+		"Alfabeto Malayalam"@it,
+		"मलयालमलिपिः"@sa,
+		"малајаламско писмо"@mk,
+		"Malayalam"@en,
+		"Mlym"@eo,
+		"말라얄람문자"@ko .
+
+wd:Q3611040 owl:sameAs wd:Q1164129 .
+
+wd:Q12937590 owl:sameAs wd:Q1164129 .
+
+wd:Q16042224 owl:sameAs wd:Q1164129 .
+
+wd:Q16274349 owl:sameAs wd:Q1164129 .

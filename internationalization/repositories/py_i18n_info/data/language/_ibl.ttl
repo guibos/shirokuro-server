@@ -1,0 +1,221 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3147383 a schema:Dataset ;
+	schema:about wd:Q3147383 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1857360608"^^xsd:integer ;
+	schema:dateModified "2023-03-21T11:16:13Z"^^xsd:dateTime .
+
+wd:Q3147383 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Ibaloy> a schema:Article ;
+	schema:about wd:Q3147383 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Ibaloy"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_ibaloi> a schema:Article ;
+	schema:about wd:Q3147383 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga ibaloi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Ibaloi> a schema:Article ;
+	schema:about wd:Q3147383 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Ibaloi"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Ibaloi> a schema:Article ;
+	schema:about wd:Q3147383 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Ibaloi"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiibaloi> a schema:Article ;
+	schema:about wd:Q3147383 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiibaloi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ibaloi_language> a schema:Article ;
+	schema:about wd:Q3147383 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ibaloi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Ibaloi> a schema:Article ;
+	schema:about wd:Q3147383 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Ibaloi"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_ibaloi> a schema:Article ;
+	schema:about wd:Q3147383 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua ibaloi"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3147383 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "ibl" ;
+	wdt:P220 "ibl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ibl> ;
+	wdt:P279 wd:Q289309 ;
+	wdt:P1394 "ibal1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ibal1244> ;
+	wdt:P1627 "ibl" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q928 ;
+	wdt:P2341 wd:Q13750,
+		wd:Q13866 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/IBL> ;
+	wdt:P646 "/m/02hxv7_" ;
+	wdt:P910 wd:Q91086121 ;
+	wdt:P1098 "+110000"^^xsd:decimal ;
+	rdfs:label "ivadois"@fr ;
+	skos:prefLabel "ivadois"@fr ;
+	schema:name "ivadois"@fr ;
+	rdfs:label "Ibaloi"@en ;
+	skos:prefLabel "Ibaloi"@en ;
+	schema:name "Ibaloi"@en ;
+	rdfs:label "Lenga ibaloi"@pms ;
+	skos:prefLabel "Lenga ibaloi"@pms ;
+	schema:name "Lenga ibaloi"@pms ;
+	rdfs:label "Kiibaloi"@sw ;
+	skos:prefLabel "Kiibaloi"@sw ;
+	schema:name "Kiibaloi"@sw ;
+	rdfs:label "伊瓦洛伊語"@zh-hant ;
+	skos:prefLabel "伊瓦洛伊語"@zh-hant ;
+	schema:name "伊瓦洛伊語"@zh-hant ;
+	rdfs:label "伊瓦洛伊语"@zh-cn ;
+	skos:prefLabel "伊瓦洛伊语"@zh-cn ;
+	schema:name "伊瓦洛伊语"@zh-cn ;
+	rdfs:label "Ibaloi"@ilo ;
+	skos:prefLabel "Ibaloi"@ilo ;
+	schema:name "Ibaloi"@ilo ;
+	rdfs:label "Ibaloi"@en-gb ;
+	skos:prefLabel "Ibaloi"@en-gb ;
+	schema:name "Ibaloi"@en-gb ;
+	rdfs:label "Wikang Ibaloi"@tl ;
+	skos:prefLabel "Wikang Ibaloi"@tl ;
+	schema:name "Wikang Ibaloi"@tl ;
+	rdfs:label "Tataramon na Ibaloi"@bcl ;
+	skos:prefLabel "Tataramon na Ibaloi"@bcl ;
+	schema:name "Tataramon na Ibaloi"@bcl ;
+	rdfs:label "伊瓦洛伊语"@zh-hans ;
+	skos:prefLabel "伊瓦洛伊语"@zh-hans ;
+	schema:name "伊瓦洛伊语"@zh-hans ;
+	rdfs:label "伊瓦洛伊语"@zh ;
+	skos:prefLabel "伊瓦洛伊语"@zh ;
+	schema:name "伊瓦洛伊语"@zh ;
+	rdfs:label "γλώσσα Ιμπαλόι"@el ;
+	skos:prefLabel "γλώσσα Ιμπαλόι"@el ;
+	schema:name "γλώσσα Ιμπαλόι"@el ;
+	rdfs:label "Língua ibaloi"@pt ;
+	skos:prefLabel "Língua ibaloi"@pt ;
+	schema:name "Língua ibaloi"@pt ;
+	rdfs:label "idioma ivadoy"@es-formal ;
+	skos:prefLabel "idioma ivadoy"@es-formal ;
+	schema:name "idioma ivadoy"@es-formal ;
+	rdfs:label "ivadoy"@es ;
+	skos:prefLabel "ivadoy"@es ;
+	schema:name "ivadoy"@es ;
+	rdfs:label "Inivadoy"@krj ;
+	skos:prefLabel "Inivadoy"@krj ;
+	schema:name "Inivadoy"@krj ;
+	rdfs:label "ivadoisk"@da ;
+	skos:prefLabel "ivadoisk"@da ;
+	schema:name "ivadoisk"@da ;
+	rdfs:label "bahasa Ivadoi"@id ;
+	skos:prefLabel "bahasa Ivadoi"@id ;
+	schema:name "bahasa Ivadoi"@id ;
+	rdfs:label "ivadojan"@vec ;
+	skos:prefLabel "ivadojan"@vec ;
+	schema:name "ivadojan"@vec ;
+	rdfs:label "bahasa Ivadoi"@ms ;
+	skos:prefLabel "bahasa Ivadoi"@ms ;
+	schema:name "bahasa Ivadoi"@ms ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua austronesia"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"lengua austronesia"@es-formal,
+		"Awstronesyanhën nga pulong"@krj ;
+	skos:altLabel "Ibaloi language"@en,
+		"idioma ibaloy"@es-formal,
+		"idioma ibaloy"@es,
+		"lengua ibaloy"@es,
+		"Inibaloy"@krj,
+		"ibaloisk"@da,
+		"bahasa Ibaloi"@id,
+		"léngua ibalojana"@vec,
+		"léngua ivadojana"@vec,
+		"ibalojan"@vec,
+		"ivadeze"@vec,
+		"léngua ivadeze"@vec,
+		"léngua ibaleze"@vec,
+		"bahasa Ibaloi"@ms,
+		"langue ivadoise"@fr,
+		"langue ibaloise"@fr,
+		"ibalois"@fr .
+
+wd:Q5983617 owl:sameAs wd:Q3147383 .
+
+wd:Q12953575 owl:sameAs wd:Q3147383 .
+
+wd:Q31441404 owl:sameAs wd:Q3147383 .
+
+wd:Q97656687 owl:sameAs wd:Q3147383 .

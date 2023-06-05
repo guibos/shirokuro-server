@@ -1,0 +1,120 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953610 a schema:Dataset ;
+	schema:about wd:Q12953610 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1355789369"^^xsd:integer ;
+	schema:dateModified "2021-02-06T14:24:03Z"^^xsd:dateTime .
+
+wd:Q12953610 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_kanjari> a schema:Article ;
+	schema:about wd:Q12953610 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kanjari"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikanjari> a schema:Article ;
+	schema:about wd:Q12953610 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikanjari"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kanjari_language> a schema:Article ;
+	schema:about wd:Q12953610 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kanjari language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%DA%A9%D9%86%D8%AC%D8%B1%DB%8C_%D8%B2%D8%A8%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q12953610 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "کنجری زبان"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953610 wdt:P220 "kft" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kft> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kanj1259" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kanj1259> ;
+	wdt:P3417 "Kanjari" ;
+	wdt:P1098 "+91000"^^xsd:decimal ;
+	wdt:P17 wd:Q668 ;
+	wdt:P305 "kft" ;
+	wdt:P1627 "kft" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q1165,
+		wd:Q1353,
+		wd:Q1191,
+		wd:Q1188,
+		wd:Q1437,
+		wd:Q1498 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KFT> ;
+	wdt:P646 "/m/02hwrt3" ;
+	rdfs:label "Lenga kanjari"@pms ;
+	skos:prefLabel "Lenga kanjari"@pms ;
+	schema:name "Lenga kanjari"@pms ;
+	rdfs:label "Kanjari"@en ;
+	skos:prefLabel "Kanjari"@en ;
+	schema:name "Kanjari"@en ;
+	rdfs:label "Kikanjari"@sw ;
+	skos:prefLabel "Kikanjari"@sw ;
+	schema:name "Kikanjari"@sw ;
+	rdfs:label "Kanjari"@en-gb ;
+	skos:prefLabel "Kanjari"@en-gb ;
+	schema:name "Kanjari"@en-gb ;
+	rdfs:label "کنجری"@ur ;
+	skos:prefLabel "کنجری"@ur ;
+	schema:name "کنجری"@ur ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la,
+		"زبان"@ur,
+		"ভারতের ভাষা"@bn ;
+	skos:altLabel "Lenga Kanjari"@pms .

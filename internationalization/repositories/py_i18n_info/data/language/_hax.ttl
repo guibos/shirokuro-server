@@ -1,0 +1,108 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953543 a schema:Dataset ;
+	schema:about wd:Q12953543 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1925243463"^^xsd:integer ;
+	schema:dateModified "2023-06-28T09:31:16Z"^^xsd:dateTime .
+
+wd:Q12953543 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_haida_meridional> a schema:Article ;
+	schema:about wd:Q12953543 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga haida meridional"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_haida_meridionale> a schema:Article ;
+	schema:about wd:Q12953543 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua haida meridionale"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953543 wdt:P31 wd:Q33384,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "hax" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hax> ;
+	wdt:P279 wd:Q33303 ;
+	wdt:P2355 "261" ;
+	wdt:P1394 "sout2956" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sout2956> ;
+	wdt:P305 "hax" ;
+	wdt:P1627 "hax" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P17 wd:Q16 ;
+	wdt:P2341 wd:Q1973 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HAX> ;
+	wdt:P646 "/m/02hx6ht" ;
+	rdfs:label "Lenga haida meridional"@pms ;
+	skos:prefLabel "Lenga haida meridional"@pms ;
+	schema:name "Lenga haida meridional"@pms ;
+	rdfs:label "Southern Haida"@en ;
+	skos:prefLabel "Southern Haida"@en ;
+	schema:name "Southern Haida"@en ;
+	rdfs:label "lingua haida meridionale"@it ;
+	skos:prefLabel "lingua haida meridionale"@it ;
+	schema:name "lingua haida meridionale"@it ;
+	rdfs:label "Southern Haida"@en-gb ;
+	skos:prefLabel "Southern Haida"@en-gb ;
+	schema:name "Southern Haida"@en-gb ;
+	rdfs:label "haïda du Sud"@fr ;
+	skos:prefLabel "haïda du Sud"@fr ;
+	schema:name "haïda du Sud"@fr ;
+	rdfs:label "северный хайда"@ru ;
+	skos:prefLabel "северный хайда"@ru ;
+	schema:name "северный хайда"@ru ;
+	rdfs:label "haida meridionałe"@vec ;
+	skos:prefLabel "haida meridionałe"@vec ;
+	schema:name "haida meridionałe"@vec ;
+	rdfs:label "Tafodiaith De Haida"@cy ;
+	skos:prefLabel "Tafodiaith De Haida"@cy ;
+	schema:name "Tafodiaith De Haida"@cy ;
+	rdfs:label "sud-haida"@eo ;
+	skos:prefLabel "sud-haida"@eo ;
+	schema:name "sud-haida"@eo ;
+	schema:description "dialecte du haïda"@fr,
+		"dialect of Haida, a Canadian indigenous language isolate"@en-gb,
+		"dialect of Haida, a Canadian indigenous language isolate"@en,
+		"tafodiaith Canada"@cy,
+		"senparenca lingvo parolata de indianoj sur la insulo Haida Gwaii, Kanado"@eo ;
+	skos:altLabel "Southern Haida dialect"@en,
+		"haida méridional"@fr,
+		"sudhaida lingvo"@eo .

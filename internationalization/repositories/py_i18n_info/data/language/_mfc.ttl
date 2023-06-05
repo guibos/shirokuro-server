@@ -1,0 +1,125 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4286464 a schema:Dataset ;
+	schema:about wd:Q4286464 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1756904261"^^xsd:integer ;
+	schema:dateModified "2022-10-24T01:06:51Z"^^xsd:dateTime .
+
+wd:Q4286464 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mba> a schema:Article ;
+	schema:about wd:Q4286464 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mba"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimba> a schema:Article ;
+	schema:about wd:Q4286464 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimba"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mba_language> a schema:Article ;
+	schema:about wd:Q4286464 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mba language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Mba> a schema:Article ;
+	schema:about wd:Q4286464 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Mba"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4286464 wdt:P220 "mfc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mfc> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "mbaa1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mbaa1245> ;
+	wdt:P1466 "mba" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_mba> ;
+	wdt:P279 wd:Q6799561 ;
+	wdt:P5198 "294924671" ;
+	wdt:P305 "mfc" ;
+	wdt:P1627 "mfc" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q974 ;
+	wdt:P2341 wd:Q630900 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MFC> ;
+	wdt:P646 "/m/02hxfpc" ;
+	rdfs:label "мба"@ru ;
+	skos:prefLabel "мба"@ru ;
+	schema:name "мба"@ru ;
+	rdfs:label "Mba"@en ;
+	skos:prefLabel "Mba"@en ;
+	schema:name "Mba"@en ;
+	rdfs:label "Kimba"@sw ;
+	skos:prefLabel "Kimba"@sw ;
+	schema:name "Kimba"@sw ;
+	rdfs:label "Lenga Mba"@pms ;
+	skos:prefLabel "Lenga Mba"@pms ;
+	schema:name "Lenga Mba"@pms ;
+	rdfs:label "Mba"@en-gb ;
+	skos:prefLabel "Mba"@en-gb ;
+	schema:name "Mba"@en-gb ;
+	rdfs:label "mba"@fr ;
+	skos:prefLabel "mba"@fr ;
+	schema:name "mba"@fr ;
+	rdfs:label "Asụsụ Mba"@ig ;
+	skos:prefLabel "Asụsụ Mba"@ig ;
+	schema:name "Asụsụ Mba"@ig ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue oubanguienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"убангийский язык"@ru ;
+	skos:altLabel "Kimba (lugha)"@sw,
+		"Mba language"@en .
+
+wd:Q12952829 owl:sameAs wd:Q4286464 .

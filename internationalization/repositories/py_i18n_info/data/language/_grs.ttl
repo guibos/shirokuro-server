@@ -1,0 +1,191 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5607612 a schema:Dataset ;
+	schema:about wd:Q5607612 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912066092"^^xsd:integer ;
+	schema:dateModified "2023-06-10T09:00:27Z"^^xsd:dateTime .
+
+wd:Q5607612 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Gresi> a schema:Article ;
+	schema:about wd:Q5607612 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Gresi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Gresi> a schema:Article ;
+	schema:about wd:Q5607612 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Gresi"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigresi> a schema:Article ;
+	schema:about wd:Q5607612 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigresi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Gresi_language> a schema:Article ;
+	schema:about wd:Q5607612 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Gresi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://se.wikipedia.org/wiki/Gresigiella> a schema:Article ;
+	schema:about wd:Q5607612 ;
+	schema:inLanguage "se" ;
+	schema:isPartOf <https://se.wikipedia.org/> ;
+	schema:name "Gresigiella"@se .
+
+<https://se.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Gresi> a schema:Article ;
+	schema:about wd:Q5607612 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Gresi"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Gresi_jezik> a schema:Article ;
+	schema:about wd:Q5607612 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Gresi jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Gresi> a schema:Article ;
+	schema:about wd:Q5607612 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Gresi"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_gresi> a schema:Article ;
+	schema:about wd:Q5607612 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język gresi"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5607612 wdt:P220 "grs" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/grs> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "gres1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gres1240> ;
+	wdt:P131 wd:Q19731233,
+		wd:Q12485435,
+		wd:Q19729691 ;
+	wdt:P305 "grs" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P2590 "0946 3" ;
+	wdt:P1705 "bahasa Geresi"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P910 wd:Q33075188 ;
+	wdt:P279 wd:Q12638426 ;
+	wdt:P1627 "grs" ;
+	wdt:P2341 wd:Q5095 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GRS> ;
+	wdt:P646 "/m/02hxcnz" ;
+	rdfs:label "Gresi"@en ;
+	skos:prefLabel "Gresi"@en ;
+	schema:name "Gresi"@en ;
+	rdfs:label "Gresigiella"@se ;
+	skos:prefLabel "Gresigiella"@se ;
+	schema:name "Gresigiella"@se ;
+	rdfs:label "Gresi"@nn ;
+	skos:prefLabel "Gresi"@nn ;
+	schema:name "Gresi"@nn ;
+	rdfs:label "Lenga Gresi"@pms ;
+	skos:prefLabel "Lenga Gresi"@pms ;
+	schema:name "Lenga Gresi"@pms ;
+	rdfs:label "Kigresi"@sw ;
+	skos:prefLabel "Kigresi"@sw ;
+	schema:name "Kigresi"@sw ;
+	rdfs:label "bahasa Gresi"@id ;
+	skos:prefLabel "bahasa Gresi"@id ;
+	schema:name "bahasa Gresi"@id ;
+	rdfs:label "Gresi jezik"@hr ;
+	skos:prefLabel "Gresi jezik"@hr ;
+	schema:name "Gresi jezik"@hr ;
+	rdfs:label "Gresi"@ilo ;
+	skos:prefLabel "Gresi"@ilo ;
+	schema:name "Gresi"@ilo ;
+	rdfs:label "Gresi"@en-gb ;
+	skos:prefLabel "Gresi"@en-gb ;
+	schema:name "Gresi"@en-gb ;
+	rdfs:label "gresi"@fr ;
+	skos:prefLabel "gresi"@fr ;
+	schema:name "gresi"@fr ;
+	rdfs:label "język gresi"@pl ;
+	skos:prefLabel "język gresi"@pl ;
+	schema:name "język gresi"@pl ;
+	schema:description "Sprache"@de,
+		"bagian dari rumpun bahasa Papua"@id,
+		"שפה"@he,
+		"pagsasao idiay Indonesia"@ilo,
+		"yezh"@br,
+		"langue nimboran"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Papuan language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Gresi language"@en,
+		"Gresi"@id,
+		"Geresi"@id,
+		"bahasa Geresi"@id,
+		"Glesi"@id,
+		"bahasa Glesi"@id,
+		"Gresik"@id,
+		"bahasa Gresik"@id,
+		"Klesi"@id,
+		"bahasa Klesi"@id .
+
+wd:Q12631854 owl:sameAs wd:Q5607612 .
+
+wd:Q25932400 owl:sameAs wd:Q5607612 .

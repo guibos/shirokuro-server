@@ -1,0 +1,138 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6722435 a schema:Dataset ;
+	schema:about wd:Q6722435 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1513580035"^^xsd:integer ;
+	schema:dateModified "2021-10-18T11:12:45Z"^^xsd:dateTime .
+
+wd:Q6722435 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_macaguaje> a schema:Article ;
+	schema:about wd:Q6722435 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga macaguaje"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BA%D0%B0%D0%B3%D1%83%D0%B0%D1%85%D0%B5> a schema:Article ;
+	schema:about wd:Q6722435 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Макагуахе"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Macaguaje_language> a schema:Article ;
+	schema:about wd:Q6722435 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Macaguaje language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_macaguaje> a schema:Article ;
+	schema:about wd:Q6722435 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua macaguaje"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Macaguaje> a schema:Article ;
+	schema:about wd:Q6722435 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Macaguaje"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6722435 wdt:P220 "mcl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mcl> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "maca1261" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/maca1261> ;
+	wdt:P2355 "2007" ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P279 wd:Q788144 ;
+	wdt:P2192 "5159" ;
+	wdt:P305 "mcl" ;
+	wdt:P1627 "mcl" ;
+	wdt:P910 wd:Q62057461 ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q739 ;
+	wdt:P2341 wd:Q13985,
+		wd:Q232953 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MCL> ;
+	wdt:P646 "/m/02hwv5q" ;
+	rdfs:label "Macaguaje"@en ;
+	skos:prefLabel "Macaguaje"@en ;
+	schema:name "Macaguaje"@en ;
+	rdfs:label "Lenga macaguaje"@pms ;
+	skos:prefLabel "Lenga macaguaje"@pms ;
+	schema:name "Lenga macaguaje"@pms ;
+	rdfs:label "Макагуахе"@ru ;
+	skos:prefLabel "Макагуахе"@ru ;
+	schema:name "Макагуахе"@ru ;
+	rdfs:label "Macaguaje"@en-gb ;
+	skos:prefLabel "Macaguaje"@en-gb ;
+	schema:name "Macaguaje"@en-gb ;
+	rdfs:label "macaguaje"@fr ;
+	skos:prefLabel "macaguaje"@fr ;
+	schema:name "macaguaje"@fr ;
+	rdfs:label "Wikang Macaguaje"@tl ;
+	skos:prefLabel "Wikang Macaguaje"@tl ;
+	schema:name "Wikang Macaguaje"@tl ;
+	rdfs:label "Lingua macaguaje"@gl ;
+	skos:prefLabel "Lingua macaguaje"@gl ;
+	schema:name "Lingua macaguaje"@gl ;
+	rdfs:label "Macaguaje"@ca ;
+	skos:prefLabel "Macaguaje"@ca ;
+	schema:name "Macaguaje"@ca ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue tucanoane"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"lingua morta da familia tucana"@gl ;
+	skos:altLabel "Macaguaje language"@en .
+
+wd:Q61095769 owl:sameAs wd:Q6722435 .

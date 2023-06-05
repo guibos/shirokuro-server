@@ -1,0 +1,115 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7258608 a schema:Dataset ;
+	schema:about wd:Q7258608 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1780790571"^^xsd:integer ;
+	schema:dateModified "2022-11-29T05:58:24Z"^^xsd:dateTime .
+
+wd:Q7258608 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Puerto_Rican_Sign_Language> a schema:Article ;
+	schema:about wd:Q7258608 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Puerto Rican Sign Language"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Langue_des_signes_portoricaine> a schema:Article ;
+	schema:about wd:Q7258608 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Langue des signes portoricaine"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_dij_segn_portorican-a> a schema:Article ;
+	schema:about wd:Q7258608 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga dij segn portorican-a"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7258608 wdt:P220 "psl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/psl> ;
+	wdt:P31 wd:Q34228,
+		wd:Q1288568 ;
+	wdt:P305 "psl" ;
+	wdt:P1394 "puer1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/puer1237> ;
+	wdt:P17 wd:Q30 ;
+	wdt:P279 wd:Q14759 ;
+	wdt:P2192 "7116" ;
+	wdt:P1627 "psl" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P131 wd:Q1183 ;
+	wdt:P646 "/m/02hxyg7" ;
+	wdt:P910 wd:Q105715443 ;
+	rdfs:label "Puerto Rican Sign Language"@en ;
+	skos:prefLabel "Puerto Rican Sign Language"@en ;
+	schema:name "Puerto Rican Sign Language"@en ;
+	rdfs:label "langue des signes portoricaine"@fr ;
+	skos:prefLabel "langue des signes portoricaine"@fr ;
+	schema:name "langue des signes portoricaine"@fr ;
+	rdfs:label "Lenga dij segn portorican-a"@pms ;
+	skos:prefLabel "Lenga dij segn portorican-a"@pms ;
+	schema:name "Lenga dij segn portorican-a"@pms ;
+	rdfs:label "Puerto Rican Sign Language"@en-gb ;
+	skos:prefLabel "Puerto Rican Sign Language"@en-gb ;
+	schema:name "Puerto Rican Sign Language"@en-gb ;
+	rdfs:label "lingua de sinia portorican"@lfn ;
+	skos:prefLabel "lingua de sinia portorican"@lfn ;
+	schema:name "lingua de sinia portorican"@lfn ;
+	rdfs:label "Puertoricanische Gebärdensprache"@de ;
+	skos:prefLabel "Puertoricanische Gebärdensprache"@de ;
+	schema:name "Puertoricanische Gebärdensprache"@de ;
+	rdfs:label "プエルトリコ手話"@ja ;
+	skos:prefLabel "プエルトリコ手話"@ja ;
+	schema:name "プエルトリコ手話"@ja ;
+	schema:description "langue des signes"@fr,
+		"Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "PRSL"@fr,
+		"Porto-ricanesische Gebärdensprache"@de .
+
+wd:Q12953498 owl:sameAs wd:Q7258608 .

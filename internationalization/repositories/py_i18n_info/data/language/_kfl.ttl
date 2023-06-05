@@ -1,0 +1,129 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6444510 a schema:Dataset ;
+	schema:about wd:Q6444510 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1757445976"^^xsd:integer ;
+	schema:dateModified "2022-10-24T22:38:20Z"^^xsd:dateTime .
+
+wd:Q6444510 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Kung_(langue)> a schema:Article ;
+	schema:about wd:Q6444510 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kung (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kung> a schema:Article ;
+	schema:about wd:Q6444510 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kung"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikung> a schema:Article ;
+	schema:about wd:Q6444510 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikung"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kung_language_(Cameroon)> a schema:Article ;
+	schema:about wd:Q6444510 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kung language (Cameroon)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Kung_language_(Cameroon)> a schema:Article ;
+	schema:about wd:Q6444510 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Kung language (Cameroon)"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6444510 wdt:P220 "kfl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kfl> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kung1260" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kung1260> ;
+	wdt:P2355 "1407" ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P279 wd:Q2269051 ;
+	wdt:P2192 "2210" ;
+	wdt:P305 "kfl" ;
+	wdt:P1627 "kfl" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P17 wd:Q1009 ;
+	wdt:P2341 wd:Q502341,
+		wd:Q165784 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KFL> ;
+	wdt:P646 "/m/05mfb81" ;
+	rdfs:label "Kung"@en ;
+	skos:prefLabel "Kung"@en ;
+	schema:name "Kung"@en ;
+	rdfs:label "kung"@fr ;
+	skos:prefLabel "kung"@fr ;
+	schema:name "kung"@fr ;
+	rdfs:label "Kikung"@sw ;
+	skos:prefLabel "Kikung"@sw ;
+	schema:name "Kikung"@sw ;
+	rdfs:label "Lenga Kung"@pms ;
+	skos:prefLabel "Lenga Kung"@pms ;
+	schema:name "Lenga Kung"@pms ;
+	rdfs:label "Kung"@en-gb ;
+	skos:prefLabel "Kung"@en-gb ;
+	schema:name "Kung"@en-gb ;
+	rdfs:label "Kung language (Cameroon)"@ig ;
+	skos:prefLabel "Kung language (Cameroon)"@ig ;
+	schema:name "Kung language (Cameroon)"@ig ;
+	schema:description "Sprache"@de,
+		"langue des Grassfields"@fr,
+		"שפה"@he,
+		"Grassfields Bantu language of Cameroon"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kung language"@en .
+
+wd:Q11010011 owl:sameAs wd:Q6444510 .

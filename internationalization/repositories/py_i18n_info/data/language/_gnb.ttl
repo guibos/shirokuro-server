@@ -1,0 +1,163 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12952442 a schema:Dataset ;
+	schema:about wd:Q12952442 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616000436"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:52:14Z"^^xsd:dateTime .
+
+wd:Q12952442 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Gangte> a schema:Article ;
+	schema:about wd:Q12952442 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Gangte"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1_%CE%93%CE%BA%CE%AC%CE%BD%CE%B3%CE%BA%CF%84%CE%B5> a schema:Article ;
+	schema:about wd:Q12952442 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γλώσσα Γκάνγκτε"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigangte> a schema:Article ;
+	schema:about wd:Q12952442 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigangte"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Gangte_language> a schema:Article ;
+	schema:about wd:Q12952442 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Gangte language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%97%E0%A4%BE%E0%A4%82%E0%A4%9F%E0%A5%87_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q12952442 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "गांटे भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%81%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%95> a schema:Article ;
+	schema:about wd:Q12952442 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษากังเต"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mni.wikipedia.org/wiki/%EA%AF%92%EA%AF%A5%EA%AF%A1%EA%AF%87%EA%AF%A6_%EA%AF%82%EA%AF%A3%EA%AF%9F> a schema:Article ;
+	schema:about wd:Q12952442 ;
+	schema:inLanguage "mni" ;
+	schema:isPartOf <https://mni.wikipedia.org/> ;
+	schema:name "ꯒꯥꯡꯇꯦ ꯂꯣꯟ"@mni .
+
+<https://mni.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12952442 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "gnb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gnb> ;
+	wdt:P1394 "gang1266" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gang1266> ;
+	wdt:P2355 "1180" ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P279 wd:Q832413 ;
+	wdt:P2192 "4230" ;
+	wdt:P305 "gnb" ;
+	wdt:P1627 "gnb" ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1164,
+		wd:Q1195,
+		wd:Q1193 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GNB> ;
+	wdt:P646 "/m/02hwll3" ;
+	rdfs:label "Lenga Gangte"@pms ;
+	skos:prefLabel "Lenga Gangte"@pms ;
+	schema:name "Lenga Gangte"@pms ;
+	rdfs:label "Gangte"@en ;
+	skos:prefLabel "Gangte"@en ;
+	schema:name "Gangte"@en ;
+	rdfs:label "Kigangte"@sw ;
+	skos:prefLabel "Kigangte"@sw ;
+	schema:name "Kigangte"@sw ;
+	rdfs:label "Gangte"@en-gb ;
+	skos:prefLabel "Gangte"@en-gb ;
+	schema:name "Gangte"@en-gb ;
+	rdfs:label "Γλώσσα Γκάνγκτε"@el ;
+	skos:prefLabel "Γλώσσα Γκάνγκτε"@el ;
+	schema:name "Γλώσσα Γκάνγκτε"@el ;
+	rdfs:label "Gangte"@en-ca ;
+	skos:prefLabel "Gangte"@en-ca ;
+	schema:name "Gangte"@en-ca ;
+	rdfs:label "gangte"@fr ;
+	skos:prefLabel "gangte"@fr ;
+	schema:name "gangte"@fr ;
+	rdfs:label "गांटे भाषा"@hi ;
+	skos:prefLabel "गांटे भाषा"@hi ;
+	schema:name "गांटे भाषा"@hi ;
+	rdfs:label "ภาษากังเต"@th ;
+	skos:prefLabel "ภาษากังเต"@th ;
+	schema:name "ภาษากังเต"@th ;
+	rdfs:label "ꯒꯥꯡꯇꯦ ꯂꯣꯟ"@mni ;
+	skos:prefLabel "ꯒꯥꯡꯇꯦ ꯂꯣꯟ"@mni ;
+	schema:name "ꯒꯥꯡꯇꯦ ꯂꯣꯟ"@mni ;
+	schema:description "Kukish language of India. There are a few speakers across the border in Burma."@en,
+		"Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue kuki-chin-naga"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"ভারতের ভাষা"@bn ;
+	skos:altLabel "Gangte language"@en,
+		"Γκάνγκτε"@el .
+
+wd:Q1775221 owl:sameAs wd:Q12952442 .
+
+wd:Q13018502 owl:sameAs wd:Q12952442 .
+
+wd:Q31325887 owl:sameAs wd:Q12952442 .

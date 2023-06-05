@@ -1,0 +1,181 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36241 a schema:Dataset ;
+	schema:about wd:Q36241 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1748145424"^^xsd:integer ;
+	schema:dateModified "2022-10-11T11:31:54Z"^^xsd:dateTime .
+
+wd:Q36241 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Pana_(langue_mbum)> a schema:Article ;
+	schema:about wd:Q36241 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Pana (langue mbum)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Pana> a schema:Article ;
+	schema:about wd:Q36241 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Pana"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BD%D0%B0_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q36241 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Пана (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bar.wikipedia.org/wiki/Pana_(Sproch)> a schema:Article ;
+	schema:about wd:Q36241 ;
+	schema:inLanguage "bar" ;
+	schema:isPartOf <https://bar.wikipedia.org/> ;
+	schema:name "Pana (Sproch)"@bar .
+
+<https://bar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kipana> a schema:Article ;
+	schema:about wd:Q36241 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kipana"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Pana_language> a schema:Article ;
+	schema:about wd:Q36241 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Pana language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Pana_(Sprache)> a schema:Article ;
+	schema:about wd:Q36241 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Pana (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Panan_kieli> a schema:Article ;
+	schema:about wd:Q36241 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Panan kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Pana_language> a schema:Article ;
+	schema:about wd:Q36241 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Pana language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36241 wdt:P220 "pnz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pnz> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "pana1293" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/pana1293> ;
+	wdt:P305 "pnz" ;
+	wdt:P279 wd:Q6799814 ;
+	wdt:P17 wd:Q929,
+		wd:Q1009,
+		wd:Q657 ;
+	wdt:P2192 "4985" ;
+	wdt:P910 wd:Q33666997 ;
+	wdt:P1627 "pnz" ;
+	wdt:P244 "sh2017003760" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh2017003760> ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2341 wd:Q726620,
+		wd:Q848591,
+		wd:Q502341,
+		wd:Q167514 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PNZ> ;
+	wdt:P646 "/m/02hw_z6" ;
+	wdt:P8189 "987007405853905171" ;
+	rdfs:label "Kipana"@sw ;
+	skos:prefLabel "Kipana"@sw ;
+	schema:name "Kipana"@sw ;
+	rdfs:label "Lenga Pana"@pms ;
+	skos:prefLabel "Lenga Pana"@pms ;
+	schema:name "Lenga Pana"@pms ;
+	rdfs:label "Pana"@de ;
+	skos:prefLabel "Pana"@de ;
+	schema:name "Pana"@de ;
+	rdfs:label "Pana"@en ;
+	skos:prefLabel "Pana"@en ;
+	schema:name "Pana"@en ;
+	rdfs:label "pana"@es ;
+	skos:prefLabel "pana"@es ;
+	schema:name "pana"@es ;
+	rdfs:label "pana"@fr ;
+	skos:prefLabel "pana"@fr ;
+	schema:name "pana"@fr ;
+	rdfs:label "Пана (язык)"@ru ;
+	skos:prefLabel "Пана (язык)"@ru ;
+	schema:name "Пана (язык)"@ru ;
+	rdfs:label "Pana"@bar ;
+	skos:prefLabel "Pana"@bar ;
+	schema:name "Pana"@bar ;
+	rdfs:label "Panan kieli"@fi ;
+	skos:prefLabel "Panan kieli"@fi ;
+	schema:name "Panan kieli"@fi ;
+	rdfs:label "Pana"@ig ;
+	skos:prefLabel "Pana"@ig ;
+	schema:name "Pana"@ig ;
+	schema:description "idioma humano"@es,
+		"Sprache"@de,
+		"language of the Central African Republic"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue mbum parlée en République centrafricaine"@fr,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"Sproch"@bar,
+		"Asụsụ sị na étíti Afrịka"@ig ;
+	skos:altLabel "Pana (Central African Republic)"@en,
+		"Pana language"@en,
+		"Asụsụ Pana"@ig .

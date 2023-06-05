@@ -1,0 +1,390 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7675300 a schema:Dataset ;
+	schema:about wd:Q7675300 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1768531927"^^xsd:integer ;
+	schema:dateModified "2022-11-10T14:51:41Z"^^xsd:dateTime .
+
+wd:Q7675300 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_tagal_murut> a schema:Article ;
+	schema:about wd:Q7675300 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga tagal murut"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Tagol> a schema:Article ;
+	schema:about wd:Q7675300 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Tagol"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitagal-Murut> a schema:Article ;
+	schema:about wd:Q7675300 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitagal-Murut"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Tagol_language> a schema:Article ;
+	schema:about wd:Q7675300 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Tagol language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Tagol> a schema:Article ;
+	schema:about wd:Q7675300 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Tagol"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pam.wikipedia.org/wiki/Amanung_Tagol> a schema:Article ;
+	schema:about wd:Q7675300 ;
+	schema:inLanguage "pam" ;
+	schema:isPartOf <https://pam.wikipedia.org/> ;
+	schema:name "Amanung Tagol"@pam .
+
+<https://pam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7675300 wdt:P220 "mvv" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mvv> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q49228 ;
+	wdt:P1394 "taga1273" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/taga1273> ;
+	wdt:P2590 "0485 6" ;
+	wdt:P1705 "bahasa Tagal Murut"@id,
+		"bahasa Sumambu-Tagal"@id,
+		"bahasa Murut Tahol"@ms ;
+	wdt:P17 wd:Q252,
+		wd:Q833 ;
+	wdt:P305 "mvv" ;
+	wdt:P1627 "mvv" ;
+	wdt:P244 "sh2009007064" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh2009007064> ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2341 wd:Q3795,
+		wd:Q3903,
+		wd:Q179029,
+		wd:Q170462 ;
+	wdt:P1245 "1717988" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MVV> ;
+	wdt:P646 "/m/02hwlyx" ;
+	wdt:P8189 "987007547662605171" ;
+	rdfs:label "Tagol"@en ;
+	skos:prefLabel "Tagol"@en ;
+	schema:name "Tagol"@en ;
+	rdfs:label "Lenga tagal murut"@pms ;
+	skos:prefLabel "Lenga tagal murut"@pms ;
+	schema:name "Lenga tagal murut"@pms ;
+	rdfs:label "Kitagal-Murut"@sw ;
+	skos:prefLabel "Kitagal-Murut"@sw ;
+	schema:name "Kitagal-Murut"@sw ;
+	rdfs:label "Idioma Tagol"@es ;
+	skos:prefLabel "Idioma Tagol"@es ;
+	schema:name "Idioma Tagol"@es ;
+	rdfs:label "tagol"@fr ;
+	skos:prefLabel "tagol"@fr ;
+	schema:name "tagol"@fr ;
+	rdfs:label "Amanung Tagol"@pam ;
+	skos:prefLabel "Amanung Tagol"@pam ;
+	schema:name "Amanung Tagol"@pam ;
+	rdfs:label "Tagal Murut"@id ;
+	skos:prefLabel "Tagal Murut"@id ;
+	schema:name "Tagal Murut"@id ;
+	rdfs:label "Tagal Murut"@ace ;
+	skos:prefLabel "Tagal Murut"@ace ;
+	schema:name "Tagal Murut"@ace ;
+	rdfs:label "Tagal Murut"@af ;
+	skos:prefLabel "Tagal Murut"@af ;
+	schema:name "Tagal Murut"@af ;
+	rdfs:label "Tagal Murut"@an ;
+	skos:prefLabel "Tagal Murut"@an ;
+	schema:name "Tagal Murut"@an ;
+	rdfs:label "Tagal Murut"@ast ;
+	skos:prefLabel "Tagal Murut"@ast ;
+	schema:name "Tagal Murut"@ast ;
+	rdfs:label "Tagal Murut"@bar ;
+	skos:prefLabel "Tagal Murut"@bar ;
+	schema:name "Tagal Murut"@bar ;
+	rdfs:label "tagal murut"@br ;
+	skos:prefLabel "tagal murut"@br ;
+	schema:name "tagal murut"@br ;
+	rdfs:label "Tagal Murut"@ca ;
+	skos:prefLabel "Tagal Murut"@ca ;
+	schema:name "Tagal Murut"@ca ;
+	rdfs:label "Tagal Murut"@co ;
+	skos:prefLabel "Tagal Murut"@co ;
+	schema:name "Tagal Murut"@co ;
+	rdfs:label "Tagal Murut"@cs ;
+	skos:prefLabel "Tagal Murut"@cs ;
+	schema:name "Tagal Murut"@cs ;
+	rdfs:label "Tagal Murut"@cy ;
+	skos:prefLabel "Tagal Murut"@cy ;
+	schema:name "Tagal Murut"@cy ;
+	rdfs:label "Tagal Murut"@da ;
+	skos:prefLabel "Tagal Murut"@da ;
+	schema:name "Tagal Murut"@da ;
+	rdfs:label "Tagal Murut"@de ;
+	skos:prefLabel "Tagal Murut"@de ;
+	schema:name "Tagal Murut"@de ;
+	rdfs:label "Tagal Murut"@de-at ;
+	skos:prefLabel "Tagal Murut"@de-at ;
+	schema:name "Tagal Murut"@de-at ;
+	rdfs:label "Tagal Murut"@de-ch ;
+	skos:prefLabel "Tagal Murut"@de-ch ;
+	schema:name "Tagal Murut"@de-ch ;
+	rdfs:label "Tagal Murut"@en-ca ;
+	skos:prefLabel "Tagal Murut"@en-ca ;
+	schema:name "Tagal Murut"@en-ca ;
+	rdfs:label "Tagal Murut"@en-gb ;
+	skos:prefLabel "Tagal Murut"@en-gb ;
+	schema:name "Tagal Murut"@en-gb ;
+	rdfs:label "Tagal Murut"@eo ;
+	skos:prefLabel "Tagal Murut"@eo ;
+	schema:name "Tagal Murut"@eo ;
+	rdfs:label "Tagal Murut"@et ;
+	skos:prefLabel "Tagal Murut"@et ;
+	schema:name "Tagal Murut"@et ;
+	rdfs:label "tagol murutera"@eu ;
+	skos:prefLabel "tagol murutera"@eu ;
+	schema:name "tagol murutera"@eu ;
+	rdfs:label "Tagal Murut"@fi ;
+	skos:prefLabel "Tagal Murut"@fi ;
+	schema:name "Tagal Murut"@fi ;
+	rdfs:label "Tagal Murut"@frp ;
+	skos:prefLabel "Tagal Murut"@frp ;
+	schema:name "Tagal Murut"@frp ;
+	rdfs:label "Tagal Murut"@fur ;
+	skos:prefLabel "Tagal Murut"@fur ;
+	schema:name "Tagal Murut"@fur ;
+	rdfs:label "Tagal Murut"@ga ;
+	skos:prefLabel "Tagal Murut"@ga ;
+	schema:name "Tagal Murut"@ga ;
+	rdfs:label "Tagal Murut"@gd ;
+	skos:prefLabel "Tagal Murut"@gd ;
+	schema:name "Tagal Murut"@gd ;
+	rdfs:label "Tagal Murut"@gl ;
+	skos:prefLabel "Tagal Murut"@gl ;
+	schema:name "Tagal Murut"@gl ;
+	rdfs:label "Tagal Murut"@gsw ;
+	skos:prefLabel "Tagal Murut"@gsw ;
+	schema:name "Tagal Murut"@gsw ;
+	rdfs:label "Tagal Murut"@hr ;
+	skos:prefLabel "Tagal Murut"@hr ;
+	schema:name "Tagal Murut"@hr ;
+	rdfs:label "Tagal Murut"@hu ;
+	skos:prefLabel "Tagal Murut"@hu ;
+	schema:name "Tagal Murut"@hu ;
+	rdfs:label "Tagal Murut"@ia ;
+	skos:prefLabel "Tagal Murut"@ia ;
+	schema:name "Tagal Murut"@ia ;
+	rdfs:label "Tagal Murut"@ie ;
+	skos:prefLabel "Tagal Murut"@ie ;
+	schema:name "Tagal Murut"@ie ;
+	rdfs:label "Tagal Murut"@io ;
+	skos:prefLabel "Tagal Murut"@io ;
+	schema:name "Tagal Murut"@io ;
+	rdfs:label "Tagal Murut"@is ;
+	skos:prefLabel "Tagal Murut"@is ;
+	schema:name "Tagal Murut"@is ;
+	rdfs:label "tagal murut"@it ;
+	skos:prefLabel "tagal murut"@it ;
+	schema:name "tagal murut"@it ;
+	rdfs:label "Tagal Murut"@jv ;
+	skos:prefLabel "Tagal Murut"@jv ;
+	schema:name "Tagal Murut"@jv ;
+	rdfs:label "Tagal Murut"@kg ;
+	skos:prefLabel "Tagal Murut"@kg ;
+	schema:name "Tagal Murut"@kg ;
+	rdfs:label "Tagal Murut"@lb ;
+	skos:prefLabel "Tagal Murut"@lb ;
+	schema:name "Tagal Murut"@lb ;
+	rdfs:label "Tagal Murut"@li ;
+	skos:prefLabel "Tagal Murut"@li ;
+	schema:name "Tagal Murut"@li ;
+	rdfs:label "Tagal Murut"@lij ;
+	skos:prefLabel "Tagal Murut"@lij ;
+	schema:name "Tagal Murut"@lij ;
+	rdfs:label "Tagal Murut"@mg ;
+	skos:prefLabel "Tagal Murut"@mg ;
+	schema:name "Tagal Murut"@mg ;
+	rdfs:label "Tagal Murut"@min ;
+	skos:prefLabel "Tagal Murut"@min ;
+	schema:name "Tagal Murut"@min ;
+	rdfs:label "bahasa Murut Tahol"@ms ;
+	skos:prefLabel "bahasa Murut Tahol"@ms ;
+	schema:name "bahasa Murut Tahol"@ms ;
+	rdfs:label "Tagal Murut"@nap ;
+	skos:prefLabel "Tagal Murut"@nap ;
+	schema:name "Tagal Murut"@nap ;
+	rdfs:label "Tagal Murut"@nb ;
+	skos:prefLabel "Tagal Murut"@nb ;
+	schema:name "Tagal Murut"@nb ;
+	rdfs:label "Tagal Murut"@nds ;
+	skos:prefLabel "Tagal Murut"@nds ;
+	schema:name "Tagal Murut"@nds ;
+	rdfs:label "Tagal Murut"@nds-nl ;
+	skos:prefLabel "Tagal Murut"@nds-nl ;
+	schema:name "Tagal Murut"@nds-nl ;
+	rdfs:label "Tagal Murut"@nl ;
+	skos:prefLabel "Tagal Murut"@nl ;
+	schema:name "Tagal Murut"@nl ;
+	rdfs:label "Tagal Murut"@nn ;
+	skos:prefLabel "Tagal Murut"@nn ;
+	schema:name "Tagal Murut"@nn ;
+	rdfs:label "Tagal Murut"@nrm ;
+	skos:prefLabel "Tagal Murut"@nrm ;
+	schema:name "Tagal Murut"@nrm ;
+	rdfs:label "Tagal Murut"@oc ;
+	skos:prefLabel "Tagal Murut"@oc ;
+	schema:name "Tagal Murut"@oc ;
+	rdfs:label "Tagal Murut"@pcd ;
+	skos:prefLabel "Tagal Murut"@pcd ;
+	schema:name "Tagal Murut"@pcd ;
+	rdfs:label "Tagal Murut"@pl ;
+	skos:prefLabel "Tagal Murut"@pl ;
+	schema:name "Tagal Murut"@pl ;
+	rdfs:label "Tagal Murut"@pt ;
+	skos:prefLabel "Tagal Murut"@pt ;
+	schema:name "Tagal Murut"@pt ;
+	rdfs:label "Tagal Murut"@pt-br ;
+	skos:prefLabel "Tagal Murut"@pt-br ;
+	schema:name "Tagal Murut"@pt-br ;
+	rdfs:label "Tagal Murut"@rm ;
+	skos:prefLabel "Tagal Murut"@rm ;
+	schema:name "Tagal Murut"@rm ;
+	rdfs:label "Tagal Murut"@ro ;
+	skos:prefLabel "Tagal Murut"@ro ;
+	schema:name "Tagal Murut"@ro ;
+	rdfs:label "Tagal Murut"@sc ;
+	skos:prefLabel "Tagal Murut"@sc ;
+	schema:name "Tagal Murut"@sc ;
+	rdfs:label "Tagal Murut"@scn ;
+	skos:prefLabel "Tagal Murut"@scn ;
+	schema:name "Tagal Murut"@scn ;
+	rdfs:label "Tagal Murut"@sco ;
+	skos:prefLabel "Tagal Murut"@sco ;
+	schema:name "Tagal Murut"@sco ;
+	rdfs:label "Tagal Murut"@sk ;
+	skos:prefLabel "Tagal Murut"@sk ;
+	schema:name "Tagal Murut"@sk ;
+	rdfs:label "Tagal Murut"@sl ;
+	skos:prefLabel "Tagal Murut"@sl ;
+	schema:name "Tagal Murut"@sl ;
+	rdfs:label "Tagal Murut"@sr-el ;
+	skos:prefLabel "Tagal Murut"@sr-el ;
+	schema:name "Tagal Murut"@sr-el ;
+	rdfs:label "Tagal Murut"@su ;
+	skos:prefLabel "Tagal Murut"@su ;
+	schema:name "Tagal Murut"@su ;
+	rdfs:label "Tagal Murut"@sv ;
+	skos:prefLabel "Tagal Murut"@sv ;
+	schema:name "Tagal Murut"@sv ;
+	rdfs:label "Tagal Murut"@vec ;
+	skos:prefLabel "Tagal Murut"@vec ;
+	schema:name "Tagal Murut"@vec ;
+	rdfs:label "Tagal Murut"@vi ;
+	skos:prefLabel "Tagal Murut"@vi ;
+	schema:name "Tagal Murut"@vi ;
+	rdfs:label "Tagal Murut"@vls ;
+	skos:prefLabel "Tagal Murut"@vls ;
+	schema:name "Tagal Murut"@vls ;
+	rdfs:label "Tagal Murut"@vo ;
+	skos:prefLabel "Tagal Murut"@vo ;
+	schema:name "Tagal Murut"@vo ;
+	rdfs:label "Tagal Murut"@wa ;
+	skos:prefLabel "Tagal Murut"@wa ;
+	schema:name "Tagal Murut"@wa ;
+	rdfs:label "Tagal Murut"@wo ;
+	skos:prefLabel "Tagal Murut"@wo ;
+	schema:name "Tagal Murut"@wo ;
+	rdfs:label "Tagal Murut"@zu ;
+	skos:prefLabel "Tagal Murut"@zu ;
+	schema:name "Tagal Murut"@zu ;
+	rdfs:label "Tagol"@ilo ;
+	skos:prefLabel "Tagol"@ilo ;
+	schema:name "Tagol"@ilo ;
+	rdfs:label "Wikang Tagol"@tl ;
+	skos:prefLabel "Wikang Tagol"@tl ;
+	schema:name "Wikang Tagol"@tl ;
+	rdfs:label "Tataramon na Tagol"@bcl ;
+	skos:prefLabel "Tataramon na Tagol"@bcl ;
+	schema:name "Tataramon na Tagol"@bcl ;
+	rdfs:label "بهاس موروت تاهول"@ms-arab ;
+	skos:prefLabel "بهاس موروت تاهول"@ms-arab ;
+	schema:name "بهاس موروت تاهول"@ms-arab ;
+	schema:description "Sprache"@de,
+		"Austronesian language spoken in Borneo"@en,
+		"Idioma austronesio hablado en Borneo"@es,
+		"bahasa Austronesia di Kalimantan"@id,
+		"pagsasao idiay Indonesia ken Malaysia"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"bahasa Austronesia yang ditutur di Borneo"@ms ;
+	skos:altLabel "Tagal Murut"@en,
+		"Tagol Murut"@en,
+		"Tagol language"@en,
+		"Sumambu-Tagal"@id,
+		"Semembu"@id,
+		"Semambu"@id,
+		"Sumambuq"@id,
+		"Sumambu"@id,
+		"tagal murut"@eu,
+		"tagolera"@eu,
+		"tagol murut"@eu,
+		"Murut Tagal"@ms,
+		"Murut Tagol"@ms,
+		"bahasa Tagol"@ms,
+		"Tagol"@ms,
+		"bahasa Murut Tagal"@ms .
+
+wd:Q12953900 owl:sameAs wd:Q7675300 .
+
+wd:Q31442019 owl:sameAs wd:Q7675300 .

@@ -1,0 +1,152 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35806 a schema:Dataset ;
+	schema:about wd:Q35806 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1766325726"^^xsd:integer ;
+	schema:dateModified "2022-11-07T01:11:35Z"^^xsd:dateTime .
+
+wd:Q35806 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Malimba_(langue)> a schema:Article ;
+	schema:about wd:Q35806 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Malimba (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Malimba> a schema:Article ;
+	schema:about wd:Q35806 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Malimba"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimalimba> a schema:Article ;
+	schema:about wd:Q35806 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimalimba"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Limba_language_(Cameroon)> a schema:Article ;
+	schema:about wd:Q35806 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Limba language (Cameroon)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Malimba> a schema:Article ;
+	schema:about wd:Q35806 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Malimba"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Malimba> a schema:Article ;
+	schema:about wd:Q35806 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Malimba"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Limba_(Cameroon)> a schema:Article ;
+	schema:about wd:Q35806 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Limba (Cameroon)"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35806 wdt:P279 wd:Q33146,
+		wd:Q532003 ;
+	wdt:P220 "mzd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mzd> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "mali1280" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mali1280> ;
+	wdt:P305 "mzd" ;
+	wdt:P1627 "mzd" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q1009 ;
+	wdt:P2341 wd:Q845172,
+		wd:Q502341 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MZD> ;
+	wdt:P646 "/m/02hw_4w" ;
+	rdfs:label "Kimalimba"@sw ;
+	skos:prefLabel "Kimalimba"@sw ;
+	schema:name "Kimalimba"@sw ;
+	rdfs:label "Malimba"@de ;
+	skos:prefLabel "Malimba"@de ;
+	schema:name "Malimba"@de ;
+	rdfs:label "Lenga Malimba"@pms ;
+	skos:prefLabel "Lenga Malimba"@pms ;
+	schema:name "Lenga Malimba"@pms ;
+	rdfs:label "Limba"@en ;
+	skos:prefLabel "Limba"@en ;
+	schema:name "Limba"@en ;
+	rdfs:label "lingua malimba"@it ;
+	skos:prefLabel "lingua malimba"@it ;
+	schema:name "lingua malimba"@it ;
+	rdfs:label "malimba"@fr ;
+	skos:prefLabel "malimba"@fr ;
+	schema:name "malimba"@fr ;
+	rdfs:label "Malimba"@oc ;
+	skos:prefLabel "Malimba"@oc ;
+	schema:name "Malimba"@oc ;
+	rdfs:label "malimba"@vec ;
+	skos:prefLabel "malimba"@vec ;
+	schema:name "malimba"@vec ;
+	rdfs:label "Asụsụ Limba (Cameroon)"@ig ;
+	skos:prefLabel "Asụsụ Limba (Cameroon)"@ig ;
+	schema:name "Asụsụ Limba (Cameroon)"@ig ;
+	schema:description "Bantu language of Cameroon"@en,
+		"Sprache"@de,
+		"lingua bantu"@it,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Malimba"@en,
+		"Mulimba"@en,
+		"Limba language"@en .

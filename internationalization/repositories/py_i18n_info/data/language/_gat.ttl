@@ -1,0 +1,164 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4219330 a schema:Dataset ;
+	schema:about wd:Q4219330 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1250858496"^^xsd:integer ;
+	schema:dateModified "2020-08-08T11:32:47Z"^^xsd:dateTime .
+
+wd:Q4219330 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Kenati_language> a schema:Article ;
+	schema:about wd:Q4219330 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kenati language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_kenati> a schema:Article ;
+	schema:about wd:Q4219330 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma kenati"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%B5%D0%BD%D0%B0%D1%82%D0%B8> a schema:Article ;
+	schema:about wd:Q4219330 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Кенати"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_kenati> a schema:Article ;
+	schema:about wd:Q4219330 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma kenati"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1_%CE%9A%CE%B5%CE%BD%CE%AC%CF%84%CE%B9> a schema:Article ;
+	schema:about wd:Q4219330 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γλώσσα Κενάτι"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Kenati> a schema:Article ;
+	schema:about wd:Q4219330 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Kenati"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kenati> a schema:Article ;
+	schema:about wd:Q4219330 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kenati"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikenati> a schema:Article ;
+	schema:about wd:Q4219330 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikenati"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4219330 wdt:P220 "gat" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gat> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0czcq7k" ;
+	wdt:P1394 "kena1250" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kena1250> ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P305 "gat" ;
+	wdt:P1627 "gat" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q849812 ;
+	rdfs:label "Кенати"@ru ;
+	skos:prefLabel "Кенати"@ru ;
+	schema:name "Кенати"@ru ;
+	rdfs:label "Kenati"@en ;
+	skos:prefLabel "Kenati"@en ;
+	schema:name "Kenati"@en ;
+	rdfs:label "Język kenati"@pl ;
+	skos:prefLabel "Język kenati"@pl ;
+	schema:name "Język kenati"@pl ;
+	rdfs:label "Idioma kenati"@es ;
+	skos:prefLabel "Idioma kenati"@es ;
+	schema:name "Idioma kenati"@es ;
+	rdfs:label "Lenga Kenati"@pms ;
+	skos:prefLabel "Lenga Kenati"@pms ;
+	schema:name "Lenga Kenati"@pms ;
+	rdfs:label "Kikenati"@sw ;
+	skos:prefLabel "Kikenati"@sw ;
+	schema:name "Kikenati"@sw ;
+	rdfs:label "Kenati"@ilo ;
+	skos:prefLabel "Kenati"@ilo ;
+	schema:name "Kenati"@ilo ;
+	rdfs:label "Kenati"@en-gb ;
+	skos:prefLabel "Kenati"@en-gb ;
+	schema:name "Kenati"@en-gb ;
+	rdfs:label "Γλώσσα Κενάτι"@el ;
+	skos:prefLabel "Γλώσσα Κενάτι"@el ;
+	schema:name "Γλώσσα Κενάτι"@el ;
+	rdfs:label "Kenati"@en-ca ;
+	skos:prefLabel "Kenati"@en-ca ;
+	schema:name "Kenati"@en-ca ;
+	rdfs:label "Idioma kenati"@ast ;
+	skos:prefLabel "Idioma kenati"@ast ;
+	schema:name "Idioma kenati"@ast ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kenati language"@en .
+
+wd:Q12952615 owl:sameAs wd:Q4219330 .

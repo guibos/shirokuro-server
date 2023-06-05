@@ -1,0 +1,131 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3192121 a schema:Dataset ;
+	schema:about wd:Q3192121 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1856685633"^^xsd:integer ;
+	schema:dateModified "2023-03-20T18:04:30Z"^^xsd:dateTime .
+
+wd:Q3192121 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Kalapuya_septentrional> a schema:Article ;
+	schema:about wd:Q3192121 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Kalapuya septentrional"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Kalapuya_du_Nord> a schema:Article ;
+	schema:about wd:Q3192121 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kalapuya du Nord"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Noordelijk_Kalapuya> a schema:Article ;
+	schema:about wd:Q3192121 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Noordelijk Kalapuya"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BA%D0%B0%D0%BB%D0%B0%D0%BF%D1%83%D1%8F%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q3192121 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Северный калапуянский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Northern_Kalapuya_language> a schema:Article ;
+	schema:about wd:Q3192121 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Northern Kalapuya language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3192121 wdt:P305 "nrt" ;
+	wdt:P220 "nrt" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nrt> ;
+	wdt:P31 wd:Q34770,
+		wd:Q38058796 ;
+	wdt:P279 wd:Q1569040 ;
+	wdt:P1394 "tual1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tual1242> ;
+	wdt:P4839 "Entity[\"Language\", \"NorthernKalapuya::h6465\"]",
+		"Entity[\"Language\", \"NorthernKalapuya\"]" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NRT> ;
+	wdt:P646 "/m/03b36t" ;
+	wdt:P8556 "1937-01-01T00:00:00Z"^^xsd:dateTime ;
+	rdfs:label "kalapuya du Nord"@fr ;
+	skos:prefLabel "kalapuya du Nord"@fr ;
+	schema:name "kalapuya du Nord"@fr ;
+	rdfs:label "Northern Kalapuya"@en ;
+	skos:prefLabel "Northern Kalapuya"@en ;
+	schema:name "Northern Kalapuya"@en ;
+	rdfs:label "Noordelijk Kalapuya"@nl ;
+	skos:prefLabel "Noordelijk Kalapuya"@nl ;
+	schema:name "Noordelijk Kalapuya"@nl ;
+	rdfs:label "Северный калапуянский язык"@ru ;
+	skos:prefLabel "Северный калапуянский язык"@ru ;
+	schema:name "Северный калапуянский язык"@ru ;
+	rdfs:label "kalapuya septentrional"@ca ;
+	skos:prefLabel "kalapuya septentrional"@ca ;
+	schema:name "kalapuya septentrional"@ca ;
+	rdfs:label "Northern Kalapuya"@en-gb ;
+	skos:prefLabel "Northern Kalapuya"@en-gb ;
+	schema:name "Northern Kalapuya"@en-gb ;
+	rdfs:label "Wikang Hilagang Kalapuya"@tl ;
+	skos:prefLabel "Wikang Hilagang Kalapuya"@tl ;
+	schema:name "Wikang Hilagang Kalapuya"@tl ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kalapuya du Nord(langue)"@fr,
+		"Kalapuya du Nord (langue)"@fr,
+		"Northern Kalapuya language"@en,
+		"Tualatin-Yamhill"@en,
+		"nrt"@en .
+
+wd:Q61097754 owl:sameAs wd:Q3192121 .

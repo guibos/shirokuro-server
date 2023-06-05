@@ -1,0 +1,401 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q1875885 a schema:Dataset ;
+	schema:about wd:Q1875885 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912056837"^^xsd:integer ;
+	schema:dateModified "2023-06-10T08:46:29Z"^^xsd:dateTime .
+
+wd:Q1875885 a wikibase:Item .
+
+<https://nl.wikipedia.org/wiki/Ambai_(taal)> a schema:Article ;
+	schema:about wd:Q1875885 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Ambai (taal)"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_ambai> a schema:Article ;
+	schema:about wd:Q1875885 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga ambai"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Ambai> a schema:Article ;
+	schema:about wd:Q1875885 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Ambai"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiambai> a schema:Article ;
+	schema:about wd:Q1875885 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiambai"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ambai_language> a schema:Article ;
+	schema:about wd:Q1875885 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ambai language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Ambai_jezik> a schema:Article ;
+	schema:about wd:Q1875885 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Ambai jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Ambai> a schema:Article ;
+	schema:about wd:Q1875885 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Ambai"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Ambai_(langue)> a schema:Article ;
+	schema:about wd:Q1875885 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Ambai (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_ambai> a schema:Article ;
+	schema:about wd:Q1875885 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język ambai"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q1875885 wdt:P220 "amk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/amk> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/028b7_3" ;
+	wdt:P1394 "amba1265" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/amba1265> ;
+	wdt:P1466 "amq" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_amq> ;
+	wdt:P2590 "0817 5" ;
+	wdt:P1705 "bahasa Ambai"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P305 "amk" ;
+	wdt:P1627 "amk" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2341 wd:Q5095 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/AMK> ;
+	wdt:P910 wd:Q30505153 ;
+	wdt:P10369 "Q590214" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q590214> ;
+	rdfs:label "Ambai"@nl ;
+	skos:prefLabel "Ambai"@nl ;
+	schema:name "Ambai"@nl ;
+	rdfs:label "Ambai"@en ;
+	skos:prefLabel "Ambai"@en ;
+	schema:name "Ambai"@en ;
+	rdfs:label "Ambai jezik"@hr ;
+	skos:prefLabel "Ambai jezik"@hr ;
+	schema:name "Ambai jezik"@hr ;
+	rdfs:label "Ambai"@id ;
+	skos:prefLabel "Ambai"@id ;
+	schema:name "Ambai"@id ;
+	rdfs:label "Lenga ambai"@pms ;
+	skos:prefLabel "Lenga ambai"@pms ;
+	schema:name "Lenga ambai"@pms ;
+	rdfs:label "Kiambai"@sw ;
+	skos:prefLabel "Kiambai"@sw ;
+	schema:name "Kiambai"@sw ;
+	rdfs:label "Ambai"@ilo ;
+	skos:prefLabel "Ambai"@ilo ;
+	schema:name "Ambai"@ilo ;
+	rdfs:label "Ambai"@en-gb ;
+	skos:prefLabel "Ambai"@en-gb ;
+	schema:name "Ambai"@en-gb ;
+	rdfs:label "Wikang Ambai"@tl ;
+	skos:prefLabel "Wikang Ambai"@tl ;
+	schema:name "Wikang Ambai"@tl ;
+	rdfs:label "ambai keel"@et ;
+	skos:prefLabel "ambai keel"@et ;
+	schema:name "ambai keel"@et ;
+	rdfs:label "Ambai"@ace ;
+	skos:prefLabel "Ambai"@ace ;
+	schema:name "Ambai"@ace ;
+	rdfs:label "Ambai"@af ;
+	skos:prefLabel "Ambai"@af ;
+	schema:name "Ambai"@af ;
+	rdfs:label "Ambai"@an ;
+	skos:prefLabel "Ambai"@an ;
+	schema:name "Ambai"@an ;
+	rdfs:label "Ambai"@ast ;
+	skos:prefLabel "Ambai"@ast ;
+	schema:name "Ambai"@ast ;
+	rdfs:label "Ambai"@ban ;
+	skos:prefLabel "Ambai"@ban ;
+	schema:name "Ambai"@ban ;
+	rdfs:label "Ambai"@bar ;
+	skos:prefLabel "Ambai"@bar ;
+	schema:name "Ambai"@bar ;
+	rdfs:label "Ambai"@bjn ;
+	skos:prefLabel "Ambai"@bjn ;
+	schema:name "Ambai"@bjn ;
+	rdfs:label "ambai"@br ;
+	skos:prefLabel "ambai"@br ;
+	schema:name "ambai"@br ;
+	rdfs:label "Ambai"@bug ;
+	skos:prefLabel "Ambai"@bug ;
+	schema:name "Ambai"@bug ;
+	rdfs:label "ambai"@ca ;
+	skos:prefLabel "ambai"@ca ;
+	schema:name "ambai"@ca ;
+	rdfs:label "Ambai"@co ;
+	skos:prefLabel "Ambai"@co ;
+	schema:name "Ambai"@co ;
+	rdfs:label "Ambai"@cs ;
+	skos:prefLabel "Ambai"@cs ;
+	schema:name "Ambai"@cs ;
+	rdfs:label "Ambai"@cy ;
+	skos:prefLabel "Ambai"@cy ;
+	schema:name "Ambai"@cy ;
+	rdfs:label "Ambai"@da ;
+	skos:prefLabel "Ambai"@da ;
+	schema:name "Ambai"@da ;
+	rdfs:label "Ambai"@de ;
+	skos:prefLabel "Ambai"@de ;
+	schema:name "Ambai"@de ;
+	rdfs:label "Ambai"@de-at ;
+	skos:prefLabel "Ambai"@de-at ;
+	schema:name "Ambai"@de-at ;
+	rdfs:label "Ambai"@de-ch ;
+	skos:prefLabel "Ambai"@de-ch ;
+	schema:name "Ambai"@de-ch ;
+	rdfs:label "Ambai"@en-ca ;
+	skos:prefLabel "Ambai"@en-ca ;
+	schema:name "Ambai"@en-ca ;
+	rdfs:label "Ambai"@eo ;
+	skos:prefLabel "Ambai"@eo ;
+	schema:name "Ambai"@eo ;
+	rdfs:label "Ambai"@es ;
+	skos:prefLabel "Ambai"@es ;
+	schema:name "Ambai"@es ;
+	rdfs:label "Ambai"@eu ;
+	skos:prefLabel "Ambai"@eu ;
+	schema:name "Ambai"@eu ;
+	rdfs:label "Ambai"@fi ;
+	skos:prefLabel "Ambai"@fi ;
+	schema:name "Ambai"@fi ;
+	rdfs:label "ambai"@fr ;
+	skos:prefLabel "ambai"@fr ;
+	schema:name "ambai"@fr ;
+	rdfs:label "Ambai"@frp ;
+	skos:prefLabel "Ambai"@frp ;
+	schema:name "Ambai"@frp ;
+	rdfs:label "Ambai"@fur ;
+	skos:prefLabel "Ambai"@fur ;
+	schema:name "Ambai"@fur ;
+	rdfs:label "Ambai"@ga ;
+	skos:prefLabel "Ambai"@ga ;
+	schema:name "Ambai"@ga ;
+	rdfs:label "Ambai"@gd ;
+	skos:prefLabel "Ambai"@gd ;
+	schema:name "Ambai"@gd ;
+	rdfs:label "Ambai"@gl ;
+	skos:prefLabel "Ambai"@gl ;
+	schema:name "Ambai"@gl ;
+	rdfs:label "Ambai"@gor ;
+	skos:prefLabel "Ambai"@gor ;
+	schema:name "Ambai"@gor ;
+	rdfs:label "Ambai"@gsw ;
+	skos:prefLabel "Ambai"@gsw ;
+	schema:name "Ambai"@gsw ;
+	rdfs:label "Ambai"@hu ;
+	skos:prefLabel "Ambai"@hu ;
+	schema:name "Ambai"@hu ;
+	rdfs:label "Ambai"@ia ;
+	skos:prefLabel "Ambai"@ia ;
+	schema:name "Ambai"@ia ;
+	rdfs:label "Ambai"@ie ;
+	skos:prefLabel "Ambai"@ie ;
+	schema:name "Ambai"@ie ;
+	rdfs:label "Ambai"@io ;
+	skos:prefLabel "Ambai"@io ;
+	schema:name "Ambai"@io ;
+	rdfs:label "Ambai"@is ;
+	skos:prefLabel "Ambai"@is ;
+	schema:name "Ambai"@is ;
+	rdfs:label "ambai"@it ;
+	skos:prefLabel "ambai"@it ;
+	schema:name "ambai"@it ;
+	rdfs:label "Ambai"@jv ;
+	skos:prefLabel "Ambai"@jv ;
+	schema:name "Ambai"@jv ;
+	rdfs:label "Ambai"@kg ;
+	skos:prefLabel "Ambai"@kg ;
+	schema:name "Ambai"@kg ;
+	rdfs:label "Ambai"@lb ;
+	skos:prefLabel "Ambai"@lb ;
+	schema:name "Ambai"@lb ;
+	rdfs:label "Ambai"@li ;
+	skos:prefLabel "Ambai"@li ;
+	schema:name "Ambai"@li ;
+	rdfs:label "Ambai"@lij ;
+	skos:prefLabel "Ambai"@lij ;
+	schema:name "Ambai"@lij ;
+	rdfs:label "Ambai"@map-bms ;
+	skos:prefLabel "Ambai"@map-bms ;
+	schema:name "Ambai"@map-bms ;
+	rdfs:label "Ambai"@mg ;
+	skos:prefLabel "Ambai"@mg ;
+	schema:name "Ambai"@mg ;
+	rdfs:label "Ambai"@min ;
+	skos:prefLabel "Ambai"@min ;
+	schema:name "Ambai"@min ;
+	rdfs:label "Ambai"@ms ;
+	skos:prefLabel "Ambai"@ms ;
+	schema:name "Ambai"@ms ;
+	rdfs:label "Ambai"@nap ;
+	skos:prefLabel "Ambai"@nap ;
+	schema:name "Ambai"@nap ;
+	rdfs:label "Ambai"@nb ;
+	skos:prefLabel "Ambai"@nb ;
+	schema:name "Ambai"@nb ;
+	rdfs:label "Ambai"@nds ;
+	skos:prefLabel "Ambai"@nds ;
+	schema:name "Ambai"@nds ;
+	rdfs:label "Ambai"@nds-nl ;
+	skos:prefLabel "Ambai"@nds-nl ;
+	schema:name "Ambai"@nds-nl ;
+	rdfs:label "Ambai"@nn ;
+	skos:prefLabel "Ambai"@nn ;
+	schema:name "Ambai"@nn ;
+	rdfs:label "Ambai"@nrm ;
+	skos:prefLabel "Ambai"@nrm ;
+	schema:name "Ambai"@nrm ;
+	rdfs:label "Ambai"@oc ;
+	skos:prefLabel "Ambai"@oc ;
+	schema:name "Ambai"@oc ;
+	rdfs:label "Ambai"@pcd ;
+	skos:prefLabel "Ambai"@pcd ;
+	schema:name "Ambai"@pcd ;
+	rdfs:label "język ambai"@pl ;
+	skos:prefLabel "język ambai"@pl ;
+	schema:name "język ambai"@pl ;
+	rdfs:label "Ambai"@pt ;
+	skos:prefLabel "Ambai"@pt ;
+	schema:name "Ambai"@pt ;
+	rdfs:label "Ambai"@pt-br ;
+	skos:prefLabel "Ambai"@pt-br ;
+	schema:name "Ambai"@pt-br ;
+	rdfs:label "Ambai"@rm ;
+	skos:prefLabel "Ambai"@rm ;
+	schema:name "Ambai"@rm ;
+	rdfs:label "Ambai"@ro ;
+	skos:prefLabel "Ambai"@ro ;
+	schema:name "Ambai"@ro ;
+	rdfs:label "Ambai"@sc ;
+	skos:prefLabel "Ambai"@sc ;
+	schema:name "Ambai"@sc ;
+	rdfs:label "Ambai"@scn ;
+	skos:prefLabel "Ambai"@scn ;
+	schema:name "Ambai"@scn ;
+	rdfs:label "Ambai"@sco ;
+	skos:prefLabel "Ambai"@sco ;
+	schema:name "Ambai"@sco ;
+	rdfs:label "Ambai"@sk ;
+	skos:prefLabel "Ambai"@sk ;
+	schema:name "Ambai"@sk ;
+	rdfs:label "Ambai"@sl ;
+	skos:prefLabel "Ambai"@sl ;
+	schema:name "Ambai"@sl ;
+	rdfs:label "Ambai"@sr-el ;
+	skos:prefLabel "Ambai"@sr-el ;
+	schema:name "Ambai"@sr-el ;
+	rdfs:label "Ambai"@su ;
+	skos:prefLabel "Ambai"@su ;
+	schema:name "Ambai"@su ;
+	rdfs:label "Ambai"@sv ;
+	skos:prefLabel "Ambai"@sv ;
+	schema:name "Ambai"@sv ;
+	rdfs:label "Ambai"@vec ;
+	skos:prefLabel "Ambai"@vec ;
+	schema:name "Ambai"@vec ;
+	rdfs:label "Ambai"@vi ;
+	skos:prefLabel "Ambai"@vi ;
+	schema:name "Ambai"@vi ;
+	rdfs:label "Ambai"@vls ;
+	skos:prefLabel "Ambai"@vls ;
+	schema:name "Ambai"@vls ;
+	rdfs:label "Ambai"@vo ;
+	skos:prefLabel "Ambai"@vo ;
+	schema:name "Ambai"@vo ;
+	rdfs:label "Ambai"@wa ;
+	skos:prefLabel "Ambai"@wa ;
+	schema:name "Ambai"@wa ;
+	rdfs:label "Ambai"@wo ;
+	skos:prefLabel "Ambai"@wo ;
+	schema:name "Ambai"@wo ;
+	rdfs:label "Ambai"@zu ;
+	skos:prefLabel "Ambai"@zu ;
+	schema:name "Ambai"@zu ;
+	schema:description "taal"@nl,
+		"Sprache"@de,
+		"pagsasao idiay Baro a Guinea ti Indonesia"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"lengua"@es,
+		"lingua"@it,
+		"Austronesian language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl ;
+	skos:altLabel "Ambai language"@en,
+		"bahasa Ambai"@id,
+		"bahasa Ambai-Menawi"@id .
+
+wd:Q25927390 owl:sameAs wd:Q1875885 .
+
+wd:Q31441756 owl:sameAs wd:Q1875885 .

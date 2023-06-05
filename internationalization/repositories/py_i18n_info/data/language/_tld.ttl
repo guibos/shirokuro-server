@@ -1,0 +1,175 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7678964 a schema:Dataset ;
+	schema:about wd:Q7678964 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960504156"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:14:44Z"^^xsd:dateTime .
+
+wd:Q7678964 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_talaud> a schema:Article ;
+	schema:about wd:Q7678964 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga talaud"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Talaud> a schema:Article ;
+	schema:about wd:Q7678964 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Talaud"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitalaud> a schema:Article ;
+	schema:about wd:Q7678964 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitalaud"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Talaud_language> a schema:Article ;
+	schema:about wd:Q7678964 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Talaud language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Talaud> a schema:Article ;
+	schema:about wd:Q7678964 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Talaud"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Talaud_(Sprache)> a schema:Article ;
+	schema:about wd:Q7678964 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Talaud (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Talaud> a schema:Article ;
+	schema:about wd:Q7678964 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Talaud"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_talaud> a schema:Article ;
+	schema:about wd:Q7678964 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język talaud"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7678964 wdt:P220 "tld" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tld> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "tala1285" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tala1285> ;
+	wdt:P1466 "tld" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_tld> ;
+	wdt:P305 "tld" ;
+	wdt:P1627 "tld" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2341 wd:Q5068,
+		wd:Q3812 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TLD> ;
+	wdt:P2671 "/g/1232c4c1" ;
+	wdtn:P2671 <http://g.co/kg/g/1232c4c1> ;
+	rdfs:label "Talaud"@en ;
+	skos:prefLabel "Talaud"@en ;
+	schema:name "Talaud"@en ;
+	rdfs:label "Lenga talaud"@pms ;
+	skos:prefLabel "Lenga talaud"@pms ;
+	schema:name "Lenga talaud"@pms ;
+	rdfs:label "Talaud"@de ;
+	skos:prefLabel "Talaud"@de ;
+	schema:name "Talaud"@de ;
+	rdfs:label "Kitalaud"@sw ;
+	skos:prefLabel "Kitalaud"@sw ;
+	schema:name "Kitalaud"@sw ;
+	rdfs:label "Bahasa Talaud"@id ;
+	skos:prefLabel "Bahasa Talaud"@id ;
+	schema:name "Bahasa Talaud"@id ;
+	rdfs:label "Talaud"@ilo ;
+	skos:prefLabel "Talaud"@ilo ;
+	schema:name "Talaud"@ilo ;
+	rdfs:label "Talaud"@en-gb ;
+	skos:prefLabel "Talaud"@en-gb ;
+	schema:name "Talaud"@en-gb ;
+	rdfs:label "Wikang Talaud"@tl ;
+	skos:prefLabel "Wikang Talaud"@tl ;
+	schema:name "Wikang Talaud"@tl ;
+	rdfs:label "Tataramon na Talaud"@bcl ;
+	skos:prefLabel "Tataramon na Talaud"@bcl ;
+	schema:name "Tataramon na Talaud"@bcl ;
+	rdfs:label "język talaud"@pl ;
+	skos:prefLabel "język talaud"@pl ;
+	schema:name "język talaud"@pl ;
+	rdfs:label "Igitalaudi"@rw ;
+	skos:prefLabel "Igitalaudi"@rw ;
+	schema:name "Igitalaudi"@rw ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay amianan a Sulawesi, Indonesia"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl,
+		"bagian dari rumpun bahasa Austronesia"@id ;
+	skos:altLabel "Talaud language"@en,
+		"język talaur"@pl,
+		"język talaut"@pl,
+		"język talodda"@pl .
+
+wd:Q19724117 owl:sameAs wd:Q7678964 .
+
+wd:Q31441652 owl:sameAs wd:Q7678964 .

@@ -1,0 +1,145 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56802 a schema:Dataset ;
+	schema:about wd:Q56802 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1926278205"^^xsd:integer ;
+	schema:dateModified "2023-06-30T06:36:15Z"^^xsd:dateTime .
+
+wd:Q56802 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Kaansa> a schema:Article ;
+	schema:about wd:Q56802 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kaansa"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kaansa> a schema:Article ;
+	schema:about wd:Q56802 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kaansa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikaansa> a schema:Article ;
+	schema:about wd:Q56802 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikaansa"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kaansa_language> a schema:Article ;
+	schema:about wd:Q56802 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kaansa language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Ganeg> a schema:Article ;
+	schema:about wd:Q56802 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Ganeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Kaansa> a schema:Article ;
+	schema:about wd:Q56802 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Kaansa"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56802 wdt:P220 "gna" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gna> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kaan1246" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kaan1246> ;
+	wdt:P305 "gna" ;
+	wdt:P1627 "gna" ;
+	wdt:P17 wd:Q965 ;
+	wdt:P2341 wd:Q850043,
+		wd:Q850088,
+		wd:Q429149,
+		wd:Q676641,
+		wd:Q953657 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GNA> ;
+	wdt:P646 "/m/02hxjk3" ;
+	rdfs:label "Kikaansa"@sw ;
+	skos:prefLabel "Kikaansa"@sw ;
+	schema:name "Kikaansa"@sw ;
+	rdfs:label "Lenga Kaansa"@pms ;
+	skos:prefLabel "Lenga Kaansa"@pms ;
+	schema:name "Lenga Kaansa"@pms ;
+	rdfs:label "ganeg"@br ;
+	skos:prefLabel "ganeg"@br ;
+	schema:name "ganeg"@br ;
+	rdfs:label "Kaansa"@en ;
+	skos:prefLabel "Kaansa"@en ;
+	schema:name "Kaansa"@en ;
+	rdfs:label "Kaansa"@fi ;
+	skos:prefLabel "Kaansa"@fi ;
+	schema:name "Kaansa"@fi ;
+	rdfs:label "kaansa"@fr ;
+	skos:prefLabel "kaansa"@fr ;
+	schema:name "kaansa"@fr ;
+	rdfs:label "Kaansa"@en-gb ;
+	skos:prefLabel "Kaansa"@en-gb ;
+	schema:name "Kaansa"@en-gb ;
+	rdfs:label "zimanê kaansa"@ku-latn ;
+	skos:prefLabel "zimanê kaansa"@ku-latn ;
+	schema:name "zimanê kaansa"@ku-latn ;
+	rdfs:label "zimanê kaansa"@ku ;
+	skos:prefLabel "zimanê kaansa"@ku ;
+	schema:name "zimanê kaansa"@ku ;
+	schema:description "Sprache"@de,
+		"Gur language of Burkina Faso"@en,
+		"שפה"@he,
+		"yezh c'hourek"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kaansaeg"@br,
+		"Kaansa language"@en .
+
+wd:Q5408477 owl:sameAs wd:Q56802 .

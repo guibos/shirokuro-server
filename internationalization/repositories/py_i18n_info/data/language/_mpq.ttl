@@ -1,0 +1,130 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3299145 a schema:Dataset ;
+	schema:about wd:Q3299145 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1602471424"^^xsd:integer ;
+	schema:dateModified "2022-03-25T15:30:09Z"^^xsd:dateTime .
+
+wd:Q3299145 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Matis_(langue)> a schema:Article ;
+	schema:about wd:Q3299145 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Matis (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_mat%C3%ACs> a schema:Article ;
+	schema:about wd:Q3299145 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga matìs"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Matis_language> a schema:Article ;
+	schema:about wd:Q3299145 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Matis language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_matis> a schema:Article ;
+	schema:about wd:Q3299145 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua matis"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Llengua_matis> a schema:Article ;
+	schema:about wd:Q3299145 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Llengua matis"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3299145 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "mpq" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mpq> ;
+	wdt:P305 "mpq" ;
+	wdt:P279 wd:Q1544537 ;
+	wdt:P1394 "mati1255" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mati1255> ;
+	wdt:P2355 "1810" ;
+	wdt:P1466 "mts" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_mts> ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P2192 "1731" ;
+	wdt:P1627 "mpq" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q155 ;
+	wdt:P2341 wd:Q40040 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MPQ> ;
+	wdt:P646 "/m/02hwmyj" ;
+	wdt:P910 wd:Q105714685 ;
+	wdt:P1098 "+320"^^xsd:decimal ;
+	rdfs:label "matís"@fr ;
+	skos:prefLabel "matís"@fr ;
+	schema:name "matís"@fr ;
+	rdfs:label "Língua matis"@pt ;
+	skos:prefLabel "Língua matis"@pt ;
+	schema:name "Língua matis"@pt ;
+	rdfs:label "Lenga matìs"@pms ;
+	skos:prefLabel "Lenga matìs"@pms ;
+	schema:name "Lenga matìs"@pms ;
+	rdfs:label "Matis"@en ;
+	skos:prefLabel "Matis"@en ;
+	schema:name "Matis"@en ;
+	rdfs:label "Llengua matis"@ca ;
+	skos:prefLabel "Llengua matis"@ca ;
+	schema:name "Llengua matis"@ca ;
+	schema:description "שפה"@he,
+		"langue panoane"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "matis"@fr,
+		"Matis language"@en .
+
+wd:Q16888014 owl:sameAs wd:Q3299145 .

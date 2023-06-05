@@ -1,0 +1,130 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36110 a schema:Dataset ;
+	schema:about wd:Q36110 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1364633988"^^xsd:integer ;
+	schema:dateModified "2021-02-18T23:02:11Z"^^xsd:dateTime .
+
+wd:Q36110 a wikibase:Item .
+
+<https://ast.wikipedia.org/wiki/Idioma_marrucino> a schema:Article ;
+	schema:about wd:Q36110 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma marrucino"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Marrukinische_Sprache> a schema:Article ;
+	schema:about wd:Q36110 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Marrukinische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_marrucino> a schema:Article ;
+	schema:about wd:Q36110 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma marrucino"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Marrucinski_jezik> a schema:Article ;
+	schema:about wd:Q36110 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Marrucinski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_marrucina> a schema:Article ;
+	schema:about wd:Q36110 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua marrucina"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36110 wdt:P31 wd:Q45762,
+		wd:Q436240 ;
+	wdt:P220 "umc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/umc> ;
+	wdt:P279 wd:Q515194 ;
+	a wdno:P1394 ;
+	wdt:P305 "umc" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/UMC> ;
+	wdt:P910 wd:Q30924855 ;
+	wdt:P2671 "/g/121g0xr0" ;
+	wdtn:P2671 <http://g.co/kg/g/121g0xr0> ;
+	rdfs:label "Marrukinisch"@de ;
+	skos:prefLabel "Marrukinisch"@de ;
+	schema:name "Marrukinisch"@de ;
+	rdfs:label "marrucino"@es ;
+	skos:prefLabel "marrucino"@es ;
+	schema:name "marrucino"@es ;
+	rdfs:label "marrucino"@it ;
+	skos:prefLabel "marrucino"@it ;
+	schema:name "marrucino"@it ;
+	rdfs:label "Marrucinian"@en ;
+	skos:prefLabel "Marrucinian"@en ;
+	schema:name "Marrucinian"@en ;
+	rdfs:label "marrucin"@fr ;
+	skos:prefLabel "marrucin"@fr ;
+	schema:name "marrucin"@fr ;
+	rdfs:label "Marrucinian"@nl ;
+	skos:prefLabel "Marrucinian"@nl ;
+	schema:name "Marrucinian"@nl ;
+	rdfs:label "Marrucinski jezik"@hr ;
+	skos:prefLabel "Marrucinski jezik"@hr ;
+	schema:name "Marrucinski jezik"@hr ;
+	rdfs:label "Marrucinian"@en-gb ;
+	skos:prefLabel "Marrucinian"@en-gb ;
+	schema:name "Marrucinian"@en-gb ;
+	rdfs:label "Idioma marrucino"@ast ;
+	skos:prefLabel "Idioma marrucino"@ast ;
+	schema:name "Idioma marrucino"@ast ;
+	schema:description "Sprache"@de,
+		"ancient Italian language"@en,
+		"dialecto del osco hablada en el área habitada por el antiguo pueblo itálico de los marrucinos en I milenio a. C."@es,
+		"varietà dialettale della lingua osca"@it,
+		"שפה"@he,
+		"ancienne langue sabellique"@fr ;
+	skos:altLabel "Marrukinische Sprache"@de,
+		"Dialetto marrucino"@it,
+		"lingua marrucina"@it,
+		"Idioma marrucino"@es .
+
+wd:Q16113199 owl:sameAs wd:Q36110 .

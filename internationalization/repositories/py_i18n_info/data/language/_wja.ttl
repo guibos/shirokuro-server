@@ -1,0 +1,149 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3914415 a schema:Dataset ;
+	schema:about wd:Q3914415 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961414256"^^xsd:integer ;
+	schema:dateModified "2023-08-26T02:20:25Z"^^xsd:dateTime .
+
+wd:Q3914415 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Waja> a schema:Article ;
+	schema:about wd:Q3914415 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Waja"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%92%D0%B0%D0%B4%D0%B6%D0%B0_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q3914415 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Ваджа (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiwaja> a schema:Article ;
+	schema:about wd:Q3914415 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiwaja"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Waja_language> a schema:Article ;
+	schema:about wd:Q3914415 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Waja language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_waja> a schema:Article ;
+	schema:about wd:Q3914415 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua waja"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ha.wikipedia.org/wiki/Harshen_Waja> a schema:Article ;
+	schema:about wd:Q3914415 ;
+	schema:inLanguage "ha" ;
+	schema:isPartOf <https://ha.wikipedia.org/> ;
+	schema:name "Harshen Waja"@ha .
+
+<https://ha.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3914415 wdt:P220 "wja" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/wja> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "waja1259" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/waja1259> ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P131 wd:Q337514,
+		wd:Q4374738,
+		wd:Q3510455,
+		wd:Q3510505,
+		wd:Q6837873,
+		wd:Q5623719,
+		wd:Q4850825 ;
+	wdt:P1098 "+60000"^^xsd:decimal ;
+	wdt:P305 "wja" ;
+	wdt:P1627 "wja" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q337514,
+		wd:Q130626,
+		wd:Q509300,
+		wd:Q376241,
+		wd:Q463959 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/WJA> ;
+	wdt:P646 "/m/02hwtpk" ;
+	rdfs:label "Kiwaja"@sw ;
+	skos:prefLabel "Kiwaja"@sw ;
+	schema:name "Kiwaja"@sw ;
+	rdfs:label "Lenga Waja"@pms ;
+	skos:prefLabel "Lenga Waja"@pms ;
+	schema:name "Lenga Waja"@pms ;
+	rdfs:label "Waja"@en ;
+	skos:prefLabel "Waja"@en ;
+	schema:name "Waja"@en ;
+	rdfs:label "Língua waja"@pt ;
+	skos:prefLabel "Língua waja"@pt ;
+	schema:name "Língua waja"@pt ;
+	rdfs:label "Ваджа"@ru ;
+	skos:prefLabel "Ваджа"@ru ;
+	schema:name "Ваджа"@ru ;
+	rdfs:label "Waja"@en-gb ;
+	skos:prefLabel "Waja"@en-gb ;
+	schema:name "Waja"@en-gb ;
+	rdfs:label "Wikang Waja"@tl ;
+	skos:prefLabel "Wikang Waja"@tl ;
+	schema:name "Wikang Waja"@tl ;
+	rdfs:label "Harshen Waja"@ha ;
+	skos:prefLabel "Harshen Waja"@ha ;
+	schema:name "Harshen Waja"@ha ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"language"@en,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Waja language"@en .

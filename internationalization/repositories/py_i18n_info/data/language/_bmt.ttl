@@ -1,0 +1,144 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q8842159 a schema:Dataset ;
+	schema:about wd:Q8842159 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1727761614"^^xsd:integer ;
+	schema:dateModified "2022-09-13T10:22:33Z"^^xsd:dateTime .
+
+wd:Q8842159 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_biao_mon> a schema:Article ;
+	schema:about wd:Q8842159 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga biao mon"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibiao-Mon> a schema:Article ;
+	schema:about wd:Q8842159 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibiao-Mon"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Biao_Mon_jezik> a schema:Article ;
+	schema:about wd:Q8842159 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Biao Mon jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Biao_Mon_language> a schema:Article ;
+	schema:about wd:Q8842159 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Biao Mon language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_mien_de_Changping> a schema:Article ;
+	schema:about wd:Q8842159 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua mien de Changping"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%A0%87%E6%9B%BC%E8%AF%9D> a schema:Article ;
+	schema:about wd:Q8842159 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "标曼话"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q8842159 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "bmt" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bmt> ;
+	wdt:P1394 "biao1256" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/biao1256> ;
+	wdt:P305 "bmt" ;
+	wdt:P1627 "bmt" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q15176 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BMT> ;
+	wdt:P646 "/m/02hxttc" ;
+	wdt:P910 wd:Q105714604 ;
+	wdt:P4839 "Entity[\"Language\", \"BiaoMon::4x9kc\"]",
+		"Entity[\"Language\", \"BiaoMon\"]" ;
+	wdt:P279 wd:Q7992695 ;
+	rdfs:label "Biao Mon jezik"@hr ;
+	skos:prefLabel "Biao Mon jezik"@hr ;
+	schema:name "Biao Mon jezik"@hr ;
+	rdfs:label "Lenga biao mon"@pms ;
+	skos:prefLabel "Lenga biao mon"@pms ;
+	schema:name "Lenga biao mon"@pms ;
+	rdfs:label "Biao Mon"@en ;
+	skos:prefLabel "Biao Mon"@en ;
+	schema:name "Biao Mon"@en ;
+	rdfs:label "Kibiao-Mon"@sw ;
+	skos:prefLabel "Kibiao-Mon"@sw ;
+	schema:name "Kibiao-Mon"@sw ;
+	rdfs:label "Biao Mon"@en-gb ;
+	skos:prefLabel "Biao Mon"@en-gb ;
+	schema:name "Biao Mon"@en-gb ;
+	rdfs:label "Lingua mien de Changping"@gl ;
+	skos:prefLabel "Lingua mien de Changping"@gl ;
+	schema:name "Lingua mien de Changping"@gl ;
+	rdfs:label "标曼话"@zh ;
+	skos:prefLabel "标曼话"@zh ;
+	schema:name "标曼话"@zh ;
+	rdfs:label "mien de Changping"@ca ;
+	skos:prefLabel "mien de Changping"@ca ;
+	schema:name "mien de Changping"@ca ;
+	schema:description "Hmong-Mien language spoken in China"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Biao Mon language"@en,
+		"Changping Mien"@en,
+		"biao mon"@ca .
+
+wd:Q60786967 owl:sameAs wd:Q8842159 .

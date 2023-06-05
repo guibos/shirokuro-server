@@ -1,0 +1,131 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q15407179 a schema:Dataset ;
+	schema:about wd:Q15407179 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961147098"^^xsd:integer ;
+	schema:dateModified "2023-08-25T19:07:38Z"^^xsd:dateTime .
+
+wd:Q15407179 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Tharaka_(langue)> a schema:Article ;
+	schema:about wd:Q15407179 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Tharaka (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Tharaka> a schema:Article ;
+	schema:about wd:Q15407179 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Tharaka"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitharaka> a schema:Article ;
+	schema:about wd:Q15407179 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitharaka"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Tharaka> a schema:Article ;
+	schema:about wd:Q15407179 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Tharaka"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q15407179 wdt:P269 "077458419" ;
+	wdtn:P269 <http://www.idref.fr/077458419/id> ;
+	wdt:P279 wd:Q16114410 ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "thk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/thk> ;
+	wdt:P1394 "thar1283" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/thar1283> ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P1098 "+176000"^^xsd:decimal ;
+	wdt:P305 "thk" ;
+	wdt:P1627 "thk" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q114 ;
+	wdt:P2341 wd:Q1335242,
+		wd:Q15045704,
+		wd:Q2189432 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/THK> ;
+	wdt:P2671 "/g/12qbgn98b" ;
+	wdtn:P2671 <http://g.co/kg/g/12qbgn98b> ;
+	wdt:P1889 wd:Q106412842 ;
+	wdt:P268 "14546236d" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb14546236d#about> ;
+	rdfs:label "tharaka"@fr ;
+	skos:prefLabel "tharaka"@fr ;
+	schema:name "tharaka"@fr ;
+	rdfs:label "Kitharaka"@sw ;
+	skos:prefLabel "Kitharaka"@sw ;
+	schema:name "Kitharaka"@sw ;
+	rdfs:label "Lenga Tharaka"@pms ;
+	skos:prefLabel "Lenga Tharaka"@pms ;
+	schema:name "Lenga Tharaka"@pms ;
+	rdfs:label "Tharaka"@en ;
+	skos:prefLabel "Tharaka"@en ;
+	schema:name "Tharaka"@en ;
+	rdfs:label "Tharaka"@en-gb ;
+	skos:prefLabel "Tharaka"@en-gb ;
+	schema:name "Tharaka"@en-gb ;
+	rdfs:label "Tharaka"@oc ;
+	skos:prefLabel "Tharaka"@oc ;
+	schema:name "Tharaka"@oc ;
+	schema:description "langue bantoue parlée au Kenya"@fr,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "kitharaka"@fr,
+		"kîtharaka"@fr,
+		"Tharaka language"@en .
+
+wd:Q15632388 owl:sameAs wd:Q15407179 .
+
+wd:Q85951486 owl:sameAs wd:Q15407179 .

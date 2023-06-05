@@ -1,0 +1,170 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6442714 a schema:Dataset ;
+	schema:about wd:Q6442714 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960504551"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:15:05Z"^^xsd:dateTime .
+
+wd:Q6442714 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kula> a schema:Article ;
+	schema:about wd:Q6442714 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kula"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Kula> a schema:Article ;
+	schema:about wd:Q6442714 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Kula"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikula> a schema:Article ;
+	schema:about wd:Q6442714 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikula"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kula_language> a schema:Article ;
+	schema:about wd:Q6442714 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kula language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Kula> a schema:Article ;
+	schema:about wd:Q6442714 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Kula"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_kula> a schema:Article ;
+	schema:about wd:Q6442714 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język kula"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6442714 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "tpg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tpg> ;
+	wdt:P1394 "kula1280" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kula1280> ;
+	wdt:P2590 "0151 4" ;
+	wdt:P279 wd:Q7682997 ;
+	wdt:P1705 "bahasa Kula"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2581 "02578443n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s02578443n> ;
+	wdt:P2192 "8330" ;
+	wdt:P305 "tpg" ;
+	wdt:P1627 "tpg" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q5061,
+		wd:Q3803 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TPG> ;
+	wdt:P646 "/m/02hxjzh" ;
+	wdt:P1889 wd:Q1572650 ;
+	rdfs:label "Kula"@en ;
+	skos:prefLabel "Kula"@en ;
+	schema:name "Kula"@en ;
+	rdfs:label "Lenga Kula"@pms ;
+	skos:prefLabel "Lenga Kula"@pms ;
+	schema:name "Lenga Kula"@pms ;
+	rdfs:label "Kikula"@sw ;
+	skos:prefLabel "Kikula"@sw ;
+	schema:name "Kikula"@sw ;
+	rdfs:label "Kula"@id ;
+	skos:prefLabel "Kula"@id ;
+	schema:name "Kula"@id ;
+	rdfs:label "Kula"@ilo ;
+	skos:prefLabel "Kula"@ilo ;
+	schema:name "Kula"@ilo ;
+	rdfs:label "Kula"@en-gb ;
+	skos:prefLabel "Kula"@en-gb ;
+	schema:name "Kula"@en-gb ;
+	rdfs:label "kula"@fr ;
+	skos:prefLabel "kula"@fr ;
+	schema:name "kula"@fr ;
+	rdfs:label "Język kula"@pl ;
+	skos:prefLabel "Język kula"@pl ;
+	schema:name "Język kula"@pl ;
+	rdfs:label "Kula"@de ;
+	skos:prefLabel "Kula"@de ;
+	schema:name "Kula"@de ;
+	rdfs:label "Kula"@de-at ;
+	skos:prefLabel "Kula"@de-at ;
+	schema:name "Kula"@de-at ;
+	rdfs:label "Kula"@de-ch ;
+	skos:prefLabel "Kula"@de-ch ;
+	schema:name "Kula"@de-ch ;
+	rdfs:label "Kula"@en-ca ;
+	skos:prefLabel "Kula"@en-ca ;
+	schema:name "Kula"@en-ca ;
+	schema:description "Papua-Sprache auf der indonesischen Insel Alor"@de,
+		"bagian dari rumpun bahasa Papua"@id,
+		"language spoken in Indonesia"@en,
+		"שפה"@he,
+		"pagsasao idiay Indonesia"@ilo,
+		"langue timor-alor-pantar parlée en Indonésie"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"język transnowogwinejski"@pl,
+		"Papua-Sprache auf der indonesischen Insel Alor"@de-at,
+		"Papua-Sprache auf der indonesischen Insel Alor"@de-ch ;
+	skos:altLabel "Lantoka"@en,
+		"Lamtoka"@en,
+		"Tanglapui"@en,
+		"Kula language"@en,
+		"bahasa Kula"@id,
+		"bahasa Tanglapui"@id,
+		"bahasa Lamtoka"@id,
+		"bahasa Lantoka"@id .
+
+wd:Q12473414 owl:sameAs wd:Q6442714 .

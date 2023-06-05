@@ -1,0 +1,106 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953443 a schema:Dataset ;
+	schema:about wd:Q12953443 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1885003780"^^xsd:integer ;
+	schema:dateModified "2023-04-29T15:26:25Z"^^xsd:dateTime .
+
+wd:Q12953443 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_chinantec,_tepinapa> a schema:Article ;
+	schema:about wd:Q12953443 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga chinantec, tepinapa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Tchinantekeg_Tepinapa> a schema:Article ;
+	schema:about wd:Q12953443 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Tchinantekeg Tepinapa"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Chinant%C3%A8que_de_Tepinapa> a schema:Article ;
+	schema:about wd:Q12953443 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Chinantèque de Tepinapa"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953443 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "cte" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cte> ;
+	wdt:P279 wd:Q6480183 ;
+	wdt:P1394 "tepi1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tepi1241> ;
+	wdt:P2192 "3465" ;
+	wdt:P305 "cte" ;
+	wdt:P1627 "cte" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q96 ;
+	wdt:P2341 wd:Q34110 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CTE> ;
+	rdfs:label "Lenga chinantec, tepinapa"@pms ;
+	skos:prefLabel "Lenga chinantec, tepinapa"@pms ;
+	schema:name "Lenga chinantec, tepinapa"@pms ;
+	rdfs:label "tchinantekeg Tepinapa"@br ;
+	skos:prefLabel "tchinantekeg Tepinapa"@br ;
+	schema:name "tchinantekeg Tepinapa"@br ;
+	rdfs:label "chinanteca de Tepinapa"@es ;
+	skos:prefLabel "chinanteca de Tepinapa"@es ;
+	schema:name "chinanteca de Tepinapa"@es ;
+	rdfs:label "Tepinapa Chinantec"@en ;
+	skos:prefLabel "Tepinapa Chinantec"@en ;
+	schema:name "Tepinapa Chinantec"@en ;
+	rdfs:label "Tepinapa Chinantec"@en-gb ;
+	skos:prefLabel "Tepinapa Chinantec"@en-gb ;
+	schema:name "Tepinapa Chinantec"@en-gb ;
+	rdfs:label "chinantèque de Tepinapa"@fr ;
+	skos:prefLabel "chinantèque de Tepinapa"@fr ;
+	schema:name "chinantèque de Tepinapa"@fr ;
+	schema:description "lengua indígena del norte de Oaxaca (México)"@es,
+		"taal"@nl,
+		"שפה"@he,
+		"langue chinantèque"@fr,
+		"yezh"@br,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la .

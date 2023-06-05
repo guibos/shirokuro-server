@@ -1,0 +1,97 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q48304520 a schema:Dataset ;
+	schema:about wd:Q48304520 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1807045453"^^xsd:integer ;
+	schema:dateModified "2023-01-08T23:53:33Z"^^xsd:dateTime .
+
+wd:Q48304520 a wikibase:Item .
+
+<https://ru.wikipedia.org/wiki/%D0%94%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D0%BA%D0%BE%D1%80%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q48304520 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Древнекорнский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Altkornische_Sprache> a schema:Article ;
+	schema:about wd:Q48304520 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Altkornische Sprache"@de ;
+	wikibase:badge wd:Q70894304 .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q48304520 wdt:P31 wd:Q45762,
+		wd:Q2315359 ;
+	wdt:P910 wd:Q32147898 ;
+	wdt:P1232 "oco" ;
+	wdt:P156 wd:Q12642603 ;
+	wdt:P220 "oco" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/oco> ;
+	wdt:P131 wd:Q48026 ;
+	wdt:P1098 "+0"^^xsd:decimal ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P17 wd:Q145 ;
+	wdt:P305 "oco" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/OCO> ;
+	wdt:P2671 "/g/11gwlbh44l" ;
+	wdtn:P2671 <http://g.co/kg/g/11gwlbh44l> ;
+	wdt:P1394 "oldc1252" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/oldc1252> ;
+	wdt:P279 wd:Q25293 ;
+	rdfs:label "vieux cornique"@fr ;
+	skos:prefLabel "vieux cornique"@fr ;
+	schema:name "vieux cornique"@fr ;
+	rdfs:label "Old Cornish"@en ;
+	skos:prefLabel "Old Cornish"@en ;
+	schema:name "Old Cornish"@en ;
+	rdfs:label "Древнекорнский язык"@ru ;
+	skos:prefLabel "Древнекорнский язык"@ru ;
+	schema:name "Древнекорнский язык"@ru ;
+	rdfs:label "córnico antiguo"@es ;
+	skos:prefLabel "córnico antiguo"@es ;
+	schema:name "córnico antiguo"@es ;
+	rdfs:label "Altkornisch"@de ;
+	skos:prefLabel "Altkornisch"@de ;
+	schema:name "Altkornisch"@de ;
+	schema:description "ancienne forme du cornique"@fr,
+		"dead language"@en,
+		"вымерший кельтский язык"@ru ;
+	skos:altLabel "ancien cornique"@fr,
+		"Древнекорнский"@ru,
+		"antiguo córnico"@es,
+		"altkornische Sprache"@de .

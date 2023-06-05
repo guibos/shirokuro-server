@@ -1,0 +1,331 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q34834 a schema:Dataset ;
+	schema:about wd:Q34834 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1922200395"^^xsd:integer ;
+	schema:dateModified "2023-06-23T16:21:31Z"^^xsd:dateTime .
+
+wd:Q34834 a wikibase:Item .
+
+<https://sv.wikipedia.org/wiki/Forngeorgiska> a schema:Article ;
+	schema:about wd:Q34834 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Forngeorgiska"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%94%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D0%B3%D1%80%D1%83%D0%B7%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q34834 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Древнегрузинский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Old_Georgian> a schema:Article ;
+	schema:about wd:Q34834 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Old Georgian"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Altgeorgische_Sprache> a schema:Article ;
+	schema:about wd:Q34834 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Altgeorgische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Q%C9%99dim_g%C3%BCrc%C3%BC_dili> a schema:Article ;
+	schema:about wd:Q34834 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Qədim gürcü dili"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Eski_G%C3%BCrc%C3%BCce> a schema:Article ;
+	schema:about wd:Q34834 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Eski Gürcüce"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%94%D0%B0%D0%B2%D0%BD%D1%8C%D0%BE%D0%B3%D1%80%D1%83%D0%B7%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q34834 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Давньогрузинська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%80%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D1%96%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q34834 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Старагрузінская мова"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E5%8F%A4%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%B8%E3%82%A2%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q34834 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "古ジョージア語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Starogruzijski_jezik> a schema:Article ;
+	schema:about wd:Q34834 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Starogruzijski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Starogruzijski_jezik> a schema:Article ;
+	schema:about wd:Q34834 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Starogruzijski jezik"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%80%D0%B0%D0%B6%D1%8B%D1%82%D0%BD%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D1%96%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q34834 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Старажытнагрузінская мова"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Vieux_g%C3%A9orgien> a schema:Article ;
+	schema:about wd:Q34834 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Vieux géorgien"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://av.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BA%D3%80%D1%81%D0%B8%D1%8F%D0%B1_%D0%B3%D1%83%D1%80%D0%B6%D0%B8_%D0%BC%D0%B0%D1%86%D3%80> a schema:Article ;
+	schema:about wd:Q34834 ;
+	schema:inLanguage "av" ;
+	schema:isPartOf <https://av.wikipedia.org/> ;
+	schema:name "НекӀсияб гуржи мацӀ"@av .
+
+<https://av.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Georgia_Kuno> a schema:Article ;
+	schema:about wd:Q34834 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Georgia Kuno"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%8F%A4%E6%A0%BC%E9%B2%81%E5%90%89%E4%BA%9A%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q34834 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "古格鲁吉亚语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%AB%E1%83%95%E1%83%94%E1%83%9A%E1%83%98_%E1%83%A5%E1%83%90%E1%83%A0%E1%83%97%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%94%E1%83%9C%E1%83%90> a schema:Article ;
+	schema:about wd:Q34834 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "ძველი ქართული ენა"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_georgiana_antica> a schema:Article ;
+	schema:about wd:Q34834 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua georgiana antica"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q34834 wdt:P220 "oge" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/oge> ;
+	wdt:P31 wd:Q839470,
+		wd:Q2315359,
+		wd:Q38058796 ;
+	wdt:P646 "/m/0522jc2" ;
+	wdt:P1394 "oldg1234" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/oldg1234> ;
+	wdt:P282 wd:Q1090055,
+		wd:Q161428 ;
+	wdt:P910 wd:Q30480622 ;
+	wdt:P156 wd:Q8108 ;
+	wdt:P305 "oge" ;
+	wdt:P17 wd:Q183150,
+		wd:Q19083,
+		wd:Q154816,
+		wd:Q1655814,
+		wd:Q154667,
+		wd:Q24089696,
+		wd:Q199389,
+		wd:Q325493 ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Inscription%20%E2%80%94%20Jerusalem%20II%20Old%20Georgian.jpg> ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/OGE> ;
+	wdt:P279 wd:Q34030 ;
+	rdfs:label "Altgeorgisch"@de ;
+	skos:prefLabel "Altgeorgisch"@de ;
+	schema:name "Altgeorgisch"@de ;
+	rdfs:label "ძველი ქართული ენა"@ka ;
+	skos:prefLabel "ძველი ქართული ენა"@ka ;
+	schema:name "ძველი ქართული ენა"@ka ;
+	rdfs:label "Old Georgian"@en ;
+	skos:prefLabel "Old Georgian"@en ;
+	schema:name "Old Georgian"@en ;
+	rdfs:label "Gammalgeorgiska"@sv ;
+	skos:prefLabel "Gammalgeorgiska"@sv ;
+	schema:name "Gammalgeorgiska"@sv ;
+	rdfs:label "aut georgian"@ca ;
+	skos:prefLabel "aut georgian"@ca ;
+	schema:name "aut georgian"@ca ;
+	rdfs:label "aut georgian"@oc ;
+	skos:prefLabel "aut georgian"@oc ;
+	schema:name "aut georgian"@oc ;
+	rdfs:label "Eski Gürcüce"@tr ;
+	skos:prefLabel "Eski Gürcüce"@tr ;
+	schema:name "Eski Gürcüce"@tr ;
+	rdfs:label "Old Georgian"@en-gb ;
+	skos:prefLabel "Old Georgian"@en-gb ;
+	schema:name "Old Georgian"@en-gb ;
+	rdfs:label "georgiano antiguo"@es ;
+	skos:prefLabel "georgiano antiguo"@es ;
+	schema:name "georgiano antiguo"@es ;
+	rdfs:label "古喬治亞語"@zh ;
+	skos:prefLabel "古喬治亞語"@zh ;
+	schema:name "古喬治亞語"@zh ;
+	rdfs:label "antikva kartvela lingvo"@eo ;
+	skos:prefLabel "antikva kartvela lingvo"@eo ;
+	schema:name "antikva kartvela lingvo"@eo ;
+	rdfs:label "古ジョージア語"@ja ;
+	skos:prefLabel "古ジョージア語"@ja ;
+	schema:name "古ジョージア語"@ja ;
+	rdfs:label "starogruzínština"@cs ;
+	skos:prefLabel "starogruzínština"@cs ;
+	schema:name "starogruzínština"@cs ;
+	rdfs:label "antzinako georgiera"@eu ;
+	skos:prefLabel "antzinako georgiera"@eu ;
+	schema:name "antzinako georgiera"@eu ;
+	rdfs:label "древнегрузинский язык"@ru ;
+	skos:prefLabel "древнегрузинский язык"@ru ;
+	schema:name "древнегрузинский язык"@ru ;
+	rdfs:label "Qədim gürcü dili"@az ;
+	skos:prefLabel "Qədim gürcü dili"@az ;
+	schema:name "Qədim gürcü dili"@az ;
+	rdfs:label "борынгы гөрҗи теле"@tt ;
+	skos:prefLabel "борынгы гөрҗи теле"@tt ;
+	schema:name "борынгы гөрҗи теле"@tt ;
+	rdfs:label "борынгы гөрҗи теле"@tt-cyrl ;
+	skos:prefLabel "борынгы гөрҗи теле"@tt-cyrl ;
+	schema:name "борынгы гөрҗи теле"@tt-cyrl ;
+	rdfs:label "Давньогрузинська мова"@uk ;
+	skos:prefLabel "Давньогрузинська мова"@uk ;
+	schema:name "Давньогрузинська мова"@uk ;
+	rdfs:label "старагрузінская мова"@be-tarask ;
+	skos:prefLabel "старагрузінская мова"@be-tarask ;
+	schema:name "старагрузінская мова"@be-tarask ;
+	rdfs:label "vieux géorgien"@fr ;
+	skos:prefLabel "vieux géorgien"@fr ;
+	schema:name "vieux géorgien"@fr ;
+	rdfs:label "Starogruzijski jezik"@hr ;
+	skos:prefLabel "Starogruzijski jezik"@hr ;
+	schema:name "Starogruzijski jezik"@hr ;
+	rdfs:label "Starogruzijski jezik"@sh ;
+	skos:prefLabel "Starogruzijski jezik"@sh ;
+	schema:name "Starogruzijski jezik"@sh ;
+	rdfs:label "Старажытнагрузінская мова"@be ;
+	skos:prefLabel "Старажытнагрузінская мова"@be ;
+	schema:name "Старажытнагрузінская мова"@be ;
+	rdfs:label "Bahasa Georgia Kuno"@id ;
+	skos:prefLabel "Bahasa Georgia Kuno"@id ;
+	schema:name "Bahasa Georgia Kuno"@id ;
+	rdfs:label "НекӀсияб гуржи мацӀ"@av ;
+	skos:prefLabel "НекӀсияб гуржи мацӀ"@av ;
+	schema:name "НекӀсияб гуржи мацӀ"@av ;
+	rdfs:label "Старогрузијски језик"@sr ;
+	skos:prefLabel "Старогрузијски језик"@sr ;
+	schema:name "Старогрузијски језик"@sr ;
+	rdfs:label "ógrúz"@hu ;
+	skos:prefLabel "ógrúz"@hu ;
+	schema:name "ógrúz"@hu ;
+	rdfs:label "georgiano antico"@it ;
+	skos:prefLabel "georgiano antico"@it ;
+	schema:name "georgiano antico"@it ;
+	rdfs:label "stara gruzinščina"@sl ;
+	skos:prefLabel "stara gruzinščina"@sl ;
+	schema:name "stara gruzinščina"@sl ;
+	schema:description "Georgische Sprache des 4. bis 5. Jahrhunderts"@de,
+		"literary language of Georgian monarchies in the 5th century"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue morte utilisée par les Géorgiens au Ve siècle"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"средневековый литературный язык Грузии"@ru,
+		"5世紀頃のジョージアで使われた書記言語"@ja,
+		"сярэднявечная літаратурная мова грузінскіх манархіяў"@be-tarask,
+		"НекӀсияб гуржи мацӀ — Гуржистаналъул V гӀасруялда баккараб адабияталъулаб мацӀ"@av,
+		"nyelv"@hu,
+		"bagian dari rumpun bahasa Kartvelia"@id ;
+	skos:altLabel "altgeorgische Sprache"@de,
+		"Old Georgian language"@en,
+		"enay kartuli"@en,
+		"ႤႬႠჂ ႵႠႰႧႳႪႨ"@en,
+		"oge"@en,
+		"古グルジア語"@ja,
+		"antiguo georgiano"@es,
+		"古格鲁吉亚语"@zh,
+		"ancien géorgien"@fr,
+		"géorgien ancien"@fr,
+		"Стари Грузијски језик"@sr,
+		"lingua georgiana antica"@it,
+		"старогрузинский язык"@ru,
+		"stara gruzijščina"@sl,
+		"stari gruzinski jezik"@sl,
+		"stari gruzijski jezik"@sl .

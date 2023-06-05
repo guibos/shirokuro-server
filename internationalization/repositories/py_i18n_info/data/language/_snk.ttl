@@ -1,0 +1,520 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36660 a schema:Dataset ;
+	schema:about wd:Q36660 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961579155"^^xsd:integer ;
+	schema:dateModified "2023-08-26T10:03:26Z"^^xsd:dateTime .
+
+wd:Q36660 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Soninke> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Soninke"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BD%D0%B8%D0%BD%D0%BA%D0%B5_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Сонинке (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Soninke_language> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Soninke language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Soninke_jezik> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Soninke jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_soninqu%C3%AA> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua soninquê"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%A1%D7%95%D7%A0%D7%99%D7%A0%D7%A7%D7%94_(%D7%A9%D7%A4%D7%94)> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "סונינקה (שפה)"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisoninke> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisoninke"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BD%D0%B8%D0%BD%D0%BA%D0%B5_(%D0%BA%D1%8B%D0%B2)> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Сонинке (кыв)"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%8B%E3%83%B3%E3%82%B1%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ソニンケ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Soninke_(Sprache)> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Soninke (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_soninke> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua soninke"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Soninkera> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Soninkera"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%A1%E1%83%9D%E1%83%9C%E1%83%98%E1%83%9C%E1%83%99%E1%83%94_(%E1%83%94%E1%83%9C%E1%83%90)> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "სონინკე (ენა)"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_soninke> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język soninke"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D8%B3%D9%88%D9%86%D9%86%D9%83%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "اللغة السوننكية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_sonink%C3%A9> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma soninké"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nqo.wikipedia.org/wiki/%DF%A1%DF%99%DF%8A%DF%AC%DF%9E%DF%8A%DF%AC%DF%9E%DF%8A%DF%B2> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "nqo" ;
+	schema:isPartOf <https://nqo.wikipedia.org/> ;
+	schema:name "ߡߙߊ߬ߞߊ߬ߞߊ߲"@nqo .
+
+<https://nqo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Soninke> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Soninke"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Soninke> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Soninke"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Sonink%C3%A9_(langue)> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Soninké (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Limba_soninke> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Limba soninke"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Soninka_lingvo> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Soninka lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Soninke> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Soninke"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Soninkeg> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Soninkeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_sonink%C3%A9> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma soninké"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Gangara> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Gangara"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Soninke> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Soninke"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mg.wikipedia.org/wiki/Fiteny_s%C3%B4ninke> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "mg" ;
+	schema:isPartOf <https://mg.wikipedia.org/> ;
+	schema:name "Fiteny sôninke"@mg .
+
+<https://mg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Soninke> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Soninke"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Soninke_bhasa> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Soninke bhasa"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nds-nl.wikipedia.org/wiki/Soninke> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "nds-NL" ;
+	schema:isPartOf <https://nds-nl.wikipedia.org/> ;
+	schema:name "Soninke"@nds-NL .
+
+<https://nds-nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Soninke> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Soninke"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ha.wikipedia.org/wiki/Harshen_Soninke> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "ha" ;
+	schema:isPartOf <https://ha.wikipedia.org/> ;
+	schema:name "Harshen Soninke"@ha .
+
+<https://ha.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Soninke_language> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Soninke language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://anp.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8B%E0%A4%A8%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%95%E0%A5%87_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q36660 ;
+	schema:inLanguage "anp" ;
+	schema:isPartOf <https://anp.wikipedia.org/> ;
+	schema:name "सोनिन्के भाषा"@anp .
+
+<https://anp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36660 wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/Soninke.gif> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P219 "snk" ;
+	wdt:P220 "snk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/snk> ;
+	wdt:P646 "/m/02hxns_" ;
+	wdt:P305 "snk" ;
+	wdt:P279 wd:Q33681 ;
+	wdt:P269 "027436969" ;
+	wdtn:P269 <http://www.idref.fr/027436969/id> ;
+	wdt:P244 "sh85125227" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85125227> ;
+	wdt:P268 "119478624" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb119478624#about> ;
+	wdt:P1394 "soni1259" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/soni1259> ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P17 wd:Q912,
+		wd:Q1041,
+		wd:Q1008,
+		wd:Q1005,
+		wd:Q1025,
+		wd:Q1007,
+		wd:Q1006 ;
+	wdt:P1098 "+1096795"^^xsd:decimal ;
+	wdt:P1466 "snn" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_snn> ;
+	wdt:P5198 "294938567" ;
+	wdt:P2924 "3637061" ;
+	wdt:P1627 "snk" ;
+	wdt:P4801 "languages/snk" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/snk> ;
+	wdt:P4801 "iso639-2/snk" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/iso639-2/snk> ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P1014 "300389302" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389302> ;
+	wdt:P2341 wd:Q332113,
+		wd:Q287789,
+		wd:Q656845,
+		wd:Q859831,
+		wd:Q859573,
+		wd:Q768119,
+		wd:Q738081,
+		wd:Q856275,
+		wd:Q848554 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SNK> ;
+	wdt:P6366 "2775964045" ;
+	wdtn:P6366 <https://makg.org/entity/2775964045> ;
+	wdt:P910 wd:Q33061875 ;
+	wdt:P9060 "snk" ;
+	wdt:P8189 "987007558330705171" ;
+	wdt:P10369 "Q184" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q184> ;
+	wdt:P1705 "Sooninkanxanne"@mis ;
+	rdfs:label "Língua soninquê"@pt ;
+	skos:prefLabel "Língua soninquê"@pt ;
+	schema:name "Língua soninquê"@pt ;
+	rdfs:label "Lenga Soninke"@pms ;
+	skos:prefLabel "Lenga Soninke"@pms ;
+	schema:name "Lenga Soninke"@pms ;
+	rdfs:label "soninka lingvo"@eo ;
+	skos:prefLabel "soninka lingvo"@eo ;
+	schema:name "soninka lingvo"@eo ;
+	rdfs:label "Język soninke"@pl ;
+	skos:prefLabel "Język soninke"@pl ;
+	schema:name "Język soninke"@pl ;
+	rdfs:label "Soninkera"@eu ;
+	skos:prefLabel "Soninkera"@eu ;
+	schema:name "Soninkera"@eu ;
+	rdfs:label "Сонинке"@ru ;
+	skos:prefLabel "Сонинке"@ru ;
+	schema:name "Сонинке"@ru ;
+	rdfs:label "soninké"@fr ;
+	skos:prefLabel "soninké"@fr ;
+	schema:name "soninké"@fr ;
+	rdfs:label "Soninke"@en ;
+	skos:prefLabel "Soninke"@en ;
+	schema:name "Soninke"@en ;
+	rdfs:label "Idioma soninké"@es ;
+	skos:prefLabel "Idioma soninké"@es ;
+	schema:name "Idioma soninké"@es ;
+	rdfs:label "soninke"@ca ;
+	skos:prefLabel "soninke"@ca ;
+	schema:name "soninke"@ca ;
+	rdfs:label "soninke"@it ;
+	skos:prefLabel "soninke"@it ;
+	schema:name "soninke"@it ;
+	rdfs:label "Kisoninke"@sw ;
+	skos:prefLabel "Kisoninke"@sw ;
+	schema:name "Kisoninke"@sw ;
+	rdfs:label "Bahasa Soninke"@id ;
+	skos:prefLabel "Bahasa Soninke"@id ;
+	schema:name "Bahasa Soninke"@id ;
+	rdfs:label "Soninke"@de ;
+	skos:prefLabel "Soninke"@de ;
+	schema:name "Soninke"@de ;
+	rdfs:label "ソニンケ語"@ja ;
+	skos:prefLabel "ソニンケ語"@ja ;
+	schema:name "ソニンケ語"@ja ;
+	rdfs:label "soninkeg"@br ;
+	skos:prefLabel "soninkeg"@br ;
+	schema:name "soninkeg"@br ;
+	rdfs:label "Сонинке"@kv ;
+	skos:prefLabel "Сонинке"@kv ;
+	schema:name "Сонинке"@kv ;
+	rdfs:label "Soninke jezik"@hr ;
+	skos:prefLabel "Soninke jezik"@hr ;
+	schema:name "Soninke jezik"@hr ;
+	rdfs:label "لغة سوننكية"@ar ;
+	skos:prefLabel "لغة سوننكية"@ar ;
+	schema:name "لغة سوننكية"@ar ;
+	rdfs:label "Soninke"@oc ;
+	skos:prefLabel "Soninke"@oc ;
+	schema:name "Soninke"@oc ;
+	rdfs:label "Soninke"@fi ;
+	skos:prefLabel "Soninke"@fi ;
+	schema:name "Soninke"@fi ;
+	rdfs:label "lingua Gangara"@la ;
+	skos:prefLabel "lingua Gangara"@la ;
+	schema:name "lingua Gangara"@la ;
+	rdfs:label "Soninke"@nl ;
+	skos:prefLabel "Soninke"@nl ;
+	schema:name "Soninke"@nl ;
+	rdfs:label "Soninke"@en-gb ;
+	skos:prefLabel "Soninke"@en-gb ;
+	schema:name "Soninke"@en-gb ;
+	rdfs:label "სონინკე (ენა)"@ka ;
+	skos:prefLabel "სონინკე (ენა)"@ka ;
+	schema:name "სონინკე (ენა)"@ka ;
+	rdfs:label "Soninke language"@hif ;
+	skos:prefLabel "Soninke language"@hif ;
+	schema:name "Soninke language"@hif ;
+	rdfs:label "Wikang Soninke"@tl ;
+	skos:prefLabel "Wikang Soninke"@tl ;
+	schema:name "Wikang Soninke"@tl ;
+	rdfs:label "Idioma soninké"@ast ;
+	skos:prefLabel "Idioma soninké"@ast ;
+	schema:name "Idioma soninké"@ast ;
+	rdfs:label "ߡߙߊ߬ߞߊ߬ߞߊ߲"@nqo ;
+	skos:prefLabel "ߡߙߊ߬ߞߊ߬ߞߊ߲"@nqo ;
+	schema:name "ߡߙߊ߬ߞߊ߬ߞߊ߲"@nqo ;
+	rdfs:label "סונינקה"@he ;
+	skos:prefLabel "סונינקה"@he ;
+	schema:name "סונינקה"@he ;
+	rdfs:label "Limba soninke"@ro ;
+	skos:prefLabel "Limba soninke"@ro ;
+	schema:name "Limba soninke"@ro ;
+	rdfs:label "Tiếng Soninke"@vi ;
+	skos:prefLabel "Tiếng Soninke"@vi ;
+	schema:name "Tiếng Soninke"@vi ;
+	rdfs:label "Fiteny sôninke"@mg ;
+	skos:prefLabel "Fiteny sôninke"@mg ;
+	schema:name "Fiteny sôninke"@mg ;
+	rdfs:label "索寧克語"@zh ;
+	skos:prefLabel "索寧克語"@zh ;
+	schema:name "索寧克語"@zh ;
+	rdfs:label "soninke"@vec ;
+	skos:prefLabel "soninke"@vec ;
+	schema:name "soninke"@vec ;
+	rdfs:label "soninke"@nds-nl ;
+	skos:prefLabel "soninke"@nds-nl ;
+	schema:name "soninke"@nds-nl ;
+	rdfs:label "Harshen Soninke"@ha ;
+	skos:prefLabel "Harshen Soninke"@ha ;
+	schema:name "Harshen Soninke"@ha ;
+	rdfs:label "Soninke language"@ig ;
+	skos:prefLabel "Soninke language"@ig ;
+	schema:name "Soninke language"@ig ;
+	rdfs:label "सोनिन्के भाषा"@anp ;
+	skos:prefLabel "सोनिन्के भाषा"@anp ;
+	schema:name "सोनिन्के भाषा"@anp ;
+	schema:description "Mande language spoken in West Africa"@en,
+		"Afrikanische Sprache"@de,
+		"idioma hablado en Malí, Senegal, Gambia y Mauritania"@es,
+		"lingua mende parlata dal popolo dei Sarakole in Africa occidentale"@it,
+		"taal"@nl,
+		"שפה"@he,
+		"langue mandée"@fr,
+		"yezh"@br,
+		"lingua"@la,
+		"iaith"@cy,
+		"språke"@nds-nl,
+		"ߝߘߊ߬ߝߌ߬ߣߊ ߕߟߋ߬ߓߋ ߥߟߊ߫ ߥߊ߲߬ߞߊ߬ߙߊ߫ ߞߊ߲ ߘߏ߫"@nqo,
+		"bagian dari rumpun bahasa Niger-Kongo"@id ;
+	skos:altLabel "Língua soninké"@pt,
+		"Língua soninke"@pt,
+		"Soninka"@eo,
+		"Idioma soninke"@es,
+		"soninké"@it,
+		"lingua soninke"@it,
+		"lingua soninké"@it,
+		"سوننكية"@ar,
+		"لغه سوننكيه"@ar,
+		"serakhulle"@nds-nl,
+		"azer"@nds-nl,
+		"索宁克语"@zh .
+
+wd:Q25645484 owl:sameAs wd:Q36660 .

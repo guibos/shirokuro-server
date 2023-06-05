@@ -1,0 +1,133 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3504170 a schema:Dataset ;
+	schema:about wd:Q3504170 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1810083041"^^xsd:integer ;
+	schema:dateModified "2023-01-12T15:17:39Z"^^xsd:dateTime .
+
+wd:Q3504170 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_beli> a schema:Article ;
+	schema:about wd:Q3504170 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga beli"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Beli_language> a schema:Article ;
+	schema:about wd:Q3504170 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Beli language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Beli_(Maimai_jezik)> a schema:Article ;
+	schema:about wd:Q3504170 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Beli (Maimai jezik)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibeli_(PNG)> a schema:Article ;
+	schema:about wd:Q3504170 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibeli (PNG)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Beli> a schema:Article ;
+	schema:about wd:Q3504170 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Beli"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3504170 wdt:P220 "bey" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bey> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "beli1258" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/beli1258> ;
+	wdt:P279 wd:Q1333831 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P910 wd:Q32828406 ;
+	wdt:P2192 "3898" ;
+	wdt:P305 "bey" ;
+	wdt:P1627 "bey" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q753689 ;
+	wdt:P1245 "672654" ;
+	wdt:P646 "/m/02hxt1k" ;
+	wdt:P4839 "Entity[\"Language\", \"Beli\"]" ;
+	rdfs:label "Lenga beli"@pms ;
+	skos:prefLabel "Lenga beli"@pms ;
+	schema:name "Lenga beli"@pms ;
+	rdfs:label "Beli"@en ;
+	skos:prefLabel "Beli"@en ;
+	schema:name "Beli"@en ;
+	rdfs:label "Beli"@hr ;
+	skos:prefLabel "Beli"@hr ;
+	schema:name "Beli"@hr ;
+	rdfs:label "Kibeli"@sw ;
+	skos:prefLabel "Kibeli"@sw ;
+	schema:name "Kibeli"@sw ;
+	rdfs:label "Język beli"@pl ;
+	skos:prefLabel "Język beli"@pl ;
+	schema:name "Język beli"@pl ;
+	rdfs:label "Beli"@ilo ;
+	skos:prefLabel "Beli"@ilo ;
+	schema:name "Beli"@ilo ;
+	rdfs:label "beli"@fr ;
+	skos:prefLabel "beli"@fr ;
+	schema:name "beli"@fr ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"langue torricelli parlée en Papouasie-Nouvelle-Guinée"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"Torricelli language of Papua New Guinea"@en ;
+	skos:altLabel "Beli (Papua New Guinea)"@en,
+		"Beli language"@en .
+
+wd:Q11732090 owl:sameAs wd:Q3504170 .

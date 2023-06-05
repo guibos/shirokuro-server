@@ -1,0 +1,181 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56307 a schema:Dataset ;
+	schema:about wd:Q56307 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1908066394"^^xsd:integer ;
+	schema:dateModified "2023-06-04T14:28:37Z"^^xsd:dateTime .
+
+wd:Q56307 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_halang> a schema:Article ;
+	schema:about wd:Q56307 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga halang"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Halang> a schema:Article ;
+	schema:about wd:Q56307 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Halang"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kihalang> a schema:Article ;
+	schema:about wd:Q56307 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kihalang"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Halang_language> a schema:Article ;
+	schema:about wd:Q56307 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Halang language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%AE%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%87> a schema:Article ;
+	schema:about wd:Q56307 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาฮาลัง"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Halangeg> a schema:Article ;
+	schema:about wd:Q56307 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Halangeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_H%C3%A0_L%C4%83ng> a schema:Article ;
+	schema:about wd:Q56307 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Hà Lăng"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%93%88%E6%9C%97%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q56307 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "哈朗语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56307 wdt:P220 "hal" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hal> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "hala1252" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/hala1252> ;
+	wdt:P1417 "topic/Halang-language" ;
+	wdt:P1466 "hln" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_hln> ;
+	wdt:P305 "hal" ;
+	wdt:P1627 "hal" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q819,
+		wd:Q881 ;
+	wdt:P2341 wd:Q503004,
+		wd:Q36315 ;
+	wdt:P1245 "552824" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HAL> ;
+	wdt:P646 "/m/07ks1c" ;
+	wdt:P910 wd:Q33075608 ;
+	rdfs:label "Lenga halang"@pms ;
+	skos:prefLabel "Lenga halang"@pms ;
+	schema:name "Lenga halang"@pms ;
+	rdfs:label "halangeg"@br ;
+	skos:prefLabel "halangeg"@br ;
+	schema:name "halangeg"@br ;
+	rdfs:label "Halang"@en ;
+	skos:prefLabel "Halang"@en ;
+	schema:name "Halang"@en ;
+	rdfs:label "ภาษาฮาลัง"@th ;
+	skos:prefLabel "ภาษาฮาลัง"@th ;
+	schema:name "ภาษาฮาลัง"@th ;
+	rdfs:label "halang"@es ;
+	skos:prefLabel "halang"@es ;
+	schema:name "halang"@es ;
+	rdfs:label "Kihalang"@sw ;
+	skos:prefLabel "Kihalang"@sw ;
+	schema:name "Kihalang"@sw ;
+	rdfs:label "Halang dili"@tr ;
+	skos:prefLabel "Halang dili"@tr ;
+	schema:name "Halang dili"@tr ;
+	rdfs:label "Halang"@ilo ;
+	skos:prefLabel "Halang"@ilo ;
+	schema:name "Halang"@ilo ;
+	rdfs:label "Halang"@en-gb ;
+	skos:prefLabel "Halang"@en-gb ;
+	schema:name "Halang"@en-gb ;
+	rdfs:label "Wikang Halang"@tl ;
+	skos:prefLabel "Wikang Halang"@tl ;
+	schema:name "Wikang Halang"@tl ;
+	rdfs:label "Tiếng Halang"@vi ;
+	skos:prefLabel "Tiếng Halang"@vi ;
+	schema:name "Tiếng Halang"@vi ;
+	rdfs:label "哈朗语"@zh ;
+	skos:prefLabel "哈朗语"@zh ;
+	schema:name "哈朗语"@zh ;
+	rdfs:label "halang"@fr ;
+	skos:prefLabel "halang"@fr ;
+	schema:name "halang"@fr ;
+	schema:description "lengua mon-jmer"@es,
+		"Sprache"@de,
+		"language"@en,
+		"pagsasao idiay Bietnam ken Laos"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue austroasiatique parlée au Laos et au Vietnam"@fr,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "ภาษาฮะลัง"@th,
+		"ภาษาซาลัง"@th,
+		"salang"@es,
+		"Halang language"@en,
+		"salang"@fr .
+
+wd:Q31442053 owl:sameAs wd:Q56307 .

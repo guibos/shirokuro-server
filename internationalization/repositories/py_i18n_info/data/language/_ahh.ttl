@@ -1,0 +1,583 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3436645 a schema:Dataset ;
+	schema:about wd:Q3436645 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912053780"^^xsd:integer ;
+	schema:dateModified "2023-06-10T08:42:03Z"^^xsd:dateTime .
+
+wd:Q3436645 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Aghu> a schema:Article ;
+	schema:about wd:Q3436645 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Aghu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Aghu> a schema:Article ;
+	schema:about wd:Q3436645 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Aghu"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Aghu_language> a schema:Article ;
+	schema:about wd:Q3436645 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Aghu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Aghu_jezik> a schema:Article ;
+	schema:about wd:Q3436645 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Aghu jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B9> a schema:Article ;
+	schema:about wd:Q3436645 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาอาคู"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_aghu> a schema:Article ;
+	schema:about wd:Q3436645 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua aghu"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiaghu> a schema:Article ;
+	schema:about wd:Q3436645 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiaghu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Aghu> a schema:Article ;
+	schema:about wd:Q3436645 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Aghu"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Aghu> a schema:Article ;
+	schema:about wd:Q3436645 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Aghu"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1_%CE%91%CE%B3%CE%BA%CF%87%CE%BF%CF%8D> a schema:Article ;
+	schema:about wd:Q3436645 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γλώσσα Αγκχού"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3436645 wdt:P220 "ahh" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ahh> ;
+	wdt:P646 "/m/0dfl34" ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q12627424 ;
+	wdt:P1394 "aghu1255" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/aghu1255> ;
+	wdt:P276 wd:Q27262,
+		wd:Q4192118 ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P2590 "0809 1",
+		"0853 1" ;
+	wdt:P1705 "bahasa Aghu"@id,
+		"bahasa Awyu"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2341 wd:Q24391781,
+		wd:Q5095 ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P1098 "+3000"^^xsd:decimal ;
+	wdt:P1466 "ahu" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ahu> ;
+	wdt:P305 "ahh" ;
+	wdt:P1627 "ahh" ;
+	wdt:P910 wd:Q50997274 ;
+	wdt:P4839 "Entity[\"Language\", \"Aghu::wmx7r\"]",
+		"Entity[\"Language\", \"Aghu\"]" ;
+	rdfs:label "Lenga Aghu"@pms ;
+	skos:prefLabel "Lenga Aghu"@pms ;
+	schema:name "Lenga Aghu"@pms ;
+	rdfs:label "Aghu"@id ;
+	skos:prefLabel "Aghu"@id ;
+	schema:name "Aghu"@id ;
+	rdfs:label "Język aghu"@pl ;
+	skos:prefLabel "Język aghu"@pl ;
+	schema:name "Język aghu"@pl ;
+	rdfs:label "Aghu"@en ;
+	skos:prefLabel "Aghu"@en ;
+	schema:name "Aghu"@en ;
+	rdfs:label "Aghu jezik"@hr ;
+	skos:prefLabel "Aghu jezik"@hr ;
+	schema:name "Aghu jezik"@hr ;
+	rdfs:label "ภาษาอาคู"@th ;
+	skos:prefLabel "ภาษาอาคู"@th ;
+	schema:name "ภาษาอาคู"@th ;
+	rdfs:label "Lingua aghu"@gl ;
+	skos:prefLabel "Lingua aghu"@gl ;
+	schema:name "Lingua aghu"@gl ;
+	rdfs:label "Kiaghu"@sw ;
+	skos:prefLabel "Kiaghu"@sw ;
+	schema:name "Kiaghu"@sw ;
+	rdfs:label "Aghu"@ace ;
+	skos:prefLabel "Aghu"@ace ;
+	schema:name "Aghu"@ace ;
+	rdfs:label "Aghu"@af ;
+	skos:prefLabel "Aghu"@af ;
+	schema:name "Aghu"@af ;
+	rdfs:label "Aghu"@an ;
+	skos:prefLabel "Aghu"@an ;
+	schema:name "Aghu"@an ;
+	rdfs:label "Aghu"@ast ;
+	skos:prefLabel "Aghu"@ast ;
+	schema:name "Aghu"@ast ;
+	rdfs:label "Aghu"@bar ;
+	skos:prefLabel "Aghu"@bar ;
+	schema:name "Aghu"@bar ;
+	rdfs:label "aghu"@br ;
+	skos:prefLabel "aghu"@br ;
+	schema:name "aghu"@br ;
+	rdfs:label "aghu"@ca ;
+	skos:prefLabel "aghu"@ca ;
+	schema:name "aghu"@ca ;
+	rdfs:label "Aghu"@co ;
+	skos:prefLabel "Aghu"@co ;
+	schema:name "Aghu"@co ;
+	rdfs:label "Aghu"@cs ;
+	skos:prefLabel "Aghu"@cs ;
+	schema:name "Aghu"@cs ;
+	rdfs:label "Aghu"@cy ;
+	skos:prefLabel "Aghu"@cy ;
+	schema:name "Aghu"@cy ;
+	rdfs:label "Aghu"@da ;
+	skos:prefLabel "Aghu"@da ;
+	schema:name "Aghu"@da ;
+	rdfs:label "Aghu"@de ;
+	skos:prefLabel "Aghu"@de ;
+	schema:name "Aghu"@de ;
+	rdfs:label "Aghu"@de-at ;
+	skos:prefLabel "Aghu"@de-at ;
+	schema:name "Aghu"@de-at ;
+	rdfs:label "Aghu"@de-ch ;
+	skos:prefLabel "Aghu"@de-ch ;
+	schema:name "Aghu"@de-ch ;
+	rdfs:label "Aghu"@en-ca ;
+	skos:prefLabel "Aghu"@en-ca ;
+	schema:name "Aghu"@en-ca ;
+	rdfs:label "Aghu"@en-gb ;
+	skos:prefLabel "Aghu"@en-gb ;
+	schema:name "Aghu"@en-gb ;
+	rdfs:label "Aghu"@eo ;
+	skos:prefLabel "Aghu"@eo ;
+	schema:name "Aghu"@eo ;
+	rdfs:label "Aghu"@es ;
+	skos:prefLabel "Aghu"@es ;
+	schema:name "Aghu"@es ;
+	rdfs:label "Aghu"@et ;
+	skos:prefLabel "Aghu"@et ;
+	schema:name "Aghu"@et ;
+	rdfs:label "Aghu"@eu ;
+	skos:prefLabel "Aghu"@eu ;
+	schema:name "Aghu"@eu ;
+	rdfs:label "Aghu"@fi ;
+	skos:prefLabel "Aghu"@fi ;
+	schema:name "Aghu"@fi ;
+	rdfs:label "aghu"@fr ;
+	skos:prefLabel "aghu"@fr ;
+	schema:name "aghu"@fr ;
+	rdfs:label "Aghu"@frp ;
+	skos:prefLabel "Aghu"@frp ;
+	schema:name "Aghu"@frp ;
+	rdfs:label "Aghu"@fur ;
+	skos:prefLabel "Aghu"@fur ;
+	schema:name "Aghu"@fur ;
+	rdfs:label "Aghu"@ga ;
+	skos:prefLabel "Aghu"@ga ;
+	schema:name "Aghu"@ga ;
+	rdfs:label "Aghu"@gd ;
+	skos:prefLabel "Aghu"@gd ;
+	schema:name "Aghu"@gd ;
+	rdfs:label "Aghu"@gsw ;
+	skos:prefLabel "Aghu"@gsw ;
+	schema:name "Aghu"@gsw ;
+	rdfs:label "Aghu"@hu ;
+	skos:prefLabel "Aghu"@hu ;
+	schema:name "Aghu"@hu ;
+	rdfs:label "Aghu"@ia ;
+	skos:prefLabel "Aghu"@ia ;
+	schema:name "Aghu"@ia ;
+	rdfs:label "Aghu"@ie ;
+	skos:prefLabel "Aghu"@ie ;
+	schema:name "Aghu"@ie ;
+	rdfs:label "Aghu"@io ;
+	skos:prefLabel "Aghu"@io ;
+	schema:name "Aghu"@io ;
+	rdfs:label "Aghu"@is ;
+	skos:prefLabel "Aghu"@is ;
+	schema:name "Aghu"@is ;
+	rdfs:label "aghu"@it ;
+	skos:prefLabel "aghu"@it ;
+	schema:name "aghu"@it ;
+	rdfs:label "Aghu"@jv ;
+	skos:prefLabel "Aghu"@jv ;
+	schema:name "Aghu"@jv ;
+	rdfs:label "Aghu"@kg ;
+	skos:prefLabel "Aghu"@kg ;
+	schema:name "Aghu"@kg ;
+	rdfs:label "Aghu"@lb ;
+	skos:prefLabel "Aghu"@lb ;
+	schema:name "Aghu"@lb ;
+	rdfs:label "Aghu"@li ;
+	skos:prefLabel "Aghu"@li ;
+	schema:name "Aghu"@li ;
+	rdfs:label "Aghu"@lij ;
+	skos:prefLabel "Aghu"@lij ;
+	schema:name "Aghu"@lij ;
+	rdfs:label "Aghu"@mg ;
+	skos:prefLabel "Aghu"@mg ;
+	schema:name "Aghu"@mg ;
+	rdfs:label "Aghu"@min ;
+	skos:prefLabel "Aghu"@min ;
+	schema:name "Aghu"@min ;
+	rdfs:label "Aghu"@ms ;
+	skos:prefLabel "Aghu"@ms ;
+	schema:name "Aghu"@ms ;
+	rdfs:label "Aghu"@nap ;
+	skos:prefLabel "Aghu"@nap ;
+	schema:name "Aghu"@nap ;
+	rdfs:label "Aghu"@nb ;
+	skos:prefLabel "Aghu"@nb ;
+	schema:name "Aghu"@nb ;
+	rdfs:label "Aghu"@nds ;
+	skos:prefLabel "Aghu"@nds ;
+	schema:name "Aghu"@nds ;
+	rdfs:label "Aghu"@nds-nl ;
+	skos:prefLabel "Aghu"@nds-nl ;
+	schema:name "Aghu"@nds-nl ;
+	rdfs:label "Aghu"@nl ;
+	skos:prefLabel "Aghu"@nl ;
+	schema:name "Aghu"@nl ;
+	rdfs:label "Aghu"@nn ;
+	skos:prefLabel "Aghu"@nn ;
+	schema:name "Aghu"@nn ;
+	rdfs:label "Aghu"@nrm ;
+	skos:prefLabel "Aghu"@nrm ;
+	schema:name "Aghu"@nrm ;
+	rdfs:label "Aghu"@oc ;
+	skos:prefLabel "Aghu"@oc ;
+	schema:name "Aghu"@oc ;
+	rdfs:label "Aghu"@pcd ;
+	skos:prefLabel "Aghu"@pcd ;
+	schema:name "Aghu"@pcd ;
+	rdfs:label "Aghu"@pt ;
+	skos:prefLabel "Aghu"@pt ;
+	schema:name "Aghu"@pt ;
+	rdfs:label "Aghu"@pt-br ;
+	skos:prefLabel "Aghu"@pt-br ;
+	schema:name "Aghu"@pt-br ;
+	rdfs:label "Aghu"@rm ;
+	skos:prefLabel "Aghu"@rm ;
+	schema:name "Aghu"@rm ;
+	rdfs:label "Aghu"@ro ;
+	skos:prefLabel "Aghu"@ro ;
+	schema:name "Aghu"@ro ;
+	rdfs:label "Aghu"@sc ;
+	skos:prefLabel "Aghu"@sc ;
+	schema:name "Aghu"@sc ;
+	rdfs:label "Aghu"@scn ;
+	skos:prefLabel "Aghu"@scn ;
+	schema:name "Aghu"@scn ;
+	rdfs:label "Aghu"@sco ;
+	skos:prefLabel "Aghu"@sco ;
+	schema:name "Aghu"@sco ;
+	rdfs:label "Aghu"@sk ;
+	skos:prefLabel "Aghu"@sk ;
+	schema:name "Aghu"@sk ;
+	rdfs:label "Aghu"@sl ;
+	skos:prefLabel "Aghu"@sl ;
+	schema:name "Aghu"@sl ;
+	rdfs:label "Aghu"@sr-el ;
+	skos:prefLabel "Aghu"@sr-el ;
+	schema:name "Aghu"@sr-el ;
+	rdfs:label "Aghu"@su ;
+	skos:prefLabel "Aghu"@su ;
+	schema:name "Aghu"@su ;
+	rdfs:label "Aghu"@sv ;
+	skos:prefLabel "Aghu"@sv ;
+	schema:name "Aghu"@sv ;
+	rdfs:label "Aghu"@vec ;
+	skos:prefLabel "Aghu"@vec ;
+	schema:name "Aghu"@vec ;
+	rdfs:label "Aghu"@vi ;
+	skos:prefLabel "Aghu"@vi ;
+	schema:name "Aghu"@vi ;
+	rdfs:label "Aghu"@vls ;
+	skos:prefLabel "Aghu"@vls ;
+	schema:name "Aghu"@vls ;
+	rdfs:label "Aghu"@vo ;
+	skos:prefLabel "Aghu"@vo ;
+	schema:name "Aghu"@vo ;
+	rdfs:label "Aghu"@wa ;
+	skos:prefLabel "Aghu"@wa ;
+	schema:name "Aghu"@wa ;
+	rdfs:label "Aghu"@wo ;
+	skos:prefLabel "Aghu"@wo ;
+	schema:name "Aghu"@wo ;
+	rdfs:label "Aghu"@zu ;
+	skos:prefLabel "Aghu"@zu ;
+	schema:name "Aghu"@zu ;
+	rdfs:label "Aghu"@ilo ;
+	skos:prefLabel "Aghu"@ilo ;
+	schema:name "Aghu"@ilo ;
+	rdfs:label "Γλώσσα Αγκχού"@el ;
+	skos:prefLabel "Γλώσσα Αγκχού"@el ;
+	schema:name "Γλώσσα Αγκχού"@el ;
+	rdfs:label "Aghu"@ban ;
+	skos:prefLabel "Aghu"@ban ;
+	schema:name "Aghu"@ban ;
+	rdfs:label "Aghu"@bjn ;
+	skos:prefLabel "Aghu"@bjn ;
+	schema:name "Aghu"@bjn ;
+	rdfs:label "Aghu"@bug ;
+	skos:prefLabel "Aghu"@bug ;
+	schema:name "Aghu"@bug ;
+	rdfs:label "Aghu"@map-bms ;
+	skos:prefLabel "Aghu"@map-bms ;
+	schema:name "Aghu"@map-bms ;
+	schema:description "Sprache"@de,
+		"bagian dari rumpun bahasa Papua"@id,
+		"taal"@nl,
+		"pagsasao idiay Indonesia"@ilo,
+		"שפה"@he,
+		"langue de Trans-Nouvelle-Guinée"@fr,
+		"language in Papua"@en,
+		"basa ing Papua"@jv,
+		"bahasa di Papua"@ms,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Aghu"@gl,
+		"Djair"@gl,
+		"Dyair"@gl,
+		"bahasa Aghu"@id,
+		"Awyu"@id,
+		"bahasa Awyu"@id,
+		"bahasa Yair"@id,
+		"Yair"@id,
+		"Djair"@id,
+		"Dyair"@id,
+		"Aghu language"@en,
+		"Djair"@en,
+		"Dyair"@en,
+		"Djair"@ace,
+		"Dyair"@ace,
+		"Djair"@af,
+		"Dyair"@af,
+		"Djair"@an,
+		"Dyair"@an,
+		"Djair"@ast,
+		"Dyair"@ast,
+		"Djair"@ban,
+		"Dyair"@ban,
+		"Djair"@bar,
+		"Dyair"@bar,
+		"Djair"@bjn,
+		"Dyair"@bjn,
+		"Djair"@br,
+		"Dyair"@br,
+		"Djair"@bug,
+		"Dyair"@bug,
+		"Djair"@ca,
+		"Dyair"@ca,
+		"Djair"@co,
+		"Dyair"@co,
+		"Djair"@cs,
+		"Dyair"@cs,
+		"Djair"@cy,
+		"Dyair"@cy,
+		"Djair"@da,
+		"Dyair"@da,
+		"Djair"@de,
+		"Dyair"@de,
+		"Djair"@de-at,
+		"Dyair"@de-at,
+		"Djair"@de-ch,
+		"Dyair"@de-ch,
+		"Djair"@en-ca,
+		"Dyair"@en-ca,
+		"Djair"@en-gb,
+		"Dyair"@en-gb,
+		"Djair"@eo,
+		"Dyair"@eo,
+		"Djair"@es,
+		"Dyair"@es,
+		"Djair"@et,
+		"Dyair"@et,
+		"Djair"@eu,
+		"Dyair"@eu,
+		"Djair"@fi,
+		"Dyair"@fi,
+		"Djair"@fr,
+		"Dyair"@fr,
+		"Djair"@frp,
+		"Dyair"@frp,
+		"Djair"@fur,
+		"Dyair"@fur,
+		"Djair"@ga,
+		"Dyair"@ga,
+		"Djair"@gd,
+		"Dyair"@gd,
+		"Djair"@gsw,
+		"Dyair"@gsw,
+		"Djair"@hr,
+		"Dyair"@hr,
+		"Djair"@hu,
+		"Dyair"@hu,
+		"Djair"@ia,
+		"Dyair"@ia,
+		"Djair"@ie,
+		"Dyair"@ie,
+		"Djair"@io,
+		"Dyair"@io,
+		"Djair"@is,
+		"Dyair"@is,
+		"Djair"@it,
+		"Dyair"@it,
+		"Djair"@jv,
+		"Dyair"@jv,
+		"Djair"@kg,
+		"Dyair"@kg,
+		"Djair"@lb,
+		"Dyair"@lb,
+		"Djair"@li,
+		"Dyair"@li,
+		"Djair"@lij,
+		"Dyair"@lij,
+		"Djair"@map-bms,
+		"Dyair"@map-bms,
+		"Djair"@mg,
+		"Dyair"@mg,
+		"Djair"@min,
+		"Dyair"@min,
+		"Djair"@ms,
+		"Dyair"@ms,
+		"Djair"@nap,
+		"Dyair"@nap,
+		"Djair"@nb,
+		"Dyair"@nb,
+		"Djair"@nds,
+		"Dyair"@nds,
+		"Djair"@nds-nl,
+		"Dyair"@nds-nl,
+		"Djair"@nl,
+		"Dyair"@nl,
+		"Djair"@nn,
+		"Dyair"@nn,
+		"Djair"@nrm,
+		"Dyair"@nrm,
+		"Djair"@oc,
+		"Dyair"@oc,
+		"Djair"@pcd,
+		"Dyair"@pcd,
+		"Djair"@pl,
+		"Dyair"@pl,
+		"Djair"@pms,
+		"Dyair"@pms,
+		"Djair"@pt,
+		"Dyair"@pt,
+		"Djair"@pt-br,
+		"Dyair"@pt-br,
+		"Djair"@rm,
+		"Dyair"@rm,
+		"Djair"@ro,
+		"Dyair"@ro,
+		"Djair"@sc,
+		"Dyair"@sc,
+		"Djair"@scn,
+		"Dyair"@scn,
+		"Djair"@sco,
+		"Dyair"@sco,
+		"Djair"@sk,
+		"Dyair"@sk,
+		"Djair"@sl,
+		"Dyair"@sl,
+		"Djair"@sr-el,
+		"Dyair"@sr-el,
+		"Djair"@su,
+		"Dyair"@su,
+		"Djair"@sv,
+		"Dyair"@sv,
+		"Djair"@sw,
+		"Dyair"@sw,
+		"Djair"@vec,
+		"Dyair"@vec,
+		"Djair"@vi,
+		"Dyair"@vi,
+		"Djair"@vls,
+		"Dyair"@vls,
+		"Djair"@vo,
+		"Dyair"@vo,
+		"Djair"@wa,
+		"Dyair"@wa,
+		"Djair"@wo,
+		"Dyair"@wo,
+		"Djair"@zu,
+		"Dyair"@zu .
+
+wd:Q2171133 owl:sameAs wd:Q3436645 .
+
+wd:Q25927368 owl:sameAs wd:Q3436645 .
+
+wd:Q25927496 owl:sameAs wd:Q3436645 .

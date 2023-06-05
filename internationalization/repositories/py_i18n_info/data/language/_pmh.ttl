@@ -1,0 +1,308 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2586773 a schema:Dataset ;
+	schema:about wd:Q2586773 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1923074564"^^xsd:integer ;
+	schema:dateModified "2023-06-24T18:28:30Z"^^xsd:dateTime .
+
+wd:Q2586773 a wikibase:Item .
+
+<https://sv.wikipedia.org/wiki/Maharashtri> a schema:Article ;
+	schema:about wd:Q2586773 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Maharashtri"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%85%D0%B0%D1%80%D0%B0%D1%88%D1%82%D1%80%D0%B8> a schema:Article ;
+	schema:about wd:Q2586773 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Махараштри"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Maharashtri_Prakrit> a schema:Article ;
+	schema:about wd:Q2586773 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Maharashtri Prakrit"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%80_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%95%E0%A5%83%E0%A4%A4> a schema:Article ;
+	schema:about wd:Q2586773 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "महाराष्ट्री प्राकृत"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A9%E0%B8%8F%E0%B8%A3%E0%B8%B5> a schema:Article ;
+	schema:about wd:Q2586773 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษามหาราษฏรี"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Maharashtri> a schema:Article ;
+	schema:about wd:Q2586773 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Maharashtri"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q2586773 ;
+	schema:inLanguage "mr" ;
+	schema:isPartOf <https://mr.wikipedia.org/> ;
+	schema:name "महाराष्ट्री भाषा"@mr .
+
+<https://mr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/M%C4%81h%C4%81r%C4%81%E1%B9%A3%E1%B9%ADri_Pr%C4%81krit> a schema:Article ;
+	schema:about wd:Q2586773 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Māhārāṣṭri Prākrit"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Maharashtri> a schema:Article ;
+	schema:about wd:Q2586773 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Maharashtri"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%83%8F%E3%83%BC%E3%83%A9%E3%83%BC%E3%82%B7%E3%83%A5%E3%83%88%E3%83%AA%E3%83%BC> a schema:Article ;
+	schema:about wd:Q2586773 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "マーハーラーシュトリー"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://te.wikipedia.org/wiki/%E0%B0%AE%E0%B0%B9%E0%B0%BE%E0%B0%B0%E0%B0%BE%E0%B0%B7%E0%B1%8D%E0%B0%9F%E0%B1%8D%E0%B0%B0%E0%B1%80_%E0%B0%AA%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%95%E0%B1%83%E0%B0%A4%E0%B0%82> a schema:Article ;
+	schema:about wd:Q2586773 ;
+	schema:inLanguage "te" ;
+	schema:isPartOf <https://te.wikipedia.org/> ;
+	schema:name "మహారాష్ట్రీ ప్రాకృతం"@te .
+
+<https://te.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Maharashtri> a schema:Article ;
+	schema:about wd:Q2586773 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Maharashtri"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Mahara%C5%A1tri> a schema:Article ;
+	schema:about wd:Q2586773 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Maharaštri"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Prakerta_Maharashtri> a schema:Article ;
+	schema:about wd:Q2586773 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Prakerta Maharashtri"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%AE%E0%AE%95%E0%AE%BE%E0%AE%B0%E0%AE%BE%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%BF%E0%AE%B0%E0%AE%BF%E0%AE%AA%E0%AF%8D_%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%95%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%A4%E0%AE%AE%E0%AF%8D> a schema:Article ;
+	schema:about wd:Q2586773 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "மகாராட்டிரிப் பிராகிருதம்"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://si.wikipedia.org/wiki/%E0%B6%B8%E0%B7%84%E0%B7%8F%E0%B6%BB%E0%B7%8F%E0%B7%82%E0%B7%8A%E0%B6%A7%E0%B7%8A%E2%80%8D%E0%B6%BB%E0%B7%93_%E0%B6%B4%E0%B7%8A%E2%80%8D%E0%B6%BB%E0%B7%8F%E0%B6%9A%E0%B7%98%E0%B6%AD> a schema:Article ;
+	schema:about wd:Q2586773 ;
+	schema:inLanguage "si" ;
+	schema:isPartOf <https://si.wikipedia.org/> ;
+	schema:name "මහාරාෂ්ට්‍රී ප්‍රාකෘත"@si .
+
+<https://si.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Pr%C3%A1crito_maharashtri> a schema:Article ;
+	schema:about wd:Q2586773 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Prácrito maharashtri"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ne.wikipedia.org/wiki/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%80_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%95%E0%A5%83%E0%A4%A4> a schema:Article ;
+	schema:about wd:Q2586773 ;
+	schema:inLanguage "ne" ;
+	schema:isPartOf <https://ne.wikipedia.org/> ;
+	schema:name "महाराष्ट्री प्राकृत"@ne .
+
+<https://ne.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2586773 wdt:P220 "pmh" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pmh> ;
+	wdt:P31 wd:Q34770,
+		wd:Q2315359 ;
+	wdt:P646 "/m/06sdkc" ;
+	wdt:P279 wd:Q33577,
+		wd:Q13118983 ;
+	wdt:P1343 wd:Q678259 ;
+	wdt:P1394 "maha1305" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/maha1305> ;
+	wdt:P1417 "topic/Maharastri-language" ;
+	wdt:P17 wd:Q668 ;
+	wdt:P305 "pmh" ;
+	wdt:P244 "sh85079837" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85079837> ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PMH> ;
+	wdt:P443 <http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q1571%20%28mar%29-Manjusha%20Gore-%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%80%20%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE.wav> ;
+	wdt:P8189 "987007543546405171" ;
+	wdt:P4342 "maharashtri" ;
+	wdt:P8703 "mh." ;
+	wdt:P910 wd:Q33287970 ;
+	rdfs:label "महाराष्ट्री भाषा"@mr ;
+	skos:prefLabel "महाराष्ट्री भाषा"@mr ;
+	schema:name "महाराष्ट्री भाषा"@mr ;
+	rdfs:label "Махараштри"@ru ;
+	skos:prefLabel "Махараштри"@ru ;
+	schema:name "Махараштри"@ru ;
+	rdfs:label "Maharashtri"@en ;
+	skos:prefLabel "Maharashtri"@en ;
+	schema:name "Maharashtri"@en ;
+	rdfs:label "Māhārāṣṭri Prākrit"@hr ;
+	skos:prefLabel "Māhārāṣṭri Prākrit"@hr ;
+	schema:name "Māhārāṣṭri Prākrit"@hr ;
+	rdfs:label "ภาษามหาราษฏรี"@th ;
+	skos:prefLabel "ภาษามหาราษฏรี"@th ;
+	schema:name "ภาษามหาราษฏรี"@th ;
+	rdfs:label "maharashtri"@ca ;
+	skos:prefLabel "maharashtri"@ca ;
+	schema:name "maharashtri"@ca ;
+	rdfs:label "Maharashtri"@sv ;
+	skos:prefLabel "Maharashtri"@sv ;
+	schema:name "Maharashtri"@sv ;
+	rdfs:label "Maharashtri"@nb ;
+	skos:prefLabel "Maharashtri"@nb ;
+	schema:name "Maharashtri"@nb ;
+	rdfs:label "महाराष्ट्री प्राकृत"@hi ;
+	skos:prefLabel "महाराष्ट्री प्राकृत"@hi ;
+	schema:name "महाराष्ट्री प्राकृत"@hi ;
+	rdfs:label "マーハーラーシュトリー"@ja ;
+	skos:prefLabel "マーハーラーシュトリー"@ja ;
+	schema:name "マーハーラーシュトリー"@ja ;
+	rdfs:label "Maharaštri"@lt ;
+	skos:prefLabel "Maharaštri"@lt ;
+	schema:name "Maharaštri"@lt ;
+	rdfs:label "మహారాష్ట్రీ ప్రాకృతం"@te ;
+	skos:prefLabel "మహారాష్ట్రీ ప్రాకృతం"@te ;
+	schema:name "మహారాష్ట్రీ ప్రాకృతం"@te ;
+	rdfs:label "Maharashtri Prakrit"@id ;
+	skos:prefLabel "Maharashtri Prakrit"@id ;
+	schema:name "Maharashtri Prakrit"@id ;
+	rdfs:label "Maharashtri"@nn ;
+	skos:prefLabel "Maharashtri"@nn ;
+	schema:name "Maharashtri"@nn ;
+	rdfs:label "馬哈拉施特拉俗語"@zh-hant ;
+	skos:prefLabel "馬哈拉施特拉俗語"@zh-hant ;
+	schema:name "馬哈拉施特拉俗語"@zh-hant ;
+	rdfs:label "马哈拉施特拉俗语"@zh-cn ;
+	skos:prefLabel "马哈拉施特拉俗语"@zh-cn ;
+	schema:name "马哈拉施特拉俗语"@zh-cn ;
+	rdfs:label "ਮਹਾਰਾਸ਼ਟਰੀ"@pa ;
+	skos:prefLabel "ਮਹਾਰਾਸ਼ਟਰੀ"@pa ;
+	schema:name "ਮਹਾਰਾਸ਼ਟਰੀ"@pa ;
+	rdfs:label "马哈拉施特拉俗语"@zh-hans ;
+	skos:prefLabel "马哈拉施特拉俗语"@zh-hans ;
+	schema:name "马哈拉施特拉俗语"@zh-hans ;
+	rdfs:label "马哈拉施特拉俗语"@zh ;
+	skos:prefLabel "马哈拉施特拉俗语"@zh ;
+	schema:name "马哈拉施特拉俗语"@zh ;
+	rdfs:label "মহারাষ্ট্রি প্রাকৃত"@bn ;
+	skos:prefLabel "মহারাষ্ট্রি প্রাকৃত"@bn ;
+	schema:name "মহারাষ্ট্রি প্রাকৃত"@bn ;
+	rdfs:label "மகாராட்டிரிப் பிராகிருதம்"@ta ;
+	skos:prefLabel "மகாராட்டிரிப் பிராகிருதம்"@ta ;
+	schema:name "மகாராட்டிரிப் பிராகிருதம்"@ta ;
+	rdfs:label "මහාරාෂ්ට්‍රී ප්‍රාකෘත"@si ;
+	skos:prefLabel "මහාරාෂ්ට්‍රී ප්‍රාකෘත"@si ;
+	schema:name "මහාරාෂ්ට්‍රී ප්‍රාකෘත"@si ;
+	rdfs:label "mahárástri"@hu ;
+	skos:prefLabel "mahárástri"@hu ;
+	schema:name "mahárástri"@hu ;
+	rdfs:label "Prácrito maharashtri"@es ;
+	skos:prefLabel "Prácrito maharashtri"@es ;
+	schema:name "Prácrito maharashtri"@es ;
+	rdfs:label "مہاراشٹری"@pnb ;
+	skos:prefLabel "مہاراشٹری"@pnb ;
+	schema:name "مہاراشٹری"@pnb ;
+	rdfs:label "مہاراشٹری"@skr ;
+	skos:prefLabel "مہاراشٹری"@skr ;
+	schema:name "مہاراشٹری"@skr ;
+	rdfs:label "مہاراشٹری"@ur ;
+	skos:prefLabel "مہاراشٹری"@ur ;
+	schema:name "مہاراشٹری"@ur ;
+	rdfs:label "महाराष्ट्री प्राकृत"@ne ;
+	skos:prefLabel "महाराष्ट्री प्राकृत"@ne ;
+	schema:name "महाराष्ट्री प्राकृत"@ne ;
+	schema:description "indogermanische Sprache"@de,
+		"שפה"@he,
+		"ਪੁਰਾਤਨ ਅਤੇ ਮੱਧਕਾਲੀ ਭਾਰਤ ਦੀ ਇੱਕ ਭਾਸ਼ਾ"@pa,
+		"yezh"@br,
+		"langue"@fr,
+		"language of ancient and medieval India which is the ancestor of Marathi and Konkani"@en,
+		"taal"@nl,
+		"bagian dari rumpun bahasa Indo-Eropa"@id ;
+	skos:altLabel "महाराष्ट्री प्राकृत"@mr,
+		"महाराष्ट्री"@mr,
+		"ภาษามหาราษฎระรี"@th,
+		"Māhārāṣṭri Prākrit"@en,
+		"マハラシュタリ語"@ja,
+		"ਮਹਾਰਾਸ਼ਟਰੀ ਪ੍ਰਾਕ੍ਰਿਤ"@pa,
+		"馬哈拉施特拉俗語"@zh,
+		"马哈拉施特拉语"@zh,
+		"mahárástri nyelv"@hu .
+
+wd:Q12446085 owl:sameAs wd:Q2586773 .

@@ -1,0 +1,155 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35628 a schema:Dataset ;
+	schema:about wd:Q35628 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1747445181"^^xsd:integer ;
+	schema:dateModified "2022-10-10T11:54:56Z"^^xsd:dateTime .
+
+wd:Q35628 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Kplang> a schema:Article ;
+	schema:about wd:Q35628 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Kplang"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kplang> a schema:Article ;
+	schema:about wd:Q35628 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kplang"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikplang> a schema:Article ;
+	schema:about wd:Q35628 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikplang"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kplang_language> a schema:Article ;
+	schema:about wd:Q35628 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kplang language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Kplang_(Sprache)> a schema:Article ;
+	schema:about wd:Q35628 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Kplang (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Kplang_language> a schema:Article ;
+	schema:about wd:Q35628 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Kplang language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35628 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "kph" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kph> ;
+	wdt:P1394 "kpla1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kpla1238> ;
+	wdt:P305 "kph" ;
+	wdt:P1627 "kph" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q117 ;
+	wdt:P2341 wd:Q397737,
+		wd:Q712832 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KPH> ;
+	wdt:P279 wd:Q684009 ;
+	wdt:P646 "/m/02hxjm1" ;
+	rdfs:label "Kikplang"@sw ;
+	skos:prefLabel "Kikplang"@sw ;
+	schema:name "Kikplang"@sw ;
+	rdfs:label "Lenga Kplang"@pms ;
+	skos:prefLabel "Lenga Kplang"@pms ;
+	schema:name "Lenga Kplang"@pms ;
+	rdfs:label "Kplang"@de ;
+	skos:prefLabel "Kplang"@de ;
+	schema:name "Kplang"@de ;
+	rdfs:label "Kplang"@en ;
+	skos:prefLabel "Kplang"@en ;
+	schema:name "Kplang"@en ;
+	rdfs:label "kplang"@es ;
+	skos:prefLabel "kplang"@es ;
+	schema:name "kplang"@es ;
+	rdfs:label "Kplang"@de-ch ;
+	skos:prefLabel "Kplang"@de-ch ;
+	schema:name "Kplang"@de-ch ;
+	rdfs:label "Kplang"@en-ca ;
+	skos:prefLabel "Kplang"@en-ca ;
+	schema:name "Kplang"@en-ca ;
+	rdfs:label "Kplang"@en-gb ;
+	skos:prefLabel "Kplang"@en-gb ;
+	schema:name "Kplang"@en-gb ;
+	rdfs:label "kplang"@fr ;
+	skos:prefLabel "kplang"@fr ;
+	schema:name "kplang"@fr ;
+	rdfs:label "kplang"@ca ;
+	skos:prefLabel "kplang"@ca ;
+	schema:name "kplang"@ca ;
+	rdfs:label "Kplang"@oc ;
+	skos:prefLabel "Kplang"@oc ;
+	schema:name "Kplang"@oc ;
+	rdfs:label "Kplang"@nl ;
+	skos:prefLabel "Kplang"@nl ;
+	schema:name "Kplang"@nl ;
+	rdfs:label "Kplang language"@ig ;
+	skos:prefLabel "Kplang language"@ig ;
+	schema:name "Kplang language"@ig ;
+	schema:description "Guang language of Ghana"@en,
+		"idioma guang hablado en Ghana"@es,
+		"Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kplang language"@en .
+
+wd:Q6435732 owl:sameAs wd:Q35628 .

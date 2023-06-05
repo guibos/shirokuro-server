@@ -1,0 +1,93 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q41799425 a schema:Dataset ;
+	schema:about wd:Q41799425 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1564217259"^^xsd:integer ;
+	schema:dateModified "2022-01-18T04:03:45Z"^^xsd:dateTime .
+
+wd:Q41799425 a wikibase:Item ;
+	wdt:P279 wd:Q9788,
+		wd:Q29654788 ;
+	wdt:P361 wd:Q55809450,
+		wd:Q8222 ;
+	wdt:P2354 wd:Q371580 ;
+	wdt:P910 wd:Q8505004 ;
+	wdt:P506 "Jamo" ;
+	wdt:P2620 "284" ;
+	wdt:P2561 "Jamo (alias for Jamo subset of Hangul)"@en,
+		"jamo (alias pour le sous-ensemble jamo du hangûl)"@fr ;
+	wdt:P31 wd:Q2001982 ;
+	rdfs:label "символ хангыля"@ru ;
+	skos:prefLabel "символ хангыля"@ru ;
+	schema:name "символ хангыля"@ru ;
+	rdfs:label "litero de korea alfabeto"@eo ;
+	skos:prefLabel "litero de korea alfabeto"@eo ;
+	schema:name "litero de korea alfabeto"@eo ;
+	rdfs:label "jamo"@en ;
+	skos:prefLabel "jamo"@en ;
+	schema:name "jamo"@en ;
+	rdfs:label "한글 자모"@ko ;
+	skos:prefLabel "한글 자모"@ko ;
+	schema:name "한글 자모"@ko ;
+	rdfs:label "谚文字母"@zh ;
+	skos:prefLabel "谚文字母"@zh ;
+	schema:name "谚文字母"@zh ;
+	rdfs:label "諺文字母"@zh-tw ;
+	skos:prefLabel "諺文字母"@zh-tw ;
+	schema:name "諺文字母"@zh-tw ;
+	rdfs:label "ハングル字母"@ja ;
+	skos:prefLabel "ハングル字母"@ja ;
+	schema:name "ハングル字母"@ja ;
+	rdfs:label "jamo"@fr ;
+	skos:prefLabel "jamo"@fr ;
+	schema:name "jamo"@fr ;
+	rdfs:label "jamo"@es ;
+	skos:prefLabel "jamo"@es ;
+	schema:name "jamo"@es ;
+	rdfs:label "Jamo"@de ;
+	skos:prefLabel "Jamo"@de ;
+	schema:name "Jamo"@de ;
+	rdfs:label "谚文字母"@zh-hans ;
+	skos:prefLabel "谚文字母"@zh-hans ;
+	schema:name "谚文字母"@zh-hans ;
+	schema:description "諺文之字母"@zh-tw,
+		"lettre de l'alphabet coréen"@fr,
+		"letter of the Korean alphabet, usually composed into syllabic blocks"@en ;
+	skos:altLabel "буква хангыля"@ru,
+		"чамо"@ru,
+		"자모"@ko,
+		"자음과 모음"@ko,
+		"모음과 자음"@ko,
+		"Hangul jamo"@en,
+		"Hangul letter"@en .

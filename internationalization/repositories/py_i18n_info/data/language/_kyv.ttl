@@ -1,0 +1,121 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6380675 a schema:Dataset ;
+	schema:about wd:Q6380675 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1775147315"^^xsd:integer ;
+	schema:dateModified "2022-11-19T19:29:45Z"^^xsd:dateTime .
+
+wd:Q6380675 a wikibase:Item .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%DA%A9%D8%A7%DB%8C%D9%88%D8%B1%D8%AA> a schema:Article ;
+	schema:about wd:Q6380675 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان کایورت"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kayort_language> a schema:Article ;
+	schema:about wd:Q6380675 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kayort language"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_kayort> a schema:Article ;
+	schema:about wd:Q6380675 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kayort"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikayort> a schema:Article ;
+	schema:about wd:Q6380675 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikayort"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6380675 wdt:P220 "kyv" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kyv> ;
+	wdt:P31 wd:Q34770,
+		wd:Q5015649,
+		wd:Q1288568 ;
+	wdt:P1394 "kayo1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kayo1247> ;
+	wdt:P305 "kyv" ;
+	wdt:P1627 "kyv" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q837 ;
+	wdt:P2341 wd:Q9170 ;
+	wdt:P646 "/m/02hxl62" ;
+	rdfs:label "زبان کایورت"@fa ;
+	skos:prefLabel "زبان کایورت"@fa ;
+	schema:name "زبان کایورت"@fa ;
+	rdfs:label "Kayort"@en ;
+	skos:prefLabel "Kayort"@en ;
+	schema:name "Kayort"@en ;
+	rdfs:label "Lenga kayort"@pms ;
+	skos:prefLabel "Lenga kayort"@pms ;
+	schema:name "Lenga kayort"@pms ;
+	rdfs:label "Kikayort"@sw ;
+	skos:prefLabel "Kikayort"@sw ;
+	schema:name "Kikayort"@sw ;
+	rdfs:label "Kayort"@en-gb ;
+	skos:prefLabel "Kayort"@en-gb ;
+	schema:name "Kayort"@en-gb ;
+	rdfs:label "kayort"@fr ;
+	skos:prefLabel "kayort"@fr ;
+	schema:name "kayort"@fr ;
+	rdfs:label "Kayort"@cs ;
+	skos:prefLabel "Kayort"@cs ;
+	schema:name "Kayort"@cs ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"jazyk"@cs,
+		"language"@en,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kayort language"@en .
+
+wd:Q12953623 owl:sameAs wd:Q6380675 .

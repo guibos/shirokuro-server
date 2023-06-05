@@ -1,0 +1,825 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33989 a schema:Dataset ;
+	schema:about wd:Q33989 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1969415176"^^xsd:integer ;
+	schema:dateModified "2023-09-06T21:12:48Z"^^xsd:dateTime .
+
+wd:Q33989 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_sranan> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga sranan"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D1%80%D0%B0%D0%BD%D0%B0%D0%BD-%D1%82%D0%BE%D0%BD%D0%B3%D0%BE> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Сранан-тонго"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%A1%D1%80%D0%B0%D0%BD%D0%B0%D0%BD-%D1%82%D0%BE%D0%BD%D0%B3%D0%BE> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Сранан-тонго"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Sranan_jezik> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Sranan jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Sranan> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Sranan"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Sranantongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Sranantongo"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikivoyage.org/wiki/Taalgids_Sranan> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikivoyage.org/> ;
+	schema:name "Taalgids Sranan"@nl .
+
+<https://nl.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://lfn.wikipedia.org/wiki/Sranan_(lingua)> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "lfn" ;
+	schema:isPartOf <https://lfn.wikipedia.org/> ;
+	schema:name "Sranan (lingua)"@lfn .
+
+<https://lfn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%A1%D7%A8%D7%A0%D7%9F_%D7%98%D7%95%D7%A0%D7%92%D7%95> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "סרנן טונגו"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%A9%E3%83%8A%E3%83%B3%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "スラナン語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Sranan_Tongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Sranan Tongo"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Sranantongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Sranantongo"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Sranan_Tongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Sranan Tongo"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_sranan_tongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua sranan tongo"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Srnantongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Srnantongo"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%9A%E0%AF%81%E0%AE%B0%E0%AE%BF%E0%AE%A9%E0%AE%BE%E0%AE%AE%E0%AE%BF%E0%AE%AF_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "சுரினாமிய மொழி"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/Sranan_tongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Sranan tongo"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Sranan> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Sranan"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jv.wikipedia.org/wiki/Basa_Sranan_Tongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "jv" ;
+	schema:isPartOf <https://jv.wikipedia.org/> ;
+	schema:name "Basa Sranan Tongo"@jv .
+
+<https://jv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/Sranan_tongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Sranan tongo"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%84%D8%BA%D8%A9_%D8%B3%D8%B1%D8%A7%D9%86%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "لغة سرانان"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://srn.wikipedia.org/wiki/Sranantongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "srn" ;
+	schema:isPartOf <https://srn.wikipedia.org/> ;
+	schema:name "Sranantongo"@srn .
+
+<https://srn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%B8%E0%B5%8D%E0%B4%B0%E0%B4%A3%E0%B4%BE%E0%B5%BB_%E0%B4%9F%E0%B5%8B%E0%B4%99%E0%B5%8D%E0%B4%95%E0%B5%8B_%E0%B4%AD%E0%B4%BE%E0%B4%B7> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "സ്രണാൻ ടോങ്കോ ഭാഷ"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Sranani_keel> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Sranani keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fy.wikipedia.org/wiki/Surinaamsk-Kreoalsk> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "fy" ;
+	schema:isPartOf <https://fy.wikipedia.org/> ;
+	schema:name "Surinaamsk-Kreoalsk"@fy .
+
+<https://fy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tpi.wikipedia.org/wiki/Sranan> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "tpi" ;
+	schema:isPartOf <https://tpi.wikipedia.org/> ;
+	schema:name "Sranan"@tpi .
+
+<https://tpi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Sranantongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Sranantongo"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pap.wikipedia.org/wiki/Sranantongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "pap" ;
+	schema:isPartOf <https://pap.wikipedia.org/> ;
+	schema:name "Sranantongo"@pap .
+
+<https://pap.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://stq.wikipedia.org/wiki/Sranan_Tongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "stq" ;
+	schema:isPartOf <https://stq.wikipedia.org/> ;
+	schema:name "Sranan Tongo"@stq .
+
+<https://stq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sl.wikipedia.org/wiki/Surinam%C5%A1%C4%8Dina> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikipedia.org/> ;
+	schema:name "Surinamščina"@sl .
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Sranan_tongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Sranan tongo"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Sranan> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Sranan"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D8%A7%D8%B3%D8%B1%D8%A7%D9%86%D8%A7%D9%86_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "اسرانان دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nds.wikipedia.org/wiki/Sranantongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "nds" ;
+	schema:isPartOf <https://nds.wikipedia.org/> ;
+	schema:name "Sranantongo"@nds .
+
+<https://nds.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikivoyage.org/wiki/Sranan_phrasebook> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikivoyage.org/> ;
+	schema:name "Sranan phrasebook"@en .
+
+<https://en.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://eo.wikipedia.org/wiki/Srana_lingvo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Srana lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%A7%D8%B3%D8%B1%D8%A7%D9%86%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان اسرانان"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Sranan_Tongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Sranan Tongo"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Sranan_tongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Sranan tongo"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Sranan> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Sranan"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Sranan_tongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Sranan tongo"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%A1%D1%80%D0%B0%D0%BD%D0%B0%D0%BD-%D1%82%D0%BE%D0%BD%D0%B3%D0%BE> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Сранан-тонго"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Sranantongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Sranantongo"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%8A%A4%EB%9D%BC%EB%82%9C_%ED%86%B5%EA%B3%A0> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "스라난 통고"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Sranantongo_bhasa> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Sranantongo bhasa"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Sranantongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Sranantongo"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E8%98%87%E5%88%A9%E5%8D%97%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "蘇利南語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%A5%E1%B1%A8%E1%B1%9F%E1%B1%B1%E1%B1%9F%E1%B1%B1_%E1%B1%B4%E1%B1%B3%E1%B1%9D%E1%B1%9C%E1%B1%B3_%E1%B1%AF%E1%B1%9F%E1%B1%B9%E1%B1%A8%E1%B1%A5%E1%B1%A4> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱥᱨᱟᱱᱟᱱ ᱴᱳᱝᱜᱳ ᱯᱟᱹᱨᱥᱤ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Sranan_Tongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Sranan Tongo"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wiktionary.org/wiki/Wiktionary:About_Sranan_Tongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wiktionary.org/> ;
+	schema:name "Wiktionary:About Sranan Tongo"@en .
+
+<https://en.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://de.wiktionary.org/wiki/Wiktionary:Sranantongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wiktionary.org/> ;
+	schema:name "Wiktionary:Sranantongo"@de .
+
+<https://de.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://sh.wikipedia.org/wiki/Sranantongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Sranantongo"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisranan> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisranan"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikibooks.org/wiki/Sranan_tongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikibooks.org/> ;
+	schema:name "Sranan tongo"@es .
+
+<https://es.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://ast.wikipedia.org/wiki/Sranan_tongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Sranan tongo"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ce.wikipedia.org/wiki/%D0%A1%D1%80%D0%B0%D0%BD%D0%B0%D0%BD-%D1%82%D0%BE%D0%BD%D0%B3%D0%BE> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "ce" ;
+	schema:isPartOf <https://ce.wikipedia.org/> ;
+	schema:name "Сранан-тонго"@ce .
+
+<https://ce.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Seranan> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Seranan"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sranan_Tongo> a schema:Article ;
+	schema:about wd:Q33989 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sranan Tongo"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33989 wdt:P282 wd:Q8229 ;
+	wdt:P219 "srn" ;
+	wdt:P220 "srn" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/srn> ;
+	wdt:P31 wd:Q34770,
+		wd:Q33289,
+		wd:Q1288568,
+		wd:Q80839 ;
+	wdt:P646 "/m/022lsz" ;
+	wdt:P424 "srn" ;
+	wdt:P305 "srn" ;
+	wdt:P1705 "Sranantongo"@srn ;
+	wdt:P910 wd:Q9102591 ;
+	wdt:P279 wd:Q31989,
+		wd:Q1792622 ;
+	wdt:P1394 "sran1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sran1240> ;
+	wdt:P1014 "300389316" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389316> ;
+	wdt:P1396 "52-ABB-aw" ;
+	wdt:P17 wd:Q730 ;
+	wdt:P373 "Sranan Tongo" ;
+	wdt:P1466 "sra" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_sra> ;
+	wdt:P1417 "topic/Sranan" ;
+	wdt:P2924 "4160991" ;
+	wdt:P443 <http://commons.wikimedia.org/wiki/Special:FilePath/Nl-sranan.ogg> ;
+	wdt:P1627 "srn" ;
+	wdt:P4801 "languages/srn" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/srn> ;
+	wdt:P4801 "iso639-2/srn" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/iso639-2/srn> ;
+	wdt:P244 "sh85127122" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85127122> ;
+	wdt:P3823 wd:Q29051549 ;
+	wdt:P1245 "393578" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SRN> ;
+	wdt:P8408 "SrananLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/SrananLanguage> ;
+	wdt:P2341 wd:Q730 ;
+	wdt:P9060 "srn" ;
+	wdt:P8189 "987007531753605171" ;
+	wdt:P51 <http://commons.wikimedia.org/wiki/Special:FilePath/Sranan%20Tongo%20%28Wikitongues%29.ogg> ;
+	wdt:P10 <http://commons.wikimedia.org/wiki/Special:FilePath/WIKITONGUES-%20Hans%20speaking%20Sranan.webm> ;
+	wdt:P10369 "Q261" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q261> ;
+	wdt:P1098 "+415700"^^xsd:decimal,
+		"+300000"^^xsd:decimal ;
+	rdfs:label "蘇利南語"@zh ;
+	skos:prefLabel "蘇利南語"@zh ;
+	schema:name "蘇利南語"@zh ;
+	rdfs:label "Lenga sranan"@pms ;
+	skos:prefLabel "Lenga sranan"@pms ;
+	schema:name "Lenga sranan"@pms ;
+	rdfs:label "sranan tongo"@pl ;
+	skos:prefLabel "sranan tongo"@pl ;
+	schema:name "sranan tongo"@pl ;
+	rdfs:label "스라난 통고"@ko ;
+	skos:prefLabel "스라난 통고"@ko ;
+	schema:name "스라난 통고"@ko ;
+	rdfs:label "sranan"@fr ;
+	skos:prefLabel "sranan"@fr ;
+	schema:name "sranan"@fr ;
+	rdfs:label "sranan tongo"@es ;
+	skos:prefLabel "sranan tongo"@es ;
+	schema:name "sranan tongo"@es ;
+	rdfs:label "சுரினாமிய மொழி"@ta ;
+	skos:prefLabel "சுரினாமிய மொழி"@ta ;
+	schema:name "சுரினாமிய மொழி"@ta ;
+	rdfs:label "Sranantongo"@srn ;
+	skos:prefLabel "Sranantongo"@srn ;
+	schema:name "Sranantongo"@srn ;
+	rdfs:label "sranan tongo"@it ;
+	skos:prefLabel "sranan tongo"@it ;
+	schema:name "sranan tongo"@it ;
+	rdfs:label "Sranantongo"@de ;
+	skos:prefLabel "Sranantongo"@de ;
+	schema:name "Sranantongo"@de ;
+	rdfs:label "Bahasa Sranantongo"@id ;
+	skos:prefLabel "Bahasa Sranantongo"@id ;
+	schema:name "Bahasa Sranantongo"@id ;
+	rdfs:label "スラナン語"@ja ;
+	skos:prefLabel "スラナン語"@ja ;
+	schema:name "スラナン語"@ja ;
+	rdfs:label "sranan Tongo"@br ;
+	skos:prefLabel "sranan Tongo"@br ;
+	schema:name "sranan Tongo"@br ;
+	rdfs:label "Sranantongo"@pap ;
+	skos:prefLabel "Sranantongo"@pap ;
+	schema:name "Sranantongo"@pap ;
+	rdfs:label "Sranantongo"@nl ;
+	skos:prefLabel "Sranantongo"@nl ;
+	schema:name "Sranantongo"@nl ;
+	rdfs:label "لغة سرانان"@ar ;
+	skos:prefLabel "لغة سرانان"@ar ;
+	schema:name "لغة سرانان"@ar ;
+	rdfs:label "sranan"@sv ;
+	skos:prefLabel "sranan"@sv ;
+	schema:name "sranan"@sv ;
+	rdfs:label "Sranan"@pt ;
+	skos:prefLabel "Sranan"@pt ;
+	schema:name "Sranan"@pt ;
+	rdfs:label "srana lingvo"@eo ;
+	skos:prefLabel "srana lingvo"@eo ;
+	schema:name "srana lingvo"@eo ;
+	rdfs:label "cранан-тонго"@ru ;
+	skos:prefLabel "cранан-тонго"@ru ;
+	schema:name "cранан-тонго"@ru ;
+	rdfs:label "Sranan Tongo"@en ;
+	skos:prefLabel "Sranan Tongo"@en ;
+	schema:name "Sranan Tongo"@en ;
+	rdfs:label "Surinaamsk"@fy ;
+	skos:prefLabel "Surinaamsk"@fy ;
+	schema:name "Surinaamsk"@fy ;
+	rdfs:label "Sranan Tongo"@stq ;
+	skos:prefLabel "Sranan Tongo"@stq ;
+	schema:name "Sranan Tongo"@stq ;
+	rdfs:label "сранан-тонго"@uk ;
+	skos:prefLabel "сранан-тонго"@uk ;
+	schema:name "сранан-тонго"@uk ;
+	rdfs:label "Sranan Tongo"@cs ;
+	skos:prefLabel "Sranan Tongo"@cs ;
+	schema:name "Sranan Tongo"@cs ;
+	rdfs:label "Sranantongo"@nds ;
+	skos:prefLabel "Sranantongo"@nds ;
+	schema:name "Sranantongo"@nds ;
+	rdfs:label "Sranan jezik"@hr ;
+	skos:prefLabel "Sranan jezik"@hr ;
+	schema:name "Sranan jezik"@hr ;
+	rdfs:label "Sranan tongo"@da ;
+	skos:prefLabel "Sranan tongo"@da ;
+	schema:name "Sranan tongo"@da ;
+	rdfs:label "Sranantongo"@fi ;
+	skos:prefLabel "Sranantongo"@fi ;
+	schema:name "Sranantongo"@fi ;
+	rdfs:label "sranan"@nb ;
+	skos:prefLabel "sranan"@nb ;
+	schema:name "sranan"@nb ;
+	rdfs:label "Sranani keel"@et ;
+	skos:prefLabel "Sranani keel"@et ;
+	schema:name "Sranani keel"@et ;
+	rdfs:label "زبان اسرانان"@fa ;
+	skos:prefLabel "زبان اسرانان"@fa ;
+	schema:name "زبان اسرانان"@fa ;
+	rdfs:label "sranan tongo"@ca ;
+	skos:prefLabel "sranan tongo"@ca ;
+	schema:name "sranan tongo"@ca ;
+	rdfs:label "Surinamščina"@sl ;
+	skos:prefLabel "Surinamščina"@sl ;
+	schema:name "Surinamščina"@sl ;
+	rdfs:label "суринамски јазик"@mk ;
+	skos:prefLabel "суринамски јазик"@mk ;
+	schema:name "суринамски јазик"@mk ;
+	rdfs:label "tiếng Sranan Tongo"@vi ;
+	skos:prefLabel "tiếng Sranan Tongo"@vi ;
+	schema:name "tiếng Sranan Tongo"@vi ;
+	rdfs:label "苏里南语"@zh-hans ;
+	skos:prefLabel "苏里南语"@zh-hans ;
+	schema:name "苏里南语"@zh-hans ;
+	rdfs:label "蘇利南語"@zh-hant ;
+	skos:prefLabel "蘇利南語"@zh-hant ;
+	schema:name "蘇利南語"@zh-hant ;
+	rdfs:label "Sranan tongo"@gl ;
+	skos:prefLabel "Sranan tongo"@gl ;
+	schema:name "Sranan tongo"@gl ;
+	rdfs:label "Sranan Tongo"@en-gb ;
+	skos:prefLabel "Sranan Tongo"@en-gb ;
+	schema:name "Sranan Tongo"@en-gb ;
+	rdfs:label "sranan"@hu ;
+	skos:prefLabel "sranan"@hu ;
+	schema:name "sranan"@hu ;
+	rdfs:label "اسرانان دیلی"@azb ;
+	skos:prefLabel "اسرانان دیلی"@azb ;
+	schema:name "اسرانان دیلی"@azb ;
+	rdfs:label "സ്രണാൻ ടോങ്കോ ഭാഷ"@ml ;
+	skos:prefLabel "സ്രണാൻ ടോങ്കോ ഭാഷ"@ml ;
+	schema:name "സ്രണാൻ ടോങ്കോ ഭാഷ"@ml ;
+	rdfs:label "Sranantongo"@lfn ;
+	skos:prefLabel "Sranantongo"@lfn ;
+	schema:name "Sranantongo"@lfn ;
+	rdfs:label "Srnantongo"@lt ;
+	skos:prefLabel "Srnantongo"@lt ;
+	schema:name "Srnantongo"@lt ;
+	rdfs:label "Sranan"@tpi ;
+	skos:prefLabel "Sranan"@tpi ;
+	schema:name "Sranan"@tpi ;
+	rdfs:label "Basa Sranan Tongo"@jv ;
+	skos:prefLabel "Basa Sranan Tongo"@jv ;
+	schema:name "Basa Sranan Tongo"@jv ;
+	rdfs:label "סרנן טונגו"@he ;
+	skos:prefLabel "סרנן טונגו"@he ;
+	schema:name "סרנן טונגו"@he ;
+	rdfs:label "sranan tongo"@ast ;
+	skos:prefLabel "sranan tongo"@ast ;
+	schema:name "sranan tongo"@ast ;
+	rdfs:label "Сранан-тонго"@tt ;
+	skos:prefLabel "Сранан-тонго"@tt ;
+	schema:name "Сранан-тонго"@tt ;
+	rdfs:label "Sranantongo"@af ;
+	skos:prefLabel "Sranantongo"@af ;
+	schema:name "Sranantongo"@af ;
+	rdfs:label "Sranantongo bhasa"@hif ;
+	skos:prefLabel "Sranantongo bhasa"@hif ;
+	schema:name "Sranantongo bhasa"@hif ;
+	rdfs:label "蘇利南語"@zh-cn ;
+	skos:prefLabel "蘇利南語"@zh-cn ;
+	schema:name "蘇利南語"@zh-cn ;
+	rdfs:label "ᱥᱨᱟᱱᱟᱱ ᱴᱳᱝᱜᱳ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	skos:prefLabel "ᱥᱨᱟᱱᱟᱱ ᱴᱳᱝᱜᱳ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	schema:name "ᱥᱨᱟᱱᱟᱱ ᱴᱳᱝᱜᱳ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	rdfs:label "Sranan Tongo"@eu ;
+	skos:prefLabel "Sranan Tongo"@eu ;
+	schema:name "Sranan Tongo"@eu ;
+	rdfs:label "sranan tongo"@vec ;
+	skos:prefLabel "sranan tongo"@vec ;
+	schema:name "sranan tongo"@vec ;
+	rdfs:label "سرانان ٹونگو"@pnb ;
+	skos:prefLabel "سرانان ٹونگو"@pnb ;
+	schema:name "سرانان ٹونگو"@pnb ;
+	rdfs:label "ਸ੍ਰਾਨਾਨ ਟੋਨਗੋ"@pa ;
+	skos:prefLabel "ਸ੍ਰਾਨਾਨ ਟੋਨਗੋ"@pa ;
+	schema:name "ਸ੍ਰਾਨਾਨ ਟੋਨਗੋ"@pa ;
+	rdfs:label "Sranantongo"@sh ;
+	skos:prefLabel "Sranantongo"@sh ;
+	schema:name "Sranantongo"@sh ;
+	rdfs:label "Kisranan"@sw ;
+	skos:prefLabel "Kisranan"@sw ;
+	schema:name "Kisranan"@sw ;
+	rdfs:label "Сранан-тонго"@ce ;
+	skos:prefLabel "Сранан-тонго"@ce ;
+	schema:name "Сранан-тонго"@ce ;
+	rdfs:label "Bahasa Seranan"@ms ;
+	skos:prefLabel "Bahasa Seranan"@ms ;
+	schema:name "Bahasa Seranan"@ms ;
+	schema:description "lengua criolla hablada en Surinam"@es,
+		"Sprache in Suriname"@de,
+		"lingua creola usato in Suriname"@it,
+		"creole language spoken in Suriname"@en,
+		"taal gesproken in Suriname"@nl,
+		"langue créole au Suriname"@fr,
+		"שפה"@he,
+		"креольский язык, распространённый в Суринаме"@ru,
+		"idioma crioulo falado no Suriname como língua franca"@pt,
+		"sprog talt i Suriname"@da,
+		"yezh"@br,
+		"lingua"@la,
+		"iaith"@cy,
+		"kreolspråk som talas i Surinam"@sv,
+		"креольська мова, поширена в Суринамі"@uk,
+		"சுரினாம்மில் பேசப்படும் மொழி கிரியோல் ஆகும்"@ta,
+		"llingua de Surinam"@ast,
+		"bagian dari rumpun bahasa Kreol"@id,
+		"język kreolski"@pl ;
+	skos:altLabel "język srański"@pl,
+		"język surinamski"@pl,
+		"créole surinamien"@fr,
+		"sranantongo"@fr,
+		"sranan tongo"@fr,
+		"Taki-taki"@es,
+		"Taki taki"@es,
+		"Sranang Tongo"@es,
+		"Sranan Tongo"@srn,
+		"srn"@srn,
+		"lingua sranan tongo"@it,
+		"Surinamisch"@de,
+		"Sranan Tongo"@de,
+		"Surinaams"@de,
+		"Sranan-Tongo"@de,
+		"Bahasa Sranan Tongo"@id,
+		"Bahasa Taki-taki"@id,
+		"スリナム語"@ja,
+		"タキタキ語"@ja,
+		"Sranang Tongo"@br,
+		"Sranan Tongo"@pap,
+		"Sranan Tongo"@nl,
+		"Surinaams"@nl,
+		"takitaki"@nl,
+		"negerengels"@nl,
+		"لغة سرانان طونغو"@ar,
+		"Sranang"@sv,
+		"Surinamesiska"@sv,
+		"Sranantongo"@sv,
+		"Taki-Taki"@sv,
+		"Sranang Tongo"@sv,
+		"Srana"@sv,
+		"Sranan Tongo"@sv,
+		"Surinaams"@sv,
+		"Língua surinamesa"@pt,
+		"Sranantongo"@pt,
+		"Sranan Tongo"@pt,
+		"Surinamês"@pt,
+		"Sranan tongo"@eo,
+		"surinama lingvo"@eo,
+		"Таки-таки"@ru,
+		"Суринамский язык"@ru,
+		"Сранан"@ru,
+		"Сранан тонго"@ru,
+		"Sranan"@stq,
+		"Suriname"@stq,
+		"суринамська мова"@uk,
+		"taki-taki"@nb,
+		"surinaams"@nb,
+		"sranan tongo"@nb,
+		"taki taki"@nb,
+		"Sranan"@en,
+		"Sranantongo"@en,
+		"Surinamese"@en,
+		"Surinamese Creole"@en,
+		"Surinamese tongue"@en,
+		"Surinaams"@en,
+		"Taki Taki"@en,
+		"srn"@en,
+		"сранан-тонго"@mk,
+		"таки-таки"@mk,
+		"сранан"@mk,
+		"Sranantongo"@gl,
+		"Taki taki"@gl,
+		"斯拉南通戈"@zh,
+		"스라난"@ko,
+		"스라난통고"@ko,
+		"스라난통오"@ko .

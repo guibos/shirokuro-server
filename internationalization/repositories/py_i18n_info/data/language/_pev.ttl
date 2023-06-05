@@ -1,0 +1,134 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3439012 a schema:Dataset ;
+	schema:about wd:Q3439012 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1923084929"^^xsd:integer ;
+	schema:dateModified "2023-06-24T18:50:49Z"^^xsd:dateTime .
+
+wd:Q3439012 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_p%C3%A9mono> a schema:Article ;
+	schema:about wd:Q3439012 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga pémono"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_p%C3%A9mono> a schema:Article ;
+	schema:about wd:Q3439012 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma pémono"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Pemonoa_lingvo> a schema:Article ;
+	schema:about wd:Q3439012 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Pemonoa lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_p%C3%A9mono> a schema:Article ;
+	schema:about wd:Q3439012 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma pémono"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/P%C3%A9mono_jezik> a schema:Article ;
+	schema:about wd:Q3439012 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Pémono jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3439012 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "pev" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pev> ;
+	wdt:P2355 "1966" ;
+	wdt:P17 wd:Q717 ;
+	wdt:P1394 "pemo1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/pemo1245> ;
+	wdt:P279 wd:Q33090 ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P305 "pev" ;
+	wdt:P1627 "pev" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P2341 wd:Q170453 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PEV> ;
+	wdt:P646 "/m/05sx8yl" ;
+	rdfs:label "pemonoa lingvo"@eo ;
+	skos:prefLabel "pemonoa lingvo"@eo ;
+	schema:name "pemonoa lingvo"@eo ;
+	rdfs:label "Lenga pémono"@pms ;
+	skos:prefLabel "Lenga pémono"@pms ;
+	schema:name "Lenga pémono"@pms ;
+	rdfs:label "Idioma pémono"@es ;
+	skos:prefLabel "Idioma pémono"@es ;
+	schema:name "Idioma pémono"@es ;
+	rdfs:label "Pémono jezik"@hr ;
+	skos:prefLabel "Pémono jezik"@hr ;
+	schema:name "Pémono jezik"@hr ;
+	rdfs:label "Pémono"@en ;
+	skos:prefLabel "Pémono"@en ;
+	schema:name "Pémono"@en ;
+	rdfs:label "Pémono"@en-gb ;
+	skos:prefLabel "Pémono"@en-gb ;
+	schema:name "Pémono"@en-gb ;
+	rdfs:label "pémono"@fr ;
+	skos:prefLabel "pémono"@fr ;
+	schema:name "pémono"@fr ;
+	rdfs:label "Idioma pémono"@ast ;
+	skos:prefLabel "Idioma pémono"@ast ;
+	schema:name "Idioma pémono"@ast ;
+	schema:description "שפה"@he,
+		"language"@en,
+		"langue caribe"@fr,
+		"yezh"@br,
+		"lengua indígena americana de la familia caribe"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Pémono"@es,
+		"Idioma pemono"@es,
+		"Pemono"@es,
+		"Pemono"@en .

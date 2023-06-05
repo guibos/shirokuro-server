@@ -1,0 +1,119 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11732345 a schema:Dataset ;
+	schema:about wd:Q11732345 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1820765363"^^xsd:integer ;
+	schema:dateModified "2023-01-28T04:30:02Z"^^xsd:dateTime .
+
+wd:Q11732345 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Konongo> a schema:Article ;
+	schema:about wd:Q11732345 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Konongo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_konongo> a schema:Article ;
+	schema:about wd:Q11732345 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język konongo"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikonongo> a schema:Article ;
+	schema:about wd:Q11732345 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikonongo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Konongo_language> a schema:Article ;
+	schema:about wd:Q11732345 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Konongo language"@en ;
+	wikibase:badge wd:Q70894304 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11732345 wdt:P282 wd:Q8229 ;
+	wdt:P1098 "+51000"^^xsd:decimal ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "kcz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kcz> ;
+	wdt:P1394 "kono1270" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kono1270> ;
+	wdt:P279 wd:Q116456761 ;
+	wdt:P305 "kcz" ;
+	wdt:P1627 "kcz" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q924 ;
+	wdt:P2341 wd:Q153329 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KCZ> ;
+	rdfs:label "Język konongo"@pl ;
+	skos:prefLabel "Język konongo"@pl ;
+	schema:name "Język konongo"@pl ;
+	rdfs:label "Kikonongo"@sw ;
+	skos:prefLabel "Kikonongo"@sw ;
+	schema:name "Kikonongo"@sw ;
+	rdfs:label "Lenga Konongo"@pms ;
+	skos:prefLabel "Lenga Konongo"@pms ;
+	schema:name "Lenga Konongo"@pms ;
+	rdfs:label "Konongo"@en ;
+	skos:prefLabel "Konongo"@en ;
+	schema:name "Konongo"@en ;
+	rdfs:label "Konongo"@en-gb ;
+	skos:prefLabel "Konongo"@en-gb ;
+	schema:name "Konongo"@en-gb ;
+	rdfs:label "konongo"@fr ;
+	skos:prefLabel "konongo"@fr ;
+	schema:name "konongo"@fr ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue bantoue"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Konongo language"@en .
+
+wd:Q16939512 owl:sameAs wd:Q11732345 .

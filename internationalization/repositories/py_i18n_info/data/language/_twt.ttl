@@ -1,0 +1,138 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3542307 a schema:Dataset ;
+	schema:about wd:Q3542307 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960619110"^^xsd:integer ;
+	schema:dateModified "2023-08-25T01:06:46Z"^^xsd:dateTime .
+
+wd:Q3542307 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Turiwara> a schema:Article ;
+	schema:about wd:Q3542307 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Turiwara"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_turiw%C3%A1ra> a schema:Article ;
+	schema:about wd:Q3542307 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga turiwára"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%B2%D0%B0%D1%80%D0%B0_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q3542307 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Туривара (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Turiw%C3%A1ra_language> a schema:Article ;
+	schema:about wd:Q3542307 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Turiwára language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_turiuara> a schema:Article ;
+	schema:about wd:Q3542307 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua turiuara"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3542307 wdt:P220 "twt" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/twt> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P305 "twt" ;
+	wdt:P279 wd:Q148610 ;
+	wdt:P1394 "turi1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/turi1247> ;
+	wdt:P1889 wd:Q4000626 ;
+	wdt:P2581 "02867294n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s02867294n> ;
+	wdt:P1627 "twt" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q155 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TWT> ;
+	wdt:P646 "/m/02hx1th" ;
+	rdfs:label "turiwara"@fr ;
+	skos:prefLabel "turiwara"@fr ;
+	schema:name "turiwara"@fr ;
+	rdfs:label "Turiwára"@en ;
+	skos:prefLabel "Turiwára"@en ;
+	schema:name "Turiwára"@en ;
+	rdfs:label "Lenga turiwára"@pms ;
+	skos:prefLabel "Lenga turiwára"@pms ;
+	schema:name "Lenga turiwára"@pms ;
+	rdfs:label "Туривара"@ru ;
+	skos:prefLabel "Туривара"@ru ;
+	schema:name "Туривара"@ru ;
+	rdfs:label "Turiwára"@en-gb ;
+	skos:prefLabel "Turiwára"@en-gb ;
+	schema:name "Turiwára"@en-gb ;
+	rdfs:label "Língua turiuara"@pt ;
+	skos:prefLabel "Língua turiuara"@pt ;
+	schema:name "Língua turiuara"@pt ;
+	rdfs:label "Língua turiuara"@pt-br ;
+	skos:prefLabel "Língua turiuara"@pt-br ;
+	schema:name "Língua turiuara"@pt-br ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"idioma pertencente à família tupi-guarani"@pt,
+		"idioma pertencente à família tupi-guarani"@pt-br ;
+	skos:altLabel "Turiuara"@fr,
+		"Turiwára language"@en,
+		"Turiwara"@en,
+		"Turiwara language"@en,
+		"Língua turiguara"@pt-br,
+		"Língua turiwára"@pt-br .
+
+wd:Q12953940 owl:sameAs wd:Q3542307 .

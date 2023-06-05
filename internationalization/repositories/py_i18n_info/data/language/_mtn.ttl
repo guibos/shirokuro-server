@@ -1,0 +1,130 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3490756 a schema:Dataset ;
+	schema:about wd:Q3490756 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1704145949"^^xsd:integer ;
+	schema:dateModified "2022-08-14T22:34:30Z"^^xsd:dateTime .
+
+wd:Q3490756 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_matagalpa> a schema:Article ;
+	schema:about wd:Q3490756 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga matagalpa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Matagalpa_language> a schema:Article ;
+	schema:about wd:Q3490756 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Matagalpa language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_matagalpa> a schema:Article ;
+	schema:about wd:Q3490756 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma matagalpa"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Matagalpa_(jazyk)> a schema:Article ;
+	schema:about wd:Q3490756 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Matagalpa (jazyk)"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3490756 wdt:P220 "mtn" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mtn> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P646 "/m/070_yk" ;
+	wdt:P1394 "mata1288" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mata1288> ;
+	wdt:P2355 "1895" ;
+	wdt:P1014 "300388837" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388837> ;
+	wdt:P1627 "mtn" ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P305 "mtn" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q811,
+		wd:Q783 ;
+	wdt:P2341 wd:Q728120,
+		wd:Q728099 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MTN> ;
+	wdt:P279 wd:Q281693 ;
+	wdt:P910 wd:Q33666295 ;
+	rdfs:label "Lenga matagalpa"@pms ;
+	skos:prefLabel "Lenga matagalpa"@pms ;
+	schema:name "Lenga matagalpa"@pms ;
+	rdfs:label "Matagalpa"@cs ;
+	skos:prefLabel "Matagalpa"@cs ;
+	schema:name "Matagalpa"@cs ;
+	rdfs:label "Idioma matagalpa"@es ;
+	skos:prefLabel "Idioma matagalpa"@es ;
+	schema:name "Idioma matagalpa"@es ;
+	rdfs:label "Matagalpa"@en ;
+	skos:prefLabel "Matagalpa"@en ;
+	schema:name "Matagalpa"@en ;
+	rdfs:label "matagalpa"@ca ;
+	skos:prefLabel "matagalpa"@ca ;
+	schema:name "matagalpa"@ca ;
+	rdfs:label "Matagalpa"@en-gb ;
+	skos:prefLabel "Matagalpa"@en-gb ;
+	schema:name "Matagalpa"@en-gb ;
+	rdfs:label "matagalpa"@it ;
+	skos:prefLabel "matagalpa"@it ;
+	schema:name "matagalpa"@it ;
+	rdfs:label "matagalpa"@vec ;
+	skos:prefLabel "matagalpa"@vec ;
+	schema:name "matagalpa"@vec ;
+	schema:description "extinct Misumalpan language"@en,
+		"vymřelý jazyk z misumalpské jazykové rodiny"@cs,
+		"Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua estinta"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Matagalpa language"@en .

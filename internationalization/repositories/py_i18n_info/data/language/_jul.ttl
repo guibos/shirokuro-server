@@ -1,0 +1,166 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56863 a schema:Dataset ;
+	schema:about wd:Q56863 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1615996824"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:47:24Z"^^xsd:dateTime .
+
+wd:Q56863 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Jirel> a schema:Article ;
+	schema:about wd:Q56863 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Jirel"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kijirel> a schema:Article ;
+	schema:about wd:Q56863 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kijirel"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Jirel_language> a schema:Article ;
+	schema:about wd:Q56863 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Jirel language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Djireleg> a schema:Article ;
+	schema:about wd:Q56863 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Djireleg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mai.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BF%E0%A4%B0%E0%A5%87%E0%A4%B2_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q56863 ;
+	schema:inLanguage "mai" ;
+	schema:isPartOf <https://mai.wikipedia.org/> ;
+	schema:name "जिरेल भाषा"@mai .
+
+<https://mai.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ne.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BF%E0%A4%B0%E0%A5%87%E0%A4%B2_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q56863 ;
+	schema:inLanguage "ne" ;
+	schema:isPartOf <https://ne.wikipedia.org/> ;
+	schema:name "जिरेल भाषा"@ne .
+
+<https://ne.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%87%A0%E7%83%AD%E5%B0%94%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q56863 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "几热尔语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56863 wdt:P220 "jul" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/jul> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q1641150 ;
+	wdt:P1394 "jire1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/jire1238> ;
+	wdt:P2355 "1125" ;
+	wdt:P17 wd:Q837 ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P2192 "4340" ;
+	wdt:P305 "jul" ;
+	wdt:P1627 "jul" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2341 wd:Q9046,
+		wd:Q9152,
+		wd:Q9172,
+		wd:Q9183 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/JUL> ;
+	wdt:P646 "/m/02hxxfz" ;
+	rdfs:label "djireleg"@br ;
+	skos:prefLabel "djireleg"@br ;
+	schema:name "djireleg"@br ;
+	rdfs:label "Jirel"@en ;
+	skos:prefLabel "Jirel"@en ;
+	schema:name "Jirel"@en ;
+	rdfs:label "जिरेल भाषा"@mai ;
+	skos:prefLabel "जिरेल भाषा"@mai ;
+	schema:name "जिरेल भाषा"@mai ;
+	rdfs:label "几热尔语"@zh ;
+	skos:prefLabel "几热尔语"@zh ;
+	schema:name "几热尔语"@zh ;
+	rdfs:label "Lenga Jirel"@pms ;
+	skos:prefLabel "Lenga Jirel"@pms ;
+	schema:name "Lenga Jirel"@pms ;
+	rdfs:label "Kijirel"@sw ;
+	skos:prefLabel "Kijirel"@sw ;
+	schema:name "Kijirel"@sw ;
+	rdfs:label "Jirel"@en-gb ;
+	skos:prefLabel "Jirel"@en-gb ;
+	schema:name "Jirel"@en-gb ;
+	rdfs:label "जिरेल भाषा"@ne ;
+	skos:prefLabel "जिरेल भाषा"@ne ;
+	schema:name "जिरेल भाषा"@ne ;
+	rdfs:label "Wikang Jirel"@tl ;
+	skos:prefLabel "Wikang Jirel"@tl ;
+	schema:name "Wikang Jirel"@tl ;
+	rdfs:label "jirel"@fr ;
+	skos:prefLabel "jirel"@fr ;
+	schema:name "jirel"@fr ;
+	rdfs:label "Jirel"@nl ;
+	skos:prefLabel "Jirel"@nl ;
+	schema:name "Jirel"@nl ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue tibétique"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Jirel language"@en .
+
+wd:Q12952532 owl:sameAs wd:Q56863 .
+
+wd:Q19678184 owl:sameAs wd:Q56863 .
+
+wd:Q31442297 owl:sameAs wd:Q56863 .

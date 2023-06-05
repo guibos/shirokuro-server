@@ -1,0 +1,133 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4700657 a schema:Dataset ;
+	schema:about wd:Q4700657 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1785763895"^^xsd:integer ;
+	schema:dateModified "2022-12-06T23:07:47Z"^^xsd:dateTime .
+
+wd:Q4700657 a wikibase:Item .
+
+<https://tl.wikipedia.org/wiki/Wikang_Akeu> a schema:Article ;
+	schema:about wd:Q4700657 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Akeu"@tl ;
+	wikibase:badge wd:Q70893996 .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiakeu> a schema:Article ;
+	schema:about wd:Q4700657 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiakeu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Akeu_language> a schema:Article ;
+	schema:about wd:Q4700657 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Akeu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Akeu_jezik> a schema:Article ;
+	schema:about wd:Q4700657 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Akeu jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E9%98%BF%E5%85%8B%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q4700657 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "阿克语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4700657 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "akeu1235" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/akeu1235> ;
+	wdt:P2355 "2220" ;
+	wdt:P220 "aeu" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/aeu> ;
+	wdt:P17 wd:Q819,
+		wd:Q148 ;
+	wdt:P279 wd:Q5649340 ;
+	wdt:P2192 "3597" ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P305 "aeu" ;
+	wdt:P1627 "aeu" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q43194 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/AEU> ;
+	wdt:P646 "/m/05sx8vl" ;
+	rdfs:label "Akeu"@en ;
+	skos:prefLabel "Akeu"@en ;
+	schema:name "Akeu"@en ;
+	rdfs:label "Akeu jezik"@hr ;
+	skos:prefLabel "Akeu jezik"@hr ;
+	schema:name "Akeu jezik"@hr ;
+	rdfs:label "Kiakeu"@sw ;
+	skos:prefLabel "Kiakeu"@sw ;
+	schema:name "Kiakeu"@sw ;
+	rdfs:label "Akeu"@en-gb ;
+	skos:prefLabel "Akeu"@en-gb ;
+	schema:name "Akeu"@en-gb ;
+	rdfs:label "Wikang Akeu"@tl ;
+	skos:prefLabel "Wikang Akeu"@tl ;
+	schema:name "Wikang Akeu"@tl ;
+	rdfs:label "akeu"@fr ;
+	skos:prefLabel "akeu"@fr ;
+	schema:name "akeu"@fr ;
+	rdfs:label "勐仑勾克語"@zh ;
+	skos:prefLabel "勐仑勾克語"@zh ;
+	schema:name "勐仑勾克語"@zh ;
+	schema:description "langue lolo"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Akeu language"@en,
+		"勐仑阿克阿卡語"@zh .
+
+wd:Q31442092 owl:sameAs wd:Q4700657 .

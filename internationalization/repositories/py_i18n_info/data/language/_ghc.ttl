@@ -1,0 +1,165 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5128278 a schema:Dataset ;
+	schema:about wd:Q5128278 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1847514271"^^xsd:integer ;
+	schema:dateModified "2023-03-08T19:58:07Z"^^xsd:dateTime .
+
+wd:Q5128278 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_ga%C3%A9lica_cl%C3%A0ssica> a schema:Article ;
+	schema:about wd:Q5128278 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga gaélica clàssica"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gd.wikipedia.org/wiki/G%C3%A0idhlig_Chlasaigeach> a schema:Article ;
+	schema:about wd:Q5128278 ;
+	schema:inLanguage "gd" ;
+	schema:isPartOf <https://gd.wikipedia.org/> ;
+	schema:name "Gàidhlig Chlasaigeach"@gd .
+
+<https://gd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Classical_Gaelic> a schema:Article ;
+	schema:about wd:Q5128278 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Classical Gaelic"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%DA%A9%D9%84%D8%A7%D8%B3%DB%8C%DA%A9%DB%8C_%DA%AF%DB%8C%D9%84%DA%A9> a schema:Article ;
+	schema:about wd:Q5128278 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "کلاسیکی گیلک"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Ga%C3%A9lico_cl%C3%A1sico> a schema:Article ;
+	schema:about wd:Q5128278 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Gaélico clásico"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Klassisches_G%C3%A4lisch> a schema:Article ;
+	schema:about wd:Q5128278 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Klassisches Gälisch"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Klasi%C4%8Dni_gaelski_jezik> a schema:Article ;
+	schema:about wd:Q5128278 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Klasični gaelski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ga.wikipedia.org/wiki/Gaeilge_Chlasaiceach> a schema:Article ;
+	schema:about wd:Q5128278 ;
+	schema:inLanguage "ga" ;
+	schema:isPartOf <https://ga.wikipedia.org/> ;
+	schema:name "Gaeilge Chlasaiceach"@ga .
+
+<https://ga.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5128278 wdt:P220 "ghc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ghc> ;
+	wdt:P31 wd:Q34770,
+		wd:Q2315359 ;
+	wdt:P1394 "hibe1235" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/hibe1235> ;
+	wdt:P305 "ghc" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GHC> ;
+	wdt:P646 "/m/0282qy9" ;
+	rdfs:label "Hiberno-škotski gaelski jezik"@hr ;
+	skos:prefLabel "Hiberno-škotski gaelski jezik"@hr ;
+	schema:name "Hiberno-škotski gaelski jezik"@hr ;
+	rdfs:label "Classical Gaelic"@en ;
+	skos:prefLabel "Classical Gaelic"@en ;
+	schema:name "Classical Gaelic"@en ;
+	rdfs:label "gaélico clásico"@es ;
+	skos:prefLabel "gaélico clásico"@es ;
+	schema:name "gaélico clásico"@es ;
+	rdfs:label "Gàidhlig Chlasaigeach"@gd ;
+	skos:prefLabel "Gàidhlig Chlasaigeach"@gd ;
+	schema:name "Gàidhlig Chlasaigeach"@gd ;
+	rdfs:label "Lenga gaélica clàssica"@pms ;
+	skos:prefLabel "Lenga gaélica clàssica"@pms ;
+	schema:name "Lenga gaélica clàssica"@pms ;
+	rdfs:label "Classical Gaelic"@en-gb ;
+	skos:prefLabel "Classical Gaelic"@en-gb ;
+	schema:name "Classical Gaelic"@en-gb ;
+	rdfs:label "klassisches Gälisch"@de ;
+	skos:prefLabel "klassisches Gälisch"@de ;
+	schema:name "klassisches Gälisch"@de ;
+	rdfs:label "古典蓋爾語"@zh ;
+	skos:prefLabel "古典蓋爾語"@zh ;
+	schema:name "古典蓋爾語"@zh ;
+	rdfs:label "klasika gaela lingvo"@eo ;
+	skos:prefLabel "klasika gaela lingvo"@eo ;
+	schema:name "klasika gaela lingvo"@eo ;
+	rdfs:label "کلاسیکی گیلک"@ur ;
+	skos:prefLabel "کلاسیکی گیلک"@ur ;
+	schema:name "کلاسیکی گیلک"@ur ;
+	rdfs:label "klassiek Gaelisch"@nl ;
+	skos:prefLabel "klassiek Gaelisch"@nl ;
+	schema:name "klassiek Gaelisch"@nl ;
+	rdfs:label "Gaeilge Chlasaiceach"@ga ;
+	skos:prefLabel "Gaeilge Chlasaiceach"@ga ;
+	schema:name "Gaeilge Chlasaiceach"@ga ;
+	schema:description "Irische und Schottische Sprache im 13. bis 18. Jarhrhundert"@de,
+		"שפה"@he,
+		"shared literary form of Early Middle Irish used in Scotland and Ireland from the 13th to the 18th centuries"@en-gb,
+		"historical Gaelic language standard"@en,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Hiberno-Scottish Gaelic"@en,
+		"Hiberno-Scottish Gaelic"@en-gb,
+		"gaelico clasico"@es .
+
+wd:Q12953526 owl:sameAs wd:Q5128278 .

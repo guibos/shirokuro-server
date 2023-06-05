@@ -1,0 +1,171 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3441315 a schema:Dataset ;
+	schema:about wd:Q3441315 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961412604"^^xsd:integer ;
+	schema:dateModified "2023-08-26T02:16:49Z"^^xsd:dateTime .
+
+wd:Q3441315 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Pa%27a> a schema:Article ;
+	schema:about wd:Q3441315 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Pa'a"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%E2%80%99%D0%B0> a schema:Article ;
+	schema:about wd:Q3441315 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Па’а"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kipa%27a> a schema:Article ;
+	schema:about wd:Q3441315 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kipa'a"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Paaeg> a schema:Article ;
+	schema:about wd:Q3441315 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Paaeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Pa%E2%80%99a_jezik> a schema:Article ;
+	schema:about wd:Q3441315 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Pa’a jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Pa%CA%BCa_language> a schema:Article ;
+	schema:about wd:Q3441315 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Paʼa language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ha.wikipedia.org/wiki/Pa%27anci> a schema:Article ;
+	schema:about wd:Q3441315 ;
+	schema:inLanguage "ha" ;
+	schema:isPartOf <https://ha.wikipedia.org/> ;
+	schema:name "Pa'anci"@ha .
+
+<https://ha.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_nd%E1%BB%8B_Pa%CA%BCa> a schema:Article ;
+	schema:about wd:Q3441315 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ ndị Paʼa"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3441315 wdt:P220 "pqa" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pqa> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "paaa1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/paaa1242> ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P131 wd:Q503936,
+		wd:Q7038694 ;
+	wdt:P1098 "+8000"^^xsd:decimal ;
+	wdt:P1466 "paa" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_paa> ;
+	wdt:P5198 "29493068X" ;
+	wdt:P305 "pqa" ;
+	wdt:P279 wd:Q2447774 ;
+	wdt:P2192 "10445" ;
+	wdt:P1627 "pqa" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q503936,
+		wd:Q509300 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PQA> ;
+	wdt:P646 "/m/02hwh79" ;
+	wdt:P910 wd:Q33289825 ;
+	rdfs:label "Kipa'a"@sw ;
+	skos:prefLabel "Kipa'a"@sw ;
+	schema:name "Kipa'a"@sw ;
+	rdfs:label "Lenga Pa'a"@pms ;
+	skos:prefLabel "Lenga Pa'a"@pms ;
+	schema:name "Lenga Pa'a"@pms ;
+	rdfs:label "Pa'a"@en ;
+	skos:prefLabel "Pa'a"@en ;
+	schema:name "Pa'a"@en ;
+	rdfs:label "Pa’a jezik"@hr ;
+	skos:prefLabel "Pa’a jezik"@hr ;
+	schema:name "Pa’a jezik"@hr ;
+	rdfs:label "paaeg"@br ;
+	skos:prefLabel "paaeg"@br ;
+	schema:name "paaeg"@br ;
+	rdfs:label "Pa'a"@en-gb ;
+	skos:prefLabel "Pa'a"@en-gb ;
+	schema:name "Pa'a"@en-gb ;
+	rdfs:label "Wikang Pa'a"@tl ;
+	skos:prefLabel "Wikang Pa'a"@tl ;
+	schema:name "Wikang Pa'a"@tl ;
+	rdfs:label "Па’а"@ru ;
+	skos:prefLabel "Па’а"@ru ;
+	schema:name "Па’а"@ru ;
+	rdfs:label "pa'a"@fr ;
+	skos:prefLabel "pa'a"@fr ;
+	schema:name "pa'a"@fr ;
+	rdfs:label "Pa'anci"@ha ;
+	skos:prefLabel "Pa'anci"@ha ;
+	schema:name "Pa'anci"@ha ;
+	rdfs:label "Asụsụ ndị Paʼa"@ig ;
+	skos:prefLabel "Asụsụ ndị Paʼa"@ig ;
+	schema:name "Asụsụ ndị Paʼa"@ig ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue tchadique occidentale"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Pa'a language"@en .

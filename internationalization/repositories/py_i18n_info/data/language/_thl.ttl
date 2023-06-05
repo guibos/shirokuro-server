@@ -1,0 +1,115 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q22083815 a schema:Dataset ;
+	schema:about wd:Q22083815 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961428269"^^xsd:integer ;
+	schema:dateModified "2023-08-26T02:59:18Z"^^xsd:dateTime .
+
+wd:Q22083815 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_tharu_dangaura> a schema:Article ;
+	schema:about wd:Q22083815 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga tharu dangaura"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Dangaura> a schema:Article ;
+	schema:about wd:Q22083815 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Dangaura"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitharu_cha_Dangaura> a schema:Article ;
+	schema:about wd:Q22083815 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitharu cha Dangaura"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q22083815 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "thl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/thl> ;
+	wdt:P1394 "dang1260" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/dang1260> ;
+	wdt:P279 wd:Q34035 ;
+	wdt:P305 "thl" ;
+	wdt:P1627 "thl" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q668,
+		wd:Q837 ;
+	wdt:P2341 wd:Q1498,
+		wd:Q9060,
+		wd:Q9172,
+		wd:Q9178,
+		wd:Q9185,
+		wd:Q9196 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/THL> ;
+	wdt:P910 wd:Q105715180 ;
+	rdfs:label "Kitharu ya Dangaura"@sw ;
+	skos:prefLabel "Kitharu ya Dangaura"@sw ;
+	schema:name "Kitharu ya Dangaura"@sw ;
+	rdfs:label "Lenga tharu dangaura"@pms ;
+	skos:prefLabel "Lenga tharu dangaura"@pms ;
+	schema:name "Lenga tharu dangaura"@pms ;
+	rdfs:label "Dangaura Tharu"@en ;
+	skos:prefLabel "Dangaura Tharu"@en ;
+	schema:name "Dangaura Tharu"@en ;
+	rdfs:label "Dangaura Tharu"@en-gb ;
+	skos:prefLabel "Dangaura Tharu"@en-gb ;
+	schema:name "Dangaura Tharu"@en-gb ;
+	rdfs:label "tharu dangaura"@fr ;
+	skos:prefLabel "tharu dangaura"@fr ;
+	schema:name "tharu dangaura"@fr ;
+	rdfs:label "Dangaura"@oc ;
+	skos:prefLabel "Dangaura"@oc ;
+	schema:name "Dangaura"@oc ;
+	schema:description "Indo-European language"@en,
+		"Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue indo-aryenne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"iaith"@cy,
+		"lingua"@la,
+		"ভারত ও নেপালের ভাষা"@bn ;
+	skos:altLabel "Tharu, Dangaura"@en,
+		"Dangaura Tharu language"@en .

@@ -1,0 +1,110 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q20054484 a schema:Dataset ;
+	schema:about wd:Q20054484 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1595020108"^^xsd:integer ;
+	schema:dateModified "2022-03-15T14:18:23Z"^^xsd:dateTime .
+
+wd:Q20054484 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_haida_setentrional> a schema:Article ;
+	schema:about wd:Q20054484 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga haida setentrional"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_haida_settentrionale> a schema:Article ;
+	schema:about wd:Q20054484 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua haida settentrionale"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q20054484 wdt:P31 wd:Q33384,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "hdn" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hdn> ;
+	wdt:P279 wd:Q33303 ;
+	wdt:P2355 "262" ;
+	wdt:P1394 "nort2938" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nort2938> ;
+	wdt:P1466 "hno" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_hno> ;
+	wdt:P305 "hdn" ;
+	wdt:P1627 "hdn" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P1999 wd:Q20672089,
+		wd:Q20672090 ;
+	wdt:P17 wd:Q16,
+		wd:Q30 ;
+	wdt:P2341 wd:Q1973,
+		wd:Q797 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HDN> ;
+	wdt:P646 "/m/02hxg7d" ;
+	rdfs:label "Northern Haida"@en ;
+	skos:prefLabel "Northern Haida"@en ;
+	schema:name "Northern Haida"@en ;
+	rdfs:label "Lenga haida setentrional"@pms ;
+	skos:prefLabel "Lenga haida setentrional"@pms ;
+	schema:name "Lenga haida setentrional"@pms ;
+	rdfs:label "lingua haida settentrionale"@it ;
+	skos:prefLabel "lingua haida settentrionale"@it ;
+	schema:name "lingua haida settentrionale"@it ;
+	rdfs:label "Northern Haida"@en-gb ;
+	skos:prefLabel "Northern Haida"@en-gb ;
+	schema:name "Northern Haida"@en-gb ;
+	rdfs:label "haïda du Nord"@fr ;
+	skos:prefLabel "haïda du Nord"@fr ;
+	schema:name "haïda du Nord"@fr ;
+	rdfs:label "южный хайда"@ru ;
+	skos:prefLabel "южный хайда"@ru ;
+	schema:name "южный хайда"@ru ;
+	rdfs:label "haida septentrional"@ca ;
+	skos:prefLabel "haida septentrional"@ca ;
+	schema:name "haida septentrional"@ca ;
+	rdfs:label "haida setentrionałe"@vec ;
+	skos:prefLabel "haida setentrionałe"@vec ;
+	schema:name "haida setentrionałe"@vec ;
+	rdfs:label "Haida'r Gogledd"@cy ;
+	skos:prefLabel "Haida'r Gogledd"@cy ;
+	schema:name "Haida'r Gogledd"@cy ;
+	schema:description "dialecte du haïda"@fr,
+		"dialect of Haida, a Canadian/Alaskan indigenous language isolate"@en-gb,
+		"dialect of Haida, a Canadian/Alaskan indigenous language isolate"@en ;
+	skos:altLabel "Northern Haida dialect"@en,
+		"haida septentrional"@fr .

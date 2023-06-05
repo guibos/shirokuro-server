@@ -1,0 +1,174 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5254989 a schema:Dataset ;
+	schema:about wd:Q5254989 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1791071747"^^xsd:integer ;
+	schema:dateModified "2022-12-16T18:29:08Z"^^xsd:dateTime .
+
+wd:Q5254989 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Dem_language> a schema:Article ;
+	schema:about wd:Q5254989 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Dem language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Dem> a schema:Article ;
+	schema:about wd:Q5254989 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Dem"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Dem_jezik> a schema:Article ;
+	schema:about wd:Q5254989 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Dem jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Dem_(langue)> a schema:Article ;
+	schema:about wd:Q5254989 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Dem (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kidem> a schema:Article ;
+	schema:about wd:Q5254989 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kidem"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Dem> a schema:Article ;
+	schema:about wd:Q5254989 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Dem"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D9%85%D8%A7%D8%B1%D9%83%D8%A7_(%D9%84%D8%BA%D9%87)> a schema:Article ;
+	schema:about wd:Q5254989 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "ماركا (لغه)"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_dem> a schema:Article ;
+	schema:about wd:Q5254989 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język dem"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5254989 wdt:P220 "dem" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dem> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "dem" ;
+	wdt:P1394 "demm1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/demm1245> ;
+	wdt:P4132 wd:Q33648 ;
+	wdt:P2192 "4070" ;
+	wdt:P2590 "0911 4" ;
+	wdt:P1705 "bahasa Dem"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P1627 "dem" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2341 wd:Q5095 ;
+	wdt:P1889 wd:Q3915384 ;
+	wdt:P646 "/m/02hwwsk" ;
+	rdfs:label "Dem"@en ;
+	skos:prefLabel "Dem"@en ;
+	schema:name "Dem"@en ;
+	rdfs:label "Lenga Dem"@pms ;
+	skos:prefLabel "Lenga Dem"@pms ;
+	schema:name "Lenga Dem"@pms ;
+	rdfs:label "Dem jezik"@hr ;
+	skos:prefLabel "Dem jezik"@hr ;
+	schema:name "Dem jezik"@hr ;
+	rdfs:label "dem"@fr ;
+	skos:prefLabel "dem"@fr ;
+	schema:name "dem"@fr ;
+	rdfs:label "Kidem"@sw ;
+	skos:prefLabel "Kidem"@sw ;
+	schema:name "Kidem"@sw ;
+	rdfs:label "Język dem"@pl ;
+	skos:prefLabel "Język dem"@pl ;
+	schema:name "Język dem"@pl ;
+	rdfs:label "Dem"@ilo ;
+	skos:prefLabel "Dem"@ilo ;
+	schema:name "Dem"@ilo ;
+	rdfs:label "Dem"@en-gb ;
+	skos:prefLabel "Dem"@en-gb ;
+	schema:name "Dem"@en-gb ;
+	rdfs:label "Dem"@id ;
+	skos:prefLabel "Dem"@id ;
+	schema:name "Dem"@id ;
+	rdfs:label "ماركا (لغه)"@arz ;
+	skos:prefLabel "ماركا (لغه)"@arz ;
+	schema:name "ماركا (لغه)"@arz ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"pagsasao a Papuano idiay Indonesia"@ilo,
+		"language"@en,
+		"langue isolée parlée en   Indonésie"@fr,
+		"bahasa di provinsi Papua"@id,
+		"taal"@nl,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"język z grupy papuaskiej"@pl ;
+	skos:altLabel "Dem language"@en,
+		"bahasa Dem"@id,
+		"bahasa Lem"@id,
+		"bahasa Ndem"@id .
+
+wd:Q11732153 owl:sameAs wd:Q5254989 .
+
+wd:Q25931454 owl:sameAs wd:Q5254989 .
+
+wd:Q50934859 owl:sameAs wd:Q5254989 .

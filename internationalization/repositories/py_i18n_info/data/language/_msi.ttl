@@ -1,0 +1,141 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10867404 a schema:Dataset ;
+	schema:about wd:Q10867404 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1910958345"^^xsd:integer ;
+	schema:dateModified "2023-06-08T13:07:42Z"^^xsd:dateTime .
+
+wd:Q10867404 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Malay,_Sabah> a schema:Article ;
+	schema:about wd:Q10867404 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Malay, Sabah"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Melayu_Sabah> a schema:Article ;
+	schema:about wd:Q10867404 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Melayu Sabah"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimalay_cha_Sabah> a schema:Article ;
+	schema:about wd:Q10867404 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimalay cha Sabah"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_malajski_stanu_Sabah> a schema:Article ;
+	schema:about wd:Q10867404 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język malajski stanu Sabah"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Melayu_Sabah> a schema:Article ;
+	schema:about wd:Q10867404 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Melayu Sabah"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10867404 wdt:P31 wd:Q34770,
+		wd:Q33831,
+		wd:Q1288568 ;
+	wdt:P220 "msi" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/msi> ;
+	wdt:P1394 "saba1263" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/saba1263> ;
+	wdt:P279 wd:Q653415 ;
+	wdt:P17 wd:Q833,
+		wd:Q928 ;
+	wdt:P131 wd:Q179029,
+		wd:Q13893 ;
+	wdt:P1098 "+3000000"^^xsd:decimal ;
+	wdt:P305 "msi" ;
+	wdt:P1627 "msi" ;
+	wdt:P3823 wd:Q29051549 ;
+	wdt:P2341 wd:Q179029,
+		wd:Q1061195 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MSI> ;
+	wdt:P910 wd:Q105714861 ;
+	wdt:P2671 "/g/121pd8x9" ;
+	wdtn:P2671 <http://g.co/kg/g/121pd8x9> ;
+	rdfs:label "Sabah Malay"@en ;
+	skos:prefLabel "Sabah Malay"@en ;
+	schema:name "Sabah Malay"@en ;
+	rdfs:label "Melayu Sabah"@id ;
+	skos:prefLabel "Melayu Sabah"@id ;
+	schema:name "Melayu Sabah"@id ;
+	rdfs:label "Melayu Sabah"@ms ;
+	skos:prefLabel "Melayu Sabah"@ms ;
+	schema:name "Melayu Sabah"@ms ;
+	rdfs:label "Lenga Malay, Sabah"@pms ;
+	skos:prefLabel "Lenga Malay, Sabah"@pms ;
+	schema:name "Lenga Malay, Sabah"@pms ;
+	rdfs:label "Kimalay ya Sabah"@sw ;
+	skos:prefLabel "Kimalay ya Sabah"@sw ;
+	schema:name "Kimalay ya Sabah"@sw ;
+	rdfs:label "malais sabah"@fr ;
+	skos:prefLabel "malais sabah"@fr ;
+	schema:name "malais sabah"@fr ;
+	rdfs:label "Język malajski stanu Sabah"@pl ;
+	skos:prefLabel "Język malajski stanu Sabah"@pl ;
+	schema:name "Język malajski stanu Sabah"@pl ;
+	schema:description "pidginised local trade language of Sabah"@en,
+		"Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue malayo-polynésienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"język austronezyjski"@pl,
+		"loghat Sabah"@ms ;
+	skos:altLabel "malais brunei-sabah"@fr,
+		"bahasa Melayu Sabah"@id,
+		"bahasa sabah"@ms .
+
+wd:Q12952777 owl:sameAs wd:Q10867404 .

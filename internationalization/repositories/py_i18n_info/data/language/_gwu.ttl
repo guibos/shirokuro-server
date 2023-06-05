@@ -1,0 +1,115 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10511225 a schema:Dataset ;
+	schema:about wd:Q10511225 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1426437458"^^xsd:integer ;
+	schema:dateModified "2021-05-22T14:51:57Z"^^xsd:dateTime .
+
+wd:Q10511225 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_guwamu> a schema:Article ;
+	schema:about wd:Q10511225 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga guwamu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Guwamu> a schema:Article ;
+	schema:about wd:Q10511225 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Guwamu"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiguwamu> a schema:Article ;
+	schema:about wd:Q10511225 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiguwamu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10511225 wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P220 "gwu" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gwu> ;
+	wdt:P1394 "guwa1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/guwa1243> ;
+	wdt:P910 wd:Q36157574 ;
+	wdt:P279 wd:Q4904194 ;
+	wdt:P1252 "D33" ;
+	wdt:P2192 "4257" ;
+	wdt:P305 "gwu" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P1627 "gwu" ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q36074 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GWU> ;
+	wdt:P6915 "Guwamu" ;
+	wdt:P2671 "/g/11dyk4hy9" ;
+	wdtn:P2671 <http://g.co/kg/g/11dyk4hy9> ;
+	rdfs:label "Guwamu"@sv ;
+	skos:prefLabel "Guwamu"@sv ;
+	schema:name "Guwamu"@sv ;
+	rdfs:label "Lenga guwamu"@pms ;
+	skos:prefLabel "Lenga guwamu"@pms ;
+	schema:name "Lenga guwamu"@pms ;
+	rdfs:label "Guwamu"@en ;
+	skos:prefLabel "Guwamu"@en ;
+	schema:name "Guwamu"@en ;
+	rdfs:label "Guwamu"@en-gb ;
+	skos:prefLabel "Guwamu"@en-gb ;
+	schema:name "Guwamu"@en-gb ;
+	rdfs:label "Kiguwamu"@sw ;
+	skos:prefLabel "Kiguwamu"@sw ;
+	schema:name "Kiguwamu"@sw ;
+	rdfs:label "guwamu"@fr ;
+	skos:prefLabel "guwamu"@fr ;
+	schema:name "guwamu"@fr ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"extinct Australian Aboriginal language"@en,
+		"Sprache"@de,
+		"lugha ya asili ya Australia iliyotoweka"@sw,
+		"langue marique"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy .
+
+wd:Q12953551 owl:sameAs wd:Q10511225 .

@@ -1,0 +1,144 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10408315 a schema:Dataset ;
+	schema:about wd:Q10408315 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1625763942"^^xsd:integer ;
+	schema:dateModified "2022-04-26T08:15:55Z"^^xsd:dateTime .
+
+wd:Q10408315 a wikibase:Item .
+
+<https://sv.wikipedia.org/wiki/Ami> a schema:Article ;
+	schema:about wd:Q10408315 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Ami"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_ami> a schema:Article ;
+	schema:about wd:Q10408315 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga ami"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_ami> a schema:Article ;
+	schema:about wd:Q10408315 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język ami"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiami> a schema:Article ;
+	schema:about wd:Q10408315 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiami"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Ami_jezik> a schema:Article ;
+	schema:about wd:Q10408315 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Ami jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10408315 wdt:P31 wd:Q34770,
+		wd:Q33384,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q2478079,
+		wd:Q24189114 ;
+	wdt:P1394 "amii1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/amii1238> ;
+	wdt:P17 wd:Q408 ;
+	wdt:P220 "amy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/amy> ;
+	wdt:P1627 "amy" ;
+	wdt:P305 "amy" ;
+	wdt:P1098 "+30"^^xsd:decimal ;
+	wdt:P1466 "emm" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_emm> ;
+	wdt:P1417 "topic/Ami-language" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P2341 wd:Q3235 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/AMY> ;
+	wdt:P910 wd:Q105714264 ;
+	rdfs:label "Ami"@sv ;
+	skos:prefLabel "Ami"@sv ;
+	schema:name "Ami"@sv ;
+	rdfs:label "Ami"@en ;
+	skos:prefLabel "Ami"@en ;
+	schema:name "Ami"@en ;
+	rdfs:label "Ami jezik"@hr ;
+	skos:prefLabel "Ami jezik"@hr ;
+	schema:name "Ami jezik"@hr ;
+	rdfs:label "Lenga ami"@pms ;
+	skos:prefLabel "Lenga ami"@pms ;
+	schema:name "Lenga ami"@pms ;
+	rdfs:label "Język ami"@pl ;
+	skos:prefLabel "Język ami"@pl ;
+	schema:name "Język ami"@pl ;
+	rdfs:label "Ami"@de ;
+	skos:prefLabel "Ami"@de ;
+	schema:name "Ami"@de ;
+	rdfs:label "Kiami"@sw ;
+	skos:prefLabel "Kiami"@sw ;
+	schema:name "Kiami"@sw ;
+	rdfs:label "Ami"@en-gb ;
+	skos:prefLabel "Ami"@en-gb ;
+	schema:name "Ami"@en-gb ;
+	rdfs:label "ami"@fr ;
+	skos:prefLabel "ami"@fr ;
+	schema:name "ami"@fr ;
+	rdfs:label "ами"@ru ;
+	skos:prefLabel "ами"@ru ;
+	schema:name "ами"@ru ;
+	schema:description "halsduk"@sv,
+		"endangered Australian Aboriginal language"@en,
+		"langue daly de l'Ouest"@fr,
+		"язык аборигенов Австралии"@ru ;
+	skos:altLabel "Ame"@en,
+		"Amijangal"@en,
+		"Ami language"@en,
+		"Kiame"@sw .
+
+wd:Q12626835 owl:sameAs wd:Q10408315 .
+
+wd:Q12953693 owl:sameAs wd:Q10408315 .
+
+wd:Q18650057 owl:sameAs wd:Q10408315 .

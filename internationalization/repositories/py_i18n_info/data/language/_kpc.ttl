@@ -1,0 +1,187 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2882543 a schema:Dataset ;
+	schema:about wd:Q2882543 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1827839396"^^xsd:integer ;
+	schema:dateModified "2023-02-06T16:58:47Z"^^xsd:dateTime .
+
+wd:Q2882543 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Baniwa_de_l%27I%C3%A7ana> a schema:Article ;
+	schema:about wd:Q2882543 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Baniwa de l'Içana"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_curripaco> a schema:Article ;
+	schema:about wd:Q2882543 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga curripaco"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_kurripako> a schema:Article ;
+	schema:about wd:Q2882543 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma kurripako"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Kurripako> a schema:Article ;
+	schema:about wd:Q2882543 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Kurripako"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_kurripako> a schema:Article ;
+	schema:about wd:Q2882543 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma kurripako"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Curripaco_jezik> a schema:Article ;
+	schema:about wd:Q2882543 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Curripaco jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_kurripako> a schema:Article ;
+	schema:about wd:Q2882543 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua kurripako"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Kurripako> a schema:Article ;
+	schema:about wd:Q2882543 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Kurripako"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2882543 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "kpc" ;
+	wdt:P279 wd:Q626753 ;
+	wdt:P220 "kpc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kpc> ;
+	wdt:P2355 "300" ;
+	wdt:P1394 "curr1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/curr1243> ;
+	wdt:P910 wd:Q33667070 ;
+	wdt:P1466 "cur" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_cur> ;
+	wdt:P2192 "2466" ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P17 wd:Q155,
+		wd:Q739,
+		wd:Q717 ;
+	wdt:P1627 "kpc" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2341 wd:Q40040,
+		wd:Q238645,
+		wd:Q234505,
+		wd:Q170453 ;
+	wdt:P1245 "811734" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KPC> ;
+	wdt:P646 "/m/02hwgnw" ;
+	wdt:P1098 "+4000"^^xsd:decimal ;
+	wdt:P1846 <http://commons.wikimedia.org/wiki/Special:FilePath/Kurripako.png> ;
+	rdfs:label "Curripaco jezik"@hr ;
+	skos:prefLabel "Curripaco jezik"@hr ;
+	schema:name "Curripaco jezik"@hr ;
+	rdfs:label "baniwa de l’Içana"@fr ;
+	skos:prefLabel "baniwa de l’Içana"@fr ;
+	schema:name "baniwa de l’Içana"@fr ;
+	rdfs:label "Lenga curripaco"@pms ;
+	skos:prefLabel "Lenga curripaco"@pms ;
+	schema:name "Lenga curripaco"@pms ;
+	rdfs:label "kurripako"@nb ;
+	skos:prefLabel "kurripako"@nb ;
+	schema:name "kurripako"@nb ;
+	rdfs:label "Curripaco"@en ;
+	skos:prefLabel "Curripaco"@en ;
+	schema:name "Curripaco"@en ;
+	rdfs:label "Curripaco"@en-gb ;
+	skos:prefLabel "Curripaco"@en-gb ;
+	schema:name "Curripaco"@en-gb ;
+	rdfs:label "Kurripako"@es ;
+	skos:prefLabel "Kurripako"@es ;
+	schema:name "Kurripako"@es ;
+	rdfs:label "Idioma kurripako"@ast ;
+	skos:prefLabel "Idioma kurripako"@ast ;
+	schema:name "Idioma kurripako"@ast ;
+	rdfs:label "Lingua kurripako"@gl ;
+	skos:prefLabel "Lingua kurripako"@gl ;
+	schema:name "Lingua kurripako"@gl ;
+	rdfs:label "Kurripako"@ca ;
+	skos:prefLabel "Kurripako"@ca ;
+	schema:name "Kurripako"@ca ;
+	rdfs:label "Kurripako"@sv ;
+	skos:prefLabel "Kurripako"@sv ;
+	schema:name "Kurripako"@sv ;
+	schema:description "שפה"@he,
+		"langue arawakienne"@fr,
+		"yezh"@br,
+		"lengua de la familia arawak"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language spoken by the Curripaco people"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"Lingua da familia arauaca"@gl,
+		"språk som talas av kurripako-folket"@sv,
+		"språk som snakkes av kurripako-folket"@nb ;
+	skos:altLabel "kurripako"@fr,
+		"baniwa de l'Içana-kurripako"@fr,
+		"curripaco"@es,
+		"wakwe"@es,
+		"baniwa de Içana"@es,
+		"Baniwa of Içana"@en,
+		"Kurripako"@en,
+		"Ipeka-Tapuia-Curripako"@en,
+		"curripaco"@nb .

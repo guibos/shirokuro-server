@@ -1,0 +1,230 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7049771 a schema:Dataset ;
+	schema:about wd:Q7049771 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1854915542"^^xsd:integer ;
+	schema:dateModified "2023-03-18T14:26:46Z"^^xsd:dateTime .
+
+wd:Q7049771 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Nyungar> a schema:Article ;
+	schema:about wd:Q7049771 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Nyungar"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_nyunga> a schema:Article ;
+	schema:about wd:Q7049771 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga nyunga"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Nyunga> a schema:Article ;
+	schema:about wd:Q7049771 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Nyunga"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinyunga_(Australia)> a schema:Article ;
+	schema:about wd:Q7049771 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinyunga (Australia)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Nyunga_jezik> a schema:Article ;
+	schema:about wd:Q7049771 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Nyunga jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wiktionary.org/wiki/Wiktionary:About_Nyunga> a schema:Article ;
+	schema:about wd:Q7049771 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wiktionary.org/> ;
+	schema:name "Wiktionary:About Nyunga"@en .
+
+<https://en.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://de.wikipedia.org/wiki/Noongar_(Sprache)> a schema:Article ;
+	schema:about wd:Q7049771 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Noongar (Sprache)"@de ;
+	wikibase:badge wd:Q70894304 .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Noongar_language> a schema:Article ;
+	schema:about wd:Q7049771 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Noongar language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7049771 wdt:P31 wd:Q33742,
+		wd:Q1288568 ;
+	wdt:P1394 "nyun1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nyun1247> ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P131 wd:Q3206 ;
+	wdt:P220 "nys" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nys> ;
+	wdt:P279 wd:Q33942 ;
+	wdt:P2341 wd:Q1996477,
+		wd:Q3206 ;
+	wdt:P1252 "W41" ;
+	wdt:P1098 "+232"^^xsd:decimal ;
+	wdt:P17 wd:Q408 ;
+	wdt:P1466 "nju" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_nju> ;
+	wdt:P1251 "8502",
+		"8935" ;
+	wdt:P305 "nys" ;
+	wdt:P1627 "nys" ;
+	wdt:P424 "nys" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P6915 "Noongar" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NYS> ;
+	wdt:P910 wd:Q8681678 ;
+	wdt:P646 "/m/02rlt5k" ;
+	wdt:P2192 "6773",
+		"6688",
+		"6271",
+		"6802",
+		"6730",
+		"6782",
+		"6721" ;
+	wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/Noongar1.jpg> ;
+	wdt:P7870 "98651" ;
+	rdfs:label "Noongar"@en ;
+	skos:prefLabel "Noongar"@en ;
+	schema:name "Noongar"@en ;
+	rdfs:label "Lenga nyunga"@pms ;
+	skos:prefLabel "Lenga nyunga"@pms ;
+	schema:name "Lenga nyunga"@pms ;
+	rdfs:label "Nyunga jezik"@hr ;
+	skos:prefLabel "Nyunga jezik"@hr ;
+	schema:name "Nyunga jezik"@hr ;
+	rdfs:label "nyunga"@sv ;
+	skos:prefLabel "nyunga"@sv ;
+	schema:name "nyunga"@sv ;
+	rdfs:label "nyungan"@fr ;
+	skos:prefLabel "nyungan"@fr ;
+	schema:name "nyungan"@fr ;
+	rdfs:label "Kinyunga"@sw ;
+	skos:prefLabel "Kinyunga"@sw ;
+	schema:name "Kinyunga"@sw ;
+	rdfs:label "ニュンガル語"@ja ;
+	skos:prefLabel "ニュンガル語"@ja ;
+	schema:name "ニュンガル語"@ja ;
+	rdfs:label "늉아어"@ko ;
+	skos:prefLabel "늉아어"@ko ;
+	schema:name "늉아어"@ko ;
+	rdfs:label "Nyunga"@nl ;
+	skos:prefLabel "Nyunga"@nl ;
+	schema:name "Nyunga"@nl ;
+	rdfs:label "nyungar"@eu ;
+	skos:prefLabel "nyungar"@eu ;
+	schema:name "nyungar"@eu ;
+	rdfs:label "Noongar"@nys ;
+	skos:prefLabel "Noongar"@nys ;
+	schema:name "Noongar"@nys ;
+	rdfs:label "Noongar"@de ;
+	skos:prefLabel "Noongar"@de ;
+	schema:name "Noongar"@de ;
+	rdfs:label "ننگار"@pnb ;
+	skos:prefLabel "ننگار"@pnb ;
+	schema:name "ننگار"@pnb ;
+	rdfs:label "ਨੁੰਗਾਰ"@pa ;
+	skos:prefLabel "ਨੁੰਗਾਰ"@pa ;
+	schema:name "ਨੁੰਗਾਰ"@pa ;
+	schema:description "Southwestern Australian Aboriginal language"@en,
+		"שפה"@he,
+		"lugha ya asili ya Australia"@sw,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"Ozeaniako hizkuntza"@eu,
+		"西オーストラリア州に住む先住民の言葉"@ja,
+		"språk"@sv,
+		"پچھمی دکھݨی آسٹریلیائی بولی"@pnb,
+		"ਪੱਛਮੀ ਦੱਖਣੀ ਆਸਟਰੇਲੀਆਈ ਬੋਲੀ"@pa ;
+	skos:altLabel "Nyungar"@en,
+		"Nyunga"@en,
+		"Noonga"@en,
+		"nys"@en,
+		"Noongar language"@en,
+		"Noongah"@en,
+		"Noongyar"@en,
+		"Nyggngah"@en,
+		"Nygoonah"@en,
+		"Nyoogar"@en,
+		"Nyoonga"@en,
+		"Nyungah"@en,
+		"Nyungak"@en,
+		"Nyungar language"@en,
+		"Kinoongar"@sw,
+		"눙아어"@ko,
+		"noongar"@eu,
+		"Nyungar"@nys,
+		"Nyunga"@nys,
+		"Noonga"@nys,
+		"nys"@nys,
+		"Noongyar"@nys,
+		"Nyggngah"@nys,
+		"Nygoonah"@nys,
+		"Nyoogar"@nys,
+		"Nyoonga"@nys,
+		"Nyungah"@nys,
+		"Nyungak"@nys .
+
+wd:Q10605005 owl:sameAs wd:Q7049771 .
+
+wd:Q12638664 owl:sameAs wd:Q7049771 .

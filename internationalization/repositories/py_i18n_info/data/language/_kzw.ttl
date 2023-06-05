@@ -1,0 +1,121 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953620 a schema:Dataset ;
+	schema:about wd:Q12953620 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1827869461"^^xsd:integer ;
+	schema:dateModified "2023-02-06T17:48:27Z"^^xsd:dateTime .
+
+wd:Q12953620 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_karir%C3%AD-xoc%C3%B3> a schema:Article ;
+	schema:about wd:Q12953620 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga karirí-xocó"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Xoc%C3%B3_language> a schema:Article ;
+	schema:about wd:Q12953620 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Xocó language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Kariri-Ksokoeg> a schema:Article ;
+	schema:about wd:Q12953620 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Kariri-Ksokoeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_xoc%C3%B3> a schema:Article ;
+	schema:about wd:Q12953620 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua xocó"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A8%D1%83%D0%BA%D1%83%D1%80%D1%83> a schema:Article ;
+	schema:about wd:Q12953620 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Шукуру"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953620 wdt:P31 wd:Q45762,
+		wd:Q34770,
+		wd:Q38058796 ;
+	wdt:P220 "kzw" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kzw> ;
+	wdt:P1394 "xoco1235" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/xoco1235> ;
+	wdt:P1394 "kari1255" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kari1255> ;
+	wdt:P1466 "kri" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_kri> ;
+	wdt:P305 "kzw" ;
+	wdt:P1627 "kzw" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q155 ;
+	wdt:P2341 wd:Q40885 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KZW> ;
+	wdt:P646 "/m/0w_1ygg" ;
+	wdt:P910 wd:Q33673501 ;
+	rdfs:label "Lenga karirí-xocó"@pms ;
+	skos:prefLabel "Lenga karirí-xocó"@pms ;
+	schema:name "Lenga karirí-xocó"@pms ;
+	rdfs:label "kariri-Ksokoeg"@br ;
+	skos:prefLabel "kariri-Ksokoeg"@br ;
+	schema:name "kariri-Ksokoeg"@br ;
+	rdfs:label "шоко-карири"@ru ;
+	skos:prefLabel "шоко-карири"@ru ;
+	schema:name "шоко-карири"@ru ;
+	rdfs:label "Xocó"@en ;
+	skos:prefLabel "Xocó"@en ;
+	schema:name "Xocó"@en ;
+	rdfs:label "Língua xocó"@pt ;
+	skos:prefLabel "Língua xocó"@pt ;
+	schema:name "Língua xocó"@pt ;
+	rdfs:label "שוקו (שפה)"@he ;
+	skos:prefLabel "שוקו (שפה)"@he ;
+	schema:name "שוקו (שפה)"@he ;
+	schema:description "also known as Kiriri, distinct from the Kariri languages"@en ;
+	skos:altLabel "Xocó language"@en .
+
+wd:Q15220984 owl:sameAs wd:Q12953620 .

@@ -1,0 +1,84 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11137816 a schema:Dataset ;
+	schema:about wd:Q11137816 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1355224379"^^xsd:integer ;
+	schema:dateModified "2021-02-05T15:34:20Z"^^xsd:dateTime .
+
+wd:Q11137816 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Gey> a schema:Article ;
+	schema:about wd:Q11137816 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Gey"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigey> a schema:Article ;
+	schema:about wd:Q11137816 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigey"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11137816 wdt:P220 "guv" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/guv> ;
+	wdt:P31 wd:Q17362920,
+		wd:Q5015649,
+		wd:Q38058796 ;
+	wdt:P2355 "42" ;
+	wdt:P1394 "geya1234" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/geya1234> ;
+	wdt:P305 "guv" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GUV> ;
+	wdt:P1999 wd:Q20672091 ;
+	rdfs:label "Kigey"@sw ;
+	skos:prefLabel "Kigey"@sw ;
+	schema:name "Kigey"@sw ;
+	rdfs:label "Lenga Gey"@pms ;
+	skos:prefLabel "Lenga Gey"@pms ;
+	schema:name "Lenga Gey"@pms ;
+	rdfs:label "Gey"@en ;
+	skos:prefLabel "Gey"@en ;
+	schema:name "Gey"@en ;
+	rdfs:label "gey"@fr ;
+	skos:prefLabel "gey"@fr ;
+	schema:name "gey"@fr ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue doublon avec le duli-gey"@fr ;
+	skos:altLabel "Gey language"@en .

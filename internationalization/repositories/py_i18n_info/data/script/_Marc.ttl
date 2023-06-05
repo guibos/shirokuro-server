@@ -1,0 +1,95 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q72403709 a schema:Dataset ;
+	schema:about wd:Q72403709 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1672831513"^^xsd:integer ;
+	schema:dateModified "2022-07-07T11:32:53Z"^^xsd:dateTime .
+
+wd:Q72403709 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Marchen_script> a schema:Article ;
+	schema:about wd:Q72403709 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Marchen script"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Marchen> a schema:Article ;
+	schema:about wd:Q72403709 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Marchen"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A3%E0%B8%A1%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%8A%E0%B8%99> a schema:Article ;
+	schema:about wd:Q72403709 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "อักษรมาร์เชน"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q72403709 wdt:P31 wd:Q335806 ;
+	wdt:P506 "Marc" ;
+	wdt:P2620 "332" ;
+	wdt:P5949 "U+11C70-11CBF" ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P2561 "Marchen"@en,
+		"marchen"@fr ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Marchen%20a.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Marchen%20ta.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Marchen%20wa.svg> ;
+	wdt:P910 wd:Q33656822 ;
+	rdfs:label "Marchen"@en ;
+	skos:prefLabel "Marchen"@en ;
+	schema:name "Marchen"@en ;
+	rdfs:label "marchen"@fr ;
+	skos:prefLabel "marchen"@fr ;
+	schema:name "marchen"@fr ;
+	rdfs:label "Marchen"@sv ;
+	skos:prefLabel "Marchen"@sv ;
+	schema:name "Marchen"@sv ;
+	rdfs:label "อักษรมาร์เชน"@th ;
+	skos:prefLabel "อักษรมาร์เชน"@th ;
+	schema:name "อักษรมาร์เชน"@th ;
+	schema:description "script used to write the Zhang-Zhung language"@en ;
+	skos:altLabel "Marchen script"@en,
+		"Marchen abugida"@en,
+		"Zhang-Zhung script"@en .
+
+wd:Q72949177 owl:sameAs wd:Q72403709 .
+
+wd:Q108146995 owl:sameAs wd:Q72403709 .

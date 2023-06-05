@@ -1,0 +1,121 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5310792 a schema:Dataset ;
+	schema:about wd:Q5310792 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1355788505"^^xsd:integer ;
+	schema:dateModified "2021-02-06T14:21:32Z"^^xsd:dateTime .
+
+wd:Q5310792 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_dubli> a schema:Article ;
+	schema:about wd:Q5310792 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga dubli"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kidubli> a schema:Article ;
+	schema:about wd:Q5310792 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kidubli"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Dubli_language> a schema:Article ;
+	schema:about wd:Q5310792 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Dubli language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Dubli> a schema:Article ;
+	schema:about wd:Q5310792 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Dubli"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5310792 wdt:P220 "dub" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dub> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "dubl1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/dubl1239> ;
+	wdt:P305 "dub" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P279 wd:Q10979187 ;
+	wdt:P1627 "dub" ;
+	wdt:P1014 "300388249" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388249> ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1061,
+		wd:Q1185,
+		wd:Q1191,
+		wd:Q1437 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DUB> ;
+	wdt:P646 "/m/02hxn8d" ;
+	rdfs:label "Dubli"@en ;
+	skos:prefLabel "Dubli"@en ;
+	schema:name "Dubli"@en ;
+	rdfs:label "Lenga dubli"@pms ;
+	skos:prefLabel "Lenga dubli"@pms ;
+	schema:name "Lenga dubli"@pms ;
+	rdfs:label "Kidubli"@sw ;
+	skos:prefLabel "Kidubli"@sw ;
+	schema:name "Kidubli"@sw ;
+	rdfs:label "Dubli"@en-gb ;
+	skos:prefLabel "Dubli"@en-gb ;
+	schema:name "Dubli"@en-gb ;
+	rdfs:label "dubli"@fr ;
+	skos:prefLabel "dubli"@fr ;
+	schema:name "dubli"@fr ;
+	rdfs:label "Dubli"@oc ;
+	skos:prefLabel "Dubli"@oc ;
+	schema:name "Dubli"@oc ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue indo-aryenne"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ভারতের ভাষা"@bn ;
+	skos:altLabel "Dubli language"@en .

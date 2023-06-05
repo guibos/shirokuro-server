@@ -1,0 +1,124 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7310982 a schema:Dataset ;
+	schema:about wd:Q7310982 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961429905"^^xsd:integer ;
+	schema:dateModified "2023-08-26T03:05:47Z"^^xsd:dateTime .
+
+wd:Q7310982 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_reli> a schema:Article ;
+	schema:about wd:Q7310982 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga reli"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kireli> a schema:Article ;
+	schema:about wd:Q7310982 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kireli"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Reli_language> a schema:Article ;
+	schema:about wd:Q7310982 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Reli language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://as.wikipedia.org/wiki/%E0%A7%B0%E0%A7%87%E0%A6%B2%E0%A7%80_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q7310982 ;
+	schema:inLanguage "as" ;
+	schema:isPartOf <https://as.wikipedia.org/> ;
+	schema:name "ৰেলী ভাষা"@as .
+
+<https://as.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7310982 wdt:P220 "rei" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/rei> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "reli1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/reli1238> ;
+	wdt:P282 wd:Q570450 ;
+	wdt:P279 wd:Q7102899 ;
+	wdt:P305 "rei" ;
+	wdt:P1627 "rei" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1159 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/REI> ;
+	wdt:P646 "/m/02hx7g2" ;
+	rdfs:label "Reli"@en ;
+	skos:prefLabel "Reli"@en ;
+	schema:name "Reli"@en ;
+	rdfs:label "Lenga reli"@pms ;
+	skos:prefLabel "Lenga reli"@pms ;
+	schema:name "Lenga reli"@pms ;
+	rdfs:label "Kireli"@sw ;
+	skos:prefLabel "Kireli"@sw ;
+	schema:name "Kireli"@sw ;
+	rdfs:label "Reli"@en-gb ;
+	skos:prefLabel "Reli"@en-gb ;
+	schema:name "Reli"@en-gb ;
+	rdfs:label "reli"@fr ;
+	skos:prefLabel "reli"@fr ;
+	schema:name "reli"@fr ;
+	rdfs:label "ਰੇਲੀ"@pa ;
+	skos:prefLabel "ਰੇਲੀ"@pa ;
+	schema:name "ਰੇਲੀ"@pa ;
+	rdfs:label "ৰেলী ভাষা"@as ;
+	skos:prefLabel "ৰেলী ভাষা"@as ;
+	schema:name "ৰেলী ভাষা"@as ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue indo-aryenne"@fr,
+		"ਪੂਰਬੀ ਭਾਰਤ ਦੀ ਇੱਕ ਭਾਸ਼ਾ"@pa,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Reli language"@en,
+		"ਰੇਲੀ ਭਾਸ਼ਾ"@pa,
+		"ਰੇਲੀ ਬੋਲੀ"@pa .
+
+wd:Q12953856 owl:sameAs wd:Q7310982 .

@@ -1,0 +1,131 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7418302 a schema:Dataset ;
+	schema:about wd:Q7418302 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960453953"^^xsd:integer ;
+	schema:dateModified "2023-08-24T21:03:29Z"^^xsd:dateTime .
+
+wd:Q7418302 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Saniyo-Hiyewe> a schema:Article ;
+	schema:about wd:Q7418302 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Saniyo-Hiyewe"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Sanio> a schema:Article ;
+	schema:about wd:Q7418302 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Sanio"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisaniyo-Hiyewe> a schema:Article ;
+	schema:about wd:Q7418302 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisaniyo-Hiyewe"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sanio_language> a schema:Article ;
+	schema:about wd:Q7418302 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sanio language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Sanioeg> a schema:Article ;
+	schema:about wd:Q7418302 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Sanioeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7418302 wdt:P220 "sny" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/sny> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q7418304 ;
+	wdt:P1394 "sani1270" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sani1270> ;
+	wdt:P910 wd:Q33672890 ;
+	wdt:P305 "sny" ;
+	wdt:P2192 "10622" ;
+	wdt:P1627 "sny" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q690880,
+		wd:Q753689 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SNY> ;
+	wdt:P1889 wd:Q5748345 ;
+	wdt:P646 "/m/02hx8qm" ;
+	rdfs:label "Sanio"@en ;
+	skos:prefLabel "Sanio"@en ;
+	schema:name "Sanio"@en ;
+	rdfs:label "Lenga Saniyo-Hiyewe"@pms ;
+	skos:prefLabel "Lenga Saniyo-Hiyewe"@pms ;
+	schema:name "Lenga Saniyo-Hiyewe"@pms ;
+	rdfs:label "sanioeg"@br ;
+	skos:prefLabel "sanioeg"@br ;
+	schema:name "sanioeg"@br ;
+	rdfs:label "Kisaniyo-Hiyewe"@sw ;
+	skos:prefLabel "Kisaniyo-Hiyewe"@sw ;
+	schema:name "Kisaniyo-Hiyewe"@sw ;
+	rdfs:label "Sanio"@ilo ;
+	skos:prefLabel "Sanio"@ilo ;
+	schema:name "Sanio"@ilo ;
+	rdfs:label "saniyo-hiyewe"@fr ;
+	skos:prefLabel "saniyo-hiyewe"@fr ;
+	schema:name "saniyo-hiyewe"@fr ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"langue sepik"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Saniyo-Hiyewe"@en,
+		"Sanio language"@en .
+
+wd:Q12953096 owl:sameAs wd:Q7418302 .

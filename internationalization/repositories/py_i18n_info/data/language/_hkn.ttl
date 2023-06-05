@@ -1,0 +1,96 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q19059577 a schema:Dataset ;
+	schema:about wd:Q19059577 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1602222384"^^xsd:integer ;
+	schema:dateModified "2022-03-25T01:01:02Z"^^xsd:dateTime .
+
+wd:Q19059577 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Mel-Khaonh_language> a schema:Article ;
+	schema:about wd:Q19059577 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mel-Khaonh language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Mel-Khaonh> a schema:Article ;
+	schema:about wd:Q19059577 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Mel-Khaonh"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%A2%85%E5%8B%92-%E5%8D%A1%E7%BF%81%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q19059577 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "梅勒-卡翁语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q19059577 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q56309 ;
+	wdt:P1627 "hkn" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P646 "/m/012r5nx6" ;
+	wdt:P220 "hkn" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hkn> ;
+	wdt:P305 "hkn" ;
+	rdfs:label "Mel-Khaonh"@en ;
+	skos:prefLabel "Mel-Khaonh"@en ;
+	schema:name "Mel-Khaonh"@en ;
+	rdfs:label "pagsasao a Mel-Khaonh"@ilo ;
+	skos:prefLabel "pagsasao a Mel-Khaonh"@ilo ;
+	schema:name "pagsasao a Mel-Khaonh"@ilo ;
+	rdfs:label "khaonh"@fr ;
+	skos:prefLabel "khaonh"@fr ;
+	schema:name "khaonh"@fr ;
+	rdfs:label "梅勒-卡翁语"@zh ;
+	skos:prefLabel "梅勒-卡翁语"@zh ;
+	schema:name "梅勒-卡翁语"@zh ;
+	schema:description "pagsasao idiay Cambodia"@ilo,
+		"langue bahnarique"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Mel-Khaonh language"@en .

@@ -1,0 +1,118 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36246 a schema:Dataset ;
+	schema:about wd:Q36246 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1556054825"^^xsd:integer ;
+	schema:dateModified "2022-01-04T15:46:21Z"^^xsd:dateTime .
+
+wd:Q36246 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Dinka_du_Nord-Est> a schema:Article ;
+	schema:about wd:Q36246 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Dinka du Nord-Est"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Dinka_n%C3%B2rd_oriental> a schema:Article ;
+	schema:about wd:Q36246 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Dinka nòrd oriental"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kidinka-Padang> a schema:Article ;
+	schema:about wd:Q36246 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kidinka-Padang"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Nordost-Dinka> a schema:Article ;
+	schema:about wd:Q36246 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Nordost-Dinka"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36246 wdt:P31 wd:Q33384,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "dip" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dip> ;
+	wdt:P279 wd:Q56466 ;
+	wdt:P1394 "nort2815" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nort2815> ;
+	wdt:P1466 "din" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_din> ;
+	wdt:P305 "dip" ;
+	wdt:P1627 "dip" ;
+	wdt:P3823 wd:Q29051550 ;
+	wdt:P17 wd:Q958 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DIP> ;
+	wdt:P2671 "/g/121w64gw" ;
+	wdtn:P2671 <http://g.co/kg/g/121w64gw> ;
+	rdfs:label "Nordost-Dinka"@de ;
+	skos:prefLabel "Nordost-Dinka"@de ;
+	schema:name "Nordost-Dinka"@de ;
+	rdfs:label "Lenga Dinka nòrd oriental"@pms ;
+	skos:prefLabel "Lenga Dinka nòrd oriental"@pms ;
+	schema:name "Lenga Dinka nòrd oriental"@pms ;
+	rdfs:label "dinka nororiental"@es ;
+	skos:prefLabel "dinka nororiental"@es ;
+	schema:name "dinka nororiental"@es ;
+	rdfs:label "Northeastern Dinka"@en ;
+	skos:prefLabel "Northeastern Dinka"@en ;
+	schema:name "Northeastern Dinka"@en ;
+	rdfs:label "Kidinka-Padang"@sw ;
+	skos:prefLabel "Kidinka-Padang"@sw ;
+	schema:name "Kidinka-Padang"@sw ;
+	rdfs:label "dinka du Nord-Est"@fr ;
+	skos:prefLabel "dinka du Nord-Est"@fr ;
+	schema:name "dinka du Nord-Est"@fr ;
+	rdfs:label "Northeastern Dinka"@en-gb ;
+	skos:prefLabel "Northeastern Dinka"@en-gb ;
+	schema:name "Northeastern Dinka"@en-gb ;
+	schema:description "idioma humano"@es,
+		"Sprache"@de,
+		"language of South Sudan"@en,
+		"langue nilotique"@fr ;
+	skos:altLabel "Weißer-Nil-Dinka"@de,
+		"Lenga Dinka nord oriental"@pms,
+		"padang"@fr,
+		"dinka du Nil Blanc"@fr .

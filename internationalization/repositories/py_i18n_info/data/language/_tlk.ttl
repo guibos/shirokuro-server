@@ -1,0 +1,131 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3514563 a schema:Dataset ;
+	schema:about wd:Q3514563 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960504173"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:14:46Z"^^xsd:dateTime .
+
+wd:Q3514563 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Taloki> a schema:Article ;
+	schema:about wd:Q3514563 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Taloki"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_taloki> a schema:Article ;
+	schema:about wd:Q3514563 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga taloki"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitaloki> a schema:Article ;
+	schema:about wd:Q3514563 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitaloki"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Taloki> a schema:Article ;
+	schema:about wd:Q3514563 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Taloki"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3514563 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "tlk" ;
+	wdt:P279 wd:Q3217381 ;
+	wdt:P2355 "2319" ;
+	wdt:P220 "tlk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tlk> ;
+	wdt:P1394 "talo1252" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/talo1252> ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P2590 "0613 3" ;
+	wdt:P1705 "bahasa Taloki"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P910 wd:Q33669626 ;
+	wdt:P2192 "2787" ;
+	wdt:P1627 "tlk" ;
+	wdt:P3823 wd:Q29051555 ;
+	wdt:P2341 wd:Q5075,
+		wd:Q3812 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TLK> ;
+	wdt:P2671 "/g/1226m1zx" ;
+	wdtn:P2671 <http://g.co/kg/g/1226m1zx> ;
+	rdfs:label "taloki"@fr ;
+	skos:prefLabel "taloki"@fr ;
+	schema:name "taloki"@fr ;
+	rdfs:label "Lenga taloki"@pms ;
+	skos:prefLabel "Lenga taloki"@pms ;
+	schema:name "Lenga taloki"@pms ;
+	rdfs:label "Taloki"@en ;
+	skos:prefLabel "Taloki"@en ;
+	schema:name "Taloki"@en ;
+	rdfs:label "Kitaloki"@sw ;
+	skos:prefLabel "Kitaloki"@sw ;
+	schema:name "Kitaloki"@sw ;
+	rdfs:label "Bahasa Taloki"@id ;
+	skos:prefLabel "Bahasa Taloki"@id ;
+	schema:name "Bahasa Taloki"@id ;
+	rdfs:label "Taloki"@en-gb ;
+	skos:prefLabel "Taloki"@en-gb ;
+	schema:name "Taloki"@en-gb ;
+	schema:description "שפה"@he,
+		"Sprache"@de,
+		"taal"@nl,
+		"langue célèbique"@fr,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Taloki language"@en,
+		"Taloki"@id,
+		"bahasa Taloki"@id,
+		"bahasa Taluki"@id .
+
+wd:Q12953904 owl:sameAs wd:Q3514563 .
+
+wd:Q25819564 owl:sameAs wd:Q3514563 .

@@ -1,0 +1,193 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36278 a schema:Dataset ;
+	schema:about wd:Q36278 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1756923604"^^xsd:integer ;
+	schema:dateModified "2022-10-24T01:56:33Z"^^xsd:dateTime .
+
+wd:Q36278 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Oroko_(langue)> a schema:Article ;
+	schema:about wd:Q36278 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Oroko (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Oroko> a schema:Article ;
+	schema:about wd:Q36278 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Oroko"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_oroko> a schema:Article ;
+	schema:about wd:Q36278 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język oroko"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kioroko> a schema:Article ;
+	schema:about wd:Q36278 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kioroko"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Oroko_language> a schema:Article ;
+	schema:about wd:Q36278 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Oroko language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Oroko> a schema:Article ;
+	schema:about wd:Q36278 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Oroko"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Oroko_jezik> a schema:Article ;
+	schema:about wd:Q36278 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Oroko jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Oroko_language> a schema:Article ;
+	schema:about wd:Q36278 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Oroko language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36278 wdt:P220 "bdu" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bdu> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0h3p97v" ;
+	wdt:P1394 "orok1266" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/orok1266> ;
+	wdt:P1466 "bkn" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_bkn> ;
+	wdt:P1466 "ldo" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ldo> ;
+	wdt:P305 "bdu" ;
+	wdt:P1627 "bdu" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q1009 ;
+	wdt:P2341 wd:Q845168,
+		wd:Q502341,
+		wd:Q165784,
+		wd:Q857122,
+		wd:Q607499 ;
+	wdt:P5198 "294920463" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BDU> ;
+	wdt:P910 wd:Q32859853 ;
+	wdt:P373 "Oroko language" ;
+	wdt:P10369 "Q52073" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q52073> ;
+	rdfs:label "Kioroko"@sw ;
+	skos:prefLabel "Kioroko"@sw ;
+	schema:name "Kioroko"@sw ;
+	rdfs:label "Lenga Oroko"@pms ;
+	skos:prefLabel "Lenga Oroko"@pms ;
+	schema:name "Lenga Oroko"@pms ;
+	rdfs:label "Oroko"@de ;
+	skos:prefLabel "Oroko"@de ;
+	schema:name "Oroko"@de ;
+	rdfs:label "Oroko"@en ;
+	skos:prefLabel "Oroko"@en ;
+	schema:name "Oroko"@en ;
+	rdfs:label "Oroko jezik"@hr ;
+	skos:prefLabel "Oroko jezik"@hr ;
+	schema:name "Oroko jezik"@hr ;
+	rdfs:label "oroko"@fr ;
+	skos:prefLabel "oroko"@fr ;
+	schema:name "oroko"@fr ;
+	rdfs:label "Oroko"@en-gb ;
+	skos:prefLabel "Oroko"@en-gb ;
+	schema:name "Oroko"@en-gb ;
+	rdfs:label "オロコ語"@ja ;
+	skos:prefLabel "オロコ語"@ja ;
+	schema:name "オロコ語"@ja ;
+	rdfs:label "oroko keel"@et ;
+	skos:prefLabel "oroko keel"@et ;
+	schema:name "oroko keel"@et ;
+	rdfs:label "Wikang Oroko"@tl ;
+	skos:prefLabel "Wikang Oroko"@tl ;
+	schema:name "Wikang Oroko"@tl ;
+	rdfs:label "oroko"@pl ;
+	skos:prefLabel "oroko"@pl ;
+	schema:name "oroko"@pl ;
+	rdfs:label "Oroko"@nl ;
+	skos:prefLabel "Oroko"@nl ;
+	schema:name "Oroko"@nl ;
+	rdfs:label "օրոկո"@hy ;
+	skos:prefLabel "օրոկո"@hy ;
+	schema:name "օրոկո"@hy ;
+	rdfs:label "oroko"@nb ;
+	skos:prefLabel "oroko"@nb ;
+	schema:name "oroko"@nb ;
+	rdfs:label "Oroko language"@ig ;
+	skos:prefLabel "Oroko language"@ig ;
+	schema:name "Oroko language"@ig ;
+	schema:description "Sprache"@de,
+		"Bantu dialect cluster spoken in Cameroon"@en,
+		"שפה"@he,
+		"bantu keel"@et,
+		"yezh"@br,
+		"langue"@fr,
+		"język"@pl,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"բանտու լեզվախմբի լեզու"@hy,
+		"Sprog i Kamerun"@nb ;
+	skos:altLabel "Oroko language"@en,
+		"Bakundu-Balue"@en,
+		"język oroko"@pl,
+		"Oroko語"@ja .

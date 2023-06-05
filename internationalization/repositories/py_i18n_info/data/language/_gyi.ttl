@@ -1,0 +1,140 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35434 a schema:Dataset ;
+	schema:about wd:Q35434 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1844584713"^^xsd:integer ;
+	schema:dateModified "2023-03-03T12:59:45Z"^^xsd:dateTime .
+
+wd:Q35434 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Gyele_(langue)> a schema:Article ;
+	schema:about wd:Q35434 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Gyele (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Gyele> a schema:Article ;
+	schema:about wd:Q35434 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Gyele"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigyele> a schema:Article ;
+	schema:about wd:Q35434 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigyele"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Gyele> a schema:Article ;
+	schema:about wd:Q35434 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Gyele"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35434 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "gyi" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gyi> ;
+	wdt:P1394 "gyel1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gyel1242> ;
+	wdt:P2355 "1742" ;
+	wdt:P279 wd:Q1603899 ;
+	wdt:P2192 "583" ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P305 "gyi" ;
+	wdt:P1627 "gyi" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q1009,
+		wd:Q983 ;
+	wdt:P2341 wd:Q739951,
+		wd:Q857122,
+		wd:Q845823,
+		wd:Q203873 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GYI> ;
+	wdt:P646 "/m/02hx6t8" ;
+	wdt:P2161 "A.801" ;
+	rdfs:label "Kigyele"@sw ;
+	skos:prefLabel "Kigyele"@sw ;
+	schema:name "Kigyele"@sw ;
+	rdfs:label "Lenga Gyele"@pms ;
+	skos:prefLabel "Lenga Gyele"@pms ;
+	schema:name "Lenga Gyele"@pms ;
+	rdfs:label "Gyele"@de ;
+	skos:prefLabel "Gyele"@de ;
+	schema:name "Gyele"@de ;
+	rdfs:label "Gyele"@en-ca ;
+	skos:prefLabel "Gyele"@en-ca ;
+	schema:name "Gyele"@en-ca ;
+	rdfs:label "Gyele"@en ;
+	skos:prefLabel "Gyele"@en ;
+	schema:name "Gyele"@en ;
+	rdfs:label "gyele"@fr ;
+	skos:prefLabel "gyele"@fr ;
+	schema:name "gyele"@fr ;
+	rdfs:label "Gyele"@en-gb ;
+	skos:prefLabel "Gyele"@en-gb ;
+	schema:name "Gyele"@en-gb ;
+	rdfs:label "gyele"@es ;
+	skos:prefLabel "gyele"@es ;
+	schema:name "gyele"@es ;
+	rdfs:label "bagyeli"@ca ;
+	skos:prefLabel "bagyeli"@ca ;
+	schema:name "bagyeli"@ca ;
+	schema:description "A Bantu language."@en-ca,
+		"Sprache"@de,
+		"language of Equatorial Guinea and Cameroon"@en,
+		"שפה"@he,
+		"langue bantoue"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"llengua batoide del Camerun i la Guinea Equatorial"@ca ;
+	skos:altLabel "bajele"@ca,
+		"bako"@ca,
+		"bakola"@ca,
+		"bekoe"@ca,
+		"bogyeli"@ca,
+		"gieli"@ca,
+		"gyeli"@ca .

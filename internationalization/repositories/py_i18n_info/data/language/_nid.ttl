@@ -1,0 +1,139 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7021977 a schema:Dataset ;
+	schema:about wd:Q7021977 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616006632"^^xsd:integer ;
+	schema:dateModified "2022-04-10T14:00:35Z"^^xsd:dateTime .
+
+wd:Q7021977 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_ngandi> a schema:Article ;
+	schema:about wd:Q7021977 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga ngandi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Ngandi> a schema:Article ;
+	schema:about wd:Q7021977 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Ngandi"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kingandi> a schema:Article ;
+	schema:about wd:Q7021977 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kingandi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ngandi_language> a schema:Article ;
+	schema:about wd:Q7021977 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ngandi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D9%86%DA%AF%D8%A7%D9%86%D8%AF%DB%8C_%D8%B2%D8%A8%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q7021977 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "نگاندی زبان"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7021977 wdt:P220 "nid" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nid> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "ngan1295" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ngan1295> ;
+	wdt:P2355 "221" ;
+	wdt:P1252 "N90" ;
+	wdt:P1466 "ngn" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ngn> ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P2192 "4859" ;
+	wdt:P305 "nid" ;
+	wdt:P1627 "nid" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P1251 "8162" ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3235 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NID> ;
+	wdt:P6915 "Ngandi" ;
+	wdt:P646 "/m/02hxxwy" ;
+	wdt:P910 wd:Q33669966 ;
+	rdfs:label "Ngandi"@en ;
+	skos:prefLabel "Ngandi"@en ;
+	schema:name "Ngandi"@en ;
+	rdfs:label "Ngandi"@sv ;
+	skos:prefLabel "Ngandi"@sv ;
+	schema:name "Ngandi"@sv ;
+	rdfs:label "Lenga ngandi"@pms ;
+	skos:prefLabel "Lenga ngandi"@pms ;
+	schema:name "Lenga ngandi"@pms ;
+	rdfs:label "Ngandi"@en-gb ;
+	skos:prefLabel "Ngandi"@en-gb ;
+	schema:name "Ngandi"@en-gb ;
+	rdfs:label "ngandi keel"@et ;
+	skos:prefLabel "ngandi keel"@et ;
+	schema:name "ngandi keel"@et ;
+	rdfs:label "Kingandi"@sw ;
+	skos:prefLabel "Kingandi"@sw ;
+	schema:name "Kingandi"@sw ;
+	rdfs:label "نگاندی"@ur ;
+	skos:prefLabel "نگاندی"@ur ;
+	schema:name "نگاندی"@ur ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"زبان"@ur ;
+	skos:altLabel "Ngandi language"@en,
+		"نگاندی زبان"@ur .
+
+wd:Q10600379 owl:sameAs wd:Q7021977 .

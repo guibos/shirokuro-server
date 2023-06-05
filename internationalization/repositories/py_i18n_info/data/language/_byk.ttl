@@ -1,0 +1,177 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4902547 a schema:Dataset ;
+	schema:about wd:Q4902547 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912849925"^^xsd:integer ;
+	schema:dateModified "2023-06-11T08:20:43Z"^^xsd:dateTime .
+
+wd:Q4902547 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_biao> a schema:Article ;
+	schema:about wd:Q4902547 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga biao"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E8%AE%B2%E6%A0%87%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q4902547 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "讲标语"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibiao> a schema:Article ;
+	schema:about wd:Q4902547 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibiao"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Biao_language> a schema:Article ;
+	schema:about wd:Q4902547 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Biao language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Biao_jezik> a schema:Article ;
+	schema:about wd:Q4902547 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Biao jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%A0%87%E8%AF%9D> a schema:Article ;
+	schema:about wd:Q4902547 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "标话"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_biao> a schema:Article ;
+	schema:about wd:Q4902547 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua biao"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Biao> a schema:Article ;
+	schema:about wd:Q4902547 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Biao"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E6%A8%99%E8%A9%B1> a schema:Article ;
+	schema:about wd:Q4902547 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "標話"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4902547 wdt:P220 "byk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/byk> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/05n9s5m" ;
+	wdt:P1394 "biao1257" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/biao1257> ;
+	wdt:P305 "byk" ;
+	wdt:P1627 "byk" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q15175 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BYK> ;
+	wdt:P910 wd:Q105714587 ;
+	wdt:P1098 "+80000"^^xsd:decimal ;
+	rdfs:label "Biao"@en ;
+	skos:prefLabel "Biao"@en ;
+	schema:name "Biao"@en ;
+	rdfs:label "Biao jezik"@hr ;
+	skos:prefLabel "Biao jezik"@hr ;
+	schema:name "Biao jezik"@hr ;
+	rdfs:label "标话"@zh ;
+	skos:prefLabel "标话"@zh ;
+	schema:name "标话"@zh ;
+	rdfs:label "Lenga biao"@pms ;
+	skos:prefLabel "Lenga biao"@pms ;
+	schema:name "Lenga biao"@pms ;
+	rdfs:label "Kibiao"@sw ;
+	skos:prefLabel "Kibiao"@sw ;
+	schema:name "Kibiao"@sw ;
+	rdfs:label "Biao"@en-gb ;
+	skos:prefLabel "Biao"@en-gb ;
+	schema:name "Biao"@en-gb ;
+	rdfs:label "標語"@ja ;
+	skos:prefLabel "標語"@ja ;
+	schema:name "標語"@ja ;
+	rdfs:label "讲标语"@wuu ;
+	skos:prefLabel "讲标语"@wuu ;
+	schema:name "讲标语"@wuu ;
+	rdfs:label "Lingua biao"@gl ;
+	skos:prefLabel "Lingua biao"@gl ;
+	schema:name "Lingua biao"@gl ;
+	rdfs:label "Bahasa Biao"@id ;
+	skos:prefLabel "Bahasa Biao"@id ;
+	schema:name "Bahasa Biao"@id ;
+	rdfs:label "標話"@yue ;
+	skos:prefLabel "標話"@yue ;
+	schema:name "標話"@yue ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"言語"@ja,
+		"bagian dari rumpun bahasa Kra-Dai"@id,
+		"lingua kra-dai que se fala na provincia de Guangdong na República Popular da China"@gl ;
+	skos:altLabel "Biao language"@en,
+		"Biao"@id .
+
+wd:Q12953389 owl:sameAs wd:Q4902547 .

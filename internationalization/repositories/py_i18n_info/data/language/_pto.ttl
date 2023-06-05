@@ -1,0 +1,167 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q8073148 a schema:Dataset ;
+	schema:about wd:Q8073148 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960620055"^^xsd:integer ;
+	schema:dateModified "2023-08-25T01:08:16Z"^^xsd:dateTime .
+
+wd:Q8073148 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_zo%27%C3%A9> a schema:Article ;
+	schema:about wd:Q8073148 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga zo'é"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Zo%27e_hizkuntza> a schema:Article ;
+	schema:about wd:Q8073148 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Zo'e hizkuntza"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%96%E1%83%9D%E2%80%99%E1%83%94_%E1%83%94%E1%83%9C%E1%83%90> a schema:Article ;
+	schema:about wd:Q8073148 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "ზო’ე ენა"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%97%D0%BE%E2%80%99%D1%8D_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q8073148 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Зо’э (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Zo%27%C3%A9_language> a schema:Article ;
+	schema:about wd:Q8073148 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Zo'é language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_zo%C3%A9> a schema:Article ;
+	schema:about wd:Q8073148 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua zoé"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_zo%27%C3%A9> a schema:Article ;
+	schema:about wd:Q8073148 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua zo'é"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q8073148 wdt:P220 "pto" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pto> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "zoee1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/zoee1240> ;
+	wdt:P2355 "1705" ;
+	wdt:P279 wd:Q148610 ;
+	wdt:P17 wd:Q155 ;
+	wdt:P2192 "1632" ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P305 "pto" ;
+	wdt:P1627 "pto" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q39517 ;
+	wdt:P4839 "Entity[\"Language\", \"Zoe::6xp28\"]",
+		"Entity[\"Language\", \"Zoe\"]" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PTO> ;
+	wdt:P646 "/m/02hwl_q" ;
+	wdt:P9717 "zoe-2" ;
+	rdfs:label "Zo'é"@en ;
+	skos:prefLabel "Zo'é"@en ;
+	schema:name "Zo'é"@en ;
+	rdfs:label "Зо’э"@ru ;
+	skos:prefLabel "Зо’э"@ru ;
+	schema:name "Зо’э"@ru ;
+	rdfs:label "ზო’ე ენა"@ka ;
+	skos:prefLabel "ზო’ე ენა"@ka ;
+	schema:name "ზო’ე ენა"@ka ;
+	rdfs:label "ゾエ語"@ja ;
+	skos:prefLabel "ゾエ語"@ja ;
+	schema:name "ゾエ語"@ja ;
+	rdfs:label "Lenga zo'é"@pms ;
+	skos:prefLabel "Lenga zo'é"@pms ;
+	schema:name "Lenga zo'é"@pms ;
+	rdfs:label "Língua zoé"@pt ;
+	skos:prefLabel "Língua zoé"@pt ;
+	schema:name "Língua zoé"@pt ;
+	rdfs:label "zo'é"@fr ;
+	skos:prefLabel "zo'é"@fr ;
+	schema:name "zo'é"@fr ;
+	rdfs:label "Zo'é"@en-gb ;
+	skos:prefLabel "Zo'é"@en-gb ;
+	schema:name "Zo'é"@en-gb ;
+	rdfs:label "Zo'e hizkuntza"@eu ;
+	skos:prefLabel "Zo'e hizkuntza"@eu ;
+	schema:name "Zo'e hizkuntza"@eu ;
+	rdfs:label "Wikang Zo'é"@tl ;
+	skos:prefLabel "Wikang Zo'é"@tl ;
+	schema:name "Wikang Zo'é"@tl ;
+	rdfs:label "Lingua zo'é"@gl ;
+	skos:prefLabel "Lingua zo'é"@gl ;
+	schema:name "Lingua zo'é"@gl ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue tupi"@fr,
+		"Tupian language spoken in Brazil"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"lingua da familia tupí falada no Brasil"@gl ;
+	skos:altLabel "Zo'é language"@en .
+
+wd:Q10322166 owl:sameAs wd:Q8073148 .
+
+wd:Q50924883 owl:sameAs wd:Q8073148 .
+
+wd:Q61095379 owl:sameAs wd:Q8073148 .

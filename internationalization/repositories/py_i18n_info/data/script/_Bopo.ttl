@@ -1,0 +1,633 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q198269 a schema:Dataset ;
+	schema:about wd:Q198269 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1920320194"^^xsd:integer ;
+	schema:dateModified "2023-06-21T02:27:59Z"^^xsd:dateTime .
+
+wd:Q198269 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Bopomofo> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Bopomofo"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Zhuyin> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Zhuyin"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Bopomofo> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Bopomofo"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Zhuyin> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Zhuyin"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A7%D0%B6%D1%83%D0%B8%D0%BD%D1%8C_%D1%84%D1%83%D1%85%D0%B0%D0%BE> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Чжуинь фухао"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Bopomofo> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Bopomofo"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E6%B3%A8%E9%9F%B3%E7%AC%A6%E5%8F%B7> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "注音符号"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Zhuyin> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Zhuyin"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/Bopomofo> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Bopomofo"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Zhuyin> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Zhuyin"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%B3%A8%E9%9F%B3%E7%AC%A6%E8%99%9F> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "注音符號"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Zhuyin> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Zhuyin"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A8%D9%88%D8%A8%D9%88%D9%85%D9%88%D9%81%D9%88> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "بوبوموفو"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ch%C3%BA_%C3%A2m_ph%C3%B9_hi%E1%BB%87u> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Chú âm phù hiệu"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Zhuyin> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Zhuyin"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%A7%D0%B6%D1%83%D1%97%D0%BD%D1%8C> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Чжуїнь"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%A3%BC%EC%9D%8C%EB%B6%80%ED%98%B8> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "주음부호"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Zhuyin> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Zhuyin"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/%C4%8Cu-jin_fu-chao> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Ču-jin fu-chao"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%91%D0%BE%D0%BF%D0%BE%D0%BC%D0%BE%D1%84%D0%BE> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Бопомофо"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bopomofo> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bopomofo"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Zhuyin> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Zhuyin"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cdo.wikipedia.org/wiki/Ci%C3%B3-%C4%ADng_H%C3%B9-h%C3%B4%CC%A4> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "cdo" ;
+	schema:isPartOf <https://cdo.wikipedia.org/> ;
+	schema:name "Ció-ĭng Hù-hô̤"@cdo .
+
+<https://cdo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Bopomofo> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Bopomofo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Zh%C3%B9y%C4%ABn_f%C3%BAh%C3%A0o> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Zhùyīn fúhào"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jv.wikipedia.org/wiki/Bopomofo> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "jv" ;
+	schema:isPartOf <https://jv.wikipedia.org/> ;
+	schema:name "Bopomofo"@jv .
+
+<https://jv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mg.wikipedia.org/wiki/Bopomofo> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "mg" ;
+	schema:isPartOf <https://mg.wikipedia.org/> ;
+	schema:name "Bopomofo"@mg .
+
+<https://mg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Zhuyin> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Zhuyin"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Bopomofo> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Bopomofo"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://su.wikipedia.org/wiki/Bopomofo> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "su" ;
+	schema:isPartOf <https://su.wikipedia.org/> ;
+	schema:name "Bopomofo"@su .
+
+<https://su.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%88%E0%B8%B9%E0%B9%89%E0%B8%AD%E0%B8%B4%E0%B8%99> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "จู้อิน"@th ;
+	wikibase:badge wd:Q17437798 .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Bopomofo> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Bopomofo"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://war.wikipedia.org/wiki/Bopomofo> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "war" ;
+	schema:isPartOf <https://war.wikipedia.org/> ;
+	schema:name "Bopomofo"@war .
+
+<https://war.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-classical.wikipedia.org/wiki/%E5%9C%8B%E8%AA%9E%E6%B3%A8%E9%9F%B3> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "lzh" ;
+	schema:isPartOf <https://zh-classical.wikipedia.org/> ;
+	schema:name "國語注音"@lzh .
+
+<https://zh-classical.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-min-nan.wikipedia.org/wiki/Ch%C3%B9-im_h%C3%BB-h%C5%8D> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "nan" ;
+	schema:isPartOf <https://zh-min-nan.wikipedia.org/> ;
+	schema:name "Chù-im hû-hō"@nan .
+
+<https://zh-min-nan.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E6%B3%A8%E9%9F%B3%E7%AC%A6%E8%99%9F> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "注音符號"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Bopomofo> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Bopomofo"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lfn.wikipedia.org/wiki/Bopomofo> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "lfn" ;
+	schema:isPartOf <https://lfn.wikipedia.org/> ;
+	schema:name "Bopomofo"@lfn .
+
+<https://lfn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E6%B3%A8%E9%9F%B3%E7%AC%A6%E5%8F%B7> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "注音符号"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Bopomofo> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Bopomofo"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%A8%D9%88%D9%BE%D9%88%D9%85%D9%88%D9%81%D9%88> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "بوپوموفو"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Bopomofo> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Bopomofo"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Bopomofo> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Bopomofo"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wiktionary.org/wiki/Appendix:Zhuyin_script> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wiktionary.org/> ;
+	schema:name "Appendix:Zhuyin script"@en .
+
+<https://en.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://zh.wiktionary.org/wiki/Appendix:%E6%B3%A8%E9%9F%B3%E7%AC%A6%E8%99%9F> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wiktionary.org/> ;
+	schema:name "Appendix:注音符號"@zh .
+
+<https://zh.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://sr.wiktionary.org/wiki/%D0%94%D0%BE%D0%B4%D0%B0%D1%82%D0%B0%D0%BA:%D0%A3%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4/%D0%91%D0%BE%D0%BF%D0%BE%D0%BC%D0%BE%D1%84%D0%BE> a schema:Article ;
+	schema:about wd:Q198269 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wiktionary.org/> ;
+	schema:name "Додатак:Уникод/Бопомофо"@sr .
+
+<https://sr.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+wd:Q198269 wdt:P373 "Bopomofo" ;
+	wdt:P506 "Bopo" ;
+	wdt:P349 "00573875" ;
+	wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00573875> ;
+	wdt:P646 "/m/03c9hp8" ;
+	wdt:P910 wd:Q10759828 ;
+	wdt:P2620 "285" ;
+	wdt:P31 wd:Q1191702,
+		wd:Q579287,
+		wd:Q3781304,
+		wd:Q4004706 ;
+	wdt:P527 wd:Q41805936 ;
+	wdt:P1448 "注音符號"@zh-hant,
+		"注音符号"@zh-hans ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bopomofo%20in%20Regular%2C%20Handwritten%20Regular%20%26%20Cursive%20formats.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Bopomofo.jpg> ;
+	wdt:P4969 wd:Q10915521 ;
+	wdt:P7033 "scot/9343" ;
+	wdtn:P7033 <http://vocabulary.curriculum.edu.au/scot/9343.rdf> ;
+	wdt:P6366 "170098036" ;
+	wdtn:P6366 <http://ma-graph.org/entity/170098036> ;
+	wdt:P5949 "U+3100-312F,U+31A0-31BF" ;
+	wdt:P1406 wd:Q17321844,
+		wd:Q7333457 ;
+	wdt:P571 "1910-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P1705 "注音符號"@zh-hant,
+		"ㄓㄨˋ ㄧㄣ ㄈㄨˊ ㄏㄠˋ"@zh,
+		"ㄅㄆㄇㄈ"@zh ;
+	wdt:P170 wd:Q5152751 ;
+	wdt:P8885 "주음부호" ;
+	wdt:P2561 "Bopomofo"@en,
+		"bopomofo"@fr ;
+	wdt:P144 wd:Q1073960 ;
+	wdt:P1343 wd:Q106914768 ;
+	wdt:P361 wd:Q28454520 ;
+	wdt:P407 wd:Q9192 ;
+	wdt:P10565 "30064" ;
+	wdt:P3553 "19585414" ;
+	wdt:P5555 <http://commons.wikimedia.org/wiki/Special:FilePath/Bopomofo.png> ;
+	rdfs:label "Bopomofo"@eo ;
+	skos:prefLabel "Bopomofo"@eo ;
+	schema:name "Bopomofo"@eo ;
+	rdfs:label "Bopomofo"@en ;
+	skos:prefLabel "Bopomofo"@en ;
+	schema:name "Bopomofo"@en ;
+	rdfs:label "注音符號"@zh ;
+	skos:prefLabel "注音符號"@zh ;
+	schema:name "注音符號"@zh ;
+	rdfs:label "จู้อิน"@th ;
+	skos:prefLabel "จู้อิน"@th ;
+	schema:name "จู้อิน"@th ;
+	rdfs:label "Zhuyin"@ca ;
+	skos:prefLabel "Zhuyin"@ca ;
+	schema:name "Zhuyin"@ca ;
+	rdfs:label "Zhuyin"@de ;
+	skos:prefLabel "Zhuyin"@de ;
+	schema:name "Zhuyin"@de ;
+	rdfs:label "Bopomofo"@it ;
+	skos:prefLabel "Bopomofo"@it ;
+	schema:name "Bopomofo"@it ;
+	rdfs:label "bopomofo"@fr ;
+	skos:prefLabel "bopomofo"@fr ;
+	schema:name "bopomofo"@fr ;
+	rdfs:label "بوبوموفو"@ar ;
+	skos:prefLabel "بوبوموفو"@ar ;
+	schema:name "بوبوموفو"@ar ;
+	rdfs:label "чжуїнь"@uk ;
+	skos:prefLabel "чжуїнь"@uk ;
+	schema:name "чжуїнь"@uk ;
+	rdfs:label "Ču-jin fu-chao"@cs ;
+	skos:prefLabel "Ču-jin fu-chao"@cs ;
+	schema:name "Ču-jin fu-chao"@cs ;
+	rdfs:label "Zhùyīn fúhào"@gl ;
+	skos:prefLabel "Zhùyīn fúhào"@gl ;
+	schema:name "Zhùyīn fúhào"@gl ;
+	rdfs:label "Bopomofo"@id ;
+	skos:prefLabel "Bopomofo"@id ;
+	schema:name "Bopomofo"@id ;
+	rdfs:label "Zhuyin"@es ;
+	skos:prefLabel "Zhuyin"@es ;
+	schema:name "Zhuyin"@es ;
+	rdfs:label "чжуинь"@ru ;
+	skos:prefLabel "чжуинь"@ru ;
+	schema:name "чжуинь"@ru ;
+	rdfs:label "Bopomofo"@mg ;
+	skos:prefLabel "Bopomofo"@mg ;
+	schema:name "Bopomofo"@mg ;
+	rdfs:label "Zhuyin"@nl ;
+	skos:prefLabel "Zhuyin"@nl ;
+	schema:name "Zhuyin"@nl ;
+	rdfs:label "Bopomofo"@pt ;
+	skos:prefLabel "Bopomofo"@pt ;
+	schema:name "Bopomofo"@pt ;
+	rdfs:label "Бопомофо"@sr ;
+	skos:prefLabel "Бопомофо"@sr ;
+	schema:name "Бопомофо"@sr ;
+	rdfs:label "주음부호"@ko ;
+	skos:prefLabel "주음부호"@ko ;
+	schema:name "주음부호"@ko ;
+	rdfs:label "Zhuyin"@sv ;
+	skos:prefLabel "Zhuyin"@sv ;
+	schema:name "Zhuyin"@sv ;
+	rdfs:label "Bopomofo"@su ;
+	skos:prefLabel "Bopomofo"@su ;
+	schema:name "Bopomofo"@su ;
+	rdfs:label "注音符号"@ja ;
+	skos:prefLabel "注音符号"@ja ;
+	schema:name "注音符号"@ja ;
+	rdfs:label "Bopomofo"@sh ;
+	skos:prefLabel "Bopomofo"@sh ;
+	schema:name "Bopomofo"@sh ;
+	rdfs:label "Zhuyin"@ms ;
+	skos:prefLabel "Zhuyin"@ms ;
+	schema:name "Zhuyin"@ms ;
+	rdfs:label "Bopomofo"@pl ;
+	skos:prefLabel "Bopomofo"@pl ;
+	schema:name "Bopomofo"@pl ;
+	rdfs:label "Bopomofo"@tl ;
+	skos:prefLabel "Bopomofo"@tl ;
+	schema:name "Bopomofo"@tl ;
+	rdfs:label "Zhuyin"@nb ;
+	skos:prefLabel "Zhuyin"@nb ;
+	schema:name "Zhuyin"@nb ;
+	rdfs:label "Chù-im hû-hō"@nan ;
+	skos:prefLabel "Chù-im hû-hō"@nan ;
+	schema:name "Chù-im hû-hō"@nan ;
+	rdfs:label "chú âm phù hiệu"@vi ;
+	skos:prefLabel "chú âm phù hiệu"@vi ;
+	schema:name "chú âm phù hiệu"@vi ;
+	rdfs:label "Ció-ĭng Hù-hô̤"@cdo ;
+	skos:prefLabel "Ció-ĭng Hù-hô̤"@cdo ;
+	schema:name "Ció-ĭng Hù-hô̤"@cdo ;
+	rdfs:label "Μποπομόφο"@el ;
+	skos:prefLabel "Μποπομόφο"@el ;
+	schema:name "Μποπομόφο"@el ;
+	rdfs:label "國語注音"@lzh ;
+	skos:prefLabel "國語注音"@lzh ;
+	schema:name "國語注音"@lzh ;
+	rdfs:label "Bopomofo"@war ;
+	skos:prefLabel "Bopomofo"@war ;
+	schema:name "Bopomofo"@war ;
+	rdfs:label "注音符號"@yue ;
+	skos:prefLabel "注音符號"@yue ;
+	schema:name "注音符號"@yue ;
+	rdfs:label "Bopomofo"@jv ;
+	skos:prefLabel "Bopomofo"@jv ;
+	schema:name "Bopomofo"@jv ;
+	rdfs:label "注音符號"@zh-hant ;
+	skos:prefLabel "注音符號"@zh-hant ;
+	schema:name "注音符號"@zh-hant ;
+	rdfs:label "注音符號"@zh-tw ;
+	skos:prefLabel "注音符號"@zh-tw ;
+	schema:name "注音符號"@zh-tw ;
+	rdfs:label "Bopomofo"@bcl ;
+	skos:prefLabel "Bopomofo"@bcl ;
+	schema:name "Bopomofo"@bcl ;
+	rdfs:label "Bopomofo"@lfn ;
+	skos:prefLabel "Bopomofo"@lfn ;
+	schema:name "Bopomofo"@lfn ;
+	rdfs:label "注音符号"@wuu ;
+	skos:prefLabel "注音符号"@wuu ;
+	schema:name "注音符号"@wuu ;
+	rdfs:label "Bopomofo"@fi ;
+	skos:prefLabel "Bopomofo"@fi ;
+	schema:name "Bopomofo"@fi ;
+	rdfs:label "bopomofo kiri"@et ;
+	skos:prefLabel "bopomofo kiri"@et ;
+	schema:name "bopomofo kiri"@et ;
+	rdfs:label "بوپوموفو"@fa ;
+	skos:prefLabel "بوپوموفو"@fa ;
+	schema:name "بوپوموفو"@fa ;
+	rdfs:label "Bopomofo"@hr ;
+	skos:prefLabel "Bopomofo"@hr ;
+	schema:name "Bopomofo"@hr ;
+	rdfs:label "Bopomofo"@ro ;
+	skos:prefLabel "Bopomofo"@ro ;
+	schema:name "Bopomofo"@ro ;
+	rdfs:label "Bopomofo"@tr ;
+	skos:prefLabel "Bopomofo"@tr ;
+	schema:name "Bopomofo"@tr ;
+	rdfs:label "注音符号"@zh-hans ;
+	skos:prefLabel "注音符号"@zh-hans ;
+	schema:name "注音符号"@zh-hans ;
+	rdfs:label "注音符號"@zh-hk ;
+	skos:prefLabel "注音符號"@zh-hk ;
+	schema:name "注音符號"@zh-hk ;
+	rdfs:label "注音符号"@zh-cn ;
+	skos:prefLabel "注音符号"@zh-cn ;
+	schema:name "注音符号"@zh-cn ;
+	schema:description "semi-syllabary used for transcribing Mandarin Chinese"@en,
+		"漢語標音符號"@zh,
+		"Nichtlateinische Chinesische Transkription"@de,
+		"使用於現代標準華語之拼音字母。"@zh-hant,
+		"使用於現代標準華語之標音符號"@zh-tw,
+		"記音之符也。"@lzh,
+		"hiina keele foneetiline tähestik"@et,
+		"skribsistemo por ĉinaj lingvoj"@eo,
+		"semi-syllabaire utilisé pour transcrire le chinois mandarin"@fr,
+		"alfabet som används för att transkribera mandarin"@sv,
+		"中国語の発音記号"@ja,
+		"национальная фонетическая система Тайваня для изучения китайского языка"@ru,
+		"汉语标音系统"@zh-hans,
+		"sistema fonético chinés"@gl ;
+	skos:altLabel "Zhuyin"@en,
+		"Mandarin Phonetic Symbols"@en,
+		"Zhuyin script"@en,
+		"Bpmf"@en,
+		"注音字母"@zh,
+		"注音"@zh,
+		"注音符号"@zh,
+		"註音"@zh,
+		"註音字母"@zh,
+		"註音符號"@zh,
+		"附录:注音符號"@zh,
+		"ボポモフォ"@ja,
+		"бопомофо"@ru,
+		"чжуинь фухао"@ru,
+		"zhuyin"@fr,
+		"symboles phonétiques mandarins"@fr,
+		"注音字母"@zh-hans,
+		"注音"@zh-hans,
+		"Додатак:Уникод/Бопомофо"@sr .
+
+wd:Q63473055 owl:sameAs wd:Q198269 .

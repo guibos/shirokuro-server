@@ -1,0 +1,129 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2850262 a schema:Dataset ;
+	schema:about wd:Q2850262 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960531623"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:49:53Z"^^xsd:dateTime .
+
+wd:Q2850262 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Anjouanais> a schema:Article ;
+	schema:about wd:Q2850262 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Anjouanais"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Comorian,_Ndzwani> a schema:Article ;
+	schema:about wd:Q2850262 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Comorian, Ndzwani"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mg.wikipedia.org/wiki/Fiteny_sinjoany> a schema:Article ;
+	schema:about wd:Q2850262 ;
+	schema:inLanguage "mg" ;
+	schema:isPartOf <https://mg.wikipedia.org/> ;
+	schema:name "Fiteny sinjoany"@mg .
+
+<https://mg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wiktionary.org/wiki/Wiktionary:About_Ndzwani_Comorian> a schema:Article ;
+	schema:about wd:Q2850262 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wiktionary.org/> ;
+	schema:name "Wiktionary:About Ndzwani Comorian"@en .
+
+<https://en.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_komoryjski_ndzuani> a schema:Article ;
+	schema:about wd:Q2850262 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język komoryjski ndzuani"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2850262 wdt:P279 wd:Q33077 ;
+	wdt:P220 "wni" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/wni> ;
+	wdt:P31 wd:Q33384,
+		wd:Q34770,
+		wd:Q1288568,
+		wd:Q3329375 ;
+	wdt:P305 "wni" ;
+	wdt:P269 "034856765" ;
+	wdtn:P269 <http://www.idref.fr/034856765/id> ;
+	wdt:P1394 "ndzw1235" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ndzw1235> ;
+	wdt:P4913 wd:Q33077 ;
+	wdt:P1627 "wni" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q970 ;
+	wdt:P2341 wd:Q231324 ;
+	wdt:P1245 "1701963" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/WNI> ;
+	wdt:P2671 "/g/12301ws7" ;
+	wdtn:P2671 <http://g.co/kg/g/12301ws7> ;
+	wdt:P910 wd:Q105714961 ;
+	wdt:P6802 <http://commons.wikimedia.org/wiki/Special:FilePath/Teacher%20prescolair%202.jpg> ;
+	a wdno:P282 ;
+	wdt:P1098 "+275000"^^xsd:decimal ;
+	rdfs:label "anjouanais"@fr ;
+	skos:prefLabel "anjouanais"@fr ;
+	schema:name "anjouanais"@fr ;
+	rdfs:label "Ndzwani Comorian"@en ;
+	skos:prefLabel "Ndzwani Comorian"@en ;
+	schema:name "Ndzwani Comorian"@en ;
+	rdfs:label "Lenga Comorian, Ndzwani"@pms ;
+	skos:prefLabel "Lenga Comorian, Ndzwani"@pms ;
+	schema:name "Lenga Comorian, Ndzwani"@pms ;
+	rdfs:label "Ndzwani Comorian"@en-gb ;
+	skos:prefLabel "Ndzwani Comorian"@en-gb ;
+	schema:name "Ndzwani Comorian"@en-gb ;
+	rdfs:label "Fiteny sinjoany"@mg ;
+	skos:prefLabel "Fiteny sinjoany"@mg ;
+	schema:name "Fiteny sinjoany"@mg ;
+	rdfs:label "Język komoryjski ndzuani"@pl ;
+	skos:prefLabel "Język komoryjski ndzuani"@pl ;
+	schema:name "Język komoryjski ndzuani"@pl ;
+	skos:altLabel "Shindzuani"@fr,
+		"Ndzwani Comorian language"@en .
+
+wd:Q11732337 owl:sameAs wd:Q2850262 .
+
+wd:Q12952348 owl:sameAs wd:Q2850262 .

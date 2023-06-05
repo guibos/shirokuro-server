@@ -1,0 +1,160 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36825 a schema:Dataset ;
+	schema:about wd:Q36825 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961117733"^^xsd:integer ;
+	schema:dateModified "2023-08-25T18:09:25Z"^^xsd:dateTime .
+
+wd:Q36825 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Togoyo> a schema:Article ;
+	schema:about wd:Q36825 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Togoyo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Togoyo> a schema:Article ;
+	schema:about wd:Q36825 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Togoyo"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%A2%D0%BE%D0%B3%D0%BE%D1%98%D0%BE_%D1%98%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q36825 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Тогојо језик"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitogoyo> a schema:Article ;
+	schema:about wd:Q36825 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitogoyo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Togoyo_language> a schema:Article ;
+	schema:about wd:Q36825 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Togoyo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Togoyo> a schema:Article ;
+	schema:about wd:Q36825 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Togoyo"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Togoyo_language> a schema:Article ;
+	schema:about wd:Q36825 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Togoyo language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36825 wdt:P220 "tgy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tgy> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "togo1252" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/togo1252> ;
+	wdt:P2355 "1738" ;
+	wdt:P279 wd:Q7453058 ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P305 "tgy" ;
+	wdt:P1627 "tgy" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P17 wd:Q958 ;
+	wdt:P2341 wd:Q332095 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TGY> ;
+	wdt:P646 "/m/02hxhsh" ;
+	rdfs:label "Togoyo"@de ;
+	skos:prefLabel "Togoyo"@de ;
+	schema:name "Togoyo"@de ;
+	rdfs:label "Lenga Togoyo"@pms ;
+	skos:prefLabel "Lenga Togoyo"@pms ;
+	schema:name "Lenga Togoyo"@pms ;
+	rdfs:label "тогојо језик"@sr ;
+	skos:prefLabel "тогојо језик"@sr ;
+	schema:name "тогојо језик"@sr ;
+	rdfs:label "Togoyo"@en ;
+	skos:prefLabel "Togoyo"@en ;
+	schema:name "Togoyo"@en ;
+	rdfs:label "тогојо језик"@sr-ec ;
+	skos:prefLabel "тогојо језик"@sr-ec ;
+	schema:name "тогојо језик"@sr-ec ;
+	rdfs:label "togojo jezik"@sr-el ;
+	skos:prefLabel "togojo jezik"@sr-el ;
+	schema:name "togojo jezik"@sr-el ;
+	rdfs:label "Kitogoyo"@sw ;
+	skos:prefLabel "Kitogoyo"@sw ;
+	schema:name "Kitogoyo"@sw ;
+	rdfs:label "Togoyo"@en-gb ;
+	skos:prefLabel "Togoyo"@en-gb ;
+	schema:name "Togoyo"@en-gb ;
+	rdfs:label "togoyo"@fr ;
+	skos:prefLabel "togoyo"@fr ;
+	schema:name "togoyo"@fr ;
+	rdfs:label "Wikang Togoyo"@tl ;
+	skos:prefLabel "Wikang Togoyo"@tl ;
+	schema:name "Wikang Togoyo"@tl ;
+	rdfs:label "トゴヨ語"@ja ;
+	skos:prefLabel "トゴヨ語"@ja ;
+	schema:name "トゴヨ語"@ja ;
+	rdfs:label "Togoyo language"@ig ;
+	skos:prefLabel "Togoyo language"@ig ;
+	schema:name "Togoyo language"@ig ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue oubanguienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Togoyo language"@en .

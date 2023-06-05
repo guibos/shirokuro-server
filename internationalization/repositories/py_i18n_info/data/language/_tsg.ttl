@@ -1,0 +1,541 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q34142 a schema:Dataset ;
+	schema:about wd:Q34142 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1962058224"^^xsd:integer ;
+	schema:dateModified "2023-08-27T02:29:05Z"^^xsd:dateTime .
+
+wd:Q34142 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Tausug> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Tausug"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Tausug_language> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Tausug language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Tausug> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Tausug"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%80%E0%B8%95%E0%B8%B2%E0%B8%8B%E0%B8%B8%E0%B8%81> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาเตาซุก"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_tausug> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua tausug"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ceb.wikipedia.org/wiki/Tinausug> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "ceb" ;
+	schema:isPartOf <https://ceb.wikipedia.org/> ;
+	schema:name "Tinausug"@ceb .
+
+<https://ceb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Tausug> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Tausug"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://war.wikipedia.org/wiki/Tausug_(linggwahe)> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "war" ;
+	schema:isPartOf <https://war.wikipedia.org/> ;
+	schema:name "Tausug (linggwahe)"@war .
+
+<https://war.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitausug> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitausug"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%A6%E3%82%B9%E3%82%B0%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "タウスグ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Suluk> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Suluk"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Tausug_dili> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Tausug dili"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D8%B3%D9%88%D9%84%D9%88%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "اللغة السولوية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_joloano> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma joloano"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D8%B3%D9%88%DA%AF_%D8%B2%D8%A8%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "سوگ زبان"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hak.wikipedia.org/wiki/Taus%C5%ABg-ng%C3%AE> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "hak" ;
+	schema:isPartOf <https://hak.wikipedia.org/> ;
+	schema:name "Tausūg-ngî"@hak .
+
+<https://hak.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Suluk> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Suluk"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://diq.wikipedia.org/wiki/Tausugki> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Tausugki"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Tausug> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Tausug"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Tausug> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Tausug"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikivoyage.org/wiki/Tausug_phrasebook> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikivoyage.org/> ;
+	schema:name "Tausug phrasebook"@en .
+
+<https://en.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Tausug> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Tausug"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Tausug_(spr%C3%A5k)> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Tausug (språk)"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_joloano> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma joloano"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Tausug> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Tausug"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%ED%83%80%EC%9A%B0%EC%88%98%EA%B7%B8%EC%96%B4> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "타우수그어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E9%99%B6%E8%8B%8F%E6%A0%BC%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "陶苏格语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E9%99%B6%E8%98%87%E6%A0%BC%E6%96%87> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "陶蘇格文"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_tausug> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język tausug"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pam.wikipedia.org/wiki/Am%C3%A1nung_Sulu> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "pam" ;
+	schema:isPartOf <https://pam.wikipedia.org/> ;
+	schema:name "Amánung Sulu"@pam .
+
+<https://pam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Tausug_bhasa> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Tausug bhasa"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%A4%E0%AE%B5%E0%AF%81%E0%AE%9A%E0%AF%82%E0%AE%95%E0%AF%8D_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "தவுசூக் மொழி"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D1%83%D0%BB%D1%83_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Сулу (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://su.wikipedia.org/wiki/Basa_Suluk> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "su" ;
+	schema:isPartOf <https://su.wikipedia.org/> ;
+	schema:name "Basa Suluk"@su .
+
+<https://su.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cdo.wikipedia.org/wiki/Tausug-ng%E1%B9%B3%CC%84> a schema:Article ;
+	schema:about wd:Q34142 ;
+	schema:inLanguage "cdo" ;
+	schema:isPartOf <https://cdo.wikipedia.org/> ;
+	schema:name "Tausug-ngṳ̄"@cdo .
+
+<https://cdo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q34142 wdt:P220 "tsg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tsg> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P349 "00576675" ;
+	wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00576675> ;
+	wdt:P646 "/m/03ng1l" ;
+	wdt:P305 "tsg" ;
+	wdt:P373 "Tausug language" ;
+	wdt:P1394 "taus1251" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/taus1251> ;
+	wdt:P424 "tsg" ;
+	wdt:P1466 "tsg" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_tsg> ;
+	wdt:P1889 wd:Q1655283 ;
+	wdt:P1627 "tsg" ;
+	wdt:P3823 wd:Q29051549 ;
+	wdt:P17 wd:Q928 ;
+	wdt:P2341 wd:Q13737,
+		wd:Q13869,
+		wd:Q13887 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TSG> ;
+	wdt:P910 wd:Q32829479 ;
+	wdt:P1705 "Bahasa Sūg"@mis ;
+	wdt:P279 wd:Q1584458 ;
+	wdt:P1098 "+1100000"^^xsd:decimal ;
+	rdfs:label "Língua tausug"@pt ;
+	skos:prefLabel "Língua tausug"@pt ;
+	schema:name "Língua tausug"@pt ;
+	rdfs:label "Lenga Tausug"@pms ;
+	skos:prefLabel "Lenga Tausug"@pms ;
+	schema:name "Lenga Tausug"@pms ;
+	rdfs:label "soulou"@fr ;
+	skos:prefLabel "soulou"@fr ;
+	schema:name "soulou"@fr ;
+	rdfs:label "joloano"@es ;
+	skos:prefLabel "joloano"@es ;
+	schema:name "joloano"@es ;
+	rdfs:label "Tausug"@en ;
+	skos:prefLabel "Tausug"@en ;
+	schema:name "Tausug"@en ;
+	rdfs:label "Tausugki"@diq ;
+	skos:prefLabel "Tausugki"@diq ;
+	schema:name "Tausugki"@diq ;
+	rdfs:label "Tausug dili"@tr ;
+	skos:prefLabel "Tausug dili"@tr ;
+	schema:name "Tausug dili"@tr ;
+	rdfs:label "ภาษาเตาซุก"@th ;
+	skos:prefLabel "ภาษาเตาซุก"@th ;
+	schema:name "ภาษาเตาซุก"@th ;
+	rdfs:label "Tausūg-ngî"@hak ;
+	skos:prefLabel "Tausūg-ngî"@hak ;
+	schema:name "Tausūg-ngî"@hak ;
+	rdfs:label "Tinausug"@ceb ;
+	skos:prefLabel "Tinausug"@ceb ;
+	schema:name "Tinausug"@ceb ;
+	rdfs:label "Bahasa Suluk"@ms ;
+	skos:prefLabel "Bahasa Suluk"@ms ;
+	schema:name "Bahasa Suluk"@ms ;
+	rdfs:label "pagsasao a Sūg"@ilo ;
+	skos:prefLabel "pagsasao a Sūg"@ilo ;
+	schema:name "pagsasao a Sūg"@ilo ;
+	rdfs:label "Bahasa Suluk"@id ;
+	skos:prefLabel "Bahasa Suluk"@id ;
+	schema:name "Bahasa Suluk"@id ;
+	rdfs:label "タウスグ語"@ja ;
+	skos:prefLabel "タウスグ語"@ja ;
+	schema:name "タウスグ語"@ja ;
+	rdfs:label "Tiếng Tausug"@vi ;
+	skos:prefLabel "Tiếng Tausug"@vi ;
+	schema:name "Tiếng Tausug"@vi ;
+	rdfs:label "Wikang Tausug"@tl ;
+	skos:prefLabel "Wikang Tausug"@tl ;
+	schema:name "Wikang Tausug"@tl ;
+	rdfs:label "التوسوكية"@ar ;
+	skos:prefLabel "التوسوكية"@ar ;
+	schema:name "التوسوكية"@ar ;
+	rdfs:label "Tausug"@war ;
+	skos:prefLabel "Tausug"@war ;
+	schema:name "Tausug"@war ;
+	rdfs:label "Tausug"@fi ;
+	skos:prefLabel "Tausug"@fi ;
+	schema:name "Tausug"@fi ;
+	rdfs:label "Tausug language"@hif ;
+	skos:prefLabel "Tausug language"@hif ;
+	schema:name "Tausug language"@hif ;
+	rdfs:label "Kitausug"@sw ;
+	skos:prefLabel "Kitausug"@sw ;
+	schema:name "Kitausug"@sw ;
+	rdfs:label "타우수그어"@ko ;
+	skos:prefLabel "타우수그어"@ko ;
+	schema:name "타우수그어"@ko ;
+	rdfs:label "amánung Sulu"@pam ;
+	skos:prefLabel "amánung Sulu"@pam ;
+	schema:name "amánung Sulu"@pam ;
+	rdfs:label "陶蘇格語"@zh ;
+	skos:prefLabel "陶蘇格語"@zh ;
+	schema:name "陶蘇格語"@zh ;
+	rdfs:label "сулски јазик"@mk ;
+	skos:prefLabel "сулски јазик"@mk ;
+	schema:name "сулски јазик"@mk ;
+	rdfs:label "Tausug"@en-gb ;
+	skos:prefLabel "Tausug"@en-gb ;
+	schema:name "Tausug"@en-gb ;
+	rdfs:label "Idioma joloano"@ast ;
+	skos:prefLabel "Idioma joloano"@ast ;
+	schema:name "Idioma joloano"@ast ;
+	rdfs:label "Tataramon na Tausug"@bcl ;
+	skos:prefLabel "Tataramon na Tausug"@bcl ;
+	schema:name "Tataramon na Tausug"@bcl ;
+	rdfs:label "سوگ زبان"@ur ;
+	skos:prefLabel "سوگ زبان"@ur ;
+	schema:name "سوگ زبان"@ur ;
+	rdfs:label "Tausug (språk)"@nb ;
+	skos:prefLabel "Tausug (språk)"@nb ;
+	schema:name "Tausug (språk)"@nb ;
+	rdfs:label "陶蘇格文"@yue ;
+	skos:prefLabel "陶蘇格文"@yue ;
+	schema:name "陶蘇格文"@yue ;
+	rdfs:label "język tausug"@pl ;
+	skos:prefLabel "język tausug"@pl ;
+	schema:name "język tausug"@pl ;
+	rdfs:label "Таўсуг"@be ;
+	skos:prefLabel "Таўсуг"@be ;
+	schema:name "Таўсуг"@be ;
+	rdfs:label "γλώσσα Ταουσούγκ"@el ;
+	skos:prefLabel "γλώσσα Ταουσούγκ"@el ;
+	schema:name "γλώσσα Ταουσούγκ"@el ;
+	rdfs:label "suluan"@vec ;
+	skos:prefLabel "suluan"@vec ;
+	schema:name "suluan"@vec ;
+	rdfs:label "தவுசூக் மொழி"@ta ;
+	skos:prefLabel "தவுசூக் மொழி"@ta ;
+	schema:name "தவுசூக் மொழி"@ta ;
+	rdfs:label "Сулу"@ru ;
+	skos:prefLabel "Сулу"@ru ;
+	schema:name "Сулу"@ru ;
+	rdfs:label "Basa Suluk"@su ;
+	skos:prefLabel "Basa Suluk"@su ;
+	schema:name "Basa Suluk"@su ;
+	rdfs:label "Tausug-ngṳ̄"@cdo ;
+	skos:prefLabel "Tausug-ngṳ̄"@cdo ;
+	schema:name "Tausug-ngṳ̄"@cdo ;
+	rdfs:label "Igitausug"@rw ;
+	skos:prefLabel "Igitausug"@rw ;
+	schema:name "Igitausug"@rw ;
+	rdfs:label "IsiTausug"@zu ;
+	skos:prefLabel "IsiTausug"@zu ;
+	schema:name "IsiTausug"@zu ;
+	rdfs:label "Litausug"@ln ;
+	skos:prefLabel "Litausug"@ln ;
+	schema:name "Litausug"@ln ;
+	rdfs:label "Af-Tausug"@so ;
+	skos:prefLabel "Af-Tausug"@so ;
+	schema:name "Af-Tausug"@so ;
+	rdfs:label "TshiTausug"@ve ;
+	skos:prefLabel "TshiTausug"@ve ;
+	schema:name "TshiTausug"@ve ;
+	rdfs:label "tausug"@sv ;
+	skos:prefLabel "tausug"@sv ;
+	schema:name "tausug"@sv ;
+	rdfs:label "sula lingvo"@eo ;
+	skos:prefLabel "sula lingvo"@eo ;
+	schema:name "sula lingvo"@eo ;
+	rdfs:label "Tausug"@nl ;
+	skos:prefLabel "Tausug"@nl ;
+	schema:name "Tausug"@nl ;
+	schema:description "wikang sinasalita ng mga Tausug"@tl,
+		"lengua bisaya"@es,
+		"Sprache"@de,
+		"Visayan language spoken in the Philippines and Malaysia"@en,
+		"јазик на Филипините"@mk,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl,
+		"Bir Avusturonezya dilidir ve Tausug'da yaşayan insanlar tarafından kullanılır"@tr,
+		"Rumpun Bahasa Austronesia"@ms,
+		"мова"@be,
+		"amánung Bisáyâ"@pam,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"pinulongang Binisayâ"@ceb,
+		"தவுசூக் மக்களால் பேசப்படும் ஆஸ்திரோனீசிய மொழி"@ta,
+		"австронезийский язык"@ru,
+		"austronesiskt språk"@sv ;
+	skos:altLabel "bahasa Sūg"@es,
+		"lengua joloana"@es,
+		"idioma joloano"@es,
+		"ภาษาซูก"@th,
+		"Bahasa Sūg"@ceb,
+		"Sinuluk"@ceb,
+		"Pinulongang Tausug"@ceb,
+		"Tausug"@ceb,
+		"Bahasa Sug"@ceb,
+		"pinulongang Sinulog"@ceb,
+		"Bahasa Tausug"@ms,
+		"Bahasa tausug"@id,
+		"Wikang Sulwano"@tl,
+		"Wikang Tausūg"@tl,
+		"Wikang Holoano"@tl,
+		"Joloano"@en,
+		"Sulu"@en,
+		"Suluk"@en,
+		"Tausug language"@en,
+		"tsg"@en,
+		"таусуг"@mk,
+		"توسوكية"@ar,
+		"托薩語"@zh,
+		"蘇祿語"@zh,
+		"amánung Sug"@pam,
+		"amánung Holoánu"@pam,
+		"léngua suluàna"@vec,
+		"langue soulou"@fr,
+		"langue soulouanne"@fr,
+		"suga lingvo"@eo .
+
+wd:Q13155726 owl:sameAs wd:Q34142 .

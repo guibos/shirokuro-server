@@ -1,0 +1,140 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3343396 a schema:Dataset ;
+	schema:about wd:Q3343396 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1653335670"^^xsd:integer ;
+	schema:dateModified "2022-06-03T06:00:22Z"^^xsd:dateTime .
+
+wd:Q3343396 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Nooksack> a schema:Article ;
+	schema:about wd:Q3343396 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Nooksack"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_nooksack> a schema:Article ;
+	schema:about wd:Q3343396 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga nooksack"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9D%D1%83%D0%BA%D1%81%D0%B0%D0%BA> a schema:Article ;
+	schema:about wd:Q3343396 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Нуксак"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nooksack_language> a schema:Article ;
+	schema:about wd:Q3343396 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nooksack language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3343396 wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P220 "nok" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nok> ;
+	wdt:P305 "nok" ;
+	wdt:P279 wd:Q1754875 ;
+	wdt:P2341 wd:Q1513642,
+		wd:Q1223 ;
+	wdt:P2355 "958" ;
+	wdt:P1889 wd:Q1501955 ;
+	wdt:P1394 "nook1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nook1247> ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P1627 "nok" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q30 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NOK> ;
+	wdt:P646 "/m/02hwyrd" ;
+	wdt:P1014 "300388987" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388987> ;
+	wdt:P9717 "lhechalosem-nooksack" ;
+	rdfs:label "nooksack"@fr ;
+	skos:prefLabel "nooksack"@fr ;
+	schema:name "nooksack"@fr ;
+	rdfs:label "Nooksack"@en ;
+	skos:prefLabel "Nooksack"@en ;
+	schema:name "Nooksack"@en ;
+	rdfs:label "Lenga nooksack"@pms ;
+	skos:prefLabel "Lenga nooksack"@pms ;
+	schema:name "Lenga nooksack"@pms ;
+	rdfs:label "Nooksack"@es ;
+	skos:prefLabel "Nooksack"@es ;
+	schema:name "Nooksack"@es ;
+	rdfs:label "Нуксак"@ru ;
+	skos:prefLabel "Нуксак"@ru ;
+	schema:name "Нуксак"@ru ;
+	rdfs:label "Nooksack"@en-gb ;
+	skos:prefLabel "Nooksack"@en-gb ;
+	schema:name "Nooksack"@en-gb ;
+	rdfs:label "ヌックサック語"@ja ;
+	skos:prefLabel "ヌックサック語"@ja ;
+	schema:name "ヌックサック語"@ja ;
+	rdfs:label "nuksaki keel"@et ;
+	skos:prefLabel "nuksaki keel"@et ;
+	schema:name "nuksaki keel"@et ;
+	rdfs:label "Wikang Nooksack"@tl ;
+	skos:prefLabel "Wikang Nooksack"@tl ;
+	schema:name "Wikang Nooksack"@tl ;
+	rdfs:label "諾克塞克語"@zh ;
+	skos:prefLabel "諾克塞克語"@zh ;
+	schema:name "諾克塞克語"@zh ;
+	rdfs:label "nooksack"@ca ;
+	skos:prefLabel "nooksack"@ca ;
+	schema:name "nooksack"@ca ;
+	schema:description "idioma"@es,
+		"Sprache"@de,
+		"שפה"@he,
+		"langue salish"@fr,
+		"yezh"@br,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Nooksack language"@en .
+
+wd:Q61097557 owl:sameAs wd:Q3343396 .

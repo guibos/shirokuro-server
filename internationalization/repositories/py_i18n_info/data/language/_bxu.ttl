@@ -1,0 +1,113 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q20527417 a schema:Dataset ;
+	schema:about wd:Q20527417 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1658616087"^^xsd:integer ;
+	schema:dateModified "2022-06-11T22:44:28Z"^^xsd:dateTime .
+
+wd:Q20527417 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_buriat,_Cin-a> a schema:Article ;
+	schema:about wd:Q20527417 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga buriat, Cin-a"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Bargu_burjatski> a schema:Article ;
+	schema:about wd:Q20527417 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Bargu burjatski"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bxr.wikipedia.org/wiki/%D0%91%D0%B0%D1%80%D0%B3%D1%83_%D0%91%D1%83%D1%80%D1%8F%D0%B0%D0%B4_%D1%85%D1%8D%D0%BB%D1%8D%D0%BD> a schema:Article ;
+	schema:about wd:Q20527417 ;
+	schema:inLanguage "bxr" ;
+	schema:isPartOf <https://bxr.wikipedia.org/> ;
+	schema:name "Баргу Буряад хэлэн"@bxr .
+
+<https://bxr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q20527417 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "bxu" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bxu> ;
+	wdt:P1394 "chin1476" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/chin1476> ;
+	wdt:P279 wd:Q33120 ;
+	wdt:P305 "bxu" ;
+	wdt:P1627 "bxu" ;
+	wdt:P3823 wd:Q29051555 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q41079 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BXU> ;
+	wdt:P1098 "+65000"^^xsd:decimal ;
+	rdfs:label "Bargu burjatski"@hr ;
+	skos:prefLabel "Bargu burjatski"@hr ;
+	schema:name "Bargu burjatski"@hr ;
+	rdfs:label "bouriate de Chine"@fr ;
+	skos:prefLabel "bouriate de Chine"@fr ;
+	schema:name "bouriate de Chine"@fr ;
+	rdfs:label "Bargu-Shineken Buriyad"@en ;
+	skos:prefLabel "Bargu-Shineken Buriyad"@en ;
+	schema:name "Bargu-Shineken Buriyad"@en ;
+	rdfs:label "Lenga buriat, Cin-a"@pms ;
+	skos:prefLabel "Lenga buriat, Cin-a"@pms ;
+	schema:name "Lenga buriat, Cin-a"@pms ;
+	rdfs:label "China Buriat"@en-gb ;
+	skos:prefLabel "China Buriat"@en-gb ;
+	schema:name "China Buriat"@en-gb ;
+	rdfs:label "中国布里亚特语"@zh-hans ;
+	skos:prefLabel "中国布里亚特语"@zh-hans ;
+	schema:name "中国布里亚特语"@zh-hans ;
+	rdfs:label "Баргу Буряад хэлэн"@bxr ;
+	skos:prefLabel "Баргу Буряад хэлэн"@bxr ;
+	schema:name "Баргу Буряад хэлэн"@bxr ;
+	schema:description "langue mongole"@fr,
+		"שפה"@he,
+		"Buryat language"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"taal"@nl,
+		"iaith"@cy,
+		"lingua"@la .
+
+wd:Q25559397 owl:sameAs wd:Q20527417 .
+
+wd:Q25701201 owl:sameAs wd:Q20527417 .

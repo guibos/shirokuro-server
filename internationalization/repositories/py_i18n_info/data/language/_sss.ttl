@@ -1,0 +1,144 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3082037 a schema:Dataset ;
+	schema:about wd:Q3082037 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960538014"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:58:30Z"^^xsd:dateTime .
+
+wd:Q3082037 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/S%C3%B4_(langue)> a schema:Article ;
+	schema:about wd:Q3082037 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Sô (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_s%C3%B4> a schema:Article ;
+	schema:about wd:Q3082037 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga sô"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kis%C3%B4> a schema:Article ;
+	schema:about wd:Q3082037 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisô"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/S%C3%B4_jezik> a schema:Article ;
+	schema:about wd:Q3082037 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Sô jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%82%E0%B8%AA%E0%B9%89> a schema:Article ;
+	schema:about wd:Q3082037 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาโส้"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3082037 wdt:P305 "sss" ;
+	wdt:P220 "sss" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/sss> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q56697 ;
+	wdt:P1394 "sooo1254" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sooo1254> ;
+	wdt:P1627 "sss" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q819,
+		wd:Q869 ;
+	wdt:P2341 wd:Q2403514,
+		wd:Q506641,
+		wd:Q465940,
+		wd:Q327737,
+		wd:Q382144,
+		wd:Q382125,
+		wd:Q468547 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SSS> ;
+	wdt:P646 "/m/02hwxjy" ;
+	wdt:P910 wd:Q105715773 ;
+	rdfs:label "Lenga sô"@pms ;
+	skos:prefLabel "Lenga sô"@pms ;
+	schema:name "Lenga sô"@pms ;
+	rdfs:label "sô"@fr ;
+	skos:prefLabel "sô"@fr ;
+	schema:name "sô"@fr ;
+	rdfs:label "Sô jezik"@hr ;
+	skos:prefLabel "Sô jezik"@hr ;
+	schema:name "Sô jezik"@hr ;
+	rdfs:label "Sô"@en ;
+	skos:prefLabel "Sô"@en ;
+	schema:name "Sô"@en ;
+	rdfs:label "Kisô"@sw ;
+	skos:prefLabel "Kisô"@sw ;
+	schema:name "Kisô"@sw ;
+	rdfs:label "Sô"@en-gb ;
+	skos:prefLabel "Sô"@en-gb ;
+	schema:name "Sô"@en-gb ;
+	rdfs:label "Sô"@nl ;
+	skos:prefLabel "Sô"@nl ;
+	schema:name "Sô"@nl ;
+	rdfs:label "ภาษาโส้"@th ;
+	skos:prefLabel "ภาษาโส้"@th ;
+	schema:name "ภาษาโส้"@th ;
+	schema:description "שפה"@he,
+		"langue môn-khmer"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Sô language"@en,
+		"So"@en,
+		"So language"@en,
+		"ภาษาโทรฺ"@th .
+
+wd:Q13018617 owl:sameAs wd:Q3082037 .
+
+wd:Q16306784 owl:sameAs wd:Q3082037 .

@@ -1,0 +1,77 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q72400435 a schema:Dataset ;
+	schema:about wd:Q72400435 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1806150240"^^xsd:integer ;
+	schema:dateModified "2023-01-08T03:15:41Z"^^xsd:dateTime .
+
+wd:Q72400435 a wikibase:Item ;
+	wdt:P31 wd:Q185087,
+		wd:Q29517555,
+		wd:Q4004706 ;
+	wdt:P279 wd:Q26567 ;
+	wdt:P506 "Syrn" ;
+	wdt:P2620 "136" ;
+	wdt:P2561 "Syriac (Eastern variant)"@en,
+		"syriaque (variante orientale)"@fr ;
+	wdt:P407 wd:Q28602,
+		wd:Q33538,
+		wd:Q34226,
+		wd:Q29440,
+		wd:Q33236,
+		wd:Q34040,
+		wd:Q60790119,
+		wd:Q36236,
+		wd:Q13955,
+		wd:Q205979 ;
+	wdt:P571 "0001-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P138 wd:Q858 ;
+	wdt:P5949 "U+0700-074F",
+		"U+0860-086F" ;
+	wdt:P1406 wd:Q7333457 ;
+	wdt:P144 wd:Q26978 ;
+	wdt:P1705 "ܡܲܕ݂ܢܚܵܝܵܐ"@syc ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Syriac%20NT%20Lectionary%2C%20Borgia%20Syriac%20Ms%2013.jpg> ;
+	rdfs:label "Eastern Syriac script"@en ;
+	skos:prefLabel "Eastern Syriac script"@en ;
+	schema:name "Eastern Syriac script"@en ;
+	rdfs:label "alphabet syriaque oriental"@fr ;
+	skos:prefLabel "alphabet syriaque oriental"@fr ;
+	schema:name "alphabet syriaque oriental"@fr ;
+	schema:description "form of the Syriac script"@en,
+		"abjad"@fr ;
+	skos:altLabel "Eastern Syriac abjad"@en,
+		"Serṭā"@en,
+		"Serṭo"@en,
+		"abjad syriaque oriental"@fr .

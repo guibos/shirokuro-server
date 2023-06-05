@@ -1,0 +1,169 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6347611 a schema:Dataset ;
+	schema:about wd:Q6347611 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912165856"^^xsd:integer ;
+	schema:dateModified "2023-06-10T11:27:05Z"^^xsd:dateTime .
+
+wd:Q6347611 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_kaidipang> a schema:Article ;
+	schema:about wd:Q6347611 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kaidipang"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Kaidipang> a schema:Article ;
+	schema:about wd:Q6347611 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Kaidipang"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikaidipang> a schema:Article ;
+	schema:about wd:Q6347611 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikaidipang"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kaidipang_language> a schema:Article ;
+	schema:about wd:Q6347611 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kaidipang language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Kaidipang> a schema:Article ;
+	schema:about wd:Q6347611 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Kaidipang"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%A4%E3%83%87%E3%82%A3%E3%83%91%E3%83%B3%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q6347611 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "カイディパン語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Kaidipang> a schema:Article ;
+	schema:about wd:Q6347611 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Kaidipang"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_kaidipang> a schema:Article ;
+	schema:about wd:Q6347611 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język kaidipang"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6347611 wdt:P220 "kzp" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kzp> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kaid1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kaid1239> ;
+	wdt:P17 wd:Q252 ;
+	wdt:P276 wd:Q5068,
+		wd:Q15837 ;
+	wdt:P305 "kzp" ;
+	wdt:P1627 "kzp" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2341 wd:Q5068,
+		wd:Q3812 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KZP> ;
+	wdt:P646 "/m/02hww8w" ;
+	rdfs:label "Kaidipang"@en ;
+	skos:prefLabel "Kaidipang"@en ;
+	schema:name "Kaidipang"@en ;
+	rdfs:label "Lenga kaidipang"@pms ;
+	skos:prefLabel "Lenga kaidipang"@pms ;
+	schema:name "Lenga kaidipang"@pms ;
+	rdfs:label "Bahasa Kaidipang"@id ;
+	skos:prefLabel "Bahasa Kaidipang"@id ;
+	schema:name "Bahasa Kaidipang"@id ;
+	rdfs:label "Kikaidipang"@sw ;
+	skos:prefLabel "Kikaidipang"@sw ;
+	schema:name "Kikaidipang"@sw ;
+	rdfs:label "カイディパン語"@ja ;
+	skos:prefLabel "カイディパン語"@ja ;
+	schema:name "カイディパン語"@ja ;
+	rdfs:label "Kaidipang"@ilo ;
+	skos:prefLabel "Kaidipang"@ilo ;
+	schema:name "Kaidipang"@ilo ;
+	rdfs:label "Kaidipang"@en-gb ;
+	skos:prefLabel "Kaidipang"@en-gb ;
+	schema:name "Kaidipang"@en-gb ;
+	rdfs:label "Wikang Kaidipang"@tl ;
+	skos:prefLabel "Wikang Kaidipang"@tl ;
+	schema:name "Wikang Kaidipang"@tl ;
+	rdfs:label "Tataramon na Kaidipang"@bcl ;
+	skos:prefLabel "Tataramon na Kaidipang"@bcl ;
+	schema:name "Tataramon na Kaidipang"@bcl ;
+	rdfs:label "Język kaidipang"@pl ;
+	skos:prefLabel "Język kaidipang"@pl ;
+	schema:name "Język kaidipang"@pl ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Amianan a Sulawesi, Indonesia"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"język austronezyjski"@pl ;
+	skos:altLabel "Kaidipang language"@en,
+		"Bahasa kaidipang"@id .
+
+wd:Q12473388 owl:sameAs wd:Q6347611 .
+
+wd:Q31441627 owl:sameAs wd:Q6347611 .

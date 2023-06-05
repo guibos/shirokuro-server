@@ -1,0 +1,107 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4126517 a schema:Dataset ;
+	schema:about wd:Q4126517 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1581834964"^^xsd:integer ;
+	schema:dateModified "2022-02-23T13:07:32Z"^^xsd:dateTime .
+
+wd:Q4126517 a wikibase:Item .
+
+<https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%BE-%D0%BA%D0%B0%D0%BD%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D0%B8%D0%BD%D1%83%D0%B8%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q4126517 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Восточно-канадский инуитский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4126517 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "ike" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ike> ;
+	wdt:P1394 "east2534" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/east2534> ;
+	wdt:P282 wd:Q2479183 ;
+	wdt:P1466 "ins" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ins> ;
+	wdt:P1466 "iql" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_iql> ;
+	wdt:P305 "ike" ;
+	wdt:P1627 "ike" ;
+	wdt:P3823 wd:Q29051547 ;
+	wdt:P17 wd:Q16 ;
+	wdt:P2341 wd:Q2023,
+		wd:Q176 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/IKE> ;
+	wdt:P279 wd:Q29921 ;
+	wdt:P910 wd:Q105714866 ;
+	wdt:P2671 "/g/123b94dc" ;
+	wdtn:P2671 <http://g.co/kg/g/123b94dc> ;
+	rdfs:label "восточно-канадский инуитский язык"@ru ;
+	skos:prefLabel "восточно-канадский инуитский язык"@ru ;
+	schema:name "восточно-канадский инуитский язык"@ru ;
+	rdfs:label "Eastern Canadian Inuktitut"@en ;
+	skos:prefLabel "Eastern Canadian Inuktitut"@en ;
+	schema:name "Eastern Canadian Inuktitut"@en ;
+	rdfs:label "Eastern Canadian Inuktitut"@en-gb ;
+	skos:prefLabel "Eastern Canadian Inuktitut"@en-gb ;
+	schema:name "Eastern Canadian Inuktitut"@en-gb ;
+	rdfs:label "inuktitut de l’Est canadien"@fr ;
+	skos:prefLabel "inuktitut de l’Est canadien"@fr ;
+	schema:name "inuktitut de l’Est canadien"@fr ;
+	rdfs:label "inuktitut canadese orientale"@it ;
+	skos:prefLabel "inuktitut canadese orientale"@it ;
+	schema:name "inuktitut canadese orientale"@it ;
+	rdfs:label "keleti kanadai"@hu ;
+	skos:prefLabel "keleti kanadai"@hu ;
+	schema:name "keleti kanadai"@hu ;
+	rdfs:label "inuktitut canadeze orientałe"@vec ;
+	skos:prefLabel "inuktitut canadeze orientałe"@vec ;
+	schema:name "inuktitut canadeze orientałe"@vec ;
+	rdfs:label "Inuktitut Dwyrain Canada"@cy ;
+	skos:prefLabel "Inuktitut Dwyrain Canada"@cy ;
+	schema:name "Inuktitut Dwyrain Canada"@cy ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"inuktitut nyelv"@hu ;
+	skos:altLabel "восточноканадский инуктитут"@ru,
+		"lingua inuktitut canadese orientale"@it .

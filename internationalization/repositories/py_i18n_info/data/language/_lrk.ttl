@@ -1,0 +1,136 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6663513 a schema:Dataset ;
+	schema:about wd:Q6663513 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1886663942"^^xsd:integer ;
+	schema:dateModified "2023-05-01T13:35:57Z"^^xsd:dateTime .
+
+wd:Q6663513 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_loarki> a schema:Article ;
+	schema:about wd:Q6663513 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga loarki"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiloarki> a schema:Article ;
+	schema:about wd:Q6663513 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiloarki"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Loarki_language> a schema:Article ;
+	schema:about wd:Q6663513 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Loarki language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%82%E0%B8%A5%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%81%E0%B8%B5> a schema:Article ;
+	schema:about wd:Q6663513 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาโลอาร์กี"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Loarki_language> a schema:Article ;
+	schema:about wd:Q6663513 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Loarki language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://as.wikipedia.org/wiki/%E0%A6%B2%E0%A7%8B%E0%A6%B9%E0%A6%BE%E0%A7%B0%E0%A6%95%E0%A7%80_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q6663513 ;
+	schema:inLanguage "as" ;
+	schema:isPartOf <https://as.wikipedia.org/> ;
+	schema:name "লোহাৰকী ভাষা"@as .
+
+<https://as.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6663513 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "loar1234" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/loar1234> ;
+	wdt:P220 "lrk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lrk> ;
+	wdt:P460 wd:Q12953671 ;
+	wdt:P279 wd:Q13196 ;
+	wdt:P17 wd:Q843 ;
+	wdt:P305 "lrk" ;
+	wdt:P1627 "lrk" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q37211 ;
+	wdt:P1245 "581512" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LRK> ;
+	wdt:P646 "/m/02hxqtz" ;
+	rdfs:label "Loarki"@en ;
+	skos:prefLabel "Loarki"@en ;
+	schema:name "Loarki"@en ;
+	rdfs:label "Lenga loarki"@pms ;
+	skos:prefLabel "Lenga loarki"@pms ;
+	schema:name "Lenga loarki"@pms ;
+	rdfs:label "Loarki"@en-gb ;
+	skos:prefLabel "Loarki"@en-gb ;
+	schema:name "Loarki"@en-gb ;
+	rdfs:label "loarki"@fr ;
+	skos:prefLabel "loarki"@fr ;
+	schema:name "loarki"@fr ;
+	rdfs:label "Kiloarki"@sw ;
+	skos:prefLabel "Kiloarki"@sw ;
+	schema:name "Kiloarki"@sw ;
+	rdfs:label "ภาษาโลอาร์กี"@th ;
+	skos:prefLabel "ภาษาโลอาร์กี"@th ;
+	schema:name "ภาษาโลอาร์กี"@th ;
+	rdfs:label "লোহাৰকী ভাষা"@as ;
+	skos:prefLabel "লোহাৰকী ভাষা"@as ;
+	schema:name "লোহাৰকী ভাষা"@as ;
+	schema:description "langue indo-aryenne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Lenga Loarki"@pms,
+		"Loarki language"@en .

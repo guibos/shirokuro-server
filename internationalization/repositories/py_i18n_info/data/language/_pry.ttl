@@ -1,0 +1,110 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3401474 a schema:Dataset ;
+	schema:about wd:Q3401474 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1780759072"^^xsd:integer ;
+	schema:dateModified "2022-11-29T04:40:30Z"^^xsd:dateTime .
+
+wd:Q3401474 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Pray_(langue)> a schema:Article ;
+	schema:about wd:Q3401474 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Pray (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Phray_language> a schema:Article ;
+	schema:about wd:Q3401474 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Phray language"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_pray_3> a schema:Article ;
+	schema:about wd:Q3401474 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga pray 3"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kipray_3> a schema:Article ;
+	schema:about wd:Q3401474 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kipray 3"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3401474 wdt:P220 "pry" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pry> ;
+	wdt:P31 wd:Q34770 ;
+	wdt:P305 "pry" ;
+	wdt:P279 wd:Q1323245 ;
+	wdt:P1394 "pray1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/pray1239> ;
+	wdt:P460 wd:Q7180184 ;
+	wdt:P2581 "02901850n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s02901850n> ;
+	wdt:P646 "/m/02hxjhr" ;
+	rdfs:label "pray"@fr ;
+	skos:prefLabel "pray"@fr ;
+	schema:name "pray"@fr ;
+	rdfs:label "Phray"@en ;
+	skos:prefLabel "Phray"@en ;
+	schema:name "Phray"@en ;
+	rdfs:label "Lenga pray 3"@pms ;
+	skos:prefLabel "Lenga pray 3"@pms ;
+	schema:name "Lenga pray 3"@pms ;
+	rdfs:label "Kipray 3"@sw ;
+	skos:prefLabel "Kipray 3"@sw ;
+	schema:name "Kipray 3"@sw ;
+	schema:description "Sprache"@de,
+		"langue môn khmer parlée en Thaïlande"@fr,
+		"שפה"@he,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Pray 3"@en,
+		"Phray language"@en .
+
+wd:Q12953825 owl:sameAs wd:Q3401474 .

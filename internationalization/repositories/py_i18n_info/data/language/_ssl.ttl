@@ -1,0 +1,106 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11154776 a schema:Dataset ;
+	schema:about wd:Q11154776 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961150261"^^xsd:integer ;
+	schema:dateModified "2023-08-25T19:14:08Z"^^xsd:dateTime .
+
+wd:Q11154776 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Sissala_ossidental> a schema:Article ;
+	schema:about wd:Q11154776 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Sissala ossidental"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisisaala-Magharibi> a schema:Article ;
+	schema:about wd:Q11154776 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisisaala-Magharibi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Isaalo> a schema:Article ;
+	schema:about wd:Q11154776 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Isaalo"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11154776 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "ssl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ssl> ;
+	wdt:P279 wd:Q36532 ;
+	wdt:P1394 "west2465" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/west2465> ;
+	wdt:P910 wd:Q32829417 ;
+	wdt:P305 "ssl" ;
+	wdt:P1627 "ssl" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q117 ;
+	wdt:P2341 wd:Q715805 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SSL> ;
+	rdfs:label "Kisisaala-Magharibi"@sw ;
+	skos:prefLabel "Kisisaala-Magharibi"@sw ;
+	schema:name "Kisisaala-Magharibi"@sw ;
+	rdfs:label "Lenga Sissala ossidental"@pms ;
+	skos:prefLabel "Lenga Sissala ossidental"@pms ;
+	schema:name "Lenga Sissala ossidental"@pms ;
+	rdfs:label "Western Sisaala"@en ;
+	skos:prefLabel "Western Sisaala"@en ;
+	schema:name "Western Sisaala"@en ;
+	rdfs:label "Western Sisaala"@en-gb ;
+	skos:prefLabel "Western Sisaala"@en-gb ;
+	schema:name "Western Sisaala"@en-gb ;
+	rdfs:label "sisaala de l'Ouest"@fr ;
+	skos:prefLabel "sisaala de l'Ouest"@fr ;
+	schema:name "sisaala de l'Ouest"@fr ;
+	rdfs:label "Isaalo"@oc ;
+	skos:prefLabel "Isaalo"@oc ;
+	schema:name "Isaalo"@oc ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue gur"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy .

@@ -1,0 +1,630 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q601388 a schema:Dataset ;
+	schema:about wd:Q601388 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1913799443"^^xsd:integer ;
+	schema:dateModified "2023-06-12T18:33:34Z"^^xsd:dateTime .
+
+wd:Q601388 a wikibase:Item .
+
+<https://de.wikipedia.org/wiki/Indusschrift> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Indusschrift"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/%C3%89criture_de_l%27Indus> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Écriture de l'Indus"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Escritura_del_Indo> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Escritura del Indo"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9F%D0%B8%D1%81%D1%8C%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%D0%B4%D0%BE%D0%BB%D0%B8%D0%BD%D1%8B_%D0%98%D0%BD%D0%B4%D0%B0> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Письменность долины Инда"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%83%80%E3%82%B9%E6%96%87%E5%AD%97> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "インダス文字"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Indusschrift> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Indusschrift"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%8D%B0%E5%BA%A6%E6%B2%B3%E6%96%87%E5%AD%97> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "印度河文字"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8%D8%A9_%D8%A7%D9%84%D8%B3%D9%86%D8%AF%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "الكتابة السندية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Indusskriften> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Indusskriften"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%86%D0%BD%D0%B4%D1%81%D1%8C%D0%BA%D0%B5_%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Індське письмо"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%9D%B8%EB%8D%94%EC%8A%A4_%EB%AC%B8%EC%9E%90> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "인더스 문자"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Escriptura_de_l%27Indus> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Escriptura de l'Indus"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Harappsk%C3%A9_p%C3%ADsmo> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Harappské písmo"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Indusskrif> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Indusskrif"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Escritura_del_Indo> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Escritura del Indo"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bar.wikipedia.org/wiki/Indus_Schrift> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "bar" ;
+	schema:isPartOf <https://bar.wikipedia.org/> ;
+	schema:name "Indus Schrift"@bar .
+
+<https://bar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A7%81_%E0%A6%B2%E0%A6%BF%E0%A6%AA%E0%A6%BF> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "সিন্ধু লিপি"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Escritura_do_Indo> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Escritura do Indo"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gu.wikipedia.org/wiki/%E0%AA%B8%E0%AA%BF%E0%AA%82%E0%AA%A7%E0%AB%81_%E0%AA%B2%E0%AA%BF%E0%AA%AA%E0%AA%BF> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "gu" ;
+	schema:isPartOf <https://gu.wikipedia.org/> ;
+	schema:name "સિંધુ લિપિ"@gu .
+
+<https://gu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%A4%E0%A5%80_%E0%A4%B2%E0%A4%BF%E0%A4%AA%E0%A4%BF> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "सरस्वती लिपि"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D5%80%D5%B6%D5%A4%D5%AF%D5%A5%D6%80%D5%A5%D5%B6%D5%AB_%D5%A1%D5%B5%D5%A2%D5%B8%D6%82%D5%A2%D5%A5%D5%B6> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Հնդկերենի այբուբեն"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Harapos_ra%C5%A1tas> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Harapos raštas"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%B8%E0%B4%BF%E0%B4%A8%E0%B5%8D%E0%B4%A7%E0%B5%81_%E0%B4%B2%E0%B4%BF%E0%B4%AA%E0%B4%BF> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "സിന്ധു ലിപി"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sa.wikipedia.org/wiki/%E0%A4%B8%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A5%81%E0%A4%B2%E0%A4%BF%E0%A4%AA%E0%A4%BF%E0%A4%83> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "sa" ;
+	schema:isPartOf <https://sa.wikipedia.org/> ;
+	schema:name "सिन्धुलिपिः"@sa .
+
+<https://sa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sd.wikipedia.org/wiki/%D8%B3%D9%86%DA%8C%D9%88_%D9%84%DA%A9%D8%AA> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "sd" ;
+	schema:isPartOf <https://sd.wikipedia.org/> ;
+	schema:name "سنڌو لکت"@sd ;
+	wikibase:badge wd:Q17437796 .
+
+<https://sd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%9A%E0%AE%BF%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%81%E0%AE%B5%E0%AF%86%E0%AE%B3%E0%AE%BF_%E0%AE%B5%E0%AE%B0%E0%AE%BF%E0%AE%B5%E0%AE%9F%E0%AE%BF%E0%AE%B5%E0%AE%AE%E0%AF%8D> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "சிந்துவெளி வரிவடிவம்"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://te.wikipedia.org/wiki/%E0%B0%B8%E0%B0%BF%E0%B0%82%E0%B0%A7%E0%B1%81_%E0%B0%B2%E0%B0%BF%E0%B0%AA%E0%B0%BF> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "te" ;
+	schema:isPartOf <https://te.wikipedia.org/> ;
+	schema:name "సింధు లిపి"@te .
+
+<https://te.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%98%E0%B8%B8> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "อักษรสินธุ"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D9%88%D8%A7%D8%AF%DB%8C_%D8%B3%D9%86%D8%AF%DA%BE_%DA%A9%D8%A7_%D8%B1%D8%B3%D9%85_%D8%A7%D9%84%D8%AE%D8%B7> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "وادی سندھ کا رسم الخط"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Scrittura_dell%27Indo> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Scrittura dell'Indo"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikiquote.org/wiki/Indus_script> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikiquote.org/> ;
+	schema:name "Indus script"@en .
+
+<https://en.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://fi.wikipedia.org/wiki/Indus-kirjoitus> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Indus-kirjoitus"@fi ;
+	wikibase:badge wd:Q17559452 .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%82%D0%BE%D0%B8%D0%BD%D0%B4%D0%B8%D1%98%D1%81%D0%BA%D0%BE_%D0%BF%D0%B8%D1%81%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Протоиндијско писмо"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Scrierea_harapp%C4%83> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Scrierea harappă"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Aksara_Harappa> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Aksara Harappa"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Indus_script> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Indus script"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%AE%D8%B7_%D8%A7%DB%8C%D9%86%D8%AF%D9%88%D8%B3> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "خط ایندوس"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Indus_script> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Indus script"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kn.wikipedia.org/wiki/%E0%B2%B8%E0%B2%BF%E0%B2%82%E0%B2%A7%E0%B3%82%E0%B2%B2%E0%B2%BF%E0%B2%AA%E0%B2%BF> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "kn" ;
+	schema:isPartOf <https://kn.wikipedia.org/> ;
+	schema:name "ಸಿಂಧೂಲಿಪಿ"@kn .
+
+<https://kn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ne.wikipedia.org/wiki/%E0%A4%B8%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A5%81_%E0%A4%B2%E0%A4%BF%E0%A4%AA%E0%A4%BF> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "ne" ;
+	schema:isPartOf <https://ne.wikipedia.org/> ;
+	schema:name "सिन्धु लिपि"@ne .
+
+<https://ne.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://io.wikipedia.org/wiki/Indus-skripto> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "io" ;
+	schema:isPartOf <https://io.wikipedia.org/> ;
+	schema:name "Indus-skripto"@io .
+
+<https://io.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/%C4%B0ndus_yaz%C4%B1s%C4%B1> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "İndus yazısı"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%DB%81%DA%91%D9%BE%D9%86_%D9%84%D9%BE%DB%8C> a schema:Article ;
+	schema:about wd:Q601388 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "ہڑپن لپی"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q601388 wdt:P31 wd:Q1149626,
+		wd:Q1156875,
+		wd:Q4004706,
+		wd:Q29517555 ;
+	wdt:P373 "Indus script" ;
+	wdt:P646 "/m/04gk5v" ;
+	wdt:P1343 wd:Q2657718 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Indus%20seal%20impression.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Indus%20script.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Indus%20script%20recovered%20from%20Khirsara%2C%20Indus%20Valley%20Civilization.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Brahmi%20and%20Indus%20seal%20proposed%20connection.jpg> ;
+	wdt:P3417 "Indus-Script" ;
+	wdt:P506 "Inds" ;
+	wdt:P2620 "610" ;
+	wdt:P910 wd:Q32800555 ;
+	wdt:P2924 "4729912" ;
+	wdt:P1417 "topic/Harappan-script" ;
+	wdt:P2561 "Indus"@en,
+		"indus"@fr ;
+	wdt:P571 "-2799-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P582 "-1899-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P1406 wd:Q7333457,
+		wd:Q194233 ;
+	wdt:P9000 "Indus_Script" ;
+	wdt:P1535 wd:Q42534 ;
+	wdt:P244 "sh85065820" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85065820> ;
+	wdt:P268 "119474861" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb119474861#about> ;
+	wdt:P2163 "970767" ;
+	wdtn:P2163 <http://id.worldcat.org/fast/970767> ;
+	wdt:P8189 "987007548364705171" ;
+	wdt:P1617 "1133f20e-bdb4-4f88-a440-fefc44ea943a" ;
+	wdtn:P1617 <http://www.bbc.co.uk/things/1133f20e-bdb4-4f88-a440-fefc44ea943a#id> ;
+	rdfs:label "印度河文字"@zh ;
+	skos:prefLabel "印度河文字"@zh ;
+	schema:name "印度河文字"@zh ;
+	rdfs:label "সিন্ধু লিপি"@bn ;
+	skos:prefLabel "সিন্ধু লিপি"@bn ;
+	schema:name "সিন্ধু লিপি"@bn ;
+	rdfs:label "Harappské písmo"@cs ;
+	skos:prefLabel "Harappské písmo"@cs ;
+	schema:name "Harappské písmo"@cs ;
+	rdfs:label "Indus-Schrift"@de ;
+	skos:prefLabel "Indus-Schrift"@de ;
+	schema:name "Indus-Schrift"@de ;
+	rdfs:label "Indus-Schrift"@de-ch ;
+	skos:prefLabel "Indus-Schrift"@de-ch ;
+	schema:name "Indus-Schrift"@de-ch ;
+	rdfs:label "Indus script"@en ;
+	skos:prefLabel "Indus script"@en ;
+	schema:name "Indus script"@en ;
+	rdfs:label "Indus script"@en-ca ;
+	skos:prefLabel "Indus script"@en-ca ;
+	schema:name "Indus script"@en-ca ;
+	rdfs:label "Indus script"@en-gb ;
+	skos:prefLabel "Indus script"@en-gb ;
+	schema:name "Indus script"@en-gb ;
+	rdfs:label "escritura del Indo"@es ;
+	skos:prefLabel "escritura del Indo"@es ;
+	schema:name "escritura del Indo"@es ;
+	rdfs:label "écriture de l'Indus"@fr ;
+	skos:prefLabel "écriture de l'Indus"@fr ;
+	schema:name "écriture de l'Indus"@fr ;
+	rdfs:label "સરસ્વતી લિપિ"@gu ;
+	skos:prefLabel "સરસ્વતી લિપિ"@gu ;
+	schema:name "સરસ્વતી લિપિ"@gu ;
+	rdfs:label "सिन्धु लिपि"@hi ;
+	skos:prefLabel "सिन्धु लिपि"@hi ;
+	schema:name "सिन्धु लिपि"@hi ;
+	rdfs:label "インダス文字"@ja ;
+	skos:prefLabel "インダス文字"@ja ;
+	schema:name "インダス文字"@ja ;
+	rdfs:label "സിന്ധു ലിപി"@ml ;
+	skos:prefLabel "സിന്ധു ലിപി"@ml ;
+	schema:name "സിന്ധു ലിപി"@ml ;
+	rdfs:label "письменность долины Инда"@ru ;
+	skos:prefLabel "письменность долины Инда"@ru ;
+	schema:name "письменность долины Инда"@ru ;
+	rdfs:label "सिन्धुलिपिः"@sa ;
+	skos:prefLabel "सिन्धुलिपिः"@sa ;
+	schema:name "सिन्धुलिपिः"@sa ;
+	rdfs:label "సింధూ లిపి"@te ;
+	skos:prefLabel "సింధూ లిపి"@te ;
+	schema:name "సింధూ లిపి"@te ;
+	rdfs:label "อักษรสินธุ"@th ;
+	skos:prefLabel "อักษรสินธุ"@th ;
+	schema:name "อักษรสินธุ"@th ;
+	rdfs:label "Індське письмо"@uk ;
+	skos:prefLabel "Індське письмо"@uk ;
+	schema:name "Індське письмо"@uk ;
+	rdfs:label "印度河文字"@zh-hans ;
+	skos:prefLabel "印度河文字"@zh-hans ;
+	schema:name "印度河文字"@zh-hans ;
+	rdfs:label "印度河文字"@zh-hant ;
+	skos:prefLabel "印度河文字"@zh-hant ;
+	schema:name "印度河文字"@zh-hant ;
+	rdfs:label "印度河文字"@zh-cn ;
+	skos:prefLabel "印度河文字"@zh-cn ;
+	schema:name "印度河文字"@zh-cn ;
+	rdfs:label "印度河文字"@zh-sg ;
+	skos:prefLabel "印度河文字"@zh-sg ;
+	schema:name "印度河文字"@zh-sg ;
+	rdfs:label "印度河文字"@zh-my ;
+	skos:prefLabel "印度河文字"@zh-my ;
+	schema:name "印度河文字"@zh-my ;
+	rdfs:label "印度河文字"@zh-hk ;
+	skos:prefLabel "印度河文字"@zh-hk ;
+	schema:name "印度河文字"@zh-hk ;
+	rdfs:label "印度河文字"@zh-tw ;
+	skos:prefLabel "印度河文字"@zh-tw ;
+	schema:name "印度河文字"@zh-tw ;
+	rdfs:label "印度河文字"@zh-mo ;
+	skos:prefLabel "印度河文字"@zh-mo ;
+	schema:name "印度河文字"@zh-mo ;
+	rdfs:label "Scrittura indu"@it ;
+	skos:prefLabel "Scrittura indu"@it ;
+	schema:name "Scrittura indu"@it ;
+	rdfs:label "Indusskriften"@nb ;
+	skos:prefLabel "Indusskriften"@nb ;
+	schema:name "Indusskriften"@nb ;
+	rdfs:label "Harapos raštas"@lt ;
+	skos:prefLabel "Harapos raštas"@lt ;
+	schema:name "Harapos raštas"@lt ;
+	rdfs:label "சிந்துவெளி வரிவடிவம்"@ta ;
+	skos:prefLabel "சிந்துவெளி வரிவடிவம்"@ta ;
+	schema:name "சிந்துவெளி வரிவடிவம்"@ta ;
+	rdfs:label "Indus Schrift"@bar ;
+	skos:prefLabel "Indus Schrift"@bar ;
+	schema:name "Indus Schrift"@bar ;
+	rdfs:label "Հնդկերենի այբուբեն"@hy ;
+	skos:prefLabel "Հնդկերենի այբուբեն"@hy ;
+	schema:name "Հնդկերենի այբուբեն"@hy ;
+	rdfs:label "Escritura do Indo"@gl ;
+	skos:prefLabel "Escritura do Indo"@gl ;
+	schema:name "Escritura do Indo"@gl ;
+	rdfs:label "인더스 문자"@ko ;
+	skos:prefLabel "인더스 문자"@ko ;
+	schema:name "인더스 문자"@ko ;
+	rdfs:label "Indusschrift"@nl ;
+	skos:prefLabel "Indusschrift"@nl ;
+	schema:name "Indusschrift"@nl ;
+	rdfs:label "وادی سندھ کا رسم الخط"@ur ;
+	skos:prefLabel "وادی سندھ کا رسم الخط"@ur ;
+	schema:name "وادی سندھ کا رسم الخط"@ur ;
+	rdfs:label "escriptura de l'Indus"@ca ;
+	skos:prefLabel "escriptura de l'Indus"@ca ;
+	schema:name "escriptura de l'Indus"@ca ;
+	rdfs:label "Γραφή της κοιλάδας του Ινδού"@el ;
+	skos:prefLabel "Γραφή της κοιλάδας του Ινδού"@el ;
+	schema:name "Γραφή της κοιλάδας του Ινδού"@el ;
+	rdfs:label "indusa skribsistemo"@eo ;
+	skos:prefLabel "indusa skribsistemo"@eo ;
+	schema:name "indusa skribsistemo"@eo ;
+	rdfs:label "Indusskrif"@af ;
+	skos:prefLabel "Indusskrif"@af ;
+	schema:name "Indusskrif"@af ;
+	rdfs:label "Sigiliile din Valea Indului"@ro ;
+	skos:prefLabel "Sigiliile din Valea Indului"@ro ;
+	schema:name "Sigiliile din Valea Indului"@ro ;
+	rdfs:label "انڊس اسڪرپٽ"@sd ;
+	skos:prefLabel "انڊس اسڪرپٽ"@sd ;
+	schema:name "انڊس اسڪرپٽ"@sd ;
+	rdfs:label "الكتابة السِّنْديَّة"@ar ;
+	skos:prefLabel "الكتابة السِّنْديَّة"@ar ;
+	schema:name "الكتابة السِّنْديَّة"@ar ;
+	rdfs:label "Escritura del Indo"@ast ;
+	skos:prefLabel "Escritura del Indo"@ast ;
+	schema:name "Escritura del Indo"@ast ;
+	rdfs:label "Indus-kirjoitus"@fi ;
+	skos:prefLabel "Indus-kirjoitus"@fi ;
+	schema:name "Indus-kirjoitus"@fi ;
+	rdfs:label "Induse kiri"@et ;
+	skos:prefLabel "Induse kiri"@et ;
+	schema:name "Induse kiri"@et ;
+	rdfs:label "Протоиндијско писмо"@sr ;
+	skos:prefLabel "Протоиндијско писмо"@sr ;
+	schema:name "Протоиндијско писмо"@sr ;
+	rdfs:label "Aksara Harappa"@id ;
+	skos:prefLabel "Aksara Harappa"@id ;
+	schema:name "Aksara Harappa"@id ;
+	rdfs:label "خط ایندوس"@fa ;
+	skos:prefLabel "خط ایندوس"@fa ;
+	schema:name "خط ایندوس"@fa ;
+	rdfs:label "ಸಿಂಧೂಲಿಪಿ"@kn ;
+	skos:prefLabel "ಸಿಂಧೂಲಿಪಿ"@kn ;
+	schema:name "ಸಿಂಧೂಲಿಪಿ"@kn ;
+	rdfs:label "सिन्धु लिपि"@ne ;
+	skos:prefLabel "सिन्धु लिपि"@ne ;
+	schema:name "सिन्धु लिपि"@ne ;
+	rdfs:label "Indus-skripto"@io ;
+	skos:prefLabel "Indus-skripto"@io ;
+	schema:name "Indus-skripto"@io ;
+	rdfs:label "İndus yazısı"@tr ;
+	skos:prefLabel "İndus yazısı"@tr ;
+	schema:name "İndus yazısı"@tr ;
+	rdfs:label "ہڑپن لپی"@pnb ;
+	skos:prefLabel "ہڑپن لپی"@pnb ;
+	schema:name "ہڑپن لپی"@pnb ;
+	schema:description "印度河流域文明使用的古文字"@zh,
+		"印度河流域文明使用的古文字"@zh-hans,
+		"印度河流域文明使用的古文字"@zh-hant,
+		"印度河流域文明使用的古文字"@zh-cn,
+		"印度河流域文明使用的古文字"@zh-sg,
+		"印度河流域文明使用的古文字"@zh-my,
+		"印度河流域文明使用的古文字"@zh-hk,
+		"印度河流域文明使用的古文字"@zh-tw,
+		"印度河流域文明使用的古文字"@zh-mo,
+		"script, short strings of symbols associated with the Indus Valley Civilization"@en,
+		"bislang nicht entzifferte historische Schriftkultur"@de,
+		"सिंधु घाटी सभ्यता से सम्बन्धित छोटे-छोटे संकेतों के समूह को सिन्धु लिपि कहते हैं"@hi,
+		"رسم الخط"@sd,
+		"muinainen kirjoitusjärjestelmä"@fi,
+		"સિંધુ લિપિ"@gu,
+		"Induse orus kasutatud dešifreerimata kiri"@et,
+		"système d'écriture"@fr,
+		"تاريخ الكتابة بالحضارة السندية"@ar ;
+	skos:altLabel "印度河流域文字"@zh,
+		"古印度河文字"@zh,
+		"印度河流域文字"@zh-hans,
+		"古印度河文字"@zh-hans,
+		"印度河流域文字"@zh-hant,
+		"古印度河文字"@zh-hant,
+		"印度河流域文字"@zh-cn,
+		"古印度河文字"@zh-cn,
+		"印度河流域文字"@zh-sg,
+		"古印度河文字"@zh-sg,
+		"印度河流域文字"@zh-my,
+		"古印度河文字"@zh-my,
+		"印度河流域文字"@zh-hk,
+		"古印度河文字"@zh-hk,
+		"印度河流域文字"@zh-tw,
+		"古印度河文字"@zh-tw,
+		"印度河流域文字"@zh-mo,
+		"古印度河文字"@zh-mo,
+		"Harappan script"@en,
+		"Indus"@en,
+		"протоиндское письмо"@ru,
+		"хараппское письмо"@ru,
+		"Harappa kiri"@et .
+
+wd:Q25539565 owl:sameAs wd:Q601388 .
+
+wd:Q25628182 owl:sameAs wd:Q601388 .

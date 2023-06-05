@@ -1,0 +1,161 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56365 a schema:Dataset ;
+	schema:about wd:Q56365 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1556055071"^^xsd:integer ;
+	schema:dateModified "2022-01-04T15:46:41Z"^^xsd:dateTime .
+
+wd:Q56365 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Didinga> a schema:Article ;
+	schema:about wd:Q56365 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Didinga"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%94%D0%B8%D0%B4%D0%B8%D0%BD%D0%B3%D0%B0_%D1%98%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q56365 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Дидинга језик"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kididinga> a schema:Article ;
+	schema:about wd:Q56365 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kididinga"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_didinga> a schema:Article ;
+	schema:about wd:Q56365 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma didinga"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Didinga_language> a schema:Article ;
+	schema:about wd:Q56365 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Didinga language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Didingeg> a schema:Article ;
+	schema:about wd:Q56365 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Didingeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_didinga> a schema:Article ;
+	schema:about wd:Q56365 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma didinga"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Didingan_kieli> a schema:Article ;
+	schema:about wd:Q56365 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Didingan kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56365 wdt:P220 "did" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/did> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "didi1258" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/didi1258> ;
+	wdt:P4132 wd:Q166097 ;
+	wdt:P1466 "did" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_did> ;
+	wdt:P305 "did" ;
+	wdt:P1627 "did" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q958 ;
+	wdt:P2341 wd:Q488519 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DID> ;
+	wdt:P646 "/m/02hwyd5" ;
+	rdfs:label "didingeg"@br ;
+	skos:prefLabel "didingeg"@br ;
+	schema:name "didingeg"@br ;
+	rdfs:label "Didinga"@en ;
+	skos:prefLabel "Didinga"@en ;
+	schema:name "Didinga"@en ;
+	rdfs:label "Дидинга језик"@sr ;
+	skos:prefLabel "Дидинга језик"@sr ;
+	schema:name "Дидинга језик"@sr ;
+	rdfs:label "Kididinga"@sw ;
+	skos:prefLabel "Kididinga"@sw ;
+	schema:name "Kididinga"@sw ;
+	rdfs:label "Idioma didinga"@es ;
+	skos:prefLabel "Idioma didinga"@es ;
+	schema:name "Idioma didinga"@es ;
+	rdfs:label "Lenga Didinga"@pms ;
+	skos:prefLabel "Lenga Didinga"@pms ;
+	schema:name "Lenga Didinga"@pms ;
+	rdfs:label "Didingan kieli"@fi ;
+	skos:prefLabel "Didingan kieli"@fi ;
+	schema:name "Didingan kieli"@fi ;
+	rdfs:label "Didinga"@en-gb ;
+	skos:prefLabel "Didinga"@en-gb ;
+	schema:name "Didinga"@en-gb ;
+	rdfs:label "Wikang Didinga"@tl ;
+	skos:prefLabel "Wikang Didinga"@tl ;
+	schema:name "Wikang Didinga"@tl ;
+	rdfs:label "Idioma didinga"@ast ;
+	skos:prefLabel "Idioma didinga"@ast ;
+	schema:name "Idioma didinga"@ast ;
+	schema:description "Sprache"@de,
+		"idioma  nilo-sahariana del grupo súrmico"@es,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Didinga language"@en .

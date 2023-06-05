@@ -1,0 +1,106 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36087 a schema:Dataset ;
+	schema:about wd:Q36087 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1361460174"^^xsd:integer ;
+	schema:dateModified "2021-02-15T01:32:01Z"^^xsd:dateTime .
+
+wd:Q36087 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Ngom> a schema:Article ;
+	schema:about wd:Q36087 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Ngom"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kingom> a schema:Article ;
+	schema:about wd:Q36087 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kingom"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Ngom> a schema:Article ;
+	schema:about wd:Q36087 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Ngom"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36087 wdt:P31 wd:Q33384,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q35559 ;
+	wdt:P220 "nra" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nra> ;
+	wdt:P1394 "ngom1270" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ngom1270> ;
+	wdt:P4913 wd:Q35559 ;
+	wdt:P305 "nra" ;
+	wdt:P1627 "nra" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q971,
+		wd:Q1000 ;
+	wdt:P2341 wd:Q125711,
+		wd:Q780884,
+		wd:Q823822,
+		wd:Q823762 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NRA> ;
+	wdt:P646 "/m/02hw_dm" ;
+	rdfs:label "Kingom"@sw ;
+	skos:prefLabel "Kingom"@sw ;
+	schema:name "Kingom"@sw ;
+	rdfs:label "Lenga Ngom"@pms ;
+	skos:prefLabel "Lenga Ngom"@pms ;
+	schema:name "Lenga Ngom"@pms ;
+	rdfs:label "Ngom"@de ;
+	skos:prefLabel "Ngom"@de ;
+	schema:name "Ngom"@de ;
+	rdfs:label "Ngom"@en ;
+	skos:prefLabel "Ngom"@en ;
+	schema:name "Ngom"@en ;
+	rdfs:label "Ngom"@en-gb ;
+	skos:prefLabel "Ngom"@en-gb ;
+	schema:name "Ngom"@en-gb ;
+	rdfs:label "ngom"@fr ;
+	skos:prefLabel "ngom"@fr ;
+	schema:name "ngom"@fr ;
+	schema:description "Sprache"@de,
+		"dialect"@en,
+		"langue bantoue"@fr ;
+	skos:altLabel "Ngom language"@en .

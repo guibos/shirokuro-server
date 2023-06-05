@@ -1,0 +1,126 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q13591127 a schema:Dataset ;
+	schema:about wd:Q13591127 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1353246823"^^xsd:integer ;
+	schema:dateModified "2021-02-02T14:25:52Z"^^xsd:dateTime .
+
+wd:Q13591127 a wikibase:Item .
+
+<https://diq.wikipedia.org/wiki/Naranggaki> a schema:Article ;
+	schema:about wd:Q13591127 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Naranggaki"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_narungga> a schema:Article ;
+	schema:about wd:Q13591127 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga narungga"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinarungga> a schema:Article ;
+	schema:about wd:Q13591127 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinarungga"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Narungga_language> a schema:Article ;
+	schema:about wd:Q13591127 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Narungga language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q13591127 wdt:P220 "nnr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nnr> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "naru1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/naru1238> ;
+	wdt:P910 wd:Q33140410 ;
+	wdt:P1232 "nnr" ;
+	wdt:P1252 "L1" ;
+	wdt:P279 wd:Q7799234 ;
+	wdt:P2192 "2554" ;
+	wdt:P305 "nnr" ;
+	wdt:P1627 "nnr" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q35715 ;
+	wdt:P1251 "8928" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NNR> ;
+	wdt:P6915 "Narungga" ;
+	wdt:P646 "/m/02hxl3p" ;
+	rdfs:label "Lenga narungga"@pms ;
+	skos:prefLabel "Lenga narungga"@pms ;
+	schema:name "Lenga narungga"@pms ;
+	rdfs:label "Narungga"@en ;
+	skos:prefLabel "Narungga"@en ;
+	schema:name "Narungga"@en ;
+	rdfs:label "Naranggaki"@diq ;
+	skos:prefLabel "Naranggaki"@diq ;
+	schema:name "Naranggaki"@diq ;
+	rdfs:label "Narungga"@en-gb ;
+	skos:prefLabel "Narungga"@en-gb ;
+	schema:name "Narungga"@en-gb ;
+	rdfs:label "Kinarungga"@sw ;
+	skos:prefLabel "Kinarungga"@sw ;
+	schema:name "Kinarungga"@sw ;
+	rdfs:label "naranga keel"@et ;
+	skos:prefLabel "naranga keel"@et ;
+	schema:name "naranga keel"@et ;
+	rdfs:label "narungga"@fr ;
+	skos:prefLabel "narungga"@fr ;
+	schema:name "narungga"@fr ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"lugha ya asili ya Australia"@sw,
+		"langue pama-nyungan"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Australian Aboriginal language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Kinarangga"@sw .

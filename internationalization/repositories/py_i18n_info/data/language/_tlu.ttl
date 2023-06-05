@@ -1,0 +1,359 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7852006 a schema:Dataset ;
+	schema:about wd:Q7852006 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960504237"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:14:50Z"^^xsd:dateTime .
+
+wd:Q7852006 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Tulehu> a schema:Article ;
+	schema:about wd:Q7852006 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Tulehu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Tulehu> a schema:Article ;
+	schema:about wd:Q7852006 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Tulehu"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitulehu> a schema:Article ;
+	schema:about wd:Q7852006 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitulehu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Tulehu_language> a schema:Article ;
+	schema:about wd:Q7852006 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Tulehu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Tulehu> a schema:Article ;
+	schema:about wd:Q7852006 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Tulehu"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_tulehu> a schema:Article ;
+	schema:about wd:Q7852006 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język tulehu"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7852006 wdt:P220 "tlu" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tlu> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568,
+		wd:Q33384 ;
+	wdt:P1394 "tule1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tule1244> ;
+	wdt:P305 "tlu" ;
+	wdt:P1627 "tlu" ;
+	wdt:P3823 wd:Q29051555 ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2341 wd:Q5093 ;
+	wdt:P279 wd:Q12473347 ;
+	wdt:P4913 wd:Q12473347 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TLU> ;
+	wdt:P646 "/m/02hwg38" ;
+	rdfs:label "Tulehu"@en ;
+	skos:prefLabel "Tulehu"@en ;
+	schema:name "Tulehu"@en ;
+	rdfs:label "Lenga Tulehu"@pms ;
+	skos:prefLabel "Lenga Tulehu"@pms ;
+	schema:name "Lenga Tulehu"@pms ;
+	rdfs:label "Kitulehu"@sw ;
+	skos:prefLabel "Kitulehu"@sw ;
+	schema:name "Kitulehu"@sw ;
+	rdfs:label "Tulehu"@ilo ;
+	skos:prefLabel "Tulehu"@ilo ;
+	schema:name "Tulehu"@ilo ;
+	rdfs:label "Tulehu"@en-gb ;
+	skos:prefLabel "Tulehu"@en-gb ;
+	schema:name "Tulehu"@en-gb ;
+	rdfs:label "Wikang Tulehu"@tl ;
+	skos:prefLabel "Wikang Tulehu"@tl ;
+	schema:name "Wikang Tulehu"@tl ;
+	rdfs:label "Tulehu"@id ;
+	skos:prefLabel "Tulehu"@id ;
+	schema:name "Tulehu"@id ;
+	rdfs:label "Tulehu"@ace ;
+	skos:prefLabel "Tulehu"@ace ;
+	schema:name "Tulehu"@ace ;
+	rdfs:label "Tulehu"@af ;
+	skos:prefLabel "Tulehu"@af ;
+	schema:name "Tulehu"@af ;
+	rdfs:label "Tulehu"@an ;
+	skos:prefLabel "Tulehu"@an ;
+	schema:name "Tulehu"@an ;
+	rdfs:label "Tulehu"@ast ;
+	skos:prefLabel "Tulehu"@ast ;
+	schema:name "Tulehu"@ast ;
+	rdfs:label "Tulehu"@bar ;
+	skos:prefLabel "Tulehu"@bar ;
+	schema:name "Tulehu"@bar ;
+	rdfs:label "tulehu"@br ;
+	skos:prefLabel "tulehu"@br ;
+	schema:name "tulehu"@br ;
+	rdfs:label "tulehu"@ca ;
+	skos:prefLabel "tulehu"@ca ;
+	schema:name "tulehu"@ca ;
+	rdfs:label "Tulehu"@co ;
+	skos:prefLabel "Tulehu"@co ;
+	schema:name "Tulehu"@co ;
+	rdfs:label "Tulehu"@cs ;
+	skos:prefLabel "Tulehu"@cs ;
+	schema:name "Tulehu"@cs ;
+	rdfs:label "Tulehu"@cy ;
+	skos:prefLabel "Tulehu"@cy ;
+	schema:name "Tulehu"@cy ;
+	rdfs:label "Tulehu"@da ;
+	skos:prefLabel "Tulehu"@da ;
+	schema:name "Tulehu"@da ;
+	rdfs:label "Tulehu"@de ;
+	skos:prefLabel "Tulehu"@de ;
+	schema:name "Tulehu"@de ;
+	rdfs:label "Tulehu"@de-at ;
+	skos:prefLabel "Tulehu"@de-at ;
+	schema:name "Tulehu"@de-at ;
+	rdfs:label "Tulehu"@de-ch ;
+	skos:prefLabel "Tulehu"@de-ch ;
+	schema:name "Tulehu"@de-ch ;
+	rdfs:label "Tulehu"@en-ca ;
+	skos:prefLabel "Tulehu"@en-ca ;
+	schema:name "Tulehu"@en-ca ;
+	rdfs:label "Tulehu"@eo ;
+	skos:prefLabel "Tulehu"@eo ;
+	schema:name "Tulehu"@eo ;
+	rdfs:label "Tulehu"@es ;
+	skos:prefLabel "Tulehu"@es ;
+	schema:name "Tulehu"@es ;
+	rdfs:label "Tulehu"@et ;
+	skos:prefLabel "Tulehu"@et ;
+	schema:name "Tulehu"@et ;
+	rdfs:label "Tulehu"@eu ;
+	skos:prefLabel "Tulehu"@eu ;
+	schema:name "Tulehu"@eu ;
+	rdfs:label "Tulehu"@fi ;
+	skos:prefLabel "Tulehu"@fi ;
+	schema:name "Tulehu"@fi ;
+	rdfs:label "tulehu"@fr ;
+	skos:prefLabel "tulehu"@fr ;
+	schema:name "tulehu"@fr ;
+	rdfs:label "Tulehu"@frp ;
+	skos:prefLabel "Tulehu"@frp ;
+	schema:name "Tulehu"@frp ;
+	rdfs:label "Tulehu"@fur ;
+	skos:prefLabel "Tulehu"@fur ;
+	schema:name "Tulehu"@fur ;
+	rdfs:label "Tulehu"@ga ;
+	skos:prefLabel "Tulehu"@ga ;
+	schema:name "Tulehu"@ga ;
+	rdfs:label "Tulehu"@gd ;
+	skos:prefLabel "Tulehu"@gd ;
+	schema:name "Tulehu"@gd ;
+	rdfs:label "Tulehu"@gl ;
+	skos:prefLabel "Tulehu"@gl ;
+	schema:name "Tulehu"@gl ;
+	rdfs:label "Tulehu"@gsw ;
+	skos:prefLabel "Tulehu"@gsw ;
+	schema:name "Tulehu"@gsw ;
+	rdfs:label "Tulehu"@hr ;
+	skos:prefLabel "Tulehu"@hr ;
+	schema:name "Tulehu"@hr ;
+	rdfs:label "Tulehu"@hu ;
+	skos:prefLabel "Tulehu"@hu ;
+	schema:name "Tulehu"@hu ;
+	rdfs:label "Tulehu"@ia ;
+	skos:prefLabel "Tulehu"@ia ;
+	schema:name "Tulehu"@ia ;
+	rdfs:label "Tulehu"@ie ;
+	skos:prefLabel "Tulehu"@ie ;
+	schema:name "Tulehu"@ie ;
+	rdfs:label "Tulehu"@io ;
+	skos:prefLabel "Tulehu"@io ;
+	schema:name "Tulehu"@io ;
+	rdfs:label "Tulehu"@is ;
+	skos:prefLabel "Tulehu"@is ;
+	schema:name "Tulehu"@is ;
+	rdfs:label "tulehu"@it ;
+	skos:prefLabel "tulehu"@it ;
+	schema:name "tulehu"@it ;
+	rdfs:label "Tulehu"@jv ;
+	skos:prefLabel "Tulehu"@jv ;
+	schema:name "Tulehu"@jv ;
+	rdfs:label "Tulehu"@kg ;
+	skos:prefLabel "Tulehu"@kg ;
+	schema:name "Tulehu"@kg ;
+	rdfs:label "Tulehu"@lb ;
+	skos:prefLabel "Tulehu"@lb ;
+	schema:name "Tulehu"@lb ;
+	rdfs:label "Tulehu"@li ;
+	skos:prefLabel "Tulehu"@li ;
+	schema:name "Tulehu"@li ;
+	rdfs:label "Tulehu"@lij ;
+	skos:prefLabel "Tulehu"@lij ;
+	schema:name "Tulehu"@lij ;
+	rdfs:label "Tulehu"@mg ;
+	skos:prefLabel "Tulehu"@mg ;
+	schema:name "Tulehu"@mg ;
+	rdfs:label "Tulehu"@min ;
+	skos:prefLabel "Tulehu"@min ;
+	schema:name "Tulehu"@min ;
+	rdfs:label "Tulehu"@ms ;
+	skos:prefLabel "Tulehu"@ms ;
+	schema:name "Tulehu"@ms ;
+	rdfs:label "Tulehu"@nap ;
+	skos:prefLabel "Tulehu"@nap ;
+	schema:name "Tulehu"@nap ;
+	rdfs:label "Tulehu"@nb ;
+	skos:prefLabel "Tulehu"@nb ;
+	schema:name "Tulehu"@nb ;
+	rdfs:label "Tulehu"@nds ;
+	skos:prefLabel "Tulehu"@nds ;
+	schema:name "Tulehu"@nds ;
+	rdfs:label "Tulehu"@nds-nl ;
+	skos:prefLabel "Tulehu"@nds-nl ;
+	schema:name "Tulehu"@nds-nl ;
+	rdfs:label "Tulehu"@nl ;
+	skos:prefLabel "Tulehu"@nl ;
+	schema:name "Tulehu"@nl ;
+	rdfs:label "Tulehu"@nn ;
+	skos:prefLabel "Tulehu"@nn ;
+	schema:name "Tulehu"@nn ;
+	rdfs:label "Tulehu"@nrm ;
+	skos:prefLabel "Tulehu"@nrm ;
+	schema:name "Tulehu"@nrm ;
+	rdfs:label "Tulehu"@oc ;
+	skos:prefLabel "Tulehu"@oc ;
+	schema:name "Tulehu"@oc ;
+	rdfs:label "Tulehu"@pcd ;
+	skos:prefLabel "Tulehu"@pcd ;
+	schema:name "Tulehu"@pcd ;
+	rdfs:label "język tulehu"@pl ;
+	skos:prefLabel "język tulehu"@pl ;
+	schema:name "język tulehu"@pl ;
+	rdfs:label "Tulehu"@pt ;
+	skos:prefLabel "Tulehu"@pt ;
+	schema:name "Tulehu"@pt ;
+	rdfs:label "Tulehu"@pt-br ;
+	skos:prefLabel "Tulehu"@pt-br ;
+	schema:name "Tulehu"@pt-br ;
+	rdfs:label "Tulehu"@rm ;
+	skos:prefLabel "Tulehu"@rm ;
+	schema:name "Tulehu"@rm ;
+	rdfs:label "Tulehu"@ro ;
+	skos:prefLabel "Tulehu"@ro ;
+	schema:name "Tulehu"@ro ;
+	rdfs:label "Tulehu"@sc ;
+	skos:prefLabel "Tulehu"@sc ;
+	schema:name "Tulehu"@sc ;
+	rdfs:label "Tulehu"@scn ;
+	skos:prefLabel "Tulehu"@scn ;
+	schema:name "Tulehu"@scn ;
+	rdfs:label "Tulehu"@sco ;
+	skos:prefLabel "Tulehu"@sco ;
+	schema:name "Tulehu"@sco ;
+	rdfs:label "Tulehu"@sk ;
+	skos:prefLabel "Tulehu"@sk ;
+	schema:name "Tulehu"@sk ;
+	rdfs:label "Tulehu"@sl ;
+	skos:prefLabel "Tulehu"@sl ;
+	schema:name "Tulehu"@sl ;
+	rdfs:label "Tulehu"@sr-el ;
+	skos:prefLabel "Tulehu"@sr-el ;
+	schema:name "Tulehu"@sr-el ;
+	rdfs:label "Tulehu"@su ;
+	skos:prefLabel "Tulehu"@su ;
+	schema:name "Tulehu"@su ;
+	rdfs:label "Tulehu"@sv ;
+	skos:prefLabel "Tulehu"@sv ;
+	schema:name "Tulehu"@sv ;
+	rdfs:label "Tulehu"@vec ;
+	skos:prefLabel "Tulehu"@vec ;
+	schema:name "Tulehu"@vec ;
+	rdfs:label "Tulehu"@vi ;
+	skos:prefLabel "Tulehu"@vi ;
+	schema:name "Tulehu"@vi ;
+	rdfs:label "Tulehu"@vls ;
+	skos:prefLabel "Tulehu"@vls ;
+	schema:name "Tulehu"@vls ;
+	rdfs:label "Tulehu"@vo ;
+	skos:prefLabel "Tulehu"@vo ;
+	schema:name "Tulehu"@vo ;
+	rdfs:label "Tulehu"@wa ;
+	skos:prefLabel "Tulehu"@wa ;
+	schema:name "Tulehu"@wa ;
+	rdfs:label "Tulehu"@wo ;
+	skos:prefLabel "Tulehu"@wo ;
+	schema:name "Tulehu"@wo ;
+	rdfs:label "Tulehu"@zu ;
+	skos:prefLabel "Tulehu"@zu ;
+	schema:name "Tulehu"@zu ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Indonesia"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"bahasa daerah di Indonesia"@id,
+		"język austronezyjski"@pl ;
+	skos:altLabel "Tulehu language"@en,
+		"Tulehu"@pms,
+		"Tulehu"@sw,
+		"dialek Tulehu"@id .
+
+wd:Q24283406 owl:sameAs wd:Q7852006 .
+
+wd:Q31441732 owl:sameAs wd:Q7852006 .

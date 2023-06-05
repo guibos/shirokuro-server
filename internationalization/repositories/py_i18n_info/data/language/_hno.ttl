@@ -1,0 +1,79 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q112812073 a schema:Dataset ;
+	schema:about wd:Q112812073 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1904515589"^^xsd:integer ;
+	schema:dateModified "2023-05-29T11:51:52Z"^^xsd:dateTime .
+
+wd:Q112812073 a wikibase:Item .
+
+<https://simple.wikipedia.org/wiki/Northern_Hindko> a schema:Article ;
+	schema:about wd:Q112812073 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Northern Hindko"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Northern_Hindko_language> a schema:Article ;
+	schema:about wd:Q112812073 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Northern Hindko language"@en ;
+	wikibase:badge wd:Q70894304 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q112812073 wdt:P3823 wd:Q29051551 ;
+	wdt:P910 wd:Q105714707 ;
+	wdt:P220 "hno" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hno> ;
+	wdt:P1627 "hno" ;
+	wdt:P1394 "nort2662" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nort2662> ;
+	wdt:P305 "hno" ;
+	wdt:P31 wd:Q1208380 ;
+	wdt:P279 wd:Q382273 ;
+	rdfs:label "Northern Hindko"@en ;
+	skos:prefLabel "Northern Hindko"@en ;
+	schema:name "Northern Hindko"@en ;
+	rdfs:label "اُتری ہندکو"@pnb ;
+	skos:prefLabel "اُتری ہندکو"@pnb ;
+	schema:name "اُتری ہندکو"@pnb ;
+	rdfs:label "ਉੱਤਰੀ ਹਿੰਦਕੋ"@pa ;
+	skos:prefLabel "ਉੱਤਰੀ ਹਿੰਦਕੋ"@pa ;
+	schema:name "ਉੱਤਰੀ ਹਿੰਦਕੋ"@pa ;
+	schema:description "grouping of Hindko dialects associated with regions east and north of Peshawar"@en .
+
+wd:Q115683025 owl:sameAs wd:Q112812073 .

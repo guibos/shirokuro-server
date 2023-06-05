@@ -1,0 +1,124 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11732482 a schema:Dataset ;
+	schema:about wd:Q11732482 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1336604835"^^xsd:integer ;
+	schema:dateModified "2021-01-07T15:08:32Z"^^xsd:dateTime .
+
+wd:Q11732482 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Munit> a schema:Article ;
+	schema:about wd:Q11732482 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Munit"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Munit> a schema:Article ;
+	schema:about wd:Q11732482 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Munit"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimunit> a schema:Article ;
+	schema:about wd:Q11732482 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimunit"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Munit_language> a schema:Article ;
+	schema:about wd:Q11732482 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Munit language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11732482 wdt:P220 "mtc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mtc> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q6426773 ;
+	wdt:P1394 "muni1257" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/muni1257> ;
+	wdt:P910 wd:Q33659144 ;
+	wdt:P305 "mtc" ;
+	wdt:P1627 "mtc" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q326254 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MTC> ;
+	wdt:P646 "/m/02hwspw" ;
+	rdfs:label "Język munit"@pl ;
+	skos:prefLabel "Język munit"@pl ;
+	schema:name "Język munit"@pl ;
+	rdfs:label "Lenga Munit"@pms ;
+	skos:prefLabel "Lenga Munit"@pms ;
+	schema:name "Lenga Munit"@pms ;
+	rdfs:label "Munit"@en ;
+	skos:prefLabel "Munit"@en ;
+	schema:name "Munit"@en ;
+	rdfs:label "Kimunit"@sw ;
+	skos:prefLabel "Kimunit"@sw ;
+	schema:name "Kimunit"@sw ;
+	rdfs:label "Munit"@ilo ;
+	skos:prefLabel "Munit"@ilo ;
+	schema:name "Munit"@ilo ;
+	rdfs:label "Munit"@en-gb ;
+	skos:prefLabel "Munit"@en-gb ;
+	schema:name "Munit"@en-gb ;
+	rdfs:label "munit"@fr ;
+	skos:prefLabel "munit"@fr ;
+	schema:name "munit"@fr ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"langue madang"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Munit language"@en .
+
+wd:Q6936689 owl:sameAs wd:Q11732482 .
+
+wd:Q12952881 owl:sameAs wd:Q11732482 .

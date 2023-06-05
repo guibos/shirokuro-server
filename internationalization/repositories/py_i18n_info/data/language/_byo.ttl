@@ -1,0 +1,180 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56848 a schema:Dataset ;
+	schema:about wd:Q56848 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1785764262"^^xsd:integer ;
+	schema:dateModified "2022-12-06T23:08:51Z"^^xsd:dateTime .
+
+wd:Q56848 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Biyo> a schema:Article ;
+	schema:about wd:Q56848 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Biyo"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Biyo> a schema:Article ;
+	schema:about wd:Q56848 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Biyo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%91%D0%B8%D0%B9%D0%BE_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q56848 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Бийо (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Piyo> a schema:Article ;
+	schema:about wd:Q56848 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Piyo"@tl ;
+	wikibase:badge wd:Q70893996 .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibiyo> a schema:Article ;
+	schema:about wd:Q56848 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibiyo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Piyo_language> a schema:Article ;
+	schema:about wd:Q56848 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Piyo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Biyoeg> a schema:Article ;
+	schema:about wd:Q56848 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Biyoeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Biyo_jezik> a schema:Article ;
+	schema:about wd:Q56848 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Biyo jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E7%A2%A7%E7%BA%A6%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q56848 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "碧约语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56848 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "byo" ;
+	wdt:P1394 "biyo1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/biyo1243> ;
+	wdt:P220 "byo" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/byo> ;
+	wdt:P1889 wd:Q3640595 ;
+	wdt:P282 wd:Q601734 ;
+	wdt:P2581 "03067118n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s03067118n> ;
+	wdt:P279 wd:Q12627890 ;
+	wdt:P910 wd:Q36154452 ;
+	wdt:P1627 "byo" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q43194 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BYO> ;
+	wdt:P646 "/m/0n48fhx" ;
+	rdfs:label "biyoeg"@br ;
+	skos:prefLabel "biyoeg"@br ;
+	schema:name "biyoeg"@br ;
+	rdfs:label "biyo"@fr ;
+	skos:prefLabel "biyo"@fr ;
+	schema:name "biyo"@fr ;
+	rdfs:label "Piyo"@en ;
+	skos:prefLabel "Piyo"@en ;
+	schema:name "Piyo"@en ;
+	rdfs:label "Бийо"@ru ;
+	skos:prefLabel "Бийо"@ru ;
+	schema:name "Бийо"@ru ;
+	rdfs:label "Biyo jezik"@hr ;
+	skos:prefLabel "Biyo jezik"@hr ;
+	schema:name "Biyo jezik"@hr ;
+	rdfs:label "Lenga Biyo"@pms ;
+	skos:prefLabel "Lenga Biyo"@pms ;
+	schema:name "Lenga Biyo"@pms ;
+	rdfs:label "Kibiyo"@sw ;
+	skos:prefLabel "Kibiyo"@sw ;
+	schema:name "Kibiyo"@sw ;
+	rdfs:label "Wikang Piyo"@tl ;
+	skos:prefLabel "Wikang Piyo"@tl ;
+	schema:name "Wikang Piyo"@tl ;
+	rdfs:label "碧約語"@zh-hant ;
+	skos:prefLabel "碧約語"@zh-hant ;
+	schema:name "碧約語"@zh-hant ;
+	rdfs:label "碧约语"@zh-hans ;
+	skos:prefLabel "碧约语"@zh-hans ;
+	schema:name "碧约语"@zh-hans ;
+	rdfs:label "碧约语"@zh ;
+	skos:prefLabel "碧约语"@zh ;
+	schema:name "碧约语"@zh ;
+	schema:description "Language spoken in Yunnan, China, with 100,000 speakers."@en,
+		"שפה"@he,
+		"langue lolo"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Piyo language"@en .
+
+wd:Q8845014 owl:sameAs wd:Q56848 .
+
+wd:Q31442113 owl:sameAs wd:Q56848 .

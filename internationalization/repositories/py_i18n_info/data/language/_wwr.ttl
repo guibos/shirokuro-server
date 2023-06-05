@@ -1,0 +1,127 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7970852 a schema:Dataset ;
+	schema:about wd:Q7970852 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1958508445"^^xsd:integer ;
+	schema:dateModified "2023-08-22T01:32:11Z"^^xsd:dateTime .
+
+wd:Q7970852 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_warrwa> a schema:Article ;
+	schema:about wd:Q7970852 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga warrwa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Warrwa> a schema:Article ;
+	schema:about wd:Q7970852 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Warrwa"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiwarrwa> a schema:Article ;
+	schema:about wd:Q7970852 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiwarrwa"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Warrwa_language> a schema:Article ;
+	schema:about wd:Q7970852 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Warrwa language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7970852 wdt:P220 "wwr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/wwr> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "warr1258" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/warr1258> ;
+	wdt:P1466 "wrw" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_wrw> ;
+	wdt:P279 wd:Q2039408 ;
+	wdt:P2192 "3308" ;
+	wdt:P305 "wwr" ;
+	wdt:P1627 "wwr" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P1252 "K10" ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3206 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/WWR> ;
+	wdt:P6915 "Warrwa" ;
+	wdt:P646 "/m/05sx857" ;
+	rdfs:label "Warrwa"@en ;
+	skos:prefLabel "Warrwa"@en ;
+	schema:name "Warrwa"@en ;
+	rdfs:label "Warrwa"@sv ;
+	skos:prefLabel "Warrwa"@sv ;
+	schema:name "Warrwa"@sv ;
+	rdfs:label "Lenga warrwa"@pms ;
+	skos:prefLabel "Lenga warrwa"@pms ;
+	schema:name "Lenga warrwa"@pms ;
+	rdfs:label "Warrwa"@en-gb ;
+	skos:prefLabel "Warrwa"@en-gb ;
+	schema:name "Warrwa"@en-gb ;
+	rdfs:label "warrwa"@fr ;
+	skos:prefLabel "warrwa"@fr ;
+	schema:name "warrwa"@fr ;
+	rdfs:label "Kiwarrwa"@sw ;
+	skos:prefLabel "Kiwarrwa"@sw ;
+	schema:name "Kiwarrwa"@sw ;
+	rdfs:label "ワラワ語"@ja ;
+	skos:prefLabel "ワラワ語"@ja ;
+	schema:name "ワラワ語"@ja ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue nyulnyulan"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language of Western Australia"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"utdött australiskt språk"@sv ;
+	skos:altLabel "Warrwa language"@en .
+
+wd:Q10719324 owl:sameAs wd:Q7970852 .

@@ -1,0 +1,106 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6793754 a schema:Dataset ;
+	schema:about wd:Q6793754 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1810890527"^^xsd:integer ;
+	schema:dateModified "2023-01-13T18:55:48Z"^^xsd:dateTime .
+
+wd:Q6793754 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Mauritian_Sign_Language> a schema:Article ;
+	schema:about wd:Q6793754 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mauritian Sign Language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Langue_des_signes_mauricienne> a schema:Article ;
+	schema:about wd:Q6793754 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Langue des signes mauricienne"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%A7%D8%B4%D8%A7%D8%B1%D9%87_%D9%85%D9%88%D8%B1%DB%8C%D8%B3%DB%8C> a schema:Article ;
+	schema:about wd:Q6793754 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان اشاره موریسی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6793754 wdt:P220 "lsy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lsy> ;
+	wdt:P31 wd:Q34228,
+		wd:Q1288568 ;
+	wdt:P305 "lsy" ;
+	wdt:P1394 "maur1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/maur1240> ;
+	wdt:P17 wd:Q1027 ;
+	wdt:P1627 "lsy" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P646 "/m/0jwym04" ;
+	wdt:P910 wd:Q105715601 ;
+	rdfs:label "Mauritian Sign Language"@en ;
+	skos:prefLabel "Mauritian Sign Language"@en ;
+	schema:name "Mauritian Sign Language"@en ;
+	rdfs:label "langue des signes mauricienne"@fr ;
+	skos:prefLabel "langue des signes mauricienne"@fr ;
+	schema:name "langue des signes mauricienne"@fr ;
+	rdfs:label "maŭricia signolingvo"@eo ;
+	skos:prefLabel "maŭricia signolingvo"@eo ;
+	schema:name "maŭricia signolingvo"@eo ;
+	rdfs:label "Mauritian Sign Language"@en-gb ;
+	skos:prefLabel "Mauritian Sign Language"@en-gb ;
+	schema:name "Mauritian Sign Language"@en-gb ;
+	rdfs:label "lingua de sinia maurisian"@lfn ;
+	skos:prefLabel "lingua de sinia maurisian"@lfn ;
+	schema:name "lingua de sinia maurisian"@lfn ;
+	rdfs:label "Mauritianische Gebärdensprache"@de ;
+	skos:prefLabel "Mauritianische Gebärdensprache"@de ;
+	schema:name "Mauritianische Gebärdensprache"@de ;
+	rdfs:label "モーリシャス手話"@ja ;
+	skos:prefLabel "モーリシャス手話"@ja ;
+	schema:name "モーリシャス手話"@ja ;
+	rdfs:label "زبان اشاره موریسی"@fa ;
+	skos:prefLabel "زبان اشاره موریسی"@fa ;
+	schema:name "زبان اشاره موریسی"@fa ;
+	rdfs:label "toki luka Mowisi"@tok ;
+	skos:prefLabel "toki luka Mowisi"@tok ;
+	schema:name "toki luka Mowisi"@tok ;
+	schema:description "একটি ভাষা"@en,
+		"زبان اشاره"@fa,
+		"toki luka pi ma Mowisi"@tok .

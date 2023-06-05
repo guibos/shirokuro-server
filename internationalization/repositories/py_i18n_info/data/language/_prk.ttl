@@ -1,0 +1,131 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3363719 a schema:Dataset ;
+	schema:about wd:Q3363719 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961442752"^^xsd:integer ;
+	schema:dateModified "2023-08-26T03:55:41Z"^^xsd:dateTime .
+
+wd:Q3363719 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Parauk> a schema:Article ;
+	schema:about wd:Q3363719 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Parauk"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_parauk> a schema:Article ;
+	schema:about wd:Q3363719 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga parauk"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiwa-Parauk> a schema:Article ;
+	schema:about wd:Q3363719 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiwa-Parauk"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Parauk_Wa_jezik> a schema:Article ;
+	schema:about wd:Q3363719 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Parauk Wa jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3363719 wdt:P305 "prk" ;
+	wdt:P220 "prk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/prk> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q4923414 ;
+	wdt:P1394 "para1301" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/para1301> ;
+	wdt:P1466 "puk" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_puk> ;
+	wdt:P1627 "prk" ;
+	wdt:P3823 wd:Q29051547 ;
+	wdt:P17 wd:Q148,
+		wd:Q836 ;
+	wdt:P2341 wd:Q43194,
+		wd:Q818742,
+		wd:Q456847 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PRK> ;
+	wdt:P2671 "/g/121qyc5h" ;
+	wdtn:P2671 <http://g.co/kg/g/121qyc5h> ;
+	wdt:P910 wd:Q105714732 ;
+	rdfs:label "parauk"@fr ;
+	skos:prefLabel "parauk"@fr ;
+	schema:name "parauk"@fr ;
+	rdfs:label "Lenga parauk"@pms ;
+	skos:prefLabel "Lenga parauk"@pms ;
+	schema:name "Lenga parauk"@pms ;
+	rdfs:label "Parauk"@en ;
+	skos:prefLabel "Parauk"@en ;
+	schema:name "Parauk"@en ;
+	rdfs:label "Kiwa-Parauk"@sw ;
+	skos:prefLabel "Kiwa-Parauk"@sw ;
+	schema:name "Kiwa-Parauk"@sw ;
+	rdfs:label "Parauk Wa jezik"@hr ;
+	skos:prefLabel "Parauk Wa jezik"@hr ;
+	schema:name "Parauk Wa jezik"@hr ;
+	rdfs:label "Parauk"@en-gb ;
+	skos:prefLabel "Parauk"@en-gb ;
+	schema:name "Parauk"@en-gb ;
+	rdfs:label "巴饶克方言"@zh-hans ;
+	skos:prefLabel "巴饶克方言"@zh-hans ;
+	schema:name "巴饶克方言"@zh-hans ;
+	rdfs:label "巴饒克方言"@zh-hant ;
+	skos:prefLabel "巴饒克方言"@zh-hant ;
+	schema:name "巴饒克方言"@zh-hant ;
+	schema:description "שפה"@he,
+		"langue austroasiatique"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Wa, Parauk"@en,
+		"Parauk language"@en .
+
+wd:Q12639300 owl:sameAs wd:Q3363719 .

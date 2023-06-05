@@ -1,0 +1,169 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11732526 a schema:Dataset ;
+	schema:about wd:Q11732526 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1791081946"^^xsd:integer ;
+	schema:dateModified "2022-12-16T18:58:13Z"^^xsd:dateTime .
+
+wd:Q11732526 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Ninggerum> a schema:Article ;
+	schema:about wd:Q11732526 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Ninggerum"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ninggerum_language> a schema:Article ;
+	schema:about wd:Q11732526 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ninggerum language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Ninggerum> a schema:Article ;
+	schema:about wd:Q11732526 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Ninggerum"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kininggerum> a schema:Article ;
+	schema:about wd:Q11732526 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kininggerum"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Ninggerum> a schema:Article ;
+	schema:about wd:Q11732526 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Ninggerum"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1_%CE%9D%CE%B9%CE%BD%CE%B3%CE%BA%CE%B5%CF%81%CE%BF%CF%8D%CE%BC> a schema:Article ;
+	schema:about wd:Q11732526 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γλώσσα Νινγκερούμ"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_ninggerum> a schema:Article ;
+	schema:about wd:Q11732526 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język ninggerum"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11732526 wdt:P220 "nxr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nxr> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "nxr" ;
+	wdt:P1394 "ning1274" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ning1274> ;
+	wdt:P2590 "0997 3" ;
+	wdt:P1705 "bahasa Kasiwa"@id ;
+	wdt:P17 wd:Q252,
+		wd:Q691 ;
+	wdt:P910 wd:Q33656436 ;
+	wdt:P279 wd:Q7081687 ;
+	wdt:P2192 "10690" ;
+	wdt:P1627 "nxr" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2341 wd:Q5095,
+		wd:Q849790 ;
+	wdt:P646 "/m/02hwthc" ;
+	rdfs:label "język ninggirum"@pl ;
+	skos:prefLabel "język ninggirum"@pl ;
+	schema:name "język ninggirum"@pl ;
+	rdfs:label "Lenga Ninggerum"@pms ;
+	skos:prefLabel "Lenga Ninggerum"@pms ;
+	schema:name "Lenga Ninggerum"@pms ;
+	rdfs:label "Ninggerum"@en ;
+	skos:prefLabel "Ninggerum"@en ;
+	schema:name "Ninggerum"@en ;
+	rdfs:label "ninggerum"@fr ;
+	skos:prefLabel "ninggerum"@fr ;
+	schema:name "ninggerum"@fr ;
+	rdfs:label "Kininggerum"@sw ;
+	skos:prefLabel "Kininggerum"@sw ;
+	schema:name "Kininggerum"@sw ;
+	rdfs:label "Ninggerum"@ilo ;
+	skos:prefLabel "Ninggerum"@ilo ;
+	schema:name "Ninggerum"@ilo ;
+	rdfs:label "Ninggerum"@en-gb ;
+	skos:prefLabel "Ninggerum"@en-gb ;
+	schema:name "Ninggerum"@en-gb ;
+	rdfs:label "Γλώσσα Νινγκερούμ"@el ;
+	skos:prefLabel "Γλώσσα Νινγκερούμ"@el ;
+	schema:name "Γλώσσα Νινγκερούμ"@el ;
+	rdfs:label "ningerumi keel"@et ;
+	skos:prefLabel "ningerumi keel"@et ;
+	schema:name "ningerumi keel"@et ;
+	rdfs:label "Kasiwa"@id ;
+	skos:prefLabel "Kasiwa"@id ;
+	schema:name "Kasiwa"@id ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"pagsasao idiay Indonesia ken Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"bahasa di provinsi Papua"@id,
+		"langue asmat-awyu-ok"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"język z grupy papuaskiej"@pl ;
+	skos:altLabel "bahasa Kasiwa"@id,
+		"bahasa Kativa"@id,
+		"bahasa Ninggeroem"@id,
+		"bahasa Ninggerum"@id,
+		"bahasa Ninggirum"@id,
+		"bahasa Ninggrum"@id,
+		"bahasa Orgwo"@id .
+
+wd:Q12952960 owl:sameAs wd:Q11732526 .
+
+wd:Q26036951 owl:sameAs wd:Q11732526 .

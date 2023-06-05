@@ -1,0 +1,434 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33630 a schema:Dataset ;
+	schema:about wd:Q33630 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1916047763"^^xsd:integer ;
+	schema:dateModified "2023-06-15T20:21:57Z"^^xsd:dateTime .
+
+wd:Q33630 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kusunda> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kusunda"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D1%81%D1%83%D0%BD%D0%B4%D0%B0_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Кусунда (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kusunda_language> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kusunda language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%81%E0%A4%B8%E0%A5%81%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "कुसुन्दा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_kusunda> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua kusunda"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Kusunda> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Kusunda"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikusunda> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikusunda"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%AF%E3%82%B9%E3%83%B3%E3%83%80%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "クスンダ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Kusunda_(Sprache)> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Kusunda (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_kusunda> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua kusunda"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Kusunda> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Kusunda"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Kusunda_hizkuntza> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Kusunda hizkuntza"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sq.wikipedia.org/wiki/Gjuha_Kusunda> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "sq" ;
+	schema:isPartOf <https://sq.wikipedia.org/> ;
+	schema:name "Gjuha Kusunda"@sq .
+
+<https://sq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_kusunda> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język kusunda"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Kusunda> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Kusunda"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gv.wikipedia.org/wiki/Kusundaish> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "gv" ;
+	schema:isPartOf <https://gv.wikipedia.org/> ;
+	schema:name "Kusundaish"@gv .
+
+<https://gv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Kusunda_keel> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Kusunda keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Kusunda> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Kusunda"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Llengua_kusunda> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Llengua kusunda"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Kousoundeg> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Kousoundeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://or.wikipedia.org/wiki/%E0%AC%95%E0%AD%81%E0%AC%B8%E0%AD%81%E0%AC%A3%E0%AD%8D%E0%AC%A1%E0%AC%BE_%E0%AC%AD%E0%AC%BE%E0%AC%B7%E0%AC%BE> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "or" ;
+	schema:isPartOf <https://or.wikipedia.org/> ;
+	schema:name "କୁସୁଣ୍ଡା ଭାଷା"@or .
+
+<https://or.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Kusunda> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Kusunda"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%BF%A0%EC%88%9C%EB%8B%A4%EC%96%B4> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "쿠순다어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9A%D1%83%D1%81%D1%83%D0%BD%D0%B4%D0%B0_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikinews.org/> ;
+	schema:name "Категория:Кусунда (язык)"@ru .
+
+<https://ru.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://eo.wikipedia.org/wiki/Kusunda_lingvo> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Kusunda lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Kusunda> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Kusunda"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Kusundan_kieli> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Kusundan kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_kusunda> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma kusunda"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ne.wikipedia.org/wiki/%E0%A4%95%E0%A5%81%E0%A4%B8%E0%A5%81%E0%A4%A8%E0%A5%8D%E0%A4%A1%E0%A4%BE_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q33630 ;
+	schema:inLanguage "ne" ;
+	schema:isPartOf <https://ne.wikipedia.org/> ;
+	schema:name "कुसुन्डा भाषा"@ne .
+
+<https://ne.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33630 wdt:P17 wd:Q837 ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "kgg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kgg> ;
+	wdt:P646 "/m/03bzqgt" ;
+	a wdno:P282 ;
+	wdt:P1627 "kgg" ;
+	wdt:P1098 "+7"^^xsd:decimal ;
+	wdt:P1394 "kusu1250" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kusu1250> ;
+	wdt:P2355 "1259" ;
+	wdt:P1466 "kus" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_kus> ;
+	wdt:P910 wd:Q32859890 ;
+	wdt:P2192 "5873" ;
+	wdt:P305 "kgg" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P2341 wd:Q9133,
+		wd:Q9172,
+		wd:Q9185 ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KGG> ;
+	wdt:P131 wd:Q9133 ;
+	wdt:P279 wd:Q33648 ;
+	wdt:P1889 wd:Q34002 ;
+	wdt:P172 wd:Q623783 ;
+	wdt:P1705 "Mihaq"@mis ;
+	wdt:P1617 "c668de86-b7bb-470f-9b5c-48221d74c3d3" ;
+	wdtn:P1617 <http://www.bbc.co.uk/things/c668de86-b7bb-470f-9b5c-48221d74c3d3#id> ;
+	rdfs:label "Língua kusunda"@pt ;
+	skos:prefLabel "Língua kusunda"@pt ;
+	schema:name "Língua kusunda"@pt ;
+	rdfs:label "Lenga Kusunda"@pms ;
+	skos:prefLabel "Lenga Kusunda"@pms ;
+	schema:name "Lenga Kusunda"@pms ;
+	rdfs:label "Język kusunda"@pl ;
+	skos:prefLabel "Język kusunda"@pl ;
+	schema:name "Język kusunda"@pl ;
+	rdfs:label "Kusunda hizkuntza"@eu ;
+	skos:prefLabel "Kusunda hizkuntza"@eu ;
+	schema:name "Kusunda hizkuntza"@eu ;
+	rdfs:label "쿠순다어"@ko ;
+	skos:prefLabel "쿠순다어"@ko ;
+	schema:name "쿠순다어"@ko ;
+	rdfs:label "Кусунда"@ru ;
+	skos:prefLabel "Кусунда"@ru ;
+	schema:name "Кусунда"@ru ;
+	rdfs:label "Kusunda"@es ;
+	skos:prefLabel "Kusunda"@es ;
+	schema:name "Kusunda"@es ;
+	rdfs:label "Kusunda"@en ;
+	skos:prefLabel "Kusunda"@en ;
+	schema:name "Kusunda"@en ;
+	rdfs:label "llengua kusunda"@ca ;
+	skos:prefLabel "llengua kusunda"@ca ;
+	schema:name "llengua kusunda"@ca ;
+	rdfs:label "lingua kusunda"@it ;
+	skos:prefLabel "lingua kusunda"@it ;
+	schema:name "lingua kusunda"@it ;
+	rdfs:label "lingua Kusunda"@la ;
+	skos:prefLabel "lingua Kusunda"@la ;
+	schema:name "lingua Kusunda"@la ;
+	rdfs:label "Kusunda keel"@et ;
+	skos:prefLabel "Kusunda keel"@et ;
+	schema:name "Kusunda keel"@et ;
+	rdfs:label "Kusunda"@de ;
+	skos:prefLabel "Kusunda"@de ;
+	schema:name "Kusunda"@de ;
+	rdfs:label "kousoundeg"@br ;
+	skos:prefLabel "kousoundeg"@br ;
+	schema:name "kousoundeg"@br ;
+	rdfs:label "Kusundaish"@gv ;
+	skos:prefLabel "Kusundaish"@gv ;
+	schema:name "Kusundaish"@gv ;
+	rdfs:label "Kusunda"@sv ;
+	skos:prefLabel "Kusunda"@sv ;
+	schema:name "Kusunda"@sv ;
+	rdfs:label "Kusunda"@oc ;
+	skos:prefLabel "Kusunda"@oc ;
+	schema:name "Kusunda"@oc ;
+	rdfs:label "Bahasa Kusunda"@id ;
+	skos:prefLabel "Bahasa Kusunda"@id ;
+	schema:name "Bahasa Kusunda"@id ;
+	rdfs:label "クスンダ語"@ja ;
+	skos:prefLabel "クスンダ語"@ja ;
+	schema:name "クスンダ語"@ja ;
+	rdfs:label "कुसुन्दा"@hi ;
+	skos:prefLabel "कुसुन्दा"@hi ;
+	schema:name "कुसुन्दा"@hi ;
+	rdfs:label "Kikusunda"@sw ;
+	skos:prefLabel "Kikusunda"@sw ;
+	schema:name "Kikusunda"@sw ;
+	rdfs:label "Kusunda"@en-gb ;
+	skos:prefLabel "Kusunda"@en-gb ;
+	schema:name "Kusunda"@en-gb ;
+	rdfs:label "Wikang Kusunda"@tl ;
+	skos:prefLabel "Wikang Kusunda"@tl ;
+	schema:name "Wikang Kusunda"@tl ;
+	rdfs:label "Gjuha Kusunda"@sq ;
+	skos:prefLabel "Gjuha Kusunda"@sq ;
+	schema:name "Gjuha Kusunda"@sq ;
+	rdfs:label "kusunda"@fr ;
+	skos:prefLabel "kusunda"@fr ;
+	schema:name "kusunda"@fr ;
+	rdfs:label "କୁସୁଣ୍ଡା ଭାଷା"@or ;
+	skos:prefLabel "କୁସୁଣ୍ଡା ଭାଷା"@or ;
+	schema:name "କୁସୁଣ୍ଡା ଭାଷା"@or ;
+	rdfs:label "Kusunda"@ast ;
+	skos:prefLabel "Kusunda"@ast ;
+	schema:name "Kusunda"@ast ;
+	rdfs:label "kusunda lingvo"@eo ;
+	skos:prefLabel "kusunda lingvo"@eo ;
+	schema:name "kusunda lingvo"@eo ;
+	rdfs:label "Kusunda"@cs ;
+	skos:prefLabel "Kusunda"@cs ;
+	schema:name "Kusunda"@cs ;
+	rdfs:label "קוסונדה"@he ;
+	skos:prefLabel "קוסונדה"@he ;
+	schema:name "קוסונדה"@he ;
+	rdfs:label "kusunda"@vec ;
+	skos:prefLabel "kusunda"@vec ;
+	schema:name "kusunda"@vec ;
+	rdfs:label "Kusundan kieli"@fi ;
+	skos:prefLabel "Kusundan kieli"@fi ;
+	schema:name "Kusundan kieli"@fi ;
+	rdfs:label "कुसुन्दा भाषा"@ne ;
+	skos:prefLabel "कुसुन्दा भाषा"@ne ;
+	schema:name "कुसुन्दा भाषा"@ne ;
+	rdfs:label "مہیاک"@pnb ;
+	skos:prefLabel "مہیاک"@pnb ;
+	schema:name "مہیاک"@pnb ;
+	rdfs:label "ਮਿਹਿਆਕ"@pa ;
+	skos:prefLabel "ਮਿਹਿਆਕ"@pa ;
+	schema:name "ਮਿਹਿਆਕ"@pa ;
+	schema:description "lengua aislada hablada por un reducido grupo de personas en Nepal oriental"@es,
+		"Sprache"@de,
+		"lingua isolata parlata da poche decine di persone nella zona di Gandaki nel Nepal centrale"@it,
+		"endangered language isolate of Nepal"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"langue isolée parlée au Népal"@fr,
+		"yezh"@br,
+		"lingua"@la,
+		"iaith"@cy,
+		"llengua parlada a Nepal"@ca,
+		"नेपाल की लुप्तप्राय भाषा"@hi,
+		"بولی"@pnb,
+		"ਬੋਲੀ"@pa,
+		"bagian dari rumpun bahasa Isolat"@id ;
+	skos:altLabel "Idioma kusunda"@es,
+		"Kounsoundeg"@br,
+		"Kusunda"@gv,
+		"Kusunda language"@en,
+		"Mihaq"@en,
+		"Mihaq language"@en,
+		"کسندا"@pnb,
+		"ਕੁਸੁੰਦਾ"@pa .
+
+wd:Q18367161 owl:sameAs wd:Q33630 .
+
+wd:Q31442317 owl:sameAs wd:Q33630 .

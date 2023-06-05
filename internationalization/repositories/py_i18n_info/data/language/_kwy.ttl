@@ -1,0 +1,93 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11017686 a schema:Dataset ;
+	schema:about wd:Q11017686 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1855826342"^^xsd:integer ;
+	schema:dateModified "2023-03-19T22:52:00Z"^^xsd:dateTime .
+
+wd:Q11017686 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kongo,_San_Salvador> a schema:Article ;
+	schema:about wd:Q11017686 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kongo, San Salvador"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisikongo> a schema:Article ;
+	schema:about wd:Q11017686 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisikongo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11017686 wdt:P31 wd:Q4113741,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P30 wd:Q15 ;
+	wdt:P220 "kwy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kwy> ;
+	wdt:P1394 "sans1272" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sans1272> ;
+	wdt:P279 wd:Q116707180 ;
+	wdt:P2161 "H.16a" ;
+	wdt:P1466 "kwy" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_kwy> ;
+	wdt:P305 "kwy" ;
+	wdt:P1627 "kwy" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q974 ;
+	wdt:P2341 wd:Q1043494 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KWY> ;
+	rdfs:label "Lenga Kongo, San Salvador"@pms ;
+	skos:prefLabel "Lenga Kongo, San Salvador"@pms ;
+	schema:name "Lenga Kongo, San Salvador"@pms ;
+	rdfs:label "Kisikongo"@sw ;
+	skos:prefLabel "Kisikongo"@sw ;
+	schema:name "Kisikongo"@sw ;
+	rdfs:label "San Salvador Kongo"@en ;
+	skos:prefLabel "San Salvador Kongo"@en ;
+	schema:name "San Salvador Kongo"@en ;
+	rdfs:label "San Salvador Kongo"@en-gb ;
+	skos:prefLabel "San Salvador Kongo"@en-gb ;
+	schema:name "San Salvador Kongo"@en-gb ;
+	rdfs:label "kikongo de San Salvador"@fr ;
+	skos:prefLabel "kikongo de San Salvador"@fr ;
+	schema:name "kikongo de San Salvador"@fr ;
+	rdfs:label "kikongo de San Salvador"@ca ;
+	skos:prefLabel "kikongo de San Salvador"@ca ;
+	schema:name "kikongo de San Salvador"@ca ;
+	schema:description "langue bantoue"@fr .

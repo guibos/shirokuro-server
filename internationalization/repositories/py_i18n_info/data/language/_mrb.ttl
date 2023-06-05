@@ -1,0 +1,138 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3293299 a schema:Dataset ;
+	schema:about wd:Q3293299 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1355234482"^^xsd:integer ;
+	schema:dateModified "2021-02-05T15:59:37Z"^^xsd:dateTime .
+
+wd:Q3293299 a wikibase:Item .
+
+<https://diq.wikipedia.org/wiki/Sungwadiaki> a schema:Article ;
+	schema:about wd:Q3293299 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Sungwadiaki"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Sungwadia> a schema:Article ;
+	schema:about wd:Q3293299 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Sungwadia"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Marino> a schema:Article ;
+	schema:about wd:Q3293299 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Marino"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Sungwadia> a schema:Article ;
+	schema:about wd:Q3293299 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Sungwadia"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimarino> a schema:Article ;
+	schema:about wd:Q3293299 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimarino"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sungwadia_language> a schema:Article ;
+	schema:about wd:Q3293299 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sungwadia language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3293299 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "mrb" ;
+	wdt:P220 "mrb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mrb> ;
+	wdt:P279 wd:Q3070307 ;
+	wdt:P1394 "mari1426" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mari1426> ;
+	wdt:P2192 "4704" ;
+	wdt:P1627 "mrb" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q686 ;
+	wdt:P2341 wd:Q836649 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MRB> ;
+	wdt:P646 "/m/02hxsz0" ;
+	rdfs:label "marino"@fr ;
+	skos:prefLabel "marino"@fr ;
+	schema:name "marino"@fr ;
+	rdfs:label "Lenga Marino"@pms ;
+	skos:prefLabel "Lenga Marino"@pms ;
+	schema:name "Lenga Marino"@pms ;
+	rdfs:label "Sungwadia"@en ;
+	skos:prefLabel "Sungwadia"@en ;
+	schema:name "Sungwadia"@en ;
+	rdfs:label "Kimarino"@sw ;
+	skos:prefLabel "Kimarino"@sw ;
+	schema:name "Kimarino"@sw ;
+	rdfs:label "Sungwadia"@ilo ;
+	skos:prefLabel "Sungwadia"@ilo ;
+	schema:name "Sungwadia"@ilo ;
+	rdfs:label "Sungwadiaki"@diq ;
+	skos:prefLabel "Sungwadiaki"@diq ;
+	schema:name "Sungwadiaki"@diq ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Vanuatu"@ilo,
+		"שפה"@he,
+		"langue du nord et du centre du Vanuatu"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Marino"@en,
+		"Sungwadia language"@en,
+		"sungwadia"@fr,
+		"sunwadia"@fr .
+
+wd:Q7640256 owl:sameAs wd:Q3293299 .

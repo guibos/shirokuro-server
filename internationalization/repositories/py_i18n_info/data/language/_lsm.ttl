@@ -1,0 +1,135 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3739441 a schema:Dataset ;
+	schema:about wd:Q3739441 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1681976269"^^xsd:integer ;
+	schema:dateModified "2022-07-19T09:46:05Z"^^xsd:dateTime .
+
+wd:Q3739441 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Samia_(langue)> a schema:Article ;
+	schema:about wd:Q3739441 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Samia (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_saamia> a schema:Article ;
+	schema:about wd:Q3739441 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język saamia"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisaamia> a schema:Article ;
+	schema:about wd:Q3739441 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisaamia"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Samia_language> a schema:Article ;
+	schema:about wd:Q3739441 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Samia language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3739441 wdt:P220 "lsm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lsm> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "saam1283" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/saam1283> ;
+	wdt:P305 "lsm" ;
+	wdt:P1627 "lsm" ;
+	wdt:P244 "sh2010005728" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh2010005728> ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q114,
+		wd:Q1036 ;
+	wdt:P2341 wd:Q1017519,
+		wd:Q3482913,
+		wd:Q1229798,
+		wd:Q1229800 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LSM> ;
+	wdt:P279 wd:Q35893 ;
+	wdt:P2161 "JE34" ;
+	wdt:P646 "/m/05sx89_" ;
+	wdt:P910 wd:Q33672381 ;
+	wdt:P8189 "987007599849605171" ;
+	rdfs:label "Kisaamia"@sw ;
+	skos:prefLabel "Kisaamia"@sw ;
+	schema:name "Kisaamia"@sw ;
+	rdfs:label "Samia"@en ;
+	skos:prefLabel "Samia"@en ;
+	schema:name "Samia"@en ;
+	rdfs:label "samia"@fr ;
+	skos:prefLabel "samia"@fr ;
+	schema:name "samia"@fr ;
+	rdfs:label "Język saamia"@pl ;
+	skos:prefLabel "Język saamia"@pl ;
+	schema:name "Język saamia"@pl ;
+	rdfs:label "Wikang Samia"@tl ;
+	skos:prefLabel "Wikang Samia"@tl ;
+	schema:name "Wikang Samia"@tl ;
+	rdfs:label "Saamia語"@ja ;
+	skos:prefLabel "Saamia語"@ja ;
+	schema:name "Saamia語"@ja ;
+	rdfs:label "lusaamia"@lg ;
+	skos:prefLabel "lusaamia"@lg ;
+	schema:name "lusaamia"@lg ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue bantoue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"olulimi olwogerwa abasaamya"@lg ;
+	skos:altLabel "Olusaamia"@en,
+		"Saamia"@en,
+		"Lusaamia"@en,
+		"Samia language"@en,
+		"Język lugwe"@pl,
+		"Sa(a)mia語"@ja .
+
+wd:Q11732606 owl:sameAs wd:Q3739441 .

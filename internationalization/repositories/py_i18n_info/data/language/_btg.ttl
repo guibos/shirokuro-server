@@ -1,0 +1,131 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5005069 a schema:Dataset ;
+	schema:about wd:Q5005069 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1827839446"^^xsd:integer ;
+	schema:dateModified "2023-02-06T16:58:54Z"^^xsd:dateTime .
+
+wd:Q5005069 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Bete_Gagnoa> a schema:Article ;
+	schema:about wd:Q5005069 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Bete Gagnoa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibete-Gagnoa> a schema:Article ;
+	schema:about wd:Q5005069 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibete-Gagnoa"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Gagnoa_B%C3%A9t%C3%A9_jezik> a schema:Article ;
+	schema:about wd:Q5005069 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Gagnoa Bété jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5005069 wdt:P31 wd:Q33384,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q32956 ;
+	wdt:P1394 "gagn1235" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gagn1235> ;
+	wdt:P220 "btg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/btg> ;
+	wdt:P305 "btg" ;
+	wdt:P1627 "btg" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1008 ;
+	wdt:P2341 wd:Q20980352,
+		wd:Q21003640,
+		wd:Q20365127 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BTG> ;
+	rdfs:label "Gagnoa Bété"@en ;
+	skos:prefLabel "Gagnoa Bété"@en ;
+	schema:name "Gagnoa Bété"@en ;
+	rdfs:label "Língua bété"@pt ;
+	skos:prefLabel "Língua bété"@pt ;
+	schema:name "Língua bété"@pt ;
+	rdfs:label "ベテ語"@ja ;
+	skos:prefLabel "ベテ語"@ja ;
+	schema:name "ベテ語"@ja ;
+	rdfs:label "Limba bété"@ro ;
+	skos:prefLabel "Limba bété"@ro ;
+	schema:name "Limba bété"@ro ;
+	rdfs:label "Wikang Bété"@tl ;
+	skos:prefLabel "Wikang Bété"@tl ;
+	schema:name "Wikang Bété"@tl ;
+	rdfs:label "bete keel"@et ;
+	skos:prefLabel "bete keel"@et ;
+	schema:name "bete keel"@et ;
+	rdfs:label "bété de Gagnoa"@fr ;
+	skos:prefLabel "bété de Gagnoa"@fr ;
+	schema:name "bété de Gagnoa"@fr ;
+	rdfs:label "Lenga Bete Gagnoa"@pms ;
+	skos:prefLabel "Lenga Bete Gagnoa"@pms ;
+	schema:name "Lenga Bete Gagnoa"@pms ;
+	rdfs:label "Kibete-Gagnoa"@sw ;
+	skos:prefLabel "Kibete-Gagnoa"@sw ;
+	schema:name "Kibete-Gagnoa"@sw ;
+	rdfs:label "Gagnoa Bété jezik"@hr ;
+	skos:prefLabel "Gagnoa Bété jezik"@hr ;
+	schema:name "Gagnoa Bété jezik"@hr ;
+	schema:description "language of Ivory Coast"@en,
+		"Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Bete language"@en,
+		"Gagnoa Bété dialect"@en,
+		"Bété of Gagnoa"@en,
+		"Gagnoa Bété language"@en,
+		"Bete Gagnoa"@en,
+		"Bete Gagnoa language"@en,
+		"Gagnoa  bete keel"@et .
+
+wd:Q11005602 owl:sameAs wd:Q5005069 .
+
+wd:Q12631326 owl:sameAs wd:Q5005069 .

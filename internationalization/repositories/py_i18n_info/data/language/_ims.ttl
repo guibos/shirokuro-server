@@ -1,0 +1,134 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5641132 a schema:Dataset ;
+	schema:about wd:Q5641132 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1869548184"^^xsd:integer ;
+	schema:dateModified "2023-04-06T12:06:17Z"^^xsd:dateTime .
+
+wd:Q5641132 a wikibase:Item .
+
+<https://ast.wikipedia.org/wiki/Idioma_marso> a schema:Article ;
+	schema:about wd:Q5641132 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma marso"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_marso> a schema:Article ;
+	schema:about wd:Q5641132 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma marso"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_marsa> a schema:Article ;
+	schema:about wd:Q5641132 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua marsa"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Marsica> a schema:Article ;
+	schema:about wd:Q5641132 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Marsica"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Marsische_Sprache> a schema:Article ;
+	schema:about wd:Q5641132 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Marsische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5641132 wdt:P31 wd:Q33384,
+		wd:Q34770,
+		wd:Q436240 ;
+	wdt:P220 "ims" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ims> ;
+	wdt:P1394 "mars1253" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mars1253> ;
+	wdt:P305 "ims" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/IMS> ;
+	wdt:P2671 "/g/123608s4" ;
+	wdtn:P2671 <http://g.co/kg/g/123608s4> ;
+	wdt:P910 wd:Q33129011 ;
+	rdfs:label "idioma marso"@es ;
+	skos:prefLabel "idioma marso"@es ;
+	schema:name "idioma marso"@es ;
+	rdfs:label "lingua marsa"@it ;
+	skos:prefLabel "lingua marsa"@it ;
+	schema:name "lingua marsa"@it ;
+	rdfs:label "lingua Marsica"@la ;
+	skos:prefLabel "lingua Marsica"@la ;
+	schema:name "lingua Marsica"@la ;
+	rdfs:label "марсский диалект"@ru ;
+	skos:prefLabel "марсский диалект"@ru ;
+	schema:name "марсский диалект"@ru ;
+	rdfs:label "Marsian"@en ;
+	skos:prefLabel "Marsian"@en ;
+	schema:name "Marsian"@en ;
+	rdfs:label "Marsisch"@de ;
+	skos:prefLabel "Marsisch"@de ;
+	schema:name "Marsisch"@de ;
+	rdfs:label "Marsian"@en-gb ;
+	skos:prefLabel "Marsian"@en-gb ;
+	schema:name "Marsian"@en-gb ;
+	rdfs:label "マルシ語"@ja ;
+	skos:prefLabel "マルシ語"@ja ;
+	schema:name "マルシ語"@ja ;
+	rdfs:label "Idioma marso"@ast ;
+	skos:prefLabel "Idioma marso"@ast ;
+	schema:name "Idioma marso"@ast ;
+	rdfs:label "marsa"@vec ;
+	skos:prefLabel "marsa"@vec ;
+	schema:name "marsa"@vec ;
+	schema:description "lingua dei Marsi"@it,
+		"language of the Marsi of ancient Italy"@en,
+		"ausgestorbene Sprache der Marser (Italien)"@de,
+		"langue"@fr,
+		"lengua"@es,
+		"yezh"@br,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Dialetto marso (antichità)"@it,
+		"Marsian language"@en,
+		"marsische Sprache"@de .

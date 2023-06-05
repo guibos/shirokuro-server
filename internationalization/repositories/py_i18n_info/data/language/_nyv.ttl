@@ -1,0 +1,149 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3442732 a schema:Dataset ;
+	schema:about wd:Q3442732 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1727760799"^^xsd:integer ;
+	schema:dateModified "2022-09-13T10:21:25Z"^^xsd:dateTime .
+
+wd:Q3442732 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_nyulnyul> a schema:Article ;
+	schema:about wd:Q3442732 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga nyulnyul"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Nyulnyul> a schema:Article ;
+	schema:about wd:Q3442732 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Nyulnyul"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinyulnyul> a schema:Article ;
+	schema:about wd:Q3442732 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinyulnyul"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nyulnyul_language> a schema:Article ;
+	schema:about wd:Q3442732 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nyulnyul language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EB%89%BC%EB%89%BC%EC%96%B4> a schema:Article ;
+	schema:about wd:Q3442732 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "뉼뉼어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%A5%E3%83%AB%E3%83%8B%E3%83%A5%E3%83%AB%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q3442732 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ニュルニュル語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3442732 wdt:P220 "nyv" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nyv> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "nyul1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nyul1247> ;
+	wdt:P1466 "nyu" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_nyu> ;
+	wdt:P279 wd:Q2039408 ;
+	wdt:P2192 "4911" ;
+	wdt:P305 "nyv" ;
+	wdt:P1627 "nyv" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3206 ;
+	wdt:P6915 "Nyulnyul" ;
+	wdt:P4839 "Entity[\"Language\", \"Nyulnyul::9546j\"]",
+		"Entity[\"Language\", \"Nyulnyul\"]" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NYV> ;
+	wdt:P646 "/m/0fxkkj" ;
+	wdt:P910 wd:Q105714721 ;
+	rdfs:label "Lenga nyulnyul"@pms ;
+	skos:prefLabel "Lenga nyulnyul"@pms ;
+	schema:name "Lenga nyulnyul"@pms ;
+	rdfs:label "Nyulnyul"@en ;
+	skos:prefLabel "Nyulnyul"@en ;
+	schema:name "Nyulnyul"@en ;
+	rdfs:label "Nyulnyul"@sv ;
+	skos:prefLabel "Nyulnyul"@sv ;
+	schema:name "Nyulnyul"@sv ;
+	rdfs:label "Nyulnyul"@en-gb ;
+	skos:prefLabel "Nyulnyul"@en-gb ;
+	schema:name "Nyulnyul"@en-gb ;
+	rdfs:label "nyulnyul"@fr ;
+	skos:prefLabel "nyulnyul"@fr ;
+	schema:name "nyulnyul"@fr ;
+	rdfs:label "njulnjuli keel"@et ;
+	skos:prefLabel "njulnjuli keel"@et ;
+	schema:name "njulnjuli keel"@et ;
+	rdfs:label "Kinyulnyul"@sw ;
+	skos:prefLabel "Kinyulnyul"@sw ;
+	schema:name "Kinyulnyul"@sw ;
+	rdfs:label "뉼뉼어"@ko ;
+	skos:prefLabel "뉼뉼어"@ko ;
+	schema:name "뉼뉼어"@ko ;
+	rdfs:label "ニュルニュル語"@ja ;
+	skos:prefLabel "ニュルニュル語"@ja ;
+	schema:name "ニュルニュル語"@ja ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue nyulnyulan"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Nyulnyul language"@en,
+		"njulnjula keel"@et .

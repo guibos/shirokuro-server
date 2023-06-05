@@ -1,0 +1,3405 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q652 a schema:Dataset ;
+	schema:about wd:Q652 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1926000429"^^xsd:integer ;
+	schema:dateModified "2023-06-29T19:53:11Z"^^xsd:dateTime .
+
+wd:Q652 a wikibase:Item .
+
+<https://de.wikivoyage.org/wiki/Sprachf%C3%BChrer_Italienisch> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikivoyage.org/> ;
+	schema:name "Sprachführer Italienisch"@de ;
+	wikibase:badge wd:Q17559452 .
+
+<https://de.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://tw.wikipedia.org/wiki/Italian> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "tw" ;
+	schema:isPartOf <https://tw.wikipedia.org/> ;
+	schema:name "Italian"@tw .
+
+<https://tw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://inh.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D1%85%D0%BE%D0%B9_%D0%BC%D0%BE%D1%82%D1%82> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "inh" ;
+	schema:isPartOf <https://inh.wikipedia.org/> ;
+	schema:name "Италхой мотт"@inh .
+
+<https://inh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vep.wikipedia.org/wiki/Italijan_kel%27> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "vep" ;
+	schema:isPartOf <https://vep.wikipedia.org/> ;
+	schema:name "Italijan kel'"@vep .
+
+<https://vep.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_italiana> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua italiana"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bat-smg.wikipedia.org/wiki/Italu_kalba> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "sgs" ;
+	schema:isPartOf <https://bat-smg.wikipedia.org/> ;
+	schema:name "Italu kalba"@sgs .
+
+<https://bat-smg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-classical.wikipedia.org/wiki/%E7%BE%A9%E5%A4%A7%E5%88%A9%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "lzh" ;
+	schema:isPartOf <https://zh-classical.wikipedia.org/> ;
+	schema:name "義大利語"@lzh .
+
+<https://zh-classical.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikiquote.org/wiki/Lingua_italiana> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikiquote.org/> ;
+	schema:name "Lingua italiana"@it .
+
+<https://it.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://pt.wikivoyage.org/wiki/Guia_de_conversa%C3%A7%C3%A3o_italiano> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikivoyage.org/> ;
+	schema:name "Guia de conversação italiano"@pt .
+
+<https://pt.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://dv.wikipedia.org/wiki/%DE%87%DE%A8%DE%93%DE%A6%DE%8D%DE%A9> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "dv" ;
+	schema:isPartOf <https://dv.wikipedia.org/> ;
+	schema:name "އިޓަލީ"@dv .
+
+<https://dv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D4%BB%D5%BF%D5%A1%D5%AC%D5%A5%D6%80%D5%A5%D5%B6> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Իտալերեն"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikibooks.org/wiki/Ensenhament_de_l%27italian> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikibooks.org/> ;
+	schema:name "Ensenhament de l'italian"@oc .
+
+<https://oc.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://hu.wikipedia.org/wiki/Olasz_nyelv> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Olasz nyelv"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%87%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BE%E0%AE%B2%E0%AE%BF%E0%AE%AF_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "இத்தாலிய மொழி"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%98%E1%83%A2%E1%83%90%E1%83%9A%E1%83%98%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%94%E1%83%9C%E1%83%90> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "იტალიური ენა"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fiu-vro.wikipedia.org/wiki/Itaalia_kiil> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "vro" ;
+	schema:isPartOf <https://fiu-vro.wikipedia.org/> ;
+	schema:name "Itaalia kiil"@vro .
+
+<https://fiu-vro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dsb.wikipedia.org/wiki/Ital%C5%A1%C4%87ina> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "dsb" ;
+	schema:isPartOf <https://dsb.wikipedia.org/> ;
+	schema:name "Italšćina"@dsb .
+
+<https://dsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikibooks.org/wiki/Itali%C3%A0> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikibooks.org/> ;
+	schema:name "Italià"@ca .
+
+<https://ca.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://et.wikipedia.org/wiki/Itaalia_keel> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Itaalia keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://stq.wikipedia.org/wiki/Italieenske_Sproake> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "stq" ;
+	schema:isPartOf <https://stq.wikipedia.org/> ;
+	schema:name "Italieenske Sproake"@stq .
+
+<https://stq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kbd.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D1%8D%D0%B1%D0%B7%D1%8D> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "kbd" ;
+	schema:isPartOf <https://kbd.wikipedia.org/> ;
+	schema:name "Италэбзэ"@kbd .
+
+<https://kbd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Italyano> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Italyano"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D0%B8%D1%98%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D1%98%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Италијански језик"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bpy.wikipedia.org/wiki/%E0%A6%87%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A7%80%E0%A6%AF%E0%A6%BC_%E0%A6%A0%E0%A6%BE%E0%A6%B0> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "bpy" ;
+	schema:isPartOf <https://bpy.wikipedia.org/> ;
+	schema:name "ইতালীয় ঠার"@bpy .
+
+<https://bpy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pam.wikipedia.org/wiki/Amanung_Italyanu> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "pam" ;
+	schema:isPartOf <https://pam.wikipedia.org/> ;
+	schema:name "Amanung Italyanu"@pam .
+
+<https://pam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Italian_bhasa> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Italian bhasa"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://csb.wikipedia.org/wiki/Italsczi_j%C3%A3z%C3%ABk> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "csb" ;
+	schema:isPartOf <https://csb.wikipedia.org/> ;
+	schema:name "Italsczi jãzëk"@csb .
+
+<https://csb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bs.wikipedia.org/wiki/Italijanski_jezik> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "bs" ;
+	schema:isPartOf <https://bs.wikipedia.org/> ;
+	schema:name "Italijanski jezik"@bs .
+
+<https://bs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vo.wikipedia.org/wiki/Litaliy%C3%A4nap%C3%BCk> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "vo" ;
+	schema:isPartOf <https://vo.wikipedia.org/> ;
+	schema:name "Litaliyänapük"@vo .
+
+<https://vo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kw.wikipedia.org/wiki/Italek> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "kw" ;
+	schema:isPartOf <https://kw.wikipedia.org/> ;
+	schema:name "Italek"@kw .
+
+<https://kw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikiversity.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikiversity.org/> ;
+	schema:name "Итальянский язык"@ru .
+
+<https://ru.wikiversity.org/> wikibase:wikiGroup "wikiversity" .
+
+<https://hr.wikipedia.org/wiki/Talijanski_jezik> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Talijanski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikivoyage.org/wiki/Taalgids_Italiaans> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikivoyage.org/> ;
+	schema:name "Taalgids Italiaans"@nl .
+
+<https://nl.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://sk.wikipedia.org/wiki/Talian%C4%8Dina> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "sk" ;
+	schema:isPartOf <https://sk.wikipedia.org/> ;
+	schema:name "Taliančina"@sk .
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikibooks.org/wiki/Enseignement_de_l%27italien> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikibooks.org/> ;
+	schema:name "Enseignement de l'italien"@fr .
+
+<https://fr.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Italiano> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Italiano"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fur.wikipedia.org/wiki/Lenghe_taliane> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "fur" ;
+	schema:isPartOf <https://fur.wikipedia.org/> ;
+	schema:name "Lenghe taliane"@fur .
+
+<https://fur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%99%CF%84%CE%B1%CE%BB%CE%B9%CE%BA%CE%AE_%CE%B3%CE%BB%CF%8E%CF%83%CF%83%CE%B1> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Ιταλική γλώσσα"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikiversity.org/wiki/Materia:Grammatica_italiana_-_universit%C3%A0> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikiversity.org/> ;
+	schema:name "Materia:Grammatica italiana - università"@it .
+
+<https://it.wikiversity.org/> wikibase:wikiGroup "wikiversity" .
+
+<https://mk.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D0%B8%D1%98%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Италијански јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://io.wikipedia.org/wiki/Italiana_linguo> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "io" ;
+	schema:isPartOf <https://io.wikipedia.org/> ;
+	schema:name "Italiana linguo"@io .
+
+<https://io.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ang.wikipedia.org/wiki/Italisc_spr%C7%A3c> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ang" ;
+	schema:isPartOf <https://ang.wikipedia.org/> ;
+	schema:name "Italisc sprǣc"@ang .
+
+<https://ang.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Italienska> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Italienska"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://am.wikipedia.org/wiki/%E1%8C%A3%E1%88%8D%E1%8B%AB%E1%8A%95%E1%8A%9B> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "am" ;
+	schema:isPartOf <https://am.wikipedia.org/> ;
+	schema:name "ጣልያንኛ"@am .
+
+<https://am.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikiversity.org/wiki/Portal:Letras/Italiano> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikiversity.org/> ;
+	schema:name "Portal:Letras/Italiano"@pt .
+
+<https://pt.wikiversity.org/> wikibase:wikiGroup "wikiversity" .
+
+<https://os.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D0%B8%D0%B0%D0%B3_%C3%A6%D0%B2%D0%B7%D0%B0%D0%B3> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "os" ;
+	schema:isPartOf <https://os.wikipedia.org/> ;
+	schema:name "Италиаг æвзаг"@os .
+
+<https://os.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/%C3%8Dtalska> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Ítalska"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bar.wikipedia.org/wiki/Italienisch> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "bar" ;
+	schema:isPartOf <https://bar.wikipedia.org/> ;
+	schema:name "Italienisch"@bar .
+
+<https://bar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pih.wikipedia.org/wiki/Italiian> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "pih" ;
+	schema:isPartOf <https://pih.wikipedia.org/> ;
+	schema:name "Italiian"@pih .
+
+<https://pih.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sah.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D0%B8%D1%8F_%D1%82%D1%8B%D0%BB%D0%B0> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "sah" ;
+	schema:isPartOf <https://sah.wikipedia.org/> ;
+	schema:name "Италия тыла"@sah .
+
+<https://sah.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D0%B8%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Италиански език"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hak.wikipedia.org/wiki/Yi-thai-li-ng%C3%AE> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "hak" ;
+	schema:isPartOf <https://hak.wikipedia.org/> ;
+	schema:name "Yi-thai-li-ngî"@hak .
+
+<https://hak.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://scn.wikipedia.org/wiki/Lingua_taliana> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "scn" ;
+	schema:isPartOf <https://scn.wikipedia.org/> ;
+	schema:name "Lingua taliana"@scn .
+
+<https://scn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arc.wikipedia.org/wiki/%DC%A0%DC%AB%DC%A2%DC%90_%DC%90%DC%9D%DC%9B%DC%A0%DC%9D%DC%90> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "arc" ;
+	schema:isPartOf <https://arc.wikipedia.org/> ;
+	schema:name "ܠܫܢܐ ܐܝܛܠܝܐ"@arc .
+
+<https://arc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pap.wikipedia.org/wiki/Italiano> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "pap" ;
+	schema:isPartOf <https://pap.wikipedia.org/> ;
+	schema:name "Italiano"@pap .
+
+<https://pap.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ab.wikipedia.org/wiki/%D0%90%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D0%B0_%D0%B1%D1%8B%D0%B7%D1%88%D3%99%D0%B0> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ab" ;
+	schema:isPartOf <https://ab.wikipedia.org/> ;
+	schema:name "Аиталиа бызшәа"@ab .
+
+<https://ab.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ia.wikipedia.org/wiki/Lingua_italian> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ia" ;
+	schema:isPartOf <https://ia.wikipedia.org/> ;
+	schema:name "Lingua italian"@ia .
+
+<https://ia.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E6%84%8F%E5%A4%A7%E5%88%A9%E6%96%87> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "意大利文"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikivoyage.org/wiki/Ghid_de_conversa%C8%9Bie_italian> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikivoyage.org/> ;
+	schema:name "Ghid de conversație italian"@ro .
+
+<https://ro.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://udm.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD_%D0%BA%D1%8B%D0%BB> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "udm" ;
+	schema:isPartOf <https://udm.wikipedia.org/> ;
+	schema:name "Итальян кыл"@udm .
+
+<https://udm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%87%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A7%80%E0%A6%AF%E0%A6%BC_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "ইতালীয় ভাষা"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikinews.org/wiki/Kategorio:Itala_lingvo> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikinews.org/> ;
+	schema:name "Kategorio:Itala lingvo"@eo .
+
+<https://eo.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://zh.wikivoyage.org/wiki/%E6%84%8F%E5%A4%A7%E5%88%A9%E8%AF%AD%E4%BC%9A%E8%AF%9D%E6%89%8B%E5%86%8C> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikivoyage.org/> ;
+	schema:name "意大利语会话手册"@zh .
+
+<https://zh.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://xmf.wikipedia.org/wiki/%E1%83%98%E1%83%A2%E1%83%90%E1%83%9A%E1%83%98%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%9C%E1%83%98%E1%83%9C%E1%83%90> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "xmf" ;
+	schema:isPartOf <https://xmf.wikipedia.org/> ;
+	schema:name "იტალიური ნინა"@xmf .
+
+<https://xmf.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nso.wikipedia.org/wiki/Setaliana> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "nso" ;
+	schema:isPartOf <https://nso.wikipedia.org/> ;
+	schema:name "Setaliana"@nso .
+
+<https://nso.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%86%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Італійська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikiquote.org/wiki/Italian_language> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikiquote.org/> ;
+	schema:name "Italian language"@en .
+
+<https://en.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://nn.wikipedia.org/wiki/Italiensk> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Italiensk"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://crh.wikipedia.org/wiki/%C4%B0talyan_tili> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "crh-Latn" ;
+	schema:isPartOf <https://crh.wikipedia.org/> ;
+	schema:name "İtalyan tili"@crh-Latn .
+
+<https://crh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eml.wikipedia.org/wiki/Itagli%C3%A0n> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "egl" ;
+	schema:isPartOf <https://eml.wikipedia.org/> ;
+	schema:name "Itagliàn"@egl .
+
+<https://eml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Italian> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Italian"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lfn.wikipedia.org/wiki/Italian_(lingua)> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "lfn" ;
+	schema:isPartOf <https://lfn.wikipedia.org/> ;
+	schema:name "Italian (lingua)"@lfn .
+
+<https://lfn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikibooks.org/wiki/%D7%90%D7%99%D7%98%D7%9C%D7%A7%D7%99%D7%AA> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikibooks.org/> ;
+	schema:name "איטלקית"@he .
+
+<https://he.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://ckb.wikipedia.org/wiki/%D8%B2%D9%85%D8%A7%D9%86%DB%8C_%D8%A6%DB%8C%D8%AA%D8%A7%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ckb" ;
+	schema:isPartOf <https://ckb.wikipedia.org/> ;
+	schema:name "زمانی ئیتالی"@ckb .
+
+<https://ckb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mn.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D0%B8_%D1%85%D1%8D%D0%BB> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "mn" ;
+	schema:isPartOf <https://mn.wikipedia.org/> ;
+	schema:name "Итали хэл"@mn .
+
+<https://mn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nap.wikipedia.org/wiki/Lengua_taliana> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "nap" ;
+	schema:isPartOf <https://nap.wikipedia.org/> ;
+	schema:name "Lengua taliana"@nap .
+
+<https://nap.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://haw.wikipedia.org/wiki/%CA%BB%C5%8Clelo_%CA%BB%C4%AAk%C4%81lia> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "haw" ;
+	schema:isPartOf <https://haw.wikipedia.org/> ;
+	schema:name "ʻŌlelo ʻĪkālia"@haw .
+
+<https://haw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_italiana> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua italiana"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://so.wikipedia.org/wiki/Af-Taliyaani> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "so" ;
+	schema:isPartOf <https://so.wikipedia.org/> ;
+	schema:name "Af-Taliyaani"@so .
+
+<https://so.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikibooks.org/wiki/%D0%86%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikibooks.org/> ;
+	schema:name "Італьянская мова"@be .
+
+<https://be.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://qu.wikipedia.org/wiki/Italya_simi> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "qu" ;
+	schema:isPartOf <https://qu.wikipedia.org/> ;
+	schema:name "Italya simi"@qu .
+
+<https://qu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mr.wikipedia.org/wiki/%E0%A4%87%E0%A4%9F%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%AF%E0%A4%A8_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "mr" ;
+	schema:isPartOf <https://mr.wikipedia.org/> ;
+	schema:name "इटालियन भाषा"@mr .
+
+<https://mr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rm.wikipedia.org/wiki/Lingua_taliana> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "rm" ;
+	schema:isPartOf <https://rm.wikipedia.org/> ;
+	schema:name "Lingua taliana"@rm .
+
+<https://rm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ht.wikipedia.org/wiki/Lang_italyen> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ht" ;
+	schema:isPartOf <https://ht.wikipedia.org/> ;
+	schema:name "Lang italyen"@ht .
+
+<https://ht.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nds.wikipedia.org/wiki/Italieensche_Spraak> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "nds" ;
+	schema:isPartOf <https://nds.wikipedia.org/> ;
+	schema:name "Italieensche Spraak"@nds .
+
+<https://nds.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikivoyage.org/wiki/%CE%99%CF%84%CE%B1%CE%BB%CE%B9%CE%BA%CF%8C%CF%82_%CE%B3%CE%BB%CF%89%CF%83%CF%83%CE%B9%CE%BA%CF%8C%CF%82_%CE%BF%CE%B4%CE%B7%CE%B3%CF%8C%CF%82> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikivoyage.org/> ;
+	schema:name "Ιταλικός γλωσσικός οδηγός"@el .
+
+<https://el.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://yi.wikipedia.org/wiki/%D7%90%D7%99%D7%98%D7%90%D7%9C%D7%99%D7%A2%D7%A0%D7%99%D7%A9> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "yi" ;
+	schema:isPartOf <https://yi.wikipedia.org/> ;
+	schema:name "איטאליעניש"@yi .
+
+<https://yi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Итальян теле"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-min-nan.wikipedia.org/wiki/%C3%8D-t%C4%81i-l%C4%AB-g%C3%AD> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "nan" ;
+	schema:isPartOf <https://zh-min-nan.wikipedia.org/> ;
+	schema:name "Í-tāi-lī-gí"@nan .
+
+<https://zh-min-nan.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rue.wikipedia.org/wiki/%D0%A2%D0%B0%D0%BB%D1%96%D1%8F%D0%BD%D1%81%D1%8C%D0%BA%D1%8B%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "rue" ;
+	schema:isPartOf <https://rue.wikipedia.org/> ;
+	schema:name "Таліянськый язык"@rue .
+
+<https://rue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ug.wikipedia.org/wiki/%D8%A6%D9%89%D8%AA%D8%A7%D9%84%D9%8A%D8%A7%D9%86_%D8%AA%D9%89%D9%84%D9%89> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ug" ;
+	schema:isPartOf <https://ug.wikipedia.org/> ;
+	schema:name "ئىتاليان تىلى"@ug .
+
+<https://ug.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lmo.wikipedia.org/wiki/Lengua_italiana> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "lmo" ;
+	schema:isPartOf <https://lmo.wikipedia.org/> ;
+	schema:name "Lengua italiana"@lmo .
+
+<https://lmo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nds-nl.wikipedia.org/wiki/Italiaons> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "nds-NL" ;
+	schema:isPartOf <https://nds-nl.wikipedia.org/> ;
+	schema:name "Italiaons"@nds-NL .
+
+<https://nds-nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikiquote.org/wiki/%D0%86%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikiquote.org/> ;
+	schema:name "Італійська мова"@uk .
+
+<https://uk.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://fi.wikivoyage.org/wiki/Italian_matkasanakirja> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikivoyage.org/> ;
+	schema:name "Italian matkasanakirja"@fi .
+
+<https://fi.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://kv.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Итальян кыв"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Italian_language> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Italian language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Itali> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Itali"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ga.wikipedia.org/wiki/An_Iod%C3%A1ilis> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ga" ;
+	schema:isPartOf <https://ga.wikipedia.org/> ;
+	schema:name "An Iodáilis"@ga .
+
+<https://ga.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://km.wikipedia.org/wiki/%E1%9E%97%E1%9E%B6%E1%9E%9F%E1%9E%B6%E1%9E%A2%E1%9F%8A%E1%9E%B8%E1%9E%8F%E1%9E%B6%E1%9E%9B%E1%9E%B8> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "km" ;
+	schema:isPartOf <https://km.wikipedia.org/> ;
+	schema:name "ភាសាអ៊ីតាលី"@km .
+
+<https://km.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cdo.wikipedia.org/wiki/%C3%89-d%C3%A2i-l%C3%A9-ng%E1%B9%B3%CC%84> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "cdo" ;
+	schema:isPartOf <https://cdo.wikipedia.org/> ;
+	schema:name "É-dâi-lé-ngṳ̄"@cdo .
+
+<https://cdo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_w%C5%82oski> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język włoski"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikiversity.org/wiki/Introduction_to_Italian> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikiversity.org/> ;
+	schema:name "Introduction to Italian"@en .
+
+<https://en.wikiversity.org/> wikibase:wikiGroup "wikiversity" .
+
+<https://li.wikipedia.org/wiki/Italiaans> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "li" ;
+	schema:isPartOf <https://li.wikipedia.org/> ;
+	schema:name "Italiaans"@li .
+
+<https://li.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gan.wikipedia.org/wiki/%E6%84%8F%E5%A4%A7%E5%88%A9%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "gan" ;
+	schema:isPartOf <https://gan.wikipedia.org/> ;
+	schema:name "意大利語"@gan .
+
+<https://gan.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Italien> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Italien"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hyw.wikipedia.org/wiki/%D4%BB%D5%BF%D5%A1%D5%AC%D5%A5%D6%80%D5%A7%D5%B6> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "hyw" ;
+	schema:isPartOf <https://hyw.wikipedia.org/> ;
+	schema:name "Իտալերէն"@hyw .
+
+<https://hyw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bo.wikipedia.org/wiki/%E0%BD%A8%E0%BD%B2%E0%BC%8B%E0%BD%8F%E0%BC%8B%E0%BD%A3%E0%BD%B2%E0%BD%A0%E0%BD%B2%E0%BC%8B%E0%BD%A6%E0%BE%90%E0%BD%91%E0%BC%8D> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "bo" ;
+	schema:isPartOf <https://bo.wikipedia.org/> ;
+	schema:name "ཨི་ཏ་ལིའི་སྐད།"@bo .
+
+<https://bo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cy.wikipedia.org/wiki/Eidaleg> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "cy" ;
+	schema:isPartOf <https://cy.wikipedia.org/> ;
+	schema:name "Eidaleg"@cy .
+
+<https://cy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikibooks.org/wiki/Italiano> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikibooks.org/> ;
+	schema:name "Italiano"@pt .
+
+<https://pt.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://no.wikipedia.org/wiki/Italiensk> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Italiensk"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikibooks.org/wiki/Italian_kieli> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikibooks.org/> ;
+	schema:name "Italian kieli"@fi .
+
+<https://fi.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://fi.wikipedia.org/wiki/Italian_kieli> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Italian kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kbp.wikipedia.org/wiki/Itaalii_k%CA%8An%CA%8A%C5%8B> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "kbp" ;
+	schema:isPartOf <https://kbp.wikipedia.org/> ;
+	schema:name "Itaalii kʊnʊŋ"@kbp .
+
+<https://kbp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sco.wikipedia.org/wiki/Italian_leid> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "sco" ;
+	schema:isPartOf <https://sco.wikipedia.org/> ;
+	schema:name "Italian leid"@sco .
+
+<https://sco.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://se.wikipedia.org/wiki/It%C3%A1liagiella> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "se" ;
+	schema:isPartOf <https://se.wikipedia.org/> ;
+	schema:name "Itáliagiella"@se .
+
+<https://se.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nov.wikipedia.org/wiki/Italum> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "nov" ;
+	schema:isPartOf <https://nov.wikipedia.org/> ;
+	schema:name "Italum"@nov .
+
+<https://nov.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://yo.wikipedia.org/wiki/%C3%88d%C3%A8_%C3%8Dt%C3%A1l%C3%AC> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "yo" ;
+	schema:isPartOf <https://yo.wikipedia.org/> ;
+	schema:name "Èdè Ítálì"@yo .
+
+<https://yo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mai.wikipedia.org/wiki/%E0%A4%87%E0%A4%9F%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%AF%E0%A4%A8_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "mai" ;
+	schema:isPartOf <https://mai.wikipedia.org/> ;
+	schema:name "इटालियन भाषा"@mai .
+
+<https://mai.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ceb.wikipedia.org/wiki/Initalyano> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ceb" ;
+	schema:isPartOf <https://ceb.wikipedia.org/> ;
+	schema:name "Initalyano"@ceb .
+
+<https://ceb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://koi.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "koi" ;
+	schema:isPartOf <https://koi.wikipedia.org/> ;
+	schema:name "Итальян кыв"@koi .
+
+<https://koi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%90%D7%99%D7%98%D7%9C%D7%A7%D7%99%D7%AA> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "איטלקית"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Itajeensk> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Itajeensk"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiitalia> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiitalia"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "イタリア語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/%C4%B0talyan_dili> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "İtalyan dili"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://chr.wikipedia.org/wiki/%E1%8E%A0%E1%8F%82%E1%8E%A2%E1%8F%94%E1%8E%B5_%E1%8E%A7%E1%8F%AC%E1%8F%82%E1%8E%AF%E1%8F%8D%E1%8F%97> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "chr" ;
+	schema:isPartOf <https://chr.wikipedia.org/> ;
+	schema:name "ᎠᏂᎢᏔᎵ ᎧᏬᏂᎯᏍᏗ"@chr .
+
+<https://chr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ku.wikipedia.org/wiki/Ziman%C3%AA_%C3%AEtal%C3%AE> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ku" ;
+	schema:isPartOf <https://ku.wikipedia.org/> ;
+	schema:name "Zimanê îtalî"@ku .
+
+<https://ku.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_italianu> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma italianu"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D9%84%D8%BA%D9%87_%D8%B7%D9%84%D9%8A%D8%A7%D9%86%D9%89> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "لغه طليانى"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikiversity.org/wiki/Italien/Vocabulaire> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikiversity.org/> ;
+	schema:name "Italien/Vocabulaire"@fr .
+
+<https://fr.wikiversity.org/> wikibase:wikiGroup "wikiversity" .
+
+<https://lo.wikipedia.org/wiki/%E0%BA%9E%E0%BA%B2%E0%BA%AA%E0%BA%B2%E0%BA%AD%E0%BA%B4%E0%BA%95%E0%BA%B2%E0%BA%A5%E0%BA%B5> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "lo" ;
+	schema:isPartOf <https://lo.wikipedia.org/> ;
+	schema:name "ພາສາອິຕາລີ"@lo .
+
+<https://lo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ha.wikipedia.org/wiki/Italiyanci> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ha" ;
+	schema:isPartOf <https://ha.wikipedia.org/> ;
+	schema:name "Italiyanci"@ha .
+
+<https://ha.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikibooks.org/wiki/%C4%B0talyan_dili> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikibooks.org/> ;
+	schema:name "İtalyan dili"@az .
+
+<https://az.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://de.wikiversity.org/wiki/Fach_Romanistik/Arbeitsgruppe_Italienisch> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikiversity.org/> ;
+	schema:name "Fach Romanistik/Arbeitsgruppe Italienisch"@de .
+
+<https://de.wikiversity.org/> wikibase:wikiGroup "wikiversity" .
+
+<https://si.wikipedia.org/wiki/%E0%B6%89%E0%B6%AD%E0%B7%8F%E0%B6%BD%E0%B7%92_%E0%B6%B7%E0%B7%8F%E0%B7%82%E0%B7%8F%E0%B7%80> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "si" ;
+	schema:isPartOf <https://si.wikipedia.org/> ;
+	schema:name "ඉතාලි භාෂාව"@si .
+
+<https://si.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikiversity.org/wiki/%CE%A4%CE%BC%CE%AE%CE%BC%CE%B1:%CE%99%CF%84%CE%B1%CE%BB%CE%B9%CE%BA%CE%AC> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikiversity.org/> ;
+	schema:name "Τμήμα:Ιταλικά"@el .
+
+<https://el.wikiversity.org/> wikibase:wikiGroup "wikiversity" .
+
+<https://lv.wikipedia.org/wiki/It%C4%81%C4%BCu_valoda> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Itāļu valoda"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Italyan_tili> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Italyan tili"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikivoyage.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%80%D0%B0%D0%B7%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%BD%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikivoyage.org/> ;
+	schema:name "Итальянский разговорник"@ru .
+
+<https://ru.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ru.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Итальянский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Italian_language> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Italian language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%87%E0%A4%A4%E0%A4%BE%E0%A4%B2%E0%A4%B5%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "इतालवी भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://als.wikipedia.org/wiki/Italienische_Sprache> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "gsw" ;
+	schema:isPartOf <https://als.wikipedia.org/> ;
+	schema:name "Italienische Sprache"@gsw .
+
+<https://als.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mt.wikipedia.org/wiki/Lingwa_Taljana> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "mt" ;
+	schema:isPartOf <https://mt.wikipedia.org/> ;
+	schema:name "Lingwa Taljana"@mt .
+
+<https://mt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kn.wikipedia.org/wiki/%E0%B2%87%E0%B2%9F%E0%B2%B2%E0%B2%BF%E0%B2%AF_%E0%B2%AD%E0%B2%BE%E0%B2%B7%E0%B3%86> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "kn" ;
+	schema:isPartOf <https://kn.wikipedia.org/> ;
+	schema:name "ಇಟಲಿಯ ಭಾಷೆ"@kn .
+
+<https://kn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikivoyage.org/wiki/%D7%A9%D7%99%D7%97%D7%95%D7%9F_%D7%90%D7%99%D7%98%D7%9C%D7%A7%D7%99> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikivoyage.org/> ;
+	schema:name "שיחון איטלקי"@he ;
+	wikibase:badge wd:Q17437796 .
+
+<https://he.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://new.wikipedia.org/wiki/%E0%A4%87%E0%A4%9F%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A5%8B> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "new" ;
+	schema:isPartOf <https://new.wikipedia.org/> ;
+	schema:name "इटालियानो"@new .
+
+<https://new.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vls.wikipedia.org/wiki/Italioans> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "vls" ;
+	schema:isPartOf <https://vls.wikipedia.org/> ;
+	schema:name "Italioans"@vls .
+
+<https://vls.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Ital%C5%A1tina> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Italština"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/%C4%B0talyanca> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "İtalyanca"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://co.wikipedia.org/wiki/Lingua_taliana> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "co" ;
+	schema:isPartOf <https://co.wikipedia.org/> ;
+	schema:name "Lingua taliana"@co .
+
+<https://co.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%98%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikinews.org/> ;
+	schema:name "Категория:Итальянский язык"@ru .
+
+<https://ru.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://eu.wikipedia.org/wiki/Italiera> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Italiera"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jv.wikipedia.org/wiki/Basa_Itali> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "jv" ;
+	schema:isPartOf <https://jv.wikipedia.org/> ;
+	schema:name "Basa Itali"@jv .
+
+<https://jv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D8%A5%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "اللغة الإيطالية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gv.wikipedia.org/wiki/Iddaalish> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "gv" ;
+	schema:isPartOf <https://gv.wikipedia.org/> ;
+	schema:name "Iddaalish"@gv .
+
+<https://gv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ty.wikipedia.org/wiki/Reo_%E2%80%99It%C4%81ria> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ty" ;
+	schema:isPartOf <https://ty.wikipedia.org/> ;
+	schema:name "Reo ’Itāria"@ty .
+
+<https://ty.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikibooks.org/wiki/Italiano> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikibooks.org/> ;
+	schema:name "Italiano"@es .
+
+<https://es.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://ky.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D1%8F%D0%BD_%D1%82%D0%B8%D0%BB%D0%B8> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ky" ;
+	schema:isPartOf <https://ky.wikipedia.org/> ;
+	schema:name "Италян тили"@ky .
+
+<https://ky.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%86%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Італьянская мова"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikivoyage.org/wiki/Rozm%C3%B3wki_w%C5%82oskie> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikivoyage.org/> ;
+	schema:name "Rozmówki włoskie"@pl .
+
+<https://pl.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://it.wikibooks.org/wiki/Italiano> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikibooks.org/> ;
+	schema:name "Italiano"@it .
+
+<https://it.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://ca.wikipedia.org/wiki/Itali%C3%A0> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Italià"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D8%A7%DB%8C%D8%AA%D8%A7%D9%84%DB%8C%D8%A7_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "ایتالیا دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gd.wikipedia.org/wiki/Eadailtis> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "gd" ;
+	schema:isPartOf <https://gd.wikipedia.org/> ;
+	schema:name "Eadailtis"@gd .
+
+<https://gd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%86%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Італьянская мова"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikibooks.org/wiki/%E6%84%8F%E5%A4%A7%E5%88%A9%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikibooks.org/> ;
+	schema:name "意大利语"@zh .
+
+<https://zh.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://tg.wikipedia.org/wiki/%D0%97%D0%B0%D0%B1%D0%BE%D0%BD%D0%B8_%D0%B8%D1%82%D0%BE%D0%BB%D0%B8%D1%91%D3%A3> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "tg" ;
+	schema:isPartOf <https://tg.wikipedia.org/> ;
+	schema:name "Забони итолиёӣ"@tg .
+
+<https://tg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%A7%DB%8C%D8%AA%D8%A7%D9%84%DB%8C%D8%A7%DB%8C%DB%8C> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان ایتالیایی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Italiana> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Italiana"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_italian-a> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga italian-a"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikibooks.org/wiki/%D8%A2%D9%85%D9%88%D8%B2%D8%B4_%D8%B2%D8%A8%D8%A7%D9%86_%D8%A7%DB%8C%D8%AA%D8%A7%D9%84%DB%8C%D8%A7%DB%8C%DB%8C> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikibooks.org/> ;
+	schema:name "آموزش زبان ایتالیایی"@fa .
+
+<https://fa.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://en.wikibooks.org/wiki/Italian> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikibooks.org/> ;
+	schema:name "Italian"@en .
+
+<https://en.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://hsb.wikipedia.org/wiki/Ital%C5%A1%C4%87ina> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "hsb" ;
+	schema:isPartOf <https://hsb.wikipedia.org/> ;
+	schema:name "Italšćina"@hsb .
+
+<https://hsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikivoyage.org/wiki/Guide_linguistique_italien> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikivoyage.org/> ;
+	schema:name "Guide linguistique italien"@fr .
+
+<https://fr.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://cs.wikiversity.org/wiki/Ital%C5%A1tina> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikiversity.org/> ;
+	schema:name "Italština"@cs .
+
+<https://cs.wikiversity.org/> wikibase:wikiGroup "wikiversity" .
+
+<https://ko.wikibooks.org/wiki/%EC%9D%B4%ED%83%88%EB%A6%AC%EC%95%84%EC%96%B4_%EC%9E%85%EB%AC%B8> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikibooks.org/> ;
+	schema:name "이탈리아어 입문"@ko .
+
+<https://ko.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://pa.wikipedia.org/wiki/%E0%A8%87%E0%A8%A4%E0%A8%BE%E0%A8%B2%E0%A8%B5%E0%A9%80_%E0%A8%AD%E0%A8%BE%E0%A8%B8%E0%A8%BC%E0%A8%BE> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "pa" ;
+	schema:isPartOf <https://pa.wikipedia.org/> ;
+	schema:name "ਇਤਾਲਵੀ ਭਾਸ਼ਾ"@pa .
+
+<https://pa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikibooks.org/wiki/Italiaans> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikibooks.org/> ;
+	schema:name "Italiaans"@nl .
+
+<https://nl.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://war.wikipedia.org/wiki/Initalyano> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "war" ;
+	schema:isPartOf <https://war.wikipedia.org/> ;
+	schema:name "Initalyano"@war .
+
+<https://war.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ps.wikipedia.org/wiki/%D8%A7%DB%8C%D9%BC%D8%A7%D9%84%DB%8C%D8%A7%DB%8C%D9%8A_%DA%98%D8%A8%D9%87> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ps" ;
+	schema:isPartOf <https://ps.wikipedia.org/> ;
+	schema:name "ایټالیایي ژبه"@ps .
+
+<https://ps.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mhr.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD_%D0%B9%D1%8B%D0%BB%D0%BC%D0%B5> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "mhr" ;
+	schema:isPartOf <https://mhr.wikipedia.org/> ;
+	schema:name "Итальян йылме"@mhr .
+
+<https://mhr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fo.wikipedia.org/wiki/Italskt_m%C3%A1l> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "fo" ;
+	schema:isPartOf <https://fo.wikipedia.org/> ;
+	schema:name "Italskt mál"@fo .
+
+<https://fo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/Italiensk_(sprog)> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Italiensk (sprog)"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kk.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D0%B8%D1%8F%D0%BD_%D1%82%D1%96%D0%BB%D1%96> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "kk" ;
+	schema:isPartOf <https://kk.wikipedia.org/> ;
+	schema:name "Италиян тілі"@kk .
+
+<https://kk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sq.wikipedia.org/wiki/Gjuha_italiane> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "sq" ;
+	schema:isPartOf <https://sq.wikipedia.org/> ;
+	schema:name "Gjuha italiane"@sq .
+
+<https://sq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ce.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD%D0%B8%D0%B9%D0%BD_%D0%BC%D0%BE%D1%82%D1%82> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ce" ;
+	schema:isPartOf <https://ce.wikipedia.org/> ;
+	schema:name "Итальянийн мотт"@ce .
+
+<https://ce.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mg.wikipedia.org/wiki/Fiteny_italiana> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "mg" ;
+	schema:isPartOf <https://mg.wikipedia.org/> ;
+	schema:name "Fiteny italiana"@mg .
+
+<https://mg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Italijanski_jezik> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Italijanski jezik"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikibooks.org/wiki/Itala_lingvo> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikibooks.org/> ;
+	schema:name "Itala lingvo"@eo .
+
+<https://eo.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Italia> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Italia"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://diq.wikipedia.org/wiki/%C4%B0talyanki> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "İtalyanki"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Italiaans> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Italiaans"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Limba_italian%C4%83> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Limba italiană"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikiversity.org/wiki/Italiano> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikiversity.org/> ;
+	schema:name "Italiano"@es .
+
+<https://es.wikiversity.org/> wikibase:wikiGroup "wikiversity" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_%C3%9D> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Ý"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Italianeg> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Italianeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikivoyage.org/wiki/Gu%C3%ADa_de_italiano> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikivoyage.org/> ;
+	schema:name "Guía de italiano"@es .
+
+<https://es.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://es.wikipedia.org/wiki/Idioma_italiano> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma italiano"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zu.wikipedia.org/wiki/IsiTaliya> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "zu" ;
+	schema:isPartOf <https://zu.wikipedia.org/> ;
+	schema:name "IsiTaliya"@zu .
+
+<https://zu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%AE%E1%80%90%E1%80%9C%E1%80%AE%E1%80%98%E1%80%AC%E1%80%9E%E1%80%AC%E1%80%85%E1%80%80%E1%80%AC%E1%80%B8> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "my" ;
+	schema:isPartOf <https://my.wikipedia.org/> ;
+	schema:name "အီတလီဘာသာစကား"@my .
+
+<https://my.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://myv.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D0%B8%D1%8F%D0%BD%D1%8C_%D0%BA%D0%B5%D0%BB%D1%8C> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "myv" ;
+	schema:isPartOf <https://myv.wikipedia.org/> ;
+	schema:name "Италиянь кель"@myv .
+
+<https://myv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%AD%E0%B8%B4%E0%B8%95%E0%B8%B2%E0%B8%A5%E0%B8%B5> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาอิตาลี"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gcr.wikipedia.org/wiki/Italyen> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "gcr" ;
+	schema:isPartOf <https://gcr.wikipedia.org/> ;
+	schema:name "Italyen"@gcr .
+
+<https://gcr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lb.wikipedia.org/wiki/Italieenesch> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "lb" ;
+	schema:isPartOf <https://lb.wikipedia.org/> ;
+	schema:name "Italieenesch"@lb .
+
+<https://lb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szl.wikipedia.org/wiki/Italsko_godka> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "szl" ;
+	schema:isPartOf <https://szl.wikipedia.org/> ;
+	schema:name "Italsko godka"@szl .
+
+<https://szl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jam.wikipedia.org/wiki/Italian> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "jam" ;
+	schema:isPartOf <https://jam.wikipedia.org/> ;
+	schema:name "Italian"@jam .
+
+<https://jam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Italienische_Sprache> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Italienische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikivoyage.org/wiki/Italiensk_parl%C3%B6r> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikivoyage.org/> ;
+	schema:name "Italiensk parlör"@sv .
+
+<https://sv.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://lt.wikipedia.org/wiki/Ital%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Italų kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikivoyage.org/wiki/%D0%86%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%80%D0%BE%D0%B7%D0%BC%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikivoyage.org/> ;
+	schema:name "Італійський розмовник"@uk .
+
+<https://uk.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://glk.wikipedia.org/wiki/%D8%A7%D9%8A%D8%AA%D8%A7%D9%84%D9%8A%D8%A7%D9%8A%D9%8A_%D8%B2%D9%88%D8%A4%D9%86> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "glk" ;
+	schema:isPartOf <https://glk.wikipedia.org/> ;
+	schema:name "ايتاليايي زوؤن"@glk .
+
+<https://glk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%D8%A7%D8%B7%D8%A7%D9%84%D9%88%DB%8C_%D8%A8%D9%88%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "اطالوی بولی"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lad.wikipedia.org/wiki/Lingua_italiana> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "lad" ;
+	schema:isPartOf <https://lad.wikipedia.org/> ;
+	schema:name "Lingua italiana"@lad .
+
+<https://lad.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikibooks.org/wiki/Italienisch> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikibooks.org/> ;
+	schema:name "Italienisch"@de .
+
+<https://de.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://vi.wikivoyage.org/wiki/S%E1%BB%95_tay_ti%E1%BA%BFng_%C3%9D> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikivoyage.org/> ;
+	schema:name "Sổ tay tiếng Ý"@vi .
+
+<https://vi.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://es.wikiquote.org/wiki/Idioma_italiano> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikiquote.org/> ;
+	schema:name "Idioma italiano"@es .
+
+<https://es.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://wa.wikipedia.org/wiki/It%C3%A5lyin_(lingaedje)> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "wa" ;
+	schema:isPartOf <https://wa.wikipedia.org/> ;
+	schema:name "Itålyin (lingaedje)"@wa .
+
+<https://wa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikibooks.org/wiki/%C3%8Dtalska> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikibooks.org/> ;
+	schema:name "Ítalska"@is .
+
+<https://is.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://lij.wikipedia.org/wiki/L%C3%A9ngoa_itali%C3%A0nn-a> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "lij" ;
+	schema:isPartOf <https://lij.wikipedia.org/> ;
+	schema:name "Léngoa italiànn-a"@lij .
+
+<https://lij.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%87%E0%B4%B1%E0%B5%8D%E0%B4%B1%E0%B4%BE%E0%B4%B2%E0%B4%BF%E0%B4%AF%E0%B5%BB_%E0%B4%AD%E0%B4%BE%E0%B4%B7> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "ഇറ്റാലിയൻ ഭാഷ"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sc.wikipedia.org/wiki/Limba_italiana> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "sc" ;
+	schema:isPartOf <https://sc.wikipedia.org/> ;
+	schema:name "Limba italiana"@sc .
+
+<https://sc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D8%A7%D8%B7%D8%A7%D9%84%D9%88%DB%8C_%D8%B2%D8%A8%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "اطالوی زبان"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bxr.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D0%B8_%D1%85%D1%8D%D0%BB%D1%8D%D0%BD> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "bxr" ;
+	schema:isPartOf <https://bxr.wikipedia.org/> ;
+	schema:name "Итали хэлэн"@bxr .
+
+<https://bxr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fy.wikipedia.org/wiki/Italjaansk> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "fy" ;
+	schema:isPartOf <https://fy.wikipedia.org/> ;
+	schema:name "Italjaansk"@fy .
+
+<https://fy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mzn.wikipedia.org/wiki/%D8%A7%DB%8C%D8%AA%D8%A7%D9%84%DB%8C%D8%A7%DB%8C%DB%8C> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "mzn" ;
+	schema:isPartOf <https://mzn.wikipedia.org/> ;
+	schema:name "ایتالیایی"@mzn .
+
+<https://mzn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tpi.wikipedia.org/wiki/Tok_Itali> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "tpi" ;
+	schema:isPartOf <https://tpi.wikipedia.org/> ;
+	schema:name "Tok Itali"@tpi .
+
+<https://tpi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sl.wikipedia.org/wiki/Italijan%C5%A1%C4%8Dina> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikipedia.org/> ;
+	schema:name "Italijanščina"@sl .
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mwl.wikipedia.org/wiki/Lh%C3%A9ngua_eitaliana> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "mwl" ;
+	schema:isPartOf <https://mwl.wikipedia.org/> ;
+	schema:name "Lhéngua eitaliana"@mwl .
+
+<https://mwl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikivoyage.org/wiki/Italian_phrasebook> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikivoyage.org/> ;
+	schema:name "Italian phrasebook"@en ;
+	wikibase:badge wd:Q17437798 .
+
+<https://en.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://eo.wikipedia.org/wiki/Itala_lingvo> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Itala lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://su.wikipedia.org/wiki/Basa_Italia> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "su" ;
+	schema:isPartOf <https://su.wikipedia.org/> ;
+	schema:name "Basa Italia"@su .
+
+<https://su.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_italiana> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua italiana"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%9D%B4%ED%83%88%EB%A6%AC%EC%95%84%EC%96%B4> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "이탈리아어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%84%8F%E5%A4%A7%E5%88%A9%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "意大利语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Italiaans> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Italiaans"@af ;
+	wikibase:badge wd:Q17437796 .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E6%84%8F%E5%A4%A7%E5%88%A9%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "意大利语"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikiversity.org/wiki/%D8%A7%D9%84%D8%A5%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikiversity.org/> ;
+	schema:name "الإيطالية"@ar .
+
+<https://ar.wikiversity.org/> wikibase:wikiGroup "wikiversity" .
+
+<https://tk.wikipedia.org/wiki/Ital%C3%BDan_dili> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "tk" ;
+	schema:isPartOf <https://tk.wikipedia.org/> ;
+	schema:name "Italýan dili"@tk .
+
+<https://tk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ary.wikipedia.org/wiki/%D8%B7%D8%A7%D9%84%D9%8A%D8%A7%D9%86%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ary" ;
+	schema:isPartOf <https://ary.wikipedia.org/> ;
+	schema:name "طاليانية"@ary .
+
+<https://ary.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%A4%E1%B1%B4%E1%B1%9F%E1%B1%9E%E1%B1%A4%E1%B1%AD%E1%B1%9F%E1%B1%B1_%E1%B1%AF%E1%B1%9F%E1%B1%B9%E1%B1%A8%E1%B1%A5%E1%B1%A4> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱤᱴᱟᱞᱤᱭᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lld.wikipedia.org/wiki/Lingaz_talian> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "lld" ;
+	schema:isPartOf <https://lld.wikipedia.org/> ;
+	schema:name "Lingaz talian"@lld .
+
+<https://lld.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ie.wikipedia.org/wiki/Italian> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ie" ;
+	schema:isPartOf <https://ie.wikipedia.org/> ;
+	schema:name "Italian"@ie .
+
+<https://ie.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikiquote.org/wiki/Itaalia_keel> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikiquote.org/> ;
+	schema:name "Itaalia keel"@et .
+
+<https://et.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://pcd.wikipedia.org/wiki/Italien_(lingue)> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "pcd" ;
+	schema:isPartOf <https://pcd.wikipedia.org/> ;
+	schema:name "Italien (lingue)"@pcd .
+
+<https://pcd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://smn.wikipedia.org/wiki/Italiakiel%C3%A2> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "smn" ;
+	schema:isPartOf <https://smn.wikipedia.org/> ;
+	schema:name "Italiakielâ"@smn .
+
+<https://smn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ne.wikipedia.org/wiki/%E0%A4%87%E0%A4%9F%E0%A4%BE%E0%A4%B2%E0%A5%87%E0%A4%B2%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ne" ;
+	schema:isPartOf <https://ne.wikipedia.org/> ;
+	schema:name "इटालेली भाषा"@ne .
+
+<https://ne.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikivoyage.org/wiki/Itala_frazlibro> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikivoyage.org/> ;
+	schema:name "Itala frazlibro"@eo .
+
+<https://eo.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://nia.wikipedia.org/wiki/Li_Italia> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "nia" ;
+	schema:isPartOf <https://nia.wikipedia.org/> ;
+	schema:name "Li Italia"@nia .
+
+<https://nia.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ba.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ba" ;
+	schema:isPartOf <https://ba.wikipedia.org/> ;
+	schema:name "Итальян теле"@ba .
+
+<https://ba.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://te.wikipedia.org/wiki/%E0%B0%87%E0%B0%9F%E0%B0%BE%E0%B0%B2%E0%B0%BF%E0%B0%AF%E0%B0%A8%E0%B1%8D_%E0%B0%AD%E0%B0%BE%E0%B0%B7> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "te" ;
+	schema:isPartOf <https://te.wikipedia.org/> ;
+	schema:name "ఇటాలియన్ భాష"@te .
+
+<https://te.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vec.wikipedia.org/wiki/%C5%81%C3%A9ngua_italiana> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "vec" ;
+	schema:isPartOf <https://vec.wikipedia.org/> ;
+	schema:name "Łéngua italiana"@vec .
+
+<https://vec.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sn.wikipedia.org/wiki/Chiitari> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "sn" ;
+	schema:isPartOf <https://sn.wikipedia.org/> ;
+	schema:name "Chiitari"@sn .
+
+<https://sn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://shi.wikipedia.org/wiki/Tutlayt_Ta%E1%B9%ADalyanit> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "shi" ;
+	schema:isPartOf <https://shi.wikipedia.org/> ;
+	schema:name "Tutlayt Taṭalyanit"@shi .
+
+<https://shi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikiquote.org/wiki/%D7%90%D7%99%D7%98%D7%9C%D7%A7%D7%99%D7%AA> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikiquote.org/> ;
+	schema:name "איטלקית"@he .
+
+<https://he.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://mni.wikipedia.org/wiki/%EA%AF%8F%EA%AF%87%EA%AF%A5%EA%AF%82%EA%AF%A4%EA%AF%8C%EA%AF%A5%EA%AF%9F_%EA%AF%82%EA%AF%A3%EA%AF%9F> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "mni" ;
+	schema:isPartOf <https://mni.wikipedia.org/> ;
+	schema:name "ꯏꯇꯥꯂꯤꯌꯥꯟ ꯂꯣꯟ"@mni .
+
+<https://mni.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nrm.wikipedia.org/wiki/Italien> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "fr-x-nrm" ;
+	schema:isPartOf <https://nrm.wikipedia.org/> ;
+	schema:name "Italien"@fr-x-nrm .
+
+<https://nrm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikibooks.org/wiki/%D0%86%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikibooks.org/> ;
+	schema:name "Італійська мова"@uk .
+
+<https://uk.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://ext.wikipedia.org/wiki/Lengua_italiana> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ext" ;
+	schema:isPartOf <https://ext.wikipedia.org/> ;
+	schema:name "Lengua italiana"@ext .
+
+<https://ext.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cv.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD_%D1%87%C4%95%D0%BB%D1%85%D0%B8> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "cv" ;
+	schema:isPartOf <https://cv.wikipedia.org/> ;
+	schema:name "Итальян чĕлхи"@cv .
+
+<https://cv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sa.wikipedia.org/wiki/%E0%A4%87%E0%A4%A4%E0%A4%BE%E0%A4%B2%E0%A4%B5%E0%A5%80%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "sa" ;
+	schema:isPartOf <https://sa.wikipedia.org/> ;
+	schema:name "इतालवीभाषा"@sa .
+
+<https://sa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://roa-rup.wikipedia.org/wiki/Limba_italichesc%C3%A3/italian%C4%83> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "rup" ;
+	schema:isPartOf <https://roa-rup.wikipedia.org/> ;
+	schema:name "Limba italichescã/italiană"@rup .
+
+<https://roa-rup.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mdf.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB%D0%B8%D1%8F%D0%BD%D1%8C_%D0%BA%D1%8F%D0%BB%D1%8C> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "mdf" ;
+	schema:isPartOf <https://mdf.wikipedia.org/> ;
+	schema:name "Италиянь кяль"@mdf .
+
+<https://mdf.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mi.wikipedia.org/wiki/Reo_It%C4%81ria> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "mi" ;
+	schema:isPartOf <https://mi.wikipedia.org/> ;
+	schema:name "Reo Itāria"@mi .
+
+<https://mi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ks.wikipedia.org/wiki/%D8%A7%D9%90%D8%B7%D9%B2%D9%84%D9%88%DB%8C_%D8%B2%D9%8E%D8%A8%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ks" ;
+	schema:isPartOf <https://ks.wikipedia.org/> ;
+	schema:name "اِطٲلوی زَبان"@ks .
+
+<https://ks.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://av.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB_%D0%BC%D0%B0%D1%86%D3%80> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "av" ;
+	schema:isPartOf <https://av.wikipedia.org/> ;
+	schema:name "Итал мацӀ"@av .
+
+<https://av.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kaa.wikipedia.org/wiki/Italyan_tili> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "kaa" ;
+	schema:isPartOf <https://kaa.wikipedia.org/> ;
+	schema:name "Italyan tili"@kaa .
+
+<https://kaa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frp.wikipedia.org/wiki/Italien> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "frp" ;
+	schema:isPartOf <https://frp.wikipedia.org/> ;
+	schema:name "Italien"@frp .
+
+<https://frp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kab.wikipedia.org/wiki/Tutlayt_Ta%E1%B9%ADalyanit> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "kab" ;
+	schema:isPartOf <https://kab.wikipedia.org/> ;
+	schema:name "Tutlayt Taṭalyanit"@kab .
+
+<https://kab.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Italyano> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Italyano"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gn.wikipedia.org/wiki/Italia%C3%B1e%E2%80%99%E1%BA%BD> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "gn" ;
+	schema:isPartOf <https://gn.wikipedia.org/> ;
+	schema:name "Italiañe’ẽ"@gn .
+
+<https://gn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sm.wikipedia.org/wiki/Fa%CA%BBa_Italiani> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "sm" ;
+	schema:isPartOf <https://sm.wikipedia.org/> ;
+	schema:name "Faʻa Italiani"@sm .
+
+<https://sm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lez.wikipedia.org/wiki/%D0%98%D1%82%D0%B0%D0%BB_%D1%87%D3%80%D0%B0%D0%BB> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "lez" ;
+	schema:isPartOf <https://lez.wikipedia.org/> ;
+	schema:name "Итал чӀал"@lez .
+
+<https://lez.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://an.wikipedia.org/wiki/Idioma_italiano> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "an" ;
+	schema:isPartOf <https://an.wikipedia.org/> ;
+	schema:name "Idioma italiano"@an .
+
+<https://an.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://anp.wikipedia.org/wiki/%E0%A4%87%E0%A4%A4%E0%A4%BE%E0%A4%B2%E0%A4%B5%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "anp" ;
+	schema:isPartOf <https://anp.wikipedia.org/> ;
+	schema:name "इतालवी भाषा"@anp .
+
+<https://anp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikivoyage.org/wiki/%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E8%AA%9E%E4%BC%9A%E8%A9%B1%E9%9B%86> a schema:Article ;
+	schema:about wd:Q652 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikivoyage.org/> ;
+	schema:name "イタリア語会話集"@ja .
+
+<https://ja.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+wd:Q652 wdt:P2924 "2027590" ;
+	wdt:P373 "Italian language" ;
+	wdt:P1225 "10640342" ;
+	wdt:P1394 "ital1282" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ital1282> ;
+	wdt:P1051 "6760" ;
+	wdt:P1151 wd:Q47487400 ;
+	wdt:P219 "ita" ;
+	wdt:P910 wd:Q7237580 ;
+	wdt:P349 "00564305" ;
+	wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00564305> ;
+	wdt:P1846 <http://commons.wikimedia.org/wiki/Special:FilePath/Linguistic%20map%20of%20the%20Italian%20language.svg> ;
+	wdt:P227 "4114056-4" ;
+	wdtn:P227 <https://d-nb.info/gnd/4114056-4> ;
+	wdt:P1999 wd:Q20672086 ;
+	wdt:P4132 wd:Q651641,
+		wd:Q7888569,
+		wd:Q74835210 ;
+	wdt:P3916 "concept12966" ;
+	wdtn:P3916 <http://vocabularies.unesco.org/thesaurus/concept12966> ;
+	wdt:P1018 wd:Q338489 ;
+	wdt:P2581 "00047707n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s00047707n> ;
+	wdt:P305 "it" ;
+	wdt:P1417 "topic/Italian-language" ;
+	wdt:P5996 wd:Q6840646 ;
+	wdt:P5109 wd:Q499327,
+		wd:Q1775415 ;
+	wdt:P948 <http://commons.wikimedia.org/wiki/Special:FilePath/WV%20banner%20Italian%20phrasebook%20Venice%20Canal%20Grande.jpg> ;
+	wdt:P220 "ita" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ita> ;
+	wdt:P3417 "Italian-language" ;
+	wdt:P3219 "italie-langue-et-litterature" ;
+	wdt:P1705 "italiano"@it,
+		"Italiano"@it ;
+	wdt:P2959 wd:Q22828827 ;
+	wdt:P218 "it" ;
+	wdtn:P218 <http://id.loc.gov/vocabulary/iso639-1/it.rdf> ;
+	wdt:P1466 "ifi" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ifi> ;
+	wdt:P1466 "ita" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ita> ;
+	wdt:P2579 wd:Q515601 ;
+	wdt:P5110 wd:Q51929218,
+		wd:Q51929369,
+		wd:Q52431955,
+		wd:Q52431970,
+		wd:Q51929290,
+		wd:Q51929403,
+		wd:Q52432983,
+		wd:Q52433019 ;
+	wdt:P278 "ита 235" ;
+	wdt:P31 wd:Q34770,
+		wd:Q661936,
+		wd:Q1288568 ;
+	wdt:P3161 wd:Q682111,
+		wd:Q625581,
+		wd:Q473746,
+		wd:Q22716,
+		wd:Q179230,
+		wd:Q814722,
+		wd:Q1923028 ;
+	wdt:P5206 wd:Q3921587,
+		wd:Q3953977,
+		wd:Q3984890 ;
+	wdt:P4212 "pcrthblakZ5GBc" ;
+	wdtn:P4212 <https://ark.frantiq.fr/ark:/26678/pcrthblakZ5GBc> ;
+	wdt:P1813 "итальянский"@ru,
+		"італійська"@uk,
+		"italyanca"@az,
+		"итолиёӣ"@tg,
+		"италиаг"@os,
+		"италиански"@bg ;
+	wdt:P282 wd:Q550383,
+		wd:Q8229 ;
+	wdt:P3103 wd:Q1101896,
+		wd:Q12547192,
+		wd:Q192613,
+		wd:Q1240211,
+		wd:Q442485,
+		wd:Q623742,
+		wd:Q3686414,
+		wd:Q25619773,
+		wd:Q3502553,
+		wd:Q3502544,
+		wd:Q3502541,
+		wd:Q27955084,
+		wd:Q52434162,
+		wd:Q52434245,
+		wd:Q52434302,
+		wd:Q10345583,
+		wd:Q12717679,
+		wd:Q52434511,
+		wd:Q52434598 ;
+	wdt:P5019 "italienische-sprache" ;
+	wdt:P443 <http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q33890%20%28nso%29-Mohau-Setaliana.wav>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Lb-italieenesch.oga> ;
+	wdt:P2989 wd:Q131105 ;
+	wdt:P646 "/m/02bjrlw" ;
+	wdt:P279 wd:Q3356483,
+		wd:Q85380120 ;
+	wdt:P5748 "18.26" ;
+	wdtn:P5748 <http://uri.gbv.de/terminology/bk/18.26> ;
+	wdt:P1807 "7231" ;
+	wdt:P5198 "40432245X" ;
+	wdt:P424 "it" ;
+	wdt:P1343 wd:Q602358,
+		wd:Q19180675 ;
+	wdt:P5250 "1103" ;
+	wdt:P3222 "italienska" ;
+	wdt:P508 "5074" ;
+	wdtn:P508 <http://purl.org/bncf/tid/5074> ;
+	wdt:P1627 "ita" ;
+	wdt:P6573 "Italienische_Sprache" ;
+	wdt:P4801 "languages/ita" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/ita> ;
+	wdt:P4801 "iso639-1/it" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/iso639-1/it> ;
+	wdt:P1396 "51-AAA-q" ;
+	wdt:P3823 wd:Q29051546 ;
+	wdt:P1251 "2401",
+		"24" ;
+	wdt:P17 wd:Q38,
+		wd:Q238,
+		wd:Q39,
+		wd:Q237 ;
+	wdt:P2341 wd:Q11925,
+		wd:Q12724,
+		wd:Q58268,
+		wd:Q38,
+		wd:Q15877,
+		wd:Q1382,
+		wd:Q238 ;
+	wdt:P7033 "scot/7243" ;
+	wdtn:P7033 <http://vocabulary.curriculum.edu.au/scot/7243.rdf> ;
+	wdt:P1245 "6063" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/ITA> ;
+	wdt:P7084 wd:Q84969406 ;
+	wdt:P7818 "Italien" ;
+	wdt:P7829 "Italian_language" ;
+	wdt:P7827 "Idioma_italiano" ;
+	wdt:P7832 "Italiera" ;
+	wdt:P7822 "Lingua_italiana" ;
+	wdt:P5922 "200309" ;
+	wdtn:P5922 <http://purl.org/au-research/vocabulary/anzsrc-for/2008/200309> ;
+	wdt:P7884 "T520-168" ;
+	wdtn:P7884 <http://data.culture.fr/thesaurus/resource/ark:/67717/T520-168> ;
+	wdt:P8408 "ItalianLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/ItalianLanguage> ;
+	wdt:P950 "XX529374" ;
+	wdtn:P950 <http://datos.bne.es/resource/XX529374> ;
+	wdt:P6541 <https://italian.stackexchange.com> ;
+	wdt:P8799 "5b9935eb-1e9a-4217-98ad-62bda5cff0d1" ;
+	wdt:P8885 "이탈리아어" ;
+	wdt:P9123 "Italià" ;
+	wdt:P8647 "sj96005754" ;
+	wdtn:P8647 <http://id.loc.gov/authorities/childrensSubjects/sj96005754> ;
+	wdt:P244 "sh85068806" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85068806> ;
+	wdt:P268 "119355095" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb119355095#about> ;
+	wdt:P3553 "19599064" ;
+	wdt:P1036 "450" ;
+	wdt:P9060 "it" ;
+	wdt:P8309 "18-220249" ;
+	wdt:P9937 "596434" ;
+	wdt:P2347 "9203" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p9203> ;
+	wdt:P6293 "Y95588" ;
+	wdtn:P6293 <http://www.yso.fi/onto/ysa/Y95588> ;
+	wdt:P7305 "3997127" ;
+	wdt:P6385 "gumanitarnye_nauki/lingvistika/ITALYANSKI_YAZIK.html" ;
+	wdt:P8189 "987007565399105171" ;
+	wdt:P8529 "470313" ;
+	wdtn:P8529 <https://linked.data.gov.au/def/anzsrc-for/2020/470313> ;
+	wdt:P3847 "italian_language" ;
+	wdt:P10283 "C3018880834" ;
+	wdt:P10369 "Q385" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q385> ;
+	wdt:P8313 "italiensk" ;
+	wdt:P1098 "+64800000"^^xsd:decimal ;
+	wdt:P1424 wd:Q14468092 ;
+	wdt:P10565 "27864" ;
+	wdt:P8814 "06976989-n" ;
+	wdtn:P8814 <http://wordnet-rdf.princeton.edu/rdf/id/06976989-n> ;
+	wdt:P10757 "179941" ;
+	wdt:P691 "ph121249" ;
+	wdt:P8168 "Q11155" ;
+	wdtn:P8168 <https://database.factgrid.de/entity/Q11155> ;
+	wdt:P10913 "f3/mt335/1703/1670/3203" ;
+	wdt:P6870 "151710" ;
+	wdt:P11012 "Q179" ;
+	wdtn:P11012 <https://linkedopendata.eu/entity/Q179> ;
+	wdt:P8703 "итал." ;
+	wdt:P5008 wd:Q6173448 ;
+	wdt:P2572 "italian" ;
+	wdt:P3984 "Italian" ;
+	wdt:P9223 "73afbdea-2bea-4bc4-8ef2-262f8c8ec7ea" ;
+	wdt:P1482 <https://linguistics.stackexchange.com/tags/italian> ;
+	wdt:P10376 "medicine-and-dentistry/italian-language",
+		"biochemistry-genetics-and-molecular-biology/italian-language",
+		"social-sciences/italian-language" ;
+	wdt:P8687 "+16588"^^xsd:decimal ;
+	wdt:P4342 "italiensk" ;
+	rdfs:label "забони итолиявӣ"@tg ;
+	skos:prefLabel "забони итолиявӣ"@tg ;
+	schema:name "забони итолиявӣ"@tg ;
+	rdfs:label "taliančina"@sk ;
+	skos:prefLabel "taliančina"@sk ;
+	schema:name "taliančina"@sk ;
+	rdfs:label "اطالوی"@pnb ;
+	skos:prefLabel "اطالوی"@pnb ;
+	schema:name "اطالوی"@pnb ;
+	rdfs:label "италијански јазик"@mk ;
+	skos:prefLabel "италијански јазик"@mk ;
+	schema:name "италијански јазик"@mk ;
+	rdfs:label "IsiTaliya"@zu ;
+	skos:prefLabel "IsiTaliya"@zu ;
+	schema:name "IsiTaliya"@zu ;
+	rdfs:label "ইতালীয় ঠার"@bpy ;
+	skos:prefLabel "ইতালীয় ঠার"@bpy ;
+	schema:name "ইতালীয় ঠার"@bpy ;
+	rdfs:label "इतालवी"@hi ;
+	skos:prefLabel "इतालवी"@hi ;
+	schema:name "इतालवी"@hi ;
+	rdfs:label "اطالوی"@ur ;
+	skos:prefLabel "اطالوی"@ur ;
+	schema:name "اطالوی"@ur ;
+	rdfs:label "Af-Taliyaani"@so ;
+	skos:prefLabel "Af-Taliyaani"@so ;
+	schema:name "Af-Taliyaani"@so ;
+	rdfs:label "Italian"@jam ;
+	skos:prefLabel "Italian"@jam ;
+	schema:name "Italian"@jam ;
+	rdfs:label "італійська мова"@uk ;
+	skos:prefLabel "італійська мова"@uk ;
+	schema:name "італійська мова"@uk ;
+	rdfs:label "Итали хэлэн"@bxr ;
+	skos:prefLabel "Итали хэлэн"@bxr ;
+	schema:name "Итали хэлэн"@bxr ;
+	rdfs:label "Luenga italiana"@ext ;
+	skos:prefLabel "Luenga italiana"@ext ;
+	schema:name "Luenga italiana"@ext ;
+	rdfs:label "義大利語"@zh-tw ;
+	skos:prefLabel "義大利語"@zh-tw ;
+	schema:name "義大利語"@zh-tw ;
+	rdfs:label "italiano"@es ;
+	skos:prefLabel "italiano"@es ;
+	schema:name "italiano"@es ;
+	rdfs:label "Италиянь кель"@myv ;
+	skos:prefLabel "Италиянь кель"@myv ;
+	schema:name "Италиянь кель"@myv ;
+	rdfs:label "איטאליעניש"@yi ;
+	skos:prefLabel "איטאליעניש"@yi ;
+	schema:name "איטאליעניש"@yi ;
+	rdfs:label "An Iodáilis"@ga ;
+	skos:prefLabel "An Iodáilis"@ga ;
+	schema:name "An Iodáilis"@ga ;
+	rdfs:label "Italsczi jãzëk"@csb ;
+	skos:prefLabel "Italsczi jãzëk"@csb ;
+	schema:name "Italsczi jãzëk"@csb ;
+	rdfs:label "意大利語"@gan ;
+	skos:prefLabel "意大利語"@gan ;
+	schema:name "意大利語"@gan ;
+	rdfs:label "ايتاليايي زوؤن"@glk ;
+	skos:prefLabel "ايتاليايي زوؤن"@glk ;
+	schema:name "ايتاليايي زوؤن"@glk ;
+	rdfs:label "Italian"@sco ;
+	skos:prefLabel "Italian"@sco ;
+	schema:name "Italian"@sco ;
+	rdfs:label "Italu kalba"@sgs ;
+	skos:prefLabel "Italu kalba"@sgs ;
+	schema:name "Italu kalba"@sgs ;
+	rdfs:label "italyan dili"@az ;
+	skos:prefLabel "italyan dili"@az ;
+	schema:name "italyan dili"@az ;
+	rdfs:label "ایتالیایی"@mzn ;
+	skos:prefLabel "ایتالیایی"@mzn ;
+	schema:name "ایتالیایی"@mzn ;
+	rdfs:label "意大利語"@zh-hk ;
+	skos:prefLabel "意大利語"@zh-hk ;
+	schema:name "意大利語"@zh-hk ;
+	rdfs:label "Italienisch"@bar ;
+	skos:prefLabel "Italienisch"@bar ;
+	schema:name "Italienisch"@bar ;
+	rdfs:label "意大利語"@zh ;
+	skos:prefLabel "意大利語"@zh ;
+	schema:name "意大利語"@zh ;
+	rdfs:label "Аиталиан бызшәа"@ab ;
+	skos:prefLabel "Аиталиан бызшәа"@ab ;
+	schema:name "Аиталиан бызшәа"@ab ;
+	rdfs:label "Итал чӀал"@lez ;
+	skos:prefLabel "Итал чӀал"@lez ;
+	schema:name "Итал чӀал"@lez ;
+	rdfs:label "italianu"@ast ;
+	skos:prefLabel "italianu"@ast ;
+	schema:name "italianu"@ast ;
+	rdfs:label "bahasa Itali"@ms ;
+	skos:prefLabel "bahasa Itali"@ms ;
+	schema:name "bahasa Itali"@ms ;
+	rdfs:label "Basa Italia"@jv ;
+	skos:prefLabel "Basa Italia"@jv ;
+	schema:name "Basa Italia"@jv ;
+	rdfs:label "Италхой мотт"@inh ;
+	skos:prefLabel "Италхой мотт"@inh ;
+	schema:name "Италхой мотт"@inh ;
+	rdfs:label "Italų kalba"@lt ;
+	skos:prefLabel "Italų kalba"@lt ;
+	schema:name "Italų kalba"@lt ;
+	rdfs:label "итальян теле"@tt ;
+	skos:prefLabel "итальян теле"@tt ;
+	schema:name "итальян теле"@tt ;
+	rdfs:label "Итали хэл"@mn ;
+	skos:prefLabel "Итали хэл"@mn ;
+	schema:name "Итали хэл"@mn ;
+	rdfs:label "Lenga italian-a"@pms ;
+	skos:prefLabel "Lenga italian-a"@pms ;
+	schema:name "Lenga italian-a"@pms ;
+	rdfs:label "italijanščina"@sl ;
+	skos:prefLabel "italijanščina"@sl ;
+	schema:name "italijanščina"@sl ;
+	rdfs:label "İtalyan tili"@crh ;
+	skos:prefLabel "İtalyan tili"@crh ;
+	schema:name "İtalyan tili"@crh ;
+	rdfs:label "இத்தாலிய மொழி"@ta ;
+	skos:prefLabel "இத்தாலிய மொழி"@ta ;
+	schema:name "இத்தாலிய மொழி"@ta ;
+	rdfs:label "Tumbung:Bahasa Italik"@bjn ;
+	skos:prefLabel "Tumbung:Bahasa Italik"@bjn ;
+	schema:name "Tumbung:Bahasa Italik"@bjn ;
+	rdfs:label "limba italiană"@ro ;
+	skos:prefLabel "limba italiană"@ro ;
+	schema:name "limba italiană"@ro ;
+	rdfs:label "Italieenesch"@lb ;
+	skos:prefLabel "Italieenesch"@lb ;
+	schema:name "Italieenesch"@lb ;
+	rdfs:label "Italian"@en-gb ;
+	skos:prefLabel "Italian"@en-gb ;
+	schema:name "Italian"@en-gb ;
+	rdfs:label "İtalyan tili"@kaa ;
+	skos:prefLabel "İtalyan tili"@kaa ;
+	schema:name "İtalyan tili"@kaa ;
+	rdfs:label "الطلياني"@aeb-arab ;
+	skos:prefLabel "الطلياني"@aeb-arab ;
+	schema:name "الطلياني"@aeb-arab ;
+	rdfs:label "ພາສາອິຕາລີ"@lo ;
+	skos:prefLabel "ພາສາອິຕາລີ"@lo ;
+	schema:name "ພາສາອິຕາລີ"@lo ;
+	rdfs:label "Kiitalia"@sw ;
+	skos:prefLabel "Kiitalia"@sw ;
+	schema:name "Kiitalia"@sw ;
+	rdfs:label "Italieensch"@nds ;
+	skos:prefLabel "Italieensch"@nds ;
+	schema:name "Italieensch"@nds ;
+	rdfs:label "Italiano"@bcl ;
+	skos:prefLabel "Italiano"@bcl ;
+	schema:name "Italiano"@bcl ;
+	rdfs:label "italiensk"@da ;
+	skos:prefLabel "italiensk"@da ;
+	schema:name "italiensk"@da ;
+	rdfs:label "italià"@ca ;
+	skos:prefLabel "italià"@ca ;
+	schema:name "italià"@ca ;
+	rdfs:label "itāļu valoda"@lv ;
+	skos:prefLabel "itāļu valoda"@lv ;
+	schema:name "itāļu valoda"@lv ;
+	rdfs:label "limba italichescã"@rup ;
+	skos:prefLabel "limba italichescã"@rup ;
+	schema:name "limba italichescã"@rup ;
+	rdfs:label "Reo ’Itāria"@ty ;
+	skos:prefLabel "Reo ’Itāria"@ty ;
+	schema:name "Reo ’Itāria"@ty ;
+	rdfs:label "Iddaalish"@gv ;
+	skos:prefLabel "Iddaalish"@gv ;
+	schema:name "Iddaalish"@gv ;
+	rdfs:label "الإيطالية"@ar ;
+	skos:prefLabel "الإيطالية"@ar ;
+	schema:name "الإيطالية"@ar ;
+	rdfs:label "ইতালীয় ভাষা"@bn ;
+	skos:prefLabel "ইতালীয় ভাষা"@bn ;
+	schema:name "ইতালীয় ভাষা"@bn ;
+	rdfs:label "Italiian"@pih ;
+	skos:prefLabel "Italiian"@pih ;
+	schema:name "Italiian"@pih ;
+	rdfs:label "Italyan tili"@uz ;
+	skos:prefLabel "Italyan tili"@uz ;
+	schema:name "Italyan tili"@uz ;
+	rdfs:label "Итал чĕлхи"@cv ;
+	skos:prefLabel "Итал чĕлхи"@cv ;
+	schema:name "Итал чĕлхи"@cv ;
+	rdfs:label "Tok Itali"@tpi ;
+	skos:prefLabel "Tok Itali"@tpi ;
+	schema:name "Tok Itali"@tpi ;
+	rdfs:label "italiano"@pt ;
+	skos:prefLabel "italiano"@pt ;
+	schema:name "italiano"@pt ;
+	rdfs:label "Италиян тілі"@kk ;
+	skos:prefLabel "Италиян тілі"@kk ;
+	schema:name "Италиян тілі"@kk ;
+	rdfs:label "итальянский язык"@ru ;
+	skos:prefLabel "итальянский язык"@ru ;
+	schema:name "итальянский язык"@ru ;
+	rdfs:label "Italienisch"@de-ch ;
+	skos:prefLabel "Italienisch"@de-ch ;
+	schema:name "Italienisch"@de-ch ;
+	rdfs:label "Wikang Italyano"@tl ;
+	skos:prefLabel "Wikang Italyano"@tl ;
+	schema:name "Wikang Italyano"@tl ;
+	rdfs:label "ایتالیاجا"@azb ;
+	skos:prefLabel "ایتالیاجا"@azb ;
+	schema:name "ایتالیاجا"@azb ;
+	rdfs:label "Idioma italián"@an ;
+	skos:prefLabel "Idioma italián"@an ;
+	schema:name "Idioma italián"@an ;
+	rdfs:label "Itagliàn"@eml ;
+	skos:prefLabel "Itagliàn"@eml ;
+	schema:name "Itagliàn"@eml ;
+	rdfs:label "իտալերեն"@hy ;
+	skos:prefLabel "իտալերեն"@hy ;
+	schema:name "իտալերեն"@hy ;
+	rdfs:label "italijan kel'"@vep ;
+	skos:prefLabel "italijan kel'"@vep ;
+	schema:name "italijan kel'"@vep ;
+	rdfs:label "इटालियन भाषा"@mai ;
+	skos:prefLabel "इटालियन भाषा"@mai ;
+	schema:name "इटालियन भाषा"@mai ;
+	rdfs:label "italum"@nov ;
+	skos:prefLabel "italum"@nov ;
+	schema:name "italum"@nov ;
+	rdfs:label "इटालेली"@ne ;
+	skos:prefLabel "इटालेली"@ne ;
+	schema:name "इटालेली"@ne ;
+	rdfs:label "Italiaans"@nl ;
+	skos:prefLabel "Italiaans"@nl ;
+	schema:name "Italiaans"@nl ;
+	rdfs:label "Italienisch"@de ;
+	skos:prefLabel "Italienisch"@de ;
+	schema:name "Italienisch"@de ;
+	rdfs:label "Fa'aitaliani"@sm ;
+	skos:prefLabel "Fa'aitaliani"@sm ;
+	schema:name "Fa'aitaliani"@sm ;
+	rdfs:label "Amanung Italyanu"@pam ;
+	skos:prefLabel "Amanung Italyanu"@pam ;
+	schema:name "Amanung Italyanu"@pam ;
+	rdfs:label "Initalyano"@war ;
+	skos:prefLabel "Initalyano"@war ;
+	schema:name "Initalyano"@war ;
+	rdfs:label "Itaalii kʊnʊŋ"@kbp ;
+	skos:prefLabel "Itaalii kʊnʊŋ"@kbp ;
+	schema:name "Itaalii kʊnʊŋ"@kbp ;
+	rdfs:label "Урымыбзэ"@kbd ;
+	skos:prefLabel "Урымыбзэ"@kbd ;
+	schema:name "Урымыбзэ"@kbd ;
+	rdfs:label "ئىتاليان تىلى"@ug ;
+	skos:prefLabel "ئىتاليان تىلى"@ug ;
+	schema:name "ئىتاليان تىلى"@ug ;
+	rdfs:label "италиянь кяль"@mdf ;
+	skos:prefLabel "италиянь кяль"@mdf ;
+	schema:name "италиянь кяль"@mdf ;
+	rdfs:label "Lhéngua eitaliana"@mwl ;
+	skos:prefLabel "Lhéngua eitaliana"@mwl ;
+	schema:name "Lhéngua eitaliana"@mwl ;
+	rdfs:label "زون ایتالیایی"@lrc ;
+	skos:prefLabel "زون ایتالیایی"@lrc ;
+	schema:name "زون ایتالیایی"@lrc ;
+	rdfs:label "Italian"@en ;
+	skos:prefLabel "Italian"@en ;
+	schema:name "Italian"@en ;
+	rdfs:label "Italjaansk"@fy ;
+	skos:prefLabel "Italjaansk"@fy ;
+	schema:name "Italjaansk"@fy ;
+	rdfs:label "အီတာလျံ ဘာသာ"@my ;
+	skos:prefLabel "အီတာလျံ ဘာသာ"@my ;
+	schema:name "အီတာလျံ ဘာသာ"@my ;
+	rdfs:label "意大利语"@zh-cn ;
+	skos:prefLabel "意大利语"@zh-cn ;
+	schema:name "意大利语"@zh-cn ;
+	rdfs:label "itaalia keel"@et ;
+	skos:prefLabel "itaalia keel"@et ;
+	schema:name "itaalia keel"@et ;
+	rdfs:label "италиаг æвзаг"@os ;
+	skos:prefLabel "италиаг æвзаг"@os ;
+	schema:name "италиаг æвзаг"@os ;
+	rdfs:label "italiensk"@nn ;
+	skos:prefLabel "italiensk"@nn ;
+	schema:name "italiensk"@nn ;
+	rdfs:label "ᎠᏂᎢᏔᎵ ᎧᏬᏂᎯᏍᏗ"@chr ;
+	skos:prefLabel "ᎠᏂᎢᏔᎵ ᎧᏬᏂᎯᏍᏗ"@chr ;
+	schema:name "ᎠᏂᎢᏔᎵ ᎧᏬᏂᎯᏍᏗ"@chr ;
+	rdfs:label "забони итолиёӣ"@tg-cyrl ;
+	skos:prefLabel "забони итолиёӣ"@tg-cyrl ;
+	schema:name "забони итолиёӣ"@tg-cyrl ;
+	rdfs:label "lingua italiana"@gl ;
+	skos:prefLabel "lingua italiana"@gl ;
+	schema:name "lingua italiana"@gl ;
+	rdfs:label "itala lingvo"@eo ;
+	skos:prefLabel "itala lingvo"@eo ;
+	schema:name "itala lingvo"@eo ;
+	rdfs:label "İtalyan tili"@crh-latn ;
+	skos:prefLabel "İtalyan tili"@crh-latn ;
+	schema:name "İtalyan tili"@crh-latn ;
+	rdfs:label "Lingua taliana"@rm ;
+	skos:prefLabel "Lingua taliana"@rm ;
+	schema:name "Lingua taliana"@rm ;
+	rdfs:label "ഇറ്റാലിയൻ ഭാഷ"@ml ;
+	skos:prefLabel "ഇറ്റാലിയൻ ഭാഷ"@ml ;
+	schema:name "ഇറ്റാലിയൻ ഭാഷ"@ml ;
+	rdfs:label "ئیتالی"@ckb ;
+	skos:prefLabel "ئیتالی"@ckb ;
+	schema:name "ئیتالی"@ckb ;
+	rdfs:label "Étalien"@frp ;
+	skos:prefLabel "Étalien"@frp ;
+	schema:name "Étalien"@frp ;
+	rdfs:label "Eidaleg"@cy ;
+	skos:prefLabel "Eidaleg"@cy ;
+	schema:name "Eidaleg"@cy ;
+	rdfs:label "Setaliana"@nso ;
+	skos:prefLabel "Setaliana"@nso ;
+	schema:name "Setaliana"@nso ;
+	rdfs:label "lingua Italiana"@la ;
+	skos:prefLabel "lingua Italiana"@la ;
+	schema:name "lingua Italiana"@la ;
+	rdfs:label "Italjeensk"@frr ;
+	skos:prefLabel "Italjeensk"@frr ;
+	schema:name "Italjeensk"@frr ;
+	rdfs:label "İtalyanki"@diq ;
+	skos:prefLabel "İtalyanki"@diq ;
+	schema:name "İtalyanki"@diq ;
+	rdfs:label "इटालियन भाषा"@mr ;
+	skos:prefLabel "इटालियन भाषा"@mr ;
+	schema:name "इटालियन भाषा"@mr ;
+	rdfs:label "Italskt mál"@fo ;
+	skos:prefLabel "Italskt mál"@fo ;
+	schema:name "Italskt mál"@fo ;
+	rdfs:label "italien"@fr ;
+	skos:prefLabel "italien"@fr ;
+	schema:name "italien"@fr ;
+	rdfs:label "Ítalska"@is ;
+	skos:prefLabel "Ítalska"@is ;
+	schema:name "Ítalska"@is ;
+	rdfs:label "italšćina"@hsb ;
+	skos:prefLabel "italšćina"@hsb ;
+	schema:name "italšćina"@hsb ;
+	rdfs:label "Taljan"@mt ;
+	skos:prefLabel "Taljan"@mt ;
+	schema:name "Taljan"@mt ;
+	rdfs:label "Italiaans"@li ;
+	skos:prefLabel "Italiaans"@li ;
+	schema:name "Italiaans"@li ;
+	rdfs:label "Itaalia kiil"@vro ;
+	skos:prefLabel "Itaalia kiil"@vro ;
+	schema:name "Itaalia kiil"@vro ;
+	rdfs:label "italia"@fi ;
+	skos:prefLabel "italia"@fi ;
+	schema:name "italia"@fi ;
+	rdfs:label "bahasa Italia"@id ;
+	skos:prefLabel "bahasa Italia"@id ;
+	schema:name "bahasa Italia"@id ;
+	rdfs:label "Basa Italia"@su ;
+	skos:prefLabel "Basa Italia"@su ;
+	schema:name "Basa Italia"@su ;
+	rdfs:label "italiano"@ia ;
+	skos:prefLabel "italiano"@ia ;
+	schema:name "italiano"@ia ;
+	rdfs:label "ਇਤਾਲਵੀ"@pa ;
+	skos:prefLabel "ਇਤਾਲਵੀ"@pa ;
+	schema:name "ਇਤਾਲਵੀ"@pa ;
+	rdfs:label "Itålyin"@wa ;
+	skos:prefLabel "Itålyin"@wa ;
+	schema:name "Itålyin"@wa ;
+	rdfs:label "tiếng Ý"@vi ;
+	skos:prefLabel "tiếng Ý"@vi ;
+	schema:name "tiếng Ý"@vi ;
+	rdfs:label "Italiano"@ilo ;
+	skos:prefLabel "Italiano"@ilo ;
+	schema:name "Italiano"@ilo ;
+	rdfs:label "italian"@oc ;
+	skos:prefLabel "italian"@oc ;
+	schema:name "italian"@oc ;
+	rdfs:label "italiaans"@af ;
+	skos:prefLabel "italiaans"@af ;
+	schema:name "italiaans"@af ;
+	rdfs:label "Initalyano"@ceb ;
+	skos:prefLabel "Initalyano"@ceb ;
+	schema:name "Initalyano"@ceb ;
+	rdfs:label "義大利語"@zh-hant ;
+	skos:prefLabel "義大利語"@zh-hant ;
+	schema:name "義大利語"@zh-hant ;
+	rdfs:label "italiensk"@nb ;
+	skos:prefLabel "italiensk"@nb ;
+	schema:name "italiensk"@nb ;
+	rdfs:label "Italiäneschi Sprooch"@gsw ;
+	skos:prefLabel "Italiäneschi Sprooch"@gsw ;
+	schema:name "Italiäneschi Sprooch"@gsw ;
+	rdfs:label "Lang italyen"@ht ;
+	skos:prefLabel "Lang italyen"@ht ;
+	schema:name "Lang italyen"@ht ;
+	rdfs:label "意大利语"@zh-hans ;
+	skos:prefLabel "意大利语"@zh-hans ;
+	schema:name "意大利语"@zh-hans ;
+	rdfs:label "italienska"@sv ;
+	skos:prefLabel "italienska"@sv ;
+	schema:name "italienska"@sv ;
+	rdfs:label "ភាសាអ៊ីតាលី"@km ;
+	skos:prefLabel "ភាសាអ៊ីតាលី"@km ;
+	schema:name "ភាសាអ៊ីតាលី"@km ;
+	rdfs:label "talianu"@scn ;
+	skos:prefLabel "talianu"@scn ;
+	schema:name "talianu"@scn ;
+	rdfs:label "италиански език"@bg ;
+	skos:prefLabel "италиански език"@bg ;
+	schema:name "италиански език"@bg ;
+	rdfs:label "italiera"@eu ;
+	skos:prefLabel "italiera"@eu ;
+	schema:name "italiera"@eu ;
+	rdfs:label "იტალიური ნინა"@xmf ;
+	skos:prefLabel "იტალიური ნინა"@xmf ;
+	schema:name "იტალიური ნინა"@xmf ;
+	rdfs:label "Litaliyänapük"@vo ;
+	skos:prefLabel "Litaliyänapük"@vo ;
+	schema:name "Litaliyänapük"@vo ;
+	rdfs:label "italiano"@it ;
+	skos:prefLabel "italiano"@it ;
+	schema:name "italiano"@it ;
+	rdfs:label "Italiano"@pap ;
+	skos:prefLabel "Italiano"@pap ;
+	schema:name "Italiano"@pap ;
+	rdfs:label "italian"@lfn ;
+	skos:prefLabel "italian"@lfn ;
+	schema:name "italian"@lfn ;
+	rdfs:label "ʻōlelo ʻĪkālia"@haw ;
+	skos:prefLabel "ʻōlelo ʻĪkālia"@haw ;
+	schema:name "ʻōlelo ʻĪkālia"@haw ;
+	rdfs:label "איטלקית"@he ;
+	skos:prefLabel "איטלקית"@he ;
+	schema:name "איטלקית"@he ;
+	rdfs:label "Italien"@pcd ;
+	skos:prefLabel "Italien"@pcd ;
+	schema:name "Italien"@pcd ;
+	rdfs:label "Fiteny italiana"@mg ;
+	skos:prefLabel "Fiteny italiana"@mg ;
+	schema:name "Fiteny italiana"@mg ;
+	rdfs:label "talianu"@co ;
+	skos:prefLabel "talianu"@co ;
+	schema:name "talianu"@co ;
+	rdfs:label "italšćina"@dsb ;
+	skos:prefLabel "italšćina"@dsb ;
+	schema:name "italšćina"@dsb ;
+	rdfs:label "italian"@vec ;
+	skos:prefLabel "italian"@vec ;
+	schema:name "italian"@vec ;
+	rdfs:label "É-dâi-lé-ngṳ̄"@cdo ;
+	skos:prefLabel "É-dâi-lé-ngṳ̄"@cdo ;
+	schema:name "É-dâi-lé-ngṳ̄"@cdo ;
+	rdfs:label "Italia-gí"@nan ;
+	skos:prefLabel "Italia-gí"@nan ;
+	schema:name "Italia-gí"@nan ;
+	rdfs:label "Italiañe'ẽ"@gn ;
+	skos:prefLabel "Italiañe'ẽ"@gn ;
+	schema:name "Italiañe'ẽ"@gn ;
+	rdfs:label "итальян теле"@tt-cyrl ;
+	skos:prefLabel "итальян теле"@tt-cyrl ;
+	schema:name "итальян теле"@tt-cyrl ;
+	rdfs:label "زبان ایتالیایی"@fa ;
+	skos:prefLabel "زبان ایتالیایی"@fa ;
+	schema:name "زبان ایتالیایی"@fa ;
+	rdfs:label "italijanski jezik"@bs ;
+	skos:prefLabel "italijanski jezik"@bs ;
+	schema:name "italijanski jezik"@bs ;
+	rdfs:label "Италян тили"@ky ;
+	skos:prefLabel "Италян тили"@ky ;
+	schema:name "Италян тили"@ky ;
+	rdfs:label "Italijanski jezik"@sh ;
+	skos:prefLabel "Italijanski jezik"@sh ;
+	schema:name "Italijanski jezik"@sh ;
+	rdfs:label "olasz"@hu ;
+	skos:prefLabel "olasz"@hu ;
+	schema:name "olasz"@hu ;
+	rdfs:label "意大利文"@yue ;
+	skos:prefLabel "意大利文"@yue ;
+	schema:name "意大利文"@yue ;
+	rdfs:label "Итальян кыв"@koi ;
+	skos:prefLabel "Итальян кыв"@koi ;
+	schema:name "Итальян кыв"@koi ;
+	rdfs:label "Итальян"@ba ;
+	skos:prefLabel "Итальян"@ba ;
+	schema:name "Итальян"@ba ;
+	rdfs:label "Италия тыла"@sah ;
+	skos:prefLabel "Италия тыла"@sah ;
+	schema:name "Италия тыла"@sah ;
+	rdfs:label "Italisc sprǣc"@ang ;
+	skos:prefLabel "Italisc sprǣc"@ang ;
+	schema:name "Italisc sprǣc"@ang ;
+	rdfs:label "Italsko godka"@szl ;
+	skos:prefLabel "Italsko godka"@szl ;
+	schema:name "Italsko godka"@szl ;
+	rdfs:label "Italian bhasa"@hif ;
+	skos:prefLabel "Italian bhasa"@hif ;
+	schema:name "Italian bhasa"@hif ;
+	rdfs:label "इटालियानो"@new ;
+	skos:prefLabel "इटालियानो"@new ;
+	schema:name "इटालियानो"@new ;
+	rdfs:label "Lenghe taliane"@fur ;
+	skos:prefLabel "Lenghe taliane"@fur ;
+	schema:name "Lenghe taliane"@fur ;
+	rdfs:label "італьянская мова"@be-tarask ;
+	skos:prefLabel "італьянская мова"@be-tarask ;
+	schema:name "італьянская мова"@be-tarask ;
+	rdfs:label "이탈리아어"@ko ;
+	skos:prefLabel "이탈리아어"@ko ;
+	schema:name "이탈리아어"@ko ;
+	rdfs:label "Eadailtis"@gd ;
+	skos:prefLabel "Eadailtis"@gd ;
+	schema:name "Eadailtis"@gd ;
+	rdfs:label "італьянская мова"@be ;
+	skos:prefLabel "італьянская мова"@be ;
+	schema:name "італьянская мова"@be ;
+	rdfs:label "იტალიური ენა"@ka ;
+	skos:prefLabel "იტალიური ენა"@ka ;
+	schema:name "იტალიური ენა"@ka ;
+	rdfs:label "Итальянийн мотт"@ce ;
+	skos:prefLabel "Итальянийн мотт"@ce ;
+	schema:name "Итальянийн мотт"@ce ;
+	rdfs:label "Итальян кыв"@kv ;
+	skos:prefLabel "Итальян кыв"@kv ;
+	schema:name "Итальян кыв"@kv ;
+	rdfs:label "Italienisk"@stq ;
+	skos:prefLabel "Italienisk"@stq ;
+	schema:name "Italienisk"@stq ;
+	rdfs:label "Italiaons"@nds-nl ;
+	skos:prefLabel "Italiaons"@nds-nl ;
+	schema:name "Italiaons"@nds-nl ;
+	rdfs:label "ཨི་ཏ་ལིའི་སྐད།"@bo ;
+	skos:prefLabel "ཨི་ཏ་ལིའི་སྐད།"@bo ;
+	schema:name "ཨི་ཏ་ལིའི་སྐད།"@bo ;
+	rdfs:label "język włoski"@pl ;
+	skos:prefLabel "język włoski"@pl ;
+	schema:name "język włoski"@pl ;
+	rdfs:label "Italian"@en-ca ;
+	skos:prefLabel "Italian"@en-ca ;
+	schema:name "Italian"@en-ca ;
+	rdfs:label "Italian"@tw ;
+	skos:prefLabel "Italian"@tw ;
+	schema:name "Italian"@tw ;
+	rdfs:label "ጣልያንኛ"@am ;
+	skos:prefLabel "ጣልያንኛ"@am ;
+	schema:name "ጣልያንኛ"@am ;
+	rdfs:label "italijanski jezik"@sr-el ;
+	skos:prefLabel "italijanski jezik"@sr-el ;
+	schema:name "italijanski jezik"@sr-el ;
+	rdfs:label "lèngua italiana"@lmo ;
+	skos:prefLabel "lèngua italiana"@lmo ;
+	schema:name "lèngua italiana"@lmo ;
+	rdfs:label "Italiana linguo"@io ;
+	skos:prefLabel "Italiana linguo"@io ;
+	schema:name "Italiana linguo"@io ;
+	rdfs:label "ಇಟಲಿಯ ಭಾಷೆ"@kn ;
+	skos:prefLabel "ಇಟಲಿಯ ಭಾಷೆ"@kn ;
+	schema:name "ಇಟಲಿಯ ಭಾಷೆ"@kn ;
+	rdfs:label "lengua taliana"@nap ;
+	skos:prefLabel "lengua taliana"@nap ;
+	schema:name "lengua taliana"@nap ;
+	rdfs:label "Ιταλικά"@el ;
+	skos:prefLabel "Ιταλικά"@el ;
+	schema:name "Ιταλικά"@el ;
+	rdfs:label "Italioans"@vls ;
+	skos:prefLabel "Italioans"@vls ;
+	schema:name "Italioans"@vls ;
+	rdfs:label "italisht"@sq ;
+	skos:prefLabel "italisht"@sq ;
+	schema:name "italisht"@sq ;
+	rdfs:label "língua italiana"@pt-br ;
+	skos:prefLabel "língua italiana"@pt-br ;
+	schema:name "língua italiana"@pt-br ;
+	rdfs:label "итальян йылме"@mhr ;
+	skos:prefLabel "итальян йылме"@mhr ;
+	schema:name "итальян йылме"@mhr ;
+	rdfs:label "Таліянськый язык"@rue ;
+	skos:prefLabel "Таліянськый язык"@rue ;
+	schema:name "Таліянськый язык"@rue ;
+	rdfs:label "Limba italiana"@sc ;
+	skos:prefLabel "Limba italiana"@sc ;
+	schema:name "Limba italiana"@sc ;
+	rdfs:label "îtalî"@ku ;
+	skos:prefLabel "îtalî"@ku ;
+	schema:name "îtalî"@ku ;
+	rdfs:label "ܠܫܢܐ ܐܝܛܠܝܐ"@arc ;
+	skos:prefLabel "ܠܫܢܐ ܐܝܛܠܝܐ"@arc ;
+	schema:name "ܠܫܢܐ ܐܝܛܠܝܐ"@arc ;
+	rdfs:label "އިޓަލީ"@dv ;
+	skos:prefLabel "އިޓަލީ"@dv ;
+	schema:name "އިޓަލީ"@dv ;
+	rdfs:label "لغه طليانى"@arz ;
+	skos:prefLabel "لغه طليانى"@arz ;
+	schema:name "لغه طليانى"@arz ;
+	rdfs:label "itáliagiella"@se ;
+	skos:prefLabel "itáliagiella"@se ;
+	schema:name "itáliagiella"@se ;
+	rdfs:label "Italiatlahtōlli"@nah ;
+	skos:prefLabel "Italiatlahtōlli"@nah ;
+	schema:name "Italiatlahtōlli"@nah ;
+	rdfs:label "Italya simi"@qu ;
+	skos:prefLabel "Italya simi"@qu ;
+	schema:name "Italya simi"@qu ;
+	rdfs:label "italština"@cs ;
+	skos:prefLabel "italština"@cs ;
+	schema:name "italština"@cs ;
+	rdfs:label "Italek"@kw ;
+	skos:prefLabel "Italek"@kw ;
+	schema:name "Italek"@kw ;
+	rdfs:label "Lèngoa italiann-a"@lij ;
+	skos:prefLabel "Lèngoa italiann-a"@lij ;
+	schema:name "Lèngoa italiann-a"@lij ;
+	rdfs:label "Lingua italiana"@lad ;
+	skos:prefLabel "Lingua italiana"@lad ;
+	schema:name "Lingua italiana"@lad ;
+	rdfs:label "talijanski jezik"@hr ;
+	skos:prefLabel "talijanski jezik"@hr ;
+	schema:name "talijanski jezik"@hr ;
+	rdfs:label "イタリア語"@ja ;
+	skos:prefLabel "イタリア語"@ja ;
+	schema:name "イタリア語"@ja ;
+	rdfs:label "İtalyanca"@tr ;
+	skos:prefLabel "İtalyanca"@tr ;
+	schema:name "İtalyanca"@tr ;
+	rdfs:label "italianeg"@br ;
+	skos:prefLabel "italianeg"@br ;
+	schema:name "italianeg"@br ;
+	rdfs:label "義大利語"@lzh ;
+	skos:prefLabel "義大利語"@lzh ;
+	schema:name "義大利語"@lzh ;
+	rdfs:label "इतालवी भाषा"@sa ;
+	skos:prefLabel "इतालवी भाषा"@sa ;
+	schema:name "इतालवी भाषा"@sa ;
+	rdfs:label "Итальян кыл"@udm ;
+	skos:prefLabel "Итальян кыл"@udm ;
+	schema:name "Итальян кыл"@udm ;
+	rdfs:label "ภาษาอิตาลี"@th ;
+	skos:prefLabel "ภาษาอิตาลี"@th ;
+	schema:name "ภาษาอิตาลี"@th ;
+	rdfs:label "Yi-thai-li-ngî"@hak ;
+	skos:prefLabel "Yi-thai-li-ngî"@hak ;
+	schema:name "Yi-thai-li-ngî"@hak ;
+	rdfs:label "италијански језик"@sr ;
+	skos:prefLabel "италијански језик"@sr ;
+	schema:name "италијански језик"@sr ;
+	rdfs:label "ඉතාලි භාෂාව"@si ;
+	skos:prefLabel "ඉතාලි භාෂාව"@si ;
+	schema:name "ඉතාලි භාෂාව"@si ;
+	rdfs:label "Èdè Ítálì"@yo ;
+	skos:prefLabel "Èdè Ítálì"@yo ;
+	schema:name "Èdè Ítálì"@yo ;
+	rdfs:label "Italiyanci"@ha ;
+	skos:prefLabel "Italiyanci"@ha ;
+	schema:name "Italiyanci"@ha ;
+	rdfs:label "Իտալերէն"@hyw ;
+	skos:prefLabel "Իտալերէն"@hyw ;
+	schema:name "Իտալերէն"@hyw ;
+	rdfs:label "ایټالیایي ژبه"@ps ;
+	skos:prefLabel "ایټالیایي ژبه"@ps ;
+	schema:name "ایټالیایي ژبه"@ps ;
+	rdfs:label "Italyen"@gcr ;
+	skos:prefLabel "Italyen"@gcr ;
+	schema:name "Italyen"@gcr ;
+	rdfs:label "ߌߕߊߟߌߞߊ߲"@nqo ;
+	skos:prefLabel "ߌߕߊߟߌߞߊ߲"@nqo ;
+	schema:name "ߌߕߊߟߌߞߊ߲"@nqo ;
+	rdfs:label "意大利语"@wuu ;
+	skos:prefLabel "意大利语"@wuu ;
+	schema:name "意大利语"@wuu ;
+	rdfs:label "Italýan dili"@tk ;
+	skos:prefLabel "Italýan dili"@tk ;
+	schema:name "Italýan dili"@tk ;
+	rdfs:label "طاليانية"@ary ;
+	skos:prefLabel "طاليانية"@ary ;
+	schema:name "طاليانية"@ary ;
+	rdfs:label "ᱤᱴᱟᱞᱤᱭᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	skos:prefLabel "ᱤᱴᱟᱞᱤᱭᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	schema:name "ᱤᱴᱟᱞᱤᱭᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	rdfs:label "talian"@lld ;
+	skos:prefLabel "talian"@lld ;
+	schema:name "talian"@lld ;
+	rdfs:label "Italian"@ie ;
+	skos:prefLabel "Italian"@ie ;
+	schema:name "Italian"@ie ;
+	rdfs:label "italiakielâ"@smn ;
+	skos:prefLabel "italiakielâ"@smn ;
+	schema:name "italiakielâ"@smn ;
+	rdfs:label "Taṭelyant"@kab ;
+	skos:prefLabel "Taṭelyant"@kab ;
+	schema:name "Taṭelyant"@kab ;
+	rdfs:label "Li Italia"@nia ;
+	skos:prefLabel "Li Italia"@nia ;
+	schema:name "Li Italia"@nia ;
+	rdfs:label "ఇటాలియన్ భాష"@te ;
+	skos:prefLabel "ఇటాలియన్ భాష"@te ;
+	schema:name "ఇటాలియన్ భాష"@te ;
+	rdfs:label "Tutlayt Taṭalyanit"@shi ;
+	skos:prefLabel "Tutlayt Taṭalyanit"@shi ;
+	schema:name "Tutlayt Taṭalyanit"@shi ;
+	rdfs:label "Chiitari"@sn ;
+	skos:prefLabel "Chiitari"@sn ;
+	schema:name "Chiitari"@sn ;
+	rdfs:label "Dorerin Itari"@na ;
+	skos:prefLabel "Dorerin Itari"@na ;
+	schema:name "Dorerin Itari"@na ;
+	rdfs:label "Ἰταλική"@grc ;
+	skos:prefLabel "Ἰταλική"@grc ;
+	schema:name "Ἰταλική"@grc ;
+	rdfs:label "ꯏꯇꯥꯂꯤꯌꯥꯟ ꯂꯣꯟ"@mni ;
+	skos:prefLabel "ꯏꯇꯥꯂꯤꯌꯥꯟ ꯂꯣꯟ"@mni ;
+	schema:name "ꯏꯇꯥꯂꯤꯌꯥꯟ ꯂꯣꯟ"@mni ;
+	rdfs:label "Italien"@nrm ;
+	skos:prefLabel "Italien"@nrm ;
+	schema:name "Italien"@nrm ;
+	rdfs:label "بهاس ايتالي"@ms-arab ;
+	skos:prefLabel "بهاس ايتالي"@ms-arab ;
+	schema:name "بهاس ايتالي"@ms-arab ;
+	rdfs:label "italiaǩiõll"@sms ;
+	skos:prefLabel "italiaǩiõll"@sms ;
+	schema:name "italiaǩiõll"@sms ;
+	rdfs:label "Reo Itāria"@mi ;
+	skos:prefLabel "Reo Itāria"@mi ;
+	schema:name "Reo Itāria"@mi ;
+	rdfs:label "اِطٲلوی زَبان"@ks ;
+	skos:prefLabel "اِطٲلوی زَبان"@ks ;
+	schema:name "اِطٲلوی زَبان"@ks ;
+	rdfs:label "Итал мацӀ"@av ;
+	skos:prefLabel "Итал мацӀ"@av ;
+	schema:name "Итал мацӀ"@av ;
+	rdfs:label "Asụsụ mba Italy"@ig ;
+	skos:prefLabel "Asụsụ mba Italy"@ig ;
+	schema:name "Asụsụ mba Italy"@ig ;
+	rdfs:label "이딸리아어"@ko-kp ;
+	skos:prefLabel "이딸리아어"@ko-kp ;
+	schema:name "이딸리아어"@ko-kp ;
+	rdfs:label "zimanê îtalî"@ku-latn ;
+	skos:prefLabel "zimanê îtalî"@ku-latn ;
+	schema:name "zimanê îtalî"@ku-latn ;
+	rdfs:label "Itagliàn"@rgn ;
+	skos:prefLabel "Itagliàn"@rgn ;
+	schema:name "Itagliàn"@rgn ;
+	rdfs:label "toki Italija"@tok ;
+	skos:prefLabel "toki Italija"@tok ;
+	schema:name "toki Italija"@tok ;
+	rdfs:label "ઇટાલિયન"@gu ;
+	skos:prefLabel "ઇટાલિયન"@gu ;
+	schema:name "ઇટાલિયન"@gu ;
+	rdfs:label "इतालवी भाषा"@anp ;
+	skos:prefLabel "इतालवी भाषा"@anp ;
+	schema:name "इतालवी भाषा"@anp ;
+	rdfs:label "Italian"@gpe ;
+	skos:prefLabel "Italian"@gpe ;
+	schema:name "Italian"@gpe ;
+	schema:description "iaith"@cy,
+		"lingua"@la,
+		"langue romane"@fr,
+		"語言"@zh,
+		"lingua romanza"@it,
+		"romaniska rěč"@hsb,
+		"romaaninen kieli"@fi,
+		"мова романської групи індоєвропейської сім'ї"@uk,
+		"bagian dari rumpun bahasa Indo-Eropa"@id,
+		"língua românica"@pt,
+		"lingua romanic"@ia,
+		"романский язык, государственный язык Италии, Швейцарии, Ватикана и Сан-Марино"@ru,
+		"romanski jezik"@bs,
+		"زبانی رومی‌تبار در ایتالیا"@fa,
+		"ประเทศในทวีปยุโรป"@th,
+		"Romanse a pagsasao a nagtaud idiay Italia"@ilo,
+		"lengua romance"@es,
+		"teanga Rómhánach"@ga,
+		"język z grupy języków romańskich"@pl,
+		"språk"@nb,
+		"latinida lingvo parolata en Italio, Svislando, San-Marino, kaj Vatikano"@eo,
+		"意大利语"@zh-hans,
+		"romanskt språk"@sv,
+		"taal"@nl,
+		"Sprache aus dem romanischen Zweig der indogermanischen Sprachen"@de,
+		"lingua ìtalu-rumanza ufficiali di l'Italia e parti dâ Svìzzira"@scn,
+		"ρομανική γλώσσα που ομιλείται κυρίως στην Ιταλία"@el,
+		"gjuhë romane"@sq,
+		"სტატია იტალიური ნინაშ გეშა"@xmf,
+		"língua românica originária da Itália"@pt-br,
+		"Romance language"@en,
+		"parlata napulitana canusciuta pe' tutt''o munno p''e ccanzone cchiù belle"@nap,
+		"románský jazyk"@cs,
+		"romanski jezik"@sl,
+		"romansk språk med opphav i Italia"@nn,
+		"שפה רומאנית"@he,
+		"limbă romanică"@ro,
+		"romanski jezik"@hr,
+		"インド・ヨーロッパ語族イタリック語派のロマンス諸語に属する言語"@ja,
+		"이탈리아 중부 지역에서 기원한 로망스어"@ko,
+		"yezh"@br,
+		"e Sprooch us em romanische Zwiig vo de indogermanische Sprooche"@gsw,
+		"újlatin nyelv"@hu,
+		"印歐語系羅曼語族嘅語種，講喺意大利國內、週邊地區同埋意僑社區"@yue,
+		"romansk sprog"@da,
+		"романски језик"@sr,
+		"llengua romànica"@ca,
+		"Romaanse taal"@af,
+		"رومینس زبان"@ur,
+		"ngôn ngữ nhóm Roman"@vi,
+		"lenguàss"@lmo,
+		"ߙߐ߭ߡߎ߲߬ ߞߊ߲"@nqo,
+		"İtalya ve İsviçre'de konuşulan bir dil"@tr,
+		"romanesch Sprooch"@lb,
+		"İtaliya və İsveçrədə danışılan dil"@az,
+		"romaani keel"@et,
+		"Amánung Romansi"@pam,
+		"hizkuntza erromantzea"@eu,
+		"lingua románica orixinaria de Italia central"@gl,
+		"lingwa Rumanza"@mt,
+		"γλῶσσα ἣ ἐν Ἰταλίᾳ λαλεῖται"@grc,
+		"Asụsụ ndi Rome"@ig,
+		"luenga romance"@an,
+		"toki pi ma Italija"@tok,
+		"ઇટાલીની મુખ્ય ભાષા"@gu,
+		"lingaz romanz"@lld,
+		"llingua romance"@ast,
+		"語言"@zh-hant ;
+	skos:altLabel "italijanski jezik"@sl,
+		"لغة إيطالية"@ar,
+		"اللغة الإيطالية"@ar,
+		"إيطالية"@ar,
+		"it"@eu,
+		"italiano"@pt-br,
+		"it"@fr,
+		"it"@en,
+		"Italiano"@en,
+		"Italian language"@en,
+		"lingua italiana"@it,
+		"it"@it,
+		"italska rěč"@hsb,
+		"italsce"@hsb,
+		"Lingwa Taljana"@mt,
+		"італійская мова"@be-tarask,
+		"italian kieli"@fi,
+		"итальянчә"@tt-cyrl,
+		"италиан теле"@tt-cyrl,
+		"италианча"@tt-cyrl,
+		"итал."@tt-cyrl,
+		"італійська"@uk,
+		"इटालियन भाषा"@hi,
+		"इतालवी भाषा"@hi,
+		"idioma italiano"@pt,
+		"linguagem italiana"@pt,
+		"língua italiana"@pt,
+		"italianu"@scn,
+		"lingua italiana"@scn,
+		"lingua italian"@ia,
+		"italský jazyk"@cs,
+		"ਇਤਾਲਵੀ ਬੋਲੀ"@pa,
+		"ਇਟਾਲਿਅਨ ਭਾਸ਼ਾ"@pa,
+		"ਇਤਾਲਵੀ ਭਾਸ਼ਾ"@pa,
+		"italiensk språk"@nn,
+		"it"@nn,
+		"tiếng Italia"@vi,
+		"italiană"@ro,
+		"italiana"@ro,
+		"italiano"@ro,
+		"it"@ro,
+		"итальянчә"@tt,
+		"италиан теле"@tt,
+		"италианча"@tt,
+		"итал."@tt,
+		"idioma italiano"@es,
+		"lengua italiana"@es,
+		"it"@es,
+		"toscan"@es,
+		"ita"@es,
+		"Italia-gú"@nan,
+		"Í-tāi-lī-gí"@nan,
+		"talijanski"@hr,
+		"italijanski"@hr,
+		"tal."@hr,
+		"it"@eo,
+		"itala"@eo,
+		"이태리어"@ko,
+		"italijanski"@bs,
+		"talijanski"@bs,
+		"ital."@bs,
+		"it."@bs,
+		"Italiänisch"@gsw,
+		"Italienische Sprache"@gsw,
+		"Olasz nyelv"@hu,
+		"意文"@yue,
+		"意大利語"@yue,
+		"意大利話"@yue,
+		"意語"@yue,
+		"意國話"@yue,
+		"włoski"@pl,
+		"it"@pl,
+		"италијански"@sr,
+		"it"@sr,
+		"итал."@sr,
+		"ит."@sr,
+		"italienische Sprache"@de,
+		"it"@de,
+		"اٹالین"@ur,
+		"اطالوی زبان"@ur,
+		"italianu"@co,
+		"italieenesch Sprooch"@lb,
+		"italiano"@ru,
+		"ߌ߬ߕߊ߬ߟߌ߬ߦߊߣߏ߬"@nqo,
+		"ߌߕߊߟߌ߫ ߞߊ߲"@nqo,
+		"ߌߕ"@nqo,
+		"ئیتالیایی"@ckb,
+		"زمانی ئیتالی"@ckb,
+		"ئیتاڵی"@ckb,
+		"Itali"@ms,
+		"it"@ms,
+		"Italiano"@ms,
+		"Taṭelyanit"@kab,
+		"italiano"@gl,
+		"it"@gl,
+		"idioma italiano"@gl,
+		"Tataramon na Italyano"@bcl,
+		"Ἰταλικὴ γλῶσσα"@grc,
+		"Ἰταλικὴ γλῶττα"@grc,
+		"伊語"@ja,
+		"اطالوی بولی"@pnb,
+		"Italiano"@bpy,
+		"zimanê îtalî"@ku,
+		"idioma italianu"@ast,
+		"llingua italiana"@ast,
+		"it"@ast,
+		"ایتالیکی"@mzn,
+		"ایتالیایی زوون"@mzn,
+		"ایتالی"@mzn,
+		"ایتالیجی"@mzn,
+		"италиаг"@os .
+
+wd:Q13177053 owl:sameAs wd:Q652 .
+
+wd:Q15645026 owl:sameAs wd:Q652 .
+
+wd:Q20438537 owl:sameAs wd:Q652 .
+
+wd:Q23301775 owl:sameAs wd:Q652 .
+
+wd:Q25662882 owl:sameAs wd:Q652 .
+
+wd:Q61435948 owl:sameAs wd:Q652 .

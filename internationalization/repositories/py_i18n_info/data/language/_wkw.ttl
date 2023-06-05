@@ -1,0 +1,136 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10719110 a schema:Dataset ;
+	schema:about wd:Q10719110 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1958507619"^^xsd:integer ;
+	schema:dateModified "2023-08-22T01:30:44Z"^^xsd:dateTime .
+
+wd:Q10719110 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_wakawaka> a schema:Article ;
+	schema:about wd:Q10719110 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga wakawaka"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Wakawaka> a schema:Article ;
+	schema:about wd:Q10719110 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Wakawaka"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiwakawaka> a schema:Article ;
+	schema:about wd:Q10719110 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiwakawaka"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Wakka_Wakka_language> a schema:Article ;
+	schema:about wd:Q10719110 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Wakka Wakka language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_waga> a schema:Article ;
+	schema:about wd:Q10719110 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma waga"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10719110 wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P220 "wkw" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/wkw> ;
+	wdt:P1394 "waka1274" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/waka1274> ;
+	wdt:P1252 "E28" ;
+	wdt:P279 wd:Q7960876 ;
+	wdt:P2192 "3342" ;
+	wdt:P305 "wkw" ;
+	wdt:P1627 "wkw" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q408 ;
+	wdt:P1466 "wkw" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_wkw> ;
+	wdt:P2341 wd:Q36074 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/WKW> ;
+	wdt:P1889 wd:Q7959485 ;
+	wdt:P646 "/m/02hx77y" ;
+	wdt:P910 wd:Q77097782 ;
+	rdfs:label "Wakawaka"@sv ;
+	skos:prefLabel "Wakawaka"@sv ;
+	schema:name "Wakawaka"@sv ;
+	rdfs:label "Lenga wakawaka"@pms ;
+	skos:prefLabel "Lenga wakawaka"@pms ;
+	schema:name "Lenga wakawaka"@pms ;
+	rdfs:label "Wakawaka"@en ;
+	skos:prefLabel "Wakawaka"@en ;
+	schema:name "Wakawaka"@en ;
+	rdfs:label "Wakawaka"@en-gb ;
+	skos:prefLabel "Wakawaka"@en-gb ;
+	schema:name "Wakawaka"@en-gb ;
+	rdfs:label "Kiwakawaka"@sw ;
+	skos:prefLabel "Kiwakawaka"@sw ;
+	schema:name "Kiwakawaka"@sw ;
+	rdfs:label "wakawaka"@fr ;
+	skos:prefLabel "wakawaka"@fr ;
+	schema:name "wakawaka"@fr ;
+	rdfs:label "Idioma waga"@es ;
+	skos:prefLabel "Idioma waga"@es ;
+	schema:name "Idioma waga"@es ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"extinct language of Queensland, Australia"@en,
+		"lugha ya asili ya Australia"@sw,
+		"langue pama–nyungan"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"lingua"@la,
+		"iaith"@cy,
+		"utdött australiskt språk"@sv .
+
+wd:Q16943652 owl:sameAs wd:Q10719110 .

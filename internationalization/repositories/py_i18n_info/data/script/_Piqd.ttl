@@ -1,0 +1,95 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56627865 a schema:Dataset ;
+	schema:about wd:Q56627865 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1882108766"^^xsd:integer ;
+	schema:dateModified "2023-04-24T20:33:18Z"^^xsd:dateTime .
+
+wd:Q56627865 a wikibase:Item .
+
+<https://cs.wikipedia.org/wiki/PIqaD> a schema:Article ;
+	schema:about wd:Q56627865 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "PIqaD"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56627865 wdt:P31 wd:Q9779,
+		wd:Q4004706,
+		wd:Q1191702 ;
+	wdt:P61 wd:Q262983 ;
+	wdt:P506 "Piqd" ;
+	wdt:P2620 "293" ;
+	wdt:P1441 wd:Q3968320,
+		wd:Q40916805,
+		wd:Q58230462,
+		wd:Q63869597 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/KLI%20pIqaD.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/KlingonLang%20a.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/PIqaD%20in%20pIqaD.svg> ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P973 <https://unicode.org/L2/L2016/16329-piqad-returns.pdf>,
+		<https://scriptsource.org/scr/Piqd> ;
+	wdt:P2561 "Klingon (KLI pIqaD)"@en,
+		"klingon (pIqaD du KLI)"@fr ;
+	wdt:P2671 "/g/11bc6y9xqj" ;
+	wdtn:P2671 <http://g.co/kg/g/11bc6y9xqj> ;
+	wdt:P1535 wd:Q1364151 ;
+	rdfs:label "pIqaD"@en ;
+	skos:prefLabel "pIqaD"@en ;
+	schema:name "pIqaD"@en ;
+	rdfs:label "pIqaD"@cs ;
+	skos:prefLabel "pIqaD"@cs ;
+	schema:name "pIqaD"@cs ;
+	rdfs:label "Klingongskt ritmál"@is ;
+	skos:prefLabel "Klingongskt ritmál"@is ;
+	schema:name "Klingongskt ritmál"@is ;
+	rdfs:label "plqaD"@pl ;
+	skos:prefLabel "plqaD"@pl ;
+	schema:name "plqaD"@pl ;
+	rdfs:label "пикад"@ru ;
+	skos:prefLabel "пикад"@ru ;
+	schema:name "пикад"@ru ;
+	rdfs:label "pIqaD"@fr ;
+	skos:prefLabel "pIqaD"@fr ;
+	schema:name "pIqaD"@fr ;
+	schema:description "fictional alphabet for the Klingon language"@en,
+		"sztuczny alfabet"@pl,
+		"вымышленная письменность для клингонского языка"@ru,
+		"fiktivní abeceda pro klingonštinu"@cs,
+		"alphabet fictionnel de l'univers Star Trek"@fr ;
+	skos:altLabel "Klingon"@en,
+		"Klingon alphabet"@en,
+		"alphabet klingon"@fr .

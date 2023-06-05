@@ -1,0 +1,981 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33563 a schema:Dataset ;
+	schema:about wd:Q33563 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1910800889"^^xsd:integer ;
+	schema:dateModified "2023-06-08T07:54:26Z"^^xsd:dateTime .
+
+wd:Q33563 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Khanty> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Khanty"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D1%82%D0%B8%D0%B9%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Хантийська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cv.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D1%82%C4%83_%D1%87%C4%95%D0%BB%D1%85%D0%B8> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "cv" ;
+	schema:isPartOf <https://cv.wikipedia.org/> ;
+	schema:name "Хантă чĕлхи"@cv .
+
+<https://cv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://se.wikipedia.org/wiki/Hantigiella> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "se" ;
+	schema:isPartOf <https://se.wikipedia.org/> ;
+	schema:name "Hantigiella"@se .
+
+<https://se.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mrj.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D1%82_%D0%B9%D3%B9%D0%BB%D0%BC%D3%B9> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "mrj" ;
+	schema:isPartOf <https://mrj.wikipedia.org/> ;
+	schema:name "Хант йӹлмӹ"@mrj .
+
+<https://mrj.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Khanti> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Khanti"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Ostjaaks> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Ostjaaks"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://olo.wikipedia.org/wiki/Hantin_kieli> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "olo" ;
+	schema:isPartOf <https://olo.wikipedia.org/> ;
+	schema:name "Hantin kieli"@olo .
+
+<https://olo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bat-smg.wikipedia.org/wiki/Chantu_kalba> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "sgs" ;
+	schema:isPartOf <https://bat-smg.wikipedia.org/> ;
+	schema:name "Chantu kalba"@sgs .
+
+<https://bat-smg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://koi.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D1%82%D1%8B_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "koi" ;
+	schema:isPartOf <https://koi.wikipedia.org/> ;
+	schema:name "Ханты кыв"@koi .
+
+<https://koi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikhanty> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikhanty"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%B3%E3%83%86%E3%82%A3%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ハンティ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mhr.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D1%82%D1%8B_%D0%B9%D1%8B%D0%BB%D0%BC%D0%B5> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "mhr" ;
+	schema:isPartOf <https://mhr.wikipedia.org/> ;
+	schema:name "Ханты йылме"@mhr .
+
+<https://mhr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_ostiaca> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua ostiaca"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Xant%C4%B1_dili> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Xantı dili"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Hanti_nyelv> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Hanti nyelv"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kk.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D1%82%D1%8B_%D1%82%D1%96%D0%BB%D1%96> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "kk" ;
+	schema:isPartOf <https://kk.wikipedia.org/> ;
+	schema:name "Ханты тілі"@kk .
+
+<https://kk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%AE%E1%83%90%E1%83%9C%E1%83%A2%E1%83%98_%E1%83%94%E1%83%9C%E1%83%90> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "ხანტი ენა"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ce.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D1%82%D0%B8%D0%B9%D0%BD_%D0%BC%D0%BE%D1%82%D1%82> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "ce" ;
+	schema:isPartOf <https://ce.wikipedia.org/> ;
+	schema:name "Хантийн мотт"@ce .
+
+<https://ce.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_janty> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma janty"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fiu-vro.wikipedia.org/wiki/Handi_kiil> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "vro" ;
+	schema:isPartOf <https://fiu-vro.wikipedia.org/> ;
+	schema:name "Handi kiil"@vro .
+
+<https://fiu-vro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Handi_keel> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Handi keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D1%82%D0%B8%D1%98%D1%81%D0%BA%D0%B8_%D1%98%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Хантијски језик"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/C%27hantieg> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "C'hantieg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Khanty_language> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Khanty language"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D1%82_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Хант теле"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Xanti_tili> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Xanti tili"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://myv.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D1%82%D0%BE%D0%BD%D1%8C_%D0%BA%D0%B5%D0%BB%D1%8C> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "myv" ;
+	schema:isPartOf <https://myv.wikipedia.org/> ;
+	schema:name "Хантонь кель"@myv .
+
+<https://myv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D1%82%D1%8B%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Хантыйский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Khanty_language> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Khanty language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rue.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D1%82%D1%8B_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "rue" ;
+	schema:isPartOf <https://rue.wikipedia.org/> ;
+	schema:name "Ханты язык"@rue .
+
+<https://rue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://als.wikipedia.org/wiki/Chantische_Sprache> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "gsw" ;
+	schema:isPartOf <https://als.wikipedia.org/> ;
+	schema:name "Chantische Sprache"@gsw .
+
+<https://als.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Hantski_jezik> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Hantski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D1%82%D0%B8%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Хантиски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D1%82%D1%8B_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Ханты кыв"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Chantische_Sprache> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Chantische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Chantyj%C5%A1tina> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Chantyjština"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Chant%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Chantų kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Hant%C4%B1ca> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Hantıca"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Chantiska> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Chantiska"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Khantiera> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Khantiera"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_chantyjski> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język chantyjski"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%84%D8%BA%D8%A9_%D8%AE%D8%A7%D9%86%D8%AA%D9%8A> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "لغة خانتي"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gv.wikipedia.org/wiki/Khanty_(%C3%A7hengey)> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "gv" ;
+	schema:isPartOf <https://gv.wikipedia.org/> ;
+	schema:name "Khanty (çhengey)"@gv .
+
+<https://gv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ky.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D1%82%D1%8B_%D1%82%D0%B8%D0%BB%D0%B8> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "ky" ;
+	schema:isPartOf <https://ky.wikipedia.org/> ;
+	schema:name "Ханты тили"@ky .
+
+<https://ky.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D1%82%D0%B8%D0%B9%D1%81%D0%BA%D0%B8_%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Хантийски език"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D1%82%D1%8B%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Хантыйская мова"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sl.wikipedia.org/wiki/Hantij%C5%A1%C4%8Dina> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikipedia.org/> ;
+	schema:name "Hantijščina"@sl .
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Ostiac> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Ostiac"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Khanty> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Khanty"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D8%AE%D8%A7%D9%86%D8%AA%DB%8C_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "خانتی دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/%C4%A4anta_lingvo> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Ĥanta lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%AE%D8%A7%D9%86%D8%AA%DB%8C> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان خانتی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://udm.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D1%82%D1%8B_%D0%BA%D1%8B%D0%BB> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "udm" ;
+	schema:isPartOf <https://udm.wikipedia.org/> ;
+	schema:name "Ханты кыл"@udm .
+
+<https://udm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Chantyensis> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Chantyensis"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Hantin_kieli> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Hantin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%ED%95%9C%ED%8B%B0%EC%96%B4> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "한티어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%BC%A2%E7%89%B9%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "漢特語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Khanty> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Khanty"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E6%B1%89%E7%89%B9%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "汉特语"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Chantisch> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Chantisch"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Khanti_(spr%C3%A5k)> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Khanti (språk)"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_khanty> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua khanty"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://smn.wikipedia.org/wiki/Hantikiel%C3%A2> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "smn" ;
+	schema:isPartOf <https://smn.wikipedia.org/> ;
+	schema:name "Hantikielâ"@smn .
+
+<https://smn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Chantisk_spriak> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Chantisk spriak"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Hantu_valoda> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Hantu valoda"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://io.wikipedia.org/wiki/Hanti_linguo> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "io" ;
+	schema:isPartOf <https://io.wikipedia.org/> ;
+	schema:name "Hanti linguo"@io .
+
+<https://io.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Khanty> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Khanty"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Limba_hant%C3%AE> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Limba hantî"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_janti> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma janti"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mg.wikipedia.org/wiki/Fiteny_kanty> a schema:Article ;
+	schema:about wd:Q33563 ;
+	schema:inLanguage "mg" ;
+	schema:isPartOf <https://mg.wikipedia.org/> ;
+	schema:name "Fiteny kanty"@mg .
+
+<https://mg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33563 wdt:P220 "kca" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kca> ;
+	wdt:P373 "Khanty language" ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P349 "00577179" ;
+	wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00577179> ;
+	wdt:P646 "/m/06mxds" ;
+	wdt:P305 "kca" ;
+	wdt:P279 wd:Q906929 ;
+	wdt:P910 wd:Q17370860 ;
+	wdt:P1014 "300388584" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388584> ;
+	wdt:P3417 "Khanty" ;
+	wdt:P278 "хан 760" ;
+	wdt:P17 wd:Q159 ;
+	wdt:P282 wd:Q1033708,
+		wd:Q8209 ;
+	wdt:P1394 "khan1273" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/khan1273> ;
+	wdt:P4132 wd:Q539808,
+		wd:Q171263 ;
+	wdt:P1466 "kty" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_kty> ;
+	wdt:P131 wd:Q6320,
+		wd:Q6407,
+		wd:Q5884 ;
+	wdt:P1098 "+9584"^^xsd:decimal ;
+	wdt:P2924 "4729351" ;
+	wdt:P1627 "kca" ;
+	wdt:P2341 wd:Q476030,
+		wd:Q2164,
+		wd:Q5835,
+		wd:Q5237,
+		wd:Q5884,
+		wd:Q6407 ;
+	wdt:P1417 "topic/Khant-language" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P1296 "0235340" ;
+	wdt:P1245 "739530" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KCA> ;
+	wdt:P6366 "2779515377" ;
+	wdtn:P6366 <http://ma-graph.org/entity/2779515377> ;
+	wdt:P8408 "OstyakLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/OstyakLanguage> ;
+	wdt:P2347 "12146" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p12146> ;
+	wdt:P5996 wd:Q8573201 ;
+	wdt:P2192 "8552",
+		"8550",
+		"8551" ;
+	wdt:P1368 "000074542" ;
+	wdt:P6293 "Y101529" ;
+	wdtn:P6293 <http://www.yso.fi/onto/ysa/Y101529> ;
+	wdt:P691 "ph291725" ;
+	wdt:P8814 "06971758-n" ;
+	wdtn:P8814 <http://wordnet-rdf.princeton.edu/rdf/id/06971758-n> ;
+	rdfs:label "漢特語"@zh ;
+	skos:prefLabel "漢特語"@zh ;
+	schema:name "漢特語"@zh ;
+	rdfs:label "Lenga Khanty"@pms ;
+	skos:prefLabel "Lenga Khanty"@pms ;
+	schema:name "Lenga Khanty"@pms ;
+	rdfs:label "Chantischi Sproch"@gsw ;
+	skos:prefLabel "Chantischi Sproch"@gsw ;
+	schema:name "Chantischi Sproch"@gsw ;
+	rdfs:label "Język chantyjski"@pl ;
+	skos:prefLabel "Język chantyjski"@pl ;
+	schema:name "Język chantyjski"@pl ;
+	rdfs:label "Ханты кыл"@udm ;
+	skos:prefLabel "Ханты кыл"@udm ;
+	schema:name "Ханты кыл"@udm ;
+	rdfs:label "khanty"@fr ;
+	skos:prefLabel "khanty"@fr ;
+	schema:name "khanty"@fr ;
+	rdfs:label "janti"@es ;
+	skos:prefLabel "janti"@es ;
+	schema:name "janti"@es ;
+	rdfs:label "Ostjaaks"@af ;
+	skos:prefLabel "Ostjaaks"@af ;
+	schema:name "Ostjaaks"@af ;
+	rdfs:label "hanti"@hu ;
+	skos:prefLabel "hanti"@hu ;
+	schema:name "hanti"@hu ;
+	rdfs:label "ostiaco"@it ;
+	skos:prefLabel "ostiaco"@it ;
+	schema:name "ostiaco"@it ;
+	rdfs:label "handi keel"@et ;
+	skos:prefLabel "handi keel"@et ;
+	schema:name "handi keel"@et ;
+	rdfs:label "Chantisch"@de ;
+	skos:prefLabel "Chantisch"@de ;
+	schema:name "Chantisch"@de ;
+	rdfs:label "ハンティ語"@ja ;
+	skos:prefLabel "ハンティ語"@ja ;
+	schema:name "ハンティ語"@ja ;
+	rdfs:label "c'hantieg"@br ;
+	skos:prefLabel "c'hantieg"@br ;
+	schema:name "c'hantieg"@br ;
+	rdfs:label "Ханты кыв"@koi ;
+	skos:prefLabel "Ханты кыв"@koi ;
+	schema:name "Ханты кыв"@koi ;
+	rdfs:label "Chantiska"@sv ;
+	skos:prefLabel "Chantiska"@sv ;
+	schema:name "Chantiska"@sv ;
+	rdfs:label "Chantisch"@nl ;
+	skos:prefLabel "Chantisch"@nl ;
+	schema:name "Chantisch"@nl ;
+	rdfs:label "Ĥanta lingvo"@eo ;
+	skos:prefLabel "Ĥanta lingvo"@eo ;
+	schema:name "Ĥanta lingvo"@eo ;
+	rdfs:label "хантыйский язык"@ru ;
+	skos:prefLabel "хантыйский язык"@ru ;
+	schema:name "хантыйский язык"@ru ;
+	rdfs:label "Khanty"@en ;
+	skos:prefLabel "Khanty"@en ;
+	schema:name "Khanty"@en ;
+	rdfs:label "Хантă чĕлхи"@cv ;
+	skos:prefLabel "Хантă чĕлхи"@cv ;
+	schema:name "Хантă чĕлхи"@cv ;
+	rdfs:label "Hantıca"@tr ;
+	skos:prefLabel "Hantıca"@tr ;
+	schema:name "Hantıca"@tr ;
+	rdfs:label "hantigiella"@se ;
+	skos:prefLabel "hantigiella"@se ;
+	schema:name "hantigiella"@se ;
+	rdfs:label "ostiac"@ca ;
+	skos:prefLabel "ostiac"@ca ;
+	schema:name "ostiac"@ca ;
+	rdfs:label "Хантиски јазик"@mk ;
+	skos:prefLabel "Хантиски јазик"@mk ;
+	schema:name "Хантиски јазик"@mk ;
+	rdfs:label "hantin kieli"@fi ;
+	skos:prefLabel "hantin kieli"@fi ;
+	schema:name "hantin kieli"@fi ;
+	rdfs:label "Хантонь кель"@myv ;
+	skos:prefLabel "Хантонь кель"@myv ;
+	schema:name "Хантонь кель"@myv ;
+	rdfs:label "хантийська мова"@uk ;
+	skos:prefLabel "хантийська мова"@uk ;
+	schema:name "хантийська мова"@uk ;
+	rdfs:label "хантыйская мова"@be-tarask ;
+	skos:prefLabel "хантыйская мова"@be-tarask ;
+	schema:name "хантыйская мова"@be-tarask ;
+	rdfs:label "Khanti"@nn ;
+	skos:prefLabel "Khanti"@nn ;
+	schema:name "Khanti"@nn ;
+	rdfs:label "Hantijščina"@sl ;
+	skos:prefLabel "Hantijščina"@sl ;
+	schema:name "Hantijščina"@sl ;
+	rdfs:label "chantyjština"@cs ;
+	skos:prefLabel "chantyjština"@cs ;
+	schema:name "chantyjština"@cs ;
+	rdfs:label "Chantu kalba"@sgs ;
+	skos:prefLabel "Chantu kalba"@sgs ;
+	schema:name "Chantu kalba"@sgs ;
+	rdfs:label "Хант йылме"@mhr ;
+	skos:prefLabel "Хант йылме"@mhr ;
+	schema:name "Хант йылме"@mhr ;
+	rdfs:label "زبان خانتی"@fa ;
+	skos:prefLabel "زبان خانتی"@fa ;
+	schema:name "زبان خانتی"@fa ;
+	rdfs:label "Хантийски език"@bg ;
+	skos:prefLabel "Хантийски език"@bg ;
+	schema:name "Хантийски език"@bg ;
+	rdfs:label "Ханты кыв"@kv ;
+	skos:prefLabel "Ханты кыв"@kv ;
+	schema:name "Ханты кыв"@kv ;
+	rdfs:label "Hantski jezik"@hr ;
+	skos:prefLabel "Hantski jezik"@hr ;
+	schema:name "Hantski jezik"@hr ;
+	rdfs:label "Chantų kalba"@lt ;
+	skos:prefLabel "Chantų kalba"@lt ;
+	schema:name "Chantų kalba"@lt ;
+	rdfs:label "Khanty"@gv ;
+	skos:prefLabel "Khanty"@gv ;
+	schema:name "Khanty"@gv ;
+	rdfs:label "Khanti"@nb ;
+	skos:prefLabel "Khanti"@nb ;
+	schema:name "Khanti"@nb ;
+	rdfs:label "Khantiera"@eu ;
+	skos:prefLabel "Khantiera"@eu ;
+	schema:name "Khantiera"@eu ;
+	rdfs:label "Хантијски језик"@sr ;
+	skos:prefLabel "Хантијски језик"@sr ;
+	schema:name "Хантијски језик"@sr ;
+	rdfs:label "Xantı dili"@az ;
+	skos:prefLabel "Xantı dili"@az ;
+	schema:name "Xantı dili"@az ;
+	rdfs:label "ostíaco"@pt ;
+	skos:prefLabel "ostíaco"@pt ;
+	schema:name "ostíaco"@pt ;
+	rdfs:label "Хантийн мотт"@ce ;
+	skos:prefLabel "Хантийн мотт"@ce ;
+	schema:name "Хантийн мотт"@ce ;
+	rdfs:label "Handi kiil"@vro ;
+	skos:prefLabel "Handi kiil"@vro ;
+	schema:name "Handi kiil"@vro ;
+	rdfs:label "Хант йӹлмӹ"@mrj ;
+	skos:prefLabel "Хант йӹлмӹ"@mrj ;
+	schema:name "Хант йӹлмӹ"@mrj ;
+	rdfs:label "lingua Chantyensis"@la ;
+	skos:prefLabel "lingua Chantyensis"@la ;
+	schema:name "lingua Chantyensis"@la ;
+	rdfs:label "汉特语"@zh-cn ;
+	skos:prefLabel "汉特语"@zh-cn ;
+	schema:name "汉特语"@zh-cn ;
+	rdfs:label "Kikhanty"@sw ;
+	skos:prefLabel "Kikhanty"@sw ;
+	schema:name "Kikhanty"@sw ;
+	rdfs:label "لغة خانتي"@ar ;
+	skos:prefLabel "لغة خانتي"@ar ;
+	schema:name "لغة خانتي"@ar ;
+	rdfs:label "Khanty"@en-gb ;
+	skos:prefLabel "Khanty"@en-gb ;
+	schema:name "Khanty"@en-gb ;
+	rdfs:label "חנטית"@he ;
+	skos:prefLabel "חנטית"@he ;
+	schema:name "חנטית"@he ;
+	rdfs:label "Wikang Khanty"@tl ;
+	skos:prefLabel "Wikang Khanty"@tl ;
+	schema:name "Wikang Khanty"@tl ;
+	rdfs:label "Khanty language"@hif ;
+	skos:prefLabel "Khanty language"@hif ;
+	schema:name "Khanty language"@hif ;
+	rdfs:label "خانتی دیلی"@azb ;
+	skos:prefLabel "خانتی دیلی"@azb ;
+	schema:name "خانتی دیلی"@azb ;
+	rdfs:label "Hantin kieli"@olo ;
+	skos:prefLabel "Hantin kieli"@olo ;
+	schema:name "Hantin kieli"@olo ;
+	rdfs:label "Ханты язык"@rue ;
+	skos:prefLabel "Ханты язык"@rue ;
+	schema:name "Ханты язык"@rue ;
+	rdfs:label "Idioma janty"@ast ;
+	skos:prefLabel "Idioma janty"@ast ;
+	schema:name "Idioma janty"@ast ;
+	rdfs:label "Xanti tili"@uz ;
+	skos:prefLabel "Xanti tili"@uz ;
+	schema:name "Xanti tili"@uz ;
+	rdfs:label "ხანტი ენა"@ka ;
+	skos:prefLabel "ხანტი ენა"@ka ;
+	schema:name "ხანტი ენა"@ka ;
+	rdfs:label "Хант теле"@tt ;
+	skos:prefLabel "Хант теле"@tt ;
+	schema:name "Хант теле"@tt ;
+	rdfs:label "Ханты тили"@ky ;
+	skos:prefLabel "Ханты тили"@ky ;
+	schema:name "Ханты тили"@ky ;
+	rdfs:label "한티어"@ko ;
+	skos:prefLabel "한티어"@ko ;
+	schema:name "한티어"@ko ;
+	rdfs:label "Ханты тілі"@kk ;
+	skos:prefLabel "Ханты тілі"@kk ;
+	schema:name "Ханты тілі"@kk ;
+	rdfs:label "Tiếng Khanty"@vi ;
+	skos:prefLabel "Tiếng Khanty"@vi ;
+	schema:name "Tiếng Khanty"@vi ;
+	rdfs:label "汉特语"@wuu ;
+	skos:prefLabel "汉特语"@wuu ;
+	schema:name "汉特语"@wuu ;
+	rdfs:label "hantikielâ"@smn ;
+	skos:prefLabel "hantikielâ"@smn ;
+	schema:name "hantikielâ"@smn ;
+	rdfs:label "Chantisk spriak"@frr ;
+	skos:prefLabel "Chantisk spriak"@frr ;
+	schema:name "Chantisk spriak"@frr ;
+	rdfs:label "Hantu valoda"@lv ;
+	skos:prefLabel "Hantu valoda"@lv ;
+	schema:name "Hantu valoda"@lv ;
+	rdfs:label "Hanti linguo"@io ;
+	skos:prefLabel "Hanti linguo"@io ;
+	schema:name "Hanti linguo"@io ;
+	rdfs:label "ostìago"@vec ;
+	skos:prefLabel "ostìago"@vec ;
+	schema:name "ostìago"@vec ;
+	rdfs:label "hantiǩiõll"@sms ;
+	skos:prefLabel "hantiǩiõll"@sms ;
+	schema:name "hantiǩiõll"@sms ;
+	rdfs:label "Bahasa Khanty"@id ;
+	skos:prefLabel "Bahasa Khanty"@id ;
+	schema:name "Bahasa Khanty"@id ;
+	rdfs:label "Limba hantî"@ro ;
+	skos:prefLabel "Limba hantî"@ro ;
+	schema:name "Limba hantî"@ro ;
+	rdfs:label "Fiteny kanty"@mg ;
+	skos:prefLabel "Fiteny kanty"@mg ;
+	schema:name "Fiteny kanty"@mg ;
+	schema:description "lengua de la familia de lenguas urálicas"@es,
+		"Sprache"@de,
+		"lingua uralica parlata in Russia"@it,
+		"language spoken by the Khanty people"@en,
+		"taal van de Chanten"@nl,
+		"שפה"@he,
+		"язык обско-угорской подгруппы, официальный язык Ханты-Мансийского АО и Ямало-Ненецкого АО в составе России"@ru,
+		"langue ouralienne parlée en Russie"@fr,
+		"língua"@pt,
+		"Llengua úgrica"@ca,
+		"yezh"@br,
+		"lingua"@la,
+		"iaith"@cy,
+		"suomalais-ugrilainen kieli"@fi,
+		"мова народу ханты"@be-tarask,
+		"modern obi-ugor uráli nyelv"@hu,
+		"乌拉尔语系乌戈尔语支中的语言"@zh,
+		"język z rodziny uralskiej używany na Syberii"@pl,
+		"bagian dari rumpun bahasa Ural"@id ;
+	skos:altLabel "奧斯加克語"@zh,
+		"Ostjakische Sprache"@gsw,
+		"Język ostiacki"@pl,
+		"xanty"@fr,
+		"ostiak"@fr,
+		"xante"@fr,
+		"khante"@fr,
+		"ob-ostiak"@fr,
+		"Lengua janti"@es,
+		"ostiaco"@es,
+		"Idioma janti"@es,
+		"Lingua khanti"@it,
+		"Lingua chanti"@it,
+		"Lingua chanty"@it,
+		"Hanti"@it,
+		"Lingua hanti"@it,
+		"lingua ostiaca"@it,
+		"ostjaki keel"@et,
+		"ハンティー語"@ja,
+		"オスチャーク語"@ja,
+		"Ӧстяк кыв"@koi,
+		"Öстяк кыв"@koi,
+		"Ostjakiska"@sv,
+		"Khanty"@sv,
+		"Hanty"@sv,
+		"Chanti"@nl,
+		"Hantisch"@nl,
+		"Ostjaaks"@nl,
+		"Ostjaka lingvo"@eo,
+		"Хантыйский"@ru,
+		"Хантывед"@ru,
+		"Остяцкий язык"@ru,
+		"Хант."@ru,
+		"Hantice"@tr,
+		"Ostyak dili"@tr,
+		"Ostyakça"@tr,
+		"Hantıy dili"@tr,
+		"ostiak"@ca,
+		"khanti"@ca,
+		"ostjakki"@fi,
+		"ostjakin kieli"@fi,
+		"Khantisk språk"@nn,
+		"Hantisk språk"@nn,
+		"Hantščina"@sl,
+		"Ostjaščina"@sl,
+		"Chantština"@cs,
+		"Osťáčtina"@cs,
+		"Хант кыв"@kv,
+		"Hantski"@hr,
+		"Hantijski jezik"@hr,
+		"Khanty language"@en,
+		"Ostyak"@en,
+		"Xanty language"@en,
+		"chantische Sprache"@de,
+		"Ostjakisch"@de,
+		"Língua ostíaca"@pt,
+		"osztják"@hu,
+		"hanti nyelv"@hu .
+
+wd:Q25493349 owl:sameAs wd:Q33563 .
+
+wd:Q25524144 owl:sameAs wd:Q33563 .
+
+wd:Q31442748 owl:sameAs wd:Q33563 .
+
+wd:Q31448530 owl:sameAs wd:Q33563 .

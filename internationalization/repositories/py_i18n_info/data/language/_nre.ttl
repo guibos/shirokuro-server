@@ -1,0 +1,140 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7313205 a schema:Dataset ;
+	schema:about wd:Q7313205 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1602472635"^^xsd:integer ;
+	schema:dateModified "2022-03-25T15:33:11Z"^^xsd:dateTime .
+
+wd:Q7313205 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Naga,_Rengma_meridional> a schema:Article ;
+	schema:about wd:Q7313205 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Naga, Rengma meridional"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Rengma_language> a schema:Article ;
+	schema:about wd:Q7313205 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Rengma language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%B0%E0%A5%87%E0%A4%82%E0%A4%97%E0%A4%AE%E0%A4%BE_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q7313205 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "रेंगमा भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Rengmaeg> a schema:Article ;
+	schema:about wd:Q7313205 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Rengmaeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinaga_cha_Rengma-Kusini> a schema:Article ;
+	schema:about wd:Q7313205 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinaga cha Rengma-Kusini"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7313205 wdt:P220 "nre" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nre> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "sout2732" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sout2732> ;
+	wdt:P2355 "1139" ;
+	wdt:P305 "nre" ;
+	wdt:P1627 "nre" ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P279 wd:Q530460 ;
+	wdt:P2192 "5686" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1164,
+		wd:Q1193,
+		wd:Q1599 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NRE> ;
+	wdt:P646 "/m/02hwh32" ;
+	rdfs:label "Rengma"@en ;
+	skos:prefLabel "Rengma"@en ;
+	schema:name "Rengma"@en ;
+	rdfs:label "rengmaeg"@br ;
+	skos:prefLabel "rengmaeg"@br ;
+	schema:name "rengmaeg"@br ;
+	rdfs:label "Kinaga ya Rengma-Kusini"@sw ;
+	skos:prefLabel "Kinaga ya Rengma-Kusini"@sw ;
+	schema:name "Kinaga ya Rengma-Kusini"@sw ;
+	rdfs:label "Lenga Naga"@pms ;
+	skos:prefLabel "Lenga Naga"@pms ;
+	schema:name "Lenga Naga"@pms ;
+	rdfs:label "南レングマ・ナガ語"@ja ;
+	skos:prefLabel "南レングマ・ナガ語"@ja ;
+	schema:name "南レングマ・ナガ語"@ja ;
+	rdfs:label "रेंगमा भाषा"@hi ;
+	skos:prefLabel "रेंगमा भाषा"@hi ;
+	schema:name "रेंगमा भाषा"@hi ;
+	rdfs:label "ਰੇਂਗਮਾ ਭਾਸ਼ਾ"@pa ;
+	skos:prefLabel "ਰੇਂਗਮਾ ਭਾਸ਼ਾ"@pa ;
+	schema:name "ਰੇਂਗਮਾ ਭਾਸ਼ਾ"@pa ;
+	rdfs:label "rengma du Sud"@fr ;
+	skos:prefLabel "rengma du Sud"@fr ;
+	schema:name "rengma du Sud"@fr ;
+	rdfs:label "রেংগমা ভাষা"@bn ;
+	skos:prefLabel "রেংগমা ভাষা"@bn ;
+	schema:name "রেংগমা ভাষা"@bn ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue kuki-chin-naga"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Southern Rengma Naga"@en,
+		"Rengma language"@en,
+		"ਦੱਖਣੀ ਰੇਂਗਮਾ ਭਾਸ਼ਾ"@pa,
+		"দক্ষিণ রেংমা নাগা"@bn .

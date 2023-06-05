@@ -1,0 +1,111 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10266010 a schema:Dataset ;
+	schema:about wd:Q10266010 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616012513"^^xsd:integer ;
+	schema:dateModified "2022-04-10T14:07:52Z"^^xsd:dateTime .
+
+wd:Q10266010 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_tenharim> a schema:Article ;
+	schema:about wd:Q10266010 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga tenharim"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Dialeto_tenharim> a schema:Article ;
+	schema:about wd:Q10266010 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Dialeto tenharim"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10266010 wdt:P220 "pah" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pah> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q6346712 ;
+	wdt:P2355 "1849" ;
+	wdt:P1394 "tenh1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tenh1241> ;
+	wdt:P910 wd:Q33668860 ;
+	wdt:P460 wd:Q10266004 ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P2192 "2155" ;
+	wdt:P305 "pah" ;
+	wdt:P1627 "pah" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q155 ;
+	wdt:P2341 wd:Q40040,
+		wd:Q42824 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PAH> ;
+	wdt:P2671 "/g/1213bn00" ;
+	wdtn:P2671 <http://g.co/kg/g/1213bn00> ;
+	rdfs:label "Dialeto tenharim"@pt ;
+	skos:prefLabel "Dialeto tenharim"@pt ;
+	schema:name "Dialeto tenharim"@pt ;
+	rdfs:label "Lenga tenharim"@pms ;
+	skos:prefLabel "Lenga tenharim"@pms ;
+	schema:name "Lenga tenharim"@pms ;
+	rdfs:label "Tenharim"@en ;
+	skos:prefLabel "Tenharim"@en ;
+	schema:name "Tenharim"@en ;
+	rdfs:label "Tenharim"@en-gb ;
+	skos:prefLabel "Tenharim"@en-gb ;
+	schema:name "Tenharim"@en-gb ;
+	rdfs:label "tenharim"@fr ;
+	skos:prefLabel "tenharim"@fr ;
+	schema:name "tenharim"@fr ;
+	rdfs:label "tenharim"@es ;
+	skos:prefLabel "tenharim"@es ;
+	schema:name "tenharim"@es ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue tupi-guarani"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Língua tenharim"@pt,
+		"Língua tenharin"@pt,
+		"Tenharim language"@en,
+		"parintintin"@fr .
+
+wd:Q12953915 owl:sameAs wd:Q10266010 .

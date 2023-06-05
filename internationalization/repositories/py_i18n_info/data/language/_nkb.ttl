@@ -1,0 +1,137 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q21481876 a schema:Dataset ;
+	schema:about wd:Q21481876 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1846521008"^^xsd:integer ;
+	schema:dateModified "2023-03-07T10:32:48Z"^^xsd:dateTime .
+
+wd:Q21481876 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Naga,_Khoibu> a schema:Article ;
+	schema:about wd:Q21481876 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Naga, Khoibu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Koiboueg> a schema:Article ;
+	schema:about wd:Q21481876 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Koiboueg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinaga_cha_Khoibu> a schema:Article ;
+	schema:about wd:Q21481876 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinaga cha Khoibu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q21481876 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "nkb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nkb> ;
+	wdt:P1394 "khoi1251" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/khoi1251> ;
+	wdt:P279 wd:Q6764395 ;
+	wdt:P305 "nkb" ;
+	wdt:P1627 "nkb" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1193 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NKB> ;
+	rdfs:label "Kinaga ya Khoibu"@sw ;
+	skos:prefLabel "Kinaga ya Khoibu"@sw ;
+	schema:name "Kinaga ya Khoibu"@sw ;
+	rdfs:label "Lenga Naga, Khoibu"@pms ;
+	skos:prefLabel "Lenga Naga, Khoibu"@pms ;
+	schema:name "Lenga Naga, Khoibu"@pms ;
+	rdfs:label "Khoibu"@en ;
+	skos:prefLabel "Khoibu"@en ;
+	schema:name "Khoibu"@en ;
+	rdfs:label "khoibu"@fr ;
+	skos:prefLabel "khoibu"@fr ;
+	schema:name "khoibu"@fr ;
+	rdfs:label "koiboueg"@br ;
+	skos:prefLabel "koiboueg"@br ;
+	schema:name "koiboueg"@br ;
+	rdfs:label "Khoibu"@es ;
+	skos:prefLabel "Khoibu"@es ;
+	schema:name "Khoibu"@es ;
+	rdfs:label "खोइबु"@hi ;
+	skos:prefLabel "खोइबु"@hi ;
+	schema:name "खोइबु"@hi ;
+	rdfs:label "खोइबु"@mr ;
+	skos:prefLabel "खोइबु"@mr ;
+	schema:name "खोइबु"@mr ;
+	rdfs:label "खोइबु"@sa ;
+	skos:prefLabel "खोइबु"@sa ;
+	schema:name "खोइबु"@sa ;
+	rdfs:label "Khoibu"@de ;
+	skos:prefLabel "Khoibu"@de ;
+	schema:name "Khoibu"@de ;
+	rdfs:label "Khoibu"@it ;
+	skos:prefLabel "Khoibu"@it ;
+	schema:name "Khoibu"@it ;
+	rdfs:label "Khoibu"@la ;
+	skos:prefLabel "Khoibu"@la ;
+	schema:name "Khoibu"@la ;
+	rdfs:label "Khoibu"@nl ;
+	skos:prefLabel "Khoibu"@nl ;
+	schema:name "Khoibu"@nl ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue sino-tibétaine"@fr,
+		"yezh"@br,
+		"Lengua sinotibetana hablada en Manipur, India"@es,
+		"lingua"@it,
+		"Sino-Tibetan language spoken in Manipur, India"@en,
+		"iaith"@cy,
+		"lingua"@la,
+		"मणिपुर में बोली जाने वाली एक चीनी-तिब्बती भाषा"@hi,
+		"मणिपूरमध्ये बोलली जाणारी एक चीन-तिबेटी भाषा"@mr ;
+	skos:altLabel "Uipo"@en,
+		"Uipo"@es,
+		"उइपो"@hi,
+		"उइपो"@mr,
+		"उइपो"@sa,
+		"Uipo"@de,
+		"Uipo"@it,
+		"Uipo"@la,
+		"Uipo"@nl .

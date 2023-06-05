@@ -1,0 +1,127 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3913381 a schema:Dataset ;
+	schema:about wd:Q3913381 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961413962"^^xsd:integer ;
+	schema:dateModified "2023-08-26T02:19:46Z"^^xsd:dateTime .
+
+wd:Q3913381 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mala> a schema:Article ;
+	schema:about wd:Q3913381 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mala"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimala_(Nigeria)> a schema:Article ;
+	schema:about wd:Q3913381 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimala (Nigeria)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mala_language_(Nigeria)> a schema:Article ;
+	schema:about wd:Q3913381 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mala language (Nigeria)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%AE%E0%B4%BE%E0%B4%B2_%E0%B4%AD%E0%B4%BE%E0%B4%B7_(%E0%B4%A8%E0%B5%88%E0%B4%9C%E0%B5%80%E0%B4%B0%E0%B4%BF%E0%B4%AF)> a schema:Article ;
+	schema:about wd:Q3913381 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "മാല ഭാഷ (നൈജീരിയ)"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Mala_language_(Nigeria)> a schema:Article ;
+	schema:about wd:Q3913381 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Mala language (Nigeria)"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3913381 wdt:P220 "ruy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ruy> ;
+	wdt:P31 wd:Q34770,
+		wd:Q5015649,
+		wd:Q1288568 ;
+	wdt:P1098 "+6600"^^xsd:decimal ;
+	wdt:P1394 "mala1471" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mala1471> ;
+	wdt:P279 wd:Q771124 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2192 "5026" ;
+	wdt:P305 "ruy" ;
+	wdt:P1627 "ruy" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q509300,
+		wd:Q878284 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/RUY> ;
+	wdt:P646 "/m/02hx280" ;
+	rdfs:label "Kimala"@sw ;
+	skos:prefLabel "Kimala"@sw ;
+	schema:name "Kimala"@sw ;
+	rdfs:label "Lenga Mala"@pms ;
+	skos:prefLabel "Lenga Mala"@pms ;
+	schema:name "Lenga Mala"@pms ;
+	rdfs:label "Mala"@en ;
+	skos:prefLabel "Mala"@en ;
+	schema:name "Mala"@en ;
+	rdfs:label "Мала"@ru ;
+	skos:prefLabel "Мала"@ru ;
+	schema:name "Мала"@ru ;
+	rdfs:label "mala"@fr ;
+	skos:prefLabel "mala"@fr ;
+	schema:name "mala"@fr ;
+	rdfs:label "മാല ഭാഷ (നൈജീരിയ)"@ml ;
+	skos:prefLabel "മാല ഭാഷ (നൈജീരിയ)"@ml ;
+	schema:name "മാല ഭാഷ (നൈജീരിയ)"@ml ;
+	schema:description "Kainji language of Nigeria"@en,
+		"Sprache"@de,
+		"שפה"@he,
+		"langue atlantico-congolaise"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Rumaya"@en .

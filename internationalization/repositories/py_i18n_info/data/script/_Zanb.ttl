@@ -1,0 +1,125 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q50809208 a schema:Dataset ;
+	schema:about wd:Q50809208 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1839891746"^^xsd:integer ;
+	schema:dateModified "2023-02-23T15:58:59Z"^^xsd:dateTime .
+
+wd:Q50809208 a wikibase:Item .
+
+<https://zh.wikipedia.org/wiki/%E6%9C%AD%E9%82%A3%E5%B7%B4%E6%9C%AD%E5%B0%94%E6%96%B9%E5%BD%A2%E5%AD%97%E6%AF%8D> a schema:Article ;
+	schema:about wd:Q50809208 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "札那巴札尔方形字母"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Zanabazar_square_script> a schema:Article ;
+	schema:about wd:Q50809208 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Zanabazar square script"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A3%E0%B8%8A%E0%B8%8D%E0%B8%B2%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%8A%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A1> a schema:Article ;
+	schema:about wd:Q50809208 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "อักษรชญานวัชระทรงเหลี่ยม"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q50809208 wdt:P31 wd:Q1944508,
+		wd:Q1191702,
+		wd:Q335806,
+		wd:Q4004706 ;
+	wdt:P61 wd:Q735871 ;
+	wdt:P366 wd:Q9246,
+		wd:Q34271,
+		wd:Q11059 ;
+	wdt:P1705 "𑨢𑨆𑨏𑨳𑨋𑨆𑨬𑨳"@mn,
+		"Хэвтээ Дөрвөлжин бичиг"@mn,
+		"Хэвтээ Дөрвөлжин Үсэг"@mn ;
+	wdt:P2620 "339" ;
+	wdt:P506 "Zanb" ;
+	wdt:P5949 "U+11A00-11A4F" ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P2671 "/g/11ggs1xdym" ;
+	wdtn:P2671 <http://g.co/kg/g/11ggs1xdym> ;
+	wdt:P2561 "Zanabazar Square (Zanabazarin Dörböljin Useg, Xewtee Dörböljin Bicig, Horizontal Square Script)"@en,
+		"zanabazar quadratique"@fr,
+		"Zanabazar Square"@en ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Monggol%20in%20kebtege%20dorbeljin%20bicig.png>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Zanabazar%20Square%20Consonants.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Zanabazar%20Square%20Vowels.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Zanabazar%20Square%20Sign.svg> ;
+	wdt:P407 wd:Q9246,
+		wd:Q34271,
+		wd:Q11059 ;
+	wdt:P144 wd:Q822836 ;
+	wdt:P170 wd:Q735871 ;
+	wdt:P138 wd:Q735871 ;
+	wdt:P571 "1700-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P910 wd:Q33656823 ;
+	rdfs:label "札那巴札尔方形字母"@zh ;
+	skos:prefLabel "札那巴札尔方形字母"@zh ;
+	schema:name "札那巴札尔方形字母"@zh ;
+	rdfs:label "Zanabazar Square"@en ;
+	skos:prefLabel "Zanabazar Square"@en ;
+	schema:name "Zanabazar Square"@en ;
+	rdfs:label "Mongola Horizonta Kvadrata Skribo"@eo ;
+	skos:prefLabel "Mongola Horizonta Kvadrata Skribo"@eo ;
+	schema:name "Mongola Horizonta Kvadrata Skribo"@eo ;
+	rdfs:label "монгольское горизонтально-квадратное письмо"@ru ;
+	skos:prefLabel "монгольское горизонтально-квадратное письмо"@ru ;
+	schema:name "монгольское горизонтально-квадратное письмо"@ru ;
+	rdfs:label "Zanabazar-kwadraatschrift"@nl ;
+	skos:prefLabel "Zanabazar-kwadraatschrift"@nl ;
+	schema:name "Zanabazar-kwadraatschrift"@nl ;
+	rdfs:label "écriture carrée zanabazar"@fr ;
+	skos:prefLabel "écriture carrée zanabazar"@fr ;
+	schema:name "écriture carrée zanabazar"@fr ;
+	rdfs:label "อักษรชญานวัชระทรงเหลี่ยม"@th ;
+	skos:prefLabel "อักษรชญานวัชระทรงเหลี่ยม"@th ;
+	schema:name "อักษรชญานวัชระทรงเหลี่ยม"@th ;
+	schema:description "mongolische Schrift"@de,
+		"abugida developed by the monk and scholar Zanabazar"@en,
+		"abugida ontwikkeld door de monnik en geleerde Zanabazar"@nl,
+		"abugida"@fr ;
+	skos:altLabel "Horizontal Square script"@en,
+		"Zanabazar Square script"@en,
+		"Horizontal Square"@en,
+		"квадратное письмо Дзанабадзара"@ru .

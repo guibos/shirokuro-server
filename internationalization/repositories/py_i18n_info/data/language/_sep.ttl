@@ -1,0 +1,139 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56787 a schema:Dataset ;
+	schema:about wd:Q56787 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961174731"^^xsd:integer ;
+	schema:dateModified "2023-08-25T20:03:22Z"^^xsd:dateTime .
+
+wd:Q56787 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Senoufo_Sicit%C3%A9> a schema:Article ;
+	schema:about wd:Q56787 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Senoufo Sicité"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisenoufo-Sicite> a schema:Article ;
+	schema:about wd:Q56787 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisenoufo-Sicite"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sucite_language> a schema:Article ;
+	schema:about wd:Q56787 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sucite language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Sisiteg> a schema:Article ;
+	schema:about wd:Q56787 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Sisiteg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Sucite> a schema:Article ;
+	schema:about wd:Q56787 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Sucite"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56787 wdt:P220 "sep" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/sep> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "sici1249" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sici1249> ;
+	wdt:P305 "sep" ;
+	wdt:P1627 "sep" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q965,
+		wd:Q912 ;
+	wdt:P2341 wd:Q850043,
+		wd:Q850088,
+		wd:Q845303,
+		wd:Q461298 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SEP> ;
+	wdt:P646 "/m/02hxt4f" ;
+	rdfs:label "Kisenoufo-Sicite"@sw ;
+	skos:prefLabel "Kisenoufo-Sicite"@sw ;
+	schema:name "Kisenoufo-Sicite"@sw ;
+	rdfs:label "Lenga Senoufo Sicité"@pms ;
+	skos:prefLabel "Lenga Senoufo Sicité"@pms ;
+	schema:name "Lenga Senoufo Sicité"@pms ;
+	rdfs:label "sisiteg"@br ;
+	skos:prefLabel "sisiteg"@br ;
+	schema:name "sisiteg"@br ;
+	rdfs:label "Sucite"@en ;
+	skos:prefLabel "Sucite"@en ;
+	schema:name "Sucite"@en ;
+	rdfs:label "Sicité"@nl ;
+	skos:prefLabel "Sicité"@nl ;
+	schema:name "Sicité"@nl ;
+	rdfs:label "ߛߎߛߌߕ ߞߊ߲"@nqo ;
+	skos:prefLabel "ߛߎߛߌߕ ߞߊ߲"@nqo ;
+	schema:name "ߛߎߛߌߕ ߞߊ߲"@nqo ;
+	rdfs:label "Sucite"@oc ;
+	skos:prefLabel "Sucite"@oc ;
+	schema:name "Sucite"@oc ;
+	rdfs:label "zimanê sucite"@ku-latn ;
+	skos:prefLabel "zimanê sucite"@ku-latn ;
+	schema:name "zimanê sucite"@ku-latn ;
+	rdfs:label "zimanê sucite"@ku ;
+	skos:prefLabel "zimanê sucite"@ku ;
+	schema:name "zimanê sucite"@ku ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ߞߊ߲"@nqo ;
+	skos:altLabel "Sìcìté Sénoufo"@en,
+		"Sicite Senoufo"@en,
+		"Sucite language"@en,
+		"ߛߌߛߌߣߋ ߛߋߣߎߝߐ"@nqo .

@@ -1,0 +1,87 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q20668241 a schema:Dataset ;
+	schema:about wd:Q20668241 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1062557885"^^xsd:integer ;
+	schema:dateModified "2019-11-26T10:54:32Z"^^xsd:dateTime .
+
+wd:Q20668241 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kulango_Bouna> a schema:Article ;
+	schema:about wd:Q20668241 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kulango Bouna"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikulango-Bouna> a schema:Article ;
+	schema:about wd:Q20668241 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikulango-Bouna"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q20668241 wdt:P31 wd:Q33384,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q35731 ;
+	wdt:P220 "nku" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nku> ;
+	wdt:P305 "nku" ;
+	wdt:P1394 "boun1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/boun1243> ;
+	wdt:P4913 wd:Q35731 ;
+	wdt:P1627 "nku" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1008 ;
+	wdt:P2341 wd:Q21003689 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NKU> ;
+	rdfs:label "koulango de Bouna"@fr ;
+	skos:prefLabel "koulango de Bouna"@fr ;
+	schema:name "koulango de Bouna"@fr ;
+	rdfs:label "Kikulango-Bouna"@sw ;
+	skos:prefLabel "Kikulango-Bouna"@sw ;
+	schema:name "Kikulango-Bouna"@sw ;
+	rdfs:label "Lenga Kulango Bouna"@pms ;
+	skos:prefLabel "Lenga Kulango Bouna"@pms ;
+	schema:name "Lenga Kulango Bouna"@pms ;
+	rdfs:label "Bouna Kulango"@en ;
+	skos:prefLabel "Bouna Kulango"@en ;
+	schema:name "Bouna Kulango"@en ;
+	rdfs:label "Bouna Kulango"@en-gb ;
+	skos:prefLabel "Bouna Kulango"@en-gb ;
+	schema:name "Bouna Kulango"@en-gb ;
+	schema:description "dialecte du koulango"@fr .

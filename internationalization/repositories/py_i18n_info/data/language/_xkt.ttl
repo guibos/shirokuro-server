@@ -1,0 +1,166 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35651 a schema:Dataset ;
+	schema:about wd:Q35651 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961151019"^^xsd:integer ;
+	schema:dateModified "2023-08-25T19:15:36Z"^^xsd:dateTime .
+
+wd:Q35651 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kantosi> a schema:Article ;
+	schema:about wd:Q35651 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kantosi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BD%D1%82%D0%BE%D1%81%D0%B8> a schema:Article ;
+	schema:about wd:Q35651 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Кантоси"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikantosi> a schema:Article ;
+	schema:about wd:Q35651 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikantosi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kantosi_language> a schema:Article ;
+	schema:about wd:Q35651 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kantosi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Kantosi_(Sprache)> a schema:Article ;
+	schema:about wd:Q35651 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Kantosi (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Kantosi_language> a schema:Article ;
+	schema:about wd:Q35651 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Kantosi language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35651 wdt:P31 wd:Q34770,
+		wd:Q1288568,
+		wd:Q4085712 ;
+	wdt:P220 "xkt" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xkt> ;
+	wdt:P1394 "kant1249" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kant1249> ;
+	wdt:P2192 "4621" ;
+	wdt:P305 "xkt" ;
+	a wdno:P282 ;
+	wdt:P1627 "xkt" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q117 ;
+	wdt:P2341 wd:Q712828 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XKT> ;
+	wdt:P646 "/m/02hxcw6" ;
+	rdfs:label "Kikantosi"@sw ;
+	skos:prefLabel "Kikantosi"@sw ;
+	schema:name "Kikantosi"@sw ;
+	rdfs:label "Lenga Kantosi"@pms ;
+	skos:prefLabel "Lenga Kantosi"@pms ;
+	schema:name "Lenga Kantosi"@pms ;
+	rdfs:label "Kantosi"@de ;
+	skos:prefLabel "Kantosi"@de ;
+	schema:name "Kantosi"@de ;
+	rdfs:label "Kantosi"@en ;
+	skos:prefLabel "Kantosi"@en ;
+	schema:name "Kantosi"@en ;
+	rdfs:label "kantosi"@es ;
+	skos:prefLabel "kantosi"@es ;
+	schema:name "kantosi"@es ;
+	rdfs:label "Kantosi"@de-ch ;
+	skos:prefLabel "Kantosi"@de-ch ;
+	schema:name "Kantosi"@de-ch ;
+	rdfs:label "Kantosi"@en-ca ;
+	skos:prefLabel "Kantosi"@en-ca ;
+	schema:name "Kantosi"@en-ca ;
+	rdfs:label "Kantosi"@en-gb ;
+	skos:prefLabel "Kantosi"@en-gb ;
+	schema:name "Kantosi"@en-gb ;
+	rdfs:label "kantosi"@fr ;
+	skos:prefLabel "kantosi"@fr ;
+	schema:name "kantosi"@fr ;
+	rdfs:label "kantosi"@ca ;
+	skos:prefLabel "kantosi"@ca ;
+	schema:name "kantosi"@ca ;
+	rdfs:label "Kantosi"@oc ;
+	skos:prefLabel "Kantosi"@oc ;
+	schema:name "Kantosi"@oc ;
+	rdfs:label "Kantosi"@nl ;
+	skos:prefLabel "Kantosi"@nl ;
+	schema:name "Kantosi"@nl ;
+	rdfs:label "Кантоси"@ru ;
+	skos:prefLabel "Кантоси"@ru ;
+	schema:name "Кантоси"@ru ;
+	rdfs:label "Wikang Kantosi"@tl ;
+	skos:prefLabel "Wikang Kantosi"@tl ;
+	schema:name "Wikang Kantosi"@tl ;
+	rdfs:label "Kantosi language"@ig ;
+	skos:prefLabel "Kantosi language"@ig ;
+	schema:name "Kantosi language"@ig ;
+	schema:description "Gur language of Ghana"@en,
+		"idioma hablado en Ghana"@es,
+		"Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue gur"@fr,
+		"yezh"@br,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Yarsi"@en,
+		"Yare"@en,
+		"Kantosi language"@en,
+		"Yarsi"@es,
+		"Yare"@es,
+		"idioma kantosi"@es,
+		"lengua kantosi"@es .

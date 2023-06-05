@@ -1,0 +1,196 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2883843 a schema:Dataset ;
+	schema:about wd:Q2883843 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1877739011"^^xsd:integer ;
+	schema:dateModified "2023-04-18T14:44:05Z"^^xsd:dateTime .
+
+wd:Q2883843 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Barasana> a schema:Article ;
+	schema:about wd:Q2883843 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Barasana"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_barasana> a schema:Article ;
+	schema:about wd:Q2883843 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga barasana"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D1%80%D0%B0%D1%81%D0%B0%D0%BD%D0%B0-%D1%8D%D0%B4%D1%83%D1%80%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q2883843 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Барасана-эдурия"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Barasana-Eduria_language> a schema:Article ;
+	schema:about wd:Q2883843 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Barasana-Eduria language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Barasana-Eduria_jezik> a schema:Article ;
+	schema:about wd:Q2883843 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Barasana-Eduria jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_barasana> a schema:Article ;
+	schema:about wd:Q2883843 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua barasana"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Barasana-eduria> a schema:Article ;
+	schema:about wd:Q2883843 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Barasana-eduria"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_barasana-eduria> a schema:Article ;
+	schema:about wd:Q2883843 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua barasana-eduria"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2883843 wdt:P220 "bsn" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bsn> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/04164fs" ;
+	wdt:P305 "bsn" ;
+	wdt:P279 wd:Q5972956 ;
+	wdt:P1394 "bara1380" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/bara1380> ;
+	wdt:P2355 "1999",
+		"576" ;
+	wdt:P4132 wd:Q989463 ;
+	wdt:P1889 wd:Q2258543 ;
+	wdt:P1466 "brs" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_brs> ;
+	wdt:P2192 "4024",
+		"2805" ;
+	wdt:P1627 "bsn" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q739 ;
+	wdt:P2341 wd:Q44724,
+		wd:Q234505 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BSN> ;
+	wdt:P910 wd:Q33072143 ;
+	wdt:P1705 "Jãnerã - Eduria Oca"@es ;
+	wdt:P1098 "+1900"^^xsd:decimal ;
+	wdt:P4839 "Entity[\"Language\", \"BarasanaEduria::8788g\"]",
+		"Entity[\"Language\", \"Barasana\"]" ;
+	wdt:P9717 "barasana" ;
+	wdt:P1846 <http://commons.wikimedia.org/wiki/Special:FilePath/Barasana.png> ;
+	rdfs:label "Barasana-Eduria jezik"@hr ;
+	skos:prefLabel "Barasana-Eduria jezik"@hr ;
+	schema:name "Barasana-Eduria jezik"@hr ;
+	rdfs:label "barasana"@fr ;
+	skos:prefLabel "barasana"@fr ;
+	schema:name "barasana"@fr ;
+	rdfs:label "Barasana-Eduria"@en ;
+	skos:prefLabel "Barasana-Eduria"@en ;
+	schema:name "Barasana-Eduria"@en ;
+	rdfs:label "Lenga barasana"@pms ;
+	skos:prefLabel "Lenga barasana"@pms ;
+	schema:name "Lenga barasana"@pms ;
+	rdfs:label "Барасана-эдурия"@ru ;
+	skos:prefLabel "Барасана-эдурия"@ru ;
+	schema:name "Барасана-эдурия"@ru ;
+	rdfs:label "Barasana-Eduria"@en-gb ;
+	skos:prefLabel "Barasana-Eduria"@en-gb ;
+	schema:name "Barasana-Eduria"@en-gb ;
+	rdfs:label "巴拉薩那語"@zh-hant ;
+	skos:prefLabel "巴拉薩那語"@zh-hant ;
+	schema:name "巴拉薩那語"@zh-hant ;
+	rdfs:label "巴拉萨那语"@zh-hans ;
+	skos:prefLabel "巴拉萨那语"@zh-hans ;
+	schema:name "巴拉萨那语"@zh-hans ;
+	rdfs:label "Wikang Barasana-Eduria"@tl ;
+	skos:prefLabel "Wikang Barasana-Eduria"@tl ;
+	schema:name "Wikang Barasana-Eduria"@tl ;
+	rdfs:label "巴拉萨那语"@zh ;
+	skos:prefLabel "巴拉萨那语"@zh ;
+	schema:name "巴拉萨那语"@zh ;
+	rdfs:label "Lingua barasana"@gl ;
+	skos:prefLabel "Lingua barasana"@gl ;
+	schema:name "Lingua barasana"@gl ;
+	rdfs:label "barasana"@ca ;
+	skos:prefLabel "barasana"@ca ;
+	schema:name "barasana"@ca ;
+	rdfs:label "Língua barasana-eduria"@pt ;
+	skos:prefLabel "Língua barasana-eduria"@pt ;
+	schema:name "Língua barasana-eduria"@pt ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"language"@en,
+		"langue tucanoane"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"lingua da familia tucana falada en Colombia"@gl,
+		"llengua tucano oriental"@ca ;
+	skos:altLabel "Barasana-Eduria language"@en,
+		"Barasano"@en,
+		"Lingua barasana-eduria"@gl,
+		"barà"@ca,
+		"barasano"@ca,
+		"edulia"@ca,
+		"paneroa"@ca .
+
+wd:Q50934445 owl:sameAs wd:Q2883843 .
+
+wd:Q61095740 owl:sameAs wd:Q2883843 .

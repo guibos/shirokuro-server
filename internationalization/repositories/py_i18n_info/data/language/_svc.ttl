@@ -1,0 +1,126 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3501785 a schema:Dataset ;
+	schema:about wd:Q3501785 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960532021"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:50:35Z"^^xsd:dateTime .
+
+wd:Q3501785 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_cr%C3%A9ola_angl%C3%A8isa_%C3%ABd_San_Vincens> a schema:Article ;
+	schema:about wd:Q3501785 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga créola anglèisa ëd San Vincens"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Vincentian_Creole> a schema:Article ;
+	schema:about wd:Q3501785 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Vincentian Creole"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Vincentski_kreolski_jezik> a schema:Article ;
+	schema:about wd:Q3501785 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Vincentski kreolski jezik"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Vincentski_kreolski_engleski> a schema:Article ;
+	schema:about wd:Q3501785 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Vincentski kreolski engleski"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_crioula_de_S%C3%A3o_Vicente_e_Granadinas> a schema:Article ;
+	schema:about wd:Q3501785 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua crioula de São Vicente e Granadinas"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3501785 wdt:P220 "svc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/svc> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "vinc1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/vinc1243> ;
+	wdt:P305 "svc" ;
+	wdt:P1627 "svc" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q757 ;
+	wdt:P2341 wd:Q757 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SVC> ;
+	wdt:P646 "/m/06jwt6" ;
+	wdt:P973 <https://apics-online.info/contributions/7> ;
+	rdfs:label "Lenga vincentian creole english"@pms ;
+	skos:prefLabel "Lenga vincentian creole english"@pms ;
+	schema:name "Lenga vincentian creole english"@pms ;
+	rdfs:label "Vincentski kreolski jezik"@sh ;
+	skos:prefLabel "Vincentski kreolski jezik"@sh ;
+	schema:name "Vincentski kreolski jezik"@sh ;
+	rdfs:label "Vincentian Creole"@en ;
+	skos:prefLabel "Vincentian Creole"@en ;
+	schema:name "Vincentian Creole"@en ;
+	rdfs:label "Vincentski kreolski engleski"@hr ;
+	skos:prefLabel "Vincentski kreolski engleski"@hr ;
+	schema:name "Vincentski kreolski engleski"@hr ;
+	rdfs:label "Crioulo de São Vicente e Granadinas"@pt ;
+	skos:prefLabel "Crioulo de São Vicente e Granadinas"@pt ;
+	schema:name "Crioulo de São Vicente e Granadinas"@pt ;
+	rdfs:label "வின்செண்டியன் கிரியோல்"@ta ;
+	skos:prefLabel "வின்செண்டியன் கிரியோல்"@ta ;
+	schema:name "வின்செண்டியன் கிரியோல்"@ta ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Vincentski kreolski"@sh,
+		"Vincentian Creole English"@en .
+
+wd:Q65294108 owl:sameAs wd:Q3501785 .

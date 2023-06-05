@@ -1,0 +1,192 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12473479 a schema:Dataset ;
+	schema:about wd:Q12473479 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960504019"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:14:33Z"^^xsd:dateTime .
+
+wd:Q12473479 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Tengger> a schema:Article ;
+	schema:about wd:Q12473479 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Tengger"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Dialekto_a_Tenggeres> a schema:Article ;
+	schema:about wd:Q12473479 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Dialekto a Tenggeres"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jv.wikipedia.org/wiki/Basa_Tengger> a schema:Article ;
+	schema:about wd:Q12473479 ;
+	schema:inLanguage "jv" ;
+	schema:isPartOf <https://jv.wikipedia.org/> ;
+	schema:name "Basa Tengger"@jv .
+
+<https://jv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitengger> a schema:Article ;
+	schema:about wd:Q12473479 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitengger"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Tenggerese_dialect> a schema:Article ;
+	schema:about wd:Q12473479 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Tenggerese dialect"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Diyalektong_Tenggeres> a schema:Article ;
+	schema:about wd:Q12473479 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Diyalektong Tenggeres"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Tengger> a schema:Article ;
+	schema:about wd:Q12473479 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Tengger"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Tengger> a schema:Article ;
+	schema:about wd:Q12473479 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Tengger"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikivoyage.org/wiki/Tengger_phrasebook> a schema:Article ;
+	schema:about wd:Q12473479 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikivoyage.org/> ;
+	schema:name "Tengger phrasebook"@en .
+
+<https://en.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+wd:Q12473479 wdt:P220 "tes" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tes> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q12509159 ;
+	wdt:P2590 "0093 1" ;
+	wdt:P17 wd:Q252 ;
+	wdt:P1394 "teng1272" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/teng1272> ;
+	wdt:P2341 wd:Q2067963,
+		wd:Q3586,
+		wd:Q3757 ;
+	wdt:P910 wd:Q32900526 ;
+	wdt:P305 "tes" ;
+	wdt:P1627 "tes" ;
+	wdt:P244 "sh00003130" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh00003130> ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TES> ;
+	wdt:P2671 "/g/1213603l" ;
+	wdtn:P2671 <http://g.co/kg/g/1213603l> ;
+	wdt:P8189 "987007291598705171" ;
+	rdfs:label "Tengger"@id ;
+	skos:prefLabel "Tengger"@id ;
+	schema:name "Tengger"@id ;
+	rdfs:label "Tengger"@ms ;
+	skos:prefLabel "Tengger"@ms ;
+	schema:name "Tengger"@ms ;
+	rdfs:label "Lenga Tengger"@pms ;
+	skos:prefLabel "Lenga Tengger"@pms ;
+	schema:name "Lenga Tengger"@pms ;
+	rdfs:label "Tengger"@en ;
+	skos:prefLabel "Tengger"@en ;
+	schema:name "Tengger"@en ;
+	rdfs:label "Kitengger"@sw ;
+	skos:prefLabel "Kitengger"@sw ;
+	schema:name "Kitengger"@sw ;
+	rdfs:label "Tengger"@en-gb ;
+	skos:prefLabel "Tengger"@en-gb ;
+	schema:name "Tengger"@en-gb ;
+	rdfs:label "Basa Jawa Tengger"@jv ;
+	skos:prefLabel "Basa Jawa Tengger"@jv ;
+	schema:name "Basa Jawa Tengger"@jv ;
+	rdfs:label "tengger"@fr ;
+	skos:prefLabel "tengger"@fr ;
+	schema:name "tengger"@fr ;
+	rdfs:label "Tenggeres"@ilo ;
+	skos:prefLabel "Tenggeres"@ilo ;
+	schema:name "Tenggeres"@ilo ;
+	rdfs:label "Diyalektong Tenggeres"@bcl ;
+	skos:prefLabel "Diyalektong Tenggeres"@bcl ;
+	schema:name "Diyalektong Tenggeres"@bcl ;
+	rdfs:label "騰格爾族語"@zh ;
+	skos:prefLabel "騰格爾族語"@zh ;
+	schema:name "騰格爾族語"@zh ;
+	schema:description "Sprache"@de,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"taal"@nl,
+		"שפה"@he,
+		"langue malayo-polynésienne"@fr,
+		"Javanic language spoken predominantly by the Tengger ethnic group"@en,
+		"pagsasao ti Indonesia"@ilo,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"bahasa Jawanik bangsa Tengger"@ms ;
+	skos:altLabel "Bahasa Tengger"@id,
+		"bahasa tengger"@id,
+		"bahasa Tengger"@id,
+		"Bahasa tengger"@id,
+		"Tengger language"@en,
+		"Tenggerese"@en,
+		"騰格爾語"@zh,
+		"Bahasa Tengger"@ms .
+
+wd:Q12953193 owl:sameAs wd:Q12473479 .
+
+wd:Q20574403 owl:sameAs wd:Q12473479 .

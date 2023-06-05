@@ -1,0 +1,126 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36335 a schema:Dataset ;
+	schema:about wd:Q36335 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1866394066"^^xsd:integer ;
+	schema:dateModified "2023-04-02T02:18:39Z"^^xsd:dateTime .
+
+wd:Q36335 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Llengua_sicana> a schema:Article ;
+	schema:about wd:Q36335 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Llengua sicana"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q36335 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Сиканский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Sikanische_Sprache> a schema:Article ;
+	schema:about wd:Q36335 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Sikanische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_sicana> a schema:Article ;
+	schema:about wd:Q36335 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua sicana"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36335 wdt:P31 wd:Q45762,
+		wd:Q4316069,
+		wd:Q436240,
+		wd:Q4085712 ;
+	wdt:P220 "sxc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/sxc> ;
+	wdt:P1394 "sica1234" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sica1234> ;
+	wdt:P2341 wd:Q952123 ;
+	wdt:P305 "sxc" ;
+	a wdno:P282 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SXC> ;
+	wdt:P646 "/m/0bl4lv" ;
+	wdt:P910 wd:Q105714949 ;
+	wdt:P17 wd:Q1747689 ;
+	rdfs:label "Sikanisch"@de ;
+	skos:prefLabel "Sikanisch"@de ;
+	schema:name "Sikanisch"@de ;
+	rdfs:label "сиканский язык"@ru ;
+	skos:prefLabel "сиканский язык"@ru ;
+	schema:name "сиканский язык"@ru ;
+	rdfs:label "Sicanian"@en ;
+	skos:prefLabel "Sicanian"@en ;
+	schema:name "Sicanian"@en ;
+	rdfs:label "lingua sicana"@it ;
+	skos:prefLabel "lingua sicana"@it ;
+	schema:name "lingua sicana"@it ;
+	rdfs:label "sicanu"@scn ;
+	skos:prefLabel "sicanu"@scn ;
+	schema:name "sicanu"@scn ;
+	rdfs:label "llengua sicana"@ca ;
+	skos:prefLabel "llengua sicana"@ca ;
+	schema:name "llengua sicana"@ca ;
+	rdfs:label "Sicanian"@en-gb ;
+	skos:prefLabel "Sicanian"@en-gb ;
+	schema:name "Sicanian"@en-gb ;
+	rdfs:label "sicanien"@fr ;
+	skos:prefLabel "sicanien"@fr ;
+	schema:name "sicanien"@fr ;
+	rdfs:label "sicano"@es ;
+	skos:prefLabel "sicano"@es ;
+	schema:name "sicano"@es ;
+	schema:description "Sprache"@de,
+		"lingua estinta parlata in Sicilia"@it,
+		"lingua morta parrata di l'antichi Sicani, dâ quali si sapi assai picca"@scn,
+		"שפה"@he,
+		"langue morte parlée par les Sicanes en Sicile"@fr ;
+	skos:altLabel "lingua sicana"@scn,
+		"Sicanian language"@en,
+		"sicana"@fr,
+		"sicane"@fr,
+		"Sikanische Sprache"@de .
+
+wd:Q3832967 owl:sameAs wd:Q36335 .

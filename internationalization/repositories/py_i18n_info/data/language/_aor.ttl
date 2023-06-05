@@ -1,0 +1,148 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12627129 a schema:Dataset ;
+	schema:about wd:Q12627129 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1727762051"^^xsd:integer ;
+	schema:dateModified "2022-09-13T10:23:21Z"^^xsd:dateTime .
+
+wd:Q12627129 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_aore> a schema:Article ;
+	schema:about wd:Q12627129 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga aore"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Aore> a schema:Article ;
+	schema:about wd:Q12627129 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Aore"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiaore> a schema:Article ;
+	schema:about wd:Q12627129 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiaore"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Aore_language> a schema:Article ;
+	schema:about wd:Q12627129 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Aore language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Aore_jezik> a schema:Article ;
+	schema:about wd:Q12627129 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Aore jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Aoren_kieli> a schema:Article ;
+	schema:about wd:Q12627129 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Aoren kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12627129 wdt:P220 "aor" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/aor> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "aore1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/aore1237> ;
+	wdt:P2355 "2141" ;
+	wdt:P2192 "3851" ;
+	wdt:P910 wd:Q33657330 ;
+	wdt:P279 wd:Q2062256 ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P305 "aor" ;
+	wdt:P1627 "aor" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P17 wd:Q686 ;
+	wdt:P2341 wd:Q740640 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/AOR> ;
+	wdt:P646 "/m/02hx167" ;
+	wdt:P4839 "Entity[\"Language\", \"Aore::rzkp4\"]",
+		"Entity[\"Language\", \"Aore\"]" ;
+	rdfs:label "Aore jezik"@hr ;
+	skos:prefLabel "Aore jezik"@hr ;
+	schema:name "Aore jezik"@hr ;
+	rdfs:label "Lenga aore"@pms ;
+	skos:prefLabel "Lenga aore"@pms ;
+	schema:name "Lenga aore"@pms ;
+	rdfs:label "Aore"@en ;
+	skos:prefLabel "Aore"@en ;
+	schema:name "Aore"@en ;
+	rdfs:label "Kiaore"@sw ;
+	skos:prefLabel "Kiaore"@sw ;
+	schema:name "Kiaore"@sw ;
+	rdfs:label "Aore"@ilo ;
+	skos:prefLabel "Aore"@ilo ;
+	schema:name "Aore"@ilo ;
+	rdfs:label "Aore"@en-gb ;
+	skos:prefLabel "Aore"@en-gb ;
+	schema:name "Aore"@en-gb ;
+	rdfs:label "aore"@fr ;
+	skos:prefLabel "aore"@fr ;
+	schema:name "aore"@fr ;
+	rdfs:label "Aoren kieli"@fi ;
+	skos:prefLabel "Aoren kieli"@fi ;
+	schema:name "Aoren kieli"@fi ;
+	schema:description "awanen a pagsasao iti Vanuatu"@ilo,
+		"taal"@nl,
+		"שפה"@he,
+		"langue océanienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Lenga Aore"@pms,
+		"Aore language"@en .
+
+wd:Q16829127 owl:sameAs wd:Q12627129 .

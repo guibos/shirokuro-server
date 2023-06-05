@@ -1,0 +1,86 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953838 a schema:Dataset ;
+	schema:about wd:Q12953838 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960620210"^^xsd:integer ;
+	schema:dateModified "2023-08-25T01:08:47Z"^^xsd:dateTime .
+
+wd:Q12953838 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_quechua,_apurimac_oriental> a schema:Article ;
+	schema:about wd:Q12953838 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga quechua, apurimac oriental"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953838 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "qve" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/qve> ;
+	wdt:P1394 "east2551" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/east2551> ;
+	wdt:P279 wd:Q36806 ;
+	wdt:P305 "qve" ;
+	wdt:P1627 "qve" ;
+	wdt:P3823 wd:Q29051550 ;
+	wdt:P17 wd:Q419 ;
+	wdt:P2341 wd:Q208185,
+		wd:Q205068,
+		wd:Q205112,
+		wd:Q205057 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/QVE> ;
+	rdfs:label "Lenga quechua, apurimac oriental"@pms ;
+	skos:prefLabel "Lenga quechua, apurimac oriental"@pms ;
+	schema:name "Lenga quechua, apurimac oriental"@pms ;
+	rdfs:label "Eastern Apurímac Quechua"@en ;
+	skos:prefLabel "Eastern Apurímac Quechua"@en ;
+	schema:name "Eastern Apurímac Quechua"@en ;
+	rdfs:label "Eastern Apurímac Quechua"@en-gb ;
+	skos:prefLabel "Eastern Apurímac Quechua"@en-gb ;
+	schema:name "Eastern Apurímac Quechua"@en-gb ;
+	rdfs:label "quechua d'Apurímac de l'Est"@fr ;
+	skos:prefLabel "quechua d'Apurímac de l'Est"@fr ;
+	schema:name "quechua d'Apurímac de l'Est"@fr ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue quechua"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la .

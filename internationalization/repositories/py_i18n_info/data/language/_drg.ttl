@@ -1,0 +1,167 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6897407 a schema:Dataset ;
+	schema:about wd:Q6897407 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1508855811"^^xsd:integer ;
+	schema:dateModified "2021-10-07T03:46:04Z"^^xsd:dateTime .
+
+wd:Q6897407 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Rungus> a schema:Article ;
+	schema:about wd:Q6897407 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Rungus"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_rungus> a schema:Article ;
+	schema:about wd:Q6897407 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga rungus"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Momogun> a schema:Article ;
+	schema:about wd:Q6897407 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Momogun"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kirungus> a schema:Article ;
+	schema:about wd:Q6897407 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kirungus"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Momogun_language> a schema:Article ;
+	schema:about wd:Q6897407 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Momogun language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Momogun> a schema:Article ;
+	schema:about wd:Q6897407 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Momogun"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Runguse_keel> a schema:Article ;
+	schema:about wd:Q6897407 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Runguse keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Rungus> a schema:Article ;
+	schema:about wd:Q6897407 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Rungus"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6897407 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "drg" ;
+	wdt:P220 "drg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/drg> ;
+	wdt:P279 wd:Q3217447 ;
+	wdt:P1394 "rung1259" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/rung1259> ;
+	wdt:P910 wd:Q32145141 ;
+	wdt:P1627 "drg" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q833 ;
+	wdt:P2341 wd:Q179029 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DRG> ;
+	wdt:P646 "/m/0n5vphb" ;
+	rdfs:label "Momogun"@en ;
+	skos:prefLabel "Momogun"@en ;
+	schema:name "Momogun"@en ;
+	rdfs:label "Momogun"@ilo ;
+	skos:prefLabel "Momogun"@ilo ;
+	schema:name "Momogun"@ilo ;
+	rdfs:label "Wikang Momogun"@tl ;
+	skos:prefLabel "Wikang Momogun"@tl ;
+	schema:name "Wikang Momogun"@tl ;
+	rdfs:label "Kirungus"@sw ;
+	skos:prefLabel "Kirungus"@sw ;
+	schema:name "Kirungus"@sw ;
+	rdfs:label "rungus"@fr ;
+	skos:prefLabel "rungus"@fr ;
+	schema:name "rungus"@fr ;
+	rdfs:label "Lenga rungus"@pms ;
+	skos:prefLabel "Lenga rungus"@pms ;
+	schema:name "Lenga rungus"@pms ;
+	rdfs:label "Rungus"@en-gb ;
+	skos:prefLabel "Rungus"@en-gb ;
+	schema:name "Rungus"@en-gb ;
+	rdfs:label "Tataramon na Momogun"@bcl ;
+	skos:prefLabel "Tataramon na Momogun"@bcl ;
+	schema:name "Tataramon na Momogun"@bcl ;
+	rdfs:label "Runguse keel"@et ;
+	skos:prefLabel "Runguse keel"@et ;
+	schema:name "Runguse keel"@et ;
+	rdfs:label "Bahasa Rungus"@ms ;
+	skos:prefLabel "Bahasa Rungus"@ms ;
+	schema:name "Bahasa Rungus"@ms ;
+	schema:description "pagsasao idiay Malaysia"@ilo,
+		"taal"@nl,
+		"שפה"@he,
+		"langue bornéo du Nord"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Rungus"@en,
+		"Rungus language"@en,
+		"Momogun language"@en .
+
+wd:Q18643253 owl:sameAs wd:Q6897407 .
+
+wd:Q31441989 owl:sameAs wd:Q6897407 .

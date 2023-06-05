@@ -1,0 +1,121 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3915392 a schema:Dataset ;
+	schema:about wd:Q3915392 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1650446500"^^xsd:integer ;
+	schema:dateModified "2022-05-30T08:59:09Z"^^xsd:dateTime .
+
+wd:Q3915392 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Eten> a schema:Article ;
+	schema:about wd:Q3915392 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Eten"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kieten> a schema:Article ;
+	schema:about wd:Q3915392 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kieten"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Eten_language> a schema:Article ;
+	schema:about wd:Q3915392 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Eten language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kcg.wikipedia.org/wiki/Tyen_(a%CC%B1lyem)> a schema:Article ;
+	schema:about wd:Q3915392 ;
+	schema:inLanguage "kcg" ;
+	schema:isPartOf <https://kcg.wikipedia.org/> ;
+	schema:name "Tyen (a̱lyem)"@kcg .
+
+<https://kcg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3915392 wdt:P220 "etx" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/etx> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "eten1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/eten1239> ;
+	wdt:P279 wd:Q4894642 ;
+	wdt:P910 wd:Q33074372 ;
+	wdt:P305 "etx" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P1627 "etx" ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q509300,
+		wd:Q878284,
+		wd:Q503928 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/ETX> ;
+	wdt:P646 "/m/02hxsln" ;
+	rdfs:label "Kieten"@sw ;
+	skos:prefLabel "Kieten"@sw ;
+	schema:name "Kieten"@sw ;
+	rdfs:label "Lenga Eten"@pms ;
+	skos:prefLabel "Lenga Eten"@pms ;
+	schema:name "Lenga Eten"@pms ;
+	rdfs:label "Eten"@en ;
+	skos:prefLabel "Eten"@en ;
+	schema:name "Eten"@en ;
+	rdfs:label "Eten"@nl ;
+	skos:prefLabel "Eten"@nl ;
+	schema:name "Eten"@nl ;
+	rdfs:label "Eten"@en-gb ;
+	skos:prefLabel "Eten"@en-gb ;
+	schema:name "Eten"@en-gb ;
+	rdfs:label "eten"@fr ;
+	skos:prefLabel "eten"@fr ;
+	schema:name "eten"@fr ;
+	rdfs:label "Tyen (a̱lyem)"@kcg ;
+	skos:prefLabel "Tyen (a̱lyem)"@kcg ;
+	schema:name "Tyen (a̱lyem)"@kcg ;
+	schema:description "Sprache"@de,
+		"taal in Nigeria"@nl,
+		"language in Nigeria"@en,
+		"שפה"@he,
+		"langue bénoué-congolaise"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Eten language"@en .

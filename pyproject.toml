@@ -1,0 +1,48 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "shirokuro-server"
+version = "0.1.0"
+description = ""
+authors = ["guibos <22233599+guibos@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"
+daphne = "^4.0.0"
+Django = "^4.2.2"
+django-storages = "^1.14"
+pydantic = "^2.3.0"
+rdflib = "^7.0.0"
+platformdirs = "^3.10.0"
+strawberry-graphql = "^0.209.0"
+strawberry-graphql-django = "0.17.2"
+
+[tool.poetry.dev-dependencies]
+mypy = "^1.5.1"
+pytest-cov = "^4.1.0"
+pytest-django = "^4.5.2"
+pytest-xdist = "^3.3.1"
+pytest-yapf3 = "^0.7.0"
+Sphinx = "^7.0.0"
+tox-poetry = "^0.5.0"
+yapf = "^0.40.1"
+
+[tool.poetry.scripts]
+update-bcp47 = "internationalization.repositories.bcp47.bcp47_downloader_service:BCP47DownloaderService().download()"
+update-pyi18n-info = "internationalization.repositories.py_i18n_info.py_i18n_info_downloader_service:Pyi18nInfoDownloaderService().download()"
+
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "shirokuro.settings"
+python_files = "tests.py test_*.py *_tests.py"
+#addopts = "--cov --cov-append" #"--yapf --yapfdiff"
+
+[tool.yapf]
+COLUMN_LIMIT = 120
+
+[tool.coverage.run]
+source = ["src"]
+omit = ["/home/*/.local/"]
+

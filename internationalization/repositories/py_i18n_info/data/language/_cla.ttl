@@ -1,0 +1,187 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3440432 a schema:Dataset ;
+	schema:about wd:Q3440432 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1788632945"^^xsd:integer ;
+	schema:dateModified "2022-12-12T20:16:10Z"^^xsd:dateTime .
+
+wd:Q3440432 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Ron_(langue)> a schema:Article ;
+	schema:about wd:Q3440432 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Ron (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Ron> a schema:Article ;
+	schema:about wd:Q3440432 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Ron"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%BD_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q3440432 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Рон (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiron> a schema:Article ;
+	schema:about wd:Q3440432 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiron"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ron_language> a schema:Article ;
+	schema:about wd:Q3440432 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ron language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Roneg> a schema:Article ;
+	schema:about wd:Q3440432 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Roneg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Ron_jezik> a schema:Article ;
+	schema:about wd:Q3440432 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Ron jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Ron> a schema:Article ;
+	schema:about wd:Q3440432 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Ron"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3440432 wdt:P220 "cla" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cla> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P269 "060377283" ;
+	wdtn:P269 <http://www.idref.fr/060377283/id> ;
+	wdt:P279 wd:Q2447774 ;
+	wdt:P244 "sh85115224" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85115224> ;
+	wdt:P268 "144100687" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb144100687#about> ;
+	wdt:P1394 "ronn1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ronn1241> ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P131 wd:Q4938795,
+		wd:Q11279375,
+		wd:Q6749158 ;
+	wdt:P1098 "+176000"^^xsd:decimal ;
+	wdt:P1466 "ron" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ron> ;
+	wdt:P5198 "294935290" ;
+	wdt:P305 "cla" ;
+	wdt:P1627 "cla" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q509300,
+		wd:Q836645,
+		wd:Q503928 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CLA> ;
+	wdt:P8408 "RonLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/RonLanguage> ;
+	wdt:P646 "/m/02hwfh1" ;
+	wdt:P910 wd:Q33139766 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Butura%20dancers%202.jpg> ;
+	wdt:P8189 "987007543876005171" ;
+	wdt:P8814 "06995774-n" ;
+	wdtn:P8814 <http://wordnet-rdf.princeton.edu/rdf/id/06995774-n> ;
+	rdfs:label "Kiron"@sw ;
+	skos:prefLabel "Kiron"@sw ;
+	schema:name "Kiron"@sw ;
+	rdfs:label "Lenga Ron"@pms ;
+	skos:prefLabel "Lenga Ron"@pms ;
+	schema:name "Lenga Ron"@pms ;
+	rdfs:label "Ron"@en ;
+	skos:prefLabel "Ron"@en ;
+	schema:name "Ron"@en ;
+	rdfs:label "Ron jezik"@hr ;
+	skos:prefLabel "Ron jezik"@hr ;
+	schema:name "Ron jezik"@hr ;
+	rdfs:label "ron"@fr ;
+	skos:prefLabel "ron"@fr ;
+	schema:name "ron"@fr ;
+	rdfs:label "roneg"@br ;
+	skos:prefLabel "roneg"@br ;
+	schema:name "roneg"@br ;
+	rdfs:label "Ron"@en-gb ;
+	skos:prefLabel "Ron"@en-gb ;
+	schema:name "Ron"@en-gb ;
+	rdfs:label "Wikang Ron"@tl ;
+	skos:prefLabel "Wikang Ron"@tl ;
+	schema:name "Wikang Ron"@tl ;
+	rdfs:label "Рон"@ru ;
+	skos:prefLabel "Рон"@ru ;
+	schema:name "Рон"@ru ;
+	rdfs:label "Ron"@oc ;
+	skos:prefLabel "Ron"@oc ;
+	schema:name "Ron"@oc ;
+	rdfs:label "Ron"@ig ;
+	skos:prefLabel "Ron"@ig ;
+	schema:name "Ron"@ig ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"Chadic language cluster spoken in Nigeria"@en,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"Ụyọkọ asụsụ Chad a na-asụ na Naịjirịa"@ig ;
+	skos:altLabel "Ron language"@en,
+		"Ron language"@ig .

@@ -1,0 +1,164 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12952252 a schema:Dataset ;
+	schema:about wd:Q12952252 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1872521943"^^xsd:integer ;
+	schema:dateModified "2023-04-11T11:04:45Z"^^xsd:dateTime .
+
+wd:Q12952252 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Balochi_oriental> a schema:Article ;
+	schema:about wd:Q12952252 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Balochi oriental"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%A8%D9%84%D9%88%DA%86%DB%8C_%D8%B4%D8%B1%D9%82%DB%8C> a schema:Article ;
+	schema:about wd:Q12952252 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "بلوچی شرقی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E6%9D%B1%E3%83%90%E3%83%AD%E3%83%BC%E3%83%81%E3%83%BC%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q12952252 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "東バローチー語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Isto%C4%8Dnobalud%C5%BEijski_jezik> a schema:Article ;
+	schema:about wd:Q12952252 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Istočnobaludžijski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibalochi-Mashariki> a schema:Article ;
+	schema:about wd:Q12952252 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibalochi-Mashariki"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ckb.wikipedia.org/wiki/%D8%A8%DB%95%D9%84%DB%86%DA%86%DB%8C%DB%8C_%DA%95%DB%86%DA%98%DA%BE%DB%95%DA%B5%D8%A7%D8%AA> a schema:Article ;
+	schema:about wd:Q12952252 ;
+	schema:inLanguage "ckb" ;
+	schema:isPartOf <https://ckb.wikipedia.org/> ;
+	schema:name "بەلۆچیی ڕۆژھەڵات"@ckb .
+
+<https://ckb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12952252 wdt:P31 wd:Q34770,
+		wd:Q33384,
+		wd:Q1288568 ;
+	wdt:P220 "bgp" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bgp> ;
+	wdt:P1394 "east2304" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/east2304> ;
+	wdt:P1466 "blc" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_blc> ;
+	wdt:P282 wd:Q1828555,
+		wd:Q8229 ;
+	wdt:P279 wd:Q33049 ;
+	wdt:P1098 "+3050000"^^xsd:decimal ;
+	wdt:P305 "bgp" ;
+	wdt:P1627 "bgp" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q843 ;
+	wdt:P2341 wd:Q163239,
+		wd:Q4478,
+		wd:Q37211 ;
+	wdt:P4913 wd:Q33049 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BGP> ;
+	wdt:P2671 "/g/121hxs0c" ;
+	wdtn:P2671 <http://g.co/kg/g/121hxs0c> ;
+	rdfs:label "Lenga Balochi oriental"@pms ;
+	skos:prefLabel "Lenga Balochi oriental"@pms ;
+	schema:name "Lenga Balochi oriental"@pms ;
+	rdfs:label "baloutche de l'Est"@fr ;
+	skos:prefLabel "baloutche de l'Est"@fr ;
+	schema:name "baloutche de l'Est"@fr ;
+	rdfs:label "Eastern Balochi"@en ;
+	skos:prefLabel "Eastern Balochi"@en ;
+	schema:name "Eastern Balochi"@en ;
+	rdfs:label "東バローチー語"@ja ;
+	skos:prefLabel "東バローチー語"@ja ;
+	schema:name "東バローチー語"@ja ;
+	rdfs:label "Istočnobaludžijski jezik"@hr ;
+	skos:prefLabel "Istočnobaludžijski jezik"@hr ;
+	schema:name "Istočnobaludžijski jezik"@hr ;
+	rdfs:label "بلوچی شرقی"@fa ;
+	skos:prefLabel "بلوچی شرقی"@fa ;
+	schema:name "بلوچی شرقی"@fa ;
+	rdfs:label "بەلۆچی ڕۆژھەڵات"@ckb ;
+	skos:prefLabel "بەلۆچی ڕۆژھەڵات"@ckb ;
+	schema:name "بەلۆچی ڕۆژھەڵات"@ckb ;
+	rdfs:label "Kibalochi ya Mashariki"@sw ;
+	skos:prefLabel "Kibalochi ya Mashariki"@sw ;
+	schema:name "Kibalochi ya Mashariki"@sw ;
+	rdfs:label "Eastern Balochi"@en-gb ;
+	skos:prefLabel "Eastern Balochi"@en-gb ;
+	schema:name "Eastern Balochi"@en-gb ;
+	rdfs:label "восточный белуджский"@ru ;
+	skos:prefLabel "восточный белуджский"@ru ;
+	schema:name "восточный белуджский"@ru ;
+	rdfs:label "东俾路支语"@zh-hans ;
+	skos:prefLabel "东俾路支语"@zh-hans ;
+	schema:name "东俾路支语"@zh-hans ;
+	rdfs:label "東俾路支語"@zh-hant ;
+	skos:prefLabel "東俾路支語"@zh-hant ;
+	schema:name "東俾路支語"@zh-hant ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Eastern Baluchi language"@en,
+		"Eastern Balochi language"@en .
+
+wd:Q19366506 owl:sameAs wd:Q12952252 .
+
+wd:Q19927870 owl:sameAs wd:Q12952252 .

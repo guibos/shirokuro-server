@@ -1,0 +1,506 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q28213 a schema:Dataset ;
+	schema:about wd:Q28213 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1913489856"^^xsd:integer ;
+	schema:dateModified "2023-06-12T06:32:08Z"^^xsd:dateTime .
+
+wd:Q28213 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_alutor> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga alutor"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D1%8E%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Алюторский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cv.wikipedia.org/wiki/%D0%90%D0%BB%D1%8E%D1%82%D0%BE%D1%80_%D1%87%C4%95%D0%BB%D1%85%D0%B8> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "cv" ;
+	schema:isPartOf <https://cv.wikipedia.org/> ;
+	schema:name "Алютор чĕлхи"@cv .
+
+<https://cv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Alyutor_language> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Alyutor language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Aljutor> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Aljutor"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vep.wikipedia.org/wiki/Al%C3%BCtoran_kel%27> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "vep" ;
+	schema:isPartOf <https://vep.wikipedia.org/> ;
+	schema:name "Alütoran kel'"@vep .
+
+<https://vep.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Alutor_jezik> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Alutor jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_alutor> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua alutor"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bat-smg.wikipedia.org/wiki/Aliotuoriu_kalba> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "sgs" ;
+	schema:isPartOf <https://bat-smg.wikipedia.org/> ;
+	schema:name "Aliotuoriu kalba"@sgs .
+
+<https://bat-smg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%90%D1%99%D1%83%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Аљуторски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AA%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AB%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "アリュートル語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Al%C3%BCtor_dili> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Alütor dili"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Aliutor%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Aliutorų kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Alutorca> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Alutorca"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Alutor> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Alutor"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/Alutor> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Alutor"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_alutorski> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język alutorski"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Alutori_keel> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Alutori keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Alioutor> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Alioutor"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Aljoetoors> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Aljoetoors"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Aloutoreg> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Aloutoreg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_alutor> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua alutor"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Alutor> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Alutor"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%90%D0%BB%D1%8E%D1%82%D0%BE%D1%80_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Алютор теле"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Alutorin_kieli> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Alutorin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%95%8C%EB%A3%A8%ED%86%A0%EB%A5%B4%EC%96%B4> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "알루토르어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E9%98%BF%E7%95%99%E7%89%B9%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "阿留特語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%90%D0%BB%D1%8E%D1%82%D0%BE%D1%80%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Алюторська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Alyutor> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Alyutor"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wiktionary.org/wiki/Wiktionary:About_Alutor> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wiktionary.org/> ;
+	schema:name "Wiktionary:About Alutor"@en .
+
+<https://en.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Alutor> a schema:Article ;
+	schema:about wd:Q28213 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Alutor"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q28213 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "alr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/alr> ;
+	wdt:P646 "/m/04ng4f" ;
+	wdt:P305 "alr" ;
+	wdt:P1098 "+40"^^xsd:decimal ;
+	wdt:P279 wd:Q2606732 ;
+	wdt:P1014 "300387811" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300387811> ;
+	wdt:P1394 "alut1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/alut1245> ;
+	wdt:P2355 "463" ;
+	wdt:P4132 wd:Q651641,
+		wd:Q171263 ;
+	wdt:P17 wd:Q159 ;
+	wdt:P131 wd:Q7948 ;
+	wdt:P282 wd:Q8209 ;
+	wdt:P2924 "5199809" ;
+	wdt:P1466 "alu" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_alu> ;
+	wdt:P910 wd:Q31158023 ;
+	wdt:P2192 "947" ;
+	wdt:P1417 "topic/Aliutor-language" ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P4839 "Entity[\"Language\", \"Alutor::zcj3r\"]" ;
+	wdt:P1627 "alr" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P2341 wd:Q7948 ;
+	wdt:P1245 "575134" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/ALR> ;
+	wdt:P6385 "gumanitarnye_nauki/lingvistika/ALYUTORSKI_YAZIK.html" ;
+	rdfs:label "Alyutor"@en ;
+	skos:prefLabel "Alyutor"@en ;
+	schema:name "Alyutor"@en ;
+	rdfs:label "Alütor dili"@az ;
+	skos:prefLabel "Alütor dili"@az ;
+	schema:name "Alütor dili"@az ;
+	rdfs:label "aloutoreg"@br ;
+	skos:prefLabel "aloutoreg"@br ;
+	schema:name "aloutoreg"@br ;
+	rdfs:label "Alutorin kieli"@fi ;
+	skos:prefLabel "Alutorin kieli"@fi ;
+	schema:name "Alutorin kieli"@fi ;
+	rdfs:label "alioutor"@fr ;
+	skos:prefLabel "alioutor"@fr ;
+	schema:name "alioutor"@fr ;
+	rdfs:label "Lingua alutor"@gl ;
+	skos:prefLabel "Lingua alutor"@gl ;
+	schema:name "Lingua alutor"@gl ;
+	rdfs:label "Alutor jezik"@hr ;
+	skos:prefLabel "Alutor jezik"@hr ;
+	schema:name "Alutor jezik"@hr ;
+	rdfs:label "Alutor"@is ;
+	skos:prefLabel "Alutor"@is ;
+	schema:name "Alutor"@is ;
+	rdfs:label "알루토르어"@ko ;
+	skos:prefLabel "알루토르어"@ko ;
+	schema:name "알루토르어"@ko ;
+	rdfs:label "Aliutorių kalba"@lt ;
+	skos:prefLabel "Aliutorių kalba"@lt ;
+	schema:name "Aliutorių kalba"@lt ;
+	rdfs:label "Aljoetoors"@nl ;
+	skos:prefLabel "Aljoetoors"@nl ;
+	schema:name "Aljoetoors"@nl ;
+	rdfs:label "Język alutorski"@pl ;
+	skos:prefLabel "Język alutorski"@pl ;
+	schema:name "Język alutorski"@pl ;
+	rdfs:label "Lenga alutor"@pms ;
+	skos:prefLabel "Lenga alutor"@pms ;
+	schema:name "Lenga alutor"@pms ;
+	rdfs:label "alutor"@pt ;
+	skos:prefLabel "alutor"@pt ;
+	schema:name "alutor"@pt ;
+	rdfs:label "алюторский язык"@ru ;
+	skos:prefLabel "алюторский язык"@ru ;
+	schema:name "алюторский язык"@ru ;
+	rdfs:label "Alutor"@sv ;
+	skos:prefLabel "Alutor"@sv ;
+	schema:name "Alutor"@sv ;
+	rdfs:label "аљуторски јазик"@mk ;
+	skos:prefLabel "аљуторски јазик"@mk ;
+	schema:name "аљуторски јазик"@mk ;
+	rdfs:label "Алютор теле"@tt ;
+	skos:prefLabel "Алютор теле"@tt ;
+	schema:name "Алютор теле"@tt ;
+	rdfs:label "Alyutor"@en-ca ;
+	skos:prefLabel "Alyutor"@en-ca ;
+	schema:name "Alyutor"@en-ca ;
+	rdfs:label "Alyutor"@en-gb ;
+	skos:prefLabel "Alyutor"@en-gb ;
+	schema:name "Alyutor"@en-gb ;
+	rdfs:label "Língua alutor"@pt-br ;
+	skos:prefLabel "Língua alutor"@pt-br ;
+	schema:name "Língua alutor"@pt-br ;
+	rdfs:label "Alütoran kel'"@vep ;
+	skos:prefLabel "Alütoran kel'"@vep ;
+	schema:name "Alütoran kel'"@vep ;
+	rdfs:label "アリュートル語"@ja ;
+	skos:prefLabel "アリュートル語"@ja ;
+	schema:name "アリュートル語"@ja ;
+	rdfs:label "Aliutorisch"@de ;
+	skos:prefLabel "Aliutorisch"@de ;
+	schema:name "Aliutorisch"@de ;
+	rdfs:label "alutor"@es ;
+	skos:prefLabel "alutor"@es ;
+	schema:name "alutor"@es ;
+	rdfs:label "alutor"@it ;
+	skos:prefLabel "alutor"@it ;
+	schema:name "alutor"@it ;
+	rdfs:label "Aliotuoriu kalba"@sgs ;
+	skos:prefLabel "Aliotuoriu kalba"@sgs ;
+	schema:name "Aliotuoriu kalba"@sgs ;
+	rdfs:label "阿留特語"@zh ;
+	skos:prefLabel "阿留特語"@zh ;
+	schema:name "阿留特語"@zh ;
+	rdfs:label "Алютор чĕлхи"@cv ;
+	skos:prefLabel "Алютор чĕлхи"@cv ;
+	schema:name "Алютор чĕлхи"@cv ;
+	rdfs:label "Alutorca"@tr ;
+	skos:prefLabel "Alutorca"@tr ;
+	schema:name "Alutorca"@tr ;
+	rdfs:label "Alutor"@nb ;
+	skos:prefLabel "Alutor"@nb ;
+	schema:name "Alutor"@nb ;
+	rdfs:label "Alutori keel"@et ;
+	skos:prefLabel "Alutori keel"@et ;
+	schema:name "Alutori keel"@et ;
+	rdfs:label "Aljutor"@nn ;
+	skos:prefLabel "Aljutor"@nn ;
+	schema:name "Aljutor"@nn ;
+	rdfs:label "Алюторська мова"@uk ;
+	skos:prefLabel "Алюторська мова"@uk ;
+	schema:name "Алюторська мова"@uk ;
+	rdfs:label "Alyutor"@ca ;
+	skos:prefLabel "Alyutor"@ca ;
+	schema:name "Alyutor"@ca ;
+	rdfs:label "alutor"@vec ;
+	skos:prefLabel "alutor"@vec ;
+	schema:name "alutor"@vec ;
+	rdfs:label "אליוטורית"@he ;
+	skos:prefLabel "אליוטורית"@he ;
+	schema:name "אליוטורית"@he ;
+	rdfs:label "bahasa Alutor"@id ;
+	skos:prefLabel "bahasa Alutor"@id ;
+	schema:name "bahasa Alutor"@id ;
+	schema:description "language of Russia that belongs to the Chukotkan branch of the Chukotko-Kamchatkan languages"@en,
+		"bahsa"@ace,
+		"taal"@af,
+		"idioma"@an,
+		"bahasa"@bjn,
+		"yezh"@br,
+		"jezik"@bs,
+		"llengua"@ca,
+		"lingua"@co,
+		"jazyk"@cs,
+		"sprog"@da,
+		"Sprache"@de,
+		"lısan"@diq,
+		"γλώσσα"@el,
+		"langua"@eml,
+		"lingvo"@eo,
+		"idioma"@es,
+		"keel"@et,
+		"hizkuntza"@eu,
+		"luenga"@ext,
+		"زبان"@fa,
+		"kieli"@fi,
+		"langue"@fr,
+		"lengoua"@frp,
+		"lenghe"@fur,
+		"taal"@fy,
+		"teanga"@ga,
+		"lingua"@gl,
+		"nyelv"@hu,
+		"bagian dari rumpun bahasa Paleosiberia"@id,
+		"linguo"@io,
+		"tungumál"@is,
+		"lingua"@it,
+		"カムチャツカ半島北部のコリャーク管区に住むアリュートル人が話す古シベリア諸語の一つ"@ja,
+		"basa"@jv,
+		"ndinga"@kg,
+		"언어"@ko,
+		"lingua"@la,
+		"kalba"@lt,
+		"valoda"@lv,
+		"fiteny"@mg,
+		"јазик"@mk,
+		"bahaso"@min,
+		"bahasa"@ms,
+		"språk"@nb,
+		"Spraak"@nds,
+		"språk"@nn,
+		"langue"@pcd,
+		"língua"@pt,
+		"limba"@ro,
+		"язык"@ru,
+		"basa"@su,
+		"reo"@ty,
+		"tiếng"@vi,
+		"làkk"@wo,
+		"语言"@zh,
+		"語言"@lzh,
+		"taal"@nl,
+		"שפה"@he,
+		"iaith"@cy,
+		"Dil"@tr ;
+	skos:altLabel "Alyutor language"@en,
+		"Alutor language"@en,
+		"Alutor"@en,
+		"Idioma alutor"@es,
+		"lingua alutor"@it,
+		"Língua alutor"@pt,
+		"Alutor"@id,
+		"Alyutor"@id,
+		"bahasa Alyutor"@id .
+
+wd:Q13209401 owl:sameAs wd:Q28213 .

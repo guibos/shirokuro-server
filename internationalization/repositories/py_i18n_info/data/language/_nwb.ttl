@@ -1,0 +1,184 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33664 a schema:Dataset ;
+	schema:about wd:Q33664 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1838928473"^^xsd:integer ;
+	schema:dateModified "2023-02-22T00:37:38Z"^^xsd:dateTime .
+
+wd:Q33664 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Nyabwa_(langue)> a schema:Article ;
+	schema:about wd:Q33664 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Nyabwa (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Nyabwa> a schema:Article ;
+	schema:about wd:Q33664 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Nyabwa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Nyabwa> a schema:Article ;
+	schema:about wd:Q33664 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Nyabwa"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinyabwa> a schema:Article ;
+	schema:about wd:Q33664 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinyabwa"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nyabwa_language> a schema:Article ;
+	schema:about wd:Q33664 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nyabwa language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Nyabweg> a schema:Article ;
+	schema:about wd:Q33664 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Nyabweg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Nyabwa> a schema:Article ;
+	schema:about wd:Q33664 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Nyabwa"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Nyabwa> a schema:Article ;
+	schema:about wd:Q33664 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Nyabwa"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_nyabwa> a schema:Article ;
+	schema:about wd:Q33664 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua nyabwa"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33664 wdt:P220 "nwb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nwb> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0f8dp" ;
+	wdt:P305 "nwb" ;
+	wdt:P279 wd:Q33535 ;
+	wdt:P1394 "nyab1255" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nyab1255> ;
+	wdt:P268 "12076221v" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb12076221v#about> ;
+	wdt:P2581 "03346648n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s03346648n> ;
+	wdt:P5198 "294929525" ;
+	wdt:P1627 "nwb" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q1008 ;
+	wdt:P2341 wd:Q20980352,
+		wd:Q20365127 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NWB> ;
+	wdt:P1014 "300389003" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389003> ;
+	rdfs:label "Kinyabwa"@sw ;
+	skos:prefLabel "Kinyabwa"@sw ;
+	schema:name "Kinyabwa"@sw ;
+	rdfs:label "Nyabwa"@de ;
+	skos:prefLabel "Nyabwa"@de ;
+	schema:name "Nyabwa"@de ;
+	rdfs:label "Lenga Nyabwa"@pms ;
+	skos:prefLabel "Lenga Nyabwa"@pms ;
+	schema:name "Lenga Nyabwa"@pms ;
+	rdfs:label "nyabweg"@br ;
+	skos:prefLabel "nyabweg"@br ;
+	schema:name "nyabweg"@br ;
+	rdfs:label "nyabwa"@fr ;
+	skos:prefLabel "nyabwa"@fr ;
+	schema:name "nyabwa"@fr ;
+	rdfs:label "Nyabwa"@en ;
+	skos:prefLabel "Nyabwa"@en ;
+	schema:name "Nyabwa"@en ;
+	rdfs:label "lingua Nyabwa"@it ;
+	skos:prefLabel "lingua Nyabwa"@it ;
+	schema:name "lingua Nyabwa"@it ;
+	rdfs:label "ニャブワ語"@ja ;
+	skos:prefLabel "ニャブワ語"@ja ;
+	schema:name "ニャブワ語"@ja ;
+	rdfs:label "Nyabwa"@en-gb ;
+	skos:prefLabel "Nyabwa"@en-gb ;
+	schema:name "Nyabwa"@en-gb ;
+	rdfs:label "Wikang Nyabwa"@tl ;
+	skos:prefLabel "Wikang Nyabwa"@tl ;
+	schema:name "Wikang Nyabwa"@tl ;
+	rdfs:label "nyabwa"@vec ;
+	skos:prefLabel "nyabwa"@vec ;
+	schema:name "nyabwa"@vec ;
+	rdfs:label "Bahasa Nyabwa"@ms ;
+	skos:prefLabel "Bahasa Nyabwa"@ms ;
+	schema:name "Bahasa Nyabwa"@ms ;
+	rdfs:label "Língua nyabwa"@pt ;
+	skos:prefLabel "Língua nyabwa"@pt ;
+	schema:name "Língua nyabwa"@pt ;
+	schema:description "Sprache"@de,
+		"lingua parlata in Costa d'Avorio"@it,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Nyabwa language"@en .

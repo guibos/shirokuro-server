@@ -1,0 +1,112 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953479 a schema:Dataset ;
+	schema:about wd:Q12953479 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960610550"^^xsd:integer ;
+	schema:dateModified "2023-08-25T00:50:41Z"^^xsd:dateTime .
+
+wd:Q12953479 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_dij_segn_dla_Sv%C3%ACssera_italian-a> a schema:Article ;
+	schema:about wd:Q12953479 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga dij segn dla Svìssera italian-a"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Lingua_dei_segni_della_Svizzera_italiana> a schema:Article ;
+	schema:about wd:Q12953479 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Lingua dei segni della Svizzera italiana"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953479 wdt:P31 wd:Q34228 ;
+	wdt:P220 "slf" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/slf> ;
+	wdt:P1394 "swis1235" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/swis1235> ;
+	wdt:P279 wd:Q375619 ;
+	wdt:P305 "slf" ;
+	wdt:P17 wd:Q39 ;
+	wdt:P1098 "+300"^^xsd:decimal ;
+	wdt:P1627 "slf" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2192 "7362" ;
+	wdt:P2341 wd:Q11925,
+		wd:Q12724 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SLF> ;
+	wdt:P2671 "/g/11bt_6y6kn" ;
+	wdtn:P2671 <http://g.co/kg/g/11bt_6y6kn> ;
+	wdt:P910 wd:Q105715367 ;
+	rdfs:label "Lenga dij segn dla Svìssera italian-a"@pms ;
+	skos:prefLabel "Lenga dij segn dla Svìssera italian-a"@pms ;
+	schema:name "Lenga dij segn dla Svìssera italian-a"@pms ;
+	rdfs:label "Swiss-Italian Sign Language"@en ;
+	skos:prefLabel "Swiss-Italian Sign Language"@en ;
+	schema:name "Swiss-Italian Sign Language"@en ;
+	rdfs:label "Lingua dei segni della Svizzera italiana"@de ;
+	skos:prefLabel "Lingua dei segni della Svizzera italiana"@de ;
+	schema:name "Lingua dei segni della Svizzera italiana"@de ;
+	rdfs:label "Swiss-Italian Sign Language"@en-gb ;
+	skos:prefLabel "Swiss-Italian Sign Language"@en-gb ;
+	schema:name "Swiss-Italian Sign Language"@en-gb ;
+	rdfs:label "langue des signes de la Suisse italienne"@fr ;
+	skos:prefLabel "langue des signes de la Suisse italienne"@fr ;
+	schema:name "langue des signes de la Suisse italienne"@fr ;
+	rdfs:label "svis-itala signolingvo"@eo ;
+	skos:prefLabel "svis-itala signolingvo"@eo ;
+	schema:name "svis-itala signolingvo"@eo ;
+	rdfs:label "スイス＝イタリア手話"@ja ;
+	skos:prefLabel "スイス＝イタリア手話"@ja ;
+	schema:name "スイス＝イタリア手話"@ja ;
+	rdfs:label "Lingua dei segni della Svizzera italiana"@it ;
+	skos:prefLabel "Lingua dei segni della Svizzera italiana"@it ;
+	schema:name "Lingua dei segni della Svizzera italiana"@it ;
+	rdfs:label "švicarskoitalijanski znakovni jezik"@sl ;
+	skos:prefLabel "švicarskoitalijanski znakovni jezik"@sl ;
+	schema:name "švicarskoitalijanski znakovni jezik"@sl ;
+	schema:description "Swiss dialect of the Italian sign language"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"dialecte suisse de la langue des signes italienne"@fr,
+		"lingua dei segni"@it,
+		"Gebärdensprache"@de ;
+	skos:altLabel "Tessiner Gebärdensprache"@de,
+		"LIS-SI"@de,
+		"Italienischschweizer Gebärdensprache"@de .
+
+wd:Q20851032 owl:sameAs wd:Q12953479 .

@@ -1,0 +1,96 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953808 a schema:Dataset ;
+	schema:about wd:Q12953808 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1372606762"^^xsd:integer ;
+	schema:dateModified "2021-02-28T21:09:57Z"^^xsd:dateTime .
+
+wd:Q12953808 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_penan_ossidental> a schema:Article ;
+	schema:about wd:Q12953808 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga penan ossidental"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kipenan-Magharibi> a schema:Article ;
+	schema:about wd:Q12953808 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kipenan-Magharibi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953808 wdt:P220 "pne" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pne> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "west2563" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/west2563> ;
+	wdt:P279 wd:Q13601748 ;
+	wdt:P305 "pne" ;
+	wdt:P1627 "pne" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q833 ;
+	wdt:P2341 wd:Q170462 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PNE> ;
+	wdt:P910 wd:Q105715435 ;
+	rdfs:label "Lenga penan ossidental"@pms ;
+	skos:prefLabel "Lenga penan ossidental"@pms ;
+	schema:name "Lenga penan ossidental"@pms ;
+	rdfs:label "Western Penan"@en ;
+	skos:prefLabel "Western Penan"@en ;
+	schema:name "Western Penan"@en ;
+	rdfs:label "Kipenan-Magharibi"@sw ;
+	skos:prefLabel "Kipenan-Magharibi"@sw ;
+	schema:name "Kipenan-Magharibi"@sw ;
+	rdfs:label "Western Penan"@en-gb ;
+	skos:prefLabel "Western Penan"@en-gb ;
+	schema:name "Western Penan"@en-gb ;
+	rdfs:label "penan de l'Ouest"@fr ;
+	skos:prefLabel "penan de l'Ouest"@fr ;
+	schema:name "penan de l'Ouest"@fr ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue bornéo du Nord"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Western Penan language"@en .

@@ -1,0 +1,1429 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33690 a schema:Dataset ;
+	schema:about wd:Q33690 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912002937"^^xsd:integer ;
+	schema:dateModified "2023-06-10T07:18:06Z"^^xsd:dateTime .
+
+wd:Q33690 a wikibase:Item .
+
+<https://pl.wikibooks.org/wiki/Kaszubski> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikibooks.org/> ;
+	schema:name "Kaszubski"@pl .
+
+<https://pl.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://pl.wikiquote.org/wiki/J%C4%99zyk_kaszubski> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikiquote.org/> ;
+	schema:name "Język kaszubski"@pl .
+
+<https://pl.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://ru.wikibooks.org/wiki/%D0%9A%D0%B0%D1%88%D1%83%D0%B1%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikibooks.org/> ;
+	schema:name "Кашубский язык"@ru .
+
+<https://ru.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://en.wikipedia.org/wiki/Kashubian_language> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kashubian language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Kaschubische_Sprache> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Kaschubische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Cachoube> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Cachoube"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_casubio> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma casubio"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%88%D1%83%D0%B1%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Кашубский язык"@ru ;
+	wikibase:badge wd:Q17437796 .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_casciuba> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua casciuba"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%96%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "カシューブ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Kasjoebisch> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Kasjoebisch"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_kaszubski> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język kaszubski"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_cass%C3%BAbia> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua cassúbia"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%8D%A1%E8%88%92%E6%AF%94%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "卡舒比语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Kasjubiska> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Kasjubiska"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%DA%A9%D8%A7%D8%B4%D9%88%D8%A8%DB%8C> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان کاشوبی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%A7%D7%A9%D7%95%D7%91%D7%99%D7%AA> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "קשובית"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Ka%C5%9Fup%C3%A7a> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Kaşupça"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Kasub_nyelv> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Kasub nyelv"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Ka%C5%A1ubi> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Kašubi"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D9%83%D8%A7%D8%B4%D9%88%D8%A8%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "اللغة الكاشوبية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Kashubia> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Kashubia"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Kasjubisk> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Kasjubisk"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9A%D0%B0%D1%88%D1%83%D0%B1%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Кашубська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%B9%B4%EC%8A%88%EB%B8%8C%EC%96%B4> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "카슈브어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Caixubi> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Caixubi"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Ka%C5%A1ub%C5%A1tina> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Kašubština"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%9A%D0%B0%D1%88%D1%83%D0%BF%D1%81%D0%BA%D0%B8_%D1%98%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Кашупски језик"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Limba_ca%C8%99ub%C4%83> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Limba cașubă"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Kasubia> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Kasubia"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/Kasjubisk_(sprog)> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Kasjubisk (sprog)"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Kashubian_language> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Kashubian language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%9A%D0%B0%D1%88%D1%83%D0%B1%D1%81%D0%BA%D0%B8_%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Кашубски език"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Kasjoebies> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Kasjoebies"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://am.wikipedia.org/wiki/%E1%8A%AB%E1%88%B9%E1%89%A5%E1%8A%9B> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "am" ;
+	schema:isPartOf <https://am.wikipedia.org/> ;
+	schema:name "ካሹብኛ"@am .
+
+<https://am.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://an.wikipedia.org/wiki/Idioma_caixubo> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "an" ;
+	schema:isPartOf <https://an.wikipedia.org/> ;
+	schema:name "Idioma caixubo"@an .
+
+<https://an.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D8%A7%D9%84%D9%83%D8%A7%D8%B4%D9%88%D8%A8%D9%8A%D9%87> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "الكاشوبيه"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_caxubiu> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma caxubiu"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://avk.wikipedia.org/wiki/Kasz%C3%ABb_ava> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "avk" ;
+	schema:isPartOf <https://avk.wikipedia.org/> ;
+	schema:name "Kaszëb ava"@avk .
+
+<https://avk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Ka%C5%9Fub_dili> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Kaşub dili"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ba.wikipedia.org/wiki/%D0%9A%D0%B0%D1%88%D1%83%D0%B1_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "ba" ;
+	schema:isPartOf <https://ba.wikipedia.org/> ;
+	schema:name "Кашуб теле"@ba .
+
+<https://ba.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bat-smg.wikipedia.org/wiki/Ka%C5%A1obu_kalba> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "sgs" ;
+	schema:isPartOf <https://bat-smg.wikipedia.org/> ;
+	schema:name "Kašobu kalba"@sgs .
+
+<https://bat-smg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%9A%D0%B0%D1%88%D1%83%D0%B1%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Кашубская мова"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%9A%D0%B0%D1%88%D1%83%D0%B1%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Кашубская мова"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Kachoubeg> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Kachoubeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bs.wikipedia.org/wiki/Ka%C5%A1upski_jezik> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "bs" ;
+	schema:isPartOf <https://bs.wikipedia.org/> ;
+	schema:name "Kašupski jezik"@bs .
+
+<https://bs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://crh.wikipedia.org/wiki/Ka%C5%9Fub_tili> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "crh-Latn" ;
+	schema:isPartOf <https://crh.wikipedia.org/> ;
+	schema:name "Kaşub tili"@crh-Latn .
+
+<https://crh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://csb.wikipedia.org/wiki/Kasz%C3%ABbsczi_j%C3%A3z%C3%ABk> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "csb" ;
+	schema:isPartOf <https://csb.wikipedia.org/> ;
+	schema:name "Kaszëbsczi jãzëk"@csb .
+
+<https://csb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cu.wikipedia.org/wiki/%D0%9A%D0%B0%D1%88%D0%BE%D1%83%D0%B1%D1%8C%D1%81%D0%BA%D1%8A_%D1%A9%EA%99%81%EA%99%91%D0%BA%D1%8A> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "cu" ;
+	schema:isPartOf <https://cu.wikipedia.org/> ;
+	schema:name "Кашоубьскъ ѩꙁꙑкъ"@cu .
+
+<https://cu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cy.wikipedia.org/wiki/Casiwbeg> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "cy" ;
+	schema:isPartOf <https://cy.wikipedia.org/> ;
+	schema:name "Casiwbeg"@cy .
+
+<https://cy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dsb.wikipedia.org/wiki/Ka%C5%A1ubska_r%C4%9Bc> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "dsb" ;
+	schema:isPartOf <https://dsb.wikipedia.org/> ;
+	schema:name "Kašubska rěc"@dsb .
+
+<https://dsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%9A%CE%B1%CF%83%CE%BF%CF%85%CE%B2%CE%B9%CE%BA%CE%AE_%CE%B3%CE%BB%CF%8E%CF%83%CF%83%CE%B1> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Κασουβική γλώσσα"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Ka%C5%9Duba_lingvo> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Kaŝuba lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Ka%C5%A1uubi_keel> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Kašuubi keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Kaxubiera> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Kaxubiera"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fiu-vro.wikipedia.org/wiki/Kassuubi_kiil> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "vro" ;
+	schema:isPartOf <https://fiu-vro.wikipedia.org/> ;
+	schema:name "Kassuubi kiil"@vro .
+
+<https://fiu-vro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Kaschuubisk_Spriik> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Kaschuubisk Spriik"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fy.wikipedia.org/wiki/Kasj%C3%BBbysk> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "fy" ;
+	schema:isPartOf <https://fy.wikipedia.org/> ;
+	schema:name "Kasjûbysk"@fy .
+
+<https://fy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_caxubia> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua caxubia"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gv.wikipedia.org/wiki/Kashoobish> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "gv" ;
+	schema:isPartOf <https://gv.wikipedia.org/> ;
+	schema:name "Kashoobish"@gv .
+
+<https://gv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hak.wikipedia.org/wiki/Kashubia-ng%C3%AE> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "hak" ;
+	schema:isPartOf <https://hak.wikipedia.org/> ;
+	schema:name "Kashubia-ngî"@hak .
+
+<https://hak.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Kashubian_language> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Kashubian language"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Ka%C5%A1upski_jezik> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Kašupski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hsb.wikipedia.org/wiki/Ka%C5%A1ub%C5%A1%C4%87ina> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "hsb" ;
+	schema:isPartOf <https://hsb.wikipedia.org/> ;
+	schema:name "Kašubšćina"@hsb .
+
+<https://hsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Kasubio> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Kasubio"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://io.wikipedia.org/wiki/Kashubana_linguo> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "io" ;
+	schema:isPartOf <https://io.wikipedia.org/> ;
+	schema:name "Kashubana linguo"@io .
+
+<https://io.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/Kass%C3%BAb%C3%ADska> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Kassúbíska"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%99%E1%83%90%E1%83%A8%E1%83%A3%E1%83%91%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%94%E1%83%9C%E1%83%90> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "კაშუბური ენა"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ku.wikipedia.org/wiki/Ziman%C3%AA_ke%C5%9F%C3%BBb%C3%AE> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "ku" ;
+	schema:isPartOf <https://ku.wikipedia.org/> ;
+	schema:name "Zimanê keşûbî"@ku .
+
+<https://ku.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%9A%D0%B0%D1%88%D1%83%D0%B1_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Кашуб кыв"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kw.wikipedia.org/wiki/Kashoubek> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "kw" ;
+	schema:isPartOf <https://kw.wikipedia.org/> ;
+	schema:name "Kashoubek"@kw .
+
+<https://kw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Cassubica> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Cassubica"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lb.wikipedia.org/wiki/Kaschubesch> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "lb" ;
+	schema:isPartOf <https://lb.wikipedia.org/> ;
+	schema:name "Kaschubesch"@lb .
+
+<https://lb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://li.wikipedia.org/wiki/Kasjoebisch> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "li" ;
+	schema:isPartOf <https://li.wikipedia.org/> ;
+	schema:name "Kasjoebisch"@li .
+
+<https://li.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lij.wikipedia.org/wiki/Lengua_casciuba> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "lij" ;
+	schema:isPartOf <https://lij.wikipedia.org/> ;
+	schema:name "Lengua casciuba"@lij .
+
+<https://lij.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lmo.wikipedia.org/wiki/Lengua_casciuba> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "lmo" ;
+	schema:isPartOf <https://lmo.wikipedia.org/> ;
+	schema:name "Lengua casciuba"@lmo .
+
+<https://lmo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Ka%C5%A1ub%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Kašubų kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Ka%C5%A1%C5%ABbu_valoda> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Kašūbu valoda"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mhr.wikipedia.org/wiki/%D0%9A%D0%B0%D1%88%D1%83%D0%B1_%D0%B9%D1%8B%D0%BB%D0%BC%D0%B5> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "mhr" ;
+	schema:isPartOf <https://mhr.wikipedia.org/> ;
+	schema:name "Кашуб йылме"@mhr .
+
+<https://mhr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%9A%D0%B0%D1%88%D1%83%D0%BF%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Кашупски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nap.wikipedia.org/wiki/Lengua_casciuba> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "nap" ;
+	schema:isPartOf <https://nap.wikipedia.org/> ;
+	schema:name "Lengua casciuba"@nap .
+
+<https://nap.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nds.wikipedia.org/wiki/Kaschuubsche_Spraak> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "nds" ;
+	schema:isPartOf <https://nds.wikipedia.org/> ;
+	schema:name "Kaschuubsche Spraak"@nds .
+
+<https://nds.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Kasjubisk> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Kasjubisk"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Cashob> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Cashob"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kashubian> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kashubian"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%DA%A9%D8%B4%D9%88%D8%A8%DB%8C%D8%A7%DA%BA> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "کشوبیاں"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://scn.wikipedia.org/wiki/Lincua_kasciubbiana> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "scn" ;
+	schema:isPartOf <https://scn.wikipedia.org/> ;
+	schema:name "Lincua kasciubbiana"@scn .
+
+<https://scn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sco.wikipedia.org/wiki/Kashubian_leid> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "sco" ;
+	schema:isPartOf <https://sco.wikipedia.org/> ;
+	schema:name "Kashubian leid"@sco .
+
+<https://sco.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Ka%C5%A1upski_jezik> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Kašupski jezik"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sk.wikipedia.org/wiki/Ka%C5%A1ub%C4%8Dina> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "sk" ;
+	schema:isPartOf <https://sk.wikipedia.org/> ;
+	schema:name "Kašubčina"@sk .
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sl.wikipedia.org/wiki/Ka%C5%A1ub%C5%A1%C4%8Dina> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikipedia.org/> ;
+	schema:name "Kašubščina"@sl .
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://stq.wikipedia.org/wiki/Kaschubiske_Sproake> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "stq" ;
+	schema:isPartOf <https://stq.wikipedia.org/> ;
+	schema:name "Kaschubiske Sproake"@stq .
+
+<https://stq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szl.wikipedia.org/wiki/Kaszubsko_godka> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "szl" ;
+	schema:isPartOf <https://szl.wikipedia.org/> ;
+	schema:name "Kaszubsko godka"@szl .
+
+<https://szl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%95%E0%AE%9A%E0%AF%81%E0%AE%AA%E0%AE%BF%E0%AE%AF_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "கசுபிய மொழி"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://udm.wikipedia.org/wiki/%D0%9A%D0%B0%D1%88%D1%83%D0%B1_%D0%BA%D1%8B%D0%BB> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "udm" ;
+	schema:isPartOf <https://udm.wikipedia.org/> ;
+	schema:name "Кашуб кыл"@udm .
+
+<https://udm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%DA%A9%D8%A7%D8%B4%D9%88%D8%A8%DB%8C%D8%A7%D8%A6%DB%8C_%D8%B2%D8%A8%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "کاشوبیائی زبان"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E5%8D%A1%E8%88%92%E6%AF%94%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "卡舒比语"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://xmf.wikipedia.org/wiki/%E1%83%99%E1%83%90%E1%83%A8%E1%83%A3%E1%83%91%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%9C%E1%83%98%E1%83%9C%E1%83%90> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "xmf" ;
+	schema:isPartOf <https://xmf.wikipedia.org/> ;
+	schema:name "კაშუბური ნინა"@xmf .
+
+<https://xmf.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://yi.wikipedia.org/wiki/%D7%A7%D7%90%D7%A9%D7%95%D7%91%D7%99%D7%A9> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "yi" ;
+	schema:isPartOf <https://yi.wikipedia.org/> ;
+	schema:name "קאשוביש"@yi .
+
+<https://yi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E5%8D%A1%E8%88%92%E6%AF%94%E6%96%87> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "卡舒比文"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Kasubyo> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Kasubyo"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cv.wikipedia.org/wiki/%D0%9A%D0%B0%D1%88%D1%83%D0%BF_%D1%87%C4%95%D0%BB%D1%85%D0%B8> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "cv" ;
+	schema:isPartOf <https://cv.wikipedia.org/> ;
+	schema:name "Кашуп чĕлхи"@cv .
+
+<https://cv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%A0%E1%B1%9F%E1%B1%A5%E1%B1%A9%E1%B1%B5%E1%B1%A4%E1%B1%AD%E1%B1%9F%E1%B1%B1_%E1%B1%AF%E1%B1%9F%E1%B1%B9%E1%B1%A8%E1%B1%A5%E1%B1%A4> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱠᱟᱥᱩᱵᱤᱭᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wiktionary.org/wiki/Wiktionary:Kaschubisch> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wiktionary.org/> ;
+	schema:name "Wiktionary:Kaschubisch"@de .
+
+<https://de.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://vo.wikipedia.org/wiki/Kasub> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "vo" ;
+	schema:isPartOf <https://vo.wikipedia.org/> ;
+	schema:name "Kasub"@vo .
+
+<https://vo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lez.wikipedia.org/wiki/%D0%9A%D0%B0%D1%88%D1%83%D0%B1_%D1%87%D3%80%D0%B0%D0%BB> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "lez" ;
+	schema:isPartOf <https://lez.wikipedia.org/> ;
+	schema:name "Кашуб чӀал"@lez .
+
+<https://lez.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wiktionary.org/wiki/Wiktionary:About_Kashubian> a schema:Article ;
+	schema:about wd:Q33690 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wiktionary.org/> ;
+	schema:name "Wiktionary:About Kashubian"@en .
+
+<https://en.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+wd:Q33690 wdt:P1018 wd:Q10981753 ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P373 "Kashubian language" ;
+	wdt:P219 "csb" ;
+	wdt:P220 "csb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/csb> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P910 wd:Q16012557 ;
+	wdt:P646 "/m/04dgs" ;
+	wdt:P227 "4120216-8" ;
+	wdtn:P227 <https://d-nb.info/gnd/4120216-8> ;
+	wdt:P424 "csb" ;
+	wdt:P305 "csb" ;
+	wdt:P279 wd:Q742782 ;
+	wdt:P1627 "csb" ;
+	wdt:P1705 "Kaszëbsczi jãzëk"@csb,
+		"Kaszëbskô mòwa"@csb ;
+	wdt:P1098 "+108000"^^xsd:decimal ;
+	wdt:P1394 "kash1274" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kash1274> ;
+	wdt:P2355 "370" ;
+	wdt:P244 "sh85071708" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85071708> ;
+	wdt:P268 "11993905n" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb11993905n#about> ;
+	wdt:P2579 wd:Q149678 ;
+	wdt:P17 wd:Q36,
+		wd:Q16,
+		wd:Q30 ;
+	wdt:P131 wd:Q54180 ;
+	wdt:P3417 "Kashubian" ;
+	wdt:P508 "36812" ;
+	wdtn:P508 <http://purl.org/bncf/tid/36812> ;
+	wdt:P4132 wd:Q651641 ;
+	wdt:P1417 "topic/Kashubian-language" ;
+	wdt:P1466 "ksu" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ksu> ;
+	wdt:P1014 "300388559" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388559> ;
+	wdt:P1846 <http://commons.wikimedia.org/wiki/Special:FilePath/Polska-dialekty%20wg%20Urba%C5%84czyka.PNG> ;
+	wdt:P2192 "3454" ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P4801 "languages/csb" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/csb> ;
+	wdt:P2341 wd:Q54180 ;
+	wdt:P1296 "0165636" ;
+	wdt:P1245 "156475" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CSB> ;
+	wdt:P7084 wd:Q84969940 ;
+	wdt:P2347 "28551" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p28551> ;
+	wdt:P8408 "KashubianLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/KashubianLanguage> ;
+	wdt:P2924 "2054860" ;
+	wdt:P1889 wd:Q147239 ;
+	wdt:P9498 "620a",
+		"25db" ;
+	wdt:P7305 "3921050" ;
+	wdt:P9060 "csb" ;
+	wdt:P8189 "987007541062605171" ;
+	wdt:P4342 "kasjubisk" ;
+	wdt:P10369 "Q253" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q253> ;
+	wdt:P691 "ph172903" ;
+	wdt:P1424 wd:Q22830751 ;
+	wdt:P11514 "kashubskii-iazyk-6902d6" ;
+	wdt:P10565 "234113" ;
+	rdfs:label "Kaszubsko godka"@szl ;
+	skos:prefLabel "Kaszubsko godka"@szl ;
+	schema:name "Kaszubsko godka"@szl ;
+	rdfs:label "卡舒比语"@zh ;
+	skos:prefLabel "卡舒比语"@zh ;
+	schema:name "卡舒比语"@zh ;
+	rdfs:label "język kaszubski"@pl ;
+	skos:prefLabel "język kaszubski"@pl ;
+	schema:name "język kaszubski"@pl ;
+	rdfs:label "Kaxubiera"@eu ;
+	skos:prefLabel "Kaxubiera"@eu ;
+	schema:name "Kaxubiera"@eu ;
+	rdfs:label "casubio"@es ;
+	skos:prefLabel "casubio"@es ;
+	schema:name "casubio"@es ;
+	rdfs:label "கசுபிய மொழி"@ta ;
+	skos:prefLabel "கசுபிய மொழி"@ta ;
+	schema:name "கசுபிய மொழி"@ta ;
+	rdfs:label "Kasjoebies"@af ;
+	skos:prefLabel "Kasjoebies"@af ;
+	schema:name "Kasjoebies"@af ;
+	rdfs:label "Lengua casciuba"@lij ;
+	skos:prefLabel "Lengua casciuba"@lij ;
+	schema:name "Lengua casciuba"@lij ;
+	rdfs:label "Cashob"@oc ;
+	skos:prefLabel "Cashob"@oc ;
+	schema:name "Cashob"@oc ;
+	rdfs:label "kasub"@hu ;
+	skos:prefLabel "kasub"@hu ;
+	schema:name "kasub"@hu ;
+	rdfs:label "Kašuubi keel"@et ;
+	skos:prefLabel "Kašuubi keel"@et ;
+	schema:name "Kašuubi keel"@et ;
+	rdfs:label "kachoubeg"@br ;
+	skos:prefLabel "kachoubeg"@br ;
+	schema:name "kachoubeg"@br ;
+	rdfs:label "Κασουμπιανή γλώσσα"@el ;
+	skos:prefLabel "Κασουμπιανή γλώσσα"@el ;
+	schema:name "Κασουμπιανή γλώσσα"@el ;
+	rdfs:label "ካሹብኛ"@am ;
+	skos:prefLabel "ካሹብኛ"@am ;
+	schema:name "ካሹብኛ"@am ;
+	rdfs:label "Kaşub tili"@crh-latn ;
+	skos:prefLabel "Kaşub tili"@crh-latn ;
+	schema:name "Kaşub tili"@crh-latn ;
+	rdfs:label "کشوبیاں"@pnb ;
+	skos:prefLabel "کشوبیاں"@pnb ;
+	schema:name "کشوبیاں"@pnb ;
+	rdfs:label "Kasjoebisch"@nl ;
+	skos:prefLabel "Kasjoebisch"@nl ;
+	schema:name "Kasjoebisch"@nl ;
+	rdfs:label "الكاشوبية"@ar ;
+	skos:prefLabel "الكاشوبية"@ar ;
+	schema:name "الكاشوبية"@ar ;
+	rdfs:label "kasjubiska"@sv ;
+	skos:prefLabel "kasjubiska"@sv ;
+	schema:name "kasjubiska"@sv ;
+	rdfs:label "cassúbio"@pt ;
+	skos:prefLabel "cassúbio"@pt ;
+	schema:name "cassúbio"@pt ;
+	rdfs:label "kaŝuba lingvo"@eo ;
+	skos:prefLabel "kaŝuba lingvo"@eo ;
+	schema:name "kaŝuba lingvo"@eo ;
+	rdfs:label "Kassúbíska"@is ;
+	skos:prefLabel "Kassúbíska"@is ;
+	schema:name "Kassúbíska"@is ;
+	rdfs:label "קאשוביש"@yi ;
+	skos:prefLabel "קאשוביש"@yi ;
+	schema:name "קאשוביש"@yi ;
+	rdfs:label "кашубский язык"@ru ;
+	skos:prefLabel "кашубский язык"@ru ;
+	schema:name "кашубский язык"@ru ;
+	rdfs:label "Cachubu"@ast ;
+	skos:prefLabel "Cachubu"@ast ;
+	schema:name "Cachubu"@ast ;
+	rdfs:label "кашупски језик"@sr ;
+	skos:prefLabel "кашупски језик"@sr ;
+	schema:name "кашупски језик"@sr ;
+	rdfs:label "Kasjubiskisut"@kl ;
+	skos:prefLabel "Kasjubiskisut"@kl ;
+	schema:name "Kasjubiskisut"@kl ;
+	rdfs:label "Кашупски јазик"@mk ;
+	skos:prefLabel "Кашупски јазик"@mk ;
+	schema:name "Кашупски јазик"@mk ;
+	rdfs:label "Kaschubiske Sproake"@stq ;
+	skos:prefLabel "Kaschubiske Sproake"@stq ;
+	schema:name "Kaschubiske Sproake"@stq ;
+	rdfs:label "kašubi"@fi ;
+	skos:prefLabel "kašubi"@fi ;
+	schema:name "kašubi"@fi ;
+	rdfs:label "кашубська мова"@uk ;
+	skos:prefLabel "кашубська мова"@uk ;
+	schema:name "кашубська мова"@uk ;
+	rdfs:label "кашубская мова"@be-tarask ;
+	skos:prefLabel "кашубская мова"@be-tarask ;
+	schema:name "кашубская мова"@be-tarask ;
+	rdfs:label "kasjubisk"@nn ;
+	skos:prefLabel "kasjubisk"@nn ;
+	schema:name "kasjubisk"@nn ;
+	rdfs:label "Kashubana linguo"@io ;
+	skos:prefLabel "Kashubana linguo"@io ;
+	schema:name "Kashubana linguo"@io ;
+	rdfs:label "Кашуб кыв"@kv ;
+	skos:prefLabel "Кашуб кыв"@kv ;
+	schema:name "Кашуб кыв"@kv ;
+	rdfs:label "Kaşub dili"@az ;
+	skos:prefLabel "Kaşub dili"@az ;
+	schema:name "Kaşub dili"@az ;
+	rdfs:label "Kašupski jezik"@hr ;
+	skos:prefLabel "Kašupski jezik"@hr ;
+	schema:name "Kašupski jezik"@hr ;
+	rdfs:label "Lengua casciuba"@nap ;
+	skos:prefLabel "Lengua casciuba"@nap ;
+	schema:name "Lengua casciuba"@nap ;
+	rdfs:label "kaszëbsczi jãzëk"@csb ;
+	skos:prefLabel "kaszëbsczi jãzëk"@csb ;
+	schema:name "kaszëbsczi jãzëk"@csb ;
+	rdfs:label "Kasjubisk"@da ;
+	skos:prefLabel "Kasjubisk"@da ;
+	schema:name "Kasjubisk"@da ;
+	rdfs:label "Idioma caixubio"@an ;
+	skos:prefLabel "Idioma caixubio"@an ;
+	schema:name "Idioma caixubio"@an ;
+	rdfs:label "Lenga Kashubian"@pms ;
+	skos:prefLabel "Lenga Kashubian"@pms ;
+	schema:name "Lenga Kashubian"@pms ;
+	rdfs:label "cachoube"@fr ;
+	skos:prefLabel "cachoube"@fr ;
+	schema:name "cachoube"@fr ;
+	rdfs:label "кашубская мова"@be ;
+	skos:prefLabel "кашубская мова"@be ;
+	schema:name "кашубская мова"@be ;
+	rdfs:label "קשובית"@he ;
+	skos:prefLabel "קשובית"@he ;
+	schema:name "קשובית"@he ;
+	rdfs:label "카슈브어"@ko ;
+	skos:prefLabel "카슈브어"@ko ;
+	schema:name "카슈브어"@ko ;
+	rdfs:label "Lingua kashubya"@lad ;
+	skos:prefLabel "Lingua kashubya"@lad ;
+	schema:name "Lingua kashubya"@lad ;
+	rdfs:label "kašūbu valoda"@lv ;
+	skos:prefLabel "kašūbu valoda"@lv ;
+	schema:name "kašūbu valoda"@lv ;
+	rdfs:label "casciubo"@it ;
+	skos:prefLabel "casciubo"@it ;
+	schema:name "casciubo"@it ;
+	rdfs:label "Kasjoebisch"@li ;
+	skos:prefLabel "Kasjoebisch"@li ;
+	schema:name "Kasjoebisch"@li ;
+	rdfs:label "Lingua caxubia"@gl ;
+	skos:prefLabel "Lingua caxubia"@gl ;
+	schema:name "Lingua caxubia"@gl ;
+	rdfs:label "bahasa Kasubia"@id ;
+	skos:prefLabel "bahasa Kasubia"@id ;
+	schema:name "bahasa Kasubia"@id ;
+	rdfs:label "Kaschubisch"@de ;
+	skos:prefLabel "Kaschubisch"@de ;
+	schema:name "Kaschubisch"@de ;
+	rdfs:label "カシューブ語"@ja ;
+	skos:prefLabel "カシューブ語"@ja ;
+	schema:name "カシューブ語"@ja ;
+	rdfs:label "tiếng Kashubia"@vi ;
+	skos:prefLabel "tiếng Kashubia"@vi ;
+	schema:name "tiếng Kashubia"@vi ;
+	rdfs:label "Kashubian"@en ;
+	skos:prefLabel "Kashubian"@en ;
+	schema:name "Kashubian"@en ;
+	rdfs:label "Kašupski jezik"@sh ;
+	skos:prefLabel "Kašupski jezik"@sh ;
+	schema:name "Kašupski jezik"@sh ;
+	rdfs:label "Lincua kasciubbiana"@scn ;
+	skos:prefLabel "Lincua kasciubbiana"@scn ;
+	schema:name "Lincua kasciubbiana"@scn ;
+	rdfs:label "Кашоубьскъ ѩꙁꙑкъ"@cu ;
+	skos:prefLabel "Кашоубьскъ ѩꙁꙑкъ"@cu ;
+	schema:name "Кашоубьскъ ѩꙁꙑкъ"@cu ;
+	rdfs:label "Kašubšćina"@hsb ;
+	skos:prefLabel "Kašubšćina"@hsb ;
+	schema:name "Kašubšćina"@hsb ;
+	rdfs:label "Kašubčina"@sk ;
+	skos:prefLabel "Kašubčina"@sk ;
+	schema:name "Kašubčina"@sk ;
+	rdfs:label "Zimanê keşûbî"@ku ;
+	skos:prefLabel "Zimanê keşûbî"@ku ;
+	schema:name "Zimanê keşûbî"@ku ;
+	rdfs:label "Кашуб чĕлхи"@cv ;
+	skos:prefLabel "Кашуб чĕлхи"@cv ;
+	schema:name "Кашуб чĕлхи"@cv ;
+	rdfs:label "Limba cașubă"@ro ;
+	skos:prefLabel "Limba cașubă"@ro ;
+	schema:name "Limba cașubă"@ro ;
+	rdfs:label "caixubi"@ca ;
+	skos:prefLabel "caixubi"@ca ;
+	schema:name "caixubi"@ca ;
+	rdfs:label "lingua Cassubica"@la ;
+	skos:prefLabel "lingua Cassubica"@la ;
+	schema:name "lingua Cassubica"@la ;
+	rdfs:label "Kašubščina"@sl ;
+	skos:prefLabel "Kašubščina"@sl ;
+	schema:name "Kašubščina"@sl ;
+	rdfs:label "kašubština"@cs ;
+	skos:prefLabel "kašubština"@cs ;
+	schema:name "kašubština"@cs ;
+	rdfs:label "Кашуб йылме"@mhr ;
+	skos:prefLabel "Кашуб йылме"@mhr ;
+	schema:name "Кашуб йылме"@mhr ;
+	rdfs:label "Kašobu kalba"@sgs ;
+	skos:prefLabel "Kašobu kalba"@sgs ;
+	schema:name "Kašobu kalba"@sgs ;
+	rdfs:label "زبان کاشوبی"@fa ;
+	skos:prefLabel "زبان کاشوبی"@fa ;
+	schema:name "زبان کاشوبی"@fa ;
+	rdfs:label "Кашубски език"@bg ;
+	skos:prefLabel "Кашубски език"@bg ;
+	schema:name "Кашубски език"@bg ;
+	rdfs:label "კაშუბური ენა"@ka ;
+	skos:prefLabel "კაშუბური ენა"@ka ;
+	schema:name "კაშუბური ენა"@ka ;
+	rdfs:label "Kašubska rěc"@dsb ;
+	skos:prefLabel "Kašubska rěc"@dsb ;
+	schema:name "Kašubska rěc"@dsb ;
+	rdfs:label "Kaschuubsch"@nds ;
+	skos:prefLabel "Kaschuubsch"@nds ;
+	schema:name "Kaschuubsch"@nds ;
+	rdfs:label "Kašubų kalba"@lt ;
+	skos:prefLabel "Kašubų kalba"@lt ;
+	schema:name "Kašubų kalba"@lt ;
+	rdfs:label "Kassuubi kiil"@vro ;
+	skos:prefLabel "Kassuubi kiil"@vro ;
+	schema:name "Kassuubi kiil"@vro ;
+	rdfs:label "Kashoobish"@gv ;
+	skos:prefLabel "Kashoobish"@gv ;
+	schema:name "Kashoobish"@gv ;
+	rdfs:label "Кашуб теле"@ba ;
+	skos:prefLabel "Кашуб теле"@ba ;
+	schema:name "Кашуб теле"@ba ;
+	rdfs:label "Kaşupça"@tr ;
+	skos:prefLabel "Kaşupça"@tr ;
+	schema:name "Kaşupça"@tr ;
+	rdfs:label "Kashubian leid"@sco ;
+	skos:prefLabel "Kashubian leid"@sco ;
+	schema:name "Kashubian leid"@sco ;
+	rdfs:label "kasjubisk"@nb ;
+	skos:prefLabel "kasjubisk"@nb ;
+	schema:name "kasjubisk"@nb ;
+	rdfs:label "Kasubio"@ilo ;
+	skos:prefLabel "Kasubio"@ilo ;
+	schema:name "Kasubio"@ilo ;
+	rdfs:label "Casiwbeg"@cy ;
+	skos:prefLabel "Casiwbeg"@cy ;
+	schema:name "Casiwbeg"@cy ;
+	rdfs:label "Померан чIал"@lez ;
+	skos:prefLabel "Померан чIал"@lez ;
+	schema:name "Померан чIал"@lez ;
+	rdfs:label "Kasjûbysk"@fy ;
+	skos:prefLabel "Kasjûbysk"@fy ;
+	schema:name "Kasjûbysk"@fy ;
+	rdfs:label "кашупски језик"@sr-ec ;
+	skos:prefLabel "кашупски језик"@sr-ec ;
+	schema:name "кашупски језик"@sr-ec ;
+	rdfs:label "kašupski jezik"@sr-el ;
+	skos:prefLabel "kašupski jezik"@sr-el ;
+	schema:name "kašupski jezik"@sr-el ;
+	rdfs:label "Khà-sû-pí-ngî"@hak ;
+	skos:prefLabel "Khà-sû-pí-ngî"@hak ;
+	schema:name "Khà-sû-pí-ngî"@hak ;
+	rdfs:label "Kašupski jezik"@bs ;
+	skos:prefLabel "Kašupski jezik"@bs ;
+	schema:name "Kašupski jezik"@bs ;
+	rdfs:label "Kaschubisch"@de-ch ;
+	skos:prefLabel "Kaschubisch"@de-ch ;
+	schema:name "Kaschubisch"@de-ch ;
+	rdfs:label "Kashubian"@en-ca ;
+	skos:prefLabel "Kashubian"@en-ca ;
+	schema:name "Kashubian"@en-ca ;
+	rdfs:label "Kashubian"@en-gb ;
+	skos:prefLabel "Kashubian"@en-gb ;
+	schema:name "Kashubian"@en-gb ;
+	rdfs:label "Kaschubesch"@lb ;
+	skos:prefLabel "Kaschubesch"@lb ;
+	schema:name "Kaschubesch"@lb ;
+	rdfs:label "Língua cassúbia"@pt-br ;
+	skos:prefLabel "Língua cassúbia"@pt-br ;
+	schema:name "Língua cassúbia"@pt-br ;
+	rdfs:label "卡舒比文"@yue ;
+	skos:prefLabel "卡舒比文"@yue ;
+	schema:name "卡舒比文"@yue ;
+	rdfs:label "Kashoubek"@kw ;
+	skos:prefLabel "Kashoubek"@kw ;
+	schema:name "Kashoubek"@kw ;
+	rdfs:label "Кашуб кыл"@udm ;
+	skos:prefLabel "Кашуб кыл"@udm ;
+	schema:name "Кашуб кыл"@udm ;
+	rdfs:label "კაშუბური ნინა"@xmf ;
+	skos:prefLabel "კაშუბური ნინა"@xmf ;
+	schema:name "კაშუბური ნინა"@xmf ;
+	rdfs:label "کاشوبیائی زبان"@ur ;
+	skos:prefLabel "کاشوبیائی زبان"@ur ;
+	schema:name "کاشوبیائی زبان"@ur ;
+	rdfs:label "Kaxubjan"@mt ;
+	skos:prefLabel "Kaxubjan"@mt ;
+	schema:name "Kaxubjan"@mt ;
+	rdfs:label "Kashubian language"@hif ;
+	skos:prefLabel "Kashubian language"@hif ;
+	schema:name "Kashubian language"@hif ;
+	rdfs:label "Kaşub tili"@crh ;
+	skos:prefLabel "Kaşub tili"@crh ;
+	schema:name "Kaşub tili"@crh ;
+	rdfs:label "Wikang Kasubyo"@tl ;
+	skos:prefLabel "Wikang Kasubyo"@tl ;
+	schema:name "Wikang Kasubyo"@tl ;
+	rdfs:label "Kaschuubisk Spriik"@frr ;
+	skos:prefLabel "Kaschuubisk Spriik"@frr ;
+	schema:name "Kaschuubisk Spriik"@frr ;
+	rdfs:label "卡舒比语"@wuu ;
+	skos:prefLabel "卡舒比语"@wuu ;
+	schema:name "卡舒比语"@wuu ;
+	rdfs:label "Lengua casciuba"@lmo ;
+	skos:prefLabel "Lengua casciuba"@lmo ;
+	schema:name "Lengua casciuba"@lmo ;
+	rdfs:label "الكاشوبيه"@arz ;
+	skos:prefLabel "الكاشوبيه"@arz ;
+	schema:name "الكاشوبيه"@arz ;
+	rdfs:label "Kaszëb ava"@avk ;
+	skos:prefLabel "Kaszëb ava"@avk ;
+	schema:name "Kaszëb ava"@avk ;
+	rdfs:label "ᱠᱟᱥᱩᱵᱤᱭᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	skos:prefLabel "ᱠᱟᱥᱩᱵᱤᱭᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	schema:name "ᱠᱟᱥᱩᱵᱤᱭᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	rdfs:label "casubo"@vec ;
+	skos:prefLabel "casubo"@vec ;
+	schema:name "casubo"@vec ;
+	rdfs:label "Kajubänapük"@vo ;
+	skos:prefLabel "Kajubänapük"@vo ;
+	schema:name "Kajubänapük"@vo ;
+	rdfs:label "ਕਾਸ਼ੂਬੀਅਨ"@pa ;
+	skos:prefLabel "ਕਾਸ਼ੂਬੀਅਨ"@pa ;
+	schema:name "ਕਾਸ਼ੂਬੀਅਨ"@pa ;
+	schema:description "Slav dillerinin bir alt grubu olan Lehit dillerinden biridir."@tr,
+		"lengua de la familia eslava"@es,
+		"Sprache"@de,
+		"lingua indoeuropea parlata in Polonia"@it,
+		"West Slavic language spoken in Poland"@en,
+		"pagsasao nga Indo-Europeano nga insasao idiay Polonia"@ilo,
+		"język zachodniosłowiański czasem uznawany za dialekt polskiego"@pl,
+		"заходнеславянская мова, лехіцкай падгрупы. Размаўляюць на ёй у мясцовасцях, што ляжаць на захад і поўдзень ад Гданьска"@be,
+		"Vestslavisk indoeuropæisk sprog, der tales af 108.000 mennesker"@da,
+		"taal"@nl,
+		"langue slave occidentale parlée en Pologne"@fr,
+		"שפה"@he,
+		"nyelv"@hu,
+		"språk inom den lechitiska grenen av de västslaviska språken"@sv,
+		"yezh"@br,
+		"mòwa z zôpôdnosłowiańsczégò karna słowiańsczich jãzëków"@csb,
+		"lingua"@la,
+		"iaith"@cy,
+		"индоевропски јазик"@mk,
+		"западнославянский язык лехитской подгруппы"@ru,
+		"lingua da familia eslava falada polo pobo caxubio"@gl,
+		"språk"@nb,
+		"rietumslāvu valoda, izplatīta Polijā"@lv,
+		"idioma lequítico da família das línguas eslavas ocidentais"@pt,
+		"okcidentslava lingvo, parolata en Pollando"@eo,
+		"لغة فرعية صغيرة في بولندا"@ar,
+		"слов'янська мова, належить до групи західнослов'янських мов"@uk,
+		"západoslovanský jazyk"@cs,
+		"ਭਾਸ਼ਾ"@pa,
+		"zapadnoslavenski jezik"@hr,
+		"slaavilainen kieli"@fi,
+		"llengua eslava del nord de Polònia"@ca,
+		"zapadnoslavenski jezik"@bs,
+		"bagian dari rumpun bahasa Indo-Eropa"@id ;
+	skos:altLabel "Kašubsko godka"@szl,
+		"卡舒布语"@zh,
+		"卡舒布語"@zh,
+		"卡舒比語"@zh,
+		"csb"@zh,
+		"kaszubszczyzna"@pl,
+		"etnolekt kaszubski"@pl,
+		"gwara kaszubska"@pl,
+		"dialekt kaszubski"@pl,
+		"narzecze kaszubskie"@pl,
+		"Kashubiera"@eu,
+		"Kasubiera"@eu,
+		"Cassubiera"@eu,
+		"Idioma kashubo"@es,
+		"Cachubo"@es,
+		"Casubiano"@es,
+		"Idioma casubiano"@es,
+		"Kaszëbsczi"@es,
+		"Idioma casubio"@es,
+		"csb"@es,
+		"Cachob"@oc,
+		"Kashubisch"@nl,
+		"Pomeranska"@sv,
+		"Casúbio"@pt,
+		"Língua cachúbia"@pt,
+		"Cachúbio"@pt,
+		"Língua cassúbia"@pt,
+		"Kaŝube"@eo,
+		"кашубский"@ru,
+		"поморский язык"@ru,
+		"поморско-кашубский язык"@ru,
+		"кашубско-поморский язык"@ru,
+		"кашубско-словинский язык"@ru,
+		"кашебский язык"@ru,
+		"csb"@ru,
+		"Кашубски језик"@sr,
+		"Кашубијски језик"@sr,
+		"Kašubski jezik"@hr,
+		"Istočnorusinski jezik"@hr,
+		"Kašupski"@hr,
+		"Kassubisk"@da,
+		"Kaszëbsczi jãzëk"@da,
+		"Caxubio"@an,
+		"Caixubio"@an,
+		"Caxubo"@an,
+		"Idioma caixubo"@an,
+		"Idioma caxubo"@an,
+		"Idioma caxubio"@an,
+		"Caixubo"@an,
+		"Kachoube"@fr,
+		"csb"@fr,
+		"Kaszëbsczi jãzëk"@lv,
+		"kašubu valoda"@lv,
+		"Lingua casubia"@gl,
+		"Lingua caxuba"@gl,
+		"Caxubo"@gl,
+		"Kasubia"@id,
+		"bahasa Kashubia"@id,
+		"csb"@de,
+		"kaschubische Sprache"@de,
+		"カシュブ語"@ja,
+		"csb"@ja,
+		"tiếng Casubia"@vi,
+		"Кашоу́бьскъ ѩꙁꙑ́къ"@cu,
+		"Кашѹбьскъ ѩзыкъ"@cu,
+		"Кашоубьскъ ѩзыкъ"@cu,
+		"Limba kașubiană"@ro,
+		"Limba caşubă"@ro,
+		"Limba kaşubiană"@ro,
+		"Limba cașubiană"@ro,
+		"Limba casubiană"@ro,
+		"Limba caşubiană"@ro,
+		"Kašubšćina"@dsb,
+		"Kaschubsch"@nds,
+		"Kaşubca"@tr,
+		"Cassubian"@en,
+		"csb"@en,
+		"Kashubian language"@en,
+		"kasjubisk språk"@nb,
+		"lingua casciuba"@it,
+		"كاشوبية"@ar,
+		"카슈비아어"@ko,
+		"kaszëbskò mòwa"@csb,
+		"csb"@csb,
+		"ਕਾਸ਼ੂਬੀਅਨ ਭਾਸ਼ਾ"@pa,
+		"kašubin kieli"@fi,
+		"kashubin kieli"@fi,
+		"kashubi"@fi,
+		"kasubi"@fi,
+		"kasubin kieli"@fi .

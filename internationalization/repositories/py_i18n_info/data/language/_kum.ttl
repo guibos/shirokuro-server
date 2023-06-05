@@ -1,0 +1,904 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36209 a schema:Dataset ;
+	schema:about wd:Q36209 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1925999505"^^xsd:integer ;
+	schema:dateModified "2023-06-29T19:51:36Z"^^xsd:dateTime .
+
+wd:Q36209 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_kumyk> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kumyk"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9A%D1%83%D0%BC%D0%B8%D1%86%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Кумицька мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hsb.wikipedia.org/wiki/Kumyk%C5%A1%C4%87ina> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "hsb" ;
+	schema:isPartOf <https://hsb.wikipedia.org/> ;
+	schema:name "Kumykšćina"@hsb .
+
+<https://hsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://inh.wikipedia.org/wiki/%D0%93%D3%80%D1%83%D0%BC%D0%BA%D0%B8%D0%B9_%D0%BC%D0%BE%D1%82%D1%82> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "inh" ;
+	schema:isPartOf <https://inh.wikipedia.org/> ;
+	schema:name "ГӀумкий мотт"@inh .
+
+<https://inh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_cumique> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua cumique"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bat-smg.wikipedia.org/wiki/Kum%C4%ABku_kalba> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "sgs" ;
+	schema:isPartOf <https://bat-smg.wikipedia.org/> ;
+	schema:name "Kumīku kalba"@sgs .
+
+<https://bat-smg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikumyk> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikumyk"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%A0%E3%82%AF%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "クムク語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D4%BF%D5%B8%D6%82%D5%B4%D5%AB%D5%AF%D5%A5%D6%80%D5%A5%D5%B6> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Կումիկերեն"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mhr.wikipedia.org/wiki/%D0%9A%D1%83%D0%BC%D1%8B%D0%BA_%D0%B9%D1%8B%D0%BB%D0%BC%D0%B5> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "mhr" ;
+	schema:isPartOf <https://mhr.wikipedia.org/> ;
+	schema:name "Кумык йылме"@mhr .
+
+<https://mhr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_cumucca> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua cumucca"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Qumuq_dili> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Qumuq dili"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kk.wikipedia.org/wiki/%D2%9A%D2%B1%D0%BC%D1%8B%D2%9B_%D1%82%D1%96%D0%BB%D1%96> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "kk" ;
+	schema:isPartOf <https://kk.wikipedia.org/> ;
+	schema:name "Құмық тілі"@kk .
+
+<https://kk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ce.wikipedia.org/wiki/%D0%93%D3%80%D1%83%D0%BC%D0%BA%D0%B8%D0%B9%D0%BD_%D0%BC%D0%BE%D1%82%D1%82> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "ce" ;
+	schema:isPartOf <https://ce.wikipedia.org/> ;
+	schema:name "ГӀумкийн мотт"@ce .
+
+<https://ce.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_cumucu> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma cumucu"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ba.wikipedia.org/wiki/%D2%A0%D1%83%D0%BC%D1%8B%D2%A1_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "ba" ;
+	schema:isPartOf <https://ba.wikipedia.org/> ;
+	schema:name "Ҡумыҡ теле"@ba .
+
+<https://ba.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fiu-vro.wikipedia.org/wiki/Kum%C3%B5ki_kiil> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "vro" ;
+	schema:isPartOf <https://fiu-vro.wikipedia.org/> ;
+	schema:name "Kumõki kiil"@vro .
+
+<https://fiu-vro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Kum%C3%B5ki_keel> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Kumõki keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Kumyk> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Kumyk"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Koemuks> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Koemuks"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%9A%D1%83%D0%BC%D0%B8%D1%87%D0%BA%D0%B8_%D1%98%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Кумички језик"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Koumikeg> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Koumikeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_cumuco> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma cumuco"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Kumyk_language> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Kumyk language"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D1%8B%D0%BA_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Комык теле"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Qo%CA%BBmiq_tili> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Qoʻmiq tili"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BC%D1%8B%D0%BA%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Кумыкский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kumyk_language> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kumyk language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Kumi%C4%8Dki_jezik> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Kumički jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sk.wikipedia.org/wiki/Kumy%C4%8Dtina> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "sk" ;
+	schema:isPartOf <https://sk.wikipedia.org/> ;
+	schema:name "Kumyčtina"@sk .
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szl.wikipedia.org/wiki/Kumyck%C5%8F_g%C5%8Fdka> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "szl" ;
+	schema:isPartOf <https://szl.wikipedia.org/> ;
+	schema:name "Kumyckŏ gŏdka"@szl .
+
+<https://szl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%9A%D1%83%D0%BC%D0%B8%D1%87%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Кумички јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%9A%D1%83%D0%BC%D1%8B%D0%BA_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Кумык кыв"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Kumykische_Sprache> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Kumykische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Kumyk%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Kumykų kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Kumuk%C3%A7a> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Kumukça"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Kumikera> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Kumikera"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://os.wikipedia.org/wiki/%D0%A5%D1%8A%D1%83%D1%8B%D0%BC%D1%8B%D1%85%D1%8A%D1%85%D1%8A%D0%B0%D0%B3_%C3%A6%D0%B2%D0%B7%D0%B0%D0%B3> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "os" ;
+	schema:isPartOf <https://os.wikipedia.org/> ;
+	schema:name "Хъуымыхъхъаг æвзаг"@os .
+
+<https://os.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D9%82%D9%88%D9%85%D9%88%D9%82%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "اللغة القوموقية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ky.wikipedia.org/wiki/%D0%9A%D1%83%D0%BC%D1%8B%D0%BA_%D1%82%D0%B8%D0%BB%D0%B8> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "ky" ;
+	schema:isPartOf <https://ky.wikipedia.org/> ;
+	schema:name "Кумык тили"@ky .
+
+<https://ky.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sah.wikipedia.org/wiki/%D0%9A%D1%83%D0%BC%D1%8B%D0%BA_%D1%82%D1%8B%D0%BB%D0%B0> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "sah" ;
+	schema:isPartOf <https://sah.wikipedia.org/> ;
+	schema:name "Кумык тыла"@sah .
+
+<https://sah.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%9A%D1%83%D0%BC%D1%8B%D1%86%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Кумыцкая мова"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Kumyk> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Kumyk"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Koumyk> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Koumyk"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D9%82%D9%88%D9%85%D9%88%D9%82_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "قوموق دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gag.wikipedia.org/wiki/Kumuk_dili> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "gag" ;
+	schema:isPartOf <https://gag.wikipedia.org/> ;
+	schema:name "Kumuk dili"@gag .
+
+<https://gag.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tg.wikipedia.org/wiki/%D0%97%D0%B0%D0%B1%D0%BE%D0%BD%D0%B8_%D2%9B%D1%83%D0%BC%D1%83%D2%9B%D3%A3> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "tg" ;
+	schema:isPartOf <https://tg.wikipedia.org/> ;
+	schema:name "Забони қумуқӣ"@tg .
+
+<https://tg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Kumika_lingvo> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Kumika lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D9%82%D9%85%D9%88%D9%82%DB%8C> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان قموقی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Cumucica> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Cumucica"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Kumykin_kieli> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Kumykin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%BF%A0%EB%AF%B8%ED%81%AC%EC%96%B4> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "쿠미크어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%BA%AB%E6%A2%85%E5%85%8B%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "庫梅克語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%95%E0%A7%81%E0%A6%AE%E0%A7%81%E0%A6%95_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "কুমুক ভাষা"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Kumyk> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Kumyk"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D9%84%D8%BA%D9%87_%D9%83%D9%88%D9%85%D9%88%D9%83%D9%8A%D9%87> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "لغه كوموكيه"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E5%BA%93%E6%A2%85%E5%85%8B%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "库梅克语"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wiktionary.org/wiki/Wiktionary:Kum%C3%BCkisch> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wiktionary.org/> ;
+	schema:name "Wiktionary:Kumükisch"@de .
+
+<https://de.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://eo.wiktionary.org/wiki/Aldono:Kumika> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wiktionary.org/> ;
+	schema:name "Aldono:Kumika"@eo .
+
+<https://eo.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://udm.wikipedia.org/wiki/%D0%9A%D1%83%D0%BC%D1%8B%D0%BA_%D0%BA%D1%8B%D0%BB> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "udm" ;
+	schema:isPartOf <https://udm.wikipedia.org/> ;
+	schema:name "Кумык кыл"@udm .
+
+<https://udm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lbe.wikipedia.org/wiki/%D0%9A%D1%8A%D1%83%D0%BC%D1%83%D0%BA%D1%8C_%D0%BC%D0%B0%D0%B7> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "lbe" ;
+	schema:isPartOf <https://lbe.wikipedia.org/> ;
+	schema:name "Къумукь маз"@lbe .
+
+<https://lbe.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://crh.wikipedia.org/wiki/Qum%C4%B1q_tili> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "crh-Latn" ;
+	schema:isPartOf <https://crh.wikipedia.org/> ;
+	schema:name "Qumıq tili"@crh-Latn .
+
+<https://crh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://av.wikipedia.org/wiki/%D0%9B%D1%8A%D0%B0%D1%80%D0%B0%D0%B3%D3%80_%D0%BC%D0%B0%D1%86%D3%80> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "av" ;
+	schema:isPartOf <https://av.wikipedia.org/> ;
+	schema:name "ЛъарагӀ мацӀ"@av .
+
+<https://av.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lez.wikipedia.org/wiki/%D0%9A%D1%8A%D1%83%D0%BC%D1%83%D0%BA%D1%8A_%D1%87%D3%80%D0%B0%D0%BB> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "lez" ;
+	schema:isPartOf <https://lez.wikipedia.org/> ;
+	schema:name "Къумукъ чӀал"@lez .
+
+<https://lez.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cdo.wikipedia.org/wiki/Kumyk-ng%E1%B9%B3%CC%84> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "cdo" ;
+	schema:isPartOf <https://cdo.wikipedia.org/> ;
+	schema:name "Kumyk-ngṳ̄"@cdo .
+
+<https://cdo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Kumiku_valoda> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Kumiku valoda"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_kumycki> a schema:Article ;
+	schema:about wd:Q36209 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język kumycki"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36209 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P219 "kum" ;
+	wdt:P220 "kum" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kum> ;
+	wdt:P349 "00566995" ;
+	wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00566995> ;
+	wdt:P646 "/m/04rxz0" ;
+	wdt:P305 "kum" ;
+	wdt:P279 wd:Q4370412 ;
+	wdt:P910 wd:Q9602682 ;
+	wdt:P1343 wd:Q2657718 ;
+	wdt:P1394 "kumy1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kumy1244> ;
+	wdt:P2355 "1074" ;
+	wdt:P278 "кум 349" ;
+	wdt:P17 wd:Q159 ;
+	wdt:P131 wd:Q5118,
+		wd:Q5187,
+		wd:Q5237 ;
+	wdt:P1098 "+426212"^^xsd:decimal ;
+	wdt:P282 wd:Q4247037,
+		wd:Q8209,
+		wd:Q8229,
+		wd:Q1828555 ;
+	wdt:P4132 wd:Q171263 ;
+	wdt:P2263 "767" ;
+	wdtn:P2263 <http://www.isocat.org/datcat/DC-767> ;
+	wdt:P1466 "kuq" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_kuq> ;
+	wdt:P1705 "къумукъ тил"@kum,
+		"Къумукъ‎"@kum ;
+	wdt:P2924 "5229990" ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P1627 "kum" ;
+	wdt:P424 "kum" ;
+	wdt:P4801 "languages/kum" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/kum> ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2341 wd:Q5118,
+		wd:Q211018 ;
+	wdt:P1245 "546057" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KUM> ;
+	wdt:P9748 <https://incubator.wikimedia.org/wiki/Wp/kum> ;
+	wdt:P1368 "000274506" ;
+	wdt:P9060 "kum" ;
+	wdt:P1813 "хъуымыхъхъаг"@os ;
+	wdt:P2347 "17042" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p17042> ;
+	wdt:P10369 "Q435" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q435> ;
+	rdfs:label "Lenga kumyk"@pms ;
+	skos:prefLabel "Lenga kumyk"@pms ;
+	schema:name "Lenga kumyk"@pms ;
+	rdfs:label "쿠미크어"@ko ;
+	skos:prefLabel "쿠미크어"@ko ;
+	schema:name "쿠미크어"@ko ;
+	rdfs:label "koumyk"@fr ;
+	skos:prefLabel "koumyk"@fr ;
+	schema:name "koumyk"@fr ;
+	rdfs:label "Qoʻmiq tili"@uz ;
+	skos:prefLabel "Qoʻmiq tili"@uz ;
+	schema:name "Qoʻmiq tili"@uz ;
+	rdfs:label "Idioma cumuco"@es ;
+	skos:prefLabel "Idioma cumuco"@es ;
+	schema:name "Idioma cumuco"@es ;
+	rdfs:label "Kumık dili"@gag ;
+	skos:prefLabel "Kumık dili"@gag ;
+	schema:name "Kumık dili"@gag ;
+	rdfs:label "cumucco"@it ;
+	skos:prefLabel "cumucco"@it ;
+	schema:name "cumucco"@it ;
+	rdfs:label "Kumõki keel"@et ;
+	skos:prefLabel "Kumõki keel"@et ;
+	schema:name "Kumõki keel"@et ;
+	rdfs:label "Kumykisch"@de ;
+	skos:prefLabel "Kumykisch"@de ;
+	schema:name "Kumykisch"@de ;
+	rdfs:label "クムク語"@ja ;
+	skos:prefLabel "クムク語"@ja ;
+	schema:name "クムク語"@ja ;
+	rdfs:label "Koemuks"@nl ;
+	skos:prefLabel "Koemuks"@nl ;
+	schema:name "Koemuks"@nl ;
+	rdfs:label "Língua kumyk"@pt ;
+	skos:prefLabel "Língua kumyk"@pt ;
+	schema:name "Língua kumyk"@pt ;
+	rdfs:label "kumika lingvo"@eo ;
+	skos:prefLabel "kumika lingvo"@eo ;
+	schema:name "kumika lingvo"@eo ;
+	rdfs:label "Kumyčtina"@sk ;
+	skos:prefLabel "Kumyčtina"@sk ;
+	schema:name "Kumyčtina"@sk ;
+	rdfs:label "кумыкский язык"@ru ;
+	skos:prefLabel "кумыкский язык"@ru ;
+	schema:name "кумыкский язык"@ru ;
+	rdfs:label "комык теле"@tt ;
+	skos:prefLabel "комык теле"@tt ;
+	schema:name "комык теле"@tt ;
+	rdfs:label "Kumyk"@en ;
+	skos:prefLabel "Kumyk"@en ;
+	schema:name "Kumyk"@en ;
+	rdfs:label "Kumukça"@tr ;
+	skos:prefLabel "Kumukça"@tr ;
+	schema:name "Kumukça"@tr ;
+	rdfs:label "kumyk"@ca ;
+	skos:prefLabel "kumyk"@ca ;
+	schema:name "kumyk"@ca ;
+	rdfs:label "Кумички јазик"@mk ;
+	skos:prefLabel "Кумички јазик"@mk ;
+	schema:name "Кумички јазик"@mk ;
+	rdfs:label "Kumykin kieli"@fi ;
+	skos:prefLabel "Kumykin kieli"@fi ;
+	schema:name "Kumykin kieli"@fi ;
+	rdfs:label "Kumīku kalba"@sgs ;
+	skos:prefLabel "Kumīku kalba"@sgs ;
+	schema:name "Kumīku kalba"@sgs ;
+	rdfs:label "Кумык йылме"@mhr ;
+	skos:prefLabel "Кумык йылме"@mhr ;
+	schema:name "Кумык йылме"@mhr ;
+	rdfs:label "хъуымыхъхъаг æвзаг"@os ;
+	skos:prefLabel "хъуымыхъхъаг æвзаг"@os ;
+	schema:name "хъуымыхъхъаг æвзаг"@os ;
+	rdfs:label "زبان قومیقی"@fa ;
+	skos:prefLabel "زبان قومیقی"@fa ;
+	schema:name "زبان قومیقی"@fa ;
+	rdfs:label "Кумык кыв"@kv ;
+	skos:prefLabel "Кумык кыв"@kv ;
+	schema:name "Кумык кыв"@kv ;
+	rdfs:label "Qumuq dili"@az ;
+	skos:prefLabel "Qumuq dili"@az ;
+	schema:name "Qumuq dili"@az ;
+	rdfs:label "Kumički jezik"@hr ;
+	skos:prefLabel "Kumički jezik"@hr ;
+	schema:name "Kumički jezik"@hr ;
+	rdfs:label "Kumykų kalba"@lt ;
+	skos:prefLabel "Kumykų kalba"@lt ;
+	schema:name "Kumykų kalba"@lt ;
+	rdfs:label "kumykisk"@nb ;
+	skos:prefLabel "kumykisk"@nb ;
+	schema:name "kumykisk"@nb ;
+	rdfs:label "Құмық тілі"@kk ;
+	skos:prefLabel "Құмық тілі"@kk ;
+	schema:name "Құмық тілі"@kk ;
+	rdfs:label "кумички језик"@sr ;
+	skos:prefLabel "кумички језик"@sr ;
+	schema:name "кумички језик"@sr ;
+	rdfs:label "кумички језик"@sr-ec ;
+	skos:prefLabel "кумички језик"@sr-ec ;
+	schema:name "кумички језик"@sr-ec ;
+	rdfs:label "kumički jezik"@sr-el ;
+	skos:prefLabel "kumički jezik"@sr-el ;
+	schema:name "kumički jezik"@sr-el ;
+	rdfs:label "kumikera"@eu ;
+	skos:prefLabel "kumikera"@eu ;
+	schema:name "kumikera"@eu ;
+	rdfs:label "կումիկերեն"@hy ;
+	skos:prefLabel "կումիկերեն"@hy ;
+	schema:name "կումիկերեն"@hy ;
+	rdfs:label "Кумык тыла"@sah ;
+	skos:prefLabel "Кумык тыла"@sah ;
+	schema:name "Кумык тыла"@sah ;
+	rdfs:label "кумицька мова"@uk ;
+	skos:prefLabel "кумицька мова"@uk ;
+	schema:name "кумицька мова"@uk ;
+	rdfs:label "koumikeg"@br ;
+	skos:prefLabel "koumikeg"@br ;
+	schema:name "koumikeg"@br ;
+	rdfs:label "Кумыцкая мова"@be-tarask ;
+	skos:prefLabel "Кумыцкая мова"@be-tarask ;
+	schema:name "Кумыцкая мова"@be-tarask ;
+	rdfs:label "Kumykisch"@de-ch ;
+	skos:prefLabel "Kumykisch"@de-ch ;
+	schema:name "Kumykisch"@de-ch ;
+	rdfs:label "Kumyk"@en-ca ;
+	skos:prefLabel "Kumyk"@en-ca ;
+	schema:name "Kumyk"@en-ca ;
+	rdfs:label "Kumyk"@en-gb ;
+	skos:prefLabel "Kumyk"@en-gb ;
+	schema:name "Kumyk"@en-gb ;
+	rdfs:label "Língua kumyk"@pt-br ;
+	skos:prefLabel "Língua kumyk"@pt-br ;
+	schema:name "Língua kumyk"@pt-br ;
+	rdfs:label "ЛъарагӀ мацӀ"@av ;
+	skos:prefLabel "ЛъарагӀ мацӀ"@av ;
+	schema:name "ЛъарагӀ мацӀ"@av ;
+	rdfs:label "ГӀумкийн мотт"@ce ;
+	skos:prefLabel "ГӀумкийн мотт"@ce ;
+	schema:name "ГӀумкийн мотт"@ce ;
+	rdfs:label "庫梅克語"@zh ;
+	skos:prefLabel "庫梅克語"@zh ;
+	schema:name "庫梅克語"@zh ;
+	rdfs:label "قومیقی"@lrc ;
+	skos:prefLabel "قومیقی"@lrc ;
+	schema:name "قومیقی"@lrc ;
+	rdfs:label "Кумык тили"@ky ;
+	skos:prefLabel "Кумык тили"@ky ;
+	schema:name "Кумык тили"@ky ;
+	rdfs:label "Kumõki kiil"@vro ;
+	skos:prefLabel "Kumõki kiil"@vro ;
+	schema:name "Kumõki kiil"@vro ;
+	rdfs:label "Kumyckŏ gŏdka"@szl ;
+	skos:prefLabel "Kumyckŏ gŏdka"@szl ;
+	schema:name "Kumyckŏ gŏdka"@szl ;
+	rdfs:label "Къумукъ чӀал"@lez ;
+	skos:prefLabel "Къумукъ чӀал"@lez ;
+	schema:name "Къумукъ чӀал"@lez ;
+	rdfs:label "Bahasa Kumyk"@id ;
+	skos:prefLabel "Bahasa Kumyk"@id ;
+	schema:name "Bahasa Kumyk"@id ;
+	rdfs:label "Kumyk language"@hif ;
+	skos:prefLabel "Kumyk language"@hif ;
+	schema:name "Kumyk language"@hif ;
+	rdfs:label "Kikumyk"@sw ;
+	skos:prefLabel "Kikumyk"@sw ;
+	schema:name "Kikumyk"@sw ;
+	rdfs:label "קומיקית"@he ;
+	skos:prefLabel "קומיקית"@he ;
+	schema:name "קומיקית"@he ;
+	rdfs:label "Kumyk"@sco ;
+	skos:prefLabel "Kumyk"@sco ;
+	schema:name "Kumyk"@sco ;
+	rdfs:label "لغة كوموكية"@ar ;
+	skos:prefLabel "لغة كوموكية"@ar ;
+	schema:name "لغة كوموكية"@ar ;
+	rdfs:label "Idioma cumucu"@ast ;
+	skos:prefLabel "Idioma cumucu"@ast ;
+	schema:name "Idioma cumucu"@ast ;
+	rdfs:label "قوموق دیلی"@azb ;
+	skos:prefLabel "قوموق دیلی"@azb ;
+	schema:name "قوموق دیلی"@azb ;
+	rdfs:label "Kumykšćina"@hsb ;
+	skos:prefLabel "Kumykšćina"@hsb ;
+	schema:name "Kumykšćina"@hsb ;
+	rdfs:label "Wikang Kumyk"@tl ;
+	skos:prefLabel "Wikang Kumyk"@tl ;
+	schema:name "Wikang Kumyk"@tl ;
+	rdfs:label "ГӀумкий мотт"@inh ;
+	skos:prefLabel "ГӀумкий мотт"@inh ;
+	schema:name "ГӀумкий мотт"@inh ;
+	rdfs:label "কুমুক ভাষা"@bn ;
+	skos:prefLabel "কুমুক ভাষা"@bn ;
+	schema:name "কুমুক ভাষা"@bn ;
+	rdfs:label "Ҡумыҡ теле"@ba ;
+	skos:prefLabel "Ҡумыҡ теле"@ba ;
+	schema:name "Ҡумыҡ теле"@ba ;
+	rdfs:label "Забони қумуқӣ"@tg ;
+	skos:prefLabel "Забони қумуқӣ"@tg ;
+	schema:name "Забони қумуқӣ"@tg ;
+	rdfs:label "Cumucica"@la ;
+	skos:prefLabel "Cumucica"@la ;
+	schema:name "Cumucica"@la ;
+	rdfs:label "Tiếng Kumyk"@vi ;
+	skos:prefLabel "Tiếng Kumyk"@vi ;
+	schema:name "Tiếng Kumyk"@vi ;
+	rdfs:label "لغه كوموكيه"@arz ;
+	skos:prefLabel "لغه كوموكيه"@arz ;
+	schema:name "لغه كوموكيه"@arz ;
+	rdfs:label "库梅克语"@wuu ;
+	skos:prefLabel "库梅克语"@wuu ;
+	schema:name "库梅克语"@wuu ;
+	rdfs:label "γλώσσα κουμίκ"@el ;
+	skos:prefLabel "γλώσσα κουμίκ"@el ;
+	schema:name "γλώσσα κουμίκ"@el ;
+	rdfs:label "Кумык кыл"@udm ;
+	skos:prefLabel "Кумык кыл"@udm ;
+	schema:name "Кумык кыл"@udm ;
+	rdfs:label "kumiku valoda"@lv ;
+	skos:prefLabel "kumiku valoda"@lv ;
+	schema:name "kumiku valoda"@lv ;
+	rdfs:label "cumuco"@vec ;
+	skos:prefLabel "cumuco"@vec ;
+	schema:name "cumuco"@vec ;
+	rdfs:label "kumykiska"@sv ;
+	skos:prefLabel "kumykiska"@sv ;
+	schema:name "kumykiska"@sv ;
+	rdfs:label "Къумукь маз"@lbe ;
+	skos:prefLabel "Къумукь маз"@lbe ;
+	schema:name "Къумукь маз"@lbe ;
+	rdfs:label "kumik"@hu ;
+	skos:prefLabel "kumik"@hu ;
+	schema:name "kumik"@hu ;
+	rdfs:label "Qumıq tili"@crh ;
+	skos:prefLabel "Qumıq tili"@crh ;
+	schema:name "Qumıq tili"@crh ;
+	rdfs:label "Kumyk-ngṳ̄"@cdo ;
+	skos:prefLabel "Kumyk-ngṳ̄"@cdo ;
+	schema:name "Kumyk-ngṳ̄"@cdo ;
+	rdfs:label "język kumycki"@pl ;
+	skos:prefLabel "język kumycki"@pl ;
+	schema:name "język kumycki"@pl ;
+	schema:description "tyrkisk språk"@nb,
+		"Sprache"@de,
+		"lengua túrquica hablado en Rusia"@es,
+		"lingua turca parlata nella Federazione Russa"@it,
+		"Turkic language"@en,
+		"jazyk"@cs,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue turque"@fr,
+		"lingua"@la,
+		"iaith"@cy,
+		"Türki dil"@tr,
+		"তুর্কীয় ভাষা"@bn,
+		"یکی از زبان‌های ترکی‌تبار"@fa,
+		"لغة"@ar,
+		"bagian dari rumpun bahasa Turkik"@id ;
+	skos:altLabel "Qo'miq tili"@uz,
+		"lingua cumucca"@it,
+		"lingua kumyk"@it,
+		"kumükische Sprache"@de,
+		"Kumükisch"@de,
+		"kumykische Sprache"@de,
+		"クミク語"@ja,
+		"kum"@ja,
+		"Кумык теле"@tt,
+		"Kumuk dili"@tr,
+		"Kumıkça"@tr,
+		"Kumuk Türkçesi"@tr,
+		"Llengua Kumyk"@ca,
+		"Kumuk"@ca,
+		"Kumukh"@ca,
+		"কুমিক ভাষা"@bn,
+		"kum"@kum,
+		"kum"@en,
+		"Kumyk language"@en,
+		"хъуымыхъхъаг"@os .

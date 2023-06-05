@@ -1,0 +1,155 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36518 a schema:Dataset ;
+	schema:about wd:Q36518 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1747621181"^^xsd:integer ;
+	schema:dateModified "2022-10-10T18:41:06Z"^^xsd:dateTime .
+
+wd:Q36518 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Mbembe_tigon> a schema:Article ;
+	schema:about wd:Q36518 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Mbembe tigon"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mbembe,_Tigon> a schema:Article ;
+	schema:about wd:Q36518 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mbembe, Tigon"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9C%D0%B1%D0%B5%D0%BC%D0%B1%D0%B5_(%D0%B4%D0%B6%D1%83%D0%BA%D1%83%D0%BD%D0%BE%D0%B8%D0%B4%D0%BD%D1%8B%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q36518 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Мбембе (джукуноидный язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimbembe-Tigon> a schema:Article ;
+	schema:about wd:Q36518 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimbembe-Tigon"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Tigon_language> a schema:Article ;
+	schema:about wd:Q36518 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Tigon language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Tigon-Mbembe> a schema:Article ;
+	schema:about wd:Q36518 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Tigon-Mbembe"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Tigon_language> a schema:Article ;
+	schema:about wd:Q36518 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Tigon language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36518 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "nza" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nza> ;
+	wdt:P361 wd:Q33253 ;
+	wdt:P305 "nza" ;
+	wdt:P279 wd:Q1711622 ;
+	wdt:P1394 "tigo1236" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tigo1236> ;
+	wdt:P1627 "nza" ;
+	wdt:P244 "sh2010001958" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh2010001958> ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q1009,
+		wd:Q1033 ;
+	wdt:P2341 wd:Q502341,
+		wd:Q165784,
+		wd:Q509300,
+		wd:Q463959 ;
+	wdt:P1396 "98-IBE-a" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NZA> ;
+	wdt:P646 "/m/02hxb0c" ;
+	wdt:P8189 "987007583640605171" ;
+	rdfs:label "Kimbembe-Tigon"@sw ;
+	skos:prefLabel "Kimbembe-Tigon"@sw ;
+	schema:name "Kimbembe-Tigon"@sw ;
+	rdfs:label "Tigon-Mbembe"@de ;
+	skos:prefLabel "Tigon-Mbembe"@de ;
+	schema:name "Tigon-Mbembe"@de ;
+	rdfs:label "Lenga Mbembe"@pms ;
+	skos:prefLabel "Lenga Mbembe"@pms ;
+	schema:name "Lenga Mbembe"@pms ;
+	rdfs:label "mbembe tigon"@fr ;
+	skos:prefLabel "mbembe tigon"@fr ;
+	schema:name "mbembe tigon"@fr ;
+	rdfs:label "Tigon"@en ;
+	skos:prefLabel "Tigon"@en ;
+	schema:name "Tigon"@en ;
+	rdfs:label "Мбембе"@ru ;
+	skos:prefLabel "Мбембе"@ru ;
+	schema:name "Мбембе"@ru ;
+	rdfs:label "Tigon"@ig ;
+	skos:prefLabel "Tigon"@ig ;
+	schema:name "Tigon"@ig ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"Asụsụ"@ig ;
+	skos:altLabel "Kimbembe ya Tigon"@sw,
+		"Tigon Mbembe"@en,
+		"Tigon language"@en,
+		"Asụsụ Tigon"@ig .

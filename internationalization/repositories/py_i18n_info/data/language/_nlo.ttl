@@ -1,0 +1,135 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35894 a schema:Dataset ;
+	schema:about wd:Q35894 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1827842299"^^xsd:integer ;
+	schema:dateModified "2023-02-06T17:03:21Z"^^xsd:dateTime .
+
+wd:Q35894 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Ngul> a schema:Article ;
+	schema:about wd:Q35894 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Ngul"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kingul_(lugha)> a schema:Article ;
+	schema:about wd:Q35894 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kingul (lugha)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Ngul> a schema:Article ;
+	schema:about wd:Q35894 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Ngul"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Ngwi> a schema:Article ;
+	schema:about wd:Q35894 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Ngwi"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ngul_language> a schema:Article ;
+	schema:about wd:Q35894 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ngul language"@en ;
+	wikibase:badge wd:Q70894304 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35894 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "nlo" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nlo> ;
+	wdt:P1014 "300262627" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300262627> ;
+	wdt:P1394 "ngul1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ngul1247> ;
+	wdt:P305 "nlo" ;
+	wdt:P1627 "nlo" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q974 ;
+	wdt:P2341 wd:Q671442,
+		wd:Q255655 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NLO> ;
+	wdt:P2671 "/g/122jqyh8" ;
+	wdtn:P2671 <http://g.co/kg/g/122jqyh8> ;
+	rdfs:label "Kingul"@sw ;
+	skos:prefLabel "Kingul"@sw ;
+	schema:name "Kingul"@sw ;
+	rdfs:label "Lenga Ngul"@pms ;
+	skos:prefLabel "Lenga Ngul"@pms ;
+	schema:name "Lenga Ngul"@pms ;
+	rdfs:label "Ngul"@de ;
+	skos:prefLabel "Ngul"@de ;
+	schema:name "Ngul"@de ;
+	rdfs:label "ngul"@es ;
+	skos:prefLabel "ngul"@es ;
+	schema:name "ngul"@es ;
+	rdfs:label "Ngul"@en ;
+	skos:prefLabel "Ngul"@en ;
+	schema:name "Ngul"@en ;
+	rdfs:label "lingua Ngul"@it ;
+	skos:prefLabel "lingua Ngul"@it ;
+	schema:name "lingua Ngul"@it ;
+	rdfs:label "Ngul"@en-gb ;
+	skos:prefLabel "Ngul"@en-gb ;
+	schema:name "Ngul"@en-gb ;
+	rdfs:label "ngul"@vec ;
+	skos:prefLabel "ngul"@vec ;
+	schema:name "ngul"@vec ;
+	rdfs:label "ngwi"@fr ;
+	skos:prefLabel "ngwi"@fr ;
+	schema:name "ngwi"@fr ;
+	schema:description "idioma humano"@es,
+		"Sprache"@de,
+		"language of the Democratic Republic of the Congo"@en,
+		"lingua parlata nella Repubblica del Congo"@it,
+		"שפה"@he,
+		"yezh"@br,
+		"langue bantoue parlée en République démocratique du Congo"@fr,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy .

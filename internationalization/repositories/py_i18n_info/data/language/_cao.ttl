@@ -1,0 +1,189 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2591202 a schema:Dataset ;
+	schema:about wd:Q2591202 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1925257662"^^xsd:integer ;
+	schema:dateModified "2023-06-28T10:07:50Z"^^xsd:dateTime .
+
+wd:Q2591202 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Chakobo_(llengua)> a schema:Article ;
+	schema:about wd:Q2591202 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Chakobo (llengua)"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Ch%C3%A1cobo> a schema:Article ;
+	schema:about wd:Q2591202 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Chácobo"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_ch%C3%A1cobo> a schema:Article ;
+	schema:about wd:Q2591202 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga chácobo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D0%BA%D0%BE%D0%B1%D0%BE_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q2591202 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Чакобо (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Chakobo_language> a schema:Article ;
+	schema:about wd:Q2591202 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Chakobo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/T%C5%A1akobo_keel> a schema:Article ;
+	schema:about wd:Q2591202 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Tšakobo keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/%C4%8C%C3%A1kobo_jezik> a schema:Article ;
+	schema:about wd:Q2591202 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Čákobo jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%A7%D0%B0%D0%BA%D0%BE%D0%B1%D0%BE_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q2591202 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Чакобо теле"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2591202 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "cao" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cao> ;
+	wdt:P646 "/m/02pnv83" ;
+	wdt:P305 "cao" ;
+	wdt:P279 wd:Q1544537 ;
+	wdt:P244 "sh85022249" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85022249> ;
+	wdt:P268 "14477847d" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb14477847d#about> ;
+	wdt:P2355 "1952" ;
+	wdt:P1394 "chac1251" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/chac1251> ;
+	wdt:P1889 wd:Q2967759 ;
+	wdt:P17 wd:Q750 ;
+	wdt:P1466 "cbo" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_cbo> ;
+	wdt:P2581 "15838879n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s15838879n> ;
+	wdt:P2192 "4156" ;
+	wdt:P910 wd:Q32828496 ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P1627 "cao" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2341 wd:Q233169 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CAO> ;
+	wdt:P1098 "+600"^^xsd:decimal ;
+	wdt:P8189 "987007285089205171" ;
+	rdfs:label "Lenga chácobo"@pms ;
+	skos:prefLabel "Lenga chácobo"@pms ;
+	schema:name "Lenga chácobo"@pms ;
+	rdfs:label "чакобо"@ru ;
+	skos:prefLabel "чакобо"@ru ;
+	schema:name "чакобо"@ru ;
+	rdfs:label "chácobo"@fr ;
+	skos:prefLabel "chácobo"@fr ;
+	schema:name "chácobo"@fr ;
+	rdfs:label "Chakobo"@en ;
+	skos:prefLabel "Chakobo"@en ;
+	schema:name "Chakobo"@en ;
+	rdfs:label "Čákobo jezik"@hr ;
+	skos:prefLabel "Čákobo jezik"@hr ;
+	schema:name "Čákobo jezik"@hr ;
+	rdfs:label "chácobo"@nb ;
+	skos:prefLabel "chácobo"@nb ;
+	schema:name "chácobo"@nb ;
+	rdfs:label "chàcobo"@ca ;
+	skos:prefLabel "chàcobo"@ca ;
+	schema:name "chàcobo"@ca ;
+	rdfs:label "Chácobo"@en-gb ;
+	skos:prefLabel "Chácobo"@en-gb ;
+	schema:name "Chácobo"@en-gb ;
+	rdfs:label "Tšakobo keel"@et ;
+	skos:prefLabel "Tšakobo keel"@et ;
+	schema:name "Tšakobo keel"@et ;
+	rdfs:label "Wikang Chakobo"@tl ;
+	skos:prefLabel "Wikang Chakobo"@tl ;
+	schema:name "Wikang Chakobo"@tl ;
+	rdfs:label "Чакобо теле"@tt ;
+	skos:prefLabel "Чакобо теле"@tt ;
+	schema:name "Чакобо теле"@tt ;
+	schema:description "pano-tacanansk språk"@nb,
+		"Sprache"@de,
+		"שפה"@he,
+		"language"@en,
+		"langue pano-tacanane"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"llengua pano de Bolívia"@ca ;
+	skos:altLabel "Chácobo jezik"@hr,
+		"Chácobo language"@en,
+		"Chacobo"@en,
+		"Chacobo language"@en,
+		"Chácobo"@en,
+		"chàkobo"@ca,
+		"no'iria"@ca .
+
+wd:Q50934241 owl:sameAs wd:Q2591202 .
+
+wd:Q61094999 owl:sameAs wd:Q2591202 .

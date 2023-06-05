@@ -1,0 +1,971 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q1049294 a schema:Dataset ;
+	schema:about wd:Q1049294 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1922177411"^^xsd:integer ;
+	schema:dateModified "2023-06-23T15:31:52Z"^^xsd:dateTime .
+
+wd:Q1049294 a wikibase:Item .
+
+<https://commons.wikimedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "Emoji"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+<https://en.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Emoji"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Emoji"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Emoji"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%AD%D0%BC%D0%BE%D0%B4%D0%B7%D0%B8> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Эмодзи"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Emoji"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Emoji"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Emoji"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Emoji"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Emoji"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%90%D7%9E%D7%95%D7%92%27%D7%99> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "אמוג'י"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Emoji"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Emodzsi> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Emodzsi"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Emoji"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A5%D9%8A%D9%85%D9%88%D8%AC%D9%8A> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "إيموجي"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Emoji"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%95%D0%BC%D0%BE%D0%B4%D0%B7%D1%96> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Емодзі"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Emoji"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Emod%C5%BEi> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Emodži"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Emoji"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Emoji"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Emoji"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Emoji"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ga.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "ga" ;
+	schema:isPartOf <https://ga.wikipedia.org/> ;
+	schema:name "Emoji"@ga .
+
+<https://ga.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lmo.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "lmo" ;
+	schema:isPartOf <https://lmo.wikipedia.org/> ;
+	schema:name "Emoji"@lmo .
+
+<https://lmo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%AE%E1%80%99%E1%80%AD%E1%80%AF%E1%80%82%E1%80%BB%E1%80%AE> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "my" ;
+	schema:isPartOf <https://my.wikipedia.org/> ;
+	schema:name "အီမိုဂျီ"@my .
+
+<https://my.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sah.wikipedia.org/wiki/%D0%AD%D0%BC%D0%BE%D0%B4%D1%8C%D0%B8> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "sah" ;
+	schema:isPartOf <https://sah.wikipedia.org/> ;
+	schema:name "Эмодьи"@sah .
+
+<https://sah.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%87%E0%A6%AE%E0%A7%8B%E0%A6%9C%E0%A6%BF> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "ইমোজি"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Emoji"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D4%B7%D5%B4%D5%B8%D5%BB%D5%AB> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Էմոջի"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%87%E0%B4%AE%E0%B5%8B%E0%B4%9C%E0%B4%BF> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "ഇമോജി"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Emoji"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%AD%E0%B9%82%E0%B8%A1%E0%B8%88%E0%B8%B4> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "เอโมจิ"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%A7%DB%8C%D9%85%D9%88%D8%AC%DB%8C> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "ایموجی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%AD%D0%BC%D0%BE%D0%B4%D0%B7%D0%B8> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Эмодзи"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bh.wikipedia.org/wiki/%E0%A4%87%E0%A4%AE%E0%A5%8B%E0%A4%9C%E0%A5%80> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "bho" ;
+	schema:isPartOf <https://bh.wikipedia.org/> ;
+	schema:name "इमोजी"@bho .
+
+<https://bh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ky.wikipedia.org/wiki/%D0%AD%D0%BC%D0%BE%D0%B6%D0%B8> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "ky" ;
+	schema:isPartOf <https://ky.wikipedia.org/> ;
+	schema:name "Эможи"@ky .
+
+<https://ky.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Emoji"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%AD%D0%BC%D0%BE%D0%B4%D0%B7%D0%B8> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikinews.org/> ;
+	schema:name "Категория:Эмодзи"@ru .
+
+<https://ru.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://bg.wikipedia.org/wiki/%D0%95%D0%BC%D0%BE%D0%B4%D0%B6%D0%B8> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Емоджи"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E7%B9%AA%E6%96%87%E5%AD%97> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "繪文字"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/%C3%89moji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Émoji"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cy.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "cy" ;
+	schema:isPartOf <https://cy.wikipedia.org/> ;
+	schema:name "Emoji"@cy .
+
+<https://cy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Emoji"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Emoji"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://te.wikipedia.org/wiki/%E0%B0%8E%E0%B0%AE%E0%B1%8B%E0%B0%9C%E0%B1%80> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "te" ;
+	schema:isPartOf <https://te.wikipedia.org/> ;
+	schema:name "ఎమోజీ"@te .
+
+<https://te.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Emoji"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%AA%A8%EC%A7%80> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "이모지"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://as.wikipedia.org/wiki/%E0%A6%87%E0%A6%AE%27%E0%A6%9C%E0%A6%BF> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "as" ;
+	schema:isPartOf <https://as.wikipedia.org/> ;
+	schema:name "ইম'জি"@as .
+
+<https://as.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sl.wikipedia.org/wiki/Emod%C5%BEi> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikipedia.org/> ;
+	schema:name "Emodži"@sl .
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%95%CE%BC%CF%8C%CF%84%CE%B6%CE%B9> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Εμότζι"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%95%D0%BC%D0%BE%D1%9F%D0%B8> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Емоџи"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Emoji"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ckb.wikipedia.org/wiki/%D8%A6%DB%8C%D9%85%DB%86%D8%AC%DB%8C> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "ckb" ;
+	schema:isPartOf <https://ckb.wikipedia.org/> ;
+	schema:name "ئیمۆجی"@ckb .
+
+<https://ckb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%95%D0%BC%D0%BE%D1%9F%D0%B8> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Емоџи"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D8%A7%D9%8A%D9%85%D9%88%DA%86%D9%89> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "ايموچى"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ban.wikipedia.org/wiki/%C3%89moji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "ban" ;
+	schema:isPartOf <https://ban.wikipedia.org/> ;
+	schema:name "Émoji"@ban .
+
+<https://ban.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E6%90%BA%E5%B8%AF%E9%9B%BB%E8%A9%B1%E3%81%AE%E7%B5%B5%E6%96%87%E5%AD%97> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "携帯電話の絵文字"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E7%B9%AA%E6%96%87%E5%AD%97> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "繪文字"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D8%A7%DB%8C%D9%85%D9%88%D8%AC%DB%8C> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "ایموجی"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%D8%A7%DB%8C%D9%85%D9%88%D8%AC%DB%8C> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "ایموجی"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mni.wikipedia.org/wiki/%EA%AF%8F%EA%AF%83%EA%AF%A3%EA%AF%96%EA%AF%A4> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "mni" ;
+	schema:isPartOf <https://mni.wikipedia.org/> ;
+	schema:name "ꯏꯃꯣꯖꯤ"@mni .
+
+<https://mni.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Emo%C4%9Dio> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Emoĝio"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikiquote.org/wiki/%D0%95%D0%BC%D0%BE%D0%B4%D0%B7%D1%96> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikiquote.org/> ;
+	schema:name "Емодзі"@uk .
+
+<https://uk.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://gn.wikipedia.org/wiki/Em%C3%B3ji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "gn" ;
+	schema:isPartOf <https://gn.wikipedia.org/> ;
+	schema:name "Emóji"@gn .
+
+<https://gn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Emoji"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://crh.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "crh-Latn" ;
+	schema:isPartOf <https://crh.wikipedia.org/> ;
+	schema:name "Emoji"@crh-Latn .
+
+<https://crh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Emoji"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://qu.wikipedia.org/wiki/Emoji> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "qu" ;
+	schema:isPartOf <https://qu.wikipedia.org/> ;
+	schema:name "Emoji"@qu .
+
+<https://qu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ps.wikipedia.org/wiki/%D8%A7%DB%8C%D9%85%D9%88%D8%AC%D9%8A> a schema:Article ;
+	schema:about wd:Q1049294 ;
+	schema:inLanguage "ps" ;
+	schema:isPartOf <https://ps.wikipedia.org/> ;
+	schema:name "ایموجي"@ps .
+
+<https://ps.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q1049294 wdt:P373 "Emoji" ;
+	wdt:P646 "/m/02kb4w" ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Emoji%20u263a.svg> ;
+	wdt:P935 "Emoji" ;
+	wdt:P3417 "Emoji",
+		"Unicode-emoji" ;
+	wdt:P910 wd:Q27964021 ;
+	wdt:P279 wd:Q138619 ;
+	wdt:P495 wd:Q17 ;
+	wdt:P2354 wd:Q30924152 ;
+	wdt:P2581 "03300699n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s03300699n> ;
+	wdt:P6760 "14707" ;
+	wdt:P5949 "U+261D,U+270A-270C,U+1F446-1F450,U+1F64C,U+1F64F",
+		"U+23,U+30-39,U+A9,U+AE,U+20E3,U+2122,U+2139,U+2194-2199,U+21A9,U+21AA,U+231A,U+231B,U+23E9-23EC,U+23F0,U+23F3,U+24C2,U+25AA,U+25AB,U+25B6,U+25C0,U+25FB-25FE,U+2600,U+2601,U+260E,U+2611,U+2614,U+2615,U+261D,U+263A,U+2648-2653,U+2660,U+2663,U+2665,U+2666,U+2668,U+267B,U+267F,U+2693,U+26A0,U+26A1,U+26AA,U+26AB,U+26BD,U+26BE,U+26C4,U+26C5,U+26CE,U+26D4,U+26EA,U+26F2,U+26F3,U+26F5,U+26FA,U+26FD,U+2702,U+2705,U+2708-270C,U+270F,U+2712,U+2714,U+2716,U+2728,U+2733,U+2734,U+2744,U+2747,U+274C,U+274E,U+2753-2755,U+2757,U+2764,U+2795-2797,U+27A1,U+27B0,U+27BF,U+2934,U+2935,U+2B05-2B07,U+2B1B,U+2B1C,U+2B50,U+2B55,U+3030,U+303D,U+3297,U+3299,U+1F004,U+1F0CF,U+1F170,U+1F171,U+1F17E,U+1F17F,U+1F18E,U+1F191-1F19A,U+1F1E7-1F1EC,U+1F1EE-1F1F0,U+1F1F3,U+1F1F5,U+1F1F7-1F1FA,U+1F201,U+1F202,U+1F21A,U+1F22F,U+1F232-1F23A,U+1F250,U+1F251,U+1F300-1F320,U+1F330-1F335,U+1F337-1F37C,U+1F380-1F393,U+1F3A0-1F3C4,U+1F3C6-1F3CA,U+1F3E0-1F3F0,U+1F400-1F43E,U+1F440,U+1F442-1F4F7,U+1F4F9-1F4FC,U+1F500-1F53D,U+1F550-1F567,U+1F5FB-1F640,U+1F645-1F64F,U+1F680-1F6C5" ;
+	wdt:P1424 wd:Q40733358 ;
+	wdt:P2620 "993" ;
+	wdt:P506 "Zsye" ;
+	wdt:P31 wd:Q2001982 ;
+	wdt:P348 "13.0" ;
+	wdt:P6366 "2779247141" ;
+	wdtn:P6366 <http://ma-graph.org/entity/2779247141> ;
+	wdt:P1889 wd:Q31963,
+		wd:Q1339070,
+		wd:Q24839054,
+		wd:Q115682741 ;
+	wdt:P3984 "Emoji" ;
+	wdt:P138 wd:Q478798,
+		wd:Q3241972 ;
+	wdt:P5337 "CAAqIggKIhxDQkFTRHdvSkwyMHZNREpyWWpSM0VnSmxiaWdBUAE" ;
+	wdt:P1482 <https://meta.stackexchange.com/tags/emoji>,
+		<https://stackoverflow.com/tags/emoji> ;
+	wdt:P3222 "emoji" ;
+	wdt:P6009 "19140" ;
+	wdt:P9100 "emoji" ;
+	wdt:P2561 "Symbols (emoji variant)"@en,
+		"symboles (variante émoji)"@fr ;
+	wdt:P8885 "이모지" ;
+	wdt:P3553 "19580383" ;
+	wdt:P3479 "58422cf0-33df-4478-98da-199628246886" ;
+	wdt:P1705 "絵文字"@ja ;
+	wdt:P3365 "emoji" ;
+	wdt:P10283 "C2779247141" ;
+	wdt:P8313 "emoji" ;
+	wdt:P6262 "habitica:Emoji",
+		"apple:Emoji",
+		"emoji:Emoji" ;
+	wdt:P10688 "27040" ;
+	wdt:P973 <https://home.unicode.org/emoji/about-emoji/> ;
+	wdt:P575 "1999-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P61 wd:Q29657254 ;
+	wdt:P10 <http://commons.wikimedia.org/wiki/Special:FilePath/Emoji.webm> ;
+	wdt:P2347 "29029" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p29029> ;
+	wdt:P9214 <https://www.unicode.org/faq/emoji_dingbats.html> ;
+	wdt:P5008 wd:Q85312460 ;
+	wdt:P1617 "743481e3-2b8d-4039-a871-bc57edf5c18c" ;
+	wdtn:P1617 <http://www.bbc.co.uk/things/743481e3-2b8d-4039-a871-bc57edf5c18c#id> ;
+	wdt:P6200 "cp3mvppyld1t" ;
+	rdfs:label "绘文字"@zh-hans ;
+	skos:prefLabel "绘文字"@zh-hans ;
+	schema:name "绘文字"@zh-hans ;
+	rdfs:label "繪文字"@zh-hant ;
+	skos:prefLabel "繪文字"@zh-hant ;
+	schema:name "繪文字"@zh-hant ;
+	rdfs:label "繪文字"@zh-hk ;
+	skos:prefLabel "繪文字"@zh-hk ;
+	schema:name "繪文字"@zh-hk ;
+	rdfs:label "絵文字"@ja ;
+	skos:prefLabel "絵文字"@ja ;
+	schema:name "絵文字"@ja ;
+	rdfs:label "에모지"@ko ;
+	skos:prefLabel "에모지"@ko ;
+	schema:name "에모지"@ko ;
+	rdfs:label "emoji"@it ;
+	skos:prefLabel "emoji"@it ;
+	schema:name "emoji"@it ;
+	rdfs:label "эмодзи"@ru ;
+	skos:prefLabel "эмодзи"@ru ;
+	schema:name "эмодзи"@ru ;
+	rdfs:label "emoji"@nl ;
+	skos:prefLabel "emoji"@nl ;
+	schema:name "emoji"@nl ;
+	rdfs:label "emoji"@fi ;
+	skos:prefLabel "emoji"@fi ;
+	schema:name "emoji"@fi ;
+	rdfs:label "إيموجي"@ar ;
+	skos:prefLabel "إيموجي"@ar ;
+	schema:name "إيموجي"@ar ;
+	rdfs:label "Emoji"@id ;
+	skos:prefLabel "Emoji"@id ;
+	schema:name "Emoji"@id ;
+	rdfs:label "繪文字"@zh ;
+	skos:prefLabel "繪文字"@zh ;
+	schema:name "繪文字"@zh ;
+	rdfs:label "emoji"@nb ;
+	skos:prefLabel "emoji"@nb ;
+	schema:name "emoji"@nb ;
+	rdfs:label "Эмодьи"@sah ;
+	skos:prefLabel "Эмодьи"@sah ;
+	schema:name "Эмодьи"@sah ;
+	rdfs:label "اموجی"@fa ;
+	skos:prefLabel "اموجی"@fa ;
+	schema:name "اموجی"@fa ;
+	rdfs:label "emoji"@cs ;
+	skos:prefLabel "emoji"@cs ;
+	schema:name "emoji"@cs ;
+	rdfs:label "Emoji"@fy ;
+	skos:prefLabel "Emoji"@fy ;
+	schema:name "Emoji"@fy ;
+	rdfs:label "emoji"@eu ;
+	skos:prefLabel "emoji"@eu ;
+	schema:name "emoji"@eu ;
+	rdfs:label "Emoji"@sv ;
+	skos:prefLabel "Emoji"@sv ;
+	schema:name "Emoji"@sv ;
+	rdfs:label "繪文字"@yue ;
+	skos:prefLabel "繪文字"@yue ;
+	schema:name "繪文字"@yue ;
+	rdfs:label "绘文字"@zh-cn ;
+	skos:prefLabel "绘文字"@zh-cn ;
+	schema:name "绘文字"@zh-cn ;
+	rdfs:label "繪文字"@zh-mo ;
+	skos:prefLabel "繪文字"@zh-mo ;
+	schema:name "繪文字"@zh-mo ;
+	rdfs:label "绘文字"@zh-my ;
+	skos:prefLabel "绘文字"@zh-my ;
+	schema:name "绘文字"@zh-my ;
+	rdfs:label "绘文字"@zh-sg ;
+	skos:prefLabel "绘文字"@zh-sg ;
+	schema:name "绘文字"@zh-sg ;
+	rdfs:label "繪文字"@zh-tw ;
+	skos:prefLabel "繪文字"@zh-tw ;
+	schema:name "繪文字"@zh-tw ;
+	rdfs:label "emoji"@pt ;
+	skos:prefLabel "emoji"@pt ;
+	schema:name "emoji"@pt ;
+	rdfs:label "emoji"@ca ;
+	skos:prefLabel "emoji"@ca ;
+	schema:name "emoji"@ca ;
+	rdfs:label "emoji"@ast ;
+	skos:prefLabel "emoji"@ast ;
+	schema:name "emoji"@ast ;
+	rdfs:label "אמוג'י"@he ;
+	skos:prefLabel "אמוג'י"@he ;
+	schema:name "אמוג'י"@he ;
+	rdfs:label "Emoji"@ga ;
+	skos:prefLabel "Emoji"@ga ;
+	schema:name "Emoji"@ga ;
+	rdfs:label "Emoji"@tr ;
+	skos:prefLabel "Emoji"@tr ;
+	schema:name "Emoji"@tr ;
+	rdfs:label "емодзі"@uk ;
+	skos:prefLabel "емодзі"@uk ;
+	schema:name "емодзі"@uk ;
+	rdfs:label "emodzsi"@hu ;
+	skos:prefLabel "emodzsi"@hu ;
+	schema:name "emodzsi"@hu ;
+	rdfs:label "emoĝio"@eo ;
+	skos:prefLabel "emoĝio"@eo ;
+	schema:name "emoĝio"@eo ;
+	rdfs:label "Emoji"@lmo ;
+	skos:prefLabel "Emoji"@lmo ;
+	schema:name "Emoji"@lmo ;
+	rdfs:label "အီမိုဂျီ"@my ;
+	skos:prefLabel "အီမိုဂျီ"@my ;
+	schema:name "အီမိုဂျီ"@my ;
+	rdfs:label "emoji"@pl ;
+	skos:prefLabel "emoji"@pl ;
+	schema:name "emoji"@pl ;
+	rdfs:label "emoji"@da ;
+	skos:prefLabel "emoji"@da ;
+	schema:name "emoji"@da ;
+	rdfs:label "ইমোজি"@bn ;
+	skos:prefLabel "ইমোজি"@bn ;
+	schema:name "ইমোজি"@bn ;
+	rdfs:label "อิโมจิ"@th ;
+	skos:prefLabel "อิโมจิ"@th ;
+	schema:name "อิโมจิ"@th ;
+	rdfs:label "емоџи"@mk ;
+	skos:prefLabel "емоџи"@mk ;
+	schema:name "емоџи"@mk ;
+	rdfs:label "ഇമോജി"@ml ;
+	skos:prefLabel "ഇമോജി"@ml ;
+	schema:name "ഇമോജി"@ml ;
+	rdfs:label "Էմոջի"@hy ;
+	skos:prefLabel "Էմոջի"@hy ;
+	schema:name "Էմոջի"@hy ;
+	rdfs:label "Emoji"@ro ;
+	skos:prefLabel "Emoji"@ro ;
+	schema:name "Emoji"@ro ;
+	rdfs:label "emoji"@vi ;
+	skos:prefLabel "emoji"@vi ;
+	schema:name "emoji"@vi ;
+	rdfs:label "इमोजी"@bho ;
+	skos:prefLabel "इमोजी"@bho ;
+	schema:name "इमोजी"@bho ;
+	rdfs:label "эмодзи"@tt ;
+	skos:prefLabel "эмодзи"@tt ;
+	schema:name "эмодзи"@tt ;
+	rdfs:label "emoji"@nn ;
+	skos:prefLabel "emoji"@nn ;
+	schema:name "emoji"@nn ;
+	rdfs:label "Эможи"@ky ;
+	skos:prefLabel "Эможи"@ky ;
+	schema:name "Эможи"@ky ;
+	rdfs:label "емотикон"@sr ;
+	skos:prefLabel "емотикон"@sr ;
+	schema:name "емотикон"@sr ;
+	rdfs:label "Emoji"@oc ;
+	skos:prefLabel "Emoji"@oc ;
+	schema:name "Emoji"@oc ;
+	rdfs:label "ایموجی"@ur ;
+	skos:prefLabel "ایموجی"@ur ;
+	schema:name "ایموجی"@ur ;
+	rdfs:label "Емоджи"@bg ;
+	skos:prefLabel "Емоджи"@bg ;
+	schema:name "Емоджи"@bg ;
+	rdfs:label "эмодзі"@be-tarask ;
+	skos:prefLabel "эмодзі"@be-tarask ;
+	schema:name "эмодзі"@be-tarask ;
+	rdfs:label "Emoji"@cy ;
+	skos:prefLabel "Emoji"@cy ;
+	schema:name "Emoji"@cy ;
+	rdfs:label "Emoji"@is ;
+	skos:prefLabel "Emoji"@is ;
+	schema:name "Emoji"@is ;
+	rdfs:label "ఎమోజీ"@te ;
+	skos:prefLabel "ఎమోజీ"@te ;
+	schema:name "ఎమోజీ"@te ;
+	rdfs:label "Emoji"@hr ;
+	skos:prefLabel "Emoji"@hr ;
+	schema:name "Emoji"@hr ;
+	rdfs:label "Emoji"@ms ;
+	skos:prefLabel "Emoji"@ms ;
+	schema:name "Emoji"@ms ;
+	rdfs:label "ইম'জি"@as ;
+	skos:prefLabel "ইম'জি"@as ;
+	schema:name "ইম'জি"@as ;
+	rdfs:label "इमोजी"@ne ;
+	skos:prefLabel "इमोजी"@ne ;
+	schema:name "इमोजी"@ne ;
+	rdfs:label "emodži"@sl ;
+	skos:prefLabel "emodži"@sl ;
+	schema:name "emodži"@sl ;
+	rdfs:label "εμότζι"@el ;
+	skos:prefLabel "εμότζι"@el ;
+	schema:name "εμότζι"@el ;
+	rdfs:label "ئیمۆجی"@ckb ;
+	skos:prefLabel "ئیمۆجی"@ckb ;
+	schema:name "ئیمۆجی"@ckb ;
+	rdfs:label "ايموچى"@arz ;
+	skos:prefLabel "ايموچى"@arz ;
+	schema:name "ايموچى"@arz ;
+	rdfs:label "Émoji"@ban ;
+	skos:prefLabel "Émoji"@ban ;
+	schema:name "Émoji"@ban ;
+	rdfs:label "Emoji"@wuu ;
+	skos:prefLabel "Emoji"@wuu ;
+	schema:name "Emoji"@wuu ;
+	rdfs:label "ایموجی"@pnb ;
+	skos:prefLabel "ایموجی"@pnb ;
+	schema:name "ایموجی"@pnb ;
+	rdfs:label "ꯏꯃꯣꯖꯤ"@mni ;
+	skos:prefLabel "ꯏꯃꯣꯖꯤ"@mni ;
+	schema:name "ꯏꯃꯣꯖꯤ"@mni ;
+	rdfs:label "emoji"@en ;
+	skos:prefLabel "emoji"@en ;
+	schema:name "emoji"@en ;
+	rdfs:label "émoji"@fr ;
+	skos:prefLabel "émoji"@fr ;
+	schema:name "émoji"@fr ;
+	rdfs:label "Emoji"@de ;
+	skos:prefLabel "Emoji"@de ;
+	schema:name "Emoji"@de ;
+	rdfs:label "emoji"@es ;
+	skos:prefLabel "emoji"@es ;
+	schema:name "emoji"@es ;
+	rdfs:label "Emóji"@gn ;
+	skos:prefLabel "Emóji"@gn ;
+	schema:name "Emóji"@gn ;
+	rdfs:label "Emoji"@uz ;
+	skos:prefLabel "Emoji"@uz ;
+	schema:name "Emoji"@uz ;
+	rdfs:label "Emoji"@crh ;
+	skos:prefLabel "Emoji"@crh ;
+	schema:name "Emoji"@crh ;
+	rdfs:label "Emoji"@tl ;
+	skos:prefLabel "Emoji"@tl ;
+	schema:name "Emoji"@tl ;
+	rdfs:label "ایموجي"@ps ;
+	skos:prefLabel "ایموجي"@ps ;
+	schema:name "ایموجي"@ps ;
+	rdfs:label "Emoji"@qu ;
+	skos:prefLabel "Emoji"@qu ;
+	schema:name "Emoji"@qu ;
+	rdfs:label "эмодзи"@ba ;
+	skos:prefLabel "эмодзи"@ba ;
+	schema:name "эмодзи"@ba ;
+	schema:description "ideogrammen of smileys gebruikt in Japanse elektronische berichten en webpagina's"@nl,
+		"популярная в Японии система идеограмм и символов"@ru,
+		"বৈদ্যুতিন বার্তা আর ওয়েবপৃষ্ঠায় ব্যবহৃত ভাবলিপি বা স্মাইলি"@bn,
+		"สัญลักษณ์ที่ใช้ในการส่งข้อความอิเล็กทรอนิกส์หรือตามเว็บเพจ"@th,
+		"വെബ് പേജുകളിലും, ഇലക്ട്രോണിക് മെസേജുകളിലും ഉപയോഗിക്കുന്ന ചിഹ്നങ്ങൾ, ചിത്രലിപികളാണ് ഇമോജി."@ml,
+		"ideogrames o fustaxes que s'usen en mensaxes y páxines d'internet"@ast,
+		"इलेक्ट्रानिक सनेसा भा वेबपेज पर इस्तेमाल होखे वाला आइडियोग्राम भा स्माइली सभ"@bho,
+		"ideogramas utilizados em mensagens eletrônicas e sites"@pt,
+		"piktogram stosowany przez użytkowników Internetu"@pl,
+		"ideogram eller smilefjes som brukes i elektroniske meldinger eller på nettsider"@nb,
+		"piktogram som används i elektroniska meddelanden för att uttrycka känslor"@sv,
+		"شکلک یا استیکر"@fa,
+		"그림 문자 및 그림 문자 표현 기술의 총칭"@ko,
+		"ভাবপ্ৰকাশক চিহ্ন"@as,
+		"ideogramoj uzataj en elektronikaj mesaĝoj kaj retpaĝoj"@eo,
+		"emoji，電子訊息和網頁中使用的表意文字或表情符號"@zh,
+		"एउटा सानो डिजिटल छवि वा आइकन वा विचार वा भावना व्यक्त गर्न प्रयोग गरियो।"@ne,
+		"ιδεογράμματα ή φατσούλες που χρησιμοποιούνται σε ηλεκτρονικά μηνύματα και ιστοσελίδες"@el,
+		"携帯端末で使用できる絵文字、Unicodeに収録された絵文字"@ja,
+		"网页和电子通信中的图形符号"@zh-hans,
+		"表情，電子訊息和網頁中使用的表意文字或表情符號，又稱「Emoji」。"@zh-hant,
+		"unicode-standardin mukaiset hymiöt ja kuvat"@fi,
+		"סמלים המשמשים לביטוי רגשות בטקסט"@he,
+		"các ký hiệu dùng để biểu đạt cảm xúc trong văn hoá mạng"@vi,
+		"idéogrammes principalement utilisés dans les échanges de messages électroniques pour faire part d'une émotion"@fr,
+		"ideograms used in electronic messages and web pages"@en,
+		"Ideogramme, die meist bei SMS und Nachrichten über Messenger benutzt werden"@de,
+		"ideogramas utilizados en mensajes electrónicos y páginas web"@es,
+		"هەندێک هێمان زۆرجار وەک نیشانەی سۆزداری لە دەقدا بەکاردێن"@ckb,
+		"simboluri folosite în mediul online"@ro,
+		"simboli pittografici"@it,
+		"mga simbolo na nagpapahiwatig ng damdamin sa teksto"@tl ;
+	skos:altLabel "圖畫文字"@zh,
+		"表情符号"@zh,
+		"表情图标"@zh,
+		"绘文字菲茨帕特里克修饰符"@zh,
+		"携帯絵文字"@ja,
+		"絵文字文化"@ja,
+		"이모지"@ko,
+		"Emoji"@ru,
+		"эмоджи"@ru,
+		"emoji"@fr,
+		"อีโมจิ"@th,
+		"ईमोजी"@bho,
+		"symbols of feelings"@en,
+		"emoticon"@en,
+		"bildosigno"@eo,
+		"unikoda bildosigno"@eo,
+		"эмоджы"@be-tarask,
+		"symbole uczuć"@pl,
+		"ইমজি"@as,
+		"ίμοτζι"@el,
+		"emoji"@el,
+		"ιμότζι"@el,
+		"emoticons"@nl,
+		"smileys"@nl,
+		"表情"@zh-hans,
+		"emojis"@es,
+		"sındamga"@tr,
+		"biểu tượng cảm xúc"@vi,
+		"emoticon"@vi,
+		"сынтамга"@ky,
+		"эмоджи"@tt,
+		"эмоджи"@ba,
+		"emoji"@sl,
+		"čustvenček"@sl .
+
+wd:Q11606859 owl:sameAs wd:Q1049294 .
+
+wd:Q17239295 owl:sameAs wd:Q1049294 .
+
+wd:Q12195448 owl:sameAs wd:Q1049294 .

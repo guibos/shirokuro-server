@@ -1,0 +1,107 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36967 a schema:Dataset ;
+	schema:about wd:Q36967 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1615996158"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:46:35Z"^^xsd:dateTime .
+
+wd:Q36967 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Tingal> a schema:Article ;
+	schema:about wd:Q36967 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Tingal"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%A2%D0%B8%D0%BD%D0%B3%D0%B0%D0%BB%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q36967 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Тингалски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Tingaleg> a schema:Article ;
+	schema:about wd:Q36967 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Tingaleg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Tingal> a schema:Article ;
+	schema:about wd:Q36967 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Tingal"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36967 wdt:P31 wd:Q33384 ;
+	wdt:P220 "tie" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tie> ;
+	wdt:P2355 "1726" ;
+	wdt:P279 wd:Q36522 ;
+	wdt:P1394 "ting1253" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ting1253> ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P4913 wd:Q36522 ;
+	wdt:P305 "tie" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TIE> ;
+	wdt:P2671 "/g/1211ptn7" ;
+	wdtn:P2671 <http://g.co/kg/g/1211ptn7> ;
+	rdfs:label "Lenga Tingal"@pms ;
+	skos:prefLabel "Lenga Tingal"@pms ;
+	schema:name "Lenga Tingal"@pms ;
+	rdfs:label "Tingal"@de ;
+	skos:prefLabel "Tingal"@de ;
+	schema:name "Tingal"@de ;
+	rdfs:label "tingaleg"@br ;
+	skos:prefLabel "tingaleg"@br ;
+	schema:name "tingaleg"@br ;
+	rdfs:label "Тингалски јазик"@mk ;
+	skos:prefLabel "Тингалски јазик"@mk ;
+	schema:name "Тингалски јазик"@mk ;
+	rdfs:label "Tingal"@en ;
+	skos:prefLabel "Tingal"@en ;
+	schema:name "Tingal"@en ;
+	rdfs:label "tingal"@fr ;
+	skos:prefLabel "tingal"@fr ;
+	schema:name "tingal"@fr ;
+	schema:description "Sprache"@de,
+		"language of Sudan"@en,
+		"שפה"@he,
+		"dialecte du tegali"@fr .

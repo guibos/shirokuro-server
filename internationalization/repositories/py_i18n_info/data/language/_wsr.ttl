@@ -1,0 +1,133 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7114727 a schema:Dataset ;
+	schema:about wd:Q7114727 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960458631"^^xsd:integer ;
+	schema:dateModified "2023-08-24T21:10:18Z"^^xsd:dateTime .
+
+wd:Q7114727 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Owenia> a schema:Article ;
+	schema:about wd:Q7114727 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Owenia"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiowenia> a schema:Article ;
+	schema:about wd:Q7114727 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiowenia"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Oweina_language> a schema:Article ;
+	schema:about wd:Q7114727 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Oweina language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Oweina> a schema:Article ;
+	schema:about wd:Q7114727 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Oweina"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1_%CE%9F%CE%BF%CF%85%CE%AD%CE%B9%CE%BD%CE%B1> a schema:Article ;
+	schema:about wd:Q7114727 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γλώσσα Οουέινα"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7114727 wdt:P220 "wsr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/wsr> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "owen1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/owen1244> ;
+	wdt:P305 "wsr" ;
+	wdt:P1627 "wsr" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q849812 ;
+	wdt:P4839 "Entity[\"Language\", \"Owenia::xvmb7\"]",
+		"Entity[\"Language\", \"Owenia\"]" ;
+	wdt:P646 "/m/02hwpw9" ;
+	rdfs:label "Oweina"@en ;
+	skos:prefLabel "Oweina"@en ;
+	schema:name "Oweina"@en ;
+	rdfs:label "Lenga Owenia"@pms ;
+	skos:prefLabel "Lenga Owenia"@pms ;
+	schema:name "Lenga Owenia"@pms ;
+	rdfs:label "Kiowenia"@sw ;
+	skos:prefLabel "Kiowenia"@sw ;
+	schema:name "Kiowenia"@sw ;
+	rdfs:label "Oweina"@ilo ;
+	skos:prefLabel "Oweina"@ilo ;
+	schema:name "Oweina"@ilo ;
+	rdfs:label "Język owena"@pl ;
+	skos:prefLabel "Język owena"@pl ;
+	schema:name "Język owena"@pl ;
+	rdfs:label "Owenia"@en-gb ;
+	skos:prefLabel "Owenia"@en-gb ;
+	schema:name "Owenia"@en-gb ;
+	rdfs:label "Γλώσσα Οουέινα"@el ;
+	skos:prefLabel "Γλώσσα Οουέινα"@el ;
+	schema:name "Γλώσσα Οουέινα"@el ;
+	rdfs:label "Oweina"@en-ca ;
+	skos:prefLabel "Oweina"@en-ca ;
+	schema:name "Oweina"@en-ca ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Owenia language"@en,
+		"Oweina language"@en .
+
+wd:Q11732553 owl:sameAs wd:Q7114727 .

@@ -1,0 +1,148 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4121200 a schema:Dataset ;
+	schema:about wd:Q4121200 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1828051106"^^xsd:integer ;
+	schema:dateModified "2023-02-06T22:19:15Z"^^xsd:dateTime .
+
+wd:Q4121200 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Nilamba> a schema:Article ;
+	schema:about wd:Q4121200 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Nilamba"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_nilamba> a schema:Article ;
+	schema:about wd:Q4121200 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język nilamba"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinilamba> a schema:Article ;
+	schema:about wd:Q4121200 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinilamba"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Iramba_language> a schema:Article ;
+	schema:about wd:Q4121200 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Iramba language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Iramba_(langue)> a schema:Article ;
+	schema:about wd:Q4121200 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Iramba (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4121200 wdt:P220 "nim" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nim> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P2161 "F.31" ;
+	wdt:P279 wd:Q41347250 ;
+	wdt:P1394 "nila1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nila1242> ;
+	wdt:P305 "nim" ;
+	wdt:P1627 "nim" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P5198 "294928677" ;
+	wdt:P17 wd:Q924 ;
+	wdt:P2341 wd:Q153339,
+		wd:Q153326,
+		wd:Q153335 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NIM> ;
+	wdt:P646 "/m/02hxq5p" ;
+	wdt:P910 wd:Q77001967 ;
+	rdfs:label "Kinilamba"@sw ;
+	skos:prefLabel "Kinilamba"@sw ;
+	schema:name "Kinilamba"@sw ;
+	rdfs:label "Język nilamba"@pl ;
+	skos:prefLabel "Język nilamba"@pl ;
+	schema:name "Język nilamba"@pl ;
+	rdfs:label "Iramba"@en ;
+	skos:prefLabel "Iramba"@en ;
+	schema:name "Iramba"@en ;
+	rdfs:label "Lenga Nilamba"@pms ;
+	skos:prefLabel "Lenga Nilamba"@pms ;
+	schema:name "Lenga Nilamba"@pms ;
+	rdfs:label "Wikang Iramba"@tl ;
+	skos:prefLabel "Wikang Iramba"@tl ;
+	schema:name "Wikang Iramba"@tl ;
+	rdfs:label "nilamba keel"@et ;
+	skos:prefLabel "nilamba keel"@et ;
+	schema:name "nilamba keel"@et ;
+	rdfs:label "iramba"@fr ;
+	skos:prefLabel "iramba"@fr ;
+	schema:name "iramba"@fr ;
+	rdfs:label "Iramba"@en-gb ;
+	skos:prefLabel "Iramba"@en-gb ;
+	schema:name "Iramba"@en-gb ;
+	rdfs:label "Iramba"@pcm ;
+	skos:prefLabel "Iramba"@pcm ;
+	schema:name "Iramba"@pcm ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"This is the language of the people of Nilamba and Lambi in the country Tanzania."@en-gb,
+		"Nka bu asusu ndi Nilamba na Lambi bi n’obodo Tanzania."@pcm,
+		"język z rodziny bantu"@pl ;
+	skos:altLabel "Kinyiramba"@sw,
+		"Język ilamba"@pl,
+		"Język kinilamba"@pl,
+		"Nilamba"@en,
+		"Iramba language"@en,
+		"Iramba language"@en-gb,
+		"Asusu Iramba"@pcm .
+
+wd:Q12952951 owl:sameAs wd:Q4121200 .

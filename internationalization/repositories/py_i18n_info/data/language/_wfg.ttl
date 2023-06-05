@@ -1,0 +1,164 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q8074520 a schema:Dataset ;
+	schema:about wd:Q8074520 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960505567"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:16:37Z"^^xsd:dateTime .
+
+wd:Q8074520 a wikibase:Item .
+
+<https://hr.wikipedia.org/wiki/Zorop_jezik> a schema:Article ;
+	schema:about wd:Q8074520 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Zorop jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Zorop_language> a schema:Article ;
+	schema:about wd:Q8074520 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Zorop language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Yafi> a schema:Article ;
+	schema:about wd:Q8074520 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Yafi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Yafi> a schema:Article ;
+	schema:about wd:Q8074520 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Yafi"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kizorop> a schema:Article ;
+	schema:about wd:Q8074520 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kizorop"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Zorop> a schema:Article ;
+	schema:about wd:Q8074520 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Zorop"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Zorop> a schema:Article ;
+	schema:about wd:Q8074520 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Zorop"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_zorop> a schema:Article ;
+	schema:about wd:Q8074520 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język zorop"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q8074520 wdt:P220 "wfg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/wfg> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "yafi1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/yafi1240> ;
+	wdt:P2590 "1152 1" ;
+	wdt:P17 wd:Q252 ;
+	wdt:P1889 wd:Q4119894 ;
+	wdt:P2192 "3356" ;
+	wdt:P305 "wfg" ;
+	wdt:P1627 "wfg" ;
+	wdt:P3823 wd:Q29051555 ;
+	wdt:P2341 wd:Q5095 ;
+	wdt:P646 "/m/02hxjrl" ;
+	rdfs:label "Zorop jezik"@hr ;
+	skos:prefLabel "Zorop jezik"@hr ;
+	schema:name "Zorop jezik"@hr ;
+	rdfs:label "Zorop"@en ;
+	skos:prefLabel "Zorop"@en ;
+	schema:name "Zorop"@en ;
+	rdfs:label "Lenga Yafi"@pms ;
+	skos:prefLabel "Lenga Yafi"@pms ;
+	schema:name "Lenga Yafi"@pms ;
+	rdfs:label "yafi"@fr ;
+	skos:prefLabel "yafi"@fr ;
+	schema:name "yafi"@fr ;
+	rdfs:label "Kizorop"@sw ;
+	skos:prefLabel "Kizorop"@sw ;
+	schema:name "Kizorop"@sw ;
+	rdfs:label "Zorop"@id ;
+	skos:prefLabel "Zorop"@id ;
+	schema:name "Zorop"@id ;
+	rdfs:label "Zorop"@ilo ;
+	skos:prefLabel "Zorop"@ilo ;
+	schema:name "Zorop"@ilo ;
+	rdfs:label "Język zorop"@pl ;
+	skos:prefLabel "Język zorop"@pl ;
+	schema:name "Język zorop"@pl ;
+	schema:description "Sprache"@de,
+		"bagian dari rumpun bahasa Papua"@id,
+		"language in Papua"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"pagsasao idiay Indonesia"@ilo,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"język z grupy papuaskiej"@pl ;
+	skos:altLabel "Yafi jezik"@hr,
+		"Yafi language"@en,
+		"Zorop language"@en,
+		"bahasa Zorop"@id,
+		"bahasa Yafi"@id,
+		"Język yafi"@pl .
+
+wd:Q11732764 owl:sameAs wd:Q8074520 .

@@ -1,0 +1,99 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6733387 a schema:Dataset ;
+	schema:about wd:Q6733387 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1556058282"^^xsd:integer ;
+	schema:dateModified "2022-01-04T15:51:17Z"^^xsd:dateTime .
+
+wd:Q6733387 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Maharashtri_Konkani> a schema:Article ;
+	schema:about wd:Q6733387 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Maharashtri Konkani"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6733387 wdt:P220 "knn" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/knn> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "konk1267" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/konk1267> ;
+	wdt:P1466 "kkn" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_kkn> ;
+	wdt:P305 "knn" ;
+	wdt:P1627 "knn" ;
+	wdt:P3823 wd:Q29051547 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1061,
+		wd:Q1191 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KNN> ;
+	wdt:P1889 wd:Q34239 ;
+	wdt:P646 "/m/0h3vqcw" ;
+	wdt:P443 <http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q1860%20%28eng%29-Fredericknoronha-Maharashtrian%20Konkani.wav> ;
+	rdfs:label "Maharashtrian Konkani"@en ;
+	skos:prefLabel "Maharashtrian Konkani"@en ;
+	schema:name "Maharashtrian Konkani"@en ;
+	rdfs:label "マハーラーシュトリアン・コンカニ語"@ja ;
+	skos:prefLabel "マハーラーシュトリアン・コンカニ語"@ja ;
+	schema:name "マハーラーシュトリアン・コンカニ語"@ja ;
+	rdfs:label "ਮਰਾਠੀ ਕੋਨਕਨੀ"@pa ;
+	skos:prefLabel "ਮਰਾਠੀ ਕੋਨਕਨੀ"@pa ;
+	schema:name "ਮਰਾਠੀ ਕੋਨਕਨੀ"@pa ;
+	rdfs:label "馬哈施特拉孔卡尼語"@zh-hant ;
+	skos:prefLabel "馬哈施特拉孔卡尼語"@zh-hant ;
+	schema:name "馬哈施特拉孔卡尼語"@zh-hant ;
+	rdfs:label "马哈施特拉孔卡尼语"@zh-hans ;
+	skos:prefLabel "马哈施特拉孔卡尼语"@zh-hans ;
+	schema:name "马哈施特拉孔卡尼语"@zh-hans ;
+	rdfs:label "Maharashtra-Konkani"@nl ;
+	skos:prefLabel "Maharashtra-Konkani"@nl ;
+	schema:name "Maharashtra-Konkani"@nl ;
+	rdfs:label "马哈施特拉孔卡尼语"@zh ;
+	skos:prefLabel "马哈施特拉孔卡尼语"@zh ;
+	schema:name "马哈施特拉孔卡尼语"@zh ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ভারতের ভাষা"@bn ;
+	skos:altLabel "Konkani (individual language)"@en .

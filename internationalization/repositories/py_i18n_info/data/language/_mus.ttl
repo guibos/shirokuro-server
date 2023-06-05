@@ -1,0 +1,520 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q523014 a schema:Dataset ;
+	schema:about wd:Q523014 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1921666063"^^xsd:integer ;
+	schema:dateModified "2023-06-22T21:27:46Z"^^xsd:dateTime .
+
+wd:Q523014 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_muskogee> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga muskogee"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mus.wikipedia.org/wiki/Mvskoke> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "mus" ;
+	schema:isPartOf <https://mus.wikipedia.org/> ;
+	schema:name "Mvskoke"@mus .
+
+<https://mus.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B8%D0%BA%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Крикский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9A%D1%80%D0%B8%D0%BA%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Крикська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Muscogee_language> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Muscogee language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_muscogee> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua muscogee"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Creek> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Creek"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lfn.wikipedia.org/wiki/Cric_(lingua)> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "lfn" ;
+	schema:isPartOf <https://lfn.wikipedia.org/> ;
+	schema:name "Cric (lingua)"@lfn .
+
+<https://lfn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%9C%D3%A7%D1%81%D0%BA%D0%BE%D0%B3%D0%B8_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Мӧскоги кыв"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%B9%E3%82%B3%E3%82%AE%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "マスコギ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Kr%C3%ADk%C5%A1tina> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Kríkština"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_creek> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua creek"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Krik_dili> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Krik dili"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%AE%E0%AF%81%E0%AE%9A%E0%AF%81%E0%AE%95%E0%AF%8B%E0%AE%95_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "முசுகோக மொழி"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Krik%C3%A7e> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Krikçe"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_krik> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język krik"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D9%85%D8%B3%D9%83%D9%88%D9%83%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "اللغة المسكوكية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_maskoki> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma maskoki"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%AE%E0%B4%B8%E0%B5%8D%E0%B4%95%E0%B5%8A%E0%B4%97%E0%B5%80_%E0%B4%AD%E0%B4%BE%E0%B4%B7> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "മസ്കൊഗീ ഭാഷ"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://qu.wikipedia.org/wiki/Maskoki_simi> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "qu" ;
+	schema:isPartOf <https://qu.wikipedia.org/> ;
+	schema:name "Maskoki simi"@qu .
+
+<https://qu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Muskogee> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Muskogee"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Muskogi> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Muskogi"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Creek_(langue)> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Creek (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%DA%A9%D8%B1%DB%8C%DA%A9_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "کریک دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BA%D0%BE%D0%B3%D1%96_(%D0%BC%D0%BE%D0%B2%D0%B0)> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Маскогі (мова)"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Krika_lingvo> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Krika lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%DA%A9%D8%B1%DB%8C%DA%A9> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان کریک"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Muskogeeg> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Muskogeeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_muskogee> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua muskogee"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_maskoki> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma maskoki"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Creekin_kieli> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Creekin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%85%8B%E9%87%8C%E5%85%8B%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "克里克语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D9%84%D8%BA%D9%87_%D9%85%D8%B3%D9%83%D9%88%D9%83%D9%8A%D9%87> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "لغه مسكوكيه"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%A2%E1%B1%A9%E1%B1%A5%E1%B1%A0%E1%B1%B3%E1%B1%9C%E1%B1%A4_%E1%B1%AF%E1%B1%9F%E1%B1%B9%E1%B1%A8%E1%B1%A5%E1%B1%A4> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱢᱩᱥᱠᱳᱜᱤ ᱯᱟᱹᱨᱥᱤ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EB%A8%B8%EC%8A%A4%EC%BD%94%EA%B8%B0%EC%96%B4> a schema:Article ;
+	schema:about wd:Q523014 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "머스코기어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q523014 wdt:P424 "mus" ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P219 "mus" ;
+	wdt:P220 "mus" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mus> ;
+	wdt:P646 "/m/04mj8v" ;
+	wdt:P305 "mus" ;
+	wdt:P282 wd:Q8229,
+		wd:Q27956191 ;
+	wdt:P1705 "Mvskoke"@mus ;
+	wdt:P1098 "+4300"^^xsd:decimal ;
+	wdt:P279 wd:Q902978 ;
+	wdt:P1394 "cree1270" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/cree1270> ;
+	wdt:P2355 "900" ;
+	wdt:P278 "крк 344" ;
+	wdt:P4132 wd:Q171263 ;
+	wdt:P1466 "crk" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_crk> ;
+	wdt:P2581 "00421285n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s00421285n> ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P910 wd:Q30510718 ;
+	wdt:P2192 "2007" ;
+	wdt:P1627 "mus" ;
+	wdt:P4801 "languages/mus" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/mus> ;
+	wdt:P3823 wd:Q29051555 ;
+	wdt:P17 wd:Q30 ;
+	wdt:P2341 wd:Q812,
+		wd:Q1649 ;
+	wdt:P1245 "1703644" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MUS> ;
+	wdt:P8408 "CreekLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/CreekLanguage> ;
+	wdt:P9060 "mus" ;
+	wdt:P10369 "Q372" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q372> ;
+	wdt:P373 "Muscogee language" ;
+	rdfs:label "マスコギ語"@ja ;
+	skos:prefLabel "マスコギ語"@ja ;
+	schema:name "マスコギ語"@ja ;
+	rdfs:label "لغة مسكوكية"@ar ;
+	skos:prefLabel "لغة مسكوكية"@ar ;
+	schema:name "لغة مسكوكية"@ar ;
+	rdfs:label "Krik dili"@az ;
+	skos:prefLabel "Krik dili"@az ;
+	schema:name "Krik dili"@az ;
+	rdfs:label "muskogeeg"@br ;
+	skos:prefLabel "muskogeeg"@br ;
+	schema:name "muskogeeg"@br ;
+	rdfs:label "Muscogee"@en ;
+	skos:prefLabel "Muscogee"@en ;
+	schema:name "Muscogee"@en ;
+	rdfs:label "Muscogee"@en-ca ;
+	skos:prefLabel "Muscogee"@en-ca ;
+	schema:name "Muscogee"@en-ca ;
+	rdfs:label "Muscogee"@en-gb ;
+	skos:prefLabel "Muscogee"@en-gb ;
+	schema:name "Muscogee"@en-gb ;
+	rdfs:label "krika lingvo"@eo ;
+	skos:prefLabel "krika lingvo"@eo ;
+	schema:name "krika lingvo"@eo ;
+	rdfs:label "idioma maskoki"@es ;
+	skos:prefLabel "idioma maskoki"@es ;
+	schema:name "idioma maskoki"@es ;
+	rdfs:label "Creekin kieli"@fi ;
+	skos:prefLabel "Creekin kieli"@fi ;
+	schema:name "Creekin kieli"@fi ;
+	rdfs:label "creek"@fr ;
+	skos:prefLabel "creek"@fr ;
+	schema:name "creek"@fr ;
+	rdfs:label "Bahasa Muskogee"@id ;
+	skos:prefLabel "Bahasa Muskogee"@id ;
+	schema:name "Bahasa Muskogee"@id ;
+	rdfs:label "Język krik"@pl ;
+	skos:prefLabel "Język krik"@pl ;
+	schema:name "Język krik"@pl ;
+	rdfs:label "Lenga muskogee"@pms ;
+	skos:prefLabel "Lenga muskogee"@pms ;
+	schema:name "Lenga muskogee"@pms ;
+	rdfs:label "Língua creek"@pt ;
+	skos:prefLabel "Língua creek"@pt ;
+	schema:name "Língua creek"@pt ;
+	rdfs:label "Língua creek"@pt-br ;
+	skos:prefLabel "Língua creek"@pt-br ;
+	schema:name "Língua creek"@pt-br ;
+	rdfs:label "Maskoki simi"@qu ;
+	skos:prefLabel "Maskoki simi"@qu ;
+	schema:name "Maskoki simi"@qu ;
+	rdfs:label "Крикский язык"@ru ;
+	skos:prefLabel "Крикский язык"@ru ;
+	schema:name "Крикский язык"@ru ;
+	rdfs:label "முசுகோக மொழி"@ta ;
+	skos:prefLabel "முசுகோக மொழி"@ta ;
+	schema:name "முசுகோக மொழி"@ta ;
+	rdfs:label "Krikçe"@tr ;
+	skos:prefLabel "Krikçe"@tr ;
+	schema:name "Krikçe"@tr ;
+	rdfs:label "Крикська мова"@uk ;
+	skos:prefLabel "Крикська мова"@uk ;
+	schema:name "Крикська мова"@uk ;
+	rdfs:label "克里克语"@zh ;
+	skos:prefLabel "克里克语"@zh ;
+	schema:name "克里克语"@zh ;
+	rdfs:label "Mvskoke"@mus ;
+	skos:prefLabel "Mvskoke"@mus ;
+	schema:name "Mvskoke"@mus ;
+	rdfs:label "Мӧскоги кыв"@kv ;
+	skos:prefLabel "Мӧскоги кыв"@kv ;
+	schema:name "Мӧскоги кыв"@kv ;
+	rdfs:label "Маскогі"@be ;
+	skos:prefLabel "Маскогі"@be ;
+	schema:name "Маскогі"@be ;
+	rdfs:label "muskogi"@ca ;
+	skos:prefLabel "muskogi"@ca ;
+	schema:name "muskogi"@ca ;
+	rdfs:label "زبان کریک"@fa ;
+	skos:prefLabel "زبان کریک"@fa ;
+	schema:name "زبان کریک"@fa ;
+	rdfs:label "kríkština"@cs ;
+	skos:prefLabel "kríkština"@cs ;
+	schema:name "kríkština"@cs ;
+	rdfs:label "lingua creek"@it ;
+	skos:prefLabel "lingua creek"@it ;
+	schema:name "lingua creek"@it ;
+	rdfs:label "മസ്കൊഗീ ഭാഷ"@ml ;
+	skos:prefLabel "മസ്കൊഗീ ഭാഷ"@ml ;
+	schema:name "മസ്കൊഗീ ഭാഷ"@ml ;
+	rdfs:label "Lingua muscogee"@gl ;
+	skos:prefLabel "Lingua muscogee"@gl ;
+	schema:name "Lingua muscogee"@gl ;
+	rdfs:label "крички јазик"@mk ;
+	skos:prefLabel "крички јазик"@mk ;
+	schema:name "крички јазик"@mk ;
+	rdfs:label "tiếng Muscogee"@vi ;
+	skos:prefLabel "tiếng Muscogee"@vi ;
+	schema:name "tiếng Muscogee"@vi ;
+	rdfs:label "Muskogi"@nl ;
+	skos:prefLabel "Muskogi"@nl ;
+	schema:name "Muskogi"@nl ;
+	rdfs:label "muszkogi"@hu ;
+	skos:prefLabel "muszkogi"@hu ;
+	schema:name "muszkogi"@hu ;
+	rdfs:label "마스코기어"@ko ;
+	skos:prefLabel "마스코기어"@ko ;
+	schema:name "마스코기어"@ko ;
+	rdfs:label "maskogi keel"@et ;
+	skos:prefLabel "maskogi keel"@et ;
+	schema:name "maskogi keel"@et ;
+	rdfs:label "کریک دیلی"@azb ;
+	skos:prefLabel "کریک دیلی"@azb ;
+	schema:name "کریک دیلی"@azb ;
+	rdfs:label "Cric"@lfn ;
+	skos:prefLabel "Cric"@lfn ;
+	schema:name "Cric"@lfn ;
+	rdfs:label "Idioma maskoki"@ast ;
+	skos:prefLabel "Idioma maskoki"@ast ;
+	schema:name "Idioma maskoki"@ast ;
+	rdfs:label "Creek"@oc ;
+	skos:prefLabel "Creek"@oc ;
+	schema:name "Creek"@oc ;
+	rdfs:label "لغه مسكوكيه"@arz ;
+	skos:prefLabel "لغه مسكوكيه"@arz ;
+	schema:name "لغه مسكوكيه"@arz ;
+	rdfs:label "ᱢᱩᱥᱠᱳᱜᱤ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	skos:prefLabel "ᱢᱩᱥᱠᱳᱜᱤ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	schema:name "ᱢᱩᱥᱠᱳᱜᱤ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	rdfs:label "muscogee"@vec ;
+	skos:prefLabel "muscogee"@vec ;
+	schema:name "muscogee"@vec ;
+	rdfs:label "Maskoki"@de ;
+	skos:prefLabel "Maskoki"@de ;
+	schema:name "Maskoki"@de ;
+	schema:description "マスコギ語族に属する言語"@ja,
+		"idioma"@es,
+		"Sprache"@de,
+		"Indigenous American language"@en,
+		"langue muskogéenne"@fr,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"Північноамериканська індіанська мова"@uk ;
+	skos:altLabel "Creek"@en,
+		"mus"@en,
+		"Muscogee language"@en,
+		"muscogee"@fr,
+		"Creek"@nl,
+		"Muskhogee"@nl,
+		"Muskogee"@nl,
+		"اللغة المسكوكية"@ar,
+		"무스코기어"@ko,
+		"크리크어"@ko,
+		"kriigi keel"@et,
+		"mus"@mus,
+		"creek"@vec .

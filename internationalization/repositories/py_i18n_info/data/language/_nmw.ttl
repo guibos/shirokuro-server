@@ -1,0 +1,118 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7037729 a schema:Dataset ;
+	schema:about wd:Q7037729 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1372689509"^^xsd:integer ;
+	schema:dateModified "2021-02-28T23:40:19Z"^^xsd:dateTime .
+
+wd:Q7037729 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Nimoa> a schema:Article ;
+	schema:about wd:Q7037729 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Nimoa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Nimoa> a schema:Article ;
+	schema:about wd:Q7037729 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Nimoa"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinimoa> a schema:Article ;
+	schema:about wd:Q7037729 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinimoa"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nimoa_language> a schema:Article ;
+	schema:about wd:Q7037729 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nimoa language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7037729 wdt:P220 "nmw" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nmw> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "nimo1246" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nimo1246> ;
+	wdt:P305 "nmw" ;
+	wdt:P1627 "nmw" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q874962 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NMW> ;
+	wdt:P646 "/m/02hxs0n" ;
+	wdt:P910 wd:Q33661697 ;
+	rdfs:label "Nimoa"@en ;
+	skos:prefLabel "Nimoa"@en ;
+	schema:name "Nimoa"@en ;
+	rdfs:label "Lenga Nimoa"@pms ;
+	skos:prefLabel "Lenga Nimoa"@pms ;
+	schema:name "Lenga Nimoa"@pms ;
+	rdfs:label "Kinimoa"@sw ;
+	skos:prefLabel "Kinimoa"@sw ;
+	schema:name "Kinimoa"@sw ;
+	rdfs:label "ニモア語"@ja ;
+	skos:prefLabel "ニモア語"@ja ;
+	schema:name "ニモア語"@ja ;
+	rdfs:label "Nimoa"@ilo ;
+	skos:prefLabel "Nimoa"@ilo ;
+	schema:name "Nimoa"@ilo ;
+	rdfs:label "Nimoa"@en-gb ;
+	skos:prefLabel "Nimoa"@en-gb ;
+	schema:name "Nimoa"@en-gb ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Nimoa language"@en .
+
+wd:Q12952958 owl:sameAs wd:Q7037729 .

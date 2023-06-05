@@ -1,0 +1,159 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q34842 a schema:Dataset ;
+	schema:about wd:Q34842 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1747497802"^^xsd:integer ;
+	schema:dateModified "2022-10-10T13:59:03Z"^^xsd:dateTime .
+
+wd:Q34842 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kwa> a schema:Article ;
+	schema:about wd:Q34842 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kwa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikwa> a schema:Article ;
+	schema:about wd:Q34842 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikwa"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kwah_language> a schema:Article ;
+	schema:about wd:Q34842 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kwah language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Baeg> a schema:Article ;
+	schema:about wd:Q34842 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Baeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Baa_(Sprache)> a schema:Article ;
+	schema:about wd:Q34842 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Baa (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Kwa_(adamawa_jezik)> a schema:Article ;
+	schema:about wd:Q34842 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Kwa (adamawa jezik)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Baa_(lenga)> a schema:Article ;
+	schema:about wd:Q34842 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Baa (lenga)"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_kwah> a schema:Article ;
+	schema:about wd:Q34842 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ kwah"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q34842 wdt:P220 "kwb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kwb> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kwaa1262" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kwaa1262> ;
+	wdt:P305 "kwb" ;
+	wdt:P1627 "kwb" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KWB> ;
+	wdt:P646 "/m/02hwhyd" ;
+	wdt:P131 wd:Q337514 ;
+	rdfs:label "Kikwa"@sw ;
+	skos:prefLabel "Kikwa"@sw ;
+	schema:name "Kikwa"@sw ;
+	rdfs:label "Lenga Kwa"@pms ;
+	skos:prefLabel "Lenga Kwa"@pms ;
+	schema:name "Lenga Kwa"@pms ;
+	rdfs:label "Baa"@de ;
+	skos:prefLabel "Baa"@de ;
+	schema:name "Baa"@de ;
+	rdfs:label "baeg"@br ;
+	skos:prefLabel "baeg"@br ;
+	schema:name "baeg"@br ;
+	rdfs:label "Baa"@en ;
+	skos:prefLabel "Baa"@en ;
+	schema:name "Baa"@en ;
+	rdfs:label "Kwa"@hr ;
+	skos:prefLabel "Kwa"@hr ;
+	schema:name "Kwa"@hr ;
+	rdfs:label "baa"@ca ;
+	skos:prefLabel "baa"@ca ;
+	schema:name "baa"@ca ;
+	rdfs:label "Baa"@oc ;
+	skos:prefLabel "Baa"@oc ;
+	schema:name "Baa"@oc ;
+	rdfs:label "Wikang Baa"@tl ;
+	skos:prefLabel "Wikang Baa"@tl ;
+	schema:name "Wikang Baa"@tl ;
+	rdfs:label "Asụsụ kwah"@ig ;
+	skos:prefLabel "Asụsụ kwah"@ig ;
+	schema:name "Asụsụ kwah"@ig ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kwa"@en,
+		"Baa language"@en .

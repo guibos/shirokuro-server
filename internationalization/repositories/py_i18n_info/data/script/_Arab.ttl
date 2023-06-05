@@ -1,0 +1,776 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q1828555 a schema:Dataset ;
+	schema:about wd:Q1828555 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1927124846"^^xsd:integer ;
+	schema:dateModified "2023-07-01T18:03:22Z"^^xsd:dateTime .
+
+wd:Q1828555 a wikibase:Item .
+
+<https://es.wikipedia.org/wiki/Escritura_%C3%A1rabe> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Escritura árabe"@es ;
+	wikibase:badge wd:Q70893996 .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Arabic_script> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Arabic script"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Arabische_Schrift> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Arabische Schrift"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%90%D1%80%D0%B0%D0%B1%D1%81%D0%BA%D0%BE%D0%B5_%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Арабское письмо"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Arabisch_schrift> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Arabisch schrift"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E9%98%BF%E6%8B%89%E4%BC%AF%E6%96%87%E5%AD%97> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "阿拉伯文字"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%AE%D8%B7_%D8%B9%D8%B1%D8%A8%DB%8C> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "خط عربی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Arabialainen_kirjaimisto> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Arabialainen kirjaimisto"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%83%D8%AA%D8%A7%D8%A8%D8%A9_%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "كتابة عربية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%90%D1%80%D0%B0%D0%B1%D1%81%D1%8C%D0%BA%D0%B5_%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Арабське письмо"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%90%D1%80%D0%B0%D0%BF%D1%81%D0%BA%D0%BE_%D0%BF%D0%B8%D1%81%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Арапско писмо"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D9%83%D8%AA%D8%A7%D8%A8%D9%87_%D8%B9%D8%B1%D8%A8%D9%89> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "كتابه عربى"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://av.wikipedia.org/wiki/%D0%93%D3%80%D0%B0%D1%80%D0%B0%D0%B1_%D1%85%D1%8A%D0%B2%D0%B0%D0%B9-%D1%85%D1%8A%D0%B2%D0%B0%D0%B3%D3%80%D0%B8> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "av" ;
+	schema:isPartOf <https://av.wikipedia.org/> ;
+	schema:name "ГӀараб хъвай-хъвагӀи"@av .
+
+<https://av.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D8%B9%D8%B1%D8%A8_%D8%AE%D8%B7%DB%8C> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "عرب خطی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bs.wikipedia.org/wiki/Arapsko_pismo> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "bs" ;
+	schema:isPartOf <https://bs.wikipedia.org/> ;
+	schema:name "Arapsko pismo"@bs .
+
+<https://bs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Araba_skribmaniero> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Araba skribmaniero"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Arapsko_pismo> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Arapsko pismo"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mg.wikipedia.org/wiki/Tarehin-tsoratra_arabo> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "mg" ;
+	schema:isPartOf <https://mg.wikipedia.org/> ;
+	schema:name "Tarehin-tsoratra arabo"@mg .
+
+<https://mg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mni.wikipedia.org/wiki/%EA%AF%91%EA%AF%A5%EA%AF%94%EA%AF%95%EA%AF%A4_%EA%AF%83%EA%AF%8C%EA%AF%A6%EA%AF%9B> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "mni" ;
+	schema:isPartOf <https://mni.wikipedia.org/> ;
+	schema:name "ꯑꯥꯔꯕꯤ ꯃꯌꯦꯛ"@mni .
+
+<https://mni.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pa.wikipedia.org/wiki/%E0%A8%85%E0%A8%B0%E0%A8%AC%E0%A9%80_%E0%A8%B2%E0%A8%BF%E0%A8%AA%E0%A9%80> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "pa" ;
+	schema:isPartOf <https://pa.wikipedia.org/> ;
+	schema:name "ਅਰਬੀ ਲਿਪੀ"@pa .
+
+<https://pa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%D8%B9%D8%B1%D8%A8%DB%8C_%D9%84%D9%BE%DB%8C> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "عربی لپی"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sd.wikipedia.org/wiki/%D8%B9%D8%B1%D8%A8%D9%8A_%D8%A7%D8%B3%DA%AA%D8%B1%D9%BE%D9%BD> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "sd" ;
+	schema:isPartOf <https://sd.wikipedia.org/> ;
+	schema:name "عربي اسڪرپٽ"@sd .
+
+<https://sd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Arapsko_pismo> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Arapsko pismo"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sq.wikipedia.org/wiki/Shkrimi_arab> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "sq" ;
+	schema:isPartOf <https://sq.wikipedia.org/> ;
+	schema:name "Shkrimi arab"@sq .
+
+<https://sq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D8%B9%D8%B1%D8%A8%DB%8C_%D8%B1%D8%B3%D9%85_%D8%A7%D9%84%D8%AE%D8%B7> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "عربی رسم الخط"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mr.wikipedia.org/wiki/%E0%A4%85%E0%A4%B0%E0%A4%AC%E0%A5%80_%E0%A4%B2%E0%A4%BF%E0%A4%AA%E0%A5%80> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "mr" ;
+	schema:isPartOf <https://mr.wikipedia.org/> ;
+	schema:name "अरबी लिपी"@mr .
+
+<https://mr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%AC%E1%80%9B%E1%80%97%E1%80%AE%E1%80%A1%E1%80%9B%E1%80%B1%E1%80%B8%E1%80%A1%E1%80%9E%E1%80%AC%E1%80%B8> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "my" ;
+	schema:isPartOf <https://my.wikipedia.org/> ;
+	schema:name "အာရဗီအရေးအသား"@my .
+
+<https://my.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lmo.wikipedia.org/wiki/Alfabet_arab> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "lmo" ;
+	schema:isPartOf <https://lmo.wikipedia.org/> ;
+	schema:name "Alfabet arab"@lmo .
+
+<https://lmo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Arab_tili_yozuvi> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Arab tili yozuvi"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Arbii_akchhar> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Arbii akchhar"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://commons.wikimedia.org/wiki/Category:Arabic_script> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "Category:Arabic script"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+<https://ms.wikipedia.org/wiki/Aksara_Arab> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Aksara Arab"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fy.wikipedia.org/wiki/Arabysk-Perzysk_skrift> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "fy" ;
+	schema:isPartOf <https://fy.wikipedia.org/> ;
+	schema:name "Arabysk-Perzysk skrift"@fy .
+
+<https://fy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Arabsk%C3%A9_p%C3%ADsmo> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Arabské písmo"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sk.wikipedia.org/wiki/Arabsk%C3%A9_p%C3%ADsmo> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "sk" ;
+	schema:isPartOf <https://sk.wikipedia.org/> ;
+	schema:name "Arabské písmo"@sk .
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wiktionary.org/wiki/Appendix:Arabic_script> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wiktionary.org/> ;
+	schema:name "Appendix:Arabic script"@en .
+
+<https://en.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://fr.wiktionary.org/wiki/Annexe:Alphabet_arabe> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wiktionary.org/> ;
+	schema:name "Annexe:Alphabet arabe"@fr .
+
+<https://fr.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://sr.wiktionary.org/wiki/%D0%94%D0%BE%D0%B4%D0%B0%D1%82%D0%B0%D0%BA:%D0%90%D1%80%D0%B0%D0%BF%D1%81%D0%BA%D0%B8_%D1%82%D0%B5%D0%BA%D1%81%D1%82> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wiktionary.org/> ;
+	schema:name "Додатак:Арапски текст"@sr .
+
+<https://sr.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://ps.wikipedia.org/wiki/%D8%B9%D8%B1%D8%A8%D9%8A_%D9%84%D9%8A%DA%A9%D8%AF%D9%88%D8%AF> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "ps" ;
+	schema:isPartOf <https://ps.wikipedia.org/> ;
+	schema:name "عربي ليکدود"@ps .
+
+<https://ps.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mzn.wikipedia.org/wiki/%D8%B9%D8%B1%D8%A8%DB%8C_%D8%AE%D8%B7> a schema:Article ;
+	schema:about wd:Q1828555 ;
+	schema:inLanguage "mzn" ;
+	schema:isPartOf <https://mzn.wikipedia.org/> ;
+	schema:name "عربی خط"@mzn .
+
+<https://mzn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q1828555 wdt:P31 wd:Q29517555,
+		wd:Q4004706,
+		wd:Q185087 ;
+	wdt:P910 wd:Q7213519 ;
+	wdt:P646 "/m/0h3w0pb" ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Tawqi%27%20script%20-%20Qur%27anic%20verses%20-%202.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Arabic-script%2028.png>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Al-Attarine%20Madrasa%20%288753601695%29.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Ramzan%20Gaddi-Qata.jpg> ;
+	wdt:P227 "4355548-2" ;
+	wdtn:P227 <https://d-nb.info/gnd/4355548-2> ;
+	wdt:P506 "Arab" ;
+	wdt:P2620 "160" ;
+	wdt:P1014 "300208615" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300208615> ;
+	wdt:P2283 wd:Q8196,
+		wd:Q41713761 ;
+	wdt:P1256 "49L142" ;
+	wdtn:P1256 <http://iconclass.org/49L142> ;
+	wdt:P7033 "scot/1492" ;
+	wdtn:P7033 <http://vocabulary.curriculum.edu.au/scot/1492.rdf> ;
+	wdt:P1406 wd:Q7333457 ;
+	wdt:P1245 "633432" ;
+	wdt:P6366 "2777323237" ;
+	wdtn:P6366 <http://ma-graph.org/entity/2777323237> ;
+	wdt:P8408 "ArabicScript" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/ArabicScript> ;
+	wdt:P5949 "U+0600-06FF",
+		"U+0750-077F",
+		"U+08A0-08FF",
+		"U+FB50-FDFF",
+		"U+FE70-FEFF" ;
+	wdt:P571 "0400-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P1846 <http://commons.wikimedia.org/wiki/Special:FilePath/Arabic%20alphabet%20world%20distribution%20-%20three%20shades.png> ;
+	wdt:P2561 "Arabic"@en,
+		"arabe"@fr ;
+	wdt:P407 wd:Q13955,
+		wd:Q27683,
+		wd:Q27776,
+		wd:Q3246741,
+		wd:Q14196,
+		wd:Q8748,
+		wd:Q317044,
+		wd:Q8765,
+		wd:Q36196,
+		wd:Q1321,
+		wd:Q2640907,
+		wd:Q29561,
+		wd:Q9292,
+		wd:Q257829,
+		wd:Q35006,
+		wd:Q33049,
+		wd:Q33086,
+		wd:Q33151,
+		wd:Q13389,
+		wd:Q33025,
+		wd:Q9091,
+		wd:Q25448,
+		wd:Q34152,
+		wd:Q4900565,
+		wd:Q9303,
+		wd:Q33202,
+		wd:Q216286,
+		wd:Q853414,
+		wd:Q241146,
+		wd:Q33350,
+		wd:Q7850,
+		wd:Q33173,
+		wd:Q33522,
+		wd:Q33077,
+		wd:Q36155,
+		wd:Q33357,
+		wd:Q32332,
+		wd:Q178440,
+		wd:Q32730,
+		wd:Q55218915,
+		wd:Q33050,
+		wd:Q32706,
+		wd:Q150,
+		wd:Q33454,
+		wd:Q33364,
+		wd:Q9129,
+		wd:Q33626,
+		wd:Q56475,
+		wd:Q9288,
+		wd:Q3041552,
+		wd:Q33509,
+		wd:Q3507832,
+		wd:Q37733,
+		wd:Q56597,
+		wd:Q33714,
+		wd:Q33541,
+		wd:Q33552,
+		wd:Q9252,
+		wd:Q938216,
+		wd:Q33573,
+		wd:Q33583,
+		wd:Q36209,
+		wd:Q36368,
+		wd:Q9255,
+		wd:Q35833,
+		wd:Q36206,
+		wd:Q31746,
+		wd:Q1194795,
+		wd:Q33717,
+		wd:Q7930,
+		wd:Q9237,
+		wd:Q67405276,
+		wd:Q36236,
+		wd:Q9192,
+		wd:Q33678,
+		wd:Q33800,
+		wd:Q13324,
+		wd:Q36503,
+		wd:Q33871,
+		wd:Q36163,
+		wd:Q1517194,
+		wd:Q36730,
+		wd:Q58680,
+		wd:Q9168,
+		wd:Q809,
+		wd:Q58635,
+		wd:Q3241177,
+		wd:Q33963,
+		wd:Q33902,
+		wd:Q34004,
+		wd:Q33997,
+		wd:Q13275,
+		wd:Q505198,
+		wd:Q7838,
+		wd:Q36568,
+		wd:Q9260,
+		wd:Q34318,
+		wd:Q56489,
+		wd:Q25285,
+		wd:Q34142,
+		wd:Q34065,
+		wd:Q9267,
+		wd:Q1617,
+		wd:Q13263,
+		wd:Q9264,
+		wd:Q34257,
+		wd:Q34311,
+		wd:Q36990 ;
+	wdt:P144 wd:Q26567 ;
+	wdt:P1705 "الكتابة العربية"@ar ;
+	wdt:P279 wd:Q8192,
+		wd:Q33260112 ;
+	wdt:P244 "sh85139095" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85139095> ;
+	wdt:P373 "Arabic writing" ;
+	wdt:P1424 wd:Q5626571 ;
+	wdt:P508 "9143" ;
+	wdtn:P508 <http://purl.org/bncf/tid/9143> ;
+	wdt:P268 "11953438d" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb11953438d#about> ;
+	wdt:P10283 "C2777323237" ;
+	wdt:P8189 "987007558293805171" ;
+	wdt:P2924 "1825667" ;
+	wdt:P1343 wd:Q2657718 ;
+	wdt:P8885 "아랍 문자" ;
+	wdt:P10 <http://commons.wikimedia.org/wiki/Special:FilePath/Harir%2C%20a%20modern%20Arabic%20typeface.webm> ;
+	wdt:P9222 "82680" ;
+	wdt:P4801 "mscript/f" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/mscript/f> ;
+	wdt:P10376 "biochemistry-genetics-and-molecular-biology/arabic-script",
+		"medicine-and-dentistry/arabic-script" ;
+	rdfs:label "كتابة عربية"@ar ;
+	skos:prefLabel "كتابة عربية"@ar ;
+	schema:name "كتابة عربية"@ar ;
+	rdfs:label "Arabic script"@en ;
+	skos:prefLabel "Arabic script"@en ;
+	schema:name "Arabic script"@en ;
+	rdfs:label "خط عربی"@fa ;
+	skos:prefLabel "خط عربی"@fa ;
+	schema:name "خط عربی"@fa ;
+	rdfs:label "escritura árabe"@es ;
+	skos:prefLabel "escritura árabe"@es ;
+	schema:name "escritura árabe"@es ;
+	rdfs:label "arabische Schrift"@de ;
+	skos:prefLabel "arabische Schrift"@de ;
+	schema:name "arabische Schrift"@de ;
+	rdfs:label "Arabisch schrift"@nl ;
+	skos:prefLabel "Arabisch schrift"@nl ;
+	schema:name "Arabisch schrift"@nl ;
+	rdfs:label "арабское письмо"@ru ;
+	skos:prefLabel "арабское письмо"@ru ;
+	schema:name "арабское письмо"@ru ;
+	rdfs:label "Shkrimi arab"@sq ;
+	skos:prefLabel "Shkrimi arab"@sq ;
+	schema:name "Shkrimi arab"@sq ;
+	rdfs:label "арапско писмо"@sr ;
+	skos:prefLabel "арапско писмо"@sr ;
+	schema:name "арапско писмо"@sr ;
+	rdfs:label "арапско писмо"@sr-ec ;
+	skos:prefLabel "арапско писмо"@sr-ec ;
+	schema:name "арапско писмо"@sr-ec ;
+	rdfs:label "arapsko pismo"@sr-el ;
+	skos:prefLabel "arapsko pismo"@sr-el ;
+	schema:name "arapsko pismo"@sr-el ;
+	rdfs:label "ਅਰਬੀ ਲਿਪੀ"@pa ;
+	skos:prefLabel "ਅਰਬੀ ਲਿਪੀ"@pa ;
+	schema:name "ਅਰਬੀ ਲਿਪੀ"@pa ;
+	rdfs:label "Arabialainen kirjaimisto"@fi ;
+	skos:prefLabel "Arabialainen kirjaimisto"@fi ;
+	schema:name "Arabialainen kirjaimisto"@fi ;
+	rdfs:label "арапско писмо"@mk ;
+	skos:prefLabel "арапско писмо"@mk ;
+	schema:name "арапско писмо"@mk ;
+	rdfs:label "அறபு வரிவடிவம்"@ta ;
+	skos:prefLabel "அறபு வரிவடிவம்"@ta ;
+	schema:name "அறபு வரிவடிவம்"@ta ;
+	rdfs:label "araba skribo"@eo ;
+	skos:prefLabel "araba skribo"@eo ;
+	schema:name "araba skribo"@eo ;
+	rdfs:label "阿拉伯書寫系統"@zh-hant ;
+	skos:prefLabel "阿拉伯書寫系統"@zh-hant ;
+	schema:name "阿拉伯書寫系統"@zh-hant ;
+	rdfs:label "阿拉伯书写系统"@zh-cn ;
+	skos:prefLabel "阿拉伯书写系统"@zh-cn ;
+	schema:name "阿拉伯书写系统"@zh-cn ;
+	rdfs:label "عربی لپی"@pnb ;
+	skos:prefLabel "عربی لپی"@pnb ;
+	schema:name "عربی لپی"@pnb ;
+	rdfs:label "عربی رسم الخط"@ur ;
+	skos:prefLabel "عربی رسم الخط"@ur ;
+	schema:name "عربی رسم الخط"@ur ;
+	rdfs:label "阿拉伯文字"@zh ;
+	skos:prefLabel "阿拉伯文字"@zh ;
+	schema:name "阿拉伯文字"@zh ;
+	rdfs:label "כתב ערבי"@he ;
+	skos:prefLabel "כתב ערבי"@he ;
+	schema:name "כתב ערבי"@he ;
+	rdfs:label "Αραβική γραφή"@el ;
+	skos:prefLabel "Αραβική γραφή"@el ;
+	schema:name "Αραβική γραφή"@el ;
+	rdfs:label "гарәп язуы"@tt-cyrl ;
+	skos:prefLabel "гарәп язуы"@tt-cyrl ;
+	schema:name "гарәп язуы"@tt-cyrl ;
+	rdfs:label "гарәп язуы"@tt ;
+	skos:prefLabel "гарәп язуы"@tt ;
+	schema:name "гарәп язуы"@tt ;
+	rdfs:label "sistema di scrittura arabo"@it ;
+	skos:prefLabel "sistema di scrittura arabo"@it ;
+	schema:name "sistema di scrittura arabo"@it ;
+	rdfs:label "escriptura àrab"@ca ;
+	skos:prefLabel "escriptura àrab"@ca ;
+	schema:name "escriptura àrab"@ca ;
+	rdfs:label "عربي اسڪرپٽ"@sd ;
+	skos:prefLabel "عربي اسڪرپٽ"@sd ;
+	schema:name "عربي اسڪرپٽ"@sd ;
+	rdfs:label "عرب خطی"@azb ;
+	skos:prefLabel "عرب خطی"@azb ;
+	schema:name "عرب خطی"@azb ;
+	rdfs:label "كتابه عربى"@arz ;
+	skos:prefLabel "كتابه عربى"@arz ;
+	schema:name "كتابه عربى"@arz ;
+	rdfs:label "արաբական գիր"@hy ;
+	skos:prefLabel "արաբական գիր"@hy ;
+	schema:name "արաբական գիր"@hy ;
+	rdfs:label "Tarehin-tsoratra arabo"@mg ;
+	skos:prefLabel "Tarehin-tsoratra arabo"@mg ;
+	schema:name "Tarehin-tsoratra arabo"@mg ;
+	rdfs:label "écriture arabe"@fr ;
+	skos:prefLabel "écriture arabe"@fr ;
+	schema:name "écriture arabe"@fr ;
+	rdfs:label "アラビア系文字"@ja ;
+	skos:prefLabel "アラビア系文字"@ja ;
+	schema:name "アラビア系文字"@ja ;
+	rdfs:label "арабське письмо"@uk ;
+	skos:prefLabel "арабське письмо"@uk ;
+	schema:name "арабське письмо"@uk ;
+	rdfs:label "Arapsko pismo"@hr ;
+	skos:prefLabel "Arapsko pismo"@hr ;
+	schema:name "Arapsko pismo"@hr ;
+	rdfs:label "arapsko pismo"@bs ;
+	skos:prefLabel "arapsko pismo"@bs ;
+	schema:name "arapsko pismo"@bs ;
+	rdfs:label "арабскае пісьмо"@be-tarask ;
+	skos:prefLabel "арабскае пісьмо"@be-tarask ;
+	schema:name "арабскае пісьмо"@be-tarask ;
+	rdfs:label "Arapsko pismo"@sh ;
+	skos:prefLabel "Arapsko pismo"@sh ;
+	schema:name "Arapsko pismo"@sh ;
+	rdfs:label "escritura árabe"@ast ;
+	skos:prefLabel "escritura árabe"@ast ;
+	schema:name "escritura árabe"@ast ;
+	rdfs:label "скрипти арабӣ"@tg ;
+	skos:prefLabel "скрипти арабӣ"@tg ;
+	schema:name "скрипти арабӣ"@tg ;
+	rdfs:label "ГӀараб хъвай-хъвагӀи"@av ;
+	skos:prefLabel "ГӀараб хъвай-хъвагӀи"@av ;
+	schema:name "ГӀараб хъвай-хъвагӀи"@av ;
+	rdfs:label "aksara Arab"@id ;
+	skos:prefLabel "aksara Arab"@id ;
+	schema:name "aksara Arab"@id ;
+	rdfs:label "ꯑꯥꯔꯕꯤ ꯃꯌꯦꯛ"@mni ;
+	skos:prefLabel "ꯑꯥꯔꯕꯤ ꯃꯌꯦꯛ"@mni ;
+	schema:name "ꯑꯥꯔꯕꯤ ꯃꯌꯦꯛ"@mni ;
+	rdfs:label "tulisan Arab"@ms ;
+	skos:prefLabel "tulisan Arab"@ms ;
+	schema:name "tulisan Arab"@ms ;
+	rdfs:label "Arap alfabesi"@tr ;
+	skos:prefLabel "Arap alfabesi"@tr ;
+	schema:name "Arap alfabesi"@tr ;
+	rdfs:label "अरबी लिपी"@mr ;
+	skos:prefLabel "अरबी लिपी"@mr ;
+	schema:name "अरबी लिपी"@mr ;
+	rdfs:label "အာရဗီအရေးအသား"@my ;
+	skos:prefLabel "အာရဗီအရေးအသား"@my ;
+	schema:name "အာရဗီအရေးအသား"@my ;
+	rdfs:label "Alfabet arab"@lmo ;
+	skos:prefLabel "Alfabet arab"@lmo ;
+	schema:name "Alfabet arab"@lmo ;
+	rdfs:label "arab írás"@hu ;
+	skos:prefLabel "arab írás"@hu ;
+	schema:name "arab írás"@hu ;
+	rdfs:label "sistema de escrita árabe"@pt ;
+	skos:prefLabel "sistema de escrita árabe"@pt ;
+	schema:name "sistema de escrita árabe"@pt ;
+	rdfs:label "عَربی رَسمِ خَط"@ks ;
+	skos:prefLabel "عَربی رَسمِ خَط"@ks ;
+	schema:name "عَربی رَسمِ خَط"@ks ;
+	rdfs:label "আরবি লিপি"@bn ;
+	skos:prefLabel "আরবি লিপি"@bn ;
+	schema:name "আরবি লিপি"@bn ;
+	rdfs:label "Arbii akchhar"@hif ;
+	skos:prefLabel "Arbii akchhar"@hif ;
+	schema:name "Arbii akchhar"@hif ;
+	rdfs:label "Arab tili yozuvi"@uz ;
+	skos:prefLabel "Arab tili yozuvi"@uz ;
+	schema:name "Arab tili yozuvi"@uz ;
+	rdfs:label "script Araibise"@ga ;
+	skos:prefLabel "script Araibise"@ga ;
+	schema:name "script Araibise"@ga ;
+	rdfs:label "Arabysk-Perzysk skrift"@fy ;
+	skos:prefLabel "Arabysk-Perzysk skrift"@fy ;
+	schema:name "Arabysk-Perzysk skrift"@fy ;
+	rdfs:label "아랍 문자"@ko ;
+	skos:prefLabel "아랍 문자"@ko ;
+	schema:name "아랍 문자"@ko ;
+	rdfs:label "arabské písmo"@cs ;
+	skos:prefLabel "arabské písmo"@cs ;
+	schema:name "arabské písmo"@cs ;
+	rdfs:label "arabské písmo"@sk ;
+	skos:prefLabel "arabské písmo"@sk ;
+	schema:name "arabské písmo"@sk ;
+	rdfs:label "skrypt arabek"@kw ;
+	skos:prefLabel "skrypt arabek"@kw ;
+	schema:name "skrypt arabek"@kw ;
+	rdfs:label "sistema de escrita árabe"@gl ;
+	skos:prefLabel "sistema de escrita árabe"@gl ;
+	schema:name "sistema de escrita árabe"@gl ;
+	rdfs:label "عربي ليکدود"@ps ;
+	skos:prefLabel "عربي ليکدود"@ps ;
+	schema:name "عربي ليکدود"@ps ;
+	rdfs:label "arabska pisava"@sl ;
+	skos:prefLabel "arabska pisava"@sl ;
+	schema:name "arabska pisava"@sl ;
+	rdfs:label "عربی خط"@mzn ;
+	skos:prefLabel "عربی خط"@mzn ;
+	schema:name "عربی خط"@mzn ;
+	rdfs:label "arabisk skriftsystem"@nb ;
+	skos:prefLabel "arabisk skriftsystem"@nb ;
+	schema:name "arabisk skriftsystem"@nb ;
+	schema:description "writing system for Arabic and some Asian and African languages"@en,
+		"sistema de escritura usado por varias lenguas de Asia y África"@es,
+		"система письма, используемая некоторыми языками Азии и Африки"@ru,
+		"ஆசியாவிலும் ஆபிரிக்காவிலுமுள்ள பல்வேறு மொழிகளை எழுதப் பயன்படுத்தப்படும் எழுத்து முறை"@ta,
+		"sistema di scrittura usato nella lingua araba"@it,
+		"système d’écriture utilisé pour écrire plusieurs langues asiatiques et africaines"@fr,
+		"sistema d'escritura usáu por delles llingües"@ast,
+		"writin seestem uised for writin Arabic an several ither leids o Asie an Africae"@sco,
+		"aksara Arab yang dipakai untuk menulis beberapa bahasa di Asia dan Afrika selain bahasa Arab"@id,
+		"Arap harfleriyle yazma"@tr,
+		"aus der aramäischen Schrift abgeleitete Schrift"@de,
+		"نظام كتابة يستخدم لكتابة عدة لغات"@ar,
+		"számos nyelv írására használt írásrendszer"@hu,
+		"sistema de escrita usado por várias línguas da Ásia e África"@pt,
+		"아랍어와 일부 아시아, 아프리카 언어를 표기하는 데 사용되는 문자"@ko,
+		"sistem tulisan untuk bahasa Arab dan beberapa bahasa di Asia dan Afrika"@ms ;
+	skos:altLabel "Arab"@de,
+		"perso-arabische Schrift"@de,
+		"escritura arabe"@es,
+		"sistema de escritura árabe"@es,
+		"ğäräp yazuı"@tt,
+		"scrittura araba"@it,
+		"Arab alphabet"@en,
+		"Arabic"@en,
+		"Arabic scripts"@en,
+		"Arab"@eo,
+		"арабская вязь"@ru,
+		"арабица"@ru,
+		"арабская графика"@ru,
+		"árabe"@ast,
+		"アラビア文字"@ja,
+		"eski yazı"@tr,
+		"Arab Jawi"@id,
+		"أبجدية عربية"@ar,
+		"العربية"@ar,
+		"arab írásrendszer"@hu,
+		"alfabeto árabe"@pt,
+		"abjad Arab"@ms,
+		"aksara Arab"@ms,
+		"huruf Arab"@ms,
+		"Annexe:Alphabet arabe"@fr,
+		"Додатак:Арапски текст"@sr .
+
+wd:Q5960261 owl:sameAs wd:Q1828555 .
+
+wd:Q4783442 owl:sameAs wd:Q1828555 .
+
+wd:Q86921298 owl:sameAs wd:Q1828555 .
+
+wd:Q107017430 owl:sameAs wd:Q1828555 .

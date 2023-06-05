@@ -1,0 +1,109 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35335 a schema:Dataset ;
+	schema:about wd:Q35335 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1835665454"^^xsd:integer ;
+	schema:dateModified "2023-02-17T11:27:57Z"^^xsd:dateTime .
+
+wd:Q35335 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Borna> a schema:Article ;
+	schema:about wd:Q35335 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Borna"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Eborna> a schema:Article ;
+	schema:about wd:Q35335 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Eborna"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Eborna_language> a schema:Article ;
+	schema:about wd:Q35335 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Eborna language"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Borna_(bantoid_jezik)> a schema:Article ;
+	schema:about wd:Q35335 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Borna (bantoid jezik)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35335 wdt:P220 "bxx" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bxx> ;
+	wdt:P31 wd:Q5015649 ;
+	wdt:P646 "/m/0glpz7s" ;
+	wdt:P1394 "born1252" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/born1252> ;
+	wdt:P305 "bxx" ;
+	rdfs:label "Lenga Borna"@pms ;
+	skos:prefLabel "Lenga Borna"@pms ;
+	schema:name "Lenga Borna"@pms ;
+	rdfs:label "Eborna"@de ;
+	skos:prefLabel "Eborna"@de ;
+	schema:name "Eborna"@de ;
+	rdfs:label "Eborna"@en ;
+	skos:prefLabel "Eborna"@en ;
+	schema:name "Eborna"@en ;
+	rdfs:label "Borna"@hr ;
+	skos:prefLabel "Borna"@hr ;
+	schema:name "Borna"@hr ;
+	rdfs:label "borna"@fr ;
+	skos:prefLabel "borna"@fr ;
+	schema:name "borna"@fr ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Borna"@de,
+		"South Afrikaans"@en,
+		"Eborna language"@en,
+		"eborna"@fr .

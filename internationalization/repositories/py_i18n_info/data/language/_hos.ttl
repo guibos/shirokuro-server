@@ -1,0 +1,110 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q16111971 a schema:Dataset ;
+	schema:about wd:Q16111971 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1372610660"^^xsd:integer ;
+	schema:dateModified "2021-02-28T21:16:07Z"^^xsd:dateTime .
+
+wd:Q16111971 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_dij_segn_Ho_Chi_Minh_City> a schema:Article ;
+	schema:about wd:Q16111971 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga dij segn Ho Chi Minh City"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Saigon_Sign_Language> a schema:Article ;
+	schema:about wd:Q16111971 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Saigon Sign Language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Ho_%C5%A0i_Minski_gradski_znakovni_jezik> a schema:Article ;
+	schema:about wd:Q16111971 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Ho Ši Minski gradski znakovni jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q16111971 wdt:P31 wd:Q34228 ;
+	wdt:P220 "hos" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hos> ;
+	wdt:P279 wd:Q7928677 ;
+	wdt:P1394 "hoch1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/hoch1237> ;
+	wdt:P305 "hos" ;
+	wdt:P2192 "6997" ;
+	wdt:P17 wd:Q881 ;
+	wdt:P1627 "hos" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q1854 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HOS> ;
+	wdt:P2671 "/g/121k36l5" ;
+	wdtn:P2671 <http://g.co/kg/g/121k36l5> ;
+	wdt:P910 wd:Q105715565 ;
+	rdfs:label "Ho Ši Minski gradski znakovni jezik"@hr ;
+	skos:prefLabel "Ho Ši Minski gradski znakovni jezik"@hr ;
+	schema:name "Ho Ši Minski gradski znakovni jezik"@hr ;
+	rdfs:label "Lenga dij segn Ho Chi Minh City"@pms ;
+	skos:prefLabel "Lenga dij segn Ho Chi Minh City"@pms ;
+	schema:name "Lenga dij segn Ho Chi Minh City"@pms ;
+	rdfs:label "Ho Chi Minh City Sign Language"@en ;
+	skos:prefLabel "Ho Chi Minh City Sign Language"@en ;
+	schema:name "Ho Chi Minh City Sign Language"@en ;
+	rdfs:label "Ho Chi Minh City Sign Language"@en-gb ;
+	skos:prefLabel "Ho Chi Minh City Sign Language"@en-gb ;
+	schema:name "Ho Chi Minh City Sign Language"@en-gb ;
+	rdfs:label "langue des signes de Ho Chi Minh Ville"@fr ;
+	skos:prefLabel "langue des signes de Ho Chi Minh Ville"@fr ;
+	schema:name "langue des signes de Ho Chi Minh Ville"@fr ;
+	rdfs:label "Sajgona Gestolingvo"@eo ;
+	skos:prefLabel "Sajgona Gestolingvo"@eo ;
+	schema:name "Sajgona Gestolingvo"@eo ;
+	rdfs:label "ホーチミン市手話"@ja ;
+	skos:prefLabel "ホーチミン市手話"@ja ;
+	schema:name "ホーチミン市手話"@ja ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue des signes"@fr,
+		"deaf-community sign language of Ho Chi Minh City, Vietnam"@en ;
+	skos:altLabel "Saigon Sign Language"@en .
+
+wd:Q25559764 owl:sameAs wd:Q16111971 .
+
+wd:Q42417142 owl:sameAs wd:Q16111971 .

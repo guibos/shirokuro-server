@@ -1,0 +1,166 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3281057 a schema:Dataset ;
+	schema:about wd:Q3281057 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1755935474"^^xsd:integer ;
+	schema:dateModified "2022-10-22T14:39:03Z"^^xsd:dateTime .
+
+wd:Q3281057 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Mal_(langue)> a schema:Article ;
+	schema:about wd:Q3281057 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Mal (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_mal> a schema:Article ;
+	schema:about wd:Q3281057 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga mal"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Mal> a schema:Article ;
+	schema:about wd:Q3281057 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Mal"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimal> a schema:Article ;
+	schema:about wd:Q3281057 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimal"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mal_language> a schema:Article ;
+	schema:about wd:Q3281057 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mal language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%AB%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q3281057 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "マル語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%8B%92%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q3281057 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "马勒语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%A1%E0%B8%B1%E0%B8%A5> a schema:Article ;
+	schema:about wd:Q3281057 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษามัล"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3281057 wdt:P220 "mlf" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mlf> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "mlf" ;
+	wdt:P279 wd:Q1323245 ;
+	wdt:P1394 "mall1246" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mall1246> ;
+	wdt:P1627 "mlf" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q819,
+		wd:Q869 ;
+	wdt:P2341 wd:Q465929,
+		wd:Q244698 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MLF> ;
+	wdt:P646 "/m/02hxt3m" ;
+	rdfs:label "mal"@fr ;
+	skos:prefLabel "mal"@fr ;
+	schema:name "mal"@fr ;
+	rdfs:label "Mal"@en ;
+	skos:prefLabel "Mal"@en ;
+	schema:name "Mal"@en ;
+	rdfs:label "Lenga mal"@pms ;
+	skos:prefLabel "Lenga mal"@pms ;
+	schema:name "Lenga mal"@pms ;
+	rdfs:label "マル語"@ja ;
+	skos:prefLabel "マル語"@ja ;
+	schema:name "マル語"@ja ;
+	rdfs:label "Kimal"@sw ;
+	skos:prefLabel "Kimal"@sw ;
+	schema:name "Kimal"@sw ;
+	rdfs:label "Mal"@en-gb ;
+	skos:prefLabel "Mal"@en-gb ;
+	schema:name "Mal"@en-gb ;
+	rdfs:label "Mal"@ilo ;
+	skos:prefLabel "Mal"@ilo ;
+	schema:name "Mal"@ilo ;
+	rdfs:label "ภาษามัล"@th ;
+	skos:prefLabel "ภาษามัล"@th ;
+	schema:name "ภาษามัล"@th ;
+	rdfs:label "马勒语"@zh ;
+	skos:prefLabel "马勒语"@zh ;
+	schema:name "马勒语"@zh ;
+	schema:description "Mon–Khmer language"@en,
+		"Sprache"@de,
+		"שפה"@he,
+		"pagsasao idiay Laos ken Tailandia"@ilo,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"กลุ่มภาษามอญ-เขมร"@th,
+		"ラオスの少数言語"@ja ;
+	skos:altLabel "Thin"@en,
+		"ภาษาไพร"@th,
+		"ภาษาปรัย"@th,
+		"ภาษาถิ่น"@th .
+
+wd:Q13018564 owl:sameAs wd:Q3281057 .

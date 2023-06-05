@@ -1,0 +1,93 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q105092416 a schema:Dataset ;
+	schema:about wd:Q105092416 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1769423033"^^xsd:integer ;
+	schema:dateModified "2022-11-11T19:01:49Z"^^xsd:dateTime .
+
+wd:Q105092416 a wikibase:Item .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_y%C3%A3noma> a schema:Article ;
+	schema:about wd:Q105092416 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua yãnoma"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Y%C3%A3noma_language> a schema:Article ;
+	schema:about wd:Q105092416 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Yãnoma language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/I%C3%A3noma> a schema:Article ;
+	schema:about wd:Q105092416 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Iãnoma"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q105092416 wdt:P31 wd:Q34770 ;
+	wdt:P2671 "/g/11qsml64lw" ;
+	wdtn:P2671 <http://g.co/kg/g/11qsml64lw> ;
+	wdt:P17 wd:Q155 ;
+	wdt:P1394 "yano1269" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/yano1269> ;
+	wdt:P220 "mis" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mis> ;
+	wdt:P279 wd:Q576879 ;
+	wdt:P1098 "+178"^^xsd:decimal ;
+	wdt:P2341 wd:Q42508 ;
+	wdt:P305 "mis" ;
+	rdfs:label "Língua yãnoma"@pt ;
+	skos:prefLabel "Língua yãnoma"@pt ;
+	schema:name "Língua yãnoma"@pt ;
+	rdfs:label "Yãnoma"@en ;
+	skos:prefLabel "Yãnoma"@en ;
+	schema:name "Yãnoma"@en ;
+	rdfs:label "Iãnoma"@ca ;
+	skos:prefLabel "Iãnoma"@ca ;
+	schema:name "Iãnoma"@ca ;
+	rdfs:label "yãnoma"@fr ;
+	skos:prefLabel "yãnoma"@fr ;
+	schema:name "yãnoma"@fr ;
+	schema:description "taal"@nl,
+		"langue yanomami"@fr,
+		"Yanomaman language"@en,
+		"Língua indígena amazônica"@pt ;
+	skos:altLabel "Yãnoma language"@en .

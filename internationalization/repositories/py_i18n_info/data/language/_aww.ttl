@@ -1,0 +1,153 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56369 a schema:Dataset ;
+	schema:about wd:Q56369 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1711238749"^^xsd:integer ;
+	schema:dateModified "2022-08-23T13:19:55Z"^^xsd:dateTime .
+
+wd:Q56369 a wikibase:Item .
+
+<https://br.wikipedia.org/wiki/Awouneg> a schema:Article ;
+	schema:about wd:Q56369 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Awouneg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Auwon_language> a schema:Article ;
+	schema:about wd:Q56369 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Auwon language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiawun> a schema:Article ;
+	schema:about wd:Q56369 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiawun"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Awun_jezik> a schema:Article ;
+	schema:about wd:Q56369 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Awun jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Awun> a schema:Article ;
+	schema:about wd:Q56369 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Awun"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Auwon> a schema:Article ;
+	schema:about wd:Q56369 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Auwon"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56369 wdt:P220 "aww" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/aww> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "awun1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/awun1245> ;
+	wdt:P279 wd:Q8051811 ;
+	wdt:P2192 "10601" ;
+	wdt:P305 "aww" ;
+	wdt:P1627 "aww" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q753689 ;
+	wdt:P646 "/m/02hx1tq" ;
+	wdt:P625 "Point(142.042193 -3.814517)"^^geo:wktLiteral ;
+	rdfs:label "awouneg"@br ;
+	skos:prefLabel "awouneg"@br ;
+	schema:name "awouneg"@br ;
+	rdfs:label "Awun"@en ;
+	skos:prefLabel "Awun"@en ;
+	schema:name "Awun"@en ;
+	rdfs:label "Awun"@en-ca ;
+	skos:prefLabel "Awun"@en-ca ;
+	schema:name "Awun"@en-ca ;
+	rdfs:label "Awun"@en-gb ;
+	skos:prefLabel "Awun"@en-gb ;
+	schema:name "Awun"@en-gb ;
+	rdfs:label "awun"@es ;
+	skos:prefLabel "awun"@es ;
+	schema:name "awun"@es ;
+	rdfs:label "Awun jezik"@hr ;
+	skos:prefLabel "Awun jezik"@hr ;
+	schema:name "Awun jezik"@hr ;
+	rdfs:label "Lenga Awun"@pms ;
+	skos:prefLabel "Lenga Awun"@pms ;
+	schema:name "Lenga Awun"@pms ;
+	rdfs:label "Kiawun"@sw ;
+	skos:prefLabel "Kiawun"@sw ;
+	schema:name "Kiawun"@sw ;
+	rdfs:label "Język awun"@pl ;
+	skos:prefLabel "Język awun"@pl ;
+	schema:name "Język awun"@pl ;
+	rdfs:label "Auwon"@ilo ;
+	skos:prefLabel "Auwon"@ilo ;
+	schema:name "Auwon"@ilo ;
+	rdfs:label "awun"@fr ;
+	skos:prefLabel "awun"@fr ;
+	schema:name "awun"@fr ;
+	schema:description "idioma humano"@es,
+		"Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"langue sepik"@fr,
+		"yezh"@br,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Awun language"@en,
+		"Auwon language"@en .
+
+wd:Q11732060 owl:sameAs wd:Q56369 .
+
+wd:Q12627433 owl:sameAs wd:Q56369 .

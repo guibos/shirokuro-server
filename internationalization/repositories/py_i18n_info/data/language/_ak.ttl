@@ -1,0 +1,881 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q28026 a schema:Dataset ;
+	schema:about wd:Q28026 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1924371842"^^xsd:integer ;
+	schema:dateModified "2023-06-26T19:37:24Z"^^xsd:dateTime .
+
+wd:Q28026 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Akan> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Akan"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%90%D0%BA%D0%B0%D0%BD_(%D0%BC%D0%BE%D0%B2%D0%B0)> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Акан (мова)"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tw.wikipedia.org/wiki/Akan> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "tw" ;
+	schema:isPartOf <https://tw.wikipedia.org/> ;
+	schema:name "Akan"@tw .
+
+<https://tw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Akan> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Akan"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_ac%C3%A3> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua acã"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Akan> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Akan"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Akan_spriaken> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Akan spriaken"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiakan> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiakan"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%AB%E3%83%B3%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "アカン語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D4%B1%D5%AF%D5%A1%D5%B6_(%D5%AC%D5%A5%D5%A6%D5%B8%D6%82)> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Ական (լեզու)"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_akan> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua akan"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%85%E0%AE%95%E0%AE%A9_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "அகன மொழி"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Llingua_Ak%C3%A1n> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Llingua Akán"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://qu.wikipedia.org/wiki/Akan_simi> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "qu" ;
+	schema:isPartOf <https://qu.wikipedia.org/> ;
+	schema:name "Akan simi"@qu .
+
+<https://qu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Akani_keel> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Akani keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Akan_(taal)> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Akan (taal)"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Akan> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Akan"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Akan> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Akan"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Akaneg> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Akaneg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Lenguas_ak%C3%A1nicas> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Lenguas akánicas"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Akanu_valodas> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Akanu valodas"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Akan_language> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Akan language"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%90%D0%BA%D0%B0%D0%BD> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Акан"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Akan_jezik> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Akan jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Akan> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Akan"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%90%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Акански јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%90%D0%BA%D0%B0%D0%BD_(%D0%BA%D1%8B%D0%B2)> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Акан (кыв)"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Akan_language> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Akan language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Akan-Sprachen> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Akan-Sprachen"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Akan%C5%A1tina> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Akanština"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Akan%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Akanų kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Akan_(spr%C3%A5k)> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Akan (språk)"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/Akanm%C3%A1l> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Akanmál"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_akan> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język akan"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D8%A3%D9%83%D8%A7%D9%86%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "اللغة الأكانية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gv.wikipedia.org/wiki/Akanish> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "gv" ;
+	schema:isPartOf <https://gv.wikipedia.org/> ;
+	schema:name "Akanish"@gv .
+
+<https://gv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%85%E0%B4%95%E0%B4%BE%E0%B5%BB_%E0%B4%AD%E0%B4%BE%E0%B4%B7> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "അകാൻ ഭാഷ"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D8%A7%DA%A9%D8%A7%D9%86_%D8%B2%D8%A8%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "اکان زبان"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/%C3%80kan> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Àkan"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Akan_(langue)> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Akan (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D8%A7%DA%A9%D8%A7%D9%86%DB%8C_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "اکانی دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Akana_lingvo> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Akana lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%A7%DA%A9%D8%A7%D9%86%DB%8C> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان اکانی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_akan> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua akan"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Akan> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Akan"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Akanin_kieli> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Akanin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kbp.wikipedia.org/wiki/Aka%C5%8B_k%CA%8Bn%CA%8B%C5%8B> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "kbp" ;
+	schema:isPartOf <https://kbp.wikipedia.org/> ;
+	schema:name "Akaŋ kʋnʋŋ"@kbp .
+
+<https://kbp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%95%84%EC%B9%B8%EC%96%B4> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "아칸어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E9%98%BF%E5%9D%8E%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "阿坎语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Akan_dili> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Akan dili"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D8%A7%D9%84%D8%A7%D9%83%D8%A7%D9%86%D9%8A%D9%87> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "الاكانيه"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sg.wikipedia.org/wiki/Ak%C3%A2an> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "sg" ;
+	schema:isPartOf <https://sg.wikipedia.org/> ;
+	schema:name "Akâan"@sg .
+
+<https://sg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%90%D0%BA%D0%B0%D0%BD_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Акан теле"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%9F%E1%B1%A0%E1%B1%9F%E1%B1%B1_%E1%B1%AF%E1%B1%9F%E1%B1%B9%E1%B1%A8%E1%B1%A5%E1%B1%A4> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱟᱠᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E9%98%BF%E8%82%AF%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "阿肯语"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ha.wikipedia.org/wiki/Yaren_Akan> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "ha" ;
+	schema:isPartOf <https://ha.wikipedia.org/> ;
+	schema:name "Yaren Akan"@ha .
+
+<https://ha.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Akan_language> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Akan language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://anp.wikipedia.org/wiki/%E0%A4%85%E0%A4%95%E0%A4%A8_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "anp" ;
+	schema:isPartOf <https://anp.wikipedia.org/> ;
+	schema:name "अकन भाषा"@anp .
+
+<https://anp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Akan_languages> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Akan languages"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mg.wikipedia.org/wiki/Fiteny_ak%C3%A0na> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "mg" ;
+	schema:isPartOf <https://mg.wikipedia.org/> ;
+	schema:name "Fiteny akàna"@mg .
+
+<https://mg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mzn.wikipedia.org/wiki/%D8%A7%DA%A9%D8%A7%D9%86%DB%8C> a schema:Article ;
+	schema:about wd:Q28026 ;
+	schema:inLanguage "mzn" ;
+	schema:isPartOf <https://mzn.wikipedia.org/> ;
+	schema:name "اکانی"@mzn .
+
+<https://mzn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q28026 wdt:P1018 wd:Q4998375 ;
+	wdt:P218 "ak" ;
+	wdtn:P218 <http://id.loc.gov/vocabulary/iso639-1/ak.rdf> ;
+	wdt:P219 "aka" ;
+	wdt:P220 "aka" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/aka> ;
+	wdt:P31 wd:Q34770,
+		wd:Q152559,
+		wd:Q1288568 ;
+	wdt:P349 "00649047" ;
+	wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00649047> ;
+	wdt:P910 wd:Q10176522 ;
+	wdt:P646 "/m/02hw_03" ;
+	wdt:P424 "ak" ;
+	wdt:P305 "ak" ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P279 wd:Q1658486,
+		wd:Q33430 ;
+	wdt:P227 "4141691-0" ;
+	wdtn:P227 <https://d-nb.info/gnd/4141691-0> ;
+	wdt:P1705 "akan"@ak,
+		"Akan"@ak ;
+	wdt:P1627 "aka" ;
+	wdt:P269 "027278328" ;
+	wdtn:P269 <http://www.idref.fr/027278328/id> ;
+	wdt:P1394 "akan1250" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/akan1250> ;
+	wdt:P1343 wd:Q22639418 ;
+	wdt:P278 "ака 027" ;
+	wdt:P4132 wd:Q651641 ;
+	wdt:P1417 "topic/Akan-languages",
+		"topic/Fante-language" ;
+	wdt:P1466 "akn" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_akn> ;
+	wdt:P5198 "294897828" ;
+	wdt:P5250 "1035" ;
+	wdt:P4801 "languages/aka" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/aka> ;
+	wdt:P4801 "iso639-1/ak" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/iso639-1/ak> ;
+	wdt:P4801 "iso639-2/aka" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/iso639-2/aka> ;
+	wdt:P3823 wd:Q29051549 ;
+	wdt:P1251 "9203" ;
+	wdt:P1014 "300387794" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300387794> ;
+	wdt:P17 wd:Q117,
+		wd:Q1008 ;
+	wdt:P2341 wd:Q117 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/AKA> ;
+	wdt:P8408 "AkanLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/AkanLanguage> ;
+	wdt:P9100 "akan" ;
+	wdt:P9060 "ak" ;
+	wdt:P2347 "38136" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p38136> ;
+	wdt:P10369 "Q152" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q152> ;
+	wdt:P10422 <https://sites.google.com/site/ghanaplacenames/languages-locations/akan> ;
+	wdt:P1098 "+11000000"^^xsd:decimal ;
+	wdt:P11012 "Q2472718" ;
+	wdtn:P11012 <https://linkedopendata.eu/entity/Q2472718> ;
+	wdt:P8814 "07010146-n" ;
+	wdtn:P8814 <http://wordnet-rdf.princeton.edu/rdf/id/07010146-n> ;
+	wdt:P527 wd:Q35570,
+		wd:Q36850 ;
+	wdt:P373 "Akan language" ;
+	rdfs:label "Akan"@en ;
+	skos:prefLabel "Akan"@en ;
+	schema:name "Akan"@en ;
+	rdfs:label "Akan"@ak ;
+	skos:prefLabel "Akan"@ak ;
+	schema:name "Akan"@ak ;
+	rdfs:label "الأكانية"@ar ;
+	skos:prefLabel "الأكانية"@ar ;
+	schema:name "الأكانية"@ar ;
+	rdfs:label "Llingua Akán"@ast ;
+	skos:prefLabel "Llingua Akán"@ast ;
+	schema:name "Llingua Akán"@ast ;
+	rdfs:label "akaneg"@br ;
+	skos:prefLabel "akaneg"@br ;
+	schema:name "akaneg"@br ;
+	rdfs:label "àkan"@ca ;
+	skos:prefLabel "àkan"@ca ;
+	schema:name "àkan"@ca ;
+	rdfs:label "akanština"@cs ;
+	skos:prefLabel "akanština"@cs ;
+	schema:name "akanština"@cs ;
+	rdfs:label "Akan"@de ;
+	skos:prefLabel "Akan"@de ;
+	schema:name "Akan"@de ;
+	rdfs:label "akanaj lingvoj"@eo ;
+	skos:prefLabel "akanaj lingvoj"@eo ;
+	schema:name "akanaj lingvoj"@eo ;
+	rdfs:label "lenguas akánicas"@es ;
+	skos:prefLabel "lenguas akánicas"@es ;
+	schema:name "lenguas akánicas"@es ;
+	rdfs:label "akani keel"@et ;
+	skos:prefLabel "akani keel"@et ;
+	schema:name "akani keel"@et ;
+	rdfs:label "akanin kieli"@fi ;
+	skos:prefLabel "akanin kieli"@fi ;
+	schema:name "akanin kieli"@fi ;
+	rdfs:label "akan"@fr ;
+	skos:prefLabel "akan"@fr ;
+	schema:name "akan"@fr ;
+	rdfs:label "Lingua akan"@gl ;
+	skos:prefLabel "Lingua akan"@gl ;
+	schema:name "Lingua akan"@gl ;
+	rdfs:label "Akanish"@gv ;
+	skos:prefLabel "Akanish"@gv ;
+	schema:name "Akanish"@gv ;
+	rdfs:label "Akan jezik"@hr ;
+	skos:prefLabel "Akan jezik"@hr ;
+	schema:name "Akan jezik"@hr ;
+	rdfs:label "Akanmál"@is ;
+	skos:prefLabel "Akanmál"@is ;
+	schema:name "Akanmál"@is ;
+	rdfs:label "akan"@it ;
+	skos:prefLabel "akan"@it ;
+	schema:name "akan"@it ;
+	rdfs:label "アカン語"@ja ;
+	skos:prefLabel "アカン語"@ja ;
+	schema:name "アカン語"@ja ;
+	rdfs:label "아칸어군"@ko ;
+	skos:prefLabel "아칸어군"@ko ;
+	schema:name "아칸어군"@ko ;
+	rdfs:label "Акан"@kv ;
+	skos:prefLabel "Акан"@kv ;
+	schema:name "Акан"@kv ;
+	rdfs:label "Akanų kalba"@lt ;
+	skos:prefLabel "Akanų kalba"@lt ;
+	schema:name "Akanų kalba"@lt ;
+	rdfs:label "Akanu valodas"@lv ;
+	skos:prefLabel "Akanu valodas"@lv ;
+	schema:name "Akanu valodas"@lv ;
+	rdfs:label "język akan"@pl ;
+	skos:prefLabel "język akan"@pl ;
+	schema:name "język akan"@pl ;
+	rdfs:label "Lenga Akan"@pms ;
+	skos:prefLabel "Lenga Akan"@pms ;
+	schema:name "Lenga Akan"@pms ;
+	rdfs:label "língua akan"@pt ;
+	skos:prefLabel "língua akan"@pt ;
+	schema:name "língua akan"@pt ;
+	rdfs:label "Akan simi"@qu ;
+	skos:prefLabel "Akan simi"@qu ;
+	schema:name "Akan simi"@qu ;
+	rdfs:label "акан"@ru ;
+	skos:prefLabel "акан"@ru ;
+	schema:name "акан"@ru ;
+	rdfs:label "akan"@sv ;
+	skos:prefLabel "akan"@sv ;
+	schema:name "akan"@sv ;
+	rdfs:label "Kiakan"@sw ;
+	skos:prefLabel "Kiakan"@sw ;
+	schema:name "Kiakan"@sw ;
+	rdfs:label "அகன மொழி"@ta ;
+	skos:prefLabel "அகன மொழி"@ta ;
+	schema:name "அகன மொழி"@ta ;
+	rdfs:label "Akan"@tw ;
+	skos:prefLabel "Akan"@tw ;
+	schema:name "Akan"@tw ;
+	rdfs:label "акан"@uk ;
+	skos:prefLabel "акан"@uk ;
+	schema:name "акан"@uk ;
+	rdfs:label "阿坎语"@zh ;
+	skos:prefLabel "阿坎语"@zh ;
+	schema:name "阿坎语"@zh ;
+	rdfs:label "Акански јазик"@mk ;
+	skos:prefLabel "Акански јазик"@mk ;
+	schema:name "Акански јазик"@mk ;
+	rdfs:label "Àkan"@oc ;
+	skos:prefLabel "Àkan"@oc ;
+	schema:name "Àkan"@oc ;
+	rdfs:label "আকান ভাষা"@bn ;
+	skos:prefLabel "আকান ভাষা"@bn ;
+	schema:name "আকান ভাষা"@bn ;
+	rdfs:label "akan"@nb ;
+	skos:prefLabel "akan"@nb ;
+	schema:name "akan"@nb ;
+	rdfs:label "աքաներեն"@hy ;
+	skos:prefLabel "աքաներեն"@hy ;
+	schema:name "աքաներեն"@hy ;
+	rdfs:label "زبان اکانی"@fa ;
+	skos:prefLabel "زبان اکانی"@fa ;
+	schema:name "زبان اکانی"@fa ;
+	rdfs:label "Akan"@nl ;
+	skos:prefLabel "Akan"@nl ;
+	schema:name "Akan"@nl ;
+	rdfs:label "阿肯语"@zh-hans ;
+	skos:prefLabel "阿肯语"@zh-hans ;
+	schema:name "阿肯语"@zh-hans ;
+	rdfs:label "阿寒語"@zh-hant ;
+	skos:prefLabel "阿寒語"@zh-hant ;
+	schema:name "阿寒語"@zh-hant ;
+	rdfs:label "اکان زبان"@ur ;
+	skos:prefLabel "اکان زبان"@ur ;
+	schema:name "اکان زبان"@ur ;
+	rdfs:label "Akan"@ilo ;
+	skos:prefLabel "Akan"@ilo ;
+	schema:name "Akan"@ilo ;
+	rdfs:label "akan"@nn ;
+	skos:prefLabel "akan"@nn ;
+	schema:name "akan"@nn ;
+	rdfs:label "阿肯语"@zh-cn ;
+	skos:prefLabel "阿肯语"@zh-cn ;
+	schema:name "阿肯语"@zh-cn ;
+	rdfs:label "阿寒語"@zh-tw ;
+	skos:prefLabel "阿寒語"@zh-tw ;
+	schema:name "阿寒語"@zh-tw ;
+	rdfs:label "Akan language"@hif ;
+	skos:prefLabel "Akan language"@hif ;
+	schema:name "Akan language"@hif ;
+	rdfs:label "tiếng Akan"@vi ;
+	skos:prefLabel "tiếng Akan"@vi ;
+	schema:name "tiếng Akan"@vi ;
+	rdfs:label "അകാൻ ഭാഷ"@ml ;
+	skos:prefLabel "അകാൻ ഭാഷ"@ml ;
+	schema:name "അകാൻ ഭാഷ"@ml ;
+	rdfs:label "Akan"@en-gb ;
+	skos:prefLabel "Akan"@en-gb ;
+	schema:name "Akan"@en-gb ;
+	rdfs:label "Wikang Akan"@tl ;
+	skos:prefLabel "Wikang Akan"@tl ;
+	schema:name "Wikang Akan"@tl ;
+	rdfs:label "akan"@hu ;
+	skos:prefLabel "akan"@hu ;
+	schema:name "akan"@hu ;
+	rdfs:label "الأكاني"@aeb-arab ;
+	skos:prefLabel "الأكاني"@aeb-arab ;
+	schema:name "الأكاني"@aeb-arab ;
+	rdfs:label "אקאן"@he ;
+	skos:prefLabel "אקאן"@he ;
+	schema:name "אקאן"@he ;
+	rdfs:label "اکانی دیلی"@azb ;
+	skos:prefLabel "اکانی دیلی"@azb ;
+	schema:name "اکانی دیلی"@azb ;
+	rdfs:label "Akan"@af ;
+	skos:prefLabel "Akan"@af ;
+	schema:name "Akan"@af ;
+	rdfs:label "Akaŋ"@kbp ;
+	skos:prefLabel "Akaŋ"@kbp ;
+	schema:name "Akaŋ"@kbp ;
+	rdfs:label "Akan spriaken"@frr ;
+	skos:prefLabel "Akan spriaken"@frr ;
+	schema:name "Akan spriaken"@frr ;
+	rdfs:label "ߊߞߊ߲"@nqo ;
+	skos:prefLabel "ߊߞߊ߲"@nqo ;
+	schema:name "ߊߞߊ߲"@nqo ;
+	rdfs:label "Akan dili"@az ;
+	skos:prefLabel "Akan dili"@az ;
+	schema:name "Akan dili"@az ;
+	rdfs:label "الاكانيه"@arz ;
+	skos:prefLabel "الاكانيه"@arz ;
+	schema:name "الاكانيه"@arz ;
+	rdfs:label "língua akan"@pt-br ;
+	skos:prefLabel "língua akan"@pt-br ;
+	schema:name "língua akan"@pt-br ;
+	rdfs:label "kambonsili"@dag ;
+	skos:prefLabel "kambonsili"@dag ;
+	schema:name "kambonsili"@dag ;
+	rdfs:label "akangiella"@se ;
+	skos:prefLabel "akangiella"@se ;
+	schema:name "akangiella"@se ;
+	rdfs:label "akanǩiõll"@sms ;
+	skos:prefLabel "akanǩiõll"@sms ;
+	schema:name "akanǩiõll"@sms ;
+	rdfs:label "Akâan"@sg ;
+	skos:prefLabel "Akâan"@sg ;
+	schema:name "Akâan"@sg ;
+	rdfs:label "ᱟᱠᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	skos:prefLabel "ᱟᱠᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	schema:name "ᱟᱠᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	rdfs:label "阿肯语"@wuu ;
+	skos:prefLabel "阿肯语"@wuu ;
+	schema:name "阿肯语"@wuu ;
+	rdfs:label "акан теле"@tt ;
+	skos:prefLabel "акан теле"@tt ;
+	schema:name "акан теле"@tt ;
+	rdfs:label "Yaren Akan"@ha ;
+	skos:prefLabel "Yaren Akan"@ha ;
+	schema:name "Yaren Akan"@ha ;
+	rdfs:label "akančina"@sk ;
+	skos:prefLabel "akančina"@sk ;
+	schema:name "akančina"@sk ;
+	rdfs:label "àkan"@vec ;
+	skos:prefLabel "àkan"@vec ;
+	schema:name "àkan"@vec ;
+	rdfs:label "Akan language"@ig ;
+	skos:prefLabel "Akan language"@ig ;
+	schema:name "Akan language"@ig ;
+	rdfs:label "अकन भाषा"@anp ;
+	skos:prefLabel "अकन भाषा"@anp ;
+	schema:name "अकन भाषा"@anp ;
+	rdfs:label "اکانی"@mzn ;
+	skos:prefLabel "اکانی"@mzn ;
+	schema:name "اکانی"@mzn ;
+	rdfs:label "Fiteny akàna"@mg ;
+	skos:prefLabel "Fiteny akàna"@mg ;
+	schema:name "Fiteny akàna"@mg ;
+	schema:description "language of Akan lands in Ghana"@en,
+		"lingua kwa parlata in Ghana"@it,
+		"grupo de variedades dialectales relacionadas con mayor o menor grado de inteligibilidad, que pertencen al grupo potou-tano de las lenguas kwa"@es,
+		"один из африканских языков"@ru,
+		"Gruppe von Sprachen"@de,
+		"加纳阿肯人使用的语言"@zh-hans,
+		"pagsasao dagiti daga ti Akan idiay Ghana"@ilo,
+		"taal"@nl,
+		"שפה"@he,
+		"ঘানার আকান জাতির ভাষা"@bn,
+		"yezh"@br,
+		"langue nigéro-congolaise parlée au Ghana"@fr,
+		"lingua"@la,
+		"iaith"@cy,
+		"ガーナおよびコートジボワール東部で用いられる言語"@ja,
+		"ߊߞߊ߲߫ ߖߡߊߣߊ ߞߊ߲ ߘߏ߫ ߟߋ߬"@nqo,
+		"språk"@sv,
+		"Gaana tiŋ' zilinli"@dag,
+		"nigeriläis-kongolainen kieli"@fi,
+		"lingua falada en Ghana"@gl,
+		"język z Ghany, członek rodziny nigero-kongijskiej"@pl,
+		"非洲语言"@zh ;
+	skos:altLabel "Twi language"@en,
+		"Fante language"@en,
+		"Akan language"@en,
+		"ak"@en,
+		"аканский язык"@ru,
+		"чви-фанти"@ru,
+		"ak"@ru,
+		"ak"@fr,
+		"lingua akan"@it,
+		"阿肯語"@zh,
+		"tiếng Twi"@vi,
+		"tiếng Fante"@vi,
+		"Akan-Sprachen"@de,
+		"لغة أليوتية"@ar,
+		"اللغة الأليوتية"@ar,
+		"أكانية"@ar,
+		"lenguas akanicas"@es,
+		"টুই ভাষা"@bn,
+		"ফান্টে ভাষা"@bn,
+		"ߕߑߥߌ߫ ߞߊ߲"@nqo,
+		"akan"@pt-br,
+		"idioma akan"@pt-br,
+		"ak"@ak,
+		"akan"@sk .
+
+wd:Q14237576 owl:sameAs wd:Q28026 .
+
+wd:Q31294366 owl:sameAs wd:Q28026 .
+
+wd:Q31441393 owl:sameAs wd:Q28026 .

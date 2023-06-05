@@ -1,0 +1,190 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3192052 a schema:Dataset ;
+	schema:about wd:Q3192052 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1853639886"^^xsd:integer ;
+	schema:dateModified "2023-03-16T17:12:36Z"^^xsd:dateTime .
+
+wd:Q3192052 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Kakua> a schema:Article ;
+	schema:about wd:Q3192052 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kakua"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_cacua> a schema:Article ;
+	schema:about wd:Q3192052 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga cacua"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BA%D1%83%D0%B0> a schema:Article ;
+	schema:about wd:Q3192052 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Какуа"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kakwa_language> a schema:Article ;
+	schema:about wd:Q3192052 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kakwa language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Cacua_jezik> a schema:Article ;
+	schema:about wd:Q3192052 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Cacua jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_kakwa> a schema:Article ;
+	schema:about wd:Q3192052 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua kakwa"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_k%C3%A3kw%C3%A3> a schema:Article ;
+	schema:about wd:Q3192052 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma kãkwã"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Llengua_k%C3%A3kw%C3%A3> a schema:Article ;
+	schema:about wd:Q3192052 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Llengua kãkwã"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_cacua> a schema:Article ;
+	schema:about wd:Q3192052 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua cacua"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3192052 wdt:P220 "cbv" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cbv> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "cbv" ;
+	wdt:P279 wd:Q17109056 ;
+	wdt:P1394 "cacu1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/cacu1241> ;
+	wdt:P2355 "1877" ;
+	wdt:P17 wd:Q739 ;
+	wdt:P1466 "cac" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_cac> ;
+	wdt:P910 wd:Q33673454 ;
+	wdt:P2192 "3137" ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P1627 "cbv" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2341 wd:Q234505 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CBV> ;
+	wdt:P646 "/m/02hx2c7" ;
+	wdt:P1098 "+250"^^xsd:decimal ;
+	wdt:P9717 "kakua" ;
+	wdt:P1846 <http://commons.wikimedia.org/wiki/Special:FilePath/Kakwa.png> ;
+	rdfs:label "Cacua jezik"@hr ;
+	skos:prefLabel "Cacua jezik"@hr ;
+	schema:name "Cacua jezik"@hr ;
+	rdfs:label "kakua"@fr ;
+	skos:prefLabel "kakua"@fr ;
+	schema:name "kakua"@fr ;
+	rdfs:label "Kakwa"@en ;
+	skos:prefLabel "Kakwa"@en ;
+	schema:name "Kakwa"@en ;
+	rdfs:label "Lenga cacua"@pms ;
+	skos:prefLabel "Lenga cacua"@pms ;
+	schema:name "Lenga cacua"@pms ;
+	rdfs:label "Какуа"@ru ;
+	skos:prefLabel "Какуа"@ru ;
+	schema:name "Какуа"@ru ;
+	rdfs:label "kakva keel"@et ;
+	skos:prefLabel "kakva keel"@et ;
+	schema:name "kakva keel"@et ;
+	rdfs:label "Kakua"@ms ;
+	skos:prefLabel "Kakua"@ms ;
+	schema:name "Kakua"@ms ;
+	rdfs:label "Wikang Kakwa"@tl ;
+	skos:prefLabel "Wikang Kakwa"@tl ;
+	schema:name "Wikang Kakwa"@tl ;
+	rdfs:label "Idioma kãkwã"@es ;
+	skos:prefLabel "Idioma kãkwã"@es ;
+	schema:name "Idioma kãkwã"@es ;
+	rdfs:label "Lingua kakwa"@gl ;
+	skos:prefLabel "Lingua kakwa"@gl ;
+	schema:name "Lingua kakwa"@gl ;
+	rdfs:label "Língua cacua"@pt ;
+	skos:prefLabel "Língua cacua"@pt ;
+	schema:name "Língua cacua"@pt ;
+	rdfs:label "Llengua kãkwã"@ca ;
+	skos:prefLabel "Llengua kãkwã"@ca ;
+	schema:name "Llengua kãkwã"@ca ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue kakua-nukak"@fr,
+		"yezh"@br,
+		"lengua indígena"@es,
+		"lingua"@it,
+		"language of South America"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"língua indígena"@pt,
+		"lingua da familia nadahup"@gl ;
+	skos:altLabel "Cacua"@en,
+		"Kakwa language"@en,
+		"Kakua"@en,
+		"Cacua"@es,
+		"Língua kãkwã"@pt .
+
+wd:Q61095305 owl:sameAs wd:Q3192052 .

@@ -1,0 +1,185 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q34928 a schema:Dataset ;
+	schema:about wd:Q34928 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1913507686"^^xsd:integer ;
+	schema:dateModified "2023-06-12T07:29:34Z"^^xsd:dateTime .
+
+wd:Q34928 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Anfillo> a schema:Article ;
+	schema:about wd:Q34928 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Anfillo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bar.wikipedia.org/wiki/Anfillo> a schema:Article ;
+	schema:about wd:Q34928 ;
+	schema:inLanguage "bar" ;
+	schema:isPartOf <https://bar.wikipedia.org/> ;
+	schema:name "Anfillo"@bar .
+
+<https://bar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kianfillo> a schema:Article ;
+	schema:about wd:Q34928 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kianfillo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Anfillo_language> a schema:Article ;
+	schema:about wd:Q34928 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Anfillo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Anfiloeg> a schema:Article ;
+	schema:about wd:Q34928 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Anfiloeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Anfillo> a schema:Article ;
+	schema:about wd:Q34928 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Anfillo"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Anfillo_jezik> a schema:Article ;
+	schema:about wd:Q34928 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Anfillo jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Anfillo> a schema:Article ;
+	schema:about wd:Q34928 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Anfillo"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Anfillo_language> a schema:Article ;
+	schema:about wd:Q34928 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Anfillo language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q34928 wdt:P220 "myo" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/myo> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/05rfbc" ;
+	wdt:P1394 "anfi1235" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/anfi1235> ;
+	wdt:P2355 "86" ;
+	wdt:P2192 "2675" ;
+	wdt:P279 wd:Q4143043 ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P305 "myo" ;
+	wdt:P1627 "myo" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P17 wd:Q115 ;
+	wdt:P2341 wd:Q202107 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MYO> ;
+	wdt:P1889 wd:Q1351495 ;
+	wdt:P910 wd:Q105714993 ;
+	rdfs:label "Bahasa Anfillo"@id ;
+	skos:prefLabel "Bahasa Anfillo"@id ;
+	schema:name "Bahasa Anfillo"@id ;
+	rdfs:label "Anfillo"@de ;
+	skos:prefLabel "Anfillo"@de ;
+	schema:name "Anfillo"@de ;
+	rdfs:label "Lenga Anfillo"@pms ;
+	skos:prefLabel "Lenga Anfillo"@pms ;
+	schema:name "Lenga Anfillo"@pms ;
+	rdfs:label "anfiloeg"@br ;
+	skos:prefLabel "anfiloeg"@br ;
+	schema:name "anfiloeg"@br ;
+	rdfs:label "Anfillo"@en ;
+	skos:prefLabel "Anfillo"@en ;
+	schema:name "Anfillo"@en ;
+	rdfs:label "Anfillo jezik"@hr ;
+	skos:prefLabel "Anfillo jezik"@hr ;
+	schema:name "Anfillo jezik"@hr ;
+	rdfs:label "anfillo"@ca ;
+	skos:prefLabel "anfillo"@ca ;
+	schema:name "anfillo"@ca ;
+	rdfs:label "Anfillo"@oc ;
+	skos:prefLabel "Anfillo"@oc ;
+	schema:name "Anfillo"@oc ;
+	rdfs:label "Kianfillo"@sw ;
+	skos:prefLabel "Kianfillo"@sw ;
+	schema:name "Kianfillo"@sw ;
+	rdfs:label "Anfillo"@en-gb ;
+	skos:prefLabel "Anfillo"@en-gb ;
+	schema:name "Anfillo"@en-gb ;
+	rdfs:label "anfillo"@fr ;
+	skos:prefLabel "anfillo"@fr ;
+	schema:name "anfillo"@fr ;
+	rdfs:label "Wikang Anfillo"@tl ;
+	skos:prefLabel "Wikang Anfillo"@tl ;
+	schema:name "Wikang Anfillo"@tl ;
+	rdfs:label "Anfillo"@bar ;
+	skos:prefLabel "Anfillo"@bar ;
+	schema:name "Anfillo"@bar ;
+	rdfs:label "Anfillo language"@ig ;
+	skos:prefLabel "Anfillo language"@ig ;
+	schema:name "Anfillo language"@ig ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"langue ta-ne-omotique"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"bagian dari rumpun bahasa Afro-Asia"@id ;
+	skos:altLabel "Anfillo language"@en .

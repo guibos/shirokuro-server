@@ -1,0 +1,140 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7967989 a schema:Dataset ;
+	schema:about wd:Q7967989 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1958507117"^^xsd:integer ;
+	schema:dateModified "2023-08-22T01:29:57Z"^^xsd:dateTime .
+
+wd:Q7967989 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_wanman> a schema:Article ;
+	schema:about wd:Q7967989 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga wanman"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Wanman> a schema:Article ;
+	schema:about wd:Q7967989 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Wanman"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiwanman> a schema:Article ;
+	schema:about wd:Q7967989 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiwanman"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Wanman> a schema:Article ;
+	schema:about wd:Q7967989 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Wanman"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Warnman_language> a schema:Article ;
+	schema:about wd:Q7967989 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Warnman language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7967989 wdt:P220 "wbt" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/wbt> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "wanm1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/wanm1242> ;
+	wdt:P1252 "A62" ;
+	wdt:P2355 "240" ;
+	wdt:P1466 "wbt" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_wbt> ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P910 wd:Q36167339 ;
+	wdt:P279 wd:Q7974669 ;
+	wdt:P2192 "2579" ;
+	wdt:P305 "wbt" ;
+	wdt:P1627 "wbt" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P1251 "8717" ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3206 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/WBT> ;
+	wdt:P6915 "Warnman" ;
+	wdt:P646 "/m/02hxb04" ;
+	rdfs:label "Wanman"@en ;
+	skos:prefLabel "Wanman"@en ;
+	schema:name "Wanman"@en ;
+	rdfs:label "Wanman"@sv ;
+	skos:prefLabel "Wanman"@sv ;
+	schema:name "Wanman"@sv ;
+	rdfs:label "Lenga wanman"@pms ;
+	skos:prefLabel "Lenga wanman"@pms ;
+	schema:name "Lenga wanman"@pms ;
+	rdfs:label "Wanman"@en-gb ;
+	skos:prefLabel "Wanman"@en-gb ;
+	schema:name "Wanman"@en-gb ;
+	rdfs:label "Kiwanman"@sw ;
+	skos:prefLabel "Kiwanman"@sw ;
+	schema:name "Kiwanman"@sw ;
+	rdfs:label "wanman"@fr ;
+	skos:prefLabel "wanman"@fr ;
+	schema:name "wanman"@fr ;
+	rdfs:label "Wanman"@cs ;
+	skos:prefLabel "Wanman"@cs ;
+	schema:name "Wanman"@cs ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"lugha ya asili ya Australia"@sw,
+		"langue pama-nyungan"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language of Western Australia"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"australiskt språk"@sv ;
+	skos:altLabel "Wanman language"@en,
+		"warnman"@fr .
+
+wd:Q10719255 owl:sameAs wd:Q7967989 .

@@ -1,0 +1,701 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33879 a schema:Dataset ;
+	schema:about wd:Q33879 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912979752"^^xsd:integer ;
+	schema:dateModified "2023-06-11T12:50:08Z"^^xsd:dateTime .
+
+wd:Q33879 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_pangasinan> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga pangasinan"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BD%D0%B3%D0%B0%D1%81%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Пангасинанский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BD%D2%91%D0%B0%D1%81%D1%96%D0%BD%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Панґасінанська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Pangasinan_language> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Pangasinan language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Pangasinense> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Pangasinense"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%9B%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%8B%E0%B8%B5%E0%B8%99%E0%B8%B1%E0%B8%99> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาปังกาซีนัน"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_pangasinesa> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua pangasinesa"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Pangasinan_(lenga)> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Pangasinan (lenga)"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Pangasinan> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Pangasinan"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://war.wikipedia.org/wiki/Pangasinense_nga_yinaknan> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "war" ;
+	schema:isPartOf <https://war.wikipedia.org/> ;
+	schema:name "Pangasinense nga yinaknan"@war .
+
+<https://war.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kipangasinan> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kipangasinan"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%B3%E3%82%AC%E3%82%B7%E3%83%8A%E3%83%B3%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "パンガシナン語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Pangasinan_language> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Pangasinan language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Pangasinensische_Sprache> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Pangasinensische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Pangasinan> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Pangasinan"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_pangasinan> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua pangasinan"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%AA%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%9A%E0%AF%80%E0%AE%A9_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "பங்கசீன மொழி"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%D9%BE%D8%A7%D9%86%DA%AF%D8%A7%D8%B3%DB%8C%D9%86%D8%A7%D9%86_%D8%A8%D9%88%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "پانگاسینان بولی"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Pangasinan> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Pangasinan"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://am.wikipedia.org/wiki/%E1%8D%93%E1%8A%95%E1%8C%8B%E1%88%B2%E1%8A%93%E1%8A%95%E1%8A%9B> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "am" ;
+	schema:isPartOf <https://am.wikipedia.org/> ;
+	schema:name "ፓንጋሲናንኛ"@am .
+
+<https://am.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_pangasinan> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język pangasinan"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pag.wikipedia.org/wiki/Salitan_Pangasinan> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "pag" ;
+	schema:isPartOf <https://pag.wikipedia.org/> ;
+	schema:name "Salitan Pangasinan"@pag .
+
+<https://pag.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_pangasinense> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma pangasinense"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%AA%E0%B4%82%E0%B4%97%E0%B4%B8%E0%B4%BF%E0%B4%A8%E0%B4%BE%E0%B5%BB_%E0%B4%AD%E0%B4%BE%E0%B4%B7> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "പംഗസിനാൻ ഭാഷ"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hak.wikipedia.org/wiki/Pangasinan-ng%C3%AE> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "hak" ;
+	schema:isPartOf <https://hak.wikipedia.org/> ;
+	schema:name "Pangasinan-ngî"@hak .
+
+<https://hak.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Pangasinan> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Pangasinan"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Pangasinan> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Pangasinan"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Pangasinan_(langue)> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Pangasinan (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Pangasinan_(taal)> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Pangasinan (taal)"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D9%BE%D8%A7%D9%86%D9%82%D8%A7%D8%B3%DB%8C%D9%86%D8%A7%D9%86%DB%8C_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "پانقاسینانی دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Pangasinan> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Pangasinan"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Pangasina_lingvo> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Pangasina lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D9%BE%D8%A7%D9%86%DA%AF%D8%A7%D8%B3%DB%8C%D9%86%D8%A7%D9%86%DB%8C> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان پانگاسینانی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Pangasinan> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Pangasinan"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_pangasinesa> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua pangasinesa"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_pangasinense> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma pangasinense"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Pangasinan_language> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Pangasinan language"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Pangasinanin_kieli> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Pangasinanin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%ED%8C%A1%EA%B0%80%EC%8B%9C%EB%82%9C%EC%96%B4> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "팡가시난어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E9%82%A6%E9%98%BF%E8%A5%BF%E6%A5%A0%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "邦阿西楠語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D8%A8%D8%A7%D9%86%D8%AC%D8%A7%D8%B3%D9%8A%D9%86%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "بانجاسينان"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pam.wikipedia.org/wiki/Am%C3%A1nung_Panggasinensi> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "pam" ;
+	schema:isPartOf <https://pam.wikipedia.org/> ;
+	schema:name "Amánung Panggasinensi"@pam .
+
+<https://pam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%AF%E1%B1%9F%E1%B1%9D%E1%B1%9C%E1%B1%9F%E1%B1%A5%E1%B1%A4%E1%B1%B1%E1%B1%9F%E1%B1%B1_%E1%B1%AF%E1%B1%9F%E1%B1%B9%E1%B1%A8%E1%B1%A5%E1%B1%A4> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱯᱟᱝᱜᱟᱥᱤᱱᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BD%D0%B3%D0%B0%D1%81%D0%B8%D0%BD%D0%B0%D0%BD_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Пангасинан теле"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Pangasinan> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Pangasinan"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vec.wikipedia.org/wiki/Lengua_pangasineze> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "vec" ;
+	schema:isPartOf <https://vec.wikipedia.org/> ;
+	schema:name "Lengua pangasineze"@vec .
+
+<https://vec.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikivoyage.org/wiki/Pangasinan_phrasebook> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikivoyage.org/> ;
+	schema:name "Pangasinan phrasebook"@en .
+
+<https://en.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://cdo.wikipedia.org/wiki/Pangasinan-ng%E1%B9%B3%CC%84> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "cdo" ;
+	schema:isPartOf <https://cdo.wikipedia.org/> ;
+	schema:name "Pangasinan-ngṳ̄"@cdo .
+
+<https://cdo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E7%8F%AD%E8%A9%A9%E8%98%AD%E6%96%87> a schema:Article ;
+	schema:about wd:Q33879 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "班詩蘭文"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33879 wdt:P219 "pag" ;
+	wdt:P220 "pag" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pag> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/02p9hz" ;
+	wdt:P305 "pag" ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P279 wd:Q289309 ;
+	wdt:P1098 "+1100000"^^xsd:decimal ;
+	wdt:P1705 "Selitan pangasinan"@pag ;
+	wdt:P424 "pag" ;
+	wdt:P1394 "pang1290" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/pang1290> ;
+	wdt:P910 wd:Q28460837 ;
+	wdt:P4132 wd:Q166097,
+		wd:Q171263 ;
+	wdt:P1417 "topic/Pangasinan-language" ;
+	wdt:P1466 "pnn" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_pnn> ;
+	wdt:P1627 "pag" ;
+	wdt:P4801 "languages/pag" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/pag> ;
+	wdt:P3823 wd:Q29051549 ;
+	wdt:P17 wd:Q928 ;
+	wdt:P2341 wd:Q13871 ;
+	wdt:P1396 "31-CGA-f" ;
+	wdt:P1245 "812345" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PAG> ;
+	wdt:P8408 "PangasinanLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/PangasinanLanguage> ;
+	wdt:P9060 "pag" ;
+	wdt:P10369 "Q257" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q257> ;
+	wdt:P691 "ph890519" ;
+	rdfs:label "Língua pangasinesa"@pt ;
+	skos:prefLabel "Língua pangasinesa"@pt ;
+	schema:name "Língua pangasinesa"@pt ;
+	rdfs:label "Lenga pangasinan"@pms ;
+	skos:prefLabel "Lenga pangasinan"@pms ;
+	schema:name "Lenga pangasinan"@pms ;
+	rdfs:label "pangasina lingvo"@eo ;
+	skos:prefLabel "pangasina lingvo"@eo ;
+	schema:name "pangasina lingvo"@eo ;
+	rdfs:label "Język pangasinan"@pl ;
+	skos:prefLabel "Język pangasinan"@pl ;
+	schema:name "Język pangasinan"@pl ;
+	rdfs:label "Salitan Pangasinan"@pag ;
+	skos:prefLabel "Salitan Pangasinan"@pag ;
+	schema:name "Salitan Pangasinan"@pag ;
+	rdfs:label "Пангасинанский язык"@ru ;
+	skos:prefLabel "Пангасинанский язык"@ru ;
+	schema:name "Пангасинанский язык"@ru ;
+	rdfs:label "pangassinais"@fr ;
+	skos:prefLabel "pangassinais"@fr ;
+	schema:name "pangassinais"@fr ;
+	rdfs:label "Pangasinan"@en ;
+	skos:prefLabel "Pangasinan"@en ;
+	schema:name "Pangasinan"@en ;
+	rdfs:label "pangasinense"@es ;
+	skos:prefLabel "pangasinense"@es ;
+	schema:name "pangasinense"@es ;
+	rdfs:label "பங்கசீன மொழி"@ta ;
+	skos:prefLabel "பங்கசீன மொழி"@ta ;
+	schema:name "பங்கசீன மொழி"@ta ;
+	rdfs:label "ภาษาปังกาซีนัน"@th ;
+	skos:prefLabel "ภาษาปังกาซีนัน"@th ;
+	schema:name "ภาษาปังกาซีนัน"@th ;
+	rdfs:label "Pangasinan-ngî"@hak ;
+	skos:prefLabel "Pangasinan-ngî"@hak ;
+	schema:name "Pangasinan-ngî"@hak ;
+	rdfs:label "Панґасінанська мова"@uk ;
+	skos:prefLabel "Панґасінанська мова"@uk ;
+	schema:name "Панґасінанська мова"@uk ;
+	rdfs:label "Pangasinan"@ilo ;
+	skos:prefLabel "Pangasinan"@ilo ;
+	schema:name "Pangasinan"@ilo ;
+	rdfs:label "Pangasinensisch"@de ;
+	skos:prefLabel "Pangasinensisch"@de ;
+	schema:name "Pangasinensisch"@de ;
+	rdfs:label "パンガシナン語"@ja ;
+	skos:prefLabel "パンガシナン語"@ja ;
+	schema:name "パンガシナン語"@ja ;
+	rdfs:label "Pangasinense nga yinaknan"@war ;
+	skos:prefLabel "Pangasinense nga yinaknan"@war ;
+	schema:name "Pangasinense nga yinaknan"@war ;
+	rdfs:label "tiếng Pangasinan"@vi ;
+	skos:prefLabel "tiếng Pangasinan"@vi ;
+	schema:name "tiếng Pangasinan"@vi ;
+	rdfs:label "ፓንጋሲናንኛ"@am ;
+	skos:prefLabel "ፓንጋሲናንኛ"@am ;
+	schema:name "ፓንጋሲናንኛ"@am ;
+	rdfs:label "Pangasinense"@bcl ;
+	skos:prefLabel "Pangasinense"@bcl ;
+	schema:name "Pangasinense"@bcl ;
+	rdfs:label "پانگاسینان بولی"@pnb ;
+	skos:prefLabel "پانگاسینان بولی"@pnb ;
+	schema:name "پانگاسینان بولی"@pnb ;
+	rdfs:label "Wikang Pangasinan"@tl ;
+	skos:prefLabel "Wikang Pangasinan"@tl ;
+	schema:name "Wikang Pangasinan"@tl ;
+	rdfs:label "pangasinan"@sv ;
+	skos:prefLabel "pangasinan"@sv ;
+	schema:name "pangasinan"@sv ;
+	rdfs:label "bahasa Pangasinan"@ms ;
+	skos:prefLabel "bahasa Pangasinan"@ms ;
+	schema:name "bahasa Pangasinan"@ms ;
+	rdfs:label "pangasinan"@it ;
+	skos:prefLabel "pangasinan"@it ;
+	schema:name "pangasinan"@it ;
+	rdfs:label "زبان پانگاسینانی"@fa ;
+	skos:prefLabel "زبان پانگاسینانی"@fa ;
+	schema:name "زبان پانگاسینانی"@fa ;
+	rdfs:label "Pangasinanin kieli"@fi ;
+	skos:prefLabel "Pangasinanin kieli"@fi ;
+	schema:name "Pangasinanin kieli"@fi ;
+	rdfs:label "Pangasinan language"@hif ;
+	skos:prefLabel "Pangasinan language"@hif ;
+	schema:name "Pangasinan language"@hif ;
+	rdfs:label "pangasinan"@ca ;
+	skos:prefLabel "pangasinan"@ca ;
+	schema:name "pangasinan"@ca ;
+	rdfs:label "Kipangasinan"@sw ;
+	skos:prefLabel "Kipangasinan"@sw ;
+	schema:name "Kipangasinan"@sw ;
+	rdfs:label "Pangasinan"@nl ;
+	skos:prefLabel "Pangasinan"@nl ;
+	schema:name "Pangasinan"@nl ;
+	rdfs:label "팡가시난어"@ko ;
+	skos:prefLabel "팡가시난어"@ko ;
+	schema:name "팡가시난어"@ko ;
+	rdfs:label "пангасинански јазик"@mk ;
+	skos:prefLabel "пангасинански јазик"@mk ;
+	schema:name "пангасинански јазик"@mk ;
+	rdfs:label "Pangasinan"@oc ;
+	skos:prefLabel "Pangasinan"@oc ;
+	schema:name "Pangasinan"@oc ;
+	rdfs:label "Pinangasinan"@ceb ;
+	skos:prefLabel "Pinangasinan"@ceb ;
+	schema:name "Pinangasinan"@ceb ;
+	rdfs:label "bahasa Pangasinan"@id ;
+	skos:prefLabel "bahasa Pangasinan"@id ;
+	schema:name "bahasa Pangasinan"@id ;
+	rdfs:label "pangasineze"@vec ;
+	skos:prefLabel "pangasineze"@vec ;
+	schema:name "pangasineze"@vec ;
+	rdfs:label "Lingua pangasinesa"@gl ;
+	skos:prefLabel "Lingua pangasinesa"@gl ;
+	schema:name "Lingua pangasinesa"@gl ;
+	rdfs:label "Pangasinan"@en-gb ;
+	skos:prefLabel "Pangasinan"@en-gb ;
+	schema:name "Pangasinan"@en-gb ;
+	rdfs:label "邦阿西楠語"@zh ;
+	skos:prefLabel "邦阿西楠語"@zh ;
+	schema:name "邦阿西楠語"@zh ;
+	rdfs:label "pangasinan"@hu ;
+	skos:prefLabel "pangasinan"@hu ;
+	schema:name "pangasinan"@hu ;
+	rdfs:label "pagasinanera"@eu ;
+	skos:prefLabel "pagasinanera"@eu ;
+	schema:name "pagasinanera"@eu ;
+	rdfs:label "Idioma pangasinense"@ast ;
+	skos:prefLabel "Idioma pangasinense"@ast ;
+	schema:name "Idioma pangasinense"@ast ;
+	rdfs:label "پانقاسینانی دیلی"@azb ;
+	skos:prefLabel "پانقاسینانی دیلی"@azb ;
+	schema:name "پانقاسینانی دیلی"@azb ;
+	rdfs:label "പംഗസിനാൻ ഭാഷ"@ml ;
+	skos:prefLabel "പംഗസിനാൻ ഭാഷ"@ml ;
+	schema:name "പംഗസിനാൻ ഭാഷ"@ml ;
+	rdfs:label "pangasinan"@br ;
+	skos:prefLabel "pangasinan"@br ;
+	schema:name "pangasinan"@br ;
+	rdfs:label "邦阿西楠语"@zh-hans ;
+	skos:prefLabel "邦阿西楠语"@zh-hans ;
+	schema:name "邦阿西楠语"@zh-hans ;
+	rdfs:label "邦阿西楠文"@yue ;
+	skos:prefLabel "邦阿西楠文"@yue ;
+	schema:name "邦阿西楠文"@yue ;
+	rdfs:label "بانجاسينان"@arz ;
+	skos:prefLabel "بانجاسينان"@arz ;
+	schema:name "بانجاسينان"@arz ;
+	rdfs:label "γλώσσα Πανγκασινάν"@el ;
+	skos:prefLabel "γλώσσα Πανγκασινάν"@el ;
+	schema:name "γλώσσα Πανγκασινάν"@el ;
+	rdfs:label "Amánung Panggasinensi"@pam ;
+	skos:prefLabel "Amánung Panggasinensi"@pam ;
+	schema:name "Amánung Panggasinensi"@pam ;
+	rdfs:label "ᱯᱟᱝᱜᱟᱥᱤᱱᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	skos:prefLabel "ᱯᱟᱝᱜᱟᱥᱤᱱᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	schema:name "ᱯᱟᱝᱜᱟᱥᱤᱱᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	rdfs:label "Пангасинан теле"@tt ;
+	skos:prefLabel "Пангасинан теле"@tt ;
+	schema:name "Пангасинан теле"@tt ;
+	rdfs:label "Pangasinan"@af ;
+	skos:prefLabel "Pangasinan"@af ;
+	schema:name "Pangasinan"@af ;
+	rdfs:label "Pinangasinan"@krj ;
+	skos:prefLabel "Pinangasinan"@krj ;
+	schema:name "Pinangasinan"@krj ;
+	rdfs:label "pangasinansk"@da ;
+	skos:prefLabel "pangasinansk"@da ;
+	schema:name "pangasinansk"@da ;
+	rdfs:label "pangasinansk"@nb ;
+	skos:prefLabel "pangasinansk"@nb ;
+	schema:name "pangasinansk"@nb ;
+	rdfs:label "pangasinēnsē"@la ;
+	skos:prefLabel "pangasinēnsē"@la ;
+	schema:name "pangasinēnsē"@la ;
+	rdfs:label "pangasinan"@cs ;
+	skos:prefLabel "pangasinan"@cs ;
+	schema:name "pangasinan"@cs ;
+	rdfs:label "Pangasinan-ngṳ̄"@cdo ;
+	skos:prefLabel "Pangasinan-ngṳ̄"@cdo ;
+	schema:name "Pangasinan-ngṳ̄"@cdo ;
+	schema:description "lengua que pertenece al grupo malayo-polinesio de la familia austronesia"@es,
+		"Sprache"@de,
+		"lingua austronesiana"@it,
+		"taal"@nl,
+		"Austronesian language spoken in the province of Pangasinan by Pangasinense people"@en,
+		"שפה"@he,
+		"bahagi ng mga wikang Austronesyo na sinasalita ng mga Pangasinense"@tl,
+		"pagasinan jendearen hizkuntza, austronesia familiako hizkuntza"@eu,
+		"yezh"@br,
+		"langue"@fr,
+		"lingua"@la,
+		"iaith"@cy,
+		"språk"@sv,
+		"Amánung Malayopolinesiu"@pam,
+		"Inawstronesyanhën nga pulong"@krj,
+		"sprog"@da,
+		"språk"@nb,
+		"bagian dari rumpun bahasa Austronesia"@id ;
+	skos:altLabel "Língua pangasinense"@pt,
+		"Pangasinana lingvo"@eo,
+		"Język pangasino"@pl,
+		"Salitay Pangasinan"@pag,
+		"Pangasinan Language"@pag,
+		"pag"@pag,
+		"Пангасинанский"@ru,
+		"lengua pangasinense"@es,
+		"idioma pangasinense"@es,
+		"Pagsasao a Pangasinense"@ilo,
+		"Pangasinense"@ilo,
+		"Pangasinán"@de,
+		"Pangasinan"@de,
+		"pangasinensische Sprache"@de,
+		"Pangasinan nga yinaknan"@war,
+		"Wikang Pangasinense"@tl,
+		"Wikang Panggasinense"@tl,
+		"Panggalatok"@tl,
+		"Pangalatok"@tl,
+		"Wikang Panggasinan"@tl,
+		"pag"@en,
+		"Pangasinan language"@en,
+		"pag"@fr,
+		"langue pangassinaise"@fr,
+		"lingua pangasinan"@it,
+		"Lingua pangasiana"@gl,
+		"邦阿西楠语"@zh,
+		"Pinangasinanun"@krj,
+		"Pinangasinanën"@krj,
+		"pangasinezo"@vec,
+		"léngua pangasineza"@vec,
+		"léngua pangasineze"@vec,
+		"lingua pangasinensis"@la,
+		"jazyk pangasinan"@cs .
+
+wd:Q13155170 owl:sameAs wd:Q33879 .

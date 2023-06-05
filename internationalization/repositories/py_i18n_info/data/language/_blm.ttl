@@ -1,0 +1,170 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56821 a schema:Dataset ;
+	schema:about wd:Q56821 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1615996778"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:47:22Z"^^xsd:dateTime .
+
+wd:Q56821 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Beli_(langue_soudanique_centrale)> a schema:Article ;
+	schema:about wd:Q56821 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Beli (langue soudanique centrale)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Beli> a schema:Article ;
+	schema:about wd:Q56821 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Beli"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D0%B8_%D1%98%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q56821 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Бели језик"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibeli_(Sudan)> a schema:Article ;
+	schema:about wd:Q56821 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibeli (Sudan)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Beli_language_(South_Sudan)> a schema:Article ;
+	schema:about wd:Q56821 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Beli language (South Sudan)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Belieg> a schema:Article ;
+	schema:about wd:Q56821 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Belieg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Beli_(bongo-bagirmi_jezik)> a schema:Article ;
+	schema:about wd:Q56821 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Beli (bongo-bagirmi jezik)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_beli> a schema:Article ;
+	schema:about wd:Q56821 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua beli"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56821 wdt:P220 "blm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/blm> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1245 "676969" ;
+	wdt:P1394 "beli1257" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/beli1257> ;
+	wdt:P2355 "1694" ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P910 wd:Q33128947 ;
+	wdt:P279 wd:Q3505042 ;
+	wdt:P17 wd:Q958 ;
+	wdt:P2192 "3932" ;
+	wdt:P305 "blm" ;
+	wdt:P1627 "blm" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2341 wd:Q487709,
+		wd:Q491096 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BLM> ;
+	wdt:P646 "/m/02hx8zg" ;
+	wdt:P4839 "Entity[\"Language\", \"BeliSouthSudan::98d5w\"]" ;
+	rdfs:label "belieg"@br ;
+	skos:prefLabel "belieg"@br ;
+	schema:name "belieg"@br ;
+	rdfs:label "Beli"@en ;
+	skos:prefLabel "Beli"@en ;
+	schema:name "Beli"@en ;
+	rdfs:label "beli"@hr ;
+	skos:prefLabel "beli"@hr ;
+	schema:name "beli"@hr ;
+	rdfs:label "бели језик"@sr ;
+	skos:prefLabel "бели језик"@sr ;
+	schema:name "бели језик"@sr ;
+	rdfs:label "Lenga Beli"@pms ;
+	skos:prefLabel "Lenga Beli"@pms ;
+	schema:name "Lenga Beli"@pms ;
+	rdfs:label "Kibeli"@sw ;
+	skos:prefLabel "Kibeli"@sw ;
+	schema:name "Kibeli"@sw ;
+	rdfs:label "Língua beli"@pt ;
+	skos:prefLabel "Língua beli"@pt ;
+	schema:name "Língua beli"@pt ;
+	rdfs:label "beli"@fr ;
+	skos:prefLabel "beli"@fr ;
+	schema:name "beli"@fr ;
+	rdfs:label "Wikang Beli"@tl ;
+	skos:prefLabel "Wikang Beli"@tl ;
+	schema:name "Wikang Beli"@tl ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue soudanique centrale parlée au Soudan du Sud"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Beli (Sudan)"@en,
+		"Beli language"@en .
+
+wd:Q12748819 owl:sameAs wd:Q56821 .
+
+wd:Q25397791 owl:sameAs wd:Q56821 .
+
+wd:Q61094390 owl:sameAs wd:Q56821 .

@@ -1,0 +1,107 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q25337171 a schema:Dataset ;
+	schema:about wd:Q25337171 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960506128"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:17:12Z"^^xsd:dateTime .
+
+wd:Q25337171 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kayan_Mahakam> a schema:Article ;
+	schema:about wd:Q25337171 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kayan Mahakam"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikayan-Mahakam> a schema:Article ;
+	schema:about wd:Q25337171 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikayan-Mahakam"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Kayan_Mahakam> a schema:Article ;
+	schema:about wd:Q25337171 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Kayan Mahakam"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q25337171 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P2590 "0447 6" ;
+	wdt:P1705 "bahasa Kayan Mahakam"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P220 "xay" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xay> ;
+	wdt:P1394 "kaya1324" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kaya1324> ;
+	wdt:P305 "xay" ;
+	wdt:P1627 "xay" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2341 wd:Q3795,
+		wd:Q3899 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XAY> ;
+	wdt:P646 "/m/02hxcl9" ;
+	rdfs:label "Kayan Mahakam"@id ;
+	skos:prefLabel "Kayan Mahakam"@id ;
+	schema:name "Kayan Mahakam"@id ;
+	rdfs:label "kayan mahakam"@fr ;
+	skos:prefLabel "kayan mahakam"@fr ;
+	schema:name "kayan mahakam"@fr ;
+	rdfs:label "Kayan Mahakam"@en ;
+	skos:prefLabel "Kayan Mahakam"@en ;
+	schema:name "Kayan Mahakam"@en ;
+	rdfs:label "Lenga Kayan Mahakam"@pms ;
+	skos:prefLabel "Lenga Kayan Mahakam"@pms ;
+	schema:name "Lenga Kayan Mahakam"@pms ;
+	rdfs:label "Kikayan-Mahakam"@sw ;
+	skos:prefLabel "Kikayan-Mahakam"@sw ;
+	schema:name "Kikayan-Mahakam"@sw ;
+	schema:description "bagian dari rumpun bahasa Austronesia"@id,
+		"taal"@nl,
+		"שפה"@he,
+		"langue malayo-polynésienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "bahasa Kayan Mahakam"@id .

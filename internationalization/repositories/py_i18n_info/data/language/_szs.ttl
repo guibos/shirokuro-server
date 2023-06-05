@@ -1,0 +1,95 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q26449924 a schema:Dataset ;
+	schema:about wd:Q26449924 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960525724"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:42:27Z"^^xsd:dateTime .
+
+wd:Q26449924 a wikibase:Item .
+
+<https://it.wikipedia.org/wiki/Lingua_dei_segni_salomonese> a schema:Article ;
+	schema:about wd:Q26449924 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua dei segni salomonese"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Solomon_Islands_Sign_Language> a schema:Article ;
+	schema:about wd:Q26449924 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Solomon Islands Sign Language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Salomonsaarten_viittomakieli> a schema:Article ;
+	schema:about wd:Q26449924 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Salomonsaarten viittomakieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q26449924 wdt:P31 wd:Q34228 ;
+	wdt:P220 "szs" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/szs> ;
+	wdt:P17 wd:Q685 ;
+	wdt:P1394 "solo1262" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/solo1262> ;
+	wdt:P279 wd:Q3915038 ;
+	wdt:P305 "szs" ;
+	wdt:P1627 "szs" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2671 "/g/11c1n81ykn" ;
+	wdtn:P2671 <http://g.co/kg/g/11c1n81ykn> ;
+	rdfs:label "lingua dei segni salomonese"@it ;
+	skos:prefLabel "lingua dei segni salomonese"@it ;
+	schema:name "lingua dei segni salomonese"@it ;
+	rdfs:label "Solomon Islands Sign Language"@en ;
+	skos:prefLabel "Solomon Islands Sign Language"@en ;
+	schema:name "Solomon Islands Sign Language"@en ;
+	rdfs:label "Solomon Islands Sign Language"@en-gb ;
+	skos:prefLabel "Solomon Islands Sign Language"@en-gb ;
+	schema:name "Solomon Islands Sign Language"@en-gb ;
+	rdfs:label "langue des signe salamonaise"@fr ;
+	skos:prefLabel "langue des signe salamonaise"@fr ;
+	schema:name "langue des signe salamonaise"@fr ;
+	rdfs:label "ソロモン諸島手話"@ja ;
+	skos:prefLabel "ソロモン諸島手話"@ja ;
+	schema:name "ソロモン諸島手話"@ja ;
+	rdfs:label "Salomonsaarten viittomakieli"@fi ;
+	skos:prefLabel "Salomonsaarten viittomakieli"@fi ;
+	schema:name "Salomonsaarten viittomakieli"@fi ;
+	schema:description "deaf sign language of the Solomon Islands"@en .

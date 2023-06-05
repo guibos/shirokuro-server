@@ -1,0 +1,445 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4624 a schema:Dataset ;
+	schema:about wd:Q4624 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1868109639"^^xsd:integer ;
+	schema:dateModified "2023-04-04T10:10:35Z"^^xsd:dateTime .
+
+wd:Q4624 a wikibase:Item .
+
+<https://de.wikipedia.org/wiki/K%C3%B6lsch_(Sprache)> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Kölsch (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/K%C3%B6lsch_(langue)> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kölsch (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_k%C3%B6lsch> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma kölsch"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D1%91%D0%BB%D1%8C%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%B4%D0%B8%D0%B0%D0%BB%D0%B5%D0%BA%D1%82> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Кёльнский диалект"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_k%C3%B6lsch> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua kölsch"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%B1%E3%83%AB%E3%83%B3%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ケルン語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/K%C3%B6lsch_(dialect)> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Kölsch (dialect)"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/Gwara_kolo%C5%84ska> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Gwara kolońska"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Dialeto_k%C3%B6lsch> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Dialeto kölsch"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E7%A7%91%E9%9A%86%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "科隆語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/K%C3%B6lschin_kieli> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Kölschin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/K%C3%B6lsch_(spr%C3%A5k)> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Kölsch (språk)"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9A%D0%B5%D0%BB%D1%8C%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%B4%D1%96%D0%B0%D0%BB%D0%B5%D0%BA%D1%82> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Кельнський діалект"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/K%C3%B6lsch_(idioma)> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Kölsch (idioma)"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Dialek_K%C3%B6lsch> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Dialek Kölsch"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/K%C3%B6lsch_(sprog)> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Kölsch (sprog)"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://an.wikipedia.org/wiki/Franco_ripuario_colon%C3%A9s> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "an" ;
+	schema:isPartOf <https://an.wikipedia.org/> ;
+	schema:name "Franco ripuario colonés"@an .
+
+<https://an.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_k%C3%B6lsch> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma kölsch"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bar.wikipedia.org/wiki/K%C3%B6lsch_(Sproch)> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "bar" ;
+	schema:isPartOf <https://bar.wikipedia.org/> ;
+	schema:name "Kölsch (Sproch)"@bar .
+
+<https://bar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Koloniera> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Koloniera"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gd.wikipedia.org/wiki/K%C3%B6lsch> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "gd" ;
+	schema:isPartOf <https://gd.wikipedia.org/> ;
+	schema:name "Kölsch"@gd .
+
+<https://gd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Kelnski_jezik> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Kelnski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ksh.wikipedia.org/wiki/K%C3%B6lsch_(Sprooch)> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "ksh" ;
+	schema:isPartOf <https://ksh.wikipedia.org/> ;
+	schema:name "Kölsch (Sprooch)"@ksh .
+
+<https://ksh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lb.wikipedia.org/wiki/K%C3%B6lsch_(Sprooch)> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "lb" ;
+	schema:isPartOf <https://lb.wikipedia.org/> ;
+	schema:name "Kölsch (Sprooch)"@lb .
+
+<https://lb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://li.wikipedia.org/wiki/K%C3%B6lsj> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "li" ;
+	schema:isPartOf <https://li.wikipedia.org/> ;
+	schema:name "Kölsj"@li .
+
+<https://li.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_k%C3%B6lsch> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kölsch"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%DA%A9%D9%88%D9%84%D9%88%D9%86%DB%8C_%D9%84%DB%81%D8%AC%DB%81> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "کولونی لہجہ"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sco.wikipedia.org/wiki/K%C3%B6lsch_dialect> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "sco" ;
+	schema:isPartOf <https://sco.wikipedia.org/> ;
+	schema:name "Kölsch dialect"@sco .
+
+<https://sco.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Colognian> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Colognian"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Colognian> a schema:Article ;
+	schema:about wd:Q4624 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Colognian"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4624 wdt:P282 wd:Q8229 ;
+	wdt:P31 wd:Q33384 ;
+	wdt:P373 "Kölsch language" ;
+	wdt:P227 "4378826-9" ;
+	wdtn:P227 <https://d-nb.info/gnd/4378826-9> ;
+	wdt:P646 "/m/02h2sy" ;
+	wdt:P910 wd:Q8663721 ;
+	wdt:P279 wd:Q32145 ;
+	wdt:P1394 "kols1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kols1241> ;
+	wdt:P4132 wd:Q7888721 ;
+	wdt:P1466 "grp" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_grp> ;
+	wdt:P424 "ksh" ;
+	wdt:P7084 wd:Q84969974 ;
+	wdt:P220 "ksh" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ksh> ;
+	wdt:P305 "ksh" ;
+	wdt:P1245 "6315" ;
+	wdt:P9060 "ksh" ;
+	wdt:P1705 "Kölsch"@ksh ;
+	wdt:P8313 "kölsch" ;
+	wdt:P17 wd:Q183 ;
+	wdt:P2341 wd:Q365 ;
+	rdfs:label "Kölsch"@de ;
+	skos:prefLabel "Kölsch"@de ;
+	schema:name "Kölsch"@de ;
+	rdfs:label "Kölsch"@en ;
+	skos:prefLabel "Kölsch"@en ;
+	schema:name "Kölsch"@en ;
+	rdfs:label "kölsch"@fr ;
+	skos:prefLabel "kölsch"@fr ;
+	schema:name "kölsch"@fr ;
+	rdfs:label "kölsch"@it ;
+	skos:prefLabel "kölsch"@it ;
+	schema:name "kölsch"@it ;
+	rdfs:label "Kölsch"@da ;
+	skos:prefLabel "Kölsch"@da ;
+	schema:name "Kölsch"@da ;
+	rdfs:label "kölsch"@es ;
+	skos:prefLabel "kölsch"@es ;
+	schema:name "kölsch"@es ;
+	rdfs:label "Koloniera"@eu ;
+	skos:prefLabel "Koloniera"@eu ;
+	schema:name "Koloniera"@eu ;
+	rdfs:label "Kölsch"@gd ;
+	skos:prefLabel "Kölsch"@gd ;
+	schema:name "Kölsch"@gd ;
+	rdfs:label "Kelnski jezik"@hr ;
+	skos:prefLabel "Kelnski jezik"@hr ;
+	schema:name "Kelnski jezik"@hr ;
+	rdfs:label "Dialek Kölsch"@id ;
+	skos:prefLabel "Dialek Kölsch"@id ;
+	schema:name "Dialek Kölsch"@id ;
+	rdfs:label "ケルン語"@ja ;
+	skos:prefLabel "ケルン語"@ja ;
+	schema:name "ケルン語"@ja ;
+	rdfs:label "Kölsch"@ksh ;
+	skos:prefLabel "Kölsch"@ksh ;
+	schema:name "Kölsch"@ksh ;
+	rdfs:label "Kölsj"@li ;
+	skos:prefLabel "Kölsj"@li ;
+	schema:name "Kölsj"@li ;
+	rdfs:label "Kölsch"@nl ;
+	skos:prefLabel "Kölsch"@nl ;
+	schema:name "Kölsch"@nl ;
+	rdfs:label "Gwara kolońska"@pl ;
+	skos:prefLabel "Gwara kolońska"@pl ;
+	schema:name "Gwara kolońska"@pl ;
+	rdfs:label "Lenga kölsch"@pms ;
+	skos:prefLabel "Lenga kölsch"@pms ;
+	schema:name "Lenga kölsch"@pms ;
+	rdfs:label "Dialeto kölsch"@pt ;
+	skos:prefLabel "Dialeto kölsch"@pt ;
+	schema:name "Dialeto kölsch"@pt ;
+	rdfs:label "кёльнский диалект"@ru ;
+	skos:prefLabel "кёльнский диалект"@ru ;
+	schema:name "кёльнский диалект"@ru ;
+	rdfs:label "Kölsch"@bar ;
+	skos:prefLabel "Kölsch"@bar ;
+	schema:name "Kölsch"@bar ;
+	rdfs:label "Кельнський діалект"@uk ;
+	skos:prefLabel "Кельнський діалект"@uk ;
+	schema:name "Кельнський діалект"@uk ;
+	rdfs:label "kölsch"@ca ;
+	skos:prefLabel "kölsch"@ca ;
+	schema:name "kölsch"@ca ;
+	rdfs:label "Kölsch"@lb ;
+	skos:prefLabel "Kölsch"@lb ;
+	schema:name "Kölsch"@lb ;
+	rdfs:label "келнски дијалект"@sr ;
+	skos:prefLabel "келнски дијалект"@sr ;
+	schema:name "келнски дијалект"@sr ;
+	rdfs:label "келнски дијалект"@sr-ec ;
+	skos:prefLabel "келнски дијалект"@sr-ec ;
+	schema:name "келнски дијалект"@sr-ec ;
+	rdfs:label "kelnski dijalekt"@sr-el ;
+	skos:prefLabel "kelnski dijalekt"@sr-el ;
+	schema:name "kelnski dijalekt"@sr-el ;
+	rdfs:label "kölsch"@nb ;
+	skos:prefLabel "kölsch"@nb ;
+	schema:name "kölsch"@nb ;
+	rdfs:label "келнски дијалект"@mk ;
+	skos:prefLabel "келнски дијалект"@mk ;
+	schema:name "келнски дијалект"@mk ;
+	rdfs:label "Kölsch dialect"@sco ;
+	skos:prefLabel "Kölsch dialect"@sco ;
+	schema:name "Kölsch dialect"@sco ;
+	rdfs:label "Kölschin kieli"@fi ;
+	skos:prefLabel "Kölschin kieli"@fi ;
+	schema:name "Kölschin kieli"@fi ;
+	rdfs:label "科隆語"@zh ;
+	skos:prefLabel "科隆語"@zh ;
+	schema:name "科隆語"@zh ;
+	rdfs:label "Franco ripuario colonés"@an ;
+	skos:prefLabel "Franco ripuario colonés"@an ;
+	schema:name "Franco ripuario colonés"@an ;
+	rdfs:label "kolonja lingvo"@eo ;
+	skos:prefLabel "kolonja lingvo"@eo ;
+	schema:name "kolonja lingvo"@eo ;
+	rdfs:label "쾰른어"@ko ;
+	skos:prefLabel "쾰른어"@ko ;
+	schema:name "쾰른어"@ko ;
+	rdfs:label "کولونی لہجہ"@ur ;
+	skos:prefLabel "کولونی لہجہ"@ur ;
+	schema:name "کولونی لہجہ"@ur ;
+	rdfs:label "Idioma kölsch"@ast ;
+	skos:prefLabel "Idioma kölsch"@ast ;
+	schema:name "Idioma kölsch"@ast ;
+	rdfs:label "কোল্শ উপভাষা"@bn ;
+	skos:prefLabel "কোল্শ উপভাষা"@bn ;
+	schema:name "কোল্শ উপভাষা"@bn ;
+	rdfs:label "Kölsch"@gsw ;
+	skos:prefLabel "Kölsch"@gsw ;
+	schema:name "Kölsch"@gsw ;
+	rdfs:label "kölsch"@vec ;
+	skos:prefLabel "kölsch"@vec ;
+	schema:name "kölsch"@vec ;
+	schema:description "Variante des ripuarischen Dialekts in Köln und Umgebung"@de,
+		"городской диалект Кёльна (Германия) и его окрестностей"@ru,
+		"grupo de dialectos alemanes"@es,
+		"insieme di forme dialettali della lingua tedesca ripuaria"@it,
+		"dialect of the Ripuarian Central German group of languages"@en,
+		"dialect"@nl,
+		"dialecte de la langue allemande"@fr,
+		"भाषाहरूको रिपुअरियन केन्द्रीय जर्मन समूहको क्षेत्रीय भाषा"@ne,
+		"en Dialäkt z Köln und i de Umgebig"@gsw,
+		"grup de dialectes alemanys"@ca,
+		"En Variant vun de ripuarische Dialekte"@ksh,
+		"bahasa daerah di Jerman"@id,
+		"gruppe nært beslektede dialekter av ripuriske språk, som igjen er en gruppe innenfor sentraltyske språk"@nb ;
+	skos:altLabel "lingua kölsch"@it,
+		"coloniese"@it,
+		"lingua coloniese"@it,
+		"kölsche Sprache"@de,
+		"কোলোনীয় উপভাষা"@bn,
+		"Colognian dialect"@en,
+		"Kölsch dialect"@en,
+		"Colognian"@en,
+		"ksh"@en,
+		"Kolsch (dialect)"@nl,
+		"Kölsch (språk)"@nb,
+		"ksh"@ksh,
+		"colognais"@fr,
+		"colonés"@es .

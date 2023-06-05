@@ -1,0 +1,110 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q13018555 a schema:Dataset ;
+	schema:about wd:Q13018555 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1520303529"^^xsd:integer ;
+	schema:dateModified "2021-10-31T21:55:12Z"^^xsd:dateTime .
+
+wd:Q13018555 a wikibase:Item .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%A1%E0%B9%89%E0%B8%87%E0%B8%94%E0%B8%AD%E0%B8%99> a schema:Article ;
+	schema:about wd:Q13018555 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาม้งดอน"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_hmong_don> a schema:Article ;
+	schema:about wd:Q13018555 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga hmong don"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kihmong-Don> a schema:Article ;
+	schema:about wd:Q13018555 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kihmong-Don"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q13018555 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "hmf" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hmf> ;
+	wdt:P1394 "hmon1263" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/hmon1263> ;
+	wdt:P279 wd:Q33813 ;
+	wdt:P305 "hmf" ;
+	wdt:P1627 "hmf" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q881 ;
+	wdt:P2341 wd:Q33379,
+		wd:Q36349,
+		wd:Q36015 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HMF> ;
+	rdfs:label "ภาษาม้งดอน"@th ;
+	skos:prefLabel "ภาษาม้งดอน"@th ;
+	schema:name "ภาษาม้งดอน"@th ;
+	rdfs:label "Kihmong-Don"@sw ;
+	skos:prefLabel "Kihmong-Don"@sw ;
+	schema:name "Kihmong-Don"@sw ;
+	rdfs:label "Lenga hmong don"@pms ;
+	skos:prefLabel "Lenga hmong don"@pms ;
+	schema:name "Lenga hmong don"@pms ;
+	rdfs:label "Hmong Don"@en ;
+	skos:prefLabel "Hmong Don"@en ;
+	schema:name "Hmong Don"@en ;
+	rdfs:label "Hmong Don"@en-gb ;
+	skos:prefLabel "Hmong Don"@en-gb ;
+	schema:name "Hmong Don"@en-gb ;
+	rdfs:label "hmong don"@fr ;
+	skos:prefLabel "hmong don"@fr ;
+	schema:name "hmong don"@fr ;
+	schema:description "Hmong-Mien language spoken in Vietnam"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"langue hmong-mien"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Hmong Don language"@en .
+
+wd:Q22911602 owl:sameAs wd:Q13018555 .

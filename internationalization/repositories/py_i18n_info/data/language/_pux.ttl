@@ -1,0 +1,159 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3507983 a schema:Dataset ;
+	schema:about wd:Q3507983 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960452330"^^xsd:integer ;
+	schema:dateModified "2023-08-24T21:01:05Z"^^xsd:dateTime .
+
+wd:Q3507983 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_puari> a schema:Article ;
+	schema:about wd:Q3507983 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga puari"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Puari_language> a schema:Article ;
+	schema:about wd:Q3507983 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Puari language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Puari_jezik> a schema:Article ;
+	schema:about wd:Q3507983 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Puari jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Pwarieg> a schema:Article ;
+	schema:about wd:Q3507983 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Pwarieg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Puare> a schema:Article ;
+	schema:about wd:Q3507983 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Puare"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kipuare> a schema:Article ;
+	schema:about wd:Q3507983 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kipuare"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Puari> a schema:Article ;
+	schema:about wd:Q3507983 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Puari"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_puare> a schema:Article ;
+	schema:about wd:Q3507983 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język puare"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3507983 wdt:P220 "pux" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pux> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "puar1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/puar1240> ;
+	wdt:P2355 "2698" ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P305 "pux" ;
+	wdt:P279 wd:Q953509 ;
+	wdt:P2192 "2647" ;
+	wdt:P1627 "pux" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q753689 ;
+	wdt:P646 "/m/02hxbcw" ;
+	rdfs:label "Lenga puari"@pms ;
+	skos:prefLabel "Lenga puari"@pms ;
+	schema:name "Lenga puari"@pms ;
+	rdfs:label "Puari"@en ;
+	skos:prefLabel "Puari"@en ;
+	schema:name "Puari"@en ;
+	rdfs:label "Puari jezik"@hr ;
+	skos:prefLabel "Puari jezik"@hr ;
+	schema:name "Puari jezik"@hr ;
+	rdfs:label "pwarieg"@br ;
+	skos:prefLabel "pwarieg"@br ;
+	schema:name "pwarieg"@br ;
+	rdfs:label "puare"@fr ;
+	skos:prefLabel "puare"@fr ;
+	schema:name "puare"@fr ;
+	rdfs:label "Kipuare"@sw ;
+	skos:prefLabel "Kipuare"@sw ;
+	schema:name "Kipuare"@sw ;
+	rdfs:label "Język puari"@pl ;
+	skos:prefLabel "Język puari"@pl ;
+	schema:name "Język puari"@pl ;
+	rdfs:label "Puari"@ilo ;
+	skos:prefLabel "Puari"@ilo ;
+	schema:name "Puari"@ilo ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"yezh"@br,
+		"langue sko"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Puare"@en,
+		"Puari language"@en .
+
+wd:Q11732591 owl:sameAs wd:Q3507983 .

@@ -1,0 +1,161 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56769 a schema:Dataset ;
+	schema:about wd:Q56769 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1745062387"^^xsd:integer ;
+	schema:dateModified "2022-10-07T10:49:11Z"^^xsd:dateTime .
+
+wd:Q56769 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Jiiddu> a schema:Article ;
+	schema:about wd:Q56769 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Jiiddu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Jiiddu_hizkuntza> a schema:Article ;
+	schema:about wd:Q56769 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Jiiddu hizkuntza"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Jiiddu> a schema:Article ;
+	schema:about wd:Q56769 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Jiiddu"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Jiiddu_language> a schema:Article ;
+	schema:about wd:Q56769 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Jiiddu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://se.wikipedia.org/wiki/Jiiddugiella> a schema:Article ;
+	schema:about wd:Q56769 ;
+	schema:inLanguage "se" ;
+	schema:isPartOf <https://se.wikipedia.org/> ;
+	schema:name "Jiiddugiella"@se .
+
+<https://se.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Djidoueg> a schema:Article ;
+	schema:about wd:Q56769 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Djidoueg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Jiiddu_jezik> a schema:Article ;
+	schema:about wd:Q56769 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Jiiddu jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://so.wikipedia.org/wiki/Af-Jiido> a schema:Article ;
+	schema:about wd:Q56769 ;
+	schema:inLanguage "so" ;
+	schema:isPartOf <https://so.wikipedia.org/> ;
+	schema:name "Af-Jiido"@so .
+
+<https://so.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56769 wdt:P220 "jii" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/jii> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "jiid1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/jiid1238> ;
+	wdt:P1014 "300388498" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388498> ;
+	wdt:P305 "jii" ;
+	wdt:P1627 "jii" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q1045 ;
+	wdt:P2341 wd:Q877028 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/JII> ;
+	wdt:P646 "/m/02hws5b" ;
+	wdt:P910 wd:Q105715450 ;
+	rdfs:label "Lenga Jiiddu"@pms ;
+	skos:prefLabel "Lenga Jiiddu"@pms ;
+	schema:name "Lenga Jiiddu"@pms ;
+	rdfs:label "djidoueg"@br ;
+	skos:prefLabel "djidoueg"@br ;
+	schema:name "djidoueg"@br ;
+	rdfs:label "Jiiddu hizkuntza"@eu ;
+	skos:prefLabel "Jiiddu hizkuntza"@eu ;
+	schema:name "Jiiddu hizkuntza"@eu ;
+	rdfs:label "Af-Jiido"@so ;
+	skos:prefLabel "Af-Jiido"@so ;
+	schema:name "Af-Jiido"@so ;
+	rdfs:label "Jiiddu"@en ;
+	skos:prefLabel "Jiiddu"@en ;
+	schema:name "Jiiddu"@en ;
+	rdfs:label "Jiiddu jezik"@hr ;
+	skos:prefLabel "Jiiddu jezik"@hr ;
+	schema:name "Jiiddu jezik"@hr ;
+	rdfs:label "Jiiddugiella"@se ;
+	skos:prefLabel "Jiiddugiella"@se ;
+	schema:name "Jiiddugiella"@se ;
+	rdfs:label "Jiiddu"@nl ;
+	skos:prefLabel "Jiiddu"@nl ;
+	schema:name "Jiiddu"@nl ;
+	rdfs:label "Jiiddu"@en-gb ;
+	skos:prefLabel "Jiiddu"@en-gb ;
+	schema:name "Jiiddu"@en-gb ;
+	rdfs:label "Wikang Jiiddu"@tl ;
+	skos:prefLabel "Wikang Jiiddu"@tl ;
+	schema:name "Wikang Jiiddu"@tl ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Af-Jiiddu"@en .

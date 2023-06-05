@@ -1,0 +1,161 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q1519764 a schema:Dataset ;
+	schema:about wd:Q1519764 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1916548857"^^xsd:integer ;
+	schema:dateModified "2023-06-16T12:21:52Z"^^xsd:dateTime .
+
+wd:Q1519764 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Medefaidrin> a schema:Article ;
+	schema:about wd:Q1519764 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Medefaidrin"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Medefaidrin> a schema:Article ;
+	schema:about wd:Q1519764 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Medefaidrin"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Medefajdrino> a schema:Article ;
+	schema:about wd:Q1519764 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Medefajdrino"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%8D%D1%80%D0%B8-%D0%9E%D0%BA%D0%B0%D0%B8%D0%BC%D1%8D> a schema:Article ;
+	schema:about wd:Q1519764 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Обэри-Окаимэ"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%87%E3%83%95%E3%82%A1%E3%82%A4%E3%83%89%E3%83%AA%E3%83%B3> a schema:Article ;
+	schema:about wd:Q1519764 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "メデファイドリン"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Medefidrin> a schema:Article ;
+	schema:about wd:Q1519764 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Medefidrin"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Medefaidrin> a schema:Article ;
+	schema:about wd:Q1519764 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Medefaidrin"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Medefaidrin> a schema:Article ;
+	schema:about wd:Q1519764 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Medefaidrin"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q1519764 wdt:P31 wd:Q33215,
+		wd:Q839470,
+		wd:Q34770 ;
+	wdt:P279 wd:Q61070 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P220 "dmf" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dmf> ;
+	wdt:P2671 "/g/121zvgp5" ;
+	wdtn:P2671 <http://g.co/kg/g/121zvgp5> ;
+	wdt:P305 "dmf" ;
+	wdt:P1394 "mede1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mede1238> ;
+	wdt:P973 <https://cals.info/language/medefaidrin/>,
+		<https://database.conlang.org/view/?conlang=383> ;
+	rdfs:label "Medefaidrin"@de ;
+	skos:prefLabel "Medefaidrin"@de ;
+	schema:name "Medefaidrin"@de ;
+	rdfs:label "Medefajdrino"@eo ;
+	skos:prefLabel "Medefajdrino"@eo ;
+	schema:name "Medefajdrino"@eo ;
+	rdfs:label "Medefaidrin"@en ;
+	skos:prefLabel "Medefaidrin"@en ;
+	schema:name "Medefaidrin"@en ;
+	rdfs:label "Μεντεφαϊντρίν"@el ;
+	skos:prefLabel "Μεντεφαϊντρίν"@el ;
+	schema:name "Μεντεφαϊντρίν"@el ;
+	rdfs:label "Обэри-Окаимэ"@ru ;
+	skos:prefLabel "Обэри-Окаимэ"@ru ;
+	schema:name "Обэри-Окаимэ"@ru ;
+	rdfs:label "メデファイドリン"@ja ;
+	skos:prefLabel "メデファイドリン"@ja ;
+	schema:name "メデファイドリン"@ja ;
+	rdfs:label "medefidrin"@fr ;
+	skos:prefLabel "medefidrin"@fr ;
+	schema:name "medefidrin"@fr ;
+	rdfs:label "梅德法伊德林文"@zh ;
+	skos:prefLabel "梅德法伊德林文"@zh ;
+	schema:name "梅德法伊德林文"@zh ;
+	rdfs:label "Medefaidrin"@vi ;
+	skos:prefLabel "Medefaidrin"@vi ;
+	schema:name "Medefaidrin"@vi ;
+	rdfs:label "Medefaidrin"@ig ;
+	skos:prefLabel "Medefaidrin"@ig ;
+	schema:name "Medefaidrin"@ig ;
+	schema:description "artificial language and script created for a Christian Ibibio congregation in the 1930s"@en,
+		"langue construite"@fr,
+		"yezh kalvezadel"@br,
+		"Asụsụ emereme emebere ndị òtù Kraịst n'oge 1930 gasi."@ig,
+		"Ngôn ngữ nhân tạo"@vi ;
+	skos:altLabel "Обери-окайме"@ru,
+		"Обэри окаимэ"@ru,
+		"Обэри Окаимэ"@ru,
+		"Obɛri ɔkaimɛ"@ru,
+		"Medefidrin"@en,
+		"Obɛri Ɔkaimɛ"@en .
+
+wd:Q4330593 owl:sameAs wd:Q1519764 .

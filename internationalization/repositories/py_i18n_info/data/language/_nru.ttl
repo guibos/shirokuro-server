@@ -1,0 +1,130 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q21658869 a schema:Dataset ;
+	schema:about wd:Q21658869 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1830333598"^^xsd:integer ;
+	schema:dateModified "2023-02-09T18:27:58Z"^^xsd:dateTime .
+
+wd:Q21658869 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Na_language> a schema:Article ;
+	schema:about wd:Q21658869 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Na language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%A8%E0%A4%BE_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q21658869 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "ना भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%91%A9%E6%A2%AD%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q21658869 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "摩梭语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Na_(langue)> a schema:Article ;
+	schema:about wd:Q21658869 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Na (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q21658869 wdt:P220 "nru" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nru> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "yong1270" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/yong1270> ;
+	wdt:P279 wd:Q6982999 ;
+	wdt:P305 "nru" ;
+	wdt:P1627 "nru" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q19770,
+		wd:Q43194 ;
+	wdt:P2671 "/g/11bwh5s_07" ;
+	wdtn:P2671 <http://g.co/kg/g/11bwh5s_07> ;
+	wdt:P2671 "/g/11h5rmp2l9" ;
+	wdtn:P2671 <http://g.co/kg/g/11h5rmp2l9> ;
+	wdt:P910 wd:Q105715762 ;
+	rdfs:label "na"@fr ;
+	skos:prefLabel "na"@fr ;
+	schema:name "na"@fr ;
+	rdfs:label "Narua"@en ;
+	skos:prefLabel "Narua"@en ;
+	schema:name "Narua"@en ;
+	rdfs:label "东部方言"@zh-hans ;
+	skos:prefLabel "东部方言"@zh-hans ;
+	schema:name "东部方言"@zh-hans ;
+	rdfs:label "東部方言"@zh-hant ;
+	skos:prefLabel "東部方言"@zh-hant ;
+	schema:name "東部方言"@zh-hant ;
+	rdfs:label "Narua"@en-gb ;
+	skos:prefLabel "Narua"@en-gb ;
+	schema:name "Narua"@en-gb ;
+	rdfs:label "ना भाषा"@hi ;
+	skos:prefLabel "ना भाषा"@hi ;
+	schema:name "ना भाषा"@hi ;
+	rdfs:label "摩梭语"@zh ;
+	skos:prefLabel "摩梭语"@zh ;
+	schema:name "摩梭语"@zh ;
+	schema:description "שפה"@he,
+		"langue na-qianguique"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"iaith"@cy,
+		"lingua"@la,
+		"चीन में बोली जाने वाली चीन तिब्बती भाषा"@hi ;
+	skos:altLabel "narua"@fr,
+		"Yongning Na"@en,
+		"Na"@en,
+		"Na language"@en .
+
+wd:Q31326429 owl:sameAs wd:Q21658869 .
+
+wd:Q65089922 owl:sameAs wd:Q21658869 .

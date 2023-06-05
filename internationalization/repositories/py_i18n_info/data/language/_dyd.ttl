@@ -1,0 +1,120 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3913785 a schema:Dataset ;
+	schema:about wd:Q3913785 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1565271405"^^xsd:integer ;
+	schema:dateModified "2022-01-20T11:13:29Z"^^xsd:dateTime .
+
+wd:Q3913785 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_dyugun> a schema:Article ;
+	schema:about wd:Q3913785 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga dyugun"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Dyugun> a schema:Article ;
+	schema:about wd:Q3913785 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Dyugun"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kidyugun> a schema:Article ;
+	schema:about wd:Q3913785 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kidyugun"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Djugun_dialect> a schema:Article ;
+	schema:about wd:Q3913785 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Djugun dialect"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3913785 wdt:P220 "dyd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dyd> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "dyug1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/dyug1238> ;
+	wdt:P1252 "K2" ;
+	wdt:P279 wd:Q2039408 ;
+	wdt:P305 "dyd" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P910 wd:Q63360737 ;
+	wdt:P1627 "dyd" ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3206 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DYD> ;
+	wdt:P646 "/m/0gz9r1" ;
+	wdt:P6915 "Djugun" ;
+	rdfs:label "Lenga dyugun"@pms ;
+	skos:prefLabel "Lenga dyugun"@pms ;
+	schema:name "Lenga dyugun"@pms ;
+	rdfs:label "Djugun"@en ;
+	skos:prefLabel "Djugun"@en ;
+	schema:name "Djugun"@en ;
+	rdfs:label "Dyugun"@sv ;
+	skos:prefLabel "Dyugun"@sv ;
+	schema:name "Dyugun"@sv ;
+	rdfs:label "dyugun"@fr ;
+	skos:prefLabel "dyugun"@fr ;
+	schema:name "dyugun"@fr ;
+	rdfs:label "Kidyugun"@sw ;
+	skos:prefLabel "Kidyugun"@sw ;
+	schema:name "Kidyugun"@sw ;
+	rdfs:label "デュグン語"@ja ;
+	skos:prefLabel "デュグン語"@ja ;
+	schema:name "デュグン語"@ja ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue nyulnyulan"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Dyugun"@en,
+		"Djugun language"@en .

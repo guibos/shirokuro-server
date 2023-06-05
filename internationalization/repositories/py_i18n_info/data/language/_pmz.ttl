@@ -1,0 +1,100 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3361765 a schema:Dataset ;
+	schema:about wd:Q3361765 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1827871715"^^xsd:integer ;
+	schema:dateModified "2023-02-06T17:51:33Z"^^xsd:dateTime .
+
+wd:Q3361765 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Pame_du_Sud> a schema:Article ;
+	schema:about wd:Q3361765 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Pame du Sud"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_pame_meridional> a schema:Article ;
+	schema:about wd:Q3361765 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga pame meridional"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Pameeg_ar_Su> a schema:Article ;
+	schema:about wd:Q3361765 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Pameeg ar Su"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3361765 wdt:P31 wd:Q45762,
+		wd:Q34770,
+		wd:Q38058796 ;
+	wdt:P305 "pmz" ;
+	wdt:P279 wd:Q3042994 ;
+	wdt:P220 "pmz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pmz> ;
+	wdt:P1394 "sout2999" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sout2999> ;
+	wdt:P1627 "pmz" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P17 wd:Q96 ;
+	wdt:P2341 wd:Q80903,
+		wd:Q82112 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PMZ> ;
+	wdt:P2671 "/g/1227jztl" ;
+	wdtn:P2671 <http://g.co/kg/g/1227jztl> ;
+	rdfs:label "pame du Sud"@fr ;
+	skos:prefLabel "pame du Sud"@fr ;
+	schema:name "pame du Sud"@fr ;
+	rdfs:label "pameeg ar Su"@br ;
+	skos:prefLabel "pameeg ar Su"@br ;
+	schema:name "pameeg ar Su"@br ;
+	rdfs:label "Lenga pame meridional"@pms ;
+	skos:prefLabel "Lenga pame meridional"@pms ;
+	schema:name "Lenga pame meridional"@pms ;
+	rdfs:label "Southern Pame"@en ;
+	skos:prefLabel "Southern Pame"@en ;
+	schema:name "Southern Pame"@en ;
+	rdfs:label "Southern Pame"@en-gb ;
+	skos:prefLabel "Southern Pame"@en-gb ;
+	schema:name "Southern Pame"@en-gb ;
+	rdfs:label "lõunapame keel"@et ;
+	skos:prefLabel "lõunapame keel"@et ;
+	schema:name "lõunapame keel"@et ;
+	schema:description "langue oto-mangue"@fr .

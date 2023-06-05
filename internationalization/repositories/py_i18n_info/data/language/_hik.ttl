@@ -1,0 +1,133 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7446989 a schema:Dataset ;
+	schema:about wd:Q7446989 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1727761568"^^xsd:integer ;
+	schema:dateModified "2022-09-13T10:22:30Z"^^xsd:dateTime .
+
+wd:Q7446989 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Seit-Kaitetu> a schema:Article ;
+	schema:about wd:Q7446989 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Seit-Kaitetu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Seit-Kaitetu> a schema:Article ;
+	schema:about wd:Q7446989 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Seit-Kaitetu"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiseit-Kaitetu> a schema:Article ;
+	schema:about wd:Q7446989 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiseit-Kaitetu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Seit-Kaitetu_language> a schema:Article ;
+	schema:about wd:Q7446989 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Seit-Kaitetu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_seit-kaitetu> a schema:Article ;
+	schema:about wd:Q7446989 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język seit-kaitetu"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7446989 wdt:P220 "hik" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hik> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "seit1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/seit1239> ;
+	wdt:P460 wd:Q25893645 ;
+	wdt:P305 "hik" ;
+	wdt:P1627 "hik" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2341 wd:Q5093 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HIK> ;
+	wdt:P646 "/m/02hwz6s" ;
+	wdt:P910 wd:Q105714495 ;
+	wdt:P4839 "Entity[\"Language\", \"SeitKaitetu::kx3rc\"]",
+		"Entity[\"Language\", \"SeitKaitetu\"]" ;
+	rdfs:label "Seit-Kaitetu"@en ;
+	skos:prefLabel "Seit-Kaitetu"@en ;
+	schema:name "Seit-Kaitetu"@en ;
+	rdfs:label "Lenga Seit-Kaitetu"@pms ;
+	skos:prefLabel "Lenga Seit-Kaitetu"@pms ;
+	schema:name "Lenga Seit-Kaitetu"@pms ;
+	rdfs:label "Kiseit-Kaitetu"@sw ;
+	skos:prefLabel "Kiseit-Kaitetu"@sw ;
+	schema:name "Kiseit-Kaitetu"@sw ;
+	rdfs:label "Seit-Kaitetu"@ilo ;
+	skos:prefLabel "Seit-Kaitetu"@ilo ;
+	schema:name "Seit-Kaitetu"@ilo ;
+	rdfs:label "Seit-Kaitetu"@en-gb ;
+	skos:prefLabel "Seit-Kaitetu"@en-gb ;
+	schema:name "Seit-Kaitetu"@en-gb ;
+	rdfs:label "Wikang Seit-Kaitetu"@tl ;
+	skos:prefLabel "Wikang Seit-Kaitetu"@tl ;
+	schema:name "Wikang Seit-Kaitetu"@tl ;
+	rdfs:label "język seit-kaitetu"@pl ;
+	skos:prefLabel "język seit-kaitetu"@pl ;
+	schema:name "język seit-kaitetu"@pl ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Indonesia"@ilo,
+		"שפה"@he,
+		"language of Indonesia"@en,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl ;
+	skos:altLabel "Seit-Kaitetu language"@en .
+
+wd:Q31441721 owl:sameAs wd:Q7446989 .

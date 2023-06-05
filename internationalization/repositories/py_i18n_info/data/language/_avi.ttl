@@ -1,0 +1,193 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q34840 a schema:Dataset ;
+	schema:about wd:Q34840 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1902835149"^^xsd:integer ;
+	schema:dateModified "2023-05-26T06:39:16Z"^^xsd:dateTime .
+
+wd:Q34840 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Avikam> a schema:Article ;
+	schema:about wd:Q34840 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Avikam"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Avikam_(langue)> a schema:Article ;
+	schema:about wd:Q34840 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Avikam (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Avikam> a schema:Article ;
+	schema:about wd:Q34840 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Avikam"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiavikam> a schema:Article ;
+	schema:about wd:Q34840 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiavikam"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Avikam_language> a schema:Article ;
+	schema:about wd:Q34840 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Avikam language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Avikam> a schema:Article ;
+	schema:about wd:Q34840 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Avikam"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Avikam_jezik> a schema:Article ;
+	schema:about wd:Q34840 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Avikam jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Avikam> a schema:Article ;
+	schema:about wd:Q34840 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Avikam"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Avikam> a schema:Article ;
+	schema:about wd:Q34840 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Avikam"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q34840 wdt:P305 "avi" ;
+	wdt:P220 "avi" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/avi> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0g0v8d" ;
+	wdt:P269 "073682357" ;
+	wdtn:P269 <http://www.idref.fr/073682357/id> ;
+	wdt:P279 wd:Q33430 ;
+	wdt:P244 "sh2003003548" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh2003003548> ;
+	wdt:P268 "14429738m" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb14429738m#about> ;
+	wdt:P1394 "avik1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/avik1243> ;
+	wdt:P1466 "avk" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_avk> ;
+	wdt:P2581 "03475007n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s03475007n> ;
+	wdt:P5198 "294899707" ;
+	wdt:P1627 "avi" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q1008 ;
+	wdt:P2341 wd:Q639491,
+		wd:Q21003640,
+		wd:Q20980365 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/AVI> ;
+	wdt:P910 wd:Q33673123 ;
+	wdt:P4839 "Entity[\"Language\", \"Avikam::97m88\"]",
+		"Entity[\"Language\", \"Avikam\"]" ;
+	wdt:P8189 "987007544786205171" ;
+	rdfs:label "Kiavikam"@sw ;
+	skos:prefLabel "Kiavikam"@sw ;
+	schema:name "Kiavikam"@sw ;
+	rdfs:label "Lenga Avikam"@pms ;
+	skos:prefLabel "Lenga Avikam"@pms ;
+	schema:name "Lenga Avikam"@pms ;
+	rdfs:label "Avikam"@de ;
+	skos:prefLabel "Avikam"@de ;
+	schema:name "Avikam"@de ;
+	rdfs:label "avikam"@fr ;
+	skos:prefLabel "avikam"@fr ;
+	schema:name "avikam"@fr ;
+	rdfs:label "Avikam"@en ;
+	skos:prefLabel "Avikam"@en ;
+	schema:name "Avikam"@en ;
+	rdfs:label "Avikam jezik"@hr ;
+	skos:prefLabel "Avikam jezik"@hr ;
+	schema:name "Avikam jezik"@hr ;
+	rdfs:label "avikam"@ca ;
+	skos:prefLabel "avikam"@ca ;
+	schema:name "avikam"@ca ;
+	rdfs:label "Avikam"@oc ;
+	skos:prefLabel "Avikam"@oc ;
+	schema:name "Avikam"@oc ;
+	rdfs:label "Avikam"@en-gb ;
+	skos:prefLabel "Avikam"@en-gb ;
+	schema:name "Avikam"@en-gb ;
+	rdfs:label "avikami keel"@et ;
+	skos:prefLabel "avikami keel"@et ;
+	schema:name "avikami keel"@et ;
+	rdfs:label "Wikang Avikam"@tl ;
+	skos:prefLabel "Wikang Avikam"@tl ;
+	schema:name "Wikang Avikam"@tl ;
+	rdfs:label "アヴィカム語"@ja ;
+	skos:prefLabel "アヴィカム語"@ja ;
+	schema:name "アヴィカム語"@ja ;
+	rdfs:label "Asụsụ Avikam"@ig ;
+	skos:prefLabel "Asụsụ Avikam"@ig ;
+	schema:name "Asụsụ Avikam"@ig ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Avikam language"@en .

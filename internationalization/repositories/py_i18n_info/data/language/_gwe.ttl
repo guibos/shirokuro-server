@@ -1,0 +1,142 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3358211 a schema:Dataset ;
+	schema:about wd:Q3358211 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1823396497"^^xsd:integer ;
+	schema:dateModified "2023-01-31T15:10:25Z"^^xsd:dateTime .
+
+wd:Q3358211 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Gweno> a schema:Article ;
+	schema:about wd:Q3358211 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Gweno"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigweno> a schema:Article ;
+	schema:about wd:Q3358211 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigweno"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Gweno_language> a schema:Article ;
+	schema:about wd:Q3358211 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Gweno language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Gweno> a schema:Article ;
+	schema:about wd:Q3358211 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Gweno"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Gweno> a schema:Article ;
+	schema:about wd:Q3358211 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Gweno"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3358211 wdt:P220 "gwe" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gwe> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P2161 "E.65" ;
+	wdt:P279 wd:Q116520585 ;
+	wdt:P2355 "115" ;
+	wdt:P1394 "gwen1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gwen1239> ;
+	wdt:P2581 "03510436n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s03510436n> ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P910 wd:Q33075252 ;
+	wdt:P2192 "4254" ;
+	wdt:P305 "gwe" ;
+	wdt:P1627 "gwe" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P17 wd:Q924 ;
+	wdt:P2341 wd:Q328922 ;
+	wdt:P1245 "716843" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GWE> ;
+	wdt:P646 "/m/02hwgzl" ;
+	rdfs:label "Wagweno"@sw ;
+	skos:prefLabel "Wagweno"@sw ;
+	schema:name "Wagweno"@sw ;
+	rdfs:label "Gvenoj"@eo ;
+	skos:prefLabel "Gvenoj"@eo ;
+	schema:name "Gvenoj"@eo ;
+	rdfs:label "Gweno"@en ;
+	skos:prefLabel "Gweno"@en ;
+	schema:name "Gweno"@en ;
+	rdfs:label "Gweno"@nb ;
+	skos:prefLabel "Gweno"@nb ;
+	schema:name "Gweno"@nb ;
+	rdfs:label "Lenga Gweno"@pms ;
+	skos:prefLabel "Lenga Gweno"@pms ;
+	schema:name "Lenga Gweno"@pms ;
+	rdfs:label "グウェノ語"@ja ;
+	skos:prefLabel "グウェノ語"@ja ;
+	schema:name "グウェノ語"@ja ;
+	rdfs:label "Gweno"@en-gb ;
+	skos:prefLabel "Gweno"@en-gb ;
+	schema:name "Gweno"@en-gb ;
+	rdfs:label "gweno"@fr ;
+	skos:prefLabel "gweno"@fr ;
+	schema:name "gweno"@fr ;
+	rdfs:label "Wikang Gweno"@tl ;
+	skos:prefLabel "Wikang Gweno"@tl ;
+	schema:name "Wikang Gweno"@tl ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue bantoue"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Gweno language"@en .
+
+wd:Q10973218 owl:sameAs wd:Q3358211 .

@@ -1,0 +1,120 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12952805 a schema:Dataset ;
+	schema:about wd:Q12952805 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1412091252"^^xsd:integer ;
+	schema:dateModified "2021-05-01T04:24:37Z"^^xsd:dateTime .
+
+wd:Q12952805 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Maria,_Dandami> a schema:Article ;
+	schema:about wd:Q12952805 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Maria, Dandami"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%A4%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AE%BE%E0%AE%AE%E0%AE%BF_%E0%AE%AE%E0%AE%BE%E0%AE%B0%E0%AE%BF%E0%AE%AF%E0%AE%BE_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF> a schema:Article ;
+	schema:about wd:Q12952805 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "தந்தாமி மாரியா மொழி"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Dandami_maria> a schema:Article ;
+	schema:about wd:Q12952805 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Dandami maria"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimaria_cha_Dandami> a schema:Article ;
+	schema:about wd:Q12952805 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimaria cha Dandami"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12952805 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "daq" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/daq> ;
+	wdt:P1394 "dand1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/dand1238> ;
+	wdt:P305 "daq" ;
+	wdt:P1627 "daq" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1159,
+		wd:Q1168,
+		wd:Q1191,
+		wd:Q677037 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DAQ> ;
+	wdt:P910 wd:Q105715639 ;
+	wdt:P646 "/m/02hwjb0" ;
+	rdfs:label "Lenga Maria, Dandami"@pms ;
+	skos:prefLabel "Lenga Maria, Dandami"@pms ;
+	schema:name "Lenga Maria, Dandami"@pms ;
+	rdfs:label "தந்தாமி மாரியா மொழி"@ta ;
+	skos:prefLabel "தந்தாமி மாரியா மொழி"@ta ;
+	schema:name "தந்தாமி மாரியா மொழி"@ta ;
+	rdfs:label "Dandami maria"@fi ;
+	skos:prefLabel "Dandami maria"@fi ;
+	schema:name "Dandami maria"@fi ;
+	rdfs:label "Dandami Maria"@en ;
+	skos:prefLabel "Dandami Maria"@en ;
+	schema:name "Dandami Maria"@en ;
+	rdfs:label "Kimaria ya Dandami"@sw ;
+	skos:prefLabel "Kimaria ya Dandami"@sw ;
+	schema:name "Kimaria ya Dandami"@sw ;
+	rdfs:label "Dandami Maria"@en-gb ;
+	skos:prefLabel "Dandami Maria"@en-gb ;
+	schema:name "Dandami Maria"@en-gb ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la,
+		"ভারতের ভাষা"@bn .
+
+wd:Q16310952 owl:sameAs wd:Q12952805 .

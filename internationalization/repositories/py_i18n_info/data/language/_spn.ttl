@@ -1,0 +1,138 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3033556 a schema:Dataset ;
+	schema:about wd:Q3033556 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960637116"^^xsd:integer ;
+	schema:dateModified "2023-08-25T01:39:17Z"^^xsd:dateTime .
+
+wd:Q3033556 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Sanapan%C3%A1> a schema:Article ;
+	schema:about wd:Q3033556 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Sanapaná"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_sanapan%C3%A1> a schema:Article ;
+	schema:about wd:Q3033556 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga sanapaná"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BD%D0%B0%D0%BF%D0%B0%D0%BD%D0%B0_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q3033556 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Санапана (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sanapan%C3%A1_language> a schema:Article ;
+	schema:about wd:Q3033556 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sanapaná language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Sanapan%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q3033556 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Sanapanų kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3033556 wdt:P220 "sap" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/sap> ;
+	wdt:P220 "spn" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/spn> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0gtycv8" ;
+	wdt:P305 "spn" ;
+	wdt:P279 wd:Q1906952 ;
+	wdt:P1394 "nucl1655" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nucl1655> ;
+	wdt:P2355 "2053" ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P910 wd:Q33659083 ;
+	wdt:P2192 "2752" ;
+	wdt:P1627 "spn" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q733 ;
+	wdt:P2341 wd:Q750551,
+		wd:Q682642,
+		wd:Q741017 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SAP> ;
+	rdfs:label "Lenga sanapaná"@pms ;
+	skos:prefLabel "Lenga sanapaná"@pms ;
+	schema:name "Lenga sanapaná"@pms ;
+	rdfs:label "sanapaná"@fr ;
+	skos:prefLabel "sanapaná"@fr ;
+	schema:name "sanapaná"@fr ;
+	rdfs:label "Sanapaná"@en ;
+	skos:prefLabel "Sanapaná"@en ;
+	schema:name "Sanapaná"@en ;
+	rdfs:label "Sanapanų kalba"@lt ;
+	skos:prefLabel "Sanapanų kalba"@lt ;
+	schema:name "Sanapanų kalba"@lt ;
+	rdfs:label "Санапана"@ru ;
+	skos:prefLabel "Санапана"@ru ;
+	schema:name "Санапана"@ru ;
+	rdfs:label "Sanapaná"@en-gb ;
+	skos:prefLabel "Sanapaná"@en-gb ;
+	schema:name "Sanapaná"@en-gb ;
+	rdfs:label "Sanapaná"@de ;
+	skos:prefLabel "Sanapaná"@de ;
+	schema:name "Sanapaná"@de ;
+	rdfs:label "Wikang Sanapaná"@tl ;
+	skos:prefLabel "Wikang Sanapaná"@tl ;
+	schema:name "Wikang Sanapaná"@tl ;
+	schema:description "Sprache in Paraguay"@de,
+		"שפה"@he,
+		"langue lengua-mascoy"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language in Paraguay"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy .
+
+wd:Q61095995 owl:sameAs wd:Q3033556 .

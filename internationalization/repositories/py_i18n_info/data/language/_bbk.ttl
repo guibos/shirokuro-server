@@ -1,0 +1,177 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q34790 a schema:Dataset ;
+	schema:about wd:Q34790 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1835722640"^^xsd:integer ;
+	schema:dateModified "2023-02-17T13:23:11Z"^^xsd:dateTime .
+
+wd:Q34790 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Babanki> a schema:Article ;
+	schema:about wd:Q34790 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Babanki"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B1%D0%B0%D0%BD%D0%BA%D0%B8_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q34790 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Бабанки (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibabanki> a schema:Article ;
+	schema:about wd:Q34790 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibabanki"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Babanki_language> a schema:Article ;
+	schema:about wd:Q34790 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Babanki language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Babanki> a schema:Article ;
+	schema:about wd:Q34790 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Babanki"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Babanki_(jezik)> a schema:Article ;
+	schema:about wd:Q34790 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Babanki (jezik)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Kejom> a schema:Article ;
+	schema:about wd:Q34790 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kejom"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Babanki_tili> a schema:Article ;
+	schema:about wd:Q34790 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Babanki tili"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q34790 wdt:P279 wd:Q750932 ;
+	wdt:P220 "bbk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bbk> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0j622hv",
+		"/m/02hxcv4" ;
+	wdt:P1394 "baba1266" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/baba1266> ;
+	wdt:P268 "16704406b" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb16704406b#about> ;
+	wdt:P244 "sh2011001328" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh2011001328> ;
+	wdt:P305 "bbk" ;
+	wdt:P1627 "bbk" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q1009 ;
+	wdt:P2341 wd:Q502341,
+		wd:Q165784 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BBK> ;
+	wdt:P910 wd:Q33657508 ;
+	wdt:P2192 "10899" ;
+	wdt:P8189 "987007595460705171" ;
+	rdfs:label "Kibabanki"@sw ;
+	skos:prefLabel "Kibabanki"@sw ;
+	schema:name "Kibabanki"@sw ;
+	rdfs:label "Babanki"@de ;
+	skos:prefLabel "Babanki"@de ;
+	schema:name "Babanki"@de ;
+	rdfs:label "Lenga Babanki"@pms ;
+	skos:prefLabel "Lenga Babanki"@pms ;
+	schema:name "Lenga Babanki"@pms ;
+	rdfs:label "Babanki"@hr ;
+	skos:prefLabel "Babanki"@hr ;
+	schema:name "Babanki"@hr ;
+	rdfs:label "babanki"@ca ;
+	skos:prefLabel "babanki"@ca ;
+	schema:name "babanki"@ca ;
+	rdfs:label "Babanki"@oc ;
+	skos:prefLabel "Babanki"@oc ;
+	schema:name "Babanki"@oc ;
+	rdfs:label "Babanki"@en ;
+	skos:prefLabel "Babanki"@en ;
+	schema:name "Babanki"@en ;
+	rdfs:label "Бабанки"@ru ;
+	skos:prefLabel "Бабанки"@ru ;
+	schema:name "Бабанки"@ru ;
+	rdfs:label "babanki"@fr ;
+	skos:prefLabel "babanki"@fr ;
+	schema:name "babanki"@fr ;
+	rdfs:label "Babanki"@en-gb ;
+	skos:prefLabel "Babanki"@en-gb ;
+	schema:name "Babanki"@en-gb ;
+	rdfs:label "Babanki tili"@uz ;
+	skos:prefLabel "Babanki tili"@uz ;
+	schema:name "Babanki tili"@uz ;
+	schema:description "Grassfields Bantu language of Cameroon"@en,
+		"Sprache"@de,
+		"taal"@nl,
+		"langue des Grassfields"@fr,
+		"שפה"@he,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"llengua Grassfields del Camerun"@ca ;
+	skos:altLabel "Babanki language"@en,
+		"kedjom"@ca,
+		"kejeng"@ca,
+		"kejom"@ca,
+		"kidzem"@ca,
+		"kidzom"@ca .

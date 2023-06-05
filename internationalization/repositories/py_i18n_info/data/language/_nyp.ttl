@@ -1,0 +1,142 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7070894 a schema:Dataset ;
+	schema:about wd:Q7070894 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1727761562"^^xsd:integer ;
+	schema:dateModified "2022-09-13T10:22:30Z"^^xsd:dateTime .
+
+wd:Q7070894 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Nyang%27i> a schema:Article ;
+	schema:about wd:Q7070894 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Nyang'i"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinyang%27i> a schema:Article ;
+	schema:about wd:Q7070894 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinyang'i"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nyang%27i_language> a schema:Article ;
+	schema:about wd:Q7070894 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nyang'i language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Nyangieg> a schema:Article ;
+	schema:about wd:Q7070894 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Nyangieg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7070894 wdt:P220 "nyp" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nyp> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "nyan1313" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nyan1313> ;
+	wdt:P2355 "105" ;
+	wdt:P1466 "nyg" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_nyg> ;
+	wdt:P1417 "topic/Nyangi-languages" ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P4839 "Entity[\"Language\", \"Nyangi::3f685\"]",
+		"Entity[\"Language\", \"Nyangi\"]" ;
+	wdt:P305 "nyp" ;
+	wdt:P279 wd:Q1791476 ;
+	wdt:P910 wd:Q36163615 ;
+	wdt:P2192 "5805" ;
+	wdt:P1627 "nyp" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P17 wd:Q1036 ;
+	wdt:P2341 wd:Q1318822,
+		wd:Q1229881 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NYP> ;
+	wdt:P646 "/m/02hxk9f" ;
+	rdfs:label "Nyangia"@en ;
+	skos:prefLabel "Nyangia"@en ;
+	schema:name "Nyangia"@en ;
+	rdfs:label "Kinyang'i"@sw ;
+	skos:prefLabel "Kinyang'i"@sw ;
+	schema:name "Kinyang'i"@sw ;
+	rdfs:label "Lenga Nyang'i"@pms ;
+	skos:prefLabel "Lenga Nyang'i"@pms ;
+	schema:name "Lenga Nyang'i"@pms ;
+	rdfs:label "nyangieg"@br ;
+	skos:prefLabel "nyangieg"@br ;
+	schema:name "nyangieg"@br ;
+	rdfs:label "Wikang Nyangia"@tl ;
+	skos:prefLabel "Wikang Nyangia"@tl ;
+	schema:name "Wikang Nyangia"@tl ;
+	rdfs:label "ニャンギ語"@ja ;
+	skos:prefLabel "ニャンギ語"@ja ;
+	schema:name "ニャンギ語"@ja ;
+	rdfs:label "nyang'i"@fr ;
+	skos:prefLabel "nyang'i"@fr ;
+	schema:name "nyang'i"@fr ;
+	schema:description "Sprache"@de,
+		"nearly extinct Kuliak language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue kuliak"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kinyang'i (lugha)"@sw,
+		"Nyang'i"@en,
+		"Gyangiya"@en,
+		"Ngangea"@en,
+		"Ngiangeya"@en,
+		"Nuangeya"@en,
+		"Nyangeya"@en,
+		"Nyangiya"@en,
+		"Nyuangia"@en,
+		"Poren"@en,
+		"Ngapore"@en,
+		"Niporen"@en,
+		"Nipori"@en,
+		"Upale"@en .

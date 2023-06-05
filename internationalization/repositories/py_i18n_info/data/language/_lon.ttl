@@ -1,0 +1,137 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10975286 a schema:Dataset ;
+	schema:about wd:Q10975286 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1875347476"^^xsd:integer ;
+	schema:dateModified "2023-04-15T02:49:25Z"^^xsd:dateTime .
+
+wd:Q10975286 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_lomwe,_Malawi> a schema:Article ;
+	schema:about wd:Q10975286 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga lomwe, Malawi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilomwe_cha_Malawi> a schema:Article ;
+	schema:about wd:Q10975286 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilomwe cha Malawi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Malawi_Lomwe_language> a schema:Article ;
+	schema:about wd:Q10975286 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Malawi Lomwe language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Lomwe_de_Malawi> a schema:Article ;
+	schema:about wd:Q10975286 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Lomwe de Malawi"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Malawisk%C3%A9_lomwe> a schema:Article ;
+	schema:about wd:Q10975286 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Malawiské lomwe"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10975286 wdt:P220 "lon" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lon> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "mala1256" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mala1256> ;
+	wdt:P305 "lon" ;
+	wdt:P1627 "lon" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1020 ;
+	wdt:P2341 wd:Q1059262,
+		wd:Q198585,
+		wd:Q509097,
+		wd:Q538991,
+		wd:Q722515,
+		wd:Q1058442 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LON> ;
+	wdt:P646 "/m/05sx6xm" ;
+	wdt:P279 wd:Q6740431 ;
+	wdt:P2161 "P.331" ;
+	rdfs:label "Malawi Lomwe"@en ;
+	skos:prefLabel "Malawi Lomwe"@en ;
+	schema:name "Malawi Lomwe"@en ;
+	rdfs:label "Kilomwe cha Malawi"@sw ;
+	skos:prefLabel "Kilomwe cha Malawi"@sw ;
+	schema:name "Kilomwe cha Malawi"@sw ;
+	rdfs:label "Lenga lomwe, Malawi"@pms ;
+	skos:prefLabel "Lenga lomwe, Malawi"@pms ;
+	schema:name "Lenga lomwe, Malawi"@pms ;
+	rdfs:label "マラウイ・ロムウェ語"@ja ;
+	skos:prefLabel "マラウイ・ロムウェ語"@ja ;
+	schema:name "マラウイ・ロムウェ語"@ja ;
+	rdfs:label "Malawi Lomwe"@en-gb ;
+	skos:prefLabel "Malawi Lomwe"@en-gb ;
+	schema:name "Malawi Lomwe"@en-gb ;
+	rdfs:label "Malawiské lomwe"@cs ;
+	skos:prefLabel "Malawiské lomwe"@cs ;
+	schema:name "Malawiské lomwe"@cs ;
+	rdfs:label "Lomwe de Malawi"@oc ;
+	skos:prefLabel "Lomwe de Malawi"@oc ;
+	schema:name "Lomwe de Malawi"@oc ;
+	rdfs:label "Малаві Ломвэ"@be-tarask ;
+	skos:prefLabel "Малаві Ломвэ"@be-tarask ;
+	schema:name "Малаві Ломвэ"@be-tarask ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"smíšený jazyk"@cs,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"мова"@be-tarask ;
+	skos:altLabel "Malawi Lomwe language"@en .

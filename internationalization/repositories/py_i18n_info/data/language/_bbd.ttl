@@ -1,0 +1,137 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4873415 a schema:Dataset ;
+	schema:about wd:Q4873415 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1727761452"^^xsd:integer ;
+	schema:dateModified "2022-09-13T10:22:21Z"^^xsd:dateTime .
+
+wd:Q4873415 a wikibase:Item .
+
+<https://hr.wikipedia.org/wiki/Bau_jezik> a schema:Article ;
+	schema:about wd:Q4873415 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Bau jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Bau_language_(New_Guinea)> a schema:Article ;
+	schema:about wd:Q4873415 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Bau language (New Guinea)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibau> a schema:Article ;
+	schema:about wd:Q4873415 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibau"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Bau> a schema:Article ;
+	schema:about wd:Q4873415 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Bau"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Bau_(Baro_a_Guinea)> a schema:Article ;
+	schema:about wd:Q4873415 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Bau (Baro a Guinea)"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4873415 wdt:P220 "bbd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bbd> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "bauu1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/bauu1244> ;
+	wdt:P1466 "bau" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_bau> ;
+	wdt:P305 "bbd" ;
+	wdt:P1627 "bbd" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q326254 ;
+	wdt:P1889 wd:Q3508025 ;
+	wdt:P646 "/m/02hxg02" ;
+	wdt:P910 wd:Q33659623 ;
+	wdt:P4839 "Entity[\"Language\", \"Bau::64d49\"]",
+		"Entity[\"Language\", \"Bau\"]" ;
+	rdfs:label "Bau jezik"@hr ;
+	skos:prefLabel "Bau jezik"@hr ;
+	schema:name "Bau jezik"@hr ;
+	rdfs:label "Bau"@en ;
+	skos:prefLabel "Bau"@en ;
+	schema:name "Bau"@en ;
+	rdfs:label "Kibau"@sw ;
+	skos:prefLabel "Kibau"@sw ;
+	schema:name "Kibau"@sw ;
+	rdfs:label "Lenga Bau"@pms ;
+	skos:prefLabel "Lenga Bau"@pms ;
+	schema:name "Lenga Bau"@pms ;
+	rdfs:label "Język bau"@pl ;
+	skos:prefLabel "Język bau"@pl ;
+	schema:name "Język bau"@pl ;
+	rdfs:label "Bau"@ilo ;
+	skos:prefLabel "Bau"@ilo ;
+	schema:name "Bau"@ilo ;
+	rdfs:label "Bau"@en-gb ;
+	skos:prefLabel "Bau"@en-gb ;
+	schema:name "Bau"@en-gb ;
+	rdfs:label "bau keel"@et ;
+	skos:prefLabel "bau keel"@et ;
+	schema:name "bau keel"@et ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"Paapua keel"@et,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Bau language"@en .
+
+wd:Q11732087 owl:sameAs wd:Q4873415 .

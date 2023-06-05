@@ -1,0 +1,115 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3913929 a schema:Dataset ;
+	schema:about wd:Q3913929 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1820313582"^^xsd:integer ;
+	schema:dateModified "2023-01-27T11:02:34Z"^^xsd:dateTime .
+
+wd:Q3913929 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Shuwa-Zamani> a schema:Article ;
+	schema:about wd:Q3913929 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Shuwa-Zamani"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kishuwa-Zamani> a schema:Article ;
+	schema:about wd:Q3913929 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kishuwa-Zamani"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Shuwa-Zamani_language> a schema:Article ;
+	schema:about wd:Q3913929 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Shuwa-Zamani language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ha.wikipedia.org/wiki/Shuwa-Zamani> a schema:Article ;
+	schema:about wd:Q3913929 ;
+	schema:inLanguage "ha" ;
+	schema:isPartOf <https://ha.wikipedia.org/> ;
+	schema:name "Shuwa-Zamani"@ha .
+
+<https://ha.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3913929 wdt:P220 "ksa" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ksa> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "shuw1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/shuw1238> ;
+	wdt:P305 "ksa" ;
+	wdt:P1627 "ksa" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q509300,
+		wd:Q878284 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KSA> ;
+	wdt:P279 wd:Q681495 ;
+	wdt:P646 "/m/02hxxq1" ;
+	wdt:P527 wd:Q116450535,
+		wd:Q116450533 ;
+	rdfs:label "Kishuwa-Zamani"@sw ;
+	skos:prefLabel "Kishuwa-Zamani"@sw ;
+	schema:name "Kishuwa-Zamani"@sw ;
+	rdfs:label "Lenga Shuwa-Zamani"@pms ;
+	skos:prefLabel "Lenga Shuwa-Zamani"@pms ;
+	schema:name "Lenga Shuwa-Zamani"@pms ;
+	rdfs:label "Shuwa-Zamani"@en ;
+	skos:prefLabel "Shuwa-Zamani"@en ;
+	schema:name "Shuwa-Zamani"@en ;
+	rdfs:label "Shuwa-Zamani"@en-gb ;
+	skos:prefLabel "Shuwa-Zamani"@en-gb ;
+	schema:name "Shuwa-Zamani"@en-gb ;
+	rdfs:label "Shuwa-Zamani"@ha ;
+	skos:prefLabel "Shuwa-Zamani"@ha ;
+	schema:name "Shuwa-Zamani"@ha ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Shuwa-Zamani language"@en .

@@ -1,0 +1,155 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33402 a schema:Dataset ;
+	schema:about wd:Q33402 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616008061"^^xsd:integer ;
+	schema:dateModified "2022-04-10T14:02:16Z"^^xsd:dateTime .
+
+wd:Q33402 a wikibase:Item .
+
+<https://tl.wikipedia.org/wiki/Wikang_Luwati> a schema:Article ;
+	schema:about wd:Q33402 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Luwati"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D9%84%D9%88%D8%A7%D8%AA%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q33402 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "اللغة اللواتية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Luwati_language> a schema:Article ;
+	schema:about wd:Q33402 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Luwati language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%B2%E0%A7%81%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%A4%E0%A6%BF_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q33402 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "লুয়েতি ভাষা"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Luvatski_jezik> a schema:Article ;
+	schema:about wd:Q33402 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Luvatski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Luwati> a schema:Article ;
+	schema:about wd:Q33402 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Luwati"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33402 wdt:P220 "luv" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/luv> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "luwa1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/luwa1238> ;
+	wdt:P2355 "2068" ;
+	wdt:P1014 "300388752" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388752> ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P305 "luv" ;
+	wdt:P279 wd:Q7522212 ;
+	wdt:P910 wd:Q36161470 ;
+	wdt:P2192 "4540" ;
+	wdt:P1627 "luv" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q842 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LUV> ;
+	wdt:P646 "/m/02hx747" ;
+	rdfs:label "Luwati"@en ;
+	skos:prefLabel "Luwati"@en ;
+	schema:name "Luwati"@en ;
+	rdfs:label "Luvatski jezik"@hr ;
+	skos:prefLabel "Luvatski jezik"@hr ;
+	schema:name "Luvatski jezik"@hr ;
+	rdfs:label "lingua Luwati"@it ;
+	skos:prefLabel "lingua Luwati"@it ;
+	schema:name "lingua Luwati"@it ;
+	rdfs:label "Luwati"@en-gb ;
+	skos:prefLabel "Luwati"@en-gb ;
+	schema:name "Luwati"@en-gb ;
+	rdfs:label "Wikang Luwati"@tl ;
+	skos:prefLabel "Wikang Luwati"@tl ;
+	schema:name "Wikang Luwati"@tl ;
+	rdfs:label "لغة لواتية"@ar ;
+	skos:prefLabel "لغة لواتية"@ar ;
+	schema:name "لغة لواتية"@ar ;
+	rdfs:label "লুয়েতি ভাষা"@bn ;
+	skos:prefLabel "লুয়েতি ভাষা"@bn ;
+	schema:name "লুয়েতি ভাষা"@bn ;
+	rdfs:label "luwati"@fr ;
+	skos:prefLabel "luwati"@fr ;
+	schema:name "luwati"@fr ;
+	rdfs:label "Luwati"@de ;
+	skos:prefLabel "Luwati"@de ;
+	schema:name "Luwati"@de ;
+	rdfs:label "Luwati"@sv ;
+	skos:prefLabel "Luwati"@sv ;
+	schema:name "Luwati"@sv ;
+	rdfs:label "luwati"@vec ;
+	skos:prefLabel "luwati"@vec ;
+	schema:name "luwati"@vec ;
+	schema:description "lingua parlata indo iraniana"@it,
+		"indo-arische Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue indo-aryenne"@fr,
+		"lengua"@es,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"একটি ভাষা"@bn ;
+	skos:altLabel "Luwati jezik"@hr,
+		"Luwati language"@en .
+
+wd:Q31442849 owl:sameAs wd:Q33402 .

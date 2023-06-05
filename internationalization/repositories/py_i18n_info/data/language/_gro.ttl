@@ -1,0 +1,182 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56551 a schema:Dataset ;
+	schema:about wd:Q56551 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1785787386"^^xsd:integer ;
+	schema:dateModified "2022-12-07T00:07:58Z"^^xsd:dateTime .
+
+wd:Q56551 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Groma> a schema:Article ;
+	schema:about wd:Q56551 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Groma"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Groma> a schema:Article ;
+	schema:about wd:Q56551 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Groma"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%BE%D0%BC%D0%B0_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q56551 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Грома (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Groma> a schema:Article ;
+	schema:about wd:Q56551 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Groma"@tl ;
+	wikibase:badge wd:Q70893996 .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D2%90%D1%80%D0%BE%D0%BC%D0%B0_(%D0%BC%D0%BE%D0%B2%D0%B0)> a schema:Article ;
+	schema:about wd:Q56551 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Ґрома (мова)"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigroma> a schema:Article ;
+	schema:about wd:Q56551 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigroma"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Groma_language> a schema:Article ;
+	schema:about wd:Q56551 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Groma language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Gromeg> a schema:Article ;
+	schema:about wd:Q56551 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Gromeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56551 wdt:P220 "gro" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gro> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/095g8m" ;
+	wdt:P305 "gro" ;
+	wdt:P279 wd:Q16112877 ;
+	wdt:P1394 "grom1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/grom1238> ;
+	wdt:P2581 "02678141n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s02678141n> ;
+	wdt:P1627 "gro" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q148,
+		wd:Q668 ;
+	wdt:P2341 wd:Q1505 ;
+	wdt:P1245 "715570" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GRO> ;
+	rdfs:label "Lenga Groma"@pms ;
+	skos:prefLabel "Lenga Groma"@pms ;
+	schema:name "Lenga Groma"@pms ;
+	rdfs:label "gromeg"@br ;
+	skos:prefLabel "gromeg"@br ;
+	schema:name "gromeg"@br ;
+	rdfs:label "groma"@fr ;
+	skos:prefLabel "groma"@fr ;
+	schema:name "groma"@fr ;
+	rdfs:label "Грома"@ru ;
+	skos:prefLabel "Грома"@ru ;
+	schema:name "Грома"@ru ;
+	rdfs:label "Groma"@en ;
+	skos:prefLabel "Groma"@en ;
+	schema:name "Groma"@en ;
+	rdfs:label "Ґрома"@uk ;
+	skos:prefLabel "Ґрома"@uk ;
+	schema:name "Ґрома"@uk ;
+	rdfs:label "Groma"@de ;
+	skos:prefLabel "Groma"@de ;
+	schema:name "Groma"@de ;
+	rdfs:label "Kigroma"@sw ;
+	skos:prefLabel "Kigroma"@sw ;
+	schema:name "Kigroma"@sw ;
+	rdfs:label "Groma"@en-gb ;
+	skos:prefLabel "Groma"@en-gb ;
+	schema:name "Groma"@en-gb ;
+	rdfs:label "Wikang Groma"@tl ;
+	skos:prefLabel "Wikang Groma"@tl ;
+	schema:name "Wikang Groma"@tl ;
+	rdfs:label "గోమా"@te ;
+	skos:prefLabel "గోమా"@te ;
+	schema:name "గోమా"@te ;
+	rdfs:label "ਗ੍ਰੋਮਾ"@pa ;
+	skos:prefLabel "ਗ੍ਰੋਮਾ"@pa ;
+	schema:name "ਗ੍ਰੋਮਾ"@pa ;
+	rdfs:label "亚东藏语"@zh ;
+	skos:prefLabel "亚东藏语"@zh ;
+	schema:name "亚东藏语"@zh ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"గోమా భాష"@te,
+		"ਭਾਸ਼ਾ"@pa,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ভারতের ভাষা"@bn ;
+	skos:altLabel "Грома"@uk,
+		"Groma language"@en,
+		"Tromo"@de,
+		"Tromowa"@de,
+		"ਗ੍ਰੋਮਾ ਭਾਸ਼ਾ"@pa .
+
+wd:Q31442652 owl:sameAs wd:Q56551 .

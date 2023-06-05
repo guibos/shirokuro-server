@@ -1,0 +1,168 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q578815 a schema:Dataset ;
+	schema:about wd:Q578815 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912456394"^^xsd:integer ;
+	schema:dateModified "2023-06-10T18:33:55Z"^^xsd:dateTime .
+
+wd:Q578815 a wikibase:Item .
+
+<https://nl.wikipedia.org/wiki/Mamboru> a schema:Article ;
+	schema:about wd:Q578815 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Mamboru"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mamboru> a schema:Article ;
+	schema:about wd:Q578815 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mamboru"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Mamboru> a schema:Article ;
+	schema:about wd:Q578815 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Mamboru"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimamboru> a schema:Article ;
+	schema:about wd:Q578815 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimamboru"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mamboru_language> a schema:Article ;
+	schema:about wd:Q578815 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mamboru language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Mamboru> a schema:Article ;
+	schema:about wd:Q578815 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Mamboru"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_mamboru> a schema:Article ;
+	schema:about wd:Q578815 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język mamboru"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q578815 wdt:P220 "mvd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mvd> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "mamb1305" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mamb1305> ;
+	wdt:P2590 "0168 5" ;
+	wdt:P1705 "bahasa Mamboru"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P305 "mvd" ;
+	wdt:P279 wd:Q2552658 ;
+	wdt:P2192 "9929" ;
+	wdt:P910 wd:Q32948107 ;
+	wdt:P1627 "mvd" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q5061,
+		wd:Q3803 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MVD> ;
+	wdt:P646 "/m/02hwjzt" ;
+	rdfs:label "Mamboru"@nl ;
+	skos:prefLabel "Mamboru"@nl ;
+	schema:name "Mamboru"@nl ;
+	rdfs:label "Lenga Mamboru"@pms ;
+	skos:prefLabel "Lenga Mamboru"@pms ;
+	schema:name "Lenga Mamboru"@pms ;
+	rdfs:label "Mamboru"@en ;
+	skos:prefLabel "Mamboru"@en ;
+	schema:name "Mamboru"@en ;
+	rdfs:label "Kimamboru"@sw ;
+	skos:prefLabel "Kimamboru"@sw ;
+	schema:name "Kimamboru"@sw ;
+	rdfs:label "Mamboru"@id ;
+	skos:prefLabel "Mamboru"@id ;
+	schema:name "Mamboru"@id ;
+	rdfs:label "Mamboru"@ilo ;
+	skos:prefLabel "Mamboru"@ilo ;
+	schema:name "Mamboru"@ilo ;
+	rdfs:label "Mamboru"@en-gb ;
+	skos:prefLabel "Mamboru"@en-gb ;
+	schema:name "Mamboru"@en-gb ;
+	rdfs:label "Wikang Mamboru"@tl ;
+	skos:prefLabel "Wikang Mamboru"@tl ;
+	schema:name "Wikang Mamboru"@tl ;
+	rdfs:label "mamboru"@fr ;
+	skos:prefLabel "mamboru"@fr ;
+	schema:name "mamboru"@fr ;
+	rdfs:label "Język mamboru"@pl ;
+	skos:prefLabel "Język mamboru"@pl ;
+	schema:name "Język mamboru"@pl ;
+	schema:description "language spoken in Indonesia"@en,
+		"Sprache"@de,
+		"taal"@nl,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"pagsasao idiay Indonesia"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue malayo-polynésienne centrale"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl ;
+	skos:altLabel "Memboro"@en,
+		"Mamboru language"@en,
+		"bahasa Mamboru"@id,
+		"bahasa Memboro"@id .
+
+wd:Q18462275 owl:sameAs wd:Q578815 .
+
+wd:Q6745547 owl:sameAs wd:Q578815 .
+
+wd:Q31441853 owl:sameAs wd:Q578815 .

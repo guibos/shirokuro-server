@@ -1,0 +1,107 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q14916883 a schema:Dataset ;
+	schema:about wd:Q14916883 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1366871440"^^xsd:integer ;
+	schema:dateModified "2021-02-21T20:23:59Z"^^xsd:dateTime .
+
+wd:Q14916883 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Lega_de_Mwenga> a schema:Article ;
+	schema:about wd:Q14916883 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Lega de Mwenga"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Lega-Mwenga> a schema:Article ;
+	schema:about wd:Q14916883 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Lega-Mwenga"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilega-Mwenga> a schema:Article ;
+	schema:about wd:Q14916883 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilega-Mwenga"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q14916883 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "lgm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lgm> ;
+	wdt:P1394 "lega1250" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lega1250> ;
+	wdt:P2161 "D25" ;
+	wdt:P279 wd:Q3196589 ;
+	wdt:P305 "lgm" ;
+	wdt:P1627 "lgm" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q974 ;
+	wdt:P2341 wd:Q488326 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LGM> ;
+	wdt:P646 "/m/02hx58h" ;
+	rdfs:label "Kilega-Mwenga"@sw ;
+	skos:prefLabel "Kilega-Mwenga"@sw ;
+	schema:name "Kilega-Mwenga"@sw ;
+	rdfs:label "Lenga Lega-Mwenga"@pms ;
+	skos:prefLabel "Lenga Lega-Mwenga"@pms ;
+	schema:name "Lenga Lega-Mwenga"@pms ;
+	rdfs:label "lega de Mwenga"@fr ;
+	skos:prefLabel "lega de Mwenga"@fr ;
+	schema:name "lega de Mwenga"@fr ;
+	rdfs:label "Lega-Mwenga"@en ;
+	skos:prefLabel "Lega-Mwenga"@en ;
+	schema:name "Lega-Mwenga"@en ;
+	rdfs:label "Lega-Mwenga"@en-gb ;
+	skos:prefLabel "Lega-Mwenga"@en-gb ;
+	schema:name "Lega-Mwenga"@en-gb ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue bantoue"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "lega-mwenga"@fr .
+
+wd:Q25380581 owl:sameAs wd:Q14916883 .

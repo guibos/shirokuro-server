@@ -1,0 +1,108 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q22236996 a schema:Dataset ;
+	schema:about wd:Q22236996 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1556059469"^^xsd:integer ;
+	schema:dateModified "2022-01-04T15:52:52Z"^^xsd:dateTime .
+
+wd:Q22236996 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kham,_Gamale> a schema:Article ;
+	schema:about wd:Q22236996 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kham, Gamale"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikham_cha_Gamale> a schema:Article ;
+	schema:about wd:Q22236996 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikham cha Gamale"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wiktionary.org/wiki/Wiktionary:About_Gamale_Kham> a schema:Article ;
+	schema:about wd:Q22236996 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wiktionary.org/> ;
+	schema:name "Wiktionary:About Gamale Kham"@en .
+
+<https://en.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+wd:Q22236996 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "kgj" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kgj> ;
+	wdt:P279 wd:Q33305 ;
+	wdt:P1394 "gama1251" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gama1251> ;
+	wdt:P1466 "kmh" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_kmh> ;
+	wdt:P2192 "4378" ;
+	wdt:P305 "kgj" ;
+	wdt:P1627 "kgj" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q837 ;
+	wdt:P2341 wd:Q25104016,
+		wd:Q25104014,
+		wd:Q25104017 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KGJ> ;
+	wdt:P910 wd:Q105715800 ;
+	rdfs:label "Kikham ya Gamale"@sw ;
+	skos:prefLabel "Kikham ya Gamale"@sw ;
+	schema:name "Kikham ya Gamale"@sw ;
+	rdfs:label "Lenga Kham, Gamale"@pms ;
+	skos:prefLabel "Lenga Kham, Gamale"@pms ;
+	schema:name "Lenga Kham, Gamale"@pms ;
+	rdfs:label "Gamale Kham"@en ;
+	skos:prefLabel "Gamale Kham"@en ;
+	schema:name "Gamale Kham"@en ;
+	rdfs:label "Gamale Kham"@en-gb ;
+	skos:prefLabel "Gamale Kham"@en-gb ;
+	schema:name "Gamale Kham"@en-gb ;
+	rdfs:label "kham gamale"@fr ;
+	skos:prefLabel "kham gamale"@fr ;
+	schema:name "kham gamale"@fr ;
+	schema:description "Sino-Tibetan language"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"langue himalayenne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"iaith"@cy,
+		"lingua"@la .

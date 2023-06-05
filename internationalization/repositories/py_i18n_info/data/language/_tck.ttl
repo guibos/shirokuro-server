@@ -1,0 +1,118 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36595 a schema:Dataset ;
+	schema:about wd:Q36595 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961135600"^^xsd:integer ;
+	schema:dateModified "2023-08-25T18:45:05Z"^^xsd:dateTime .
+
+wd:Q36595 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Tchitchege> a schema:Article ;
+	schema:about wd:Q36595 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Tchitchege"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitchitchege> a schema:Article ;
+	schema:about wd:Q36595 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitchitchege"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Tsege_language> a schema:Article ;
+	schema:about wd:Q36595 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Tsege language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Tchitchege> a schema:Article ;
+	schema:about wd:Q36595 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Tchitchege"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36595 wdt:P220 "tck" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tck> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "tchi1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tchi1245> ;
+	wdt:P2355 "1748" ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P305 "tck" ;
+	wdt:P1627 "tck" ;
+	wdt:P2161 "B701" ;
+	wdt:P279 wd:Q1346910 ;
+	wdt:P2192 "5107" ;
+	wdt:P3823 wd:Q29051555 ;
+	wdt:P17 wd:Q1000 ;
+	wdt:P2341 wd:Q654438 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TCK> ;
+	wdt:P646 "/m/0j9p4p8" ;
+	rdfs:label "Kitchitchege"@sw ;
+	skos:prefLabel "Kitchitchege"@sw ;
+	schema:name "Kitchitchege"@sw ;
+	rdfs:label "Lenga Tchitchege"@pms ;
+	skos:prefLabel "Lenga Tchitchege"@pms ;
+	schema:name "Lenga Tchitchege"@pms ;
+	rdfs:label "Tchitchege"@de ;
+	skos:prefLabel "Tchitchege"@de ;
+	schema:name "Tchitchege"@de ;
+	rdfs:label "Tchitchege"@en ;
+	skos:prefLabel "Tchitchege"@en ;
+	schema:name "Tchitchege"@en ;
+	rdfs:label "Tchitchege"@en-gb ;
+	skos:prefLabel "Tchitchege"@en-gb ;
+	schema:name "Tchitchege"@en-gb ;
+	rdfs:label "tchitchege"@fr ;
+	skos:prefLabel "tchitchege"@fr ;
+	schema:name "tchitchege"@fr ;
+	schema:description "Bantu language"@en,
+		"Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue bantoue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy .

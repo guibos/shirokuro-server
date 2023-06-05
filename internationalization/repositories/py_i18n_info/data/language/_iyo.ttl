@@ -1,0 +1,140 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36080 a schema:Dataset ;
+	schema:about wd:Q36080 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1757135636"^^xsd:integer ;
+	schema:dateModified "2022-10-24T10:57:13Z"^^xsd:dateTime .
+
+wd:Q36080 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Mesaka_(langue)> a schema:Article ;
+	schema:about wd:Q36080 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Mesaka (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mesaka> a schema:Article ;
+	schema:about wd:Q36080 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mesaka"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimesaka> a schema:Article ;
+	schema:about wd:Q36080 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimesaka"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mesaka_language> a schema:Article ;
+	schema:about wd:Q36080 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mesaka language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Mesaka> a schema:Article ;
+	schema:about wd:Q36080 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Mesaka"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Mesaka> a schema:Article ;
+	schema:about wd:Q36080 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Mesaka"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36080 wdt:P220 "iyo" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/iyo> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "mesa1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mesa1245> ;
+	wdt:P305 "iyo" ;
+	wdt:P1627 "iyo" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1009 ;
+	wdt:P2341 wd:Q845168,
+		wd:Q502341,
+		wd:Q165784,
+		wd:Q857122 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/IYO> ;
+	wdt:P646 "/m/02hx00t" ;
+	wdt:P910 wd:Q33673558 ;
+	rdfs:label "Kimesaka"@sw ;
+	skos:prefLabel "Kimesaka"@sw ;
+	schema:name "Kimesaka"@sw ;
+	rdfs:label "Lenga Mesaka"@pms ;
+	skos:prefLabel "Lenga Mesaka"@pms ;
+	schema:name "Lenga Mesaka"@pms ;
+	rdfs:label "Mesaka"@de ;
+	skos:prefLabel "Mesaka"@de ;
+	schema:name "Mesaka"@de ;
+	rdfs:label "Mesaka"@en ;
+	skos:prefLabel "Mesaka"@en ;
+	schema:name "Mesaka"@en ;
+	rdfs:label "mesaka"@fr ;
+	skos:prefLabel "mesaka"@fr ;
+	schema:name "mesaka"@fr ;
+	rdfs:label "Mesaka"@en-gb ;
+	skos:prefLabel "Mesaka"@en-gb ;
+	schema:name "Mesaka"@en-gb ;
+	rdfs:label "Wikang Mesaka"@tl ;
+	skos:prefLabel "Wikang Mesaka"@tl ;
+	schema:name "Wikang Mesaka"@tl ;
+	rdfs:label "Asụsụ Mesaka"@ig ;
+	skos:prefLabel "Asụsụ Mesaka"@ig ;
+	schema:name "Asụsụ Mesaka"@ig ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Mesaka language"@en .

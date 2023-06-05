@@ -1,0 +1,143 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q19573111 a schema:Dataset ;
+	schema:about wd:Q19573111 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1879841900"^^xsd:integer ;
+	schema:dateModified "2023-04-21T15:12:50Z"^^xsd:dateTime .
+
+wd:Q19573111 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Mullu_kurumba> a schema:Article ;
+	schema:about wd:Q19573111 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Mullu kurumba"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kurumba,_Mullu> a schema:Article ;
+	schema:about wd:Q19573111 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kurumba, Mullu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%9C%D7%95_%D7%A7%D7%95%D7%A8%D7%95%D7%9E%D7%91%D7%94> a schema:Article ;
+	schema:about wd:Q19573111 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "מולו קורומבה"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mullu_Kurumba_language> a schema:Article ;
+	schema:about wd:Q19573111 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mullu Kurumba language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%AE%E0%AF%81%E0%AE%B3%E0%AF%8D%E0%AE%B3%E0%AF%81_%E0%AE%95%E0%AF%81%E0%AE%B1%E0%AF%81%E0%AE%AE%E0%AF%8D%E0%AE%AA%E0%AE%BE_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF> a schema:Article ;
+	schema:about wd:Q19573111 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "முள்ளு குறும்பா மொழி"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikurumba_cha_Mullu> a schema:Article ;
+	schema:about wd:Q19573111 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikurumba cha Mullu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q19573111 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "mull1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mull1244> ;
+	wdt:P220 "kpb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kpb> ;
+	wdt:P279 wd:Q6741581 ;
+	wdt:P305 "kpb" ;
+	wdt:P1627 "kpb" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1186,
+		wd:Q1445 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KPB> ;
+	wdt:P646 "/m/02hwzff" ;
+	rdfs:label "Mullu Kurumba"@en ;
+	skos:prefLabel "Mullu Kurumba"@en ;
+	schema:name "Mullu Kurumba"@en ;
+	rdfs:label "Kikurumba ya Mullu"@sw ;
+	skos:prefLabel "Kikurumba ya Mullu"@sw ;
+	schema:name "Kikurumba ya Mullu"@sw ;
+	rdfs:label "Lenga Kurumba"@pms ;
+	skos:prefLabel "Lenga Kurumba"@pms ;
+	schema:name "Lenga Kurumba"@pms ;
+	rdfs:label "முள்ளு குறும்பா மொழி"@ta ;
+	skos:prefLabel "முள்ளு குறும்பா மொழி"@ta ;
+	schema:name "முள்ளு குறும்பா மொழி"@ta ;
+	rdfs:label "Mullu Kurumba"@en-gb ;
+	skos:prefLabel "Mullu Kurumba"@en-gb ;
+	schema:name "Mullu Kurumba"@en-gb ;
+	rdfs:label "kurumba mullu"@fr ;
+	skos:prefLabel "kurumba mullu"@fr ;
+	schema:name "kurumba mullu"@fr ;
+	rdfs:label "מולו קורומבה"@he ;
+	skos:prefLabel "מולו קורומבה"@he ;
+	schema:name "מולו קורומבה"@he ;
+	rdfs:label "ਮੁੱਲੂ ਕੁਰੰਬਾ"@pa ;
+	skos:prefLabel "ਮੁੱਲੂ ਕੁਰੰਬਾ"@pa ;
+	schema:name "ਮੁੱਲੂ ਕੁਰੰਬਾ"@pa ;
+	rdfs:label "മുള്ളു കുറുംബ"@ml ;
+	skos:prefLabel "മുള്ളു കുറുംബ"@ml ;
+	schema:name "മുള്ളു കുറുംബ"@ml ;
+	schema:description "langue dravidienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"iaith"@cy,
+		"lingua"@la,
+		"ভারতের ভাষা"@bn,
+		"ഭാഷ"@ml ;
+	skos:altLabel "Mullu Kurumba language"@en,
+		"ਮੁੱਲੂ ਕੁਰੰਬਾ ਭਾਸ਼ਾ"@pa .

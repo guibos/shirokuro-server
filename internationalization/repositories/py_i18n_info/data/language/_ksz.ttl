@@ -1,0 +1,96 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q21179986 a schema:Dataset ;
+	schema:about wd:Q21179986 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1355789771"^^xsd:integer ;
+	schema:dateModified "2021-02-06T14:25:15Z"^^xsd:dateTime .
+
+wd:Q21179986 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_koraku> a schema:Article ;
+	schema:about wd:Q21179986 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga koraku"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikodaku> a schema:Article ;
+	schema:about wd:Q21179986 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikodaku"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q21179986 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "ksz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ksz> ;
+	wdt:P1394 "koda1254" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/koda1254> ;
+	wdt:P279 wd:Q33892 ;
+	wdt:P305 "ksz" ;
+	wdt:P1627 "ksz" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1168,
+		wd:Q1184,
+		wd:Q1498 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KSZ> ;
+	rdfs:label "Kikodaku"@sw ;
+	skos:prefLabel "Kikodaku"@sw ;
+	schema:name "Kikodaku"@sw ;
+	rdfs:label "Lenga koraku"@pms ;
+	skos:prefLabel "Lenga koraku"@pms ;
+	schema:name "Lenga koraku"@pms ;
+	rdfs:label "Koraku"@en ;
+	skos:prefLabel "Koraku"@en ;
+	schema:name "Koraku"@en ;
+	rdfs:label "koraku"@fr ;
+	skos:prefLabel "koraku"@fr ;
+	schema:name "koraku"@fr ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue austroasiatique"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la,
+		"ভারতের ভাষা"@bn ;
+	skos:altLabel "Kodaku"@en,
+		"Koraku language"@en .

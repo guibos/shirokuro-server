@@ -1,0 +1,104 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q16109975 a schema:Dataset ;
+	schema:about wd:Q16109975 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1163508650"^^xsd:integer ;
+	schema:dateModified "2020-04-22T10:02:03Z"^^xsd:dateTime .
+
+wd:Q16109975 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_kinabatangan,_upper> a schema:Article ;
+	schema:about wd:Q16109975 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kinabatangan, upper"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Gornjokinabatanganski_jezik> a schema:Article ;
+	schema:about wd:Q16109975 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Gornjokinabatanganski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikinabatangan_cha_Juu> a schema:Article ;
+	schema:about wd:Q16109975 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikinabatangan cha Juu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q16109975 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "dmg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dmg> ;
+	wdt:P1394 "uppe1427" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/uppe1427> ;
+	wdt:P305 "dmg" ;
+	wdt:P1627 "dmg" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q833 ;
+	wdt:P2341 wd:Q179029 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DMG> ;
+	rdfs:label "Gornjokinabatanganski jezik"@hr ;
+	skos:prefLabel "Gornjokinabatanganski jezik"@hr ;
+	schema:name "Gornjokinabatanganski jezik"@hr ;
+	rdfs:label "Kikinabatangan ya Juu"@sw ;
+	skos:prefLabel "Kikinabatangan ya Juu"@sw ;
+	schema:name "Kikinabatangan ya Juu"@sw ;
+	rdfs:label "Lenga kinabatangan, upper"@pms ;
+	skos:prefLabel "Lenga kinabatangan, upper"@pms ;
+	schema:name "Lenga kinabatangan, upper"@pms ;
+	rdfs:label "Upper Kinabatangan"@en ;
+	skos:prefLabel "Upper Kinabatangan"@en ;
+	schema:name "Upper Kinabatangan"@en ;
+	rdfs:label "Upper Kinabatangan"@en-gb ;
+	skos:prefLabel "Upper Kinabatangan"@en-gb ;
+	schema:name "Upper Kinabatangan"@en-gb ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Upper Kinabatangan language"@en .
+
+wd:Q18642276 owl:sameAs wd:Q16109975 .

@@ -1,0 +1,5327 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q17 a schema:Dataset ;
+	schema:about wd:Q17 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1926020215"^^xsd:integer ;
+	schema:dateModified "2023-06-29T20:36:08Z"^^xsd:dateTime .
+
+wd:Q17 a wikibase:Item .
+
+<https://ru.wikivoyage.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikivoyage.org/> ;
+	schema:name "Япония"@ru .
+
+<https://ru.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://fa.wikiquote.org/wiki/%DA%98%D8%A7%D9%BE%D9%86> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikiquote.org/> ;
+	schema:name "ژاپن"@fa .
+
+<https://fa.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://de.wikivoyage.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikivoyage.org/> ;
+	schema:name "Japan"@de ;
+	wikibase:badge wd:Q17559452 .
+
+<https://de.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://hi.wikiquote.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikiquote.org/> ;
+	schema:name "जापान"@hi .
+
+<https://hi.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://en.wikivoyage.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikivoyage.org/> ;
+	schema:name "Japan"@en ;
+	wikibase:badge wd:Q17559452 .
+
+<https://en.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://uk.wikiquote.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikiquote.org/> ;
+	schema:name "Японія"@uk .
+
+<https://uk.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://eo.wikinews.org/wiki/Kategorio:Japanujo> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikinews.org/> ;
+	schema:name "Kategorio:Japanujo"@eo .
+
+<https://eo.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://ta.wikinews.org/wiki/%E0%AE%AA%E0%AE%95%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81:%E0%AE%9C%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%A9%E0%AF%8D> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikinews.org/> ;
+	schema:name "பகுப்பு:ஜப்பான்"@ta .
+
+<https://ta.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://fr.wikinews.org/wiki/Cat%C3%A9gorie:Japon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikinews.org/> ;
+	schema:name "Catégorie:Japon"@fr .
+
+<https://fr.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://pt.wikiquote.org/wiki/Jap%C3%A3o> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikiquote.org/> ;
+	schema:name "Japão"@pt .
+
+<https://pt.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://pl.wikiquote.org/wiki/Japonia> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikiquote.org/> ;
+	schema:name "Japonia"@pl .
+
+<https://pl.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://en.wikinews.org/wiki/Category:Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikinews.org/> ;
+	schema:name "Category:Japan"@en .
+
+<https://en.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://hi.wikivoyage.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikivoyage.org/> ;
+	schema:name "जापान"@hi .
+
+<https://hi.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://nl.wikinews.org/wiki/Categorie:Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikinews.org/> ;
+	schema:name "Categorie:Japan"@nl .
+
+<https://nl.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://ro.wikivoyage.org/wiki/Japonia> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikivoyage.org/> ;
+	schema:name "Japonia"@ro .
+
+<https://ro.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://sv.wikivoyage.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikivoyage.org/> ;
+	schema:name "Japan"@sv .
+
+<https://sv.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ar.wikinews.org/wiki/%D8%AA%D8%B5%D9%86%D9%8A%D9%81:%D8%A7%D9%84%D9%8A%D8%A7%D8%A8%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikinews.org/> ;
+	schema:name "تصنيف:اليابان"@ar .
+
+<https://ar.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://fr.wikivoyage.org/wiki/Japon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikivoyage.org/> ;
+	schema:name "Japon"@fr .
+
+<https://fr.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://zh.wikivoyage.org/wiki/%E6%97%A5%E6%9C%AC> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikivoyage.org/> ;
+	schema:name "日本"@zh .
+
+<https://zh.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://en.wikiquote.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikiquote.org/> ;
+	schema:name "Japan"@en .
+
+<https://en.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://ro.wikinews.org/wiki/Categorie:Japonia> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikinews.org/> ;
+	schema:name "Categorie:Japonia"@ro .
+
+<https://ro.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://pl.wikinews.org/wiki/Kategoria:Japonia> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikinews.org/> ;
+	schema:name "Kategoria:Japonia"@pl .
+
+<https://pl.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://ja.wikinews.org/wiki/%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA:%E6%97%A5%E6%9C%AC> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikinews.org/> ;
+	schema:name "カテゴリ:日本"@ja .
+
+<https://ja.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://ja.wikiquote.org/wiki/%E6%97%A5%E6%9C%AC> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikiquote.org/> ;
+	schema:name "日本"@ja .
+
+<https://ja.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://it.wikiquote.org/wiki/Giappone> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikiquote.org/> ;
+	schema:name "Giappone"@it .
+
+<https://it.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://he.wikinews.org/wiki/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%94:%D7%99%D7%A4%D7%9F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikinews.org/> ;
+	schema:name "קטגוריה:יפן"@he .
+
+<https://he.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://th.wikinews.org/wiki/%E0%B8%AB%E0%B8%A1%E0%B8%A7%E0%B8%94%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B9%88:%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikinews.org/> ;
+	schema:name "หมวดหมู่:ประเทศญี่ปุ่น"@th .
+
+<https://th.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://bg.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikinews.org/> ;
+	schema:name "Категория:Япония"@bg .
+
+<https://bg.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://vi.wikivoyage.org/wiki/Nh%E1%BA%ADt_B%E1%BA%A3n> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikivoyage.org/> ;
+	schema:name "Nhật Bản"@vi .
+
+<https://vi.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ko.wikinews.org/wiki/%EB%B6%84%EB%A5%98:%EC%9D%BC%EB%B3%B8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikinews.org/> ;
+	schema:name "분류:일본"@ko .
+
+<https://ko.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://tr.wikinews.org/wiki/Kategori:Japonya> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikinews.org/> ;
+	schema:name "Kategori:Japonya"@tr .
+
+<https://tr.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://fa.wikivoyage.org/wiki/%DA%98%D8%A7%D9%BE%D9%86> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikivoyage.org/> ;
+	schema:name "ژاپن"@fa .
+
+<https://fa.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://el.wikivoyage.org/wiki/%CE%99%CE%B1%CF%80%CF%89%CE%BD%CE%AF%CE%B1> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikivoyage.org/> ;
+	schema:name "Ιαπωνία"@el .
+
+<https://el.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://fi.wikinews.org/wiki/Luokka:Japani> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikinews.org/> ;
+	schema:name "Luokka:Japani"@fi .
+
+<https://fi.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://el.wikiquote.org/wiki/%CE%99%CE%B1%CF%80%CF%89%CE%BD%CE%AF%CE%B1> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikiquote.org/> ;
+	schema:name "Ιαπωνία"@el .
+
+<https://el.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://pl.wikivoyage.org/wiki/Japonia> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikivoyage.org/> ;
+	schema:name "Japonia"@pl ;
+	wikibase:badge wd:Q17559452 .
+
+<https://pl.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://zh.wikiquote.org/wiki/%E6%97%A5%E6%9C%AC> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikiquote.org/> ;
+	schema:name "日本"@zh .
+
+<https://zh.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://ca.wikinews.org/wiki/Categoria:Jap%C3%B3> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikinews.org/> ;
+	schema:name "Categoria:Japó"@ca .
+
+<https://ca.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://sr.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%98%D0%B0:%D0%88%D0%B0%D0%BF%D0%B0%D0%BD> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikinews.org/> ;
+	schema:name "Категорија:Јапан"@sr .
+
+<https://sr.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://pt.wikivoyage.org/wiki/Jap%C3%A3o> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikivoyage.org/> ;
+	schema:name "Japão"@pt .
+
+<https://pt.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ko.wikiquote.org/wiki/%EC%9D%BC%EB%B3%B8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikiquote.org/> ;
+	schema:name "일본"@ko .
+
+<https://ko.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://sv.wikinews.org/wiki/Kategori:Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikinews.org/> ;
+	schema:name "Kategori:Japan"@sv .
+
+<https://sv.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://es.wikivoyage.org/wiki/Jap%C3%B3n> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikivoyage.org/> ;
+	schema:name "Japón"@es .
+
+<https://es.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://el.wikinews.org/wiki/%CE%9A%CE%B1%CF%84%CE%B7%CE%B3%CE%BF%CF%81%CE%AF%CE%B1:%CE%99%CE%B1%CF%80%CF%89%CE%BD%CE%AF%CE%B1> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikinews.org/> ;
+	schema:name "Κατηγορία:Ιαπωνία"@el .
+
+<https://el.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://bs.wikinews.org/wiki/Kategorija:Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "bs" ;
+	schema:isPartOf <https://bs.wikinews.org/> ;
+	schema:name "Kategorija:Japan"@bs .
+
+<https://bs.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://sq.wikinews.org/wiki/Kategoria:Japoni> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sq" ;
+	schema:isPartOf <https://sq.wikinews.org/> ;
+	schema:name "Kategoria:Japoni"@sq .
+
+<https://sq.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://es.wikinews.org/wiki/Categor%C3%ADa:Jap%C3%B3n> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikinews.org/> ;
+	schema:name "Categoría:Japón"@es .
+
+<https://es.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://uk.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D1%96%D1%8F:%D0%AF%D0%BF%D0%BE%D0%BD%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikinews.org/> ;
+	schema:name "Категорія:Японія"@uk .
+
+<https://uk.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://cs.wikinews.org/wiki/Kategorie:Japonsko> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikinews.org/> ;
+	schema:name "Kategorie:Japonsko"@cs .
+
+<https://cs.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://zh.wikinews.org/wiki/Category:%E6%97%A5%E6%9C%AC> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikinews.org/> ;
+	schema:name "Category:日本"@zh .
+
+<https://zh.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://uk.wikivoyage.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikivoyage.org/> ;
+	schema:name "Японія"@uk .
+
+<https://uk.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://pt.wikinews.org/wiki/Categoria:Jap%C3%A3o> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikinews.org/> ;
+	schema:name "Categoria:Japão"@pt .
+
+<https://pt.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://fr.wikiquote.org/wiki/Japon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikiquote.org/> ;
+	schema:name "Japon"@fr .
+
+<https://fr.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://nl.wikivoyage.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikivoyage.org/> ;
+	schema:name "Japan"@nl .
+
+<https://nl.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://bn.wikivoyage.org/wiki/%E0%A6%9C%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikivoyage.org/> ;
+	schema:name "জাপান"@bn .
+
+<https://bn.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://es.wikiquote.org/wiki/Jap%C3%B3n> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikiquote.org/> ;
+	schema:name "Japón"@es .
+
+<https://es.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://hu.wikinews.org/wiki/Kateg%C3%B3ria:Jap%C3%A1n> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikinews.org/> ;
+	schema:name "Kategória:Japán"@hu .
+
+<https://hu.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://commons.wikimedia.org/wiki/%E6%97%A5%E6%9C%AC> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "日本"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+<https://ru.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikinews.org/> ;
+	schema:name "Категория:Япония"@ru .
+
+<https://ru.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://de.wikinews.org/wiki/Kategorie:Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikinews.org/> ;
+	schema:name "Kategorie:Japan"@de .
+
+<https://de.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://it.wikinews.org/wiki/Categoria:Giappone> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikinews.org/> ;
+	schema:name "Categoria:Giappone"@it .
+
+<https://it.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://ca.wikiquote.org/wiki/Jap%C3%B3> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikiquote.org/> ;
+	schema:name "Japó"@ca .
+
+<https://ca.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://fa.wikinews.org/wiki/%D8%B1%D8%AF%D9%87:%DA%98%D8%A7%D9%BE%D9%86> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikinews.org/> ;
+	schema:name "رده:ژاپن"@fa .
+
+<https://fa.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://fi.wikivoyage.org/wiki/Japani> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikivoyage.org/> ;
+	schema:name "Japani"@fi .
+
+<https://fi.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://de.wikiquote.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikiquote.org/> ;
+	schema:name "Japan"@de .
+
+<https://de.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://az.wikiquote.org/wiki/Yaponiya> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikiquote.org/> ;
+	schema:name "Yaponiya"@az .
+
+<https://az.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://it.wikivoyage.org/wiki/Giappone> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikivoyage.org/> ;
+	schema:name "Giappone"@it ;
+	wikibase:badge wd:Q17437798 .
+
+<https://it.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://eo.wikiquote.org/wiki/Japanio> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikiquote.org/> ;
+	schema:name "Japanio"@eo .
+
+<https://eo.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://id.wikiquote.org/wiki/Jepang> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikiquote.org/> ;
+	schema:name "Jepang"@id .
+
+<https://id.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://he.wikiquote.org/wiki/%D7%99%D7%A4%D7%9F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikiquote.org/> ;
+	schema:name "יפן"@he .
+
+<https://he.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://ar.wikiquote.org/wiki/%D8%A7%D9%84%D9%8A%D8%A7%D8%A8%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikiquote.org/> ;
+	schema:name "اليابان"@ar .
+
+<https://ar.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://ja.wikivoyage.org/wiki/%E6%97%A5%E6%9C%AC> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikivoyage.org/> ;
+	schema:name "日本"@ja .
+
+<https://ja.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://eo.wikivoyage.org/wiki/Japanio> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikivoyage.org/> ;
+	schema:name "Japanio"@eo .
+
+<https://eo.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://tr.wikivoyage.org/wiki/Japonya> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikivoyage.org/> ;
+	schema:name "Japonya"@tr .
+
+<https://tr.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ja.wikibooks.org/wiki/%E6%97%A5%E6%9C%AC%E5%9B%BD> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikibooks.org/> ;
+	schema:name "日本国"@ja .
+
+<https://ja.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://et.wikiquote.org/wiki/Jaapan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikiquote.org/> ;
+	schema:name "Jaapan"@et .
+
+<https://et.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://en.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Japan"@en ;
+	wikibase:badge wd:Q17437796 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Japan"@de ;
+	wikibase:badge wd:Q17437798 .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Japon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Japon"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Jap%C3%B3n> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Japón"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Япония"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Giappone> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Giappone"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "日本"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Japan"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/Japonia> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Japonia"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Jap%C3%A3o> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Japão"@pt ;
+	wikibase:badge wd:Q17437796 .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "日本"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Japan"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%DA%98%D8%A7%D9%BE%D9%86> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "ژاپن"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%99%D7%A4%D7%9F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "יפן"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Japonya> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Japonya"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Jap%C3%A1n> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Japán"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Japani> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Japani"@fi ;
+	wikibase:badge wd:Q17437798 .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%8A%D8%A7%D8%A8%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "اليابان"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Japan"@nb ;
+	wikibase:badge wd:Q17437798 .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Японія"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%9D%BC%EB%B3%B8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "일본"@ko ;
+	wikibase:badge wd:Q17437796 .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Jap%C3%B3> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Japó"@ca ;
+	wikibase:badge wd:Q17437796 .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Japonsko> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Japonsko"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%88%D0%B0%D0%BF%D0%B0%D0%BD> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Јапан"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Japonia> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Japonia"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Jepang> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Jepang"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Japan"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Japan"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Япония"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ab.wikipedia.org/wiki/%D0%98%D0%B0%D0%BF%D0%BE%D0%BD%D0%B8%D0%B0> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ab" ;
+	schema:isPartOf <https://ab.wikipedia.org/> ;
+	schema:name "Иапониа"@ab .
+
+<https://ab.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ace.wikipedia.org/wiki/Jeupun> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ace" ;
+	schema:isPartOf <https://ace.wikipedia.org/> ;
+	schema:name "Jeupun"@ace .
+
+<https://ace.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ady.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D0%B5> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ady" ;
+	schema:isPartOf <https://ady.wikipedia.org/> ;
+	schema:name "Японие"@ady .
+
+<https://ady.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Japan"@af ;
+	wikibase:badge wd:Q17437796 .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://als.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "gsw" ;
+	schema:isPartOf <https://als.wikipedia.org/> ;
+	schema:name "Japan"@gsw .
+
+<https://als.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://alt.wikipedia.org/wiki/%D0%88%D0%BE%D0%BF%D0%BE%D0%BD> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "alt" ;
+	schema:isPartOf <https://alt.wikipedia.org/> ;
+	schema:name "Јопон"@alt .
+
+<https://alt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://am.wikipedia.org/wiki/%E1%8C%83%E1%8D%93%E1%8A%95> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "am" ;
+	schema:isPartOf <https://am.wikipedia.org/> ;
+	schema:name "ጃፓን"@am .
+
+<https://am.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://an.wikipedia.org/wiki/Chap%C3%B3n> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "an" ;
+	schema:isPartOf <https://an.wikipedia.org/> ;
+	schema:name "Chapón"@an .
+
+<https://an.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ang.wikipedia.org/wiki/Iapan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ang" ;
+	schema:isPartOf <https://ang.wikipedia.org/> ;
+	schema:name "Iapan"@ang .
+
+<https://ang.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arc.wikipedia.org/wiki/%DC%9D%DC%A6%DC%A2> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "arc" ;
+	schema:isPartOf <https://arc.wikipedia.org/> ;
+	schema:name "ܝܦܢ"@arc .
+
+<https://arc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ary.wikipedia.org/wiki/%D8%A7%D9%84%D8%AC%D8%A7%D9%BE%D9%88%D9%86> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ary" ;
+	schema:isPartOf <https://ary.wikipedia.org/> ;
+	schema:name "الجاپون"@ary .
+
+<https://ary.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D8%A7%D9%84%D9%8A%D8%A7%D8%A8%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "اليابان"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://as.wikipedia.org/wiki/%E0%A6%9C%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "as" ;
+	schema:isPartOf <https://as.wikipedia.org/> ;
+	schema:name "জাপান"@as .
+
+<https://as.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Xap%C3%B3n> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Xapón"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://atj.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "atj" ;
+	schema:isPartOf <https://atj.wikipedia.org/> ;
+	schema:name "Japan"@atj .
+
+<https://atj.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://av.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "av" ;
+	schema:isPartOf <https://av.wikipedia.org/> ;
+	schema:name "Япония"@av .
+
+<https://av.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://avk.wikipedia.org/wiki/Nipona> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "avk" ;
+	schema:isPartOf <https://avk.wikipedia.org/> ;
+	schema:name "Nipona"@avk .
+
+<https://avk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://awa.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "awa" ;
+	schema:isPartOf <https://awa.wikipedia.org/> ;
+	schema:name "जापान"@awa .
+
+<https://awa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ay.wikipedia.org/wiki/Nihun> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ay" ;
+	schema:isPartOf <https://ay.wikipedia.org/> ;
+	schema:name "Nihun"@ay .
+
+<https://ay.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Yaponiya> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Yaponiya"@az ;
+	wikibase:badge wd:Q17437796 .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%DA%98%D8%A7%D9%BE%D9%88%D9%86> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "ژاپون"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ba.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ba" ;
+	schema:isPartOf <https://ba.wikipedia.org/> ;
+	schema:name "Япония"@ba .
+
+<https://ba.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ban.wikipedia.org/wiki/Jepang> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ban" ;
+	schema:isPartOf <https://ban.wikipedia.org/> ;
+	schema:name "Jepang"@ban .
+
+<https://ban.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bar.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "bar" ;
+	schema:isPartOf <https://bar.wikipedia.org/> ;
+	schema:name "Japan"@bar .
+
+<https://bar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bat-smg.wikipedia.org/wiki/Japuon%C4%97j%C4%97> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sgs" ;
+	schema:isPartOf <https://bat-smg.wikipedia.org/> ;
+	schema:name "Japuonėjė"@sgs .
+
+<https://bat-smg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Hapon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Hapon"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Японія"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Японія"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bh.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "bho" ;
+	schema:isPartOf <https://bh.wikipedia.org/> ;
+	schema:name "जापान"@bho .
+
+<https://bh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bi.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "bi" ;
+	schema:isPartOf <https://bi.wikipedia.org/> ;
+	schema:name "Japan"@bi .
+
+<https://bi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bjn.wikipedia.org/wiki/Japang> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "bjn" ;
+	schema:isPartOf <https://bjn.wikipedia.org/> ;
+	schema:name "Japang"@bjn .
+
+<https://bjn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bm.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "bm" ;
+	schema:isPartOf <https://bm.wikipedia.org/> ;
+	schema:name "Japan"@bm .
+
+<https://bm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%9C%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "জাপান"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bo.wikipedia.org/wiki/%E0%BD%89%E0%BD%B2%E0%BC%8B%E0%BD%A7%E0%BD%BC%E0%BD%84%E0%BC%8B%E0%BC%8D> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "bo" ;
+	schema:isPartOf <https://bo.wikipedia.org/> ;
+	schema:name "ཉི་ཧོང་།"@bo .
+
+<https://bo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bpy.wikipedia.org/wiki/%E0%A6%9C%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "bpy" ;
+	schema:isPartOf <https://bpy.wikipedia.org/> ;
+	schema:name "জাপান"@bpy .
+
+<https://bpy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Japan"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bs.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "bs" ;
+	schema:isPartOf <https://bs.wikipedia.org/> ;
+	schema:name "Japan"@bs .
+
+<https://bs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bug.wikipedia.org/wiki/%E1%A8%93%E1%A8%8A%E1%A8%98%E1%A8%95_%E1%A8%8D%E1%A8%9B%E1%A8%84> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "bug" ;
+	schema:isPartOf <https://bug.wikipedia.org/> ;
+	schema:name "ᨓᨊᨘᨕ ᨍᨛᨄ"@bug .
+
+<https://bug.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bxr.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD_%D0%A3%D0%BB%D0%B0%D1%81> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "bxr" ;
+	schema:isPartOf <https://bxr.wikipedia.org/> ;
+	schema:name "Япон Улас"@bxr ;
+	wikibase:badge wd:Q17437798 .
+
+<https://bxr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cbk-zam.wikipedia.org/wiki/Jap%C3%B3n> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "cbk-x-zam" ;
+	schema:isPartOf <https://cbk-zam.wikipedia.org/> ;
+	schema:name "Japón"@cbk-x-zam .
+
+<https://cbk-zam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cdo.wikipedia.org/wiki/N%C4%ADk-bu%C5%8Dng> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "cdo" ;
+	schema:isPartOf <https://cdo.wikipedia.org/> ;
+	schema:name "Nĭk-buōng"@cdo .
+
+<https://cdo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ce.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ce" ;
+	schema:isPartOf <https://ce.wikipedia.org/> ;
+	schema:name "Япон"@ce .
+
+<https://ce.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ceb.wikipedia.org/wiki/Hapon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ceb" ;
+	schema:isPartOf <https://ceb.wikipedia.org/> ;
+	schema:name "Hapon"@ceb .
+
+<https://ceb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ch.wikipedia.org/wiki/Chapan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ch" ;
+	schema:isPartOf <https://ch.wikipedia.org/> ;
+	schema:name "Chapan"@ch .
+
+<https://ch.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://chr.wikipedia.org/wiki/%E1%8F%A3%E1%8F%A9%E1%8F%82%E1%8F%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "chr" ;
+	schema:isPartOf <https://chr.wikipedia.org/> ;
+	schema:name "ᏣᏩᏂᏏ"@chr .
+
+<https://chr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://chy.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "chy" ;
+	schema:isPartOf <https://chy.wikipedia.org/> ;
+	schema:name "Japan"@chy .
+
+<https://chy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ckb.wikipedia.org/wiki/%DA%98%D8%A7%D9%BE%DB%86%D9%86> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ckb" ;
+	schema:isPartOf <https://ckb.wikipedia.org/> ;
+	schema:name "ژاپۆن"@ckb .
+
+<https://ckb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cr.wikipedia.org/wiki/Cap%C4%81n> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "cr" ;
+	schema:isPartOf <https://cr.wikipedia.org/> ;
+	schema:name "Capān"@cr .
+
+<https://cr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://csb.wikipedia.org/wiki/Jap%C3%B2%C5%84sk%C3%B4> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "csb" ;
+	schema:isPartOf <https://csb.wikipedia.org/> ;
+	schema:name "Japòńskô"@csb .
+
+<https://csb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cu.wikipedia.org/wiki/%EA%99%96%D0%BF%D1%A1%D0%BD%D1%97%EA%99%97> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "cu" ;
+	schema:isPartOf <https://cu.wikipedia.org/> ;
+	schema:name "Ꙗпѡнїꙗ"@cu .
+
+<https://cu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cv.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "cv" ;
+	schema:isPartOf <https://cv.wikipedia.org/> ;
+	schema:name "Япони"@cv .
+
+<https://cv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cy.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "cy" ;
+	schema:isPartOf <https://cy.wikipedia.org/> ;
+	schema:name "Japan"@cy .
+
+<https://cy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://din.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "din" ;
+	schema:isPartOf <https://din.wikipedia.org/> ;
+	schema:name "Japan"@din .
+
+<https://din.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://diq.wikipedia.org/wiki/Japonya> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Japonya"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dsb.wikipedia.org/wiki/Japa%C5%84ska> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "dsb" ;
+	schema:isPartOf <https://dsb.wikipedia.org/> ;
+	schema:name "Japańska"@dsb .
+
+<https://dsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dty.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "dty" ;
+	schema:isPartOf <https://dty.wikipedia.org/> ;
+	schema:name "जापान"@dty .
+
+<https://dty.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dv.wikipedia.org/wiki/%DE%96%DE%A6%DE%95%DE%A7%DE%82%DE%AA> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "dv" ;
+	schema:isPartOf <https://dv.wikipedia.org/> ;
+	schema:name "ޖަޕާނު"@dv .
+
+<https://dv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dz.wikipedia.org/wiki/%E0%BD%87%E0%BC%8B%E0%BD%94%E0%BD%B1%E0%BD%93> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "dz" ;
+	schema:isPartOf <https://dz.wikipedia.org/> ;
+	schema:name "ཇ་པཱན"@dz .
+
+<https://dz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ee.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ee" ;
+	schema:isPartOf <https://ee.wikipedia.org/> ;
+	schema:name "Japan"@ee .
+
+<https://ee.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%99%CE%B1%CF%80%CF%89%CE%BD%CE%AF%CE%B1> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Ιαπωνία"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eml.wikipedia.org/wiki/Giap%C3%B2%E1%B9%85> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "egl" ;
+	schema:isPartOf <https://eml.wikipedia.org/> ;
+	schema:name "Giapòṅ"@egl .
+
+<https://eml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Japanio> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Japanio"@eo ;
+	wikibase:badge wd:Q17437798 .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Jaapan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Jaapan"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Japonia> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Japonia"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ext.wikipedia.org/wiki/Jap%C3%B3n> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ext" ;
+	schema:isPartOf <https://ext.wikipedia.org/> ;
+	schema:name "Japón"@ext .
+
+<https://ext.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ff.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ff" ;
+	schema:isPartOf <https://ff.wikipedia.org/> ;
+	schema:name "Japan"@ff .
+
+<https://ff.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fiu-vro.wikipedia.org/wiki/Jaapan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "vro" ;
+	schema:isPartOf <https://fiu-vro.wikipedia.org/> ;
+	schema:name "Jaapan"@vro .
+
+<https://fiu-vro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fj.wikipedia.org/wiki/Japani> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "fj" ;
+	schema:isPartOf <https://fj.wikipedia.org/> ;
+	schema:name "Japani"@fj .
+
+<https://fj.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fo.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "fo" ;
+	schema:isPartOf <https://fo.wikipedia.org/> ;
+	schema:name "Japan"@fo .
+
+<https://fo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Jaapan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Jaapan"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fur.wikipedia.org/wiki/Gjapon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "fur" ;
+	schema:isPartOf <https://fur.wikipedia.org/> ;
+	schema:name "Gjapon"@fur .
+
+<https://fur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fy.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "fy" ;
+	schema:isPartOf <https://fy.wikipedia.org/> ;
+	schema:name "Japan"@fy .
+
+<https://fy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ga.wikipedia.org/wiki/An_tSeap%C3%A1in> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ga" ;
+	schema:isPartOf <https://ga.wikipedia.org/> ;
+	schema:name "An tSeapáin"@ga .
+
+<https://ga.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gag.wikipedia.org/wiki/Yaponiya> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "gag" ;
+	schema:isPartOf <https://gag.wikipedia.org/> ;
+	schema:name "Yaponiya"@gag .
+
+<https://gag.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gan.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "gan" ;
+	schema:isPartOf <https://gan.wikipedia.org/> ;
+	schema:name "日本"@gan .
+
+<https://gan.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gcr.wikipedia.org/wiki/Japon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "gcr" ;
+	schema:isPartOf <https://gcr.wikipedia.org/> ;
+	schema:name "Japon"@gcr .
+
+<https://gcr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gd.wikipedia.org/wiki/An_Iapan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "gd" ;
+	schema:isPartOf <https://gd.wikipedia.org/> ;
+	schema:name "An Iapan"@gd .
+
+<https://gd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Xap%C3%B3n> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Xapón"@gl ;
+	wikibase:badge wd:Q17437796 .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://glk.wikipedia.org/wiki/%DA%98%D8%A7%D9%BE%D8%A4%D9%86> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "glk" ;
+	schema:isPartOf <https://glk.wikipedia.org/> ;
+	schema:name "ژاپؤن"@glk .
+
+<https://glk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gn.wikipedia.org/wiki/Hap%C3%B5> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "gn" ;
+	schema:isPartOf <https://gn.wikipedia.org/> ;
+	schema:name "Hapõ"@gn .
+
+<https://gn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gom.wikipedia.org/wiki/%E0%A4%9C%E0%A4%AA%E0%A4%BE%E0%A4%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "gom" ;
+	schema:isPartOf <https://gom.wikipedia.org/> ;
+	schema:name "जपान"@gom .
+
+<https://gom.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gor.wikipedia.org/wiki/Japangi> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "gor" ;
+	schema:isPartOf <https://gor.wikipedia.org/> ;
+	schema:name "Japangi"@gor .
+
+<https://gor.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://got.wikipedia.org/wiki/%F0%90%8C%BE%F0%90%8C%B0%F0%90%8D%80%F0%90%8C%B0%F0%90%8C%BD> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "got" ;
+	schema:isPartOf <https://got.wikipedia.org/> ;
+	schema:name "𐌾𐌰𐍀𐌰𐌽"@got .
+
+<https://got.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gu.wikipedia.org/wiki/%E0%AA%9C%E0%AA%BE%E0%AA%AA%E0%AA%BE%E0%AA%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "gu" ;
+	schema:isPartOf <https://gu.wikipedia.org/> ;
+	schema:name "જાપાન"@gu .
+
+<https://gu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gv.wikipedia.org/wiki/Yn_%C3%87hapaan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "gv" ;
+	schema:isPartOf <https://gv.wikipedia.org/> ;
+	schema:name "Yn Çhapaan"@gv .
+
+<https://gv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ha.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ha" ;
+	schema:isPartOf <https://ha.wikipedia.org/> ;
+	schema:name "Japan"@ha .
+
+<https://ha.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hak.wikipedia.org/wiki/Ngi%CC%8Dt-p%C3%BAn> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "hak" ;
+	schema:isPartOf <https://hak.wikipedia.org/> ;
+	schema:name "Ngi̍t-pún"@hak .
+
+<https://hak.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://haw.wikipedia.org/wiki/I%C4%81pana> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "haw" ;
+	schema:isPartOf <https://haw.wikipedia.org/> ;
+	schema:name "Iāpana"@haw .
+
+<https://haw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "जापान"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Japan"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Japan"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hsb.wikipedia.org/wiki/Japanska> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "hsb" ;
+	schema:isPartOf <https://hsb.wikipedia.org/> ;
+	schema:name "Japanska"@hsb .
+
+<https://hsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ht.wikipedia.org/wiki/Japon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ht" ;
+	schema:isPartOf <https://ht.wikipedia.org/> ;
+	schema:name "Japon"@ht .
+
+<https://ht.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D5%83%D5%A1%D5%BA%D5%B8%D5%B6%D5%AB%D5%A1> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Ճապոնիա"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hyw.wikipedia.org/wiki/%D5%83%D5%A1%D6%83%D5%B8%D5%B6> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "hyw" ;
+	schema:isPartOf <https://hyw.wikipedia.org/> ;
+	schema:name "Ճափոն"@hyw .
+
+<https://hyw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ia.wikipedia.org/wiki/Japon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ia" ;
+	schema:isPartOf <https://ia.wikipedia.org/> ;
+	schema:name "Japon"@ia .
+
+<https://ia.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ie.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ie" ;
+	schema:isPartOf <https://ie.wikipedia.org/> ;
+	schema:name "Japan"@ie .
+
+<https://ie.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Japan"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ik.wikipedia.org/wiki/Nippan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ik" ;
+	schema:isPartOf <https://ik.wikipedia.org/> ;
+	schema:name "Nippan"@ik .
+
+<https://ik.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Hapon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Hapon"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://inh.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "inh" ;
+	schema:isPartOf <https://inh.wikipedia.org/> ;
+	schema:name "Япони"@inh .
+
+<https://inh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://io.wikipedia.org/wiki/Japonia> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "io" ;
+	schema:isPartOf <https://io.wikipedia.org/> ;
+	schema:name "Japonia"@io .
+
+<https://io.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Japan"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jam.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "jam" ;
+	schema:isPartOf <https://jam.wikipedia.org/> ;
+	schema:name "Japan"@jam .
+
+<https://jam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jbo.wikipedia.org/wiki/pongu%27e> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "jbo" ;
+	schema:isPartOf <https://jbo.wikipedia.org/> ;
+	schema:name "pongu'e"@jbo .
+
+<https://jbo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jv.wikipedia.org/wiki/Jepang> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "jv" ;
+	schema:isPartOf <https://jv.wikipedia.org/> ;
+	schema:name "Jepang"@jv .
+
+<https://jv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%98%E1%83%90%E1%83%9E%E1%83%9D%E1%83%9C%E1%83%98%E1%83%90> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "იაპონია"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kaa.wikipedia.org/wiki/Yaponiya> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "kaa" ;
+	schema:isPartOf <https://kaa.wikipedia.org/> ;
+	schema:name "Yaponiya"@kaa .
+
+<https://kaa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kab.wikipedia.org/wiki/Yapan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "kab" ;
+	schema:isPartOf <https://kab.wikipedia.org/> ;
+	schema:name "Yapan"@kab .
+
+<https://kab.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kbd.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "kbd" ;
+	schema:isPartOf <https://kbd.wikipedia.org/> ;
+	schema:name "Япон"@kbd .
+
+<https://kbd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kbp.wikipedia.org/wiki/Sap%C9%94%C5%8B> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "kbp" ;
+	schema:isPartOf <https://kbp.wikipedia.org/> ;
+	schema:name "Sapɔŋ"@kbp .
+
+<https://kbp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kg.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "kg" ;
+	schema:isPartOf <https://kg.wikipedia.org/> ;
+	schema:name "Japan"@kg .
+
+<https://kg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ki.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ki" ;
+	schema:isPartOf <https://ki.wikipedia.org/> ;
+	schema:name "Japan"@ki .
+
+<https://ki.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kk.wikipedia.org/wiki/%D0%96%D0%B0%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "kk" ;
+	schema:isPartOf <https://kk.wikipedia.org/> ;
+	schema:name "Жапония"@kk .
+
+<https://kk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://km.wikipedia.org/wiki/%E1%9E%87%E1%9E%94%E1%9F%89%E1%9E%BB%E1%9E%93> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "km" ;
+	schema:isPartOf <https://km.wikipedia.org/> ;
+	schema:name "ជប៉ុន"@km ;
+	wikibase:badge wd:Q17437796 .
+
+<https://km.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kn.wikipedia.org/wiki/%E0%B2%9C%E0%B2%AA%E0%B2%BE%E0%B2%A8%E0%B3%8D> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "kn" ;
+	schema:isPartOf <https://kn.wikipedia.org/> ;
+	schema:name "ಜಪಾನ್"@kn .
+
+<https://kn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://koi.wikipedia.org/wiki/%D0%9D%D0%B8%D0%BF%D0%BF%D0%BE%D0%BD> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "koi" ;
+	schema:isPartOf <https://koi.wikipedia.org/> ;
+	schema:name "Ниппон"@koi .
+
+<https://koi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://krc.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "krc" ;
+	schema:isPartOf <https://krc.wikipedia.org/> ;
+	schema:name "Япония"@krc .
+
+<https://krc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ksh.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ksh" ;
+	schema:isPartOf <https://ksh.wikipedia.org/> ;
+	schema:name "Japan"@ksh .
+
+<https://ksh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ku.wikipedia.org/wiki/Japon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ku" ;
+	schema:isPartOf <https://ku.wikipedia.org/> ;
+	schema:name "Japon"@ku .
+
+<https://ku.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Япония"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kw.wikipedia.org/wiki/Nihon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "kw" ;
+	schema:isPartOf <https://kw.wikipedia.org/> ;
+	schema:name "Nihon"@kw .
+
+<https://kw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Iaponia> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Iaponia"@la ;
+	wikibase:badge wd:Q17437796 .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lad.wikipedia.org/wiki/Japon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "lad" ;
+	schema:isPartOf <https://lad.wikipedia.org/> ;
+	schema:name "Japon"@lad .
+
+<https://lad.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lb.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "lb" ;
+	schema:isPartOf <https://lb.wikipedia.org/> ;
+	schema:name "Japan"@lb .
+
+<https://lb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lbe.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "lbe" ;
+	schema:isPartOf <https://lbe.wikipedia.org/> ;
+	schema:name "Япония"@lbe .
+
+<https://lbe.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lez.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "lez" ;
+	schema:isPartOf <https://lez.wikipedia.org/> ;
+	schema:name "Япония"@lez .
+
+<https://lez.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lfn.wikipedia.org/wiki/Nion> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "lfn" ;
+	schema:isPartOf <https://lfn.wikipedia.org/> ;
+	schema:name "Nion"@lfn .
+
+<https://lfn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lg.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "lg" ;
+	schema:isPartOf <https://lg.wikipedia.org/> ;
+	schema:name "Japan"@lg .
+
+<https://lg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://li.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "li" ;
+	schema:isPartOf <https://li.wikipedia.org/> ;
+	schema:name "Japan"@li .
+
+<https://li.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lij.wikipedia.org/wiki/Giappon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "lij" ;
+	schema:isPartOf <https://lij.wikipedia.org/> ;
+	schema:name "Giappon"@lij .
+
+<https://lij.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lld.wikipedia.org/wiki/Iapan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "lld" ;
+	schema:isPartOf <https://lld.wikipedia.org/> ;
+	schema:name "Iapan"@lld .
+
+<https://lld.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lmo.wikipedia.org/wiki/Giapun> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "lmo" ;
+	schema:isPartOf <https://lmo.wikipedia.org/> ;
+	schema:name "Giapun"@lmo .
+
+<https://lmo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ln.wikipedia.org/wiki/Zap%C9%94%CC%81> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ln" ;
+	schema:isPartOf <https://ln.wikipedia.org/> ;
+	schema:name "Zapɔ́"@ln .
+
+<https://ln.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lo.wikipedia.org/wiki/%E0%BA%9B%E0%BA%B0%E0%BB%80%E0%BA%97%E0%BA%94%E0%BA%8D%E0%BA%B5%E0%BB%88%E0%BA%9B%E0%BA%B8%E0%BB%88%E0%BA%99> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "lo" ;
+	schema:isPartOf <https://lo.wikipedia.org/> ;
+	schema:name "ປະເທດຍີ່ປຸ່ນ"@lo .
+
+<https://lo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Japonija> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Japonija"@lt ;
+	wikibase:badge wd:Q17437798 .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ltg.wikipedia.org/wiki/Japoneja> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ltg" ;
+	schema:isPartOf <https://ltg.wikipedia.org/> ;
+	schema:name "Japoneja"@ltg .
+
+<https://ltg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Jap%C4%81na> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Japāna"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mad.wikipedia.org/wiki/Jeppang> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "mad" ;
+	schema:isPartOf <https://mad.wikipedia.org/> ;
+	schema:name "Jeppang"@mad .
+
+<https://mad.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mai.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "mai" ;
+	schema:isPartOf <https://mai.wikipedia.org/> ;
+	schema:name "जापान"@mai .
+
+<https://mai.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://map-bms.wikipedia.org/wiki/Jepang> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "jv-x-bms" ;
+	schema:isPartOf <https://map-bms.wikipedia.org/> ;
+	schema:name "Jepang"@jv-x-bms .
+
+<https://map-bms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mdf.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D0%BC%D0%B0%D1%81%D1%82%D0%BE%D1%80> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "mdf" ;
+	schema:isPartOf <https://mdf.wikipedia.org/> ;
+	schema:name "Японмастор"@mdf .
+
+<https://mdf.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mg.wikipedia.org/wiki/Jap%C3%A0na> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "mg" ;
+	schema:isPartOf <https://mg.wikipedia.org/> ;
+	schema:name "Japàna"@mg .
+
+<https://mg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mhr.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D0%B9> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "mhr" ;
+	schema:isPartOf <https://mhr.wikipedia.org/> ;
+	schema:name "Японий"@mhr .
+
+<https://mhr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mi.wikipedia.org/wiki/Nipono> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "mi" ;
+	schema:isPartOf <https://mi.wikipedia.org/> ;
+	schema:name "Nipono"@mi .
+
+<https://mi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://min.wikipedia.org/wiki/Japang> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "min" ;
+	schema:isPartOf <https://min.wikipedia.org/> ;
+	schema:name "Japang"@min .
+
+<https://min.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%88%D0%B0%D0%BF%D0%BE%D0%BD%D0%B8%D1%98%D0%B0> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Јапонија"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%9C%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B4%BE%E0%B5%BB> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "ജപ്പാൻ"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mn.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "mn" ;
+	schema:isPartOf <https://mn.wikipedia.org/> ;
+	schema:name "Япон"@mn ;
+	wikibase:badge wd:Q17437796 .
+
+<https://mn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mni.wikipedia.org/wiki/%EA%AF%96%EA%AF%84%EA%AF%A5%EA%AF%9F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "mni" ;
+	schema:isPartOf <https://mni.wikipedia.org/> ;
+	schema:name "ꯖꯄꯥꯟ"@mni .
+
+<https://mni.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mr.wikipedia.org/wiki/%E0%A4%9C%E0%A4%AA%E0%A4%BE%E0%A4%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "mr" ;
+	schema:isPartOf <https://mr.wikipedia.org/> ;
+	schema:name "जपान"@mr .
+
+<https://mr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mrj.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "mrj" ;
+	schema:isPartOf <https://mrj.wikipedia.org/> ;
+	schema:name "Япони"@mrj .
+
+<https://mrj.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Jepun> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Jepun"@ms ;
+	wikibase:badge wd:Q17437796 .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mt.wikipedia.org/wiki/%C4%A0appun> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "mt" ;
+	schema:isPartOf <https://mt.wikipedia.org/> ;
+	schema:name "Ġappun"@mt .
+
+<https://mt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mwl.wikipedia.org/wiki/Japon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "mwl" ;
+	schema:isPartOf <https://mwl.wikipedia.org/> ;
+	schema:name "Japon"@mwl .
+
+<https://mwl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://my.wikipedia.org/wiki/%E1%80%82%E1%80%BB%E1%80%95%E1%80%94%E1%80%BA%E1%80%94%E1%80%AD%E1%80%AF%E1%80%84%E1%80%BA%E1%80%84%E1%80%B6> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "my" ;
+	schema:isPartOf <https://my.wikipedia.org/> ;
+	schema:name "ဂျပန်နိုင်ငံ"@my .
+
+<https://my.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://myv.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F_%D0%9C%D0%B0%D1%81%D1%82%D0%BE%D1%80> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "myv" ;
+	schema:isPartOf <https://myv.wikipedia.org/> ;
+	schema:name "Япония Мастор"@myv .
+
+<https://myv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mzn.wikipedia.org/wiki/%D8%AC%D8%A7%D9%BE%D9%88%D9%86> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "mzn" ;
+	schema:isPartOf <https://mzn.wikipedia.org/> ;
+	schema:name "جاپون"@mzn .
+
+<https://mzn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nap.wikipedia.org/wiki/Giappone> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "nap" ;
+	schema:isPartOf <https://nap.wikipedia.org/> ;
+	schema:name "Giappone"@nap .
+
+<https://nap.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nds.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "nds" ;
+	schema:isPartOf <https://nds.wikipedia.org/> ;
+	schema:name "Japan"@nds .
+
+<https://nds.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nds-nl.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "nds-NL" ;
+	schema:isPartOf <https://nds-nl.wikipedia.org/> ;
+	schema:name "Japan"@nds-NL .
+
+<https://nds-nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ne.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ne" ;
+	schema:isPartOf <https://ne.wikipedia.org/> ;
+	schema:name "जापान"@ne .
+
+<https://ne.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://new.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "new" ;
+	schema:isPartOf <https://new.wikipedia.org/> ;
+	schema:name "जापान"@new .
+
+<https://new.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nia.wikipedia.org/wiki/Jepang> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "nia" ;
+	schema:isPartOf <https://nia.wikipedia.org/> ;
+	schema:name "Jepang"@nia .
+
+<https://nia.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Japan"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nov.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "nov" ;
+	schema:isPartOf <https://nov.wikipedia.org/> ;
+	schema:name "Japan"@nov .
+
+<https://nov.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nqo.wikipedia.org/wiki/%DF%97%DF%AD%DF%8A%DF%94%DF%90%DF%B2%DF%AB> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "nqo" ;
+	schema:isPartOf <https://nqo.wikipedia.org/> ;
+	schema:name "ߗ߭ߊߔߐ߲߫"@nqo .
+
+<https://nqo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nrm.wikipedia.org/wiki/Japon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "fr-x-nrm" ;
+	schema:isPartOf <https://nrm.wikipedia.org/> ;
+	schema:name "Japon"@fr-x-nrm .
+
+<https://nrm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nso.wikipedia.org/wiki/Japane> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "nso" ;
+	schema:isPartOf <https://nso.wikipedia.org/> ;
+	schema:name "Japane"@nso .
+
+<https://nso.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nv.wikipedia.org/wiki/Bin%C3%A1%C3%A1%CA%BC%C3%A1daa%C5%82ts%CA%BC%C3%B3z%C3%AD_Dine%CA%BC%C3%A9_Bik%C3%A9yah> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "nv" ;
+	schema:isPartOf <https://nv.wikipedia.org/> ;
+	schema:name "Binááʼádaałtsʼózí Dineʼé Bikéyah"@nv .
+
+<https://nv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ny.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ny" ;
+	schema:isPartOf <https://ny.wikipedia.org/> ;
+	schema:name "Japan"@ny .
+
+<https://ny.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Japon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Japon"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://olo.wikipedia.org/wiki/Japounii> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "olo" ;
+	schema:isPartOf <https://olo.wikipedia.org/> ;
+	schema:name "Japounii"@olo .
+
+<https://olo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://om.wikipedia.org/wiki/Jaappaan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "om" ;
+	schema:isPartOf <https://om.wikipedia.org/> ;
+	schema:name "Jaappaan"@om .
+
+<https://om.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://or.wikipedia.org/wiki/%E0%AC%9C%E0%AC%BE%E0%AC%AA%E0%AC%BE%E0%AC%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "or" ;
+	schema:isPartOf <https://or.wikipedia.org/> ;
+	schema:name "ଜାପାନ"@or .
+
+<https://or.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://os.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "os" ;
+	schema:isPartOf <https://os.wikipedia.org/> ;
+	schema:name "Япон"@os .
+
+<https://os.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pa.wikipedia.org/wiki/%E0%A8%9C%E0%A8%AA%E0%A8%BE%E0%A8%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pa" ;
+	schema:isPartOf <https://pa.wikipedia.org/> ;
+	schema:name "ਜਪਾਨ"@pa .
+
+<https://pa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pag.wikipedia.org/wiki/Hapon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pag" ;
+	schema:isPartOf <https://pag.wikipedia.org/> ;
+	schema:name "Hapon"@pag .
+
+<https://pag.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pam.wikipedia.org/wiki/Hapon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pam" ;
+	schema:isPartOf <https://pam.wikipedia.org/> ;
+	schema:name "Hapon"@pam .
+
+<https://pam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pap.wikipedia.org/wiki/Hapon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pap" ;
+	schema:isPartOf <https://pap.wikipedia.org/> ;
+	schema:name "Hapon"@pap .
+
+<https://pap.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pcd.wikipedia.org/wiki/Japon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pcd" ;
+	schema:isPartOf <https://pcd.wikipedia.org/> ;
+	schema:name "Japon"@pcd .
+
+<https://pcd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pdc.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pdc" ;
+	schema:isPartOf <https://pdc.wikipedia.org/> ;
+	schema:name "Japan"@pdc .
+
+<https://pdc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pfl.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pfl" ;
+	schema:isPartOf <https://pfl.wikipedia.org/> ;
+	schema:name "Japan"@pfl .
+
+<https://pfl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pi.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pi" ;
+	schema:isPartOf <https://pi.wikipedia.org/> ;
+	schema:name "जापान"@pi .
+
+<https://pi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pih.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pih" ;
+	schema:isPartOf <https://pih.wikipedia.org/> ;
+	schema:name "Japan"@pih .
+
+<https://pih.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Giapon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Giapon"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%D8%AC%D8%A7%D9%BE%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "جاپان"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnt.wikipedia.org/wiki/%CE%99%CE%B1%CF%80%CF%89%CE%BD%CE%AF%CE%B1> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pnt" ;
+	schema:isPartOf <https://pnt.wikipedia.org/> ;
+	schema:name "Ιαπωνία"@pnt .
+
+<https://pnt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ps.wikipedia.org/wiki/%D8%AC%D8%A7%D9%BE%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ps" ;
+	schema:isPartOf <https://ps.wikipedia.org/> ;
+	schema:name "جاپان"@ps .
+
+<https://ps.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://qu.wikipedia.org/wiki/Nihun> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "qu" ;
+	schema:isPartOf <https://qu.wikipedia.org/> ;
+	schema:name "Nihun"@qu .
+
+<https://qu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rm.wikipedia.org/wiki/Giapun> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "rm" ;
+	schema:isPartOf <https://rm.wikipedia.org/> ;
+	schema:name "Giapun"@rm .
+
+<https://rm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rmy.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "rmy" ;
+	schema:isPartOf <https://rmy.wikipedia.org/> ;
+	schema:name "Japan"@rmy .
+
+<https://rmy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rn.wikipedia.org/wiki/Yapon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "rn" ;
+	schema:isPartOf <https://rn.wikipedia.org/> ;
+	schema:name "Yapon"@rn .
+
+<https://rn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://roa-rup.wikipedia.org/wiki/Japonia> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "rup" ;
+	schema:isPartOf <https://roa-rup.wikipedia.org/> ;
+	schema:name "Japonia"@rup .
+
+<https://roa-rup.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://roa-tara.wikipedia.org/wiki/Giappone> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "it-x-tara" ;
+	schema:isPartOf <https://roa-tara.wikipedia.org/> ;
+	schema:name "Giappone"@it-x-tara .
+
+<https://roa-tara.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rue.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "rue" ;
+	schema:isPartOf <https://rue.wikipedia.org/> ;
+	schema:name "Японія"@rue .
+
+<https://rue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rw.wikipedia.org/wiki/Ubuyapani> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "rw" ;
+	schema:isPartOf <https://rw.wikipedia.org/> ;
+	schema:name "Ubuyapani"@rw .
+
+<https://rw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sa.wikipedia.org/wiki/%E0%A4%9C%E0%A4%AA%E0%A4%BE%E0%A4%A8%E0%A5%8D> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sa" ;
+	schema:isPartOf <https://sa.wikipedia.org/> ;
+	schema:name "जपान्"@sa .
+
+<https://sa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sah.wikipedia.org/wiki/%D0%94%D1%8C%D0%BE%D0%BF%D0%BF%D1%83%D0%BE%D0%BD> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sah" ;
+	schema:isPartOf <https://sah.wikipedia.org/> ;
+	schema:name "Дьоппуон"@sah .
+
+<https://sah.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%A1%E1%B1%9F%E1%B1%AF%E1%B1%9F%E1%B1%B1> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱡᱟᱯᱟᱱ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sc.wikipedia.org/wiki/Giappone> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sc" ;
+	schema:isPartOf <https://sc.wikipedia.org/> ;
+	schema:name "Giappone"@sc .
+
+<https://sc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://scn.wikipedia.org/wiki/Giappuni> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "scn" ;
+	schema:isPartOf <https://scn.wikipedia.org/> ;
+	schema:name "Giappuni"@scn .
+
+<https://scn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sco.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sco" ;
+	schema:isPartOf <https://sco.wikipedia.org/> ;
+	schema:name "Japan"@sco .
+
+<https://sco.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sd.wikipedia.org/wiki/%D8%AC%D8%A7%D9%BE%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sd" ;
+	schema:isPartOf <https://sd.wikipedia.org/> ;
+	schema:name "جاپان"@sd .
+
+<https://sd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://se.wikipedia.org/wiki/J%C3%A1hpan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "se" ;
+	schema:isPartOf <https://se.wikipedia.org/> ;
+	schema:name "Jáhpan"@se .
+
+<https://se.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sg.wikipedia.org/wiki/Zap%C3%B6o> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sg" ;
+	schema:isPartOf <https://sg.wikipedia.org/> ;
+	schema:name "Zapöo"@sg .
+
+<https://sg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Japan"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://shn.wikipedia.org/wiki/%E1%80%99%E1%80%AD%E1%80%B0%E1%80%84%E1%80%BA%E1%80%B8%E1%81%B5%E1%80%BB%E1%82%83%E1%82%87%E1%80%95%E1%81%A2%E1%81%BC%E1%80%BA%E1%82%87> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "shn" ;
+	schema:isPartOf <https://shn.wikipedia.org/> ;
+	schema:name "မိူင်းၵျႃႇပၢၼ်ႇ"@shn .
+
+<https://shn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://si.wikipedia.org/wiki/%E0%B6%A2%E0%B6%B4%E0%B7%8F%E0%B6%B1%E0%B6%BA> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "si" ;
+	schema:isPartOf <https://si.wikipedia.org/> ;
+	schema:name "ජපානය"@si .
+
+<https://si.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sk.wikipedia.org/wiki/Japonsko> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sk" ;
+	schema:isPartOf <https://sk.wikipedia.org/> ;
+	schema:name "Japonsko"@sk .
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://skr.wikipedia.org/wiki/%D8%AC%D8%A7%D9%BE%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "skr" ;
+	schema:isPartOf <https://skr.wikipedia.org/> ;
+	schema:name "جاپان"@skr .
+
+<https://skr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sl.wikipedia.org/wiki/Japonska> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikipedia.org/> ;
+	schema:name "Japonska"@sl ;
+	wikibase:badge wd:Q17437796 .
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sm.wikipedia.org/wiki/Iapani> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sm" ;
+	schema:isPartOf <https://sm.wikipedia.org/> ;
+	schema:name "Iapani"@sm .
+
+<https://sm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://smn.wikipedia.org/wiki/Jaapaan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "smn" ;
+	schema:isPartOf <https://smn.wikipedia.org/> ;
+	schema:name "Jaapaan"@smn .
+
+<https://smn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sn.wikipedia.org/wiki/Japani> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sn" ;
+	schema:isPartOf <https://sn.wikipedia.org/> ;
+	schema:name "Japani"@sn .
+
+<https://sn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://so.wikipedia.org/wiki/Jabaan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "so" ;
+	schema:isPartOf <https://so.wikipedia.org/> ;
+	schema:name "Jabaan"@so .
+
+<https://so.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sq.wikipedia.org/wiki/Japonia> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sq" ;
+	schema:isPartOf <https://sq.wikipedia.org/> ;
+	schema:name "Japonia"@sq .
+
+<https://sq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://srn.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "srn" ;
+	schema:isPartOf <https://srn.wikipedia.org/> ;
+	schema:name "Japan"@srn .
+
+<https://srn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ss.wikipedia.org/wiki/IJaphani> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ss" ;
+	schema:isPartOf <https://ss.wikipedia.org/> ;
+	schema:name "IJaphani"@ss .
+
+<https://ss.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://st.wikipedia.org/wiki/Japane> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "st" ;
+	schema:isPartOf <https://st.wikipedia.org/> ;
+	schema:name "Japane"@st .
+
+<https://st.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://stq.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "stq" ;
+	schema:isPartOf <https://stq.wikipedia.org/> ;
+	schema:name "Japan"@stq .
+
+<https://stq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://su.wikipedia.org/wiki/Jepang> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "su" ;
+	schema:isPartOf <https://su.wikipedia.org/> ;
+	schema:name "Jepang"@su .
+
+<https://su.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Japani> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Japani"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szl.wikipedia.org/wiki/Jap%C5%AF%C5%84ijo> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "szl" ;
+	schema:isPartOf <https://szl.wikipedia.org/> ;
+	schema:name "Japůńijo"@szl .
+
+<https://szl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szy.wikipedia.org/wiki/Zipun> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "szy" ;
+	schema:isPartOf <https://szy.wikipedia.org/> ;
+	schema:name "Zipun"@szy .
+
+<https://szy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%AF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%A9%E0%AF%8D> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "யப்பான்"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tay.wikipedia.org/wiki/Gipun> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "tay" ;
+	schema:isPartOf <https://tay.wikipedia.org/> ;
+	schema:name "Gipun"@tay .
+
+<https://tay.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tcy.wikipedia.org/wiki/%E0%B2%9C%E0%B2%AA%E0%B2%BE%E0%B2%A8%E0%B3%8D> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "tcy" ;
+	schema:isPartOf <https://tcy.wikipedia.org/> ;
+	schema:name "ಜಪಾನ್"@tcy .
+
+<https://tcy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://te.wikipedia.org/wiki/%E0%B0%9C%E0%B0%AA%E0%B0%BE%E0%B0%A8%E0%B1%8D> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "te" ;
+	schema:isPartOf <https://te.wikipedia.org/> ;
+	schema:name "జపాన్"@te .
+
+<https://te.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tet.wikipedia.org/wiki/Japaun> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "tet" ;
+	schema:isPartOf <https://tet.wikipedia.org/> ;
+	schema:name "Japaun"@tet .
+
+<https://tet.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tg.wikipedia.org/wiki/%D2%B6%D0%BE%D0%BF%D0%BE%D0%BD> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "tg" ;
+	schema:isPartOf <https://tg.wikipedia.org/> ;
+	schema:name "Ҷопон"@tg .
+
+<https://tg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ประเทศญี่ปุ่น"@th ;
+	wikibase:badge wd:Q17437796 .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ti.wikipedia.org/wiki/%E1%8C%83%E1%8D%93%E1%8A%95> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ti" ;
+	schema:isPartOf <https://ti.wikipedia.org/> ;
+	schema:name "ጃፓን"@ti .
+
+<https://ti.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tk.wikipedia.org/wiki/%C3%9Daponi%C3%BDa> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "tk" ;
+	schema:isPartOf <https://tk.wikipedia.org/> ;
+	schema:name "Ýaponiýa"@tk .
+
+<https://tk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Hapon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Hapon"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tn.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "tn" ;
+	schema:isPartOf <https://tn.wikipedia.org/> ;
+	schema:name "Japan"@tn .
+
+<https://tn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://to.wikipedia.org/wiki/Siapani> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "to" ;
+	schema:isPartOf <https://to.wikipedia.org/> ;
+	schema:name "Siapani"@to .
+
+<https://to.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tpi.wikipedia.org/wiki/Siapan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "tpi" ;
+	schema:isPartOf <https://tpi.wikipedia.org/> ;
+	schema:name "Siapan"@tpi .
+
+<https://tpi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ts.wikipedia.org/wiki/Japani> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ts" ;
+	schema:isPartOf <https://ts.wikipedia.org/> ;
+	schema:name "Japani"@ts .
+
+<https://ts.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Япония"@tt ;
+	wikibase:badge wd:Q17437796 .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tum.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "tum" ;
+	schema:isPartOf <https://tum.wikipedia.org/> ;
+	schema:name "Japan"@tum .
+
+<https://tum.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ty.wikipedia.org/wiki/T%C4%81p%C5%8Dn%C4%93> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ty" ;
+	schema:isPartOf <https://ty.wikipedia.org/> ;
+	schema:name "Tāpōnē"@ty .
+
+<https://ty.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tyv.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "tyv" ;
+	schema:isPartOf <https://tyv.wikipedia.org/> ;
+	schema:name "Япония"@tyv .
+
+<https://tyv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://udm.wikipedia.org/wiki/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "udm" ;
+	schema:isPartOf <https://udm.wikipedia.org/> ;
+	schema:name "Япония"@udm .
+
+<https://udm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ug.wikipedia.org/wiki/%D9%8A%D8%A7%D9%BE%D9%88%D9%86%D9%89%D9%8A%DB%95> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ug" ;
+	schema:isPartOf <https://ug.wikipedia.org/> ;
+	schema:name "ياپونىيە"@ug .
+
+<https://ug.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D8%AC%D8%A7%D9%BE%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "جاپان"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Yaponiya> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Yaponiya"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ve.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ve" ;
+	schema:isPartOf <https://ve.wikipedia.org/> ;
+	schema:name "Japan"@ve .
+
+<https://ve.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vec.wikipedia.org/wiki/Japon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "vec" ;
+	schema:isPartOf <https://vec.wikipedia.org/> ;
+	schema:name "Japon"@vec .
+
+<https://vec.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vep.wikipedia.org/wiki/Japonii> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "vep" ;
+	schema:isPartOf <https://vep.wikipedia.org/> ;
+	schema:name "Japonii"@vep .
+
+<https://vep.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vls.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "vls" ;
+	schema:isPartOf <https://vls.wikipedia.org/> ;
+	schema:name "Japan"@vls .
+
+<https://vls.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vo.wikipedia.org/wiki/Yap%C3%A4n> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "vo" ;
+	schema:isPartOf <https://vo.wikipedia.org/> ;
+	schema:name "Yapän"@vo .
+
+<https://vo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wa.wikipedia.org/wiki/Djapon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "wa" ;
+	schema:isPartOf <https://wa.wikipedia.org/> ;
+	schema:name "Djapon"@wa .
+
+<https://wa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://war.wikipedia.org/wiki/Hapon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "war" ;
+	schema:isPartOf <https://war.wikipedia.org/> ;
+	schema:name "Hapon"@war .
+
+<https://war.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wo.wikipedia.org/wiki/Sapo%C5%8B> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "wo" ;
+	schema:isPartOf <https://wo.wikipedia.org/> ;
+	schema:name "Sapoŋ"@wo .
+
+<https://wo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "日本"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://xal.wikipedia.org/wiki/%D0%9D%D0%B8x%D1%83%D1%83%D0%B4%D0%B8%D0%BD_%D0%9D%D1%83%D1%82%D0%B3> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "xal" ;
+	schema:isPartOf <https://xal.wikipedia.org/> ;
+	schema:name "Ниxуудин Нутг"@xal .
+
+<https://xal.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://xh.wikipedia.org/wiki/IJapani> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "xh" ;
+	schema:isPartOf <https://xh.wikipedia.org/> ;
+	schema:name "IJapani"@xh .
+
+<https://xh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://xmf.wikipedia.org/wiki/%E1%83%98%E1%83%90%E1%83%9E%E1%83%9D%E1%83%9C%E1%83%98%E1%83%90> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "xmf" ;
+	schema:isPartOf <https://xmf.wikipedia.org/> ;
+	schema:name "იაპონია"@xmf .
+
+<https://xmf.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://yi.wikipedia.org/wiki/%D7%99%D7%90%D7%A4%D7%90%D7%9F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "yi" ;
+	schema:isPartOf <https://yi.wikipedia.org/> ;
+	schema:name "יאפאן"@yi .
+
+<https://yi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://yo.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "yo" ;
+	schema:isPartOf <https://yo.wikipedia.org/> ;
+	schema:name "Japan"@yo .
+
+<https://yo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zea.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "zea" ;
+	schema:isPartOf <https://zea.wikipedia.org/> ;
+	schema:name "Japan"@zea .
+
+<https://zea.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-classical.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "lzh" ;
+	schema:isPartOf <https://zh-classical.wikipedia.org/> ;
+	schema:name "日本"@lzh .
+
+<https://zh-classical.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-min-nan.wikipedia.org/wiki/Ji%CC%8Dt-p%C3%BAn> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "nan" ;
+	schema:isPartOf <https://zh-min-nan.wikipedia.org/> ;
+	schema:name "Ji̍t-pún"@nan .
+
+<https://zh-min-nan.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "日本"@yue ;
+	wikibase:badge wd:Q17437796 .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zu.wikipedia.org/wiki/IJaphani> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "zu" ;
+	schema:isPartOf <https://zu.wikipedia.org/> ;
+	schema:name "IJaphani"@zu .
+
+<https://zu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikibooks.org/wiki/C%C3%A1c_qu%E1%BB%91c_gia/Nh%E1%BA%ADt_B%E1%BA%A3n> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikibooks.org/> ;
+	schema:name "Các quốc gia/Nhật Bản"@vi .
+
+<https://vi.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://pwn.wikipedia.org/wiki/Dripun> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pwn" ;
+	schema:isPartOf <https://pwn.wikipedia.org/> ;
+	schema:name "Dripun"@pwn .
+
+<https://pwn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ami.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ami" ;
+	schema:isPartOf <https://ami.wikipedia.org/> ;
+	schema:name "Japan"@ami .
+
+<https://ami.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikivoyage.org/wiki/%D7%99%D7%A4%D7%9F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikivoyage.org/> ;
+	schema:name "יפן"@he ;
+	wikibase:badge wd:Q17437798 .
+
+<https://he.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://tw.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "tw" ;
+	schema:isPartOf <https://tw.wikipedia.org/> ;
+	schema:name "Japan"@tw .
+
+<https://tw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://guw.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "guw" ;
+	schema:isPartOf <https://guw.wikipedia.org/> ;
+	schema:name "Japan"@guw .
+
+<https://guw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Nh%E1%BA%ADt_B%E1%BA%A3n> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Nhật Bản"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kcg.wikipedia.org/wiki/Ja%CC%B1pan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "kcg" ;
+	schema:isPartOf <https://kcg.wikipedia.org/> ;
+	schema:name "Ja̱pan"@kcg .
+
+<https://kcg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frp.wikipedia.org/wiki/Japon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "frp" ;
+	schema:isPartOf <https://frp.wikipedia.org/> ;
+	schema:name "Japon"@frp .
+
+<https://frp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://crh.wikipedia.org/wiki/Japon> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "crh-Latn" ;
+	schema:isPartOf <https://crh.wikipedia.org/> ;
+	schema:name "Japon"@crh-Latn .
+
+<https://crh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikiquote.org/wiki/%D0%88%D0%B0%D0%BF%D0%B0%D0%BD> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikiquote.org/> ;
+	schema:name "Јапан"@sr .
+
+<https://sr.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://trv.wikipedia.org/wiki/Tanah_Tunux> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "trv" ;
+	schema:isPartOf <https://trv.wikipedia.org/> ;
+	schema:name "Tanah Tunux"@trv .
+
+<https://trv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://blk.wikipedia.org/wiki/%E1%80%82%E1%80%BB%E1%80%95%E1%80%94%E1%80%BA%E1%80%81%E1%80%99%E1%80%BA%E1%80%B8%E1%80%91%E1%80%AE> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "blk" ;
+	schema:isPartOf <https://blk.wikipedia.org/> ;
+	schema:name "ဂျပန်ခမ်းထီ"@blk .
+
+<https://blk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pcm.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "pcm" ;
+	schema:isPartOf <https://pcm.wikipedia.org/> ;
+	schema:name "Japan"@pcm .
+
+<https://pcm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://co.wikipedia.org/wiki/Giappone> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "co" ;
+	schema:isPartOf <https://co.wikipedia.org/> ;
+	schema:name "Giappone"@co .
+
+<https://co.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dag.wikipedia.org/wiki/Japan> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "dag" ;
+	schema:isPartOf <https://dag.wikipedia.org/> ;
+	schema:name "Japan"@dag .
+
+<https://dag.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ky.wikipedia.org/wiki/%D0%96%D0%B0%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "ky" ;
+	schema:isPartOf <https://ky.wikipedia.org/> ;
+	schema:name "Жапония"@ky .
+
+<https://ky.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikiquote.org/wiki/%E0%A6%9C%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikiquote.org/> ;
+	schema:name "জাপান"@bn .
+
+<https://bn.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://iu.wikipedia.org/wiki/%E1%94%AD%E1%90%B9%E1%93%90> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "iu" ;
+	schema:isPartOf <https://iu.wikipedia.org/> ;
+	schema:name "ᔭᐹᓐ"@iu .
+
+<https://iu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikiquote.org/wiki/Japonya> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikiquote.org/> ;
+	schema:name "Japonya"@tr .
+
+<https://tr.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://anp.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%A8> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "anp" ;
+	schema:isPartOf <https://anp.wikipedia.org/> ;
+	schema:name "जापान"@anp .
+
+<https://anp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://za.wikipedia.org/wiki/Nyiedbonj> a schema:Article ;
+	schema:about wd:Q17 ;
+	schema:inLanguage "za" ;
+	schema:isPartOf <https://za.wikipedia.org/> ;
+	schema:name "Nyiedbonj"@za .
+
+<https://za.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q17 wdt:P2924 "4919294" ;
+	wdt:P409 "35242950" ;
+	wdt:P1333 "Point(136.06972222222 20.425277777778)"^^geo:wktLiteral ;
+	wdt:P3134 "294232" ;
+	wdt:P3221 "destination/japan" ;
+	wdt:P227 "4028495-5" ;
+	wdtn:P227 <https://d-nb.info/gnd/4028495-5> ;
+	wdt:P1792 wd:Q9072262,
+		wd:Q6994491 ;
+	wdt:P2852 wd:Q2807090,
+		wd:Q25648823,
+		wd:Q11185210 ;
+	wdt:P2853 wd:Q24288454,
+		wd:Q24288456 ;
+	wdt:P395 "J" ;
+	wdt:P6385 "strany_mira/YAPONIYA.html" ;
+	wdt:P2581 "00047985n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s00047985n> ;
+	wdt:P4073 "japan" ;
+	wdt:P1705 "日本"@ja ;
+	wdt:P982 "2db42837-c832-3c27-b4a3-08198f75693c" ;
+	wdtn:P982 <http://musicbrainz.org/area/2db42837-c832-3c27-b4a3-08198f75693c> ;
+	wdt:P832 wd:Q483226,
+		wd:Q1059995,
+		wd:Q1049141,
+		wd:Q1361434,
+		wd:Q1361489,
+		wd:Q1355051,
+		wd:Q1145630,
+		wd:Q1355833,
+		wd:Q1186127,
+		wd:Q1186410,
+		wd:Q1359602,
+		wd:Q1009535,
+		wd:Q82405,
+		wd:Q72318,
+		wd:Q17218111 ;
+	wdt:P41 <http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Japan.svg> ;
+	wdt:P2981 "J" ;
+	wdt:P5905 "4020-55746" ;
+	wdt:P3422 "99217" ;
+	wdt:P530 wd:Q183,
+		wd:Q227,
+		wd:Q30,
+		wd:Q142,
+		wd:Q159,
+		wd:Q38,
+		wd:Q155,
+		wd:Q801,
+		wd:Q711,
+		wd:Q408,
+		wd:Q869,
+		wd:Q884,
+		wd:Q145,
+		wd:Q212,
+		wd:Q851,
+		wd:Q858,
+		wd:Q928,
+		wd:Q148,
+		wd:Q29520,
+		wd:Q794,
+		wd:Q668,
+		wd:Q399,
+		wd:Q244,
+		wd:Q423,
+		wd:Q41,
+		wd:Q902,
+		wd:Q403,
+		wd:Q1246,
+		wd:Q12585,
+		wd:Q33,
+		wd:Q917,
+		wd:Q574,
+		wd:Q235,
+		wd:Q29,
+		wd:Q334,
+		wd:Q34,
+		wd:Q419,
+		wd:Q458,
+		wd:Q685,
+		wd:Q881,
+		wd:Q96,
+		wd:Q717,
+		wd:Q77,
+		wd:Q754,
+		wd:Q865,
+		wd:Q854,
+		wd:Q258,
+		wd:Q45,
+		wd:Q733,
+		wd:Q843,
+		wd:Q664,
+		wd:Q55,
+		wd:Q837,
+		wd:Q236,
+		wd:Q833,
+		wd:Q37,
+		wd:Q819,
+		wd:Q889,
+		wd:Q40,
+		wd:Q230,
+		wd:Q79,
+		wd:Q115,
+		wd:Q739,
+		wd:Q424,
+		wd:Q16,
+		wd:Q35,
+		wd:Q222,
+		wd:Q262,
+		wd:Q252,
+		wd:Q769,
+		wd:Q28,
+		wd:Q921,
+		wd:Q15180,
+		wd:Q233,
+		wd:Q43,
+		wd:Q20 ;
+	wdt:P2082 "392" ;
+	wdt:P935 "日本" ;
+	wdt:P214 "159367111" ;
+	wdtn:P214 <http://viaf.org/viaf/159367111> ;
+	wdt:P2184 wd:Q130436 ;
+	wdt:P206 wd:Q27092,
+		wd:Q98,
+		wd:Q41602,
+		wd:Q45341,
+		wd:Q159183 ;
+	wdt:P3984 "japan" ;
+	wdt:P950 "XX450954" ;
+	wdtn:P950 <http://datos.bne.es/resource/XX450954> ;
+	wdt:P402 "382313" ;
+	wdtn:P402 <https://www.openstreetmap.org/relation/382313> ;
+	wdt:P373 "Japan" ;
+	wdt:P906 "149361" ;
+	wdtn:P906 <http://libris.kb.se/resource/auth/149361> ;
+	wdt:P3241 "08297a" ;
+	wdt:P2258 "440",
+		"441" ;
+	wdt:P2979 "431",
+		"432" ;
+	wdt:P1225 "10035705" ;
+	wdt:P5198 "294918280" ;
+	wdt:P1315 "879221" ;
+	wdt:P3000 "+18"^^xsd:decimal,
+		"+18"^^xsd:decimal ;
+	wdt:P35 wd:Q217096 ;
+	wdt:P1791 wd:Q7978954 ;
+	wdt:P3896 <http://commons.wikimedia.org/data/main/Data:Japan.map> ;
+	wdt:P1036 "2--52" ;
+	wdt:P1334 "Point(153.98638888889 24.283055555556)"^^geo:wktLiteral ;
+	wdt:P1549 "Japanese"@en,
+		"Japanner"@nl,
+		"Japanse"@nl,
+		"японцы"@ru,
+		"японец"@ru,
+		"японка"@ru,
+		"Japonec"@cs,
+		"Japaner"@de,
+		"Japanerin"@de,
+		"日本人"@zh,
+		"japonés"@es,
+		"japonesa"@es,
+		"日本人"@ja,
+		"Japonaise"@fr,
+		"Japonais"@fr,
+		"giappunisi"@scn,
+		"giappunisa"@scn,
+		"giappunisi"@scn,
+		"japán"@hu,
+		"Japoniano"@io,
+		"japano"@eo,
+		"Yapänan"@vo,
+		"japoniar"@eu,
+		"японци"@bg,
+		"японец"@bg,
+		"японка"@bg,
+		"ياباني"@ar,
+		"يابانيون"@ar,
+		"японець"@uk,
+		"японка"@uk,
+		"японці"@uk,
+		"יפני"@he,
+		"יפנית"@he,
+		"japonezi"@ro,
+		"japonez"@ro,
+		"japoneză"@ro,
+		"জাপানি"@bn,
+		"giapponese"@it,
+		"giapponesi"@it,
+		"nion"@lfn,
+		"japanes"@lfn,
+		"يابانية"@ar,
+		"xaponés"@ast,
+		"xaponesa"@ast,
+		"orang Jepun"@ms,
+		"xaponeso"@ast,
+		"Japonés"@oc,
+		"Ιάπωνας"@el,
+		"Γιαπωνέζα"@el,
+		"Ιάπωνες"@el,
+		"ژاپنی"@fa,
+		"japonês"@pt,
+		"sedripun"@pwn,
+		"Japonaises"@fr,
+		"japonezo"@vec,
+		"japonezi"@vec,
+		"japoneza"@vec,
+		"japoneze"@vec,
+		"japonès"@ca,
+		"japonesa"@ca,
+		"japonesos"@ca,
+		"japoneses"@ca ;
+	wdt:P3612 "pays/japon" ;
+	wdt:P3001 "+60"^^xsd:decimal ;
+	wdt:P463 wd:Q41550,
+		wd:Q37143,
+		wd:Q7825,
+		wd:Q19771,
+		wd:Q170481,
+		wd:Q1065,
+		wd:Q191384,
+		wd:Q827525,
+		wd:Q656801,
+		wd:Q1043527,
+		wd:Q899770,
+		wd:Q340195,
+		wd:Q7886981,
+		wd:Q188822,
+		wd:Q782942,
+		wd:Q38130,
+		wd:Q1072120,
+		wd:Q8475,
+		wd:Q1480793,
+		wd:Q842490,
+		wd:Q233611,
+		wd:Q826700,
+		wd:Q7809,
+		wd:Q5611262,
+		wd:Q17495,
+		wd:Q376150,
+		wd:Q45177,
+		wd:Q170424,
+		wd:Q7817 ;
+	wdt:P1198 "+4"^^xsd:decimal ;
+	wdt:P5658 wd:Q13196750 ;
+	wdt:P421 wd:Q909085,
+		wd:Q63285941 ;
+	wdt:P1465 wd:Q6334572 ;
+	wdt:P4839 "Entity[\"Country\", \"Japan\"]" ;
+	wdt:P2347 "105023" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p105023> ;
+	wdt:P1906 wd:Q208233 ;
+	wdt:P361 wd:Q27231 ;
+	wdt:P1245 "6916" ;
+	wdt:P47 wd:Q159,
+		wd:Q884,
+		wd:Q865,
+		wd:Q148,
+		wd:Q30,
+		wd:Q15180,
+		wd:Q928 ;
+	wdt:P527 wd:Q905661,
+		wd:Q1063689,
+		wd:Q841336,
+		wd:Q1063946,
+		wd:Q905991 ;
+	wdt:P793 wd:Q8663,
+		wd:Q392541,
+		wd:Q7445004,
+		wd:Q694604,
+		wd:Q8420,
+		wd:Q1119956,
+		wd:Q9646,
+		wd:Q5367188,
+		wd:Q17208829,
+		wd:Q214866,
+		wd:Q9664,
+		wd:Q1377385,
+		wd:Q47735,
+		wd:Q1136168,
+		wd:Q171178,
+		wd:Q362,
+		wd:Q181278 ;
+	wdt:P3183 "subject/J/Japan/3055" ;
+	wdt:P3365 "giappone" ;
+	wdt:P898 "(j)ɪˈponʲɪjə",
+		"ʒaˈponi.a" ;
+	wdt:P299 "392" ;
+	wdt:P1335 "Point(122.9325 24.451388888889)"^^geo:wktLiteral ;
+	wdt:P5247 "3035-37" ;
+	wdt:P474 "+81" ;
+	wdt:P3911 "17568-3" ;
+	wdtn:P3911 <http://zbw.eu/stw/descriptor/17568-3> ;
+	wdt:P3175 "ujp" ;
+	wdt:P998 "Regional/Asia/Japan/" ;
+	wdt:P163 wd:Q43175 ;
+	wdt:P901 "JA" ;
+	wdt:P3509 "japan" ;
+	wdt:P213 "0000 0001 2364 9740" ;
+	wdt:P5982 "+635156"^^xsd:decimal,
+		"+621000"^^xsd:decimal ;
+	wdt:P3222 "japan" ;
+	wdt:P6104 wd:Q8504015 ;
+	wdt:P1740 wd:Q7140310 ;
+	wdt:P1667 "1000120" ;
+	wdtn:P1667 <http://vocab.getty.edu/tgn/1000120> ;
+	wdt:P1151 wd:Q6585753 ;
+	wdt:P5125 wd:Q7112310 ;
+	wdt:P349 "00568158" ;
+	wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00568158> ;
+	wdt:P38 wd:Q8146 ;
+	wdt:P1566 "1861060" ;
+	wdtn:P1566 <http://sws.geonames.org/1861060/> ;
+	wdt:P487 "🇯🇵" ;
+	wdt:P5698 "108467" ;
+	wdt:P3916 "concept835" ;
+	wdtn:P3916 <http://vocabularies.unesco.org/thesaurus/concept835> ;
+	wdt:P172 wd:Q161652,
+		wd:Q484464,
+		wd:Q6501380,
+		wd:Q101828 ;
+	wdt:P2633 wd:Q333690 ;
+	wdt:P298 "JPN" ;
+	wdt:P1814 "にっぽん",
+		"にほん" ;
+	wdt:P3417 "Japan" ;
+	wdt:P3065 "02-A000093456" ;
+	wdt:P1482 <https://travel.stackexchange.com/tags/japan> ;
+	wdt:P486 "D007564" ;
+	wdtn:P486 <http://id.nlm.nih.gov/mesh/D007564> ;
+	wdt:P2959 wd:Q22828397,
+		wd:Q44080056 ;
+	wdt:P3106 "world/japan" ;
+	wdt:P122 wd:Q41614 ;
+	wdt:P2002 "JapanGov",
+		"japan" ;
+	wdt:P3068 "JP" ;
+	wdt:P209 wd:Q1142255 ;
+	wdt:P3743 "2.16.392" ;
+	wdt:P194 wd:Q202384 ;
+	wdt:P3238 "0" ;
+	wdt:P646 "/m/03_3d" ;
+	wdt:P1365 wd:Q188712,
+		wd:Q11602290 ;
+	wdt:P30 wd:Q48 ;
+	wdt:P237 wd:Q170556 ;
+	wdt:P3271 "+15"^^xsd:decimal ;
+	wdt:P2997 "+18"^^xsd:decimal ;
+	wdt:P949 "000973886" ;
+	wdt:P5008 wd:Q5460604,
+		wd:Q6173448 ;
+	wdt:P94 <http://commons.wikimedia.org/wiki/Special:FilePath/Kamon%20of%20the%20Imperial%20House%20of%20Japan.svg> ;
+	wdt:P1332 "Point(141.93658333333 45.523027777778)"^^geo:wktLiteral ;
+	wdt:P1552 wd:Q3174312 ;
+	wdt:P691 "ge129425" ;
+	wdt:P297 "JP" ;
+	wdt:P4841 "+1.38"^^xsd:decimal ;
+	wdt:P2046 "+377972.28"^^xsd:decimal ;
+	wdt:P3270 "+6"^^xsd:decimal ;
+	wdt:P1304 wd:Q333101 ;
+	wdt:P910 wd:Q1411284 ;
+	wdt:P268 "152384465" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb152384465#about> ;
+	wdt:P268 "11934253k" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb11934253k#about> ;
+	wdt:P268 "11872797r" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb11872797r#about> ;
+	wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/Japan%20on%20the%20globe%20%28de-facto%29%20%28Japan%20centered%29.svg> ;
+	wdt:P1617 "3f53c272-5b8f-4a4f-99de-a857d6726c5b" ;
+	wdtn:P1617 <http://www.bbc.co.uk/things/3f53c272-5b8f-4a4f-99de-a857d6726c5b#id> ;
+	wdt:P6 wd:Q359480 ;
+	wdt:P155 wd:Q188712 ;
+	wdt:P984 "JPN" ;
+	wdt:P2163 "1204082" ;
+	wdtn:P2163 <http://id.worldcat.org/fast/1204082> ;
+	wdt:P4427 "142" ;
+	wdt:P5573 "2998" ;
+	wdt:P1417 "place/Japan" ;
+	wdt:P1343 wd:Q19180675,
+		wd:Q602358,
+		wd:Q66386517,
+		wd:Q602358,
+		wd:Q602358,
+		wd:Q602358,
+		wd:Q602358,
+		wd:Q602358,
+		wd:Q602358,
+		wd:Q602358,
+		wd:Q602358,
+		wd:Q602358,
+		wd:Q602358,
+		wd:Q602358,
+		wd:Q63284758,
+		wd:Q1768721,
+		wd:Q867541,
+		wd:Q302556,
+		wd:Q15987490,
+		wd:Q1146980,
+		wd:Q386073,
+		wd:Q1147260,
+		wd:Q1345223,
+		wd:Q28763,
+		wd:Q1053256,
+		wd:Q1374339 ;
+	wdt:P1938 "321" ;
+	wdtn:P1938 <http://www.gutenberg.org/ebooks/author/321> ;
+	wdt:P948 <http://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20lanterns%20banner.jpg> ;
+	wdt:P2884 "+100"^^xsd:decimal,
+		"+100"^^xsd:decimal ;
+	wdt:P208 wd:Q1190574 ;
+	wdt:P2573 "+153722"^^xsd:decimal ;
+	wdt:P85 wd:Q81534 ;
+	wdt:P571 "1947-05-03T00:00:00Z"^^xsd:dateTime ;
+	wdt:P2250 "+83.98488"^^xsd:decimal ;
+	wdt:P1296 "0034339" ;
+	wdt:P78 wd:Q39132 ;
+	wdt:P3762 "36313" ;
+	wdt:P31 wd:Q3624078,
+		wd:Q112099,
+		wd:Q6256,
+		wd:Q113489728 ;
+	wdt:P610 wd:Q39231 ;
+	wdt:P1464 wd:Q7463305 ;
+	wdt:P1813 "Japan"@en,
+		"🇯🇵"@en ;
+	wdt:P1622 wd:Q13196750 ;
+	wdt:P2982 "42" ;
+	wdt:P1589 wd:Q1364781 ;
+	wdt:P5180 "japan" ;
+	wdt:P37 wd:Q5287 ;
+	wdt:P443 <http://commons.wikimedia.org/wiki/Special:FilePath/Jer-Japon.ogg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Hu-jap%C3%A1n.ogg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Nl-Japan.ogg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Pl-Japonia.ogg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Eo-Japanio.ogg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Lv-riga-Jap%C4%81na.ogg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Ru-%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F.ogg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Ka-iaponia.ogg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Lb-Japan.ogg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q13955%20%28ara%29-Spotless%20Mind1988-%D8%A7%D9%84%D9%8A%D8%A7%D8%A8%D8%A7%D9%86.wav>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q7913%20%28ron%29-KlaudiuMihaila-Japonia.wav> ;
+	wdt:P269 "02648918X" ;
+	wdtn:P269 <http://www.idref.fr/02648918X/id> ;
+	wdt:P150 wd:Q80434,
+		wd:Q81863,
+		wd:Q71699,
+		wd:Q80011,
+		wd:Q133879,
+		wd:Q71707,
+		wd:Q129499,
+		wd:Q1037393,
+		wd:Q83273,
+		wd:Q48326,
+		wd:Q47896,
+		wd:Q128186,
+		wd:Q44843,
+		wd:Q1490,
+		wd:Q127513,
+		wd:Q132705,
+		wd:Q132929,
+		wd:Q131281,
+		wd:Q125863,
+		wd:Q132720,
+		wd:Q127877,
+		wd:Q131277,
+		wd:Q131320,
+		wd:Q128196,
+		wd:Q131358,
+		wd:Q120730,
+		wd:Q122723,
+		wd:Q130290,
+		wd:Q131287,
+		wd:Q131314,
+		wd:Q133935,
+		wd:Q132751,
+		wd:Q132936,
+		wd:Q617375,
+		wd:Q127264,
+		wd:Q160734,
+		wd:Q161454,
+		wd:Q123376,
+		wd:Q134093,
+		wd:Q123258,
+		wd:Q169376,
+		wd:Q130308,
+		wd:Q133924,
+		wd:Q130300,
+		wd:Q15701,
+		wd:Q766445,
+		wd:Q160420 ;
+	wdt:P3024 "J" ;
+	wdt:P244 "n78089021" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/n78089021> ;
+	wdt:P3529 "+34822"^^xsd:decimal,
+		"+557655"^^xsd:decimal ;
+	wdt:P625 "Point(136 35)"^^geo:wktLiteral ;
+	wdt:P4629 "Japan" ;
+	wdt:P5019 "japan" ;
+	wdt:P1449 "Страна Восходящего Солнца"@ru,
+		"Terra del sol naixent"@ca,
+		"The Land of the Rising Sun"@en,
+		"ארץ השמש העולה"@he,
+		"Land der aufgehenden Sonne"@de,
+		"日出る国"@ja,
+		"Pays du Soleil levant"@fr ;
+	wdt:P1842 "Japan" ;
+	wdt:P5250 "1328" ;
+	wdt:P6573 "Japan" ;
+	wdt:P6591 "+41.1"^^xsd:decimal,
+		"+41.1"^^xsd:decimal ;
+	wdt:P4223 "giappone_res-e5600529-9bbf-11e2-9d1b-00271042e8d9" ;
+	wdt:P4801 "countries/ja" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/countries/ja> ;
+	wdt:P1448 "日本国"@ja ;
+	wdt:P36 wd:Q1490 ;
+	wdt:P1082 "+125440000"^^xsd:decimal ;
+	wdt:P2936 wd:Q5287,
+		wd:Q2424943,
+		wd:Q2840988,
+		wd:Q2840986,
+		wd:Q3530484,
+		wd:Q3196527,
+		wd:Q3350036,
+		wd:Q56558,
+		wd:Q35601,
+		wd:Q36218,
+		wd:Q27969,
+		wd:Q34233,
+		wd:Q34243,
+		wd:Q34203 ;
+	wdt:P6363 <http://data.thenextweb.com/tnw/entity/japan_2> ;
+	wdt:P6839 "UsefulNotes/Japan" ;
+	wdt:P6849 "japan" ;
+	wdt:P6766 "85632429" ;
+	wdt:P7157 "44" ;
+	wdt:P7012 "japan" ;
+	wdt:P6404 "giappone" ;
+	wdt:P1344 wd:Q838116,
+		wd:Q1197271 ;
+	wdt:P7311 "1528" ;
+	wdt:P7422 "-41"^^xsd:decimal ;
+	wdt:P7314 "japonya" ;
+	wdt:P902 "003412" ;
+	wdt:P3067 "450-459",
+		"490-499" ;
+	wdt:P2596 wd:Q831454 ;
+	wdt:P5400 "zSJCjv" ;
+	wdt:P6760 "27001" ;
+	wdt:P7870 "2991" ;
+	wdt:P7867 wd:Q8607401 ;
+	wdt:P2855 "+10"^^xsd:decimal ;
+	wdt:P7818 "Japon" ;
+	wdt:P7829 "Japan" ;
+	wdt:P7827 "Japón" ;
+	wdt:P7832 "Japonia" ;
+	wdt:P4342 "Japan" ;
+	wdt:P5437 "1524" ;
+	wdtn:P5437 <http://eurovoc.europa.eu/1524> ;
+	wdt:P7859 "lccn-n78089021" ;
+	wdt:P6900 "日本" ;
+	wdt:P6262 "evangelion:Japan",
+		"ja.memory-alpha:日本" ;
+	wdt:P8061 "c_4039" ;
+	wdtn:P8061 <http://aims.fao.org/aos/agrovoc/c_4039> ;
+	wdt:P1451 "Endless discovery"@en ;
+	wdt:P6413 "Q17" ;
+	wdt:P8408 "Japan" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/Japan> ;
+	wdt:P8402 wd:Q97153912 ;
+	wdt:P8406 "T043440" ;
+	wdtn:P8406 <http://dx.doi.org/10.1093/gao/9781884446054.article.T043440> ;
+	wdt:P8432 "J/Japan" ;
+	wdt:P5843 "Japan" ;
+	wdt:P8519 "12538" ;
+	wdtn:P8519 <https://data.rkd.nl/thesau/12538> ;
+	wdt:P8483 "B111" ;
+	wdt:P5063 "i83607" ;
+	wdtn:P5063 <http://globalwordnet.org/ili/i83607> ;
+	wdt:P1438 "15234" ;
+	wdt:P6200 "cjnwl8q4g7nt" ;
+	wdt:P5456 "japan" ;
+	wdt:P8744 wd:Q319831 ;
+	wdt:P5587 "53hkj6mp5hgzjd3" ;
+	wdtn:P5587 <https://libris.kb.se/53hkj6mp5hgzjd3> ;
+	wdt:P8826 "H0006559" ;
+	wdt:P8974 "p/c67f440f-aed0-4941-91cf-570bd42ccf0a" ;
+	wdtn:P8974 <http://data.performing-arts.ch/p/c67f440f-aed0-4941-91cf-570bd42ccf0a> ;
+	wdt:P8989 wd:Q104236688 ;
+	wdt:P4527 "11083" ;
+	wdtn:P4527 <http://data.parliament.uk/terms/11083> ;
+	wdt:P8309 "18-173138" ;
+	wdt:P9037 "d4a959c9-c688-4606-a2f3-ac84bec2fa04" ;
+	wdt:P9100 "japan" ;
+	wdt:P8885 "일본" ;
+	wdt:P8814 "08941623-n" ;
+	wdtn:P8814 <http://wordnet-rdf.princeton.edu/rdf/id/08941623-n> ;
+	wdt:P8895 "Japan" ;
+	wdt:P9241 wd:Q1124220 ;
+	wdt:P9293 "27" ;
+	wdt:P5739 "31800" ;
+	wdtn:P5739 <http://catalogo.pusc.it/auth/31800> ;
+	wdt:P7471 "6737" ;
+	wdt:P9368 "japan" ;
+	wdt:P2670 wd:Q17308006,
+		wd:Q207520 ;
+	wdt:P706 wd:Q841337 ;
+	wdt:P92 wd:Q237082 ;
+	wdt:P1424 wd:Q8083538 ;
+	wdt:P485 wd:Q1072875 ;
+	wdt:P2579 wd:Q875592 ;
+	wdt:P2238 wd:Q714716,
+		wd:Q425900,
+		wd:Q871991,
+		wd:Q15530181,
+		wd:Q40561 ;
+	wdt:P6293 "Y105023" ;
+	wdtn:P6293 <http://www.yso.fi/onto/ysa/Y105023> ;
+	wdt:P9318 "japan" ;
+	wdt:P7850 "T84-591" ;
+	wdtn:P7850 <http://data.culture.fr/thesaurus/resource/ark:/67717/T84-591> ;
+	wdt:P9272 "7733" ;
+	wdt:P3553 "19550917" ;
+	wdt:P8217 "2043060" ;
+	wdt:P1281 "23424856" ;
+	wdt:P8119 "JP" ;
+	wdt:P7506 "1136627" ;
+	wdt:P5184 "14XXE0047193" ;
+	wdt:P5337 "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE5mTTJRU0FtcGhLQUFQAQ" ;
+	wdt:P3749 "17672817443235844676" ;
+	wdt:P2326 "-231230" ;
+	wdt:P8370 "1003451" ;
+	wdtn:P8370 <http://metadata.un.org/thesaurus/1003451> ;
+	wdt:P2561 "Japan"@en ;
+	wdt:P8935 "Yaponiia" ;
+	wdt:P9222 "75461" ;
+	wdt:P6058 "pays/Japon/125591" ;
+	wdt:P9629 "4150" ;
+	wdt:P9757 "971" ;
+	wdt:P7301 "where/japan" ;
+	wdt:P9886 "169500643" ;
+	wdt:P1313 wd:Q274948 ;
+	wdt:P9948 "japan" ;
+	wdt:P8248 "SG--42" ;
+	wdt:P8189 "987007550240205171" ;
+	wdt:P8328 "+8.15"^^xsd:decimal ;
+	wdt:P9123 "Japó" ;
+	wdt:P4777 wd:Q65199218 ;
+	wdt:P10235 "main-ja" ;
+	wdt:P10234 "japan",
+		"japan_en" ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/140405%20Tsu%20Castle%20Tsu%20MIe%20pref%20Japan01s.jpg> ;
+	wdt:P140 wd:Q812767,
+		wd:Q748,
+		wd:Q5043 ;
+	wdt:P10297 "m03_3d" ;
+	wdt:P9466 "Japan" ;
+	wdt:P9957 "276" ;
+	wdt:P10291 "16243" ;
+	wdt:P7886 "C36020" ;
+	wdt:P8313 "Japan" ;
+	wdt:P10456 "9" ;
+	wdt:P2964 wd:Q319891,
+		wd:Q438919 ;
+	wdt:P2998 "+25"^^xsd:decimal,
+		"+30"^^xsd:decimal ;
+	wdt:P2572 "Japan",
+		"日本" ;
+	wdt:P3006 "2121" ;
+	wdtn:P3006 <http://marineregions.org/mrgid/2121> ;
+	wdt:P158 <http://commons.wikimedia.org/wiki/Special:FilePath/Kamon%20of%20the%20Imperial%20House%20of%20Japan.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Gyomei%20kokuji.svg> ;
+	wdt:P418 wd:Q170556,
+		wd:Q12056846 ;
+	wdt:P10730 "country/JPN" ;
+	wdt:P10757 "50653" ;
+	wdt:P10046 "7643177640938575834" ;
+	wdt:P207 <http://commons.wikimedia.org/wiki/Special:FilePath/Carte%20topographique%20du%20Japon-fr.svg> ;
+	wdt:P9937 "2474" ;
+	wdt:P7305 "4169061" ;
+	wdt:P5034 "KSH2000014336" ;
+	wdtn:P5034 <http://lod.nl.go.kr/resource/KSH2000014336> ;
+	wdt:P10916 "Japan" ;
+	wdt:P7502 "Japan-NX69" ;
+	wdt:P5203 wd:Q21094424 ;
+	wdt:P1943 <http://commons.wikimedia.org/wiki/Special:FilePath/Regionen%20japans.png> ;
+	wdt:P1944 <http://commons.wikimedia.org/wiki/Special:FilePath/Japan%20relief%20location%20map%20with%20side%20map%20of%20the%20Ryukyu%20Islands.jpg> ;
+	wdt:P8592 <http://commons.wikimedia.org/wiki/Special:FilePath/Satellite%20image%20of%20Japan%20in%20May%202003.jpg> ;
+	wdt:P1621 <http://commons.wikimedia.org/wiki/Special:FilePath/Carte%20japon.jpg> ;
+	wdt:P7127 "japan" ;
+	wdt:P1081 "+0.925"^^xsd:decimal ;
+	wdt:P9495 "geo/02D8D923-5285-4A8C-8142-18194F6630A6" ;
+	wdt:P11012 "Q396" ;
+	wdtn:P11012 <https://linkedopendata.eu/entity/Q396> ;
+	wdt:P10280 wd:Q7981952 ;
+	wdt:P6706 "Giappóne" ;
+	wdt:P11408 "日本" ;
+	wdt:P6778 "00002747" ;
+	wdtn:P6778 <http://purl.obolibrary.org/obo/GAZ_00002747> ;
+	wdt:P11547 "+47.1"^^xsd:decimal ;
+	wdt:P1125 "+32.9"^^xsd:decimal ;
+	wdt:P11593 "+0.850"^^xsd:decimal ;
+	wdt:P7295 "1873-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3864 "+14.6"^^xsd:decimal ;
+	wdt:P11496 "1140000791690821760" ;
+	wdtn:P11496 <https://cir.nii.ac.jp/crid/1140000791690821760.rdf> ;
+	wdt:P271 "DA04877014" ;
+	wdtn:P271 <https://ci.nii.ac.jp/author/DA04877014#entity> ;
+	wdt:P11693 "424313451" ;
+	wdt:P10832 "E39PBJkT7GyCmyjxytDfqk6Yfq" ;
+	wdt:P10376 "engineering/japan" ;
+	wdt:P10565 "316109" ;
+	wdt:P17 wd:Q17 ;
+	wdt:P2892 "C0005984" ;
+	wdt:P973 <http://68k.news/index.php?section=nation&loc=JP> ;
+	wdt:P1539 "+64189000"^^xsd:decimal ;
+	wdt:P1540 "+60758000"^^xsd:decimal ;
+	wdt:P11810 <https://mstdn.jp>,
+		<https://mastodon-japan.net> ;
+	wdt:P9475 "E0047193" ;
+	rdfs:label "Ҷопон"@tg ;
+	skos:prefLabel "Ҷопон"@tg ;
+	schema:name "Ҷопон"@tg ;
+	rdfs:label "Nihun"@ay ;
+	skos:prefLabel "Nihun"@ay ;
+	schema:name "Nihun"@ay ;
+	rdfs:label "جاپان"@pnb ;
+	skos:prefLabel "جاپان"@pnb ;
+	schema:name "جاپان"@pnb ;
+	rdfs:label "Djapan"@na ;
+	skos:prefLabel "Djapan"@na ;
+	schema:name "Djapan"@na ;
+	rdfs:label "Јапонија"@mk ;
+	skos:prefLabel "Јапонија"@mk ;
+	schema:name "Јапонија"@mk ;
+	rdfs:label "IJaphani"@zu ;
+	skos:prefLabel "IJaphani"@zu ;
+	schema:name "IJaphani"@zu ;
+	rdfs:label "জাপান"@bpy ;
+	skos:prefLabel "জাপান"@bpy ;
+	schema:name "জাপান"@bpy ;
+	rdfs:label "Japonija"@lt ;
+	skos:prefLabel "Japonija"@lt ;
+	schema:name "Japonija"@lt ;
+	rdfs:label "Iapan"@gd ;
+	skos:prefLabel "Iapan"@gd ;
+	schema:name "Iapan"@gd ;
+	rdfs:label "Japonsko"@sk ;
+	skos:prefLabel "Japonsko"@sk ;
+	schema:name "Japonsko"@sk ;
+	rdfs:label "Jabaan"@so ;
+	skos:prefLabel "Jabaan"@so ;
+	schema:name "Jabaan"@so ;
+	rdfs:label "Hapon"@tl ;
+	skos:prefLabel "Hapon"@tl ;
+	schema:name "Hapon"@tl ;
+	rdfs:label "Японія"@uk ;
+	skos:prefLabel "Японія"@uk ;
+	schema:name "Японія"@uk ;
+	rdfs:label "Япон Улас"@bxr ;
+	skos:prefLabel "Япон Улас"@bxr ;
+	schema:name "Япон Улас"@bxr ;
+	rdfs:label "Nditbonj"@za ;
+	skos:prefLabel "Nditbonj"@za ;
+	schema:name "Nditbonj"@za ;
+	rdfs:label "Japan"@yo ;
+	skos:prefLabel "Japan"@yo ;
+	schema:name "Japan"@yo ;
+	rdfs:label "Japón"@ext ;
+	skos:prefLabel "Japón"@ext ;
+	schema:name "Japón"@ext ;
+	rdfs:label "Жапония"@ky ;
+	skos:prefLabel "Жапония"@ky ;
+	schema:name "Жапония"@ky ;
+	rdfs:label "Japón"@es ;
+	skos:prefLabel "Japón"@es ;
+	schema:name "Japón"@es ;
+	rdfs:label "ଜାପାନ"@or ;
+	skos:prefLabel "ଜାପାନ"@or ;
+	schema:name "ଜାପାନ"@or ;
+	rdfs:label "Япония Мастор"@myv ;
+	skos:prefLabel "Япония Мастор"@myv ;
+	schema:name "Япония Мастор"@myv ;
+	rdfs:label "יאפאן"@yi ;
+	skos:prefLabel "יאפאן"@yi ;
+	schema:name "יאפאן"@yi ;
+	rdfs:label "An tSeapáin"@ga ;
+	skos:prefLabel "An tSeapáin"@ga ;
+	schema:name "An tSeapáin"@ga ;
+	rdfs:label "Japòńskô"@csb ;
+	skos:prefLabel "Japòńskô"@csb ;
+	schema:name "Japòńskô"@csb ;
+	rdfs:label "Yaponiya"@gag ;
+	skos:prefLabel "Yaponiya"@gag ;
+	schema:name "Yaponiya"@gag ;
+	rdfs:label "日本"@zh-tw ;
+	skos:prefLabel "日本"@zh-tw ;
+	schema:name "日本"@zh-tw ;
+	rdfs:label "日本"@gan ;
+	skos:prefLabel "日本"@gan ;
+	schema:name "日本"@gan ;
+	rdfs:label "Japane"@st ;
+	skos:prefLabel "Japane"@st ;
+	schema:name "Japane"@st ;
+	rdfs:label "Japan"@chy ;
+	skos:prefLabel "Japan"@chy ;
+	schema:name "Japan"@chy ;
+	rdfs:label "Ubuyapani"@rw ;
+	skos:prefLabel "Ubuyapani"@rw ;
+	schema:name "Ubuyapani"@rw ;
+	rdfs:label "Japan"@sco ;
+	skos:prefLabel "Japan"@sco ;
+	schema:name "Japan"@sco ;
+	rdfs:label "Japuonėjė"@sgs ;
+	skos:prefLabel "Japuonėjė"@sgs ;
+	schema:name "Japuonėjė"@sgs ;
+	rdfs:label "Japoneja"@ltg ;
+	skos:prefLabel "Japoneja"@ltg ;
+	schema:name "Japoneja"@ltg ;
+	rdfs:label "Binaʼadaałtzózí Dinéʼiʼ Bikéyah"@nv ;
+	skos:prefLabel "Binaʼadaałtzózí Dinéʼiʼ Bikéyah"@nv ;
+	schema:name "Binaʼadaałtzózí Dinéʼiʼ Bikéyah"@nv ;
+	rdfs:label "日本"@zh-sg ;
+	skos:prefLabel "日本"@zh-sg ;
+	schema:name "日本"@zh-sg ;
+	rdfs:label "Japonska"@sl ;
+	skos:prefLabel "Japonska"@sl ;
+	schema:name "Japonska"@sl ;
+	rdfs:label "Yaponiya"@az ;
+	skos:prefLabel "Yaponiya"@az ;
+	schema:name "Yaponiya"@az ;
+	rdfs:label "جاپون"@mzn ;
+	skos:prefLabel "جاپون"@mzn ;
+	schema:name "جاپون"@mzn ;
+	rdfs:label "日本"@zh-hk ;
+	skos:prefLabel "日本"@zh-hk ;
+	schema:name "日本"@zh-hk ;
+	rdfs:label "Japan"@sr-el ;
+	skos:prefLabel "Japan"@sr-el ;
+	schema:name "Japan"@sr-el ;
+	rdfs:label "Japan"@is ;
+	skos:prefLabel "Japan"@is ;
+	schema:name "Japan"@is ;
+	rdfs:label "Иапониа"@ab ;
+	skos:prefLabel "Иапониа"@ab ;
+	schema:name "Иапониа"@ab ;
+	rdfs:label "Япония"@lez ;
+	skos:prefLabel "Япония"@lez ;
+	schema:name "Япония"@lez ;
+	rdfs:label "Xapón"@ast ;
+	skos:prefLabel "Xapón"@ast ;
+	schema:name "Xapón"@ast ;
+	rdfs:label "ஜப்பான்"@ta ;
+	skos:prefLabel "ஜப்பான்"@ta ;
+	schema:name "ஜப்பான்"@ta ;
+	rdfs:label "Jepang"@jv ;
+	skos:prefLabel "Jepang"@jv ;
+	schema:name "Jepang"@jv ;
+	rdfs:label "IJapani"@xh ;
+	skos:prefLabel "IJapani"@xh ;
+	schema:name "IJapani"@xh ;
+	rdfs:label "जापान"@hi ;
+	skos:prefLabel "जापान"@hi ;
+	schema:name "जापान"@hi ;
+	rdfs:label "Япония"@tt ;
+	skos:prefLabel "Япония"@tt ;
+	schema:name "Япония"@tt ;
+	rdfs:label "Japan"@mh ;
+	skos:prefLabel "Japan"@mh ;
+	schema:name "Japan"@mh ;
+	rdfs:label "Япон"@mn ;
+	skos:prefLabel "Япон"@mn ;
+	schema:name "Япон"@mn ;
+	rdfs:label "Giapon"@pms ;
+	skos:prefLabel "Giapon"@pms ;
+	schema:name "Giapon"@pms ;
+	rdfs:label "Jaappaan"@om ;
+	skos:prefLabel "Jaappaan"@om ;
+	schema:name "Jaappaan"@om ;
+	rdfs:label "Japan"@ha ;
+	skos:prefLabel "Japan"@ha ;
+	schema:name "Japan"@ha ;
+	rdfs:label "Japon"@crh ;
+	skos:prefLabel "Japon"@crh ;
+	schema:name "Japon"@crh ;
+	rdfs:label "Japan"@ik ;
+	skos:prefLabel "Japan"@ik ;
+	schema:name "Japan"@ik ;
+	rdfs:label "Jepun"@ms ;
+	skos:prefLabel "Jepun"@ms ;
+	schema:name "Jepun"@ms ;
+	rdfs:label "Japang"@bjn ;
+	skos:prefLabel "Japang"@bjn ;
+	schema:name "Japang"@bjn ;
+	rdfs:label "Japonia"@ro ;
+	skos:prefLabel "Japonia"@ro ;
+	schema:name "Japonia"@ro ;
+	rdfs:label "जापान"@bho ;
+	skos:prefLabel "जापान"@bho ;
+	schema:name "जापान"@bho ;
+	rdfs:label "Japan"@lb ;
+	skos:prefLabel "Japan"@lb ;
+	schema:name "Japan"@lb ;
+	rdfs:label "Ghjappone"@co ;
+	skos:prefLabel "Ghjappone"@co ;
+	schema:name "Ghjappone"@co ;
+	rdfs:label "Japan"@en-gb ;
+	skos:prefLabel "Japan"@en-gb ;
+	schema:name "Japan"@en-gb ;
+	rdfs:label "Yaponiya"@kaa ;
+	skos:prefLabel "Yaponiya"@kaa ;
+	schema:name "Yaponiya"@kaa ;
+	rdfs:label "Chapan"@ch ;
+	skos:prefLabel "Chapan"@ch ;
+	schema:name "Chapan"@ch ;
+	rdfs:label "Japan"@stq ;
+	skos:prefLabel "Japan"@stq ;
+	schema:name "Japan"@stq ;
+	rdfs:label "اليابان"@aeb-arab ;
+	skos:prefLabel "اليابان"@aeb-arab ;
+	schema:name "اليابان"@aeb-arab ;
+	rdfs:label "ປະເທດຍີ່ປຸ່ນ"@lo ;
+	skos:prefLabel "ປະເທດຍີ່ປຸ່ນ"@lo ;
+	schema:name "ປະເທດຍີ່ປຸ່ນ"@lo ;
+	rdfs:label "Japani"@sw ;
+	skos:prefLabel "Japani"@sw ;
+	schema:name "Japani"@sw ;
+	rdfs:label "Japan"@nds ;
+	skos:prefLabel "Japan"@nds ;
+	schema:name "Japan"@nds ;
+	rdfs:label "Ҷопон"@tg-cyrl ;
+	skos:prefLabel "Ҷопон"@tg-cyrl ;
+	schema:name "Ҷопон"@tg-cyrl ;
+	rdfs:label "Hapon"@bcl ;
+	skos:prefLabel "Hapon"@bcl ;
+	schema:name "Hapon"@bcl ;
+	rdfs:label "Japangi"@gor ;
+	skos:prefLabel "Japangi"@gor ;
+	schema:name "Japangi"@gor ;
+	rdfs:label "Japan"@da ;
+	skos:prefLabel "Japan"@da ;
+	schema:name "Japan"@da ;
+	rdfs:label "Japó"@ca ;
+	skos:prefLabel "Japó"@ca ;
+	schema:name "Japó"@ca ;
+	rdfs:label "Yaponiya"@crh-latn ;
+	skos:prefLabel "Yaponiya"@crh-latn ;
+	schema:name "Yaponiya"@crh-latn ;
+	rdfs:label "Japāna"@lv ;
+	skos:prefLabel "Japāna"@lv ;
+	schema:name "Japāna"@lv ;
+	rdfs:label "Japonia"@rup ;
+	skos:prefLabel "Japonia"@rup ;
+	schema:name "Japonia"@rup ;
+	rdfs:label "ጃፓን"@ti ;
+	skos:prefLabel "ጃፓን"@ti ;
+	schema:name "ጃፓን"@ti ;
+	rdfs:label "ಜಪಾನ್"@tcy ;
+	skos:prefLabel "ಜಪಾನ್"@tcy ;
+	schema:name "ಜಪಾನ್"@tcy ;
+	rdfs:label "Японие"@ady ;
+	skos:prefLabel "Японие"@ady ;
+	schema:name "Японие"@ady ;
+	rdfs:label "Tāpōnē"@ty ;
+	skos:prefLabel "Tāpōnē"@ty ;
+	schema:name "Tāpōnē"@ty ;
+	rdfs:label "yn Çhapaan"@gv ;
+	skos:prefLabel "yn Çhapaan"@gv ;
+	schema:name "yn Çhapaan"@gv ;
+	rdfs:label "Japɔŋ"@kbp ;
+	skos:prefLabel "Japɔŋ"@kbp ;
+	schema:name "Japɔŋ"@kbp ;
+	rdfs:label "اليابان"@ar ;
+	skos:prefLabel "اليابان"@ar ;
+	schema:name "اليابان"@ar ;
+	rdfs:label "Japan"@srn ;
+	skos:prefLabel "Japan"@srn ;
+	schema:name "Japan"@srn ;
+	rdfs:label "জাপান"@bn ;
+	skos:prefLabel "জাপান"@bn ;
+	schema:name "জাপান"@bn ;
+	rdfs:label "Japan"@pih ;
+	skos:prefLabel "Japan"@pih ;
+	schema:name "Japan"@pih ;
+	rdfs:label "Yaponiya"@uz ;
+	skos:prefLabel "Yaponiya"@uz ;
+	schema:name "Yaponiya"@uz ;
+	rdfs:label "Jeupun"@ace ;
+	skos:prefLabel "Jeupun"@ace ;
+	schema:name "Jeupun"@ace ;
+	rdfs:label "Япони"@cv ;
+	skos:prefLabel "Япони"@cv ;
+	schema:name "Япони"@cv ;
+	rdfs:label "Japan"@ak ;
+	skos:prefLabel "Japan"@ak ;
+	schema:name "Japan"@ak ;
+	rdfs:label "Japão"@pt ;
+	skos:prefLabel "Japão"@pt ;
+	schema:name "Japão"@pt ;
+	rdfs:label "Japonia"@io ;
+	skos:prefLabel "Japonia"@io ;
+	schema:name "Japonia"@io ;
+	rdfs:label "日本"@zh-my ;
+	skos:prefLabel "日本"@zh-my ;
+	schema:name "日本"@zh-my ;
+	rdfs:label "Япония"@ru ;
+	skos:prefLabel "Япония"@ru ;
+	schema:name "Япония"@ru ;
+	rdfs:label "Siapan"@tpi ;
+	skos:prefLabel "Siapan"@tpi ;
+	schema:name "Siapan"@tpi ;
+	rdfs:label "ژاپون"@azb ;
+	skos:prefLabel "ژاپون"@azb ;
+	schema:name "ژاپون"@azb ;
+	rdfs:label "ประเทศญี่ปุ่น"@th ;
+	skos:prefLabel "ประเทศญี่ปุ่น"@th ;
+	schema:name "ประเทศญี่ปุ่น"@th ;
+	rdfs:label "جاپون"@ks ;
+	skos:prefLabel "جاپون"@ks ;
+	schema:name "جاپون"@ks ;
+	rdfs:label "Chapón"@an ;
+	skos:prefLabel "Chapón"@an ;
+	schema:name "Chapón"@an ;
+	rdfs:label "Giapòṅ"@eml ;
+	skos:prefLabel "Giapòṅ"@eml ;
+	schema:name "Giapòṅ"@eml ;
+	rdfs:label "Ճապոնիա"@hy ;
+	skos:prefLabel "Ճապոնիա"@hy ;
+	schema:name "Ճապոնիա"@hy ;
+	rdfs:label "Japon"@pcd ;
+	skos:prefLabel "Japon"@pcd ;
+	schema:name "Japon"@pcd ;
+	rdfs:label "Japonya"@diq ;
+	skos:prefLabel "Japonya"@diq ;
+	schema:name "Japonya"@diq ;
+	rdfs:label "जापान"@mai ;
+	skos:prefLabel "जापान"@mai ;
+	schema:name "जापान"@mai ;
+	rdfs:label "Japan"@nov ;
+	skos:prefLabel "Japan"@nov ;
+	schema:name "Japan"@nov ;
+	rdfs:label "जापान"@ne ;
+	skos:prefLabel "जापान"@ne ;
+	schema:name "जापान"@ne ;
+	rdfs:label "Japan"@nl ;
+	skos:prefLabel "Japan"@nl ;
+	schema:name "Japan"@nl ;
+	rdfs:label "Japan"@de ;
+	skos:prefLabel "Japan"@de ;
+	schema:name "Japan"@de ;
+	rdfs:label "Japan"@fy ;
+	skos:prefLabel "Japan"@fy ;
+	schema:name "Japan"@fy ;
+	rdfs:label "Iapani"@sm ;
+	skos:prefLabel "Iapani"@sm ;
+	schema:name "Iapani"@sm ;
+	rdfs:label "Hapun"@pam ;
+	skos:prefLabel "Hapun"@pam ;
+	schema:name "Hapun"@pam ;
+	rdfs:label "Hapon"@war ;
+	skos:prefLabel "Hapon"@war ;
+	schema:name "Hapon"@war ;
+	rdfs:label "pongu'e"@jbo ;
+	skos:prefLabel "pongu'e"@jbo ;
+	schema:name "pongu'e"@jbo ;
+	rdfs:label "Япон"@kbd ;
+	skos:prefLabel "Япон"@kbd ;
+	schema:name "Япон"@kbd ;
+	rdfs:label "ياپونىيە"@ug ;
+	skos:prefLabel "ياپونىيە"@ug ;
+	schema:name "ياپونىيە"@ug ;
+	rdfs:label "Японмастор"@mdf ;
+	skos:prefLabel "Японмастор"@mdf ;
+	schema:name "Японмастор"@mdf ;
+	rdfs:label "Japon"@mwl ;
+	skos:prefLabel "Japon"@mwl ;
+	schema:name "Japon"@mwl ;
+	rdfs:label "چاپن"@lrc ;
+	skos:prefLabel "چاپن"@lrc ;
+	schema:name "چاپن"@lrc ;
+	rdfs:label "Japan"@en ;
+	skos:prefLabel "Japan"@en ;
+	schema:name "Japan"@en ;
+	rdfs:label "জাপান"@as ;
+	skos:prefLabel "জাপান"@as ;
+	schema:name "জাপান"@as ;
+	rdfs:label "ᨍᨛᨄ"@bug ;
+	skos:prefLabel "ᨍᨛᨄ"@bug ;
+	schema:name "ᨍᨛᨄ"@bug ;
+	rdfs:label "Япон"@os ;
+	skos:prefLabel "Япон"@os ;
+	schema:name "Япон"@os ;
+	rdfs:label "ဂျပန်နိုင်ငံ"@my ;
+	skos:prefLabel "ဂျပန်နိုင်ငံ"@my ;
+	schema:name "ဂျပန်နိုင်ငံ"@my ;
+	rdfs:label "日本"@zh-cn ;
+	skos:prefLabel "日本"@zh-cn ;
+	schema:name "日本"@zh-cn ;
+	rdfs:label "جاپان"@bgn ;
+	skos:prefLabel "جاپان"@bgn ;
+	schema:name "جاپان"@bgn ;
+	rdfs:label "ཇ་པཱན"@dz ;
+	skos:prefLabel "ཇ་པཱན"@dz ;
+	schema:name "ཇ་པཱན"@dz ;
+	rdfs:label "Jaapan"@et ;
+	skos:prefLabel "Jaapan"@et ;
+	schema:name "Jaapan"@et ;
+	rdfs:label "Japón"@cbk-zam ;
+	skos:prefLabel "Japón"@cbk-zam ;
+	schema:name "Japón"@cbk-zam ;
+	rdfs:label "Sapoŋ"@wo ;
+	skos:prefLabel "Sapoŋ"@wo ;
+	schema:name "Sapoŋ"@wo ;
+	rdfs:label "ᓃᑉᐊᓐ"@iu ;
+	skos:prefLabel "ᓃᑉᐊᓐ"@iu ;
+	schema:name "ᓃᑉᐊᓐ"@iu ;
+	rdfs:label "Japon"@vec ;
+	skos:prefLabel "Japon"@vec ;
+	schema:name "Japon"@vec ;
+	rdfs:label "Japan"@nn ;
+	skos:prefLabel "Japan"@nn ;
+	schema:name "Japan"@nn ;
+	rdfs:label "ᏣᏆᏂᏱ"@chr ;
+	skos:prefLabel "ᏣᏆᏂᏱ"@chr ;
+	schema:name "ᏣᏆᏂᏱ"@chr ;
+	rdfs:label "日本"@wuu ;
+	skos:prefLabel "日本"@wuu ;
+	schema:name "日本"@wuu ;
+	rdfs:label "Japon"@nrm ;
+	skos:prefLabel "Japon"@nrm ;
+	schema:name "Japon"@nrm ;
+	rdfs:label "Xapón"@gl ;
+	skos:prefLabel "Xapón"@gl ;
+	schema:name "Xapón"@gl ;
+	rdfs:label "Giappone"@roa-tara ;
+	skos:prefLabel "Giappone"@roa-tara ;
+	schema:name "Giappone"@roa-tara ;
+	rdfs:label "Japanio"@eo ;
+	skos:prefLabel "Japanio"@eo ;
+	schema:name "Japanio"@eo ;
+	rdfs:label "Japan"@ee ;
+	skos:prefLabel "Japan"@ee ;
+	schema:name "Japan"@ee ;
+	rdfs:label "Japan"@bi ;
+	skos:prefLabel "Japan"@bi ;
+	schema:name "Japan"@bi ;
+	rdfs:label "Giapun"@rm ;
+	skos:prefLabel "Giapun"@rm ;
+	schema:name "Giapun"@rm ;
+	rdfs:label "Japan"@pdc ;
+	skos:prefLabel "Japan"@pdc ;
+	schema:name "Japan"@pdc ;
+	rdfs:label "ژاپۆن"@ckb ;
+	skos:prefLabel "ژاپۆن"@ckb ;
+	schema:name "ژاپۆن"@ckb ;
+	rdfs:label "Zapɔ́"@ln ;
+	skos:prefLabel "Zapɔ́"@ln ;
+	schema:name "Zapɔ́"@ln ;
+	rdfs:label "J·apon"@frp ;
+	skos:prefLabel "J·apon"@frp ;
+	schema:name "J·apon"@frp ;
+	rdfs:label "Japan"@cy ;
+	skos:prefLabel "Japan"@cy ;
+	schema:name "Japan"@cy ;
+	rdfs:label "Japane"@nso ;
+	skos:prefLabel "Japane"@nso ;
+	schema:name "Japane"@nso ;
+	rdfs:label "Iaponia"@la ;
+	skos:prefLabel "Iaponia"@la ;
+	schema:name "Iaponia"@la ;
+	rdfs:label "Japan"@frr ;
+	skos:prefLabel "Japan"@frr ;
+	schema:name "Japan"@frr ;
+	rdfs:label "Japan"@ki ;
+	skos:prefLabel "Japan"@ki ;
+	schema:name "Japan"@ki ;
+	rdfs:label "जपान"@mr ;
+	skos:prefLabel "जपान"@mr ;
+	schema:name "जपान"@mr ;
+	rdfs:label "Japan"@fo ;
+	skos:prefLabel "Japan"@fo ;
+	schema:name "Japan"@fo ;
+	rdfs:label "Japon"@fr ;
+	skos:prefLabel "Japon"@fr ;
+	schema:name "Japon"@fr ;
+	rdfs:label "𐌾𐌰𐍀𐌰𐌽"@got ;
+	skos:prefLabel "𐌾𐌰𐍀𐌰𐌽"@got ;
+	schema:name "𐌾𐌰𐍀𐌰𐌽"@got ;
+	rdfs:label "日本"@zh ;
+	skos:prefLabel "日本"@zh ;
+	schema:name "日本"@zh ;
+	rdfs:label "Japanska"@hsb ;
+	skos:prefLabel "Japanska"@hsb ;
+	schema:name "Japanska"@hsb ;
+	rdfs:label "Ġappun"@mt ;
+	skos:prefLabel "Ġappun"@mt ;
+	schema:name "Ġappun"@mt ;
+	rdfs:label "Japan"@li ;
+	skos:prefLabel "Japan"@li ;
+	schema:name "Japan"@li ;
+	rdfs:label "جاپان"@ps ;
+	skos:prefLabel "جاپان"@ps ;
+	schema:name "جاپان"@ps ;
+	rdfs:label "Japani"@fi ;
+	skos:prefLabel "Japani"@fi ;
+	schema:name "Japani"@fi ;
+	rdfs:label "日本"@zh-hant ;
+	skos:prefLabel "日本"@zh-hant ;
+	schema:name "日本"@zh-hant ;
+	rdfs:label "Jepang"@id ;
+	skos:prefLabel "Jepang"@id ;
+	schema:name "Jepang"@id ;
+	rdfs:label "ಜಪಾನ್"@gom ;
+	skos:prefLabel "ಜಪಾನ್"@gom ;
+	schema:name "ಜಪಾನ್"@gom ;
+	rdfs:label "જાપાન"@gu ;
+	skos:prefLabel "જાપાન"@gu ;
+	schema:name "જાપાન"@gu ;
+	rdfs:label "Jepang"@su ;
+	skos:prefLabel "Jepang"@su ;
+	schema:name "Jepang"@su ;
+	rdfs:label "Япони"@inh ;
+	skos:prefLabel "Япони"@inh ;
+	schema:name "Япони"@inh ;
+	rdfs:label "Japon"@ia ;
+	skos:prefLabel "Japon"@ia ;
+	schema:name "Japon"@ia ;
+	rdfs:label "ਜਪਾਨ"@pa ;
+	skos:prefLabel "ਜਪਾਨ"@pa ;
+	schema:name "ਜਪਾਨ"@pa ;
+	rdfs:label "Jápán"@brh ;
+	skos:prefLabel "Jápán"@brh ;
+	schema:name "Jápán"@brh ;
+	rdfs:label "Nhật Bản"@vi ;
+	skos:prefLabel "Nhật Bản"@vi ;
+	schema:name "Nhật Bản"@vi ;
+	rdfs:label "چاپون"@ary ;
+	skos:prefLabel "چاپون"@ary ;
+	schema:name "چاپون"@ary ;
+	rdfs:label "Hapon"@ilo ;
+	skos:prefLabel "Hapon"@ilo ;
+	schema:name "Hapon"@ilo ;
+	rdfs:label "Japon"@oc ;
+	skos:prefLabel "Japon"@oc ;
+	schema:name "Japon"@oc ;
+	rdfs:label "日本"@zh-mo ;
+	skos:prefLabel "日本"@zh-mo ;
+	schema:name "日本"@zh-mo ;
+	rdfs:label "Japan"@gom-latn ;
+	skos:prefLabel "Japan"@gom-latn ;
+	schema:name "Japan"@gom-latn ;
+	rdfs:label "Japan"@af ;
+	skos:prefLabel "Japan"@af ;
+	schema:name "Japan"@af ;
+	rdfs:label "Hapon"@ceb ;
+	skos:prefLabel "Hapon"@ceb ;
+	schema:name "Hapon"@ceb ;
+	rdfs:label "Япония"@krc ;
+	skos:prefLabel "Япония"@krc ;
+	schema:name "Япония"@krc ;
+	rdfs:label "Japan"@nb ;
+	skos:prefLabel "Japan"@nb ;
+	schema:name "Japan"@nb ;
+	rdfs:label "Japan"@gsw ;
+	skos:prefLabel "Japan"@gsw ;
+	schema:name "Japan"@gsw ;
+	rdfs:label "Jaapan"@vro ;
+	skos:prefLabel "Jaapan"@vro ;
+	schema:name "Jaapan"@vro ;
+	rdfs:label "ජපානය"@si ;
+	skos:prefLabel "ජපානය"@si ;
+	schema:name "ජපානය"@si ;
+	rdfs:label "日本"@zh-hans ;
+	skos:prefLabel "日本"@zh-hans ;
+	schema:name "日本"@zh-hans ;
+	rdfs:label "Japan"@sv ;
+	skos:prefLabel "Japan"@sv ;
+	schema:name "Japan"@sv ;
+	rdfs:label "ជប៉ុន"@km ;
+	skos:prefLabel "ជប៉ុន"@km ;
+	schema:name "ជប៉ុន"@km ;
+	rdfs:label "Japan"@de-ch ;
+	skos:prefLabel "Japan"@de-ch ;
+	schema:name "Japan"@de-ch ;
+	rdfs:label "Giappuni"@scn ;
+	skos:prefLabel "Giappuni"@scn ;
+	schema:name "Giappuni"@scn ;
+	rdfs:label "Japonii"@vep ;
+	skos:prefLabel "Japonii"@vep ;
+	schema:name "Japonii"@vep ;
+	rdfs:label "Japun"@kab ;
+	skos:prefLabel "Japun"@kab ;
+	schema:name "Japun"@kab ;
+	rdfs:label "Япония"@bg ;
+	skos:prefLabel "Япония"@bg ;
+	schema:name "Япония"@bg ;
+	rdfs:label "Japonia"@eu ;
+	skos:prefLabel "Japonia"@eu ;
+	schema:name "Japonia"@eu ;
+	rdfs:label "იაპონია"@xmf ;
+	skos:prefLabel "იაპონია"@xmf ;
+	schema:name "იაპონია"@xmf ;
+	rdfs:label "Япония"@tyv ;
+	skos:prefLabel "Япония"@tyv ;
+	schema:name "Япония"@tyv ;
+	rdfs:label "Yapän"@vo ;
+	skos:prefLabel "Yapän"@vo ;
+	schema:name "Yapän"@vo ;
+	rdfs:label "ᱡᱟᱯᱟᱱ"@sat ;
+	skos:prefLabel "ᱡᱟᱯᱟᱱ"@sat ;
+	schema:name "ᱡᱟᱯᱟᱱ"@sat ;
+	rdfs:label "Japan"@bar ;
+	skos:prefLabel "Japan"@bar ;
+	schema:name "Japan"@bar ;
+	rdfs:label "Hapon"@pap ;
+	skos:prefLabel "Hapon"@pap ;
+	schema:name "Hapon"@pap ;
+	rdfs:label "जपान"@gom-deva ;
+	skos:prefLabel "जपान"@gom-deva ;
+	schema:name "जपान"@gom-deva ;
+	rdfs:label "Iāpana"@haw ;
+	skos:prefLabel "Iāpana"@haw ;
+	schema:name "Iāpana"@haw ;
+	rdfs:label "Japan"@tum ;
+	skos:prefLabel "Japan"@tum ;
+	schema:name "Japan"@tum ;
+	rdfs:label "جاپان"@ur ;
+	skos:prefLabel "جاپان"@ur ;
+	schema:name "جاپان"@ur ;
+	rdfs:label "Japani"@kl ;
+	skos:prefLabel "Japani"@kl ;
+	schema:name "Japani"@kl ;
+	rdfs:label "יפן"@he ;
+	skos:prefLabel "יפן"@he ;
+	schema:name "יפן"@he ;
+	rdfs:label "Japańska"@dsb ;
+	skos:prefLabel "Japańska"@dsb ;
+	schema:name "Japańska"@dsb ;
+	rdfs:label "Японія"@be-tarask ;
+	skos:prefLabel "Японія"@be-tarask ;
+	schema:name "Японія"@be-tarask ;
+	rdfs:label "Giappone"@it ;
+	skos:prefLabel "Giappone"@it ;
+	schema:name "Giappone"@it ;
+	rdfs:label "Nĭk-buōng"@cdo ;
+	skos:prefLabel "Nĭk-buōng"@cdo ;
+	schema:name "Nĭk-buōng"@cdo ;
+	rdfs:label "Ji̍t-pún"@nan ;
+	skos:prefLabel "Ji̍t-pún"@nan ;
+	schema:name "Ji̍t-pún"@nan ;
+	rdfs:label "Hapõ"@gn ;
+	skos:prefLabel "Hapõ"@gn ;
+	schema:name "Hapõ"@gn ;
+	rdfs:label "Япония"@tt-cyrl ;
+	skos:prefLabel "Япония"@tt-cyrl ;
+	schema:name "Япония"@tt-cyrl ;
+	rdfs:label "Japan"@bs ;
+	skos:prefLabel "Japan"@bs ;
+	schema:name "Japan"@bs ;
+	rdfs:label "Japan"@sh ;
+	skos:prefLabel "Japan"@sh ;
+	schema:name "Japan"@sh ;
+	rdfs:label "Japán"@hu ;
+	skos:prefLabel "Japán"@hu ;
+	schema:name "Japán"@hu ;
+	rdfs:label "日本"@yue ;
+	skos:prefLabel "日本"@yue ;
+	schema:name "日本"@yue ;
+	rdfs:label "జపాన్"@te ;
+	skos:prefLabel "జపాన్"@te ;
+	schema:name "జపాన్"@te ;
+	rdfs:label "Ниппон"@koi ;
+	skos:prefLabel "Ниппон"@koi ;
+	schema:name "Ниппон"@koi ;
+	rdfs:label "Япония"@ba ;
+	skos:prefLabel "Япония"@ba ;
+	schema:name "Япония"@ba ;
+	rdfs:label "Дьоппуон"@sah ;
+	skos:prefLabel "Дьоппуон"@sah ;
+	schema:name "Дьоппуон"@sah ;
+	rdfs:label "Iapan"@ang ;
+	skos:prefLabel "Iapan"@ang ;
+	schema:name "Iapan"@ang ;
+	rdfs:label "जापान"@pi ;
+	skos:prefLabel "जापान"@pi ;
+	schema:name "जापान"@pi ;
+	rdfs:label "Japůńijo"@szl ;
+	skos:prefLabel "Japůńijo"@szl ;
+	schema:name "Japůńijo"@szl ;
+	rdfs:label "Ýaponiýa"@tk ;
+	skos:prefLabel "Ýaponiýa"@tk ;
+	schema:name "Ýaponiýa"@tk ;
+	rdfs:label "Japan"@hif ;
+	skos:prefLabel "Japan"@hif ;
+	schema:name "Japan"@hif ;
+	rdfs:label "Ниxуудин Нутг"@xal ;
+	skos:prefLabel "Ниxуудин Нутг"@xal ;
+	schema:name "Ниxуудин Нутг"@xal ;
+	rdfs:label "Ꙗпѡнїꙗ"@cu ;
+	skos:prefLabel "Ꙗпѡнїꙗ"@cu ;
+	schema:name "Ꙗпѡнїꙗ"@cu ;
+	rdfs:label "जापान"@new ;
+	skos:prefLabel "जापान"@new ;
+	schema:name "जापान"@new ;
+	rdfs:label "Gjapon"@fur ;
+	skos:prefLabel "Gjapon"@fur ;
+	schema:name "Gjapon"@fur ;
+	rdfs:label "جاپان"@sd ;
+	skos:prefLabel "جاپان"@sd ;
+	schema:name "جاپان"@sd ;
+	rdfs:label "Japan"@sn ;
+	skos:prefLabel "Japan"@sn ;
+	schema:name "Japan"@sn ;
+	rdfs:label "Japonya"@tr ;
+	skos:prefLabel "Japonya"@tr ;
+	schema:name "Japonya"@tr ;
+	rdfs:label "Japan"@ie ;
+	skos:prefLabel "Japan"@ie ;
+	schema:name "Japan"@ie ;
+	rdfs:label "Japon"@ht ;
+	skos:prefLabel "Japon"@ht ;
+	schema:name "Japon"@ht ;
+	rdfs:label "Японія"@be ;
+	skos:prefLabel "Японія"@be ;
+	schema:name "Японія"@be ;
+	rdfs:label "იაპონია"@ka ;
+	skos:prefLabel "იაპონია"@ka ;
+	schema:name "იაპონია"@ka ;
+	rdfs:label "Япон"@ce ;
+	skos:prefLabel "Япон"@ce ;
+	schema:name "Япон"@ce ;
+	rdfs:label "Япония"@kv ;
+	skos:prefLabel "Япония"@kv ;
+	schema:name "Япония"@kv ;
+	rdfs:label "ژاپن"@fa ;
+	skos:prefLabel "ژاپن"@fa ;
+	schema:name "ژاپن"@fa ;
+	rdfs:label "Japan"@nds-nl ;
+	skos:prefLabel "Japan"@nds-nl ;
+	schema:name "Japan"@nds-nl ;
+	rdfs:label "རི་པིན།"@bo ;
+	skos:prefLabel "རི་པིན།"@bo ;
+	schema:name "རི་པིན།"@bo ;
+	rdfs:label "Japan"@jam ;
+	skos:prefLabel "Japan"@jam ;
+	schema:name "Japan"@jam ;
+	rdfs:label "Жапония"@mo ;
+	skos:prefLabel "Жапония"@mo ;
+	schema:name "Жапония"@mo ;
+	rdfs:label "Nipono"@mi ;
+	skos:prefLabel "Nipono"@mi ;
+	schema:name "Nipono"@mi ;
+	rdfs:label "Japonia"@pl ;
+	skos:prefLabel "Japonia"@pl ;
+	schema:name "Japonia"@pl ;
+	rdfs:label "Japan"@en-ca ;
+	skos:prefLabel "Japan"@en-ca ;
+	schema:name "Japan"@en-ca ;
+	rdfs:label "Yapan"@tw ;
+	skos:prefLabel "Yapan"@tw ;
+	schema:name "Yapan"@tw ;
+	rdfs:label "ጃፓን"@am ;
+	skos:prefLabel "ጃፓን"@am ;
+	schema:name "ጃፓን"@am ;
+	rdfs:label "Japang"@min ;
+	skos:prefLabel "Japang"@min ;
+	schema:name "Japang"@min ;
+	rdfs:label "Япония"@udm ;
+	skos:prefLabel "Япония"@udm ;
+	schema:name "Япония"@udm ;
+	rdfs:label "Жапония"@kk ;
+	skos:prefLabel "Жапония"@kk ;
+	schema:name "Жапония"@kk ;
+	rdfs:label "Japaun"@tet ;
+	skos:prefLabel "Japaun"@tet ;
+	schema:name "Japaun"@tet ;
+	rdfs:label "ಜಪಾನ್"@kn ;
+	skos:prefLabel "ಜಪಾನ್"@kn ;
+	schema:name "ಜಪಾನ್"@kn ;
+	rdfs:label "Giappone"@nap ;
+	skos:prefLabel "Giappone"@nap ;
+	schema:name "Giappone"@nap ;
+	rdfs:label "Ιαπωνία"@el ;
+	skos:prefLabel "Ιαπωνία"@el ;
+	schema:name "Ιαπωνία"@el ;
+	rdfs:label "Japan"@vls ;
+	skos:prefLabel "Japan"@vls ;
+	schema:name "Japan"@vls ;
+	rdfs:label "Japonia"@sq ;
+	skos:prefLabel "Japonia"@sq ;
+	schema:name "Japonia"@sq ;
+	rdfs:label "Japan"@kg ;
+	skos:prefLabel "Japan"@kg ;
+	schema:name "Japan"@kg ;
+	rdfs:label "Japana"@mg ;
+	skos:prefLabel "Japana"@mg ;
+	schema:name "Japana"@mg ;
+	rdfs:label "Japão"@pt-br ;
+	skos:prefLabel "Japão"@pt-br ;
+	schema:name "Japão"@pt-br ;
+	rdfs:label "Японий"@mhr ;
+	skos:prefLabel "Японий"@mhr ;
+	schema:name "Японий"@mhr ;
+	rdfs:label "ജപ്പാൻ"@ml ;
+	skos:prefLabel "ജപ്പാൻ"@ml ;
+	schema:name "ജപ്പാൻ"@ml ;
+	rdfs:label "Японія"@rue ;
+	skos:prefLabel "Японія"@rue ;
+	schema:name "Японія"@rue ;
+	rdfs:label "Giappone"@sc ;
+	skos:prefLabel "Giappone"@sc ;
+	schema:name "Giappone"@sc ;
+	rdfs:label "Yaponiä"@tt-latn ;
+	skos:prefLabel "Yaponiä"@tt-latn ;
+	schema:name "Yaponiä"@tt-latn ;
+	rdfs:label "Japon"@ku ;
+	skos:prefLabel "Japon"@ku ;
+	schema:name "Japon"@ku ;
+	rdfs:label "Japounii"@olo ;
+	skos:prefLabel "Japounii"@olo ;
+	schema:name "Japounii"@olo ;
+	rdfs:label "ܝܦܢ"@arc ;
+	skos:prefLabel "ܝܦܢ"@arc ;
+	schema:name "ܝܦܢ"@arc ;
+	rdfs:label "IJaphani"@ss ;
+	skos:prefLabel "IJaphani"@ss ;
+	schema:name "IJaphani"@ss ;
+	rdfs:label "Japani"@ts ;
+	skos:prefLabel "Japani"@ts ;
+	schema:name "Japani"@ts ;
+	rdfs:label "ޖަޕާނު"@dv ;
+	skos:prefLabel "ޖަޕާނު"@dv ;
+	schema:name "ޖަޕާނު"@dv ;
+	rdfs:label "اليابان"@arz ;
+	skos:prefLabel "اليابان"@arz ;
+	schema:name "اليابان"@arz ;
+	rdfs:label "Japan"@aln ;
+	skos:prefLabel "Japan"@aln ;
+	schema:name "Japan"@aln ;
+	rdfs:label "Japána"@se ;
+	skos:prefLabel "Japána"@se ;
+	schema:name "Japána"@se ;
+	rdfs:label "Xapon"@nah ;
+	skos:prefLabel "Xapon"@nah ;
+	schema:name "Xapon"@nah ;
+	rdfs:label "Nihun"@qu ;
+	skos:prefLabel "Nihun"@qu ;
+	schema:name "Nihun"@qu ;
+	rdfs:label "Japonsko"@cs ;
+	skos:prefLabel "Japonsko"@cs ;
+	schema:name "Japonsko"@cs ;
+	rdfs:label "Nihon"@kw ;
+	skos:prefLabel "Nihon"@kw ;
+	schema:name "Nihon"@kw ;
+	rdfs:label "Giappon"@lij ;
+	skos:prefLabel "Giappon"@lij ;
+	schema:name "Giappon"@lij ;
+	rdfs:label "Djapon"@lad ;
+	skos:prefLabel "Djapon"@lad ;
+	schema:name "Djapon"@lad ;
+	rdfs:label "Japan"@zea ;
+	skos:prefLabel "Japan"@zea ;
+	schema:name "Japan"@zea ;
+	rdfs:label "Япони"@mrj ;
+	skos:prefLabel "Япони"@mrj ;
+	schema:name "Япони"@mrj ;
+	rdfs:label "Јапан"@sr-ec ;
+	skos:prefLabel "Јапан"@sr-ec ;
+	schema:name "Јапан"@sr-ec ;
+	rdfs:label "Japan"@hr ;
+	skos:prefLabel "Japan"@hr ;
+	schema:name "Japan"@hr ;
+	rdfs:label "日本"@ja ;
+	skos:prefLabel "日本"@ja ;
+	schema:name "日本"@ja ;
+	rdfs:label "일본"@ko ;
+	skos:prefLabel "일본"@ko ;
+	schema:name "일본"@ko ;
+	rdfs:label "Nion"@lfn ;
+	skos:prefLabel "Nion"@lfn ;
+	schema:name "Nion"@lfn ;
+	rdfs:label "Japan"@br ;
+	skos:prefLabel "Japan"@br ;
+	schema:name "Japan"@br ;
+	rdfs:label "日本"@lzh ;
+	skos:prefLabel "日本"@lzh ;
+	schema:name "日本"@lzh ;
+	rdfs:label "जापान"@sa ;
+	skos:prefLabel "जापान"@sa ;
+	schema:name "जापान"@sa ;
+	rdfs:label "Giapun"@lmo ;
+	skos:prefLabel "Giapun"@lmo ;
+	schema:name "Giapun"@lmo ;
+	rdfs:label "Ngi̍t-pún"@hak ;
+	skos:prefLabel "Ngi̍t-pún"@hak ;
+	schema:name "Ngi̍t-pún"@hak ;
+	rdfs:label "जापान"@dty ;
+	skos:prefLabel "जापान"@dty ;
+	schema:name "जापान"@dty ;
+	rdfs:label "Јапан"@sr ;
+	skos:prefLabel "Јапан"@sr ;
+	schema:name "Јапан"@sr ;
+	rdfs:label "Japan"@de-at ;
+	skos:prefLabel "Japan"@de-at ;
+	schema:name "Japan"@de-at ;
+	rdfs:label "မိူင်းၵျႃႇပၢၼ်ႇ"@shn ;
+	skos:prefLabel "မိူင်းၵျႃႇပၢၼ်ႇ"@shn ;
+	schema:name "မိူင်းၵျႃႇပၢၼ်ႇ"@shn ;
+	rdfs:label "Ճափոն"@hyw ;
+	skos:prefLabel "Ճափոն"@hyw ;
+	schema:name "Ճափոն"@hyw ;
+	rdfs:label "Japan"@ve ;
+	skos:prefLabel "Japan"@ve ;
+	schema:name "Japan"@ve ;
+	rdfs:label "Japan"@bm ;
+	skos:prefLabel "Japan"@bm ;
+	schema:name "Japan"@bm ;
+	rdfs:label "Japan"@rmy ;
+	skos:prefLabel "Japan"@rmy ;
+	schema:name "Japan"@rmy ;
+	rdfs:label "Japan"@ny ;
+	skos:prefLabel "Japan"@ny ;
+	schema:name "Japan"@ny ;
+	rdfs:label "Japan"@ff ;
+	skos:prefLabel "Japan"@ff ;
+	schema:name "Japan"@ff ;
+	rdfs:label "Japan"@ig ;
+	skos:prefLabel "Japan"@ig ;
+	schema:name "Japan"@ig ;
+	rdfs:label "Yapon"@rn ;
+	skos:prefLabel "Yapon"@rn ;
+	schema:name "Yapon"@rn ;
+	rdfs:label "Hapon"@pag ;
+	skos:prefLabel "Hapon"@pag ;
+	schema:name "Hapon"@pag ;
+	rdfs:label "Zapöo"@sg ;
+	skos:prefLabel "Zapöo"@sg ;
+	schema:name "Zapöo"@sg ;
+	rdfs:label "Siapani"@to ;
+	skos:prefLabel "Siapani"@to ;
+	schema:name "Siapani"@to ;
+	rdfs:label "Jepang"@map-bms ;
+	skos:prefLabel "Jepang"@map-bms ;
+	schema:name "Jepang"@map-bms ;
+	rdfs:label "Japan"@tn ;
+	skos:prefLabel "Japan"@tn ;
+	schema:name "Japan"@tn ;
+	rdfs:label "Japani"@fj ;
+	skos:prefLabel "Japani"@fj ;
+	schema:name "Japani"@fj ;
+	rdfs:label "Ιαπωνία"@pnt ;
+	skos:prefLabel "Ιαπωνία"@pnt ;
+	schema:name "Ιαπωνία"@pnt ;
+	rdfs:label "Japan"@pfl ;
+	skos:prefLabel "Japan"@pfl ;
+	schema:name "Japan"@pfl ;
+	rdfs:label "Japan"@ksh ;
+	skos:prefLabel "Japan"@ksh ;
+	schema:name "Japan"@ksh ;
+	rdfs:label "Japan"@lg ;
+	skos:prefLabel "Japan"@lg ;
+	schema:name "Japan"@lg ;
+	rdfs:label "Japan"@din ;
+	skos:prefLabel "Japan"@din ;
+	schema:name "Japan"@din ;
+	rdfs:label "ژاپؤن"@glk ;
+	skos:prefLabel "ژاپؤن"@glk ;
+	schema:name "ژاپؤن"@glk ;
+	rdfs:label "Япония"@av ;
+	skos:prefLabel "Япония"@av ;
+	schema:name "Япония"@av ;
+	rdfs:label "ᔭᐊᐸᐊᐣ"@cr ;
+	skos:prefLabel "ᔭᐊᐸᐊᐣ"@cr ;
+	schema:name "ᔭᐊᐸᐊᐣ"@cr ;
+	rdfs:label "Djapon"@wa ;
+	skos:prefLabel "Djapon"@wa ;
+	schema:name "Djapon"@wa ;
+	rdfs:label "Japon"@kea ;
+	skos:prefLabel "Japon"@kea ;
+	schema:name "Japon"@kea ;
+	rdfs:label "ߗ߭ߊߔߐ߲߫"@nqo ;
+	skos:prefLabel "ߗ߭ߊߔߐ߲߫"@nqo ;
+	schema:name "ߗ߭ߊߔߐ߲߫"@nqo ;
+	rdfs:label "Jepang"@ban ;
+	skos:prefLabel "Jepang"@ban ;
+	schema:name "Jepang"@ban ;
+	rdfs:label "Japan"@atj ;
+	skos:prefLabel "Japan"@atj ;
+	schema:name "Japan"@atj ;
+	rdfs:label "Япония"@lbe ;
+	skos:prefLabel "Япония"@lbe ;
+	schema:name "Япония"@lbe ;
+	rdfs:label "Japon"@gcr ;
+	skos:prefLabel "Japon"@gcr ;
+	schema:name "Japon"@gcr ;
+	rdfs:label "Zipun"@szy ;
+	skos:prefLabel "Zipun"@szy ;
+	schema:name "Zipun"@szy ;
+	rdfs:label "ဂျပန်နိုင်ငံ"@mnw ;
+	skos:prefLabel "ဂျပန်နိုင်ငံ"@mnw ;
+	schema:name "ဂျပန်နိုင်ငံ"@mnw ;
+	rdfs:label "जापान"@awa ;
+	skos:prefLabel "जापान"@awa ;
+	schema:name "जापान"@awa ;
+	rdfs:label "Jaapaan"@smn ;
+	skos:prefLabel "Jaapaan"@smn ;
+	schema:name "Jaapaan"@smn ;
+	rdfs:label "Japaan"@sms ;
+	skos:prefLabel "Japaan"@sms ;
+	schema:name "Japaan"@sms ;
+	rdfs:label "Nipona"@avk ;
+	skos:prefLabel "Nipona"@avk ;
+	schema:name "Nipona"@avk ;
+	rdfs:label "Iapan"@lld ;
+	skos:prefLabel "Iapan"@lld ;
+	schema:name "Iapan"@lld ;
+	rdfs:label "Jeppang"@mad ;
+	skos:prefLabel "Jeppang"@mad ;
+	schema:name "Jeppang"@mad ;
+	rdfs:label "Nifo"@nia ;
+	skos:prefLabel "Nifo"@nia ;
+	schema:name "Nifo"@nia ;
+	rdfs:label "ꯖꯄꯥꯟ"@mni ;
+	skos:prefLabel "ꯖꯄꯥꯟ"@mni ;
+	schema:name "ꯖꯄꯥꯟ"@mni ;
+	rdfs:label "Japan"@trv ;
+	skos:prefLabel "Japan"@trv ;
+	schema:name "Japan"@trv ;
+	rdfs:label "Japan"@tay ;
+	skos:prefLabel "Japan"@tay ;
+	schema:name "Japan"@tay ;
+	rdfs:label "Япония"@alt ;
+	skos:prefLabel "Япония"@alt ;
+	schema:name "Япония"@alt ;
+	rdfs:label "جڤون"@ms-arab ;
+	skos:prefLabel "جڤون"@ms-arab ;
+	schema:name "جڤون"@ms-arab ;
+	rdfs:label "جاپان"@skr ;
+	skos:prefLabel "جاپان"@skr ;
+	schema:name "جاپان"@skr ;
+	rdfs:label "Japon"@ku-latn ;
+	skos:prefLabel "Japon"@ku-latn ;
+	schema:name "Japon"@ku-latn ;
+	rdfs:label "Japan"@ami ;
+	skos:prefLabel "Japan"@ami ;
+	schema:name "Japan"@ami ;
+	rdfs:label "Dripun"@pwn ;
+	skos:prefLabel "Dripun"@pwn ;
+	schema:name "Dripun"@pwn ;
+	rdfs:label "Ἰαπωνία"@grc ;
+	skos:prefLabel "Ἰαπωνία"@grc ;
+	schema:name "Ἰαπωνία"@grc ;
+	rdfs:label "Japan"@dag ;
+	skos:prefLabel "Japan"@dag ;
+	schema:name "Japan"@dag ;
+	rdfs:label "Hapon"@krj ;
+	skos:prefLabel "Hapon"@krj ;
+	schema:name "Hapon"@krj ;
+	rdfs:label "Japan"@guw ;
+	skos:prefLabel "Japan"@guw ;
+	schema:name "Japan"@guw ;
+	rdfs:label "Ja̱pan"@kcg ;
+	skos:prefLabel "Ja̱pan"@kcg ;
+	schema:name "Ja̱pan"@kcg ;
+	rdfs:label "Saponia"@wls ;
+	skos:prefLabel "Saponia"@wls ;
+	schema:name "Saponia"@wls ;
+	rdfs:label "Japádna"@smj ;
+	skos:prefLabel "Japádna"@smj ;
+	schema:name "Japádna"@smj ;
+	rdfs:label "ဂျပန်ခမ်းထီ"@blk ;
+	skos:prefLabel "ဂျပန်ခမ်းထီ"@blk ;
+	schema:name "ဂျပန်ခမ်းထီ"@blk ;
+	rdfs:label "Japan"@pcm ;
+	skos:prefLabel "Japan"@pcm ;
+	schema:name "Japan"@pcm ;
+	rdfs:label "ma Nijon"@tok ;
+	skos:prefLabel "ma Nijon"@tok ;
+	schema:name "ma Nijon"@tok ;
+	rdfs:label "Japan"@en-us ;
+	skos:prefLabel "Japan"@en-us ;
+	schema:name "Japan"@en-us ;
+	rdfs:label "जापान"@anp ;
+	skos:prefLabel "जापान"@anp ;
+	schema:name "जापान"@anp ;
+	rdfs:label "大和"@ryu ;
+	skos:prefLabel "大和"@ryu ;
+	schema:name "大和"@ryu ;
+	rdfs:label "Japan"@gpe ;
+	skos:prefLabel "Japan"@gpe ;
+	schema:name "Japan"@gpe ;
+	rdfs:label "Japan"@mos ;
+	skos:prefLabel "Japan"@mos ;
+	schema:name "Japan"@mos ;
+	schema:description "gwlad yn nwyrain Asia"@cy,
+		"Doğu Asya'da bir ada ülkesi"@tr,
+		"štát vo východnej Ázii"@sk,
+		"Asyay akeeten dı ju monarşiya"@diq,
+		"iyizwe e-Eshiya"@zu,
+		"pays d'Asie de l'Est"@fr,
+		"Көнчыгыш Азиядә урнашкан утрау-дәүләт"@tt-cyrl,
+		"एशिया महाद्वीप में स्थित एक देश"@hi,
+		"東亞國家"@zh,
+		"stato sovrano insulare dell'Asia orientale"@it,
+		"kupowy stat we wuchodnej Aziji"@hsb,
+		"পূর্ব এশিয়ার দ্বীপরাষ্ট্র ও সাংবিধানিক রাজতন্ত্র"@bn,
+		"saarivaltio Itä-Aasiassa"@fi,
+		"بلاد فشرق آسيا"@ary,
+		"держава у Східній Азії"@uk,
+		"negara di Asia Timur"@id,
+		"país insular na Ásia Oriental"@pt,
+		"ਪੂਰਬੀ ਏਸ਼ੀਆ ਵਿਚ ਟਾਪੂ ਦੇਸ਼"@pa,
+		"东亚国家"@zh-my,
+		"островное государство в Восточной Азии"@ru,
+		"کشوری در شرق آسیا"@fa,
+		"quốc đảo ở khu vực Đông Á, nằm ở tây bắc Thái Bình Dương"@vi,
+		"東亞國家"@zh-tw,
+		"isla a pagilian idiay Daya nga Asia"@ilo,
+		"país de Asia Oriental"@es,
+		"東亞國家"@lzh,
+		"усиянь мастор Чилисемань Азиясо"@myv,
+		"պետություն է Ասիայի խաղաղօվկիանոսյան ափերից դեպի արևելք գտնվող կղզիների վրա"@hy,
+		"eilandstaat in Oos-Asië"@af,
+		"państwo wyspiarskie w Azji"@pl,
+		"東亞國家"@zh-hant,
+		"land i Øst-Asia"@nb,
+		"szigetország Kelet-Ázsiában"@hu,
+		"पूर्व एशियाको द्विपमा रहेको देश"@ne,
+		"东亚国家"@zh-hans,
+		"eilandstaat in Oost-Azië"@nl,
+		"Inselstaat in Ostasien"@de,
+		"东亚国家"@zh-sg,
+		"konstitutionell monarki i Östasien"@sv,
+		"पूर्व आशियातील सविधनिक राजेशाही"@mr,
+		"държава в Азия"@bg,
+		"دولة جزرية في شرق آسيا"@ar,
+		"shtet ishullor në Azinë Lindore"@sq,
+		"სტატია ქიანაშ გეშა"@xmf,
+		"東亞國家"@zh-hk,
+		"país da Ásia"@pt-br,
+		"ostrvska država u istočnoj Aziji"@sr-el,
+		"paìsi di l'estremu urienti"@scn,
+		"island country in East Asia"@en,
+		"এছিয়াৰ এখন ৰাষ্ট্ৰ"@as,
+		"lando en orienta Azio, konsistanta el insuloj en Pacifiko"@eo,
+		"東亞島國"@yue,
+		"monarkiyang konstitusyonal na bansa sa Silangang Asya"@tl,
+		"东亚国家"@zh-cn,
+		"အရှေ့အာရှတွင်ရှိသော စက်မှုထွန်းကားရာကျွန်းနိုင်ငံ"@my,
+		"తూర్పాసియా లోని ద్వీపకల్ప దేశము"@te,
+		"Япония шәһәре"@tt,
+		"Könçığış Aziädä urnaşqan utraw-däwlät"@tt-latn,
+		"východoasijská ostrovní země"@cs,
+		"land i Aust-Asia"@nn,
+		"கிழக்காசிய நாடு"@ta,
+		"מדינה במזרח אסיה"@he,
+		"νησιωτική χώρα της ανατολικής Ασίας"@el,
+		"țară insulară din Asia de Est"@ro,
+		"पूरबी एशिया में एगो संबैधानिक राजतंत्र"@bho,
+		"острвска држава у источној Азији"@sr-ec,
+		"island nation in East Asia"@en-gb,
+		"otočna država u istočnoj Aziji"@hr,
+		"東アジアの国"@ja,
+		"동아시아의 국가"@ko,
+		"ಪೂರ್ವ ಏಷ್ಯಾದಲ್ಲಿರುವ ಒಂದು ದ್ವೀಪರಾಷ್ಟ್ರ"@kn,
+		"država u istočnoj Aziji"@bs,
+		"東亞國家"@zh-mo,
+		"nchi ya visiwani katika Asia Mashariki"@sw,
+		"ประเทศในเอเชียตะวันออก"@th,
+		"കിഴക്കനേഷ്യയിലെ ഒരു ദ്വീപ് രാഷ്ട്രമാണ് ജപ്പാൻ"@ml,
+		"وڵاتێکی دوورگەیی لە ڕۆژھەڵاتی ئاسیا"@ckb,
+		"østasiatisk østat"@da,
+		"уставна монархија у источној Азији"@sr,
+		"país de l'Àsia i arxipèlag de l'oceà Pacífic"@ca,
+		"valsts Austrumāzijā"@lv,
+		"país d'Asia"@ast,
+		"país insular situado no Extremo Oriente asiático"@gl,
+		"negara berdaulat di Asia Timur"@ms,
+		"sovereign island naition in Eastren Asie"@sco,
+		"ꯅꯣꯡꯄꯣꯛ ꯊꯪꯕ ꯑꯦꯁꯤꯌꯥꯗ ꯂꯩꯕ ꯃꯅꯤꯡꯇꯝꯕ ꯂꯩꯄꯥꯛ"@mni,
+		"stat sovran fl-Asja tal-Lvant"@mt,
+		"pais de Asia"@ia,
+		"civitas sui iuris in occidentali Oceano Pacifico"@la,
+		"χώρα τῆς Ἀσίας"@grc,
+		"مشرقی ایشیا میں ایک ملک"@ur,
+		"pungsod sa Asya"@krj,
+		"bangsâ king Asia"@pam,
+		"Көнсығыш Азиялағы утрауҙарҙа урынлашҡан дәүләт"@ba,
+		"país d'Asia Oriental"@an,
+		"jiõččnaž suâlvaldia Nuõrtt-Aasiast"@sms,
+		"iehčanas sulloriika Nuorta-Ásias"@se,
+		"jiečânâs suáluistaatâ Nuorttâ-Aasiast"@smn,
+		"مُلُک"@ks,
+		"istadu de s'Àsia orientale"@sc,
+		"nagara ing Asia Wétan"@jv,
+		"ma lon ma Asija"@tok,
+		"eyland í Austur-Asíu"@is,
+		"東亞國家"@gan,
+		"东亚国家"@wuu,
+		"Sharqiy Osiyodagi davlat"@uz,
+		"statu di l'Asia orientale"@co,
+		"東アジアんかいある島国"@ryu,
+		"stat de ijules te l'Asia dl est"@lld,
+		"sala sèttong naghârâ kapolowan è Asia Tèmor. Engghunna è paddhu bârâ'na Saghârâ Pasifik, è lajân tèmor bahar Jeppang, bân atatangghâ bi' Republik Rakyat Tiongkok, Korèa, bân Rusia."@mad,
+		"островный штат во выходній Азії"@rue ;
+	skos:altLabel "Жопун"@tg-cyrl,
+		"Япония"@tg-cyrl,
+		"Naponya"@diq,
+		"pays du soleil levant"@fr,
+		"État du Japon"@fr,
+		"JP"@fr,
+		"le Japon"@fr,
+		"Jap."@fr,
+		"日本国"@zh,
+		"日本國"@zh,
+		"Negeri Matahari Terbit"@id,
+		"Tanah Matahari Terbit"@id,
+		"Negara Jepang"@id,
+		"নিপ্পন"@bn,
+		"সূর্য উদয়ের দেশ"@bn,
+		"Japonya Devleti"@tr,
+		"Doğan Güneşin Ülkesi"@tr,
+		"🇯🇵"@tr,
+		"An t-Seapan"@gd,
+		"Japan"@th,
+		"ญี่ปุ่น"@th,
+		"日本国"@zh-my,
+		"Estado ng Hapon"@tl,
+		"bansang unang sinisikatan ng araw"@tl,
+		"日本國"@zh-tw,
+		"Estado de Japón"@es,
+		"Япония"@myv,
+		"Nippon"@pl,
+		"Nihon"@pl,
+		"Kraj Kwitnącej Wiśni"@pl,
+		"Kraj Wschodzącego Słońca"@pl,
+		"日本國"@zh-hant,
+		"Nippon"@nb,
+		"Nihon"@nb,
+		"Japanujo"@eo,
+		"Nipono"@eo,
+		"JP"@eo,
+		"日本国"@zh-hans,
+		"Nihon"@de,
+		"Nippon"@de,
+		"Land der aufgehenden Sonne"@de,
+		"일본국"@ko,
+		"日本国"@zh-sg,
+		"Kejsardömet Japan"@sv,
+		"Staten Japan"@sv,
+		"Nippon"@sv,
+		"Soluppgångens land"@sv,
+		"Nihon"@sv,
+		"Japanska kejsardömet"@sv,
+		"Japanska imperiet"@sv,
+		"страната на изгряващото Слънце"@bg,
+		"🇯🇵"@ar,
+		"يابان"@ar,
+		"دولة اليابان"@ar,
+		"日本國"@zh-hk,
+		"Estado do Japão"@pt-br,
+		"Terra do Sol Nascente"@pt-br,
+		"Nihon"@pt-br,
+		"Nippon"@pt-br,
+		"JP"@pt-br,
+		"Nippon-koku"@pt-br,
+		"Nihon-koku"@pt-br,
+		"JA"@pt-br,
+		"JPN"@pt-br,
+		"🇯🇵"@pt-br,
+		"jp"@pt-br,
+		"JAP"@pt-br,
+		"🗾"@pt-br,
+		"ಉದಯಿಸುತ್ತಿರುವ ಸೂರ್ಯನ ನಾಡು, ನಿಪ್ಪಾನ್,"@kn,
+		"State of Japan"@en,
+		"Land of the Rising Sun"@en,
+		"Nihon"@en,
+		"Nippon"@en,
+		"JP"@en,
+		"Nippon-koku"@en,
+		"Nihon-koku"@en,
+		"JPN"@en,
+		"jp"@en,
+		"JAP"@en,
+		"Jap"@en,
+		"JA"@en,
+		"Ja"@en,
+		"🇯🇵"@en,
+		"Iapan"@en,
+		"Iapon"@en,
+		"یابان"@ckb,
+		"نیپۆن"@ckb,
+		"JA"@ckb,
+		"JAP"@ckb,
+		"نیھۆن"@ckb,
+		"دەوڵەتی ژاپۆن"@ckb,
+		"🇯🇵"@ckb,
+		"Japan"@lfn,
+		"日本国"@zh-cn,
+		"大日本帝国"@zh-cn,
+		"சப்பான்"@ta,
+		"निप्पन"@bho,
+		"उगते सूरज का देश"@bho,
+		"जपान"@bho,
+		"日本"@gl,
+		"Nippon"@hr,
+		"Zemlja Izlazećeg Sunca"@hr,
+		"ふそう"@ja,
+		"にっぽんこく"@ja,
+		"ひいずるくに"@ja,
+		"扶桑"@ja,
+		"にほん"@ja,
+		"しきしま"@ja,
+		"敷島"@ja,
+		"大八州"@ja,
+		"日本国"@ja,
+		"日出る国"@ja,
+		"神州"@ja,
+		"秋津島"@ja,
+		"あきつしま"@ja,
+		"おおやしま"@ja,
+		"にほんこく"@ja,
+		"しんしゅう"@ja,
+		"ジャパン"@ja,
+		"にっぽん"@ja,
+		"Япуния"@tt-cyrl,
+		"Япунстан"@tt-cyrl,
+		"Япуниә"@tt-cyrl,
+		"Япун иле"@tt-cyrl,
+		"日本國"@zh-mo,
+		"Ujapani"@sw,
+		"日本國"@yue,
+		"東瀛"@yue,
+		"東洋"@yue,
+		"扶桑國"@yue,
+		"扶桑"@yue,
+		"Нипон"@sr,
+		"ЈАП"@sr,
+		"Земља излазећег Сунца"@sr,
+		"Држава Јапан"@sr,
+		"Нихон"@sr,
+		"JP"@sr,
+		"Нипон-коку"@sr,
+		"Нихон-коку"@sr,
+		"JA"@sr,
+		"JPN"@sr,
+		"🇯🇵"@sr,
+		"jp"@sr,
+		"JAP"@sr,
+		"🗾"@sr,
+		"el Japó"@ca,
+		"Estat del Japó"@ca,
+		"Negara Matahari Terbit"@ms,
+		"JP"@nl,
+		"JPN"@nl,
+		"जापान"@ks,
+		"Giappone"@co,
+		"Statu di u Ghjappone"@co,
+		"Statu di u Giappone"@co,
+		"Япунстан"@tt,
+		"Jáhpan"@se,
+		"Nhật"@vi,
+		"Nhật Bổn"@vi,
+		"Țara soarelui răsare"@ro,
+		"Țara Soarelui Răsare"@ro,
+		"Țara crizantemei"@ro,
+		"Țara Crizantemei"@ro,
+		"Χώρα του ανατέλλοντος ηλίου"@el,
+		"Страна восходящего солнца"@ru,
+		"Ниппон"@ru,
+		"🇯🇵"@ru,
+		"pungsod Haponanën"@krj,
+		"pungsod Hapones"@krj,
+		"pongsod Haponanun"@krj,
+		"pongsod Haponis"@krj,
+		"Japún"@pam,
+		"Estado do Japão"@pt,
+		"Terra do Sol Nascente"@pt,
+		"Nihon"@pt,
+		"Nippon"@pt,
+		"JP"@pt,
+		"Nippon-koku"@pt,
+		"Nihon-koku"@pt,
+		"JA"@pt,
+		"JPN"@pt,
+		"jp"@pt,
+		"JAP"@pt,
+		"Ja"@pt,
+		"Jap"@pt,
+		"🇯🇵"@pt,
+		"🗾"@pt,
+		"Japánna"@smj,
+		"Stato del Giappone"@it,
+		"Giapone"@sc,
+		"Giapponi"@sc,
+		"Giaponi"@sc,
+		"Istadu de su Giappone"@sc,
+		"Istadu de su Giapone"@sc,
+		"State o Japan"@sco,
+		"Staat Japan"@af,
+		"🇯🇵"@en-us,
+		"🇯🇵"@aeb-arab,
+		"🇯🇵"@arc,
+		"🇯🇵"@ary,
+		"🇯🇵"@pnb,
+		"🇯🇵"@ur,
+		"大和国"@ryu,
+		"やまとぅ"@ryu,
+		"やまとぅくく"@ryu,
+		"capān"@cr .
+
+wd:Q11505499 owl:sameAs wd:Q17 .
+
+wd:Q19746802 owl:sameAs wd:Q17 .
+
+wd:Q20086151 owl:sameAs wd:Q17 .
+
+wd:Q46998446 owl:sameAs wd:Q17 .

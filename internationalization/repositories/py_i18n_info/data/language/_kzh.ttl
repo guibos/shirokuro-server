@@ -1,0 +1,114 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5295991 a schema:Dataset ;
+	schema:about wd:Q5295991 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1439989303"^^xsd:integer ;
+	schema:dateModified "2021-06-12T08:43:22Z"^^xsd:dateTime .
+
+wd:Q5295991 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kenuzi-Dongola> a schema:Article ;
+	schema:about wd:Q5295991 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kenuzi-Dongola"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_kenzi-dongolawi> a schema:Article ;
+	schema:about wd:Q5295991 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma kenzi-dongolawi"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Kenzeg-dongalaweg> a schema:Article ;
+	schema:about wd:Q5295991 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Kenzeg-dongalaweg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_kenzi-dongolawi> a schema:Article ;
+	schema:about wd:Q5295991 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma kenzi-dongolawi"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5295991 wdt:P220 "kzh" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kzh> ;
+	wdt:P31 wd:Q34770 ;
+	wdt:P1394 "kenu1236" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kenu1236> ;
+	wdt:P4132 wd:Q539808 ;
+	wdt:P279 wd:Q1517194 ;
+	wdt:P305 "kzh" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KZH> ;
+	wdt:P2671 "/g/11bc6vvffp" ;
+	wdtn:P2671 <http://g.co/kg/g/11bc6vvffp> ;
+	wdt:P1232 "dong" ;
+	wdt:P910 wd:Q10002598 ;
+	rdfs:label "Kenuzi-Dongola"@en ;
+	skos:prefLabel "Kenuzi-Dongola"@en ;
+	schema:name "Kenuzi-Dongola"@en ;
+	rdfs:label "Idioma kenzi-dongolawi"@es ;
+	skos:prefLabel "Idioma kenzi-dongolawi"@es ;
+	schema:name "Idioma kenzi-dongolawi"@es ;
+	rdfs:label "kenzeg-dongalaweg"@br ;
+	skos:prefLabel "kenzeg-dongalaweg"@br ;
+	schema:name "kenzeg-dongalaweg"@br ;
+	rdfs:label "Lenga Kenuzi-Dongola"@pms ;
+	skos:prefLabel "Lenga Kenuzi-Dongola"@pms ;
+	schema:name "Lenga Kenuzi-Dongola"@pms ;
+	rdfs:label "kenuzi-dongalawi"@fr ;
+	skos:prefLabel "kenuzi-dongalawi"@fr ;
+	schema:name "kenuzi-dongalawi"@fr ;
+	rdfs:label "Idioma kenzi-dongolawi"@ast ;
+	skos:prefLabel "Idioma kenzi-dongolawi"@ast ;
+	schema:name "Idioma kenzi-dongolawi"@ast ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue nubienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kenuzi-Dongola language"@en .

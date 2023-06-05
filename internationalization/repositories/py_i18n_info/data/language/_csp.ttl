@@ -1,0 +1,76 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q84302019 a schema:Dataset ;
+	schema:about wd:Q84302019 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961442524"^^xsd:integer ;
+	schema:dateModified "2023-08-26T03:54:58Z"^^xsd:dateTime .
+
+wd:Q84302019 a wikibase:Item .
+
+<https://zh.wikipedia.org/wiki/%E6%A1%82%E5%8D%97%E5%B9%B3%E8%AF%9D> a schema:Article ;
+	schema:about wd:Q84302019 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "桂南平话"@zh ;
+	wikibase:badge wd:Q70893996 .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Southern_Pinghua> a schema:Article ;
+	schema:about wd:Q84302019 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Southern Pinghua"@en ;
+	wikibase:badge wd:Q70894304 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q84302019 wdt:P31 wd:Q33384 ;
+	wdt:P4913 wd:Q2735715 ;
+	wdt:P1394 "sout3250" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sout3250> ;
+	wdt:P220 "csp" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/csp> ;
+	wdt:P279 wd:Q2735715 ;
+	wdt:P10565 "187302" ;
+	wdt:P17 wd:Q148 ;
+	wdt:P305 "csp" ;
+	rdfs:label "桂南平话"@zh ;
+	skos:prefLabel "桂南平话"@zh ;
+	schema:name "桂南平话"@zh ;
+	rdfs:label "Southern Pinghua"@en ;
+	skos:prefLabel "Southern Pinghua"@en ;
+	schema:name "Southern Pinghua"@en ;
+	schema:description "dialect of Pinghua Chinese"@en ;
+	skos:altLabel "Southern Ping Chinese"@en .

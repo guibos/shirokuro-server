@@ -1,0 +1,167 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3574969 a schema:Dataset ;
+	schema:about wd:Q3574969 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616003050"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:56:04Z"^^xsd:dateTime .
+
+wd:Q3574969 a wikibase:Item .
+
+<https://diq.wikipedia.org/wiki/Zazaoki> a schema:Article ;
+	schema:about wd:Q3574969 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Zazaoki"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Zazao> a schema:Article ;
+	schema:about wd:Q3574969 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Zazao"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Zazao> a schema:Article ;
+	schema:about wd:Q3574969 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Zazao"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Zazao> a schema:Article ;
+	schema:about wd:Q3574969 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Zazao"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kizazao> a schema:Article ;
+	schema:about wd:Q3574969 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kizazao"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Zazao_language> a schema:Article ;
+	schema:about wd:Q3574969 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Zazao language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Zazao> a schema:Article ;
+	schema:about wd:Q3574969 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Zazao"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Zazao_jezik> a schema:Article ;
+	schema:about wd:Q3574969 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Zazao jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3574969 wdt:P305 "jaj" ;
+	wdt:P220 "jaj" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/jaj> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q6491579 ;
+	wdt:P1394 "zaza1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/zaza1245> ;
+	wdt:P2355 "2637" ;
+	wdt:P1014 "300389627" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389627> ;
+	wdt:P17 wd:Q685 ;
+	wdt:P2581 "03065258n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s03065258n> ;
+	wdt:P1627 "jaj" ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P2192 "2425" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P2341 wd:Q1139082 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/JAJ> ;
+	wdt:P646 "/m/02hxdbr" ;
+	rdfs:label "zazao"@fr ;
+	skos:prefLabel "zazao"@fr ;
+	schema:name "zazao"@fr ;
+	rdfs:label "Zazao"@en ;
+	skos:prefLabel "Zazao"@en ;
+	schema:name "Zazao"@en ;
+	rdfs:label "Lenga Zazao"@pms ;
+	skos:prefLabel "Lenga Zazao"@pms ;
+	schema:name "Lenga Zazao"@pms ;
+	rdfs:label "Kizazao"@sw ;
+	skos:prefLabel "Kizazao"@sw ;
+	schema:name "Kizazao"@sw ;
+	rdfs:label "Zazaoki"@diq ;
+	skos:prefLabel "Zazaoki"@diq ;
+	schema:name "Zazaoki"@diq ;
+	rdfs:label "Zazao"@ilo ;
+	skos:prefLabel "Zazao"@ilo ;
+	schema:name "Zazao"@ilo ;
+	rdfs:label "Zazao jezik"@hr ;
+	skos:prefLabel "Zazao jezik"@hr ;
+	schema:name "Zazao jezik"@hr ;
+	rdfs:label "Zazao"@cs ;
+	skos:prefLabel "Zazao"@cs ;
+	schema:name "Zazao"@cs ;
+	rdfs:label "Zazao"@en-gb ;
+	skos:prefLabel "Zazao"@en-gb ;
+	schema:name "Zazao"@en-gb ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Is-isla Solomon"@ilo,
+		"שפה"@he,
+		"jazyk"@cs,
+		"yezh"@br,
+		"langue méso-mélanésienne"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Zazao language"@en .
+
+wd:Q12645628 owl:sameAs wd:Q3574969 .

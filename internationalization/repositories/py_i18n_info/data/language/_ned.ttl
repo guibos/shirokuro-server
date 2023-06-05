@@ -1,0 +1,108 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11010279 a schema:Dataset ;
+	schema:about wd:Q11010279 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1062453401"^^xsd:integer ;
+	schema:dateModified "2019-11-26T08:41:25Z"^^xsd:dateTime .
+
+wd:Q11010279 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Nde-Gbite> a schema:Article ;
+	schema:about wd:Q11010279 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Nde-Gbite"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinde-Gbite> a schema:Article ;
+	schema:about wd:Q11010279 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinde-Gbite"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Nde-Gbite_jezik> a schema:Article ;
+	schema:about wd:Q11010279 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Nde-Gbite jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11010279 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "ned" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ned> ;
+	wdt:P1394 "ndeg1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ndeg1238> ;
+	wdt:P279 wd:Q12638128 ;
+	wdt:P305 "ned" ;
+	wdt:P1627 "ned" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q509300,
+		wd:Q463959 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NED> ;
+	rdfs:label "Kinde-Gbite"@sw ;
+	skos:prefLabel "Kinde-Gbite"@sw ;
+	schema:name "Kinde-Gbite"@sw ;
+	rdfs:label "Lenga Nde-Gbite"@pms ;
+	skos:prefLabel "Lenga Nde-Gbite"@pms ;
+	schema:name "Lenga Nde-Gbite"@pms ;
+	rdfs:label "Nde-Gbite jezik"@hr ;
+	skos:prefLabel "Nde-Gbite jezik"@hr ;
+	schema:name "Nde-Gbite jezik"@hr ;
+	rdfs:label "Nde-Gbite"@en ;
+	skos:prefLabel "Nde-Gbite"@en ;
+	schema:name "Nde-Gbite"@en ;
+	rdfs:label "Nde-Gbite"@en-gb ;
+	skos:prefLabel "Nde-Gbite"@en-gb ;
+	schema:name "Nde-Gbite"@en-gb ;
+	rdfs:label "nde-gbite"@fr ;
+	skos:prefLabel "nde-gbite"@fr ;
+	schema:name "nde-gbite"@fr ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue des Grassfields"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy .
+
+wd:Q20527262 owl:sameAs wd:Q11010279 .

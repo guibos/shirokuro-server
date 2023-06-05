@@ -1,0 +1,143 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3913339 a schema:Dataset ;
+	schema:about wd:Q3913339 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1827842479"^^xsd:integer ;
+	schema:dateModified "2023-02-06T17:03:39Z"^^xsd:dateTime .
+
+wd:Q3913339 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Nzakara> a schema:Article ;
+	schema:about wd:Q3913339 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Nzakara"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinzakara> a schema:Article ;
+	schema:about wd:Q3913339 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinzakara"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nzakara_language> a schema:Article ;
+	schema:about wd:Q3913339 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nzakara language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%81%A9%E6%9C%AD%E5%8D%A1%E6%8B%89%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q3913339 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "恩札卡拉語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Nzakara_(langue)> a schema:Article ;
+	schema:about wd:Q3913339 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Nzakara (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Nzakara> a schema:Article ;
+	schema:about wd:Q3913339 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Nzakara"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3913339 wdt:P220 "nzk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nzk> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "nzak1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nzak1247> ;
+	wdt:P1466 "nza" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_nza> ;
+	wdt:P5198 "294929770" ;
+	wdt:P305 "nzk" ;
+	wdt:P1627 "nzk" ;
+	wdt:P244 "sh85093553" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85093553> ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q929,
+		wd:Q974 ;
+	wdt:P2341 wd:Q652056,
+		wd:Q848582 ;
+	wdt:P4839 "Entity[\"Language\", \"Nzakara::n8gd9\"]",
+		"Entity[\"Language\", \"Nzakara\"]" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NZK> ;
+	wdt:P646 "/m/02hwrv_" ;
+	wdt:P8189 "987007541131405171" ;
+	rdfs:label "Kinzakara"@sw ;
+	skos:prefLabel "Kinzakara"@sw ;
+	schema:name "Kinzakara"@sw ;
+	rdfs:label "Lenga Nzakara"@pms ;
+	skos:prefLabel "Lenga Nzakara"@pms ;
+	schema:name "Lenga Nzakara"@pms ;
+	rdfs:label "Nzakara"@en ;
+	skos:prefLabel "Nzakara"@en ;
+	schema:name "Nzakara"@en ;
+	rdfs:label "Nzakara"@en-gb ;
+	skos:prefLabel "Nzakara"@en-gb ;
+	schema:name "Nzakara"@en-gb ;
+	rdfs:label "恩札卡拉語"@zh ;
+	skos:prefLabel "恩札卡拉語"@zh ;
+	schema:name "恩札卡拉語"@zh ;
+	rdfs:label "nzakara"@fr ;
+	skos:prefLabel "nzakara"@fr ;
+	schema:name "nzakara"@fr ;
+	rdfs:label "Asụsụ Nzakara"@ig ;
+	skos:prefLabel "Asụsụ Nzakara"@ig ;
+	schema:name "Asụsụ Nzakara"@ig ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Nzakara language"@en .

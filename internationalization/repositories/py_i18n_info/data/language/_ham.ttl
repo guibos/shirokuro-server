@@ -1,0 +1,152 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5748345 a schema:Dataset ;
+	schema:about wd:Q5748345 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1349574837"^^xsd:integer ;
+	schema:dateModified "2021-01-28T00:10:54Z"^^xsd:dateTime .
+
+wd:Q5748345 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Hewa_language> a schema:Article ;
+	schema:about wd:Q5748345 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Hewa language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Hewaeg> a schema:Article ;
+	schema:about wd:Q5748345 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Hewaeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kihewa> a schema:Article ;
+	schema:about wd:Q5748345 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kihewa"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Hewa> a schema:Article ;
+	schema:about wd:Q5748345 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Hewa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Hewa> a schema:Article ;
+	schema:about wd:Q5748345 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Hewa"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1_%CE%A7%CE%AD%CE%BF%CF%85%CE%B1> a schema:Article ;
+	schema:about wd:Q5748345 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γλώσσα Χέουα"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5748345 wdt:P220 "ham" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ham> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "hewa1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/hewa1241> ;
+	wdt:P279 wd:Q7418304 ;
+	wdt:P910 wd:Q36157782 ;
+	wdt:P2192 "10626" ;
+	wdt:P305 "ham" ;
+	wdt:P1627 "ham" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q862584,
+		wd:Q753686,
+		wd:Q753689,
+		wd:Q849801 ;
+	wdt:P646 "/m/02hwyvk" ;
+	rdfs:label "Hewa"@en ;
+	skos:prefLabel "Hewa"@en ;
+	schema:name "Hewa"@en ;
+	rdfs:label "hewaeg"@br ;
+	skos:prefLabel "hewaeg"@br ;
+	schema:name "hewaeg"@br ;
+	rdfs:label "Lenga Hewa"@pms ;
+	skos:prefLabel "Lenga Hewa"@pms ;
+	schema:name "Lenga Hewa"@pms ;
+	rdfs:label "Kihewa"@sw ;
+	skos:prefLabel "Kihewa"@sw ;
+	schema:name "Kihewa"@sw ;
+	rdfs:label "Język hewa"@pl ;
+	skos:prefLabel "Język hewa"@pl ;
+	schema:name "Język hewa"@pl ;
+	rdfs:label "Hewa"@ilo ;
+	skos:prefLabel "Hewa"@ilo ;
+	schema:name "Hewa"@ilo ;
+	rdfs:label "Hewa"@en-gb ;
+	skos:prefLabel "Hewa"@en-gb ;
+	schema:name "Hewa"@en-gb ;
+	rdfs:label "hewa"@fr ;
+	skos:prefLabel "hewa"@fr ;
+	schema:name "hewa"@fr ;
+	rdfs:label "Γλώσσα Χέουα"@el ;
+	skos:prefLabel "Γλώσσα Χέουα"@el ;
+	schema:name "Γλώσσα Χέουα"@el ;
+	rdfs:label "Hewa"@en-ca ;
+	skos:prefLabel "Hewa"@en-ca ;
+	schema:name "Hewa"@en-ca ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"langue sepik"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Hewa language"@en .
+
+wd:Q11732228 owl:sameAs wd:Q5748345 .
+
+wd:Q12952493 owl:sameAs wd:Q5748345 .

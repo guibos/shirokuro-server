@@ -1,0 +1,702 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33158 a schema:Dataset ;
+	schema:about wd:Q33158 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1928412690"^^xsd:integer ;
+	schema:dateModified "2023-07-03T16:12:41Z"^^xsd:dateTime .
+
+wd:Q33158 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_chhattisgarhi> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga chhattisgarhi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://xmf.wikipedia.org/wiki/%E1%83%A9%E1%83%90%E1%83%A2%E1%83%98%E1%83%A1%E1%83%92%E1%83%90%E1%83%A0%E1%83%B0%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%9C%E1%83%98%E1%83%9C%E1%83%90> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "xmf" ;
+	schema:isPartOf <https://xmf.wikipedia.org/> ;
+	schema:name "ჩატისგარჰული ნინა"@xmf .
+
+<https://xmf.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A7%D1%85%D0%B0%D1%82%D1%82%D0%B8%D1%81%D0%B3%D0%B0%D1%80%D1%85%D0%B8> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Чхаттисгархи"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%9B%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%B8%E0%A4%97%E0%A4%A2%E0%A4%BC%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "छत्तीसगढ़ी भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%89%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B8%AA%E0%B8%84%E0%B8%A3%E0%B8%AB%E0%B9%8C> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาฉัตตีสครห์"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Tsjhattisgarhi> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Tsjhattisgarhi"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pa.wikipedia.org/wiki/%E0%A8%9B%E0%A9%B1%E0%A8%A4%E0%A9%80%E0%A8%B8%E0%A8%97%E0%A9%9C%E0%A9%8D%E0%A8%B9%E0%A9%80_%E0%A8%AD%E0%A8%BE%E0%A8%B8%E0%A8%BC%E0%A8%BE> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "pa" ;
+	schema:isPartOf <https://pa.wikipedia.org/> ;
+	schema:name "ਛੱਤੀਸਗੜ੍ਹੀ ਭਾਸ਼ਾ"@pa .
+
+<https://pa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kn.wikipedia.org/wiki/%E0%B2%9B%E0%B2%A4%E0%B3%8D%E0%B2%A4%E0%B3%80%E0%B2%B8%E0%B3%8D_%E0%B2%98%E0%B2%A1%E0%B3%8D_%E0%B2%AD%E0%B2%BE%E0%B2%B7%E0%B3%86> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "kn" ;
+	schema:isPartOf <https://kn.wikipedia.org/> ;
+	schema:name "ಛತ್ತೀಸ್ ಘಡ್ ಭಾಷೆ"@kn .
+
+<https://kn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1_%CE%A4%CF%83%CE%B1%CF%84%CE%B9%CF%83%CE%B3%CE%BA%CE%AC%CF%81%CE%B9> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γλώσσα Τσατισγκάρι"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kichhattisgarhi> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kichhattisgarhi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%A7%D1%85%D0%B0%D1%82%D1%82%D0%B8%D1%81%D0%B3%D0%B0%D1%80%D1%85%D0%B8> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Чхаттисгархи"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A3%E3%83%83%E3%83%86%E3%82%A3%E3%83%BC%E3%82%B9%E3%82%AC%E3%83%AA%E3%83%BC%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "チャッティースガリー語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Chhattisgarhi> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Chhattisgarhi"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Chhattisgarhi> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Chhattisgarhi"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%9A%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%9A%E0%AF%81%E0%AE%95%E0%AE%B0%E0%AE%BF_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "சத்திசுகரி மொழி"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Chhattisgarhi_dili> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Chhattisgarhi dili"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%DA%86%DA%BE%D8%AA%DB%8C%D8%B3%DA%AF%DA%91%DA%BE%DB%8C_%D8%A8%D9%88%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "چھتیسگڑھی بولی"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Chhattisgarhi> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Chhattisgarhi"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_%C4%87hattisgarhi> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język ćhattisgarhi"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%AA%D8%B4%D9%87%D8%A7%D8%AA%D9%8A%D8%B3%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "تشهاتيسجارية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%9B%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B5%80%E0%B4%B8%E0%B5%8D%E2%80%8C%E0%B4%97%E0%B4%A2%E0%B4%BF_%E0%B4%AD%E0%B4%BE%E0%B4%B7> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "ഛത്തീസ്‌ഗഢി ഭാഷ"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Chhattisgarhi> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Chhattisgarhi"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/T%C5%A1atisgarhi_keel> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Tšatisgarhi keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Chhattisgarhi> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Chhattisgarhi"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Chhattisgarhi> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Chhattisgarhi"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%DA%86%D8%AA%DB%8C%D8%B3%D9%82%D8%B1%DB%8C_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "چتیسقری دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Chhattisgarhi> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Chhattisgarhi"@tl ;
+	wikibase:badge wd:Q70893996 .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gu.wikipedia.org/wiki/%E0%AA%9B%E0%AA%A4%E0%AB%8D%E0%AA%A4%E0%AB%80%E0%AA%B8%E0%AA%97%E0%AA%A2%E0%AB%80_%E0%AA%AD%E0%AA%BE%E0%AA%B7%E0%AA%BE> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "gu" ;
+	schema:isPartOf <https://gu.wikipedia.org/> ;
+	schema:name "છત્તીસગઢી ભાષા"@gu .
+
+<https://gu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cy.wikipedia.org/wiki/Chhattisgarhi> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "cy" ;
+	schema:isPartOf <https://cy.wikipedia.org/> ;
+	schema:name "Chhattisgarhi"@cy .
+
+<https://cy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%DA%86%D8%AA%DB%8C%D8%B3%DA%AF%D8%B1%DB%8C> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان چتیسگری"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Chhattisgarh> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Chhattisgarh"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Tchatisgarheg> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Tchatisgarheg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Chhattisgarhi> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Chhattisgarhi"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_chatisgar%C3%AD> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma chatisgarí"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://or.wikipedia.org/wiki/%E0%AC%9B%E0%AC%A4%E0%AC%BF%E0%AC%B6%E0%AC%97%E0%AC%A1%E0%AC%BC%E0%AD%80_%E0%AC%AD%E0%AC%BE%E0%AC%B7%E0%AC%BE> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "or" ;
+	schema:isPartOf <https://or.wikipedia.org/> ;
+	schema:name "ଛତିଶଗଡ଼ୀ ଭାଷା"@or .
+
+<https://or.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Chattisgarhi> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Chattisgarhi"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Chhattisgarhin_kieli> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Chhattisgarhin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%9B%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B6%E0%A6%97%E0%A6%A1%E0%A6%BC%E0%A6%BF_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "ছত্তিশগড়ি ভাষা"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Chhattisgarhi> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Chhattisgarhi"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Chhattisgarhi> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Chhattisgarhi"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_chatisgari> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua chatisgari"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%81%B0%E8%92%82%E6%96%AF%E5%8A%A0%E5%B0%94%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "恰蒂斯加尔语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Chhattisgarhi_language> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Chhattisgarhi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%AA%E1%B1%B7%E1%B1%9A%E1%B1%9B%E1%B1%A4%E1%B1%A5%E1%B1%9C%E1%B1%9A%E1%B1%B2%E1%B1%A4_%E1%B1%AF%E1%B1%9F%E1%B1%B9%E1%B1%A8%E1%B1%A5%E1%B1%A4> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱪᱷᱚᱛᱤᱥᱜᱚᱲᱤ ᱯᱟᱹᱨᱥᱤ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mr.wikipedia.org/wiki/%E0%A4%9B%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%B8%E0%A4%97%E0%A4%A2%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "mr" ;
+	schema:isPartOf <https://mr.wikipedia.org/> ;
+	schema:name "छत्तीसगढी भाषा"@mr .
+
+<https://mr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_chhattisgarhi> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua chhattisgarhi"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sa.wikipedia.org/wiki/%E0%A4%9B%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%B8%E0%A4%97%E0%A4%A2%E0%A5%80%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "sa" ;
+	schema:isPartOf <https://sa.wikipedia.org/> ;
+	schema:name "छत्तीसगढीभाषा"@sa .
+
+<https://sa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%A7%D1%85%D0%B0%D1%82%D1%82%D1%96%D1%81%D0%B3%D0%B0%D1%80%D1%85%D1%96> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Чхаттісгархі"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://anp.wikipedia.org/wiki/%E0%A4%9B%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%B8%E0%A4%97%E0%A4%A2%E0%A4%BC%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "anp" ;
+	schema:isPartOf <https://anp.wikipedia.org/> ;
+	schema:name "छत्तीसगढ़ी भाषा"@anp .
+
+<https://anp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ne.wikipedia.org/wiki/%E0%A4%9B%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%B8%E0%A4%97%E0%A4%A2%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q33158 ;
+	schema:inLanguage "ne" ;
+	schema:isPartOf <https://ne.wikipedia.org/> ;
+	schema:name "छत्तीसगढी भाषा"@ne .
+
+<https://ne.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33158 wdt:P305 "hne" ;
+	wdt:P220 "hne" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hne> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/03dfwj" ;
+	wdt:P282 wd:Q38592 ;
+	wdt:P279 wd:Q4126648 ;
+	wdt:P1627 "hne" ;
+	wdt:P1098 "+16300000"^^xsd:decimal ;
+	wdt:P1014 "300388101" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388101> ;
+	wdt:P1394 "chha1249" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/chha1249> ;
+	wdt:P3823 wd:Q29051550 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1168,
+		wd:Q1184,
+		wd:Q1191,
+		wd:Q1188,
+		wd:Q22048 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HNE> ;
+	wdt:P8408 "ChhattisgarhiLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/ChhattisgarhiLanguage> ;
+	wdt:P910 wd:Q33086913 ;
+	wdt:P1396 "59-AAF-ta" ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Chhattisgarhi%20language.svg> ;
+	rdfs:label "Lenga chhattisgarhi"@pms ;
+	skos:prefLabel "Lenga chhattisgarhi"@pms ;
+	schema:name "Lenga chhattisgarhi"@pms ;
+	rdfs:label "Język ćhattisgarhi"@pl ;
+	skos:prefLabel "Język ćhattisgarhi"@pl ;
+	schema:name "Język ćhattisgarhi"@pl ;
+	rdfs:label "чхаттисгархи"@ru ;
+	skos:prefLabel "чхаттисгархи"@ru ;
+	schema:name "чхаттисгархи"@ru ;
+	rdfs:label "chhattisgarhi"@fr ;
+	skos:prefLabel "chhattisgarhi"@fr ;
+	schema:name "chhattisgarhi"@fr ;
+	rdfs:label "chatisgarí"@es ;
+	skos:prefLabel "chatisgarí"@es ;
+	schema:name "chatisgarí"@es ;
+	rdfs:label "Chhattisgarhi"@en ;
+	skos:prefLabel "Chhattisgarhi"@en ;
+	schema:name "Chhattisgarhi"@en ;
+	rdfs:label "Chhattisgarhi dili"@tr ;
+	skos:prefLabel "Chhattisgarhi dili"@tr ;
+	schema:name "Chhattisgarhi dili"@tr ;
+	rdfs:label "சத்திசுகரி மொழி"@ta ;
+	skos:prefLabel "சத்திசுகரி மொழி"@ta ;
+	schema:name "சத்திசுகரி மொழி"@ta ;
+	rdfs:label "ภาษาฉัตตีสครห์"@th ;
+	skos:prefLabel "ภาษาฉัตตีสครห์"@th ;
+	schema:name "ภาษาฉัตตีสครห์"@th ;
+	rdfs:label "lingua Chattisgarhi"@la ;
+	skos:prefLabel "lingua Chattisgarhi"@la ;
+	schema:name "lingua Chattisgarhi"@la ;
+	rdfs:label "Chhattisgarhi"@de ;
+	skos:prefLabel "Chhattisgarhi"@de ;
+	schema:name "Chhattisgarhi"@de ;
+	rdfs:label "Chhattisgarhi"@cy ;
+	skos:prefLabel "Chhattisgarhi"@cy ;
+	schema:name "Chhattisgarhi"@cy ;
+	rdfs:label "チャッティースガリー語"@ja ;
+	skos:prefLabel "チャッティースガリー語"@ja ;
+	schema:name "チャッティースガリー語"@ja ;
+	rdfs:label "Tsjhattisgarhi"@nn ;
+	skos:prefLabel "Tsjhattisgarhi"@nn ;
+	schema:name "Tsjhattisgarhi"@nn ;
+	rdfs:label "tchatisgarheg"@br ;
+	skos:prefLabel "tchatisgarheg"@br ;
+	schema:name "tchatisgarheg"@br ;
+	rdfs:label "Tiếng Chhattisgarh"@vi ;
+	skos:prefLabel "Tiếng Chhattisgarh"@vi ;
+	schema:name "Tiếng Chhattisgarh"@vi ;
+	rdfs:label "زبان چتیسگری"@fa ;
+	skos:prefLabel "زبان چتیسگری"@fa ;
+	schema:name "زبان چتیسگری"@fa ;
+	rdfs:label "Чхаттисгархи"@kv ;
+	skos:prefLabel "Чхаттисгархи"@kv ;
+	schema:name "Чхаттисгархи"@kv ;
+	rdfs:label "Chhattisgarhi"@sh ;
+	skos:prefLabel "Chhattisgarhi"@sh ;
+	schema:name "Chhattisgarhi"@sh ;
+	rdfs:label "Chhattisgarhi"@nl ;
+	skos:prefLabel "Chhattisgarhi"@nl ;
+	schema:name "Chhattisgarhi"@nl ;
+	rdfs:label "تشهاتيسجارية"@ar ;
+	skos:prefLabel "تشهاتيسجارية"@ar ;
+	schema:name "تشهاتيسجارية"@ar ;
+	rdfs:label "છત્તીસગઢી ભાષા"@gu ;
+	skos:prefLabel "છત્તીસગઢી ભાષા"@gu ;
+	schema:name "છત્તીસગઢી ભાષા"@gu ;
+	rdfs:label "Chhattisgarhi"@nb ;
+	skos:prefLabel "Chhattisgarhi"@nb ;
+	schema:name "Chhattisgarhi"@nb ;
+	rdfs:label "Tšatisgarhi keel"@et ;
+	skos:prefLabel "Tšatisgarhi keel"@et ;
+	schema:name "Tšatisgarhi keel"@et ;
+	rdfs:label "ഛത്തീസ്‌ഗഢി"@ml ;
+	skos:prefLabel "ഛത്തീസ്‌ഗഢി"@ml ;
+	schema:name "ഛത്തീസ്‌ഗഢി"@ml ;
+	rdfs:label "lingua chhattisgarhi"@it ;
+	skos:prefLabel "lingua chhattisgarhi"@it ;
+	schema:name "lingua chhattisgarhi"@it ;
+	rdfs:label "Chhattisgarhin kieli"@fi ;
+	skos:prefLabel "Chhattisgarhin kieli"@fi ;
+	schema:name "Chhattisgarhin kieli"@fi ;
+	rdfs:label "छत्तीसगढ़ी"@hi ;
+	skos:prefLabel "छत्तीसगढ़ी"@hi ;
+	schema:name "छत्तीसगढ़ी"@hi ;
+	rdfs:label "ଛତିଶଗଡ଼ୀ ଭାଷା"@or ;
+	skos:prefLabel "ଛତିଶଗଡ଼ୀ ଭାଷା"@or ;
+	schema:name "ଛତିଶଗଡ଼ୀ ଭାଷା"@or ;
+	rdfs:label "ਛੱਤੀਸਗੜ੍ਹੀ"@pa ;
+	skos:prefLabel "ਛੱਤੀਸਗੜ੍ਹੀ"@pa ;
+	schema:name "ਛੱਤੀਸਗੜ੍ਹੀ"@pa ;
+	rdfs:label "Kichhattisgarhi"@sw ;
+	skos:prefLabel "Kichhattisgarhi"@sw ;
+	schema:name "Kichhattisgarhi"@sw ;
+	rdfs:label "Chhattisgarhi"@sv ;
+	skos:prefLabel "Chhattisgarhi"@sv ;
+	schema:name "Chhattisgarhi"@sv ;
+	rdfs:label "恰蒂斯加爾語"@zh-hant ;
+	skos:prefLabel "恰蒂斯加爾語"@zh-hant ;
+	schema:name "恰蒂斯加爾語"@zh-hant ;
+	rdfs:label "恰蒂斯加尔语"@zh-cn ;
+	skos:prefLabel "恰蒂斯加尔语"@zh-cn ;
+	schema:name "恰蒂斯加尔语"@zh-cn ;
+	rdfs:label "恰蒂斯加爾語"@zh ;
+	skos:prefLabel "恰蒂斯加爾語"@zh ;
+	schema:name "恰蒂斯加爾語"@zh ;
+	rdfs:label "ჩატისგარჰული ნინა"@xmf ;
+	skos:prefLabel "ჩატისგარჰული ნინა"@xmf ;
+	schema:name "ჩატისგარჰული ნინა"@xmf ;
+	rdfs:label "Chhattisgarhi"@en-gb ;
+	skos:prefLabel "Chhattisgarhi"@en-gb ;
+	schema:name "Chhattisgarhi"@en-gb ;
+	rdfs:label "Wikang Chhattisgarhi"@tl ;
+	skos:prefLabel "Wikang Chhattisgarhi"@tl ;
+	schema:name "Wikang Chhattisgarhi"@tl ;
+	rdfs:label "ছত্তিশগড়ি ভাষা"@bn ;
+	skos:prefLabel "ছত্তিশগড়ি ভাষা"@bn ;
+	schema:name "ছত্তিশগড়ি ভাষা"@bn ;
+	rdfs:label "چتیسقری دیلی"@azb ;
+	skos:prefLabel "چتیسقری دیلی"@azb ;
+	schema:name "چتیسقری دیلی"@azb ;
+	rdfs:label "Bahasa Chhattisgarhi"@ms ;
+	skos:prefLabel "Bahasa Chhattisgarhi"@ms ;
+	schema:name "Bahasa Chhattisgarhi"@ms ;
+	rdfs:label "چھتیسگڑھی بولی"@pnb ;
+	skos:prefLabel "چھتیسگڑھی بولی"@pnb ;
+	schema:name "چھتیسگڑھی بولی"@pnb ;
+	rdfs:label "Γλώσσα Τσατισγκάρι"@el ;
+	skos:prefLabel "Γλώσσα Τσατισγκάρι"@el ;
+	schema:name "Γλώσσα Τσατισγκάρι"@el ;
+	rdfs:label "Chhattisgarhi"@en-ca ;
+	skos:prefLabel "Chhattisgarhi"@en-ca ;
+	schema:name "Chhattisgarhi"@en-ca ;
+	rdfs:label "恰蒂斯加尔语"@zh-hans ;
+	skos:prefLabel "恰蒂斯加尔语"@zh-hans ;
+	schema:name "恰蒂斯加尔语"@zh-hans ;
+	rdfs:label "чгатысгаргі"@be-tarask ;
+	skos:prefLabel "чгатысгаргі"@be-tarask ;
+	schema:name "чгатысгаргі"@be-tarask ;
+	rdfs:label "ಛತ್ತೀಸ್ ಘಡ್ ಭಾಷೆ"@kn ;
+	skos:prefLabel "ಛತ್ತೀಸ್ ಘಡ್ ಭಾಷೆ"@kn ;
+	schema:name "ಛತ್ತೀಸ್ ಘಡ್ ಭಾಷೆ"@kn ;
+	rdfs:label "čhattigarhi"@cs ;
+	skos:prefLabel "čhattigarhi"@cs ;
+	schema:name "čhattigarhi"@cs ;
+	rdfs:label "Chhattisgarhi"@oc ;
+	skos:prefLabel "Chhattisgarhi"@oc ;
+	schema:name "Chhattisgarhi"@oc ;
+	rdfs:label "Chhattisgarhi"@af ;
+	skos:prefLabel "Chhattisgarhi"@af ;
+	schema:name "Chhattisgarhi"@af ;
+	rdfs:label "Língua chhattisgarhi"@pt ;
+	skos:prefLabel "Língua chhattisgarhi"@pt ;
+	schema:name "Língua chhattisgarhi"@pt ;
+	rdfs:label "Чгаттісґархі"@uk ;
+	skos:prefLabel "Чгаттісґархі"@uk ;
+	schema:name "Чгаттісґархі"@uk ;
+	rdfs:label "ᱪᱷᱚᱛᱤᱥᱜᱚᱲᱤ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	skos:prefLabel "ᱪᱷᱚᱛᱤᱥᱜᱚᱲᱤ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	schema:name "ᱪᱷᱚᱛᱤᱥᱜᱚᱲᱤ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	rdfs:label "chhattisgarhi"@vec ;
+	skos:prefLabel "chhattisgarhi"@vec ;
+	schema:name "chhattisgarhi"@vec ;
+	rdfs:label "छत्तीसगढी भाषा"@mr ;
+	skos:prefLabel "छत्तीसगढी भाषा"@mr ;
+	schema:name "छत्तीसगढी भाषा"@mr ;
+	rdfs:label "छत्तीसगढी"@sa ;
+	skos:prefLabel "छत्तीसगढी"@sa ;
+	schema:name "छत्तीसगढी"@sa ;
+	rdfs:label "छत्तीसगढ़ी भाषा"@anp ;
+	skos:prefLabel "छत्तीसगढ़ी भाषा"@anp ;
+	schema:name "छत्तीसगढ़ी भाषा"@anp ;
+	rdfs:label "צ'הטיסגרית"@he ;
+	skos:prefLabel "צ'הטיסגרית"@he ;
+	schema:name "צ'הטיסגרית"@he ;
+	rdfs:label "छत्तीसगढी भाषा"@ne ;
+	skos:prefLabel "छत्तीसगढी भाषा"@ne ;
+	schema:name "छत्तीसगढी भाषा"@ne ;
+	rdfs:label "차티스가르어"@ko ;
+	skos:prefLabel "차티스가르어"@ko ;
+	schema:name "차티스가르어"@ko ;
+	schema:description "official language in the Indian state of Chhattisgarh"@en,
+		"idioma humano"@es,
+		"indoarische Sprache"@de,
+		"lingua indoeuropea"@it,
+		"один из восточных языков хинди"@ru,
+		"taal"@nl,
+		"שפה"@he,
+		"ভারতের ছত্তিসগড় রাজ্যের একটি ভাষা, এই ভাষায় ২৪ মিলিয়ন মানুষ কথা বলেন।"@bn,
+		"ਭਾਰਤੀ ਰਾਜ ਛੱਤੀਸਗੜ ਦੀ ਸਰਕਾਰੀ ਭਾਸ਼ਾ"@pa,
+		"yezh"@br,
+		"langue"@fr,
+		"lingua"@la,
+		"iaith"@cy,
+		"індаарыйская мова"@be-tarask,
+		"jazyk v indickém státě Čhattisgarhi"@cs,
+		"भारत के छत्तीसगढ़ राज्य में बोली जाने वाली लोकप्रिय और बहुत ही मधुर बोली है"@hi,
+		"भारतस्य छत्तीसगढराज्ये आधिकारिकभाषा"@sa,
+		"تشهاتيسجارية (ديفاناغاري:छत्तीसगढ़ी) هي اللغة الرسمية في ولاية تشاتيسغار الهندية، ويبلغ عدد المتحدثين بها حوالي 17.5 مليون متحدث. وهي لغة هندية شرقية بها مفردات وخصائص لغوية ثقيلة مأخوذة من موندا واللغات الدرافيدية. كانت لغة تشهاتيسجارية معروفة باسم"@ar,
+		"છત્તીસગઢની અધિકૃત ભાષા"@gu ;
+	skos:altLabel "Idioma chhattisgarhi"@es,
+		"Chhattisgarhí"@es,
+		"Chhattisgarhi"@es,
+		"Idioma chatisgari"@es,
+		"Idioma chhattisgarhí"@es,
+		"chatisgari"@es,
+		"Chhattisgarhi"@tr,
+		"சட்டிஸ்காரி மொழி"@ta,
+		"ภาษาฉัตตีสครีห์"@th,
+		"Lingua Chhattisgarhi"@la,
+		"Chattisgarhi"@nn,
+		"Chhattisgarhi"@nn,
+		"Tsjattisgarhi"@nn,
+		"Чаттисгархи"@kv,
+		"Čatisgari"@sh,
+		"лариа"@ru,
+		"кхалтахи"@ru,
+		"恰蒂斯加尔語"@zh-cn,
+		"Chhattisgarhi language"@en,
+		"ছত্তীসগঢ়ী ভাষা"@bn,
+		"ਛੱਤੀਸਗੜ੍ਹੀ ਭਾਸ਼ਾ"@pa,
+		"ਛੱਤਿਸਗੜ੍ਹੀ"@pa,
+		"ਛੱਤਿਸਗੜ੍ਹੀ ਭਾਸ਼ਾ"@pa,
+		"Τσατισγκάρι"@el,
+		"恰蒂斯加尔語"@zh-hans,
+		"恰蒂斯加尔语"@zh,
+		"恰蒂斯加尔語"@zh,
+		"छत्तीसगढीभाषा"@sa,
+		"छत्तीसगढी भाषा"@sa,
+		"छत्तीसगढ़ी"@sa,
+		"छत्तीसगढ़ीभाषा"@sa .
+
+wd:Q2757171 owl:sameAs wd:Q33158 .
+
+wd:Q31442347 owl:sameAs wd:Q33158 .

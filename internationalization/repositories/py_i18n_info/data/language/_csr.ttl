@@ -1,0 +1,151 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5174901 a schema:Dataset ;
+	schema:about wd:Q5174901 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1839307825"^^xsd:integer ;
+	schema:dateModified "2023-02-22T15:29:47Z"^^xsd:dateTime .
+
+wd:Q5174901 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Langue_des_signes_costaricienne> a schema:Article ;
+	schema:about wd:Q5174901 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Langue des signes costaricienne"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_dij_segn_costarican-a> a schema:Article ;
+	schema:about wd:Q5174901 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga dij segn costarican-a"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_de_sinais_costarriquenha> a schema:Article ;
+	schema:about wd:Q5174901 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua de sinais costarriquenha"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sco.wikipedia.org/wiki/Costa_Rica_Sign_Leid> a schema:Article ;
+	schema:about wd:Q5174901 ;
+	schema:inLanguage "sco" ;
+	schema:isPartOf <https://sco.wikipedia.org/> ;
+	schema:name "Costa Rica Sign Leid"@sco .
+
+<https://sco.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Lengua_de_se%C3%B1as_costarricense> a schema:Article ;
+	schema:about wd:Q5174901 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Lengua de señas costarricense"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5174901 wdt:P220 "csr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/csr> ;
+	wdt:P31 wd:Q34228,
+		wd:Q1288568 ;
+	wdt:P1036 "419.7286" ;
+	wdt:P305 "csr" ;
+	wdt:P1394 "cost1249" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/cost1249> ;
+	wdt:P279 wd:Q14759 ;
+	wdt:P17 wd:Q800 ;
+	wdt:P1627 "csr" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CSR> ;
+	wdt:P646 "/m/02hxs4l" ;
+	rdfs:label "Costa Rican Sign Language"@en ;
+	skos:prefLabel "Costa Rican Sign Language"@en ;
+	schema:name "Costa Rican Sign Language"@en ;
+	rdfs:label "langue des signes costaricienne"@fr ;
+	skos:prefLabel "langue des signes costaricienne"@fr ;
+	schema:name "langue des signes costaricienne"@fr ;
+	rdfs:label "Lenga dij segn costarican-a"@pms ;
+	skos:prefLabel "Lenga dij segn costarican-a"@pms ;
+	schema:name "Lenga dij segn costarican-a"@pms ;
+	rdfs:label "Língua de Sinais da Costa Rica"@pt ;
+	skos:prefLabel "Língua de Sinais da Costa Rica"@pt ;
+	schema:name "Língua de Sinais da Costa Rica"@pt ;
+	rdfs:label "Costa Rica Sign Leid"@sco ;
+	skos:prefLabel "Costa Rica Sign Leid"@sco ;
+	schema:name "Costa Rica Sign Leid"@sco ;
+	rdfs:label "kostarika signolingvo"@eo ;
+	skos:prefLabel "kostarika signolingvo"@eo ;
+	schema:name "kostarika signolingvo"@eo ;
+	rdfs:label "Costa Rican Sign Language"@en-gb ;
+	skos:prefLabel "Costa Rican Sign Language"@en-gb ;
+	schema:name "Costa Rican Sign Language"@en-gb ;
+	rdfs:label "lingua de sinia costarican"@lfn ;
+	skos:prefLabel "lingua de sinia costarican"@lfn ;
+	schema:name "lingua de sinia costarican"@lfn ;
+	rdfs:label "Costa-ricanische Gebärdensprache"@de ;
+	skos:prefLabel "Costa-ricanische Gebärdensprache"@de ;
+	schema:name "Costa-ricanische Gebärdensprache"@de ;
+	rdfs:label "コスタリカ手話"@ja ;
+	skos:prefLabel "コスタリカ手話"@ja ;
+	schema:name "コスタリカ手話"@ja ;
+	rdfs:label "lengua de señas costarricense"@es ;
+	skos:prefLabel "lengua de señas costarricense"@es ;
+	schema:name "lengua de señas costarricense"@es ;
+	rdfs:label "toki luka Kosalika"@tok ;
+	skos:prefLabel "toki luka Kosalika"@tok ;
+	schema:name "toki luka Kosalika"@tok ;
+	rdfs:label "কোস্টা রিকাই ইশারা ভাষা"@bn ;
+	skos:prefLabel "কোস্টা রিকাই ইশারা ভাষা"@bn ;
+	schema:name "কোস্টা রিকাই ইশারা ভাষা"@bn ;
+	schema:description "langue des signes"@fr,
+		"sign language"@en,
+		"lengua de señas"@es,
+		"toki luka pi ma Kosalika"@tok ;
+	skos:altLabel "Língua Gestual da Costa Rica"@pt,
+		"New Costa Rican Sign Language"@en,
+		"Modern Costa Rican Sign Language"@en,
+		"csr"@en,
+		"lengua de señas de Costa Rica"@fr,
+		"lenguaje de señas costarricense"@fr,
+		"LECSO"@fr,
+		"LESCO"@es,
+		"nueva lengua de señas costarricense"@es,
+		"lengua de señas costarricense moderna"@es .
+
+wd:Q12953475 owl:sameAs wd:Q5174901 .
+
+wd:Q13379512 owl:sameAs wd:Q5174901 .

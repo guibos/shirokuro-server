@@ -1,0 +1,160 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5348443 a schema:Dataset ;
+	schema:about wd:Q5348443 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1839308187"^^xsd:integer ;
+	schema:dateModified "2023-02-22T15:30:35Z"^^xsd:dateTime .
+
+wd:Q5348443 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Langue_des_signes_%C3%A9gyptienne> a schema:Article ;
+	schema:about wd:Q5348443 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Langue des signes égyptienne"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_dij_segn_egissian-a> a schema:Article ;
+	schema:about wd:Q5348443 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga dij segn egissian-a"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D8%A5%D8%B4%D8%A7%D8%B1%D8%A9_%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q5348443 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "لغة الإشارة المصرية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Egyptian_Sign_Language> a schema:Article ;
+	schema:about wd:Q5348443 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Egyptian Sign Language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sc.wikipedia.org/wiki/Limba_de_sos_Sinnos_Egitziana> a schema:Article ;
+	schema:about wd:Q5348443 ;
+	schema:inLanguage "sc" ;
+	schema:isPartOf <https://sc.wikipedia.org/> ;
+	schema:name "Limba de sos Sinnos Egitziana"@sc .
+
+<https://sc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_de_sinais_eg%C3%ADpcia> a schema:Article ;
+	schema:about wd:Q5348443 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua de sinais egípcia"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%A7%D8%B4%D8%A7%D8%B1%D9%87_%D9%85%D8%B5%D8%B1%DB%8C> a schema:Article ;
+	schema:about wd:Q5348443 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان اشاره مصری"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5348443 wdt:P220 "esl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/esl> ;
+	wdt:P31 wd:Q34228,
+		wd:Q1288568 ;
+	wdt:P305 "esl" ;
+	wdt:P1394 "egyp1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/egyp1238> ;
+	wdt:P279 wd:Q11722502 ;
+	wdt:P17 wd:Q79 ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P1627 "esl" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/ESL> ;
+	wdt:P646 "/m/05sx9hk" ;
+	wdt:P910 wd:Q105715522 ;
+	rdfs:label "لغة الإشارة المصرية"@ar ;
+	skos:prefLabel "لغة الإشارة المصرية"@ar ;
+	schema:name "لغة الإشارة المصرية"@ar ;
+	rdfs:label "Egyptian Sign Language"@en ;
+	skos:prefLabel "Egyptian Sign Language"@en ;
+	schema:name "Egyptian Sign Language"@en ;
+	rdfs:label "langue des signes égyptienne"@fr ;
+	skos:prefLabel "langue des signes égyptienne"@fr ;
+	schema:name "langue des signes égyptienne"@fr ;
+	rdfs:label "Lenga dij segn egissian-a"@pms ;
+	skos:prefLabel "Lenga dij segn egissian-a"@pms ;
+	schema:name "Lenga dij segn egissian-a"@pms ;
+	rdfs:label "Língua de Sinais Egípcia"@pt ;
+	skos:prefLabel "Língua de Sinais Egípcia"@pt ;
+	schema:name "Língua de Sinais Egípcia"@pt ;
+	rdfs:label "Limba de sos Sinnos Egitziana"@sc ;
+	skos:prefLabel "Limba de sos Sinnos Egitziana"@sc ;
+	schema:name "Limba de sos Sinnos Egitziana"@sc ;
+	rdfs:label "egipta signolingvo"@eo ;
+	skos:prefLabel "egipta signolingvo"@eo ;
+	schema:name "egipta signolingvo"@eo ;
+	rdfs:label "lingua de sinia misri"@lfn ;
+	skos:prefLabel "lingua de sinia misri"@lfn ;
+	schema:name "lingua de sinia misri"@lfn ;
+	rdfs:label "Ägyptische Gebärdensprache"@de ;
+	skos:prefLabel "Ägyptische Gebärdensprache"@de ;
+	schema:name "Ägyptische Gebärdensprache"@de ;
+	rdfs:label "Egyptian Sign Language"@en-gb ;
+	skos:prefLabel "Egyptian Sign Language"@en-gb ;
+	schema:name "Egyptian Sign Language"@en-gb ;
+	rdfs:label "エジプト手話"@ja ;
+	skos:prefLabel "エジプト手話"@ja ;
+	schema:name "エジプト手話"@ja ;
+	rdfs:label "زبان اشاره مصری"@fa ;
+	skos:prefLabel "زبان اشاره مصری"@fa ;
+	schema:name "زبان اشاره مصری"@fa ;
+	rdfs:label "toki luka Masu"@tok ;
+	skos:prefLabel "toki luka Masu"@tok ;
+	schema:name "toki luka Masu"@tok ;
+	rdfs:label "মিশরীয় ইশারা ভাষা"@bn ;
+	skos:prefLabel "মিশরীয় ইশারা ভাষা"@bn ;
+	schema:name "মিশরীয় ইশারা ভাষা"@bn ;
+	schema:description "زبان اشاره"@fa,
+		"Sign language used in Egypt"@en,
+		"toki luka pi ma Masu"@tok ;
+	skos:altLabel "Egypt Sign Language"@en,
+		"Língua Gestual Egípcia"@pt,
+		"lingua de sinia egipsian"@lfn .
+
+wd:Q12953495 owl:sameAs wd:Q5348443 .

@@ -1,0 +1,80 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q104837516 a schema:Dataset ;
+	schema:about wd:Q104837516 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1534908860"^^xsd:integer ;
+	schema:dateModified "2021-11-27T11:28:00Z"^^xsd:dateTime .
+
+wd:Q104837516 a wikibase:Item .
+
+<https://pt.wikipedia.org/wiki/Alfabeto_toto> a schema:Article ;
+	schema:about wd:Q104837516 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Alfabeto toto"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q104837516 wdt:P31 wd:Q9779,
+		wd:Q1191702,
+		wd:Q4004706 ;
+	wdt:P506 "Toto" ;
+	wdt:P2620 "294" ;
+	wdt:P571 "2015-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P2561 "Toto"@en,
+		"toto"@fr ;
+	wdt:P1705 ""@en ;
+	wdt:P170 wd:Q105580958 ;
+	wdt:P138 wd:Q7828379 ;
+	wdt:P407 wd:Q36709 ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P5522 wd:Q108546115 ;
+	rdfs:label "Toto"@en ;
+	skos:prefLabel "Toto"@en ;
+	schema:name "Toto"@en ;
+	rdfs:label "toto"@fr ;
+	skos:prefLabel "toto"@fr ;
+	schema:name "toto"@fr ;
+	rdfs:label "Toto"@de ;
+	skos:prefLabel "Toto"@de ;
+	schema:name "Toto"@de ;
+	rdfs:label "Alfabeto toto"@pt ;
+	skos:prefLabel "Alfabeto toto"@pt ;
+	schema:name "Alfabeto toto"@pt ;
+	schema:description "writing system"@en,
+		"alphabet"@fr ;
+	skos:altLabel "Toto script"@en,
+		"Toto alphabet"@en .
+
+wd:Q106542358 owl:sameAs wd:Q104837516 .

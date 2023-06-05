@@ -1,0 +1,137 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35910 a schema:Dataset ;
+	schema:about wd:Q35910 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1550206669"^^xsd:integer ;
+	schema:dateModified "2021-12-25T23:38:09Z"^^xsd:dateTime .
+
+wd:Q35910 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Ngando_(Rep%C3%B9blica_centrafrican-a)> a schema:Article ;
+	schema:about wd:Q35910 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Ngando (Repùblica centrafrican-a)"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_ngando_(Republika_%C5%9Arodkowoafryka%C5%84ska)> a schema:Article ;
+	schema:about wd:Q35910 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język ngando (Republika Środkowoafrykańska)"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kingando_(Afrika_ya_Kati)> a schema:Article ;
+	schema:about wd:Q35910 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kingando (Afrika ya Kati)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ngando_language_(Central_African_Republic)> a schema:Article ;
+	schema:about wd:Q35910 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ngando language (Central African Republic)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Ngando_(Sprache,_Zentralafrikanische_Republik)> a schema:Article ;
+	schema:about wd:Q35910 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Ngando (Sprache, Zentralafrikanische Republik)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35910 wdt:P220 "ngd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ngd> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "ngan1304" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ngan1304> ;
+	wdt:P305 "ngd" ;
+	wdt:P1627 "ngd" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P1014 "300388966" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388966> ;
+	wdt:P17 wd:Q929 ;
+	wdt:P2341 wd:Q821037 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NGD> ;
+	wdt:P646 "/m/02hx49c" ;
+	rdfs:label "Kingando"@sw ;
+	skos:prefLabel "Kingando"@sw ;
+	schema:name "Kingando"@sw ;
+	rdfs:label "Lenga Ngando"@pms ;
+	skos:prefLabel "Lenga Ngando"@pms ;
+	schema:name "Lenga Ngando"@pms ;
+	rdfs:label "Ngando"@de ;
+	skos:prefLabel "Ngando"@de ;
+	schema:name "Ngando"@de ;
+	rdfs:label "Ngando"@en ;
+	skos:prefLabel "Ngando"@en ;
+	schema:name "Ngando"@en ;
+	rdfs:label "lingua Ngando"@it ;
+	skos:prefLabel "lingua Ngando"@it ;
+	schema:name "lingua Ngando"@it ;
+	rdfs:label "Język ngando"@pl ;
+	skos:prefLabel "Język ngando"@pl ;
+	schema:name "Język ngando"@pl ;
+	rdfs:label "Kota語"@zh-hant ;
+	skos:prefLabel "Kota語"@zh-hant ;
+	schema:name "Kota語"@zh-hant ;
+	rdfs:label "Kota语"@zh-hans ;
+	skos:prefLabel "Kota语"@zh-hans ;
+	schema:name "Kota语"@zh-hans ;
+	rdfs:label "Kota语"@zh ;
+	skos:prefLabel "Kota语"@zh ;
+	schema:name "Kota语"@zh ;
+	rdfs:label "ngando"@vec ;
+	skos:prefLabel "ngando"@vec ;
+	schema:name "ngando"@vec ;
+	schema:description "Bantusprache"@de,
+		"Bantu language of the Central African Republic"@en,
+		"lingua bantu"@it,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Ngando (Central African Republic)"@en,
+		"Ngando language"@en .

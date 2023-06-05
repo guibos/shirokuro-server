@@ -1,0 +1,90 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q47522426 a schema:Dataset ;
+	schema:about wd:Q47522426 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1769656314"^^xsd:integer ;
+	schema:dateModified "2022-11-12T02:15:39Z"^^xsd:dateTime .
+
+wd:Q47522426 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Mankiyali_language> a schema:Article ;
+	schema:about wd:Q47522426 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mankiyali language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Mankiyali_language> a schema:Article ;
+	schema:about wd:Q47522426 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Mankiyali language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D9%85%D8%A7%D9%86%DA%A9%DB%8C%D8%A7%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q47522426 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان مانکیالی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q47522426 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "nlm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nlm> ;
+	wdt:P279 wd:Q161101 ;
+	wdt:P305 "nlm" ;
+	wdt:P1627 "nlm" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2671 "/g/11gcngn8gp" ;
+	wdtn:P2671 <http://g.co/kg/g/11gcngn8gp> ;
+	rdfs:label "Mankiyali"@en ;
+	skos:prefLabel "Mankiyali"@en ;
+	schema:name "Mankiyali"@en ;
+	rdfs:label "mankiyali"@fr ;
+	skos:prefLabel "mankiyali"@fr ;
+	schema:name "mankiyali"@fr ;
+	schema:description "langue indo-aryenne"@fr,
+		"taal"@nl,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Mankiyali language"@en .

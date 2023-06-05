@@ -1,0 +1,174 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35777 a schema:Dataset ;
+	schema:about wd:Q35777 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1615995749"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:46:04Z"^^xsd:dateTime .
+
+wd:Q35777 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Lumun> a schema:Article ;
+	schema:about wd:Q35777 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Lumun"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%9B%D1%83%D0%BC%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q35777 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Лумански јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilumun> a schema:Article ;
+	schema:about wd:Q35777 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilumun"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Lumun_language> a schema:Article ;
+	schema:about wd:Q35777 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Lumun language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Loumouneg> a schema:Article ;
+	schema:about wd:Q35777 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Loumouneg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Lumun> a schema:Article ;
+	schema:about wd:Q35777 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Lumun"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Lumun_jezik> a schema:Article ;
+	schema:about wd:Q35777 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Lumun jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_lumum> a schema:Article ;
+	schema:about wd:Q35777 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua lumum"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35777 wdt:P220 "lmd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lmd> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "lumu1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lumu1239> ;
+	wdt:P2355 "60" ;
+	wdt:P279 wd:Q12643302,
+		wd:Q1139349 ;
+	wdt:P17 wd:Q1049 ;
+	wdt:P5198 "9839141937302711" ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P305 "lmd" ;
+	wdt:P910 wd:Q36161450 ;
+	wdt:P2192 "4516" ;
+	wdt:P1627 "lmd" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P1251 "9254" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LMD> ;
+	wdt:P646 "/m/02hxxb5" ;
+	rdfs:label "Lumun"@de ;
+	skos:prefLabel "Lumun"@de ;
+	schema:name "Lumun"@de ;
+	rdfs:label "Lenga Lumun"@pms ;
+	skos:prefLabel "Lenga Lumun"@pms ;
+	schema:name "Lenga Lumun"@pms ;
+	rdfs:label "loumouneg"@br ;
+	skos:prefLabel "loumouneg"@br ;
+	schema:name "loumouneg"@br ;
+	rdfs:label "Lumun"@en ;
+	skos:prefLabel "Lumun"@en ;
+	schema:name "Lumun"@en ;
+	rdfs:label "Lumun jezik"@hr ;
+	skos:prefLabel "Lumun jezik"@hr ;
+	schema:name "Lumun jezik"@hr ;
+	rdfs:label "Лумански јазик"@mk ;
+	skos:prefLabel "Лумански јазик"@mk ;
+	schema:name "Лумански јазик"@mk ;
+	rdfs:label "Lumun"@en-ca ;
+	skos:prefLabel "Lumun"@en-ca ;
+	schema:name "Lumun"@en-ca ;
+	rdfs:label "Lumun"@en-gb ;
+	skos:prefLabel "Lumun"@en-gb ;
+	schema:name "Lumun"@en-gb ;
+	rdfs:label "Kilumun"@sw ;
+	skos:prefLabel "Kilumun"@sw ;
+	schema:name "Kilumun"@sw ;
+	rdfs:label "Língua lumum"@pt ;
+	skos:prefLabel "Língua lumum"@pt ;
+	schema:name "Língua lumum"@pt ;
+	rdfs:label "Wikang Lumun"@tl ;
+	skos:prefLabel "Wikang Lumun"@tl ;
+	schema:name "Wikang Lumun"@tl ;
+	rdfs:label "lumun"@fr ;
+	skos:prefLabel "lumun"@fr ;
+	schema:name "lumun"@fr ;
+	rdfs:label "Lumun"@nl ;
+	skos:prefLabel "Lumun"@nl ;
+	schema:name "Lumun"@nl ;
+	schema:description "Niger–Congo language in the Talodi family spoken in Sudan"@en,
+		"Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue talodi"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Kordofaanse taal uit de Talodi groep"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Lumun language"@en .

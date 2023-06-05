@@ -1,0 +1,110 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6448731 a schema:Dataset ;
+	schema:about wd:Q6448731 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1635085198"^^xsd:integer ;
+	schema:dateModified "2022-05-09T05:01:00Z"^^xsd:dateTime .
+
+wd:Q6448731 a wikibase:Item .
+
+<https://sw.wikipedia.org/wiki/Kigunditjmara> a schema:Article ;
+	schema:about wd:Q6448731 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigunditjmara"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Dhauwurd_Wurrung_language> a schema:Article ;
+	schema:about wd:Q6448731 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Dhauwurd Wurrung language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_dhauwurd_wurrung> a schema:Article ;
+	schema:about wd:Q6448731 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma dhauwurd wurrung"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6448731 wdt:P220 "gjm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gjm> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "warr1257" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/warr1257> ;
+	wdt:P305 "gjm" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P910 wd:Q33665589 ;
+	wdt:P279 wd:Q33942 ;
+	wdt:P1252 "S20",
+		"S75" ;
+	wdt:P1466 "wrb" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_wrb> ;
+	wdt:P2192 "6731" ;
+	wdt:P1627 "gjm" ;
+	wdt:P646 "/m/0h1cynq" ;
+	rdfs:label "Kuurn Kopan Noot"@en ;
+	skos:prefLabel "Kuurn Kopan Noot"@en ;
+	schema:name "Kuurn Kopan Noot"@en ;
+	rdfs:label "Kigunditjmara"@sw ;
+	skos:prefLabel "Kigunditjmara"@sw ;
+	schema:name "Kigunditjmara"@sw ;
+	rdfs:label "gunditjmara"@fr ;
+	skos:prefLabel "gunditjmara"@fr ;
+	schema:name "gunditjmara"@fr ;
+	rdfs:label "Idioma dhauwurd wurrung"@es ;
+	skos:prefLabel "Idioma dhauwurd wurrung"@es ;
+	schema:name "Idioma dhauwurd wurrung"@es ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue pama-nyungan"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Gunditjmara"@en,
+		"Warrnambool language"@en,
+		"Kuurn Kopan Noot language"@en,
+		"warrnambool"@fr .
+
+wd:Q47012442 owl:sameAs wd:Q6448731 .

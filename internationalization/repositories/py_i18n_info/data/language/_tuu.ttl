@@ -1,0 +1,195 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q20627 a schema:Dataset ;
+	schema:about wd:Q20627 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960587831"^^xsd:integer ;
+	schema:dateModified "2023-08-25T00:11:28Z"^^xsd:dateTime .
+
+wd:Q20627 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Tututni> a schema:Article ;
+	schema:about wd:Q20627 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Tututni"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Tututni> a schema:Article ;
+	schema:about wd:Q20627 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Tututni"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_tututni> a schema:Article ;
+	schema:about wd:Q20627 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga tututni"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%82%D1%83%D1%82%D0%BD%D0%B8_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q20627 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Тутутни (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Tututni_spriak> a schema:Article ;
+	schema:about wd:Q20627 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Tututni spriak"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Tututni_language> a schema:Article ;
+	schema:about wd:Q20627 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Tututni language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_tututni> a schema:Article ;
+	schema:about wd:Q20627 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua tututni"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Tututni_(spr%C3%A5k)> a schema:Article ;
+	schema:about wd:Q20627 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Tututni (språk)"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q20627 wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q1288568,
+		wd:Q38058796 ;
+	wdt:P279 wd:Q20654 ;
+	wdt:P1014 "300389480" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389480> ;
+	wdt:P2355 "778" ;
+	wdt:P220 "tuu" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tuu> ;
+	wdt:P1394 "tutu1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tutu1242> ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P305 "tuu" ;
+	wdt:P1627 "tuu" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P17 wd:Q30 ;
+	wdt:P2341 wd:Q824 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TUU> ;
+	wdt:P8408 "Chasta-CostaLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/Chasta-CostaLanguage> ;
+	wdt:P1889 wd:Q3205414 ;
+	wdt:P646 "/m/0jkvql3" ;
+	wdt:P910 wd:Q33663332 ;
+	rdfs:label "Lenga tututni"@pms ;
+	skos:prefLabel "Lenga tututni"@pms ;
+	schema:name "Lenga tututni"@pms ;
+	rdfs:label "Tututni spriak"@frr ;
+	skos:prefLabel "Tututni spriak"@frr ;
+	schema:name "Tututni spriak"@frr ;
+	rdfs:label "Tututni"@en ;
+	skos:prefLabel "Tututni"@en ;
+	schema:name "Tututni"@en ;
+	rdfs:label "tututni"@es ;
+	skos:prefLabel "tututni"@es ;
+	schema:name "tututni"@es ;
+	rdfs:label "Tututni"@de ;
+	skos:prefLabel "Tututni"@de ;
+	schema:name "Tututni"@de ;
+	rdfs:label "tututni"@fr ;
+	skos:prefLabel "tututni"@fr ;
+	schema:name "tututni"@fr ;
+	rdfs:label "tututni"@ca ;
+	skos:prefLabel "tututni"@ca ;
+	schema:name "tututni"@ca ;
+	rdfs:label "Tututni"@oc ;
+	skos:prefLabel "Tututni"@oc ;
+	schema:name "Tututni"@oc ;
+	rdfs:label "Tututni"@nl ;
+	skos:prefLabel "Tututni"@nl ;
+	schema:name "Tututni"@nl ;
+	rdfs:label "Кокилье"@ru ;
+	skos:prefLabel "Кокилье"@ru ;
+	schema:name "Кокилье"@ru ;
+	rdfs:label "lingua tututni"@it ;
+	skos:prefLabel "lingua tututni"@it ;
+	schema:name "lingua tututni"@it ;
+	rdfs:label "Tututni"@en-gb ;
+	skos:prefLabel "Tututni"@en-gb ;
+	schema:name "Tututni"@en-gb ;
+	rdfs:label "tututni keel"@et ;
+	skos:prefLabel "tututni keel"@et ;
+	schema:name "tututni keel"@et ;
+	rdfs:label "Wikang Tututni"@tl ;
+	skos:prefLabel "Wikang Tututni"@tl ;
+	schema:name "Wikang Tututni"@tl ;
+	rdfs:label "Tututni (språk)"@nb ;
+	skos:prefLabel "Tututni (språk)"@nb ;
+	schema:name "Tututni (språk)"@nb ;
+	rdfs:label "tututni"@vec ;
+	skos:prefLabel "tututni"@vec ;
+	schema:name "tututni"@vec ;
+	schema:description "language"@en,
+		"lengua atabascana extinta"@es,
+		"Sprache"@de,
+		"lingua morta appartenente alla famiglia linguistica Athabaska"@it,
+		"taal"@nl,
+		"שפה"@he,
+		"langue athapascane"@fr,
+		"atapaski keel"@et,
+		"yezh"@br,
+		"lingua"@la,
+		"iaith"@cy,
+		"мёртвый атабаскский язык"@ru ;
+	skos:altLabel "Coquille"@en,
+		"Tutudin"@en,
+		"Dotodəni"@en,
+		"Rogue River"@en,
+		"Lower Rogue River"@en .
+
+wd:Q61097869 owl:sameAs wd:Q20627 .

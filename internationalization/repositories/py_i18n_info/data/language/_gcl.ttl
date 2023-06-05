@@ -1,0 +1,131 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4252500 a schema:Dataset ;
+	schema:about wd:Q4252500 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1837464954"^^xsd:integer ;
+	schema:dateModified "2023-02-19T22:17:28Z"^^xsd:dateTime .
+
+wd:Q4252500 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_cr%C3%A9ola_angl%C3%A8isa_%C3%ABd_Grenada> a schema:Article ;
+	schema:about wd:Q4252500 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga créola anglèisa ëd Grenada"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Grenadian_Creole_English> a schema:Article ;
+	schema:about wd:Q4252500 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Grenadian Creole English"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_crioula_inglesa_de_Granada> a schema:Article ;
+	schema:about wd:Q4252500 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua crioula inglesa de Granada"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4252500 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "gcl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gcl> ;
+	wdt:P1394 "gren1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gren1247> ;
+	wdt:P305 "gcl" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P279 wd:Q31989 ;
+	wdt:P1396 "52-ABB-as" ;
+	wdt:P1627 "gcl" ;
+	wdt:P17 wd:Q769 ;
+	wdt:P2341 wd:Q769 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GCL> ;
+	wdt:P2671 "/g/11bwdtfkkb" ;
+	wdtn:P2671 <http://g.co/kg/g/11bwdtfkkb> ;
+	wdt:P910 wd:Q116843188 ;
+	rdfs:label "Grenadian Creole English"@en ;
+	skos:prefLabel "Grenadian Creole English"@en ;
+	schema:name "Grenadian Creole English"@en ;
+	rdfs:label "grenadisk kreol"@nb ;
+	skos:prefLabel "grenadisk kreol"@nb ;
+	schema:name "grenadisk kreol"@nb ;
+	rdfs:label "Lenga créola anglèisa ëd Grenada"@pms ;
+	skos:prefLabel "Lenga créola anglèisa ëd Grenada"@pms ;
+	schema:name "Lenga créola anglèisa ëd Grenada"@pms ;
+	rdfs:label "Grenada-Kreolisch"@de ;
+	skos:prefLabel "Grenada-Kreolisch"@de ;
+	schema:name "Grenada-Kreolisch"@de ;
+	rdfs:label "Crioulo inglês de Granada"@pt ;
+	skos:prefLabel "Crioulo inglês de Granada"@pt ;
+	schema:name "Crioulo inglês de Granada"@pt ;
+	rdfs:label "Grenada kreola lingvo"@eo ;
+	skos:prefLabel "Grenada kreola lingvo"@eo ;
+	schema:name "Grenada kreola lingvo"@eo ;
+	rdfs:label "créole grenadais"@fr ;
+	skos:prefLabel "créole grenadais"@fr ;
+	schema:name "créole grenadais"@fr ;
+	rdfs:label "كريول إينڭليزي ديال ڭرينادا"@ary ;
+	skos:prefLabel "كريول إينڭليزي ديال ڭرينادا"@ary ;
+	schema:name "كريول إينڭليزي ديال ڭرينادا"@ary ;
+	rdfs:label "グレナダ・クレオール語"@ja ;
+	skos:prefLabel "グレナダ・クレオール語"@ja ;
+	schema:name "グレナダ・クレオール語"@ja ;
+	rdfs:label "Creolus Granatae"@la ;
+	skos:prefLabel "Creolus Granatae"@la ;
+	schema:name "Creolus Granatae"@la ;
+	rdfs:label "anglès crioll grenadí"@ca ;
+	skos:prefLabel "anglès crioll grenadí"@ca ;
+	schema:name "anglès crioll grenadí"@ca ;
+	rdfs:label "格林納達克里奧爾語英語"@zh ;
+	skos:prefLabel "格林納達克里奧爾語英語"@zh ;
+	schema:name "格林納達克里奧爾語英語"@zh ;
+	schema:description "language spoken in Grenada"@en,
+		"engelskbasert kreolspråk"@nb,
+		"Sprache"@de,
+		"שפה"@he,
+		"kreola lingvo bazita de la angla lingvo parolata en Grenado"@eo,
+		"yezh"@br,
+		"langue à base lexicale anglaise"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"لغة"@ar,
+		"لغة"@ary .

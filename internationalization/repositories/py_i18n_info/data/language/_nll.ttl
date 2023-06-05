@@ -1,0 +1,504 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33904 a schema:Dataset ;
+	schema:about wd:Q33904 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1867591194"^^xsd:integer ;
+	schema:dateModified "2023-04-03T20:11:10Z"^^xsd:dateTime .
+
+wd:Q33904 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_nihali> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga nihali"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D1%85%D0%B0%D0%BB%D0%B8> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Нихали"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9D%D1%96%D0%B3%D0%B0%D0%BB%D1%96> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Нігалі"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nihali_language> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nihali language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%A8%E0%A4%BF%E0%A4%B9%E0%A4%BE%E0%A4%B2%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "निहाली भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pa.wikipedia.org/wiki/%E0%A8%A8%E0%A8%BF%E0%A8%B9%E0%A8%BE%E0%A8%B2%E0%A9%80_%E0%A8%AD%E0%A8%BE%E0%A8%B8%E0%A8%BC%E0%A8%BE> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "pa" ;
+	schema:isPartOf <https://pa.wikipedia.org/> ;
+	schema:name "ਨਿਹਾਲੀ ਭਾਸ਼ਾ"@pa .
+
+<https://pa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kn.wikipedia.org/wiki/%E0%B2%A8%E0%B2%BF%E0%B2%B9%E0%B2%BE%E0%B2%B2%E0%B2%BF_%E0%B2%AD%E0%B2%BE%E0%B2%B7%E0%B3%86> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "kn" ;
+	schema:isPartOf <https://kn.wikipedia.org/> ;
+	schema:name "ನಿಹಾಲಿ ಭಾಷೆ"@kn .
+
+<https://kn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Nahali> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Nahali"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lfn.wikipedia.org/wiki/Nahali_(lingua)> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "lfn" ;
+	schema:isPartOf <https://lfn.wikipedia.org/> ;
+	schema:name "Nahali (lingua)"@lfn .
+
+<https://lfn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinihali> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinihali"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%8F%E3%83%AA%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ニハリ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Nahali> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Nahali"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_nihali> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua nihali"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%D9%86%DB%8C%DB%81%D8%A7%D9%84%DB%8C_%D8%A8%D9%88%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "نیہالی بولی"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Nihali> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Nihali"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sq.wikipedia.org/wiki/Gjuha_Nihali> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "sq" ;
+	schema:isPartOf <https://sq.wikipedia.org/> ;
+	schema:name "Gjuha Nihali"@sq .
+
+<https://sq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_nihali> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język nihali"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_nihali> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma nihali"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mr.wikipedia.org/wiki/%E0%A4%A8%E0%A4%BF%E0%A4%B9%E0%A4%BE%E0%A4%B2%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "mr" ;
+	schema:isPartOf <https://mr.wikipedia.org/> ;
+	schema:name "निहाली भाषा"@mr .
+
+<https://mr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Nihali> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Nihali"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Nihali> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Nihali"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Nihali> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Nihali"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Kalteg> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Kalteg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Nihali> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Nihali"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_nihali> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma nihali"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Nihali> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Nihali"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EB%8B%88%ED%95%A0%EB%A6%AC%EC%96%B4> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "니할리어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%A8%E0%A6%BF%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A6%BF_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "নিহালি ভাষা"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_nihali> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua nihali"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%9D%D0%B8%D1%85%D0%B0%D0%BB%D0%B8_(%D0%BD%D0%B0%D1%80%D0%BE%D0%B4)> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Нихали (народ)"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Nihalin_kieli> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Nihalin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%86%D9%8A%D9%87%D8%A7%D9%84%D9%8A> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "نيهالي"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D9%86%DB%8C%D9%87%D8%A7%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان نیهالی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%93%88%E5%88%A9%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "尼哈利语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Nihali> a schema:Article ;
+	schema:about wd:Q33904 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Nihali"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33904 wdt:P305 "nll" ;
+	wdt:P17 wd:Q668 ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "nll" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nll> ;
+	wdt:P1627 "nll" ;
+	wdt:P1098 "+2000"^^xsd:decimal,
+		"+2000"^^xsd:decimal ;
+	wdt:P1394 "niha1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/niha1238> ;
+	wdt:P2355 "1362" ;
+	wdt:P4132 wd:Q33648 ;
+	wdt:P1466 "nah" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_nah> ;
+	wdt:P910 wd:Q33076834 ;
+	wdt:P2924 "2252450" ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P3823 wd:Q29051554 ;
+	a wdno:P282 ;
+	wdt:P2192 "4879" ;
+	wdt:P2341 wd:Q1191,
+		wd:Q1188 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NLL> ;
+	wdt:P646 "/m/05sxb72" ;
+	wdt:P6385 "gumanitarnye_nauki/lingvistika/NAHALI_YAZIK.html" ;
+	wdt:P2347 "28855" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p28855> ;
+	wdt:P691 "ph276814" ;
+	wdt:P8313 "nihali" ;
+	rdfs:label "Lenga nihali"@pms ;
+	skos:prefLabel "Lenga nihali"@pms ;
+	schema:name "Lenga nihali"@pms ;
+	rdfs:label "Język nihali"@pl ;
+	skos:prefLabel "Język nihali"@pl ;
+	schema:name "Język nihali"@pl ;
+	rdfs:label "니할리어"@ko ;
+	skos:prefLabel "니할리어"@ko ;
+	schema:name "니할리어"@ko ;
+	rdfs:label "nihali"@fr ;
+	skos:prefLabel "nihali"@fr ;
+	schema:name "nihali"@fr ;
+	rdfs:label "Нихали"@ru ;
+	skos:prefLabel "Нихали"@ru ;
+	schema:name "Нихали"@ru ;
+	rdfs:label "Nihali"@en ;
+	skos:prefLabel "Nihali"@en ;
+	schema:name "Nihali"@en ;
+	rdfs:label "nihali"@ca ;
+	skos:prefLabel "nihali"@ca ;
+	schema:name "nihali"@ca ;
+	rdfs:label "Nahali"@oc ;
+	skos:prefLabel "Nahali"@oc ;
+	schema:name "Nahali"@oc ;
+	rdfs:label "nihali"@it ;
+	skos:prefLabel "nihali"@it ;
+	schema:name "nihali"@it ;
+	rdfs:label "lingua Nihali"@la ;
+	skos:prefLabel "lingua Nihali"@la ;
+	schema:name "lingua Nihali"@la ;
+	rdfs:label "Nahali"@de ;
+	skos:prefLabel "Nahali"@de ;
+	schema:name "Nahali"@de ;
+	rdfs:label "ニハリ語"@ja ;
+	skos:prefLabel "ニハリ語"@ja ;
+	schema:name "ニハリ語"@ja ;
+	rdfs:label "kalteg"@br ;
+	skos:prefLabel "kalteg"@br ;
+	schema:name "kalteg"@br ;
+	rdfs:label "nihali"@es ;
+	skos:prefLabel "nihali"@es ;
+	schema:name "nihali"@es ;
+	rdfs:label "Nihali"@sv ;
+	skos:prefLabel "Nihali"@sv ;
+	schema:name "Nihali"@sv ;
+	rdfs:label "Nihali"@nb ;
+	skos:prefLabel "Nihali"@nb ;
+	schema:name "Nihali"@nb ;
+	rdfs:label "Nihali"@sh ;
+	skos:prefLabel "Nihali"@sh ;
+	schema:name "Nihali"@sh ;
+	rdfs:label "निहाली भाषा"@mr ;
+	skos:prefLabel "निहाली भाषा"@mr ;
+	schema:name "निहाली भाषा"@mr ;
+	rdfs:label "Kinihali"@sw ;
+	skos:prefLabel "Kinihali"@sw ;
+	schema:name "Kinihali"@sw ;
+	rdfs:label "নিহালি ভাষা"@bn ;
+	skos:prefLabel "নিহালি ভাষা"@bn ;
+	schema:name "নিহালি ভাষা"@bn ;
+	rdfs:label "尼哈利語"@zh ;
+	skos:prefLabel "尼哈利語"@zh ;
+	schema:name "尼哈利語"@zh ;
+	rdfs:label "निहाली भाषा"@hi ;
+	skos:prefLabel "निहाली भाषा"@hi ;
+	schema:name "निहाली भाषा"@hi ;
+	rdfs:label "Nihali"@en-gb ;
+	skos:prefLabel "Nihali"@en-gb ;
+	schema:name "Nihali"@en-gb ;
+	rdfs:label "Нігалі"@uk ;
+	skos:prefLabel "Нігалі"@uk ;
+	schema:name "Нігалі"@uk ;
+	rdfs:label "నిహాలీ"@te ;
+	skos:prefLabel "నిహాలీ"@te ;
+	schema:name "నిహాలీ"@te ;
+	rdfs:label "ਨਿਹਾਲੀ"@pa ;
+	skos:prefLabel "ਨਿਹਾਲੀ"@pa ;
+	schema:name "ਨਿਹਾਲੀ"@pa ;
+	rdfs:label "nihali keel"@et ;
+	skos:prefLabel "nihali keel"@et ;
+	schema:name "nihali keel"@et ;
+	rdfs:label "Idioma nihali"@ast ;
+	skos:prefLabel "Idioma nihali"@ast ;
+	schema:name "Idioma nihali"@ast ;
+	rdfs:label "Gjuha Nihali"@sq ;
+	skos:prefLabel "Gjuha Nihali"@sq ;
+	schema:name "Gjuha Nihali"@sq ;
+	rdfs:label "نہالی"@pnb ;
+	skos:prefLabel "نہالی"@pnb ;
+	schema:name "نہالی"@pnb ;
+	rdfs:label "Nahali"@lfn ;
+	skos:prefLabel "Nahali"@lfn ;
+	schema:name "Nahali"@lfn ;
+	rdfs:label "ನಿಹಾಲಿ ಭಾಷೆ"@kn ;
+	skos:prefLabel "ನಿಹಾಲಿ ಭಾಷೆ"@kn ;
+	schema:name "ನಿಹಾಲಿ ಭಾಷೆ"@kn ;
+	rdfs:label "Língua nihali"@pt ;
+	skos:prefLabel "Língua nihali"@pt ;
+	schema:name "Língua nihali"@pt ;
+	rdfs:label "Нихали"@sr ;
+	skos:prefLabel "Нихали"@sr ;
+	schema:name "Нихали"@sr ;
+	rdfs:label "Nihalin kieli"@fi ;
+	skos:prefLabel "Nihalin kieli"@fi ;
+	schema:name "Nihalin kieli"@fi ;
+	rdfs:label "نيهالي"@ar ;
+	skos:prefLabel "نيهالي"@ar ;
+	schema:name "نيهالي"@ar ;
+	rdfs:label "ניהאלי"@he ;
+	skos:prefLabel "ניהאלי"@he ;
+	schema:name "ניהאלי"@he ;
+	rdfs:label "زبان نیهالی"@fa ;
+	skos:prefLabel "زبان نیهالی"@fa ;
+	schema:name "زبان نیهالی"@fa ;
+	rdfs:label "nihali"@vec ;
+	skos:prefLabel "nihali"@vec ;
+	schema:name "nihali"@vec ;
+	rdfs:label "Nihali"@cs ;
+	skos:prefLabel "Nihali"@cs ;
+	schema:name "Nihali"@cs ;
+	schema:description "idioma humano"@es,
+		"Sprache"@de,
+		"lingua isolata parlata in India"@it,
+		"language"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"నిహాలీ భాష"@te,
+		"ਭਾਸ਼ਾ"@pa,
+		"yezh"@br,
+		"langue isolée parlée en Inde"@fr,
+		"lingua"@la,
+		"iaith"@cy,
+		"মধ্য ভারতের বিচ্ছিন্ন ভাষা"@bn,
+		"niesklasyfikowany język używany w Indiach"@pl,
+		"بولی"@pnb ;
+	skos:altLabel "Kalto"@fr,
+		"Нахали"@ru,
+		"Нагали"@ru,
+		"Nahali"@ca,
+		"Kalto"@de,
+		"Nihaleg"@br,
+		"Nihali language"@en,
+		"Nihal"@sh,
+		"lingua nihali"@it,
+		"nihal"@it,
+		"kalto"@it,
+		"ਨਿਹਾਲੀ ਭਾਸ਼ਾ"@pa,
+		"ਕਲਟੋ"@pa,
+		"নিহালি"@bn,
+		"নাহালি ভাষা"@bn .
+
+wd:Q12958730 owl:sameAs wd:Q33904 .
+
+wd:Q61362863 owl:sameAs wd:Q33904 .

@@ -1,0 +1,137 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12952577 a schema:Dataset ;
+	schema:about wd:Q12952577 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1503076383"^^xsd:integer ;
+	schema:dateModified "2021-09-25T10:41:05Z"^^xsd:dateTime .
+
+wd:Q12952577 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Kayaw> a schema:Article ;
+	schema:about wd:Q12952577 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kayaw"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Karen,_Brek> a schema:Article ;
+	schema:about wd:Q12952577 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Karen, Brek"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kayaw_language> a schema:Article ;
+	schema:about wd:Q12952577 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kayaw language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Brekeg> a schema:Article ;
+	schema:about wd:Q12952577 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Brekeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://my.wikipedia.org/wiki/%E1%80%80%E1%80%9A%E1%80%B1%E1%80%AC%E1%80%98%E1%80%AC%E1%80%9E%E1%80%AC%E1%80%85%E1%80%80%E1%80%AC%E1%80%B8> a schema:Article ;
+	schema:about wd:Q12952577 ;
+	schema:inLanguage "my" ;
+	schema:isPartOf <https://my.wikipedia.org/> ;
+	schema:name "ကယောဘာသာစကား"@my .
+
+<https://my.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12952577 wdt:P220 "kvl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kvl> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "brek1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/brek1238> ;
+	wdt:P279 wd:Q1364815 ;
+	wdt:P305 "kvl" ;
+	wdt:P1627 "kvl" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q836 ;
+	wdt:P2341 wd:Q652845,
+		wd:Q495342,
+		wd:Q456847 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KVL> ;
+	wdt:P1889 wd:Q56994 ;
+	wdt:P646 "/m/02hxzz3" ;
+	rdfs:label "Lenga Karen, Brek"@pms ;
+	skos:prefLabel "Lenga Karen, Brek"@pms ;
+	schema:name "Lenga Karen, Brek"@pms ;
+	rdfs:label "Kayaw"@en ;
+	skos:prefLabel "Kayaw"@en ;
+	schema:name "Kayaw"@en ;
+	rdfs:label "brekeg"@br ;
+	skos:prefLabel "brekeg"@br ;
+	schema:name "brekeg"@br ;
+	rdfs:label "kayaw"@fr ;
+	skos:prefLabel "kayaw"@fr ;
+	schema:name "kayaw"@fr ;
+	rdfs:label "カヤウ語"@ja ;
+	skos:prefLabel "カヤウ語"@ja ;
+	schema:name "カヤウ語"@ja ;
+	rdfs:label "kayaw"@fi ;
+	skos:prefLabel "kayaw"@fi ;
+	schema:name "kayaw"@fi ;
+	rdfs:label "Kayaw"@en-gb ;
+	skos:prefLabel "Kayaw"@en-gb ;
+	schema:name "Kayaw"@en-gb ;
+	rdfs:label "Wikang Kayaw"@tl ;
+	skos:prefLabel "Wikang Kayaw"@tl ;
+	schema:name "Wikang Kayaw"@tl ;
+	rdfs:label "ကယောဘာသာစကား"@my ;
+	skos:prefLabel "ကယောဘာသာစကား"@my ;
+	schema:name "ကယောဘာသာစကား"@my ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue karen"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "karen kayaw"@fr .
+
+wd:Q31442206 owl:sameAs wd:Q12952577 .

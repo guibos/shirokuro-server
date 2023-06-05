@@ -1,0 +1,932 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q145625 a schema:Dataset ;
+	schema:about wd:Q145625 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1867539922"^^xsd:integer ;
+	schema:dateModified "2023-04-03T18:50:51Z"^^xsd:dateTime .
+
+wd:Q145625 a wikibase:Item .
+
+<https://commons.wikimedia.org/wiki/Glagolitic_alphabet> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "Glagolitic alphabet"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+<https://de.wikipedia.org/wiki/Glagolitische_Schrift> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Glagolitische Schrift"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Alphabet_glagolitique> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Alphabet glagolitique"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Alfabeto_glagol%C3%ADtico> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Alfabeto glagolítico"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%93%D0%BB%D0%B0%D0%B3%D0%BE%D0%BB%D0%B8%D1%86%D0%B0> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Глаголица"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Alfabeto_glagolitico> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Alfabeto glagolitico"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%A9%E3%82%B4%E3%83%AB%E6%96%87%E5%AD%97> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "グラゴル文字"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Glagolitisch_alfabet> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Glagolitisch alfabet"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/G%C5%82agolica> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Głagolica"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Alfabeto_glagol%C3%ADtico> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Alfabeto glagolítico"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%A0%BC%E6%8B%89%E5%93%A5%E9%87%8C%E5%AD%97%E6%AF%8D> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "格拉哥里字母"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Glagolitiska_alfabetet> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Glagolitiska alfabetet"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%A7%D9%84%D9%81%D8%A8%D8%A7%DB%8C_%DA%AF%D9%84%D8%A7%DA%AF%D9%88%D9%84%DB%8C%D8%AA%DB%8C> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "الفبای گلاگولیتی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%A4%D7%91%D7%99%D7%AA_%D7%92%D7%9C%D7%92%D7%95%D7%9C%D7%99%D7%98%D7%99> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "אלפבית גלגוליטי"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Glagol_alfabesi> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Glagol alfabesi"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Glagolita_%C3%A1b%C3%A9c%C3%A9> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Glagolita ábécé"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Glagoliittinen_kirjaimisto> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Glagoliittinen kirjaimisto"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D8%AC%D8%AF%D9%8A%D8%A9_%D8%BA%D9%84%D8%A7%D8%BA%D9%88%D9%84%D9%8A%D8%AA%D8%B3%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "أبجدية غلاغوليتسية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Det_glagolittiske_alfabetet> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Det glagolittiske alfabetet"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%93%D0%BB%D0%B0%D0%B3%D0%BE%D0%BB%D0%B8%D1%86%D1%8F> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Глаголиця"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EA%B8%80%EB%9D%BC%EA%B3%A8_%EB%AC%B8%EC%9E%90> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "글라골 문자"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Glagol%C3%ADtic> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Glagolític"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Hlaholice> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Hlaholice"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%93%D0%BB%D0%B0%D0%B3%D0%BE%D1%99%D0%B8%D1%86%D0%B0> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Глагољица"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Alfabetul_glagolitic> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Alfabetul glagolitic"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%93%D0%BB%D0%B0%D0%B3%D0%BE%D0%BB%D0%B8%D1%86%D0%B0> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Глаголица"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Glagolitiese_alfabet> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Glagolitiese alfabet"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%93%D0%BB%D0%B0%D0%B3%D0%BE%D0%BB%D1%96%D1%86%D0%B0> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Глаголіца"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%93%D0%BB%D0%B0%D0%B3%D0%BE%D0%BB%D1%96%D1%86%D0%B0> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Глаголіца"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Lizherenneg_c%27hlagolitek> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Lizherenneg c'hlagolitek"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bs.wikipedia.org/wiki/Glagoljica> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "bs" ;
+	schema:isPartOf <https://bs.wikipedia.org/> ;
+	schema:name "Glagoljica"@bs .
+
+<https://bs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cv.wikipedia.org/wiki/%D0%93%D0%BB%D0%B0%D0%B3%D0%BE%D0%BB%D0%B8%D1%86%D0%B0> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "cv" ;
+	schema:isPartOf <https://cv.wikipedia.org/> ;
+	schema:name "Глаголица"@cv .
+
+<https://cv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dsb.wikipedia.org/wiki/Glagolica> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "dsb" ;
+	schema:isPartOf <https://dsb.wikipedia.org/> ;
+	schema:name "Glagolica"@dsb .
+
+<https://dsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%BB%CE%B1%CE%B3%CE%BF%CE%BB%CE%B9%CF%84%CE%B9%CE%BA%CF%8C_%CE%B1%CE%BB%CF%86%CE%AC%CE%B2%CE%B7%CF%84%CE%BF> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γλαγολιτικό αλφάβητο"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Glagolico> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Glagolico"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Alfabeto_glagolitiko> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Alfabeto glagolitiko"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Alfabeto_glagol%C3%ADtico> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Alfabeto glagolítico"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Glagoljica> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Glagoljica"@hr ;
+	wikibase:badge wd:Q17437796 .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hsb.wikipedia.org/wiki/Glagolica> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "hsb" ;
+	schema:isPartOf <https://hsb.wikipedia.org/> ;
+	schema:name "Glagolica"@hsb .
+
+<https://hsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%92%E1%83%9A%E1%83%90%E1%83%92%E1%83%9D%E1%83%9A%E1%83%98%E1%83%AA%E1%83%90> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "გლაგოლიცა"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kk.wikipedia.org/wiki/%D0%93%D0%BB%D0%B0%D0%B3%D0%BE%D0%BB%D0%B8%D1%86%D0%B0> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "kk" ;
+	schema:isPartOf <https://kk.wikipedia.org/> ;
+	schema:name "Глаголица"@kk .
+
+<https://kk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Abecedarium_Glagoliticum> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Abecedarium Glagoliticum"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%93%D0%BB%D0%B0%D0%B3%D0%BE%D0%BB%D0%B8%D1%86%D0%B0> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Глаголица"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Glagoljica> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Glagoljica"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sk.wikipedia.org/wiki/Hlaholika> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "sk" ;
+	schema:isPartOf <https://sk.wikipedia.org/> ;
+	schema:name "Hlaholika"@sk .
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sl.wikipedia.org/wiki/Glagolica> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikipedia.org/> ;
+	schema:name "Glagolica"@sl ;
+	wikibase:badge wd:Q17437796 .
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A3%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B9%82%E0%B8%81%E0%B8%A5%E0%B8%B4%E0%B8%95%E0%B8%B4%E0%B8%81> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "อักษรกลาโกลิติก"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Glagolica> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Glagolica"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Glagolica> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Glagolica"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ky.wikipedia.org/wiki/%D0%93%D0%BB%D0%B0%D0%B3%D0%BE%D0%BB%D0%B8%D1%86%D0%B0> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "ky" ;
+	schema:isPartOf <https://ky.wikipedia.org/> ;
+	schema:name "Глаголица"@ky .
+
+<https://ky.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Glagolitic_script> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Glagolitic script"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E6%A0%BC%E6%8B%89%E5%93%A5%E9%87%8C%E5%AD%97%E6%AF%8D> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "格拉哥里字母"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E6%A0%BC%E6%8B%89%E5%93%A5%E9%87%8C%E5%AD%97%E6%AF%8D> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "格拉哥里字母"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lfn.wikipedia.org/wiki/Alfabeta_glagolitica> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "lfn" ;
+	schema:isPartOf <https://lfn.wikipedia.org/> ;
+	schema:name "Alfabeta glagolitica"@lfn .
+
+<https://lfn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Glagolitisk_skraft> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Glagolitisk skraft"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ce.wikipedia.org/wiki/%D0%93%D0%BB%D0%B0%D0%B3%D0%BE%D0%BB%D0%B8%D1%86%D0%B0> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "ce" ;
+	schema:isPartOf <https://ce.wikipedia.org/> ;
+	schema:name "Глаголица"@ce .
+
+<https://ce.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Alfabetu_glagol%C3%ADticu> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Alfabetu glagolíticu"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/Det_glagolitiske_alfabet> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Det glagolitiske alfabet"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Alfabet_Glagol> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Alfabet Glagol"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pcd.wikipedia.org/wiki/Alfabet_glagolitike> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "pcd" ;
+	schema:isPartOf <https://pcd.wikipedia.org/> ;
+	schema:name "Alfabet glagolitike"@pcd .
+
+<https://pcd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cu.wikipedia.org/wiki/%D0%9A%D1%B7%D1%80%D1%97%D0%BB%D0%BB%D0%BE%D0%B2%D0%B8%D1%86%D0%B0> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "cu" ;
+	schema:isPartOf <https://cu.wikipedia.org/> ;
+	schema:name "Кѷрїлловица"@cu ;
+	wikibase:badge wd:Q17437796 .
+
+<https://cu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Aksara_Glagol> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Aksara Glagol"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szl.wikipedia.org/wiki/G%C5%82agolica> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "szl" ;
+	schema:isPartOf <https://szl.wikipedia.org/> ;
+	schema:name "Głagolica"@szl .
+
+<https://szl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Glagoolitsa> a schema:Article ;
+	schema:about wd:Q145625 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Glagoolitsa"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q145625 wdt:P373 "Glagolitic alphabet" ;
+	wdt:P646 "/m/037qx" ;
+	wdt:P31 wd:Q9779,
+		wd:Q4004706,
+		wd:Q8192,
+		wd:Q29517555 ;
+	wdt:P170 wd:Q239925 ;
+	wdt:P910 wd:Q8968383 ;
+	wdt:P935 "Glagolitic alphabet" ;
+	wdt:P1343 wd:Q19538713,
+		wd:Q4532135,
+		wd:Q602358,
+		wd:Q19180675,
+		wd:Q20078554,
+		wd:Q19219752 ;
+	wdt:P3222 "glagolitisk-skrift" ;
+	wdt:P571 "0862-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P1705 "Ⰽⱛⱃⰺⰾⰾⱁⰲⰺⱌⰰ"@cu ;
+	wdt:P227 "4157407-2" ;
+	wdtn:P227 <https://d-nb.info/gnd/4157407-2> ;
+	wdt:P506 "Glag" ;
+	wdt:P527 wd:Q41806741,
+		wd:Q1529123 ;
+	wdt:P1417 "topic/Glagolitic-alphabet" ;
+	wdt:P2924 "2363306" ;
+	wdt:P2620 "225" ;
+	wdt:P5398 "000002319" ;
+	wdt:P691 "ph156681" ;
+	wdt:P989 <http://commons.wikimedia.org/wiki/Special:FilePath/Nl-Glagolitisch%20alfabet-article.ogg> ;
+	wdt:P1245 "1616082" ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Tabla%20Za%20Dicu%2003.jpg> ;
+	wdt:P1535 wd:Q40477 ;
+	wdt:P5949 "U+1E000-1E02F",
+		"U+2C00-2C5F" ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P2561 "Glagolitic"@en,
+		"glagolitique"@fr ;
+	wdt:P407 wd:Q35499,
+		wd:Q6654 ;
+	wdt:P361 wd:Q33251 ;
+	wdt:P443 <http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q9296%20%28mkd%29-Jovan.kostov-%D0%B3%D0%BB%D0%B0%D0%B3%D0%BE%D0%BB%D0%B8%D1%86%D0%B0.wav> ;
+	wdt:P7305 "3905990" ;
+	wdt:P3365 "glagolitico" ;
+	wdt:P1424 wd:Q24922969 ;
+	wdt:P2347 "38520" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p38520> ;
+	wdt:P5002 "165069" ;
+	wdt:P6385 "lingvistika/glagolitsa-i-kirilitsa" ;
+	wdt:P9082 "3b290f6b-cae2-476b-8f94-6936d52d6013" ;
+	wdt:P7293 "9810593754205606" ;
+	wdt:P424 "chu" ;
+	wdt:P9906 <http://commons.wikimedia.org/wiki/Special:FilePath/Glagolitic%20script.svg> ;
+	wdt:P1801 <http://commons.wikimedia.org/wiki/Special:FilePath/Glagolitsa%20in%20Zagreb%20cathedral.jpg> ;
+	wdt:P3847 "Glagolitic" ;
+	wdt:P276 wd:Q193152 ;
+	rdfs:label "格拉哥里字母"@zh-hans ;
+	skos:prefLabel "格拉哥里字母"@zh-hans ;
+	schema:name "格拉哥里字母"@zh-hans ;
+	rdfs:label "格拉哥里字母"@zh-hant ;
+	skos:prefLabel "格拉哥里字母"@zh-hant ;
+	schema:name "格拉哥里字母"@zh-hant ;
+	rdfs:label "格拉哥里字母"@zh-hk ;
+	skos:prefLabel "格拉哥里字母"@zh-hk ;
+	schema:name "格拉哥里字母"@zh-hk ;
+	rdfs:label "格拉哥里字母"@zh-cn ;
+	skos:prefLabel "格拉哥里字母"@zh-cn ;
+	schema:name "格拉哥里字母"@zh-cn ;
+	rdfs:label "格拉哥里字母"@zh-sg ;
+	skos:prefLabel "格拉哥里字母"@zh-sg ;
+	schema:name "格拉哥里字母"@zh-sg ;
+	rdfs:label "格拉哥里字母"@zh-tw ;
+	skos:prefLabel "格拉哥里字母"@zh-tw ;
+	schema:name "格拉哥里字母"@zh-tw ;
+	rdfs:label "głagolica"@pl ;
+	skos:prefLabel "głagolica"@pl ;
+	schema:name "głagolica"@pl ;
+	rdfs:label "alphabet glagolitique"@fr ;
+	skos:prefLabel "alphabet glagolitique"@fr ;
+	schema:name "alphabet glagolitique"@fr ;
+	rdfs:label "glagoljica"@bs ;
+	skos:prefLabel "glagoljica"@bs ;
+	schema:name "glagoljica"@bs ;
+	rdfs:label "глаголіца"@be ;
+	skos:prefLabel "глаголіца"@be ;
+	schema:name "глаголіца"@be ;
+	rdfs:label "글라골 문자"@ko ;
+	skos:prefLabel "글라골 문자"@ko ;
+	schema:name "글라골 문자"@ko ;
+	rdfs:label "אלפבית גלגוליטי"@he ;
+	skos:prefLabel "אלפבית גלגוליטי"@he ;
+	schema:name "אלפבית גלגוליטי"@he ;
+	rdfs:label "alfabeto glagolítico"@es ;
+	skos:prefLabel "alfabeto glagolítico"@es ;
+	schema:name "alfabeto glagolítico"@es ;
+	rdfs:label "Glagolitiese alfabet"@af ;
+	skos:prefLabel "Glagolitiese alfabet"@af ;
+	schema:name "Glagolitiese alfabet"@af ;
+	rdfs:label "glagolita ábécé"@hu ;
+	skos:prefLabel "glagolita ábécé"@hu ;
+	schema:name "glagolita ábécé"@hu ;
+	rdfs:label "alfabeto glagolitico"@it ;
+	skos:prefLabel "alfabeto glagolitico"@it ;
+	schema:name "alfabeto glagolitico"@it ;
+	rdfs:label "alfabeto glagolítico"@gl ;
+	skos:prefLabel "alfabeto glagolítico"@gl ;
+	schema:name "alfabeto glagolítico"@gl ;
+	rdfs:label "glagolitische Schrift"@de ;
+	skos:prefLabel "glagolitische Schrift"@de ;
+	schema:name "glagolitische Schrift"@de ;
+	rdfs:label "alfabet glagolitik"@id ;
+	skos:prefLabel "alfabet glagolitik"@id ;
+	schema:name "alfabet glagolitik"@id ;
+	rdfs:label "グラゴル文字"@ja ;
+	skos:prefLabel "グラゴル文字"@ja ;
+	schema:name "グラゴル文字"@ja ;
+	rdfs:label "Lizherenneg c'hlagolitek"@br ;
+	skos:prefLabel "Lizherenneg c'hlagolitek"@br ;
+	schema:name "Lizherenneg c'hlagolitek"@br ;
+	rdfs:label "γλαγολιτικό αλφάβητο"@el ;
+	skos:prefLabel "γλαγολιτικό αλφάβητο"@el ;
+	schema:name "γλαγολιτικό αλφάβητο"@el ;
+	rdfs:label "glagoljica"@sh ;
+	skos:prefLabel "glagoljica"@sh ;
+	schema:name "glagoljica"@sh ;
+	rdfs:label "Ⰽⱛⱃⰺⰾⰾⱁⰲⰺⱌⰰ"@cu ;
+	skos:prefLabel "Ⰽⱛⱃⰺⰾⰾⱁⰲⰺⱌⰰ"@cu ;
+	schema:name "Ⰽⱛⱃⰺⰾⰾⱁⰲⰺⱌⰰ"@cu ;
+	rdfs:label "glagolica"@hsb ;
+	skos:prefLabel "glagolica"@hsb ;
+	schema:name "glagolica"@hsb ;
+	rdfs:label "أبجدية غلاغوليتسية"@ar ;
+	skos:prefLabel "أبجدية غلاغوليتسية"@ar ;
+	schema:name "أبجدية غلاغوليتسية"@ar ;
+	rdfs:label "glagolitiska alfabetet"@sv ;
+	skos:prefLabel "glagolitiska alfabetet"@sv ;
+	schema:name "glagolitiska alfabetet"@sv ;
+	rdfs:label "glagolitisch alfabet"@nl ;
+	skos:prefLabel "glagolitisch alfabet"@nl ;
+	schema:name "glagolitisch alfabet"@nl ;
+	rdfs:label "alfabeto glagolítico"@pt ;
+	skos:prefLabel "alfabeto glagolítico"@pt ;
+	schema:name "alfabeto glagolítico"@pt ;
+	rdfs:label "glagolico"@eo ;
+	skos:prefLabel "glagolico"@eo ;
+	schema:name "glagolico"@eo ;
+	rdfs:label "hlaholika"@sk ;
+	skos:prefLabel "hlaholika"@sk ;
+	schema:name "hlaholika"@sk ;
+	rdfs:label "глаголица"@ru ;
+	skos:prefLabel "глаголица"@ru ;
+	schema:name "глаголица"@ru ;
+	rdfs:label "Glagolitic"@en ;
+	skos:prefLabel "Glagolitic"@en ;
+	schema:name "Glagolitic"@en ;
+	rdfs:label "glagoljica"@sr-el ;
+	skos:prefLabel "glagoljica"@sr-el ;
+	schema:name "glagoljica"@sr-el ;
+	rdfs:label "глагољица"@sr-ec ;
+	skos:prefLabel "глагољица"@sr-ec ;
+	schema:name "глагољица"@sr-ec ;
+	rdfs:label "глаголица"@cv ;
+	skos:prefLabel "глаголица"@cv ;
+	schema:name "глаголица"@cv ;
+	rdfs:label "glagol alfabesi"@tr ;
+	skos:prefLabel "glagol alfabesi"@tr ;
+	schema:name "glagol alfabesi"@tr ;
+	rdfs:label "อักษรกลาโกลิติก"@th ;
+	skos:prefLabel "อักษรกลาโกลิติก"@th ;
+	schema:name "อักษรกลาโกลิติก"@th ;
+	rdfs:label "alfabetul glagolitic"@ro ;
+	skos:prefLabel "alfabetul glagolitic"@ro ;
+	schema:name "alfabetul glagolitic"@ro ;
+	rdfs:label "glagolític"@ca ;
+	skos:prefLabel "glagolític"@ca ;
+	schema:name "glagolític"@ca ;
+	rdfs:label "глаголица"@mk ;
+	skos:prefLabel "глаголица"@mk ;
+	schema:name "глаголица"@mk ;
+	rdfs:label "glagoliittinen kirjaimisto"@fi ;
+	skos:prefLabel "glagoliittinen kirjaimisto"@fi ;
+	schema:name "glagoliittinen kirjaimisto"@fi ;
+	rdfs:label "глаголиця"@uk ;
+	skos:prefLabel "глаголиця"@uk ;
+	schema:name "глаголиця"@uk ;
+	rdfs:label "abecedarium Glagoliticum"@la ;
+	skos:prefLabel "abecedarium Glagoliticum"@la ;
+	schema:name "abecedarium Glagoliticum"@la ;
+	rdfs:label "глаголіца"@be-tarask ;
+	skos:prefLabel "глаголіца"@be-tarask ;
+	schema:name "глаголіца"@be-tarask ;
+	rdfs:label "glagolica"@sl ;
+	skos:prefLabel "glagolica"@sl ;
+	schema:name "glagolica"@sl ;
+	rdfs:label "hlaholice"@cs ;
+	skos:prefLabel "hlaholice"@cs ;
+	schema:name "hlaholice"@cs ;
+	rdfs:label "глаголица"@bg ;
+	skos:prefLabel "глаголица"@bg ;
+	schema:name "глаголица"@bg ;
+	rdfs:label "გლაგოლიცა"@ka ;
+	skos:prefLabel "გლაგოლიცა"@ka ;
+	schema:name "გლაგოლიცა"@ka ;
+	rdfs:label "glagolica"@dsb ;
+	skos:prefLabel "glagolica"@dsb ;
+	schema:name "glagolica"@dsb ;
+	rdfs:label "glagoljica"@hr ;
+	skos:prefLabel "glagoljica"@hr ;
+	schema:name "glagoljica"@hr ;
+	rdfs:label "گلاگولىيتسا"@kk-arab ;
+	skos:prefLabel "گلاگولىيتسا"@kk-arab ;
+	schema:name "گلاگولىيتسا"@kk-arab ;
+	rdfs:label "گلاگولىيتسا"@kk-cn ;
+	skos:prefLabel "گلاگولىيتسا"@kk-cn ;
+	schema:name "گلاگولىيتسا"@kk-cn ;
+	rdfs:label "glagolïca"@kk-tr ;
+	skos:prefLabel "glagolïca"@kk-tr ;
+	schema:name "glagolïca"@kk-tr ;
+	rdfs:label "глаголица"@kk-kz ;
+	skos:prefLabel "глаголица"@kk-kz ;
+	schema:name "глаголица"@kk-kz ;
+	rdfs:label "глаголица"@kk-cyrl ;
+	skos:prefLabel "глаголица"@kk-cyrl ;
+	schema:name "глаголица"@kk-cyrl ;
+	rdfs:label "glagolïca"@kk-latn ;
+	skos:prefLabel "glagolïca"@kk-latn ;
+	schema:name "glagolïca"@kk-latn ;
+	rdfs:label "glagolitiske alfabet"@da ;
+	skos:prefLabel "glagolitiske alfabet"@da ;
+	schema:name "glagolitiske alfabet"@da ;
+	rdfs:label "глаголица"@kk ;
+	skos:prefLabel "глаголица"@kk ;
+	schema:name "глаголица"@kk ;
+	rdfs:label "格拉哥里字母"@zh ;
+	skos:prefLabel "格拉哥里字母"@zh ;
+	schema:name "格拉哥里字母"@zh ;
+	rdfs:label "глагољица"@sr ;
+	skos:prefLabel "глагољица"@sr ;
+	schema:name "глагољица"@sr ;
+	rdfs:label "det glagolittiske alfabetet"@nb ;
+	skos:prefLabel "det glagolittiske alfabetet"@nb ;
+	schema:name "det glagolittiske alfabetet"@nb ;
+	rdfs:label "māhueticha Galacticatl"@nah ;
+	skos:prefLabel "māhueticha Galacticatl"@nah ;
+	schema:name "māhueticha Galacticatl"@nah ;
+	rdfs:label "alfabeto glagolitiko"@eu ;
+	skos:prefLabel "alfabeto glagolitiko"@eu ;
+	schema:name "alfabeto glagolitiko"@eu ;
+	rdfs:label "الفبای گلاگولیتی"@fa ;
+	skos:prefLabel "الفبای گلاگولیتی"@fa ;
+	schema:name "الفبای گلاگولیتی"@fa ;
+	rdfs:label "glagolica"@lt ;
+	skos:prefLabel "glagolica"@lt ;
+	schema:name "glagolica"@lt ;
+	rdfs:label "glagolica"@lv ;
+	skos:prefLabel "glagolica"@lv ;
+	schema:name "glagolica"@lv ;
+	rdfs:label "глаголица"@ky ;
+	skos:prefLabel "глаголица"@ky ;
+	schema:name "глаголица"@ky ;
+	rdfs:label "գլագոլիցա"@hy ;
+	skos:prefLabel "գլագոլիցա"@hy ;
+	schema:name "գլագոլիցա"@hy ;
+	rdfs:label "格拉哥里字母"@yue ;
+	skos:prefLabel "格拉哥里字母"@yue ;
+	schema:name "格拉哥里字母"@yue ;
+	rdfs:label "alfabeta glagolitica"@lfn ;
+	skos:prefLabel "alfabeta glagolitica"@lfn ;
+	schema:name "alfabeta glagolitica"@lfn ;
+	rdfs:label "格拉哥里字母"@wuu ;
+	skos:prefLabel "格拉哥里字母"@wuu ;
+	schema:name "格拉哥里字母"@wuu ;
+	rdfs:label "glagolitisk skraft"@frr ;
+	skos:prefLabel "glagolitisk skraft"@frr ;
+	schema:name "glagolitisk skraft"@frr ;
+	rdfs:label "глаголица"@ce ;
+	skos:prefLabel "глаголица"@ce ;
+	schema:name "глаголица"@ce ;
+	rdfs:label "alfabetu glagolíticu"@ast ;
+	skos:prefLabel "alfabetu glagolíticu"@ast ;
+	schema:name "alfabetu glagolíticu"@ast ;
+	rdfs:label "Abjad Glagol"@ms ;
+	skos:prefLabel "Abjad Glagol"@ms ;
+	schema:name "Abjad Glagol"@ms ;
+	rdfs:label "Alfabet glagolitike"@pcd ;
+	skos:prefLabel "Alfabet glagolitike"@pcd ;
+	schema:name "Alfabet glagolitike"@pcd ;
+	rdfs:label "aibítir Ghlagalach"@ga ;
+	skos:prefLabel "aibítir Ghlagalach"@ga ;
+	schema:name "aibítir Ghlagalach"@ga ;
+	rdfs:label "Głagolica"@szl ;
+	skos:prefLabel "Głagolica"@szl ;
+	schema:name "Głagolica"@szl ;
+	rdfs:label "Glagoolitsa"@et ;
+	skos:prefLabel "Glagoolitsa"@et ;
+	schema:name "Glagoolitsa"@et ;
+	schema:description "Nahuatl tlaxicipatl"@nah,
+		"oldest known Slavic alphabet"@en,
+		"plus vieil alphabet slave connu"@fr,
+		"первый славянский алфавит"@ru,
+		"senākais zināmais slāvu alfabēts"@lv,
+		"alfabet van Cyrillus en Methodius"@nl,
+		"斯拉夫語言的古老字母系統"@zh-hant,
+		"antikva slava alfabeto"@eo,
+		"prvé písmo Slovanov"@sk,
+		"a glagolita nyelv ábécéje"@hu,
+		"nejstarší doložené slovanské písmo"@cs,
+		"sistema di scrittura"@it,
+		"斯拉夫语言字母"@zh,
+		"bilinen en eski Slav alfabesi"@tr,
+		"аꙁъбоукꙑ глаголицєѭ"@cu,
+		"Slawische Buchstabenschrift des Altertums"@de,
+		"pierwszy alfabet zaprojektowany dla języka staro-cerkiewno-słowiańskiego"@pl,
+		"alfabeto eslavo criado no século IX d.C."@pt,
+		"スラヴ諸語の表記に用いられた最古のアルファベット"@ja,
+		"слов'янська абетка"@uk,
+		"vanha slaavilainen kirjaimisto"@fi,
+		"alfabeto utilizado para escribir eslavo eclesiástico"@es ;
+	skos:altLabel "拜占庭字母"@zh,
+		"Tsi"@fr,
+		"glagolithique"@fr,
+		"glagolitique"@fr,
+		"glagolitza"@fr,
+		"האלפבית הגלגוליטי"@he,
+		"האלפבית הגלגוליתי"@he,
+		"glagólico"@es,
+		"glagolitica"@es,
+		"glagolítico"@es,
+		"glagolitsa"@es,
+		"glagolitico"@it,
+		"glagolitica"@it,
+		"scrittura glagolitica"@it,
+		"Glagolitika"@de,
+		"Glagoliza"@de,
+		"Glagolitisch"@de,
+		"Glagolitza"@de,
+		"Glagolica"@de,
+		"glagolitisches Alphabet"@de,
+		"huruf glagolitik"@id,
+		"aksara glagolitik"@id,
+		"グラゴール文字"@ja,
+		"glag"@ja,
+		"глагољица"@sh,
+		"Ⰳⰾⰰⰳⱁⰾⰹⱌⰰ"@cu,
+		"кѷрїлловица"@cu,
+		"аꙁъбоукꙑ глаголицєѭ"@cu,
+		"ابجديه غلاغوليتسا"@ar,
+		"ابجدية غلاغوليتسا"@ar,
+		"الأبجدية الغلاغوليتسية"@ar,
+		"الغلاغوليتسا"@ar,
+		"glagolitsa"@sv,
+		"glagolitisk skrift"@sv,
+		"glagolitische alfabet"@nl,
+		"glagolitisch"@nl,
+		"glagolítico"@pt,
+		"glagolita alfabeto"@eo,
+		"glagota alfabeto"@eo,
+		"hlaholské písmo"@sk,
+		"глаголица"@sr,
+		"อักษรกลาโกลิต"@th,
+		"Escriptura glagolítica"@ca,
+		"Glagolítica"@ca,
+		"Alfabet glagolític"@ca,
+		"glagoliittinen kirjoitus"@fi,
+		"glagolitsa"@fi,
+		"glagolice"@cs,
+		"Аз Буки Веди"@bg,
+		"Глаголицата"@bg,
+		"Istočnorusinski jezik"@hr,
+		"glagolittiske alfabetet"@nb,
+		"glagolittiske alfabet"@nb,
+		"glagolittisk skrift"@nb,
+		"glagolitiske alfabet"@nb,
+		"Glagolitic script"@en,
+		"Glagolitic alphabet"@en,
+		"Alphabetum Hieronymi"@la .
+
+wd:Q4449999 owl:sameAs wd:Q145625 .

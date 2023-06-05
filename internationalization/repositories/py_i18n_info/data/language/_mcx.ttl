@@ -1,0 +1,181 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35908 a schema:Dataset ;
+	schema:about wd:Q35908 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1835165637"^^xsd:integer ;
+	schema:dateModified "2023-02-16T16:36:57Z"^^xsd:dateTime .
+
+wd:Q35908 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Mpiemo_(langue)> a schema:Article ;
+	schema:about wd:Q35908 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Mpiemo (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mpiemo> a schema:Article ;
+	schema:about wd:Q35908 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mpiemo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimpiemo> a schema:Article ;
+	schema:about wd:Q35908 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimpiemo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mpiemo_language> a schema:Article ;
+	schema:about wd:Q35908 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mpiemo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Mpiemo> a schema:Article ;
+	schema:about wd:Q35908 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Mpiemo"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9C%D0%BF%D0%B5%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q35908 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Мпемо"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Mpiemo> a schema:Article ;
+	schema:about wd:Q35908 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Mpiemo"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Mpiemo> a schema:Article ;
+	schema:about wd:Q35908 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Mpiemo"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35908 wdt:P220 "mcx" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mcx> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "mpie1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mpie1238> ;
+	wdt:P305 "mcx" ;
+	wdt:P1627 "mcx" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1009,
+		wd:Q929,
+		wd:Q971 ;
+	wdt:P2341 wd:Q848567,
+		wd:Q856237,
+		wd:Q775410,
+		wd:Q845168 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MCX> ;
+	wdt:P646 "/m/02hx8v0" ;
+	wdt:P279 wd:Q1603899 ;
+	wdt:P268 "16933884z" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb16933884z#about> ;
+	rdfs:label "Kimpiemo"@sw ;
+	skos:prefLabel "Kimpiemo"@sw ;
+	schema:name "Kimpiemo"@sw ;
+	rdfs:label "Lenga Mpiemo"@pms ;
+	skos:prefLabel "Lenga Mpiemo"@pms ;
+	schema:name "Lenga Mpiemo"@pms ;
+	rdfs:label "Mpiemo"@de ;
+	skos:prefLabel "Mpiemo"@de ;
+	schema:name "Mpiemo"@de ;
+	rdfs:label "Mpiemo"@en ;
+	skos:prefLabel "Mpiemo"@en ;
+	schema:name "Mpiemo"@en ;
+	rdfs:label "lingua Mpiemo"@it ;
+	skos:prefLabel "lingua Mpiemo"@it ;
+	schema:name "lingua Mpiemo"@it ;
+	rdfs:label "mpiemo"@fr ;
+	skos:prefLabel "mpiemo"@fr ;
+	schema:name "mpiemo"@fr ;
+	rdfs:label "Mpiemo"@en-gb ;
+	skos:prefLabel "Mpiemo"@en-gb ;
+	schema:name "Mpiemo"@en-gb ;
+	rdfs:label "Мпемо"@ru ;
+	skos:prefLabel "Мпемо"@ru ;
+	schema:name "Мпемо"@ru ;
+	rdfs:label "mpiemo"@vec ;
+	skos:prefLabel "mpiemo"@vec ;
+	schema:name "mpiemo"@vec ;
+	rdfs:label "mpiemo"@nb ;
+	skos:prefLabel "mpiemo"@nb ;
+	schema:name "mpiemo"@nb ;
+	rdfs:label "Mpiemo"@oc ;
+	skos:prefLabel "Mpiemo"@oc ;
+	schema:name "Mpiemo"@oc ;
+	rdfs:label "Asụsụ Mpiemo"@ig ;
+	skos:prefLabel "Asụsụ Mpiemo"@ig ;
+	schema:name "Asụsụ Mpiemo"@ig ;
+	schema:description "Bantusprache"@de,
+		"Bantu language of the Central African Republic"@en,
+		"lingua bantu"@it,
+		"שפה"@he,
+		"yezh"@br,
+		"langue bantoue parlée en république centrafricaine"@fr,
+		"lengua"@es,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"Bantusprog i Kamerun"@nb ;
+	skos:altLabel "Kimpyemo"@sw,
+		"Mpiemo language"@en,
+		"bimu"@fr,
+		"mbimou"@fr,
+		"mbimu"@fr,
+		"mpo"@fr,
+		"mpyemo"@fr .
+
+wd:Q85951552 owl:sameAs wd:Q35908 .

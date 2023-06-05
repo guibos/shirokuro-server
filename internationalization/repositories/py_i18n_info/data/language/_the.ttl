@@ -1,0 +1,113 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q22083804 a schema:Dataset ;
+	schema:about wd:Q22083804 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961428263"^^xsd:integer ;
+	schema:dateModified "2023-08-26T02:59:16Z"^^xsd:dateTime .
+
+wd:Q22083804 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_tharu_chitwania> a schema:Article ;
+	schema:about wd:Q22083804 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga tharu chitwania"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitharu_cha_Chitwania> a schema:Article ;
+	schema:about wd:Q22083804 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitharu cha Chitwania"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Chitwania> a schema:Article ;
+	schema:about wd:Q22083804 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Chitwania"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q22083804 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "the" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/the> ;
+	wdt:P1394 "chit1274" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/chit1274> ;
+	wdt:P279 wd:Q34035 ;
+	wdt:P305 "the" ;
+	wdt:P1627 "the" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q668,
+		wd:Q837 ;
+	wdt:P2341 wd:Q1498,
+		wd:Q9133,
+		wd:Q9172,
+		wd:Q9183 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/THE> ;
+	wdt:P910 wd:Q105714730 ;
+	rdfs:label "Kitharu ya Chitwania"@sw ;
+	skos:prefLabel "Kitharu ya Chitwania"@sw ;
+	schema:name "Kitharu ya Chitwania"@sw ;
+	rdfs:label "Lenga tharu chitwania"@pms ;
+	skos:prefLabel "Lenga tharu chitwania"@pms ;
+	schema:name "Lenga tharu chitwania"@pms ;
+	rdfs:label "Chitwania Tharu"@en ;
+	skos:prefLabel "Chitwania Tharu"@en ;
+	schema:name "Chitwania Tharu"@en ;
+	rdfs:label "Chitwania Tharu"@en-gb ;
+	skos:prefLabel "Chitwania Tharu"@en-gb ;
+	schema:name "Chitwania Tharu"@en-gb ;
+	rdfs:label "tharu chitwania"@fr ;
+	skos:prefLabel "tharu chitwania"@fr ;
+	schema:name "tharu chitwania"@fr ;
+	rdfs:label "Chitwania"@oc ;
+	skos:prefLabel "Chitwania"@oc ;
+	schema:name "Chitwania"@oc ;
+	schema:description "Indo-European language"@en,
+		"Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue indo-aryenne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"iaith"@cy,
+		"lingua"@la,
+		"ভারত ও নেপালের ভাষা"@bn ;
+	skos:altLabel "Tharu, Chitwania"@en,
+		"Chitwania Tharu language"@en .

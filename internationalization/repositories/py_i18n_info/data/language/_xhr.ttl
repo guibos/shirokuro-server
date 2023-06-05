@@ -1,0 +1,99 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5908773 a schema:Dataset ;
+	schema:about wd:Q5908773 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1372572642"^^xsd:integer ;
+	schema:dateModified "2021-02-28T20:09:30Z"^^xsd:dateTime .
+
+wd:Q5908773 a wikibase:Item .
+
+<https://ast.wikipedia.org/wiki/Idioma_%C3%A9rnico> a schema:Article ;
+	schema:about wd:Q5908773 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma érnico"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_%C3%A9rnico> a schema:Article ;
+	schema:about wd:Q5908773 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma érnico"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5908773 wdt:P220 "xhr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xhr> ;
+	wdt:P31 wd:Q38058796,
+		wd:Q436240 ;
+	wdt:P279 wd:Q131848 ;
+	wdt:P2341 wd:Q930242 ;
+	a wdno:P1394 ;
+	wdt:P305 "xhr" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XHR> ;
+	wdt:P2671 "/g/1230v88r" ;
+	wdtn:P2671 <http://g.co/kg/g/1230v88r> ;
+	rdfs:label "érnico"@es ;
+	skos:prefLabel "érnico"@es ;
+	schema:name "érnico"@es ;
+	rdfs:label "Hernican"@en ;
+	skos:prefLabel "Hernican"@en ;
+	schema:name "Hernican"@en ;
+	rdfs:label "Hernican"@en-gb ;
+	skos:prefLabel "Hernican"@en-gb ;
+	schema:name "Hernican"@en-gb ;
+	rdfs:label "ernico"@it ;
+	skos:prefLabel "ernico"@it ;
+	schema:name "ernico"@it ;
+	rdfs:label "hernique"@fr ;
+	skos:prefLabel "hernique"@fr ;
+	schema:name "hernique"@fr ;
+	rdfs:label "Idioma érnico"@ast ;
+	skos:prefLabel "Idioma érnico"@ast ;
+	schema:name "Idioma érnico"@ast ;
+	rdfs:label "হের্নিকো ভাষা"@bn ;
+	skos:prefLabel "হের্নিকো ভাষা"@bn ;
+	schema:name "হের্নিকো ভাষা"@bn ;
+	schema:description "indogermanische Sprache"@de,
+		"lengua itálica hablada por los hérnicos"@es,
+		"language of the Sabellian group"@en,
+		"langue italique éteinte"@fr,
+		"বিলুপ্ত ভাষা"@bn ;
+	skos:altLabel "Hernican language"@en,
+		"antiguo érnico"@es,
+		"hérnico"@es,
+		"idioma érnico"@es,
+		"idioma hérnico"@es,
+		"dialetto ernico"@it .

@@ -1,0 +1,175 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36300 a schema:Dataset ;
+	schema:about wd:Q36300 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1745293921"^^xsd:integer ;
+	schema:dateModified "2022-10-07T17:47:27Z"^^xsd:dateTime .
+
+wd:Q36300 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Okodia> a schema:Article ;
+	schema:about wd:Q36300 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Okodia"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Okodia> a schema:Article ;
+	schema:about wd:Q36300 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Okodia"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiokodia> a schema:Article ;
+	schema:about wd:Q36300 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiokodia"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Okodia_language> a schema:Article ;
+	schema:about wd:Q36300 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Okodia language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Akiteg> a schema:Article ;
+	schema:about wd:Q36300 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Akiteg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Okodia> a schema:Article ;
+	schema:about wd:Q36300 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Okodia"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Lengua_okodia> a schema:Article ;
+	schema:about wd:Q36300 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Lengua okodia"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Okodia_jezik> a schema:Article ;
+	schema:about wd:Q36300 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Okodia jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36300 wdt:P220 "okd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/okd> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0hgl0s4" ;
+	wdt:P1394 "okod1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/okod1238> ;
+	wdt:P1014 "300389018" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389018> ;
+	wdt:P910 wd:Q33666990 ;
+	wdt:P279 wd:Q1322020 ;
+	wdt:P2192 "7933" ;
+	wdt:P305 "okd" ;
+	wdt:P1627 "okd" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q532153,
+		wd:Q509300,
+		wd:Q503923 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/OKD> ;
+	rdfs:label "Kiokodia"@sw ;
+	skos:prefLabel "Kiokodia"@sw ;
+	schema:name "Kiokodia"@sw ;
+	rdfs:label "Okodia"@de ;
+	skos:prefLabel "Okodia"@de ;
+	schema:name "Okodia"@de ;
+	rdfs:label "Lenga Okodia"@pms ;
+	skos:prefLabel "Lenga Okodia"@pms ;
+	schema:name "Lenga Okodia"@pms ;
+	rdfs:label "akiteg"@br ;
+	skos:prefLabel "akiteg"@br ;
+	schema:name "akiteg"@br ;
+	rdfs:label "Okodia"@en ;
+	skos:prefLabel "Okodia"@en ;
+	schema:name "Okodia"@en ;
+	rdfs:label "Okodia jezik"@hr ;
+	skos:prefLabel "Okodia jezik"@hr ;
+	schema:name "Okodia jezik"@hr ;
+	rdfs:label "okodia"@ca ;
+	skos:prefLabel "okodia"@ca ;
+	schema:name "okodia"@ca ;
+	rdfs:label "okodia"@es ;
+	skos:prefLabel "okodia"@es ;
+	schema:name "okodia"@es ;
+	rdfs:label "Okodia"@en-gb ;
+	skos:prefLabel "Okodia"@en-gb ;
+	schema:name "Okodia"@en-gb ;
+	rdfs:label "Wikang Okodia"@tl ;
+	skos:prefLabel "Wikang Okodia"@tl ;
+	schema:name "Wikang Okodia"@tl ;
+	rdfs:label "okodia"@fr ;
+	skos:prefLabel "okodia"@fr ;
+	schema:name "okodia"@fr ;
+	rdfs:label "Okodia"@ig ;
+	skos:prefLabel "Okodia"@ig ;
+	schema:name "Okodia"@ig ;
+	schema:description "idioma humano"@es,
+		"Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue ijoïde"@fr,
+		"yezh"@br,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"Asusu"@ig ;
+	skos:altLabel "Kiakita"@sw,
+		"Okordia"@de,
+		"Okodia language"@en,
+		"Asusu okodia"@ig .

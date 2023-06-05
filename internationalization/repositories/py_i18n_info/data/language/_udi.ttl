@@ -1,0 +1,525 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36867 a schema:Dataset ;
+	schema:about wd:Q36867 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1965430871"^^xsd:integer ;
+	schema:dateModified "2023-08-31T15:00:42Z"^^xsd:dateTime .
+
+wd:Q36867 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Udi> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Udi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://xmf.wikipedia.org/wiki/%E1%83%A3%E1%83%93%E1%83%98%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%9C%E1%83%98%E1%83%9C%E1%83%90> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "xmf" ;
+	schema:isPartOf <https://xmf.wikipedia.org/> ;
+	schema:name "უდიური ნინა"@xmf .
+
+<https://xmf.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A3%D0%B4%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Удинский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%A3%D0%B4%D1%96%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Удінська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hsb.wikipedia.org/wiki/Udin%C5%A1%C4%87ina> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "hsb" ;
+	schema:isPartOf <https://hsb.wikipedia.org/> ;
+	schema:name "Udinšćina"@hsb .
+
+<https://hsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Udi_language> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Udi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%AD%E0%B8%B9%E0%B8%94%E0%B8%B5> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาอูดี"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_udi> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua udi"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szl.wikipedia.org/wiki/Udisk%C5%8F_g%C5%8Fdka> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "szl" ;
+	schema:isPartOf <https://szl.wikipedia.org/> ;
+	schema:name "Udiskŏ gŏdka"@szl .
+
+<https://szl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%A3%D0%B4%D0%B8%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Удиски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%A3%D0%B4%D0%B8%D0%BD_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Удин кыв"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D5%88%D6%82%D5%BF%D5%AB%D5%A5%D6%80%D5%A5%D5%B6> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Ուտիերեն"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Udische_Sprache> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Udische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_udi> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua udi"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Udi_dili> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Udi dili"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Udince> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Udince"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Udiera> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Udiera"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%A3%E1%83%93%E1%83%98%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%94%E1%83%9C%E1%83%90> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "უდიური ენა"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_udyjski> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język udyjski"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_ud%C3%AD> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma udí"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Udi_keel> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Udi keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Udin> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Udin"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://diq.wikipedia.org/wiki/Udiki> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Udiki"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Oudi> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Oudi"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Udia_lingvo> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Udia lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%A7%D9%88%D8%AF%DB%8C> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان اودی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Oudieg> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Oudieg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Udinsk> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Udinsk"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_ud%C3%AD> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma udí"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Udin_kieli> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Udin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Odi> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Odi"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Udi_tili> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Udi tili"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wiktionary.org/wiki/Wiktionary:About_Udi> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wiktionary.org/> ;
+	schema:name "Wiktionary:About Udi"@en .
+
+<https://en.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://simple.wikipedia.org/wiki/Udi_language> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Udi language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Udin%C5%A1tina> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Udinština"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%A3%D0%B4%D0%B8%D0%BD_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q36867 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Удин теле"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36867 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "udi" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/udi> ;
+	wdt:P910 wd:Q8854305 ;
+	wdt:P646 "/m/07m32j" ;
+	wdt:P305 "udi" ;
+	wdt:P373 "Udi language" ;
+	wdt:P279 wd:Q15229151 ;
+	wdt:P1014 "300389486" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389486> ;
+	wdt:P1343 wd:Q2657718 ;
+	wdt:P1394 "udii1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/udii1243> ;
+	wdt:P2355 "1063",
+		"2192" ;
+	wdt:P227 "4120371-9" ;
+	wdtn:P227 <https://d-nb.info/gnd/4120371-9> ;
+	wdt:P4132 wd:Q171263 ;
+	wdt:P282 wd:Q8209,
+		wd:Q8229 ;
+	wdt:P17 wd:Q227,
+		wd:Q230,
+		wd:Q159 ;
+	wdt:P1098 "+8000"^^xsd:decimal ;
+	wdt:P1466 "udi" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_udi> ;
+	wdt:P1417 "topic/Udi-language" ;
+	wdt:P2581 "01891375n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s01891375n> ;
+	wdt:P2924 "4215743" ;
+	wdt:P2192 "3011" ;
+	wdt:P1627 "udi" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2341 wd:Q643989,
+		wd:Q593872 ;
+	wdt:P1245 "566228" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/UDI> ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Udin%20latin%20alphabet-1934.jpeg> ;
+	wdt:P2347 "29184" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p29184> ;
+	wdt:P11514 "udinskii-iazyk-21ab6e" ;
+	rdfs:label "Língua udi"@pt ;
+	skos:prefLabel "Língua udi"@pt ;
+	schema:name "Língua udi"@pt ;
+	rdfs:label "Lenga Udi"@pms ;
+	skos:prefLabel "Lenga Udi"@pms ;
+	schema:name "Lenga Udi"@pms ;
+	rdfs:label "Język udyjski"@pl ;
+	skos:prefLabel "Język udyjski"@pl ;
+	schema:name "Język udyjski"@pl ;
+	rdfs:label "удинский язык"@ru ;
+	skos:prefLabel "удинский язык"@ru ;
+	schema:name "удинский язык"@ru ;
+	rdfs:label "oudi"@fr ;
+	skos:prefLabel "oudi"@fr ;
+	schema:name "oudi"@fr ;
+	rdfs:label "Udi"@en ;
+	skos:prefLabel "Udi"@en ;
+	schema:name "Udi"@en ;
+	rdfs:label "Idioma udí"@es ;
+	skos:prefLabel "Idioma udí"@es ;
+	schema:name "Idioma udí"@es ;
+	rdfs:label "Udince"@tr ;
+	skos:prefLabel "Udince"@tr ;
+	schema:name "Udince"@tr ;
+	rdfs:label "ภาษาอูดี"@th ;
+	skos:prefLabel "ภาษาอูดี"@th ;
+	schema:name "ภาษาอูดี"@th ;
+	rdfs:label "udin"@ca ;
+	skos:prefLabel "udin"@ca ;
+	schema:name "udin"@ca ;
+	rdfs:label "Удиски јазик"@mk ;
+	skos:prefLabel "Удиски јазик"@mk ;
+	schema:name "Удиски јазик"@mk ;
+	rdfs:label "Udin kieli"@fi ;
+	skos:prefLabel "Udin kieli"@fi ;
+	schema:name "Udin kieli"@fi ;
+	rdfs:label "Удінська мова"@uk ;
+	skos:prefLabel "Удінська мова"@uk ;
+	schema:name "Удінська мова"@uk ;
+	rdfs:label "lingua udi"@it ;
+	skos:prefLabel "lingua udi"@it ;
+	schema:name "lingua udi"@it ;
+	rdfs:label "Udisch"@de ;
+	skos:prefLabel "Udisch"@de ;
+	schema:name "Udisch"@de ;
+	rdfs:label "oudieg"@br ;
+	skos:prefLabel "oudieg"@br ;
+	schema:name "oudieg"@br ;
+	rdfs:label "زبان اودی"@fa ;
+	skos:prefLabel "زبان اودی"@fa ;
+	schema:name "زبان اودی"@fa ;
+	rdfs:label "Удин кыв"@kv ;
+	skos:prefLabel "Удин кыв"@kv ;
+	schema:name "Удин кыв"@kv ;
+	rdfs:label "უდიური ენა"@ka ;
+	skos:prefLabel "უდიური ენა"@ka ;
+	schema:name "უდიური ენა"@ka ;
+	rdfs:label "Udi dili"@az ;
+	skos:prefLabel "Udi dili"@az ;
+	schema:name "Udi dili"@az ;
+	rdfs:label "Udinsk"@nb ;
+	skos:prefLabel "Udinsk"@nb ;
+	schema:name "Udinsk"@nb ;
+	rdfs:label "ուտիերեն"@hy ;
+	skos:prefLabel "ուտիերեն"@hy ;
+	schema:name "ուտիերեն"@hy ;
+	rdfs:label "Udiki"@diq ;
+	skos:prefLabel "Udiki"@diq ;
+	schema:name "Udiki"@diq ;
+	rdfs:label "უდიური ნინა"@xmf ;
+	skos:prefLabel "უდიური ნინა"@xmf ;
+	schema:name "უდიური ნინა"@xmf ;
+	rdfs:label "ウディ語"@ja ;
+	skos:prefLabel "ウディ語"@ja ;
+	schema:name "ウディ語"@ja ;
+	rdfs:label "Udiskŏ gŏdka"@szl ;
+	skos:prefLabel "Udiskŏ gŏdka"@szl ;
+	schema:name "Udiskŏ gŏdka"@szl ;
+	rdfs:label "Udi"@en-gb ;
+	skos:prefLabel "Udi"@en-gb ;
+	schema:name "Udi"@en-gb ;
+	rdfs:label "udi keel"@et ;
+	skos:prefLabel "udi keel"@et ;
+	schema:name "udi keel"@et ;
+	rdfs:label "udia lingvo"@eo ;
+	skos:prefLabel "udia lingvo"@eo ;
+	schema:name "udia lingvo"@eo ;
+	rdfs:label "Udiera"@eu ;
+	skos:prefLabel "Udiera"@eu ;
+	schema:name "Udiera"@eu ;
+	rdfs:label "Udinšćina"@hsb ;
+	skos:prefLabel "Udinšćina"@hsb ;
+	schema:name "Udinšćina"@hsb ;
+	rdfs:label "Idioma udí"@ast ;
+	skos:prefLabel "Idioma udí"@ast ;
+	schema:name "Idioma udí"@ast ;
+	rdfs:label "烏第語"@zh-hant ;
+	skos:prefLabel "烏第語"@zh-hant ;
+	schema:name "烏第語"@zh-hant ;
+	rdfs:label "乌第语"@zh-hans ;
+	skos:prefLabel "乌第语"@zh-hans ;
+	schema:name "乌第语"@zh-hans ;
+	rdfs:label "Udi"@nl ;
+	skos:prefLabel "Udi"@nl ;
+	schema:name "Udi"@nl ;
+	rdfs:label "Odi"@oc ;
+	skos:prefLabel "Odi"@oc ;
+	schema:name "Odi"@oc ;
+	rdfs:label "乌第语"@zh ;
+	skos:prefLabel "乌第语"@zh ;
+	schema:name "乌第语"@zh ;
+	rdfs:label "Udi tili"@uz ;
+	skos:prefLabel "Udi tili"@uz ;
+	schema:name "Udi tili"@uz ;
+	rdfs:label "udi"@vec ;
+	skos:prefLabel "udi"@vec ;
+	schema:name "udi"@vec ;
+	rdfs:label "udi"@sv ;
+	skos:prefLabel "udi"@sv ;
+	schema:name "udi"@sv ;
+	rdfs:label "Уди теле"@tt ;
+	skos:prefLabel "Уди теле"@tt ;
+	schema:name "Уди теле"@tt ;
+	rdfs:label "Udinština"@cs ;
+	skos:prefLabel "Udinština"@cs ;
+	schema:name "Udinština"@cs ;
+	schema:description "Sprache"@de,
+		"lengua caucásica nororiental"@es,
+		"lingua caucasica nordorientale parlata in Azerbaigian"@it,
+		"language"@en,
+		"langue nakho-daghestanienne"@fr,
+		"taal"@nl,
+		"שפה"@he,
+		"زبان مردم اودی"@fa,
+		"yezh"@br,
+		"lingua"@la,
+		"iaith"@cy,
+		"dagestanilainen kieli"@fi,
+		"idioma del Daguestan"@ca,
+		"язык"@ru ;
+	skos:altLabel "удинский"@ru,
+		"La lengua udi"@es,
+		"Idioma udi"@es,
+		"La lengua udí"@es,
+		"udische Sprache"@de,
+		"უდური ენა"@ka,
+		"უდინური ენა"@ka,
+		"უდინების ენა"@ka,
+		"Udin dili"@az,
+		"Udi language"@en,
+		"Udinsk språk"@nb,
+		"udi"@fr,
+		"udi"@ca,
+		"乌迪语"@zh,
+		"烏迪語"@zh .

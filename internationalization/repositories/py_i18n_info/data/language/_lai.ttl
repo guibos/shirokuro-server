@@ -1,0 +1,142 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6481626 a schema:Dataset ;
+	schema:about wd:Q6481626 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1824007914"^^xsd:integer ;
+	schema:dateModified "2023-02-01T16:02:29Z"^^xsd:dateTime .
+
+wd:Q6481626 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Lambya> a schema:Article ;
+	schema:about wd:Q6481626 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Lambya"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilambya> a schema:Article ;
+	schema:about wd:Q6481626 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilambya"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Lambya_language> a schema:Article ;
+	schema:about wd:Q6481626 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Lambya language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_l%C3%A2mbia> a schema:Article ;
+	schema:about wd:Q6481626 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua lâmbia"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tum.wikipedia.org/wiki/ChiLambya> a schema:Article ;
+	schema:about wd:Q6481626 ;
+	schema:inLanguage "tum" ;
+	schema:isPartOf <https://tum.wikipedia.org/> ;
+	schema:name "ChiLambya"@tum .
+
+<https://tum.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6481626 wdt:P220 "lai" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lai> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568,
+		wd:Q207930 ;
+	wdt:P1394 "lamb1272" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lamb1272> ;
+	wdt:P305 "lai" ;
+	wdt:P1627 "lai" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1020,
+		wd:Q924,
+		wd:Q953 ;
+	wdt:P2341 wd:Q1044337,
+		wd:Q868819,
+		wd:Q6714242 ;
+	wdt:P1014 "300388682" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388682> ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LAI> ;
+	wdt:P646 "/m/02hwkr8" ;
+	wdt:P279 wd:Q12638660 ;
+	rdfs:label "Lambya"@en ;
+	skos:prefLabel "Lambya"@en ;
+	schema:name "Lambya"@en ;
+	rdfs:label "ランブヤ語"@ja ;
+	skos:prefLabel "ランブヤ語"@ja ;
+	schema:name "ランブヤ語"@ja ;
+	rdfs:label "Kilambya"@sw ;
+	skos:prefLabel "Kilambya"@sw ;
+	schema:name "Kilambya"@sw ;
+	rdfs:label "Lenga Lambya"@pms ;
+	skos:prefLabel "Lenga Lambya"@pms ;
+	schema:name "Lenga Lambya"@pms ;
+	rdfs:label "Lambya"@en-gb ;
+	skos:prefLabel "Lambya"@en-gb ;
+	schema:name "Lambya"@en-gb ;
+	rdfs:label "Wikang Lambya"@tl ;
+	skos:prefLabel "Wikang Lambya"@tl ;
+	schema:name "Wikang Lambya"@tl ;
+	rdfs:label "Língua lâmbia"@pt ;
+	skos:prefLabel "Língua lâmbia"@pt ;
+	schema:name "Língua lâmbia"@pt ;
+	rdfs:label "ChiLambya"@tum ;
+	skos:prefLabel "ChiLambya"@tum ;
+	schema:name "ChiLambya"@tum ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Lambya language"@en,
+		"ChiLambya"@en,
+		"Chilambya"@en .
+
+wd:Q11124763 owl:sameAs wd:Q6481626 .
+
+wd:Q97272749 owl:sameAs wd:Q6481626 .

@@ -1,0 +1,672 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q208111 a schema:Dataset ;
+	schema:about wd:Q208111 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1927694403"^^xsd:integer ;
+	schema:dateModified "2023-07-02T16:06:51Z"^^xsd:dateTime .
+
+wd:Q208111 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Hieratic> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Hieratic"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Hieratische_Schrift> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Hieratische Schrift"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/%C3%89criture_hi%C3%A9ratique> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Écriture hiératique"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Hier%C3%A1tico> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Hierático"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%98%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Иератическое письмо"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Scrittura_ieratica> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Scrittura ieratica"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%92%E3%82%A8%E3%83%A9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ヒエラティック"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Hi%C3%ABratisch_schrift> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Hiëratisch schrift"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/Hieratyka> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Hieratyka"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Hier%C3%A1tico> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Hierático"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%83%A7%E4%BE%B6%E9%AB%94> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "僧侶體"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%9B%D7%AA%D7%91_%D7%94%D7%99%D7%A8%D7%90%D7%98%D7%99> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "כתב היראטי"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Hieratikus_%C3%ADr%C3%A1s> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Hieratikus írás"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Hieraattinen_kirjoitus> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Hieraattinen kirjoitus"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%86%D1%94%D1%80%D0%B0%D1%82%D0%B8%D1%87%D0%BD%D0%B5_%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Ієратичне письмо"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%8B%A0%EA%B4%80%EB%AC%B8%EC%9E%90> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "신관문자"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Hier%C3%A0tic> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Hieràtic"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Hieratick%C3%A9_p%C3%ADsmo> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Hieratické písmo"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%A5%D0%B8%D1%98%D0%B5%D1%80%D0%B0%D1%82%D1%81%D0%BA%D0%BE_%D0%BF%D0%B8%D1%81%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Хијератско писмо"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Hieratic%C4%83> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Hieratică"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%99%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0_%D0%BF%D0%B8%D1%81%D0%BC%D0%B5%D0%BD%D0%BE%D1%81%D1%82> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Йератическа писменост"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Hi%C3%ABraties> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Hiëraties"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Hier%C3%A1ticu> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Hieráticu"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%86%D0%B5%D1%80%D0%B0%D1%82%D1%8B%D1%87%D0%BD%D0%B0%D0%B5_%D0%BF%D1%96%D1%81%D1%8C%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Іератычнае пісьмо"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%B9%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%B0%E0%A6%BE%E0%A6%9F%E0%A6%BF%E0%A6%95_%E0%A6%B2%E0%A6%BF%E0%A6%AA%E0%A6%BF> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "হায়রাটিক লিপি"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Hieratika_skribo> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Hieratika skribo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Hieraatiline_kiri> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Hieraatiline kiri"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Hier%C3%A1tico> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Hierático"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D5%80%D5%AB%D5%A5%D6%80%D5%A1%D5%BF%D5%AB%D5%AF_%D5%A3%D5%AB%D6%80> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Հիերատիկ գիր"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%98%E1%83%94%E1%83%A0%E1%83%90%E1%83%A2%E1%83%98%E1%83%99%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%93%E1%83%90%E1%83%9B%E1%83%AC%E1%83%94%E1%83%A0%E1%83%9A%E1%83%9D%E1%83%91%E1%83%90> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "იერატიკული დამწერლობა"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mt.wikipedia.org/wiki/Kitba_jeratika> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "mt" ;
+	schema:isPartOf <https://mt.wikipedia.org/> ;
+	schema:name "Kitba jeratika"@mt .
+
+<https://mt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Hieratisk_skrift> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Hieratisk skrift"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Ieratic> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Ieratic"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Hijeratsko_pismo> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Hijeratsko pismo"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sk.wikipedia.org/wiki/Hieratick%C3%A9_p%C3%ADsmo> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "sk" ;
+	schema:isPartOf <https://sk.wikipedia.org/> ;
+	schema:name "Hieratické písmo"@sk .
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-min-nan.wikipedia.org/wiki/S%C3%AEn-koan-th%C3%A9> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "nan" ;
+	schema:isPartOf <https://zh-min-nan.wikipedia.org/> ;
+	schema:name "Sîn-koan-thé"@nan .
+
+<https://zh-min-nan.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://commons.wikimedia.org/wiki/Category:Hieratic> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "Category:Hieratic"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+<https://da.wikipedia.org/wiki/Hieratisk> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Hieratisk"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Aksara_Hieratik> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Aksara Hieratik"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Hiyeratik_yaz%C4%B1> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Hiyeratik yazı"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%A5%D0%B8%D0%B5%D1%80%D0%B0%D1%82%D1%81%D0%BA%D0%BE_%D0%BF%D0%B8%D1%81%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Хиератско писмо"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%83%D8%AA%D8%A7%D8%A8%D8%A9_%D9%87%D9%8A%D8%B1%D8%A7%D8%B7%D9%8A%D9%82%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "كتابة هيراطيقية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D8%BA%D9%87_%D8%A7%D9%84%D9%87%D9%8A%D8%B1%D8%A7%D8%B7%D9%8A%D9%82%D9%8A%D9%87> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "اللغه الهيراطيقيه"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sl.wikipedia.org/wiki/Hieratika> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikipedia.org/> ;
+	schema:name "Hieratika"@sl .
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%DB%81%DB%8C%D8%B1%D8%A7%D8%B7%DB%8C%D9%82%DB%8C> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "ہیراطیقی"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Hieratika> a schema:Article ;
+	schema:about wd:Q208111 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Hieratika"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q208111 wdt:P373 "Hieratic" ;
+	wdt:P508 "10031" ;
+	wdtn:P508 <http://purl.org/bncf/tid/10031> ;
+	wdt:P646 "/m/0p60y" ;
+	wdt:P1014 "300206211" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300206211> ;
+	wdt:P1417 "topic/hieratic-script" ;
+	wdt:P31 wd:Q8192,
+		wd:Q3953107,
+		wd:Q4004706,
+		wd:Q29517555 ;
+	wdt:P4212 "pcrtY3vvf2jpQi" ;
+	wdtn:P4212 <https://ark.frantiq.fr/ark:/26678/pcrtY3vvf2jpQi> ;
+	wdt:P506 "Egyh" ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Hieratic%20a7.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Heratic%20script%20limestone.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Scribe%27s%20exercise%20tablet%201.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/A%20page%20from%20the%20Ebers%20Papyrus%2C%20written%20circa%201500%20B.C.%20Wellcome%20M0008455.jpg> ;
+	wdt:P407 wd:Q50868 ;
+	wdt:P227 "4159834-9" ;
+	wdtn:P227 <https://d-nb.info/gnd/4159834-9> ;
+	wdt:P5398 "000002317" ;
+	wdt:P2620 "060" ;
+	wdt:P244 "sh85041348" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85041348> ;
+	wdt:P144 wd:Q132659 ;
+	wdt:P4969 wd:Q188519 ;
+	wdt:P1296 "0187546" ;
+	wdt:P1343 wd:Q602358,
+		wd:Q20078554,
+		wd:Q106727050,
+		wd:Q19180675 ;
+	wdt:P6366 "34117410" ;
+	wdtn:P6366 <http://ma-graph.org/entity/34117410> ;
+	wdt:P7033 "scot/15737" ;
+	wdtn:P7033 <http://vocabulary.curriculum.edu.au/scot/15737.rdf> ;
+	wdt:P8408 "HieraticCursive" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/HieraticCursive> ;
+	wdt:P8814 "06373667-n" ;
+	wdtn:P8814 <http://wordnet-rdf.princeton.edu/rdf/id/06373667-n> ;
+	wdt:P582 "0300-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P571 "-2999-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P2561 "Egyptian hieratic"@en,
+		"hiératique égyptien"@fr ;
+	wdt:P268 "11955222z" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb11955222z#about> ;
+	wdt:P8189 "987007533406105171" ;
+	wdt:P8313 "hieratisk" ;
+	wdt:P691 "ph736381" ;
+	wdt:P276 wd:Q11768 ;
+	rdfs:label "僧侣体"@zh-hans ;
+	skos:prefLabel "僧侣体"@zh-hans ;
+	schema:name "僧侣体"@zh-hans ;
+	rdfs:label "僧侶體"@zh-hant ;
+	skos:prefLabel "僧侶體"@zh-hant ;
+	schema:name "僧侶體"@zh-hant ;
+	rdfs:label "僧侶體"@zh-hk ;
+	skos:prefLabel "僧侶體"@zh-hk ;
+	schema:name "僧侶體"@zh-hk ;
+	rdfs:label "僧侣体"@zh-cn ;
+	skos:prefLabel "僧侣体"@zh-cn ;
+	schema:name "僧侣体"@zh-cn ;
+	rdfs:label "僧侣体"@zh-sg ;
+	skos:prefLabel "僧侣体"@zh-sg ;
+	schema:name "僧侣体"@zh-sg ;
+	rdfs:label "僧侶體"@zh-tw ;
+	skos:prefLabel "僧侶體"@zh-tw ;
+	schema:name "僧侶體"@zh-tw ;
+	rdfs:label "Hieratyka"@pl ;
+	skos:prefLabel "Hieratyka"@pl ;
+	schema:name "Hieratyka"@pl ;
+	rdfs:label "신관문자"@ko ;
+	skos:prefLabel "신관문자"@ko ;
+	schema:name "신관문자"@ko ;
+	rdfs:label "écriture hiératique"@fr ;
+	skos:prefLabel "écriture hiératique"@fr ;
+	schema:name "écriture hiératique"@fr ;
+	rdfs:label "כתב היראטי"@he ;
+	skos:prefLabel "כתב היראטי"@he ;
+	schema:name "כתב היראטי"@he ;
+	rdfs:label "escritura hierática"@es ;
+	skos:prefLabel "escritura hierática"@es ;
+	schema:name "escritura hierática"@es ;
+	rdfs:label "Ieratic"@oc ;
+	skos:prefLabel "Ieratic"@oc ;
+	schema:name "Ieratic"@oc ;
+	rdfs:label "hieratikus írás"@hu ;
+	skos:prefLabel "hieratikus írás"@hu ;
+	schema:name "hieratikus írás"@hu ;
+	rdfs:label "scrittura ieratica"@it ;
+	skos:prefLabel "scrittura ieratica"@it ;
+	schema:name "scrittura ieratica"@it ;
+	rdfs:label "Hierático"@gl ;
+	skos:prefLabel "Hierático"@gl ;
+	schema:name "Hierático"@gl ;
+	rdfs:label "Hieraatiline kiri"@et ;
+	skos:prefLabel "Hieraatiline kiri"@et ;
+	schema:name "Hieraatiline kiri"@et ;
+	rdfs:label "hieratik"@id ;
+	skos:prefLabel "hieratik"@id ;
+	schema:name "hieratik"@id ;
+	rdfs:label "Hieratische Schrift"@de ;
+	skos:prefLabel "Hieratische Schrift"@de ;
+	schema:name "Hieratische Schrift"@de ;
+	rdfs:label "ヒエラティック"@ja ;
+	skos:prefLabel "ヒエラティック"@ja ;
+	schema:name "ヒエラティック"@ja ;
+	rdfs:label "হায়রাটিক লিপি"@bn ;
+	skos:prefLabel "হায়রাটিক লিপি"@bn ;
+	schema:name "হায়রাটিক লিপি"@bn ;
+	rdfs:label "Kitba jeratika"@mt ;
+	skos:prefLabel "Kitba jeratika"@mt ;
+	schema:name "Kitba jeratika"@mt ;
+	rdfs:label "Hijeratsko pismo"@sh ;
+	skos:prefLabel "Hijeratsko pismo"@sh ;
+	schema:name "Hijeratsko pismo"@sh ;
+	rdfs:label "hiëratisch schrift"@nl ;
+	skos:prefLabel "hiëratisch schrift"@nl ;
+	schema:name "hiëratisch schrift"@nl ;
+	rdfs:label "كتابة هيراطيقية"@ar ;
+	skos:prefLabel "كتابة هيراطيقية"@ar ;
+	schema:name "كتابة هيراطيقية"@ar ;
+	rdfs:label "hierático"@pt ;
+	skos:prefLabel "hierático"@pt ;
+	schema:name "hierático"@pt ;
+	rdfs:label "Hieratické písmo"@sk ;
+	skos:prefLabel "Hieratické písmo"@sk ;
+	schema:name "Hieratické písmo"@sk ;
+	rdfs:label "Иератическое письмо"@ru ;
+	skos:prefLabel "Иератическое письмо"@ru ;
+	schema:name "Иератическое письмо"@ru ;
+	rdfs:label "Egyptian hieratic"@en ;
+	skos:prefLabel "Egyptian hieratic"@en ;
+	schema:name "Egyptian hieratic"@en ;
+	rdfs:label "Hieratică"@ro ;
+	skos:prefLabel "Hieratică"@ro ;
+	schema:name "Hieratică"@ro ;
+	rdfs:label "Hieràtic"@ca ;
+	skos:prefLabel "Hieràtic"@ca ;
+	schema:name "Hieràtic"@ca ;
+	rdfs:label "Hieraattinen kirjoitus"@fi ;
+	skos:prefLabel "Hieraattinen kirjoitus"@fi ;
+	schema:name "Hieraattinen kirjoitus"@fi ;
+	rdfs:label "Ієратичне письмо"@uk ;
+	skos:prefLabel "Ієратичне письмо"@uk ;
+	schema:name "Ієратичне письмо"@uk ;
+	rdfs:label "Hieratisk skrift"@nn ;
+	skos:prefLabel "Hieratisk skrift"@nn ;
+	schema:name "Hieratisk skrift"@nn ;
+	rdfs:label "hieratické písmo"@cs ;
+	skos:prefLabel "hieratické písmo"@cs ;
+	schema:name "hieratické písmo"@cs ;
+	rdfs:label "Йератическа писменост"@bg ;
+	skos:prefLabel "Йератическа писменост"@bg ;
+	schema:name "Йератическа писменост"@bg ;
+	rdfs:label "იერატიკული დამწერლობა"@ka ;
+	skos:prefLabel "იერატიკული დამწერლობა"@ka ;
+	schema:name "იერატიკული დამწერლობა"@ka ;
+	rdfs:label "僧侶體"@zh ;
+	skos:prefLabel "僧侶體"@zh ;
+	schema:name "僧侶體"@zh ;
+	rdfs:label "хијератско писмо"@sr ;
+	skos:prefLabel "хијератско писмо"@sr ;
+	schema:name "хијератско писмо"@sr ;
+	rdfs:label "Hiëraties"@af ;
+	skos:prefLabel "Hiëraties"@af ;
+	schema:name "Hiëraties"@af ;
+	rdfs:label "Հիերատիկ գիր"@hy ;
+	skos:prefLabel "Հիերատիկ գիր"@hy ;
+	schema:name "Հիերատիկ գիր"@hy ;
+	rdfs:label "Іератычнае пісьмо"@be ;
+	skos:prefLabel "Іератычнае пісьмо"@be ;
+	schema:name "Іератычнае пісьмо"@be ;
+	rdfs:label "Hieratic"@en-ca ;
+	skos:prefLabel "Hieratic"@en-ca ;
+	schema:name "Hieratic"@en-ca ;
+	rdfs:label "Hieratic"@en-gb ;
+	skos:prefLabel "Hieratic"@en-gb ;
+	schema:name "Hieratic"@en-gb ;
+	rdfs:label "Hieratika skribo"@eo ;
+	skos:prefLabel "Hieratika skribo"@eo ;
+	schema:name "Hieratika skribo"@eo ;
+	rdfs:label "Hierático"@pt-br ;
+	skos:prefLabel "Hierático"@pt-br ;
+	schema:name "Hierático"@pt-br ;
+	rdfs:label "Sîn-koan-thé"@nan ;
+	skos:prefLabel "Sîn-koan-thé"@nan ;
+	schema:name "Sîn-koan-thé"@nan ;
+	rdfs:label "Ιερατική αιγυπτιακή γραφή"@el ;
+	skos:prefLabel "Ιερατική αιγυπτιακή γραφή"@el ;
+	schema:name "Ιερατική αιγυπτιακή γραφή"@el ;
+	rdfs:label "Hieráticu"@ast ;
+	skos:prefLabel "Hieráticu"@ast ;
+	schema:name "Hieráticu"@ast ;
+	rdfs:label "Hieratisk"@da ;
+	skos:prefLabel "Hieratisk"@da ;
+	schema:name "Hieratisk"@da ;
+	rdfs:label "гератычнае пісьмо"@be-tarask ;
+	skos:prefLabel "гератычнае пісьмо"@be-tarask ;
+	schema:name "гератычнае пісьмо"@be-tarask ;
+	rdfs:label "хиератско писмо"@mk ;
+	skos:prefLabel "хиератско писмо"@mk ;
+	schema:name "хиератско писмо"@mk ;
+	rdfs:label "Hiyeratik yazı"@tr ;
+	skos:prefLabel "Hiyeratik yazı"@tr ;
+	schema:name "Hiyeratik yazı"@tr ;
+	rdfs:label "اللغه الهيراطيقيه"@arz ;
+	skos:prefLabel "اللغه الهيراطيقيه"@arz ;
+	schema:name "اللغه الهيراطيقيه"@arz ;
+	rdfs:label "hieratska pisava"@sl ;
+	skos:prefLabel "hieratska pisava"@sl ;
+	schema:name "hieratska pisava"@sl ;
+	rdfs:label "ہیراطیقی"@ur ;
+	skos:prefLabel "ہیراطیقی"@ur ;
+	schema:name "ہیراطیقی"@ur ;
+	rdfs:label "Chữ thầy tu"@vi ;
+	skos:prefLabel "Chữ thầy tu"@vi ;
+	schema:name "Chữ thầy tu"@vi ;
+	rdfs:label "hieratisk"@nb ;
+	skos:prefLabel "hieratisk"@nb ;
+	schema:name "hieratisk"@nb ;
+	schema:description "cursive writing system used in the provenance of the pharaohs in Egypt and Nubia"@en,
+		"طريقة كتابة قديمة نشأت في مصر"@ar,
+		"forma di scrittura"@it,
+		"sistema de escritura en el Antiguo Egipto"@es,
+		"скорописное письмо египетского языка"@ru,
+		"egyptské písmo, které vzniklo zjednodušením hieroglyfického písma"@cs,
+		"linksläufige altägyptische Schrift um die Zeitenwende 3000 v. bis 300 n. Chr."@de,
+		"az egyiptomi hieroglif írásból kifejlődött kurzív írás"@hu,
+		"écriture cursive égyptienne"@fr,
+		"вид єгипетського письма"@uk,
+		"forma cursiva dos xeróglifos exipcios"@gl ;
+	skos:altLabel "Pismo hieratyczne"@pl,
+		"신관 문자"@ko,
+		"이집트 신관문자"@ko,
+		"Hiératique"@fr,
+		"Hierática"@es,
+		"Hierático"@es,
+		"Ieratica"@oc,
+		"Ieratico"@it,
+		"Hierática"@gl,
+		"Escritura hierática"@gl,
+		"Hieratik"@de,
+		"Hieratisch"@de,
+		"神官文字"@ja,
+		"Egyh"@ja,
+		"Hieratisch schrift"@nl,
+		"الخط الهيراطيقي"@ar,
+		"خط هيراطيقي"@ar,
+		"الخط الهيراطيقى"@ar,
+		"الهيراطيقية"@ar,
+		"هيراطيقي"@ar,
+		"Hierática"@pt,
+		"Escrita hierática"@pt,
+		"Egyptské hieratické písmo"@sk,
+		"Egyptské kňazské písmo"@sk,
+		"Иератика"@ru,
+		"Hieràtica"@ca,
+		"Escriptura hieràtica"@ca,
+		"egyptské hieratické písmo"@cs,
+		"Йератика"@bg,
+		"Йератическо писмо"@bg,
+		"гератыка"@be-tarask,
+		"hieratika"@sl .

@@ -1,0 +1,112 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3501868 a schema:Dataset ;
+	schema:about wd:Q3501868 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1774946305"^^xsd:integer ;
+	schema:dateModified "2022-11-19T12:40:18Z"^^xsd:dateTime .
+
+wd:Q3501868 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_ash%C3%A9ninka,_ucayali_sud> a schema:Article ;
+	schema:about wd:Q3501868 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga ashéninka, ucayali sud"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/South_Ucayali_Ash%C3%A9ninka> a schema:Article ;
+	schema:about wd:Q3501868 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "South Ucayali Ashéninka"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Ju%C5%BEni_ucayali_ash%C3%A9ninka_(jezik)> a schema:Article ;
+	schema:about wd:Q3501868 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Južni ucayali ashéninka (jezik)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/South_Ucayali_Ash%C3%A9ninka> a schema:Article ;
+	schema:about wd:Q3501868 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "South Ucayali Ashéninka"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3501868 wdt:P220 "cpy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cpy> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "sout3127" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sout3127> ;
+	wdt:P305 "cpy" ;
+	wdt:P1627 "cpy" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q419 ;
+	wdt:P2341 wd:Q207424 ;
+	rdfs:label "Lenga ashéninka, ucayali sud"@pms ;
+	skos:prefLabel "Lenga ashéninka, ucayali sud"@pms ;
+	schema:name "Lenga ashéninka, ucayali sud"@pms ;
+	rdfs:label "South Ucayali Ashéninka"@en ;
+	skos:prefLabel "South Ucayali Ashéninka"@en ;
+	schema:name "South Ucayali Ashéninka"@en ;
+	rdfs:label "Južni ucayali ashéninka"@hr ;
+	skos:prefLabel "Južni ucayali ashéninka"@hr ;
+	schema:name "Južni ucayali ashéninka"@hr ;
+	rdfs:label "South Ucayali Ashéninka"@hif ;
+	skos:prefLabel "South Ucayali Ashéninka"@hif ;
+	schema:name "South Ucayali Ashéninka"@hif ;
+	rdfs:label "South Ucayali Ashéninka"@en-gb ;
+	skos:prefLabel "South Ucayali Ashéninka"@en-gb ;
+	schema:name "South Ucayali Ashéninka"@en-gb ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "South Ucayali Asheninka"@en .
+
+wd:Q13155638 owl:sameAs wd:Q3501868 .

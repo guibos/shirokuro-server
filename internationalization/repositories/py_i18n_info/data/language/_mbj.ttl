@@ -1,0 +1,170 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3335011 a schema:Dataset ;
+	schema:about wd:Q3335011 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1824423616"^^xsd:integer ;
+	schema:dateModified "2023-02-02T07:45:05Z"^^xsd:dateTime .
+
+wd:Q3335011 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Nad%C3%ABb> a schema:Article ;
+	schema:about wd:Q3335011 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Nadëb"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_nad%C3%ABb> a schema:Article ;
+	schema:about wd:Q3335011 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga nadëb"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1_%CE%9D%CE%B1%CE%BD%CF%84%CE%AD%CE%BC%CF%80> a schema:Article ;
+	schema:about wd:Q3335011 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γλώσσα Ναντέμπ"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nad%C3%ABb_language> a schema:Article ;
+	schema:about wd:Q3335011 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nadëb language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Nad%C3%ABb> a schema:Article ;
+	schema:about wd:Q3335011 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Nadëb"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_nad%C3%ABb> a schema:Article ;
+	schema:about wd:Q3335011 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma nadëb"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B4%D0%B5%D0%B1> a schema:Article ;
+	schema:about wd:Q3335011 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Надеб"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3335011 wdt:P220 "mbj" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mbj> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "mbj" ;
+	wdt:P279 wd:Q1856439 ;
+	wdt:P1394 "nade1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nade1244> ;
+	wdt:P2355 "1839" ;
+	wdt:P4132 wd:Q1417850 ;
+	wdt:P1466 "nad" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_nad> ;
+	wdt:P1889 wd:Q3444063 ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P910 wd:Q33669524 ;
+	wdt:P2192 "3966" ;
+	wdt:P1627 "mbj" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q155 ;
+	wdt:P2341 wd:Q40040 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MBJ> ;
+	wdt:P646 "/m/02hx3lg" ;
+	wdt:P1098 "+370"^^xsd:decimal ;
+	rdfs:label "nadëb"@fr ;
+	skos:prefLabel "nadëb"@fr ;
+	schema:name "nadëb"@fr ;
+	rdfs:label "Nadëb"@en ;
+	skos:prefLabel "Nadëb"@en ;
+	schema:name "Nadëb"@en ;
+	rdfs:label "Lenga nadëb"@pms ;
+	skos:prefLabel "Lenga nadëb"@pms ;
+	schema:name "Lenga nadëb"@pms ;
+	rdfs:label "Надеб"@ru ;
+	skos:prefLabel "Надеб"@ru ;
+	schema:name "Надеб"@ru ;
+	rdfs:label "ナドゥブ語"@ja ;
+	skos:prefLabel "ナドゥブ語"@ja ;
+	schema:name "ナドゥブ語"@ja ;
+	rdfs:label "Γλώσσα Ναντέμπ"@el ;
+	skos:prefLabel "Γλώσσα Ναντέμπ"@el ;
+	schema:name "Γλώσσα Ναντέμπ"@el ;
+	rdfs:label "Nadëb"@en-gb ;
+	skos:prefLabel "Nadëb"@en-gb ;
+	schema:name "Nadëb"@en-gb ;
+	rdfs:label "nadebi keel"@et ;
+	skos:prefLabel "nadebi keel"@et ;
+	schema:name "nadebi keel"@et ;
+	rdfs:label "Wikang Nadëb"@tl ;
+	skos:prefLabel "Wikang Nadëb"@tl ;
+	schema:name "Wikang Nadëb"@tl ;
+	rdfs:label "Nadëb"@ca ;
+	skos:prefLabel "Nadëb"@ca ;
+	schema:name "Nadëb"@ca ;
+	rdfs:label "Idioma nadëb"@es ;
+	skos:prefLabel "Idioma nadëb"@es ;
+	schema:name "Idioma nadëb"@es ;
+	rdfs:label "Língua Nadëb"@pt ;
+	skos:prefLabel "Língua Nadëb"@pt ;
+	schema:name "Língua Nadëb"@pt ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue maku"@fr,
+		"yezh"@br,
+		"lengua indígena"@es,
+		"lingua"@it,
+		"Nadahup language spoken in Brazil"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"язык"@ru ;
+	skos:altLabel "Nadöb"@en,
+		"Nadëb language"@en .
+
+wd:Q61095317 owl:sameAs wd:Q3335011 .

@@ -1,0 +1,381 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7336938 a schema:Dataset ;
+	schema:about wd:Q7336938 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960503020"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:13:08Z"^^xsd:dateTime .
+
+wd:Q7336938 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Riung> a schema:Article ;
+	schema:about wd:Q7336938 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Riung"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Riung> a schema:Article ;
+	schema:about wd:Q7336938 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Riung"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiriung> a schema:Article ;
+	schema:about wd:Q7336938 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiriung"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Riung_language> a schema:Article ;
+	schema:about wd:Q7336938 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Riung language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Riung> a schema:Article ;
+	schema:about wd:Q7336938 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Riung"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_riung> a schema:Article ;
+	schema:about wd:Q7336938 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język riung"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7336938 wdt:P220 "riu" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/riu> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q49228 ;
+	wdt:P1394 "riun1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/riun1237> ;
+	wdt:P2590 "0132 4" ;
+	wdt:P17 wd:Q252 ;
+	wdt:P1448 "bahasa Riung"@id ;
+	wdt:P276 wd:Q4193616,
+		wd:Q30337668,
+		wd:Q26753920 ;
+	wdt:P1098 "+14000"^^xsd:decimal ;
+	wdt:P305 "riu" ;
+	wdt:P1627 "riu" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q5061,
+		wd:Q3803 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/RIU> ;
+	wdt:P646 "/m/02hx1y7" ;
+	rdfs:label "Riung"@en ;
+	skos:prefLabel "Riung"@en ;
+	schema:name "Riung"@en ;
+	rdfs:label "Riung"@pms ;
+	skos:prefLabel "Riung"@pms ;
+	schema:name "Riung"@pms ;
+	rdfs:label "Kiriung"@sw ;
+	skos:prefLabel "Kiriung"@sw ;
+	schema:name "Kiriung"@sw ;
+	rdfs:label "Riung"@id ;
+	skos:prefLabel "Riung"@id ;
+	schema:name "Riung"@id ;
+	rdfs:label "Riung"@ilo ;
+	skos:prefLabel "Riung"@ilo ;
+	schema:name "Riung"@ilo ;
+	rdfs:label "Riung"@ace ;
+	skos:prefLabel "Riung"@ace ;
+	schema:name "Riung"@ace ;
+	rdfs:label "Riung"@af ;
+	skos:prefLabel "Riung"@af ;
+	schema:name "Riung"@af ;
+	rdfs:label "Riung"@an ;
+	skos:prefLabel "Riung"@an ;
+	schema:name "Riung"@an ;
+	rdfs:label "Riung"@ast ;
+	skos:prefLabel "Riung"@ast ;
+	schema:name "Riung"@ast ;
+	rdfs:label "Riung"@bar ;
+	skos:prefLabel "Riung"@bar ;
+	schema:name "Riung"@bar ;
+	rdfs:label "riung"@br ;
+	skos:prefLabel "riung"@br ;
+	schema:name "riung"@br ;
+	rdfs:label "riung"@ca ;
+	skos:prefLabel "riung"@ca ;
+	schema:name "riung"@ca ;
+	rdfs:label "Riung"@co ;
+	skos:prefLabel "Riung"@co ;
+	schema:name "Riung"@co ;
+	rdfs:label "Riung"@cs ;
+	skos:prefLabel "Riung"@cs ;
+	schema:name "Riung"@cs ;
+	rdfs:label "Riung"@cy ;
+	skos:prefLabel "Riung"@cy ;
+	schema:name "Riung"@cy ;
+	rdfs:label "Riung"@da ;
+	skos:prefLabel "Riung"@da ;
+	schema:name "Riung"@da ;
+	rdfs:label "Riung"@de ;
+	skos:prefLabel "Riung"@de ;
+	schema:name "Riung"@de ;
+	rdfs:label "Riung"@de-at ;
+	skos:prefLabel "Riung"@de-at ;
+	schema:name "Riung"@de-at ;
+	rdfs:label "Riung"@de-ch ;
+	skos:prefLabel "Riung"@de-ch ;
+	schema:name "Riung"@de-ch ;
+	rdfs:label "Riung"@en-ca ;
+	skos:prefLabel "Riung"@en-ca ;
+	schema:name "Riung"@en-ca ;
+	rdfs:label "Riung"@en-gb ;
+	skos:prefLabel "Riung"@en-gb ;
+	schema:name "Riung"@en-gb ;
+	rdfs:label "Riung"@eo ;
+	skos:prefLabel "Riung"@eo ;
+	schema:name "Riung"@eo ;
+	rdfs:label "Riung"@es ;
+	skos:prefLabel "Riung"@es ;
+	schema:name "Riung"@es ;
+	rdfs:label "Riung"@et ;
+	skos:prefLabel "Riung"@et ;
+	schema:name "Riung"@et ;
+	rdfs:label "Riung"@eu ;
+	skos:prefLabel "Riung"@eu ;
+	schema:name "Riung"@eu ;
+	rdfs:label "Riung"@fi ;
+	skos:prefLabel "Riung"@fi ;
+	schema:name "Riung"@fi ;
+	rdfs:label "riung"@fr ;
+	skos:prefLabel "riung"@fr ;
+	schema:name "riung"@fr ;
+	rdfs:label "Riung"@frp ;
+	skos:prefLabel "Riung"@frp ;
+	schema:name "Riung"@frp ;
+	rdfs:label "Riung"@fur ;
+	skos:prefLabel "Riung"@fur ;
+	schema:name "Riung"@fur ;
+	rdfs:label "Riung"@ga ;
+	skos:prefLabel "Riung"@ga ;
+	schema:name "Riung"@ga ;
+	rdfs:label "Riung"@gd ;
+	skos:prefLabel "Riung"@gd ;
+	schema:name "Riung"@gd ;
+	rdfs:label "Riung"@gl ;
+	skos:prefLabel "Riung"@gl ;
+	schema:name "Riung"@gl ;
+	rdfs:label "Riung"@gsw ;
+	skos:prefLabel "Riung"@gsw ;
+	schema:name "Riung"@gsw ;
+	rdfs:label "Riung"@hr ;
+	skos:prefLabel "Riung"@hr ;
+	schema:name "Riung"@hr ;
+	rdfs:label "Riung"@hu ;
+	skos:prefLabel "Riung"@hu ;
+	schema:name "Riung"@hu ;
+	rdfs:label "Riung"@ia ;
+	skos:prefLabel "Riung"@ia ;
+	schema:name "Riung"@ia ;
+	rdfs:label "Riung"@ie ;
+	skos:prefLabel "Riung"@ie ;
+	schema:name "Riung"@ie ;
+	rdfs:label "Riung"@io ;
+	skos:prefLabel "Riung"@io ;
+	schema:name "Riung"@io ;
+	rdfs:label "Riung"@is ;
+	skos:prefLabel "Riung"@is ;
+	schema:name "Riung"@is ;
+	rdfs:label "riung"@it ;
+	skos:prefLabel "riung"@it ;
+	schema:name "riung"@it ;
+	rdfs:label "Riung"@jv ;
+	skos:prefLabel "Riung"@jv ;
+	schema:name "Riung"@jv ;
+	rdfs:label "Riung"@kg ;
+	skos:prefLabel "Riung"@kg ;
+	schema:name "Riung"@kg ;
+	rdfs:label "Riung"@lb ;
+	skos:prefLabel "Riung"@lb ;
+	schema:name "Riung"@lb ;
+	rdfs:label "Riung"@li ;
+	skos:prefLabel "Riung"@li ;
+	schema:name "Riung"@li ;
+	rdfs:label "Riung"@lij ;
+	skos:prefLabel "Riung"@lij ;
+	schema:name "Riung"@lij ;
+	rdfs:label "Riung"@mg ;
+	skos:prefLabel "Riung"@mg ;
+	schema:name "Riung"@mg ;
+	rdfs:label "Riung"@min ;
+	skos:prefLabel "Riung"@min ;
+	schema:name "Riung"@min ;
+	rdfs:label "Riung"@ms ;
+	skos:prefLabel "Riung"@ms ;
+	schema:name "Riung"@ms ;
+	rdfs:label "Riung"@nap ;
+	skos:prefLabel "Riung"@nap ;
+	schema:name "Riung"@nap ;
+	rdfs:label "Riung"@nb ;
+	skos:prefLabel "Riung"@nb ;
+	schema:name "Riung"@nb ;
+	rdfs:label "Riung"@nds ;
+	skos:prefLabel "Riung"@nds ;
+	schema:name "Riung"@nds ;
+	rdfs:label "Riung"@nds-nl ;
+	skos:prefLabel "Riung"@nds-nl ;
+	schema:name "Riung"@nds-nl ;
+	rdfs:label "Riung"@nl ;
+	skos:prefLabel "Riung"@nl ;
+	schema:name "Riung"@nl ;
+	rdfs:label "Riung"@nn ;
+	skos:prefLabel "Riung"@nn ;
+	schema:name "Riung"@nn ;
+	rdfs:label "Riung"@nrm ;
+	skos:prefLabel "Riung"@nrm ;
+	schema:name "Riung"@nrm ;
+	rdfs:label "Riung"@oc ;
+	skos:prefLabel "Riung"@oc ;
+	schema:name "Riung"@oc ;
+	rdfs:label "Riung"@pcd ;
+	skos:prefLabel "Riung"@pcd ;
+	schema:name "Riung"@pcd ;
+	rdfs:label "riung"@pl ;
+	skos:prefLabel "riung"@pl ;
+	schema:name "riung"@pl ;
+	rdfs:label "Riung"@pt ;
+	skos:prefLabel "Riung"@pt ;
+	schema:name "Riung"@pt ;
+	rdfs:label "Riung"@pt-br ;
+	skos:prefLabel "Riung"@pt-br ;
+	schema:name "Riung"@pt-br ;
+	rdfs:label "Riung"@rm ;
+	skos:prefLabel "Riung"@rm ;
+	schema:name "Riung"@rm ;
+	rdfs:label "Riung"@ro ;
+	skos:prefLabel "Riung"@ro ;
+	schema:name "Riung"@ro ;
+	rdfs:label "Riung"@sc ;
+	skos:prefLabel "Riung"@sc ;
+	schema:name "Riung"@sc ;
+	rdfs:label "Riung"@scn ;
+	skos:prefLabel "Riung"@scn ;
+	schema:name "Riung"@scn ;
+	rdfs:label "Riung"@sco ;
+	skos:prefLabel "Riung"@sco ;
+	schema:name "Riung"@sco ;
+	rdfs:label "Riung"@sk ;
+	skos:prefLabel "Riung"@sk ;
+	schema:name "Riung"@sk ;
+	rdfs:label "Riung"@sl ;
+	skos:prefLabel "Riung"@sl ;
+	schema:name "Riung"@sl ;
+	rdfs:label "Riung"@sr-el ;
+	skos:prefLabel "Riung"@sr-el ;
+	schema:name "Riung"@sr-el ;
+	rdfs:label "Riung"@su ;
+	skos:prefLabel "Riung"@su ;
+	schema:name "Riung"@su ;
+	rdfs:label "Riung"@sv ;
+	skos:prefLabel "Riung"@sv ;
+	schema:name "Riung"@sv ;
+	rdfs:label "Riung"@vec ;
+	skos:prefLabel "Riung"@vec ;
+	schema:name "Riung"@vec ;
+	rdfs:label "Riung"@vi ;
+	skos:prefLabel "Riung"@vi ;
+	schema:name "Riung"@vi ;
+	rdfs:label "Riung"@vls ;
+	skos:prefLabel "Riung"@vls ;
+	schema:name "Riung"@vls ;
+	rdfs:label "Riung"@vo ;
+	skos:prefLabel "Riung"@vo ;
+	schema:name "Riung"@vo ;
+	rdfs:label "Riung"@wa ;
+	skos:prefLabel "Riung"@wa ;
+	schema:name "Riung"@wa ;
+	rdfs:label "Riung"@wo ;
+	skos:prefLabel "Riung"@wo ;
+	schema:name "Riung"@wo ;
+	rdfs:label "Riung"@zu ;
+	skos:prefLabel "Riung"@zu ;
+	schema:name "Riung"@zu ;
+	rdfs:label "Riung"@tl ;
+	skos:prefLabel "Riung"@tl ;
+	schema:name "Riung"@tl ;
+	rdfs:label "里翁語"@zh-hant ;
+	skos:prefLabel "里翁語"@zh-hant ;
+	schema:name "里翁語"@zh-hant ;
+	rdfs:label "里翁语"@zh-hans ;
+	skos:prefLabel "里翁语"@zh-hans ;
+	schema:name "里翁语"@zh-hans ;
+	rdfs:label "里翁语"@zh ;
+	skos:prefLabel "里翁语"@zh ;
+	schema:name "里翁语"@zh ;
+	rdfs:label "Рюнь"@ru ;
+	skos:prefLabel "Рюнь"@ru ;
+	schema:name "Рюнь"@ru ;
+	rdfs:label "riungo"@la ;
+	skos:prefLabel "riungo"@la ;
+	schema:name "riungo"@la ;
+	schema:description "austronesische Sprache"@de,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"language spoken in Indonesia"@en,
+		"pagsasao idiay Indonesia"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl,
+		"lenga"@pms,
+		"wikang"@tl ;
+	skos:altLabel "Far Eastern Manggarai"@en,
+		"Riung language"@en,
+		"bahasa Riung"@id,
+		"Manggarai Timur Jauh"@id .
+
+wd:Q12953065 owl:sameAs wd:Q7336938 .
+
+wd:Q31441868 owl:sameAs wd:Q7336938 .

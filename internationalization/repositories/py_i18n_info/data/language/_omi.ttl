@@ -1,0 +1,166 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56795 a schema:Dataset ;
+	schema:about wd:Q56795 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1843471293"^^xsd:integer ;
+	schema:dateModified "2023-03-01T10:55:15Z"^^xsd:dateTime .
+
+wd:Q56795 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Omi> a schema:Article ;
+	schema:about wd:Q56795 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Omi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9E%D0%BC%D0%B8_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q56795 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Оми (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9E%D0%BC%D1%96_(%D0%BC%D0%BE%D0%B2%D0%B0)> a schema:Article ;
+	schema:about wd:Q56795 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Омі (мова)"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%9E%D0%BC%D0%B8%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q56795 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Омиски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiomi> a schema:Article ;
+	schema:about wd:Q56795 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiomi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Omi_language> a schema:Article ;
+	schema:about wd:Q56795 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Omi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Omieg> a schema:Article ;
+	schema:about wd:Q56795 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Omieg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Omi_(langue)> a schema:Article ;
+	schema:about wd:Q56795 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Omi (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56795 wdt:P220 "omi" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/omi> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "omii1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/omii1238> ;
+	wdt:P305 "omi" ;
+	wdt:P1627 "omi" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q974 ;
+	wdt:P2341 wd:Q831370 ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P131 wd:Q831370 ;
+	wdt:P1098 "+91000"^^xsd:decimal ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/OMI> ;
+	wdt:P646 "/m/02hxgyw" ;
+	wdt:P910 wd:Q33656968 ;
+	rdfs:label "Kiomi"@sw ;
+	skos:prefLabel "Kiomi"@sw ;
+	schema:name "Kiomi"@sw ;
+	rdfs:label "omieg"@br ;
+	skos:prefLabel "omieg"@br ;
+	schema:name "omieg"@br ;
+	rdfs:label "Omi"@en ;
+	skos:prefLabel "Omi"@en ;
+	schema:name "Omi"@en ;
+	rdfs:label "Омиски јазик"@mk ;
+	skos:prefLabel "Омиски јазик"@mk ;
+	schema:name "Омиски јазик"@mk ;
+	rdfs:label "Lenga Omi"@pms ;
+	skos:prefLabel "Lenga Omi"@pms ;
+	schema:name "Lenga Omi"@pms ;
+	rdfs:label "Omi"@en-gb ;
+	skos:prefLabel "Omi"@en-gb ;
+	schema:name "Omi"@en-gb ;
+	rdfs:label "Омі (мова)"@uk ;
+	skos:prefLabel "Омі (мова)"@uk ;
+	schema:name "Омі (мова)"@uk ;
+	rdfs:label "Оми (язык)"@ru ;
+	skos:prefLabel "Оми (язык)"@ru ;
+	schema:name "Оми (язык)"@ru ;
+	rdfs:label "omi"@fr ;
+	skos:prefLabel "omi"@fr ;
+	schema:name "omi"@fr ;
+	rdfs:label "အဝ်မဳ"@mnw ;
+	skos:prefLabel "အဝ်မဳ"@mnw ;
+	schema:name "အဝ်မဳ"@mnw ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"အရေဝ်ဘာသာ"@mnw ;
+	skos:altLabel "Omi language"@en,
+		"ဘာသာအဝ်မဳ"@mnw .
+
+wd:Q12952989 owl:sameAs wd:Q56795 .

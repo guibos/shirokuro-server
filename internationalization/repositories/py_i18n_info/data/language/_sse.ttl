@@ -1,0 +1,118 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2880535 a schema:Dataset ;
+	schema:about wd:Q2880535 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960546348"^^xsd:integer ;
+	schema:dateModified "2023-08-24T23:09:06Z"^^xsd:dateTime .
+
+wd:Q2880535 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Balangingi_sama> a schema:Article ;
+	schema:about wd:Q2880535 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Balangingi sama"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_balangingi> a schema:Article ;
+	schema:about wd:Q2880535 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga balangingi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisama-Balangingih> a schema:Article ;
+	schema:about wd:Q2880535 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisama-Balangingih"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2880535 wdt:P220 "sse" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/sse> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "sse" ;
+	wdt:P279 wd:Q7408413 ;
+	wdt:P1394 "bala1311" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/bala1311> ;
+	wdt:P910 wd:Q36165286 ;
+	wdt:P1466 "sbg" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_sbg> ;
+	wdt:P1627 "sse" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q928 ;
+	wdt:P2341 wd:Q13617,
+		wd:Q13682,
+		wd:Q13708,
+		wd:Q13737,
+		wd:Q13887,
+		wd:Q13902 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SSE> ;
+	wdt:P2671 "/g/1234hgzx" ;
+	wdtn:P2671 <http://g.co/kg/g/1234hgzx> ;
+	rdfs:label "Kisama ya Balangingih"@sw ;
+	skos:prefLabel "Kisama ya Balangingih"@sw ;
+	schema:name "Kisama ya Balangingih"@sw ;
+	rdfs:label "Lenga balangingi"@pms ;
+	skos:prefLabel "Lenga balangingi"@pms ;
+	schema:name "Lenga balangingi"@pms ;
+	rdfs:label "Balangingih Sama"@en ;
+	skos:prefLabel "Balangingih Sama"@en ;
+	schema:name "Balangingih Sama"@en ;
+	rdfs:label "sama balangingi"@fr ;
+	skos:prefLabel "sama balangingi"@fr ;
+	schema:name "sama balangingi"@fr ;
+	rdfs:label "балангинги(?)"@ru ;
+	skos:prefLabel "балангинги(?)"@ru ;
+	schema:name "балангинги(?)"@ru ;
+	schema:description "австронезийский язык"@ru,
+		"Sprache"@de,
+		"שפה"@he,
+		"langue grand barito"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Balangingi"@en,
+		"Balangingih Sama language"@en,
+		"balangingi"@fr .
+
+wd:Q15778362 owl:sameAs wd:Q2880535 .

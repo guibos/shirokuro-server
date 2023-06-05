@@ -1,0 +1,126 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3832982 a schema:Dataset ;
+	schema:about wd:Q3832982 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1750071840"^^xsd:integer ;
+	schema:dateModified "2022-10-13T16:06:52Z"^^xsd:dateTime .
+
+wd:Q3832982 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Ani> a schema:Article ;
+	schema:about wd:Q3832982 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Ani"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/%C7%81Ani_jezik> a schema:Article ;
+	schema:about wd:Q3832982 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "ǁAni jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_%C7%81ani> a schema:Article ;
+	schema:about wd:Q3832982 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua ǁani"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3832982 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "hnh" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hnh> ;
+	wdt:P279 wd:Q2736449 ;
+	wdt:P2355 "1396" ;
+	wdt:P1394 "anii1246" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/anii1246> ;
+	wdt:P4132 wd:Q539808 ;
+	wdt:P17 wd:Q963 ;
+	wdt:P1466 "ani" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ani> ;
+	wdt:P2192 "597" ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P305 "hnh" ;
+	wdt:P1627 "hnh" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HNH> ;
+	wdt:P910 wd:Q33125219 ;
+	wdt:P2671 "/g/120_4l6f" ;
+	wdtn:P2671 <http://g.co/kg/g/120_4l6f> ;
+	wdt:P4839 "Entity[\"Language\", \"Ani::666xq\"]" ;
+	rdfs:label "ǁAni jezik"@hr ;
+	skos:prefLabel "ǁAni jezik"@hr ;
+	schema:name "ǁAni jezik"@hr ;
+	rdfs:label "lingua ǁani"@it ;
+	skos:prefLabel "lingua ǁani"@it ;
+	schema:name "lingua ǁani"@it ;
+	rdfs:label "Lenga Ani"@pms ;
+	skos:prefLabel "Lenga Ani"@pms ;
+	schema:name "Lenga Ani"@pms ;
+	rdfs:label "ǁAni"@en ;
+	skos:prefLabel "ǁAni"@en ;
+	schema:name "ǁAni"@en ;
+	rdfs:label "ǁani"@fr ;
+	skos:prefLabel "ǁani"@fr ;
+	schema:name "ǁani"@fr ;
+	rdfs:label "ǁAni"@nl ;
+	skos:prefLabel "ǁAni"@nl ;
+	schema:name "ǁAni"@nl ;
+	rdfs:label "ǁani"@vec ;
+	skos:prefLabel "ǁani"@vec ;
+	schema:name "ǁani"@vec ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"language"@en,
+		"langue khoe"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "ǁani"@it,
+		"||Ani"@en,
+		"ǁAni language"@en,
+		"||ani"@fr,
+		"//Ani"@nl .
+
+wd:Q12952237 owl:sameAs wd:Q3832982 .
+
+wd:Q50924873 owl:sameAs wd:Q3832982 .

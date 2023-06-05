@@ -1,0 +1,105 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2874642 a schema:Dataset ;
+	schema:about wd:Q2874642 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1956369498"^^xsd:integer ;
+	schema:dateModified "2023-08-19T05:00:12Z"^^xsd:dateTime .
+
+wd:Q2874642 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Awa_(langue_m%C3%B4n-khmer)> a schema:Article ;
+	schema:about wd:Q2874642 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Awa (langue môn-khmer)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Awa_(mon-khmerski_jezik)> a schema:Article ;
+	schema:about wd:Q2874642 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Awa (mon-khmerski jezik)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2874642 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "vwa" ;
+	wdt:P220 "vwa" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/vwa> ;
+	wdt:P279 wd:Q4923414 ;
+	wdt:P1394 "awac1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/awac1238> ;
+	wdt:P1627 "vwa" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q43194 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/VWA> ;
+	wdt:P910 wd:Q36153801 ;
+	rdfs:label "awa"@fr ;
+	skos:prefLabel "awa"@fr ;
+	schema:name "awa"@fr ;
+	rdfs:label "Awa"@en ;
+	skos:prefLabel "Awa"@en ;
+	schema:name "Awa"@en ;
+	rdfs:label "Awa"@hr ;
+	skos:prefLabel "Awa"@hr ;
+	schema:name "Awa"@hr ;
+	rdfs:label "アワ語"@ja ;
+	skos:prefLabel "アワ語"@ja ;
+	schema:name "アワ語"@ja ;
+	rdfs:label "阿佤方言"@zh-hans ;
+	skos:prefLabel "阿佤方言"@zh-hans ;
+	schema:name "阿佤方言"@zh-hans ;
+	rdfs:label "阿佤方言"@zh-hant ;
+	skos:prefLabel "阿佤方言"@zh-hant ;
+	schema:name "阿佤方言"@zh-hant ;
+	schema:description "שפה"@he,
+		"yezh"@br,
+		"langue môn-khmer"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language spoken in China"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"mon-khmerski jezik"@hr,
+		"中国で話される言語"@ja ;
+	skos:altLabel "Awa (langue)"@fr,
+		"Awa (China)"@en,
+		"Awa language"@en .
+
+wd:Q12627419 owl:sameAs wd:Q2874642 .

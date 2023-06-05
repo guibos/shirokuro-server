@@ -1,0 +1,99 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33713728 a schema:Dataset ;
+	schema:about wd:Q33713728 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1759642416"^^xsd:integer ;
+	schema:dateModified "2022-10-28T04:14:51Z"^^xsd:dateTime .
+
+wd:Q33713728 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Wancho_script> a schema:Article ;
+	schema:about wd:Q33713728 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Wancho script"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A7%8B_%E0%A6%B2%E0%A6%BF%E0%A6%AA%E0%A6%BF> a schema:Article ;
+	schema:about wd:Q33713728 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "ওয়াঞ্চো লিপি"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33713728 wdt:P31 wd:Q8192,
+		wd:Q9779,
+		wd:Q1191702,
+		wd:Q4004706 ;
+	wdt:P506 "Wcho" ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P2620 "283" ;
+	wdt:P2671 "/g/11h0b6cs3d" ;
+	wdtn:P2671 <http://g.co/kg/g/11h0b6cs3d> ;
+	wdt:P5949 "U+1E2C0-1E2FF" ;
+	wdt:P2561 "Wancho"@en,
+		"wantcho"@fr ;
+	wdt:P170 wd:Q105581072 ;
+	wdt:P571 "2001-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P366 wd:Q7967085 ;
+	wdt:P407 wd:Q7967085 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Wancho%20Letter%20AA.png> ;
+	rdfs:label "Wancho"@en ;
+	skos:prefLabel "Wancho"@en ;
+	schema:name "Wancho"@en ;
+	rdfs:label "écriture wantcho"@fr ;
+	skos:prefLabel "écriture wantcho"@fr ;
+	schema:name "écriture wantcho"@fr ;
+	rdfs:label "萬秋文"@zh-hant ;
+	skos:prefLabel "萬秋文"@zh-hant ;
+	schema:name "萬秋文"@zh-hant ;
+	rdfs:label "万秋文"@zh-hans ;
+	skos:prefLabel "万秋文"@zh-hans ;
+	schema:name "万秋文"@zh-hans ;
+	rdfs:label "万秋文"@zh ;
+	skos:prefLabel "万秋文"@zh ;
+	schema:name "万秋文"@zh ;
+	rdfs:label "ওয়াঞ্চো লিপি"@bn ;
+	skos:prefLabel "ওয়াঞ্চো লিপি"@bn ;
+	schema:name "ওয়াঞ্চো লিপি"@bn ;
+	schema:description "alphabet"@en,
+		"alphabet"@fr ;
+	skos:altLabel "Wancho script"@en,
+		"文乔字母"@zh,
+		"瓦兰齐地文"@zh,
+		"文喬文"@zh .
+
+wd:Q65080889 owl:sameAs wd:Q33713728 .

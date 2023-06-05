@@ -1,0 +1,168 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36291 a schema:Dataset ;
+	schema:about wd:Q36291 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1829549547"^^xsd:integer ;
+	schema:dateModified "2023-02-08T19:42:19Z"^^xsd:dateTime .
+
+wd:Q36291 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Ogbah> a schema:Article ;
+	schema:about wd:Q36291 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Ogbah"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Ogba> a schema:Article ;
+	schema:about wd:Q36291 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Ogba"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Ogbah> a schema:Article ;
+	schema:about wd:Q36291 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Ogbah"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiogbah> a schema:Article ;
+	schema:about wd:Q36291 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiogbah"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ogba_language> a schema:Article ;
+	schema:about wd:Q36291 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ogba language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Ogba> a schema:Article ;
+	schema:about wd:Q36291 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Ogba"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Ogba> a schema:Article ;
+	schema:about wd:Q36291 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Ogba"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_ogba> a schema:Article ;
+	schema:about wd:Q36291 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua ogba"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36291 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "ogc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ogc> ;
+	wdt:P361 wd:Q33253 ;
+	wdt:P646 "/m/0581kjl" ;
+	wdt:P305 "ogc" ;
+	wdt:P279 wd:Q1429100 ;
+	wdt:P1394 "ogba1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ogba1241> ;
+	wdt:P2581 "01356581n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s01356581n> ;
+	wdt:P1627 "ogc" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q532153,
+		wd:Q503910,
+		wd:Q509300,
+		wd:Q503932,
+		wd:Q503923 ;
+	wdt:P1396 "98-GAA-db" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/OGC> ;
+	wdt:P910 wd:Q33666871 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Ogba%20Zoo.jpg> ;
+	rdfs:label "Kiogbah"@sw ;
+	skos:prefLabel "Kiogbah"@sw ;
+	schema:name "Kiogbah"@sw ;
+	rdfs:label "Lenga Ogbah"@pms ;
+	skos:prefLabel "Lenga Ogbah"@pms ;
+	schema:name "Lenga Ogbah"@pms ;
+	rdfs:label "Ogba"@de ;
+	skos:prefLabel "Ogba"@de ;
+	schema:name "Ogba"@de ;
+	rdfs:label "ogba"@fr ;
+	skos:prefLabel "ogba"@fr ;
+	schema:name "ogba"@fr ;
+	rdfs:label "Ogba"@en ;
+	skos:prefLabel "Ogba"@en ;
+	schema:name "Ogba"@en ;
+	rdfs:label "ogbah"@ca ;
+	skos:prefLabel "ogbah"@ca ;
+	schema:name "ogbah"@ca ;
+	rdfs:label "Wikang Ogba"@tl ;
+	skos:prefLabel "Wikang Ogba"@tl ;
+	schema:name "Wikang Ogba"@tl ;
+	rdfs:label "Ogba"@oc ;
+	skos:prefLabel "Ogba"@oc ;
+	schema:name "Ogba"@oc ;
+	rdfs:label "Ogba"@pt ;
+	skos:prefLabel "Ogba"@pt ;
+	schema:name "Ogba"@pt ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"Língua"@pt ;
+	skos:altLabel "Ogbah"@en,
+		"Ogba language"@en .

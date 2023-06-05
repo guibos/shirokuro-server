@@ -1,0 +1,134 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7253954 a schema:Dataset ;
+	schema:about wd:Q7253954 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1922059300"^^xsd:integer ;
+	schema:dateModified "2023-06-23T11:33:57Z"^^xsd:dateTime .
+
+wd:Q7253954 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Psalter_Pahlavi> a schema:Article ;
+	schema:about wd:Q7253954 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Psalter Pahlavi"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A3%E0%B8%8B%E0%B8%B1%E0%B8%A5%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C> a schema:Article ;
+	schema:about wd:Q7253954 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "อักษรซัลเตอร์"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Abjad_Pahlavi_Mazmur> a schema:Article ;
+	schema:about wd:Q7253954 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Abjad Pahlavi Mazmur"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Pahlavi_salterial> a schema:Article ;
+	schema:about wd:Q7253954 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Pahlavi salterial"@es ;
+	wikibase:badge wd:Q70893996 .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%AE%D8%B7_%D9%BE%D9%87%D9%84%D9%88%DB%8C_%D9%85%D8%B2%D8%A7%D9%85%DB%8C%D8%B1%DB%8C> a schema:Article ;
+	schema:about wd:Q7253954 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "خط پهلوی مزامیری"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7253954 wdt:P31 wd:Q185087,
+		wd:Q29517555,
+		wd:Q4004706 ;
+	wdt:P506 "Phlp" ;
+	wdt:P2620 "132" ;
+	wdt:P366 wd:Q32063 ;
+	wdt:P361 wd:Q1771716 ;
+	wdt:P646 "/m/0gg7ct2" ;
+	wdt:P1406 wd:Q7333457 ;
+	wdt:P5949 "U+10B80-10BAF" ;
+	wdt:P2561 "Psalter Pahlavi"@en,
+		"pehlevi des psautiers"@fr ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Cross%20of%20Herat%20-%20Psalter%20Pahlavi%20Inscription.png> ;
+	wdt:P571 "0550-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P582 "0700-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P144 wd:Q1771716 ;
+	wdt:P407 wd:Q32063 ;
+	wdt:P138 wd:Q7124564 ;
+	wdt:P910 wd:Q33154211 ;
+	rdfs:label "Psalter Pahlavi"@en ;
+	skos:prefLabel "Psalter Pahlavi"@en ;
+	schema:name "Psalter Pahlavi"@en ;
+	rdfs:label "パフラヴィ文字"@ja ;
+	skos:prefLabel "パフラヴィ文字"@ja ;
+	schema:name "パフラヴィ文字"@ja ;
+	rdfs:label "Ψαλτηριακά Παχλαβί"@el ;
+	skos:prefLabel "Ψαλτηριακά Παχλαβί"@el ;
+	schema:name "Ψαλτηριακά Παχλαβί"@el ;
+	rdfs:label "psalmara mezpersa alfabeto"@eo ;
+	skos:prefLabel "psalmara mezpersa alfabeto"@eo ;
+	schema:name "psalmara mezpersa alfabeto"@eo ;
+	rdfs:label "pehlevi des psautiers"@fr ;
+	skos:prefLabel "pehlevi des psautiers"@fr ;
+	schema:name "pehlevi des psautiers"@fr ;
+	rdfs:label "诗篇巴列维文"@zh ;
+	skos:prefLabel "诗篇巴列维文"@zh ;
+	schema:name "诗篇巴列维文"@zh ;
+	rdfs:label "อักษรซัลเตอร์"@th ;
+	skos:prefLabel "อักษรซัลเตอร์"@th ;
+	schema:name "อักษรซัลเตอร์"@th ;
+	rdfs:label "abjad Pahlavi Mazmur"@id ;
+	skos:prefLabel "abjad Pahlavi Mazmur"@id ;
+	schema:name "abjad Pahlavi Mazmur"@id ;
+	rdfs:label "pahlavi salterial"@es ;
+	skos:prefLabel "pahlavi salterial"@es ;
+	schema:name "pahlavi salterial"@es ;
+	schema:description "abjad which was used for writing Middle Persian on paper"@en,
+		"système d'écriture"@fr,
+		"aksara berjenis abjad bergaya kursif untuk menulis bahasa Persia Pertengahan"@id ;
+	skos:altLabel "Psalter alphabet"@en,
+		"詩篇のパフラヴィー文字"@ja .
+
+wd:Q13023792 owl:sameAs wd:Q7253954 .

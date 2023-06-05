@@ -1,0 +1,143 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5330240 a schema:Dataset ;
+	schema:about wd:Q5330240 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1845917211"^^xsd:integer ;
+	schema:dateModified "2023-03-06T03:18:24Z"^^xsd:dateTime .
+
+wd:Q5330240 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_kadazan,_labuk-kinabatangan> a schema:Article ;
+	schema:about wd:Q5330240 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kadazan, labuk-kinabatangan"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Akindaya_a_Kadazan> a schema:Article ;
+	schema:about wd:Q5330240 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Akindaya a Kadazan"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Eastern_Kadazan_language> a schema:Article ;
+	schema:about wd:Q5330240 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Eastern Kadazan language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Subangan_na_Kadazan> a schema:Article ;
+	schema:about wd:Q5330240 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Subangan na Kadazan"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikadazan_cha_Labuk-Kinabatangan> a schema:Article ;
+	schema:about wd:Q5330240 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikadazan cha Labuk-Kinabatangan"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://commons.wikimedia.org/wiki/Category:Eastern_Kadazan_language> a schema:Article ;
+	schema:about wd:Q5330240 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "Category:Eastern Kadazan language"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Kadazan_Timur> a schema:Article ;
+	schema:about wd:Q5330240 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Kadazan Timur"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5330240 wdt:P220 "dtb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dtb> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "labu1249" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/labu1249> ;
+	wdt:P305 "dtb" ;
+	wdt:P1627 "dtb" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q833 ;
+	wdt:P2341 wd:Q179029 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DTB> ;
+	wdt:P373 "Eastern Kadazan language" ;
+	wdt:P279 wd:Q3217447 ;
+	rdfs:label "Eastern Kadazan"@en ;
+	skos:prefLabel "Eastern Kadazan"@en ;
+	schema:name "Eastern Kadazan"@en ;
+	rdfs:label "Lenga kadazan, labuk-kinabatangan"@pms ;
+	skos:prefLabel "Lenga kadazan, labuk-kinabatangan"@pms ;
+	schema:name "Lenga kadazan, labuk-kinabatangan"@pms ;
+	rdfs:label "Kikadazan ya Labuk-Kinabatangan"@sw ;
+	skos:prefLabel "Kikadazan ya Labuk-Kinabatangan"@sw ;
+	schema:name "Kikadazan ya Labuk-Kinabatangan"@sw ;
+	rdfs:label "Akindaya a Kadazan"@ilo ;
+	skos:prefLabel "Akindaya a Kadazan"@ilo ;
+	schema:name "Akindaya a Kadazan"@ilo ;
+	rdfs:label "Tataramon na Subangan na Kadazan"@bcl ;
+	skos:prefLabel "Tataramon na Subangan na Kadazan"@bcl ;
+	schema:name "Tataramon na Subangan na Kadazan"@bcl ;
+	rdfs:label "Bahasa Kadazan Timur"@ms ;
+	skos:prefLabel "Bahasa Kadazan Timur"@ms ;
+	schema:name "Bahasa Kadazan Timur"@ms ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Malaysia"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"язык"@ru ;
+	skos:altLabel "Labuk-Kinabatangan Kadazan"@en,
+		"Kinabatangan Kadazan"@en,
+		"Eastern Kadazan language"@en .

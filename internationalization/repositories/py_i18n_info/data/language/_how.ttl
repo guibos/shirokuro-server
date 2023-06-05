@@ -1,0 +1,168 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56842 a schema:Dataset ;
+	schema:about wd:Q56842 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1889415052"^^xsd:integer ;
+	schema:dateModified "2023-05-05T01:28:37Z"^^xsd:dateTime .
+
+wd:Q56842 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Honi> a schema:Article ;
+	schema:about wd:Q56842 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Honi"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Honi> a schema:Article ;
+	schema:about wd:Q56842 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Honi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Honi> a schema:Article ;
+	schema:about wd:Q56842 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Honi"@tl ;
+	wikibase:badge wd:Q70894304 .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kihoni> a schema:Article ;
+	schema:about wd:Q56842 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kihoni"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Honi_language> a schema:Article ;
+	schema:about wd:Q56842 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Honi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Honeg> a schema:Article ;
+	schema:about wd:Q56842 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Honeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Honi_jezik> a schema:Article ;
+	schema:about wd:Q56842 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Honi jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E8%B1%AA%E5%B0%BC%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q56842 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "豪尼语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56842 wdt:P220 "how" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/how> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "how" ;
+	wdt:P1394 "honi1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/honi1244> ;
+	wdt:P1627 "how" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q43194 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HOW> ;
+	wdt:P1889 wd:Q56516 ;
+	wdt:P646 "/m/02hx_2_" ;
+	rdfs:label "honeg"@br ;
+	skos:prefLabel "honeg"@br ;
+	schema:name "honeg"@br ;
+	rdfs:label "honi"@fr ;
+	skos:prefLabel "honi"@fr ;
+	schema:name "honi"@fr ;
+	rdfs:label "Honi"@de ;
+	skos:prefLabel "Honi"@de ;
+	schema:name "Honi"@de ;
+	rdfs:label "Lenga Honi"@pms ;
+	skos:prefLabel "Lenga Honi"@pms ;
+	schema:name "Lenga Honi"@pms ;
+	rdfs:label "Honi"@en ;
+	skos:prefLabel "Honi"@en ;
+	schema:name "Honi"@en ;
+	rdfs:label "Honi jezik"@hr ;
+	skos:prefLabel "Honi jezik"@hr ;
+	schema:name "Honi jezik"@hr ;
+	rdfs:label "Kihoni"@sw ;
+	skos:prefLabel "Kihoni"@sw ;
+	schema:name "Kihoni"@sw ;
+	rdfs:label "Honi"@en-gb ;
+	skos:prefLabel "Honi"@en-gb ;
+	schema:name "Honi"@en-gb ;
+	rdfs:label "Wikang Honi"@tl ;
+	skos:prefLabel "Wikang Honi"@tl ;
+	schema:name "Wikang Honi"@tl ;
+	rdfs:label "豪尼語"@zh-hant ;
+	skos:prefLabel "豪尼語"@zh-hant ;
+	schema:name "豪尼語"@zh-hant ;
+	rdfs:label "豪尼语"@zh-hans ;
+	skos:prefLabel "豪尼语"@zh-hans ;
+	schema:name "豪尼语"@zh-hans ;
+	rdfs:label "豪尼語"@zh ;
+	skos:prefLabel "豪尼語"@zh ;
+	schema:name "豪尼語"@zh ;
+	schema:description "in China gesprochene Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "豪尼语"@zh .
+
+wd:Q12952497 owl:sameAs wd:Q56842 .

@@ -1,0 +1,157 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35799 a schema:Dataset ;
+	schema:about wd:Q35799 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1747463429"^^xsd:integer ;
+	schema:dateModified "2022-10-10T12:34:11Z"^^xsd:dateTime .
+
+wd:Q35799 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Manta_(langue)> a schema:Article ;
+	schema:about wd:Q35799 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Manta (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Manta> a schema:Article ;
+	schema:about wd:Q35799 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Manta"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimanta> a schema:Article ;
+	schema:about wd:Q35799 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimanta"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Manta_language> a schema:Article ;
+	schema:about wd:Q35799 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Manta language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Manta_(Sprache)> a schema:Article ;
+	schema:about wd:Q35799 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Manta (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Manta> a schema:Article ;
+	schema:about wd:Q35799 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Manta"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Manta_language> a schema:Article ;
+	schema:about wd:Q35799 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Manta language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35799 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "myg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/myg> ;
+	wdt:P1394 "mant1267" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mant1267> ;
+	wdt:P279 wd:Q7571285 ;
+	wdt:P910 wd:Q33076627 ;
+	wdt:P305 "myg" ;
+	wdt:P1627 "myg" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q1009 ;
+	wdt:P2341 wd:Q845168,
+		wd:Q502341,
+		wd:Q165784,
+		wd:Q857122 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MYG> ;
+	wdt:P646 "/m/02hxm3w" ;
+	rdfs:label "Kimanta"@sw ;
+	skos:prefLabel "Kimanta"@sw ;
+	schema:name "Kimanta"@sw ;
+	rdfs:label "Lenga Manta"@pms ;
+	skos:prefLabel "Lenga Manta"@pms ;
+	schema:name "Lenga Manta"@pms ;
+	rdfs:label "Manta"@de ;
+	skos:prefLabel "Manta"@de ;
+	schema:name "Manta"@de ;
+	rdfs:label "Manta"@en ;
+	skos:prefLabel "Manta"@en ;
+	schema:name "Manta"@en ;
+	rdfs:label "manta"@fr ;
+	skos:prefLabel "manta"@fr ;
+	schema:name "manta"@fr ;
+	rdfs:label "Manta"@en-gb ;
+	skos:prefLabel "Manta"@en-gb ;
+	schema:name "Manta"@en-gb ;
+	rdfs:label "manta"@es ;
+	skos:prefLabel "manta"@es ;
+	schema:name "manta"@es ;
+	rdfs:label "Tiếng Manta"@vi ;
+	skos:prefLabel "Tiếng Manta"@vi ;
+	schema:name "Tiếng Manta"@vi ;
+	rdfs:label "Manta language"@ig ;
+	skos:prefLabel "Manta language"@ig ;
+	schema:name "Manta language"@ig ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"langue bantoïde"@fr,
+		"lengua hablada en Camerún"@es,
+		"yezh"@br,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "anta"@fr,
+		"banta"@fr,
+		"bantakpa"@fr,
+		"kisam"@fr,
+		"menta"@fr,
+		"tintaeman"@fr,
+		"Manta language"@en .

@@ -1,0 +1,191 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q32930 a schema:Dataset ;
+	schema:about wd:Q32930 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1835285932"^^xsd:integer ;
+	schema:dateModified "2023-02-16T21:31:39Z"^^xsd:dateTime .
+
+wd:Q32930 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Bukusu_(langue)> a schema:Article ;
+	schema:about wd:Q32930 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Bukusu (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Bukusu> a schema:Article ;
+	schema:about wd:Q32930 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Bukusu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibukusu> a schema:Article ;
+	schema:about wd:Q32930 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibukusu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Bukusu_dialect> a schema:Article ;
+	schema:about wd:Q32930 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Bukusu dialect"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%96%E3%82%AF%E3%82%B9%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q32930 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ブクス語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Boukousoueg> a schema:Article ;
+	schema:about wd:Q32930 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Boukousoueg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Lubukusu_jezik> a schema:Article ;
+	schema:about wd:Q32930 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Lubukusu jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_bukusu> a schema:Article ;
+	schema:about wd:Q32930 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua bukusu"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q32930 wdt:P220 "bxk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bxk> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "bxk" ;
+	wdt:P269 "033168466" ;
+	wdtn:P269 <http://www.idref.fr/033168466/id> ;
+	wdt:P279 wd:Q5599420 ;
+	wdt:P1394 "buku1249" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/buku1249> ;
+	wdt:P1466 "buk" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_buk> ;
+	wdt:P5198 "294902775" ;
+	wdt:P1627 "bxk" ;
+	wdt:P244 "sh85017831" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85017831> ;
+	wdt:P3823 wd:Q29051550 ;
+	wdt:P17 wd:Q114,
+		wd:Q1036 ;
+	wdt:P2341 wd:Q2928204,
+		wd:Q1721867,
+		wd:Q1278653,
+		wd:Q1036 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BXK> ;
+	wdt:P8408 "BukusuLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/BukusuLanguage> ;
+	wdt:P646 "/m/050n41" ;
+	wdt:P910 wd:Q33672479 ;
+	wdt:P8189 "987007292405805171" ;
+	wdt:P268 "124062453" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb124062453#about> ;
+	rdfs:label "Lugha ya Bukusu"@sw ;
+	skos:prefLabel "Lugha ya Bukusu"@sw ;
+	schema:name "Lugha ya Bukusu"@sw ;
+	rdfs:label "boukousoueg"@br ;
+	skos:prefLabel "boukousoueg"@br ;
+	schema:name "boukousoueg"@br ;
+	rdfs:label "Bukusu (langue)"@fr ;
+	skos:prefLabel "Bukusu (langue)"@fr ;
+	schema:name "Bukusu (langue)"@fr ;
+	rdfs:label "Bukusu"@en ;
+	skos:prefLabel "Bukusu"@en ;
+	schema:name "Bukusu"@en ;
+	rdfs:label "Lubukusu jezik"@hr ;
+	skos:prefLabel "Lubukusu jezik"@hr ;
+	schema:name "Lubukusu jezik"@hr ;
+	rdfs:label "bukusu"@es ;
+	skos:prefLabel "bukusu"@es ;
+	schema:name "bukusu"@es ;
+	rdfs:label "Lenga Bukusu"@pms ;
+	skos:prefLabel "Lenga Bukusu"@pms ;
+	schema:name "Lenga Bukusu"@pms ;
+	rdfs:label "lingua bukusu"@it ;
+	skos:prefLabel "lingua bukusu"@it ;
+	schema:name "lingua bukusu"@it ;
+	rdfs:label "ブクス語"@ja ;
+	skos:prefLabel "ブクス語"@ja ;
+	schema:name "ブクス語"@ja ;
+	rdfs:label "Bukusu"@de ;
+	skos:prefLabel "Bukusu"@de ;
+	schema:name "Bukusu"@de ;
+	rdfs:label "Bukusu"@en-gb ;
+	skos:prefLabel "Bukusu"@en-gb ;
+	schema:name "Bukusu"@en-gb ;
+	rdfs:label "bukusu"@vec ;
+	skos:prefLabel "bukusu"@vec ;
+	schema:name "bukusu"@vec ;
+	rdfs:label "Língua bukusu"@pt ;
+	skos:prefLabel "Língua bukusu"@pt ;
+	schema:name "Língua bukusu"@pt ;
+	schema:description "dialect of the Masaba language"@en,
+		"langue bantoue parlée au Kenya et en Ouganda"@es,
+		"lingua"@it,
+		"Bantu-Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Lubukusu"@en,
+		"Bukusu dialect"@en,
+		"lubukusu"@es .
+
+wd:Q12952298 owl:sameAs wd:Q32930 .
+
+wd:Q113462123 owl:sameAs wd:Q32930 .

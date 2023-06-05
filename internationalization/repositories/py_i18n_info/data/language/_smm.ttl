@@ -1,0 +1,121 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6940122 a schema:Dataset ;
+	schema:about wd:Q6940122 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960544222"^^xsd:integer ;
+	schema:dateModified "2023-08-24T23:06:27Z"^^xsd:dateTime .
+
+wd:Q6940122 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_musasa> a schema:Article ;
+	schema:about wd:Q6940122 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga musasa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D9%85%D9%88%D8%B3%D8%A7%D8%B3%D8%A7%D9%88%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q6940122 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "اللغة الموساساوية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Musasa_language> a schema:Article ;
+	schema:about wd:Q6940122 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Musasa language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://as.wikipedia.org/wiki/%E0%A6%AE%E0%A7%81%E0%A6%B8%E0%A6%BE%E0%A6%B8%E0%A6%BE_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q6940122 ;
+	schema:inLanguage "as" ;
+	schema:isPartOf <https://as.wikipedia.org/> ;
+	schema:name "মুসাসা ভাষা"@as .
+
+<https://as.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6940122 wdt:P220 "smm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/smm> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q34035 ;
+	wdt:P1394 "musa1263" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/musa1263> ;
+	wdt:P305 "smm" ;
+	wdt:P1627 "smm" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q837 ;
+	wdt:P2341 wd:Q9152,
+		wd:Q9170,
+		wd:Q9195 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SMM> ;
+	wdt:P646 "/m/02hwnpx" ;
+	wdt:P910 wd:Q105715157 ;
+	rdfs:label "Musasa"@en ;
+	skos:prefLabel "Musasa"@en ;
+	schema:name "Musasa"@en ;
+	rdfs:label "Lenga musasa"@pms ;
+	skos:prefLabel "Lenga musasa"@pms ;
+	schema:name "Lenga musasa"@pms ;
+	rdfs:label "لغة موساساوية"@ar ;
+	skos:prefLabel "لغة موساساوية"@ar ;
+	schema:name "لغة موساساوية"@ar ;
+	rdfs:label "мусаса језик"@sr ;
+	skos:prefLabel "мусаса језик"@sr ;
+	schema:name "мусаса језик"@sr ;
+	rdfs:label "Musasa"@en-gb ;
+	skos:prefLabel "Musasa"@en-gb ;
+	schema:name "Musasa"@en-gb ;
+	rdfs:label "মুসাসা ভাষা"@as ;
+	skos:prefLabel "মুসাসা ভাষা"@as ;
+	schema:name "মুসাসা ভাষা"@as ;
+	schema:description "indogermanische Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"язык"@ru ;
+	skos:altLabel "Musasa language"@en .
+
+wd:Q12953752 owl:sameAs wd:Q6940122 .

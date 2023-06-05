@@ -1,0 +1,180 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56754 a schema:Dataset ;
+	schema:about wd:Q56754 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960589727"^^xsd:integer ;
+	schema:dateModified "2023-08-25T00:14:22Z"^^xsd:dateTime .
+
+wd:Q56754 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_wintu> a schema:Article ;
+	schema:about wd:Q56754 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga wintu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Wintoueg> a schema:Article ;
+	schema:about wd:Q56754 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Wintoueg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%BD%D1%82%D1%83_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q56754 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Винту (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Wintu> a schema:Article ;
+	schema:about wd:Q56754 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Wintu"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Wintu_language> a schema:Article ;
+	schema:about wd:Q56754 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Wintu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vep.wikipedia.org/wiki/Uintun_kel%27> a schema:Article ;
+	schema:about wd:Q56754 ;
+	schema:inLanguage "vep" ;
+	schema:isPartOf <https://vep.wikipedia.org/> ;
+	schema:name "Uintun kel'"@vep .
+
+<https://vep.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Wintu> a schema:Article ;
+	schema:about wd:Q56754 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Wintu"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_wintu> a schema:Article ;
+	schema:about wd:Q56754 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua wintu"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56754 wdt:P220 "wnw" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/wnw> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/02hxv27" ;
+	wdt:P305 "wnw" ;
+	wdt:P279 wd:Q1294259 ;
+	wdt:P3417 "Wintu" ;
+	a wdno:P1394 ;
+	wdt:P1394 "wint1259" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/wint1259> ;
+	wdt:P1466 "win" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_win> ;
+	wdt:P2192 "1145" ;
+	a wdno:P282 ;
+	wdt:P1627 "wnw" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P17 wd:Q30 ;
+	wdt:P2341 wd:Q99 ;
+	wdt:P1245 "709554" ;
+	wdt:P8408 "WintuLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/WintuLanguage> ;
+	wdt:P910 wd:Q32858856 ;
+	wdt:P1098 "+5"^^xsd:decimal ;
+	wdt:P9717 "winnemem-wintu" ;
+	rdfs:label "Lenga wintu"@pms ;
+	skos:prefLabel "Lenga wintu"@pms ;
+	schema:name "Lenga wintu"@pms ;
+	rdfs:label "wintoueg"@br ;
+	skos:prefLabel "wintoueg"@br ;
+	schema:name "wintoueg"@br ;
+	rdfs:label "винту"@ru ;
+	skos:prefLabel "винту"@ru ;
+	schema:name "винту"@ru ;
+	rdfs:label "wintu"@fr ;
+	skos:prefLabel "wintu"@fr ;
+	schema:name "wintu"@fr ;
+	rdfs:label "Wintu"@en ;
+	skos:prefLabel "Wintu"@en ;
+	schema:name "Wintu"@en ;
+	rdfs:label "Uintun kel'"@vep ;
+	skos:prefLabel "Uintun kel'"@vep ;
+	schema:name "Uintun kel'"@vep ;
+	rdfs:label "wintu"@ca ;
+	skos:prefLabel "wintu"@ca ;
+	schema:name "wintu"@ca ;
+	rdfs:label "ವಿಂಟು ಭಾಷೆ"@kn ;
+	skos:prefLabel "ವಿಂಟು ಭಾಷೆ"@kn ;
+	schema:name "ವಿಂಟು ಭಾಷೆ"@kn ;
+	rdfs:label "Wintu"@en-gb ;
+	skos:prefLabel "Wintu"@en-gb ;
+	schema:name "Wintu"@en-gb ;
+	rdfs:label "Língua wintu"@pt ;
+	skos:prefLabel "Língua wintu"@pt ;
+	schema:name "Língua wintu"@pt ;
+	rdfs:label "溫騰語"@zh ;
+	skos:prefLabel "溫騰語"@zh ;
+	schema:name "溫騰語"@zh ;
+	rdfs:label "Wikang Wintu"@tl ;
+	skos:prefLabel "Wikang Wintu"@tl ;
+	schema:name "Wikang Wintu"@tl ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"ಭಾಷೆ."@kn,
+		"שפה"@he,
+		"langue wintuane"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Wintu language"@en,
+		"溫頓語"@zh .
+
+wd:Q61097713 owl:sameAs wd:Q56754 .

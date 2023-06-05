@@ -1,0 +1,148 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56625 a schema:Dataset ;
+	schema:about wd:Q56625 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1372584736"^^xsd:integer ;
+	schema:dateModified "2021-02-28T20:27:57Z"^^xsd:dateTime .
+
+wd:Q56625 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Ngete> a schema:Article ;
+	schema:about wd:Q56625 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Ngete"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Nget%C3%A9> a schema:Article ;
+	schema:about wd:Q56625 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Ngeté"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Ngete> a schema:Article ;
+	schema:about wd:Q56625 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Ngete"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kingete> a schema:Article ;
+	schema:about wd:Q56625 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kingete"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Ngeteg> a schema:Article ;
+	schema:about wd:Q56625 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Ngeteg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Ngete_jezik> a schema:Article ;
+	schema:about wd:Q56625 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Ngete jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56625 wdt:P279 wd:Q20054210 ;
+	wdt:P305 "nnn" ;
+	wdt:P220 "nnn" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nnn> ;
+	wdt:P1394 "nget1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nget1241> ;
+	wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/Langue%20nget%C3%A9.svg> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1627 "nnn" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q657 ;
+	wdt:P2341 wd:Q911421,
+		wd:Q910393 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NNN> ;
+	wdt:P646 "/m/02hwxfq" ;
+	wdt:P910 wd:Q105715187 ;
+	rdfs:label "Kingete"@sw ;
+	skos:prefLabel "Kingete"@sw ;
+	schema:name "Kingete"@sw ;
+	rdfs:label "Lenga Ngete"@pms ;
+	skos:prefLabel "Lenga Ngete"@pms ;
+	schema:name "Lenga Ngete"@pms ;
+	rdfs:label "ngeteg"@br ;
+	skos:prefLabel "ngeteg"@br ;
+	schema:name "ngeteg"@br ;
+	rdfs:label "Ngete hizkuntza"@eu ;
+	skos:prefLabel "Ngete hizkuntza"@eu ;
+	schema:name "Ngete hizkuntza"@eu ;
+	rdfs:label "Ngete"@en ;
+	skos:prefLabel "Ngete"@en ;
+	schema:name "Ngete"@en ;
+	rdfs:label "Ngete jezik"@hr ;
+	skos:prefLabel "Ngete jezik"@hr ;
+	schema:name "Ngete jezik"@hr ;
+	rdfs:label "ngete"@ca ;
+	skos:prefLabel "ngete"@ca ;
+	schema:name "ngete"@ca ;
+	rdfs:label "ngeté"@fr ;
+	skos:prefLabel "ngeté"@fr ;
+	schema:name "ngeté"@fr ;
+	rdfs:label "Ngete"@en-gb ;
+	skos:prefLabel "Ngete"@en-gb ;
+	schema:name "Ngete"@en-gb ;
+	schema:description "langue tchadique"@fr,
+		"שפה"@he,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "ka’do ngueté"@fr,
+		"nge’dé"@fr,
+		"ngueté"@fr,
+		"nguetté"@fr,
+		"zimé"@fr,
+		"Ngete language"@en .

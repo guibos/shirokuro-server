@@ -1,0 +1,146 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q34865 a schema:Dataset ;
+	schema:about wd:Q34865 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1372655141"^^xsd:integer ;
+	schema:dateModified "2021-02-28T22:38:49Z"^^xsd:dateTime .
+
+wd:Q34865 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Balo_(langue)> a schema:Article ;
+	schema:about wd:Q34865 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Balo (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Balo> a schema:Article ;
+	schema:about wd:Q34865 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Balo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibalo> a schema:Article ;
+	schema:about wd:Q34865 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibalo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Balo_language> a schema:Article ;
+	schema:about wd:Q34865 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Balo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Balo> a schema:Article ;
+	schema:about wd:Q34865 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Balo"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Balo_jezik> a schema:Article ;
+	schema:about wd:Q34865 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Balo jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q34865 wdt:P220 "bqo" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bqo> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0hgmnpt" ;
+	wdt:P1394 "balo1264" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/balo1264> ;
+	wdt:P3417 "Balo" ;
+	wdt:P305 "bqo" ;
+	wdt:P1627 "bqo" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q1009 ;
+	wdt:P2341 wd:Q165784,
+		wd:Q857122 ;
+	wdt:P1245 "686594" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BQO> ;
+	wdt:P910 wd:Q33672449 ;
+	rdfs:label "Kibalo"@sw ;
+	skos:prefLabel "Kibalo"@sw ;
+	schema:name "Kibalo"@sw ;
+	rdfs:label "Lenga Balo"@pms ;
+	skos:prefLabel "Lenga Balo"@pms ;
+	schema:name "Lenga Balo"@pms ;
+	rdfs:label "Balo"@de ;
+	skos:prefLabel "Balo"@de ;
+	schema:name "Balo"@de ;
+	rdfs:label "Balo"@en ;
+	skos:prefLabel "Balo"@en ;
+	schema:name "Balo"@en ;
+	rdfs:label "Balo jezik"@hr ;
+	skos:prefLabel "Balo jezik"@hr ;
+	schema:name "Balo jezik"@hr ;
+	rdfs:label "balo"@ca ;
+	skos:prefLabel "balo"@ca ;
+	schema:name "balo"@ca ;
+	rdfs:label "Balo"@oc ;
+	skos:prefLabel "Balo"@oc ;
+	schema:name "Balo"@oc ;
+	rdfs:label "balo"@es ;
+	skos:prefLabel "balo"@es ;
+	schema:name "balo"@es ;
+	rdfs:label "balo"@fr ;
+	skos:prefLabel "balo"@fr ;
+	schema:name "balo"@fr ;
+	rdfs:label "Balo"@en-gb ;
+	skos:prefLabel "Balo"@en-gb ;
+	schema:name "Balo"@en-gb ;
+	schema:description "idioma humano"@es,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"langue des Grassfields"@fr,
+		"שפה"@he,
+		"yezh"@br,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Balo language"@en .

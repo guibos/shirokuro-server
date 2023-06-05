@@ -1,0 +1,111 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4683034 a schema:Dataset ;
+	schema:about wd:Q4683034 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1670795104"^^xsd:integer ;
+	schema:dateModified "2022-07-04T00:38:49Z"^^xsd:dateTime .
+
+wd:Q4683034 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Adithinngithigh_language> a schema:Article ;
+	schema:about wd:Q4683034 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Adithinngithigh language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiadithinngithigh> a schema:Article ;
+	schema:about wd:Q4683034 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiadithinngithigh"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_adithinngithigh> a schema:Article ;
+	schema:about wd:Q4683034 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma adithinngithigh"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4683034 wdt:P220 "dth" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dth> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "arit1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/arit1239> ;
+	wdt:P279 wd:Q7054360 ;
+	wdt:P2192 "10754" ;
+	wdt:P1252 "Y229" ;
+	wdt:P305 "dth" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P1627 "dth" ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q36074 ;
+	wdt:P6915 "Adithinngithigh" ;
+	wdt:P646 "/m/0jwqz9p" ;
+	rdfs:label "Adithinngithigh"@en ;
+	skos:prefLabel "Adithinngithigh"@en ;
+	schema:name "Adithinngithigh"@en ;
+	rdfs:label "adithinngithigh"@fr ;
+	skos:prefLabel "adithinngithigh"@fr ;
+	schema:name "adithinngithigh"@fr ;
+	rdfs:label "Adithinngithigh"@en-gb ;
+	skos:prefLabel "Adithinngithigh"@en-gb ;
+	schema:name "Adithinngithigh"@en-gb ;
+	rdfs:label "Kiadithinngithigh"@sw ;
+	skos:prefLabel "Kiadithinngithigh"@sw ;
+	schema:name "Kiadithinngithigh"@sw ;
+	rdfs:label "адитиннгитиг"@ru ;
+	skos:prefLabel "адитиннгитиг"@ru ;
+	schema:name "адитиннгитиг"@ru ;
+	rdfs:label "Idioma adithinngithigh"@es ;
+	skos:prefLabel "Idioma adithinngithigh"@es ;
+	schema:name "Idioma adithinngithigh"@es ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langues pama–nyungan"@fr,
+		"Australian aboriginal language once spoken in Cape York in Queensland"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"язык аборигенов Австралии"@ru ;
+	skos:altLabel "Adithinngithigh language"@en .

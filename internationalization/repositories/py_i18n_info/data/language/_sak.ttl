@@ -1,0 +1,140 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36425 a schema:Dataset ;
+	schema:about wd:Q36425 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961135563"^^xsd:integer ;
+	schema:dateModified "2023-08-25T18:45:01Z"^^xsd:dateTime .
+
+wd:Q36425 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Sake> a schema:Article ;
+	schema:about wd:Q36425 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Sake"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisake> a schema:Article ;
+	schema:about wd:Q36425 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisake"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sake_language> a schema:Article ;
+	schema:about wd:Q36425 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sake language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Sake_(Sprache)> a schema:Article ;
+	schema:about wd:Q36425 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Sake (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36425 wdt:P279 wd:Q1738162 ;
+	wdt:P220 "sak" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/sak> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "sake1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sake1247> ;
+	wdt:P2355 "1745" ;
+	wdt:P2581 "02922125n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s02922125n> ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P910 wd:Q36165277 ;
+	wdt:P2161 "B251" ;
+	wdt:P2192 "529" ;
+	wdt:P305 "sak" ;
+	wdt:P1627 "sak" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P17 wd:Q1000 ;
+	wdt:P2341 wd:Q590802,
+		wd:Q823822,
+		wd:Q823800 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SAK> ;
+	wdt:P646 "/m/02hx5q7" ;
+	rdfs:label "Kisake"@sw ;
+	skos:prefLabel "Kisake"@sw ;
+	schema:name "Kisake"@sw ;
+	rdfs:label "Lenga Sake"@pms ;
+	skos:prefLabel "Lenga Sake"@pms ;
+	schema:name "Lenga Sake"@pms ;
+	rdfs:label "Sake"@de ;
+	skos:prefLabel "Sake"@de ;
+	schema:name "Sake"@de ;
+	rdfs:label "Sake"@en ;
+	skos:prefLabel "Sake"@en ;
+	schema:name "Sake"@en ;
+	rdfs:label "sake"@es ;
+	skos:prefLabel "sake"@es ;
+	schema:name "sake"@es ;
+	rdfs:label "lingua sake"@it ;
+	skos:prefLabel "lingua sake"@it ;
+	schema:name "lingua sake"@it ;
+	rdfs:label "saké"@fr ;
+	skos:prefLabel "saké"@fr ;
+	schema:name "saké"@fr ;
+	rdfs:label "Sake"@en-gb ;
+	skos:prefLabel "Sake"@en-gb ;
+	schema:name "Sake"@en-gb ;
+	rdfs:label "Wikang Sake"@tl ;
+	skos:prefLabel "Wikang Sake"@tl ;
+	schema:name "Wikang Sake"@tl ;
+	rdfs:label "サケ語"@ja ;
+	skos:prefLabel "サケ語"@ja ;
+	schema:name "サケ語"@ja ;
+	rdfs:label "sake"@vec ;
+	skos:prefLabel "sake"@vec ;
+	schema:name "sake"@vec ;
+	schema:description "Bantu language spoken in Gabon"@en,
+		"idioma humano"@es,
+		"Sprache"@de,
+		"lingua bantu parlata in Gabon"@it,
+		"שפה"@he,
+		"langue bantoue"@fr,
+		"yezh"@br,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Shake language"@en,
+		"Sake language"@en .

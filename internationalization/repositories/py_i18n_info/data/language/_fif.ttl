@@ -1,0 +1,107 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q85760309 a schema:Dataset ;
+	schema:about wd:Q85760309 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1913499139"^^xsd:integer ;
+	schema:dateModified "2023-06-12T07:02:15Z"^^xsd:dateTime .
+
+wd:Q85760309 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Faifi_language> a schema:Article ;
+	schema:about wd:Q85760309 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Faifi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Faifi> a schema:Article ;
+	schema:about wd:Q85760309 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Faifi"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AE%D9%88%D9%84%D8%A7%D9%86%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q85760309 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "الخولانية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Faifi> a schema:Article ;
+	schema:about wd:Q85760309 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Faifi"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q85760309 wdt:P31 wd:Q34770 ;
+	wdt:P220 "fif" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/fif> ;
+	wdt:P279 wd:Q35025 ;
+	wdt:P305 "fif" ;
+	wdt:P2671 "/g/11fn9vv3hq" ;
+	wdtn:P2671 <http://g.co/kg/g/11fn9vv3hq> ;
+	wdt:P17 wd:Q851 ;
+	wdt:P1394 "faif1234" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/faif1234> ;
+	rdfs:label "Faifi"@en ;
+	skos:prefLabel "Faifi"@en ;
+	schema:name "Faifi"@en ;
+	rdfs:label "faifi"@fr ;
+	skos:prefLabel "faifi"@fr ;
+	schema:name "faifi"@fr ;
+	rdfs:label "費法語"@zh ;
+	skos:prefLabel "費法語"@zh ;
+	schema:name "費法語"@zh ;
+	rdfs:label "الخولانية"@ar ;
+	skos:prefLabel "الخولانية"@ar ;
+	schema:name "الخولانية"@ar ;
+	rdfs:label "Bahasa Faifi"@id ;
+	skos:prefLabel "Bahasa Faifi"@id ;
+	schema:name "Bahasa Faifi"@id ;
+	rdfs:label "ח'ולאנית"@he ;
+	skos:prefLabel "ח'ולאנית"@he ;
+	schema:name "ח'ולאנית"@he ;
+	schema:description "language"@en,
+		"langue sémitique"@fr,
+		"taal"@nl,
+		"שפה שמית דרומית"@he,
+		"bagian dari rumpun bahasa Afro-Asia"@id ;
+	skos:altLabel "פייפית"@he,
+		"פיפית"@he .

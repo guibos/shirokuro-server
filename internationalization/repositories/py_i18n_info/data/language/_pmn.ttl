@@ -1,0 +1,147 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7129017 a schema:Dataset ;
+	schema:about wd:Q7129017 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1748144350"^^xsd:integer ;
+	schema:dateModified "2022-10-11T11:29:56Z"^^xsd:dateTime .
+
+wd:Q7129017 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Pam> a schema:Article ;
+	schema:about wd:Q7129017 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Pam"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kipam> a schema:Article ;
+	schema:about wd:Q7129017 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kipam"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Pam_language> a schema:Article ;
+	schema:about wd:Q7129017 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Pam language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Pam> a schema:Article ;
+	schema:about wd:Q7129017 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Pam"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Pam_(langue)> a schema:Article ;
+	schema:about wd:Q7129017 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Pam (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Pam_language> a schema:Article ;
+	schema:about wd:Q7129017 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Pam language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7129017 wdt:P220 "pmn" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pmn> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1098 "+30"^^xsd:decimal ;
+	wdt:P646 "/m/02hwt2v" ;
+	wdt:P1394 "pamm1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/pamm1242> ;
+	wdt:P361 wd:Q6799814 ;
+	wdt:P2581 "02875473n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s02875473n> ;
+	wdt:P17 wd:Q1009 ;
+	wdt:P2192 "802" ;
+	wdt:P305 "pmn" ;
+	wdt:P1627 "pmn" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P2341 wd:Q502341,
+		wd:Q857122 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PMN> ;
+	rdfs:label "Pam"@en ;
+	skos:prefLabel "Pam"@en ;
+	schema:name "Pam"@en ;
+	rdfs:label "Kipam"@sw ;
+	skos:prefLabel "Kipam"@sw ;
+	schema:name "Kipam"@sw ;
+	rdfs:label "Lenga Pam"@pms ;
+	skos:prefLabel "Lenga Pam"@pms ;
+	schema:name "Lenga Pam"@pms ;
+	rdfs:label "Pam"@en-gb ;
+	skos:prefLabel "Pam"@en-gb ;
+	schema:name "Pam"@en-gb ;
+	rdfs:label "Wikang Pam"@tl ;
+	skos:prefLabel "Wikang Pam"@tl ;
+	schema:name "Wikang Pam"@tl ;
+	rdfs:label "pam"@fr ;
+	skos:prefLabel "pam"@fr ;
+	schema:name "pam"@fr ;
+	rdfs:label "Pam"@oc ;
+	skos:prefLabel "Pam"@oc ;
+	schema:name "Pam"@oc ;
+	rdfs:label "Pam"@ig ;
+	skos:prefLabel "Pam"@ig ;
+	schema:name "Pam"@ig ;
+	schema:description "Mbum language of northern Cameroon"@en,
+		"Sprache"@de,
+		"שפה"@he,
+		"langue savanna parlée au Cameroun"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"Asụsụ Mbum sị na Cameroon"@ig ;
+	skos:altLabel "Asụsụ Pam"@ig .
+
+wd:Q11015705 owl:sameAs wd:Q7129017 .
+
+wd:Q28499976 owl:sameAs wd:Q7129017 .

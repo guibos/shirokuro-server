@@ -1,0 +1,146 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q1090055 a schema:Dataset ;
+	schema:about wd:Q1090055 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1903174884"^^xsd:integer ;
+	schema:dateModified "2023-05-27T01:05:30Z"^^xsd:dateTime .
+
+wd:Q1090055 a wikibase:Item .
+
+<https://ru.wikipedia.org/wiki/%D0%A5%D1%83%D1%86%D1%83%D1%80%D0%B8> a schema:Article ;
+	schema:about wd:Q1090055 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Хуцури"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%AE%E1%83%A3%E1%83%AA%E1%83%A3%E1%83%A0%E1%83%98> a schema:Article ;
+	schema:about wd:Q1090055 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "ხუცური"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Chutsuri> a schema:Article ;
+	schema:about wd:Q1090055 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Chutsuri"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Khutsuri> a schema:Article ;
+	schema:about wd:Q1090055 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Khutsuri"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%A5%D1%83%D1%86%D1%83%D1%80%D1%96> a schema:Article ;
+	schema:about wd:Q1090055 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Хуцурі"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q1090055 wdt:P646 "/m/02p4rfx" ;
+	wdt:P31 wd:Q65045986,
+		wd:Q29517555,
+		wd:Q8192,
+		wd:Q16889133 ;
+	wdt:P506 "Geok" ;
+	wdt:P2620 "241" ;
+	wdt:P361 wd:Q161428 ;
+	wdt:P527 wd:Q2866751,
+		wd:Q3346505 ;
+	wdt:P1705 "ხუცური"@ka ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P5949 "U+10A0-10CF",
+		"U+2D00-2D2F" ;
+	wdt:P2561 "Khutsuri (Asomtavruli and Nuskhuri)"@en,
+		"khoutsouri (assomtavrouli et nouskhouri)"@fr ;
+	wdt:P571 "0900-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mikael%20Modrekili%20manuscript.JPG>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/%27Church%27%20in%20Georgian%20khutsuri%20%28Taqaishvili%2C%201905%29.PNG>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Ashot%20in%20Georgian%20khutsuri%20%28Taqaishvili%2C%201905%29.PNG> ;
+	wdt:P144 wd:Q3346505,
+		wd:Q2866751 ;
+	wdt:P910 wd:Q33293711 ;
+	wdt:P407 wd:Q34030 ;
+	wdt:P366 wd:Q82821,
+		wd:Q34178,
+		wd:Q12554 ;
+	rdfs:label "Хуцури"@ru ;
+	skos:prefLabel "Хуцури"@ru ;
+	schema:name "Хуцури"@ru ;
+	rdfs:label "ხუცური"@ka ;
+	skos:prefLabel "ხუცური"@ka ;
+	schema:name "ხუცური"@ka ;
+	rdfs:label "Khutsuri"@en ;
+	skos:prefLabel "Khutsuri"@en ;
+	schema:name "Khutsuri"@en ;
+	rdfs:label "Chutsuri"@de ;
+	skos:prefLabel "Chutsuri"@de ;
+	schema:name "Chutsuri"@de ;
+	rdfs:label "khoutsouri"@fr ;
+	skos:prefLabel "khoutsouri"@fr ;
+	schema:name "khoutsouri"@fr ;
+	rdfs:label "Khutsuri"@nl ;
+	skos:prefLabel "Khutsuri"@nl ;
+	schema:name "Khutsuri"@nl ;
+	rdfs:label "kartvela eklezia skribo"@eo ;
+	skos:prefLabel "kartvela eklezia skribo"@eo ;
+	schema:name "kartvela eklezia skribo"@eo ;
+	rdfs:label "Khutsuri"@ca ;
+	skos:prefLabel "Khutsuri"@ca ;
+	schema:name "Khutsuri"@ca ;
+	rdfs:label "Хуцурі"@uk ;
+	skos:prefLabel "Хуцурі"@uk ;
+	schema:name "Хуцурі"@uk ;
+	rdfs:label "Хуцуры"@be ;
+	skos:prefLabel "Хуцуры"@be ;
+	schema:name "Хуцуры"@be ;
+	schema:description "old cased script used to write Georgian, with Asomtavruli alphabet for traditional inscriptions or uppercase letters of religious manuscripts, and Nuskhuri alphabet for lowercase letters; used in the 9th to 13th centuries"@en,
+		"sistema d'escriptura per al georgià que usa l'Assomtavruli com a majúscules i el Nuskhuri com a minúscules"@ca,
+		"ancienne écriture bicamérale pour la langue géorgienne, associant l'alphabet assomtavrouli pour les inscriptions traditionnelles ou les capitales de manuscrits religieux et l'alphabet nouskhouri pour les minuscules, utilisée du IXe au XIIIe siècle"@fr ;
+	skos:altLabel "Chuzuri"@de,
+		"Khutsuri"@de,
+		"ხუცური"@fr,
+		"khutsuri"@fr,
+		"xutsuri"@fr,
+		"Ĥucuri"@eo .

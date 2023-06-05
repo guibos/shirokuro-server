@@ -1,0 +1,125 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7067615 a schema:Dataset ;
+	schema:about wd:Q7067615 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1355231808"^^xsd:integer ;
+	schema:dateModified "2021-02-05T15:52:47Z"^^xsd:dateTime .
+
+wd:Q7067615 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Naga,_Rengma_setentrional> a schema:Article ;
+	schema:about wd:Q7067615 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Naga, Rengma setentrional"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ntenyi_language> a schema:Article ;
+	schema:about wd:Q7067615 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ntenyi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Ntenyieg> a schema:Article ;
+	schema:about wd:Q7067615 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Ntenyieg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinaga_cha_Rengma-Kaskazini> a schema:Article ;
+	schema:about wd:Q7067615 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinaga cha Rengma-Kaskazini"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7067615 wdt:P220 "nnl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nnl> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "nort2725" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nort2725> ;
+	wdt:P305 "nnl" ;
+	wdt:P279 wd:Q530460 ;
+	wdt:P2192 "5674" ;
+	wdt:P1627 "nnl" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1599 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NNL> ;
+	wdt:P646 "/m/02hxw0j" ;
+	rdfs:label "Ntenyi"@en ;
+	skos:prefLabel "Ntenyi"@en ;
+	schema:name "Ntenyi"@en ;
+	rdfs:label "ntenyieg"@br ;
+	skos:prefLabel "ntenyieg"@br ;
+	schema:name "ntenyieg"@br ;
+	rdfs:label "Lenga Naga, Rengma setentrional"@pms ;
+	skos:prefLabel "Lenga Naga, Rengma setentrional"@pms ;
+	schema:name "Lenga Naga, Rengma setentrional"@pms ;
+	rdfs:label "Kinaga ya Rengma-Kaskazini"@sw ;
+	skos:prefLabel "Kinaga ya Rengma-Kaskazini"@sw ;
+	schema:name "Kinaga ya Rengma-Kaskazini"@sw ;
+	rdfs:label "北レングマ・ナガ語"@ja ;
+	skos:prefLabel "北レングマ・ナガ語"@ja ;
+	schema:name "北レングマ・ナガ語"@ja ;
+	rdfs:label "ਨਤੇਨ੍ਯੀ ਭਾਸ਼ਾ"@pa ;
+	skos:prefLabel "ਨਤੇਨ੍ਯੀ ਭਾਸ਼ਾ"@pa ;
+	schema:name "ਨਤੇਨ੍ਯੀ ਭਾਸ਼ਾ"@pa ;
+	rdfs:label "naga rengma du Nord"@fr ;
+	skos:prefLabel "naga rengma du Nord"@fr ;
+	schema:name "naga rengma du Nord"@fr ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue kuki-chin-naga"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Northern Rengma Naga"@en,
+		"Northern Rengma"@en,
+		"Ntenyi language"@en,
+		"ਉੱਤਰੀ ਰੇਂਗਮਾ ਨਾਗਾ"@pa,
+		"ਉੱਤਰੀ ਰੇਂਗਮਾ"@pa .
+
+wd:Q12952911 owl:sameAs wd:Q7067615 .

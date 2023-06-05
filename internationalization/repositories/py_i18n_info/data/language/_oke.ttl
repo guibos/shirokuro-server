@@ -1,0 +1,139 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q268924 a schema:Dataset ;
+	schema:about wd:Q268924 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1355232255"^^xsd:integer ;
+	schema:dateModified "2021-02-05T15:53:54Z"^^xsd:dateTime .
+
+wd:Q268924 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Okpe_(llengua)> a schema:Article ;
+	schema:about wd:Q268924 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Okpe (llengua)"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Okpe,_Edoid> a schema:Article ;
+	schema:about wd:Q268924 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Okpe, Edoid"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiokpe> a schema:Article ;
+	schema:about wd:Q268924 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiokpe"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Okpe_language_(Southwestern_Edo)> a schema:Article ;
+	schema:about wd:Q268924 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Okpe language (Southwestern Edo)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Okpe_jezik_(jugozapadni)> a schema:Article ;
+	schema:about wd:Q268924 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Okpe jezik (jugozapadni)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Okpe_(lenga_sud-o%C3%A8st)> a schema:Article ;
+	schema:about wd:Q268924 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Okpe (lenga sud-oèst)"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q268924 wdt:P220 "oke" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/oke> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "okpe1250" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/okpe1250> ;
+	wdt:P279 wd:Q12633903 ;
+	wdt:P305 "oke" ;
+	wdt:P1627 "oke" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q503910,
+		wd:Q509300 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/OKE> ;
+	wdt:P646 "/m/02hwtqy" ;
+	rdfs:label "Okpe"@en ;
+	skos:prefLabel "Okpe"@en ;
+	schema:name "Okpe"@en ;
+	rdfs:label "Okpe jezik"@hr ;
+	skos:prefLabel "Okpe jezik"@hr ;
+	schema:name "Okpe jezik"@hr ;
+	rdfs:label "okpe"@ca ;
+	skos:prefLabel "okpe"@ca ;
+	schema:name "okpe"@ca ;
+	rdfs:label "Lenga Okpe, Edoid"@pms ;
+	skos:prefLabel "Lenga Okpe, Edoid"@pms ;
+	schema:name "Lenga Okpe, Edoid"@pms ;
+	rdfs:label "Kiokpe"@sw ;
+	skos:prefLabel "Kiokpe"@sw ;
+	schema:name "Kiokpe"@sw ;
+	rdfs:label "okpe"@fr ;
+	skos:prefLabel "okpe"@fr ;
+	schema:name "okpe"@fr ;
+	rdfs:label "Okpe (lenga sud-oèst)"@oc ;
+	skos:prefLabel "Okpe (lenga sud-oèst)"@oc ;
+	schema:name "Okpe (lenga sud-oèst)"@oc ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue édoïde"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Okpe (Southwestern Edo)"@en,
+		"Okpe language"@en,
+		"ɔkpɛ"@fr .
+
+wd:Q11007477 owl:sameAs wd:Q268924 .

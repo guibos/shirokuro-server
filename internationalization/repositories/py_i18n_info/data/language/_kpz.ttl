@@ -1,0 +1,152 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56445 a schema:Dataset ;
+	schema:about wd:Q56445 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1556053558"^^xsd:integer ;
+	schema:dateModified "2022-01-04T15:44:25Z"^^xsd:dateTime .
+
+wd:Q56445 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Sapiny> a schema:Article ;
+	schema:about wd:Q56445 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Sapiny"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kupsabiny> a schema:Article ;
+	schema:about wd:Q56445 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kupsabiny"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikupsabiny> a schema:Article ;
+	schema:about wd:Q56445 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikupsabiny"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kupsabiny_language> a schema:Article ;
+	schema:about wd:Q56445 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kupsabiny language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Koupsabinyeg> a schema:Article ;
+	schema:about wd:Q56445 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Koupsabinyeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Kupsabiny> a schema:Article ;
+	schema:about wd:Q56445 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Kupsabiny"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%97%E3%82%B5%E3%83%93%E3%83%8B%E3%82%A3%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q56445 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "クプサビニィ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56445 wdt:P220 "kpz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kpz> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "kpz" ;
+	wdt:P279 wd:Q5360091 ;
+	wdt:P1394 "kups1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kups1238> ;
+	wdt:P910 wd:Q36165391 ;
+	wdt:P1466 "seb" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_seb> ;
+	wdt:P1627 "kpz" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P5198 "294936211" ;
+	wdt:P17 wd:Q1036 ;
+	wdt:P2341 wd:Q1229921,
+		wd:Q1375868,
+		wd:Q1375853 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KPZ> ;
+	wdt:P646 "/m/02hx788" ;
+	rdfs:label "Lenga Kupsabiny"@pms ;
+	skos:prefLabel "Lenga Kupsabiny"@pms ;
+	schema:name "Lenga Kupsabiny"@pms ;
+	rdfs:label "koupsabinyeg"@br ;
+	skos:prefLabel "koupsabinyeg"@br ;
+	schema:name "koupsabinyeg"@br ;
+	rdfs:label "sapiny"@fr ;
+	skos:prefLabel "sapiny"@fr ;
+	schema:name "sapiny"@fr ;
+	rdfs:label "Kikupsabiny"@sw ;
+	skos:prefLabel "Kikupsabiny"@sw ;
+	schema:name "Kikupsabiny"@sw ;
+	rdfs:label "Sabiny"@en ;
+	skos:prefLabel "Sabiny"@en ;
+	schema:name "Sabiny"@en ;
+	rdfs:label "クプサビニィ語"@ja ;
+	skos:prefLabel "クプサビニィ語"@ja ;
+	schema:name "クプサビニィ語"@ja ;
+	rdfs:label "薩比尼語"@zh ;
+	skos:prefLabel "薩比尼語"@zh ;
+	schema:name "薩比尼語"@zh ;
+	rdfs:label "Tiếng Kupsabiny"@vi ;
+	skos:prefLabel "Tiếng Kupsabiny"@vi ;
+	schema:name "Tiếng Kupsabiny"@vi ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue nilotique"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kupsabiny"@en,
+		"Sabiny language"@en .

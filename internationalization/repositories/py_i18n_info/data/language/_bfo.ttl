@@ -1,0 +1,130 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11150710 a schema:Dataset ;
+	schema:about wd:Q11150710 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1741225557"^^xsd:integer ;
+	schema:dateModified "2022-10-02T13:35:43Z"^^xsd:dateTime .
+
+wd:Q11150710 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Birifor_du_Nord> a schema:Article ;
+	schema:about wd:Q11150710 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Birifor du Nord"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Birifor,_Malba> a schema:Article ;
+	schema:about wd:Q11150710 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Birifor, Malba"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibirifor-Malba> a schema:Article ;
+	schema:about wd:Q11150710 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibirifor-Malba"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Malba_Birifor_jezik> a schema:Article ;
+	schema:about wd:Q11150710 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Malba Birifor jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11150710 wdt:P220 "bfo" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bfo> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "malb1235" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/malb1235> ;
+	wdt:P279 wd:Q34911 ;
+	wdt:P305 "bfo" ;
+	wdt:P1627 "bfo" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q965 ;
+	wdt:P2341 wd:Q850088,
+		wd:Q429149,
+		wd:Q676641,
+		wd:Q1074154,
+		wd:Q953657 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BFO> ;
+	wdt:P646 "/m/02hwlg3" ;
+	rdfs:label "Kibirifor-Malba"@sw ;
+	skos:prefLabel "Kibirifor-Malba"@sw ;
+	schema:name "Kibirifor-Malba"@sw ;
+	rdfs:label "Lenga Birifor, Malba"@pms ;
+	skos:prefLabel "Lenga Birifor, Malba"@pms ;
+	schema:name "Lenga Birifor, Malba"@pms ;
+	rdfs:label "Malba Birifor jezik"@hr ;
+	skos:prefLabel "Malba Birifor jezik"@hr ;
+	schema:name "Malba Birifor jezik"@hr ;
+	rdfs:label "Malba Birifor"@en ;
+	skos:prefLabel "Malba Birifor"@en ;
+	schema:name "Malba Birifor"@en ;
+	rdfs:label "birifor du Nord"@fr ;
+	skos:prefLabel "birifor du Nord"@fr ;
+	schema:name "birifor du Nord"@fr ;
+	rdfs:label "Malba Birifor"@en-gb ;
+	skos:prefLabel "Malba Birifor"@en-gb ;
+	schema:name "Malba Birifor"@en-gb ;
+	rdfs:label "zimanê malba birifor"@ku-latn ;
+	skos:prefLabel "zimanê malba birifor"@ku-latn ;
+	schema:name "zimanê malba birifor"@ku-latn ;
+	rdfs:label "zimanê malba birifor"@ku ;
+	skos:prefLabel "zimanê malba birifor"@ku ;
+	schema:name "zimanê malba birifor"@ku ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue gur"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Malba Birifor language"@en,
+		"birifor malba"@fr .
+
+wd:Q12636090 owl:sameAs wd:Q11150710 .
+
+wd:Q30744478 owl:sameAs wd:Q11150710 .

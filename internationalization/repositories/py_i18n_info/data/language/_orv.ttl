@@ -1,0 +1,898 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35228 a schema:Dataset ;
+	schema:about wd:Q35228 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1928647726"^^xsd:integer ;
+	schema:dateModified "2023-07-04T00:26:52Z"^^xsd:dateTime .
+
+wd:Q35228 a wikibase:Item .
+
+<https://en.wiktionary.org/wiki/Wiktionary:About_Old_East_Slavic> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wiktionary.org/> ;
+	schema:name "Wiktionary:About Old East Slavic"@en .
+
+<https://en.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://en.wikipedia.org/wiki/Old_East_Slavic> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Old East Slavic"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Altostslawische_Sprache> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Altostslawische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Vieux_russe> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Vieux russe"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Antiguo_eslavo_oriental> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Antiguo eslavo oriental"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%94%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Древнерусский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Antica_lingua_slava_orientale> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Antica lingua slava orientale"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E5%8F%A4%E6%9D%B1%E3%82%B9%E3%83%A9%E3%83%B4%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "古東スラヴ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Oudrussisch> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Oudrussisch"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_staroruski> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język staroruski"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Eslavo_oriental_antigo> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Eslavo oriental antigo"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%8F%A4%E6%9D%B1%E6%96%AF%E6%8B%89%E5%A4%AB%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "古東斯拉夫語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Forn%C3%B6stslaviska> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Fornöstslaviska"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%A7%D8%B3%D9%84%D8%A7%D9%88%DB%8C_%D8%B4%D8%B1%D9%82%DB%8C_%D8%A8%D8%A7%D8%B3%D8%AA%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "اسلاوی شرقی باستان"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Eski_Do%C4%9Fu_Slavcas%C4%B1> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Eski Doğu Slavcası"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%B3%D9%84%D8%A7%D9%81%D9%8A%D8%A9_%D8%B4%D8%B1%D9%82%D9%8A%D8%A9_%D9%82%D8%AF%D9%8A%D9%85%D8%A9> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "سلافية شرقية قديمة"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Slav_%C4%90%C3%B4ng_c%E1%BB%95> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Slav Đông cổ"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Gammel%C3%B8stslavisk> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Gammeløstslavisk"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%94%D0%B0%D0%B2%D0%BD%D1%8C%D0%BE%D1%80%D1%83%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Давньоруська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%8C%80_%EB%8F%99%EC%8A%AC%EB%9D%BC%EB%B8%8C%EC%96%B4> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "고대 동슬라브어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Antic_eslau_oriental> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Antic eslau oriental"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Staroru%C5%A1tina> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Staroruština"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%80%D0%BE%D1%80%D1%83%D1%81%D0%BA%D0%B8_%D1%98%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Староруски језик"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Slav%C4%83_Estic%C4%83_Veche> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Slavă Estică Veche"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Slavia_Timur_Kuno> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Slavia Timur Kuno"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/Gammel_%C3%B8stslavisk_sprog> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Gammel østslavisk sprog"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Old_East_Slavic> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Old East Slavic"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%80%D0%BE%D1%80%D1%83%D1%81%D0%BA%D0%B8_%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Староруски език"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Oud-Oos-Slawies> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Oud-Oos-Slawies"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Antiguu_eslavu_oriental> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Antiguu eslavu oriental"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%80%D0%B0%D0%B6%D1%8B%D1%82%D0%BD%D0%B0%D1%80%D1%83%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Старажытнаруская мова"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%80%D0%B0%D0%B6%D1%8B%D1%82%D0%BD%D0%B0%D1%80%D1%83%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Старажытнаруская мова"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bs.wikipedia.org/wiki/Staroruski_jezik> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "bs" ;
+	schema:isPartOf <https://bs.wikipedia.org/> ;
+	schema:name "Staroruski jezik"@bs .
+
+<https://bs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cu.wikipedia.org/wiki/%D0%94%D1%80%D1%94%D0%B2%D0%BB%D2%84%D1%8C%D0%BD%D2%84%D1%8C_%D1%80%D0%BE%D1%83%D1%81%D1%8C%D1%81%D0%BA%D1%8A_%D1%A9%EA%99%81%EA%99%91%D0%BA%D1%8A> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "cu" ;
+	schema:isPartOf <https://cu.wikipedia.org/> ;
+	schema:name "Дрєвл҄ьн҄ь роусьскъ ѩꙁꙑкъ"@cu .
+
+<https://cu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Vanavene_keel> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Vanavene keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Antzinako_ekialdeko_eslaviera> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Antzinako ekialdeko eslaviera"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Ual-Uastslaawisk> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Ual-Uastslaawisk"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Staroruski_jezik> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Staroruski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hsb.wikipedia.org/wiki/Stara_wuchodos%C5%82owjan%C5%A1%C4%87ina> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "hsb" ;
+	schema:isPartOf <https://hsb.wikipedia.org/> ;
+	schema:name "Stara wuchodosłowjanšćina"@hsb .
+
+<https://hsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Slavica_orientalis_antiqua> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Slavica orientalis antiqua"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Senoji_rus%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Senoji rusų kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Senkrievu_valoda> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Senkrievu valoda"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%80%D0%BE%D1%80%D1%83%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Староруски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Gammalaustslavisk> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Gammalaustslavisk"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Eslau_oriental_ancian> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Eslau oriental ancian"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%D9%82%D8%AF%DB%8C%D9%85_%D9%85%D8%B4%D8%B1%D9%82%DB%8C_%D8%B3%D9%84%D8%A7%D9%88%DB%8C> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "قدیم مشرقی سلاوی"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sah.wikipedia.org/wiki/%D0%91%D1%8B%D0%BB%D1%8B%D1%80%D0%B3%D1%8B_%D0%BD%D1%83%D1%83%D1%87%D1%87%D0%B0_%D1%82%D1%8B%D0%BB%D0%B0> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "sah" ;
+	schema:isPartOf <https://sah.wikipedia.org/> ;
+	schema:name "Былыргы нуучча тыла"@sah .
+
+<https://sah.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Staroruski_jezik> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Staroruski jezik"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sk.wikipedia.org/wiki/Star%C3%A1_ru%C5%A1tina> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "sk" ;
+	schema:isPartOf <https://sk.wikipedia.org/> ;
+	schema:name "Stará ruština"@sk .
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sl.wikipedia.org/wiki/Starovzhodnoslovan%C5%A1%C4%8Dina> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikipedia.org/> ;
+	schema:name "Starovzhodnoslovanščina"@sl .
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szl.wikipedia.org/wiki/Starowschod%C5%84os%C5%82owja%C5%84sko_godka> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "szl" ;
+	schema:isPartOf <https://szl.wikipedia.org/> ;
+	schema:name "Starowschodńosłowjańsko godka"@szl .
+
+<https://szl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D9%82%D8%AF%DB%8C%D9%85_%D9%85%D8%B4%D8%B1%D9%82%DB%8C_%D8%B3%D9%84%D8%A7%D9%88%DB%8C> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "قدیم مشرقی سلاوی"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Muinaisit%C3%A4slaavi> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Muinaisitäslaavi"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D1%8B%D0%BD%D0%B3%D1%8B_%D0%BA%D3%A9%D0%BD%D1%87%D1%8B%D0%B3%D1%8B%D1%88_%D1%81%D0%BB%D0%B0%D0%B2%D1%8F%D0%BD_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Борынгы көнчыгыш славян теле"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ba.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D0%BE%D0%BD%D2%93%D0%BE_%D1%80%D1%83%D1%81_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "ba" ;
+	schema:isPartOf <https://ba.wikipedia.org/> ;
+	schema:name "Боронғо рус теле"@ba .
+
+<https://ba.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Q%C9%99dim_rus_dili> a schema:Article ;
+	schema:about wd:Q35228 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Qədim rus dili"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35228 wdt:P220 "orv" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/orv> ;
+	wdt:P31 wd:Q38058796,
+		wd:Q45762,
+		wd:Q2315359 ;
+	wdt:P646 "/m/02dmtd" ;
+	wdt:P305 "orv" ;
+	wdt:P282 wd:Q8209,
+		wd:Q145625 ;
+	wdt:P279 wd:Q144713 ;
+	wdt:P1098 "+0"^^xsd:decimal ;
+	wdt:P910 wd:Q9519723 ;
+	wdt:P1394 "oldr1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/oldr1238> ;
+	wdt:P1846 <http://commons.wikimedia.org/wiki/Special:FilePath/East%20Slavic%20tribes%20peoples%208th%209th%20century.jpg> ;
+	wdt:P3417 "Old-East-Slavic" ;
+	wdt:P227 "4142091-3" ;
+	wdtn:P227 <https://d-nb.info/gnd/4142091-3> ;
+	wdt:P278 "дрр 188" ;
+	wdt:P4132 wd:Q178435,
+		wd:Q651641,
+		wd:Q318917 ;
+	wdt:P1417 "topic/Old-Russian" ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P131 wd:Q27468 ;
+	wdt:P9498 "ff12" ;
+	wdt:P5555 <http://commons.wikimedia.org/wiki/Special:FilePath/Slavic%20languages%20tree%20and%20map%20from%20Kushniarevich%20article.png> ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/OstromirGospel.jpg> ;
+	wdt:P2347 "38195" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p38195> ;
+	wdt:P156 wd:Q13211,
+		wd:Q114309485 ;
+	wdt:P691 "ph126052" ;
+	rdfs:label "Starowschodńosłowjańsko godka"@szl ;
+	skos:prefLabel "Starowschodńosłowjańsko godka"@szl ;
+	schema:name "Starowschodńosłowjańsko godka"@szl ;
+	rdfs:label "język staroruski"@pl ;
+	skos:prefLabel "język staroruski"@pl ;
+	schema:name "język staroruski"@pl ;
+	rdfs:label "stará ruština"@sk ;
+	skos:prefLabel "stará ruština"@sk ;
+	schema:name "stará ruština"@sk ;
+	rdfs:label "старажытнаруская мова"@be ;
+	skos:prefLabel "старажытнаруская мова"@be ;
+	schema:name "старажытнаруская мова"@be ;
+	rdfs:label "древнерусский язык"@ru ;
+	skos:prefLabel "древнерусский язык"@ru ;
+	schema:name "древнерусский язык"@ru ;
+	rdfs:label "antiguo eslavo oriental"@es ;
+	skos:prefLabel "antiguo eslavo oriental"@es ;
+	schema:name "antiguo eslavo oriental"@es ;
+	rdfs:label "Old East Slavic"@en ;
+	skos:prefLabel "Old East Slavic"@en ;
+	schema:name "Old East Slavic"@en ;
+	rdfs:label "Староисточнословенски јазик"@mk ;
+	skos:prefLabel "Староисточнословенски јазик"@mk ;
+	schema:name "Староисточнословенски јазик"@mk ;
+	rdfs:label "давньоруська мова"@uk ;
+	skos:prefLabel "давньоруська мова"@uk ;
+	schema:name "давньоруська мова"@uk ;
+	rdfs:label "antica lingua slava orientale"@it ;
+	skos:prefLabel "antica lingua slava orientale"@it ;
+	schema:name "antica lingua slava orientale"@it ;
+	rdfs:label "vanavene keel"@et ;
+	skos:prefLabel "vanavene keel"@et ;
+	schema:name "vanavene keel"@et ;
+	rdfs:label "Altostslawisch"@de ;
+	skos:prefLabel "Altostslawisch"@de ;
+	schema:name "Altostslawisch"@de ;
+	rdfs:label "古東スラヴ語"@ja ;
+	skos:prefLabel "古東スラヴ語"@ja ;
+	schema:name "古東スラヴ語"@ja ;
+	rdfs:label "starovzhodnoslovanščina"@sl ;
+	skos:prefLabel "starovzhodnoslovanščina"@sl ;
+	schema:name "starovzhodnoslovanščina"@sl ;
+	rdfs:label "staroruština"@cs ;
+	skos:prefLabel "staroruština"@cs ;
+	schema:name "staroruština"@cs ;
+	rdfs:label "Староруски език"@bg ;
+	skos:prefLabel "Староруски език"@bg ;
+	schema:name "Староруски език"@bg ;
+	rdfs:label "Staroruski jezik"@sh ;
+	skos:prefLabel "Staroruski jezik"@sh ;
+	schema:name "Staroruski jezik"@sh ;
+	rdfs:label "Дрєвл҄ьн҄ь роусьскъ ѩꙁꙑкъ"@cu ;
+	skos:prefLabel "Дрєвл҄ьн҄ь роусьскъ ѩꙁꙑкъ"@cu ;
+	schema:name "Дрєвл҄ьн҄ь роусьскъ ѩꙁꙑкъ"@cu ;
+	rdfs:label "Stara wuchodosłowjanšćina"@hsb ;
+	skos:prefLabel "Stara wuchodosłowjanšćina"@hsb ;
+	schema:name "Stara wuchodosłowjanšćina"@hsb ;
+	rdfs:label "Gammel østslavisk sprog"@da ;
+	skos:prefLabel "Gammel østslavisk sprog"@da ;
+	schema:name "Gammel østslavisk sprog"@da ;
+	rdfs:label "Oud Oost-Slavisch"@nl ;
+	skos:prefLabel "Oud Oost-Slavisch"@nl ;
+	schema:name "Oud Oost-Slavisch"@nl ;
+	rdfs:label "Staroruski jezik"@hr ;
+	skos:prefLabel "Staroruski jezik"@hr ;
+	schema:name "Staroruski jezik"@hr ;
+	rdfs:label "gammeløstslavisk"@nb ;
+	skos:prefLabel "gammeløstslavisk"@nb ;
+	schema:name "gammeløstslavisk"@nb ;
+	rdfs:label "Eski Doğu Slavca"@tr ;
+	skos:prefLabel "Eski Doğu Slavca"@tr ;
+	schema:name "Eski Doğu Slavca"@tr ;
+	rdfs:label "vieux russe"@fr ;
+	skos:prefLabel "vieux russe"@fr ;
+	schema:name "vieux russe"@fr ;
+	rdfs:label "старажытнаруская мова"@be-tarask ;
+	skos:prefLabel "старажытнаруская мова"@be-tarask ;
+	schema:name "старажытнаруская мова"@be-tarask ;
+	rdfs:label "Былыргы нуучча тыла"@sah ;
+	skos:prefLabel "Былыргы нуучча тыла"@sah ;
+	schema:name "Былыргы нуучча тыла"@sah ;
+	rdfs:label "Staroruski jezik"@bs ;
+	skos:prefLabel "Staroruski jezik"@bs ;
+	schema:name "Staroruski jezik"@bs ;
+	rdfs:label "muinaisvenäjä"@fi ;
+	skos:prefLabel "muinaisvenäjä"@fi ;
+	schema:name "muinaisvenäjä"@fi ;
+	rdfs:label "고대 동슬라브어"@ko ;
+	skos:prefLabel "고대 동슬라브어"@ko ;
+	schema:name "고대 동슬라브어"@ko ;
+	rdfs:label "Ual-Uastslaawisk"@frr ;
+	skos:prefLabel "Ual-Uastslaawisk"@frr ;
+	schema:name "Ual-Uastslaawisk"@frr ;
+	rdfs:label "senkrievu valoda"@lv ;
+	skos:prefLabel "senkrievu valoda"@lv ;
+	schema:name "senkrievu valoda"@lv ;
+	rdfs:label "سلافية شرقية قديمة"@ar ;
+	skos:prefLabel "سلافية شرقية قديمة"@ar ;
+	schema:name "سلافية شرقية قديمة"@ar ;
+	rdfs:label "Fornöstslaviska"@sv ;
+	skos:prefLabel "Fornöstslaviska"@sv ;
+	schema:name "Fornöstslaviska"@sv ;
+	rdfs:label "古東斯拉夫語"@zh-hant ;
+	skos:prefLabel "古東斯拉夫語"@zh-hant ;
+	schema:name "古東斯拉夫語"@zh-hant ;
+	rdfs:label "古东斯拉夫语"@zh-cn ;
+	skos:prefLabel "古东斯拉夫语"@zh-cn ;
+	schema:name "古东斯拉夫语"@zh-cn ;
+	rdfs:label "古東斯拉夫語"@zh ;
+	skos:prefLabel "古東斯拉夫語"@zh ;
+	schema:name "古東斯拉夫語"@zh ;
+	rdfs:label "հին ռուսերեն"@hy ;
+	skos:prefLabel "հին ռուսերեն"@hy ;
+	schema:name "հին ռուսերեն"@hy ;
+	rdfs:label "قدیم مشرقی سلاوی"@ur ;
+	skos:prefLabel "قدیم مشرقی سلاوی"@ur ;
+	schema:name "قدیم مشرقی سلاوی"@ur ;
+	rdfs:label "antic eslau oriental"@ca ;
+	skos:prefLabel "antic eslau oriental"@ca ;
+	schema:name "antic eslau oriental"@ca ;
+	rdfs:label "סלאבית מזרחית עתיקה"@he ;
+	skos:prefLabel "סלאבית מזרחית עתיקה"@he ;
+	schema:name "סלאבית מזרחית עתיקה"@he ;
+	rdfs:label "antikva orientslava lingvo"@eo ;
+	skos:prefLabel "antikva orientslava lingvo"@eo ;
+	schema:name "antikva orientslava lingvo"@eo ;
+	rdfs:label "παλαιά ανατολικοσλαβική γλώσσα"@el ;
+	skos:prefLabel "παλαιά ανατολικοσλαβική γλώσσα"@el ;
+	schema:name "παλαιά ανατολικοσλαβική γλώσσα"@el ;
+	rdfs:label "Oud-Oos-Slawies"@af ;
+	skos:prefLabel "Oud-Oos-Slawies"@af ;
+	schema:name "Oud-Oos-Slawies"@af ;
+	rdfs:label "antiguu eslavu oriental"@ast ;
+	skos:prefLabel "antiguu eslavu oriental"@ast ;
+	schema:name "antiguu eslavu oriental"@ast ;
+	rdfs:label "lingua Slavica orientalis antiqua"@la ;
+	skos:prefLabel "lingua Slavica orientalis antiqua"@la ;
+	schema:name "lingua Slavica orientalis antiqua"@la ;
+	rdfs:label "Senoji rusų kalba"@lt ;
+	skos:prefLabel "Senoji rusų kalba"@lt ;
+	schema:name "Senoji rusų kalba"@lt ;
+	rdfs:label "antigo eslavo oriental"@pt ;
+	skos:prefLabel "antigo eslavo oriental"@pt ;
+	schema:name "antigo eslavo oriental"@pt ;
+	rdfs:label "борынгы көнчыгыш славян теле"@tt ;
+	skos:prefLabel "борынгы көнчыгыш славян теле"@tt ;
+	schema:name "борынгы көнчыгыш славян теле"@tt ;
+	rdfs:label "борынгы көнчыгыш славян теле"@tt-cyrl ;
+	skos:prefLabel "борынгы көнчыгыш славян теле"@tt-cyrl ;
+	schema:name "борынгы көнчыгыш славян теле"@tt-cyrl ;
+	rdfs:label "slava orientală veche"@ro ;
+	skos:prefLabel "slava orientală veche"@ro ;
+	schema:name "slava orientală veche"@ro ;
+	rdfs:label "প্রাচীন পূর্ব স্লাভীয়"@bn ;
+	skos:prefLabel "প্রাচীন পূর্ব স্লাভীয়"@bn ;
+	schema:name "প্রাচীন পূর্ব স্লাভীয়"@bn ;
+	rdfs:label "Стари источнословенски језик"@sr ;
+	skos:prefLabel "Стари источнословенски језик"@sr ;
+	schema:name "Стари источнословенски језик"@sr ;
+	rdfs:label "Antzinako ekialdeko eslaviera"@eu ;
+	skos:prefLabel "Antzinako ekialdeko eslaviera"@eu ;
+	schema:name "Antzinako ekialdeko eslaviera"@eu ;
+	rdfs:label "gammalaustslavisk"@nn ;
+	skos:prefLabel "gammalaustslavisk"@nn ;
+	schema:name "gammalaustslavisk"@nn ;
+	rdfs:label "slavic oriental vetule"@ia ;
+	skos:prefLabel "slavic oriental vetule"@ia ;
+	schema:name "slavic oriental vetule"@ia ;
+	rdfs:label "Bahasa Slavia Timur Kuno"@id ;
+	skos:prefLabel "Bahasa Slavia Timur Kuno"@id ;
+	schema:name "Bahasa Slavia Timur Kuno"@id ;
+	rdfs:label "altostslawische Sproch"@bar ;
+	skos:prefLabel "altostslawische Sproch"@bar ;
+	schema:name "altostslawische Sproch"@bar ;
+	rdfs:label "ó-keleti-szláv"@hu ;
+	skos:prefLabel "ó-keleti-szláv"@hu ;
+	schema:name "ó-keleti-szláv"@hu ;
+	rdfs:label "Tiếng Slav Đông cổ"@vi ;
+	skos:prefLabel "Tiếng Slav Đông cổ"@vi ;
+	schema:name "Tiếng Slav Đông cổ"@vi ;
+	rdfs:label "اسلاوی شرقی باستان"@fa ;
+	skos:prefLabel "اسلاوی شرقی باستان"@fa ;
+	schema:name "اسلاوی شرقی باستان"@fa ;
+	rdfs:label "قدیم مشرقی سلاوی"@pnb ;
+	skos:prefLabel "قدیم مشرقی سلاوی"@pnb ;
+	schema:name "قدیم مشرقی سلاوی"@pnb ;
+	rdfs:label "Slaviku Antik tal-Lvant"@mt ;
+	skos:prefLabel "Slaviku Antik tal-Lvant"@mt ;
+	schema:name "Slaviku Antik tal-Lvant"@mt ;
+	rdfs:label "古東斯拉夫語"@zh-tw ;
+	skos:prefLabel "古東斯拉夫語"@zh-tw ;
+	schema:name "古東斯拉夫語"@zh-tw ;
+	rdfs:label "Eslau oriental ancian"@oc ;
+	skos:prefLabel "Eslau oriental ancian"@oc ;
+	schema:name "Eslau oriental ancian"@oc ;
+	rdfs:label "рагон уырыссаг æвзаг"@os ;
+	skos:prefLabel "рагон уырыссаг æвзаг"@os ;
+	schema:name "рагон уырыссаг æвзаг"@os ;
+	rdfs:label "qədim rus dili"@az ;
+	skos:prefLabel "qədim rus dili"@az ;
+	schema:name "qədim rus dili"@az ;
+	rdfs:label "Боронғо рус теле"@ba ;
+	skos:prefLabel "Боронғо рус теле"@ba ;
+	schema:name "Боронғо рус теле"@ba ;
+	schema:description "lengua eslava oriental"@es,
+		"Sprache"@de,
+		"lingua letteraria utilizzata tra il X ed il XV secolo dagli Slavi orientali"@it,
+		"Slavic language used in the 10th–15th centuries"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"язык восточных славян в период примерно с VII—VIII по XIV—XV века"@ru,
+		"langue slave orientale utilisée dans la Rus' du VIe siècle au XIIIe – XIVe siècle"@fr,
+		"Ανατολική σλαβική γλώσσα που χρησιμοποιήθηκε από τους Ρως κατά τον 10ο–15ο αιώνα"@el,
+		"prajęzyk współczesnego języka rosyjskiego oraz języka ruskiego, istniejący od VII–XV wieku"@pl,
+		"mrtvý východoslovanský jazyk"@cs,
+		"bahsa"@ace,
+		"taal"@af,
+		"idioma"@an,
+		"لغة"@ar,
+		"Sproch"@bar,
+		"bahasa"@bjn,
+		"ভাষা"@bn,
+		"yezh"@br,
+		"jezik"@bs,
+		"llengua"@ca,
+		"زمان"@ckb,
+		"lingua"@co,
+		"sprog"@da,
+		"Sprache"@de-at,
+		"Sprache"@de-ch,
+		"lısan"@diq,
+		"langua"@eml,
+		"lingvo"@eo,
+		"keel"@et,
+		"hizkuntza"@eu,
+		"luenga"@ext,
+		"زبان"@fa,
+		"kieli"@fi,
+		"lengoua"@frp,
+		"lenghe"@fur,
+		"taal"@fy,
+		"teanga"@ga,
+		"lingua"@gl,
+		"ભાષા"@gu,
+		"nyelv"@hu,
+		"rěč"@hsb,
+		"լեզու"@hy,
+		"bagian dari rumpun bahasa Indo-Eropa"@id,
+		"linguo"@io,
+		"tungumál"@is,
+		"言語"@ja,
+		"basa"@jv,
+		"ndinga"@kg,
+		"언어"@ko,
+		"lingua"@la,
+		"Sprooch"@lb,
+		"kalba"@lt,
+		"austrumslāvu valoda"@lv,
+		"語言"@lzh,
+		"fiteny"@mg,
+		"bahaso"@min,
+		"јазик"@mk,
+		"bahasa"@ms,
+		"språk"@nb,
+		"Spraak"@nds,
+		"språk"@nn,
+		"langue"@pcd,
+		"língua"@pt,
+		"idioma"@pt-br,
+		"limbă"@ro,
+		"giella"@se,
+		"giella"@sje,
+		"jazyk"@sk,
+		"jezik"@sl,
+		"gïele"@sma,
+		"giella"@smj,
+		"gjuhë"@sq,
+		"basa"@su,
+		"språk"@sv,
+		"lugha"@sw,
+		"reo"@ty,
+		"мова"@uk,
+		"tiếng"@vi,
+		"làkk"@wo,
+		"שפּראַך"@yi,
+		"語言"@yue,
+		"語言"@zh,
+		"语言"@zh-cn,
+		"语言"@zh-hans,
+		"語言"@zh-hant,
+		"語言"@zh-hk,
+		"語言"@zh-mo,
+		"语言"@zh-sg,
+		"語言"@zh-tw,
+		"lingwa Slavika tas-sekli 10-15"@mt,
+		"izumrli istočnoslavenski jezik"@hr,
+		"təxminən VII–VIII əsrdən XIV–XV əsrlərə qədər olan dövrdə şərqi slavyanların dili"@az,
+		"көнсығыш славяндар теле, яҡынса VII—VIII—XIV-XV быуаттар осоронда боронғо рус этник берләшмәһе теле"@ba ;
+	skos:altLabel "Starowschodńosuowjańsko godka"@szl,
+		"Starorusko godka"@szl,
+		"Staroruský jazyk"@sk,
+		"Stará východoslovančina"@sk,
+		"Starý východoslovanský jazyk"@sk,
+		"древневосточнославянский язык"@ru,
+		"язык Древней Руси"@ru,
+		"древнерусский"@ru,
+		"древнеукраинский язык"@ru,
+		"старобелорусский язык"@ru,
+		"старорусский язык"@ru,
+		"староукраинский язык"@ru,
+		"древнебелорусский язык"@ru,
+		"ucraniano antiguo"@es,
+		"ruso antiguo"@es,
+		"давньосхіднослов’янська мова"@uk,
+		"давньоукраїнська мова"@uk,
+		"давньокиївська книжно-літературна мова"@uk,
+		"давньосхіднослов'янська мова"@uk,
+		"давньокиївська писемно-літературна мова"@uk,
+		"старосхіднослов'янська мова"@uk,
+		"Antico slavo orientale"@it,
+		"Russo antico"@it,
+		"Slavo Antico Orientale"@it,
+		"Antico russo"@it,
+		"Slavo orientale antico"@it,
+		"Altostslavisch"@de,
+		"altostslawische Sprache"@de,
+		"altostslavische Sprache"@de,
+		"古代ルーシ語"@ja,
+		"古代ロシア語"@ja,
+		"古東スラブ語"@ja,
+		"古ルーシ語"@ja,
+		"古ロシア語"@ja,
+		"古期ロシア語"@ja,
+		"古代東スラヴ語"@ja,
+		"古代東スラヴ文学"@ja,
+		"Staroruščina"@sl,
+		"Общоизточнославянски език"@bg,
+		"Ѩзыкъ древл҄ьн҄ь рѹсьскъ"@cu,
+		"Древл҄ьн҄ь роусьскъ ѩзыкъ"@cu,
+		"Дрє́вл҄ьн҄ь роу́сьскъ ѩꙁꙑ́къ"@cu,
+		"Oudoostslavisch"@nl,
+		"Oudrussisch"@nl,
+		"Old Russian"@en,
+		"Common Russian"@en,
+		"OES"@en,
+		"Common Eastern Slavic"@en,
+		"gammaløstslavisk"@nb,
+		"gammel østslavisk"@nb,
+		"古俄語"@zh,
+		"老東斯拉夫語"@zh,
+		"Агульная ўсходнеславянская мова"@be,
+		"antikva rusa lingvo"@eo,
+		"malnova orientslava lingvo"@eo,
+		"malnova rusa lingvo"@eo,
+		"komuna rusa lingvo"@eo,
+		"борынгы рус теле"@tt,
+		"борынгы украин теле"@tt,
+		"борынгы биларус теле"@tt,
+		"борынгы рус теле"@tt-cyrl,
+		"борынгы украин теле"@tt-cyrl,
+		"борынгы биларус теле"@tt-cyrl,
+		"język staro-wschodnio-słowiański"@pl,
+		"język starorosyjski"@pl,
+		"gamalaustslavisk"@nn,
+		"vieux slave oriental"@fr,
+		"langue de la Rus'"@fr,
+		"vieux ukrainien"@fr,
+		"vieux biélorusse"@fr,
+		"vieux-russien"@fr,
+		"vieux-russe"@fr,
+		"senaustrumslāvu valoda"@lv,
+		"Russu antik"@mt,
+		"qədim rusca"@az,
+		"qədim şərqi slavyan dili"@az,
+		"qədim şərqi slavyanca"@az .
+
+wd:Q13028187 owl:sameAs wd:Q35228 .

@@ -1,0 +1,104 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3192221 a schema:Dataset ;
+	schema:about wd:Q3192221 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1372579487"^^xsd:integer ;
+	schema:dateModified "2021-02-28T20:20:26Z"^^xsd:dateTime .
+
+wd:Q3192221 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Kallahan_keley-i> a schema:Article ;
+	schema:about wd:Q3192221 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kallahan keley-i"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_kallahan,_keley-i> a schema:Article ;
+	schema:about wd:Q3192221 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kallahan, keley-i"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikallahan-Keley-i> a schema:Article ;
+	schema:about wd:Q3192221 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikallahan-Keley-i"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3192221 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "ify" ;
+	wdt:P279 wd:Q6353484 ;
+	wdt:P220 "ify" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ify> ;
+	wdt:P1394 "kele1259" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kele1259> ;
+	wdt:P1627 "ify" ;
+	wdt:P3823 wd:Q29051550 ;
+	wdt:P17 wd:Q928 ;
+	wdt:P2341 wd:Q13812 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/IFY> ;
+	wdt:P646 "/m/02hws6l" ;
+	wdt:P910 wd:Q105714782 ;
+	rdfs:label "kallahan keley-i"@fr ;
+	skos:prefLabel "kallahan keley-i"@fr ;
+	schema:name "kallahan keley-i"@fr ;
+	rdfs:label "Lenga kallahan, keley-i"@pms ;
+	skos:prefLabel "Lenga kallahan, keley-i"@pms ;
+	schema:name "Lenga kallahan, keley-i"@pms ;
+	rdfs:label "Kikallahan-Keley-i"@sw ;
+	skos:prefLabel "Kikallahan-Keley-i"@sw ;
+	schema:name "Kikallahan-Keley-i"@sw ;
+	rdfs:label "Keley-I Kallahan"@en ;
+	skos:prefLabel "Keley-I Kallahan"@en ;
+	schema:name "Keley-I Kallahan"@en ;
+	rdfs:label "Keley-I Kallahan"@en-gb ;
+	skos:prefLabel "Keley-I Kallahan"@en-gb ;
+	schema:name "Keley-I Kallahan"@en-gb ;
+	schema:description "שפה"@he,
+		"langue Luçon du Nord"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy .

@@ -1,0 +1,128 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3553248 a schema:Dataset ;
+	schema:about wd:Q3553248 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960526389"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:43:16Z"^^xsd:dateTime .
+
+wd:Q3553248 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Vaghua> a schema:Article ;
+	schema:about wd:Q3553248 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Vaghua"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Vaghua> a schema:Article ;
+	schema:about wd:Q3553248 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Vaghua"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Vaghua> a schema:Article ;
+	schema:about wd:Q3553248 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Vaghua"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kivaghua> a schema:Article ;
+	schema:about wd:Q3553248 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kivaghua"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Vaghua_language> a schema:Article ;
+	schema:about wd:Q3553248 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Vaghua language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3553248 wdt:P305 "tva" ;
+	wdt:P220 "tva" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tva> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q2701282 ;
+	wdt:P1394 "vagh1249" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/vagh1249> ;
+	wdt:P1014 "300389512" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389512> ;
+	wdt:P1627 "tva" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q685 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TVA> ;
+	wdt:P646 "/m/02hx4_f" ;
+	wdt:P910 wd:Q33657152 ;
+	rdfs:label "vaghua"@fr ;
+	skos:prefLabel "vaghua"@fr ;
+	schema:name "vaghua"@fr ;
+	rdfs:label "Vaghua"@en ;
+	skos:prefLabel "Vaghua"@en ;
+	schema:name "Vaghua"@en ;
+	rdfs:label "Lenga Vaghua"@pms ;
+	skos:prefLabel "Lenga Vaghua"@pms ;
+	schema:name "Lenga Vaghua"@pms ;
+	rdfs:label "Kivaghua"@sw ;
+	skos:prefLabel "Kivaghua"@sw ;
+	schema:name "Kivaghua"@sw ;
+	rdfs:label "Vaghua"@ilo ;
+	skos:prefLabel "Vaghua"@ilo ;
+	schema:name "Vaghua"@ilo ;
+	rdfs:label "Vaghua"@en-gb ;
+	skos:prefLabel "Vaghua"@en-gb ;
+	schema:name "Vaghua"@en-gb ;
+	rdfs:label "Vaghua"@nl ;
+	skos:prefLabel "Vaghua"@nl ;
+	schema:name "Vaghua"@nl ;
+	schema:description "langue de Nouvelle-Irlande"@fr,
+		"Sprache"@de,
+		"pagsasao idiay Is-isla Solomon"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy .

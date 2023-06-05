@@ -1,0 +1,387 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4778608 a schema:Dataset ;
+	schema:about wd:Q4778608 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912428319"^^xsd:integer ;
+	schema:dateModified "2023-06-10T17:48:47Z"^^xsd:dateTime .
+
+wd:Q4778608 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_aoheng> a schema:Article ;
+	schema:about wd:Q4778608 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga aoheng"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Aoheng> a schema:Article ;
+	schema:about wd:Q4778608 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Aoheng"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiaoheng> a schema:Article ;
+	schema:about wd:Q4778608 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiaoheng"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Aoheng_language> a schema:Article ;
+	schema:about wd:Q4778608 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Aoheng language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Aoheng> a schema:Article ;
+	schema:about wd:Q4778608 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Aoheng"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Aoheng_jezik> a schema:Article ;
+	schema:about wd:Q4778608 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Aoheng jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Aoheng> a schema:Article ;
+	schema:about wd:Q4778608 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Aoheng"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Aoheng> a schema:Article ;
+	schema:about wd:Q4778608 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Aoheng"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4778608 wdt:P220 "pni" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pni> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "aohe1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/aohe1237> ;
+	wdt:P2590 "0425 0" ;
+	wdt:P1705 "bahasa Aoheng"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P305 "pni" ;
+	wdt:P1627 "pni" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2341 wd:Q3795,
+		wd:Q3899,
+		wd:Q3891 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PNI> ;
+	wdt:P646 "/m/02hx2j2" ;
+	wdt:P910 wd:Q33656271 ;
+	wdt:P4839 "Entity[\"Language\", \"Aoheng::v5cvj\"]",
+		"Entity[\"Language\", \"Aoheng\"]" ;
+	rdfs:label "Aoheng"@en ;
+	skos:prefLabel "Aoheng"@en ;
+	schema:name "Aoheng"@en ;
+	rdfs:label "Lenga aoheng"@pms ;
+	skos:prefLabel "Lenga aoheng"@pms ;
+	schema:name "Lenga aoheng"@pms ;
+	rdfs:label "Aoheng jezik"@hr ;
+	skos:prefLabel "Aoheng jezik"@hr ;
+	schema:name "Aoheng jezik"@hr ;
+	rdfs:label "Bahasa Aoheng"@id ;
+	skos:prefLabel "Bahasa Aoheng"@id ;
+	schema:name "Bahasa Aoheng"@id ;
+	rdfs:label "Kiaoheng"@sw ;
+	skos:prefLabel "Kiaoheng"@sw ;
+	schema:name "Kiaoheng"@sw ;
+	rdfs:label "Aoheng"@ilo ;
+	skos:prefLabel "Aoheng"@ilo ;
+	schema:name "Aoheng"@ilo ;
+	rdfs:label "Aoheng"@ace ;
+	skos:prefLabel "Aoheng"@ace ;
+	schema:name "Aoheng"@ace ;
+	rdfs:label "Aoheng"@af ;
+	skos:prefLabel "Aoheng"@af ;
+	schema:name "Aoheng"@af ;
+	rdfs:label "Aoheng"@an ;
+	skos:prefLabel "Aoheng"@an ;
+	schema:name "Aoheng"@an ;
+	rdfs:label "Aoheng"@ast ;
+	skos:prefLabel "Aoheng"@ast ;
+	schema:name "Aoheng"@ast ;
+	rdfs:label "Aoheng"@bar ;
+	skos:prefLabel "Aoheng"@bar ;
+	schema:name "Aoheng"@bar ;
+	rdfs:label "aoheng"@br ;
+	skos:prefLabel "aoheng"@br ;
+	schema:name "aoheng"@br ;
+	rdfs:label "aoheng"@ca ;
+	skos:prefLabel "aoheng"@ca ;
+	schema:name "aoheng"@ca ;
+	rdfs:label "Aoheng"@co ;
+	skos:prefLabel "Aoheng"@co ;
+	schema:name "Aoheng"@co ;
+	rdfs:label "Aoheng"@cs ;
+	skos:prefLabel "Aoheng"@cs ;
+	schema:name "Aoheng"@cs ;
+	rdfs:label "Aoheng"@cy ;
+	skos:prefLabel "Aoheng"@cy ;
+	schema:name "Aoheng"@cy ;
+	rdfs:label "Aoheng"@da ;
+	skos:prefLabel "Aoheng"@da ;
+	schema:name "Aoheng"@da ;
+	rdfs:label "Aoheng"@de ;
+	skos:prefLabel "Aoheng"@de ;
+	schema:name "Aoheng"@de ;
+	rdfs:label "Aoheng"@de-at ;
+	skos:prefLabel "Aoheng"@de-at ;
+	schema:name "Aoheng"@de-at ;
+	rdfs:label "Aoheng"@de-ch ;
+	skos:prefLabel "Aoheng"@de-ch ;
+	schema:name "Aoheng"@de-ch ;
+	rdfs:label "Aoheng"@en-ca ;
+	skos:prefLabel "Aoheng"@en-ca ;
+	schema:name "Aoheng"@en-ca ;
+	rdfs:label "Aoheng"@en-gb ;
+	skos:prefLabel "Aoheng"@en-gb ;
+	schema:name "Aoheng"@en-gb ;
+	rdfs:label "Aoheng"@eo ;
+	skos:prefLabel "Aoheng"@eo ;
+	schema:name "Aoheng"@eo ;
+	rdfs:label "Aoheng"@es ;
+	skos:prefLabel "Aoheng"@es ;
+	schema:name "Aoheng"@es ;
+	rdfs:label "Aoheng"@et ;
+	skos:prefLabel "Aoheng"@et ;
+	schema:name "Aoheng"@et ;
+	rdfs:label "Aoheng"@eu ;
+	skos:prefLabel "Aoheng"@eu ;
+	schema:name "Aoheng"@eu ;
+	rdfs:label "Aoheng"@fi ;
+	skos:prefLabel "Aoheng"@fi ;
+	schema:name "Aoheng"@fi ;
+	rdfs:label "aoheng"@fr ;
+	skos:prefLabel "aoheng"@fr ;
+	schema:name "aoheng"@fr ;
+	rdfs:label "Aoheng"@frp ;
+	skos:prefLabel "Aoheng"@frp ;
+	schema:name "Aoheng"@frp ;
+	rdfs:label "Aoheng"@fur ;
+	skos:prefLabel "Aoheng"@fur ;
+	schema:name "Aoheng"@fur ;
+	rdfs:label "Aoheng"@ga ;
+	skos:prefLabel "Aoheng"@ga ;
+	schema:name "Aoheng"@ga ;
+	rdfs:label "Aoheng"@gd ;
+	skos:prefLabel "Aoheng"@gd ;
+	schema:name "Aoheng"@gd ;
+	rdfs:label "Aoheng"@gl ;
+	skos:prefLabel "Aoheng"@gl ;
+	schema:name "Aoheng"@gl ;
+	rdfs:label "Aoheng"@gsw ;
+	skos:prefLabel "Aoheng"@gsw ;
+	schema:name "Aoheng"@gsw ;
+	rdfs:label "Aoheng"@hu ;
+	skos:prefLabel "Aoheng"@hu ;
+	schema:name "Aoheng"@hu ;
+	rdfs:label "Aoheng"@ia ;
+	skos:prefLabel "Aoheng"@ia ;
+	schema:name "Aoheng"@ia ;
+	rdfs:label "Aoheng"@ie ;
+	skos:prefLabel "Aoheng"@ie ;
+	schema:name "Aoheng"@ie ;
+	rdfs:label "Aoheng"@io ;
+	skos:prefLabel "Aoheng"@io ;
+	schema:name "Aoheng"@io ;
+	rdfs:label "Aoheng"@is ;
+	skos:prefLabel "Aoheng"@is ;
+	schema:name "Aoheng"@is ;
+	rdfs:label "aoheng"@it ;
+	skos:prefLabel "aoheng"@it ;
+	schema:name "aoheng"@it ;
+	rdfs:label "Aoheng"@jv ;
+	skos:prefLabel "Aoheng"@jv ;
+	schema:name "Aoheng"@jv ;
+	rdfs:label "Aoheng"@kg ;
+	skos:prefLabel "Aoheng"@kg ;
+	schema:name "Aoheng"@kg ;
+	rdfs:label "Aoheng"@lb ;
+	skos:prefLabel "Aoheng"@lb ;
+	schema:name "Aoheng"@lb ;
+	rdfs:label "Aoheng"@li ;
+	skos:prefLabel "Aoheng"@li ;
+	schema:name "Aoheng"@li ;
+	rdfs:label "Aoheng"@lij ;
+	skos:prefLabel "Aoheng"@lij ;
+	schema:name "Aoheng"@lij ;
+	rdfs:label "Aoheng"@mg ;
+	skos:prefLabel "Aoheng"@mg ;
+	schema:name "Aoheng"@mg ;
+	rdfs:label "Aoheng"@min ;
+	skos:prefLabel "Aoheng"@min ;
+	schema:name "Aoheng"@min ;
+	rdfs:label "Aoheng"@ms ;
+	skos:prefLabel "Aoheng"@ms ;
+	schema:name "Aoheng"@ms ;
+	rdfs:label "Aoheng"@nap ;
+	skos:prefLabel "Aoheng"@nap ;
+	schema:name "Aoheng"@nap ;
+	rdfs:label "Aoheng"@nb ;
+	skos:prefLabel "Aoheng"@nb ;
+	schema:name "Aoheng"@nb ;
+	rdfs:label "Aoheng"@nds ;
+	skos:prefLabel "Aoheng"@nds ;
+	schema:name "Aoheng"@nds ;
+	rdfs:label "Aoheng"@nds-nl ;
+	skos:prefLabel "Aoheng"@nds-nl ;
+	schema:name "Aoheng"@nds-nl ;
+	rdfs:label "Aoheng"@nl ;
+	skos:prefLabel "Aoheng"@nl ;
+	schema:name "Aoheng"@nl ;
+	rdfs:label "Aoheng"@nn ;
+	skos:prefLabel "Aoheng"@nn ;
+	schema:name "Aoheng"@nn ;
+	rdfs:label "Aoheng"@nrm ;
+	skos:prefLabel "Aoheng"@nrm ;
+	schema:name "Aoheng"@nrm ;
+	rdfs:label "Aoheng"@oc ;
+	skos:prefLabel "Aoheng"@oc ;
+	schema:name "Aoheng"@oc ;
+	rdfs:label "Aoheng"@pcd ;
+	skos:prefLabel "Aoheng"@pcd ;
+	schema:name "Aoheng"@pcd ;
+	rdfs:label "Aoheng"@pl ;
+	skos:prefLabel "Aoheng"@pl ;
+	schema:name "Aoheng"@pl ;
+	rdfs:label "Aoheng"@pt ;
+	skos:prefLabel "Aoheng"@pt ;
+	schema:name "Aoheng"@pt ;
+	rdfs:label "Aoheng"@pt-br ;
+	skos:prefLabel "Aoheng"@pt-br ;
+	schema:name "Aoheng"@pt-br ;
+	rdfs:label "Aoheng"@rm ;
+	skos:prefLabel "Aoheng"@rm ;
+	schema:name "Aoheng"@rm ;
+	rdfs:label "Aoheng"@ro ;
+	skos:prefLabel "Aoheng"@ro ;
+	schema:name "Aoheng"@ro ;
+	rdfs:label "Aoheng"@sc ;
+	skos:prefLabel "Aoheng"@sc ;
+	schema:name "Aoheng"@sc ;
+	rdfs:label "Aoheng"@scn ;
+	skos:prefLabel "Aoheng"@scn ;
+	schema:name "Aoheng"@scn ;
+	rdfs:label "Aoheng"@sco ;
+	skos:prefLabel "Aoheng"@sco ;
+	schema:name "Aoheng"@sco ;
+	rdfs:label "Aoheng"@sk ;
+	skos:prefLabel "Aoheng"@sk ;
+	schema:name "Aoheng"@sk ;
+	rdfs:label "Aoheng"@sl ;
+	skos:prefLabel "Aoheng"@sl ;
+	schema:name "Aoheng"@sl ;
+	rdfs:label "Aoheng"@sr-el ;
+	skos:prefLabel "Aoheng"@sr-el ;
+	schema:name "Aoheng"@sr-el ;
+	rdfs:label "Aoheng"@su ;
+	skos:prefLabel "Aoheng"@su ;
+	schema:name "Aoheng"@su ;
+	rdfs:label "Aoheng"@sv ;
+	skos:prefLabel "Aoheng"@sv ;
+	schema:name "Aoheng"@sv ;
+	rdfs:label "Aoheng"@vec ;
+	skos:prefLabel "Aoheng"@vec ;
+	schema:name "Aoheng"@vec ;
+	rdfs:label "Aoheng"@vi ;
+	skos:prefLabel "Aoheng"@vi ;
+	schema:name "Aoheng"@vi ;
+	rdfs:label "Aoheng"@vls ;
+	skos:prefLabel "Aoheng"@vls ;
+	schema:name "Aoheng"@vls ;
+	rdfs:label "Aoheng"@vo ;
+	skos:prefLabel "Aoheng"@vo ;
+	schema:name "Aoheng"@vo ;
+	rdfs:label "Aoheng"@wa ;
+	skos:prefLabel "Aoheng"@wa ;
+	schema:name "Aoheng"@wa ;
+	rdfs:label "Aoheng"@wo ;
+	skos:prefLabel "Aoheng"@wo ;
+	schema:name "Aoheng"@wo ;
+	rdfs:label "Aoheng"@zu ;
+	skos:prefLabel "Aoheng"@zu ;
+	schema:name "Aoheng"@zu ;
+	rdfs:label "Wikang Aoheng"@tl ;
+	skos:prefLabel "Wikang Aoheng"@tl ;
+	schema:name "Wikang Aoheng"@tl ;
+	rdfs:label "Tataramon na Aoheng"@bcl ;
+	skos:prefLabel "Tataramon na Aoheng"@bcl ;
+	schema:name "Tataramon na Aoheng"@bcl ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Indonesia"@ilo,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Aoheng language"@en,
+		"Lenga Aoheng"@pms,
+		"Bahasa aoheng"@id,
+		"Aoheng"@id,
+		"bahasa Aoheng"@id,
+		"bahasa Penihing"@id .
+
+wd:Q12473344 owl:sameAs wd:Q4778608 .
+
+wd:Q12953364 owl:sameAs wd:Q4778608 .
+
+wd:Q25037036 owl:sameAs wd:Q4778608 .
+
+wd:Q31441537 owl:sameAs wd:Q4778608 .

@@ -1,0 +1,119 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3403245 a schema:Dataset ;
+	schema:about wd:Q3403245 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1368227258"^^xsd:integer ;
+	schema:dateModified "2021-02-23T12:31:17Z"^^xsd:dateTime .
+
+wd:Q3403245 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Primi_du_Nord> a schema:Article ;
+	schema:about wd:Q3403245 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Primi du Nord"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Pumi_setentrional> a schema:Article ;
+	schema:about wd:Q3403245 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Pumi setentrional"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kipumi_cha_Kaskazini> a schema:Article ;
+	schema:about wd:Q3403245 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kipumi cha Kaskazini"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Poumieg_an_norzh> a schema:Article ;
+	schema:about wd:Q3403245 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Poumieg an norzh"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3403245 wdt:P220 "pmi" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pmi> ;
+	wdt:P305 "pmi" ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q11089833 ;
+	wdt:P1394 "nort2723" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nort2723> ;
+	wdt:P910 wd:Q33664538 ;
+	wdt:P2192 "5607" ;
+	wdt:P1627 "pmi" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q19770,
+		wd:Q43194 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PMI> ;
+	wdt:P2671 "/g/1q6fq55mn" ;
+	wdtn:P2671 <http://g.co/kg/g/1q6fq55mn> ;
+	rdfs:label "primi septentrional"@fr ;
+	skos:prefLabel "primi septentrional"@fr ;
+	schema:name "primi septentrional"@fr ;
+	rdfs:label "poumieg an norzh"@br ;
+	skos:prefLabel "poumieg an norzh"@br ;
+	schema:name "poumieg an norzh"@br ;
+	rdfs:label "Lenga Pumi setentrional"@pms ;
+	skos:prefLabel "Lenga Pumi setentrional"@pms ;
+	schema:name "Lenga Pumi setentrional"@pms ;
+	rdfs:label "Northern Pumi"@en ;
+	skos:prefLabel "Northern Pumi"@en ;
+	schema:name "Northern Pumi"@en ;
+	rdfs:label "Kipumi ya Kaskazini"@sw ;
+	skos:prefLabel "Kipumi ya Kaskazini"@sw ;
+	schema:name "Kipumi ya Kaskazini"@sw ;
+	rdfs:label "Northern Pumi"@en-gb ;
+	skos:prefLabel "Northern Pumi"@en-gb ;
+	schema:name "Northern Pumi"@en-gb ;
+	schema:description "שפה"@he,
+		"langue qianguique"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "primi du Nord"@fr .

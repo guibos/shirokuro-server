@@ -1,0 +1,92 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5402493 a schema:Dataset ;
+	schema:about wd:Q5402493 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1591012151"^^xsd:integer ;
+	schema:dateModified "2022-03-10T22:11:35Z"^^xsd:dateTime .
+
+wd:Q5402493 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Etchemin_language> a schema:Article ;
+	schema:about wd:Q5402493 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Etchemin language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Etchemin_jezik> a schema:Article ;
+	schema:about wd:Q5402493 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Etchemin jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5402493 wdt:P220 "etc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/etc> ;
+	wdt:P31 wd:Q45762,
+		wd:Q38058796 ;
+	a wdno:P1394 ;
+	wdt:P1232 "etc" ;
+	wdt:P279 wd:Q2257525 ;
+	wdt:P305 "etc" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/ETC> ;
+	wdt:P646 "/m/0bsnwn" ;
+	wdt:P910 wd:Q105714358 ;
+	rdfs:label "Etchemin jezik"@hr ;
+	skos:prefLabel "Etchemin jezik"@hr ;
+	schema:name "Etchemin jezik"@hr ;
+	rdfs:label "Etchemin"@en ;
+	skos:prefLabel "Etchemin"@en ;
+	schema:name "Etchemin"@en ;
+	rdfs:label "Etchemin"@en-gb ;
+	skos:prefLabel "Etchemin"@en-gb ;
+	schema:name "Etchemin"@en-gb ;
+	rdfs:label "etchemin"@fr ;
+	skos:prefLabel "etchemin"@fr ;
+	schema:name "etchemin"@fr ;
+	rdfs:label "ечеменски јазик"@mk ;
+	skos:prefLabel "ечеменски јазик"@mk ;
+	schema:name "ечеменски јазик"@mk ;
+	rdfs:label "Wikang Etchemin"@tl ;
+	skos:prefLabel "Wikang Etchemin"@tl ;
+	schema:name "Wikang Etchemin"@tl ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue algonquienne morte"@fr,
+		"language of the Algonquian language family, spoken in early colonial times on the coast of Maine"@en ;
+	skos:altLabel "Etchemin language"@en .
+
+wd:Q61097398 owl:sameAs wd:Q5402493 .

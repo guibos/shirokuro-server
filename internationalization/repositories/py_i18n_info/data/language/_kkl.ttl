@@ -1,0 +1,163 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6432995 a schema:Dataset ;
+	schema:about wd:Q6432995 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912062956"^^xsd:integer ;
+	schema:dateModified "2023-06-10T08:55:52Z"^^xsd:dateTime .
+
+wd:Q6432995 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Kosarek_language> a schema:Article ;
+	schema:about wd:Q6432995 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kosarek language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Yale,_Kosarek> a schema:Article ;
+	schema:about wd:Q6432995 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Yale, Kosarek"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Kosarek_Yale_jezik> a schema:Article ;
+	schema:about wd:Q6432995 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Kosarek Yale jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Kosarek> a schema:Article ;
+	schema:about wd:Q6432995 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Kosarek"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiyale_cha_Kosarek> a schema:Article ;
+	schema:about wd:Q6432995 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiyale cha Kosarek"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_yale-kosarek> a schema:Article ;
+	schema:about wd:Q6432995 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język yale-kosarek"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Mek_Kosarek> a schema:Article ;
+	schema:about wd:Q6432995 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Mek Kosarek"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6432995 wdt:P220 "kkl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kkl> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kosa1249" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kosa1249> ;
+	wdt:P2590 "0956 4" ;
+	wdt:P1705 "bahasa In-lom"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P910 wd:Q36159377 ;
+	wdt:P279 wd:Q6810515 ;
+	wdt:P1466 "yal" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_yal> ;
+	wdt:P305 "kkl" ;
+	wdt:P1627 "kkl" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2341 wd:Q5095 ;
+	wdt:P646 "/m/02hxddx" ;
+	rdfs:label "Kosarek"@en ;
+	skos:prefLabel "Kosarek"@en ;
+	schema:name "Kosarek"@en ;
+	rdfs:label "Kiyale ya Kosarek"@sw ;
+	skos:prefLabel "Kiyale ya Kosarek"@sw ;
+	schema:name "Kiyale ya Kosarek"@sw ;
+	rdfs:label "Lenga Yale"@pms ;
+	skos:prefLabel "Lenga Yale"@pms ;
+	schema:name "Lenga Yale"@pms ;
+	rdfs:label "Język kosarek"@pl ;
+	skos:prefLabel "Język kosarek"@pl ;
+	schema:name "Język kosarek"@pl ;
+	rdfs:label "Kosarek Yale jezik"@hr ;
+	skos:prefLabel "Kosarek Yale jezik"@hr ;
+	schema:name "Kosarek Yale jezik"@hr ;
+	rdfs:label "Kosarek"@ilo ;
+	skos:prefLabel "Kosarek"@ilo ;
+	schema:name "Kosarek"@ilo ;
+	rdfs:label "In-lom"@id ;
+	skos:prefLabel "In-lom"@id ;
+	schema:name "In-lom"@id ;
+	rdfs:label "kosarek yale"@fr ;
+	skos:prefLabel "kosarek yale"@fr ;
+	schema:name "kosarek yale"@fr ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"pagsasao idiay Indonesia"@ilo,
+		"bagian dari rumpun bahasa Papua"@id,
+		"taal"@nl,
+		"langue mek"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Papuan language of West Papua"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"język"@pl ;
+	skos:altLabel "Kosarek Yale"@en,
+		"Kosarek language"@en,
+		"bahasa In-lom"@id,
+		"bahasa Yale Kosarek"@id,
+		"bahasa Yale-Kosarek"@id,
+		"kosarek"@fr .
+
+wd:Q11732351 owl:sameAs wd:Q6432995 .
+
+wd:Q16115487 owl:sameAs wd:Q6432995 .
+
+wd:Q25932478 owl:sameAs wd:Q6432995 .

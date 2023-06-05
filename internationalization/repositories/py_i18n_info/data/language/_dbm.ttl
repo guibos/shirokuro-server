@@ -1,0 +1,104 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7194057 a schema:Dataset ;
+	schema:about wd:Q7194057 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1062719520"^^xsd:integer ;
+	schema:dateModified "2019-11-26T14:59:02Z"^^xsd:dateTime .
+
+wd:Q7194057 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Duguri> a schema:Article ;
+	schema:about wd:Q7194057 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Duguri"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiduguri> a schema:Article ;
+	schema:about wd:Q7194057 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiduguri"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7194057 wdt:P220 "dbm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dbm> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1098 "+65000"^^xsd:decimal ;
+	wdt:P279 wd:Q35423 ;
+	wdt:P1394 "dugu1249" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/dugu1249> ;
+	wdt:P305 "dbm" ;
+	wdt:P1627 "dbm" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q503936,
+		wd:Q509300,
+		wd:Q503928,
+		wd:Q463959 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DBM> ;
+	rdfs:label "Kiduguri"@sw ;
+	skos:prefLabel "Kiduguri"@sw ;
+	schema:name "Kiduguri"@sw ;
+	rdfs:label "Lenga Duguri"@pms ;
+	skos:prefLabel "Lenga Duguri"@pms ;
+	schema:name "Lenga Duguri"@pms ;
+	rdfs:label "Duguri"@en ;
+	skos:prefLabel "Duguri"@en ;
+	schema:name "Duguri"@en ;
+	rdfs:label "Duguri"@en-gb ;
+	skos:prefLabel "Duguri"@en-gb ;
+	schema:name "Duguri"@en-gb ;
+	schema:description "Sprache"@de,
+		"language of Nigeria"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Zugur"@en,
+		"Doori"@en,
+		"Dugarwa"@en,
+		"Duguranchi"@en,
+		"Dugurawa"@en,
+		"Dukuri"@en,
+		"Duguri language"@en .
+
+wd:Q17523699 owl:sameAs wd:Q7194057 .

@@ -1,0 +1,135 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3913837 a schema:Dataset ;
+	schema:about wd:Q3913837 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616003322"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:56:16Z"^^xsd:dateTime .
+
+wd:Q3913837 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_karadjeri> a schema:Article ;
+	schema:about wd:Q3913837 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga karadjeri"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Karadjeri> a schema:Article ;
+	schema:about wd:Q3913837 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Karadjeri"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikaradjeri> a schema:Article ;
+	schema:about wd:Q3913837 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikaradjeri"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Garadjari_language> a schema:Article ;
+	schema:about wd:Q3913837 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Garadjari language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3913837 wdt:P220 "gbd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gbd> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kara1476" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kara1476> ;
+	wdt:P1252 "A64" ;
+	wdt:P2355 "194" ;
+	wdt:P1466 "krj" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_krj> ;
+	wdt:P2192 "4191" ;
+	wdt:P279 wd:Q16151520 ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P305 "gbd" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P1627 "gbd" ;
+	wdt:P1251 "8917" ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3206 ;
+	wdt:P6915 "Karajarri" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GBD> ;
+	wdt:P646 "/m/0d55q4" ;
+	wdt:P910 wd:Q105715397 ;
+	rdfs:label "Lenga karadjeri"@pms ;
+	skos:prefLabel "Lenga karadjeri"@pms ;
+	schema:name "Lenga karadjeri"@pms ;
+	rdfs:label "Garadjari"@en ;
+	skos:prefLabel "Garadjari"@en ;
+	schema:name "Garadjari"@en ;
+	rdfs:label "Karadjeri"@sv ;
+	skos:prefLabel "Karadjeri"@sv ;
+	schema:name "Karadjeri"@sv ;
+	rdfs:label "Kikaradjeri"@sw ;
+	skos:prefLabel "Kikaradjeri"@sw ;
+	schema:name "Kikaradjeri"@sw ;
+	rdfs:label "karadjeri"@fr ;
+	skos:prefLabel "karadjeri"@fr ;
+	schema:name "karadjeri"@fr ;
+	rdfs:label "卡拉傑瑞神話"@zh-hant ;
+	skos:prefLabel "卡拉傑瑞神話"@zh-hant ;
+	schema:name "卡拉傑瑞神話"@zh-hant ;
+	rdfs:label "卡拉杰瑞神话"@zh-hans ;
+	skos:prefLabel "卡拉杰瑞神话"@zh-hans ;
+	schema:name "卡拉杰瑞神话"@zh-hans ;
+	rdfs:label "卡拉杰瑞神话"@zh ;
+	skos:prefLabel "卡拉杰瑞神话"@zh ;
+	schema:name "卡拉杰瑞神话"@zh ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"lugha ya asili ya Australia"@sw,
+		"langue pama-nyungan"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Karadjeri"@en,
+		"Karajarri"@en,
+		"Garadjari language"@en,
+		"Kigaradjari"@sw,
+		"karajarri"@fr .

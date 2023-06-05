@@ -1,0 +1,123 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q19682167 a schema:Dataset ;
+	schema:about wd:Q19682167 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1870850902"^^xsd:integer ;
+	schema:dateModified "2023-04-08T15:36:13Z"^^xsd:dateTime .
+
+wd:Q19682167 a wikibase:Item .
+
+<https://de.wikipedia.org/wiki/Kreol-_und_Pidginsprachen> a schema:Article ;
+	schema:about wd:Q19682167 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Kreol- und Pidginsprachen"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q19682167 wdt:P910 wd:Q9005482 ;
+	wdt:P31 wd:Q28923954 ;
+	wdt:P373 "Pidgins and creoles" ;
+	wdt:P305 "crp" ;
+	wdt:P1798 "crp" ;
+	wdt:P219 "crp" ;
+	wdt:P279 wd:Q20162172 ;
+	wdt:P3417 "Pidgins-and-Creoles" ;
+	wdt:P4801 "languages/crp" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/crp> ;
+	wdt:P4801 "iso639-5/crp" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/iso639-5/crp> ;
+	wdt:P4801 "iso639-2/crp" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/iso639-2/crp> ;
+	wdt:P2671 "/g/11hy9tlzgv" ;
+	wdtn:P2671 <http://g.co/kg/g/11hy9tlzgv> ;
+	rdfs:label "pidgins ou créoles"@fr ;
+	skos:prefLabel "pidgins ou créoles"@fr ;
+	schema:name "pidgins ou créoles"@fr ;
+	rdfs:label "pidgin or creole"@en ;
+	skos:prefLabel "pidgin or creole"@en ;
+	schema:name "pidgin or creole"@en ;
+	rdfs:label "pidgins y lenguas criollas"@es ;
+	skos:prefLabel "pidgins y lenguas criollas"@es ;
+	schema:name "pidgins y lenguas criollas"@es ;
+	rdfs:label "pidgins e creòls"@oc ;
+	skos:prefLabel "pidgins e creòls"@oc ;
+	schema:name "pidgins e creòls"@oc ;
+	rdfs:label "Pidgin- oder Kreolsprache"@de ;
+	skos:prefLabel "Pidgin- oder Kreolsprache"@de ;
+	schema:name "Pidgin- oder Kreolsprache"@de ;
+	rdfs:label "пиджины и креолы"@ru ;
+	skos:prefLabel "пиджины и креолы"@ru ;
+	schema:name "пиджины и креолы"@ru ;
+	rdfs:label "пиџини и креоли"@mk ;
+	skos:prefLabel "пиџини и креоли"@mk ;
+	schema:name "пиџини и креоли"@mk ;
+	rdfs:label "pidgins i criolls"@ca ;
+	skos:prefLabel "pidgins i criolls"@ca ;
+	schema:name "pidgins i criolls"@ca ;
+	rdfs:label "piĝino aŭ kreola lingvo"@eo ;
+	skos:prefLabel "piĝino aŭ kreola lingvo"@eo ;
+	schema:name "piĝino aŭ kreola lingvo"@eo ;
+	rdfs:label "pidgin și creole"@ro ;
+	skos:prefLabel "pidgin și creole"@ro ;
+	schema:name "pidgin și creole"@ro ;
+	rdfs:label "পিজিন বা ক্রেওল"@bn ;
+	skos:prefLabel "পিজিন বা ক্রেওল"@bn ;
+	schema:name "পিজিন বা ক্রেওল"@bn ;
+	rdfs:label "皮钦语或克里奥尔语"@zh ;
+	skos:prefLabel "皮钦语或克里奥尔语"@zh ;
+	schema:name "皮钦语或克里奥尔语"@zh ;
+	rdfs:label "піджын ці крэол"@be-tarask ;
+	skos:prefLabel "піджын ці крэол"@be-tarask ;
+	schema:name "піджын ці крэол"@be-tarask ;
+	rdfs:label "pidgina"@eu ;
+	skos:prefLabel "pidgina"@eu ;
+	schema:name "pidgina"@eu ;
+	rdfs:label "pidgin ou crioulo"@pt ;
+	skos:prefLabel "pidgin ou crioulo"@pt ;
+	schema:name "pidgin ou crioulo"@pt ;
+	rdfs:label "ピジン・クレオール言語"@ja ;
+	skos:prefLabel "ピジン・クレオール言語"@ja ;
+	schema:name "ピジン・クレオール言語"@ja ;
+	rdfs:label "pidsean nó criól"@ga ;
+	skos:prefLabel "pidsean nó criól"@ga ;
+	schema:name "pidsean nó criól"@ga ;
+	skos:altLabel "піджыны і крэолы"@be-tarask,
+		"піджыны і крэольскія мовы"@be-tarask,
+		"піджын ці крэольская мова"@be-tarask,
+		"Kreol- und Pidginsprachen"@de,
+		"creoles and pidgins"@en,
+		"pidgins et créoles"@fr .
+
+wd:Q65239900 owl:sameAs wd:Q19682167 .

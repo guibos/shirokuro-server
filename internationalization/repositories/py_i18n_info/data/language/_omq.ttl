@@ -1,0 +1,586 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33669 a schema:Dataset ;
+	schema:about wd:Q33669 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1867632014"^^xsd:integer ;
+	schema:dateModified "2023-04-03T21:10:50Z"^^xsd:dateTime .
+
+wd:Q33669 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Oto-Manguean_languages> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Oto-Manguean languages"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Langues_oto-mangues> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Langues oto-mangues"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Lenguas_otomangues> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Lenguas otomangues"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9E%D1%82%D0%BE-%D0%BC%D0%B0%D0%BD%D0%B3%D1%81%D0%BA%D0%B8%D0%B5_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Ото-мангские языки"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingue_oto-mangue> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingue oto-mangue"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%88%E3%83%BB%E3%83%9E%E3%83%B3%E3%82%B2%E8%AA%9E%E6%97%8F> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "オト・マンゲ語族"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyki_oto-mangueskie> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Języki oto-mangueskie"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%AD%90%E6%89%98-%E6%9B%BC%E6%A0%BC%E8%AA%9E%E7%B3%BB> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "歐托-曼格語系"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Oto-mangueanska_spr%C3%A5k> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Oto-mangueanska språk"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Oto-Mange_dilleri> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Oto-Mange dilleri"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Otomangueanske_spr%C3%A5k> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Otomangueanske språk"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Otomang> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Otomang"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%9E%D1%82%D0%BE-%D0%BC%D0%B0%D0%BD%D0%B3%D0%B5_%D1%98%D0%B5%D0%B7%D0%B8%D1%86%D0%B8> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Ото-манге језици"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Lling%C3%BCes_otomangues> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Llingües otomangues"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D8%A7%D9%88%D9%92%D8%AA%D9%88-%D9%85%D8%A7%D9%86%D9%82%D9%87_%D8%AF%DB%8C%D9%84%D9%84%D8%B1%DB%8C> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "اوْتو-مانقه دیللری"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Yezho%C3%B9_otek-mangeek> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Yezhoù otek-mangeek"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Otomi-mangea_lingvaro> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Otomi-mangea lingvaro"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Oto-mange_keeled> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Oto-mange keeled"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Linguas_otomangueanas> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Linguas otomangueanas"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Oto-Mangue_Indijanci> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Oto-Mangue Indijanci"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/%C3%93t%C3%B3mangve%C3%ADsk_tungum%C3%A1l> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Ótómangveísk tungumál"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Otomang%C5%B3_kalbos> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Otomangų kalbos"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%9E%D1%82%D0%BE%D0%BC%D0%B8%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D1%86%D0%B8> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Отомиски јазици"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nah.wikipedia.org/wiki/Otommanguetlahtolli> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "nah" ;
+	schema:isPartOf <https://nah.wikipedia.org/> ;
+	schema:name "Otommanguetlahtolli"@nah .
+
+<https://nah.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Otomangueanske_spr%C3%A5k> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Otomangueanske språk"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenghe_oto-manguean> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenghe oto-manguean"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://qu.wikipedia.org/wiki/Otomanki_rimaykuna> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "qu" ;
+	schema:isPartOf <https://qu.wikipedia.org/> ;
+	schema:name "Otomanki rimaykuna"@qu .
+
+<https://qu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Oto-Manguean> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Oto-Manguean"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9E%D1%82%D0%BE%D0%BC%D0%B0%D0%BD%D0%B3%D0%B5%D0%B9%D1%81%D1%8C%D0%BA%D1%96_%D0%BC%D0%BE%D0%B2%D0%B8> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Отомангейські мови"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Otomangue> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Otomangue"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Rumpun_bahasa_Oto-Manguea> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Rumpun bahasa Oto-Manguea"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lfn.wikipedia.org/wiki/Linguas_oto-mangean> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "lfn" ;
+	schema:isPartOf <https://lfn.wikipedia.org/> ;
+	schema:name "Linguas oto-mangean"@lfn .
+
+<https://lfn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%9E%D1%82%D0%BE-%D0%BC%D0%B0%D0%BD%D0%B3%D0%B5%D0%B9%D1%81%D0%BA%D0%B8_%D0%B5%D0%B7%D0%B8%D1%86%D0%B8> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Ото-мангейски езици"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%98%A4%ED%86%A0%EB%A7%9D%EA%B2%8C%EC%96%B4%EC%A1%B1> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "오토망게어족"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Lengas_otomangues> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Lengas otomangues"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ng%E1%BB%AF_h%E1%BB%87_Oto-Mangue> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Ngữ hệ Oto-Mangue"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Oto-Manguetalen> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Oto-Manguetalen"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADnguas_oto-mangueanas> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Línguas oto-mangueanas"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%84%D8%BA%D8%A7%D8%AA_%D8%A3%D9%88%D8%AA%D9%88-%D9%85%D8%A7%D9%86%D8%BA%D9%88%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "لغات أوتو-مانغوية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Otomangue-Sprachen> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Otomangue-Sprachen"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86%E2%80%8C%D9%87%D8%A7%DB%8C_%D8%A7%D9%88%D8%AA%D9%88-%D9%85%D8%A7%D9%86%DA%AF%D9%88%DB%8C%DB%8C> a schema:Article ;
+	schema:about wd:Q33669 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان‌های اوتو-مانگویی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33669 wdt:P305 "omq" ;
+	wdt:P279 wd:Q2478413 ;
+	wdt:P910 wd:Q9061619 ;
+	wdt:P646 "/m/050pdk" ;
+	wdt:P31 wd:Q25295 ;
+	wdt:P1798 "omq" ;
+	wdt:P244 "sh85096063" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85096063> ;
+	wdt:P268 "11979466h" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb11979466h#about> ;
+	wdt:P373 "Oto-manguean languages" ;
+	wdt:P1394 "otom1299" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/otom1299> ;
+	wdt:P1014 "300389037" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389037> ;
+	wdt:P2924 "2698415" ;
+	wdt:P1417 "topic/Otomanguean-languages" ;
+	wdt:P1296 "0128614" ;
+	wdt:P227 "4204694-4" ;
+	wdtn:P227 <https://d-nb.info/gnd/4204694-4> ;
+	wdt:P8189 "987007553474705171" ;
+	rdfs:label "歐托-曼格語系"@zh ;
+	skos:prefLabel "歐托-曼格語系"@zh ;
+	schema:name "歐托-曼格語系"@zh ;
+	rdfs:label "Otomi-mangea lingvaro"@eo ;
+	skos:prefLabel "Otomi-mangea lingvaro"@eo ;
+	schema:name "Otomi-mangea lingvaro"@eo ;
+	rdfs:label "Języki oto-mangueskie"@pl ;
+	skos:prefLabel "Języki oto-mangueskie"@pl ;
+	schema:name "Języki oto-mangueskie"@pl ;
+	rdfs:label "Otommanguetlahtōlli"@nah ;
+	skos:prefLabel "Otommanguetlahtōlli"@nah ;
+	schema:name "Otommanguetlahtōlli"@nah ;
+	rdfs:label "Otomanki rimaykuna"@qu ;
+	skos:prefLabel "Otomanki rimaykuna"@qu ;
+	schema:name "Otomanki rimaykuna"@qu ;
+	rdfs:label "ото-мангские языки"@ru ;
+	skos:prefLabel "ото-мангские языки"@ru ;
+	schema:name "ото-мангские языки"@ru ;
+	rdfs:label "langues oto-mangues"@fr ;
+	skos:prefLabel "langues oto-mangues"@fr ;
+	schema:name "langues oto-mangues"@fr ;
+	rdfs:label "Oto-Manguean"@en ;
+	skos:prefLabel "Oto-Manguean"@en ;
+	schema:name "Oto-Manguean"@en ;
+	rdfs:label "ото-манге језици"@sr ;
+	skos:prefLabel "ото-манге језици"@sr ;
+	schema:name "ото-манге језици"@sr ;
+	rdfs:label "lenguas otomangues"@es ;
+	skos:prefLabel "lenguas otomangues"@es ;
+	schema:name "lenguas otomangues"@es ;
+	rdfs:label "llengües otomangues"@ca ;
+	skos:prefLabel "llengües otomangues"@ca ;
+	schema:name "llengües otomangues"@ca ;
+	rdfs:label "Linguas otomangues"@gl ;
+	skos:prefLabel "Linguas otomangues"@gl ;
+	schema:name "Linguas otomangues"@gl ;
+	rdfs:label "Oto-mange keeled"@et ;
+	skos:prefLabel "Oto-mange keeled"@et ;
+	schema:name "Oto-mange keeled"@et ;
+	rdfs:label "Otomangue-Sprachen"@de ;
+	skos:prefLabel "Otomangue-Sprachen"@de ;
+	schema:name "Otomangue-Sprachen"@de ;
+	rdfs:label "オト・マンゲ語族"@ja ;
+	skos:prefLabel "オト・マンゲ語族"@ja ;
+	schema:name "オト・マンゲ語族"@ja ;
+	rdfs:label "yezhoù otek-mangeek"@br ;
+	skos:prefLabel "yezhoù otek-mangeek"@br ;
+	schema:name "yezhoù otek-mangeek"@br ;
+	rdfs:label "Отомангейски езици"@bg ;
+	skos:prefLabel "Отомангейски езици"@bg ;
+	schema:name "Отомангейски езици"@bg ;
+	rdfs:label "Oto-Manguean"@sh ;
+	skos:prefLabel "Oto-Manguean"@sh ;
+	schema:name "Oto-Manguean"@sh ;
+	rdfs:label "Oto-Mangue Indijanci"@hr ;
+	skos:prefLabel "Oto-Mangue Indijanci"@hr ;
+	schema:name "Oto-Mangue Indijanci"@hr ;
+	rdfs:label "Otomangų kalbos"@lt ;
+	skos:prefLabel "Otomangų kalbos"@lt ;
+	schema:name "Otomangų kalbos"@lt ;
+	rdfs:label "Oto-mangueanska språk"@sv ;
+	skos:prefLabel "Oto-mangueanska språk"@sv ;
+	schema:name "Oto-mangueanska språk"@sv ;
+	rdfs:label "lingue oto-mangue"@it ;
+	skos:prefLabel "lingue oto-mangue"@it ;
+	schema:name "lingue oto-mangue"@it ;
+	rdfs:label "ото-манге језици"@sr-ec ;
+	skos:prefLabel "ото-манге језици"@sr-ec ;
+	schema:name "ото-манге језици"@sr-ec ;
+	rdfs:label "Oto-Mange dilleri"@tr ;
+	skos:prefLabel "Oto-Mange dilleri"@tr ;
+	schema:name "Oto-Mange dilleri"@tr ;
+	rdfs:label "Lenghe oto-manguean"@pms ;
+	skos:prefLabel "Lenghe oto-manguean"@pms ;
+	schema:name "Lenghe oto-manguean"@pms ;
+	rdfs:label "otomangueanske språk"@nb ;
+	skos:prefLabel "otomangueanske språk"@nb ;
+	schema:name "otomangueanske språk"@nb ;
+	rdfs:label "Отомангейська мовна сім'я"@uk ;
+	skos:prefLabel "Отомангейська мовна сім'я"@uk ;
+	schema:name "Отомангейська мовна сім'я"@uk ;
+	rdfs:label "Отомиски јазици"@mk ;
+	skos:prefLabel "Отомиски јазици"@mk ;
+	schema:name "Отомиски јазици"@mk ;
+	rdfs:label "欧托-曼格语系"@zh-hans ;
+	skos:prefLabel "欧托-曼格语系"@zh-hans ;
+	schema:name "欧托-曼格语系"@zh-hans ;
+	rdfs:label "歐托-曼格語系"@zh-hant ;
+	skos:prefLabel "歐托-曼格語系"@zh-hant ;
+	schema:name "歐托-曼格語系"@zh-hant ;
+	rdfs:label "歐托-曼格語系"@zh-hk ;
+	skos:prefLabel "歐托-曼格語系"@zh-hk ;
+	schema:name "歐托-曼格語系"@zh-hk ;
+	rdfs:label "Ótómangveísk tungumál"@is ;
+	skos:prefLabel "Ótómangveísk tungumál"@is ;
+	schema:name "Ótómangveísk tungumál"@is ;
+	rdfs:label "Llingües otomangues"@ast ;
+	skos:prefLabel "Llingües otomangues"@ast ;
+	schema:name "Llingües otomangues"@ast ;
+	rdfs:label "اوْتو-مانقه دیللری"@azb ;
+	skos:prefLabel "اوْتو-مانقه دیللری"@azb ;
+	schema:name "اوْتو-مانقه دیللری"@azb ;
+	rdfs:label "otomangueanske språk"@nn ;
+	skos:prefLabel "otomangueanske språk"@nn ;
+	schema:name "otomangueanske språk"@nn ;
+	rdfs:label "Otomangue"@af ;
+	skos:prefLabel "Otomangue"@af ;
+	schema:name "Otomangue"@af ;
+	rdfs:label "Rumpun bahasa Oto-Manguea"@id ;
+	skos:prefLabel "Rumpun bahasa Oto-Manguea"@id ;
+	schema:name "Rumpun bahasa Oto-Manguea"@id ;
+	rdfs:label "Linguas oto-mangean"@lfn ;
+	skos:prefLabel "Linguas oto-mangean"@lfn ;
+	schema:name "Linguas oto-mangean"@lfn ;
+	rdfs:label "زبان‌های اوتو مانگویین"@fa ;
+	skos:prefLabel "زبان‌های اوتو مانگویین"@fa ;
+	schema:name "زبان‌های اوتو مانگویین"@fa ;
+	rdfs:label "오토망게어족"@ko ;
+	skos:prefLabel "오토망게어족"@ko ;
+	schema:name "오토망게어족"@ko ;
+	rdfs:label "Lengas otomangues"@oc ;
+	skos:prefLabel "Lengas otomangues"@oc ;
+	schema:name "Lengas otomangues"@oc ;
+	rdfs:label "Ngữ hệ Oto-Mangue"@vi ;
+	skos:prefLabel "Ngữ hệ Oto-Mangue"@vi ;
+	schema:name "Ngữ hệ Oto-Mangue"@vi ;
+	rdfs:label "Oto-Manguetalen"@nl ;
+	skos:prefLabel "Oto-Manguetalen"@nl ;
+	schema:name "Oto-Manguetalen"@nl ;
+	rdfs:label "Línguas oto-mangueanas"@pt ;
+	skos:prefLabel "Línguas oto-mangueanas"@pt ;
+	schema:name "Línguas oto-mangueanas"@pt ;
+	rdfs:label "لغات أوتو-مانغوية"@ar ;
+	skos:prefLabel "لغات أوتو-مانغوية"@ar ;
+	schema:name "لغات أوتو-مانغوية"@ar ;
+	rdfs:label "שפות אוטו-מנגיות"@he ;
+	skos:prefLabel "שפות אוטו-מנגיות"@he ;
+	schema:name "שפות אוטו-מנגיות"@he ;
+	rdfs:label "łéngue oto-mangue"@vec ;
+	skos:prefLabel "łéngue oto-mangue"@vec ;
+	schema:name "łéngue oto-mangue"@vec ;
+	schema:description "familia lingüística de Mesoamérica"@es,
+		"famiglia di lingue"@it,
+		"Sprachfamilie in Amerika"@de,
+		"famille de langues"@fr,
+		"language family"@en,
+		"família lingüística"@ca,
+		"familh yezhoù"@br,
+		"Ngữ hệ chính của thế giới phân bố ở Mexico"@vi,
+		"artikel daftar Wikimedia"@id,
+		"taalfamilie"@nl,
+		"Языковая семья Мезоамерики"@ru ;
+	skos:altLabel "Makro-otomangua lingvaro"@eo,
+		"Makro-Otomangua Familio"@eo,
+		"Otomanguetlahtōlli"@nah,
+		"Ото-мангские народы"@ru,
+		"Тлауика"@ru,
+		"Ото-манге языки"@ru,
+		"Отоми-миштеко-сапотекские языки"@ru,
+		"Ото-мангская языковая семья"@ru,
+		"Oto-mangue"@fr,
+		"Otomi-Mangue"@es,
+		"Lenguas otomangue"@es,
+		"Lenguas otomangueanas"@es,
+		"Tronco otomangue"@es,
+		"Otomí Mangue"@es,
+		"Otomi Mangue"@es,
+		"Otomangue"@es,
+		"Otomí-Mangue"@es,
+		"lenguas oto-mangues"@es,
+		"lenguas otomangueanas"@es,
+		"lenguas oto-mangueanas"@es,
+		"Oto-mangue"@ca,
+		"Otomangue"@ca,
+		"Linguas otomangueanas"@gl,
+		"Yezhoù otez-mangeek"@br,
+		"Ото-мангуески езици"@bg,
+		"Oto-manganski narodi i jezici"@sh,
+		"Oto-Mangue Indijanci"@sh,
+		"Oto-mange jezici"@sh,
+		"Oto-manganski narodi i jezici"@hr,
+		"Oto-Manguean"@hr,
+		"Otomių-mistekų-sapotekų kalbos"@lt,
+		"oto-mangueanske språk"@nb,
+		"oto-mangeanske språk"@nb,
+		"Отомангейська мовна сім’я"@uk,
+		"Oto-Manguean languages"@en,
+		"Otomanguean"@en,
+		"Oto-Mangue-Sprachen"@de .
+
+wd:Q18168339 owl:sameAs wd:Q33669 .
+
+wd:Q12136925 owl:sameAs wd:Q33669 .
+
+wd:Q86702076 owl:sameAs wd:Q33669 .
+
+wd:Q97609843 owl:sameAs wd:Q33669 .

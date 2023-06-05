@@ -1,0 +1,141 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35426 a schema:Dataset ;
+	schema:about wd:Q35426 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1914483624"^^xsd:integer ;
+	schema:dateModified "2023-06-13T17:53:49Z"^^xsd:dateTime .
+
+wd:Q35426 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Hanga> a schema:Article ;
+	schema:about wd:Q35426 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Hanga"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kihanga_(lugha)> a schema:Article ;
+	schema:about wd:Q35426 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kihanga (lugha)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Hanga_language> a schema:Article ;
+	schema:about wd:Q35426 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Hanga language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Hanga_(Sprache)> a schema:Article ;
+	schema:about wd:Q35426 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Hanga (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Hanga> a schema:Article ;
+	schema:about wd:Q35426 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Hanga"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Hanga_language> a schema:Article ;
+	schema:about wd:Q35426 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Hanga language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35426 wdt:P220 "hag" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hag> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q1157178 ;
+	wdt:P1394 "hang1258" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/hang1258> ;
+	wdt:P2192 "4620" ;
+	wdt:P910 wd:Q36157673 ;
+	wdt:P305 "hag" ;
+	wdt:P1627 "hag" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q117 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HAG> ;
+	wdt:P646 "/m/02hxvlc" ;
+	wdt:P276 wd:Q60764352 ;
+	wdt:P2341 wd:Q60764352,
+		wd:Q60764359 ;
+	rdfs:label "Kihanga"@sw ;
+	skos:prefLabel "Kihanga"@sw ;
+	schema:name "Kihanga"@sw ;
+	rdfs:label "Hanga"@de ;
+	skos:prefLabel "Hanga"@de ;
+	schema:name "Hanga"@de ;
+	rdfs:label "Lenga Hanga"@pms ;
+	skos:prefLabel "Lenga Hanga"@pms ;
+	schema:name "Lenga Hanga"@pms ;
+	rdfs:label "Hanga"@en ;
+	skos:prefLabel "Hanga"@en ;
+	schema:name "Hanga"@en ;
+	rdfs:label "Hanga"@en-gb ;
+	skos:prefLabel "Hanga"@en-gb ;
+	schema:name "Hanga"@en-gb ;
+	rdfs:label "hanga"@fr ;
+	skos:prefLabel "hanga"@fr ;
+	schema:name "hanga"@fr ;
+	rdfs:label "Wikang Hanga"@tl ;
+	skos:prefLabel "Wikang Hanga"@tl ;
+	schema:name "Wikang Hanga"@tl ;
+	rdfs:label "Hanga"@oc ;
+	skos:prefLabel "Hanga"@oc ;
+	schema:name "Hanga"@oc ;
+	schema:description "language spoken in Ghana"@en,
+		"Sprache"@de,
+		"שפה"@he,
+		"langue gur"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Hanga language"@en .

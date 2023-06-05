@@ -1,0 +1,666 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36653 a schema:Dataset ;
+	schema:about wd:Q36653 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1910805286"^^xsd:integer ;
+	schema:dateModified "2023-06-08T08:04:11Z"^^xsd:dateTime .
+
+wd:Q36653 a wikibase:Item .
+
+<https://ru.wikipedia.org/wiki/%D0%9E%D1%81%D0%BA%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Оскский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9E%D1%81%D0%BA%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Оскійська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Oscan_language> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Oscan language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Oskisk> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Oskisk"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_osca> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua osca"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Oskies> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Oskies"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sk.wikipedia.org/wiki/Oski%C4%8Dtina> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "sk" ;
+	schema:isPartOf <https://sk.wikipedia.org/> ;
+	schema:name "Oskičtina"@sk .
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%9F%CF%83%CE%BA%CE%B9%CE%BA%CE%AE_%CE%B3%CE%BB%CF%8E%CF%83%CF%83%CE%B1> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Οσκική γλώσσα"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://an.wikipedia.org/wiki/Osco> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "an" ;
+	schema:isPartOf <https://an.wikipedia.org/> ;
+	schema:name "Osco"@an .
+
+<https://an.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%9E%D1%81%D0%BA_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Оск кыв"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%AA%E3%82%B9%E3%82%AF%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "オスク語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Oskische_Sprache> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Oskische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_osca> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua osca"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Oszk_nyelv> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Oszk nyelv"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Osk%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Oskų kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Oskiska> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Oskiska"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/Osk%C3%ADska> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Oskíska"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_oskijski> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język oskijski"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%84%D8%BA%D8%A9_%D8%A3%D9%88%D8%B3%D9%83%D8%A7%D9%86%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "لغة أوسكانية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://srn.wikipedia.org/wiki/Oskitongo> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "srn" ;
+	schema:isPartOf <https://srn.wikipedia.org/> ;
+	schema:name "Oskitongo"@srn .
+
+<https://srn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_oscu> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma oscu"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://li.wikipedia.org/wiki/Oskisch> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "li" ;
+	schema:isPartOf <https://li.wikipedia.org/> ;
+	schema:name "Oskisch"@li .
+
+<https://li.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D8%A7%D9%88%D8%B3%D9%83%D9%89> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "اوسكى"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Osa%C4%8Dki_jezik> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Osački jezik"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Oska> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Oska"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sl.wikipedia.org/wiki/Oskij%C5%A1%C4%8Dina> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikipedia.org/> ;
+	schema:name "Oskijščina"@sl .
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Osc> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Osc"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Osque> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Osque"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Oskisch> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Oskisch"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D8%A7%D9%88%D8%B3%DA%A9%D8%A7%D9%86_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "اوسکان دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Limba_osc%C4%83> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Limba oscă"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cy.wikipedia.org/wiki/Osgeg> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "cy" ;
+	schema:isPartOf <https://cy.wikipedia.org/> ;
+	schema:name "Osgeg"@cy .
+
+<https://cy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Oska_lingvo> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Oska lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%A7%D9%88%D8%B3%DA%A9%DB%8C> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان اوسکی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Oskeg> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Oskeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_osca> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua osca"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Oskisk> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Oskisk"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_osco> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma osco"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Osca> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Osca"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Oskin_kieli> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Oskin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%A5%A5%E6%96%AF%E5%9D%8E%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "奥斯坎语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%98%A4%EC%8A%A4%ED%81%AC%EC%96%B4> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "오스크어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%9E%D1%81%D0%BA%D0%B8%D0%B9%D1%81%D0%BA%D0%B8_%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Оскийски език"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Oski%C4%8Dtina> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Oskičtina"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szy.wikipedia.org/wiki/u_kamu_nu_Auskan> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "szy" ;
+	schema:isPartOf <https://szy.wikipedia.org/> ;
+	schema:name "u kamu nu Auskan"@szy .
+
+<https://szy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wiktionary.org/wiki/Wiktionary:Oskisch> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wiktionary.org/> ;
+	schema:name "Wiktionary:Oskisch"@de .
+
+<https://de.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://oc.wikipedia.org/wiki/%C3%92sc> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Òsc"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Oskanca> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Oskanca"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frp.wikipedia.org/wiki/Osco> a schema:Article ;
+	schema:about wd:Q36653 ;
+	schema:inLanguage "frp" ;
+	schema:isPartOf <https://frp.wikipedia.org/> ;
+	schema:name "Osco"@frp .
+
+<https://frp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36653 wdt:P305 "osc" ;
+	wdt:P1036 "479.9" ;
+	wdt:P508 "17683" ;
+	wdtn:P508 <http://purl.org/bncf/tid/17683> ;
+	wdt:P373 "Oscan inscriptions" ;
+	wdt:P220 "osc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/osc> ;
+	wdt:P31 wd:Q45762,
+		wd:Q436240 ;
+	wdt:P646 "/m/02hwn11" ;
+	wdt:P279 wd:Q515194 ;
+	wdt:P1394 "osca1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/osca1245> ;
+	wdt:P1394 "osca1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/osca1244> ;
+	wdt:P227 "4172903-1" ;
+	wdtn:P227 <https://d-nb.info/gnd/4172903-1> ;
+	wdt:P4132 wd:Q178435,
+		wd:Q318917 ;
+	wdt:P1417 "topic/Oscan-language" ;
+	wdt:P4212 "pcrt6vx9ZJR7ZG" ;
+	wdtn:P4212 <https://ark.frantiq.fr/ark:/26678/pcrt6vx9ZJR7ZG> ;
+	wdt:P282 wd:Q4338006,
+		wd:Q4891256 ;
+	wdt:P910 wd:Q31878396 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Denarius-Marsic%20Federation-Syd%20627-1-.jpg> ;
+	wdt:P1245 "714377" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/OSC> ;
+	wdt:P6366 "2778423080" ;
+	wdtn:P6366 <http://ma-graph.org/entity/2778423080> ;
+	wdt:P8408 "OscanLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/OscanLanguage> ;
+	wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/Iron%20Age%20Italy.png> ;
+	wdt:P268 "11978585t" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb11978585t#about> ;
+	wdt:P244 "sh2001007071" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh2001007071> ;
+	wdt:P2347 "28541" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p28541> ;
+	wdt:P8189 "987007544519005171" ;
+	wdt:P7305 "3952230" ;
+	rdfs:label "奥斯坎语"@zh ;
+	skos:prefLabel "奥斯坎语"@zh ;
+	schema:name "奥斯坎语"@zh ;
+	rdfs:label "Język oskijski"@pl ;
+	skos:prefLabel "Język oskijski"@pl ;
+	schema:name "Język oskijski"@pl ;
+	rdfs:label "اوسكى"@arz ;
+	skos:prefLabel "اوسكى"@arz ;
+	schema:name "اوسكى"@arz ;
+	rdfs:label "osque"@fr ;
+	skos:prefLabel "osque"@fr ;
+	schema:name "osque"@fr ;
+	rdfs:label "idioma osco"@es ;
+	skos:prefLabel "idioma osco"@es ;
+	schema:name "idioma osco"@es ;
+	rdfs:label "Oskies"@af ;
+	skos:prefLabel "Oskies"@af ;
+	schema:name "Oskies"@af ;
+	rdfs:label "Oskitongo"@srn ;
+	skos:prefLabel "Oskitongo"@srn ;
+	schema:name "Oskitongo"@srn ;
+	rdfs:label "oszk"@hu ;
+	skos:prefLabel "oszk"@hu ;
+	schema:name "oszk"@hu ;
+	rdfs:label "Oskisch"@li ;
+	skos:prefLabel "Oskisch"@li ;
+	schema:name "Oskisch"@li ;
+	rdfs:label "osco"@it ;
+	skos:prefLabel "osco"@it ;
+	schema:name "osco"@it ;
+	rdfs:label "Lingua osca"@gl ;
+	skos:prefLabel "Lingua osca"@gl ;
+	schema:name "Lingua osca"@gl ;
+	rdfs:label "Oskisch"@de ;
+	skos:prefLabel "Oskisch"@de ;
+	schema:name "Oskisch"@de ;
+	rdfs:label "オスク語"@ja ;
+	skos:prefLabel "オスク語"@ja ;
+	schema:name "オスク語"@ja ;
+	rdfs:label "oskeg"@br ;
+	skos:prefLabel "oskeg"@br ;
+	schema:name "oskeg"@br ;
+	rdfs:label "لغة أوسكانية"@ar ;
+	skos:prefLabel "لغة أوسكانية"@ar ;
+	schema:name "لغة أوسكانية"@ar ;
+	rdfs:label "Oskisch"@nl ;
+	skos:prefLabel "Oskisch"@nl ;
+	schema:name "Oskisch"@nl ;
+	rdfs:label "Oskiska"@sv ;
+	skos:prefLabel "Oskiska"@sv ;
+	schema:name "Oskiska"@sv ;
+	rdfs:label "osco"@pt ;
+	skos:prefLabel "osco"@pt ;
+	schema:name "osco"@pt ;
+	rdfs:label "oska lingvo"@eo ;
+	skos:prefLabel "oska lingvo"@eo ;
+	schema:name "oska lingvo"@eo ;
+	rdfs:label "Oskičtina"@sk ;
+	skos:prefLabel "Oskičtina"@sk ;
+	schema:name "Oskičtina"@sk ;
+	rdfs:label "оскский язык"@ru ;
+	skos:prefLabel "оскский язык"@ru ;
+	schema:name "оскский язык"@ru ;
+	rdfs:label "Oscan"@en ;
+	skos:prefLabel "Oscan"@en ;
+	schema:name "Oscan"@en ;
+	rdfs:label "limba oscă"@ro ;
+	skos:prefLabel "limba oscă"@ro ;
+	schema:name "limba oscă"@ro ;
+	rdfs:label "osc"@ca ;
+	skos:prefLabel "osc"@ca ;
+	schema:name "osc"@ca ;
+	rdfs:label "Oskin kieli"@fi ;
+	skos:prefLabel "Oskin kieli"@fi ;
+	schema:name "Oskin kieli"@fi ;
+	rdfs:label "lingua Osca"@la ;
+	skos:prefLabel "lingua Osca"@la ;
+	schema:name "lingua Osca"@la ;
+	rdfs:label "Osgeg"@cy ;
+	skos:prefLabel "Osgeg"@cy ;
+	schema:name "Osgeg"@cy ;
+	rdfs:label "Oskijščina"@sl ;
+	skos:prefLabel "Oskijščina"@sl ;
+	schema:name "Oskijščina"@sl ;
+	rdfs:label "Osco"@an ;
+	skos:prefLabel "Osco"@an ;
+	schema:name "Osco"@an ;
+	rdfs:label "oskisk"@nn ;
+	skos:prefLabel "oskisk"@nn ;
+	schema:name "oskisk"@nn ;
+	rdfs:label "oskisk"@nb ;
+	skos:prefLabel "oskisk"@nb ;
+	schema:name "oskisk"@nb ;
+	rdfs:label "Oskisch"@de-ch ;
+	skos:prefLabel "Oskisch"@de-ch ;
+	schema:name "Oskisch"@de-ch ;
+	rdfs:label "Οσκική γλώσσα"@el ;
+	skos:prefLabel "Οσκική γλώσσα"@el ;
+	schema:name "Οσκική γλώσσα"@el ;
+	rdfs:label "Oscan"@en-ca ;
+	skos:prefLabel "Oscan"@en-ca ;
+	schema:name "Oscan"@en-ca ;
+	rdfs:label "Oscan"@en-gb ;
+	skos:prefLabel "Oscan"@en-gb ;
+	schema:name "Oscan"@en-gb ;
+	rdfs:label "Língua osca"@pt-br ;
+	skos:prefLabel "Língua osca"@pt-br ;
+	schema:name "Língua osca"@pt-br ;
+	rdfs:label "Osački jezik"@sh ;
+	skos:prefLabel "Osački jezik"@sh ;
+	schema:name "Osački jezik"@sh ;
+	rdfs:label "زبان اوسکی"@fa ;
+	skos:prefLabel "زبان اوسکی"@fa ;
+	schema:name "زبان اوسکی"@fa ;
+	rdfs:label "Oskíska"@is ;
+	skos:prefLabel "Oskíska"@is ;
+	schema:name "Oskíska"@is ;
+	rdfs:label "Оск кыв"@kv ;
+	skos:prefLabel "Оск кыв"@kv ;
+	schema:name "Оск кыв"@kv ;
+	rdfs:label "Oskų kalba"@lt ;
+	skos:prefLabel "Oskų kalba"@lt ;
+	schema:name "Oskų kalba"@lt ;
+	rdfs:label "oski keel"@et ;
+	skos:prefLabel "oski keel"@et ;
+	schema:name "oski keel"@et ;
+	rdfs:label "Оскійська мова"@uk ;
+	skos:prefLabel "Оскійська мова"@uk ;
+	schema:name "Оскійська мова"@uk ;
+	rdfs:label "Idioma oscu"@ast ;
+	skos:prefLabel "Idioma oscu"@ast ;
+	schema:name "Idioma oscu"@ast ;
+	rdfs:label "اوسکان دیلی"@azb ;
+	skos:prefLabel "اوسکان دیلی"@azb ;
+	schema:name "اوسکان دیلی"@azb ;
+	rdfs:label "Bahasa Oska"@id ;
+	skos:prefLabel "Bahasa Oska"@id ;
+	schema:name "Bahasa Oska"@id ;
+	rdfs:label "오스크어"@ko ;
+	skos:prefLabel "오스크어"@ko ;
+	schema:name "오스크어"@ko ;
+	rdfs:label "оскийски език"@bg ;
+	skos:prefLabel "оскийски език"@bg ;
+	schema:name "оскийски език"@bg ;
+	rdfs:label "Oskičtina"@cs ;
+	skos:prefLabel "Oskičtina"@cs ;
+	schema:name "Oskičtina"@cs ;
+	rdfs:label "u kamu nu Auskan"@szy ;
+	skos:prefLabel "u kamu nu Auskan"@szy ;
+	schema:name "u kamu nu Auskan"@szy ;
+	rdfs:label "Òsc"@oc ;
+	skos:prefLabel "Òsc"@oc ;
+	schema:name "Òsc"@oc ;
+	rdfs:label "Oskanca"@tr ;
+	skos:prefLabel "Oskanca"@tr ;
+	schema:name "Oskanca"@tr ;
+	rdfs:label "Osco"@frp ;
+	skos:prefLabel "Osco"@frp ;
+	schema:name "Osco"@frp ;
+	schema:description "Sprache"@de,
+		"один из мёртвых италийских языков"@ru,
+		"lengua indoeuropea, perteneciente al grupo de las lenguas itálicas"@es,
+		"lingua degli Osci e dei Sanniti"@it,
+		"extinct language of southern Italy"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"língua"@pt,
+		"idioma extingit del sud d'Itàlia"@ca,
+		"martwy język z italskiej gałęzi rodziny indoeuropejskiej"@pl,
+		"古代イタリアで用いられた言語の一つ"@ja,
+		"lingua"@la,
+		"мъртъв италийски език"@bg,
+		"vymřelý jazyk"@cs,
+		"Langue sabellique anciennement parlée au Sud de l'Italie"@fr,
+		"bagian dari rumpun bahasa Indo-Eropa"@id ;
+	skos:altLabel "اسكى"@arz,
+		"osco"@es,
+		"lengua osca"@es,
+		"Lingue sannitiche"@it,
+		"Dialetto osco"@it,
+		"lingua osca"@it,
+		"Osco"@gl,
+		"oskische Sprache"@de,
+		"OSK"@eo,
+		"Limba oscană"@ro,
+		"Idioma osco"@an,
+		"Luenga osca"@an,
+		"オスク文字"@ja,
+		"Oscan language"@en,
+		"Língua osca"@pt,
+		"llengua osca"@ca,
+		"idioma osc"@ca,
+		"oszk nyelv"@hu .

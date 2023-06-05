@@ -1,0 +1,124 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56305763 a schema:Dataset ;
+	schema:about wd:Q56305763 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1818435234"^^xsd:integer ;
+	schema:dateModified "2023-01-24T14:49:56Z"^^xsd:dateTime .
+
+wd:Q56305763 a wikibase:Item .
+
+<https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%82%D0%BE%D1%8D%D0%BB%D0%B0%D0%BC%D1%81%D0%BA%D0%BE%D0%B5_%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q56305763 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Протоэламское письмо"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://commons.wikimedia.org/wiki/Category:Proto-Elamite_script> a schema:Article ;
+	schema:about wd:Q56305763 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "Category:Proto-Elamite script"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+<https://fr.wikipedia.org/wiki/Proto-%C3%A9lamite> a schema:Article ;
+	schema:about wd:Q56305763 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Proto-élamite"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Scrittura_proto-elamica> a schema:Article ;
+	schema:about wd:Q56305763 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Scrittura proto-elamica"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56305763 wdt:P31 wd:Q8192,
+		wd:Q2001982,
+		wd:Q29517555,
+		wd:Q4004706,
+		wd:Q182133 ;
+	wdt:P373 "Proto-Elamite script" ;
+	wdt:P17 wd:Q128904 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Proto-Elamite%20tablet%20with%20transcription.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/P1180316%20Louvre%20Suse%20III%20tablette%20%C3%A9conomique%20Sb15200%20rwk.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Economic%20tablet%20Susa%20Louvre%20Sb3047.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Economic%20tablet%20Susa%20Louvre%20Sb15439.jpg> ;
+	wdt:P506 "Pelm" ;
+	wdt:P2620 "016" ;
+	wdt:P2561 "Proto-Elamite"@en,
+		"proto-élamite"@fr ;
+	wdt:P571 "-3499-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P582 "-1999-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P407 wd:Q35470 ;
+	wdt:P138 wd:Q128904 ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P2671 "/g/113qbtgqm" ;
+	wdtn:P2671 <http://g.co/kg/g/113qbtgqm> ;
+	rdfs:label "Протоэламское письмо"@ru ;
+	skos:prefLabel "Протоэламское письмо"@ru ;
+	schema:name "Протоэламское письмо"@ru ;
+	rdfs:label "Proto-élamite"@fr ;
+	skos:prefLabel "Proto-élamite"@fr ;
+	schema:name "Proto-élamite"@fr ;
+	rdfs:label "Proto-Elamite"@en ;
+	skos:prefLabel "Proto-Elamite"@en ;
+	schema:name "Proto-Elamite"@en ;
+	rdfs:label "proto-elamita"@it ;
+	skos:prefLabel "proto-elamita"@it ;
+	schema:name "proto-elamita"@it ;
+	rdfs:label "Proto-Elam"@id ;
+	skos:prefLabel "Proto-Elam"@id ;
+	schema:name "Proto-Elam"@id ;
+	rdfs:label "pra-Elama skribo"@eo ;
+	skos:prefLabel "pra-Elama skribo"@eo ;
+	schema:name "pra-Elama skribo"@eo ;
+	rdfs:label "праеламско писмо"@mk ;
+	skos:prefLabel "праеламско писмо"@mk ;
+	schema:name "праеламско писмо"@mk ;
+	schema:description "écriture de l'Élam notant l'élamite"@fr,
+		"script used for writing Elamite language in the early Bronze Age"@en,
+		"sistema di scrittura"@it ;
+	skos:altLabel "écriture proto-élamite"@fr,
+		"Proto-Elamite script"@en .
+
+wd:Q104821940 owl:sameAs wd:Q56305763 .
+
+wd:Q105094238 owl:sameAs wd:Q56305763 .

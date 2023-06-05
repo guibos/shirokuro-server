@@ -1,0 +1,136 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5619998 a schema:Dataset ;
+	schema:about wd:Q5619998 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1659411213"^^xsd:integer ;
+	schema:dateModified "2022-06-13T05:27:21Z"^^xsd:dateTime .
+
+wd:Q5619998 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_gureng_gureng> a schema:Article ;
+	schema:about wd:Q5619998 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga gureng gureng"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Gureng_gureng> a schema:Article ;
+	schema:about wd:Q5619998 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Gureng gureng"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigureng-Gureng> a schema:Article ;
+	schema:about wd:Q5619998 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigureng-Gureng"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Taribelang_language> a schema:Article ;
+	schema:about wd:Q5619998 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Taribelang language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_gureng_gureng> a schema:Article ;
+	schema:about wd:Q5619998 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma gureng gureng"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5619998 wdt:P220 "gnr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gnr> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "gure1255" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gure1255> ;
+	wdt:P1466 "ggu" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ggu> ;
+	wdt:P279 wd:Q7960876 ;
+	wdt:P1252 "E32" ;
+	wdt:P2192 "6351" ;
+	wdt:P305 "gnr" ;
+	wdt:P1627 "gnr" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q36074 ;
+	wdt:P6915 "Gooreng-Gooreng" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GNR> ;
+	wdt:P646 "/m/02hxd02" ;
+	wdt:P910 wd:Q105715384 ;
+	rdfs:label "Gureng Gureng"@en ;
+	skos:prefLabel "Gureng Gureng"@en ;
+	schema:name "Gureng Gureng"@en ;
+	rdfs:label "Gureng gureng"@sv ;
+	skos:prefLabel "Gureng gureng"@sv ;
+	schema:name "Gureng gureng"@sv ;
+	rdfs:label "Lenga gureng gureng"@pms ;
+	skos:prefLabel "Lenga gureng gureng"@pms ;
+	schema:name "Lenga gureng gureng"@pms ;
+	rdfs:label "Gureng Gureng"@en-gb ;
+	skos:prefLabel "Gureng Gureng"@en-gb ;
+	schema:name "Gureng Gureng"@en-gb ;
+	rdfs:label "Kigureng-Gureng"@sw ;
+	skos:prefLabel "Kigureng-Gureng"@sw ;
+	schema:name "Kigureng-Gureng"@sw ;
+	rdfs:label "gureng gureng"@fr ;
+	skos:prefLabel "gureng gureng"@fr ;
+	schema:name "gureng gureng"@fr ;
+	rdfs:label "Idioma gureng gureng"@es ;
+	skos:prefLabel "Idioma gureng gureng"@es ;
+	schema:name "Idioma gureng gureng"@es ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"lugha ya asili ya Australia iliyotoweka"@sw,
+		"langue pama-nyungan"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Gureng Gureng language"@en .
+
+wd:Q10511015 owl:sameAs wd:Q5619998 .

@@ -1,0 +1,158 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11150714 a schema:Dataset ;
+	schema:about wd:Q11150714 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1896751607"^^xsd:integer ;
+	schema:dateModified "2023-05-15T14:58:17Z"^^xsd:dateTime .
+
+wd:Q11150714 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Buamu,_Cwi> a schema:Article ;
+	schema:about wd:Q11150714 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Buamu, Cwi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%B2%D0%B8-%D0%B1%D0%B2%D0%B0%D0%BC%D1%83> a schema:Article ;
+	schema:about wd:Q11150714 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Кви-бваму"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibwamu-Cwi> a schema:Article ;
+	schema:about wd:Q11150714 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibwamu-Cwi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Cwi_Bwamu_language> a schema:Article ;
+	schema:about wd:Q11150714 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Cwi Bwamu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Cwi_Bwamu_jezik> a schema:Article ;
+	schema:about wd:Q11150714 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Cwi Bwamu jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Cwi_Bwamu_language> a schema:Article ;
+	schema:about wd:Q11150714 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Cwi Bwamu language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Cwi_Bwamu> a schema:Article ;
+	schema:about wd:Q11150714 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Cwi Bwamu"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11150714 wdt:P220 "bwy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bwy> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "cwib1235" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/cwib1235> ;
+	wdt:P279 wd:Q12628562 ;
+	wdt:P305 "bwy" ;
+	wdt:P1627 "bwy" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q965 ;
+	wdt:P2341 wd:Q850088,
+		wd:Q429149,
+		wd:Q1074154,
+		wd:Q627844 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BWY> ;
+	wdt:P646 "/m/02hxky0" ;
+	rdfs:label "Kibwamu-Cwi"@sw ;
+	skos:prefLabel "Kibwamu-Cwi"@sw ;
+	schema:name "Kibwamu-Cwi"@sw ;
+	rdfs:label "Lenga Buamu, Cwi"@pms ;
+	skos:prefLabel "Lenga Buamu, Cwi"@pms ;
+	schema:name "Lenga Buamu, Cwi"@pms ;
+	rdfs:label "Cwi Bwamu jezik"@hr ;
+	skos:prefLabel "Cwi Bwamu jezik"@hr ;
+	schema:name "Cwi Bwamu jezik"@hr ;
+	rdfs:label "Cwi Bwamu"@en ;
+	skos:prefLabel "Cwi Bwamu"@en ;
+	schema:name "Cwi Bwamu"@en ;
+	rdfs:label "Кви-бваму"@ru ;
+	skos:prefLabel "Кви-бваму"@ru ;
+	schema:name "Кви-бваму"@ru ;
+	rdfs:label "Cwi Bwamu"@en-gb ;
+	skos:prefLabel "Cwi Bwamu"@en-gb ;
+	schema:name "Cwi Bwamu"@en-gb ;
+	rdfs:label "bwamu cwi"@fr ;
+	skos:prefLabel "bwamu cwi"@fr ;
+	schema:name "bwamu cwi"@fr ;
+	rdfs:label "zimanê cwi bwamu"@ku-latn ;
+	skos:prefLabel "zimanê cwi bwamu"@ku-latn ;
+	schema:name "zimanê cwi bwamu"@ku-latn ;
+	rdfs:label "zimanê cwi bwamu"@ku ;
+	skos:prefLabel "zimanê cwi bwamu"@ku ;
+	schema:name "zimanê cwi bwamu"@ku ;
+	rdfs:label "Asụsụ Cwi Bwamu"@ig ;
+	skos:prefLabel "Asụsụ Cwi Bwamu"@ig ;
+	schema:name "Asụsụ Cwi Bwamu"@ig ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue gur"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Cwi Bwamu language"@en .
+
+wd:Q16875775 owl:sameAs wd:Q11150714 .
+
+wd:Q12629424 owl:sameAs wd:Q11150714 .

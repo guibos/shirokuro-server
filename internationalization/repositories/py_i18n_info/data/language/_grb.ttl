@@ -1,0 +1,178 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35257 a schema:Dataset ;
+	schema:about wd:Q35257 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1742670217"^^xsd:integer ;
+	schema:dateModified "2022-10-04T07:09:28Z"^^xsd:dateTime .
+
+wd:Q35257 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Grebo_(langue)> a schema:Article ;
+	schema:about wd:Q35257 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Grebo (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Grebo_language> a schema:Article ;
+	schema:about wd:Q35257 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Grebo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%AC%E3%83%9C%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q35257 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "グレボ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Grebo_(Sprache)> a schema:Article ;
+	schema:about wd:Q35257 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Grebo (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_grebo> a schema:Article ;
+	schema:about wd:Q35257 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua grebo"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Grebo> a schema:Article ;
+	schema:about wd:Q35257 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Grebo"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B5%D0%B1%D0%BE_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q35257 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Гребо (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Grebo> a schema:Article ;
+	schema:about wd:Q35257 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Grebo"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35257 wdt:P31 wd:Q34770,
+		wd:Q152559,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0d1yhm" ;
+	wdt:P305 "grb" ;
+	wdt:P279 wd:Q5601537 ;
+	wdt:P219 "grb" ;
+	wdt:P220 "grb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/grb> ;
+	wdt:P1394 "greb1256" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/greb1256> ;
+	wdt:P5198 "294914218" ;
+	wdt:P4801 "languages/grb" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/grb> ;
+	wdt:P1627 "grb" ;
+	wdt:P1396 "95-ABA-l" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GRB> ;
+	wdt:P910 wd:Q70137876 ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P9060 "grb" ;
+	wdt:P10369 "Q93" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q93> ;
+	wdt:P17 wd:Q1014 ;
+	rdfs:label "Kigrebo-Kati"@sw ;
+	skos:prefLabel "Kigrebo-Kati"@sw ;
+	schema:name "Kigrebo-Kati"@sw ;
+	rdfs:label "Lenga Grebo sentral"@pms ;
+	skos:prefLabel "Lenga Grebo sentral"@pms ;
+	schema:name "Lenga Grebo sentral"@pms ;
+	rdfs:label "Grebo"@de ;
+	skos:prefLabel "Grebo"@de ;
+	schema:name "Grebo"@de ;
+	rdfs:label "grebo"@fr ;
+	skos:prefLabel "grebo"@fr ;
+	schema:name "grebo"@fr ;
+	rdfs:label "Grebo"@en ;
+	skos:prefLabel "Grebo"@en ;
+	schema:name "Grebo"@en ;
+	rdfs:label "グレボ語"@ja ;
+	skos:prefLabel "グレボ語"@ja ;
+	schema:name "グレボ語"@ja ;
+	rdfs:label "Grebo"@fi ;
+	skos:prefLabel "Grebo"@fi ;
+	schema:name "Grebo"@fi ;
+	rdfs:label "lingua grebo"@it ;
+	skos:prefLabel "lingua grebo"@it ;
+	schema:name "lingua grebo"@it ;
+	rdfs:label "Grebo"@en-gb ;
+	skos:prefLabel "Grebo"@en-gb ;
+	schema:name "Grebo"@en-gb ;
+	rdfs:label "Grebo"@nl ;
+	skos:prefLabel "Grebo"@nl ;
+	schema:name "Grebo"@nl ;
+	rdfs:label "grebo"@vec ;
+	skos:prefLabel "grebo"@vec ;
+	schema:name "grebo"@vec ;
+	rdfs:label "Гребо (язык)"@ru ;
+	skos:prefLabel "Гребо (язык)"@ru ;
+	schema:name "Гребо (язык)"@ru ;
+	rdfs:label "greboera"@eu ;
+	skos:prefLabel "greboera"@eu ;
+	schema:name "greboera"@eu ;
+	schema:description "Sprache"@de,
+		"Kru language of Liberia"@en,
+		"macro-lingua appartenente al ramo delle lingue kru"@it,
+		"taal"@nl,
+		"שפה"@he,
+		"langue voltaïco-congolaise"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@la,
+		"iaith"@cy,
+		"Liberia aldean bizirik dagoen giza hizkuntza"@eu ;
+	skos:altLabel "Grebo language"@en .

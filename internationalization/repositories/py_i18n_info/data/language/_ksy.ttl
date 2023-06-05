@@ -1,0 +1,140 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6400661 a schema:Dataset ;
+	schema:about wd:Q6400661 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1881877613"^^xsd:integer ;
+	schema:dateModified "2023-04-24T10:51:12Z"^^xsd:dateTime .
+
+wd:Q6400661 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_kharia_thar> a schema:Article ;
+	schema:about wd:Q6400661 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kharia thar"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%DA%A9%D8%A7%D8%B1%DB%8C%D8%A7_%D8%AA%D8%A7%D8%B1_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q6400661 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "کاریا تار دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikharia-Thar> a schema:Article ;
+	schema:about wd:Q6400661 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikharia-Thar"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kharia_Thar_language> a schema:Article ;
+	schema:about wd:Q6400661 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kharia Thar language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%DA%A9%D8%A7%D8%B1%DB%8C%D8%A7_%D8%AA%D8%A7%D8%B1> a schema:Article ;
+	schema:about wd:Q6400661 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان کاریا تار"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://as.wikipedia.org/wiki/%E0%A6%96%E0%A7%B0%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE_%E0%A6%A5%E0%A6%BE%E0%A7%B0_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q6400661 ;
+	schema:inLanguage "as" ;
+	schema:isPartOf <https://as.wikipedia.org/> ;
+	schema:name "খৰিয়া থাৰ ভাষা"@as .
+
+<https://as.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6400661 wdt:P220 "ksy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ksy> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "khar1283" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/khar1283> ;
+	wdt:P305 "ksy" ;
+	wdt:P1627 "ksy" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1184,
+		wd:Q1356 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KSY> ;
+	wdt:P646 "/m/02pnfml" ;
+	rdfs:label "زبان کاریا تار"@fa ;
+	skos:prefLabel "زبان کاریا تار"@fa ;
+	schema:name "زبان کاریا تار"@fa ;
+	rdfs:label "Kharia Thar"@en ;
+	skos:prefLabel "Kharia Thar"@en ;
+	schema:name "Kharia Thar"@en ;
+	rdfs:label "Lenga kharia thar"@pms ;
+	skos:prefLabel "Lenga kharia thar"@pms ;
+	schema:name "Lenga kharia thar"@pms ;
+	rdfs:label "Kikharia-Thar"@sw ;
+	skos:prefLabel "Kikharia-Thar"@sw ;
+	schema:name "Kikharia-Thar"@sw ;
+	rdfs:label "Kharia Thar"@en-gb ;
+	skos:prefLabel "Kharia Thar"@en-gb ;
+	schema:name "Kharia Thar"@en-gb ;
+	rdfs:label "ਖੜਿਆ ਥਾਰ"@pa ;
+	skos:prefLabel "ਖੜਿਆ ਥਾਰ"@pa ;
+	schema:name "ਖੜਿਆ ਥਾਰ"@pa ;
+	rdfs:label "کاریا تار دیلی"@azb ;
+	skos:prefLabel "کاریا تار دیلی"@azb ;
+	schema:name "کاریا تار دیلی"@azb ;
+	rdfs:label "খৰিয়া থাৰ ভাষা"@as ;
+	skos:prefLabel "খৰিয়া থাৰ ভাষা"@as ;
+	schema:name "খৰিয়া থাৰ ভাষা"@as ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"زبان"@fa,
+		"ভারতের ভাষা"@bn ;
+	skos:altLabel "Kharia Thar language"@en,
+		"ਖੜਿਆ ਥਾਰ ਭਾਸ਼ਾ"@pa .

@@ -1,0 +1,157 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10723405 a schema:Dataset ;
+	schema:about wd:Q10723405 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616000163"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:51:59Z"^^xsd:dateTime .
+
+wd:Q10723405 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_jarnango> a schema:Article ;
+	schema:about wd:Q10723405 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga jarnango"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Yan-nhangu> a schema:Article ;
+	schema:about wd:Q10723405 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Yan-nhangu"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiyan-Nhangu> a schema:Article ;
+	schema:about wd:Q10723405 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiyan-Nhangu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nhangu_language> a schema:Article ;
+	schema:about wd:Q10723405 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nhangu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Jarnango_jezik> a schema:Article ;
+	schema:about wd:Q10723405 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Jarnango jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_nhangu> a schema:Article ;
+	schema:about wd:Q10723405 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua nhangu"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10723405 wdt:P1394 "yann1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/yann1237> ;
+	wdt:P1252 "N211*",
+		"N211",
+		"N72" ;
+	wdt:P220 "jay" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/jay> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q2511254 ;
+	wdt:P2192 "3788" ;
+	wdt:P2355 "2085" ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P305 "jay" ;
+	wdt:P1627 "jay" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P1251 "8281",
+		"828",
+		"8282" ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3235 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/JAY> ;
+	wdt:P646 "/m/02hwlcr" ;
+	rdfs:label "Nhangu"@en ;
+	skos:prefLabel "Nhangu"@en ;
+	schema:name "Nhangu"@en ;
+	rdfs:label "Yan-nhangu"@sv ;
+	skos:prefLabel "Yan-nhangu"@sv ;
+	schema:name "Yan-nhangu"@sv ;
+	rdfs:label "Lenga jarnango"@pms ;
+	skos:prefLabel "Lenga jarnango"@pms ;
+	schema:name "Lenga jarnango"@pms ;
+	rdfs:label "Kiyan-Nhangu"@sw ;
+	skos:prefLabel "Kiyan-Nhangu"@sw ;
+	schema:name "Kiyan-Nhangu"@sw ;
+	rdfs:label "Jarnango jezik"@hr ;
+	skos:prefLabel "Jarnango jezik"@hr ;
+	schema:name "Jarnango jezik"@hr ;
+	rdfs:label "Nhangu"@en-gb ;
+	skos:prefLabel "Nhangu"@en-gb ;
+	schema:name "Nhangu"@en-gb ;
+	rdfs:label "yan-nhangu"@fr ;
+	skos:prefLabel "yan-nhangu"@fr ;
+	schema:name "yan-nhangu"@fr ;
+	rdfs:label "Língua nhangu"@pt ;
+	skos:prefLabel "Língua nhangu"@pt ;
+	schema:name "Língua nhangu"@pt ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"lugha ya asili ya Australia"@sw,
+		"שפה"@he,
+		"langue pama-nyungan"@fr,
+		"Australian Aboriginal language of the Yolŋu language group, Arnhem Land, northern Australia"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kinhangu"@sw,
+		"Yan-nhangu"@en,
+		"Nhangu language"@en,
+		"Jarnango"@fr,
+		"nhangu"@fr .
+
+wd:Q12633529 owl:sameAs wd:Q10723405 .
+
+wd:Q31204097 owl:sameAs wd:Q10723405 .
+
+wd:Q50924932 owl:sameAs wd:Q10723405 .

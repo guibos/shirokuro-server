@@ -1,0 +1,206 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3912876 a schema:Dataset ;
+	schema:about wd:Q3912876 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961584430"^^xsd:integer ;
+	schema:dateModified "2023-08-26T10:17:31Z"^^xsd:dateTime .
+
+wd:Q3912876 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Towa> a schema:Article ;
+	schema:about wd:Q3912876 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Towa"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_jemez> a schema:Article ;
+	schema:about wd:Q3912876 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga jemez"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Towa> a schema:Article ;
+	schema:about wd:Q3912876 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Towa"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%B2%D0%B0_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q3912876 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Това (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_jemez> a schema:Article ;
+	schema:about wd:Q3912876 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma jemez"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Jemez_language> a schema:Article ;
+	schema:about wd:Q3912876 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Jemez language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Towa> a schema:Article ;
+	schema:about wd:Q3912876 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Towa"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_j%C3%A9mez> a schema:Article ;
+	schema:about wd:Q3912876 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma jémez"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3912876 wdt:P220 "tow" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tow> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "jeme1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/jeme1245> ;
+	wdt:P2355 "874" ;
+	wdt:P17 wd:Q30 ;
+	wdt:P1466 "jem" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_jem> ;
+	wdt:P279 wd:Q386288 ;
+	wdt:P2192 "2300" ;
+	wdt:P910 wd:Q33128972 ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P305 "tow" ;
+	wdt:P1627 "tow" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2341 wd:Q1522 ;
+	wdt:P1014 "300388494" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388494> ;
+	wdt:P1014 "300389439" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389439> ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TOW> ;
+	wdt:P646 "/m/02hxj5s" ;
+	wdt:P1846 <http://commons.wikimedia.org/wiki/Special:FilePath/Pueblo%20Tanoan%20map.svg> ;
+	wdt:P9717 "towa" ;
+	rdfs:label "Lenga jemez"@pms ;
+	skos:prefLabel "Lenga jemez"@pms ;
+	schema:name "Lenga jemez"@pms ;
+	rdfs:label "Jemez"@en ;
+	skos:prefLabel "Jemez"@en ;
+	schema:name "Jemez"@en ;
+	rdfs:label "idioma jémez"@es ;
+	skos:prefLabel "idioma jémez"@es ;
+	schema:name "idioma jémez"@es ;
+	rdfs:label "Това"@ru ;
+	skos:prefLabel "Това"@ru ;
+	schema:name "Това"@ru ;
+	rdfs:label "towa"@ca ;
+	skos:prefLabel "towa"@ca ;
+	schema:name "towa"@ca ;
+	rdfs:label "トワ語"@ja ;
+	skos:prefLabel "トワ語"@ja ;
+	schema:name "トワ語"@ja ;
+	rdfs:label "Jemez"@en-gb ;
+	skos:prefLabel "Jemez"@en-gb ;
+	schema:name "Jemez"@en-gb ;
+	rdfs:label "tova keel"@et ;
+	skos:prefLabel "tova keel"@et ;
+	schema:name "tova keel"@et ;
+	rdfs:label "jemez"@fr ;
+	skos:prefLabel "jemez"@fr ;
+	schema:name "jemez"@fr ;
+	rdfs:label "Hemeseg"@cy ;
+	skos:prefLabel "Hemeseg"@cy ;
+	schema:name "Hemeseg"@cy ;
+	rdfs:label "Towa"@de ;
+	skos:prefLabel "Towa"@de ;
+	schema:name "Towa"@de ;
+	rdfs:label "Towa"@sv ;
+	skos:prefLabel "Towa"@sv ;
+	schema:name "Towa"@sv ;
+	rdfs:label "Idioma jemez"@ast ;
+	skos:prefLabel "Idioma jemez"@ast ;
+	schema:name "Idioma jemez"@ast ;
+	rdfs:label "Towa"@eu ;
+	skos:prefLabel "Towa"@eu ;
+	schema:name "Towa"@eu ;
+	rdfs:label "傑梅茲語"@zh ;
+	skos:prefLabel "傑梅茲語"@zh ;
+	schema:name "傑梅茲語"@zh ;
+	schema:description "Kiowa-Tano-Sprache von indigenen Völker in Neumexiko gesprochen"@de,
+		"שפה"@he,
+		"langue kiowa-tanoane parlée par le peuple Jemez Pueblo au Nouveau-Mexique"@fr,
+		"Tanoan language spoken by the Jemez Pueblo people in New Mexico"@en-gb,
+		"iaith Tanoeg sy'n siarad gan bobl Jemez Pueblo ym Mecsico Newydd"@cy,
+		"Tanoan language spoken by the Jemez Pueblo people in New Mexico"@en,
+		"idioma kiowa-tanoano hablado por la gente de Jemez Pueblo en Nuevo México"@es,
+		"yezh"@br,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"puebloindianskt folk i sydvästra USA"@sv ;
+	skos:altLabel "Jemez language"@en,
+		"Towa"@en,
+		"Towa language"@en,
+		"tow"@en,
+		"Jemez language"@en-gb,
+		"Towa"@en-gb,
+		"Towa language"@en-gb,
+		"tow"@en-gb,
+		"iaith Hemes"@cy,
+		"iaith Jemez"@cy,
+		"tow"@cy,
+		"Jemez"@de,
+		"tow"@de,
+		"idioma towa"@es,
+		"langue jemez"@fr,
+		"towa"@fr,
+		"langue towa"@fr .
+
+wd:Q10700669 owl:sameAs wd:Q3912876 .

@@ -1,0 +1,138 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5044773 a schema:Dataset ;
+	schema:about wd:Q5044773 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1820779632"^^xsd:integer ;
+	schema:dateModified "2023-01-28T05:04:22Z"^^xsd:dateTime .
+
+wd:Q5044773 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Pamlico_(langue)> a schema:Article ;
+	schema:about wd:Q5044773 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Pamlico (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_carolina_algonquian> a schema:Article ;
+	schema:about wd:Q5044773 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga carolina algonquian"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BC%D0%BB%D0%B8%D0%BA%D0%BE_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q5044773 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Памлико (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Carolina_Algonquian_language> a schema:Article ;
+	schema:about wd:Q5044773 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Carolina Algonquian language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Karolinski_algonkijski_jezik> a schema:Article ;
+	schema:about wd:Q5044773 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Karolinski algonkijski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5044773 wdt:P31 wd:Q34770,
+		wd:Q38058796 ;
+	wdt:P279 wd:Q2257525 ;
+	wdt:P1394 "caro1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/caro1243> ;
+	wdt:P910 wd:Q36153159 ;
+	wdt:P220 "crr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/crr> ;
+	wdt:P305 "crr" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CRR> ;
+	wdt:P646 "/m/02hwljg" ;
+	wdt:P460 wd:Q111366045 ;
+	wdt:P1232 "crr" ;
+	rdfs:label "Carolina Algonquian"@en ;
+	skos:prefLabel "Carolina Algonquian"@en ;
+	schema:name "Carolina Algonquian"@en ;
+	rdfs:label "Lenga carolina algonquian"@pms ;
+	skos:prefLabel "Lenga carolina algonquian"@pms ;
+	schema:name "Lenga carolina algonquian"@pms ;
+	rdfs:label "Carolina Algonquian"@es ;
+	skos:prefLabel "Carolina Algonquian"@es ;
+	schema:name "Carolina Algonquian"@es ;
+	rdfs:label "pamlico"@fr ;
+	skos:prefLabel "pamlico"@fr ;
+	schema:name "pamlico"@fr ;
+	rdfs:label "памлико"@ru ;
+	skos:prefLabel "памлико"@ru ;
+	schema:name "памлико"@ru ;
+	rdfs:label "カロライナ・アルゴンキン語"@ja ;
+	skos:prefLabel "カロライナ・アルゴンキン語"@ja ;
+	schema:name "カロライナ・アルゴンキン語"@ja ;
+	rdfs:label "Karolinski algonkijski jezik"@hr ;
+	skos:prefLabel "Karolinski algonkijski jezik"@hr ;
+	schema:name "Karolinski algonkijski jezik"@hr ;
+	rdfs:label "Carolina Algonquian"@en-gb ;
+	skos:prefLabel "Carolina Algonquian"@en-gb ;
+	schema:name "Carolina Algonquian"@en-gb ;
+	rdfs:label "Wikang Carolina Algonquian"@tl ;
+	skos:prefLabel "Wikang Carolina Algonquian"@tl ;
+	schema:name "Wikang Carolina Algonquian"@tl ;
+	schema:description "idioma"@es,
+		"Sprache"@de,
+		"שפה"@he,
+		"индейский язык восточноалгонкинской группы"@ru,
+		"taal"@nl,
+		"yezh"@br,
+		"langue"@fr,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Pomouik"@fr,
+		"Algonquin de Caroline"@fr,
+		"Carolina Algonquian language"@en .
+
+wd:Q16113723 owl:sameAs wd:Q5044773 .
+
+wd:Q61097319 owl:sameAs wd:Q5044773 .

@@ -1,0 +1,312 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q711797 a schema:Dataset ;
+	schema:about wd:Q711797 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1920643388"^^xsd:integer ;
+	schema:dateModified "2023-06-21T12:50:49Z"^^xsd:dateTime .
+
+wd:Q711797 a wikibase:Item .
+
+<https://zh.wikipedia.org/wiki/%E9%9F%93%E6%BC%A2%E6%B7%B7%E7%94%A8%E6%96%87> a schema:Article ;
+	schema:about wd:Q711797 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "韓漢混用文"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%B3%E3%82%B0%E3%83%AB%E5%B0%82%E7%94%A8%E6%96%87%E3%81%A8%E6%BC%A2%E5%AD%97%E3%83%8F%E3%83%B3%E3%82%B0%E3%83%AB%E6%B7%B7%E3%81%98%E3%82%8A%E6%96%87> a schema:Article ;
+	schema:about wd:Q711797 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ハングル専用文と漢字ハングル混じり文"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%BE%D0%B5_%D1%81%D0%BC%D0%B5%D1%88%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q711797 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Корейское смешанное письмо"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B8%80%EC%A0%84%EC%9A%A9%EA%B3%BC_%EA%B5%AD%ED%95%9C%EB%AC%B8%ED%98%BC%EC%9A%A9> a schema:Article ;
+	schema:about wd:Q711797 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "한글전용과 국한문혼용"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Korean_mixed_script> a schema:Article ;
+	schema:about wd:Q711797 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Korean mixed script"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E9%9F%A9%E6%B1%89%E6%B7%B7%E7%94%A8%E6%96%87> a schema:Article ;
+	schema:about wd:Q711797 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "韩汉混用文"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://commons.wikimedia.org/wiki/Category:Korean_mixed_script> a schema:Article ;
+	schema:about wd:Q711797 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "Category:Korean mixed script"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+<https://vi.wikipedia.org/wiki/H%C3%A1n_t%E1%BB%B1_h%E1%BB%97n_d%E1%BB%A5ng> a schema:Article ;
+	schema:about wd:Q711797 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Hán tự hỗn dụng"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Korejie%C5%A1u_rakst%C4%ABba> a schema:Article ;
+	schema:about wd:Q711797 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Korejiešu rakstība"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q711797 wdt:P646 "/m/02x71x8" ;
+	wdt:P3417 "Korean-Mixed-Script" ;
+	wdt:P31 wd:Q8192,
+		wd:Q3953107,
+		wd:Q9779,
+		wd:Q2182919,
+		wd:Q29517555,
+		wd:Q4004706,
+		wd:Q4167410 ;
+	wdt:P1269 wd:Q9176 ;
+	wdt:P2670 wd:Q485619,
+		wd:Q8222 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/1968%20Korean%20Newspaper.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/%EB%8C%80%ED%95%9C%EC%A0%9C%EA%B5%AD%20%EC%95%A0%EA%B5%AD%EA%B0%80.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Hunmin%20jeong-eum.jpg> ;
+	wdt:P506 "Kore" ;
+	wdt:P2620 "287" ;
+	wdt:P2561 "Korean (alias for Hangul + Han)"@en,
+		"coréen (alias pour hangûl + han)"@fr ;
+	wdt:P571 "1443-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P407 wd:Q9176 ;
+	wdt:P1406 wd:Q17321917,
+		wd:Q17321844,
+		wd:Q7333457 ;
+	wdt:P8885 "국한문혼용체" ;
+	wdt:P1705 "국한문 혼용"@ko,
+		"국한문체"@ko,
+		"국한문 혼용체"@ko ;
+	wdt:P373 "Korean mixed script" ;
+	wdt:P276 wd:Q18097 ;
+	rdfs:label "韩汉混用文"@zh-hans ;
+	skos:prefLabel "韩汉混用文"@zh-hans ;
+	schema:name "韩汉混用文"@zh-hans ;
+	rdfs:label "韓漢混用文"@zh-hant ;
+	skos:prefLabel "韓漢混用文"@zh-hant ;
+	schema:name "韓漢混用文"@zh-hant ;
+	rdfs:label "韓漢混用文"@zh-hk ;
+	skos:prefLabel "韓漢混用文"@zh-hk ;
+	schema:name "韓漢混用文"@zh-hk ;
+	rdfs:label "漢字ハングル混じり文"@ja ;
+	skos:prefLabel "漢字ハングル混じり文"@ja ;
+	schema:name "漢字ハングル混じり文"@ja ;
+	rdfs:label "Корейское смешанное письмо"@ru ;
+	skos:prefLabel "Корейское смешанное письмо"@ru ;
+	schema:name "Корейское смешанное письмо"@ru ;
+	rdfs:label "국한문 혼용"@ko ;
+	skos:prefLabel "국한문 혼용"@ko ;
+	schema:name "국한문 혼용"@ko ;
+	rdfs:label "Korean mixed script"@en ;
+	skos:prefLabel "Korean mixed script"@en ;
+	schema:name "Korean mixed script"@en ;
+	rdfs:label "韓漢混用文"@zh ;
+	skos:prefLabel "韓漢混用文"@zh ;
+	schema:name "韓漢混用文"@zh ;
+	rdfs:label "Κορεατική μικτή γραφή"@el ;
+	skos:prefLabel "Κορεατική μικτή γραφή"@el ;
+	schema:name "Κορεατική μικτή γραφή"@el ;
+	rdfs:label "korea miksa skribo"@eo ;
+	skos:prefLabel "korea miksa skribo"@eo ;
+	schema:name "korea miksa skribo"@eo ;
+	rdfs:label "韩汉混用文"@wuu ;
+	skos:prefLabel "韩汉混用文"@wuu ;
+	schema:name "韩汉混用文"@wuu ;
+	rdfs:label "écriture mixte coréenne"@fr ;
+	skos:prefLabel "écriture mixte coréenne"@fr ;
+	schema:name "écriture mixte coréenne"@fr ;
+	rdfs:label "Hán tự hỗn dụng"@vi ;
+	skos:prefLabel "Hán tự hỗn dụng"@vi ;
+	schema:name "Hán tự hỗn dụng"@vi ;
+	rdfs:label "Korejiešu rakstība"@lv ;
+	skos:prefLabel "Korejiešu rakstība"@lv ;
+	schema:name "Korejiešu rakstība"@lv ;
+	schema:description "writing system for the Korean language that employs hanja for sinoxenic vocabulary and hangul for native Korean vocabulary"@en,
+		"skribsistemo por korea lingvo, kiu uzas la indiĝenan korean alfabeton (hangul) por indiĝenaj vortoj kaj la ĉin-koreajn skribsignojn (hanĝa) por vortoj pruntitaj el la ĉina"@eo,
+		"韓語書寫體系"@zh,
+		"système d'écriture mixte pour le coréen"@fr,
+		"朝鮮語を漢字とハングルを混用して表記すること"@ja,
+		"한국어 적을 때 한글, 한자를 둘 다 쓰는 것"@ko,
+		"উইকিমিডিয়ার দ্ব্যর্থতা নিরসন পাতা"@bn,
+		"pàgina de desambiguació de Wikimedia"@ca,
+		"پەڕەی ڕوونکردنەوەی ویکیمیدیا"@ckb,
+		"rozcestník na projektech Wikimedia"@cs,
+		"Wikimedia-flertydigside"@da,
+		"Wikimedia-Begriffsklärungsseite"@de,
+		"σελίδα αποσαφήνισης εγχειρημάτων Wikimedia"@el,
+		"Wikimedia disambiguation page"@en-ca,
+		"Wikimedia disambiguation page"@en-gb,
+		"página de desambiguación de Wikimedia"@es,
+		"یک صفحهٔ ابهام‌زدایی در ویکی‌پدیا"@fa,
+		"täsmennyssivu"@fi,
+		"páxina de homónimos de Wikimedia"@gl,
+		"સ્પષ્ટતા પાનું"@gu,
+		"דף פירושונים"@he,
+		"बहुविकल्पी पृष्ठ"@hi,
+		"egyértelműsítő lap"@hu,
+		"Halaman disambiguasi"@id,
+		"aðgreiningarsíða á Wikipediu"@is,
+		"pagina di disambiguazione di un progetto Wikimedia"@it,
+		"მრავალმნიშვნელოვანი"@ka,
+		"laman disambiguasi"@min,
+		"појаснителна страница"@mk,
+		"Laman nyahkekaburan"@ms,
+		"Wikimedia-pekerside"@nb,
+		"Sied för en mehrdüdig Begreep op Wikimedia"@nds,
+		"Wikimedia-doorverwijspagina"@nl,
+		"Wikimedia-fleirtydingsside"@nn,
+		"ବହୁବିକଳ୍ପ ପୃଷ୍ଠା"@or,
+		"strona ujednoznaczniająca w projekcie Wikimedia"@pl,
+		"página de desambiguação da Wikimedia"@pt,
+		"страница значений в проекте Викимедиа"@ru,
+		"rozlišovacia stránka"@sk,
+		"grensida"@sv,
+		"trang định hướng Wikimedia"@vi,
+		"维基媒体消歧义页"@zh-hans,
+		"維基媒體消歧義頁"@zh-hant,
+		"Wikimedia täpsustuslehekülg"@et,
+		"Уикимедия пояснителна страница"@bg,
+		"صفحة توضيح لويكيميديا"@ar,
+		"Wikimedia projekta nozīmju atdalīšanas lapa"@lv,
+		"čvor stranica na Wikimediji"@bs,
+		"Wikimedia-Begriffsklärigssite"@gsw,
+		"razdvojbena stranica na Wikimediji"@hr,
+		"Wikimedia-Homonymiesäit"@lb,
+		"pagină de dezambiguizare Wikimedia"@ro,
+		"Wikimedia disambiguation page"@sco,
+		"вишезначна одредница на Викимедији"@sr,
+		"Wikimedia anlam ayrımı sayfası"@tr,
+		"Վիքիմեդիայի նախագծի բազմիմաստության փարատման էջ"@hy,
+		"сторінка значень у проєкті Вікімедіа"@uk,
+		"維基媒體搞清楚頁"@yue,
+		"维基媒体消歧义页"@zh-cn,
+		"維基媒體消歧義頁"@zh-hk,
+		"維基媒體消歧義頁"@zh-mo,
+		"维基媒体消歧义页"@zh-my,
+		"维基媒体消歧义页"@zh-sg,
+		"維基媒體消歧義頁"@zh-tw,
+		"Wikimedia-Begriffsklärungsseite"@de-at,
+		"Wikimedia-Begriffsklärungsseite"@de-ch,
+		"Wikimediako argipen orri"@eu,
+		"razločitvena stran Wikimedie"@sl,
+		"página de desambiguação da Wikimedia"@pt-br,
+		"faqe kthjelluese e Wikimedias"@sq,
+		"pachina de desambigación"@an,
+		"sahifai ma'nohoi Vikimedia"@tg-latn,
+		"саҳифаи маъноҳои Викимедиа"@tg,
+		"Wikimedia-betsjuttingsside"@fy,
+		"ukarasa wa maana wa Wikimedia"@sw,
+		"саҳифаи маъноҳои Викимедиа"@tg-cyrl,
+		"Wikimedia-deurverwiespagina"@zea,
+		"ojúewé ìṣojútùú Wikimedia"@yo,
+		"Wikimedia-verdudelikingspazjena"@li,
+		"старонка неадназначнасці ў праекце Вікімедыя"@be,
+		"וויקימעדיע באַדייטן בלאַט"@yi,
+		"ৱিকিমিডিয়া দ্ব্যৰ্থতা দূৰীকৰণ পৃষ্ঠা"@as,
+		"ದ್ವಂದ್ವ ನಿವಾರಣೆ"@kn,
+		"വിക്കിപീഡിയ വിവക്ഷ താൾ"@ml,
+		"निःसंदिग्धीकरण पाने"@mr,
+		"ਵਿਕੀਮੀਡੀਆ ਗੁੰਝਲਖੋਲ੍ਹ ਸਫ਼ਾ"@pa,
+		"వికీమీడియా అయోమయ నివృత్తి పేజీ"@te,
+		"Мәгънәләр бите Викимедиа проектында"@tt,
+		"Мәгънәләр бите Викимедиа проектында"@tt-cyrl,
+		"Mäğnälär bite Wikimedia proyektında"@tt-latn,
+		"páxina de dixebra de Wikimedia"@ast ;
+	skos:altLabel "国汉混用文"@zh,
+		"国汉混用"@zh,
+		"汉字混用"@zh,
+		"國漢文混用"@zh,
+		"汉谚混用文"@zh,
+		"韩汉混用文"@zh,
+		"國漢混用文"@zh,
+		"漢諺混用文"@zh,
+		"國漢混用"@zh,
+		"漢字混用"@zh,
+		"国汉文混用"@zh,
+		"ハングル世代"@ja,
+		"朝鮮語の国語純化"@ja,
+		"ハングル専用に関する法律"@ja,
+		"ハングル専用文と漢字ハングル混じり文"@ja,
+		"ハングル専用法"@ja,
+		"ハングル専用"@ja,
+		"朝鮮語の国語醇化"@ja,
+		"国語基本法"@ja,
+		"漢字ハングル混り文"@ja,
+		"한글 전용에 관한 법률"@ko,
+		"국한자혼용"@ko,
+		"한글전용법"@ko,
+		"국한혼용"@ko,
+		"한글전용"@ko,
+		"한글 전용법"@ko,
+		"한글전용에관한법률"@ko,
+		"한자혼용"@ko,
+		"국한자 혼용"@ko,
+		"한글 전용"@ko,
+		"한자 혼용"@ko,
+		"국한문 병용"@ko,
+		"Hangul + Han"@en,
+		"Korean (Hangul + Han)"@en,
+		"écriture mixte Hangeul + Han"@fr .
+
+wd:Q16360133 owl:sameAs wd:Q711797 .

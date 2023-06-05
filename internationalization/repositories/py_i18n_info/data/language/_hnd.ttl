@@ -1,0 +1,106 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q111326242 a schema:Dataset ;
+	schema:about wd:Q111326242 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1904515818"^^xsd:integer ;
+	schema:dateModified "2023-05-29T11:52:10Z"^^xsd:dateTime .
+
+wd:Q111326242 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_hindko_meridional> a schema:Article ;
+	schema:about wd:Q111326242 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga hindko meridional"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kihindko_cha_Kusini> a schema:Article ;
+	schema:about wd:Q111326242 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kihindko cha Kusini"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://skr.wikipedia.org/wiki/%D8%AC%D9%86%D9%88%D8%A8%DB%8C_%DB%81%D9%86%D8%AF%DA%A9%D9%88> a schema:Article ;
+	schema:about wd:Q111326242 ;
+	schema:inLanguage "skr" ;
+	schema:isPartOf <https://skr.wikipedia.org/> ;
+	schema:name "جنوبی ہندکو"@skr .
+
+<https://skr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Southern_Hindko_language> a schema:Article ;
+	schema:about wd:Q111326242 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Southern Hindko language"@en ;
+	wikibase:badge wd:Q70894304 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q111326242 wdt:P31 wd:Q1208380 ;
+	wdt:P1394 "sout2668" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sout2668> ;
+	wdt:P220 "hnd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hnd> ;
+	wdt:P305 "hnd" ;
+	wdt:P1627 "hnd" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HND> ;
+	wdt:P910 wd:Q105714113 ;
+	wdt:P279 wd:Q382273 ;
+	wdt:P3823 wd:Q29051551 ;
+	rdfs:label "Southern Hindko"@en-gb ;
+	skos:prefLabel "Southern Hindko"@en-gb ;
+	schema:name "Southern Hindko"@en-gb ;
+	rdfs:label "Southern Hindko"@en ;
+	skos:prefLabel "Southern Hindko"@en ;
+	schema:name "Southern Hindko"@en ;
+	rdfs:label "Kihindko cha Kusini"@sw ;
+	skos:prefLabel "Kihindko cha Kusini"@sw ;
+	schema:name "Kihindko cha Kusini"@sw ;
+	rdfs:label "Lenga hindko meridional"@pms ;
+	skos:prefLabel "Lenga hindko meridional"@pms ;
+	schema:name "Lenga hindko meridional"@pms ;
+	rdfs:label "دکھݨی ہندکو"@pnb ;
+	skos:prefLabel "دکھݨی ہندکو"@pnb ;
+	schema:name "دکھݨی ہندکو"@pnb ;
+	rdfs:label "ਦੱਖਣੀ ਹਿੰਦਕੋ"@pa ;
+	skos:prefLabel "ਦੱਖਣੀ ਹਿੰਦਕੋ"@pa ;
+	schema:name "ਦੱਖਣੀ ਹਿੰਦਕੋ"@pa ;
+	rdfs:label "جنوبی ہندکو"@skr ;
+	skos:prefLabel "جنوبی ہندکو"@skr ;
+	schema:name "جنوبی ہندکو"@skr ;
+	skos:altLabel "دکھنی ہندکو"@pnb .

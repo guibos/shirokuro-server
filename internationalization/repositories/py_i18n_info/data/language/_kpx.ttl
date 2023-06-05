@@ -1,0 +1,132 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6925030 a schema:Dataset ;
+	schema:about wd:Q6925030 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1761674413"^^xsd:integer ;
+	schema:dateModified "2022-10-31T12:25:39Z"^^xsd:dateTime .
+
+wd:Q6925030 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Koiali,_Mountain> a schema:Article ;
+	schema:about wd:Q6925030 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Koiali, Mountain"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Bantay_Koiali> a schema:Article ;
+	schema:about wd:Q6925030 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Bantay Koiali"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mountain_Koiali_language> a schema:Article ;
+	schema:about wd:Q6925030 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mountain Koiali language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikoiari_cha_Milimani> a schema:Article ;
+	schema:about wd:Q6925030 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikoiari cha Milimani"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Kagi_language> a schema:Article ;
+	schema:about wd:Q6925030 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Kagi language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6925030 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "moun1252" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/moun1252> ;
+	wdt:P220 "kpx" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kpx> ;
+	wdt:P1466 "kmo" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_kmo> ;
+	wdt:P279 wd:Q11154240 ;
+	wdt:P910 wd:Q36159271 ;
+	wdt:P305 "kpx" ;
+	wdt:P1627 "kpx" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q874942,
+		wd:Q36526 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KPX> ;
+	wdt:P646 "/m/0h3p8t3" ;
+	rdfs:label "Mountain Koiali"@en ;
+	skos:prefLabel "Mountain Koiali"@en ;
+	schema:name "Mountain Koiali"@en ;
+	rdfs:label "Kikoiari ya Milimani"@sw ;
+	skos:prefLabel "Kikoiari ya Milimani"@sw ;
+	schema:name "Kikoiari ya Milimani"@sw ;
+	rdfs:label "Lenga Koiali"@pms ;
+	skos:prefLabel "Lenga Koiali"@pms ;
+	schema:name "Lenga Koiali"@pms ;
+	rdfs:label "Bantay Koiali"@ilo ;
+	skos:prefLabel "Bantay Koiali"@ilo ;
+	schema:name "Bantay Koiali"@ilo ;
+	rdfs:label "Mountain Koiali"@en-gb ;
+	skos:prefLabel "Mountain Koiali"@en-gb ;
+	schema:name "Mountain Koiali"@en-gb ;
+	rdfs:label "koiari des montagnes"@fr ;
+	skos:prefLabel "koiari des montagnes"@fr ;
+	schema:name "koiari des montagnes"@fr ;
+	rdfs:label "Kagi language"@ig ;
+	skos:prefLabel "Kagi language"@ig ;
+	schema:name "Kagi language"@ig ;
+	schema:description "pagsasao idiay Papua Baro a Guinea"@ilo,
+		"langue koiariane"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Mountain Koiali language"@en,
+		"Mountain Koiari"@en,
+		"koiali des montagnes"@fr .

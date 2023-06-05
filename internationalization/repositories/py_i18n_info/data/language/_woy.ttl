@@ -1,0 +1,126 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3915918 a schema:Dataset ;
+	schema:about wd:Q3915918 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961152449"^^xsd:integer ;
+	schema:dateModified "2023-08-25T19:18:03Z"^^xsd:dateTime .
+
+wd:Q3915918 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_weyto> a schema:Article ;
+	schema:about wd:Q3915918 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga weyto"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiweyto> a schema:Article ;
+	schema:about wd:Q3915918 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiweyto"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Weyto_language> a schema:Article ;
+	schema:about wd:Q3915918 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Weyto language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Weytoeg> a schema:Article ;
+	schema:about wd:Q3915918 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Weytoeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Weyto_language> a schema:Article ;
+	schema:about wd:Q3915918 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Weyto language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3915918 wdt:P220 "woy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/woy> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "weyt1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/weyt1237> ;
+	wdt:P305 "woy" ;
+	wdt:P1627 "woy" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q115 ;
+	wdt:P2341 wd:Q203009 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/WOY> ;
+	wdt:P646 "/m/04flsb" ;
+	rdfs:label "Lenga weyto"@pms ;
+	skos:prefLabel "Lenga weyto"@pms ;
+	schema:name "Lenga weyto"@pms ;
+	rdfs:label "weytoeg"@br ;
+	skos:prefLabel "weytoeg"@br ;
+	schema:name "weytoeg"@br ;
+	rdfs:label "Weyto"@en ;
+	skos:prefLabel "Weyto"@en ;
+	schema:name "Weyto"@en ;
+	rdfs:label "Kiweyto"@sw ;
+	skos:prefLabel "Kiweyto"@sw ;
+	schema:name "Kiweyto"@sw ;
+	rdfs:label "Weyto"@en-gb ;
+	skos:prefLabel "Weyto"@en-gb ;
+	schema:name "Weyto"@en-gb ;
+	rdfs:label "ウェイトー語"@ja ;
+	skos:prefLabel "ウェイトー語"@ja ;
+	schema:name "ウェイトー語"@ja ;
+	rdfs:label "Weyto language"@ig ;
+	skos:prefLabel "Weyto language"@ig ;
+	schema:name "Weyto language"@ig ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Weyto language"@en .

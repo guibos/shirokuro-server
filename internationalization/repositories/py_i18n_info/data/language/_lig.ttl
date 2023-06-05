@@ -1,0 +1,169 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33594 a schema:Dataset ;
+	schema:about wd:Q33594 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1843469875"^^xsd:integer ;
+	schema:dateModified "2023-03-01T10:50:10Z"^^xsd:dateTime .
+
+wd:Q33594 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Ligbi> a schema:Article ;
+	schema:about wd:Q33594 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Ligbi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Limba_ligbi> a schema:Article ;
+	schema:about wd:Q33594 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Limba ligbi"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiligbi> a schema:Article ;
+	schema:about wd:Q33594 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiligbi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ligbi_language> a schema:Article ;
+	schema:about wd:Q33594 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ligbi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Ligbi_(Sprache)> a schema:Article ;
+	schema:about wd:Q33594 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Ligbi (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Ligbi> a schema:Article ;
+	schema:about wd:Q33594 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Ligbi"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33594 wdt:P220 "lig" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lig> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "ligb1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ligb1244> ;
+	wdt:P279 wd:Q6214824 ;
+	wdt:P910 wd:Q33076589 ;
+	wdt:P305 "lig" ;
+	wdt:P1627 "lig" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q117 ;
+	wdt:P2341 wd:Q397737 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LIG> ;
+	wdt:P646 "/m/04p7_6" ;
+	wdt:P2192 "6106" ;
+	rdfs:label "Kiligbi"@sw ;
+	skos:prefLabel "Kiligbi"@sw ;
+	schema:name "Kiligbi"@sw ;
+	rdfs:label "Ligbi"@de ;
+	skos:prefLabel "Ligbi"@de ;
+	schema:name "Ligbi"@de ;
+	rdfs:label "Lenga Ligbi"@pms ;
+	skos:prefLabel "Lenga Ligbi"@pms ;
+	schema:name "Lenga Ligbi"@pms ;
+	rdfs:label "Ligbi"@en ;
+	skos:prefLabel "Ligbi"@en ;
+	schema:name "Ligbi"@en ;
+	rdfs:label "lingua Ligbi"@it ;
+	skos:prefLabel "lingua Ligbi"@it ;
+	schema:name "lingua Ligbi"@it ;
+	rdfs:label "Ligbi"@en-gb ;
+	skos:prefLabel "Ligbi"@en-gb ;
+	schema:name "Ligbi"@en-gb ;
+	rdfs:label "ligbi"@fr ;
+	skos:prefLabel "ligbi"@fr ;
+	schema:name "ligbi"@fr ;
+	rdfs:label "Wikang Ligbi"@tl ;
+	skos:prefLabel "Wikang Ligbi"@tl ;
+	schema:name "Wikang Ligbi"@tl ;
+	rdfs:label "Limba ligbi"@ro ;
+	skos:prefLabel "Limba ligbi"@ro ;
+	schema:name "Limba ligbi"@ro ;
+	rdfs:label "ligbi"@vec ;
+	skos:prefLabel "ligbi"@vec ;
+	schema:name "ligbi"@vec ;
+	rdfs:label "Asụsụ Ligbi"@ig ;
+	skos:prefLabel "Asụsụ Ligbi"@ig ;
+	schema:name "Asụsụ Ligbi"@ig ;
+	rdfs:label "လေတ်ဗဳ"@mnw ;
+	skos:prefLabel "လေတ်ဗဳ"@mnw ;
+	schema:name "လေတ်ဗဳ"@mnw ;
+	rdfs:label "Kategooria:Ligbi keel"@et ;
+	skos:prefLabel "Kategooria:Ligbi keel"@et ;
+	schema:name "Kategooria:Ligbi keel"@et ;
+	rdfs:label "Kategorija:Ligbių kalba"@lt ;
+	skos:prefLabel "Kategorija:Ligbių kalba"@lt ;
+	schema:name "Kategorija:Ligbių kalba"@lt ;
+	schema:description "Sprache"@de,
+		"lingua parlata in Ghana"@it,
+		"language"@en,
+		"שפה"@he,
+		"langue mandée"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"အရေဝ်ဘာသာ"@mnw ;
+	skos:altLabel "Ligwi"@de,
+		"Namasa"@de,
+		"Nigbi"@de,
+		"Weela"@de,
+		"Dzowo"@de,
+		"Nigwi"@de,
+		"Tsie"@de,
+		"Weila"@de,
+		"Jogo"@de,
+		"Wiila"@de,
+		"Ligbi language"@en,
+		"ဘာသာလေတ်ဗဳ"@mnw .

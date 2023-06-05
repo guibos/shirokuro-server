@@ -1,0 +1,144 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2919128 a schema:Dataset ;
+	schema:about wd:Q2919128 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1539005049"^^xsd:integer ;
+	schema:dateModified "2021-12-05T11:25:13Z"^^xsd:dateTime .
+
+wd:Q2919128 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Orma_(langue)> a schema:Article ;
+	schema:about wd:Q2919128 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Orma (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Orma> a schema:Article ;
+	schema:about wd:Q2919128 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Orma"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%90%D7%95%D7%A8%D7%9E%D7%94_(%D7%A9%D7%A4%D7%94)> a schema:Article ;
+	schema:about wd:Q2919128 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "אורמה (שפה)"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiorma> a schema:Article ;
+	schema:about wd:Q2919128 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiorma"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Orma_language> a schema:Article ;
+	schema:about wd:Q2919128 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Orma language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Orma_jezik> a schema:Article ;
+	schema:about wd:Q2919128 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Orma jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2919128 wdt:P220 "orc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/orc> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/02hxh61" ;
+	wdt:P305 "orc" ;
+	wdt:P279 wd:Q33864 ;
+	wdt:P244 "sh2001001246" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh2001001246> ;
+	wdt:P268 "145904147" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb145904147#about> ;
+	wdt:P1394 "orma1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/orma1241> ;
+	wdt:P1394 "waat1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/waat1239> ;
+	wdt:P910 wd:Q36164009 ;
+	wdt:P1627 "orc" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q114 ;
+	wdt:P2341 wd:Q1741307,
+		wd:Q1951652,
+		wd:Q383150 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/ORC> ;
+	wdt:P8189 "987007566094305171" ;
+	rdfs:label "Lenga Orma"@pms ;
+	skos:prefLabel "Lenga Orma"@pms ;
+	schema:name "Lenga Orma"@pms ;
+	rdfs:label "אורמה"@he ;
+	skos:prefLabel "אורמה"@he ;
+	schema:name "אורמה"@he ;
+	rdfs:label "Orma"@en ;
+	skos:prefLabel "Orma"@en ;
+	schema:name "Orma"@en ;
+	rdfs:label "Orma jezik"@hr ;
+	skos:prefLabel "Orma jezik"@hr ;
+	schema:name "Orma jezik"@hr ;
+	rdfs:label "orma"@fr ;
+	skos:prefLabel "orma"@fr ;
+	schema:name "orma"@fr ;
+	rdfs:label "Kiorma"@sw ;
+	skos:prefLabel "Kiorma"@sw ;
+	schema:name "Kiorma"@sw ;
+	rdfs:label "Orma"@en-gb ;
+	skos:prefLabel "Orma"@en-gb ;
+	schema:name "Orma"@en-gb ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue couchitique"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Orma language"@en .

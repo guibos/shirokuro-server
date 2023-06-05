@@ -1,0 +1,170 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6794475 a schema:Dataset ;
+	schema:about wd:Q6794475 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1860267137"^^xsd:integer ;
+	schema:dateModified "2023-03-24T19:58:09Z"^^xsd:dateTime .
+
+wd:Q6794475 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_sater%C3%A9-maw%C3%A9> a schema:Article ;
+	schema:about wd:Q6794475 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga sateré-mawé"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D1%82%D0%B5%D1%80%D0%B5-%D0%BC%D0%B0%D0%B2%D0%B5> a schema:Article ;
+	schema:about wd:Q6794475 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Сатере-маве"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Maw%C3%A9_language> a schema:Article ;
+	schema:about wd:Q6794475 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mawé language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Maw%C3%A9-Sater%C3%A9> a schema:Article ;
+	schema:about wd:Q6794475 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Mawé-Sateré"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_sater%C3%A9-mau%C3%A9> a schema:Article ;
+	schema:about wd:Q6794475 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua sateré-maué"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Maw%C3%A9_(langue)> a schema:Article ;
+	schema:about wd:Q6794475 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Mawé (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Sater%C3%A9-maw%C3%A9> a schema:Article ;
+	schema:about wd:Q6794475 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Sateré-mawé"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_maw%C3%A9> a schema:Article ;
+	schema:about wd:Q6794475 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma mawé"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6794475 wdt:P220 "mav" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mav> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "sate1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sate1243> ;
+	wdt:P2355 "1763" ;
+	wdt:P279 wd:Q34070 ;
+	wdt:P2341 wd:Q2259699,
+		wd:Q40040,
+		wd:Q39517 ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P910 wd:Q36161982 ;
+	wdt:P2192 "1851" ;
+	wdt:P305 "mav" ;
+	wdt:P1627 "mav" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q155 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MAV> ;
+	wdt:P2671 "/g/11b6dbbpbx" ;
+	wdtn:P2671 <http://g.co/kg/g/11b6dbbpbx> ;
+	wdt:P1098 "+9200"^^xsd:decimal ;
+	rdfs:label "Mawé"@en ;
+	skos:prefLabel "Mawé"@en ;
+	schema:name "Mawé"@en ;
+	rdfs:label "Lenga sateré-mawé"@pms ;
+	skos:prefLabel "Lenga sateré-mawé"@pms ;
+	schema:name "Lenga sateré-mawé"@pms ;
+	rdfs:label "Сатере-маве"@ru ;
+	skos:prefLabel "Сатере-маве"@ru ;
+	schema:name "Сатере-маве"@ru ;
+	rdfs:label "Mawé-Sateré"@hr ;
+	skos:prefLabel "Mawé-Sateré"@hr ;
+	schema:name "Mawé-Sateré"@hr ;
+	rdfs:label "Língua sateré-mawé"@pt ;
+	skos:prefLabel "Língua sateré-mawé"@pt ;
+	schema:name "Língua sateré-mawé"@pt ;
+	rdfs:label "mawé"@fr ;
+	skos:prefLabel "mawé"@fr ;
+	schema:name "mawé"@fr ;
+	rdfs:label "Sateré-mawé"@fi ;
+	skos:prefLabel "Sateré-mawé"@fi ;
+	schema:name "Sateré-mawé"@fi ;
+	rdfs:label "Idioma mawé"@es ;
+	skos:prefLabel "Idioma mawé"@es ;
+	schema:name "Idioma mawé"@es ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue tupi"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"tupilainen kieli"@fi ;
+	skos:altLabel "Sateré-Mawé"@en,
+		"Mawe language"@en,
+		"Satere-Mawe"@en,
+		"Mawé language"@en,
+		"mawé-sateré"@fr,
+		"sateré-mawé"@fr,
+		"sateré"@fr .
+
+wd:Q10322151 owl:sameAs wd:Q6794475 .

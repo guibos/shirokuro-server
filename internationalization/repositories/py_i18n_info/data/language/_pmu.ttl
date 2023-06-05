@@ -1,0 +1,159 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6874480 a schema:Dataset ;
+	schema:about wd:Q6874480 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1856449530"^^xsd:integer ;
+	schema:dateModified "2023-03-20T13:25:41Z"^^xsd:dateTime .
+
+wd:Q6874480 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Mirpur_Punjabi> a schema:Article ;
+	schema:about wd:Q6874480 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mirpur Punjabi"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_panjabi_mirpur> a schema:Article ;
+	schema:about wd:Q6874480 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga panjabi mirpur"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%AB%E3%83%97%E3%83%AB%E3%83%BB%E3%83%91%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%96%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q6874480 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ミルプル・パンジャーブ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6874480 wdt:P220 "pmu" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pmu> ;
+	wdt:P31 wd:Q33384 ;
+	wdt:P1394 "mirp1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mirp1238> ;
+	wdt:P279 wd:Q115823263 ;
+	wdt:P305 "pmu" ;
+	wdt:P646 "/m/02hxms3" ;
+	wdt:P4913 wd:Q58635 ;
+	wdt:P2341 wd:Q24054518 ;
+	wdt:P3103 wd:Q501405 ;
+	wdt:P1382 wd:Q33739,
+		wd:Q105724422 ;
+	wdt:P460 wd:Q33739,
+		wd:Q105724422 ;
+	wdt:P1705 "ਮੀਰਪੁਰੀ"@pa,
+		"میرپوری"@pnb ;
+	rdfs:label "Mirpuri"@en ;
+	skos:prefLabel "Mirpuri"@en ;
+	schema:name "Mirpuri"@en ;
+	rdfs:label "Lenga panjabi mirpur"@pms ;
+	skos:prefLabel "Lenga panjabi mirpur"@pms ;
+	schema:name "Lenga panjabi mirpur"@pms ;
+	rdfs:label "ミルプル・パンジャーブ語"@ja ;
+	skos:prefLabel "ミルプル・パンジャーブ語"@ja ;
+	schema:name "ミルプル・パンジャーブ語"@ja ;
+	rdfs:label "pendjabi mirpur"@fr ;
+	skos:prefLabel "pendjabi mirpur"@fr ;
+	schema:name "pendjabi mirpur"@fr ;
+	rdfs:label "ਮੀਰਪੁਰੀ"@pa ;
+	skos:prefLabel "ਮੀਰਪੁਰੀ"@pa ;
+	schema:name "ਮੀਰਪੁਰੀ"@pa ;
+	rdfs:label "میرپوری"@pnb ;
+	skos:prefLabel "میرپوری"@pnb ;
+	schema:name "میرپوری"@pnb ;
+	rdfs:label "میرپوری"@ur ;
+	skos:prefLabel "میرپوری"@ur ;
+	schema:name "میرپوری"@ur ;
+	rdfs:label "मीरपुरी"@hi ;
+	skos:prefLabel "मीरपुरी"@hi ;
+	schema:name "मीरपुरी"@hi ;
+	rdfs:label "মীরপুরী"@bn ;
+	skos:prefLabel "মীরপুরী"@bn ;
+	schema:name "মীরপুরী"@bn ;
+	rdfs:label "ମୀରପୁରୀ"@or ;
+	skos:prefLabel "ମୀରପୁରୀ"@or ;
+	schema:name "ମୀରପୁରୀ"@or ;
+	rdfs:label "മീരപുരീ"@ml ;
+	skos:prefLabel "മീരപുരീ"@ml ;
+	schema:name "മീരപുരീ"@ml ;
+	rdfs:label "મીરપુરી"@gu ;
+	skos:prefLabel "મીરપુરી"@gu ;
+	schema:name "મીરપુરી"@gu ;
+	rdfs:label "میرپوری"@skr ;
+	skos:prefLabel "میرپوری"@skr ;
+	schema:name "میرپوری"@skr ;
+	rdfs:label "مرپوری"@bcc ;
+	skos:prefLabel "مرپوری"@bcc ;
+	schema:name "مرپوری"@bcc ;
+	rdfs:label "مرپوری"@bgn ;
+	skos:prefLabel "مرپوری"@bgn ;
+	schema:name "مرپوری"@bgn ;
+	rdfs:label "مرپوری"@brh ;
+	skos:prefLabel "مرپوری"@brh ;
+	schema:name "مرپوری"@brh ;
+	rdfs:label "ميرپوري"@sd ;
+	skos:prefLabel "ميرپوري"@sd ;
+	schema:name "ميرپوري"@sd ;
+	rdfs:label "میرپوری"@fa ;
+	skos:prefLabel "میرپوری"@fa ;
+	schema:name "میرپوری"@fa ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue indo-aryenne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"dialect of Punjabi associated with the Mirpur area in western Punjab/Azad Kashmir"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"میرپور دا لہجہ"@pnb,
+		"ਮੀਰਪੁਰ ਦਾ ਲਹਿਜਾ"@pa ;
+	skos:altLabel "Mirpur Panjabi"@en,
+		"Mirpur Punjabi"@en,
+		"Mirpuri Panjabi"@en,
+		"Pahari"@en,
+		"Mirpuri Punjabi"@en,
+		"پہاڑی"@pnb,
+		"میرپوری پنجابی"@pnb,
+		"ਪਹਾੜੀ"@pa,
+		"ਮੀਰਪੁਰੀ ਪੰਜਾਬ"@pa .
+
+wd:Q12953801 owl:sameAs wd:Q6874480 .

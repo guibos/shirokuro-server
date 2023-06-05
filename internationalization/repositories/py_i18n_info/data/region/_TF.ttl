@@ -1,0 +1,1306 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q129003 a schema:Dataset ;
+	schema:about wd:Q129003 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1924187063"^^xsd:integer ;
+	schema:dateModified "2023-06-26T12:00:21Z"^^xsd:dateTime .
+
+wd:Q129003 a wikibase:Item .
+
+<https://en.wikivoyage.org/wiki/French_Southern_and_Antarctic_Lands> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikivoyage.org/> ;
+	schema:name "French Southern and Antarctic Lands"@en .
+
+<https://en.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://commons.wikimedia.org/wiki/French_Southern_and_Antarctic_Lands> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "French Southern and Antarctic Lands"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+<https://es.wikivoyage.org/wiki/Territorios_Australes_Franceses> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikivoyage.org/> ;
+	schema:name "Territorios Australes Franceses"@es .
+
+<https://es.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://en.wikipedia.org/wiki/French_Southern_and_Antarctic_Lands> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "French Southern and Antarctic Lands"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Franz%C3%B6sische_S%C3%BCd-_und_Antarktisgebiete> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Französische Süd- und Antarktisgebiete"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Terres_australes_et_antarctiques_fran%C3%A7aises> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Terres australes et antarctiques françaises"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Tierras_Australes_y_Ant%C3%A1rticas_Francesas> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Tierras Australes y Antárticas Francesas"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%83%D0%B7%D1%81%D0%BA%D0%B8%D0%B5_%D0%AE%D0%B6%D0%BD%D1%8B%D0%B5_%D0%B8_%D0%90%D0%BD%D1%82%D0%B0%D1%80%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Французские Южные и Антарктические территории"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E9%A0%98%E5%8D%97%E6%96%B9%E3%83%BB%E5%8D%97%E6%A5%B5%E5%9C%B0%E5%9F%9F> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "フランス領南方・南極地域"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/Francuskie_Terytoria_Po%C5%82udniowe_i_Antarktyczne> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Francuskie Terytoria Południowe i Antarktyczne"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Terras_Austrais_e_Ant%C3%A1rticas_Francesas> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Terras Austrais e Antárticas Francesas"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%B3%95%E5%B1%9E%E5%8D%97%E9%83%A8%E5%92%8C%E5%8D%97%E6%9E%81%E9%A2%86%E5%9C%B0> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "法属南部和南极领地"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Franska_sydterritorierna> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Franska sydterritorierna"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B3%D8%B1%D8%B2%D9%85%DB%8C%D9%86%E2%80%8C%D9%87%D8%A7%DB%8C_%D8%AC%D9%86%D9%88%D8%A8%DB%8C_%D9%88_%D8%AC%D9%86%D9%88%D8%A8%DA%AF%D8%A7%D9%86%DB%8C_%D9%81%D8%B1%D8%A7%D9%86%D8%B3%D9%87> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "سرزمین‌های جنوبی و جنوبگانی فرانسه"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%94%D7%90%D7%A8%D7%A6%D7%95%D7%AA_%D7%94%D7%93%D7%A8%D7%95%D7%9E%D7%99%D7%95%D7%AA_%D7%95%D7%94%D7%90%D7%A0%D7%98%D7%90%D7%A8%D7%A7%D7%98%D7%99%D7%95%D7%AA_%D7%A9%D7%9C_%D7%A6%D7%A8%D7%A4%D7%AA> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "הארצות הדרומיות והאנטארקטיות של צרפת"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Frans%C4%B1z_G%C3%BCney_ve_Antarktika_Topraklar%C4%B1> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Fransız Güney ve Antarktika Toprakları"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Francia_d%C3%A9li_%C3%A9s_antarktiszi_ter%C3%BCletek> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Francia déli és antarktiszi területek"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Ranskan_etel%C3%A4iset_ja_antarktiset_alueet> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Ranskan eteläiset ja antarktiset alueet"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A3%D8%B1%D8%A7%D8%B6_%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9_%D8%AC%D9%86%D9%88%D8%A8%D9%8A%D8%A9_%D9%88%D8%A3%D9%86%D8%AA%D8%A7%D8%B1%D8%AA%D9%8A%D9%83%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "أراض فرنسية جنوبية وأنتارتيكية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/V%C3%B9ng_%C4%91%E1%BA%A5t_ph%C3%ADa_Nam_v%C3%A0_ch%C3%A2u_Nam_C%E1%BB%B1c_thu%E1%BB%99c_Ph%C3%A1p> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Vùng đất phía Nam và châu Nam Cực thuộc Pháp"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/De_franske_s%C3%B8rterritorier> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "De franske sørterritorier"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%83%D0%B7%D1%8C%D0%BA%D1%96_%D0%9F%D1%96%D0%B2%D0%B4%D0%B5%D0%BD%D0%BD%D1%96_%D1%96_%D0%90%D0%BD%D1%82%D0%B0%D1%80%D0%BA%D1%82%D0%B8%D1%87%D0%BD%D1%96_%D0%A2%D0%B5%D1%80%D0%B8%D1%82%D0%BE%D1%80%D1%96%D1%97> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Французькі Південні і Антарктичні Території"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Terres_Australs_i_Ant%C3%A0rtiques_Franceses> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Terres Australs i Antàrtiques Franceses"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Francouzsk%C3%A1_ji%C5%BEn%C3%AD_a_antarktick%C3%A1_%C3%BAzem%C3%AD> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Francouzská jižní a antarktická území"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%83%D1%81%D0%BA%D0%B5_%D1%98%D1%83%D0%B6%D0%BD%D0%B5_%D0%B8_%D0%B0%D0%BD%D1%82%D0%B0%D1%80%D0%BA%D1%82%D0%B8%D1%87%D0%BA%D0%B5_%D0%B7%D0%B5%D0%BC%D1%99%D0%B5> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Француске јужне и антарктичке земље"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Teritoriile_australe_%C8%99i_antarctice_franceze> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Teritoriile australe și antarctice franceze"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/Franske_Sydlige_og_Antarktiske_Territorier> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Franske Sydlige og Antarktiske Territorier"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%A4%D1%80%D0%B5%D0%BD%D1%81%D0%BA%D0%B8_%D1%8E%D0%B6%D0%BD%D0%B8_%D0%B8_%D0%B0%D0%BD%D1%82%D0%B0%D1%80%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8_%D1%82%D0%B5%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Френски южни и антарктически територии"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Franse_Suidelike_en_Antarktiese_Gebiede> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Franse Suidelike en Antarktiese Gebiede"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://an.wikipedia.org/wiki/Territorios_Australs_Franceses> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "an" ;
+	schema:isPartOf <https://an.wikipedia.org/> ;
+	schema:name "Territorios Australs Franceses"@an .
+
+<https://an.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Tierres_Australes_y_Ant%C3%A1rtiques_Franceses> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Tierres Australes y Antártiques Franceses"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Fransan%C4%B1n_C%C9%99nub_v%C9%99_Antarktika_%C9%99razil%C9%99ri> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Fransanın Cənub və Antarktika əraziləri"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D9%81%D8%B1%D8%A7%D9%86%D8%B3%D9%87_%DA%AF%D9%88%D9%86%D8%A6%DB%8C_%D9%88_%D9%82%D9%88%D8%B7%D8%A8_%D8%AA%D9%88%D8%B1%D9%BE%D8%A7%D9%82%D9%84%D8%A7%D8%B1%DB%8C> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "فرانسه گونئی و قوطب تورپاقلاری"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%83%D0%B7%D1%81%D0%BA%D1%96%D1%8F_%D0%9F%D0%B0%D1%9E%D0%B4%D0%BD%D1%91%D0%B2%D1%8B%D1%8F_%D1%96_%D0%90%D0%BD%D1%82%D0%B0%D1%80%D0%BA%D1%82%D1%8B%D1%87%D0%BD%D1%8B%D1%8F_%D1%82%D1%8D%D1%80%D1%8B%D1%82%D0%BE%D1%80%D1%8B%D1%96> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Французскія Паўднёвыя і Антарктычныя тэрыторыі"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%83%D1%81%D0%BA%D1%96%D1%8F_%D0%9F%D0%B0%D1%9E%D0%B4%D0%BD%D1%91%D0%B2%D1%8B%D1%8F_%D1%96_%D0%90%D0%BD%D1%82%D0%B0%D1%80%D0%BA%D1%82%D1%8B%D1%87%D0%BD%D1%8B%D1%8F_%D1%82%D1%8D%D1%80%D1%8B%D1%82%D0%BE%D1%80%D1%8B%D1%96> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Францускія Паўднёвыя і Антарктычныя тэрыторыі"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Douaro%C3%B9_Aostral_hag_Antarktikel_Fra%C3%B1s> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Douaroù Aostral hag Antarktikel Frañs"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cy.wikipedia.org/wiki/Tiroedd_Deheuol_ac_Antarctig_Ffrainc> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "cy" ;
+	schema:isPartOf <https://cy.wikipedia.org/> ;
+	schema:name "Tiroedd Deheuol ac Antarctig Ffrainc"@cy .
+
+<https://cy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%B1%CE%BB%CE%BB%CE%B9%CE%BA%CE%AC_%CE%9D%CF%8C%CF%84%CE%B9%CE%B1_%CE%BA%CE%B1%CE%B9_%CE%91%CE%BD%CF%84%CE%B1%CF%81%CE%BA%CF%84%CE%B9%CE%BA%CE%AC_%CE%95%CE%B4%CE%AC%CF%86%CE%B7> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γαλλικά Νότια και Ανταρκτικά Εδάφη"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Francaj_Sudaj_kaj_Antarktaj_Teritorioj> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Francaj Sudaj kaj Antarktaj Teritorioj"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Prantsuse_L%C3%B5unaalad> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Prantsuse Lõunaalad"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Frantziaren_Lurralde_Austral_eta_Antartikoak> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Frantziaren Lurralde Austral eta Antartikoak"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Frans%C3%B6%C3%B6sk_S%C3%BC%C3%BCd-_an_Antarktisregiuunen> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Fransöösk Süüd- an Antarktisregiuunen"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gag.wikipedia.org/wiki/Fran%C8%9Buz_%C3%9C%C3%BClen_hem_Antarktida_Topraklar%C4%B1> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "gag" ;
+	schema:isPartOf <https://gag.wikipedia.org/> ;
+	schema:name "Franțuz Üülen hem Antarktida Toprakları"@gag .
+
+<https://gag.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Terras_Austrais_e_Ant%C3%A1rticas_Francesas> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Terras Austrais e Antárticas Francesas"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Francuski_ju%C5%BEni_i_antarkti%C4%8Dki_teritoriji> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Francuski južni i antarktički teritoriji"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/Fr%C3%B6nsku_su%C3%B0l%C3%A6gu_landsv%C3%A6%C3%B0in> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Frönsku suðlægu landsvæðin"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%A1%E1%83%90%E1%83%A4%E1%83%A0%E1%83%90%E1%83%9C%E1%83%92%E1%83%94%E1%83%97%E1%83%98%E1%83%A1_%E1%83%A1%E1%83%90%E1%83%9B%E1%83%AE%E1%83%A0%E1%83%94%E1%83%97%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%93%E1%83%90_%E1%83%90%E1%83%9C%E1%83%A2%E1%83%90%E1%83%A0%E1%83%A5%E1%83%A2%E1%83%98%E1%83%93%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%A2%E1%83%94%E1%83%A0%E1%83%98%E1%83%A2%E1%83%9D%E1%83%A0%E1%83%98%E1%83%90> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "საფრანგეთის სამხრეთული და ანტარქტიდული ტერიტორია"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kk.wikipedia.org/wiki/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F%D0%BD%D1%8B%D2%A3_%D0%BE%D2%A3%D1%82%D2%AF%D1%81%D1%82%D1%96%D0%BA_%D0%B6%D3%99%D0%BD%D0%B5_%D0%90%D0%BD%D1%82%D0%B0%D1%80%D0%BA%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8B%D2%9B_%D0%B0%D0%B9%D0%BC%D0%B0%D2%9B%D1%82%D0%B0%D1%80%D1%8B> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "kk" ;
+	schema:isPartOf <https://kk.wikipedia.org/> ;
+	schema:name "Францияның оңтүстік және Антарктикалық аймақтары"@kk .
+
+<https://kk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kw.wikipedia.org/wiki/Tiryow_Deghow_hag_Antarktik_Frynkek> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "kw" ;
+	schema:isPartOf <https://kw.wikipedia.org/> ;
+	schema:name "Tiryow Deghow hag Antarktik Frynkek"@kw .
+
+<https://kw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lij.wikipedia.org/wiki/Terit%C3%B6i_Fran%C3%A7eixi_Meridion%C3%A6_e_de_l%27Antartego> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "lij" ;
+	schema:isPartOf <https://lij.wikipedia.org/> ;
+	schema:name "Teritöi Françeixi Meridionæ e de l'Antartego"@lij .
+
+<https://lij.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ln.wikipedia.org/wiki/Mab%C3%A1nda_ma_ns%C3%A9_mp%C3%A9_antaktiki_ya_Falansia> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "ln" ;
+	schema:isPartOf <https://ln.wikipedia.org/> ;
+	schema:name "Mabánda ma nsé mpé antaktiki ya Falansia"@ln .
+
+<https://ln.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Pranc%C5%ABzijos_Piet%C5%B3_Sritys> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Prancūzijos Pietų Sritys"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Francijas_Dienvidj%C5%ABru_un_Antarktikas_Zemes> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Francijas Dienvidjūru un Antarktikas Zemes"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mr.wikipedia.org/wiki/%E0%A4%AB%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%B8%E0%A4%9A%E0%A5%87_%E0%A4%A6%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%A3%E0%A5%80_%E0%A4%B5_%E0%A4%85%E0%A4%82%E0%A4%9F%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A4%BF%E0%A4%95_%E0%A4%AD%E0%A5%82%E0%A4%AD%E0%A4%BE%E0%A4%97> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "mr" ;
+	schema:isPartOf <https://mr.wikipedia.org/> ;
+	schema:name "फ्रान्सचे दक्षिणी व अंटार्क्टिक भूभाग"@mr .
+
+<https://mr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nds-nl.wikipedia.org/wiki/Fraanse_Zudelike_en_Antarktiese_Gebeden> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "nds-NL" ;
+	schema:isPartOf <https://nds-nl.wikipedia.org/> ;
+	schema:name "Fraanse Zudelike en Antarktiese Gebeden"@nds-NL .
+
+<https://nds-nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Dei_franske_s%C3%B8rterritoria> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Dei franske sørterritoria"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/T%C3%A8rras_Australas_e_Antarticas_Francesas> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Tèrras Australas e Antarticas Francesas"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rw.wikipedia.org/wiki/Ibihugu_by%E2%80%99Amajyepfo_Nyamfaransa> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "rw" ;
+	schema:isPartOf <https://rw.wikipedia.org/> ;
+	schema:name "Ibihugu by’Amajyepfo Nyamfaransa"@rw .
+
+<https://rw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sl.wikipedia.org/wiki/Francoska_ju%C5%BEna_in_antarkti%C4%8Dna_ozemlja> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikipedia.org/> ;
+	schema:name "Francoska južna in antarktična ozemlja"@sl .
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AF%86%E0%AE%9E%E0%AF%8D%E0%AE%9A%E0%AF%81_%E0%AE%A4%E0%AF%86%E0%AE%A9%E0%AF%8D%E0%AE%A9%E0%AE%95_%E0%AE%A8%E0%AE%BF%E0%AE%B2%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%81%E0%AE%AE%E0%AF%8D_%E0%AE%85%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AE%BE%E0%AE%B0%E0%AF%8D%E0%AE%95%E0%AF%8D%E0%AE%9F%E0%AE%BF%E0%AE%95%E0%AF%8D_%E0%AE%A8%E0%AE%BF%E0%AE%B2%E0%AE%AE%E0%AF%81%E0%AE%AE%E0%AF%8D> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "பிரெஞ்சு தென்னக நிலங்களும் அண்டார்க்டிக் நிலமும்"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%9F%E0%B8%A3%E0%B8%99%E0%B8%8A%E0%B9%8C%E0%B9%80%E0%B8%8B%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%B4%E0%B8%A3%E0%B9%8C%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%81%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%81%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B9%81%E0%B8%A5%E0%B8%99%E0%B8%94%E0%B8%AA%E0%B9%8C> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "เฟรนช์เซาเทิร์นและแอนตาร์กติกแลนดส์"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F%D0%BD%D0%B5%D2%A3_%D0%9A%D3%A9%D0%BD%D1%8C%D1%8F%D0%BA_%D2%BB%D3%99%D0%BC_%D0%90%D0%BD%D1%82%D0%B0%D1%80%D0%BA%D1%82%D0%B8%D0%BA_%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%D0%BB%D3%99%D1%80%D0%B5> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Франциянең Көньяк һәм Антарктик территорияләре"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D8%B3%D8%B1%D8%B2%D9%85%DB%8C%D9%86_%D8%AC%D9%86%D9%88%D8%A8%DB%8C_%D9%81%D8%B1%D8%A7%D9%86%D8%B3%DB%8C%D8%B3%DB%8C%DB%81_%D9%88_%D8%A7%D9%86%D9%B9%D8%A7%D8%B1%DA%A9%D9%B9%DB%8C%DA%A9%D8%A7> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "سرزمین جنوبی فرانسیسیہ و انٹارکٹیکا"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://war.wikipedia.org/wiki/Katunaan_han_Fransya_ha_Salatan_ngan_Antarctica> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "war" ;
+	schema:isPartOf <https://war.wikipedia.org/> ;
+	schema:name "Katunaan han Fransya ha Salatan ngan Antarctica"@war .
+
+<https://war.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://yo.wikipedia.org/wiki/%C3%80w%E1%BB%8Dn_Agb%C3%A8gb%C3%A8_Ap%C3%A1g%C3%BA%C3%BAs%C3%B9_%C3%A0ti_Ant%C3%A1rkt%C3%ACk%C3%AC_Fr%C3%A1ns%C3%AC> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "yo" ;
+	schema:isPartOf <https://yo.wikipedia.org/> ;
+	schema:name "Àwọn Agbègbè Apágúúsù àti Antárktìkì Fránsì"@yo .
+
+<https://yo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/French_Southern_and_Antarctic_Lands> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "French Southern and Antarctic Lands"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Tanah_Selatan_dan_Antartika_Perancis> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Tanah Selatan dan Antartika Perancis"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikivoyage.org/wiki/Franz%C3%B6sische_S%C3%BCd-_und_Antarktisgebiete> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikivoyage.org/> ;
+	schema:name "Französische Süd- und Antarktisgebiete"@de .
+
+<https://de.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://id.wikipedia.org/wiki/Daratan_Selatan_dan_Antarktika_Prancis> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Daratan Selatan dan Antarktika Prancis"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ia.wikipedia.org/wiki/Terras_Austral_Francese> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "ia" ;
+	schema:isPartOf <https://ia.wikipedia.org/> ;
+	schema:name "Terras Austral Francese"@ia .
+
+<https://ia.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sc.wikipedia.org/wiki/Terras_australes_e_ant%C3%A0rticas_frantzesas> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "sc" ;
+	schema:isPartOf <https://sc.wikipedia.org/> ;
+	schema:name "Terras australes e antàrticas frantzesas"@sc .
+
+<https://sc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikinews.org/wiki/Kategorio:Francaj_Sudaj_Teritorioj> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikinews.org/> ;
+	schema:name "Kategorio:Francaj Sudaj Teritorioj"@eo .
+
+<https://eo.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://ba.wikipedia.org/wiki/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F%D0%BD%D1%8B%D2%A3_%D0%9A%D3%A9%D0%BD%D1%8C%D1%8F%D2%A1_%D2%BB%D3%99%D0%BC_%D0%90%D1%80%D0%BA%D1%82%D0%B8%D0%BA_%D0%B1%D0%B8%D0%BB%D3%99%D0%BC%D3%99%D0%BB%D3%99%D1%80%D0%B5> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "ba" ;
+	schema:isPartOf <https://ba.wikipedia.org/> ;
+	schema:name "Францияның Көньяҡ һәм Арктик биләмәләре"@ba .
+
+<https://ba.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E6%B3%95%E5%B1%AC%E5%8D%97%E9%83%A8%E9%A0%98%E5%9C%B0> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "法屬南部領地"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Francuske_ju%C5%BEne_i_antarkti%C4%8Dke_teritorije> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Francuske južne i antarktičke teritorije"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E6%B3%95%E5%B1%9E%E5%8D%97%E9%83%A8%E6%90%AD%E5%8D%97%E6%9E%81%E9%A2%86%E5%9C%B0> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "法属南部搭南极领地"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jv.wikipedia.org/wiki/Tanah_Kidul_lan_Antarktik_Prancis> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "jv" ;
+	schema:isPartOf <https://jv.wikipedia.org/> ;
+	schema:name "Tanah Kidul lan Antarktik Prancis"@jv .
+
+<https://jv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%ED%94%84%EB%9E%91%EC%8A%A4%EB%A0%B9_%EB%82%A8%EB%B0%A9_%EB%B0%8F_%EB%82%A8%EA%B7%B9_%EC%A7%80%EC%97%AD> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "프랑스령 남방 및 남극 지역"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://shn.wikipedia.org/wiki/%E1%81%BC%E1%82%83%E1%82%88%E1%80%9C%E1%80%AD%E1%81%BC%E1%80%BA_%E1%80%A2%E1%82%85%E1%81%BC%E1%80%BA%E1%82%87%E1%80%90%E1%81%A2%E1%81%B5%E1%80%BA%E1%82%88%E1%80%90%E1%80%AE%E1%80%B8%E1%81%B5%E1%82%83%E1%82%88_%E1%80%9C%E1%82%84%E1%82%88_%E1%81%BE%E1%80%9B%E1%81%A2%E1%80%84%E1%80%BA%E1%82%87%E1%80%9E%E1%80%B5%E1%80%90%E1%80%BA%E1%82%88_%E1%80%95%E1%80%BD%E1%80%90%E1%80%BA%E1%80%B8%E1%81%B8%E1%81%A2%E1%81%BC%E1%80%BA%E1%80%B8> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "shn" ;
+	schema:isPartOf <https://shn.wikipedia.org/> ;
+	schema:name "ၼႃႈလိၼ် ဢႅၼ်ႇတၢၵ်ႈတီးၵႃႈ လႄႈ ၾရၢင်ႇသဵတ်ႈ ပွတ်းၸၢၼ်း"@shn .
+
+<https://shn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Terrae_australes_antarcticaeque_Francicae> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Terrae australes antarcticaeque Francicae"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikivoyage.org/wiki/Francaj_Sudaj_Teritorioj> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikivoyage.org/> ;
+	schema:name "Francaj Sudaj Teritorioj"@eo .
+
+<https://eo.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://nl.wikipedia.org/wiki/Franse_Zuidelijke_Gebieden> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Franse Zuidelijke Gebieden"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ky.wikipedia.org/wiki/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%83%D0%B7_%D0%A2%D2%AF%D1%88%D1%82%D2%AF%D0%BA_%D0%B6%D0%B0%D0%BD%D0%B0_%D0%90%D0%BD%D1%82%D0%B0%D1%80%D0%BA%D1%82%D0%B8%D0%BA%D0%B0_%D0%B0%D1%8F%D0%BD%D1%82%D1%82%D0%B0%D1%80%D1%8B> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "ky" ;
+	schema:isPartOf <https://ky.wikipedia.org/> ;
+	schema:name "Француз Түштүк жана Антарктика аянттары"@ky .
+
+<https://ky.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sk.wikipedia.org/wiki/Franc%C3%BAzske_ju%C5%BEn%C3%A9_a_antarktick%C3%A9_%C3%BAzemie> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "sk" ;
+	schema:isPartOf <https://sk.wikipedia.org/> ;
+	schema:name "Francúzske južné a antarktické územie"@sk .
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Terre_Australi_e_Antartiche_Francesi> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Terre Australi e Antartiche Francesi"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%D8%B3%D8%B1%D8%B2%D9%85%DB%8C%D9%86_%D8%AC%D9%86%D9%88%D8%A8%DB%8C_%D9%81%D8%B1%D8%A7%D9%86%D8%B3%DB%8C%D8%B3%DB%8C%DB%81_%D9%88_%D8%A7%D9%86%D9%B9%D8%A7%D8%B1%DA%A9%D9%B9%DB%8C%DA%A9%D8%A7> a schema:Article ;
+	schema:about wd:Q129003 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "سرزمین جنوبی فرانسیسیہ و انٹارکٹیکا"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q129003 wdt:P948 <http://commons.wikimedia.org/wiki/Special:FilePath/Ile%20de%20Saint%20paul%20et%20le%20Marion%20Dufresne%20au%20large%20%28cropped%29.jpg> ;
+	wdt:P1151 wd:Q15644309 ;
+	wdt:P17 wd:Q142 ;
+	wdt:P297 "TF" ;
+	wdt:P298 "ATF" ;
+	wdt:P299 "260" ;
+	wdt:P373 "French Southern and Antarctic Lands" ;
+	wdt:P31 wd:Q161243,
+		wd:Q1048835 ;
+	wdt:P30 wd:Q15,
+		wd:Q51 ;
+	wdt:P41 <http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20French%20Southern%20and%20Antarctic%20Lands.svg> ;
+	wdt:P36 wd:Q839559 ;
+	wdt:P78 wd:Q47819 ;
+	wdt:P300 "FR-TF" ;
+	wdt:P625 "Point(67 -43)"^^geo:wktLiteral ;
+	wdt:P150 wd:Q46772,
+		wd:Q201698,
+		wd:Q1681727,
+		wd:Q184319,
+		wd:Q190571 ;
+	wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/French%20Southern%20and%20Antarctic%20Lands%20in%20France%20%28zoomed%29.svg> ;
+	wdt:P94 <http://commons.wikimedia.org/wiki/Special:FilePath/Armoiries%20des%20Terres%20australes%20et%20antarctiques%20fran%C3%A7aises.svg> ;
+	wdt:P163 wd:Q695125 ;
+	wdt:P237 wd:Q1559726 ;
+	wdt:P38 wd:Q4916 ;
+	wdt:P910 wd:Q6164394 ;
+	wdt:P856 <https://taaf.fr/>,
+		<https://taaf.fr/en/> ;
+	wdt:P998 "Regional/Europe/France/Regions/Overseas/French_Southern_and_Antarctic_Lands/" ;
+	wdt:P646 "/m/02x1k" ;
+	wdt:P227 "4450787-2" ;
+	wdtn:P227 <https://d-nb.info/gnd/4450787-2> ;
+	wdt:P244 "n82094862" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/n82094862> ;
+	wdt:P214 "158991425" ;
+	wdtn:P214 <http://viaf.org/viaf/158991425> ;
+	wdt:P901 "FS" ;
+	wdt:P1566 "1546748" ;
+	wdtn:P1566 <http://sws.geonames.org/1546748/> ;
+	wdt:P131 wd:Q142,
+		wd:Q88523604 ;
+	wdt:P982 "0be4bfaf-17e0-3c0f-9f46-ed9ccdbe86a6" ;
+	wdtn:P982 <http://musicbrainz.org/area/0be4bfaf-17e0-3c0f-9f46-ed9ccdbe86a6> ;
+	wdt:P935 "French Southern and Antarctic Lands" ;
+	wdt:P773 "FQHH" ;
+	wdt:P361 wd:Q203396 ;
+	wdt:P2586 "984" ;
+	wdt:P3417 "French-Southern-and-Antarctic-Lands" ;
+	wdt:P1813 "🇹🇫"@zxx ;
+	wdt:P1705 "Terres australes et antarctiques françaises (TAAF)"@fr,
+		"Francúzske južné a antarktické územie"@sk ;
+	wdt:P37 wd:Q150 ;
+	wdt:P2046 "+7829"^^xsd:decimal ;
+	wdt:P1082 "+196"^^xsd:decimal ;
+	wdt:P1667 "1000163" ;
+	wdtn:P1667 <http://vocab.getty.edu/tgn/1000163> ;
+	wdt:P421 wd:Q6779,
+		wd:Q6806,
+		wd:Q7056 ;
+	wdt:P2013 "TAAFofficiel" ;
+	wdt:P2002 "TAAFofficiel" ;
+	wdt:P4264 "terres-australes-et-antarctiques-françaises" ;
+	wdt:P2397 "UCuY4w0QrdzrKpJwJm9VGNeA" ;
+	wdt:P2942 "TAAF" ;
+	wdt:P3267 "131197596@N08" ;
+	wdt:P3896 <http://commons.wikimedia.org/data/main/Data:French+Southern+and+Antarctic+Lands.map> ;
+	wdt:P2924 "4722757" ;
+	wdt:P5573 "8264" ;
+	wdt:P3175 "utf" ;
+	wdt:P269 "026402254" ;
+	wdtn:P269 <http://www.idref.fr/026402254/id> ;
+	wdt:P268 "11865642q" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb11865642q#about> ;
+	wdt:P5698 "108578" ;
+	wdt:P4801 "countries/fs" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/countries/fs> ;
+	wdt:P5905 "4020-63971" ;
+	wdt:P571 "1955-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P5250 "1438" ;
+	wdt:P6766 "85632549" ;
+	wdt:P1245 "618982" ;
+	wdt:P7818 "Terres_australes_et_antarctiques_françaises" ;
+	wdt:P7859 "lccn-n82094862" ;
+	wdt:P1889 wd:Q1353951 ;
+	wdt:P487 "🇹🇫" ;
+	wdt:P6706 "Australes+et+Antarctiques+Françaises,+Terres-" ;
+	wdt:P8408 "FrenchSouthernAndAntarcticLands" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/FrenchSouthernAndAntarcticLands> ;
+	wdt:P1365 wd:Q5501842 ;
+	wdt:P3749 "13297477462497087529" ;
+	wdt:P8744 wd:Q102128987 ;
+	wdt:P8714 "ATF" ;
+	wdt:P8687 "+5532"^^xsd:decimal ;
+	wdt:P6262 "routes:TAAF_(984)" ;
+	wdt:P7471 "9319" ;
+	wdt:P9886 "169500613" ;
+	wdt:P9948 "french-southern-and-antarctic-lands" ;
+	wdt:P4342 "De_franske_sørterritorier" ;
+	wdt:P402 "2186658" ;
+	wdtn:P402 <https://www.openstreetmap.org/relation/2186658> ;
+	wdt:P8189 "987007552812705171" ;
+	wdt:P10730 "country/ATF" ;
+	wdt:P7305 "4197303" ;
+	wdt:P9495 "geo/F6367405-CD0D-436E-B80E-3F2F8FBF6322" ;
+	wdt:P11012 "Q488" ;
+	wdtn:P11012 <https://linkedopendata.eu/entity/Q488> ;
+	wdt:P11693 "424314262" ;
+	rdfs:label "法属南部和南极领地"@zh-hans ;
+	skos:prefLabel "法属南部和南极领地"@zh-hans ;
+	schema:name "法属南部和南极领地"@zh-hans ;
+	rdfs:label "法屬南部和南極領地"@zh-hant ;
+	skos:prefLabel "法屬南部和南極領地"@zh-hant ;
+	schema:name "法屬南部和南極領地"@zh-hant ;
+	rdfs:label "法屬南部和南極領地"@zh-hk ;
+	skos:prefLabel "法屬南部和南極領地"@zh-hk ;
+	schema:name "法屬南部和南極領地"@zh-hk ;
+	rdfs:label "法属南部和南极领地"@zh-cn ;
+	skos:prefLabel "法属南部和南极领地"@zh-cn ;
+	schema:name "法属南部和南极领地"@zh-cn ;
+	rdfs:label "法属南部和南极领地"@zh-sg ;
+	skos:prefLabel "法属南部和南极领地"@zh-sg ;
+	schema:name "法属南部和南极领地"@zh-sg ;
+	rdfs:label "法屬南部和南極領地"@zh-tw ;
+	skos:prefLabel "法屬南部和南極領地"@zh-tw ;
+	schema:name "法屬南部和南極領地"@zh-tw ;
+	rdfs:label "Francuskie Terytoria Południowe i Antarktyczne"@pl ;
+	skos:prefLabel "Francuskie Terytoria Południowe i Antarktyczne"@pl ;
+	schema:name "Francuskie Terytoria Południowe i Antarktyczne"@pl ;
+	rdfs:label "Frantziaren lurralde austral eta antartikoak"@eu ;
+	skos:prefLabel "Frantziaren lurralde austral eta antartikoak"@eu ;
+	schema:name "Frantziaren lurralde austral eta antartikoak"@eu ;
+	rdfs:label "Tierras Australes y Antárticas Francesas"@es ;
+	skos:prefLabel "Tierras Australes y Antárticas Francesas"@es ;
+	schema:name "Tierras Australes y Antárticas Francesas"@es ;
+	rdfs:label "பிரெஞ்சு தென்னக நிலங்களும் அண்டார்க்டிக் நிலமும்"@ta ;
+	skos:prefLabel "பிரெஞ்சு தென்னக நிலங்களும் அண்டார்க்டிக் நிலமும்"@ta ;
+	schema:name "பிரெஞ்சு தென்னக நிலங்களும் அண்டார்க்டிக் நிலமும்"@ta ;
+	rdfs:label "Tæritöi Françèisi Meridionâ e dell'Antartigo"@lij ;
+	skos:prefLabel "Tæritöi Françèisi Meridionâ e dell'Antartigo"@lij ;
+	schema:name "Tæritöi Françèisi Meridionâ e dell'Antartigo"@lij ;
+	rdfs:label "Franse Suidelike en Antarktiese Gebiede"@af ;
+	skos:prefLabel "Franse Suidelike en Antarktiese Gebiede"@af ;
+	schema:name "Franse Suidelike en Antarktiese Gebiede"@af ;
+	rdfs:label "Tèrras Australas e Antarticas Francesas"@oc ;
+	skos:prefLabel "Tèrras Australas e Antarticas Francesas"@oc ;
+	schema:name "Tèrras Australas e Antarticas Francesas"@oc ;
+	rdfs:label "Francia déli és antarktiszi területek"@hu ;
+	skos:prefLabel "Francia déli és antarktiszi területek"@hu ;
+	schema:name "Francia déli és antarktiszi területek"@hu ;
+	rdfs:label "Franțuz Üülen hem Antarktida Toprakları"@gag ;
+	skos:prefLabel "Franțuz Üülen hem Antarktida Toprakları"@gag ;
+	schema:name "Franțuz Üülen hem Antarktida Toprakları"@gag ;
+	rdfs:label "Douaroù Aostral hag Antarktikel Frañs"@br ;
+	skos:prefLabel "Douaroù Aostral hag Antarktikel Frañs"@br ;
+	schema:name "Douaroù Aostral hag Antarktikel Frañs"@br ;
+	rdfs:label "Ibihugu by’Amajyepfo Nyamfaransa"@rw ;
+	skos:prefLabel "Ibihugu by’Amajyepfo Nyamfaransa"@rw ;
+	schema:name "Ibihugu by’Amajyepfo Nyamfaransa"@rw ;
+	rdfs:label "Γαλλικά Νότια και Ανταρκτικά Εδάφη"@el ;
+	skos:prefLabel "Γαλλικά Νότια και Ανταρκτικά Εδάφη"@el ;
+	schema:name "Γαλλικά Νότια και Ανταρκτικά Εδάφη"@el ;
+	rdfs:label "Tiryow Deghow hag Antarktik Frynkek"@kw ;
+	skos:prefLabel "Tiryow Deghow hag Antarktik Frynkek"@kw ;
+	schema:name "Tiryow Deghow hag Antarktik Frynkek"@kw ;
+	rdfs:label "Franse Zuidelijke Gebieden"@nl ;
+	skos:prefLabel "Franse Zuidelijke Gebieden"@nl ;
+	schema:name "Franse Zuidelijke Gebieden"@nl ;
+	rdfs:label "Franska sydterritorierna"@sv ;
+	skos:prefLabel "Franska sydterritorierna"@sv ;
+	schema:name "Franska sydterritorierna"@sv ;
+	rdfs:label "أراض فرنسية جنوبية وأنتارتيكية"@ar ;
+	skos:prefLabel "أراض فرنسية جنوبية وأنتارتيكية"@ar ;
+	schema:name "أراض فرنسية جنوبية وأنتارتيكية"@ar ;
+	rdfs:label "Terras Austrais e Antárticas Francesas"@pt ;
+	skos:prefLabel "Terras Austrais e Antárticas Francesas"@pt ;
+	schema:name "Terras Austrais e Antárticas Francesas"@pt ;
+	rdfs:label "Francaj Sudaj kaj Antarktaj Teritorioj"@eo ;
+	skos:prefLabel "Francaj Sudaj kaj Antarktaj Teritorioj"@eo ;
+	schema:name "Francaj Sudaj kaj Antarktaj Teritorioj"@eo ;
+	rdfs:label "Frönsku suðlægu landsvæðin"@is ;
+	skos:prefLabel "Frönsku suðlægu landsvæðin"@is ;
+	schema:name "Frönsku suðlægu landsvæðin"@is ;
+	rdfs:label "Французские Южные и Антарктические территории"@ru ;
+	skos:prefLabel "Французские Южные и Антарктические территории"@ru ;
+	schema:name "Французские Южные и Антарктические территории"@ru ;
+	rdfs:label "Francuske južne i antarktičke zemlje"@sr-el ;
+	skos:prefLabel "Francuske južne i antarktičke zemlje"@sr-el ;
+	schema:name "Francuske južne i antarktičke zemlje"@sr-el ;
+	rdfs:label "Француске јужне и антарктичке земље"@sr-ec ;
+	skos:prefLabel "Француске јужне и антарктичке земље"@sr-ec ;
+	schema:name "Француске јужне и антарктичке земље"@sr-ec ;
+	rdfs:label "Fransız Güney ve Antarktika Toprakları"@tr ;
+	skos:prefLabel "Fransız Güney ve Antarktika Toprakları"@tr ;
+	schema:name "Fransız Güney ve Antarktika Toprakları"@tr ;
+	rdfs:label "Ranskan eteläiset ja antarktiset alueet"@fi ;
+	skos:prefLabel "Ranskan eteläiset ja antarktiset alueet"@fi ;
+	schema:name "Ranskan eteläiset ja antarktiset alueet"@fi ;
+	rdfs:label "Французькі Південні і Антарктичні території"@uk ;
+	skos:prefLabel "Французькі Південні і Антарктичні території"@uk ;
+	schema:name "Французькі Південні і Антарктичні території"@uk ;
+	rdfs:label "Францускія Паўднёвыя і Антарктычныя тэрыторыі"@be-tarask ;
+	skos:prefLabel "Францускія Паўднёвыя і Антарктычныя тэрыторыі"@be-tarask ;
+	schema:name "Францускія Паўднёвыя і Антарктычныя тэрыторыі"@be-tarask ;
+	rdfs:label "Dei franske sørterritoria"@nn ;
+	skos:prefLabel "Dei franske sørterritoria"@nn ;
+	schema:name "Dei franske sørterritoria"@nn ;
+	rdfs:label "Francuski južni i antarktički teritoriji"@hr ;
+	skos:prefLabel "Francuski južni i antarktički teritoriji"@hr ;
+	schema:name "Francuski južni i antarktički teritoriji"@hr ;
+	rdfs:label "Territorios Australs Franceses"@an ;
+	skos:prefLabel "Territorios Australs Franceses"@an ;
+	schema:name "Territorios Australs Franceses"@an ;
+	rdfs:label "Terres australes et antarctiques françaises"@fr ;
+	skos:prefLabel "Terres australes et antarctiques françaises"@fr ;
+	schema:name "Terres australes et antarctiques françaises"@fr ;
+	rdfs:label "프랑스령 남방 및 남극"@ko ;
+	skos:prefLabel "프랑스령 남방 및 남극"@ko ;
+	schema:name "프랑스령 남방 및 남극"@ko ;
+	rdfs:label "Àwọn Agbègbè Apágúúsù àti Antárktìkì Fránsì"@yo ;
+	skos:prefLabel "Àwọn Agbègbè Apágúúsù àti Antárktìkì Fránsì"@yo ;
+	schema:name "Àwọn Agbègbè Apágúúsù àti Antárktìkì Fránsì"@yo ;
+	rdfs:label "Francijas Dienvidjūru un Antarktikas Zemes"@lv ;
+	skos:prefLabel "Francijas Dienvidjūru un Antarktikas Zemes"@lv ;
+	schema:name "Francijas Dienvidjūru un Antarktikas Zemes"@lv ;
+	rdfs:label "Terre Australi e Antartiche Francesi"@it ;
+	skos:prefLabel "Terre Australi e Antartiche Francesi"@it ;
+	schema:name "Terre Australi e Antartiche Francesi"@it ;
+	rdfs:label "Terras Austrais e Antárticas Francesas"@gl ;
+	skos:prefLabel "Terras Austrais e Antárticas Francesas"@gl ;
+	schema:name "Terras Austrais e Antárticas Francesas"@gl ;
+	rdfs:label "Französische Süd- und Antarktisgebiete"@de ;
+	skos:prefLabel "Französische Süd- und Antarktisgebiete"@de ;
+	schema:name "Französische Süd- und Antarktisgebiete"@de ;
+	rdfs:label "Daratan Selatan dan Antarktika Perancis"@id ;
+	skos:prefLabel "Daratan Selatan dan Antarktika Perancis"@id ;
+	schema:name "Daratan Selatan dan Antarktika Perancis"@id ;
+	rdfs:label "フランス領南方・南極地域"@ja ;
+	skos:prefLabel "フランス領南方・南極地域"@ja ;
+	schema:name "フランス領南方・南極地域"@ja ;
+	rdfs:label "Vùng đất phía Nam và châu Nam Cực thuộc Pháp"@vi ;
+	skos:prefLabel "Vùng đất phía Nam và châu Nam Cực thuộc Pháp"@vi ;
+	schema:name "Vùng đất phía Nam và châu Nam Cực thuộc Pháp"@vi ;
+	rdfs:label "Francuske Južne Teritorije"@sh ;
+	skos:prefLabel "Francuske Južne Teritorije"@sh ;
+	schema:name "Francuske Južne Teritorije"@sh ;
+	rdfs:label "Francúzske južné územie"@sk ;
+	skos:prefLabel "Francúzske južné územie"@sk ;
+	schema:name "Francúzske južné územie"@sk ;
+	rdfs:label "French Southern and Antarctic Lands"@en ;
+	skos:prefLabel "French Southern and Antarctic Lands"@en ;
+	schema:name "French Southern and Antarctic Lands"@en ;
+	rdfs:label "Teritoriile australe și antarctice franceze"@ro ;
+	skos:prefLabel "Teritoriile australe și antarctice franceze"@ro ;
+	schema:name "Teritoriile australe și antarctice franceze"@ro ;
+	rdfs:label "เฟรนช์เซาเทิร์นและแอนตาร์กติกแลนดส์"@th ;
+	skos:prefLabel "เฟรนช์เซาเทิร์นและแอนตาร์กติกแลนดส์"@th ;
+	schema:name "เฟรนช์เซาเทิร์นและแอนตาร์กติกแลนดส์"@th ;
+	rdfs:label "Terres Australs i Antàrtiques Franceses"@ca ;
+	skos:prefLabel "Terres Australs i Antàrtiques Franceses"@ca ;
+	schema:name "Terres Australs i Antàrtiques Franceses"@ca ;
+	rdfs:label "Tiroedd Deheuol ac Antarctig Ffrainc"@cy ;
+	skos:prefLabel "Tiroedd Deheuol ac Antarctig Ffrainc"@cy ;
+	schema:name "Tiroedd Deheuol ac Antarctig Ffrainc"@cy ;
+	rdfs:label "Francoska južna in antarktična ozemlja"@sl ;
+	skos:prefLabel "Francoska južna in antarktična ozemlja"@sl ;
+	schema:name "Francoska južna in antarktična ozemlja"@sl ;
+	rdfs:label "Katunaan han Fransya ha Salatan ngan Antarctica"@war ;
+	skos:prefLabel "Katunaan han Fransya ha Salatan ngan Antarctica"@war ;
+	schema:name "Katunaan han Fransya ha Salatan ngan Antarctica"@war ;
+	rdfs:label "Francouzská jižní a antarktická území"@cs ;
+	skos:prefLabel "Francouzská jižní a antarktická území"@cs ;
+	schema:name "Francouzská jižní a antarktická území"@cs ;
+	rdfs:label "Френски южни и антарктически територии"@bg ;
+	skos:prefLabel "Френски южни и антарктически територии"@bg ;
+	schema:name "Френски южни и антарктически територии"@bg ;
+	rdfs:label "سرزمین‌های جنوبی و جنوبگانی فرانسه"@fa ;
+	skos:prefLabel "سرزمین‌های جنوبی و جنوبگانی فرانسه"@fa ;
+	schema:name "سرزمین‌های جنوبی و جنوبگانی فرانسه"@fa ;
+	rdfs:label "फ्रान्सचे दक्षिणी व अंटार्क्टिक भूभाग"@mr ;
+	skos:prefLabel "फ्रान्सचे दक्षिणी व अंटार्क्टिक भूभाग"@mr ;
+	schema:name "फ्रान्सचे दक्षिणी व अंटार्क्टिक भूभाग"@mr ;
+	rdfs:label "سرزمین جنوبی فرانسیسیہ و انٹارکٹیکا"@ur ;
+	skos:prefLabel "سرزمین جنوبی فرانسیسیہ و انٹارکٹیکا"@ur ;
+	schema:name "سرزمین جنوبی فرانسیسیہ و انٹارکٹیکا"@ur ;
+	rdfs:label "საფრანგეთის სამხრეთული და ანტარქტიდული ტერიტორია"@ka ;
+	skos:prefLabel "საფრანგეთის სამხრეთული და ანტარქტიდული ტერიტორია"@ka ;
+	schema:name "საფრანგეთის სამხრეთული და ანტარქტიდული ტერიტორია"@ka ;
+	rdfs:label "Prancūzijos Pietų Sritys"@lt ;
+	skos:prefLabel "Prancūzijos Pietų Sritys"@lt ;
+	schema:name "Prancūzijos Pietų Sritys"@lt ;
+	rdfs:label "De franske sørterritorier"@nb ;
+	skos:prefLabel "De franske sørterritorier"@nb ;
+	schema:name "De franske sørterritorier"@nb ;
+	rdfs:label "Француске јужне и антарктичке земље"@sr ;
+	skos:prefLabel "Француске јужне и антарктичке земље"@sr ;
+	schema:name "Француске јужне и антарктичке земље"@sr ;
+	rdfs:label "法属南部和南极领地"@zh ;
+	skos:prefLabel "法属南部和南极领地"@zh ;
+	schema:name "法属南部和南极领地"@zh ;
+	rdfs:label "Franske Sydlige og Antarktiske Territorier"@da ;
+	skos:prefLabel "Franske Sydlige og Antarktiske Territorier"@da ;
+	schema:name "Franske Sydlige og Antarktiske Territorier"@da ;
+	rdfs:label "הארצות הדרומיות והאנטארקטיות של צרפת"@he ;
+	skos:prefLabel "הארצות הדרומיות והאנטארקטיות של צרפת"@he ;
+	schema:name "הארצות הדרומיות והאנטארקטיות של צרפת"@he ;
+	rdfs:label "Prantsuse Lõunaalad"@et ;
+	skos:prefLabel "Prantsuse Lõunaalad"@et ;
+	schema:name "Prantsuse Lõunaalad"@et ;
+	rdfs:label "Fraanse Zudelike en Antarktiese Gebeden"@nds-nl ;
+	skos:prefLabel "Fraanse Zudelike en Antarktiese Gebeden"@nds-nl ;
+	schema:name "Fraanse Zudelike en Antarktiese Gebeden"@nds-nl ;
+	rdfs:label "Французскія Паўднёвыя і Антарктычныя тэрыторыі"@be ;
+	skos:prefLabel "Французскія Паўднёвыя і Антарктычныя тэрыторыі"@be ;
+	schema:name "Французскія Паўднёвыя і Антарктычныя тэрыторыі"@be ;
+	rdfs:label "Францияның оңтүстік және Антарктикалық аймақтары"@kk ;
+	skos:prefLabel "Францияның оңтүстік және Антарктикалық аймақтары"@kk ;
+	schema:name "Францияның оңтүстік және Антарктикалық аймақтары"@kk ;
+	rdfs:label "Француски Јужни и Антарктички Земји"@mk ;
+	skos:prefLabel "Француски Јужни и Антарктички Земји"@mk ;
+	schema:name "Француски Јужни и Антарктички Земји"@mk ;
+	rdfs:label "Франциянең Көньяк һәм Антарктик территорияләре"@tt ;
+	skos:prefLabel "Франциянең Көньяк һәм Антарктик территорияләре"@tt ;
+	schema:name "Франциянең Көньяк һәм Антарктик территорияләре"@tt ;
+	rdfs:label "Fransanın Cənub və Antarktika əraziləri"@az ;
+	skos:prefLabel "Fransanın Cənub və Antarktika əraziləri"@az ;
+	schema:name "Fransanın Cənub və Antarktika əraziləri"@az ;
+	rdfs:label "Lupang Katimugan at Antartiko ng Pransiya"@tl ;
+	skos:prefLabel "Lupang Katimugan at Antartiko ng Pransiya"@tl ;
+	schema:name "Lupang Katimugan at Antartiko ng Pransiya"@tl ;
+	rdfs:label "Territorji Franċiżi tan-Nofsinhar u tal-Antartika"@mt ;
+	skos:prefLabel "Territorji Franċiżi tan-Nofsinhar u tal-Antartika"@mt ;
+	schema:name "Territorji Franċiżi tan-Nofsinhar u tal-Antartika"@mt ;
+	rdfs:label "French Soothren an Antarctic Launds"@sco ;
+	skos:prefLabel "French Soothren an Antarctic Launds"@sco ;
+	schema:name "French Soothren an Antarctic Launds"@sco ;
+	rdfs:label "ఫ్రెంచ్ సదరన్ మరియు అంటార్కిటిక్ లాండ్స్"@te ;
+	skos:prefLabel "ఫ్రెంచ్ సదరన్ మరియు అంటార్కిటిక్ లాండ్స్"@te ;
+	schema:name "ఫ్రెంచ్ సదరన్ మరియు అంటార్కిటిక్ లాండ్స్"@te ;
+	rdfs:label "दक्षिण फ्रांसीसी और अंटार्कटिक लैंड"@hi ;
+	skos:prefLabel "दक्षिण फ्रांसीसी और अंटार्कटिक लैंड"@hi ;
+	schema:name "दक्षिण फ्रांसीसी और अंटार्कटिक लैंड"@hi ;
+	rdfs:label "Selatan Perancis dan Tanah Antartika"@ms ;
+	skos:prefLabel "Selatan Perancis dan Tanah Antartika"@ms ;
+	schema:name "Selatan Perancis dan Tanah Antartika"@ms ;
+	rdfs:label "ප්‍රංශ දකුණු සහ ඇන්ටාක්ටිකා භූමිය"@si ;
+	skos:prefLabel "ප්‍රංශ දකුණු සහ ඇන්ටාක්ටිකා භූමිය"@si ;
+	schema:name "ප්‍රංශ දකුණු සහ ඇන්ටාක්ටිකා භූමිය"@si ;
+	rdfs:label "ફ્રેન્ચ સધર્ન એન્ડ એન્ટાર્કટિક લેન્ડ્સ"@gu ;
+	skos:prefLabel "ફ્રેન્ચ સધર્ન એન્ડ એન્ટાર્કટિક લેન્ડ્સ"@gu ;
+	schema:name "ફ્રેન્ચ સધર્ન એન્ડ એન્ટાર્કટિક લેન્ડ્સ"@gu ;
+	rdfs:label "ಫ್ರೆಂಚ್ ದಕ್ಷಿಣ ಮತ್ತು ಅಂಟಾರ್ಕ್ಟಿಕ್ ಭೂಪ್ರದೇಶಗಳು"@kn ;
+	skos:prefLabel "ಫ್ರೆಂಚ್ ದಕ್ಷಿಣ ಮತ್ತು ಅಂಟಾರ್ಕ್ಟಿಕ್ ಭೂಪ್ರದೇಶಗಳು"@kn ;
+	schema:name "ಫ್ರೆಂಚ್ ದಕ್ಷಿಣ ಮತ್ತು ಅಂಟಾರ್ಕ್ಟಿಕ್ ಭೂಪ್ರದೇಶಗಳು"@kn ;
+	rdfs:label "Mabánda ma nsé mpé antaktiki ya Falansia"@ln ;
+	skos:prefLabel "Mabánda ma nsé mpé antaktiki ya Falansia"@ln ;
+	schema:name "Mabánda ma nsé mpé antaktiki ya Falansia"@ln ;
+	rdfs:label "فرانسه گونئی و قوطب تورپاقلاری"@azb ;
+	skos:prefLabel "فرانسه گونئی و قوطب تورپاقلاری"@azb ;
+	schema:name "فرانسه گونئی و قوطب تورپاقلاری"@azb ;
+	rdfs:label "Tierres Australes y Antártiques Franceses"@ast ;
+	skos:prefLabel "Tierres Australes y Antártiques Franceses"@ast ;
+	schema:name "Tierres Australes y Antártiques Franceses"@ast ;
+	rdfs:label "Fransöösk Süüd- an Antarktisregiuunen"@frr ;
+	skos:prefLabel "Fransöösk Süüd- an Antarktisregiuunen"@frr ;
+	schema:name "Fransöösk Süüd- an Antarktisregiuunen"@frr ;
+	rdfs:label "Terrae Australes Antarcticaeque Francicae"@la ;
+	skos:prefLabel "Terrae Australes Antarcticaeque Francicae"@la ;
+	schema:name "Terrae Australes Antarcticaeque Francicae"@la ;
+	rdfs:label "法属南部和南极领地"@zh-my ;
+	skos:prefLabel "法属南部和南极领地"@zh-my ;
+	schema:name "法属南部和南极领地"@zh-my ;
+	rdfs:label "法屬南部和南極領地"@zh-mo ;
+	skos:prefLabel "法屬南部和南極領地"@zh-mo ;
+	schema:name "法屬南部和南極領地"@zh-mo ;
+	rdfs:label "Terras Austral Francese"@ia ;
+	skos:prefLabel "Terras Austral Francese"@ia ;
+	schema:name "Terras Austral Francese"@ia ;
+	rdfs:label "Францияның Көньяҡ һәм Арктик биләмәләре"@ba ;
+	skos:prefLabel "Францияның Көньяҡ һәм Арктик биләмәләре"@ba ;
+	schema:name "Францияның Көньяҡ һәм Арктик биләмәләре"@ba ;
+	rdfs:label "法属南部搭南极领地"@wuu ;
+	skos:prefLabel "法属南部搭南极领地"@wuu ;
+	schema:name "法属南部搭南极领地"@wuu ;
+	rdfs:label "Terras australes e antàrticas frantzesas"@sc ;
+	skos:prefLabel "Terras australes e antàrticas frantzesas"@sc ;
+	schema:name "Terras australes e antàrticas frantzesas"@sc ;
+	rdfs:label "法屬南部領地"@yue ;
+	skos:prefLabel "法屬南部領地"@yue ;
+	schema:name "法屬南部領地"@yue ;
+	rdfs:label "Tanah Kidul lan Antarktik Prancis"@jv ;
+	skos:prefLabel "Tanah Kidul lan Antarktik Prancis"@jv ;
+	schema:name "Tanah Kidul lan Antarktik Prancis"@jv ;
+	rdfs:label "ၼႃႈလိၼ် ဢႅၼ်ႇတၢၵ်ႈတီးၵႃႈ လႄႈ ၾရၢင်ႇသဵတ်ႈ ပွတ်းၸၢၼ်း"@shn ;
+	skos:prefLabel "ၼႃႈလိၼ် ဢႅၼ်ႇတၢၵ်ႈတီးၵႃႈ လႄႈ ၾရၢင်ႇသဵတ်ႈ ပွတ်းၸၢၼ်း"@shn ;
+	schema:name "ၼႃႈလိၼ် ဢႅၼ်ႇတၢၵ်ႈတီးၵႃႈ လႄႈ ၾရၢင်ႇသဵတ်ႈ ပွတ်းၸၢၼ်း"@shn ;
+	rdfs:label "Француз Түштүк жана Антарктика аянттары"@ky ;
+	skos:prefLabel "Француз Түштүк жана Антарктика аянттары"@ky ;
+	schema:name "Француз Түштүк жана Антарктика аянттары"@ky ;
+	rdfs:label "سرزمین جنوبی فرانسیسیہ و انٹارکٹیکا"@pnb ;
+	skos:prefLabel "سرزمین جنوبی فرانسیسیہ و انٹارکٹیکا"@pnb ;
+	schema:name "سرزمین جنوبی فرانسیسیہ و انٹارکٹیکا"@pnb ;
+	schema:description "fransk oversjøisk territorium i Indiahavet"@nb,
+		"territoire d'outre-mer de la France"@fr,
+		"overseas territory of France"@en,
+		"francia tengerentúli terület"@hu,
+		"francuskie terytoria zależne"@pl,
+		"Ein französisches Überseegebiet"@de,
+		"transmara teritorio de Francio"@eo,
+		"conjunto de dependencias de ultramar de Francia"@es,
+		"世界遗产"@zh,
+		"Ranskan merentakainen alue"@fi,
+		"overzees gebied van Frankrijk"@nl,
+		"territorju Extra-Ewropew Franċiż"@mt,
+		"qısaça FCAƏ — Fransanın sahib olduğu dənizönü əraziləri"@az,
+		"Hint Okyanusu'nun güneyindeki Saint-Paul ve Nouvelle Amsterdam Adaları,Kerguelen, Crozet, Hint Okyanusu'ndaki dağılmış adalar ile Antarktika'daki Adelie Toprakları olmak üzere beş ayrı bölümden oluşur"@tr,
+		"território de ultramar da França"@pt,
+		"француз сууда жайгашкан аянты."@ky,
+		"territori francès d'ultramar"@ca,
+		"territorio d'oltremare della Francia"@it,
+		"francouzské zámořské teritorium; přidružené území Evropské unie"@cs,
+		"フランスの海外領地の一つ"@ja,
+		"nekatera čezmorska ozemlja Francije"@sl,
+		"заморская территория Франции"@ru,
+		"wilayah dependensi Prancis"@id ;
+	skos:altLabel "法屬南部地區"@zh,
+		"法屬南方和南極領地"@zh,
+		"法屬南半球和南極地區"@zh,
+		"法國南半球及南極屬地"@zh,
+		"法屬南方及南極陸地"@zh,
+		"法屬南部屬地"@zh,
+		"法属南方和南极洲领地"@zh,
+		"法属南半球和南极陆地"@zh,
+		"法属南半球及南极洲领地"@zh,
+		"Francuskie Terytoria Południowe"@pl,
+		"Terytorium Francuskich Ziem Południowych i Antarktycznych"@pl,
+		"Południowe Terytoria Francuskie"@pl,
+		"Francuskie Ziemie Południowopolarne"@pl,
+		"Hegoaldeko Frantziar Lurraldeak"@eu,
+		"Territorios Australes Franceses"@es,
+		"Tierras Australes y Antarticas Francesas"@es,
+		"TAAF"@es,
+		"பிரெஞ்சு தென்னக நிலங்களும் அண்டாடிக் நிலமும்"@ta,
+		"பிரெஞ்சு தென்னக மண்டலங்கள்"@ta,
+		"Tærritöi Françèisi Meridionâ e dell'Antartigo"@lij,
+		"Terres australes et antarctiques françaises"@af,
+		"Franse Suidelike gebiede"@af,
+		"TAAF"@oc,
+		"Γαλλικά Νότια Εδάφη"@el,
+		"Franse Zuidelijke en Antarctische territoria"@nl,
+		"French Southern Territories"@nl,
+		"Franse Zuidelijke en Antactische Gebieden"@nl,
+		"Terres Australes et Antarctiques Francaises"@nl,
+		"Franse Zuidelijke en Zuidpoolgebieden"@nl,
+		"Terres Australes et Antarctiques Françaises"@nl,
+		"TF"@nl,
+		"ATF"@nl,
+		"Franse Zuidelijke en Antarctische Gebieden"@nl,
+		"TAAF"@sv,
+		"أراضي فرنسية جنوبية وانتارتيكية"@ar,
+		"أراضي فرنسية جنوبية وأنتارتيكية"@ar,
+		"Territórios Austrais Franceses"@pt,
+		"Territórios Antárticos Franceses"@pt,
+		"TAAF"@pt,
+		"Terras Austrais e Antárcticas Francesas"@pt,
+		"Terras Francesas do Sul e da Antárctica"@pt,
+		"Sudaj teritorioj de Francio"@eo,
+		"TAAF"@eo,
+		"Sudaj Teritorioj"@eo,
+		"Terres australes et antarctiques françaises"@eo,
+		"Franciaj Sudaj Teritorioj"@eo,
+		"Francaj sudaj teritorioj"@eo,
+		"Aŭstralaj kaj antarktikaj teritorioj de Francio"@eo,
+		"TAAF"@ru,
+		"Французские Южные и Антарктические земли"@ru,
+		"ФЮАТ"@ru,
+		"Южные Французские Территории"@ru,
+		"Французские Южные Территории"@ru,
+		"Южные и Антарктические Территории"@ru,
+		"Француске аустралијске и антарктичке земље"@sr,
+		"Француске јужне и антарктичке територије"@sr,
+		"Terres australes et antarctiques françaises"@tr,
+		"Güney Hint Okyanusu adaları"@tr,
+		"Güneydeki Fransa ve Antartik Bölgesi"@tr,
+		"TAAF"@fi,
+		"Ranskan eteläiset ja antarktiset maat"@fi,
+		"Французькі Південні та Антарктичні Території"@uk,
+		"Південні Французькі території"@uk,
+		"Францускія Паўднёвыя Тэрыторыі"@be-tarask,
+		"Franske sørlege og antarktiske territorium"@nn,
+		"Dei franske sørområda"@nn,
+		"Terres australes et antarctiques françaises"@hr,
+		"Francuski južni i antarktički posjedi"@hr,
+		"TAAF"@hr,
+		"Territorios Australs Franzeses"@an,
+		"TAAF"@fr,
+		"Terres Australes Françaises"@fr,
+		"Terres australes et antarctiques francaises"@fr,
+		"984"@fr,
+		"프랑스령 남부 지역"@ko,
+		"프랑스령 남부와 남극 지역"@ko,
+		"French Southern and Antarctic Lands"@yo,
+		"Franču Dienvidu un Antarktiskās zemes"@lv,
+		"Francijas Dienvidjūru Zemes"@lv,
+		"TAAF"@lv,
+		"Francijas Dienvidjūru un Antarktikas zemes"@lv,
+		"TAAF"@it,
+		"Terres Australes Françaises"@it,
+		"Territori meridionali francesi"@it,
+		"Territori Francesi del Sud"@it,
+		"Territori delle Terre Australi e Antartiche Francesi"@it,
+		"Terre Meridionali e Antartiche Francesi"@it,
+		"Territori Francesi Meridionali"@it,
+		"Territorios Austrais Franceses"@gl,
+		"Französische Südgebiete"@de,
+		"French Southern and Antarctic Lands"@de,
+		"TAAF"@de,
+		"Französische Antarktisgebiete"@de,
+		"FR-TF"@de,
+		"Französische Südpolarterritorien"@de,
+		"French Southern and Antarctic Lands"@id,
+		"Daratan Antarktika dan Selatan Perancis"@id,
+		"Teritorial Selatan Prancis"@id,
+		"Teritorial Perancis Selatan"@id,
+		"仏領南方地域"@ja,
+		"フランス領極南諸島"@ja,
+		"フランス領南方地域"@ja,
+		"仏領南方・南極地域"@ja,
+		"仏領極南諸島"@ja,
+		"Vùng đất phía Nam và Nam cực thuộc Pháp"@vi,
+		"Phía Nam Nước Pháp và Vùng Antarctic"@vi,
+		"Francuski južni i antarktički teritoriji"@sh,
+		"Francuski južni i antarktički posjedi"@sh,
+		"Francuske antarktičke teritorije"@sh,
+		"Francuske južne i antarktičke teritorije"@sh,
+		"Teritoriile australe şi antarctice franceze"@ro,
+		"TAAF"@ro,
+		"French Southern and Antarctic Lands"@th,
+		"Terres Australs i Antartiques Franceses"@ca,
+		"TAAF"@ca,
+		"Territoris Francesos del Sud"@ca,
+		"Territoris Australs i Antàrtics Francesos"@ca,
+		"Tiriogaethau Deheuol Ffrengig"@cy,
+		"Tiriogethau Deheuol ac Antarctig Ffrainc"@cy,
+		"Tiriogaethau deheuol ac Antarctig Ffrainc"@cy,
+		"TAAF"@sl,
+		"Terres australes et antarctiques françaises"@sl,
+		"Francoska južna ozemlja"@sl,
+		"Francoske južne in antarktične dežele"@sl,
+		"French Southern and Antarctic Lands"@war,
+		"Francouzská jižní území"@cs,
+		"Francouzská jižní teritoria"@cs,
+		"Francouzká jihopolární území"@cs,
+		"TAAF"@cs,
+		"Френски южноантарктически територии"@bg,
+		"سرزمین های جنوبی و جنوبگانی فرانسه"@fa,
+		"سرزمين هاي جنوبي و جنوبگاني فرانسه"@fa,
+		"फ्रांसचे दक्षिणी व अंटार्क्टिक भूभाग"@mr,
+		"سرزمینِ جنوبی فرانسیسیہ و انٹارکٹیکہ"@ur,
+		"Prancūzijos Pietų ir Antarkties sritys"@lt,
+		"Prancūzijos užjūrio teritorija"@lt,
+		"De franske sydterritorier"@nb,
+		"Franske sydterritorier"@nb,
+		"De franske sørterritoriene"@nb,
+		"De franske sydterritoriene"@nb,
+		"Franske sørlige territorier"@nb,
+		"French Southern Territories"@nb,
+		"tf"@en,
+		"🇹🇫"@en,
+		"French Southern Territories"@en,
+		"Француски Јужни и Антарктички Територии"@mk,
+		"ФЈАЗ"@mk,
+		"Territorji Franċiżi tan-Nofsinhar u Antartiċi"@mt,
+		"Francúzske južné a antarktické územie"@sk .
+
+wd:Q19713327 owl:sameAs wd:Q129003 .
+
+wd:Q65404914 owl:sameAs wd:Q129003 .

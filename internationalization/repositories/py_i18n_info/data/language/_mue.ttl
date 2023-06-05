@@ -1,0 +1,195 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36066 a schema:Dataset ;
+	schema:about wd:Q36066 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1741452538"^^xsd:integer ;
+	schema:dateModified "2022-10-02T20:09:39Z"^^xsd:dateTime .
+
+wd:Q36066 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_media_lengua> a schema:Article ;
+	schema:about wd:Q36066 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga media lengua"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lfn.wikipedia.org/wiki/Lingua_media> a schema:Article ;
+	schema:about wd:Q36066 ;
+	schema:inLanguage "lfn" ;
+	schema:isPartOf <https://lfn.wikipedia.org/> ;
+	schema:name "Lingua media"@lfn .
+
+<https://lfn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Media_llingua> a schema:Article ;
+	schema:about wd:Q36066 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Media llingua"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Media_Lengua> a schema:Article ;
+	schema:about wd:Q36066 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Media Lengua"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Media_Lengua> a schema:Article ;
+	schema:about wd:Q36066 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Media Lengua"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Media_lengua> a schema:Article ;
+	schema:about wd:Q36066 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Media lengua"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Media_lengua> a schema:Article ;
+	schema:about wd:Q36066 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Media lengua"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Media_lengua> a schema:Article ;
+	schema:about wd:Q36066 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Media lengua"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%B8%D0%B0-%D0%BB%D0%B5%D0%BD%D0%B3%D1%83%D0%B0> a schema:Article ;
+	schema:about wd:Q36066 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Медиа-ленгуа"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36066 wdt:P220 "mue" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mue> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "medi1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/medi1245> ;
+	wdt:P305 "mue" ;
+	wdt:P1627 "mue" ;
+	wdt:P17 wd:Q736 ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2341 wd:Q504252,
+		wd:Q241140 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MUE> ;
+	wdt:P646 "/m/0c6ph3" ;
+	wdt:P279 wd:Q33694 ;
+	wdt:P1098 "+2600"^^xsd:decimal ;
+	wdt:P973 <https://apics-online.info/contributions/73> ;
+	rdfs:label "media lengua"@pms ;
+	skos:prefLabel "media lengua"@pms ;
+	schema:name "media lengua"@pms ;
+	rdfs:label "Media Lengua"@de ;
+	skos:prefLabel "Media Lengua"@de ;
+	schema:name "Media Lengua"@de ;
+	rdfs:label "Медиа-ленгуа"@ru ;
+	skos:prefLabel "Медиа-ленгуа"@ru ;
+	schema:name "Медиа-ленгуа"@ru ;
+	rdfs:label "Media Lengua"@en ;
+	skos:prefLabel "Media Lengua"@en ;
+	schema:name "Media Lengua"@en ;
+	rdfs:label "Media Lengua"@nl ;
+	skos:prefLabel "Media Lengua"@nl ;
+	schema:name "Media Lengua"@nl ;
+	rdfs:label "media Lengua"@fr ;
+	skos:prefLabel "media Lengua"@fr ;
+	schema:name "media Lengua"@fr ;
+	rdfs:label "media lengua"@es ;
+	skos:prefLabel "media lengua"@es ;
+	schema:name "media lengua"@es ;
+	rdfs:label "メディア・レングア"@ja ;
+	skos:prefLabel "メディア・レングア"@ja ;
+	schema:name "メディア・レングア"@ja ;
+	rdfs:label "Chaupi-shimi"@qu ;
+	skos:prefLabel "Chaupi-shimi"@qu ;
+	schema:name "Chaupi-shimi"@qu ;
+	rdfs:label "Media Lengua"@en-gb ;
+	skos:prefLabel "Media Lengua"@en-gb ;
+	schema:name "Media Lengua"@en-gb ;
+	rdfs:label "Lingua media"@lfn ;
+	skos:prefLabel "Lingua media"@lfn ;
+	schema:name "Lingua media"@lfn ;
+	rdfs:label "Media Lengua"@tl ;
+	skos:prefLabel "Media Lengua"@tl ;
+	schema:name "Media Lengua"@tl ;
+	rdfs:label "Media llingua"@ast ;
+	skos:prefLabel "Media llingua"@ast ;
+	schema:name "Media llingua"@ast ;
+	rdfs:label "Media lengua"@gl ;
+	skos:prefLabel "Media lengua"@gl ;
+	schema:name "Media lengua"@gl ;
+	rdfs:label "Media lengua"@ca ;
+	skos:prefLabel "Media lengua"@ca ;
+	schema:name "Media lengua"@ca ;
+	schema:description "Sprache"@de,
+		"lengua hablada en Ecuador"@es,
+		"language spoken in Ecuador"@en,
+		"Shimika rimashka Ecuadorpi"@qu,
+		"langue parlée à l'Équateur"@fr,
+		"Lenga"@pms,
+		"שפה"@he,
+		"yezh"@br,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"lingua mixta entre o castelán e o kichwa"@gl ;
+	skos:altLabel "Медиа Ленгуа"@ru,
+		"Quichuañol"@es,
+		"Chaupi-lengua"@es,
+		"Chaupi-Quichua"@es,
+		"Quichuañol"@qu,
+		"Chaupi-lengua"@qu,
+		"Chaupi-Quichua"@qu,
+		"Uchilla Quichua"@qu .

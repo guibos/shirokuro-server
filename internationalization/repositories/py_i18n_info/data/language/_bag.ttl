@@ -1,0 +1,189 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36621 a schema:Dataset ;
+	schema:about wd:Q36621 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1835308248"^^xsd:integer ;
+	schema:dateModified "2023-02-16T22:29:14Z"^^xsd:dateTime .
+
+wd:Q36621 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Tuki_(langue)> a schema:Article ;
+	schema:about wd:Q36621 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Tuki (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Tuki> a schema:Article ;
+	schema:about wd:Q36621 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Tuki"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kituki> a schema:Article ;
+	schema:about wd:Q36621 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kituki"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ki_language> a schema:Article ;
+	schema:about wd:Q36621 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ki language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Ki> a schema:Article ;
+	schema:about wd:Q36621 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Ki"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Tuki> a schema:Article ;
+	schema:about wd:Q36621 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Tuki"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Tuki_jezik> a schema:Article ;
+	schema:about wd:Q36621 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Tuki jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Tuki> a schema:Article ;
+	schema:about wd:Q36621 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Tuki"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Ki_language> a schema:Article ;
+	schema:about wd:Q36621 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Ki language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36621 wdt:P220 "bag" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bag> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0h97h00" ;
+	wdt:P269 "053483588" ;
+	wdtn:P269 <http://www.idref.fr/053483588/id> ;
+	wdt:P279 wd:Q11732616 ;
+	wdt:P1394 "tuki1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tuki1240> ;
+	wdt:P1466 "tki" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_tki> ;
+	wdt:P305 "bag" ;
+	wdt:P1627 "bag" ;
+	wdt:P244 "sh2013000211" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh2013000211> ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1009 ;
+	wdt:P2341 wd:Q739951,
+		wd:Q502341 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BAG> ;
+	wdt:P1889 wd:Q56517 ;
+	wdt:P910 wd:Q33657011 ;
+	wdt:P8189 "987007599792105171" ;
+	wdt:P268 "13577367p" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb13577367p#about> ;
+	rdfs:label "Kituki"@sw ;
+	skos:prefLabel "Kituki"@sw ;
+	schema:name "Kituki"@sw ;
+	rdfs:label "Lenga Tuki"@pms ;
+	skos:prefLabel "Lenga Tuki"@pms ;
+	schema:name "Lenga Tuki"@pms ;
+	rdfs:label "Tuki"@de ;
+	skos:prefLabel "Tuki"@de ;
+	schema:name "Tuki"@de ;
+	rdfs:label "Ki"@en ;
+	skos:prefLabel "Ki"@en ;
+	schema:name "Ki"@en ;
+	rdfs:label "Tuki jezik"@hr ;
+	skos:prefLabel "Tuki jezik"@hr ;
+	schema:name "Tuki jezik"@hr ;
+	rdfs:label "tuki"@fr ;
+	skos:prefLabel "tuki"@fr ;
+	schema:name "tuki"@fr ;
+	rdfs:label "Wikang Ki"@tl ;
+	skos:prefLabel "Wikang Ki"@tl ;
+	schema:name "Wikang Ki"@tl ;
+	rdfs:label "Tiếng Ki"@vi ;
+	skos:prefLabel "Tiếng Ki"@vi ;
+	schema:name "Tiếng Ki"@vi ;
+	rdfs:label "Tuki"@oc ;
+	skos:prefLabel "Tuki"@oc ;
+	schema:name "Tuki"@oc ;
+	rdfs:label "Ki language"@ig ;
+	skos:prefLabel "Ki language"@ig ;
+	schema:name "Ki language"@ig ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue bantoue parlée au Cameroun"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Tuki"@en,
+		"Ki language"@en,
+		"bacenga"@fr,
+		"baki"@fr,
+		"batchenga"@fr,
+		"betsinga"@fr,
+		"betzinga"@fr,
+		"ki"@fr,
+		"oki"@fr,
+		"osa nanga"@fr,
+		"sanaga"@fr .

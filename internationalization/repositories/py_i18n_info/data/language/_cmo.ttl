@@ -1,0 +1,106 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q13018551 a schema:Dataset ;
+	schema:about wd:Q13018551 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1349575611"^^xsd:integer ;
+	schema:dateModified "2021-01-28T00:12:55Z"^^xsd:dateTime .
+
+wd:Q13018551 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_mnong_sentral> a schema:Article ;
+	schema:about wd:Q13018551 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga mnong sentral"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%A1%E0%B8%99%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87> a schema:Article ;
+	schema:about wd:Q13018551 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษามนองกลาง"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q13018551 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "cmo" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cmo> ;
+	wdt:P1394 "cent1992" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/cent1992> ;
+	wdt:P17 wd:Q881,
+		wd:Q424 ;
+	wdt:P279 wd:Q6886053 ;
+	wdt:P305 "cmo" ;
+	wdt:P2192 "4045" ;
+	wdt:P1627 "cmo" ;
+	wdt:P1417 "topic/Central-Mnong-language" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2341 wd:Q785896,
+		wd:Q36723 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CMO> ;
+	rdfs:label "ภาษามนองกลาง"@th ;
+	skos:prefLabel "ภาษามนองกลาง"@th ;
+	schema:name "ภาษามนองกลาง"@th ;
+	rdfs:label "Central Mnong"@en ;
+	skos:prefLabel "Central Mnong"@en ;
+	schema:name "Central Mnong"@en ;
+	rdfs:label "erdialdeko mnong"@eu ;
+	skos:prefLabel "erdialdeko mnong"@eu ;
+	schema:name "erdialdeko mnong"@eu ;
+	rdfs:label "lenga mnong sentral"@pms ;
+	skos:prefLabel "lenga mnong sentral"@pms ;
+	schema:name "lenga mnong sentral"@pms ;
+	rdfs:label "Tengnga a Mnong"@ilo ;
+	skos:prefLabel "Tengnga a Mnong"@ilo ;
+	schema:name "Tengnga a Mnong"@ilo ;
+	rdfs:label "mnong central"@fr ;
+	skos:prefLabel "mnong central"@fr ;
+	schema:name "mnong central"@fr ;
+	schema:description "langue bahnarique"@fr,
+		"yezh"@br,
+		"language"@en,
+		"giza hizkuntza"@eu,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"taal"@nl,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "erdialdeko nmongera"@eu,
+		"erdialdeko nong"@eu,
+		"erdialdeko bunong"@eu .
+
+wd:Q33369881 owl:sameAs wd:Q13018551 .

@@ -1,0 +1,91 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q105197086 a schema:Dataset ;
+	schema:about wd:Q105197086 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1893865570"^^xsd:integer ;
+	schema:dateModified "2023-05-10T20:27:01Z"^^xsd:dateTime .
+
+wd:Q105197086 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Old_Cham> a schema:Article ;
+	schema:about wd:Q105197086 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Old Cham"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Ch%C4%83m_c%E1%BB%95> a schema:Article ;
+	schema:about wd:Q105197086 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Chăm cổ"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q105197086 wdt:P31 wd:Q33742,
+		wd:Q45762,
+		wd:Q2315359,
+		wd:Q38058796 ;
+	wdt:P17 wd:Q424,
+		wd:Q881 ;
+	wdt:P220 "ocm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ocm> ;
+	wdt:P2671 "/g/11nl7qgp6s" ;
+	wdtn:P2671 <http://g.co/kg/g/11nl7qgp6s> ;
+	wdt:P279 wd:Q2997506 ;
+	wdt:P1813 "Old Cham"@en ;
+	wdt:P2596 wd:Q383256 ;
+	wdt:P1366 wd:Q241146 ;
+	wdt:P4132 wd:Q651641 ;
+	wdt:P282 wd:Q185083 ;
+	wdt:P1098 "+0"^^xsd:decimal ;
+	wdt:P305 "ocm" ;
+	wdt:P2341 wd:Q216786 ;
+	a wdno:P1627 ;
+	rdfs:label "Old Cham"@en ;
+	skos:prefLabel "Old Cham"@en ;
+	schema:name "Old Cham"@en ;
+	rdfs:label "bahasa Cam Kuno"@ms ;
+	skos:prefLabel "bahasa Cam Kuno"@ms ;
+	schema:name "bahasa Cam Kuno"@ms ;
+	rdfs:label "древнечамский язык"@ru ;
+	skos:prefLabel "древнечамский язык"@ru ;
+	schema:name "древнечамский язык"@ru ;
+	schema:description "taal"@nl,
+		"bahasa moyang Cam"@ms,
+		"Austronesian language of Vietnam and Cambodia"@en ;
+	skos:altLabel "старочамский язык"@ru,
+		"старотямпский язык"@ru,
+		"древнетямпский язык"@ru .

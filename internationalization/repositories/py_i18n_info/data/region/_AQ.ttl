@@ -1,0 +1,360 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q21590062 a schema:Dataset ;
+	schema:about wd:Q21590062 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1951214949"^^xsd:integer ;
+	schema:dateModified "2023-08-10T14:35:25Z"^^xsd:dateTime .
+
+wd:Q21590062 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/R%C3%A9gion_du_Trait%C3%A9_sur_l%27Antarctique> a schema:Article ;
+	schema:about wd:Q21590062 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Région du Traité sur l'Antarctique"@fr ;
+	wikibase:badge wd:Q70894304 .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q21590062 wdt:P31 wd:Q734818,
+		wd:Q15239622,
+		wd:Q312461 ;
+	wdt:P30 wd:Q51 ;
+	wdt:P625 "Point(0 -90)"^^geo:wktLiteral ;
+	wdt:P138 wd:Q182814 ;
+	wdt:P1943 <http://commons.wikimedia.org/wiki/Special:FilePath/Antarctica%20ice%20shelves-en.svg> ;
+	wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/Mapa%20Polo%20Sur.png> ;
+	wdt:P1336 wd:Q20,
+		wd:Q664,
+		wd:Q142,
+		wd:Q408,
+		wd:Q298,
+		wd:Q414,
+		wd:Q145 ;
+	a wdno:P36 ;
+	wdt:P78 wd:Q41016 ;
+	wdt:P41 <http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Antarctic%20Treaty.svg> ;
+	a wdno:P646,
+		wdno:P94 ;
+	wdt:P571 "1961-06-23T00:00:00Z"^^xsd:dateTime ;
+	wdt:P163 wd:Q21635013 ;
+	wdt:P610 wd:Q163758 ;
+	wdt:P206 wd:Q7354 ;
+	wdt:P421 wd:Q5762,
+		wd:Q6513,
+		wd:Q6574,
+		wd:Q6760,
+		wd:Q6806,
+		wd:Q6906,
+		wd:Q6940,
+		wd:Q6985,
+		wd:Q7056,
+		wd:Q7069,
+		wd:Q7105 ;
+	wdt:P856 <http://www.ats.aq/> ;
+	a wdno:P237 ;
+	wdt:P1566 "6697173" ;
+	wdtn:P1566 <http://sws.geonames.org/6697173/> ;
+	wdt:P1813 "🇦🇶"@zxx ;
+	a wdno:P17 ;
+	wdt:P6766 "85632715" ;
+	wdt:P7422 "-89.2"^^xsd:decimal ;
+	wdt:P487 "🇦🇶" ;
+	wdt:P297 "AQ" ;
+	wdt:P298 "ATA" ;
+	wdt:P299 "010" ;
+	wdt:P8744 wd:Q3271641 ;
+	wdt:P9241 wd:Q3321733 ;
+	wdt:P11012 "Q237853" ;
+	wdtn:P11012 <https://linkedopendata.eu/entity/Q237853> ;
+	rdfs:label "Antarctic Treaty area"@en ;
+	skos:prefLabel "Antarctic Treaty area"@en ;
+	schema:name "Antarctic Treaty area"@en ;
+	rdfs:label "Antarktisfördragets område"@sv ;
+	skos:prefLabel "Antarktisfördragets område"@sv ;
+	schema:name "Antarktisfördragets område"@sv ;
+	rdfs:label "région du Traité sur l'Antarctique"@fr ;
+	skos:prefLabel "région du Traité sur l'Antarctique"@fr ;
+	schema:name "région du Traité sur l'Antarctique"@fr ;
+	rdfs:label "Región del Tratado Antártico"@es ;
+	skos:prefLabel "Región del Tratado Antártico"@es ;
+	schema:name "Región del Tratado Antártico"@es ;
+	rdfs:label "regione del Trattato Antartico"@it ;
+	skos:prefLabel "regione del Trattato Antartico"@it ;
+	schema:name "regione del Trattato Antartico"@it ;
+	rdfs:label "regiune acoperită de Tratatul asupra Antarcticii"@ro ;
+	skos:prefLabel "regiune acoperită de Tratatul asupra Antarcticii"@ro ;
+	schema:name "regiune acoperită de Tratatul asupra Antarcticii"@ro ;
+	rdfs:label "Antarctica"@nl ;
+	skos:prefLabel "Antarctica"@nl ;
+	schema:name "Antarctica"@nl ;
+	rdfs:label "Zona do Tratado sobre a Antártida"@pt ;
+	skos:prefLabel "Zona do Tratado sobre a Antártida"@pt ;
+	schema:name "Zona do Tratado sobre a Antártida"@pt ;
+	rdfs:label "Gebiet des Antarktis-Vertrags"@de ;
+	skos:prefLabel "Gebiet des Antarktis-Vertrags"@de ;
+	schema:name "Gebiet des Antarktis-Vertrags"@de ;
+	rdfs:label "Regió Antàrtica"@ca ;
+	skos:prefLabel "Regió Antàrtica"@ca ;
+	schema:name "Regió Antàrtica"@ca ;
+	rdfs:label "남극조약지역"@ko ;
+	skos:prefLabel "남극조약지역"@ko ;
+	schema:name "남극조약지역"@ko ;
+	rdfs:label "Территория Антарктического договора"@ru ;
+	skos:prefLabel "Территория Антарктического договора"@ru ;
+	schema:name "Территория Антарктического договора"@ru ;
+	rdfs:label "Antarkties sutarties sritis"@lt ;
+	skos:prefLabel "Antarkties sutarties sritis"@lt ;
+	schema:name "Antarkties sutarties sritis"@lt ;
+	rdfs:label "منطقة معاهدة القطب الجنوبي"@ar ;
+	skos:prefLabel "منطقة معاهدة القطب الجنوبي"@ar ;
+	schema:name "منطقة معاهدة القطب الجنوبي"@ar ;
+	rdfs:label "Територија на Антарктичкиот договор"@mk ;
+	skos:prefLabel "Територија на Антарктичкиот договор"@mk ;
+	schema:name "Територија на Антарктичкиот договор"@mk ;
+	rdfs:label "南极条约地区"@zh-hans ;
+	skos:prefLabel "南极条约地区"@zh-hans ;
+	schema:name "南极条约地区"@zh-hans ;
+	rdfs:label "南極條約地區"@zh-hant ;
+	skos:prefLabel "南極條約地區"@zh-hant ;
+	schema:name "南極條約地區"@zh-hant ;
+	rdfs:label "Ardal Cytundeb Antarctig"@cy ;
+	skos:prefLabel "Ardal Cytundeb Antarctig"@cy ;
+	schema:name "Ardal Cytundeb Antarctig"@cy ;
+	rdfs:label "אזור הברית האנטארקטית"@he ;
+	skos:prefLabel "אזור הברית האנטארקטית"@he ;
+	schema:name "אזור הברית האנטארקטית"@he ;
+	rdfs:label "Antarktistraktatsområdet"@nb ;
+	skos:prefLabel "Antarktistraktatsområdet"@nb ;
+	schema:name "Antarktistraktatsområdet"@nb ;
+	rdfs:label "Traktat Antartika"@id ;
+	skos:prefLabel "Traktat Antartika"@id ;
+	schema:name "Traktat Antartika"@id ;
+	rdfs:label "obszar Układu w sprawie Antarktyki"@pl ;
+	skos:prefLabel "obszar Układu w sprawie Antarktyki"@pl ;
+	schema:name "obszar Układu w sprawie Antarktyki"@pl ;
+	rdfs:label "regiono de la Antarkta Traktato"@eo ;
+	skos:prefLabel "regiono de la Antarkta Traktato"@eo ;
+	schema:name "regiono de la Antarkta Traktato"@eo ;
+	rdfs:label "Антарктик килешү территориясе"@tt ;
+	skos:prefLabel "Антарктик килешү территориясе"@tt ;
+	schema:name "Антарктик килешү территориясе"@tt ;
+	rdfs:label "Rexón del Tratáu Antárticu"@ast ;
+	skos:prefLabel "Rexón del Tratáu Antárticu"@ast ;
+	schema:name "Rexón del Tratáu Antárticu"@ast ;
+	rdfs:label "Անտարկտիկայի համաձայնագրի տարածք"@hy ;
+	skos:prefLabel "Անտարկտիկայի համաձայնագրի տարածք"@hy ;
+	schema:name "Անտարկտիկայի համաձայնագրի տարածք"@hy ;
+	rdfs:label "Antarktiksen sopimuksen alue"@fi ;
+	skos:prefLabel "Antarktiksen sopimuksen alue"@fi ;
+	schema:name "Antarktiksen sopimuksen alue"@fi ;
+	rdfs:label "Itun Antartikoko eskualde"@eu ;
+	skos:prefLabel "Itun Antartikoko eskualde"@eu ;
+	schema:name "Itun Antartikoko eskualde"@eu ;
+	rdfs:label "абшар Антарктычнай дамовы"@be-tarask ;
+	skos:prefLabel "абшар Антарктычнай дамовы"@be-tarask ;
+	schema:name "абшар Антарктычнай дамовы"@be-tarask ;
+	rdfs:label "南极条约地区"@zh ;
+	skos:prefLabel "南极条约地区"@zh ;
+	schema:name "南极条约地区"@zh ;
+	rdfs:label "南极条约地区"@zh-cn ;
+	skos:prefLabel "南极条约地区"@zh-cn ;
+	schema:name "南极条约地区"@zh-cn ;
+	rdfs:label "南极条约地区"@zh-sg ;
+	skos:prefLabel "南极条约地区"@zh-sg ;
+	schema:name "南极条约地区"@zh-sg ;
+	rdfs:label "南极条约地区"@zh-my ;
+	skos:prefLabel "南极条约地区"@zh-my ;
+	schema:name "南极条约地区"@zh-my ;
+	rdfs:label "南極條約地區"@zh-hk ;
+	skos:prefLabel "南極條約地區"@zh-hk ;
+	schema:name "南極條約地區"@zh-hk ;
+	rdfs:label "南極條約地區"@zh-mo ;
+	skos:prefLabel "南極條約地區"@zh-mo ;
+	schema:name "南極條約地區"@zh-mo ;
+	rdfs:label "南極條約地區"@zh-tw ;
+	skos:prefLabel "南極條約地區"@zh-tw ;
+	schema:name "南極條約地區"@zh-tw ;
+	rdfs:label "oblast Smlouvy o Antarktidě"@cs ;
+	skos:prefLabel "oblast Smlouvy o Antarktidě"@cs ;
+	schema:name "oblast Smlouvy o Antarktidě"@cs ;
+	rdfs:label "Територия на Антарктическия договор"@bg ;
+	skos:prefLabel "Територия на Антарктическия договор"@bg ;
+	schema:name "Територия на Антарктическия договор"@bg ;
+	rdfs:label "Antarktiese verdragsgebied"@af ;
+	skos:prefLabel "Antarktiese verdragsgebied"@af ;
+	schema:name "Antarktiese verdragsgebied"@af ;
+	rdfs:label "南極条約エリア"@ja ;
+	skos:prefLabel "南極条約エリア"@ja ;
+	schema:name "南極条約エリア"@ja ;
+	rdfs:label "Antarctic sáttmálasvæðið"@is ;
+	skos:prefLabel "Antarctic sáttmálasvæðið"@is ;
+	schema:name "Antarctic sáttmálasvæðið"@is ;
+	rdfs:label "የአንታርክቲክ ስምምነት አካባቢ"@am ;
+	skos:prefLabel "የአንታርክቲክ ስምምነት አካባቢ"@am ;
+	schema:name "የአንታርክቲክ ስምምነት አካባቢ"@am ;
+	rdfs:label "Минтақаи шартномаи Антарктида"@tg ;
+	skos:prefLabel "Минтақаи шартномаи Антарктида"@tg ;
+	schema:name "Минтақаи шартномаи Антарктида"@tg ;
+	rdfs:label "Минтақаи шартномаи Антарктида"@tg-cyrl ;
+	skos:prefLabel "Минтақаи шартномаи Антарктида"@tg-cyrl ;
+	schema:name "Минтақаи шартномаи Антарктида"@tg-cyrl ;
+	rdfs:label "Mintaqai şartnomai Antarktida"@tg-latn ;
+	skos:prefLabel "Mintaqai şartnomai Antarktida"@tg-latn ;
+	schema:name "Mintaqai şartnomai Antarktida"@tg-latn ;
+	rdfs:label "Antarktika Antlaşması bölgesi"@tr ;
+	skos:prefLabel "Antarktika Antlaşması bölgesi"@tr ;
+	schema:name "Antarktika Antlaşması bölgesi"@tr ;
+	rdfs:label "منطقه پیمان قطب جنوب"@fa ;
+	skos:prefLabel "منطقه پیمان قطب جنوب"@fa ;
+	schema:name "منطقه پیمان قطب جنوب"@fa ;
+	rdfs:label "Khu vực Hiệp ước Nam Cực"@vi ;
+	skos:prefLabel "Khu vực Hiệp ước Nam Cực"@vi ;
+	schema:name "Khu vực Hiệp ước Nam Cực"@vi ;
+	rdfs:label "Зона дагавора аб Антарктыцы"@be ;
+	skos:prefLabel "Зона дагавора аб Антарктыцы"@be ;
+	schema:name "Зона дагавора аб Антарктыцы"@be ;
+	rdfs:label "Antarktika Müqaviləsi sahəsi"@az ;
+	skos:prefLabel "Antarktika Müqaviləsi sahəsi"@az ;
+	schema:name "Antarktika Müqaviləsi sahəsi"@az ;
+	rdfs:label "Подручје Уговора о Антарктику"@sr ;
+	skos:prefLabel "Подручје Уговора о Антарктику"@sr ;
+	schema:name "Подручје Уговора о Антарктику"@sr ;
+	rdfs:label "Подручје Уговора о Антарктику"@sr-ec ;
+	skos:prefLabel "Подручје Уговора о Антарктику"@sr-ec ;
+	schema:name "Подручје Уговора о Антарктику"@sr-ec ;
+	rdfs:label "Područje Ugovora o Antarktiku"@sr-el ;
+	skos:prefLabel "Područje Ugovora o Antarktiku"@sr-el ;
+	schema:name "Područje Ugovora o Antarktiku"@sr-el ;
+	rdfs:label "அண்டார்டிக் ஒப்பந்த பகுதி"@ta ;
+	skos:prefLabel "அண்டார்டிக் ஒப்பந்த பகுதி"@ta ;
+	schema:name "அண்டார்டிக் ஒப்பந்த பகுதி"@ta ;
+	rdfs:label "Kawasan Perjanjian Antartika"@ms ;
+	skos:prefLabel "Kawasan Perjanjian Antartika"@ms ;
+	schema:name "Kawasan Perjanjian Antartika"@ms ;
+	rdfs:label "พื้นที่สนธิสัญญาแอนตาร์กติก"@th ;
+	skos:prefLabel "พื้นที่สนธิสัญญาแอนตาร์กติก"@th ;
+	schema:name "พื้นที่สนธิสัญญาแอนตาร์กติก"@th ;
+	rdfs:label "Антарктидын гэрээний талбай"@mn ;
+	skos:prefLabel "Антарктидын гэрээний талбай"@mn ;
+	schema:name "Антарктидын гэрээний талбай"@mn ;
+	rdfs:label "Antarktis traktat-område"@nn ;
+	skos:prefLabel "Antarktis traktat-område"@nn ;
+	schema:name "Antarktis traktat-område"@nn ;
+	rdfs:label "Antarktikas līguma apgabals"@lv ;
+	skos:prefLabel "Antarktikas līguma apgabals"@lv ;
+	schema:name "Antarktikas līguma apgabals"@lv ;
+	rdfs:label "Antarktika lepingu piirkond"@et ;
+	skos:prefLabel "Antarktika lepingu piirkond"@et ;
+	schema:name "Antarktika lepingu piirkond"@et ;
+	rdfs:label "南極條約地區"@gan ;
+	skos:prefLabel "南極條約地區"@gan ;
+	schema:name "南極條約地區"@gan ;
+	rdfs:label "南極條約地區"@gan-hant ;
+	skos:prefLabel "南極條約地區"@gan-hant ;
+	schema:name "南極條約地區"@gan-hant ;
+	rdfs:label "南極條約地區"@lzh ;
+	skos:prefLabel "南極條約地區"@lzh ;
+	schema:name "南極條約地區"@lzh ;
+	rdfs:label "南极条约地区"@gan-hans ;
+	skos:prefLabel "南极条约地区"@gan-hans ;
+	schema:name "南极条约地区"@gan-hans ;
+	rdfs:label "南极条约地区"@wuu ;
+	skos:prefLabel "南极条约地区"@wuu ;
+	schema:name "南极条约地区"@wuu ;
+	rdfs:label "南極條約地區"@yue ;
+	skos:prefLabel "南極條約地區"@yue ;
+	schema:name "南極條約地區"@yue ;
+	rdfs:label "Територія Антарктичного договору"@uk ;
+	skos:prefLabel "Територія Антарктичного договору"@uk ;
+	schema:name "Територія Антарктичного договору"@uk ;
+	rdfs:label "rejon del Tratà Antartego"@vec ;
+	skos:prefLabel "rejon del Tratà Antartego"@vec ;
+	schema:name "rejon del Tratà Antartego"@vec ;
+	rdfs:label "অ্যান্টার্কটিক চুক্তি এলাকা"@bn ;
+	skos:prefLabel "অ্যান্টার্কটিক চুক্তি এলাকা"@bn ;
+	schema:name "অ্যান্টার্কটিক চুক্তি এলাকা"@bn ;
+	rdfs:label "limistéar an Chonartha Antartaigh"@ga ;
+	skos:prefLabel "limistéar an Chonartha Antartaigh"@ga ;
+	schema:name "limistéar an Chonartha Antartaigh"@ga ;
+	rdfs:label "ma Antasika"@tok ;
+	skos:prefLabel "ma Antasika"@tok ;
+	schema:name "ma Antasika"@tok ;
+	rdfs:label "περιοχή της Συνθήκης της Ανταρκτικής"@el ;
+	skos:prefLabel "περιοχή της Συνθήκης της Ανταρκτικής"@el ;
+	schema:name "περιοχή της Συνθήκης της Ανταρκτικής"@el ;
+	rdfs:label "območje Sporazuma o Antarktiki"@sl ;
+	skos:prefLabel "območje Sporazuma o Antarktiki"@sl ;
+	schema:name "območje Sporazuma o Antarktiki"@sl ;
+	schema:description "area around the South Pole covered by the Antarctic Treaty"@en,
+		"området runt Sydpolen som omfattas av Antarktisfördraget, dvs land och shelfis från 60 grader Syd och söderut"@sv,
+		"région autour du pôle Sud, sujet du traité sur l'Antarctique, comprend tout territoire et plate-forme glaciaire au sud du 60ème degré de latitude Sud, mais pas les parties de haute mer"@fr,
+		"gebied rond zuidpool onder het verdrag van Antarctica"@nl,
+		"ничейная территория вокруг Южного Полюса"@ru,
+		"област околу Јужниот Пол на која се однесува Антарктичкиот договор"@mk,
+		"yr ardal ym Mhegwn y De a ddisgrifir yng Nghytundeb Antarctig"@cy,
+		"由南极条约所规定，围绕南半球南部的地区"@zh-hans,
+		"wilayah sekitar Kutub Selatan yang tercakup dalam Traktat Antartika"@id,
+		"obszar podlegający Układowi w sprawie Antarktyki"@pl,
+		"тэрыторыя вакол Паўднёвага полюсу, абгавораная міжнароднай дамовай"@be-tarask,
+		"oblast kolem jižního pólu spravovaná Smlouvou o Antarktidě"@cs,
+		"нічийна територія навколо Південного полюса"@uk,
+		"南極条約の対象となっている南緯60度以南の地域"@ja,
+		"অ্যান্টার্কটিক চুক্তির আওতাধীন দক্ষিণ মেরুর চারপাশের এলাকা"@bn,
+		"περιοχή γύρω από το Νότιο Πόλο η οποία καλύπτεται από τη Συνθήκη της Ανταρκτικής"@el ;
+	skos:altLabel "Antarctica treaty area"@en,
+		"ATA"@en,
+		"AQ"@en,
+		"🇦🇶"@en,
+		"ATA"@fr,
+		"Antarctique (région du traité)"@fr,
+		"AQ"@fr,
+		"AQ"@es,
+		"ATA"@es,
+		"zona del Tratado Antártico"@es,
+		"Region del Tratado Antartico"@es,
+		"zona del Tratado Antartico"@es,
+		"ATA"@it,
+		"AQ"@it,
+		"Antartide (regione del tratto)"@it,
+		"gebied waarop het Verdrag inzake Antarctica"@nl,
+		"남극조약 지역"@ko,
+		"남극 조약 지역"@ko,
+		"wilayah    Traktat Antartika"@id,
+		"тэрыторыя Антарктычнай дамовы"@be-tarask,
+		"ААД"@be-tarask,
+		"🇦🇶"@be-tarask,
+		"Antarktida"@cs,
+		"Антарктически договор"@bg,
+		"🇦🇶"@bn .

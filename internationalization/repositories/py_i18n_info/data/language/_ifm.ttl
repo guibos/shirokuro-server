@@ -1,0 +1,147 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36603 a schema:Dataset ;
+	schema:about wd:Q36603 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1791548864"^^xsd:integer ;
+	schema:dateModified "2022-12-17T16:04:31Z"^^xsd:dateTime .
+
+wd:Q36603 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Teke-Fuumu> a schema:Article ;
+	schema:about wd:Q36603 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Teke-Fuumu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiteke-Fuumu> a schema:Article ;
+	schema:about wd:Q36603 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiteke-Fuumu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Fuumu_language> a schema:Article ;
+	schema:about wd:Q36603 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Fuumu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Teke-Fuumu> a schema:Article ;
+	schema:about wd:Q36603 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Teke-Fuumu"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Fumu> a schema:Article ;
+	schema:about wd:Q36603 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Fumu"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36603 wdt:P220 "ifm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ifm> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "teke1274" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/teke1274> ;
+	wdt:P1394 "fuum1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/fuum1238> ;
+	wdt:P1466 "ifm" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ifm> ;
+	wdt:P279 wd:Q47012926 ;
+	wdt:P305 "ifm" ;
+	wdt:P1627 "ifm" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q971 ;
+	wdt:P2341 wd:Q864647,
+		wd:Q765370,
+		wd:Q3844 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/IFM> ;
+	wdt:P646 "/m/02hxrr5" ;
+	rdfs:label "Kiteke-Fuumu"@sw ;
+	skos:prefLabel "Kiteke-Fuumu"@sw ;
+	schema:name "Kiteke-Fuumu"@sw ;
+	rdfs:label "Lenga Teke-Fuumu"@pms ;
+	skos:prefLabel "Lenga Teke-Fuumu"@pms ;
+	schema:name "Lenga Teke-Fuumu"@pms ;
+	rdfs:label "Teke-Fuumu"@de ;
+	skos:prefLabel "Teke-Fuumu"@de ;
+	schema:name "Teke-Fuumu"@de ;
+	rdfs:label "Fuumu"@en ;
+	skos:prefLabel "Fuumu"@en ;
+	schema:name "Fuumu"@en ;
+	rdfs:label "Fuumu"@en-ca ;
+	skos:prefLabel "Fuumu"@en-ca ;
+	schema:name "Fuumu"@en-ca ;
+	rdfs:label "Fuumu"@en-gb ;
+	skos:prefLabel "Fuumu"@en-gb ;
+	schema:name "Fuumu"@en-gb ;
+	rdfs:label "Teke-Fuumu"@de-ch ;
+	skos:prefLabel "Teke-Fuumu"@de-ch ;
+	schema:name "Teke-Fuumu"@de-ch ;
+	rdfs:label "lingua Fuumu"@it ;
+	skos:prefLabel "lingua Fuumu"@it ;
+	schema:name "lingua Fuumu"@it ;
+	rdfs:label "fuumu"@fr ;
+	skos:prefLabel "fuumu"@fr ;
+	schema:name "fuumu"@fr ;
+	rdfs:label "fuumu"@vec ;
+	skos:prefLabel "fuumu"@vec ;
+	schema:name "fuumu"@vec ;
+	schema:description "lingua"@it,
+		"Sprache"@de,
+		"sprog"@da,
+		"language"@en,
+		"lingvo"@eo,
+		"Bantusprache"@de-ch,
+		"one of the Teke languages"@en-ca,
+		"member of the Teke languages"@en-gb,
+		"שפה"@he,
+		"langue bantoue parlée en République du Congo et en République démocratique du Congo"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Teke-Fuumu"@en,
+		"Fuumu language"@en .

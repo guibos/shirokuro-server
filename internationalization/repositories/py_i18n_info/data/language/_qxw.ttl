@@ -1,0 +1,116 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953843 a schema:Dataset ;
+	schema:about wd:Q12953843 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960620233"^^xsd:integer ;
+	schema:dateModified "2023-08-25T01:08:52Z"^^xsd:dateTime .
+
+wd:Q12953843 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_quechua,_jauja_wanca> a schema:Article ;
+	schema:about wd:Q12953843 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga quechua, jauja wanca"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Jauja_Wanca_Quechua_jezik> a schema:Article ;
+	schema:about wd:Q12953843 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Jauja Wanca Quechua jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953843 wdt:P31 wd:Q33384,
+		wd:Q1288568 ;
+	wdt:P220 "qxw" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/qxw> ;
+	wdt:P1394 "jauj1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/jauj1238> ;
+	wdt:P279 wd:Q36960 ;
+	wdt:P305 "qxw" ;
+	wdt:P1627 "qxw" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q419 ;
+	wdt:P2341 wd:Q922867,
+		wd:Q211795,
+		wd:Q579240 ;
+	wdt:P4913 wd:Q36960 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/QXW> ;
+	rdfs:label "Lenga quechua, jauja wanca"@pms ;
+	skos:prefLabel "Lenga quechua, jauja wanca"@pms ;
+	schema:name "Lenga quechua, jauja wanca"@pms ;
+	rdfs:label "Jauja Wanca Quechua jezik"@hr ;
+	skos:prefLabel "Jauja Wanca Quechua jezik"@hr ;
+	schema:name "Jauja Wanca Quechua jezik"@hr ;
+	rdfs:label "Shawsha Wanka"@en ;
+	skos:prefLabel "Shawsha Wanka"@en ;
+	schema:name "Shawsha Wanka"@en ;
+	rdfs:label "Jauja Wanca Quechua"@en-gb ;
+	skos:prefLabel "Jauja Wanca Quechua"@en-gb ;
+	schema:name "Jauja Wanca Quechua"@en-gb ;
+	rdfs:label "quechua jauja wanca"@fr ;
+	skos:prefLabel "quechua jauja wanca"@fr ;
+	schema:name "quechua jauja wanca"@fr ;
+	rdfs:label "jauja huanca"@es ;
+	skos:prefLabel "jauja huanca"@es ;
+	schema:name "jauja huanca"@es ;
+	rdfs:label "Shawsha Wanka"@ast ;
+	skos:prefLabel "Shawsha Wanka"@ast ;
+	schema:name "Shawsha Wanka"@ast ;
+	rdfs:label "Shawsha Wanka"@de ;
+	skos:prefLabel "Shawsha Wanka"@de ;
+	schema:name "Shawsha Wanka"@de ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue quechua"@fr,
+		"yezh"@br,
+		"dialecto del quechua huanca, hablado en Jauja"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"dialect of Wanka Quechua, a variety of the Quechua language spoken in Jauja"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Jauja Wanca Quechua"@en,
+		"Jauja Wanka Quechua"@en,
+		"Jauja Wanka"@en,
+		"Shawsha Wanka Quechua"@en,
+		"qxw"@en,
+		"qxw"@es,
+		"quechua de Jauja"@es,
+		"qxw"@de .
+
+wd:Q16110504 owl:sameAs wd:Q12953843 .

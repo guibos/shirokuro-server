@@ -1,0 +1,133 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5088056 a schema:Dataset ;
+	schema:about wd:Q5088056 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1556060652"^^xsd:integer ;
+	schema:dateModified "2022-01-04T15:54:20Z"^^xsd:dateTime .
+
+wd:Q5088056 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Chaudangsi> a schema:Article ;
+	schema:about wd:Q5088056 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Chaudangsi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kichaudangsi> a schema:Article ;
+	schema:about wd:Q5088056 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kichaudangsi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Chaudangsi_language> a schema:Article ;
+	schema:about wd:Q5088056 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Chaudangsi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Tchaodangsieg> a schema:Article ;
+	schema:about wd:Q5088056 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Tchaodangsieg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Chaudangsi_jezik> a schema:Article ;
+	schema:about wd:Q5088056 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Chaudangsi jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5088056 wdt:P220 "cdn" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cdn> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "chau1259" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/chau1259> ;
+	wdt:P1466 "chd" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_chd> ;
+	wdt:P910 wd:Q33077371 ;
+	wdt:P279 wd:Q2301695 ;
+	wdt:P2192 "7389" ;
+	wdt:P305 "cdn" ;
+	wdt:P1627 "cdn" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1499 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CDN> ;
+	wdt:P646 "/m/02hwrg5" ;
+	rdfs:label "Chaudangsi"@en ;
+	skos:prefLabel "Chaudangsi"@en ;
+	schema:name "Chaudangsi"@en ;
+	rdfs:label "Lenga Chaudangsi"@pms ;
+	skos:prefLabel "Lenga Chaudangsi"@pms ;
+	schema:name "Lenga Chaudangsi"@pms ;
+	rdfs:label "tchaodangsieg"@br ;
+	skos:prefLabel "tchaodangsieg"@br ;
+	schema:name "tchaodangsieg"@br ;
+	rdfs:label "Kichaudangsi"@sw ;
+	skos:prefLabel "Kichaudangsi"@sw ;
+	schema:name "Kichaudangsi"@sw ;
+	rdfs:label "Chaudangsi jezik"@hr ;
+	skos:prefLabel "Chaudangsi jezik"@hr ;
+	schema:name "Chaudangsi jezik"@hr ;
+	rdfs:label "Chaudangsi"@en-gb ;
+	skos:prefLabel "Chaudangsi"@en-gb ;
+	schema:name "Chaudangsi"@en-gb ;
+	rdfs:label "chaudangsi"@fr ;
+	skos:prefLabel "chaudangsi"@fr ;
+	schema:name "chaudangsi"@fr ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue bodique"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sino-Tibetan language spoken in the Indian state of Uttarakhand"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ভারতের ভাষা"@bn ;
+	skos:altLabel "Chaudangsi language"@en .
+
+wd:Q12628923 owl:sameAs wd:Q5088056 .

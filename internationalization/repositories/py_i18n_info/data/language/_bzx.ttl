@@ -1,0 +1,105 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11159536 a schema:Dataset ;
+	schema:about wd:Q11159536 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1355266560"^^xsd:integer ;
+	schema:dateModified "2021-02-05T17:07:52Z"^^xsd:dateTime .
+
+wd:Q11159536 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Bozo,_Hainyaxo> a schema:Article ;
+	schema:about wd:Q11159536 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Bozo, Hainyaxo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibozo-Hainyaxo> a schema:Article ;
+	schema:about wd:Q11159536 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibozo-Hainyaxo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Hainyaxo_Bozo_jezik> a schema:Article ;
+	schema:about wd:Q11159536 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Hainyaxo Bozo jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11159536 wdt:P220 "bzx" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bzx> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "hain1253" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/hain1253> ;
+	wdt:P279 wd:Q35021 ;
+	wdt:P305 "bzx" ;
+	wdt:P1627 "bzx" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q912 ;
+	wdt:P2341 wd:Q656845 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BZX> ;
+	rdfs:label "Kibozo-Hainyaxo"@sw ;
+	skos:prefLabel "Kibozo-Hainyaxo"@sw ;
+	schema:name "Kibozo-Hainyaxo"@sw ;
+	rdfs:label "Lenga Bozo, Hainyaxo"@pms ;
+	skos:prefLabel "Lenga Bozo, Hainyaxo"@pms ;
+	schema:name "Lenga Bozo, Hainyaxo"@pms ;
+	rdfs:label "Hainyaxo Bozo jezik"@hr ;
+	skos:prefLabel "Hainyaxo Bozo jezik"@hr ;
+	schema:name "Hainyaxo Bozo jezik"@hr ;
+	rdfs:label "Hainyaxo Bozo"@en ;
+	skos:prefLabel "Hainyaxo Bozo"@en ;
+	schema:name "Hainyaxo Bozo"@en ;
+	rdfs:label "bozo d'Hainyaxo"@fr ;
+	skos:prefLabel "bozo d'Hainyaxo"@fr ;
+	schema:name "bozo d'Hainyaxo"@fr ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue mandée"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Hainyaxo Bozo language"@en .
+
+wd:Q12632070 owl:sameAs wd:Q11159536 .

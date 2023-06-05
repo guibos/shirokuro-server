@@ -1,0 +1,151 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q223306 a schema:Dataset ;
+	schema:about wd:Q223306 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1756942191"^^xsd:integer ;
+	schema:dateModified "2022-10-24T02:53:09Z"^^xsd:dateTime .
+
+wd:Q223306 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Lango> a schema:Article ;
+	schema:about wd:Q223306 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Lango"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%9B%D0%B0%D0%BD%D0%B3%D0%BE_%D1%98%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q223306 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Ланго језик"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilango_(Sudan)> a schema:Article ;
+	schema:about wd:Q223306 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilango (Sudan)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Lango_language_(South_Sudan)> a schema:Article ;
+	schema:about wd:Q223306 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Lango language (South Sudan)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Lango_(South_Sudan)> a schema:Article ;
+	schema:about wd:Q223306 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Lango (South Sudan)"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q223306 wdt:P220 "lgo" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lgo> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "lang1322" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lang1322> ;
+	wdt:P268 "155989798" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb155989798#about> ;
+	wdt:P4132 wd:Q171263 ;
+	wdt:P305 "lno" ;
+	wdt:P1627 "lno" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q958 ;
+	wdt:P2341 wd:Q488519 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LNO> ;
+	wdt:P646 "/m/026m_dh" ;
+	wdt:P279 wd:Q513408 ;
+	rdfs:label "lingua lango"@it ;
+	skos:prefLabel "lingua lango"@it ;
+	schema:name "lingua lango"@it ;
+	rdfs:label "Lango"@en ;
+	skos:prefLabel "Lango"@en ;
+	schema:name "Lango"@en ;
+	rdfs:label "Lango"@en-ca ;
+	skos:prefLabel "Lango"@en-ca ;
+	schema:name "Lango"@en-ca ;
+	rdfs:label "Lango"@en-gb ;
+	skos:prefLabel "Lango"@en-gb ;
+	schema:name "Lango"@en-gb ;
+	rdfs:label "Ланго језик"@sr ;
+	skos:prefLabel "Ланго језик"@sr ;
+	schema:name "Ланго језик"@sr ;
+	rdfs:label "Lenga Lango"@pms ;
+	skos:prefLabel "Lenga Lango"@pms ;
+	schema:name "Lenga Lango"@pms ;
+	rdfs:label "Kilango"@sw ;
+	skos:prefLabel "Kilango"@sw ;
+	schema:name "Kilango"@sw ;
+	rdfs:label "lango"@fr ;
+	skos:prefLabel "lango"@fr ;
+	schema:name "lango"@fr ;
+	rdfs:label "Wikang Lango"@tl ;
+	skos:prefLabel "Wikang Lango"@tl ;
+	schema:name "Wikang Lango"@tl ;
+	rdfs:label "ランゴ語"@ja ;
+	skos:prefLabel "ランゴ語"@ja ;
+	schema:name "ランゴ語"@ja ;
+	rdfs:label "lango"@vec ;
+	skos:prefLabel "lango"@vec ;
+	schema:name "lango"@vec ;
+	rdfs:label "לאנגו"@he ;
+	skos:prefLabel "לאנגו"@he ;
+	schema:name "לאנגו"@he ;
+	rdfs:label "Asụsụ Lango (South Sudan)"@ig ;
+	skos:prefLabel "Asụsụ Lango (South Sudan)"@ig ;
+	schema:name "Asụsụ Lango (South Sudan)"@ig ;
+	schema:description "lingua della famiglia Lotuxo"@it,
+		"language of South Sudan"@en,
+		"Sprache"@de,
+		"language of South Sudan"@en-gb,
+		"שפה מדוברת בדרום סודן (lgo)"@he,
+		"yezh"@br,
+		"langue du Soudan du Sud"@fr,
+		"lengua"@es,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Lango (Sudan)"@en,
+		"Lango language"@en .
+
+wd:Q61094410 owl:sameAs wd:Q223306 .

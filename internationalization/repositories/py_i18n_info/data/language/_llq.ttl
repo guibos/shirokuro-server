@@ -1,0 +1,180 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953679 a schema:Dataset ;
+	schema:about wd:Q12953679 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912166352"^^xsd:integer ;
+	schema:dateModified "2023-06-10T11:27:52Z"^^xsd:dateTime .
+
+wd:Q12953679 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_lolak> a schema:Article ;
+	schema:about wd:Q12953679 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga lolak"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Lolak> a schema:Article ;
+	schema:about wd:Q12953679 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Lolak"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilolak> a schema:Article ;
+	schema:about wd:Q12953679 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilolak"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Lolak_language> a schema:Article ;
+	schema:about wd:Q12953679 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Lolak language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Lolak> a schema:Article ;
+	schema:about wd:Q12953679 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Lolak"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%A9%E3%82%AF%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q12953679 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ロラク語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Lolak> a schema:Article ;
+	schema:about wd:Q12953679 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Lolak"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_lolak> a schema:Article ;
+	schema:about wd:Q12953679 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język lolak"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953679 wdt:P220 "llq" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/llq> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P2355 "2311" ;
+	wdt:P1394 "lola1250" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lola1250> ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P279 wd:Q371304 ;
+	wdt:P2590 "0489 0" ;
+	wdt:P1705 "bahasa Lolak"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P910 wd:Q32922523 ;
+	wdt:P2192 "2703" ;
+	wdt:P305 "llq" ;
+	wdt:P1627 "llq" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P2341 wd:Q5068,
+		wd:Q3812 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LLQ> ;
+	wdt:P646 "/m/02hwvwx" ;
+	rdfs:label "Lenga lolak"@pms ;
+	skos:prefLabel "Lenga lolak"@pms ;
+	schema:name "Lenga lolak"@pms ;
+	rdfs:label "Lolak"@en ;
+	skos:prefLabel "Lolak"@en ;
+	schema:name "Lolak"@en ;
+	rdfs:label "Kilolak"@sw ;
+	skos:prefLabel "Kilolak"@sw ;
+	schema:name "Kilolak"@sw ;
+	rdfs:label "ロラク語"@ja ;
+	skos:prefLabel "ロラク語"@ja ;
+	schema:name "ロラク語"@ja ;
+	rdfs:label "Lolak"@ilo ;
+	skos:prefLabel "Lolak"@ilo ;
+	schema:name "Lolak"@ilo ;
+	rdfs:label "Lolak"@en-gb ;
+	skos:prefLabel "Lolak"@en-gb ;
+	schema:name "Lolak"@en-gb ;
+	rdfs:label "Wikang Lolak"@tl ;
+	skos:prefLabel "Wikang Lolak"@tl ;
+	schema:name "Wikang Lolak"@tl ;
+	rdfs:label "lolak"@fr ;
+	skos:prefLabel "lolak"@fr ;
+	schema:name "lolak"@fr ;
+	rdfs:label "Lolak"@id ;
+	skos:prefLabel "Lolak"@id ;
+	schema:name "Lolak"@id ;
+	rdfs:label "Tataramon na Lolak"@bcl ;
+	skos:prefLabel "Tataramon na Lolak"@bcl ;
+	schema:name "Tataramon na Lolak"@bcl ;
+	rdfs:label "Lolak"@nl ;
+	skos:prefLabel "Lolak"@nl ;
+	schema:name "Lolak"@nl ;
+	rdfs:label "Język lolak"@pl ;
+	skos:prefLabel "Język lolak"@pl ;
+	schema:name "Język lolak"@pl ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Amianan a Sulawesi, Indonesia"@ilo,
+		"taal"@nl,
+		"שפה"@he,
+		"langue grande philippine centrale"@fr,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la,
+		"język austronezyjski"@pl ;
+	skos:altLabel "bahasa Lolak"@id,
+		"Lolak language"@en .
+
+wd:Q25714746 owl:sameAs wd:Q12953679 .
+
+wd:Q31441628 owl:sameAs wd:Q12953679 .

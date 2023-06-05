@@ -1,0 +1,133 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6957144 a schema:Dataset ;
+	schema:about wd:Q6957144 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1861845741"^^xsd:integer ;
+	schema:dateModified "2023-03-26T15:35:49Z"^^xsd:dateTime .
+
+wd:Q6957144 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Nachering> a schema:Article ;
+	schema:about wd:Q6957144 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Nachering"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinachering> a schema:Article ;
+	schema:about wd:Q6957144 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinachering"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nachhiring_language> a schema:Article ;
+	schema:about wd:Q6957144 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nachhiring language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Natcheringeg> a schema:Article ;
+	schema:about wd:Q6957144 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Natcheringeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mai.wikipedia.org/wiki/%E0%A4%A8%E0%A4%BE%E0%A4%9B%E0%A4%BF%E0%A4%B0%E0%A4%BF%E0%A4%99_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q6957144 ;
+	schema:inLanguage "mai" ;
+	schema:isPartOf <https://mai.wikipedia.org/> ;
+	schema:name "नाछिरिङ भाषा"@mai .
+
+<https://mai.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6957144 wdt:P220 "ncd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ncd> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q922148 ;
+	wdt:P1394 "nach1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nach1240> ;
+	wdt:P2355 "1099" ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P305 "ncd" ;
+	wdt:P2192 "3795" ;
+	wdt:P1627 "ncd" ;
+	wdt:P910 wd:Q62057516 ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q837 ;
+	wdt:P2341 wd:Q9195 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NCD> ;
+	wdt:P646 "/m/02hxztq" ;
+	rdfs:label "Nachering"@en ;
+	skos:prefLabel "Nachering"@en ;
+	schema:name "Nachering"@en ;
+	rdfs:label "natcheringeg"@br ;
+	skos:prefLabel "natcheringeg"@br ;
+	schema:name "natcheringeg"@br ;
+	rdfs:label "नाछिरिङ भाषा"@mai ;
+	skos:prefLabel "नाछिरिङ भाषा"@mai ;
+	schema:name "नाछिरिङ भाषा"@mai ;
+	rdfs:label "Lenga Nachering"@pms ;
+	skos:prefLabel "Lenga Nachering"@pms ;
+	schema:name "Lenga Nachering"@pms ;
+	rdfs:label "Kinachering"@sw ;
+	skos:prefLabel "Kinachering"@sw ;
+	schema:name "Kinachering"@sw ;
+	rdfs:label "Nachering"@en-gb ;
+	skos:prefLabel "Nachering"@en-gb ;
+	schema:name "Nachering"@en-gb ;
+	rdfs:label "nachering"@fr ;
+	skos:prefLabel "nachering"@fr ;
+	schema:name "nachering"@fr ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue himalayenne"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Nachering language"@en,
+		"Nachhiring"@en .
+
+wd:Q12952897 owl:sameAs wd:Q6957144 .

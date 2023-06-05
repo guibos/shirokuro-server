@@ -1,0 +1,120 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q15649021 a schema:Dataset ;
+	schema:about wd:Q15649021 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616000666"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:52:35Z"^^xsd:dateTime .
+
+wd:Q15649021 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_keres_oriental> a schema:Article ;
+	schema:about wd:Q15649021 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga keres oriental"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Isto%C4%8Dnokereski_jezik> a schema:Article ;
+	schema:about wd:Q15649021 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Istočnokereski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q15649021 wdt:P220 "kee" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kee> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q35878 ;
+	wdt:P1394 "east1472" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/east1472> ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P1098 "+6680"^^xsd:decimal ;
+	wdt:P1627 "kee" ;
+	wdt:P2355 "879" ;
+	wdt:P1466 "ksa" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ksa> ;
+	wdt:P305 "kee" ;
+	wdt:P910 wd:Q32857437 ;
+	wdt:P2192 "6511" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q30 ;
+	wdt:P2341 wd:Q1522 ;
+	wdt:P131 wd:Q1522 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KEE> ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P9717 "eastern-keres" ;
+	rdfs:label "keres de l'Est"@fr ;
+	skos:prefLabel "keres de l'Est"@fr ;
+	schema:name "keres de l'Est"@fr ;
+	rdfs:label "Lenga keres oriental"@pms ;
+	skos:prefLabel "Lenga keres oriental"@pms ;
+	schema:name "Lenga keres oriental"@pms ;
+	rdfs:label "Eastern Keres"@en ;
+	skos:prefLabel "Eastern Keres"@en ;
+	schema:name "Eastern Keres"@en ;
+	rdfs:label "Istočnokereski jezik"@hr ;
+	skos:prefLabel "Istočnokereski jezik"@hr ;
+	schema:name "Istočnokereski jezik"@hr ;
+	rdfs:label "Eastern Keres"@en-gb ;
+	skos:prefLabel "Eastern Keres"@en-gb ;
+	schema:name "Eastern Keres"@en-gb ;
+	rdfs:label "keres oriental"@ca ;
+	skos:prefLabel "keres oriental"@ca ;
+	schema:name "keres oriental"@ca ;
+	rdfs:label "idakerese keel"@et ;
+	skos:prefLabel "idakerese keel"@et ;
+	schema:name "idakerese keel"@et ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"family of Keresan languages spoken in pueblos along the upper Rio Grande in New Mexico, USA"@en,
+		"langue keresane"@fr,
+		"família lingüística"@ca,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Rio Grande Keresan"@en,
+		"Eastern Keresan"@en,
+		"Rio Grande kerese keel"@et .
+
+wd:Q16115532 owl:sameAs wd:Q15649021 .
+
+wd:Q22042997 owl:sameAs wd:Q15649021 .
+
+wd:Q30312327 owl:sameAs wd:Q15649021 .

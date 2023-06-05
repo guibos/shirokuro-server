@@ -1,0 +1,4233 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q224 a schema:Dataset ;
+	schema:about wd:Q224 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1922954700"^^xsd:integer ;
+	schema:dateModified "2023-06-24T14:51:08Z"^^xsd:dateTime .
+
+wd:Q224 a wikibase:Item .
+
+<https://it.wikivoyage.org/wiki/Croazia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikivoyage.org/> ;
+	schema:name "Croazia"@it .
+
+<https://it.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ru.wikivoyage.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikivoyage.org/> ;
+	schema:name "Хорватия"@ru .
+
+<https://ru.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://de.wikivoyage.org/wiki/Kroatien> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikivoyage.org/> ;
+	schema:name "Kroatien"@de ;
+	wikibase:badge wd:Q17559452 .
+
+<https://de.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://en.wikivoyage.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikivoyage.org/> ;
+	schema:name "Croatia"@en .
+
+<https://en.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://eo.wikinews.org/wiki/Kategorio:Kroatujo> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikinews.org/> ;
+	schema:name "Kategorio:Kroatujo"@eo .
+
+<https://eo.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://ta.wikinews.org/wiki/%E0%AE%AA%E0%AE%95%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81:%E0%AE%95%E0%AF%81%E0%AE%B0%E0%AF%8B%E0%AE%B5%E0%AE%BE%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%BE> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikinews.org/> ;
+	schema:name "பகுப்பு:குரோவாசியா"@ta .
+
+<https://ta.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://fr.wikinews.org/wiki/Cat%C3%A9gorie:Croatie> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikinews.org/> ;
+	schema:name "Catégorie:Croatie"@fr .
+
+<https://fr.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://nl.wikinews.org/wiki/Categorie:Kroati%C3%AB> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikinews.org/> ;
+	schema:name "Categorie:Kroatië"@nl .
+
+<https://nl.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://ro.wikivoyage.org/wiki/Croa%C8%9Bia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikivoyage.org/> ;
+	schema:name "Croația"@ro .
+
+<https://ro.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://sv.wikivoyage.org/wiki/Kroatien> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikivoyage.org/> ;
+	schema:name "Kroatien"@sv .
+
+<https://sv.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ar.wikinews.org/wiki/%D8%AA%D8%B5%D9%86%D9%8A%D9%81:%D9%83%D8%B1%D9%88%D8%A7%D8%AA%D9%8A%D8%A7> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikinews.org/> ;
+	schema:name "تصنيف:كرواتيا"@ar .
+
+<https://ar.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://fr.wikivoyage.org/wiki/Croatie> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikivoyage.org/> ;
+	schema:name "Croatie"@fr .
+
+<https://fr.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://zh.wikivoyage.org/wiki/%E5%85%8B%E7%BD%97%E5%9C%B0%E4%BA%9A> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikivoyage.org/> ;
+	schema:name "克罗地亚"@zh .
+
+<https://zh.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ro.wikinews.org/wiki/Categorie:Croa%C8%9Bia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikinews.org/> ;
+	schema:name "Categorie:Croația"@ro .
+
+<https://ro.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://pl.wikinews.org/wiki/Kategoria:Chorwacja> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikinews.org/> ;
+	schema:name "Kategoria:Chorwacja"@pl .
+
+<https://pl.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://ja.wikinews.org/wiki/%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA:%E3%82%AF%E3%83%AD%E3%82%A2%E3%83%81%E3%82%A2> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikinews.org/> ;
+	schema:name "カテゴリ:クロアチア"@ja .
+
+<https://ja.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://it.wikiquote.org/wiki/Croazia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikiquote.org/> ;
+	schema:name "Croazia"@it .
+
+<https://it.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://hr.wikiquote.org/wiki/Hrvatska> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikiquote.org/> ;
+	schema:name "Hrvatska"@hr .
+
+<https://hr.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://vi.wikivoyage.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikivoyage.org/> ;
+	schema:name "Croatia"@vi .
+
+<https://vi.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://tr.wikinews.org/wiki/Kategori:H%C4%B1rvatistan> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikinews.org/> ;
+	schema:name "Kategori:Hırvatistan"@tr .
+
+<https://tr.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://fa.wikivoyage.org/wiki/%DA%A9%D8%B1%D9%88%D8%A7%D8%B3%DB%8C> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikivoyage.org/> ;
+	schema:name "کرواسی"@fa .
+
+<https://fa.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://fi.wikinews.org/wiki/Luokka:Kroatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikinews.org/> ;
+	schema:name "Luokka:Kroatia"@fi .
+
+<https://fi.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://pl.wikivoyage.org/wiki/Chorwacja> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikivoyage.org/> ;
+	schema:name "Chorwacja"@pl .
+
+<https://pl.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ca.wikinews.org/wiki/Categoria:Cro%C3%A0cia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikinews.org/> ;
+	schema:name "Categoria:Croàcia"@ca .
+
+<https://ca.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://sr.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%98%D0%B0:%D0%A5%D1%80%D0%B2%D0%B0%D1%82%D1%81%D0%BA%D0%B0> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikinews.org/> ;
+	schema:name "Категорија:Хрватска"@sr .
+
+<https://sr.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://pt.wikivoyage.org/wiki/Cro%C3%A1cia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikivoyage.org/> ;
+	schema:name "Croácia"@pt .
+
+<https://pt.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://en.wikinews.org/wiki/Category:Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikinews.org/> ;
+	schema:name "Category:Croatia"@en .
+
+<https://en.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://sv.wikinews.org/wiki/Kategori:Kroatien> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikinews.org/> ;
+	schema:name "Kategori:Kroatien"@sv .
+
+<https://sv.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://es.wikivoyage.org/wiki/Croacia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikivoyage.org/> ;
+	schema:name "Croacia"@es .
+
+<https://es.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://el.wikinews.org/wiki/%CE%9A%CE%B1%CF%84%CE%B7%CE%B3%CE%BF%CF%81%CE%AF%CE%B1:%CE%9A%CF%81%CE%BF%CE%B1%CF%84%CE%AF%CE%B1> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikinews.org/> ;
+	schema:name "Κατηγορία:Κροατία"@el .
+
+<https://el.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://bs.wikinews.org/wiki/Kategorija:Hrvatska> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "bs" ;
+	schema:isPartOf <https://bs.wikinews.org/> ;
+	schema:name "Kategorija:Hrvatska"@bs .
+
+<https://bs.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://commons.wikimedia.org/wiki/Hrvatska> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "Hrvatska"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+<https://sq.wikinews.org/wiki/Kategoria:Kroaci> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sq" ;
+	schema:isPartOf <https://sq.wikinews.org/> ;
+	schema:name "Kategoria:Kroaci"@sq .
+
+<https://sq.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://es.wikinews.org/wiki/Categor%C3%ADa:Croacia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikinews.org/> ;
+	schema:name "Categoría:Croacia"@es .
+
+<https://es.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://uk.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D1%96%D1%8F:%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikinews.org/> ;
+	schema:name "Категорія:Хорватія"@uk .
+
+<https://uk.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://cs.wikinews.org/wiki/Kategorie:Chorvatsko> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikinews.org/> ;
+	schema:name "Kategorie:Chorvatsko"@cs .
+
+<https://cs.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://uk.wikivoyage.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikivoyage.org/> ;
+	schema:name "Хорватія"@uk .
+
+<https://uk.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://pt.wikinews.org/wiki/Categoria:Cro%C3%A1cia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikinews.org/> ;
+	schema:name "Categoria:Croácia"@pt .
+
+<https://pt.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://bs.wikiquote.org/wiki/Hrvatska> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "bs" ;
+	schema:isPartOf <https://bs.wikiquote.org/> ;
+	schema:name "Hrvatska"@bs .
+
+<https://bs.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://nl.wikivoyage.org/wiki/Kroati%C3%AB> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikivoyage.org/> ;
+	schema:name "Kroatië"@nl .
+
+<https://nl.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://hu.wikinews.org/wiki/Kateg%C3%B3ria:Horv%C3%A1torsz%C3%A1g> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikinews.org/> ;
+	schema:name "Kategória:Horvátország"@hu .
+
+<https://hu.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://ru.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikinews.org/> ;
+	schema:name "Категория:Хорватия"@ru .
+
+<https://ru.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://de.wikinews.org/wiki/Kategorie:Kroatien> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikinews.org/> ;
+	schema:name "Kategorie:Kroatien"@de .
+
+<https://de.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://it.wikinews.org/wiki/Categoria:Croazia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikinews.org/> ;
+	schema:name "Categoria:Croazia"@it .
+
+<https://it.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://el.wikivoyage.org/wiki/%CE%9A%CF%81%CE%BF%CE%B1%CF%84%CE%AF%CE%B1> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikivoyage.org/> ;
+	schema:name "Κροατία"@el .
+
+<https://el.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://fa.wikinews.org/wiki/%D8%B1%D8%AF%D9%87:%DA%A9%D8%B1%D9%88%D8%A7%D8%B3%DB%8C> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikinews.org/> ;
+	schema:name "رده:کرواسی"@fa .
+
+<https://fa.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://fi.wikivoyage.org/wiki/Kroatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikivoyage.org/> ;
+	schema:name "Kroatia"@fi .
+
+<https://fi.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://en.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Croatia"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Kroatien> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Kroatien"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Croatie> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Croatie"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Croacia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Croacia"@es ;
+	wikibase:badge wd:Q17437798 .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Хорватия"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Croazia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Croazia"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AD%E3%82%A2%E3%83%81%E3%82%A2> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "クロアチア"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Kroati%C3%AB> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Kroatië"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/Chorwacja> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Chorwacja"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Cro%C3%A1cia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Croácia"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Kroatien> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Kroatien"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%DA%A9%D8%B1%D9%88%D8%A7%D8%B3%DB%8C> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "کرواسی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%A7%D7%A8%D7%95%D7%90%D7%98%D7%99%D7%94> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "קרואטיה"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/H%C4%B1rvatistan> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Hırvatistan"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Horv%C3%A1torsz%C3%A1g> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Horvátország"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Kroatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Kroatia"@fi ;
+	wikibase:badge wd:Q17559452 .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%83%D8%B1%D9%88%D8%A7%D8%AA%D9%8A%D8%A7> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "كرواتيا"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Croatia"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Kroatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Kroatia"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Хорватія"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%ED%81%AC%EB%A1%9C%EC%95%84%ED%8B%B0%EC%95%84> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "크로아티아"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Cro%C3%A0cia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Croàcia"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Chorvatsko> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Chorvatsko"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%A5%D1%80%D0%B2%D0%B0%D1%82%D1%81%D0%BA%D0%B0> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Хрватска"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Croa%C8%9Bia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Croația"@ro ;
+	wikibase:badge wd:Q17437798 .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Kroasia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Kroasia"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/Kroatien> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Kroatien"@da ;
+	wikibase:badge wd:Q17559452 .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Croatia"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%A5%D1%8A%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Хърватия"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ab.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D0%B0> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ab" ;
+	schema:isPartOf <https://ab.wikipedia.org/> ;
+	schema:name "Хорватиа"@ab .
+
+<https://ab.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ace.wikipedia.org/wiki/Kroasia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ace" ;
+	schema:isPartOf <https://ace.wikipedia.org/> ;
+	schema:name "Kroasia"@ace .
+
+<https://ace.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ady.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D0%B5> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ady" ;
+	schema:isPartOf <https://ady.wikipedia.org/> ;
+	schema:name "Хорватие"@ady .
+
+<https://ady.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Kroasi%C3%AB> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Kroasië"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://als.wikipedia.org/wiki/Kroatien> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "gsw" ;
+	schema:isPartOf <https://als.wikipedia.org/> ;
+	schema:name "Kroatien"@gsw .
+
+<https://als.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://am.wikipedia.org/wiki/%E1%8A%AD%E1%88%AE%E1%8A%A4%E1%88%BD%E1%8B%AB> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "am" ;
+	schema:isPartOf <https://am.wikipedia.org/> ;
+	schema:name "ክሮኤሽያ"@am .
+
+<https://am.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://an.wikipedia.org/wiki/Croacia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "an" ;
+	schema:isPartOf <https://an.wikipedia.org/> ;
+	schema:name "Croacia"@an .
+
+<https://an.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ang.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ang" ;
+	schema:isPartOf <https://ang.wikipedia.org/> ;
+	schema:name "Croatia"@ang .
+
+<https://ang.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arc.wikipedia.org/wiki/%DC%A9%DC%AA%DC%98%DC%90%DC%9B%DC%9D%DC%90> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "arc" ;
+	schema:isPartOf <https://arc.wikipedia.org/> ;
+	schema:name "ܩܪܘܐܛܝܐ"@arc .
+
+<https://arc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D9%83%D8%B1%D9%88%D8%A7%D8%AA%D9%8A%D8%A7> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "كرواتيا"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Croacia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Croacia"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://av.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "av" ;
+	schema:isPartOf <https://av.wikipedia.org/> ;
+	schema:name "Хорватия"@av .
+
+<https://av.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ay.wikipedia.org/wiki/Kruwatiya> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ay" ;
+	schema:isPartOf <https://ay.wikipedia.org/> ;
+	schema:name "Kruwatiya"@ay .
+
+<https://ay.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Xorvatiya> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Xorvatiya"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%DA%A9%D9%88%D8%B1%D9%88%D9%88%D8%A7%D8%B3%DB%8C> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "کوروواسی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ba.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ba" ;
+	schema:isPartOf <https://ba.wikipedia.org/> ;
+	schema:name "Хорватия"@ba .
+
+<https://ba.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ban.wikipedia.org/wiki/Kroasia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ban" ;
+	schema:isPartOf <https://ban.wikipedia.org/> ;
+	schema:name "Kroasia"@ban .
+
+<https://ban.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bar.wikipedia.org/wiki/Krowozien> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "bar" ;
+	schema:isPartOf <https://bar.wikipedia.org/> ;
+	schema:name "Krowozien"@bar .
+
+<https://bar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Kroasya> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Kroasya"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%A5%D0%B0%D1%80%D0%B2%D0%B0%D1%82%D1%8B%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Харватыя"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%A5%D0%B0%D1%80%D0%B2%D0%B0%D1%82%D1%8B%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Харватыя"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bh.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%8F%E0%A4%B6%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "bho" ;
+	schema:isPartOf <https://bh.wikipedia.org/> ;
+	schema:name "क्रोएशिया"@bho .
+
+<https://bh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B6%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "ক্রোয়েশিয়া"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bo.wikipedia.org/wiki/%E0%BD%81%E0%BD%B4%E0%BD%A2%E0%BD%BC%E0%BC%8B%E0%BD%A4%E0%BD%B2%E0%BC%8B%E0%BD%A1%E0%BC%8D> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "bo" ;
+	schema:isPartOf <https://bo.wikipedia.org/> ;
+	schema:name "ཁུརོ་ཤི་ཡ།"@bo .
+
+<https://bo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bpy.wikipedia.org/wiki/%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B6%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "bpy" ;
+	schema:isPartOf <https://bpy.wikipedia.org/> ;
+	schema:name "ক্রোয়েশিয়া"@bpy .
+
+<https://bpy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Kroatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Kroatia"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bs.wikipedia.org/wiki/Hrvatska> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "bs" ;
+	schema:isPartOf <https://bs.wikipedia.org/> ;
+	schema:name "Hrvatska"@bs .
+
+<https://bs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bxr.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "bxr" ;
+	schema:isPartOf <https://bxr.wikipedia.org/> ;
+	schema:name "Хорвати"@bxr .
+
+<https://bxr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cbk-zam.wikipedia.org/wiki/Croacia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "cbk-x-zam" ;
+	schema:isPartOf <https://cbk-zam.wikipedia.org/> ;
+	schema:name "Croacia"@cbk-x-zam .
+
+<https://cbk-zam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cdo.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "cdo" ;
+	schema:isPartOf <https://cdo.wikipedia.org/> ;
+	schema:name "Croatia"@cdo .
+
+<https://cdo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ce.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ce" ;
+	schema:isPartOf <https://ce.wikipedia.org/> ;
+	schema:name "Хорвати"@ce .
+
+<https://ce.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ch.wikipedia.org/wiki/Croacia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ch" ;
+	schema:isPartOf <https://ch.wikipedia.org/> ;
+	schema:name "Croacia"@ch .
+
+<https://ch.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://chr.wikipedia.org/wiki/%E1%8E%A7%E1%8E%B6%E1%8E%A1%E1%8F%8F%E1%8E%A0> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "chr" ;
+	schema:isPartOf <https://chr.wikipedia.org/> ;
+	schema:name "ᎧᎶᎡᏏᎠ"@chr .
+
+<https://chr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://chy.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "chy" ;
+	schema:isPartOf <https://chy.wikipedia.org/> ;
+	schema:name "Croatia"@chy .
+
+<https://chy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ckb.wikipedia.org/wiki/%DA%A9%D8%B1%D9%88%D8%A7%D8%AA%DB%8C%D8%A7> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ckb" ;
+	schema:isPartOf <https://ckb.wikipedia.org/> ;
+	schema:name "کرواتیا"@ckb .
+
+<https://ckb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://co.wikipedia.org/wiki/Croazia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "co" ;
+	schema:isPartOf <https://co.wikipedia.org/> ;
+	schema:name "Croazia"@co .
+
+<https://co.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://crh.wikipedia.org/wiki/H%C4%B1rvatistan> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "crh-Latn" ;
+	schema:isPartOf <https://crh.wikipedia.org/> ;
+	schema:name "Hırvatistan"@crh-Latn .
+
+<https://crh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://csb.wikipedia.org/wiki/Ch%C3%B2rwack%C3%B4> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "csb" ;
+	schema:isPartOf <https://csb.wikipedia.org/> ;
+	schema:name "Chòrwackô"@csb .
+
+<https://csb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cu.wikipedia.org/wiki/%D0%A5%D1%80%D1%8A%D0%B2%D0%B0%D1%82%D1%8C%D1%81%D0%BA%D0%B0> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "cu" ;
+	schema:isPartOf <https://cu.wikipedia.org/> ;
+	schema:name "Хръватьска"@cu .
+
+<https://cu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cy.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "cy" ;
+	schema:isPartOf <https://cy.wikipedia.org/> ;
+	schema:name "Croatia"@cy .
+
+<https://cy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://diq.wikipedia.org/wiki/X%C4%B1rvat%C4%B1stan> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Xırvatıstan"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dsb.wikipedia.org/wiki/Chorwatska> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "dsb" ;
+	schema:isPartOf <https://dsb.wikipedia.org/> ;
+	schema:name "Chorwatska"@dsb .
+
+<https://dsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dty.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%8F%E0%A4%B8%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "dty" ;
+	schema:isPartOf <https://dty.wikipedia.org/> ;
+	schema:name "क्रोएसिया"@dty .
+
+<https://dty.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dv.wikipedia.org/wiki/%DE%86%DE%AA%DE%83%DE%AE%DE%87%DE%AD%DE%9D%DE%A8%DE%87%DE%A7> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "dv" ;
+	schema:isPartOf <https://dv.wikipedia.org/> ;
+	schema:name "ކުރޮއޭޝިއާ"@dv .
+
+<https://dv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dz.wikipedia.org/wiki/%E0%BD%80%E0%BD%B4%E0%BD%A2%E0%BD%BC%E0%BC%8B%E0%BD%A4%E0%BD%B2%E0%BC%8B%E0%BD%A1> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "dz" ;
+	schema:isPartOf <https://dz.wikipedia.org/> ;
+	schema:name "ཀུརོ་ཤི་ཡ"@dz .
+
+<https://dz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ee.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ee" ;
+	schema:isPartOf <https://ee.wikipedia.org/> ;
+	schema:name "Croatia"@ee .
+
+<https://ee.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%9A%CF%81%CE%BF%CE%B1%CF%84%CE%AF%CE%B1> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Κροατία"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eml.wikipedia.org/wiki/Cru%C3%A0sia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "egl" ;
+	schema:isPartOf <https://eml.wikipedia.org/> ;
+	schema:name "Cruàsia"@egl .
+
+<https://eml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Kroatio> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Kroatio"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Horvaatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Horvaatia"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Kroazia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Kroazia"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ext.wikipedia.org/wiki/Croacia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ext" ;
+	schema:isPartOf <https://ext.wikipedia.org/> ;
+	schema:name "Croacia"@ext .
+
+<https://ext.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ff.wikipedia.org/wiki/Korowaasiya> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ff" ;
+	schema:isPartOf <https://ff.wikipedia.org/> ;
+	schema:name "Korowaasiya"@ff .
+
+<https://ff.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fiu-vro.wikipedia.org/wiki/Horvaatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "vro" ;
+	schema:isPartOf <https://fiu-vro.wikipedia.org/> ;
+	schema:name "Horvaatia"@vro .
+
+<https://fiu-vro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fj.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "fj" ;
+	schema:isPartOf <https://fj.wikipedia.org/> ;
+	schema:name "Croatia"@fj .
+
+<https://fj.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fo.wikipedia.org/wiki/Kroatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "fo" ;
+	schema:isPartOf <https://fo.wikipedia.org/> ;
+	schema:name "Kroatia"@fo .
+
+<https://fo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frp.wikipedia.org/wiki/Croacia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "frp" ;
+	schema:isPartOf <https://frp.wikipedia.org/> ;
+	schema:name "Croacia"@frp .
+
+<https://frp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fur.wikipedia.org/wiki/Cravuazie> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "fur" ;
+	schema:isPartOf <https://fur.wikipedia.org/> ;
+	schema:name "Cravuazie"@fur .
+
+<https://fur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fy.wikipedia.org/wiki/Kroaasje> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "fy" ;
+	schema:isPartOf <https://fy.wikipedia.org/> ;
+	schema:name "Kroaasje"@fy .
+
+<https://fy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ga.wikipedia.org/wiki/An_Chr%C3%B3it> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ga" ;
+	schema:isPartOf <https://ga.wikipedia.org/> ;
+	schema:name "An Chróit"@ga .
+
+<https://ga.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gag.wikipedia.org/wiki/Kroa%C8%9Biya> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "gag" ;
+	schema:isPartOf <https://gag.wikipedia.org/> ;
+	schema:name "Kroațiya"@gag .
+
+<https://gag.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gan.wikipedia.org/wiki/%E5%85%8B%E7%BE%85%E5%9C%B0%E4%BA%9E> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "gan" ;
+	schema:isPartOf <https://gan.wikipedia.org/> ;
+	schema:name "克羅地亞"@gan .
+
+<https://gan.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gcr.wikipedia.org/wiki/Kroasi> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "gcr" ;
+	schema:isPartOf <https://gcr.wikipedia.org/> ;
+	schema:name "Kroasi"@gcr .
+
+<https://gcr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gd.wikipedia.org/wiki/Poblachd_na_Cr%C3%B2thaise> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "gd" ;
+	schema:isPartOf <https://gd.wikipedia.org/> ;
+	schema:name "Poblachd na Cròthaise"@gd .
+
+<https://gd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Croacia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Croacia"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gom.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%8F%E0%A4%B6%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "gom" ;
+	schema:isPartOf <https://gom.wikipedia.org/> ;
+	schema:name "क्रोएशिया"@gom .
+
+<https://gom.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://got.wikipedia.org/wiki/%F0%90%8C%BA%F0%90%8D%82%F0%90%8C%BF%F0%90%8D%85%F0%90%8C%B0%F0%90%8D%84%F0%90%8D%83%F0%90%8C%BE%F0%90%8C%B0> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "got" ;
+	schema:isPartOf <https://got.wikipedia.org/> ;
+	schema:name "𐌺𐍂𐌿𐍅𐌰𐍄𐍃𐌾𐌰"@got .
+
+<https://got.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gu.wikipedia.org/wiki/%E0%AA%95%E0%AB%8D%E0%AA%B0%E0%AB%8B%E0%AA%8F%E0%AA%B6%E0%AA%BF%E0%AA%AF%E0%AA%BE> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "gu" ;
+	schema:isPartOf <https://gu.wikipedia.org/> ;
+	schema:name "ક્રોએશિયા"@gu .
+
+<https://gu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gv.wikipedia.org/wiki/Yn_Chroit> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "gv" ;
+	schema:isPartOf <https://gv.wikipedia.org/> ;
+	schema:name "Yn Chroit"@gv .
+
+<https://gv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ha.wikipedia.org/wiki/Kroatiya> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ha" ;
+	schema:isPartOf <https://ha.wikipedia.org/> ;
+	schema:name "Kroatiya"@ha .
+
+<https://ha.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hak.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "hak" ;
+	schema:isPartOf <https://hak.wikipedia.org/> ;
+	schema:name "Croatia"@hak .
+
+<https://hak.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://haw.wikipedia.org/wiki/Koloatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "haw" ;
+	schema:isPartOf <https://haw.wikipedia.org/> ;
+	schema:name "Koloatia"@haw .
+
+<https://haw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%8F%E0%A4%B6%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "क्रोएशिया"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Croatia"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Hrvatska> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Hrvatska"@hr ;
+	wikibase:badge wd:Q17437796 .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hsb.wikipedia.org/wiki/Chorwatska> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "hsb" ;
+	schema:isPartOf <https://hsb.wikipedia.org/> ;
+	schema:name "Chorwatska"@hsb .
+
+<https://hsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ht.wikipedia.org/wiki/Kwowasi> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ht" ;
+	schema:isPartOf <https://ht.wikipedia.org/> ;
+	schema:name "Kwowasi"@ht .
+
+<https://ht.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D4%BD%D5%B8%D6%80%D5%BE%D5%A1%D5%A9%D5%AB%D5%A1> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Խորվաթիա"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ia.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ia" ;
+	schema:isPartOf <https://ia.wikipedia.org/> ;
+	schema:name "Croatia"@ia .
+
+<https://ia.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ie.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ie" ;
+	schema:isPartOf <https://ie.wikipedia.org/> ;
+	schema:name "Croatia"@ie .
+
+<https://ie.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Kroatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Kroatia"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Kroasia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Kroasia"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://io.wikipedia.org/wiki/Kroatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "io" ;
+	schema:isPartOf <https://io.wikipedia.org/> ;
+	schema:name "Kroatia"@io .
+
+<https://io.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/Kr%C3%B3at%C3%ADa> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Króatía"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jam.wikipedia.org/wiki/Kruoyesha> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "jam" ;
+	schema:isPartOf <https://jam.wikipedia.org/> ;
+	schema:name "Kruoyesha"@jam .
+
+<https://jam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jbo.wikipedia.org/wiki/xrvatskas> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "jbo" ;
+	schema:isPartOf <https://jbo.wikipedia.org/> ;
+	schema:name "xrvatskas"@jbo .
+
+<https://jbo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jv.wikipedia.org/wiki/Kroasia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "jv" ;
+	schema:isPartOf <https://jv.wikipedia.org/> ;
+	schema:name "Kroasia"@jv .
+
+<https://jv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%AE%E1%83%9D%E1%83%A0%E1%83%95%E1%83%90%E1%83%A2%E1%83%98%E1%83%90> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "ხორვატია"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kaa.wikipedia.org/wiki/Xorvatiya> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "kaa" ;
+	schema:isPartOf <https://kaa.wikipedia.org/> ;
+	schema:name "Xorvatiya"@kaa .
+
+<https://kaa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kab.wikipedia.org/wiki/Kruwatya> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "kab" ;
+	schema:isPartOf <https://kab.wikipedia.org/> ;
+	schema:name "Kruwatya"@kab .
+
+<https://kab.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kbd.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D1%83%D0%B0%D1%82%D0%B8%D1%8D> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "kbd" ;
+	schema:isPartOf <https://kbd.wikipedia.org/> ;
+	schema:name "Хоруатиэ"@kbd .
+
+<https://kbd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kbp.wikipedia.org/wiki/Krowasii> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "kbp" ;
+	schema:isPartOf <https://kbp.wikipedia.org/> ;
+	schema:name "Krowasii"@kbp .
+
+<https://kbp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kg.wikipedia.org/wiki/Kroatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "kg" ;
+	schema:isPartOf <https://kg.wikipedia.org/> ;
+	schema:name "Kroatia"@kg .
+
+<https://kg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kk.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "kk" ;
+	schema:isPartOf <https://kk.wikipedia.org/> ;
+	schema:name "Хорватия"@kk .
+
+<https://kk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kn.wikipedia.org/wiki/%E0%B2%95%E0%B3%8D%E0%B2%B0%E0%B3%8A%E0%B2%AF%E0%B3%86%E0%B2%B6%E0%B2%BF%E0%B2%AF> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "kn" ;
+	schema:isPartOf <https://kn.wikipedia.org/> ;
+	schema:name "ಕ್ರೊಯೆಶಿಯ"@kn .
+
+<https://kn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://koi.wikipedia.org/wiki/%D0%A5%D3%A7%D1%80%D0%B2%D0%B0%D1%82%D1%81%D0%BA%D0%B0> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "koi" ;
+	schema:isPartOf <https://koi.wikipedia.org/> ;
+	schema:name "Хӧрватска"@koi .
+
+<https://koi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://krc.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "krc" ;
+	schema:isPartOf <https://krc.wikipedia.org/> ;
+	schema:name "Хорватия"@krc ;
+	wikibase:badge wd:Q17437798 .
+
+<https://krc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ku.wikipedia.org/wiki/Kroatya> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ku" ;
+	schema:isPartOf <https://ku.wikipedia.org/> ;
+	schema:name "Kroatya"@ku .
+
+<https://ku.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Хорватия"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kw.wikipedia.org/wiki/Kroati> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "kw" ;
+	schema:isPartOf <https://kw.wikipedia.org/> ;
+	schema:name "Kroati"@kw .
+
+<https://kw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ky.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ky" ;
+	schema:isPartOf <https://ky.wikipedia.org/> ;
+	schema:name "Хорватия"@ky .
+
+<https://ky.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Croatia"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lad.wikipedia.org/wiki/Kroasia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "lad" ;
+	schema:isPartOf <https://lad.wikipedia.org/> ;
+	schema:name "Kroasia"@lad .
+
+<https://lad.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lb.wikipedia.org/wiki/Kroatien> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "lb" ;
+	schema:isPartOf <https://lb.wikipedia.org/> ;
+	schema:name "Kroatien"@lb .
+
+<https://lb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lez.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "lez" ;
+	schema:isPartOf <https://lez.wikipedia.org/> ;
+	schema:name "Хорватия"@lez .
+
+<https://lez.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lfn.wikipedia.org/wiki/Corvatsca> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "lfn" ;
+	schema:isPartOf <https://lfn.wikipedia.org/> ;
+	schema:name "Corvatsca"@lfn .
+
+<https://lfn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://li.wikipedia.org/wiki/Kroati%C3%AB> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "li" ;
+	schema:isPartOf <https://li.wikipedia.org/> ;
+	schema:name "Kroatië"@li .
+
+<https://li.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lij.wikipedia.org/wiki/Croa%C3%A7ia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "lij" ;
+	schema:isPartOf <https://lij.wikipedia.org/> ;
+	schema:name "Croaçia"@lij .
+
+<https://lij.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lmo.wikipedia.org/wiki/Cruazia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "lmo" ;
+	schema:isPartOf <https://lmo.wikipedia.org/> ;
+	schema:name "Cruazia"@lmo .
+
+<https://lmo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ln.wikipedia.org/wiki/Kroasia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ln" ;
+	schema:isPartOf <https://ln.wikipedia.org/> ;
+	schema:name "Kroasia"@ln .
+
+<https://ln.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Kroatija> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Kroatija"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ltg.wikipedia.org/wiki/Horvateja> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ltg" ;
+	schema:isPartOf <https://ltg.wikipedia.org/> ;
+	schema:name "Horvateja"@ltg .
+
+<https://ltg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Horv%C4%81tija> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Horvātija"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mai.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%8F%E0%A4%B8%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "mai" ;
+	schema:isPartOf <https://mai.wikipedia.org/> ;
+	schema:name "क्रोएसिया"@mai .
+
+<https://mai.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://map-bms.wikipedia.org/wiki/Kroasia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "jv-x-bms" ;
+	schema:isPartOf <https://map-bms.wikipedia.org/> ;
+	schema:name "Kroasia"@jv-x-bms .
+
+<https://map-bms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mg.wikipedia.org/wiki/Kr%C3%B4asia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "mg" ;
+	schema:isPartOf <https://mg.wikipedia.org/> ;
+	schema:name "Krôasia"@mg .
+
+<https://mg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mhr.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D0%B9> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "mhr" ;
+	schema:isPartOf <https://mhr.wikipedia.org/> ;
+	schema:name "Хорватий"@mhr .
+
+<https://mhr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mi.wikipedia.org/wiki/Koro%C4%81tia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "mi" ;
+	schema:isPartOf <https://mi.wikipedia.org/> ;
+	schema:name "Koroātia"@mi .
+
+<https://mi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://min.wikipedia.org/wiki/Kroasia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "min" ;
+	schema:isPartOf <https://min.wikipedia.org/> ;
+	schema:name "Kroasia"@min .
+
+<https://min.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%A5%D1%80%D0%B2%D0%B0%D1%82%D1%81%D0%BA%D0%B0> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Хрватска"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%95%E0%B5%8D%E0%B4%B0%E0%B5%8A%E0%B4%AF%E0%B5%87%E0%B4%B7%E0%B5%8D%E0%B4%AF> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "ക്രൊയേഷ്യ"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mn.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "mn" ;
+	schema:isPartOf <https://mn.wikipedia.org/> ;
+	schema:name "Хорват"@mn .
+
+<https://mn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mr.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%8F%E0%A4%B6%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "mr" ;
+	schema:isPartOf <https://mr.wikipedia.org/> ;
+	schema:name "क्रोएशिया"@mr .
+
+<https://mr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Croatia"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mt.wikipedia.org/wiki/Kroazja> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "mt" ;
+	schema:isPartOf <https://mt.wikipedia.org/> ;
+	schema:name "Kroazja"@mt .
+
+<https://mt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://my.wikipedia.org/wiki/%E1%80%81%E1%80%9B%E1%80%AD%E1%80%AF%E1%80%A1%E1%80%B1%E1%80%B8%E1%80%9B%E1%80%BE%E1%80%AC%E1%80%B8%E1%80%94%E1%80%AD%E1%80%AF%E1%80%84%E1%80%BA%E1%80%84%E1%80%B6> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "my" ;
+	schema:isPartOf <https://my.wikipedia.org/> ;
+	schema:name "ခရိုအေးရှားနိုင်ငံ"@my .
+
+<https://my.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://myv.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F_%D0%9C%D0%B0%D1%81%D1%82%D0%BE%D1%80> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "myv" ;
+	schema:isPartOf <https://myv.wikipedia.org/> ;
+	schema:name "Хорватия Мастор"@myv .
+
+<https://myv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mzn.wikipedia.org/wiki/%DA%A9%D8%B1%D9%88%D8%A7%D8%B3%DB%8C> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "mzn" ;
+	schema:isPartOf <https://mzn.wikipedia.org/> ;
+	schema:name "کرواسی"@mzn .
+
+<https://mzn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nap.wikipedia.org/wiki/Croazia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "nap" ;
+	schema:isPartOf <https://nap.wikipedia.org/> ;
+	schema:name "Croazia"@nap .
+
+<https://nap.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nds.wikipedia.org/wiki/Kroatien> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "nds" ;
+	schema:isPartOf <https://nds.wikipedia.org/> ;
+	schema:name "Kroatien"@nds .
+
+<https://nds.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nds-nl.wikipedia.org/wiki/Kroasi%C3%AB> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "nds-NL" ;
+	schema:isPartOf <https://nds-nl.wikipedia.org/> ;
+	schema:name "Kroasië"@nds-NL .
+
+<https://nds-nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ne.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%8F%E0%A4%B8%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ne" ;
+	schema:isPartOf <https://ne.wikipedia.org/> ;
+	schema:name "क्रोएसिया"@ne .
+
+<https://ne.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://new.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%8F%E0%A4%B8%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "new" ;
+	schema:isPartOf <https://new.wikipedia.org/> ;
+	schema:name "क्रोएसिया"@new .
+
+<https://new.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Kroatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Kroatia"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nov.wikipedia.org/wiki/Kroatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "nov" ;
+	schema:isPartOf <https://nov.wikipedia.org/> ;
+	schema:name "Kroatia"@nov .
+
+<https://nov.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nrm.wikipedia.org/wiki/Croatie> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "fr-x-nrm" ;
+	schema:isPartOf <https://nrm.wikipedia.org/> ;
+	schema:name "Croatie"@fr-x-nrm .
+
+<https://nrm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Cro%C3%A0cia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Croàcia"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://olo.wikipedia.org/wiki/Horvatii> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "olo" ;
+	schema:isPartOf <https://olo.wikipedia.org/> ;
+	schema:name "Horvatii"@olo .
+
+<https://olo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://om.wikipedia.org/wiki/Kirooshiyaa> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "om" ;
+	schema:isPartOf <https://om.wikipedia.org/> ;
+	schema:name "Kirooshiyaa"@om .
+
+<https://om.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://or.wikipedia.org/wiki/%E0%AC%95%E0%AD%8D%E0%AC%B0%E0%AD%8B%E0%AC%8F%E0%AC%B8%E0%AC%BF%E0%AC%86> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "or" ;
+	schema:isPartOf <https://or.wikipedia.org/> ;
+	schema:name "କ୍ରୋଏସିଆ"@or .
+
+<https://or.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://os.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "os" ;
+	schema:isPartOf <https://os.wikipedia.org/> ;
+	schema:name "Хорвати"@os .
+
+<https://os.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pa.wikipedia.org/wiki/%E0%A8%95%E0%A9%8D%E0%A8%B0%E0%A9%8B%E0%A8%8F%E0%A8%B8%E0%A8%BC%E0%A9%80%E0%A8%86> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "pa" ;
+	schema:isPartOf <https://pa.wikipedia.org/> ;
+	schema:name "ਕ੍ਰੋਏਸ਼ੀਆ"@pa .
+
+<https://pa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pag.wikipedia.org/wiki/Kroasiya> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "pag" ;
+	schema:isPartOf <https://pag.wikipedia.org/> ;
+	schema:name "Kroasiya"@pag .
+
+<https://pag.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pap.wikipedia.org/wiki/Kroatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "pap" ;
+	schema:isPartOf <https://pap.wikipedia.org/> ;
+	schema:name "Kroatia"@pap .
+
+<https://pap.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pcd.wikipedia.org/wiki/Croachie> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "pcd" ;
+	schema:isPartOf <https://pcd.wikipedia.org/> ;
+	schema:name "Croachie"@pcd .
+
+<https://pcd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pdc.wikipedia.org/wiki/Kroaati> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "pdc" ;
+	schema:isPartOf <https://pdc.wikipedia.org/> ;
+	schema:name "Kroaati"@pdc .
+
+<https://pdc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pi.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%8F%E0%A4%B6%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "pi" ;
+	schema:isPartOf <https://pi.wikipedia.org/> ;
+	schema:name "क्रोएशिया"@pi .
+
+<https://pi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pih.wikipedia.org/wiki/Kroaysha> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "pih" ;
+	schema:isPartOf <https://pih.wikipedia.org/> ;
+	schema:name "Kroaysha"@pih .
+
+<https://pih.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Croassia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Croassia"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%DA%A9%D8%B1%D9%88%D8%B4%DB%8C%D8%A7> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "کروشیا"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnt.wikipedia.org/wiki/%CE%9A%CF%81%CE%BF%CE%B1%CF%84%CE%AF%CE%B1> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "pnt" ;
+	schema:isPartOf <https://pnt.wikipedia.org/> ;
+	schema:name "Κροατία"@pnt .
+
+<https://pnt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ps.wikipedia.org/wiki/%DA%A9%D8%B1%D9%88%D8%A7%D8%B3%DB%8C%D8%A7> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ps" ;
+	schema:isPartOf <https://ps.wikipedia.org/> ;
+	schema:name "کرواسیا"@ps .
+
+<https://ps.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://qu.wikipedia.org/wiki/Hurwatsuyu> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "qu" ;
+	schema:isPartOf <https://qu.wikipedia.org/> ;
+	schema:name "Hurwatsuyu"@qu .
+
+<https://qu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rm.wikipedia.org/wiki/Croazia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "rm" ;
+	schema:isPartOf <https://rm.wikipedia.org/> ;
+	schema:name "Croazia"@rm .
+
+<https://rm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rn.wikipedia.org/wiki/Croacia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "rn" ;
+	schema:isPartOf <https://rn.wikipedia.org/> ;
+	schema:name "Croacia"@rn .
+
+<https://rn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://roa-rup.wikipedia.org/wiki/Croa%C8%9Bia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "rup" ;
+	schema:isPartOf <https://roa-rup.wikipedia.org/> ;
+	schema:name "Croația"@rup .
+
+<https://roa-rup.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://roa-tara.wikipedia.org/wiki/Croazie> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "it-x-tara" ;
+	schema:isPartOf <https://roa-tara.wikipedia.org/> ;
+	schema:name "Croazie"@it-x-tara .
+
+<https://roa-tara.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rue.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "rue" ;
+	schema:isPartOf <https://rue.wikipedia.org/> ;
+	schema:name "Хорватія"@rue .
+
+<https://rue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rw.wikipedia.org/wiki/Korowatiya> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "rw" ;
+	schema:isPartOf <https://rw.wikipedia.org/> ;
+	schema:name "Korowatiya"@rw .
+
+<https://rw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sa.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%8F%E0%A4%B6%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sa" ;
+	schema:isPartOf <https://sa.wikipedia.org/> ;
+	schema:name "क्रोएशिया"@sa .
+
+<https://sa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sah.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sah" ;
+	schema:isPartOf <https://sah.wikipedia.org/> ;
+	schema:name "Хорватия"@sah .
+
+<https://sah.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sc.wikipedia.org/wiki/Cro%C3%A0tzia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sc" ;
+	schema:isPartOf <https://sc.wikipedia.org/> ;
+	schema:name "Croàtzia"@sc .
+
+<https://sc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://scn.wikipedia.org/wiki/Croazzia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "scn" ;
+	schema:isPartOf <https://scn.wikipedia.org/> ;
+	schema:name "Croazzia"@scn .
+
+<https://scn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sco.wikipedia.org/wiki/Croatie> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sco" ;
+	schema:isPartOf <https://sco.wikipedia.org/> ;
+	schema:name "Croatie"@sco .
+
+<https://sco.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sd.wikipedia.org/wiki/%DA%AA%D8%B1%D9%88%D8%B4%D9%8A%D8%A7> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sd" ;
+	schema:isPartOf <https://sd.wikipedia.org/> ;
+	schema:name "ڪروشيا"@sd .
+
+<https://sd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://se.wikipedia.org/wiki/Kroatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "se" ;
+	schema:isPartOf <https://se.wikipedia.org/> ;
+	schema:name "Kroatia"@se .
+
+<https://se.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sg.wikipedia.org/wiki/Kroas%C3%AFi> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sg" ;
+	schema:isPartOf <https://sg.wikipedia.org/> ;
+	schema:name "Kroasïi"@sg .
+
+<https://sg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Hrvatska> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Hrvatska"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://si.wikipedia.org/wiki/%E0%B6%9A%E0%B7%8A%E2%80%8D%E0%B6%BB%E0%B7%9C%E0%B6%92%E0%B7%82%E0%B7%92%E0%B6%BA%E0%B7%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "si" ;
+	schema:isPartOf <https://si.wikipedia.org/> ;
+	schema:name "ක්‍රොඒෂියා"@si .
+
+<https://si.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sk.wikipedia.org/wiki/Chorv%C3%A1tsko> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sk" ;
+	schema:isPartOf <https://sk.wikipedia.org/> ;
+	schema:name "Chorvátsko"@sk .
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sl.wikipedia.org/wiki/Hrva%C5%A1ka> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikipedia.org/> ;
+	schema:name "Hrvaška"@sl ;
+	wikibase:badge wd:Q17437796 .
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://so.wikipedia.org/wiki/Kuruweshiya> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "so" ;
+	schema:isPartOf <https://so.wikipedia.org/> ;
+	schema:name "Kuruweshiya"@so .
+
+<https://so.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sq.wikipedia.org/wiki/Kroacia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sq" ;
+	schema:isPartOf <https://sq.wikipedia.org/> ;
+	schema:name "Kroacia"@sq .
+
+<https://sq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://srn.wikipedia.org/wiki/Krvatkondre> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "srn" ;
+	schema:isPartOf <https://srn.wikipedia.org/> ;
+	schema:name "Krvatkondre"@srn .
+
+<https://srn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ss.wikipedia.org/wiki/IKhuroshiya> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ss" ;
+	schema:isPartOf <https://ss.wikipedia.org/> ;
+	schema:name "IKhuroshiya"@ss .
+
+<https://ss.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://st.wikipedia.org/wiki/Kroatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "st" ;
+	schema:isPartOf <https://st.wikipedia.org/> ;
+	schema:name "Kroatia"@st .
+
+<https://st.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://stq.wikipedia.org/wiki/Kroatien> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "stq" ;
+	schema:isPartOf <https://stq.wikipedia.org/> ;
+	schema:name "Kroatien"@stq .
+
+<https://stq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://su.wikipedia.org/wiki/Kroasia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "su" ;
+	schema:isPartOf <https://su.wikipedia.org/> ;
+	schema:name "Kroasia"@su .
+
+<https://su.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kroatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kroatia"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szl.wikipedia.org/wiki/Chorwacyjo> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "szl" ;
+	schema:isPartOf <https://szl.wikipedia.org/> ;
+	schema:name "Chorwacyjo"@szl .
+
+<https://szl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szy.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "szy" ;
+	schema:isPartOf <https://szy.wikipedia.org/> ;
+	schema:name "Croatia"@szy .
+
+<https://szy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%95%E0%AF%81%E0%AE%B0%E0%AF%8B%E0%AE%B5%E0%AE%BE%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%BE> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "குரோவாசியா"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://te.wikipedia.org/wiki/%E0%B0%95%E0%B1%8D%E0%B0%B0%E0%B1%8A%E0%B0%AF%E0%B1%87%E0%B0%B7%E0%B0%BF%E0%B0%AF%E0%B0%BE> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "te" ;
+	schema:isPartOf <https://te.wikipedia.org/> ;
+	schema:name "క్రొయేషియా"@te .
+
+<https://te.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tet.wikipedia.org/wiki/Kro%C3%A1sia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "tet" ;
+	schema:isPartOf <https://tet.wikipedia.org/> ;
+	schema:name "Kroásia"@tet .
+
+<https://tet.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tg.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "tg" ;
+	schema:isPartOf <https://tg.wikipedia.org/> ;
+	schema:name "Хорватия"@tg .
+
+<https://tg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B9%80%E0%B8%AD%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ประเทศโครเอเชีย"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tk.wikipedia.org/wiki/Horwati%C3%BDa> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "tk" ;
+	schema:isPartOf <https://tk.wikipedia.org/> ;
+	schema:name "Horwatiýa"@tk .
+
+<https://tk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Croatia"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tpi.wikipedia.org/wiki/Krowesia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "tpi" ;
+	schema:isPartOf <https://tpi.wikipedia.org/> ;
+	schema:name "Krowesia"@tpi .
+
+<https://tpi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ts.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ts" ;
+	schema:isPartOf <https://ts.wikipedia.org/> ;
+	schema:name "Croatia"@ts .
+
+<https://ts.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Хорватия"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tum.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "tum" ;
+	schema:isPartOf <https://tum.wikipedia.org/> ;
+	schema:name "Croatia"@tum .
+
+<https://tum.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ty.wikipedia.org/wiki/Toro%C4%81tia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ty" ;
+	schema:isPartOf <https://ty.wikipedia.org/> ;
+	schema:name "Toroātia"@ty .
+
+<https://ty.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://udm.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "udm" ;
+	schema:isPartOf <https://udm.wikipedia.org/> ;
+	schema:name "Хорватия"@udm .
+
+<https://udm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ug.wikipedia.org/wiki/%D9%83%D8%B1%D9%88%D8%AF%D9%89%D9%8A%DB%95> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ug" ;
+	schema:isPartOf <https://ug.wikipedia.org/> ;
+	schema:name "كرودىيە"@ug .
+
+<https://ug.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%DA%A9%D8%B1%D9%88%DB%8C%D8%A6%D8%B4%D8%A7> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "کرویئشا"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Xorvatiya> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Xorvatiya"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vec.wikipedia.org/wiki/Cro%C3%A0sia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "vec" ;
+	schema:isPartOf <https://vec.wikipedia.org/> ;
+	schema:name "Croàsia"@vec .
+
+<https://vec.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vep.wikipedia.org/wiki/Horvatii> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "vep" ;
+	schema:isPartOf <https://vep.wikipedia.org/> ;
+	schema:name "Horvatii"@vep .
+
+<https://vep.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vls.wikipedia.org/wiki/Kroati%C3%AB> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "vls" ;
+	schema:isPartOf <https://vls.wikipedia.org/> ;
+	schema:name "Kroatië"@vls .
+
+<https://vls.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vo.wikipedia.org/wiki/Kroas%C3%A4n> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "vo" ;
+	schema:isPartOf <https://vo.wikipedia.org/> ;
+	schema:name "Kroasän"@vo .
+
+<https://vo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wa.wikipedia.org/wiki/Crowaceye> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "wa" ;
+	schema:isPartOf <https://wa.wikipedia.org/> ;
+	schema:name "Crowaceye"@wa .
+
+<https://wa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://war.wikipedia.org/wiki/Kroasya> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "war" ;
+	schema:isPartOf <https://war.wikipedia.org/> ;
+	schema:name "Kroasya"@war .
+
+<https://war.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wo.wikipedia.org/wiki/Korwaasi> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "wo" ;
+	schema:isPartOf <https://wo.wikipedia.org/> ;
+	schema:name "Korwaasi"@wo .
+
+<https://wo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E5%85%8B%E7%BD%97%E5%9C%B0%E4%BA%9A> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "克罗地亚"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://xal.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D0%BD_%D0%9E%D1%80%D0%BD> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "xal" ;
+	schema:isPartOf <https://xal.wikipedia.org/> ;
+	schema:name "Хорватин Орн"@xal .
+
+<https://xal.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://xmf.wikipedia.org/wiki/%E1%83%AE%E1%83%9D%E1%83%A0%E1%83%95%E1%83%90%E1%83%A2%E1%83%98%E1%83%90> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "xmf" ;
+	schema:isPartOf <https://xmf.wikipedia.org/> ;
+	schema:name "ხორვატია"@xmf .
+
+<https://xmf.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://yi.wikipedia.org/wiki/%D7%A7%D7%A8%D7%90%D7%90%D7%98%D7%99%D7%A2> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "yi" ;
+	schema:isPartOf <https://yi.wikipedia.org/> ;
+	schema:name "קראאטיע"@yi .
+
+<https://yi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://yo.wikipedia.org/wiki/Kroat%C3%AD%C3%A0> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "yo" ;
+	schema:isPartOf <https://yo.wikipedia.org/> ;
+	schema:name "Kroatíà"@yo .
+
+<https://yo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://za.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "za" ;
+	schema:isPartOf <https://za.wikipedia.org/> ;
+	schema:name "Croatia"@za .
+
+<https://za.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zea.wikipedia.org/wiki/Kroaoti%C3%AB> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "zea" ;
+	schema:isPartOf <https://zea.wikipedia.org/> ;
+	schema:name "Kroaotië"@zea .
+
+<https://zea.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-classical.wikipedia.org/wiki/%E5%85%8B%E7%BE%85%E5%9C%B0%E4%BA%9E> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "lzh" ;
+	schema:isPartOf <https://zh-classical.wikipedia.org/> ;
+	schema:name "克羅地亞"@lzh .
+
+<https://zh-classical.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-min-nan.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "nan" ;
+	schema:isPartOf <https://zh-min-nan.wikipedia.org/> ;
+	schema:name "Croatia"@nan .
+
+<https://zh-min-nan.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E5%85%8B%E7%BE%85%E5%9C%B0%E4%BA%9E> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "克羅地亞"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zu.wikipedia.org/wiki/IKrowati> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "zu" ;
+	schema:isPartOf <https://zu.wikipedia.org/> ;
+	schema:name "IKrowati"@zu .
+
+<https://zu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://li.wikinews.org/wiki/Categorie:Kroati%C3%AB> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "li" ;
+	schema:isPartOf <https://li.wikinews.org/> ;
+	schema:name "Categorie:Kroatië"@li .
+
+<https://li.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://shn.wikipedia.org/wiki/%E1%80%99%E1%80%AD%E1%80%B0%E1%80%84%E1%80%BA%E1%80%B8%E1%81%B6%E1%80%9B%E1%80%B0%E1%80%9D%E1%80%BA%E1%82%87%E1%80%A2%E1%80%B1%E1%80%B8%E1%80%9E%E1%80%BB%E1%82%83%E1%80%B8> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "shn" ;
+	schema:isPartOf <https://shn.wikipedia.org/> ;
+	schema:name "မိူင်းၶရူဝ်ႇဢေးသျႃး"@shn .
+
+<https://shn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://awa.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%8F%E0%A4%B6%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "awa" ;
+	schema:isPartOf <https://awa.wikipedia.org/> ;
+	schema:name "क्रोएशिया"@awa .
+
+<https://awa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://avk.wikipedia.org/wiki/Xrvatska> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "avk" ;
+	schema:isPartOf <https://avk.wikipedia.org/> ;
+	schema:name "Xrvatska"@avk .
+
+<https://avk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ary.wikipedia.org/wiki/%D9%83%D8%B1%D9%88%D8%A7%D8%AA%D9%8A%D8%A7> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ary" ;
+	schema:isPartOf <https://ary.wikipedia.org/> ;
+	schema:name "كرواتيا"@ary .
+
+<https://ary.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lld.wikipedia.org/wiki/Croazia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "lld" ;
+	schema:isPartOf <https://lld.wikipedia.org/> ;
+	schema:name "Croazia"@lld .
+
+<https://lld.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ceb.wikipedia.org/wiki/Krowatiya> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ceb" ;
+	schema:isPartOf <https://ceb.wikipedia.org/> ;
+	schema:name "Krowatiya"@ceb .
+
+<https://ceb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cv.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "cv" ;
+	schema:isPartOf <https://cv.wikipedia.org/> ;
+	schema:name "Хорвати"@cv .
+
+<https://cv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%A0%E1%B1%A8%E1%B1%B3%E1%B1%AD%E1%B1%AE%E1%B1%A5%E1%B1%A4%E1%B1%AD%E1%B1%9F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱠᱨᱳᱭᱮᱥᱤᱭᱟ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://smn.wikipedia.org/wiki/Kroatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "smn" ;
+	schema:isPartOf <https://smn.wikipedia.org/> ;
+	schema:name "Kroatia"@smn .
+
+<https://smn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikivoyage.org/wiki/Kroatio> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikivoyage.org/> ;
+	schema:name "Kroatio"@eo .
+
+<https://eo.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://pam.wikipedia.org/wiki/Kroasia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "pam" ;
+	schema:isPartOf <https://pam.wikipedia.org/> ;
+	schema:name "Kroasia"@pam .
+
+<https://pam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Kroaatien> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Kroaatien"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mad.wikipedia.org/wiki/Kroasia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "mad" ;
+	schema:isPartOf <https://mad.wikipedia.org/> ;
+	schema:name "Kroasia"@mad .
+
+<https://mad.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikivoyage.org/wiki/H%C4%B1rvatistan> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikivoyage.org/> ;
+	schema:name "Hırvatistan"@tr .
+
+<https://tr.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://tay.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "tay" ;
+	schema:isPartOf <https://tay.wikipedia.org/> ;
+	schema:name "Croatia"@tay .
+
+<https://tay.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://trv.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "trv" ;
+	schema:isPartOf <https://trv.wikipedia.org/> ;
+	schema:name "Croatia"@trv .
+
+<https://trv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rmy.wikipedia.org/wiki/Kroatiya> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "rmy" ;
+	schema:isPartOf <https://rmy.wikipedia.org/> ;
+	schema:name "Kroatiya"@rmy .
+
+<https://rmy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bi.wikipedia.org/wiki/Kroasia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "bi" ;
+	schema:isPartOf <https://bi.wikipedia.org/> ;
+	schema:name "Kroasia"@bi .
+
+<https://bi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikivoyage.org/wiki/%D7%A7%D7%A8%D7%95%D7%90%D7%98%D7%99%D7%94> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikivoyage.org/> ;
+	schema:name "קרואטיה"@he ;
+	wikibase:badge wd:Q17437798 .
+
+<https://he.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://mni.wikipedia.org/wiki/%EA%AF%80%EA%AF%AD%EA%AF%94%EA%AF%A3%EA%AF%91%EA%AF%A6%EA%AF%81%EA%AF%A4%EA%AF%8C%EA%AF%A5> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "mni" ;
+	schema:isPartOf <https://mni.wikipedia.org/> ;
+	schema:name "ꯀ꯭ꯔꯣꯑꯦꯁꯤꯌꯥ"@mni .
+
+<https://mni.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ami.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ami" ;
+	schema:isPartOf <https://ami.wikipedia.org/> ;
+	schema:name "Croatia"@ami .
+
+<https://ami.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nv.wikipedia.org/wiki/Daalch%C3%AD%C3%AD%CA%BC_Dadik%CA%BC%C4%85%CC%81%C4%85hnii_Bik%C3%A9yah> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "nv" ;
+	schema:isPartOf <https://nv.wikipedia.org/> ;
+	schema:name "Daalchííʼ Dadikʼą́ąhnii Bikéyah"@nv .
+
+<https://nv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tw.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "tw" ;
+	schema:isPartOf <https://tw.wikipedia.org/> ;
+	schema:name "Croatia"@tw .
+
+<https://tw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mdf.wikipedia.org/wiki/%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "mdf" ;
+	schema:isPartOf <https://mdf.wikipedia.org/> ;
+	schema:name "Хорватия"@mdf .
+
+<https://mdf.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://to.wikipedia.org/wiki/Kuloisia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "to" ;
+	schema:isPartOf <https://to.wikipedia.org/> ;
+	schema:name "Kuloisia"@to .
+
+<https://to.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gn.wikipedia.org/wiki/Koro%C3%A1sia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "gn" ;
+	schema:isPartOf <https://gn.wikipedia.org/> ;
+	schema:name "Koroásia"@gn .
+
+<https://gn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikiquote.org/wiki/%D0%A5%D1%80%D0%B2%D0%B0%D1%82%D1%81%D0%BA%D0%B0> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikiquote.org/> ;
+	schema:name "Хрватска"@sr .
+
+<https://sr.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://hyw.wikipedia.org/wiki/%D4%BD%D6%80%D5%B8%D6%82%D5%A1%D5%A9%D5%AB%D5%A1> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "hyw" ;
+	schema:isPartOf <https://hyw.wikipedia.org/> ;
+	schema:name "Խրուաթիա"@hyw .
+
+<https://hyw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sm.wikipedia.org/wiki/Koroasia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sm" ;
+	schema:isPartOf <https://sm.wikipedia.org/> ;
+	schema:name "Koroasia"@sm .
+
+<https://sm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%85%8B%E7%BD%97%E5%9C%B0%E4%BA%9A> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "克罗地亚"@zh ;
+	wikibase:badge wd:Q17437798 .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sn.wikipedia.org/wiki/Kurohesha> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sn" ;
+	schema:isPartOf <https://sn.wikipedia.org/> ;
+	schema:name "Kurohesha"@sn .
+
+<https://sn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dag.wikipedia.org/wiki/Croatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "dag" ;
+	schema:isPartOf <https://dag.wikipedia.org/> ;
+	schema:name "Croatia"@dag .
+
+<https://dag.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikivoyage.org/wiki/%E3%82%AF%E3%83%AD%E3%82%A2%E3%83%81%E3%82%A2> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikivoyage.org/> ;
+	schema:name "クロアチア"@ja .
+
+<https://ja.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://bat-smg.wikipedia.org/wiki/Kroat%C4%97j%C4%97> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "sgs" ;
+	schema:isPartOf <https://bat-smg.wikipedia.org/> ;
+	schema:name "Kroatėjė"@sgs .
+
+<https://bat-smg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mwl.wikipedia.org/wiki/Cro%C3%A1cia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "mwl" ;
+	schema:isPartOf <https://mwl.wikipedia.org/> ;
+	schema:name "Croácia"@mwl .
+
+<https://mwl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikiquote.org/wiki/Horvaatia> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikiquote.org/> ;
+	schema:name "Horvaatia"@et .
+
+<https://et.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://lo.wikipedia.org/wiki/%E0%BA%9B%E0%BA%B0%E0%BB%80%E0%BA%97%E0%BA%94%E0%BB%82%E0%BA%84%E0%BA%A3%E0%BB%80%E0%BA%AD%E0%BB%80%E0%BA%8A%E0%BA%8D> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "lo" ;
+	schema:isPartOf <https://lo.wikipedia.org/> ;
+	schema:name "ປະເທດໂຄຣເອເຊຍ"@lo .
+
+<https://lo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://anp.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%8F%E0%A4%B6%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q224 ;
+	schema:inLanguage "anp" ;
+	schema:isPartOf <https://anp.wikipedia.org/> ;
+	schema:name "क्रोएशिया"@anp .
+
+<https://anp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q224 wdt:P2924 "4696622" ;
+	wdt:P1082 "+3871833"^^xsd:decimal ;
+	wdt:P1667 "7006663" ;
+	wdtn:P1667 <http://vocab.getty.edu/tgn/7006663> ;
+	wdt:P1151 wd:Q10815276 ;
+	wdt:P1333 "Point(18.53151888 42.39224869)"^^geo:wktLiteral ;
+	wdt:P5125 wd:Q7112240 ;
+	wdt:P349 "00567032" ;
+	wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00567032> ;
+	wdt:P214 "152376980" ;
+	wdtn:P214 <http://viaf.org/viaf/152376980> ;
+	wdt:P3221 "destination/croatia" ;
+	wdt:P2581 "00023880n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s00023880n> ;
+	wdt:P1566 "3202326" ;
+	wdtn:P1566 <http://sws.geonames.org/3202326/> ;
+	wdt:P227 "4073841-3" ;
+	wdtn:P227 <https://d-nb.info/gnd/4073841-3> ;
+	wdt:P487 "🇭🇷" ;
+	wdt:P1792 wd:Q7031578 ;
+	wdt:P2852 wd:Q1061257,
+		wd:Q25648834,
+		wd:Q25743498,
+		wd:Q25743500 ;
+	wdt:P3916 "concept896" ;
+	wdtn:P3916 <http://vocabularies.unesco.org/thesaurus/concept896> ;
+	wdt:P2853 wd:Q1378312,
+		wd:Q1123613 ;
+	wdt:P395 "HR" ;
+	wdt:P3238 "0" ;
+	wdt:P1335 "Point(13.48968778 45.48693537)"^^geo:wktLiteral ;
+	wdt:P2633 wd:Q215923 ;
+	wdt:P298 "HRV" ;
+	wdt:P1448 "Republica Croația"@ro,
+		"Republika Hrvatska"@hr,
+		"Chorvatská republika"@cs,
+		"Hrvatska"@hr,
+		"Хрватска"@sr,
+		"République de Croatie"@fr,
+		"Republic of Croatia"@en,
+		"Republiken Kroatien"@sv ;
+	wdt:P1313 wd:Q1195270 ;
+	wdt:P213 "0000 0001 2112 0050" ;
+	wdt:P3417 "Croatia" ;
+	wdt:P3065 "02-A005497057" ;
+	wdt:P998 "Regional/Europe/Croatia/" ;
+	wdt:P17 wd:Q224 ;
+	wdt:P3219 "croatie" ;
+	wdt:P1705 "Republika Hrvatska"@hr,
+		"Hrvatska"@hr ;
+	wdt:P2959 wd:Q27103168 ;
+	wdt:P3106 "world/croatia" ;
+	wdt:P122 wd:Q7270 ;
+	wdt:P982 "7d30afff-e425-356a-873e-17ae9745b31d" ;
+	wdtn:P982 <http://musicbrainz.org/area/7d30afff-e425-356a-873e-17ae9745b31d> ;
+	wdt:P1552 wd:Q3174312 ;
+	wdt:P94 <http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Croatia.svg> ;
+	wdt:P2981 "HR" ;
+	wdt:P486 "D017523" ;
+	wdtn:P486 <http://id.nlm.nih.gov/mesh/D017523> ;
+	wdt:P30 wd:Q46 ;
+	wdt:P3422 "99119" ;
+	wdt:P5698 "108452" ;
+	wdt:P530 wd:Q38,
+		wd:Q183,
+		wd:Q408,
+		wd:Q215,
+		wd:Q184,
+		wd:Q212,
+		wd:Q851,
+		wd:Q159583,
+		wd:Q40,
+		wd:Q1016,
+		wd:Q1246,
+		wd:Q20,
+		wd:Q414,
+		wd:Q222,
+		wd:Q225,
+		wd:Q219,
+		wd:Q298,
+		wd:Q28,
+		wd:Q29,
+		wd:Q35,
+		wd:Q43,
+		wd:Q711,
+		wd:Q79,
+		wd:Q794,
+		wd:Q858,
+		wd:Q865,
+		wd:Q928,
+		wd:Q30,
+		wd:Q403,
+		wd:Q236,
+		wd:Q41,
+		wd:Q902,
+		wd:Q148,
+		wd:Q96,
+		wd:Q423 ;
+	wdt:P3743 "2.16.191" ;
+	wdt:P935 "Hrvatska" ;
+	wdt:P194 wd:Q371576 ;
+	wdt:P571 "1991-06-25T00:00:00Z"^^xsd:dateTime ;
+	wdt:P421 wd:Q6655 ;
+	wdt:P605 "HR0" ;
+	wdtn:P605 <http://data.europa.eu/nuts/code/HR0> ;
+	wdt:P605 "HR" ;
+	wdtn:P605 <http://data.europa.eu/nuts/code/HR> ;
+	wdt:P2184 wd:Q210726 ;
+	wdt:P268 "12363401c" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb12363401c#about> ;
+	wdt:P268 "15304388d" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb15304388d#about> ;
+	wdt:P268 "11951317p" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb11951317p#about> ;
+	wdt:P3911 "18227-3" ;
+	wdtn:P3911 <http://zbw.eu/stw/descriptor/18227-3> ;
+	wdt:P37 wd:Q6654 ;
+	wdt:P1365 wd:Q83286,
+		wd:Q209062 ;
+	wdt:P206 wd:Q13924,
+		wd:Q4918 ;
+	wdt:P36 wd:Q1435 ;
+	wdt:P856 <http://www.vlada.hr>,
+		<https://vlada.gov.hr/en> ;
+	wdt:P237 wd:Q184252 ;
+	wdt:P3984 "croatia" ;
+	wdt:P1549 "kroatisch"@de,
+		"Kroate"@de,
+		"Kroatin"@de,
+		"Kroaat"@nl,
+		"Hrvat"@hr,
+		"Hrvatica"@hr,
+		"Croatian"@en,
+		"horvát"@hu,
+		"kroat"@da,
+		"kroater"@da,
+		"Kroatiano"@io,
+		"Kroasänan"@vo,
+		"كرواتي"@ar,
+		"كرواتية"@ar,
+		"كروات"@ar,
+		"хорваты"@ru,
+		"хорват"@uk,
+		"хорватка"@uk,
+		"хорвати"@uk,
+		"קרואטי"@he,
+		"קרואטית"@he,
+		"croați"@ro,
+		"croat"@ro,
+		"croată"@ro,
+		"ক্রোয়েশীয়"@bn,
+		"croato"@it,
+		"croata"@it,
+		"croati"@it,
+		"croate"@it,
+		"corvatsce"@lfn,
+		"croata"@ast,
+		"kroato"@eo,
+		"хрватски"@sr,
+		"хрватска"@sr,
+		"kroatisk"@sv,
+		"Croate"@fr,
+		"Croate"@fr,
+		"croato"@vec,
+		"croati"@vec,
+		"croata"@vec,
+		"croate"@vec,
+		"Chorvat"@cs,
+		"Chorvatka"@cs,
+		"Chorvati"@cs,
+		"Chorvatky"@cs,
+		"kroatoj"@eo ;
+	wdt:P3896 <http://commons.wikimedia.org/data/main/Data:Croatia.map> ;
+	wdt:P949 "000984277" ;
+	wdt:P402 "214885" ;
+	wdtn:P402 <https://www.openstreetmap.org/relation/214885> ;
+	wdt:P3068 "HR" ;
+	wdt:P950 "XX452923" ;
+	wdtn:P950 <http://datos.bne.es/resource/XX452923> ;
+	wdt:P1332 "Point(16.37 46.55)"^^geo:wktLiteral ;
+	wdt:P691 "ge128941" ;
+	wdt:P906 "151342" ;
+	wdtn:P906 <http://libris.kb.se/resource/auth/151342> ;
+	wdt:P3241 "04510a" ;
+	wdt:P5905 "4020-56406" ;
+	wdt:P2258 "219" ;
+	wdt:P4841 "+1.46"^^xsd:decimal ;
+	wdt:P2979 "238" ;
+	wdt:P1225 "10045284" ;
+	wdt:P47 wd:Q215,
+		wd:Q28,
+		wd:Q403,
+		wd:Q225,
+		wd:Q236,
+		wd:Q19801186 ;
+	wdt:P3000 "+18"^^xsd:decimal ;
+	wdt:P910 wd:Q5626618 ;
+	wdt:P3612 "pays/croatie" ;
+	wdt:P35 wd:Q57687 ;
+	wdt:P1304 wd:Q1143457 ;
+	wdt:P1791 wd:Q8328560 ;
+	wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/EU-Croatia.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/LocationCroatia.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/EU-Croatia%20%28orthographic%20projection%29.png> ;
+	wdt:P1617 "e53fdfab-4671-4ba4-8794-3b41e81a2911" ;
+	wdtn:P1617 <http://www.bbc.co.uk/things/e53fdfab-4671-4ba4-8794-3b41e81a2911#id> ;
+	wdt:P2997 "+18"^^xsd:decimal ;
+	wdt:P1036 "2--4972" ;
+	wdt:P1334 "Point(19.4480136 45.19537138)"^^geo:wktLiteral ;
+	wdt:P1670 "0053G0410F" ;
+	wdt:P2046 "+56594"^^xsd:decimal ;
+	wdt:P6 wd:Q11685764 ;
+	wdt:P3006 "2160" ;
+	wdtn:P3006 <http://marineregions.org/mrgid/2160> ;
+	wdt:P984 "CRO" ;
+	wdt:P463 wd:Q458,
+		wd:Q1065,
+		wd:Q7184,
+		wd:Q8908,
+		wd:Q7825,
+		wd:Q81299,
+		wd:Q191384,
+		wd:Q827525,
+		wd:Q656801,
+		wd:Q1043527,
+		wd:Q899770,
+		wd:Q782942,
+		wd:Q663492,
+		wd:Q1928989,
+		wd:Q8475,
+		wd:Q1480793,
+		wd:Q842490,
+		wd:Q3866537,
+		wd:Q233611,
+		wd:Q7809,
+		wd:Q5611262,
+		wd:Q17495,
+		wd:Q376150,
+		wd:Q170424,
+		wd:Q7817,
+		wd:Q498496 ;
+	wdt:P2163 "1212674" ;
+	wdtn:P2163 <http://id.worldcat.org/fast/1212674> ;
+	wdt:P1198 "+17"^^xsd:decimal ;
+	wdt:P5658 wd:Q14565199 ;
+	wdt:P4427 "10" ;
+	wdt:P5573 "2297" ;
+	wdt:P1417 "place/Croatia" ;
+	wdt:P3067 "385" ;
+	wdt:P706 wd:Q23522 ;
+	wdt:P948 <http://commons.wikimedia.org/wiki/Special:FilePath/Croatia%20Wikivoyage%20banner.jpg> ;
+	wdt:P1740 wd:Q6427942 ;
+	wdt:P2884 "+230"^^xsd:decimal ;
+	wdt:P208 wd:Q1278383 ;
+	wdt:P1465 wd:Q6430204 ;
+	wdt:P2347 "107595" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p107595> ;
+	wdt:P85 wd:Q146502 ;
+	wdt:P1906 wd:Q268984 ;
+	wdt:P2250 "+78.02195"^^xsd:decimal ;
+	wdt:P1296 "0020736" ;
+	wdt:P373 "Croatia" ;
+	wdt:P78 wd:Q41008 ;
+	wdt:P31 wd:Q3624078,
+		wd:Q179164,
+		wd:Q51576574,
+		wd:Q6256 ;
+	wdt:P610 wd:Q736047 ;
+	wdt:P1464 wd:Q8078205 ;
+	wdt:P5250 "1277" ;
+	wdt:P1813 "🇭🇷"@zxx,
+		"Croația"@ro ;
+	wdt:P2573 "+27168"^^xsd:decimal ;
+	wdt:P1622 wd:Q14565199 ;
+	wdt:P2982 "78" ;
+	wdt:P1589 wd:Q13924 ;
+	wdt:P4527 "9498" ;
+	wdtn:P4527 <http://data.parliament.uk/terms/9498> ;
+	wdt:P898 "kɾuːˈɑtsɪɑ",
+		"xɐrˈvatʲɪjə" ;
+	wdt:P5180 "croatia" ;
+	wdt:P299 "191" ;
+	wdt:P269 "154019917" ;
+	wdtn:P269 <http://www.idref.fr/154019917/id> ;
+	wdt:P5247 "3035-2124" ;
+	wdt:P150 wd:Q58330,
+		wd:Q58289,
+		wd:Q58268,
+		wd:Q58253,
+		wd:Q58225,
+		wd:Q58194,
+		wd:Q58159,
+		wd:Q58146,
+		wd:Q58129,
+		wd:Q58111,
+		wd:Q58092,
+		wd:Q58081,
+		wd:Q58071,
+		wd:Q58060,
+		wd:Q58026,
+		wd:Q57967,
+		wd:Q57071,
+		wd:Q57060,
+		wd:Q57056,
+		wd:Q27038,
+		wd:Q1435 ;
+	wdt:P3024 "HRV" ;
+	wdt:P474 "+385" ;
+	wdt:P646 "/m/01pj7" ;
+	wdt:P3175 "uhr" ;
+	wdt:P2004 "15644" ;
+	wdtn:P2004 <https://lod.nal.usda.gov/nalt/15644> ;
+	wdt:P244 "n81035140" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/n81035140> ;
+	wdt:P297 "HR" ;
+	wdt:P163 wd:Q133015 ;
+	wdt:P625 "Point(15.466667 45.25)"^^geo:wktLiteral ;
+	wdt:P901 "HR" ;
+	wdt:P2936 wd:Q6654,
+		wd:Q9299,
+		wd:Q1793299,
+		wd:Q3507506,
+		wd:Q652,
+		wd:Q35845,
+		wd:Q9303,
+		wd:Q33622 ;
+	wdt:P41 <http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Croatia.svg> ;
+	wdt:P5019 "kroatien" ;
+	wdt:P6573 "Kroatien" ;
+	wdt:P4801 "countries/ci" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/countries/ci> ;
+	wdt:P3864 "+11.0"^^xsd:decimal ;
+	wdt:P6404 "croazia" ;
+	wdt:P7012 "croatia" ;
+	wdt:P6766 "85633229" ;
+	wdt:P6849 "kroatien" ;
+	wdt:P1281 "23424843" ;
+	wdt:P3553 "20004500" ;
+	wdt:P1245 "8119" ;
+	wdt:P902 "032207" ;
+	wdt:P2596 wd:Q2748196 ;
+	wdt:P5400 "MPdQgP" ;
+	wdt:P6058 "pays/wd/115207" ;
+	wdt:P7870 "15887" ;
+	wdt:P7867 wd:Q8607341 ;
+	wdt:P2855 "+25"^^xsd:decimal ;
+	wdt:P7818 "Croatie" ;
+	wdt:P7843 "Kroatien" ;
+	wdt:P7829 "Croatia" ;
+	wdt:P7827 "Croacia" ;
+	wdt:P7832 "Kroazia" ;
+	wdt:P443 <http://commons.wikimedia.org/wiki/Special:FilePath/Lb-Kroatien.ogg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q7913%20%28ron%29-KlaudiuMihaila-Croa%C8%9Bia.wav>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q33810%20%28ori%29-Psubhashish-%E0%AC%95%E0%AD%8D%E0%AC%B0%E0%AD%8B%E0%AC%8F%E0%AC%B8%E0%AC%BF%E0%AC%86.wav> ;
+	wdt:P5437 "5563" ;
+	wdtn:P5437 <http://eurovoc.europa.eu/5563> ;
+	wdt:P1343 wd:Q4532138 ;
+	wdt:P7859 "lccn-n81035140" ;
+	wdt:P6262 "croatia:Croatia",
+		"countries:Croatia",
+		"yugoslavia:Croatia",
+		"gta:Croatia" ;
+	wdt:P7369 "000051487" ;
+	wdt:P271 "DA11951321" ;
+	wdtn:P271 <https://ci.nii.ac.jp/author/DA11951321#entity> ;
+	wdt:P1375 "000100546" ;
+	wdt:P1890 "000156548" ;
+	wdt:P1451 "Full of life"@en,
+		"Llawn bywyd"@cy ;
+	wdt:P7699 "LNB:V*11602;=yh" ;
+	wdt:P4073 "croatia" ;
+	wdt:P8408 "Croatia" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/Croatia> ;
+	wdt:P8402 wd:Q97011945 ;
+	wdt:P8406 "T020328" ;
+	wdtn:P8406 <http://dx.doi.org/10.1093/gao/9781884446054.article.T020328> ;
+	wdt:P8432 "K/Kroatien" ;
+	wdt:P8477 "+8.71"^^xsd:decimal,
+		"+8.57"^^xsd:decimal,
+		"+8.3"^^xsd:decimal,
+		"+8.25"^^xsd:decimal,
+		"+8.17"^^xsd:decimal,
+		"+7.93"^^xsd:decimal,
+		"+8.07"^^xsd:decimal,
+		"+7.91"^^xsd:decimal,
+		"+8.13"^^xsd:decimal ;
+	wdt:P8476 "+6.88"^^xsd:decimal,
+		"+6.87"^^xsd:decimal,
+		"+6.61"^^xsd:decimal,
+		"+6.39"^^xsd:decimal,
+		"+6.46"^^xsd:decimal,
+		"+6.07"^^xsd:decimal,
+		"+6.04"^^xsd:decimal,
+		"+5.98"^^xsd:decimal ;
+	wdt:P8519 "11561" ;
+	wdtn:P8519 <https://data.rkd.nl/thesau/11561> ;
+	wdt:P361 wd:Q263686,
+		wd:Q458,
+		wd:Q114839890,
+		wd:Q1969730 ;
+	wdt:P5063 "i83174" ;
+	wdtn:P5063 <http://globalwordnet.org/ili/i83174> ;
+	wdt:P1438 "14548" ;
+	wdt:P8744 wd:Q8067 ;
+	wdt:P5587 "64jlkbvq4b1l6f6" ;
+	wdtn:P5587 <https://libris.kb.se/64jlkbvq4b1l6f6> ;
+	wdt:P8179 "ncf10214836" ;
+	wdt:P5456 "croatia" ;
+	wdt:P8974 "p/bcba1636-5867-4494-bac2-9a07ab87379a" ;
+	wdtn:P8974 <http://data.performing-arts.ch/p/bcba1636-5867-4494-bac2-9a07ab87379a> ;
+	wdt:P9037 "bbcd115b-c5ae-49ac-8b3c-ab8e07472b22" ;
+	wdt:P9100 "croatia" ;
+	wdt:P8814 "08833710-n" ;
+	wdtn:P8814 <http://wordnet-rdf.princeton.edu/rdf/id/08833710-n> ;
+	wdt:P9241 wd:Q2047394 ;
+	wdt:P5739 "19920" ;
+	wdtn:P5739 <http://catalogo.pusc.it/auth/19920> ;
+	wdt:P7471 "8196" ;
+	wdt:P1280 "386086403" ;
+	wdt:P9498 "9cd2" ;
+	wdt:P7850 "T84-3589" ;
+	wdtn:P7850 <http://data.culture.fr/thesaurus/resource/ark:/67717/T84-3589> ;
+	wdt:P9368 "croatia" ;
+	wdt:P8217 "2053274" ;
+	wdt:P9757 "3360" ;
+	wdt:P9948 "croatia" ;
+	wdt:P8189 "987007555042705171" ;
+	wdt:P8248 "SG--59222" ;
+	wdt:P7305 "4169021" ;
+	wdt:P3365 "croazia" ;
+	wdt:P4342 "Kroatia" ;
+	wdt:P6482 "Q224" ;
+	wdt:P8885 "크로아티아" ;
+	wdt:P10234 "kroatien",
+		"croatia_en" ;
+	wdt:P9957 "6814" ;
+	wdt:P8309 "18-196661" ;
+	wdt:P9937 "2655" ;
+	wdt:P6293 "Y107595" ;
+	wdtn:P6293 <http://www.yso.fi/onto/ysa/Y107595> ;
+	wdt:P10291 "48541" ;
+	wdt:P8328 "+6.50"^^xsd:decimal ;
+	wdt:P6385 "strany_mira/HORVATIYA.html" ;
+	wdt:P8313 "Kroatien" ;
+	wdt:P10456 "28" ;
+	wdt:P10730 "country/HRV" ;
+	wdt:P6200 "cwlw3xz0zg4t" ;
+	wdt:P8799 "20be55bd-a3b3-40c4-b3d2-0f656eeb987a" ;
+	wdt:P2082 "191" ;
+	wdt:P1424 wd:Q7658400 ;
+	wdt:P10916 "Kroatien" ;
+	wdt:P8168 "Q394133" ;
+	wdtn:P8168 <https://database.factgrid.de/entity/Q394133> ;
+	wdt:P7502 "Croatia-EP88" ;
+	wdt:P7127 "croatia" ;
+	wdt:P1081 "+0.858"^^xsd:decimal ;
+	wdt:P9495 "geo/0A0777B0-5D37-4109-958C-A6AD74F7A00F" ;
+	wdt:P10280 wd:Q16793180 ;
+	wdt:P11012 "Q30" ;
+	wdtn:P11012 <https://linkedopendata.eu/entity/Q30> ;
+	wdt:P2572 "Croatia" ;
+	wdt:P5008 wd:Q6173448 ;
+	wdt:P1125 "+28.9"^^xsd:decimal ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Dubrovnik%20june%202011..JPG> ;
+	wdt:P8483 "A40g" ;
+	wdt:P38 wd:Q4916 ;
+	wdt:P6778 "00002719" ;
+	wdtn:P6778 <http://purl.obolibrary.org/obo/GAZ_00002719> ;
+	wdt:P11547 "+46.2"^^xsd:decimal ;
+	wdt:P11593 "+0.797"^^xsd:decimal ;
+	wdt:P11496 "1140000791817663488" ;
+	wdtn:P11496 <https://cir.nii.ac.jp/crid/1140000791817663488.rdf> ;
+	wdt:P11693 "424311353" ;
+	wdt:P6621 "Croatie" ;
+	wdt:P11835 "3278" ;
+	rdfs:label "Хорватия"@tg ;
+	skos:prefLabel "Хорватия"@tg ;
+	schema:name "Хорватия"@tg ;
+	rdfs:label "Chorvátsko"@sk ;
+	skos:prefLabel "Chorvátsko"@sk ;
+	schema:name "Chorvátsko"@sk ;
+	rdfs:label "کروشیا"@pnb ;
+	skos:prefLabel "کروشیا"@pnb ;
+	schema:name "کروشیا"@pnb ;
+	rdfs:label "Kroaitsiya"@na ;
+	skos:prefLabel "Kroaitsiya"@na ;
+	schema:name "Kroaitsiya"@na ;
+	rdfs:label "Хрватска"@mk ;
+	skos:prefLabel "Хрватска"@mk ;
+	schema:name "Хрватска"@mk ;
+	rdfs:label "IKrowati"@zu ;
+	skos:prefLabel "IKrowati"@zu ;
+	schema:name "IKrowati"@zu ;
+	rdfs:label "ক্রোয়েশিয়া"@bpy ;
+	skos:prefLabel "ক্রোয়েশিয়া"@bpy ;
+	schema:name "ক্রোয়েশিয়া"@bpy ;
+	rdfs:label "क्रोएशिया"@hi ;
+	skos:prefLabel "क्रोएशिया"@hi ;
+	schema:name "क्रोएशिया"@hi ;
+	rdfs:label "Kruoyesha"@jam ;
+	skos:prefLabel "Kruoyesha"@jam ;
+	schema:name "Kruoyesha"@jam ;
+	rdfs:label "کروشیا"@ur ;
+	skos:prefLabel "کروشیا"@ur ;
+	schema:name "کروشیا"@ur ;
+	rdfs:label "Kroatia"@so ;
+	skos:prefLabel "Kroatia"@so ;
+	schema:name "Kroatia"@so ;
+	rdfs:label "Horvatii"@vep ;
+	skos:prefLabel "Horvatii"@vep ;
+	schema:name "Horvatii"@vep ;
+	rdfs:label "Хорватія"@uk ;
+	skos:prefLabel "Хорватія"@uk ;
+	schema:name "Хорватія"@uk ;
+	rdfs:label "Хорват"@bxr ;
+	skos:prefLabel "Хорват"@bxr ;
+	schema:name "Хорват"@bxr ;
+	rdfs:label "Korowaasiya"@ff ;
+	skos:prefLabel "Korowaasiya"@ff ;
+	schema:name "Korowaasiya"@ff ;
+	rdfs:label "Gwzlozdiya"@za ;
+	skos:prefLabel "Gwzlozdiya"@za ;
+	schema:name "Gwzlozdiya"@za ;
+	rdfs:label "Kroatíà"@yo ;
+	skos:prefLabel "Kroatíà"@yo ;
+	schema:name "Kroatíà"@yo ;
+	rdfs:label "Croácia"@ext ;
+	skos:prefLabel "Croácia"@ext ;
+	schema:name "Croácia"@ext ;
+	rdfs:label "Kroaotië"@zea ;
+	skos:prefLabel "Kroaotië"@zea ;
+	schema:name "Kroaotië"@zea ;
+	rdfs:label "Croacia"@es ;
+	skos:prefLabel "Croacia"@es ;
+	schema:name "Croacia"@es ;
+	rdfs:label "କ୍ରୋଏସିଆ"@or ;
+	skos:prefLabel "କ୍ରୋଏସିଆ"@or ;
+	schema:name "କ୍ରୋଏସିଆ"@or ;
+	rdfs:label "Хорватия Мастор"@myv ;
+	skos:prefLabel "Хорватия Мастор"@myv ;
+	schema:name "Хорватия Мастор"@myv ;
+	rdfs:label "קראאטיע"@yi ;
+	skos:prefLabel "קראאטיע"@yi ;
+	schema:name "קראאטיע"@yi ;
+	rdfs:label "An Chróit"@ga ;
+	skos:prefLabel "An Chróit"@ga ;
+	schema:name "An Chróit"@ga ;
+	rdfs:label "Chòrwackô"@csb ;
+	skos:prefLabel "Chòrwackô"@csb ;
+	schema:name "Chòrwackô"@csb ;
+	rdfs:label "Horvatiya"@gag ;
+	skos:prefLabel "Horvatiya"@gag ;
+	schema:name "Horvatiya"@gag ;
+	rdfs:label "Croàcia"@oc ;
+	skos:prefLabel "Croàcia"@oc ;
+	schema:name "Croàcia"@oc ;
+	rdfs:label "Korowatiya"@rw ;
+	skos:prefLabel "Korowatiya"@rw ;
+	schema:name "Korowatiya"@rw ;
+	rdfs:label "Croatie"@sco ;
+	skos:prefLabel "Croatie"@sco ;
+	schema:name "Croatie"@sco ;
+	rdfs:label "Kruoatėjė"@sgs ;
+	skos:prefLabel "Kruoatėjė"@sgs ;
+	schema:name "Kruoatėjė"@sgs ;
+	rdfs:label "Horvateja"@ltg ;
+	skos:prefLabel "Horvateja"@ltg ;
+	schema:name "Horvateja"@ltg ;
+	rdfs:label "克罗地亚"@zh-sg ;
+	skos:prefLabel "克罗地亚"@zh-sg ;
+	schema:name "克罗地亚"@zh-sg ;
+	rdfs:label "Kroásia"@tet ;
+	skos:prefLabel "Kroásia"@tet ;
+	schema:name "Kroásia"@tet ;
+	rdfs:label "Xorvatiya"@az ;
+	skos:prefLabel "Xorvatiya"@az ;
+	schema:name "Xorvatiya"@az ;
+	rdfs:label "کرواسی"@mzn ;
+	skos:prefLabel "کرواسی"@mzn ;
+	schema:name "کرواسی"@mzn ;
+	rdfs:label "克羅地亞"@zh ;
+	skos:prefLabel "克羅地亞"@zh ;
+	schema:name "克羅地亞"@zh ;
+	rdfs:label "Kroasia"@min ;
+	skos:prefLabel "Kroasia"@min ;
+	schema:name "Kroasia"@min ;
+	rdfs:label "ಕ್ರೊಯೆಶಿಯ"@kn ;
+	skos:prefLabel "ಕ್ರೊಯೆಶಿಯ"@kn ;
+	schema:name "ಕ್ರೊಯೆಶಿಯ"@kn ;
+	rdfs:label "Kroatië"@nl ;
+	skos:prefLabel "Kroatië"@nl ;
+	schema:name "Kroatië"@nl ;
+	rdfs:label "Kroasya"@war ;
+	skos:prefLabel "Kroasya"@war ;
+	schema:name "Kroasya"@war ;
+	rdfs:label "Croacia"@ast ;
+	skos:prefLabel "Croacia"@ast ;
+	schema:name "Croacia"@ast ;
+	rdfs:label "Croatia"@ms ;
+	skos:prefLabel "Croatia"@ms ;
+	schema:name "Croatia"@ms ;
+	rdfs:label "Kroasia"@jv ;
+	skos:prefLabel "Kroasia"@jv ;
+	schema:name "Kroasia"@jv ;
+	rdfs:label "Kroatija"@lt ;
+	skos:prefLabel "Kroatija"@lt ;
+	schema:name "Kroatija"@lt ;
+	rdfs:label "Хорватия"@tt ;
+	skos:prefLabel "Хорватия"@tt ;
+	schema:name "Хорватия"@tt ;
+	rdfs:label "Хорват"@mn ;
+	skos:prefLabel "Хорват"@mn ;
+	schema:name "Хорват"@mn ;
+	rdfs:label "Croassia"@pms ;
+	skos:prefLabel "Croassia"@pms ;
+	schema:name "Croassia"@pms ;
+	rdfs:label "Kirooshiyaa"@om ;
+	skos:prefLabel "Kirooshiyaa"@om ;
+	schema:name "Kirooshiyaa"@om ;
+	rdfs:label "Hrvaška"@sl ;
+	skos:prefLabel "Hrvaška"@sl ;
+	schema:name "Hrvaška"@sl ;
+	rdfs:label "Hırvatistan"@crh ;
+	skos:prefLabel "Hırvatistan"@crh ;
+	schema:name "Hırvatistan"@crh ;
+	rdfs:label "குரோவாசியா"@ta ;
+	skos:prefLabel "குரோவாசியா"@ta ;
+	schema:name "குரோவாசியா"@ta ;
+	rdfs:label "Croația"@ro ;
+	skos:prefLabel "Croația"@ro ;
+	schema:name "Croația"@ro ;
+	rdfs:label "क्रोशिया"@bho ;
+	skos:prefLabel "क्रोशिया"@bho ;
+	schema:name "क्रोशिया"@bho ;
+	rdfs:label "Хорватия"@av ;
+	skos:prefLabel "Хорватия"@av ;
+	schema:name "Хорватия"@av ;
+	rdfs:label "Kroatien"@lb ;
+	skos:prefLabel "Kroatien"@lb ;
+	schema:name "Kroatien"@lb ;
+	rdfs:label "Croazia"@co ;
+	skos:prefLabel "Croazia"@co ;
+	schema:name "Croazia"@co ;
+	rdfs:label "Croatia"@en-gb ;
+	skos:prefLabel "Croatia"@en-gb ;
+	schema:name "Croatia"@en-gb ;
+	rdfs:label "Xorvatiya"@kaa ;
+	skos:prefLabel "Xorvatiya"@kaa ;
+	schema:name "Xorvatiya"@kaa ;
+	rdfs:label "Horvaatia"@vro ;
+	skos:prefLabel "Horvaatia"@vro ;
+	schema:name "Horvaatia"@vro ;
+	rdfs:label "Kroatia"@st ;
+	skos:prefLabel "Kroatia"@st ;
+	schema:name "Kroatia"@st ;
+	rdfs:label "كرواتيا"@aeb-arab ;
+	skos:prefLabel "كرواتيا"@aeb-arab ;
+	schema:name "كرواتيا"@aeb-arab ;
+	rdfs:label "ປະເທດໂຄຣເອເຊຍ"@lo ;
+	skos:prefLabel "ປະເທດໂຄຣເອເຊຍ"@lo ;
+	schema:name "ປະເທດໂຄຣເອເຊຍ"@lo ;
+	rdfs:label "Kroatia"@sw ;
+	skos:prefLabel "Kroatia"@sw ;
+	schema:name "Kroatia"@sw ;
+	rdfs:label "Kroatien"@nds ;
+	skos:prefLabel "Kroatien"@nds ;
+	schema:name "Kroatien"@nds ;
+	rdfs:label "Kroasiya"@pag ;
+	skos:prefLabel "Kroasiya"@pag ;
+	schema:name "Kroasiya"@pag ;
+	rdfs:label "Croatie"@nrm ;
+	skos:prefLabel "Croatie"@nrm ;
+	schema:name "Croatie"@nrm ;
+	rdfs:label "Croazia"@rm ;
+	skos:prefLabel "Croazia"@rm ;
+	schema:name "Croazia"@rm ;
+	rdfs:label "Kroatien"@da ;
+	skos:prefLabel "Kroatien"@da ;
+	schema:name "Kroatien"@da ;
+	rdfs:label "Croàcia"@ca ;
+	skos:prefLabel "Croàcia"@ca ;
+	schema:name "Croàcia"@ca ;
+	rdfs:label "Κροατία"@el ;
+	skos:prefLabel "Κροατία"@el ;
+	schema:name "Κροατία"@el ;
+	rdfs:label "Horvātija"@lv ;
+	skos:prefLabel "Horvātija"@lv ;
+	schema:name "Horvātija"@lv ;
+	rdfs:label "Croatia"@rup ;
+	skos:prefLabel "Croatia"@rup ;
+	schema:name "Croatia"@rup ;
+	rdfs:label "Kroatien"@de-at ;
+	skos:prefLabel "Kroatien"@de-at ;
+	schema:name "Kroatien"@de-at ;
+	rdfs:label "Хорватие"@ady ;
+	skos:prefLabel "Хорватие"@ady ;
+	schema:name "Хорватие"@ady ;
+	rdfs:label "Toroātia"@ty ;
+	skos:prefLabel "Toroātia"@ty ;
+	schema:name "Toroātia"@ty ;
+	rdfs:label "Yn Chroit"@gv ;
+	skos:prefLabel "Yn Chroit"@gv ;
+	schema:name "Yn Chroit"@gv ;
+	rdfs:label "Хорвати"@cv ;
+	skos:prefLabel "Хорвати"@cv ;
+	schema:name "Хорвати"@cv ;
+	rdfs:label "كرواتيا"@ar ;
+	skos:prefLabel "كرواتيا"@ar ;
+	schema:name "كرواتيا"@ar ;
+	rdfs:label "Croacia"@ch ;
+	skos:prefLabel "Croacia"@ch ;
+	schema:name "Croacia"@ch ;
+	rdfs:label "ক্রোয়েশিয়া"@bn ;
+	skos:prefLabel "ক্রোয়েশিয়া"@bn ;
+	schema:name "ক্রোয়েশিয়া"@bn ;
+	rdfs:label "Kroaysha"@pih ;
+	skos:prefLabel "Kroaysha"@pih ;
+	schema:name "Kroaysha"@pih ;
+	rdfs:label "Chorwacyjo"@szl ;
+	skos:prefLabel "Chorwacyjo"@szl ;
+	schema:name "Chorwacyjo"@szl ;
+	rdfs:label "Kroasia"@ace ;
+	skos:prefLabel "Kroasia"@ace ;
+	schema:name "Kroasia"@ace ;
+	rdfs:label "ประเทศโครเอเชีย"@th ;
+	skos:prefLabel "ประเทศโครเอเชีย"@th ;
+	schema:name "ประเทศโครเอเชีย"@th ;
+	rdfs:label "Croatia"@ak ;
+	skos:prefLabel "Croatia"@ak ;
+	schema:name "Croatia"@ak ;
+	rdfs:label "Croácia"@pt ;
+	skos:prefLabel "Croácia"@pt ;
+	schema:name "Croácia"@pt ;
+	rdfs:label "Hırvatistan"@crh-latn ;
+	skos:prefLabel "Hırvatistan"@crh-latn ;
+	schema:name "Hırvatistan"@crh-latn ;
+	rdfs:label "Kroatia"@io ;
+	skos:prefLabel "Kroatia"@io ;
+	schema:name "Kroatia"@io ;
+	rdfs:label "克罗地亚"@zh-my ;
+	skos:prefLabel "克罗地亚"@zh-my ;
+	schema:name "克罗地亚"@zh-my ;
+	rdfs:label "Хорватия"@ru ;
+	skos:prefLabel "Хорватия"@ru ;
+	schema:name "Хорватия"@ru ;
+	rdfs:label "Krowesia"@tpi ;
+	skos:prefLabel "Krowesia"@tpi ;
+	schema:name "Krowesia"@tpi ;
+	rdfs:label "Croatia"@tl ;
+	skos:prefLabel "Croatia"@tl ;
+	schema:name "Croatia"@tl ;
+	rdfs:label "Kroatiya"@ha ;
+	skos:prefLabel "Kroatiya"@ha ;
+	schema:name "Kroatiya"@ha ;
+	rdfs:label "Krôasia"@mg ;
+	skos:prefLabel "Krôasia"@mg ;
+	schema:name "Krôasia"@mg ;
+	rdfs:label "کروواسی"@azb ;
+	skos:prefLabel "کروواسی"@azb ;
+	schema:name "کروواسی"@azb ;
+	rdfs:label "Croacia"@an ;
+	skos:prefLabel "Croacia"@an ;
+	schema:name "Croacia"@an ;
+	rdfs:label "Cruàsia"@eml ;
+	skos:prefLabel "Cruàsia"@eml ;
+	schema:name "Cruàsia"@eml ;
+	rdfs:label "Խորվաթիա"@hy ;
+	skos:prefLabel "Խորվաթիա"@hy ;
+	schema:name "Խորվաթիա"@hy ;
+	rdfs:label "Xırvatıstan"@diq ;
+	skos:prefLabel "Xırvatıstan"@diq ;
+	schema:name "Xırvatıstan"@diq ;
+	rdfs:label "क्रोशिया"@mai ;
+	skos:prefLabel "क्रोशिया"@mai ;
+	schema:name "क्रोशिया"@mai ;
+	rdfs:label "Kroatia"@nov ;
+	skos:prefLabel "Kroatia"@nov ;
+	schema:name "Kroatia"@nov ;
+	rdfs:label "क्रोएसिया"@ne ;
+	skos:prefLabel "क्रोएसिया"@ne ;
+	schema:name "क्रोएसिया"@ne ;
+	rdfs:label "Хорватиа"@ab ;
+	skos:prefLabel "Хорватиа"@ab ;
+	schema:name "Хорватиа"@ab ;
+	rdfs:label "Kroatien"@de ;
+	skos:prefLabel "Kroatien"@de ;
+	schema:name "Kroatien"@de ;
+	rdfs:label "Kroatia"@ig ;
+	skos:prefLabel "Kroatia"@ig ;
+	schema:name "Kroatia"@ig ;
+	rdfs:label "Kroasya"@bcl ;
+	skos:prefLabel "Kroasya"@bcl ;
+	schema:name "Kroasya"@bcl ;
+	rdfs:label "Croatia"@sm ;
+	skos:prefLabel "Croatia"@sm ;
+	schema:name "Croatia"@sm ;
+	rdfs:label "Kroasya"@pam ;
+	skos:prefLabel "Kroasya"@pam ;
+	schema:name "Kroasya"@pam ;
+	rdfs:label "Croacia"@rn ;
+	skos:prefLabel "Croacia"@rn ;
+	schema:name "Croacia"@rn ;
+	rdfs:label "xrvatskas"@jbo ;
+	skos:prefLabel "xrvatskas"@jbo ;
+	schema:name "xrvatskas"@jbo ;
+	rdfs:label "Хоруатиэ"@kbd ;
+	skos:prefLabel "Хоруатиэ"@kbd ;
+	schema:name "Хоруатиэ"@kbd ;
+	rdfs:label "كرودىيە"@ug ;
+	skos:prefLabel "كرودىيە"@ug ;
+	schema:name "كرودىيە"@ug ;
+	rdfs:label "Хорватия"@mdf ;
+	skos:prefLabel "Хорватия"@mdf ;
+	schema:name "Хорватия"@mdf ;
+	rdfs:label "Crowaceye"@wa ;
+	skos:prefLabel "Crowaceye"@wa ;
+	schema:name "Crowaceye"@wa ;
+	rdfs:label "کرواسی"@lrc ;
+	skos:prefLabel "کرواسی"@lrc ;
+	schema:name "کرواسی"@lrc ;
+	rdfs:label "Croatia"@en ;
+	skos:prefLabel "Croatia"@en ;
+	schema:name "Croatia"@en ;
+	rdfs:label "Krvatkondre"@srn ;
+	skos:prefLabel "Krvatkondre"@srn ;
+	schema:name "Krvatkondre"@srn ;
+	rdfs:label "Kroaasje"@fy ;
+	skos:prefLabel "Kroaasje"@fy ;
+	schema:name "Kroaasje"@fy ;
+	rdfs:label "Kroatien"@de-ch ;
+	skos:prefLabel "Kroatien"@de-ch ;
+	schema:name "Kroatien"@de-ch ;
+	rdfs:label "ခရိုအေးရှားနိုင်ငံ"@my ;
+	skos:prefLabel "ခရိုအေးရှားနိုင်ငံ"@my ;
+	schema:name "ခရိုအေးရှားနိုင်ငံ"@my ;
+	rdfs:label "克罗地亚"@zh-cn ;
+	skos:prefLabel "克罗地亚"@zh-cn ;
+	schema:name "克罗地亚"@zh-cn ;
+	rdfs:label "ཀུརོ་ཤི་ཡ"@dz ;
+	skos:prefLabel "ཀུརོ་ཤི་ཡ"@dz ;
+	schema:name "ཀུརོ་ཤི་ཡ"@dz ;
+	rdfs:label "Horvaatia"@et ;
+	skos:prefLabel "Horvaatia"@et ;
+	schema:name "Horvaatia"@et ;
+	rdfs:label "Croacia"@cbk-zam ;
+	skos:prefLabel "Croacia"@cbk-zam ;
+	schema:name "Croacia"@cbk-zam ;
+	rdfs:label "Korwaasi"@wo ;
+	skos:prefLabel "Korwaasi"@wo ;
+	schema:name "Korwaasi"@wo ;
+	rdfs:label "Хорвати"@os ;
+	skos:prefLabel "Хорвати"@os ;
+	schema:name "Хорвати"@os ;
+	rdfs:label "克羅埃西亞"@zh-tw ;
+	skos:prefLabel "克羅埃西亞"@zh-tw ;
+	schema:name "克羅埃西亞"@zh-tw ;
+	rdfs:label "Kroatia"@nn ;
+	skos:prefLabel "Kroatia"@nn ;
+	schema:name "Kroatia"@nn ;
+	rdfs:label "ᎧᎶᎡᏏᎠ"@chr ;
+	skos:prefLabel "ᎧᎶᎡᏏᎠ"@chr ;
+	schema:name "ᎧᎶᎡᏏᎠ"@chr ;
+	rdfs:label "克罗地亚"@wuu ;
+	skos:prefLabel "克罗地亚"@wuu ;
+	schema:name "克罗地亚"@wuu ;
+	rdfs:label "Croacia"@gl ;
+	skos:prefLabel "Croacia"@gl ;
+	schema:name "Croacia"@gl ;
+	rdfs:label "Kroatio"@eo ;
+	skos:prefLabel "Kroatio"@eo ;
+	schema:name "Kroatio"@eo ;
+	rdfs:label "Croatia"@ee ;
+	skos:prefLabel "Croatia"@ee ;
+	schema:name "Croatia"@ee ;
+	rdfs:label "Croatia"@bi ;
+	skos:prefLabel "Croatia"@bi ;
+	schema:name "Croatia"@bi ;
+	rdfs:label "Kroatia"@kg ;
+	skos:prefLabel "Kroatia"@kg ;
+	schema:name "Kroatia"@kg ;
+	rdfs:label "Kroaati"@pdc ;
+	skos:prefLabel "Kroaati"@pdc ;
+	schema:name "Kroaati"@pdc ;
+	rdfs:label "کرواتیا"@ckb ;
+	skos:prefLabel "کرواتیا"@ckb ;
+	schema:name "کرواتیا"@ckb ;
+	rdfs:label "Kroasia"@ln ;
+	skos:prefLabel "Kroasia"@ln ;
+	schema:name "Kroasia"@ln ;
+	rdfs:label "Croacie"@frp ;
+	skos:prefLabel "Croacie"@frp ;
+	schema:name "Croacie"@frp ;
+	rdfs:label "Croatia"@cy ;
+	skos:prefLabel "Croatia"@cy ;
+	schema:name "Croatia"@cy ;
+	rdfs:label "Croatia"@la ;
+	skos:prefLabel "Croatia"@la ;
+	schema:name "Croatia"@la ;
+	rdfs:label "Хорватия"@ky ;
+	skos:prefLabel "Хорватия"@ky ;
+	schema:name "Хорватия"@ky ;
+	rdfs:label "क्रोएशिया"@mr ;
+	skos:prefLabel "क्रोएशिया"@mr ;
+	schema:name "क्रोएशिया"@mr ;
+	rdfs:label "Kroatia"@fo ;
+	skos:prefLabel "Kroatia"@fo ;
+	schema:name "Kroatia"@fo ;
+	rdfs:label "Croatie"@fr ;
+	skos:prefLabel "Croatie"@fr ;
+	schema:name "Croatie"@fr ;
+	rdfs:label "Króatía"@is ;
+	skos:prefLabel "Króatía"@is ;
+	schema:name "Króatía"@is ;
+	rdfs:label "克羅埃西亞"@lzh ;
+	skos:prefLabel "克羅埃西亞"@lzh ;
+	schema:name "克羅埃西亞"@lzh ;
+	rdfs:label "Chorwatska"@hsb ;
+	skos:prefLabel "Chorwatska"@hsb ;
+	schema:name "Chorwatska"@hsb ;
+	rdfs:label "Kroazja"@mt ;
+	skos:prefLabel "Kroazja"@mt ;
+	schema:name "Kroazja"@mt ;
+	rdfs:label "Kroatië"@li ;
+	skos:prefLabel "Kroatië"@li ;
+	schema:name "Kroatië"@li ;
+	rdfs:label "کروواسيا"@ps ;
+	skos:prefLabel "کروواسيا"@ps ;
+	schema:name "کروواسيا"@ps ;
+	rdfs:label "Kroatia"@fi ;
+	skos:prefLabel "Kroatia"@fi ;
+	schema:name "Kroatia"@fi ;
+	rdfs:label "克羅地亞"@zh-hant ;
+	skos:prefLabel "克羅地亞"@zh-hant ;
+	schema:name "克羅地亞"@zh-hant ;
+	rdfs:label "Kroasia"@id ;
+	skos:prefLabel "Kroasia"@id ;
+	schema:name "Kroasia"@id ;
+	rdfs:label "क्रोएशिया"@gom ;
+	skos:prefLabel "क्रोएशिया"@gom ;
+	schema:name "क्रोएशिया"@gom ;
+	rdfs:label "ક્રોએશિયા"@gu ;
+	skos:prefLabel "ક્રોએશિયા"@gu ;
+	schema:name "ક્રોએશિયા"@gu ;
+	rdfs:label "Kroasia"@su ;
+	skos:prefLabel "Kroasia"@su ;
+	schema:name "Kroasia"@su ;
+	rdfs:label "Croatia"@ia ;
+	skos:prefLabel "Croatia"@ia ;
+	schema:name "Croatia"@ia ;
+	rdfs:label "ਕ੍ਰੋਏਸ਼ੀਆ"@pa ;
+	skos:prefLabel "ਕ੍ਰੋਏਸ਼ੀਆ"@pa ;
+	schema:name "ਕ੍ਰੋਏਸ਼ੀਆ"@pa ;
+	rdfs:label "Kroatia"@nb ;
+	skos:prefLabel "Kroatia"@nb ;
+	schema:name "Kroatia"@nb ;
+	rdfs:label "Croatia"@vi ;
+	skos:prefLabel "Croatia"@vi ;
+	schema:name "Croatia"@vi ;
+	rdfs:label "Kroasia"@ilo ;
+	skos:prefLabel "Kroasia"@ilo ;
+	schema:name "Kroasia"@ilo ;
+	rdfs:label "Croazie"@roa-tara ;
+	skos:prefLabel "Croazie"@roa-tara ;
+	schema:name "Croazie"@roa-tara ;
+	rdfs:label "克羅地亞"@zh-mo ;
+	skos:prefLabel "克羅地亞"@zh-mo ;
+	schema:name "克羅地亞"@zh-mo ;
+	rdfs:label "Croatia"@gom-latn ;
+	skos:prefLabel "Croatia"@gom-latn ;
+	schema:name "Croatia"@gom-latn ;
+	rdfs:label "Kroasië"@af ;
+	skos:prefLabel "Kroasië"@af ;
+	schema:name "Kroasië"@af ;
+	rdfs:label "Krowasya"@ceb ;
+	skos:prefLabel "Krowasya"@ceb ;
+	schema:name "Krowasya"@ceb ;
+	rdfs:label "Хорватия"@krc ;
+	skos:prefLabel "Хорватия"@krc ;
+	schema:name "Хорватия"@krc ;
+	rdfs:label "Kroasïi"@sg ;
+	skos:prefLabel "Kroasïi"@sg ;
+	schema:name "Kroasïi"@sg ;
+	rdfs:label "Kroatie"@gsw ;
+	skos:prefLabel "Kroatie"@gsw ;
+	schema:name "Kroatie"@gsw ;
+	rdfs:label "ක්‍රොඒෂියා"@si ;
+	skos:prefLabel "ක්‍රොඒෂියා"@si ;
+	schema:name "ක්‍රොඒෂියා"@si ;
+	rdfs:label "克罗地亚"@zh-hans ;
+	skos:prefLabel "克罗地亚"@zh-hans ;
+	schema:name "克罗地亚"@zh-hans ;
+	rdfs:label "Kroatien"@sv ;
+	skos:prefLabel "Kroatien"@sv ;
+	schema:name "Kroatien"@sv ;
+	rdfs:label "Horvātij"@liv ;
+	skos:prefLabel "Horvātij"@liv ;
+	schema:name "Horvātij"@liv ;
+	rdfs:label "Croazzia"@scn ;
+	skos:prefLabel "Croazzia"@scn ;
+	schema:name "Croazzia"@scn ;
+	rdfs:label "Kruwatya"@kab ;
+	skos:prefLabel "Kruwatya"@kab ;
+	schema:name "Kruwatya"@kab ;
+	rdfs:label "Хърватия"@bg ;
+	skos:prefLabel "Хърватия"@bg ;
+	schema:name "Хърватия"@bg ;
+	rdfs:label "Krowasii"@kbp ;
+	skos:prefLabel "Krowasii"@kbp ;
+	schema:name "Krowasii"@kbp ;
+	rdfs:label "Kroazia"@eu ;
+	skos:prefLabel "Kroazia"@eu ;
+	schema:name "Kroazia"@eu ;
+	rdfs:label "ხორვატია"@xmf ;
+	skos:prefLabel "ხორვატია"@xmf ;
+	schema:name "ხორვატია"@xmf ;
+	rdfs:label "Kroasän"@vo ;
+	skos:prefLabel "Kroasän"@vo ;
+	schema:name "Kroasän"@vo ;
+	rdfs:label "Krowozien"@bar ;
+	skos:prefLabel "Krowozien"@bar ;
+	schema:name "Krowozien"@bar ;
+	rdfs:label "Kroatia"@pap ;
+	skos:prefLabel "Kroatia"@pap ;
+	schema:name "Kroatia"@pap ;
+	rdfs:label "क्रोएशिया"@gom-deva ;
+	skos:prefLabel "क्रोएशिया"@gom-deva ;
+	schema:name "क्रोएशिया"@gom-deva ;
+	rdfs:label "Koloatia"@haw ;
+	skos:prefLabel "Koloatia"@haw ;
+	schema:name "Koloatia"@haw ;
+	rdfs:label "克罗地亚"@gan ;
+	skos:prefLabel "克罗地亚"@gan ;
+	schema:name "克罗地亚"@gan ;
+	rdfs:label "Croatia"@tum ;
+	skos:prefLabel "Croatia"@tum ;
+	schema:name "Croatia"@tum ;
+	rdfs:label "Croachie"@pcd ;
+	skos:prefLabel "Croachie"@pcd ;
+	schema:name "Croachie"@pcd ;
+	rdfs:label "Kroatia"@kl ;
+	skos:prefLabel "Kroatia"@kl ;
+	schema:name "Kroatia"@kl ;
+	rdfs:label "קרואטיה"@he ;
+	skos:prefLabel "קרואטיה"@he ;
+	schema:name "קרואטיה"@he ;
+	rdfs:label "Chorwatska"@dsb ;
+	skos:prefLabel "Chorwatska"@dsb ;
+	schema:name "Chorwatska"@dsb ;
+	rdfs:label "Харватыя"@be-tarask ;
+	skos:prefLabel "Харватыя"@be-tarask ;
+	schema:name "Харватыя"@be-tarask ;
+	rdfs:label "Croàsia"@vec ;
+	skos:prefLabel "Croàsia"@vec ;
+	schema:name "Croàsia"@vec ;
+	rdfs:label "Croatia"@cdo ;
+	skos:prefLabel "Croatia"@cdo ;
+	schema:name "Croatia"@cdo ;
+	rdfs:label "Croatia"@nan ;
+	skos:prefLabel "Croatia"@nan ;
+	schema:name "Croatia"@nan ;
+	rdfs:label "Kyoasia"@gn ;
+	skos:prefLabel "Kyoasia"@gn ;
+	schema:name "Kyoasia"@gn ;
+	rdfs:label "کرواسی"@fa ;
+	skos:prefLabel "کرواسی"@fa ;
+	schema:name "کرواسی"@fa ;
+	rdfs:label "Hrvatska"@bs ;
+	skos:prefLabel "Hrvatska"@bs ;
+	schema:name "Hrvatska"@bs ;
+	rdfs:label "Hrvatska"@sh ;
+	skos:prefLabel "Hrvatska"@sh ;
+	schema:name "Hrvatska"@sh ;
+	rdfs:label "Horvátország"@hu ;
+	skos:prefLabel "Horvátország"@hu ;
+	schema:name "Horvátország"@hu ;
+	rdfs:label "克羅地亞"@yue ;
+	skos:prefLabel "克羅地亞"@yue ;
+	schema:name "克羅地亞"@yue ;
+	rdfs:label "క్రొయేషియా"@te ;
+	skos:prefLabel "క్రొయేషియా"@te ;
+	schema:name "క్రొయేషియా"@te ;
+	rdfs:label "Хӧрватска"@koi ;
+	skos:prefLabel "Хӧрватска"@koi ;
+	schema:name "Хӧрватска"@koi ;
+	rdfs:label "Хорватия"@ba ;
+	skos:prefLabel "Хорватия"@ba ;
+	schema:name "Хорватия"@ba ;
+	rdfs:label "Хорватия"@sah ;
+	skos:prefLabel "Хорватия"@sah ;
+	schema:name "Хорватия"@sah ;
+	rdfs:label "Croatia"@ang ;
+	skos:prefLabel "Croatia"@ang ;
+	schema:name "Croatia"@ang ;
+	rdfs:label "क्रोएशिया"@pi ;
+	skos:prefLabel "क्रोएशिया"@pi ;
+	schema:name "क्रोएशिया"@pi ;
+	rdfs:label "Xorvatiya"@uz ;
+	skos:prefLabel "Xorvatiya"@uz ;
+	schema:name "Xorvatiya"@uz ;
+	rdfs:label "Horwatiýa"@tk ;
+	skos:prefLabel "Horwatiýa"@tk ;
+	schema:name "Horwatiýa"@tk ;
+	rdfs:label "Croatia"@hif ;
+	skos:prefLabel "Croatia"@hif ;
+	schema:name "Croatia"@hif ;
+	rdfs:label "Хорватин Орн"@xal ;
+	skos:prefLabel "Хорватин Орн"@xal ;
+	schema:name "Хорватин Орн"@xal ;
+	rdfs:label "Хръватьска"@cu ;
+	skos:prefLabel "Хръватьска"@cu ;
+	schema:name "Хръватьска"@cu ;
+	rdfs:label "Croazia"@it ;
+	skos:prefLabel "Croazia"@it ;
+	schema:name "Croazia"@it ;
+	rdfs:label "Cravuazie"@fur ;
+	skos:prefLabel "Cravuazie"@fur ;
+	schema:name "Cravuazie"@fur ;
+	rdfs:label "Kroasi"@ht ;
+	skos:prefLabel "Kroasi"@ht ;
+	schema:name "Kroasi"@ht ;
+	rdfs:label "Croatia"@sn ;
+	skos:prefLabel "Croatia"@sn ;
+	schema:name "Croatia"@sn ;
+	rdfs:label "Hırvatistan"@tr ;
+	skos:prefLabel "Hırvatistan"@tr ;
+	schema:name "Hırvatistan"@tr ;
+	rdfs:label "Croatia"@ie ;
+	skos:prefLabel "Croatia"@ie ;
+	schema:name "Croatia"@ie ;
+	rdfs:label "A' Chròthais"@gd ;
+	skos:prefLabel "A' Chròthais"@gd ;
+	schema:name "A' Chròthais"@gd ;
+	rdfs:label "Харватыя"@be ;
+	skos:prefLabel "Харватыя"@be ;
+	schema:name "Харватыя"@be ;
+	rdfs:label "ხორვატია"@ka ;
+	skos:prefLabel "ხორვატია"@ka ;
+	schema:name "ხორვატია"@ka ;
+	rdfs:label "Хорвати"@ce ;
+	skos:prefLabel "Хорвати"@ce ;
+	schema:name "Хорвати"@ce ;
+	rdfs:label "Хорватия"@kv ;
+	skos:prefLabel "Хорватия"@kv ;
+	schema:name "Хорватия"@kv ;
+	rdfs:label "Kroatien"@stq ;
+	skos:prefLabel "Kroatien"@stq ;
+	schema:name "Kroatien"@stq ;
+	rdfs:label "Croatia"@fj ;
+	skos:prefLabel "Croatia"@fj ;
+	schema:name "Croatia"@fj ;
+	rdfs:label "Kroasië"@nds-nl ;
+	skos:prefLabel "Kroasië"@nds-nl ;
+	schema:name "Kroasië"@nds-nl ;
+	rdfs:label "ཁུརོ་ཤི་ཡ།"@bo ;
+	skos:prefLabel "ཁུརོ་ཤི་ཡ།"@bo ;
+	schema:name "ཁུརོ་ཤི་ཡ།"@bo ;
+	rdfs:label "Кроация"@mo ;
+	skos:prefLabel "Кроация"@mo ;
+	schema:name "Кроация"@mo ;
+	rdfs:label "Koroātia"@mi ;
+	skos:prefLabel "Koroātia"@mi ;
+	schema:name "Koroātia"@mi ;
+	rdfs:label "Chorwacja"@pl ;
+	skos:prefLabel "Chorwacja"@pl ;
+	schema:name "Chorwacja"@pl ;
+	rdfs:label "Croatia"@en-ca ;
+	skos:prefLabel "Croatia"@en-ca ;
+	schema:name "Croatia"@en-ca ;
+	rdfs:label "Krowehyia"@tw ;
+	skos:prefLabel "Krowehyia"@tw ;
+	schema:name "Krowehyia"@tw ;
+	rdfs:label "ክሮኤሽያ"@am ;
+	skos:prefLabel "ክሮኤሽያ"@am ;
+	schema:name "ክሮኤሽያ"@am ;
+	rdfs:label "Hrvatska"@sr-el ;
+	skos:prefLabel "Hrvatska"@sr-el ;
+	schema:name "Hrvatska"@sr-el ;
+	rdfs:label "Хорватия"@udm ;
+	skos:prefLabel "Хорватия"@udm ;
+	schema:name "Хорватия"@udm ;
+	rdfs:label "Хорватия"@kk ;
+	skos:prefLabel "Хорватия"@kk ;
+	schema:name "Хорватия"@kk ;
+	rdfs:label "Croazia"@nap ;
+	skos:prefLabel "Croazia"@nap ;
+	schema:name "Croazia"@nap ;
+	rdfs:label "Kroatien"@frr ;
+	skos:prefLabel "Kroatien"@frr ;
+	schema:name "Kroatien"@frr ;
+	rdfs:label "Kroatië"@vls ;
+	skos:prefLabel "Kroatië"@vls ;
+	schema:name "Kroatië"@vls ;
+	rdfs:label "Kroacia"@sq ;
+	skos:prefLabel "Kroacia"@sq ;
+	schema:name "Kroacia"@sq ;
+	rdfs:label "क्रोएसिया"@new ;
+	skos:prefLabel "क्रोएसिया"@new ;
+	schema:name "क्रोएसिया"@new ;
+	rdfs:label "Κροατία"@pnt ;
+	skos:prefLabel "Κροατία"@pnt ;
+	schema:name "Κροατία"@pnt ;
+	rdfs:label "Croácia"@pt-br ;
+	skos:prefLabel "Croácia"@pt-br ;
+	schema:name "Croácia"@pt-br ;
+	rdfs:label "Хорватий"@mhr ;
+	skos:prefLabel "Хорватий"@mhr ;
+	schema:name "Хорватий"@mhr ;
+	rdfs:label "ക്രൊയേഷ്യ"@ml ;
+	skos:prefLabel "ക്രൊയേഷ്യ"@ml ;
+	schema:name "ക്രൊയേഷ്യ"@ml ;
+	rdfs:label "Хорватія"@rue ;
+	skos:prefLabel "Хорватія"@rue ;
+	schema:name "Хорватія"@rue ;
+	rdfs:label "Croatzia"@sc ;
+	skos:prefLabel "Croatzia"@sc ;
+	schema:name "Croatzia"@sc ;
+	rdfs:label "Хорватия"@lez ;
+	skos:prefLabel "Хорватия"@lez ;
+	schema:name "Хорватия"@lez ;
+	rdfs:label "Kroatya"@ku ;
+	skos:prefLabel "Kroatya"@ku ;
+	schema:name "Kroatya"@ku ;
+	rdfs:label "Horvatii"@olo ;
+	skos:prefLabel "Horvatii"@olo ;
+	schema:name "Horvatii"@olo ;
+	rdfs:label "ܩܪܘܐܛܝܐ"@arc ;
+	skos:prefLabel "ܩܪܘܐܛܝܐ"@arc ;
+	schema:name "ܩܪܘܐܛܝܐ"@arc ;
+	rdfs:label "IKhuroshiya"@ss ;
+	skos:prefLabel "IKhuroshiya"@ss ;
+	schema:name "IKhuroshiya"@ss ;
+	rdfs:label "Croatia"@ts ;
+	skos:prefLabel "Croatia"@ts ;
+	schema:name "Croatia"@ts ;
+	rdfs:label "ކުރޮއޭޝިއާ"@dv ;
+	skos:prefLabel "ކުރޮއޭޝިއާ"@dv ;
+	schema:name "ކުރޮއޭޝިއާ"@dv ;
+	rdfs:label "كرواتيا"@arz ;
+	skos:prefLabel "كرواتيا"@arz ;
+	schema:name "كرواتيا"@arz ;
+	rdfs:label "Kroatia"@se ;
+	skos:prefLabel "Kroatia"@se ;
+	schema:name "Kroatia"@se ;
+	rdfs:label "Croacia"@nah ;
+	skos:prefLabel "Croacia"@nah ;
+	schema:name "Croacia"@nah ;
+	rdfs:label "Hurwatsuyu"@qu ;
+	skos:prefLabel "Hurwatsuyu"@qu ;
+	schema:name "Hurwatsuyu"@qu ;
+	rdfs:label "Chorvatsko"@cs ;
+	skos:prefLabel "Chorvatsko"@cs ;
+	schema:name "Chorvatsko"@cs ;
+	rdfs:label "Kroati"@kw ;
+	skos:prefLabel "Kroati"@kw ;
+	schema:name "Kroati"@kw ;
+	rdfs:label "Croàçia"@lij ;
+	skos:prefLabel "Croàçia"@lij ;
+	schema:name "Croàçia"@lij ;
+	rdfs:label "Kroasia"@lad ;
+	skos:prefLabel "Kroasia"@lad ;
+	schema:name "Kroasia"@lad ;
+	rdfs:label "Хрватска"@sr-ec ;
+	skos:prefLabel "Хрватска"@sr-ec ;
+	schema:name "Хрватска"@sr-ec ;
+	rdfs:label "Hrvatska"@hr ;
+	skos:prefLabel "Hrvatska"@hr ;
+	schema:name "Hrvatska"@hr ;
+	rdfs:label "クロアチア"@ja ;
+	skos:prefLabel "クロアチア"@ja ;
+	schema:name "クロアチア"@ja ;
+	rdfs:label "크로아티아"@ko ;
+	skos:prefLabel "크로아티아"@ko ;
+	schema:name "크로아티아"@ko ;
+	rdfs:label "Corvatsca"@lfn ;
+	skos:prefLabel "Corvatsca"@lfn ;
+	schema:name "Corvatsca"@lfn ;
+	rdfs:label "Kroatia"@br ;
+	skos:prefLabel "Kroatia"@br ;
+	schema:name "Kroatia"@br ;
+	rdfs:label "Croatia"@chy ;
+	skos:prefLabel "Croatia"@chy ;
+	schema:name "Croatia"@chy ;
+	rdfs:label "क्रोएशिया"@sa ;
+	skos:prefLabel "क्रोएशिया"@sa ;
+	schema:name "क्रोएशिया"@sa ;
+	rdfs:label "Cruazia"@lmo ;
+	skos:prefLabel "Cruazia"@lmo ;
+	schema:name "Cruazia"@lmo ;
+	rdfs:label "Croatia"@hak ;
+	skos:prefLabel "Croatia"@hak ;
+	schema:name "Croatia"@hak ;
+	rdfs:label "क्रोएसिया"@dty ;
+	skos:prefLabel "क्रोएसिया"@dty ;
+	schema:name "क्रोएसिया"@dty ;
+	rdfs:label "Хрватска"@sr ;
+	skos:prefLabel "Хрватска"@sr ;
+	schema:name "Хрватска"@sr ;
+	rdfs:label "克羅地亞"@zh-hk ;
+	skos:prefLabel "克羅地亞"@zh-hk ;
+	schema:name "克羅地亞"@zh-hk ;
+	rdfs:label "Kruwatiya"@ay ;
+	skos:prefLabel "Kruwatiya"@ay ;
+	schema:name "Kruwatiya"@ay ;
+	rdfs:label "ڪروشيا"@sd ;
+	skos:prefLabel "ڪروشيا"@sd ;
+	schema:name "ڪروشيا"@sd ;
+	rdfs:label "Kroasia"@ban ;
+	skos:prefLabel "Kroasia"@ban ;
+	schema:name "Kroasia"@ban ;
+	rdfs:label "𐌺𐍂𐌿𐍅𐌰𐍄𐍃𐌾𐌰"@got ;
+	skos:prefLabel "𐌺𐍂𐌿𐍅𐌰𐍄𐍃𐌾𐌰"@got ;
+	schema:name "𐌺𐍂𐌿𐍅𐌰𐍄𐍃𐌾𐌰"@got ;
+	rdfs:label "Croatia"@szy ;
+	skos:prefLabel "Croatia"@szy ;
+	schema:name "Croatia"@szy ;
+	rdfs:label "Kroasi"@gcr ;
+	skos:prefLabel "Kroasi"@gcr ;
+	schema:name "Kroasi"@gcr ;
+	rdfs:label "كرواتيا"@ary ;
+	skos:prefLabel "كرواتيا"@ary ;
+	schema:name "كرواتيا"@ary ;
+	rdfs:label "Kroasia"@map-bms ;
+	skos:prefLabel "Kroasia"@map-bms ;
+	schema:name "Kroasia"@map-bms ;
+	rdfs:label "မိူင်းၶရူဝ်ႇဢေးသျႃး"@shn ;
+	skos:prefLabel "မိူင်းၶရူဝ်ႇဢေးသျႃး"@shn ;
+	schema:name "မိူင်းၶရူဝ်ႇဢေးသျႃး"@shn ;
+	rdfs:label "क्रोएशिया"@awa ;
+	skos:prefLabel "क्रोएशिया"@awa ;
+	schema:name "क्रोएशिया"@awa ;
+	rdfs:label "Kroatia"@smn ;
+	skos:prefLabel "Kroatia"@smn ;
+	schema:name "Kroatia"@smn ;
+	rdfs:label "Kroatia"@sms ;
+	skos:prefLabel "Kroatia"@sms ;
+	schema:name "Kroatia"@sms ;
+	rdfs:label "Xrvatska"@avk ;
+	skos:prefLabel "Xrvatska"@avk ;
+	schema:name "Xrvatska"@avk ;
+	rdfs:label "Croazia"@lld ;
+	skos:prefLabel "Croazia"@lld ;
+	schema:name "Croazia"@lld ;
+	rdfs:label "ᱠᱨᱳᱭᱮᱥᱤᱭᱟ"@sat ;
+	skos:prefLabel "ᱠᱨᱳᱭᱮᱥᱤᱭᱟ"@sat ;
+	schema:name "ᱠᱨᱳᱭᱮᱥᱤᱭᱟ"@sat ;
+	rdfs:label "Kroasia"@mad ;
+	skos:prefLabel "Kroasia"@mad ;
+	schema:name "Kroasia"@mad ;
+	rdfs:label "Croatia"@trv ;
+	skos:prefLabel "Croatia"@trv ;
+	schema:name "Croatia"@trv ;
+	rdfs:label "Croatia"@tay ;
+	skos:prefLabel "Croatia"@tay ;
+	schema:name "Croatia"@tay ;
+	rdfs:label "Kroatiya"@rmy ;
+	skos:prefLabel "Kroatiya"@rmy ;
+	schema:name "Kroatiya"@rmy ;
+	rdfs:label "ꯀ꯭ꯔꯣꯁꯤꯌꯥ"@mni ;
+	skos:prefLabel "ꯀ꯭ꯔꯣꯁꯤꯌꯥ"@mni ;
+	schema:name "ꯀ꯭ꯔꯣꯁꯤꯌꯥ"@mni ;
+	rdfs:label "Croatia"@ami ;
+	skos:prefLabel "Croatia"@ami ;
+	schema:name "Croatia"@ami ;
+	rdfs:label "Daalchííʼ Dadikʼą́ąhnii Bikéyah"@nv ;
+	skos:prefLabel "Daalchííʼ Dadikʼą́ąhnii Bikéyah"@nv ;
+	schema:name "Daalchííʼ Dadikʼą́ąhnii Bikéyah"@nv ;
+	rdfs:label "Croatia"@dag ;
+	skos:prefLabel "Croatia"@dag ;
+	schema:name "Croatia"@dag ;
+	rdfs:label "Kuloisia"@to ;
+	skos:prefLabel "Kuloisia"@to ;
+	schema:name "Kuloisia"@to ;
+	rdfs:label "Խրուաթիա"@hyw ;
+	skos:prefLabel "Խրուաթիա"@hyw ;
+	schema:name "Խրուաթիա"@hyw ;
+	rdfs:label "흐르바쯔까"@ko-kp ;
+	skos:prefLabel "흐르바쯔까"@ko-kp ;
+	schema:name "흐르바쯔까"@ko-kp ;
+	rdfs:label "ma Lowasi"@tok ;
+	skos:prefLabel "ma Lowasi"@tok ;
+	schema:name "ma Lowasi"@tok ;
+	rdfs:label "Croácia"@mwl ;
+	skos:prefLabel "Croácia"@mwl ;
+	schema:name "Croácia"@mwl ;
+	rdfs:label "क्रोएशिया"@anp ;
+	skos:prefLabel "क्रोएशिया"@anp ;
+	schema:name "क्रोएशिया"@anp ;
+	rdfs:label "Croatia"@gpe ;
+	skos:prefLabel "Croatia"@gpe ;
+	schema:name "Croatia"@gpe ;
+	schema:description "štát v južnej Európe"@sk,
+		"pays d'Europe du sud-est"@fr,
+		"東南歐國家"@zh,
+		"stato dell'Europa centrale, membro dell'Unione Europea"@it,
+		"stat w juhowuchodnej Europje"@hsb,
+		"краіна ў Эўропе"@be-tarask,
+		"দক্ষিণ-পূর্ব ইউরোপের প্রজাতান্ত্রিক রাষ্ট্র; বলকান উপদ্বীপে আড্রিয়াটিক সাগরের পূর্ব উপকূলে অবস্থিত"@bn,
+		"valtio Etelä-Euroopassa"@fi,
+		"держава на півдні Центральної Європи і заході Балканського півострова"@uk,
+		"negara di Eropa Tenggara"@id,
+		"სახელმწიფო სამხრეთ ევროპაში"@ka,
+		"государство в Южной Европе"@ru,
+		"Staat in Südosteuropa"@de-ch,
+		"کشوری در قاره اروپا"@fa,
+		"país no sudeste da Europa"@pt,
+		"pagilian idiay Europa"@ilo,
+		"país de Europa"@es,
+		"Staat in Südosteuropa"@de-at,
+		"państwo w Europie"@pl,
+		"republic in Southeast Europe"@en-ca,
+		"land på Balkan"@nb,
+		"állam Délkelet-Európában"@hu,
+		"युरोपको एक देश"@ne,
+		"位于欧洲东南部的共和国"@zh-hans,
+		"land in Zuidoost-Europa"@nl,
+		"Staat in Südosteuropa"@de,
+		"bangsang republika king Mauling Aslagang Europa"@pam,
+		"republik i Sydösteuropa"@sv,
+		"държава в Югоизточна Европа"@bg,
+		"دولة تقع في جنوب شرق أوروبا"@ar,
+		"país da Europa"@pt-br,
+		"država u jugoistočnoj Evropi"@sr-el,
+		"ಆಗ್ನೇಯ ಯುರೋಪ್ನಲ್ಲಿ ಗಣರಾಜ್ಯ."@kn,
+		"country in Central and Southeastern Europe"@en,
+		"estáu d'Europa"@ast,
+		"stát v jižní Evropě"@cs,
+		"država v Evropi"@sl,
+		"מדינה באירופה"@he,
+		"țară din Europa"@ro,
+		"बिचला यूरोप में एगो रिपब्लिक देस"@bho,
+		"país de Europa central"@gl,
+		"држава у југоисточној Европи"@sr-ec,
+		"republic in Southeast Europe"@en-gb,
+		"država u Srednjoj Europi"@hr,
+		"南ヨーロッパにある共和制国家"@ja,
+		"동남유럽의 국가"@ko,
+		"lando en Balkanio en Eŭropo"@eo,
+		"യൂറോപ്യൻ വൻ‌കരയിലെ ഒരു രാജ്യം"@ml,
+		"Republik i Sydøsteuropa"@da,
+		"држава у југоисточној Европи"@sr,
+		"país d'Europa"@ca,
+		"Un Land in Europa"@ie,
+		"riika Eurohpás"@se,
+		"valsts Eiropas dienvidos"@lv,
+		"Kagu-Euroopa vabariik"@et,
+		"Balkanlar'da bir ülke"@tr,
+		"država na Balkanu"@sh,
+		"država u jugoistočnoj Evropi"@bs,
+		"quốc gia nằm ở Đông Nam Âu"@vi,
+		"ქიანა ობჟათე-ბჟაეიოლ ევრიპას"@xmf,
+		"國家"@zh-hk,
+		"國家"@zh-tw,
+		"pajjiż fl-Ewropa tax-Xlokk"@mt,
+		"valdkund Suvievropas"@vep,
+		"وڵات لە باشووری ڕۆژھەڵاتی ئەورووپا"@ckb,
+		"Estau d'Europa"@an,
+		"χώρα της νοτιοανατολικής Ευρώπης"@el,
+		"pàize de l'Eoröpa"@lij,
+		"civitas sui iuris"@la,
+		"مُلُک"@ks,
+		"Land í Suðaustur-Evrópu"@is,
+		"အရှေ့တောင်ဥရောပနိုင်ငံ"@my,
+		"Republik am südëstlechen Europa"@lb,
+		"ma lon ma Elopa"@tok ;
+	skos:altLabel "Република Хърватия"@bg,
+		"Хърватска"@bg,
+		"República da Croácia"@pt-br,
+		"Republic of Croatia"@en,
+		"HR"@en,
+		"HRV"@en,
+		"CRO"@en,
+		"RH"@en,
+		"Repubblica di Croazia"@it,
+		"Republika Chorwatska"@hsb,
+		"República de Croacia"@ast,
+		"hr"@ast,
+		"HRV"@ast,
+		"क्रोएशिया रिपब्लिक"@bho,
+		"क्रोएशिया"@bho,
+		"Croàisia"@gd,
+		"República da Croácia"@pt,
+		"ხორვატიის რესპუბლიკა"@ka,
+		"Республика Хорватия"@ru,
+		"Kroasya"@tl,
+		"Respubliko Kroatio"@eo,
+		"HR"@eo,
+		"HRV"@eo,
+		"Kroatujo"@eo,
+		"República de Croacia"@es,
+		"Republica de Croacia"@es,
+		"克羅地亞"@lzh,
+		"Croația"@rup,
+		"Republika Hrvatska"@hr,
+		"RH"@hr,
+		"Hrvatska"@pl,
+		"Republika Chorwacji"@pl,
+		"크로아티아 공화국"@ko,
+		"Republikken Kroatia"@nb,
+		"Horvát Köztársaság"@hu,
+		"Republiek Kroatië"@nl,
+		"Kroatie"@nl,
+		"HR"@nl,
+		"HRV"@nl,
+		"Republik Kroatien"@de,
+		"HR"@de,
+		"HRV"@de,
+		"Republikken Kroatien"@da,
+		"KRO"@da,
+		"Република Хрватска"@sr,
+		"Kroasia"@pam,
+		"Croatia"@pam,
+		"Republiken Kroatien"@sv,
+		"Hrvatska"@nan,
+		"クロアチア共和国"@ja,
+		"HR"@fr,
+		"la République de Croatie"@fr,
+		"Kroatia dásseváldi"@se,
+		"Kroatian tasavalta"@fi,
+		"Kroatia täsiväldi"@smn,
+		"Kroatia tääʹssväʹldd"@sms,
+		"克羅埃西亞"@zh,
+		"克罗地亚"@zh,
+		"Repubblika tal-Kroazja"@mt,
+		"Cộng hòa Croatia"@vi,
+		"Horvatanma"@vep,
+		"Horvatijan Tazovaldkund"@vep,
+		"Horvatanman Tazovaldkund"@vep,
+		"کرۆواتیا"@ckb,
+		"Croaçia"@lij,
+		"کرواتی"@fa,
+		"Республикась Хорватия"@mdf,
+		"Хорватия мастор"@mdf,
+		"Chorvátska republika"@sk .
+
+wd:Q13211045 owl:sameAs wd:Q224 .
+
+wd:Q19705412 owl:sameAs wd:Q224 .
+
+wd:Q19746651 owl:sameAs wd:Q224 .
+
+wd:Q20086001 owl:sameAs wd:Q224 .
+
+wd:Q34010398 owl:sameAs wd:Q224 .

@@ -1,0 +1,118 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7042522 a schema:Dataset ;
+	schema:about wd:Q7042522 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1747501757"^^xsd:integer ;
+	schema:dateModified "2022-10-10T14:09:03Z"^^xsd:dateTime .
+
+wd:Q7042522 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Nkami_language> a schema:Article ;
+	schema:about wd:Q7042522 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nkami language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Nkami> a schema:Article ;
+	schema:about wd:Q7042522 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Nkami"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Nkami> a schema:Article ;
+	schema:about wd:Q7042522 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Nkami"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Nkami_language> a schema:Article ;
+	schema:about wd:Q7042522 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Nkami language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7042522 wdt:P220 "nkq" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nkq> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "nkam1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nkam1239> ;
+	wdt:P279 wd:Q684009 ;
+	wdt:P2341 wd:Q21075249,
+		wd:Q405670 ;
+	wdt:P305 "nkq" ;
+	wdt:P1627 "nkq" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q117 ;
+	wdt:P646 "/m/0knw_7b" ;
+	rdfs:label "Nkami"@en ;
+	skos:prefLabel "Nkami"@en ;
+	schema:name "Nkami"@en ;
+	rdfs:label "nkami"@ca ;
+	skos:prefLabel "nkami"@ca ;
+	schema:name "nkami"@ca ;
+	rdfs:label "Nkami"@en-gb ;
+	skos:prefLabel "Nkami"@en-gb ;
+	schema:name "Nkami"@en-gb ;
+	rdfs:label "nkami"@fr ;
+	skos:prefLabel "nkami"@fr ;
+	schema:name "nkami"@fr ;
+	rdfs:label "Wikang Nkami"@tl ;
+	skos:prefLabel "Wikang Nkami"@tl ;
+	schema:name "Wikang Nkami"@tl ;
+	rdfs:label "Nkami"@oc ;
+	skos:prefLabel "Nkami"@oc ;
+	schema:name "Nkami"@oc ;
+	rdfs:label "Nkami language"@ig ;
+	skos:prefLabel "Nkami language"@ig ;
+	schema:name "Nkami language"@ig ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue nyo"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Nkami language"@en .

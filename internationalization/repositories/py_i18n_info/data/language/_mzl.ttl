@@ -1,0 +1,88 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q25559728 a schema:Dataset ;
+	schema:about wd:Q25559728 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1462003224"^^xsd:integer ;
+	schema:dateModified "2021-07-17T22:30:02Z"^^xsd:dateTime .
+
+wd:Q25559728 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_mixe,_mazatl%C3%A1n> a schema:Article ;
+	schema:about wd:Q25559728 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga mixe, mazatlán"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q25559728 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "mzl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mzl> ;
+	wdt:P1394 "maza1292" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/maza1292> ;
+	wdt:P279 wd:Q56199048 ;
+	wdt:P305 "mzl" ;
+	wdt:P1627 "mzl" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q96 ;
+	wdt:P2341 wd:Q34110 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MZL> ;
+	wdt:P1014 "300388885" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388885> ;
+	rdfs:label "Lenga mixe, mazatlán"@pms ;
+	skos:prefLabel "Lenga mixe, mazatlán"@pms ;
+	schema:name "Lenga mixe, mazatlán"@pms ;
+	rdfs:label "Mazatlán Mixe"@en ;
+	skos:prefLabel "Mazatlán Mixe"@en ;
+	schema:name "Mazatlán Mixe"@en ;
+	rdfs:label "Mazatlán Mixe"@en-gb ;
+	skos:prefLabel "Mazatlán Mixe"@en-gb ;
+	schema:name "Mazatlán Mixe"@en-gb ;
+	rdfs:label "mixe de Mazatlán"@fr ;
+	skos:prefLabel "mixe de Mazatlán"@fr ;
+	schema:name "mixe de Mazatlán"@fr ;
+	rdfs:label "Mazatláni mihhe keel"@et ;
+	skos:prefLabel "Mazatláni mihhe keel"@et ;
+	schema:name "Mazatláni mihhe keel"@et ;
+	schema:description "שפה"@he,
+		"langue mixe-zoque"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"iaith"@cy,
+		"lingua"@la .

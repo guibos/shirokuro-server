@@ -1,0 +1,178 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q20711 a schema:Dataset ;
+	schema:about wd:Q20711 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1864302965"^^xsd:integer ;
+	schema:dateModified "2023-03-30T01:14:18Z"^^xsd:dateTime .
+
+wd:Q20711 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Galice> a schema:Article ;
+	schema:about wd:Q20711 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Galice"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Galice-Applegate> a schema:Article ;
+	schema:about wd:Q20711 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Galice-Applegate"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_galice> a schema:Article ;
+	schema:about wd:Q20711 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga galice"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D0%BB%D0%B8%D1%81-%D1%8D%D0%BF%D0%BF%D0%BB%D0%B3%D0%B5%D0%B9%D1%82> a schema:Article ;
+	schema:about wd:Q20711 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Галис-эпплгейт"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Galice-Applegate_spriak> a schema:Article ;
+	schema:about wd:Q20711 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Galice-Applegate spriak"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Galice_language> a schema:Article ;
+	schema:about wd:Q20711 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Galice language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Galice_(spr%C3%A5k)> a schema:Article ;
+	schema:about wd:Q20711 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Galice (språk)"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q20711 wdt:P220 "gce" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gce> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P279 wd:Q20654 ;
+	wdt:P1394 "gali1261" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gali1261> ;
+	wdt:P1014 "300388326" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388326> ;
+	wdt:P305 "gce" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P910 wd:Q33666382 ;
+	wdt:P1627 "gce" ;
+	wdt:P17 wd:Q30 ;
+	wdt:P2341 wd:Q824 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GCE> ;
+	wdt:P646 "/m/02hxs9t" ;
+	wdt:P9717 "upper-rogue-river" ;
+	rdfs:label "Lenga galice"@pms ;
+	skos:prefLabel "Lenga galice"@pms ;
+	schema:name "Lenga galice"@pms ;
+	rdfs:label "Galice"@en ;
+	skos:prefLabel "Galice"@en ;
+	schema:name "Galice"@en ;
+	rdfs:label "Galice-Applegate spriak"@frr ;
+	skos:prefLabel "Galice-Applegate spriak"@frr ;
+	schema:name "Galice-Applegate spriak"@frr ;
+	rdfs:label "Galice"@en-ca ;
+	skos:prefLabel "Galice"@en-ca ;
+	schema:name "Galice"@en-ca ;
+	rdfs:label "Galice"@en-gb ;
+	skos:prefLabel "Galice"@en-gb ;
+	schema:name "Galice"@en-gb ;
+	rdfs:label "Galice-Applegate"@nl ;
+	skos:prefLabel "Galice-Applegate"@nl ;
+	schema:name "Galice-Applegate"@nl ;
+	rdfs:label "galice"@es ;
+	skos:prefLabel "galice"@es ;
+	schema:name "galice"@es ;
+	rdfs:label "Galice"@de ;
+	skos:prefLabel "Galice"@de ;
+	schema:name "Galice"@de ;
+	rdfs:label "lingua galice"@it ;
+	skos:prefLabel "lingua galice"@it ;
+	schema:name "lingua galice"@it ;
+	rdfs:label "Галис-эплгейт"@ru ;
+	skos:prefLabel "Галис-эплгейт"@ru ;
+	schema:name "Галис-эплгейт"@ru ;
+	rdfs:label "galice"@ca ;
+	skos:prefLabel "galice"@ca ;
+	schema:name "galice"@ca ;
+	rdfs:label "galice"@fr ;
+	skos:prefLabel "galice"@fr ;
+	schema:name "galice"@fr ;
+	rdfs:label "Wikang Galice"@tl ;
+	skos:prefLabel "Wikang Galice"@tl ;
+	schema:name "Wikang Galice"@tl ;
+	rdfs:label "Galice (språk)"@nb ;
+	skos:prefLabel "Galice (språk)"@nb ;
+	schema:name "Galice (språk)"@nb ;
+	rdfs:label "gàłeze"@vec ;
+	skos:prefLabel "gàłeze"@vec ;
+	schema:name "gàłeze"@vec ;
+	schema:description "extinct Athabaskan language"@en,
+		"lengua atabascana extinta"@es,
+		"athapaskische Sprache"@de,
+		"lingua nativo americana"@it,
+		"langue athapascane"@fr,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Applegate tribe"@en,
+		"Galice-Applegate"@en,
+		"Applegate language"@en,
+		"Galice-Applegate language"@en,
+		"Galice–Applegate"@en,
+		"Galice language"@en .
+
+wd:Q61097882 owl:sameAs wd:Q20711 .

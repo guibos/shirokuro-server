@@ -1,0 +1,396 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q254950 a schema:Dataset ;
+	schema:about wd:Q254950 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1915243205"^^xsd:integer ;
+	schema:dateModified "2023-06-14T18:33:40Z"^^xsd:dateTime .
+
+wd:Q254950 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Elfdalian> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Elfdalian"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/%C3%84lvdalisch> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Älvdalisch"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%AD%D0%BB%D1%8C%D0%B2%D0%B4%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9_%D0%B4%D0%B8%D0%B0%D0%BB%D0%B5%D0%BA%D1%82> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Эльвдальский диалект"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Elfdaals> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Elfdaals"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_elfdalski> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język elfdalski"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/%C3%84lvdalska> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Älvdalska"@sv ;
+	wikibase:badge wd:Q17437796 .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%95%D7%95%D7%93%D7%90%D7%9C%D7%99%D7%AA> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "אלוודאלית"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/%C3%84lvdalska> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Älvdalska"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/%C3%84lvdalsk> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Älvdalsk"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Elvdal%C5%A1tina> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Elvdalština"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/Elvdalsk> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Elvdalsk"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/%C3%96vdalsk%C4%85> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Övdalską"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ext.wikipedia.org/wiki/Luenga_elfdaliana> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "ext" ;
+	schema:isPartOf <https://ext.wikipedia.org/> ;
+	schema:name "Luenga elfdaliana"@ext .
+
+<https://ext.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D3%A6%D0%B2%D0%B4%D0%B0%D0%BB%D1%8C_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Ӧвдаль кыв"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://li.wikipedia.org/wiki/Elfdaals> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "li" ;
+	schema:isPartOf <https://li.wikipedia.org/> ;
+	schema:name "Elfdaals"@li .
+
+<https://li.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Elvdalsk> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Elvdalsk"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%A7%D9%84%D9%81%D8%AF%D8%A7%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "الفدالی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_elfdaliana> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua elfdaliana"@pt ;
+	wikibase:badge wd:Q70893996 .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/Elfd%C3%A6lska> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Elfdælska"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Elfdalien> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Elfdalien"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_%C3%B6vdaliana> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua övdaliana"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nds-nl.wikipedia.org/wiki/Elfdals> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "nds-NL" ;
+	schema:isPartOf <https://nds-nl.wikipedia.org/> ;
+	schema:name "Elfdals"@nds-NL .
+
+<https://nds-nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Elfdalia_lingvo> a schema:Article ;
+	schema:about wd:Q254950 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Elfdalia lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q254950 wdt:P646 "/m/034dny" ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q33046 ;
+	wdt:P1846 <http://commons.wikimedia.org/wiki/Special:FilePath/M%C3%A5lomr%C3%A5den%20i%20Ovansiljan.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/%C3%84lvdalen%20Municipality%20in%20Dalarna%20County.png> ;
+	wdt:P220 "ovd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ovd> ;
+	wdt:P305 "ovd" ;
+	wdt:P3417 "Elfdalian" ;
+	wdt:P1394 "elfd1234" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/elfd1234> ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P2192 "3189" ;
+	wdt:P910 wd:Q32020879 ;
+	wdt:P1627 "ovd" ;
+	wdt:P3823 wd:Q29051555 ;
+	wdt:P1245 "1688720" ;
+	wdt:P2341 wd:Q2453291 ;
+	wdt:P17 wd:Q34 ;
+	wdt:P3222 "älvdalsmål" ;
+	wdt:P4132 wd:Q178435,
+		wd:Q318917 ;
+	wdt:P2989 wd:Q131105,
+		wd:Q146078,
+		wd:Q145599 ;
+	wdt:P6106 wd:Q147276 ;
+	wdt:P1018 wd:Q18334292 ;
+	wdt:P9748 <https://incubator.wikimedia.org/wiki/Wp/ovd> ;
+	wdt:P424 "ovd" ;
+	wdt:P1098 "+2000"^^xsd:decimal ;
+	wdt:P10369 "Q711231" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q711231> ;
+	wdt:P1232 "qer" ;
+	wdt:P1617 "a5edb908-c4ef-4062-8bfb-24f7265e4138" ;
+	wdtn:P1617 <http://www.bbc.co.uk/things/a5edb908-c4ef-4062-8bfb-24f7265e4138#id> ;
+	rdfs:label "эльвдальский диалект"@ru ;
+	skos:prefLabel "эльвдальский диалект"@ru ;
+	schema:name "эльвдальский диалект"@ru ;
+	rdfs:label "dalécarlien"@fr ;
+	skos:prefLabel "dalécarlien"@fr ;
+	schema:name "dalécarlien"@fr ;
+	rdfs:label "Elfdalian"@en ;
+	skos:prefLabel "Elfdalian"@en ;
+	schema:name "Elfdalian"@en ;
+	rdfs:label "Elfdaals"@nl ;
+	skos:prefLabel "Elfdaals"@nl ;
+	schema:name "Elfdaals"@nl ;
+	rdfs:label "Älvdalsmål"@pt ;
+	skos:prefLabel "Älvdalsmål"@pt ;
+	schema:name "Älvdalsmål"@pt ;
+	rdfs:label "elvdalsk"@nn ;
+	skos:prefLabel "elvdalsk"@nn ;
+	schema:name "elvdalsk"@nn ;
+	rdfs:label "Älvdalisch"@de ;
+	skos:prefLabel "Älvdalisch"@de ;
+	schema:name "Älvdalisch"@de ;
+	rdfs:label "Lenga dalecarlian-a"@pms ;
+	skos:prefLabel "Lenga dalecarlian-a"@pms ;
+	schema:name "Lenga dalecarlian-a"@pms ;
+	rdfs:label "älvdalska"@sv ;
+	skos:prefLabel "älvdalska"@sv ;
+	schema:name "älvdalska"@sv ;
+	rdfs:label "övdaliano"@it ;
+	skos:prefLabel "övdaliano"@it ;
+	schema:name "övdaliano"@it ;
+	rdfs:label "Luenga elfdaliana"@ext ;
+	skos:prefLabel "Luenga elfdaliana"@ext ;
+	schema:name "Luenga elfdaliana"@ext ;
+	rdfs:label "elvdalština"@cs ;
+	skos:prefLabel "elvdalština"@cs ;
+	schema:name "elvdalština"@cs ;
+	rdfs:label "älvdalska"@fi ;
+	skos:prefLabel "älvdalska"@fi ;
+	schema:name "älvdalska"@fi ;
+	rdfs:label "Lingua dalecarliana"@gl ;
+	skos:prefLabel "Lingua dalecarliana"@gl ;
+	schema:name "Lingua dalecarliana"@gl ;
+	rdfs:label "idioma dalecarliano"@es ;
+	skos:prefLabel "idioma dalecarliano"@es ;
+	schema:name "idioma dalecarliano"@es ;
+	rdfs:label "אלוודאלית"@he ;
+	skos:prefLabel "אלוודאלית"@he ;
+	schema:name "אלוודאלית"@he ;
+	rdfs:label "älvdalsk"@nb ;
+	skos:prefLabel "älvdalsk"@nb ;
+	schema:name "älvdalsk"@nb ;
+	rdfs:label "elvdalsk"@da ;
+	skos:prefLabel "elvdalsk"@da ;
+	schema:name "elvdalsk"@da ;
+	rdfs:label "Ӧвдаль кыв"@kv ;
+	skos:prefLabel "Ӧвдаль кыв"@kv ;
+	schema:name "Ӧвдаль кыв"@kv ;
+	rdfs:label "övdalską"@br ;
+	skos:prefLabel "övdalską"@br ;
+	schema:name "övdalską"@br ;
+	rdfs:label "elfdælska"@is ;
+	skos:prefLabel "elfdælska"@is ;
+	schema:name "elfdælska"@is ;
+	rdfs:label "Elfdaals"@li ;
+	skos:prefLabel "Elfdaals"@li ;
+	schema:name "Elfdaals"@li ;
+	rdfs:label "Elfdalski"@pl ;
+	skos:prefLabel "Elfdalski"@pl ;
+	schema:name "Elfdalski"@pl ;
+	rdfs:label "エルヴダーレン語"@ja ;
+	skos:prefLabel "エルヴダーレン語"@ja ;
+	schema:name "エルヴダーレン語"@ja ;
+	rdfs:label "Elfdalian"@en-gb ;
+	skos:prefLabel "Elfdalian"@en-gb ;
+	schema:name "Elfdalian"@en-gb ;
+	rdfs:label "Älvdali keel"@et ;
+	skos:prefLabel "Älvdali keel"@et ;
+	schema:name "Älvdali keel"@et ;
+	rdfs:label "Idioma dalecarliano"@ast ;
+	skos:prefLabel "Idioma dalecarliano"@ast ;
+	schema:name "Idioma dalecarliano"@ast ;
+	rdfs:label "আল্ভডালীয় ভাষা"@bn ;
+	skos:prefLabel "আল্ভডালীয় ভাষা"@bn ;
+	schema:name "আল্ভডালীয় ভাষা"@bn ;
+	rdfs:label "dialecte dalecarlià"@ca ;
+	skos:prefLabel "dialecte dalecarlià"@ca ;
+	schema:name "dialecte dalecarlià"@ca ;
+	rdfs:label "الفدالی"@fa ;
+	skos:prefLabel "الفدالی"@fa ;
+	schema:name "الفدالی"@fa ;
+	rdfs:label "ελφδαλιανά"@el ;
+	skos:prefLabel "ελφδαλιανά"@el ;
+	schema:name "ελφδαλιανά"@el ;
+	rdfs:label "Elfdals"@nds-nl ;
+	skos:prefLabel "Elfdals"@nds-nl ;
+	schema:name "Elfdals"@nds-nl ;
+	rdfs:label "övdalian"@vec ;
+	skos:prefLabel "övdalian"@vec ;
+	schema:name "övdalian"@vec ;
+	rdfs:label "Elfdalia lingvo"@eo ;
+	skos:prefLabel "Elfdalia lingvo"@eo ;
+	schema:name "Elfdalia lingvo"@eo ;
+	schema:description "lengua nórdica, originaria del oeste de Suecia Central"@es,
+		"langue scandinave, du centre-ouest de la Suède"@fr,
+		"nordgermanische Sprache, die in Westmittelschweden heimisch ist"@de,
+		"Germanic language variety spoken in Sweden"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"North Germanic language native to West Central Sweden"@en-gb,
+		"iaith germanaidd gogleddol yn frodorol i orllewin-canolbarth Sweden"@cy,
+		"nordgermansk språk hjemmehørende i bygdene ved Älvdalen i Dalarna i Sverige"@nb,
+		"yezh"@br,
+		"lingua"@it,
+		"lingua"@la,
+		"język z grupy północnogermańskiej języków germańskich"@pl,
+		"nordisk språkvarietet som talas i Älvdalens socken i Dalarna, Sverige"@sv,
+		"germánský jazyk, užívaný v západní části středního Švédska"@cs,
+		"nordisk språk som blir tala i Älvdalen, Sverige"@nn,
+		"северогерманский язык"@ru,
+		"Noord-Germaanse taal"@nds-nl,
+		"Pohjois Germaaninen kieli, jota puhutaan ruotsissa"@fi ;
+	skos:altLabel "elvdalsk"@nb,
+		"Övdalian"@en,
+		"Dalecarlian"@en,
+		"এল্ফডালীয় ভাষা"@bn,
+		"lingua övdaliana"@it,
+		"älvdalsmål"@it,
+		"elfdaliano"@it,
+		"lingua elfdaliana"@it,
+		"Língua elfdaliana"@pt .
+
+wd:Q10322110 owl:sameAs wd:Q254950 .
+
+wd:Q50934890 owl:sameAs wd:Q254950 .

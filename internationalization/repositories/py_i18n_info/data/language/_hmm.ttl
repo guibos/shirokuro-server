@@ -1,0 +1,103 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953561 a schema:Dataset ;
+	schema:about wd:Q12953561 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1204336769"^^xsd:integer ;
+	schema:dateModified "2020-06-11T00:36:17Z"^^xsd:dateTime .
+
+wd:Q12953561 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_hmong,_mashan_sentral> a schema:Article ;
+	schema:about wd:Q12953561 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga hmong, mashan sentral"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimiao_cha_Mashan_ya_Kati> a schema:Article ;
+	schema:about wd:Q12953561 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimiao cha Mashan ya Kati"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Centralni_mashan_miao_jezik> a schema:Article ;
+	schema:about wd:Q12953561 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Centralni mashan miao jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953561 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "hmm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hmm> ;
+	wdt:P1394 "cent1394" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/cent1394> ;
+	wdt:P305 "hmm" ;
+	wdt:P1627 "hmm" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q47097 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HMM> ;
+	rdfs:label "Lenga hmong, mashan sentral"@pms ;
+	skos:prefLabel "Lenga hmong, mashan sentral"@pms ;
+	schema:name "Lenga hmong, mashan sentral"@pms ;
+	rdfs:label "Central Mashan Hmong"@en ;
+	skos:prefLabel "Central Mashan Hmong"@en ;
+	schema:name "Central Mashan Hmong"@en ;
+	rdfs:label "Centralni mashan miao jezik"@hr ;
+	skos:prefLabel "Centralni mashan miao jezik"@hr ;
+	schema:name "Centralni mashan miao jezik"@hr ;
+	rdfs:label "Kimiao ya Mashan ya Kati"@sw ;
+	skos:prefLabel "Kimiao ya Mashan ya Kati"@sw ;
+	schema:name "Kimiao ya Mashan ya Kati"@sw ;
+	rdfs:label "中部土语"@zh ;
+	skos:prefLabel "中部土语"@zh ;
+	schema:name "中部土语"@zh ;
+	schema:description "Hmongic language spoken by the Miao people in China"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"iaith"@cy,
+		"lingua"@la .
+
+wd:Q16116254 owl:sameAs wd:Q12953561 .

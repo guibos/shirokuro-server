@@ -1,0 +1,171 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36586 a schema:Dataset ;
+	schema:about wd:Q36586 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961442818"^^xsd:integer ;
+	schema:dateModified "2023-08-26T03:55:53Z"^^xsd:dateTime .
+
+wd:Q36586 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Monba_(langue)> a schema:Article ;
+	schema:about wd:Q36586 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Monba (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Takpa> a schema:Article ;
+	schema:about wd:Q36586 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Takpa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimonpa_cha_Tawang> a schema:Article ;
+	schema:about wd:Q36586 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimonpa cha Tawang"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%A4%E0%A4%B5%E0%A4%BE%E0%A4%82%E0%A4%97_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q36586 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "तवांग भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Moinbeg> a schema:Article ;
+	schema:about wd:Q36586 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Moinbeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Takpa_(Sprache)> a schema:Article ;
+	schema:about wd:Q36586 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Takpa (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E9%97%A8%E5%B7%B4%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q36586 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "门巴语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36586 wdt:P220 "twm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/twm> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "twm" ;
+	wdt:P279 wd:Q56402 ;
+	wdt:P2355 "2261" ;
+	wdt:P1394 "tawa1289" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tawa1289> ;
+	wdt:P1014 "300389353" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389353> ;
+	wdt:P910 wd:Q33665303 ;
+	wdt:P460 wd:Q3695189 ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P2192 "5626" ;
+	wdt:P1627 "twm" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q148,
+		wd:Q668 ;
+	wdt:P2341 wd:Q1162 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TWM> ;
+	wdt:P646 "/m/04tcky" ;
+	wdt:P9545 "220797" ;
+	rdfs:label "Lenga Takpa"@pms ;
+	skos:prefLabel "Lenga Takpa"@pms ;
+	schema:name "Lenga Takpa"@pms ;
+	rdfs:label "Takpa"@de ;
+	skos:prefLabel "Takpa"@de ;
+	schema:name "Takpa"@de ;
+	rdfs:label "Tawang Monpa"@en ;
+	skos:prefLabel "Tawang Monpa"@en ;
+	schema:name "Tawang Monpa"@en ;
+	rdfs:label "门巴语"@zh-hans ;
+	skos:prefLabel "门巴语"@zh-hans ;
+	schema:name "门巴语"@zh-hans ;
+	rdfs:label "門巴語"@zh-hant ;
+	skos:prefLabel "門巴語"@zh-hant ;
+	schema:name "門巴語"@zh-hant ;
+	rdfs:label "門巴語"@zh-hk ;
+	skos:prefLabel "門巴語"@zh-hk ;
+	schema:name "門巴語"@zh-hk ;
+	rdfs:label "moinbeg"@br ;
+	skos:prefLabel "moinbeg"@br ;
+	schema:name "moinbeg"@br ;
+	rdfs:label "monba"@fr ;
+	skos:prefLabel "monba"@fr ;
+	schema:name "monba"@fr ;
+	rdfs:label "门巴语"@zh ;
+	skos:prefLabel "门巴语"@zh ;
+	schema:name "门巴语"@zh ;
+	rdfs:label "Kimonpa ya Tawang"@sw ;
+	skos:prefLabel "Kimonpa ya Tawang"@sw ;
+	schema:name "Kimonpa ya Tawang"@sw ;
+	rdfs:label "तवांग भाषा"@hi ;
+	skos:prefLabel "तवांग भाषा"@hi ;
+	schema:name "तवांग भाषा"@hi ;
+	rdfs:label "東部チベット諸語"@ja ;
+	skos:prefLabel "東部チベット諸語"@ja ;
+	schema:name "東部チベット諸語"@ja ;
+	rdfs:label "তাবাং ভাষা"@bn ;
+	skos:prefLabel "তাবাং ভাষা"@bn ;
+	schema:name "তাবাং ভাষা"@bn ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue sino-tibétaine"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "错那门巴语"@zh,
+		"tawang"@fr,
+		"tawang monpa"@fr .

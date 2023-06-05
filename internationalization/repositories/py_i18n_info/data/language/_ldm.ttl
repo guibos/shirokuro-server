@@ -1,0 +1,183 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35568 a schema:Dataset ;
+	schema:about wd:Q35568 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1896750079"^^xsd:integer ;
+	schema:dateModified "2023-05-15T14:54:23Z"^^xsd:dateTime .
+
+wd:Q35568 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Landoma_(langue)> a schema:Article ;
+	schema:about wd:Q35568 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Landoma (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Landoma> a schema:Article ;
+	schema:about wd:Q35568 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Landoma"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%BD%D0%B4%D1%83%D0%BC%D0%B0_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q35568 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Ландума (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilandoma> a schema:Article ;
+	schema:about wd:Q35568 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilandoma"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Landoma_language> a schema:Article ;
+	schema:about wd:Q35568 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Landoma language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Landomeg> a schema:Article ;
+	schema:about wd:Q35568 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Landomeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Landoma> a schema:Article ;
+	schema:about wd:Q35568 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Landoma"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Landoma_jezik> a schema:Article ;
+	schema:about wd:Q35568 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Landoma jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Landoma> a schema:Article ;
+	schema:about wd:Q35568 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Landoma"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35568 wdt:P305 "ldm" ;
+	wdt:P220 "ldm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ldm> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0h65mvq" ;
+	wdt:P279 wd:Q16114535 ;
+	wdt:P1394 "land1256" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/land1256> ;
+	wdt:P282 wd:Q8229,
+		wd:Q8196 ;
+	wdt:P17 wd:Q1006 ;
+	wdt:P1098 "+15000"^^xsd:decimal ;
+	wdt:P2341 wd:Q3217080,
+		wd:Q862611,
+		wd:Q890340,
+		wd:Q868520,
+		wd:Q614669 ;
+	wdt:P2192 "7716" ;
+	wdt:P1417 "topic/Landuma-language" ;
+	wdt:P1627 "ldm" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LDM> ;
+	rdfs:label "Kilandoma"@sw ;
+	skos:prefLabel "Kilandoma"@sw ;
+	schema:name "Kilandoma"@sw ;
+	rdfs:label "Landoma"@de ;
+	skos:prefLabel "Landoma"@de ;
+	schema:name "Landoma"@de ;
+	rdfs:label "Lenga Landoma"@pms ;
+	skos:prefLabel "Lenga Landoma"@pms ;
+	schema:name "Lenga Landoma"@pms ;
+	rdfs:label "landomeg"@br ;
+	skos:prefLabel "landomeg"@br ;
+	schema:name "landomeg"@br ;
+	rdfs:label "ландума"@ru ;
+	skos:prefLabel "ландума"@ru ;
+	schema:name "ландума"@ru ;
+	rdfs:label "landoma"@fr ;
+	skos:prefLabel "landoma"@fr ;
+	schema:name "landoma"@fr ;
+	rdfs:label "Landoma"@en ;
+	skos:prefLabel "Landoma"@en ;
+	schema:name "Landoma"@en ;
+	rdfs:label "Landoma jezik"@hr ;
+	skos:prefLabel "Landoma jezik"@hr ;
+	schema:name "Landoma jezik"@hr ;
+	rdfs:label "Landoma"@en-gb ;
+	skos:prefLabel "Landoma"@en-gb ;
+	schema:name "Landoma"@en-gb ;
+	rdfs:label "Wikang Landoma"@tl ;
+	skos:prefLabel "Wikang Landoma"@tl ;
+	schema:name "Wikang Landoma"@tl ;
+	rdfs:label "Asụsụ Landoma"@ig ;
+	skos:prefLabel "Asụsụ Landoma"@ig ;
+	schema:name "Asụsụ Landoma"@ig ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"один из атлантических языков (южная ветвь), распространён на северо-западе Гвинеи"@ru,
+		"langue mel"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "язык ландума"@ru,
+		"ландома"@ru,
+		"тьяпа"@ru,
+		"Landoma language"@en .

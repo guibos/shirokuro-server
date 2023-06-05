@@ -1,0 +1,366 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6895579 a schema:Dataset ;
+	schema:about wd:Q6895579 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960505420"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:16:15Z"^^xsd:dateTime .
+
+wd:Q6895579 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Moksela> a schema:Article ;
+	schema:about wd:Q6895579 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Moksela"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Moksela> a schema:Article ;
+	schema:about wd:Q6895579 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Moksela"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimoksela> a schema:Article ;
+	schema:about wd:Q6895579 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimoksela"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Moksela_language> a schema:Article ;
+	schema:about wd:Q6895579 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Moksela language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Moksela> a schema:Article ;
+	schema:about wd:Q6895579 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Moksela"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Moksela> a schema:Article ;
+	schema:about wd:Q6895579 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Moksela"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Moksela> a schema:Article ;
+	schema:about wd:Q6895579 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Moksela"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_moksela> a schema:Article ;
+	schema:about wd:Q6895579 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język moksela"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6895579 wdt:P220 "vms" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/vms> ;
+	wdt:P31 wd:Q45762,
+		wd:Q34770,
+		wd:Q38058796 ;
+	wdt:P1394 "moks1249" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/moks1249> ;
+	wdt:P17 wd:Q252 ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P276 wd:Q271030 ;
+	wdt:P2355 "2600" ;
+	wdt:P305 "vms" ;
+	wdt:P1627 "vms" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/VMS> ;
+	wdt:P646 "/m/02hw_tv" ;
+	rdfs:label "Moksela"@en ;
+	skos:prefLabel "Moksela"@en ;
+	schema:name "Moksela"@en ;
+	rdfs:label "Lenga Moksela"@pms ;
+	skos:prefLabel "Lenga Moksela"@pms ;
+	schema:name "Lenga Moksela"@pms ;
+	rdfs:label "Kimoksela"@sw ;
+	skos:prefLabel "Kimoksela"@sw ;
+	schema:name "Kimoksela"@sw ;
+	rdfs:label "Moksela"@id ;
+	skos:prefLabel "Moksela"@id ;
+	schema:name "Moksela"@id ;
+	rdfs:label "Moksela"@ace ;
+	skos:prefLabel "Moksela"@ace ;
+	schema:name "Moksela"@ace ;
+	rdfs:label "Moksela"@af ;
+	skos:prefLabel "Moksela"@af ;
+	schema:name "Moksela"@af ;
+	rdfs:label "Moksela"@an ;
+	skos:prefLabel "Moksela"@an ;
+	schema:name "Moksela"@an ;
+	rdfs:label "Moksela"@ast ;
+	skos:prefLabel "Moksela"@ast ;
+	schema:name "Moksela"@ast ;
+	rdfs:label "Moksela"@bar ;
+	skos:prefLabel "Moksela"@bar ;
+	schema:name "Moksela"@bar ;
+	rdfs:label "moksela"@br ;
+	skos:prefLabel "moksela"@br ;
+	schema:name "moksela"@br ;
+	rdfs:label "moksela"@ca ;
+	skos:prefLabel "moksela"@ca ;
+	schema:name "moksela"@ca ;
+	rdfs:label "Moksela"@co ;
+	skos:prefLabel "Moksela"@co ;
+	schema:name "Moksela"@co ;
+	rdfs:label "Moksela"@cs ;
+	skos:prefLabel "Moksela"@cs ;
+	schema:name "Moksela"@cs ;
+	rdfs:label "Moksela"@cy ;
+	skos:prefLabel "Moksela"@cy ;
+	schema:name "Moksela"@cy ;
+	rdfs:label "Moksela"@da ;
+	skos:prefLabel "Moksela"@da ;
+	schema:name "Moksela"@da ;
+	rdfs:label "Moksela"@de ;
+	skos:prefLabel "Moksela"@de ;
+	schema:name "Moksela"@de ;
+	rdfs:label "Moksela"@de-at ;
+	skos:prefLabel "Moksela"@de-at ;
+	schema:name "Moksela"@de-at ;
+	rdfs:label "Moksela"@de-ch ;
+	skos:prefLabel "Moksela"@de-ch ;
+	schema:name "Moksela"@de-ch ;
+	rdfs:label "Moksela"@en-ca ;
+	skos:prefLabel "Moksela"@en-ca ;
+	schema:name "Moksela"@en-ca ;
+	rdfs:label "Moksela"@en-gb ;
+	skos:prefLabel "Moksela"@en-gb ;
+	schema:name "Moksela"@en-gb ;
+	rdfs:label "Moksela"@eo ;
+	skos:prefLabel "Moksela"@eo ;
+	schema:name "Moksela"@eo ;
+	rdfs:label "Moksela"@es ;
+	skos:prefLabel "Moksela"@es ;
+	schema:name "Moksela"@es ;
+	rdfs:label "Moksela"@et ;
+	skos:prefLabel "Moksela"@et ;
+	schema:name "Moksela"@et ;
+	rdfs:label "Moksela"@eu ;
+	skos:prefLabel "Moksela"@eu ;
+	schema:name "Moksela"@eu ;
+	rdfs:label "Moksela"@fi ;
+	skos:prefLabel "Moksela"@fi ;
+	schema:name "Moksela"@fi ;
+	rdfs:label "moksela"@fr ;
+	skos:prefLabel "moksela"@fr ;
+	schema:name "moksela"@fr ;
+	rdfs:label "Moksela"@frp ;
+	skos:prefLabel "Moksela"@frp ;
+	schema:name "Moksela"@frp ;
+	rdfs:label "Moksela"@fur ;
+	skos:prefLabel "Moksela"@fur ;
+	schema:name "Moksela"@fur ;
+	rdfs:label "Moksela"@ga ;
+	skos:prefLabel "Moksela"@ga ;
+	schema:name "Moksela"@ga ;
+	rdfs:label "Moksela"@gd ;
+	skos:prefLabel "Moksela"@gd ;
+	schema:name "Moksela"@gd ;
+	rdfs:label "Moksela"@gl ;
+	skos:prefLabel "Moksela"@gl ;
+	schema:name "Moksela"@gl ;
+	rdfs:label "Moksela"@gsw ;
+	skos:prefLabel "Moksela"@gsw ;
+	schema:name "Moksela"@gsw ;
+	rdfs:label "Moksela"@hr ;
+	skos:prefLabel "Moksela"@hr ;
+	schema:name "Moksela"@hr ;
+	rdfs:label "Moksela"@hu ;
+	skos:prefLabel "Moksela"@hu ;
+	schema:name "Moksela"@hu ;
+	rdfs:label "Moksela"@ia ;
+	skos:prefLabel "Moksela"@ia ;
+	schema:name "Moksela"@ia ;
+	rdfs:label "Moksela"@ie ;
+	skos:prefLabel "Moksela"@ie ;
+	schema:name "Moksela"@ie ;
+	rdfs:label "Moksela"@io ;
+	skos:prefLabel "Moksela"@io ;
+	schema:name "Moksela"@io ;
+	rdfs:label "Moksela"@is ;
+	skos:prefLabel "Moksela"@is ;
+	schema:name "Moksela"@is ;
+	rdfs:label "Moksela"@it ;
+	skos:prefLabel "Moksela"@it ;
+	schema:name "Moksela"@it ;
+	rdfs:label "Moksela"@jv ;
+	skos:prefLabel "Moksela"@jv ;
+	schema:name "Moksela"@jv ;
+	rdfs:label "Moksela"@kg ;
+	skos:prefLabel "Moksela"@kg ;
+	schema:name "Moksela"@kg ;
+	rdfs:label "Moksela"@lb ;
+	skos:prefLabel "Moksela"@lb ;
+	schema:name "Moksela"@lb ;
+	rdfs:label "Moksela"@li ;
+	skos:prefLabel "Moksela"@li ;
+	schema:name "Moksela"@li ;
+	rdfs:label "Moksela"@lij ;
+	skos:prefLabel "Moksela"@lij ;
+	schema:name "Moksela"@lij ;
+	rdfs:label "Moksela"@mg ;
+	skos:prefLabel "Moksela"@mg ;
+	schema:name "Moksela"@mg ;
+	rdfs:label "Moksela"@min ;
+	skos:prefLabel "Moksela"@min ;
+	schema:name "Moksela"@min ;
+	rdfs:label "Moksela"@ms ;
+	skos:prefLabel "Moksela"@ms ;
+	schema:name "Moksela"@ms ;
+	rdfs:label "Moksela"@nap ;
+	skos:prefLabel "Moksela"@nap ;
+	schema:name "Moksela"@nap ;
+	rdfs:label "Moksela"@nb ;
+	skos:prefLabel "Moksela"@nb ;
+	schema:name "Moksela"@nb ;
+	rdfs:label "Moksela"@nds ;
+	skos:prefLabel "Moksela"@nds ;
+	schema:name "Moksela"@nds ;
+	rdfs:label "Moksela"@nds-nl ;
+	skos:prefLabel "Moksela"@nds-nl ;
+	schema:name "Moksela"@nds-nl ;
+	rdfs:label "Moksela"@nl ;
+	skos:prefLabel "Moksela"@nl ;
+	schema:name "Moksela"@nl ;
+	rdfs:label "Moksela"@nn ;
+	skos:prefLabel "Moksela"@nn ;
+	schema:name "Moksela"@nn ;
+	rdfs:label "Moksela"@nrm ;
+	skos:prefLabel "Moksela"@nrm ;
+	schema:name "Moksela"@nrm ;
+	rdfs:label "Moksela"@oc ;
+	skos:prefLabel "Moksela"@oc ;
+	schema:name "Moksela"@oc ;
+	rdfs:label "Moksela"@pcd ;
+	skos:prefLabel "Moksela"@pcd ;
+	schema:name "Moksela"@pcd ;
+	rdfs:label "Moksela"@pl ;
+	skos:prefLabel "Moksela"@pl ;
+	schema:name "Moksela"@pl ;
+	rdfs:label "Moksela"@pt ;
+	skos:prefLabel "Moksela"@pt ;
+	schema:name "Moksela"@pt ;
+	rdfs:label "Moksela"@pt-br ;
+	skos:prefLabel "Moksela"@pt-br ;
+	schema:name "Moksela"@pt-br ;
+	rdfs:label "Moksela"@rm ;
+	skos:prefLabel "Moksela"@rm ;
+	schema:name "Moksela"@rm ;
+	rdfs:label "Moksela"@ro ;
+	skos:prefLabel "Moksela"@ro ;
+	schema:name "Moksela"@ro ;
+	rdfs:label "Moksela"@sc ;
+	skos:prefLabel "Moksela"@sc ;
+	schema:name "Moksela"@sc ;
+	rdfs:label "Moksela"@scn ;
+	skos:prefLabel "Moksela"@scn ;
+	schema:name "Moksela"@scn ;
+	rdfs:label "Moksela"@sco ;
+	skos:prefLabel "Moksela"@sco ;
+	schema:name "Moksela"@sco ;
+	rdfs:label "Moksela"@sk ;
+	skos:prefLabel "Moksela"@sk ;
+	schema:name "Moksela"@sk ;
+	rdfs:label "Moksela"@sl ;
+	skos:prefLabel "Moksela"@sl ;
+	schema:name "Moksela"@sl ;
+	rdfs:label "Moksela"@sr-el ;
+	skos:prefLabel "Moksela"@sr-el ;
+	schema:name "Moksela"@sr-el ;
+	rdfs:label "Moksela"@su ;
+	skos:prefLabel "Moksela"@su ;
+	schema:name "Moksela"@su ;
+	rdfs:label "Moksela"@sv ;
+	skos:prefLabel "Moksela"@sv ;
+	schema:name "Moksela"@sv ;
+	rdfs:label "Moksela"@vec ;
+	skos:prefLabel "Moksela"@vec ;
+	schema:name "Moksela"@vec ;
+	rdfs:label "Moksela"@vi ;
+	skos:prefLabel "Moksela"@vi ;
+	schema:name "Moksela"@vi ;
+	rdfs:label "Moksela"@vls ;
+	skos:prefLabel "Moksela"@vls ;
+	schema:name "Moksela"@vls ;
+	rdfs:label "Moksela"@vo ;
+	skos:prefLabel "Moksela"@vo ;
+	schema:name "Moksela"@vo ;
+	rdfs:label "Moksela"@wa ;
+	skos:prefLabel "Moksela"@wa ;
+	schema:name "Moksela"@wa ;
+	rdfs:label "Moksela"@wo ;
+	skos:prefLabel "Moksela"@wo ;
+	schema:name "Moksela"@wo ;
+	rdfs:label "Moksela"@zu ;
+	skos:prefLabel "Moksela"@zu ;
+	schema:name "Moksela"@zu ;
+	rdfs:label "Moksela"@ilo ;
+	skos:prefLabel "Moksela"@ilo ;
+	schema:name "Moksela"@ilo ;
+	rdfs:label "Tataramon na Moksela"@bcl ;
+	skos:prefLabel "Tataramon na Moksela"@bcl ;
+	schema:name "Tataramon na Moksela"@bcl ;
+	schema:description "Sprache"@de,
+		"bahasa punah di Pulau Buru, Maluku"@id,
+		"extinct language in Buru Island, Maluku"@en,
+		"awanen a pagsasao idiay Isla Buru, Maluku"@ilo,
+		"שפה"@he,
+		"jazyk"@cs,
+		"martwy język austronezyjski z Indonezji"@pl ;
+	skos:altLabel "Moksela language"@en,
+		"Opselan"@en,
+		"Opselan"@id,
+		"Opselan"@it,
+		"Opselan"@jv .

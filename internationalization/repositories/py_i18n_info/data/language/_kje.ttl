@@ -1,0 +1,177 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3197441 a schema:Dataset ;
+	schema:about wd:Q3197441 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912486273"^^xsd:integer ;
+	schema:dateModified "2023-06-10T19:27:16Z"^^xsd:dateTime .
+
+wd:Q3197441 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Kisar_(langue)> a schema:Article ;
+	schema:about wd:Q3197441 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kisar (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kisar> a schema:Article ;
+	schema:about wd:Q3197441 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kisar"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Kisar> a schema:Article ;
+	schema:about wd:Q3197441 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Kisar"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikisar> a schema:Article ;
+	schema:about wd:Q3197441 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikisar"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kisar_language> a schema:Article ;
+	schema:about wd:Q3197441 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kisar language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Kisar> a schema:Article ;
+	schema:about wd:Q3197441 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Kisar"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D1%81%D0%B0%D1%80_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q3197441 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Кисар (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_kisar> a schema:Article ;
+	schema:about wd:Q3197441 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język kisar"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3197441 wdt:P220 "kje" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kje> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/02hxy7w" ;
+	wdt:P305 "kje" ;
+	wdt:P279 wd:Q2526676 ;
+	wdt:P1394 "kisa1266" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kisa1266> ;
+	wdt:P1466 "ksr" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ksr> ;
+	wdt:P1627 "kje" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2341 wd:Q5093 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KJE> ;
+	wdt:P910 wd:Q32922496 ;
+	rdfs:label "kisar"@fr ;
+	skos:prefLabel "kisar"@fr ;
+	schema:name "kisar"@fr ;
+	rdfs:label "Bahasa Kisar"@id ;
+	skos:prefLabel "Bahasa Kisar"@id ;
+	schema:name "Bahasa Kisar"@id ;
+	rdfs:label "Kisar"@en ;
+	skos:prefLabel "Kisar"@en ;
+	schema:name "Kisar"@en ;
+	rdfs:label "Кисарский язык"@ru ;
+	skos:prefLabel "Кисарский язык"@ru ;
+	schema:name "Кисарский язык"@ru ;
+	rdfs:label "Lenga Kisar"@pms ;
+	skos:prefLabel "Lenga Kisar"@pms ;
+	schema:name "Lenga Kisar"@pms ;
+	rdfs:label "Kikisar"@sw ;
+	skos:prefLabel "Kikisar"@sw ;
+	schema:name "Kikisar"@sw ;
+	rdfs:label "Kisar"@ilo ;
+	skos:prefLabel "Kisar"@ilo ;
+	schema:name "Kisar"@ilo ;
+	rdfs:label "Kisar"@en-gb ;
+	skos:prefLabel "Kisar"@en-gb ;
+	schema:name "Kisar"@en-gb ;
+	rdfs:label "基薩爾語"@zh-hant ;
+	skos:prefLabel "基薩爾語"@zh-hant ;
+	schema:name "基薩爾語"@zh-hant ;
+	rdfs:label "基萨尔语"@zh-cn ;
+	skos:prefLabel "基萨尔语"@zh-cn ;
+	schema:name "基萨尔语"@zh-cn ;
+	rdfs:label "基萨尔语"@zh-hans ;
+	skos:prefLabel "基萨尔语"@zh-hans ;
+	schema:name "基萨尔语"@zh-hans ;
+	rdfs:label "Kisar"@nl ;
+	skos:prefLabel "Kisar"@nl ;
+	schema:name "Kisar"@nl ;
+	rdfs:label "基萨尔语"@zh ;
+	skos:prefLabel "基萨尔语"@zh ;
+	schema:name "基萨尔语"@zh ;
+	rdfs:label "Język kisar"@pl ;
+	skos:prefLabel "Język kisar"@pl ;
+	schema:name "Język kisar"@pl ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Indonesia"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl,
+		"bagian dari rumpun bahasa Austronesia"@id ;
+	skos:altLabel "Bahasa kisar"@id .

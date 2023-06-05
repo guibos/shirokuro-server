@@ -1,0 +1,126 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6549414 a schema:Dataset ;
+	schema:about wd:Q6549414 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1556057962"^^xsd:integer ;
+	schema:dateModified "2022-01-04T15:50:51Z"^^xsd:dateTime .
+
+wd:Q6549414 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_limilngan> a schema:Article ;
+	schema:about wd:Q6549414 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga limilngan"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Limilngan> a schema:Article ;
+	schema:about wd:Q6549414 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Limilngan"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilimilngan> a schema:Article ;
+	schema:about wd:Q6549414 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilimilngan"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Limilngan_language> a schema:Article ;
+	schema:about wd:Q6549414 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Limilngan language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6549414 wdt:P220 "lmc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lmc> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "nucl1327" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nucl1327> ;
+	wdt:P279 wd:Q2590683 ;
+	wdt:P1466 "lml" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_lml> ;
+	wdt:P305 "lmc" ;
+	wdt:P910 wd:Q33664654 ;
+	wdt:P2192 "4515" ;
+	wdt:P1627 "lmc" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P1252 "N42" ;
+	wdt:P6915 "Limilngan" ;
+	wdt:P1245 "899516" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LMC> ;
+	wdt:P646 "/m/02hx_9w" ;
+	rdfs:label "Limilngan"@en ;
+	skos:prefLabel "Limilngan"@en ;
+	schema:name "Limilngan"@en ;
+	rdfs:label "Limilngan"@sv ;
+	skos:prefLabel "Limilngan"@sv ;
+	schema:name "Limilngan"@sv ;
+	rdfs:label "Lenga limilngan"@pms ;
+	skos:prefLabel "Lenga limilngan"@pms ;
+	schema:name "Lenga limilngan"@pms ;
+	rdfs:label "Limilngan"@en-gb ;
+	skos:prefLabel "Limilngan"@en-gb ;
+	schema:name "Limilngan"@en-gb ;
+	rdfs:label "limilngan"@fr ;
+	skos:prefLabel "limilngan"@fr ;
+	schema:name "limilngan"@fr ;
+	rdfs:label "limilnga keel"@et ;
+	skos:prefLabel "limilnga keel"@et ;
+	schema:name "limilnga keel"@et ;
+	rdfs:label "Kilimilngan"@sw ;
+	skos:prefLabel "Kilimilngan"@sw ;
+	schema:name "Kilimilngan"@sw ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue de la région de Darwin"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Limilngan language"@en .
+
+wd:Q10562027 owl:sameAs wd:Q6549414 .

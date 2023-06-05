@@ -1,0 +1,142 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11732596 a schema:Dataset ;
+	schema:about wd:Q11732596 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960452417"^^xsd:integer ;
+	schema:dateModified "2023-08-24T21:01:18Z"^^xsd:dateTime .
+
+wd:Q11732596 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Rao> a schema:Article ;
+	schema:about wd:Q11732596 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Rao"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Rao_language> a schema:Article ;
+	schema:about wd:Q11732596 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Rao language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Raoeg> a schema:Article ;
+	schema:about wd:Q11732596 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Raoeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kirao> a schema:Article ;
+	schema:about wd:Q11732596 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kirao"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Rao> a schema:Article ;
+	schema:about wd:Q11732596 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Rao"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11732596 wdt:P220 "rao" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/rao> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "raoo1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/raoo1244> ;
+	wdt:P1466 "rao" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_rao> ;
+	wdt:P279 wd:Q4767739 ;
+	wdt:P2192 "5326" ;
+	wdt:P305 "rao" ;
+	wdt:P1627 "rao" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q690880,
+		wd:Q326254 ;
+	wdt:P646 "/m/02hwzm2" ;
+	rdfs:label "język rao"@pl ;
+	skos:prefLabel "język rao"@pl ;
+	schema:name "język rao"@pl ;
+	rdfs:label "Lenga Rao"@pms ;
+	skos:prefLabel "Lenga Rao"@pms ;
+	schema:name "Lenga Rao"@pms ;
+	rdfs:label "Rao"@en ;
+	skos:prefLabel "Rao"@en ;
+	schema:name "Rao"@en ;
+	rdfs:label "raoeg"@br ;
+	skos:prefLabel "raoeg"@br ;
+	schema:name "raoeg"@br ;
+	rdfs:label "Kirao"@sw ;
+	skos:prefLabel "Kirao"@sw ;
+	schema:name "Kirao"@sw ;
+	rdfs:label "ラオ語"@ja ;
+	skos:prefLabel "ラオ語"@ja ;
+	schema:name "ラオ語"@ja ;
+	rdfs:label "Rao"@ilo ;
+	skos:prefLabel "Rao"@ilo ;
+	schema:name "Rao"@ilo ;
+	rdfs:label "Rao"@en-gb ;
+	skos:prefLabel "Rao"@en-gb ;
+	schema:name "Rao"@en-gb ;
+	rdfs:label "rao"@fr ;
+	skos:prefLabel "rao"@fr ;
+	schema:name "rao"@fr ;
+	rdfs:label "饒語"@zh ;
+	skos:prefLabel "饒語"@zh ;
+	schema:name "饒語"@zh ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"language used in Papua New Guinea"@en,
+		"langue lower sepik-ramu"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"パプアニューギニアの言語"@ja ;
+	skos:altLabel "Rao language"@en .
+
+wd:Q12953055 owl:sameAs wd:Q11732596 .

@@ -1,0 +1,126 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10604331 a schema:Dataset ;
+	schema:about wd:Q10604331 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1727761624"^^xsd:integer ;
+	schema:dateModified "2022-09-13T10:22:33Z"^^xsd:dateTime .
+
+wd:Q10604331 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_nyangga> a schema:Article ;
+	schema:about wd:Q10604331 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga nyangga"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Nyangga> a schema:Article ;
+	schema:about wd:Q10604331 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Nyangga"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinyangga> a schema:Article ;
+	schema:about wd:Q10604331 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinyangga"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10604331 wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796,
+		wd:Q33384 ;
+	wdt:P220 "nny" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nny> ;
+	wdt:P1394 "nyan1300" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nyan1300> ;
+	wdt:P910 wd:Q33658230 ;
+	wdt:P279 wd:Q1823065 ;
+	wdt:P1252 "N154" ;
+	wdt:P2192 "4887" ;
+	wdt:P305 "nny" ;
+	wdt:P1627 "nny" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3235,
+		wd:Q36074 ;
+	wdt:P4839 "Entity[\"Language\", \"Nyangga::3pycs\"]",
+		"Entity[\"Language\", \"Nyangga\"]" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NNY> ;
+	wdt:P4913 wd:Q3913770 ;
+	rdfs:label "Nyangga"@sv ;
+	skos:prefLabel "Nyangga"@sv ;
+	schema:name "Nyangga"@sv ;
+	rdfs:label "Lenga nyangga"@pms ;
+	skos:prefLabel "Lenga nyangga"@pms ;
+	schema:name "Lenga nyangga"@pms ;
+	rdfs:label "Nyangga"@en ;
+	skos:prefLabel "Nyangga"@en ;
+	schema:name "Nyangga"@en ;
+	rdfs:label "Nyangga"@en-gb ;
+	skos:prefLabel "Nyangga"@en-gb ;
+	schema:name "Nyangga"@en-gb ;
+	rdfs:label "Kinyangga"@sw ;
+	skos:prefLabel "Kinyangga"@sw ;
+	schema:name "Kinyangga"@sw ;
+	rdfs:label "nyangga"@fr ;
+	skos:prefLabel "nyangga"@fr ;
+	schema:name "nyangga"@fr ;
+	rdfs:label "njanga keel"@et ;
+	skos:prefLabel "njanga keel"@et ;
+	schema:name "njanga keel"@et ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"lugha ya asili ya Australia iliyotoweka"@sw,
+		"langue tangkique"@fr,
+		"language"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kiyangkaal"@sw,
+		"Yangkaal language"@en,
+		"Yangkaal"@en,
+		"Yanggal"@en .
+
+wd:Q50924933 owl:sameAs wd:Q10604331 .
+
+wd:Q98446190 owl:sameAs wd:Q10604331 .

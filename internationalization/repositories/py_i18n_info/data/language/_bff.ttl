@@ -1,0 +1,171 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q34914 a schema:Dataset ;
+	schema:about wd:Q34914 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1827839615"^^xsd:integer ;
+	schema:dateModified "2023-02-06T16:59:04Z"^^xsd:dateTime .
+
+wd:Q34914 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Bofi> a schema:Article ;
+	schema:about wd:Q34914 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Bofi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D1%84%D0%B8> a schema:Article ;
+	schema:about wd:Q34914 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Бофи"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibofi> a schema:Article ;
+	schema:about wd:Q34914 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibofi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Bofi_language> a schema:Article ;
+	schema:about wd:Q34914 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Bofi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Bofi> a schema:Article ;
+	schema:about wd:Q34914 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Bofi"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Bofi_jezik> a schema:Article ;
+	schema:about wd:Q34914 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Bofi jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Bofi> a schema:Article ;
+	schema:about wd:Q34914 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Bofi"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Bofi> a schema:Article ;
+	schema:about wd:Q34914 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Bofi"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q34914 wdt:P220 "bff" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bff> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0gy0gdj" ;
+	wdt:P279 wd:Q33838 ;
+	wdt:P1394 "bofi1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/bofi1238> ;
+	wdt:P17 wd:Q929 ;
+	wdt:P131 wd:Q821037,
+		wd:Q378970 ;
+	wdt:P1098 "+23500"^^xsd:decimal ;
+	wdt:P305 "bff" ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P1627 "bff" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q821037,
+		wd:Q856237 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BFF> ;
+	wdt:P910 wd:Q33656753 ;
+	rdfs:label "Kibofi"@sw ;
+	skos:prefLabel "Kibofi"@sw ;
+	schema:name "Kibofi"@sw ;
+	rdfs:label "Bofi"@de ;
+	skos:prefLabel "Bofi"@de ;
+	schema:name "Bofi"@de ;
+	rdfs:label "Lenga Bofi"@pms ;
+	skos:prefLabel "Lenga Bofi"@pms ;
+	schema:name "Lenga Bofi"@pms ;
+	rdfs:label "Бофи"@ru ;
+	skos:prefLabel "Бофи"@ru ;
+	schema:name "Бофи"@ru ;
+	rdfs:label "Bofi"@en ;
+	skos:prefLabel "Bofi"@en ;
+	schema:name "Bofi"@en ;
+	rdfs:label "Bofi jezik"@hr ;
+	skos:prefLabel "Bofi jezik"@hr ;
+	schema:name "Bofi jezik"@hr ;
+	rdfs:label "bofi"@ca ;
+	skos:prefLabel "bofi"@ca ;
+	schema:name "bofi"@ca ;
+	rdfs:label "Bofi"@oc ;
+	skos:prefLabel "Bofi"@oc ;
+	schema:name "Bofi"@oc ;
+	rdfs:label "Bofi"@en-gb ;
+	skos:prefLabel "Bofi"@en-gb ;
+	schema:name "Bofi"@en-gb ;
+	rdfs:label "bofi"@fr ;
+	skos:prefLabel "bofi"@fr ;
+	schema:name "bofi"@fr ;
+	rdfs:label "Asụsụ Bofi"@ig ;
+	skos:prefLabel "Asụsụ Bofi"@ig ;
+	schema:name "Asụsụ Bofi"@ig ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Язык бофи"@ru,
+		"Боффи"@ru,
+		"Язык боффи"@ru,
+		"Bofi language"@en .

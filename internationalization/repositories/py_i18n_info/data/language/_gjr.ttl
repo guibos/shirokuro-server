@@ -1,0 +1,78 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5620091 a schema:Dataset ;
+	schema:about wd:Q5620091 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1811917074"^^xsd:integer ;
+	schema:dateModified "2023-01-15T07:31:39Z"^^xsd:dateTime .
+
+wd:Q5620091 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Gurindji_Kriol_language> a schema:Article ;
+	schema:about wd:Q5620091 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Gurindji Kriol language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5620091 wdt:P31 wd:Q33694,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "guri1249" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/guri1249> ;
+	wdt:P144 wd:Q10511016,
+		wd:Q35671 ;
+	wdt:P220 "gjr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gjr> ;
+	wdt:P305 "gjr" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P1627 "gjr" ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3235,
+		wd:Q36687 ;
+	wdt:P1251 "8506" ;
+	wdt:P646 "/m/0h7lq0" ;
+	wdt:P973 <https://apics-online.info/contributions/72> ;
+	rdfs:label "Gurindji Kriol"@en ;
+	skos:prefLabel "Gurindji Kriol"@en ;
+	schema:name "Gurindji Kriol"@en ;
+	rdfs:label "kriol gurindji"@fr ;
+	skos:prefLabel "kriol gurindji"@fr ;
+	schema:name "kriol gurindji"@fr ;
+	rdfs:label "葛林吉克里歐語"@zh ;
+	skos:prefLabel "葛林吉克里歐語"@zh ;
+	schema:name "葛林吉克里歐語"@zh ;
+	schema:description "langue mixte parlée en Australie"@fr,
+		"mixed Gurindji–Kriol language of Australia"@en ;
+	skos:altLabel "Gurindji Kriol language"@en .

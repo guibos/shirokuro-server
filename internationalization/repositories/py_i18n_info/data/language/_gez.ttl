@@ -1,0 +1,941 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35667 a schema:Dataset ;
+	schema:about wd:Q35667 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1913506453"^^xsd:integer ;
+	schema:dateModified "2023-06-12T07:25:18Z"^^xsd:dateTime .
+
+wd:Q35667 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Geez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Geez"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Geez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Geez"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Ge%27ez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Ge'ez"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Gueez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Gueez"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%92%D7%A2%D7%96> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "געז"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kige%27ez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kige'ez"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://an.wikipedia.org/wiki/Idioma_ge%27ez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "an" ;
+	schema:isPartOf <https://an.wikipedia.org/> ;
+	schema:name "Idioma ge'ez"@an .
+
+<https://an.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%B2%E3%82%A8%E3%82%BA%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ゲエズ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D4%B5%D5%A9%D5%B8%D5%BE%D5%BA%D5%A1%D5%AF%D5%A1%D5%B6_%D5%A3%D6%80%D5%A1%D5%AF%D5%A1%D5%B6%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Եթովպական գրականություն"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_ge%27ez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua ge'ez"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/Ge%27ez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Ge'ez"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%92%E1%83%94%E1%83%94%E1%83%96%E1%83%98> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "გეეზი"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mg.wikipedia.org/wiki/Fiteny_gezy> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "mg" ;
+	schema:isPartOf <https://mg.wikipedia.org/> ;
+	schema:name "Fiteny gezy"@mg .
+
+<https://mg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D8%AC%D8%B9%D8%B2%D9%89> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "جعزى"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Giz> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Giz"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Etioopia_keel> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Etioopia keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Ge%27ez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Ge'ez"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Ge%27ez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Ge'ez"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Limba_g%C3%AE%27%C3%AEz> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Limba gî'îz"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%93%D0%B8%D0%B7_(%D1%98%D0%B5%D0%B7%D0%B8%D0%BA)> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Гиз (језик)"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Ge%27ez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Ge'ez"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Geuzeg> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Geuzeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Ge%27ez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Ge'ez"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Efiop_tili> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Efiop tili"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D1%8D%D0%B7> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Геэз"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ge%CA%BDez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Geʽez"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%97%E0%A4%BF%E0%A4%87%E0%A4%9C%E0%A4%BC_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "गिइज़ भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Geez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Geez"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%93%D0%B8%D0%B7> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Гиз"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%93%D1%8B%D1%8B%D0%B7_(%D0%BA%D1%8B%D0%B2)> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Гыыз (кыв)"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Alt%C3%A4thiopische_Sprache> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Altäthiopische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Ge%27ez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Ge'ez"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Ge%27ez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Ge'ez"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Gezo_kalba> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Gezo kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Geez_dili> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Geez dili"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Ge%27ez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Ge'ez"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://am.wikipedia.org/wiki/%E1%8C%8D%E1%8B%95%E1%8B%9D> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "am" ;
+	schema:isPartOf <https://am.wikipedia.org/> ;
+	schema:name "ግዕዝ"@am .
+
+<https://am.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Ge%27ez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Ge'ez"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_gyyz> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język gyyz"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D8%AC%D8%B9%D8%B2%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "اللغة الجعزية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%97%E0%B5%80%E0%B4%AF%E0%B4%B8%E0%B5%8D_%E0%B4%AD%E0%B4%BE%E0%B4%B7> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "ഗീയസ് ഭാഷ"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sc.wikipedia.org/wiki/Limba_ge%27ez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "sc" ;
+	schema:isPartOf <https://sc.wikipedia.org/> ;
+	schema:name "Limba ge'ez"@sc .
+
+<https://sc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%DA%AF%D8%B9%D8%B2> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "گعز"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ky.wikipedia.org/wiki/%D0%AD%D1%84%D0%B8%D0%BE%D0%BF_%D1%82%D0%B8%D0%BB%D0%B8> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "ky" ;
+	schema:isPartOf <https://ky.wikipedia.org/> ;
+	schema:name "Эфиоп тили"@ky .
+
+<https://ky.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%93%D0%B5%D0%B5%D0%B7> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Геез"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sl.wikipedia.org/wiki/Giz> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikipedia.org/> ;
+	schema:name "Giz"@sl .
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Gueez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Gueez"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Gu%C3%A8ze> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Guèze"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E5%90%89%E8%8C%B2%E6%96%87> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "吉茲文"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Geeza_lingvo> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Geeza lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%DA%AF%D8%B9%D8%B2> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان گعز"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://commons.wikimedia.org/wiki/Ge%27ez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "Ge'ez"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+<https://gl.wikipedia.org/wiki/Lingua_ge%27ez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua ge'ez"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Geez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Geez"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Aethiopica> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Aethiopica"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Ge%E2%80%99ezin_kieli> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Ge’ezin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EA%B7%B8%EC%9C%BC%EC%A6%88%EC%96%B4> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "그으즈어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_ge%27ez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua ge'ez"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E5%90%89%E5%85%B9%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "吉兹语"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%90%89%E8%8C%B2%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "吉茲語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wiktionary.org/wiki/Aldono:Geeza> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wiktionary.org/> ;
+	schema:name "Aldono:Geeza"@eo .
+
+<https://eo.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://xmf.wikipedia.org/wiki/%E1%83%92%E1%83%94%E1%83%94%E1%83%96%E1%83%98> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "xmf" ;
+	schema:isPartOf <https://xmf.wikipedia.org/> ;
+	schema:name "გეეზი"@xmf .
+
+<https://xmf.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Ge%CA%BDez> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Geʽez"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sn.wikipedia.org/wiki/Chige%27ezi> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "sn" ;
+	schema:isPartOf <https://sn.wikipedia.org/> ;
+	schema:name "Chige'ezi"@sn .
+
+<https://sn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%97%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%9C_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "গিয়েজ ভাষা"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Ge%27ez_language> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Ge'ez language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%93%D0%B5%D1%94%D0%B7> a schema:Article ;
+	schema:about wd:Q35667 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Геєз"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35667 wdt:P282 wd:Q257634 ;
+	wdt:P1036 "492.81" ;
+	wdt:P508 "110" ;
+	wdtn:P508 <http://purl.org/bncf/tid/110> ;
+	wdt:P910 wd:Q8481816 ;
+	wdt:P219 "gez" ;
+	wdt:P220 "gez" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gez> ;
+	wdt:P31 wd:Q34770,
+		wd:Q839470,
+		wd:Q45762,
+		wd:Q436240,
+		wd:Q38058796 ;
+	wdt:P349 "00562058" ;
+	wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00562058> ;
+	wdt:P646 "/m/0j2wk" ;
+	wdt:P227 "4133283-0" ;
+	wdtn:P227 <https://d-nb.info/gnd/4133283-0> ;
+	wdt:P305 "gez" ;
+	wdt:P279 wd:Q163629 ;
+	wdt:P269 "02778052X" ;
+	wdtn:P269 <http://www.idref.fr/02778052X/id> ;
+	wdt:P1889 wd:Q257634 ;
+	wdt:P244 "sh85045159" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85045159> ;
+	wdt:P268 "11974951n" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb11974951n#about> ;
+	wdt:P373 "Ge'ez language" ;
+	wdt:P935 "Ge'ez" ;
+	wdt:P1343 wd:Q2657718,
+		wd:Q602358,
+		wd:Q19219752 ;
+	wdt:P1394 "geez1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/geez1241> ;
+	wdt:P1014 "300388341" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388341> ;
+	wdt:P1296 "0113230" ;
+	wdt:P576 "1201-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P278 "гез 151" ;
+	wdt:P2596 wd:Q139377 ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P2355 "1687" ;
+	wdt:P4132 wd:Q166097 ;
+	wdt:P1417 "topic/Geez-language" ;
+	wdt:P2924 "2357053" ;
+	wdt:P5198 "294913300" ;
+	wdt:P17 wd:Q115,
+		wd:Q986 ;
+	wdt:P4801 "languages/gez" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/gez> ;
+	wdt:P4801 "iso639-2/gez" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/iso639-2/gez> ;
+	wdt:P1627 "gez" ;
+	wdt:P424 "gez" ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Ge%27ez.svg> ;
+	wdt:P1245 "714047" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GEZ> ;
+	wdt:P1705 "ግዕዝ"@gez ;
+	wdt:P6366 "2909097406" ;
+	wdtn:P6366 <http://ma-graph.org/entity/2909097406> ;
+	wdt:P2347 "28472" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p28472> ;
+	wdt:P8408 "GeezLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/GeezLanguage> ;
+	wdt:P9060 "gez" ;
+	wdt:P8189 "987007555672905171" ;
+	wdt:P6385 "gumanitarnye_nauki/lingvistika/GEEZ_YAZIK.html" ;
+	wdt:P10369 "Q355" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q355> ;
+	wdt:P7305 "3909228" ;
+	rdfs:label "格厄茲語"@zh ;
+	skos:prefLabel "格厄茲語"@zh ;
+	schema:name "格厄茲語"@zh ;
+	rdfs:label "Lenga Geez"@pms ;
+	skos:prefLabel "Lenga Geez"@pms ;
+	schema:name "Lenga Geez"@pms ;
+	rdfs:label "ge'ez"@eu ;
+	skos:prefLabel "ge'ez"@eu ;
+	schema:name "ge'ez"@eu ;
+	rdfs:label "język gyyz"@pl ;
+	skos:prefLabel "język gyyz"@pl ;
+	schema:name "język gyyz"@pl ;
+	rdfs:label "guèze"@fr ;
+	skos:prefLabel "guèze"@fr ;
+	schema:name "guèze"@fr ;
+	rdfs:label "그으즈어"@ko ;
+	skos:prefLabel "그으즈어"@ko ;
+	schema:name "그으즈어"@ko ;
+	rdfs:label "געז"@he ;
+	skos:prefLabel "געז"@he ;
+	schema:name "געז"@he ;
+	rdfs:label "جعزى"@arz ;
+	skos:prefLabel "جعزى"@arz ;
+	schema:name "جعزى"@arz ;
+	rdfs:label "ge'ez"@es ;
+	skos:prefLabel "ge'ez"@es ;
+	schema:name "ge'ez"@es ;
+	rdfs:label "ge'ez"@af ;
+	skos:prefLabel "ge'ez"@af ;
+	schema:name "ge'ez"@af ;
+	rdfs:label "Bahasa Ge'ez"@ms ;
+	skos:prefLabel "Bahasa Ge'ez"@ms ;
+	schema:name "Bahasa Ge'ez"@ms ;
+	rdfs:label "ge'ez"@it ;
+	skos:prefLabel "ge'ez"@it ;
+	schema:name "ge'ez"@it ;
+	rdfs:label "Ge'ez"@sw ;
+	skos:prefLabel "Ge'ez"@sw ;
+	schema:name "Ge'ez"@sw ;
+	rdfs:label "Bahasa Ge'ez"@id ;
+	skos:prefLabel "Bahasa Ge'ez"@id ;
+	schema:name "Bahasa Ge'ez"@id ;
+	rdfs:label "Ge’ez"@de ;
+	skos:prefLabel "Ge’ez"@de ;
+	schema:name "Ge’ez"@de ;
+	rdfs:label "ഗീയസ് ഭാഷ"@ml ;
+	skos:prefLabel "ഗീയസ് ഭാഷ"@ml ;
+	schema:name "ഗീയസ് ഭാഷ"@ml ;
+	rdfs:label "ゲエズ語"@ja ;
+	skos:prefLabel "ゲエズ語"@ja ;
+	schema:name "ゲエズ語"@ja ;
+	rdfs:label "geuzeg"@br ;
+	skos:prefLabel "geuzeg"@br ;
+	schema:name "geuzeg"@br ;
+	rdfs:label "Giz"@sh ;
+	skos:prefLabel "Giz"@sh ;
+	schema:name "Giz"@sh ;
+	rdfs:label "ግዕዝ"@am ;
+	skos:prefLabel "ግዕዝ"@am ;
+	schema:name "ግዕዝ"@am ;
+	rdfs:label "Ge'ez"@nl ;
+	skos:prefLabel "Ge'ez"@nl ;
+	schema:name "Ge'ez"@nl ;
+	rdfs:label "ge'ez"@sv ;
+	skos:prefLabel "ge'ez"@sv ;
+	schema:name "ge'ez"@sv ;
+	rdfs:label "الجعزية"@ar ;
+	skos:prefLabel "الجعزية"@ar ;
+	schema:name "الجعزية"@ar ;
+	rdfs:label "गिइज़ भाषा"@hi ;
+	skos:prefLabel "गिइज़ भाषा"@hi ;
+	schema:name "गिइज़ भाषा"@hi ;
+	rdfs:label "língua ge'ez"@pt ;
+	skos:prefLabel "língua ge'ez"@pt ;
+	schema:name "língua ge'ez"@pt ;
+	rdfs:label "geeza lingvo"@eo ;
+	skos:prefLabel "geeza lingvo"@eo ;
+	schema:name "geeza lingvo"@eo ;
+	rdfs:label "геэз"@ru ;
+	skos:prefLabel "геэз"@ru ;
+	schema:name "геэз"@ru ;
+	rdfs:label "Ge'ez"@en ;
+	skos:prefLabel "Ge'ez"@en ;
+	schema:name "Ge'ez"@en ;
+	rdfs:label "limba gî'îz"@ro ;
+	skos:prefLabel "limba gî'îz"@ro ;
+	schema:name "limba gî'îz"@ro ;
+	rdfs:label "гиз"@mk ;
+	skos:prefLabel "гиз"@mk ;
+	schema:name "гиз"@mk ;
+	rdfs:label "gueez"@ca ;
+	skos:prefLabel "gueez"@ca ;
+	schema:name "gueez"@ca ;
+	rdfs:label "Ge’ezin kieli"@fi ;
+	skos:prefLabel "Ge’ezin kieli"@fi ;
+	schema:name "Ge’ezin kieli"@fi ;
+	rdfs:label "Ґеез"@uk ;
+	skos:prefLabel "Ґеез"@uk ;
+	schema:name "Ґеез"@uk ;
+	rdfs:label "lingua Aethiopica"@la ;
+	skos:prefLabel "lingua Aethiopica"@la ;
+	schema:name "lingua Aethiopica"@la ;
+	rdfs:label "giz"@sl ;
+	skos:prefLabel "giz"@sl ;
+	schema:name "giz"@sl ;
+	rdfs:label "geez"@nn ;
+	skos:prefLabel "geez"@nn ;
+	schema:name "geez"@nn ;
+	rdfs:label "ge'ez"@cs ;
+	skos:prefLabel "ge'ez"@cs ;
+	schema:name "ge'ez"@cs ;
+	rdfs:label "Геез"@bg ;
+	skos:prefLabel "Геез"@bg ;
+	schema:name "Геез"@bg ;
+	rdfs:label "زبان گعز"@fa ;
+	skos:prefLabel "زبان گعز"@fa ;
+	schema:name "زبان گعز"@fa ;
+	rdfs:label "Гыыз"@kv ;
+	skos:prefLabel "Гыыз"@kv ;
+	schema:name "Гыыз"@kv ;
+	rdfs:label "გეეზი"@ka ;
+	skos:prefLabel "გეეზი"@ka ;
+	schema:name "გეეზი"@ka ;
+	rdfs:label "geez"@hr ;
+	skos:prefLabel "geez"@hr ;
+	schema:name "geez"@hr ;
+	rdfs:label "gezo kalba"@lt ;
+	skos:prefLabel "gezo kalba"@lt ;
+	schema:name "gezo kalba"@lt ;
+	rdfs:label "geez"@da ;
+	skos:prefLabel "geez"@da ;
+	schema:name "geez"@da ;
+	rdfs:label "Ge'ez"@an ;
+	skos:prefLabel "Ge'ez"@an ;
+	schema:name "Ge'ez"@an ;
+	rdfs:label "Эфиоп Тілі"@kk ;
+	skos:prefLabel "Эфиоп Тілі"@kk ;
+	schema:name "Эфиоп Тілі"@kk ;
+	rdfs:label "ge'ez"@nb ;
+	skos:prefLabel "ge'ez"@nb ;
+	schema:name "ge'ez"@nb ;
+	rdfs:label "etioopia keel"@et ;
+	skos:prefLabel "etioopia keel"@et ;
+	schema:name "etioopia keel"@et ;
+	rdfs:label "Гиз"@sr ;
+	skos:prefLabel "Гиз"@sr ;
+	schema:name "Гиз"@sr ;
+	rdfs:label "Efiop tili"@uz ;
+	skos:prefLabel "Efiop tili"@uz ;
+	schema:name "Efiop tili"@uz ;
+	rdfs:label "եթովպական գրականություն"@hy ;
+	skos:prefLabel "եթովպական գրականություն"@hy ;
+	schema:name "եթովպական գրականություն"@hy ;
+	rdfs:label "Limba ge'ez"@sc ;
+	skos:prefLabel "Limba ge'ez"@sc ;
+	schema:name "Limba ge'ez"@sc ;
+	rdfs:label "Ge'ez"@tr ;
+	skos:prefLabel "Ge'ez"@tr ;
+	schema:name "Ge'ez"@tr ;
+	rdfs:label "Lingua ge'ez"@gl ;
+	skos:prefLabel "Lingua ge'ez"@gl ;
+	schema:name "Lingua ge'ez"@gl ;
+	rdfs:label "الجعزي"@aeb-arab ;
+	skos:prefLabel "الجعزي"@aeb-arab ;
+	schema:name "الجعزي"@aeb-arab ;
+	rdfs:label "吉茲文"@yue ;
+	skos:prefLabel "吉茲文"@yue ;
+	schema:name "吉茲文"@yue ;
+	rdfs:label "گعز"@ur ;
+	skos:prefLabel "گعز"@ur ;
+	schema:name "گعز"@ur ;
+	rdfs:label "Gueez"@oc ;
+	skos:prefLabel "Gueez"@oc ;
+	schema:name "Gueez"@oc ;
+	rdfs:label "Tiếng Ge'ez"@vi ;
+	skos:prefLabel "Tiếng Ge'ez"@vi ;
+	schema:name "Tiếng Ge'ez"@vi ;
+	rdfs:label "Эфиоп тили"@ky ;
+	skos:prefLabel "Эфиоп тили"@ky ;
+	schema:name "Эфиоп тили"@ky ;
+	rdfs:label "Fiteny gezy"@mg ;
+	skos:prefLabel "Fiteny gezy"@mg ;
+	schema:name "Fiteny gezy"@mg ;
+	rdfs:label "吉兹语"@wuu ;
+	skos:prefLabel "吉兹语"@wuu ;
+	schema:name "吉兹语"@wuu ;
+	rdfs:label "গিয়েজ ভাষা"@bn ;
+	skos:prefLabel "গিয়েজ ভাষা"@bn ;
+	schema:name "গিয়েজ ভাষা"@bn ;
+	rdfs:label "გეეზი"@xmf ;
+	skos:prefLabel "გეეზი"@xmf ;
+	schema:name "გეეზი"@xmf ;
+	rdfs:label "ge'ez"@vec ;
+	skos:prefLabel "ge'ez"@vec ;
+	schema:name "ge'ez"@vec ;
+	rdfs:label "Chige'ezi"@sn ;
+	skos:prefLabel "Chige'ezi"@sn ;
+	schema:name "Chige'ezi"@sn ;
+	rdfs:label "Ge'ez"@ig ;
+	skos:prefLabel "Ge'ez"@ig ;
+	schema:name "Ge'ez"@ig ;
+	schema:description "lengua semítica extinta de Etiopía, antecesora del amhárico"@es,
+		"Sprache"@de,
+		"lingua semitica"@it,
+		"јазик во Етиопија"@mk,
+		"ancient Semitic language of Ethiopia"@en,
+		"taal"@nl,
+		"שפה שמית עתיקה"@he,
+		"ancienne langue sémitique d'Éthiopie ; langue liturgique"@fr,
+		"keel"@et,
+		"yezh"@br,
+		"lingua"@la,
+		"iaith"@cy,
+		"古代南闪米特语言"@zh,
+		"martwy język semicki używany w Etiopii"@pl,
+		"Eritre ve Kuzey Etiyopya'da konuşulmuş eski bir Sami dili"@tr,
+		"língua semítica"@pt,
+		"ჯვეში ობჟათე სემიტური ნინა"@xmf,
+		"Asụsụ Semitic oge ochie nke Etiopia"@ig,
+		"bagian dari rumpun bahasa Afro-Asia"@id ;
+	skos:altLabel "吉茲語"@zh,
+		"Język geez"@pl,
+		"Gyyz"@pl,
+		"ge'ez"@fr,
+		"게이즈어"@ko,
+		"에티오피아어"@ko,
+		"חבשית"@he,
+		"جعزيه"@arz,
+		"Idioma ge'ez"@es,
+		"Yehen"@es,
+		"Ge' ez"@es,
+		"Yehén"@es,
+		"lingua ge'ez"@it,
+		"lingua geez"@it,
+		"gheez"@it,
+		"geez"@it,
+		"Kige'ez"@sw,
+		"Ge'ez-Sprache"@de,
+		"Ge'ez"@de,
+		"Altäthiopisch"@de,
+		"äthiopische Sprache"@de,
+		"altäthiopische Sprache"@de,
+		"ഗീയസ്"@ml,
+		"ゲーズ語"@ja,
+		"gez"@ja,
+		"ልሣነ ግእዝ"@am,
+		"ግእዝ"@am,
+		"ልሳነ ግዕዝ"@am,
+		"Giiz"@nl,
+		"Gi-ez"@nl,
+		"Gi'iz"@nl,
+		"Ethiopisch"@nl,
+		"Geez"@nl,
+		"Geez"@sv,
+		"جعزية"@ar,
+		"لغه جعزيه"@ar,
+		"Etiópico"@pt,
+		"Ge'ez"@pt,
+		"Geeza"@eo,
+		"Geeze"@eo,
+		"Геез"@ru,
+		"Гээз"@ru,
+		"Древнеэфиопский язык"@ru,
+		"Гыыз"@ru,
+		"Геэзский язык"@ru,
+		"Эфиопский язык"@ru,
+		"Gue'ez"@ca,
+		"Ge'ez"@ca,
+		"Geez"@ca,
+		"Ge’ez"@fi,
+		"Ge'ez"@fi,
+		"Ge'ezin kieli"@fi,
+		"Aethiopice"@la,
+		"Ge'ez"@nn,
+		"Klasická etiopština"@cs,
+		"Senoji etiopų kalba"@lt,
+		"Gezų kalba"@lt,
+		"Gezas"@lt,
+		"Guiís"@an,
+		"Luenga Ge'ez"@an,
+		"Gues"@an,
+		"Guiés"@an,
+		"Geez"@en,
+		"Giʻiz"@en,
+		"Ge'ez language"@en,
+		"gez"@en,
+		"Geʽez"@en,
+		"Geez"@nb,
+		"geezi keel"@et,
+		"ჯვეშეთიოპიური ნინა"@xmf,
+		"ეთიოპიური ნინა"@xmf,
+		"გეეზური ნინა"@xmf,
+		"геєз"@uk .
+
+wd:Q31448498 owl:sameAs wd:Q35667 .

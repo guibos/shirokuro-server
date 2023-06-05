@@ -1,0 +1,389 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6699890 a schema:Dataset ;
+	schema:about wd:Q6699890 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912150235"^^xsd:integer ;
+	schema:dateModified "2023-06-10T11:03:36Z"^^xsd:dateTime .
+
+wd:Q6699890 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Luhu> a schema:Article ;
+	schema:about wd:Q6699890 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Luhu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Luhu> a schema:Article ;
+	schema:about wd:Q6699890 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Luhu"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9B%D1%83%D1%85%D1%83> a schema:Article ;
+	schema:about wd:Q6699890 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Луху"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiluhu> a schema:Article ;
+	schema:about wd:Q6699890 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiluhu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Luhu_language> a schema:Article ;
+	schema:about wd:Q6699890 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Luhu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Luhun_kieli> a schema:Article ;
+	schema:about wd:Q6699890 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Luhun kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Luhu> a schema:Article ;
+	schema:about wd:Q6699890 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Luhu"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_luhu> a schema:Article ;
+	schema:about wd:Q6699890 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język luhu"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6699890 wdt:P220 "lcq" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lcq> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "luhu1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/luhu1243> ;
+	wdt:P276 wd:Q24341337 ;
+	wdt:P910 wd:Q33669910 ;
+	wdt:P279 wd:Q7198118 ;
+	wdt:P305 "lcq" ;
+	wdt:P1627 "lcq" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2341 wd:Q5093 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LCQ> ;
+	wdt:P646 "/m/02hxbqf" ;
+	rdfs:label "Luhu"@en ;
+	skos:prefLabel "Luhu"@en ;
+	schema:name "Luhu"@en ;
+	rdfs:label "Lenga Luhu"@pms ;
+	skos:prefLabel "Lenga Luhu"@pms ;
+	schema:name "Lenga Luhu"@pms ;
+	rdfs:label "Луху"@ru ;
+	skos:prefLabel "Луху"@ru ;
+	schema:name "Луху"@ru ;
+	rdfs:label "Kiluhu"@sw ;
+	skos:prefLabel "Kiluhu"@sw ;
+	schema:name "Kiluhu"@sw ;
+	rdfs:label "Luhun kieli"@fi ;
+	skos:prefLabel "Luhun kieli"@fi ;
+	schema:name "Luhun kieli"@fi ;
+	rdfs:label "Luhu"@id ;
+	skos:prefLabel "Luhu"@id ;
+	schema:name "Luhu"@id ;
+	rdfs:label "Luhu"@ace ;
+	skos:prefLabel "Luhu"@ace ;
+	schema:name "Luhu"@ace ;
+	rdfs:label "Luhu"@af ;
+	skos:prefLabel "Luhu"@af ;
+	schema:name "Luhu"@af ;
+	rdfs:label "Luhu"@an ;
+	skos:prefLabel "Luhu"@an ;
+	schema:name "Luhu"@an ;
+	rdfs:label "Luhu"@ast ;
+	skos:prefLabel "Luhu"@ast ;
+	schema:name "Luhu"@ast ;
+	rdfs:label "Luhu"@bar ;
+	skos:prefLabel "Luhu"@bar ;
+	schema:name "Luhu"@bar ;
+	rdfs:label "luhu"@br ;
+	skos:prefLabel "luhu"@br ;
+	schema:name "luhu"@br ;
+	rdfs:label "luhu"@ca ;
+	skos:prefLabel "luhu"@ca ;
+	schema:name "luhu"@ca ;
+	rdfs:label "Luhu"@co ;
+	skos:prefLabel "Luhu"@co ;
+	schema:name "Luhu"@co ;
+	rdfs:label "Luhu"@cs ;
+	skos:prefLabel "Luhu"@cs ;
+	schema:name "Luhu"@cs ;
+	rdfs:label "Luhu"@cy ;
+	skos:prefLabel "Luhu"@cy ;
+	schema:name "Luhu"@cy ;
+	rdfs:label "Luhu"@da ;
+	skos:prefLabel "Luhu"@da ;
+	schema:name "Luhu"@da ;
+	rdfs:label "Luhu"@de ;
+	skos:prefLabel "Luhu"@de ;
+	schema:name "Luhu"@de ;
+	rdfs:label "Luhu"@de-at ;
+	skos:prefLabel "Luhu"@de-at ;
+	schema:name "Luhu"@de-at ;
+	rdfs:label "Luhu"@de-ch ;
+	skos:prefLabel "Luhu"@de-ch ;
+	schema:name "Luhu"@de-ch ;
+	rdfs:label "Luhu"@en-ca ;
+	skos:prefLabel "Luhu"@en-ca ;
+	schema:name "Luhu"@en-ca ;
+	rdfs:label "Luhu"@en-gb ;
+	skos:prefLabel "Luhu"@en-gb ;
+	schema:name "Luhu"@en-gb ;
+	rdfs:label "Luhu"@eo ;
+	skos:prefLabel "Luhu"@eo ;
+	schema:name "Luhu"@eo ;
+	rdfs:label "Luhu"@es ;
+	skos:prefLabel "Luhu"@es ;
+	schema:name "Luhu"@es ;
+	rdfs:label "Luhu"@et ;
+	skos:prefLabel "Luhu"@et ;
+	schema:name "Luhu"@et ;
+	rdfs:label "Luhu"@eu ;
+	skos:prefLabel "Luhu"@eu ;
+	schema:name "Luhu"@eu ;
+	rdfs:label "luhu"@fr ;
+	skos:prefLabel "luhu"@fr ;
+	schema:name "luhu"@fr ;
+	rdfs:label "Luhu"@frp ;
+	skos:prefLabel "Luhu"@frp ;
+	schema:name "Luhu"@frp ;
+	rdfs:label "Luhu"@fur ;
+	skos:prefLabel "Luhu"@fur ;
+	schema:name "Luhu"@fur ;
+	rdfs:label "Luhu"@ga ;
+	skos:prefLabel "Luhu"@ga ;
+	schema:name "Luhu"@ga ;
+	rdfs:label "Luhu"@gd ;
+	skos:prefLabel "Luhu"@gd ;
+	schema:name "Luhu"@gd ;
+	rdfs:label "Luhu"@gl ;
+	skos:prefLabel "Luhu"@gl ;
+	schema:name "Luhu"@gl ;
+	rdfs:label "Luhu"@gsw ;
+	skos:prefLabel "Luhu"@gsw ;
+	schema:name "Luhu"@gsw ;
+	rdfs:label "Luhu"@hr ;
+	skos:prefLabel "Luhu"@hr ;
+	schema:name "Luhu"@hr ;
+	rdfs:label "Luhu"@hu ;
+	skos:prefLabel "Luhu"@hu ;
+	schema:name "Luhu"@hu ;
+	rdfs:label "Luhu"@ia ;
+	skos:prefLabel "Luhu"@ia ;
+	schema:name "Luhu"@ia ;
+	rdfs:label "Luhu"@ie ;
+	skos:prefLabel "Luhu"@ie ;
+	schema:name "Luhu"@ie ;
+	rdfs:label "Luhu"@io ;
+	skos:prefLabel "Luhu"@io ;
+	schema:name "Luhu"@io ;
+	rdfs:label "Luhu"@is ;
+	skos:prefLabel "Luhu"@is ;
+	schema:name "Luhu"@is ;
+	rdfs:label "luhu"@it ;
+	skos:prefLabel "luhu"@it ;
+	schema:name "luhu"@it ;
+	rdfs:label "Luhu"@jv ;
+	skos:prefLabel "Luhu"@jv ;
+	schema:name "Luhu"@jv ;
+	rdfs:label "Luhu"@kg ;
+	skos:prefLabel "Luhu"@kg ;
+	schema:name "Luhu"@kg ;
+	rdfs:label "Luhu"@lb ;
+	skos:prefLabel "Luhu"@lb ;
+	schema:name "Luhu"@lb ;
+	rdfs:label "Luhu"@li ;
+	skos:prefLabel "Luhu"@li ;
+	schema:name "Luhu"@li ;
+	rdfs:label "Luhu"@lij ;
+	skos:prefLabel "Luhu"@lij ;
+	schema:name "Luhu"@lij ;
+	rdfs:label "Luhu"@mg ;
+	skos:prefLabel "Luhu"@mg ;
+	schema:name "Luhu"@mg ;
+	rdfs:label "Luhu"@min ;
+	skos:prefLabel "Luhu"@min ;
+	schema:name "Luhu"@min ;
+	rdfs:label "Luhu"@ms ;
+	skos:prefLabel "Luhu"@ms ;
+	schema:name "Luhu"@ms ;
+	rdfs:label "Luhu"@nap ;
+	skos:prefLabel "Luhu"@nap ;
+	schema:name "Luhu"@nap ;
+	rdfs:label "Luhu"@nb ;
+	skos:prefLabel "Luhu"@nb ;
+	schema:name "Luhu"@nb ;
+	rdfs:label "Luhu"@nds ;
+	skos:prefLabel "Luhu"@nds ;
+	schema:name "Luhu"@nds ;
+	rdfs:label "Luhu"@nds-nl ;
+	skos:prefLabel "Luhu"@nds-nl ;
+	schema:name "Luhu"@nds-nl ;
+	rdfs:label "Luhu"@nl ;
+	skos:prefLabel "Luhu"@nl ;
+	schema:name "Luhu"@nl ;
+	rdfs:label "Luhu"@nn ;
+	skos:prefLabel "Luhu"@nn ;
+	schema:name "Luhu"@nn ;
+	rdfs:label "Luhu"@nrm ;
+	skos:prefLabel "Luhu"@nrm ;
+	schema:name "Luhu"@nrm ;
+	rdfs:label "Luhu"@oc ;
+	skos:prefLabel "Luhu"@oc ;
+	schema:name "Luhu"@oc ;
+	rdfs:label "Luhu"@pcd ;
+	skos:prefLabel "Luhu"@pcd ;
+	schema:name "Luhu"@pcd ;
+	rdfs:label "język luhu"@pl ;
+	skos:prefLabel "język luhu"@pl ;
+	schema:name "język luhu"@pl ;
+	rdfs:label "Luhu"@pt ;
+	skos:prefLabel "Luhu"@pt ;
+	schema:name "Luhu"@pt ;
+	rdfs:label "Luhu"@pt-br ;
+	skos:prefLabel "Luhu"@pt-br ;
+	schema:name "Luhu"@pt-br ;
+	rdfs:label "Luhu"@rm ;
+	skos:prefLabel "Luhu"@rm ;
+	schema:name "Luhu"@rm ;
+	rdfs:label "Luhu"@ro ;
+	skos:prefLabel "Luhu"@ro ;
+	schema:name "Luhu"@ro ;
+	rdfs:label "Luhu"@sc ;
+	skos:prefLabel "Luhu"@sc ;
+	schema:name "Luhu"@sc ;
+	rdfs:label "Luhu"@scn ;
+	skos:prefLabel "Luhu"@scn ;
+	schema:name "Luhu"@scn ;
+	rdfs:label "Luhu"@sco ;
+	skos:prefLabel "Luhu"@sco ;
+	schema:name "Luhu"@sco ;
+	rdfs:label "Luhu"@sk ;
+	skos:prefLabel "Luhu"@sk ;
+	schema:name "Luhu"@sk ;
+	rdfs:label "Luhu"@sl ;
+	skos:prefLabel "Luhu"@sl ;
+	schema:name "Luhu"@sl ;
+	rdfs:label "Luhu"@sr-el ;
+	skos:prefLabel "Luhu"@sr-el ;
+	schema:name "Luhu"@sr-el ;
+	rdfs:label "Luhu"@su ;
+	skos:prefLabel "Luhu"@su ;
+	schema:name "Luhu"@su ;
+	rdfs:label "Luhu"@sv ;
+	skos:prefLabel "Luhu"@sv ;
+	schema:name "Luhu"@sv ;
+	rdfs:label "Luhu"@vec ;
+	skos:prefLabel "Luhu"@vec ;
+	schema:name "Luhu"@vec ;
+	rdfs:label "Luhu"@vi ;
+	skos:prefLabel "Luhu"@vi ;
+	schema:name "Luhu"@vi ;
+	rdfs:label "Luhu"@vls ;
+	skos:prefLabel "Luhu"@vls ;
+	schema:name "Luhu"@vls ;
+	rdfs:label "Luhu"@vo ;
+	skos:prefLabel "Luhu"@vo ;
+	schema:name "Luhu"@vo ;
+	rdfs:label "Luhu"@wa ;
+	skos:prefLabel "Luhu"@wa ;
+	schema:name "Luhu"@wa ;
+	rdfs:label "Luhu"@wo ;
+	skos:prefLabel "Luhu"@wo ;
+	schema:name "Luhu"@wo ;
+	rdfs:label "Luhu"@zu ;
+	skos:prefLabel "Luhu"@zu ;
+	schema:name "Luhu"@zu ;
+	rdfs:label "Luhu"@ilo ;
+	skos:prefLabel "Luhu"@ilo ;
+	schema:name "Luhu"@ilo ;
+	rdfs:label "Wikang Luhu"@tl ;
+	skos:prefLabel "Wikang Luhu"@tl ;
+	schema:name "Wikang Luhu"@tl ;
+	rdfs:label "魯胡語"@zh-hant ;
+	skos:prefLabel "魯胡語"@zh-hant ;
+	schema:name "魯胡語"@zh-hant ;
+	rdfs:label "鲁胡语"@zh-cn ;
+	skos:prefLabel "鲁胡语"@zh-cn ;
+	schema:name "鲁胡语"@zh-cn ;
+	rdfs:label "鲁胡语"@zh-hans ;
+	skos:prefLabel "鲁胡语"@zh-hans ;
+	schema:name "鲁胡语"@zh-hans ;
+	rdfs:label "鲁胡语"@zh ;
+	skos:prefLabel "鲁胡语"@zh ;
+	schema:name "鲁胡语"@zh ;
+	schema:description "Sprache"@de,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"pagsasao idiay Indonesia"@ilo,
+		"שפה"@he,
+		"langue maluku central"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl ;
+	skos:altLabel "bahasa Luhu"@id,
+		"Luhu language"@en,
+		"język loehoe"@pl,
+		"język piru"@pl,
+		"język piru-luhu"@pl .
+
+wd:Q31441706 owl:sameAs wd:Q6699890 .

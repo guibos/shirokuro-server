@@ -1,0 +1,110 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q13018541 a schema:Dataset ;
+	schema:about wd:Q13018541 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1520307628"^^xsd:integer ;
+	schema:dateModified "2021-10-31T22:12:40Z"^^xsd:dateTime .
+
+wd:Q13018541 a wikibase:Item .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%9B%E0%B8%99%E0%B8%B1%E0%B8%99%E0%B8%95%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%81> a schema:Article ;
+	schema:about wd:Q13018541 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาปนันตะวันออก"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_penan_oriental> a schema:Article ;
+	schema:about wd:Q13018541 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga penan oriental"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kipenan-Mashariki> a schema:Article ;
+	schema:about wd:Q13018541 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kipenan-Mashariki"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q13018541 wdt:P220 "pez" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pez> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "east2485" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/east2485> ;
+	wdt:P279 wd:Q13601748 ;
+	wdt:P910 wd:Q33669714 ;
+	wdt:P2192 "1127" ;
+	wdt:P305 "pez" ;
+	wdt:P1627 "pez" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q921,
+		wd:Q833 ;
+	wdt:P2341 wd:Q40395,
+		wd:Q170462 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PEZ> ;
+	rdfs:label "ภาษาปนันตะวันออก"@th ;
+	skos:prefLabel "ภาษาปนันตะวันออก"@th ;
+	schema:name "ภาษาปนันตะวันออก"@th ;
+	rdfs:label "Kipenan-Mashariki"@sw ;
+	skos:prefLabel "Kipenan-Mashariki"@sw ;
+	schema:name "Kipenan-Mashariki"@sw ;
+	rdfs:label "Lenga penan oriental"@pms ;
+	skos:prefLabel "Lenga penan oriental"@pms ;
+	schema:name "Lenga penan oriental"@pms ;
+	rdfs:label "East Penan"@en ;
+	skos:prefLabel "East Penan"@en ;
+	schema:name "East Penan"@en ;
+	rdfs:label "penan de l'Est"@fr ;
+	skos:prefLabel "penan de l'Est"@fr ;
+	schema:name "penan de l'Est"@fr ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue malayo-polynésienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Eastern Penan language"@en,
+		"East Penan language"@en .
+
+wd:Q18638342 owl:sameAs wd:Q13018541 .

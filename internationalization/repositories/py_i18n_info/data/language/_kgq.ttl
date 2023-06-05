@@ -1,0 +1,407 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6359001 a schema:Dataset ;
+	schema:about wd:Q6359001 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912129565"^^xsd:integer ;
+	schema:dateModified "2023-06-10T10:33:27Z"^^xsd:dateTime .
+
+wd:Q6359001 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Kamoro_language> a schema:Article ;
+	schema:about wd:Q6359001 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kamoro language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kamoro> a schema:Article ;
+	schema:about wd:Q6359001 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kamoro"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikamoro> a schema:Article ;
+	schema:about wd:Q6359001 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikamoro"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Kamoro_jezik> a schema:Article ;
+	schema:about wd:Q6359001 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Kamoro jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Kamoro> a schema:Article ;
+	schema:about wd:Q6359001 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Kamoro"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Kamoro> a schema:Article ;
+	schema:about wd:Q6359001 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Kamoro"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Kamoro> a schema:Article ;
+	schema:about wd:Q6359001 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Kamoro"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_kamoro> a schema:Article ;
+	schema:about wd:Q6359001 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język kamoro"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6359001 wdt:P220 "kgq" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kgq> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kamo1255" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kamo1255> ;
+	wdt:P279 wd:Q3031400 ;
+	wdt:P1098 "+8000"^^xsd:decimal ;
+	wdt:P2590 "0982 6" ;
+	wdt:P1705 "bahasa Kamoro"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P1466 "kmr" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_kmr> ;
+	wdt:P305 "kgq" ;
+	wdt:P1627 "kgq" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q5095,
+		wd:Q5096 ;
+	wdt:P646 "/m/02hx1ln" ;
+	rdfs:label "Kamoro"@en ;
+	skos:prefLabel "Kamoro"@en ;
+	schema:name "Kamoro"@en ;
+	rdfs:label "Lenga Kamoro"@pms ;
+	skos:prefLabel "Lenga Kamoro"@pms ;
+	schema:name "Lenga Kamoro"@pms ;
+	rdfs:label "Kikamoro"@sw ;
+	skos:prefLabel "Kikamoro"@sw ;
+	schema:name "Kikamoro"@sw ;
+	rdfs:label "Język kamoro"@pl ;
+	skos:prefLabel "Język kamoro"@pl ;
+	schema:name "Język kamoro"@pl ;
+	rdfs:label "Kamoro"@id ;
+	skos:prefLabel "Kamoro"@id ;
+	schema:name "Kamoro"@id ;
+	rdfs:label "Kamora"@ace ;
+	skos:prefLabel "Kamora"@ace ;
+	schema:name "Kamora"@ace ;
+	rdfs:label "Kamora"@af ;
+	skos:prefLabel "Kamora"@af ;
+	schema:name "Kamora"@af ;
+	rdfs:label "Kamora"@an ;
+	skos:prefLabel "Kamora"@an ;
+	schema:name "Kamora"@an ;
+	rdfs:label "Kamora"@ast ;
+	skos:prefLabel "Kamora"@ast ;
+	schema:name "Kamora"@ast ;
+	rdfs:label "Kamora"@bar ;
+	skos:prefLabel "Kamora"@bar ;
+	schema:name "Kamora"@bar ;
+	rdfs:label "kamora"@br ;
+	skos:prefLabel "kamora"@br ;
+	schema:name "kamora"@br ;
+	rdfs:label "kamora"@ca ;
+	skos:prefLabel "kamora"@ca ;
+	schema:name "kamora"@ca ;
+	rdfs:label "Kamora"@co ;
+	skos:prefLabel "Kamora"@co ;
+	schema:name "Kamora"@co ;
+	rdfs:label "Kamora"@cs ;
+	skos:prefLabel "Kamora"@cs ;
+	schema:name "Kamora"@cs ;
+	rdfs:label "Kamora"@cy ;
+	skos:prefLabel "Kamora"@cy ;
+	schema:name "Kamora"@cy ;
+	rdfs:label "Kamora"@da ;
+	skos:prefLabel "Kamora"@da ;
+	schema:name "Kamora"@da ;
+	rdfs:label "Kamora"@de ;
+	skos:prefLabel "Kamora"@de ;
+	schema:name "Kamora"@de ;
+	rdfs:label "Kamora"@de-at ;
+	skos:prefLabel "Kamora"@de-at ;
+	schema:name "Kamora"@de-at ;
+	rdfs:label "Kamora"@de-ch ;
+	skos:prefLabel "Kamora"@de-ch ;
+	schema:name "Kamora"@de-ch ;
+	rdfs:label "Kamora"@en-ca ;
+	skos:prefLabel "Kamora"@en-ca ;
+	schema:name "Kamora"@en-ca ;
+	rdfs:label "Kamora"@en-gb ;
+	skos:prefLabel "Kamora"@en-gb ;
+	schema:name "Kamora"@en-gb ;
+	rdfs:label "Kamora"@eo ;
+	skos:prefLabel "Kamora"@eo ;
+	schema:name "Kamora"@eo ;
+	rdfs:label "Kamora"@es ;
+	skos:prefLabel "Kamora"@es ;
+	schema:name "Kamora"@es ;
+	rdfs:label "Kamora"@et ;
+	skos:prefLabel "Kamora"@et ;
+	schema:name "Kamora"@et ;
+	rdfs:label "Kamora"@eu ;
+	skos:prefLabel "Kamora"@eu ;
+	schema:name "Kamora"@eu ;
+	rdfs:label "Kamora"@fi ;
+	skos:prefLabel "Kamora"@fi ;
+	schema:name "Kamora"@fi ;
+	rdfs:label "kamora"@fr ;
+	skos:prefLabel "kamora"@fr ;
+	schema:name "kamora"@fr ;
+	rdfs:label "Kamora"@frp ;
+	skos:prefLabel "Kamora"@frp ;
+	schema:name "Kamora"@frp ;
+	rdfs:label "Kamora"@fur ;
+	skos:prefLabel "Kamora"@fur ;
+	schema:name "Kamora"@fur ;
+	rdfs:label "Kamora"@ga ;
+	skos:prefLabel "Kamora"@ga ;
+	schema:name "Kamora"@ga ;
+	rdfs:label "Kamora"@gd ;
+	skos:prefLabel "Kamora"@gd ;
+	schema:name "Kamora"@gd ;
+	rdfs:label "Kamora"@gl ;
+	skos:prefLabel "Kamora"@gl ;
+	schema:name "Kamora"@gl ;
+	rdfs:label "Kamora"@gsw ;
+	skos:prefLabel "Kamora"@gsw ;
+	schema:name "Kamora"@gsw ;
+	rdfs:label "Kamora"@hr ;
+	skos:prefLabel "Kamora"@hr ;
+	schema:name "Kamora"@hr ;
+	rdfs:label "Kamora"@hu ;
+	skos:prefLabel "Kamora"@hu ;
+	schema:name "Kamora"@hu ;
+	rdfs:label "Kamora"@ia ;
+	skos:prefLabel "Kamora"@ia ;
+	schema:name "Kamora"@ia ;
+	rdfs:label "Kamora"@ie ;
+	skos:prefLabel "Kamora"@ie ;
+	schema:name "Kamora"@ie ;
+	rdfs:label "Kamora"@io ;
+	skos:prefLabel "Kamora"@io ;
+	schema:name "Kamora"@io ;
+	rdfs:label "Kamora"@is ;
+	skos:prefLabel "Kamora"@is ;
+	schema:name "Kamora"@is ;
+	rdfs:label "kamora"@it ;
+	skos:prefLabel "kamora"@it ;
+	schema:name "kamora"@it ;
+	rdfs:label "Kamora"@jv ;
+	skos:prefLabel "Kamora"@jv ;
+	schema:name "Kamora"@jv ;
+	rdfs:label "Kamora"@kg ;
+	skos:prefLabel "Kamora"@kg ;
+	schema:name "Kamora"@kg ;
+	rdfs:label "Kamora"@lb ;
+	skos:prefLabel "Kamora"@lb ;
+	schema:name "Kamora"@lb ;
+	rdfs:label "Kamora"@li ;
+	skos:prefLabel "Kamora"@li ;
+	schema:name "Kamora"@li ;
+	rdfs:label "Kamora"@lij ;
+	skos:prefLabel "Kamora"@lij ;
+	schema:name "Kamora"@lij ;
+	rdfs:label "Kamora"@mg ;
+	skos:prefLabel "Kamora"@mg ;
+	schema:name "Kamora"@mg ;
+	rdfs:label "Kamora"@min ;
+	skos:prefLabel "Kamora"@min ;
+	schema:name "Kamora"@min ;
+	rdfs:label "Kamora"@ms ;
+	skos:prefLabel "Kamora"@ms ;
+	schema:name "Kamora"@ms ;
+	rdfs:label "Kamora"@nap ;
+	skos:prefLabel "Kamora"@nap ;
+	schema:name "Kamora"@nap ;
+	rdfs:label "Kamora"@nb ;
+	skos:prefLabel "Kamora"@nb ;
+	schema:name "Kamora"@nb ;
+	rdfs:label "Kamora"@nds ;
+	skos:prefLabel "Kamora"@nds ;
+	schema:name "Kamora"@nds ;
+	rdfs:label "Kamora"@nds-nl ;
+	skos:prefLabel "Kamora"@nds-nl ;
+	schema:name "Kamora"@nds-nl ;
+	rdfs:label "Kamora"@nl ;
+	skos:prefLabel "Kamora"@nl ;
+	schema:name "Kamora"@nl ;
+	rdfs:label "Kamora"@nn ;
+	skos:prefLabel "Kamora"@nn ;
+	schema:name "Kamora"@nn ;
+	rdfs:label "Kamora"@nrm ;
+	skos:prefLabel "Kamora"@nrm ;
+	schema:name "Kamora"@nrm ;
+	rdfs:label "Kamora"@oc ;
+	skos:prefLabel "Kamora"@oc ;
+	schema:name "Kamora"@oc ;
+	rdfs:label "Kamora"@pcd ;
+	skos:prefLabel "Kamora"@pcd ;
+	schema:name "Kamora"@pcd ;
+	rdfs:label "Kamora"@pt ;
+	skos:prefLabel "Kamora"@pt ;
+	schema:name "Kamora"@pt ;
+	rdfs:label "Kamora"@pt-br ;
+	skos:prefLabel "Kamora"@pt-br ;
+	schema:name "Kamora"@pt-br ;
+	rdfs:label "Kamora"@rm ;
+	skos:prefLabel "Kamora"@rm ;
+	schema:name "Kamora"@rm ;
+	rdfs:label "Kamora"@ro ;
+	skos:prefLabel "Kamora"@ro ;
+	schema:name "Kamora"@ro ;
+	rdfs:label "Kamora"@sc ;
+	skos:prefLabel "Kamora"@sc ;
+	schema:name "Kamora"@sc ;
+	rdfs:label "Kamora"@scn ;
+	skos:prefLabel "Kamora"@scn ;
+	schema:name "Kamora"@scn ;
+	rdfs:label "Kamora"@sco ;
+	skos:prefLabel "Kamora"@sco ;
+	schema:name "Kamora"@sco ;
+	rdfs:label "Kamora"@sk ;
+	skos:prefLabel "Kamora"@sk ;
+	schema:name "Kamora"@sk ;
+	rdfs:label "Kamora"@sl ;
+	skos:prefLabel "Kamora"@sl ;
+	schema:name "Kamora"@sl ;
+	rdfs:label "Kamora"@sr-el ;
+	skos:prefLabel "Kamora"@sr-el ;
+	schema:name "Kamora"@sr-el ;
+	rdfs:label "Kamora"@su ;
+	skos:prefLabel "Kamora"@su ;
+	schema:name "Kamora"@su ;
+	rdfs:label "Kamora"@sv ;
+	skos:prefLabel "Kamora"@sv ;
+	schema:name "Kamora"@sv ;
+	rdfs:label "Kamora"@vec ;
+	skos:prefLabel "Kamora"@vec ;
+	schema:name "Kamora"@vec ;
+	rdfs:label "Kamora"@vi ;
+	skos:prefLabel "Kamora"@vi ;
+	schema:name "Kamora"@vi ;
+	rdfs:label "Kamora"@vls ;
+	skos:prefLabel "Kamora"@vls ;
+	schema:name "Kamora"@vls ;
+	rdfs:label "Kamora"@vo ;
+	skos:prefLabel "Kamora"@vo ;
+	schema:name "Kamora"@vo ;
+	rdfs:label "Kamora"@wa ;
+	skos:prefLabel "Kamora"@wa ;
+	schema:name "Kamora"@wa ;
+	rdfs:label "Kamora"@wo ;
+	skos:prefLabel "Kamora"@wo ;
+	schema:name "Kamora"@wo ;
+	rdfs:label "Kamora"@zu ;
+	skos:prefLabel "Kamora"@zu ;
+	schema:name "Kamora"@zu ;
+	rdfs:label "Kamoro"@ilo ;
+	skos:prefLabel "Kamoro"@ilo ;
+	schema:name "Kamoro"@ilo ;
+	rdfs:label "卡莫羅語"@zh-hant ;
+	skos:prefLabel "卡莫羅語"@zh-hant ;
+	schema:name "卡莫羅語"@zh-hant ;
+	rdfs:label "卡莫罗语"@zh-cn ;
+	skos:prefLabel "卡莫罗语"@zh-cn ;
+	schema:name "卡莫罗语"@zh-cn ;
+	rdfs:label "Tataramon na Kamoro"@bcl ;
+	skos:prefLabel "Tataramon na Kamoro"@bcl ;
+	schema:name "Tataramon na Kamoro"@bcl ;
+	rdfs:label "卡莫罗语"@zh-hans ;
+	skos:prefLabel "卡莫罗语"@zh-hans ;
+	schema:name "卡莫罗语"@zh-hans ;
+	rdfs:label "卡莫罗语"@zh ;
+	skos:prefLabel "卡莫罗语"@zh ;
+	schema:name "卡莫罗语"@zh ;
+	schema:description "Sprache"@de,
+		"bagian dari rumpun bahasa Papua"@id,
+		"Trans-New Guinea language in Papua"@en,
+		"pagsasao idiay Indonesia"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"język z grupy papuaskiej"@pl ;
+	skos:altLabel "Kamoro language"@en,
+		"Kamora"@en,
+		"Kamora"@pl,
+		"Kamora"@pms,
+		"Kamora"@sw,
+		"Kaokonau"@id,
+		"Lakahia"@id,
+		"Mimika"@id,
+		"Mukamuga"@id,
+		"Nafarpi"@id,
+		"Nagramadu"@id,
+		"Nefarpi"@id,
+		"Neferipi"@id,
+		"Kamora"@id,
+		"Umar"@id,
+		"Umari"@id,
+		"Kamoro jezik"@hr .
+
+wd:Q12952557 owl:sameAs wd:Q6359001 .
+
+wd:Q16113368 owl:sameAs wd:Q6359001 .
+
+wd:Q16564517 owl:sameAs wd:Q6359001 .
+
+wd:Q25932572 owl:sameAs wd:Q6359001 .

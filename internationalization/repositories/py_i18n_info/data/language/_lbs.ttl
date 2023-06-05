@@ -1,0 +1,151 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11775688 a schema:Dataset ;
+	schema:about wd:Q11775688 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1810889168"^^xsd:integer ;
+	schema:dateModified "2023-01-13T18:53:42Z"^^xsd:dateTime .
+
+wd:Q11775688 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Langue_des_signes_libyenne> a schema:Article ;
+	schema:about wd:Q11775688 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Langue des signes libyenne"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_dij_segn_dla_Libia> a schema:Article ;
+	schema:about wd:Q11775688 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga dij segn dla Libia"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D8%A5%D8%B4%D8%A7%D8%B1%D8%A9_%D8%A7%D9%84%D9%84%D9%8A%D8%A8%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q11775688 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "لغة الإشارة الليبية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Libyan_Sign_Language> a schema:Article ;
+	schema:about wd:Q11775688 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Libyan Sign Language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sc.wikipedia.org/wiki/Limba_de_sos_Sinnos_L%C3%ACbica> a schema:Article ;
+	schema:about wd:Q11775688 ;
+	schema:inLanguage "sc" ;
+	schema:isPartOf <https://sc.wikipedia.org/> ;
+	schema:name "Limba de sos Sinnos Lìbica"@sc .
+
+<https://sc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%A7%D8%B4%D8%A7%D8%B1%D9%87_%D9%84%DB%8C%D8%A8%DB%8C%D8%A7%DB%8C%DB%8C> a schema:Article ;
+	schema:about wd:Q11775688 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان اشاره لیبیایی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-min-nan.wikipedia.org/wiki/Libia_chhi%C3%BA-g%C3%BA> a schema:Article ;
+	schema:about wd:Q11775688 ;
+	schema:inLanguage "nan" ;
+	schema:isPartOf <https://zh-min-nan.wikipedia.org/> ;
+	schema:name "Libia chhiú-gú"@nan .
+
+<https://zh-min-nan.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11775688 wdt:P220 "lbs" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lbs> ;
+	wdt:P31 wd:Q34228 ;
+	wdt:P305 "lbs" ;
+	wdt:P1394 "liby1235" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/liby1235> ;
+	wdt:P279 wd:Q11722502 ;
+	wdt:P17 wd:Q1016 ;
+	wdt:P1627 "lbs" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LBS> ;
+	wdt:P646 "/m/02hwynr" ;
+	wdt:P910 wd:Q105715599 ;
+	rdfs:label "Libyan Sign Language"@en ;
+	skos:prefLabel "Libyan Sign Language"@en ;
+	schema:name "Libyan Sign Language"@en ;
+	rdfs:label "langue des signes libyenne"@fr ;
+	skos:prefLabel "langue des signes libyenne"@fr ;
+	schema:name "langue des signes libyenne"@fr ;
+	rdfs:label "Lenga dij segn dla Libia"@pms ;
+	skos:prefLabel "Lenga dij segn dla Libia"@pms ;
+	schema:name "Lenga dij segn dla Libia"@pms ;
+	rdfs:label "Limba de sos Sinnos Lìbica"@sc ;
+	skos:prefLabel "Limba de sos Sinnos Lìbica"@sc ;
+	schema:name "Limba de sos Sinnos Lìbica"@sc ;
+	rdfs:label "لغة الإشارة الليبية"@ar ;
+	skos:prefLabel "لغة الإشارة الليبية"@ar ;
+	schema:name "لغة الإشارة الليبية"@ar ;
+	rdfs:label "libia signolingvo"@eo ;
+	skos:prefLabel "libia signolingvo"@eo ;
+	schema:name "libia signolingvo"@eo ;
+	rdfs:label "Libyan Sign Language"@en-gb ;
+	skos:prefLabel "Libyan Sign Language"@en-gb ;
+	schema:name "Libyan Sign Language"@en-gb ;
+	rdfs:label "lingua de sinia libi"@lfn ;
+	skos:prefLabel "lingua de sinia libi"@lfn ;
+	schema:name "lingua de sinia libi"@lfn ;
+	rdfs:label "Libysche Gebärdensprache"@de ;
+	skos:prefLabel "Libysche Gebärdensprache"@de ;
+	schema:name "Libysche Gebärdensprache"@de ;
+	rdfs:label "リビア手話"@ja ;
+	skos:prefLabel "リビア手話"@ja ;
+	schema:name "リビア手話"@ja ;
+	rdfs:label "زبان اشاره لیبیایی"@fa ;
+	skos:prefLabel "زبان اشاره لیبیایی"@fa ;
+	schema:name "زبان اشاره لیبیایی"@fa ;
+	rdfs:label "Libia chhiú-gú"@nan ;
+	skos:prefLabel "Libia chhiú-gú"@nan ;
+	schema:name "Libia chhiú-gú"@nan ;
+	rdfs:label "toki luka Lipija"@tok ;
+	skos:prefLabel "toki luka Lipija"@tok ;
+	schema:name "toki luka Lipija"@tok ;
+	schema:description "زبان اشاره"@fa,
+		"Deaf sign language of Libya"@en,
+		"toki luka pi ma Lipija"@tok .

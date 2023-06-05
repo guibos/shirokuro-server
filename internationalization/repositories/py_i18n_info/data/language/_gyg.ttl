@@ -1,0 +1,114 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11137618 a schema:Dataset ;
+	schema:about wd:Q11137618 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1368822083"^^xsd:integer ;
+	schema:dateModified "2021-02-24T05:23:04Z"^^xsd:dateTime .
+
+wd:Q11137618 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Gbayi> a schema:Article ;
+	schema:about wd:Q11137618 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Gbayi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigbayi> a schema:Article ;
+	schema:about wd:Q11137618 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigbayi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Gbayi> a schema:Article ;
+	schema:about wd:Q11137618 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Gbayi"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11137618 wdt:P220 "gyg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gyg> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1098 "+5000"^^xsd:decimal ;
+	wdt:P279 wd:Q36439 ;
+	wdt:P1394 "gbay1278" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gbay1278> ;
+	wdt:P2192 "5995" ;
+	wdt:P910 wd:Q33661888 ;
+	wdt:P305 "gyg" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P1627 "gyg" ;
+	wdt:P17 wd:Q929 ;
+	wdt:P2341 wd:Q810484,
+		wd:Q848596,
+		wd:Q848582 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GYG> ;
+	wdt:P2671 "/g/11cls_17dm" ;
+	wdtn:P2671 <http://g.co/kg/g/11cls_17dm> ;
+	rdfs:label "Kigbayi"@sw ;
+	skos:prefLabel "Kigbayi"@sw ;
+	schema:name "Kigbayi"@sw ;
+	rdfs:label "Lenga Gbayi"@pms ;
+	skos:prefLabel "Lenga Gbayi"@pms ;
+	schema:name "Lenga Gbayi"@pms ;
+	rdfs:label "Gbayi"@en ;
+	skos:prefLabel "Gbayi"@en ;
+	schema:name "Gbayi"@en ;
+	rdfs:label "Gbayi"@en-gb ;
+	skos:prefLabel "Gbayi"@en-gb ;
+	schema:name "Gbayi"@en-gb ;
+	rdfs:label "gbayi"@fr ;
+	skos:prefLabel "gbayi"@fr ;
+	schema:name "gbayi"@fr ;
+	schema:description "Sprache"@de,
+		"language of the Central African Republic"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"langue oubanguienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Gbayi language"@en .
+
+wd:Q17522666 owl:sameAs wd:Q11137618 .
+
+wd:Q50934942 owl:sameAs wd:Q11137618 .

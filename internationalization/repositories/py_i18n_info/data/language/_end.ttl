@@ -1,0 +1,400 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2067656 a schema:Dataset ;
+	schema:about wd:Q2067656 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912464196"^^xsd:integer ;
+	schema:dateModified "2023-06-10T18:45:22Z"^^xsd:dateTime .
+
+wd:Q2067656 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Ende_(langue)> a schema:Article ;
+	schema:about wd:Q2067656 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Ende (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Endenees_(taal)> a schema:Article ;
+	schema:about wd:Q2067656 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Endenees (taal)"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Ende> a schema:Article ;
+	schema:about wd:Q2067656 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Ende"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiende_(Flores)> a schema:Article ;
+	schema:about wd:Q2067656 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiende (Flores)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Ende> a schema:Article ;
+	schema:about wd:Q2067656 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Ende"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ende_language_(Indonesia)> a schema:Article ;
+	schema:about wd:Q2067656 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ende language (Indonesia)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Ende_(Indonesia)> a schema:Article ;
+	schema:about wd:Q2067656 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Ende (Indonesia)"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_ende> a schema:Article ;
+	schema:about wd:Q2067656 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język ende"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2067656 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "end" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/end> ;
+	wdt:P305 "end" ;
+	wdt:P279 wd:Q30307571 ;
+	wdt:P2590 "0131 2" ;
+	wdt:P17 wd:Q252 ;
+	wdt:P1448 "bahasa Ende"@id ;
+	wdt:P1098 "+110000"^^xsd:decimal,
+		"+87000"^^xsd:decimal,
+		"+124000"^^xsd:decimal ;
+	wdt:P276 wd:Q14140,
+		wd:Q24977488,
+		wd:Q1340301 ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P282 wd:Q8229,
+		wd:Q30342286 ;
+	wdt:P460 wd:Q2697010 ;
+	wdt:P2341 wd:Q26242357,
+		wd:Q5061,
+		wd:Q3803 ;
+	wdt:P1394 "ende1246" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ende1246> ;
+	wdt:P1627 "end" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/END> ;
+	wdt:P2671 "/g/120ykx6h" ;
+	wdtn:P2671 <http://g.co/kg/g/120ykx6h> ;
+	wdt:P910 wd:Q56660242 ;
+	rdfs:label "Endenees"@nl ;
+	skos:prefLabel "Endenees"@nl ;
+	schema:name "Endenees"@nl ;
+	rdfs:label "ende"@fr ;
+	skos:prefLabel "ende"@fr ;
+	schema:name "ende"@fr ;
+	rdfs:label "Lenga Ende"@pms ;
+	skos:prefLabel "Lenga Ende"@pms ;
+	schema:name "Lenga Ende"@pms ;
+	rdfs:label "Ende"@id ;
+	skos:prefLabel "Ende"@id ;
+	schema:name "Ende"@id ;
+	rdfs:label "Ende"@en ;
+	skos:prefLabel "Ende"@en ;
+	schema:name "Ende"@en ;
+	rdfs:label "Kiende"@sw ;
+	skos:prefLabel "Kiende"@sw ;
+	schema:name "Kiende"@sw ;
+	rdfs:label "Ende"@ace ;
+	skos:prefLabel "Ende"@ace ;
+	schema:name "Ende"@ace ;
+	rdfs:label "Ende"@af ;
+	skos:prefLabel "Ende"@af ;
+	schema:name "Ende"@af ;
+	rdfs:label "Ende"@an ;
+	skos:prefLabel "Ende"@an ;
+	schema:name "Ende"@an ;
+	rdfs:label "Ende"@ast ;
+	skos:prefLabel "Ende"@ast ;
+	schema:name "Ende"@ast ;
+	rdfs:label "Ende"@bar ;
+	skos:prefLabel "Ende"@bar ;
+	schema:name "Ende"@bar ;
+	rdfs:label "ende"@br ;
+	skos:prefLabel "ende"@br ;
+	schema:name "ende"@br ;
+	rdfs:label "ende"@ca ;
+	skos:prefLabel "ende"@ca ;
+	schema:name "ende"@ca ;
+	rdfs:label "Ende"@co ;
+	skos:prefLabel "Ende"@co ;
+	schema:name "Ende"@co ;
+	rdfs:label "Ende"@cs ;
+	skos:prefLabel "Ende"@cs ;
+	schema:name "Ende"@cs ;
+	rdfs:label "Ende"@cy ;
+	skos:prefLabel "Ende"@cy ;
+	schema:name "Ende"@cy ;
+	rdfs:label "Ende"@da ;
+	skos:prefLabel "Ende"@da ;
+	schema:name "Ende"@da ;
+	rdfs:label "Ende"@de ;
+	skos:prefLabel "Ende"@de ;
+	schema:name "Ende"@de ;
+	rdfs:label "Ende"@de-at ;
+	skos:prefLabel "Ende"@de-at ;
+	schema:name "Ende"@de-at ;
+	rdfs:label "Ende"@de-ch ;
+	skos:prefLabel "Ende"@de-ch ;
+	schema:name "Ende"@de-ch ;
+	rdfs:label "Ende"@en-ca ;
+	skos:prefLabel "Ende"@en-ca ;
+	schema:name "Ende"@en-ca ;
+	rdfs:label "Ende"@en-gb ;
+	skos:prefLabel "Ende"@en-gb ;
+	schema:name "Ende"@en-gb ;
+	rdfs:label "Ende"@eo ;
+	skos:prefLabel "Ende"@eo ;
+	schema:name "Ende"@eo ;
+	rdfs:label "Ende"@es ;
+	skos:prefLabel "Ende"@es ;
+	schema:name "Ende"@es ;
+	rdfs:label "Ende"@et ;
+	skos:prefLabel "Ende"@et ;
+	schema:name "Ende"@et ;
+	rdfs:label "Ende"@eu ;
+	skos:prefLabel "Ende"@eu ;
+	schema:name "Ende"@eu ;
+	rdfs:label "Ende"@fi ;
+	skos:prefLabel "Ende"@fi ;
+	schema:name "Ende"@fi ;
+	rdfs:label "Ende"@frp ;
+	skos:prefLabel "Ende"@frp ;
+	schema:name "Ende"@frp ;
+	rdfs:label "Ende"@fur ;
+	skos:prefLabel "Ende"@fur ;
+	schema:name "Ende"@fur ;
+	rdfs:label "Ende"@ga ;
+	skos:prefLabel "Ende"@ga ;
+	schema:name "Ende"@ga ;
+	rdfs:label "Ende"@gd ;
+	skos:prefLabel "Ende"@gd ;
+	schema:name "Ende"@gd ;
+	rdfs:label "Ende"@gl ;
+	skos:prefLabel "Ende"@gl ;
+	schema:name "Ende"@gl ;
+	rdfs:label "Ende"@gsw ;
+	skos:prefLabel "Ende"@gsw ;
+	schema:name "Ende"@gsw ;
+	rdfs:label "Ende"@hr ;
+	skos:prefLabel "Ende"@hr ;
+	schema:name "Ende"@hr ;
+	rdfs:label "Ende"@hu ;
+	skos:prefLabel "Ende"@hu ;
+	schema:name "Ende"@hu ;
+	rdfs:label "Ende"@ia ;
+	skos:prefLabel "Ende"@ia ;
+	schema:name "Ende"@ia ;
+	rdfs:label "Ende"@ie ;
+	skos:prefLabel "Ende"@ie ;
+	schema:name "Ende"@ie ;
+	rdfs:label "Ende"@io ;
+	skos:prefLabel "Ende"@io ;
+	schema:name "Ende"@io ;
+	rdfs:label "Ende"@is ;
+	skos:prefLabel "Ende"@is ;
+	schema:name "Ende"@is ;
+	rdfs:label "ende"@it ;
+	skos:prefLabel "ende"@it ;
+	schema:name "ende"@it ;
+	rdfs:label "Ende"@jv ;
+	skos:prefLabel "Ende"@jv ;
+	schema:name "Ende"@jv ;
+	rdfs:label "Ende"@kg ;
+	skos:prefLabel "Ende"@kg ;
+	schema:name "Ende"@kg ;
+	rdfs:label "Ende"@lb ;
+	skos:prefLabel "Ende"@lb ;
+	schema:name "Ende"@lb ;
+	rdfs:label "Ende"@li ;
+	skos:prefLabel "Ende"@li ;
+	schema:name "Ende"@li ;
+	rdfs:label "Ende"@lij ;
+	skos:prefLabel "Ende"@lij ;
+	schema:name "Ende"@lij ;
+	rdfs:label "Ende"@mg ;
+	skos:prefLabel "Ende"@mg ;
+	schema:name "Ende"@mg ;
+	rdfs:label "Ende"@min ;
+	skos:prefLabel "Ende"@min ;
+	schema:name "Ende"@min ;
+	rdfs:label "Ende"@ms ;
+	skos:prefLabel "Ende"@ms ;
+	schema:name "Ende"@ms ;
+	rdfs:label "Ende"@nap ;
+	skos:prefLabel "Ende"@nap ;
+	schema:name "Ende"@nap ;
+	rdfs:label "Ende"@nb ;
+	skos:prefLabel "Ende"@nb ;
+	schema:name "Ende"@nb ;
+	rdfs:label "Ende"@nds ;
+	skos:prefLabel "Ende"@nds ;
+	schema:name "Ende"@nds ;
+	rdfs:label "Ende"@nds-nl ;
+	skos:prefLabel "Ende"@nds-nl ;
+	schema:name "Ende"@nds-nl ;
+	rdfs:label "Ende"@nn ;
+	skos:prefLabel "Ende"@nn ;
+	schema:name "Ende"@nn ;
+	rdfs:label "Ende"@nrm ;
+	skos:prefLabel "Ende"@nrm ;
+	schema:name "Ende"@nrm ;
+	rdfs:label "Ende"@oc ;
+	skos:prefLabel "Ende"@oc ;
+	schema:name "Ende"@oc ;
+	rdfs:label "Ende"@pcd ;
+	skos:prefLabel "Ende"@pcd ;
+	schema:name "Ende"@pcd ;
+	rdfs:label "Ende"@pl ;
+	skos:prefLabel "Ende"@pl ;
+	schema:name "Ende"@pl ;
+	rdfs:label "Ende"@pt ;
+	skos:prefLabel "Ende"@pt ;
+	schema:name "Ende"@pt ;
+	rdfs:label "Ende"@pt-br ;
+	skos:prefLabel "Ende"@pt-br ;
+	schema:name "Ende"@pt-br ;
+	rdfs:label "Ende"@rm ;
+	skos:prefLabel "Ende"@rm ;
+	schema:name "Ende"@rm ;
+	rdfs:label "Ende"@ro ;
+	skos:prefLabel "Ende"@ro ;
+	schema:name "Ende"@ro ;
+	rdfs:label "Ende"@sc ;
+	skos:prefLabel "Ende"@sc ;
+	schema:name "Ende"@sc ;
+	rdfs:label "Ende"@scn ;
+	skos:prefLabel "Ende"@scn ;
+	schema:name "Ende"@scn ;
+	rdfs:label "Ende"@sco ;
+	skos:prefLabel "Ende"@sco ;
+	schema:name "Ende"@sco ;
+	rdfs:label "Ende"@sk ;
+	skos:prefLabel "Ende"@sk ;
+	schema:name "Ende"@sk ;
+	rdfs:label "Ende"@sl ;
+	skos:prefLabel "Ende"@sl ;
+	schema:name "Ende"@sl ;
+	rdfs:label "Ende"@sr-el ;
+	skos:prefLabel "Ende"@sr-el ;
+	schema:name "Ende"@sr-el ;
+	rdfs:label "Ende"@su ;
+	skos:prefLabel "Ende"@su ;
+	schema:name "Ende"@su ;
+	rdfs:label "Ende"@sv ;
+	skos:prefLabel "Ende"@sv ;
+	schema:name "Ende"@sv ;
+	rdfs:label "Ende"@vec ;
+	skos:prefLabel "Ende"@vec ;
+	schema:name "Ende"@vec ;
+	rdfs:label "Ende"@vi ;
+	skos:prefLabel "Ende"@vi ;
+	schema:name "Ende"@vi ;
+	rdfs:label "Ende"@vls ;
+	skos:prefLabel "Ende"@vls ;
+	schema:name "Ende"@vls ;
+	rdfs:label "Ende"@vo ;
+	skos:prefLabel "Ende"@vo ;
+	schema:name "Ende"@vo ;
+	rdfs:label "Ende"@wa ;
+	skos:prefLabel "Ende"@wa ;
+	schema:name "Ende"@wa ;
+	rdfs:label "Ende"@wo ;
+	skos:prefLabel "Ende"@wo ;
+	schema:name "Ende"@wo ;
+	rdfs:label "Ende"@zu ;
+	skos:prefLabel "Ende"@zu ;
+	schema:name "Ende"@zu ;
+	rdfs:label "Ende"@ban ;
+	skos:prefLabel "Ende"@ban ;
+	schema:name "Ende"@ban ;
+	rdfs:label "Ende"@bjn ;
+	skos:prefLabel "Ende"@bjn ;
+	schema:name "Ende"@bjn ;
+	rdfs:label "Ende"@bug ;
+	skos:prefLabel "Ende"@bug ;
+	schema:name "Ende"@bug ;
+	rdfs:label "Ende"@map-bms ;
+	skos:prefLabel "Ende"@map-bms ;
+	schema:name "Ende"@map-bms ;
+	rdfs:label "Ende"@ilo ;
+	skos:prefLabel "Ende"@ilo ;
+	schema:name "Ende"@ilo ;
+	schema:description "taal"@nl,
+		"language on Flores island"@en,
+		"Sprache"@de,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"שפה"@he,
+		"basa ing Pulo Flores"@jv,
+		"basa"@map-bms,
+		"bahasa di Pulau Flores"@ms,
+		"yezh"@br,
+		"langue bima-sumba parlée en Indonésie"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"Lugha inayozungumzwa katika kisiwa cha Flores nchini Indonesia"@sw,
+		"pagsasao iti Isla Flores"@ilo,
+		"język z rodziny austronezyjskiej używany w Indonezji"@pl ;
+	skos:altLabel "bahasa Ende"@id,
+		"bahasa Endeh"@id,
+		"Endeh"@id,
+		"Endeh"@en,
+		"Ende language"@en .
+
+wd:Q12473372 owl:sameAs wd:Q2067656 .

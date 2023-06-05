@@ -1,0 +1,977 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36106 a schema:Dataset ;
+	schema:about wd:Q36106 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1928655256"^^xsd:integer ;
+	schema:dateModified "2023-07-04T00:45:48Z"^^xsd:dateTime .
+
+wd:Q36106 a wikibase:Item .
+
+<https://it.wikiquote.org/wiki/Lingua_ligure> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikiquote.org/> ;
+	schema:name "Lingua ligure"@it .
+
+<https://it.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://de.wikipedia.org/wiki/Ligurische_Sprache_(romanisch)> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Ligurische Sprache (romanisch)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Ligure> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Ligure"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_ligur> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma ligur"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%B3%D1%83%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA_(%D1%81%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9)> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Лигурский язык (современный)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_ligure> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua ligure"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%AA%E3%82%B0%E3%83%AA%E3%82%A2%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "リグリア語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Ligurisch_(Romaanse_taal)> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Ligurisch (Romaanse taal)"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_liguryjski_(wsp%C3%B3%C5%82czesny)> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język liguryjski (współczesny)"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_l%C3%ADgure> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua lígure"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%88%A9%E5%8F%A4%E9%87%8C%E4%BA%9A%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "利古里亚语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D9%84%DB%8C%DA%AF%D9%88%D8%B1%DB%8C_(%D8%B1%D9%88%D9%85%DB%8C)> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان لیگوری (رومی)"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%9C%D7%99%D7%92%D7%95%D7%A8%D7%99%D7%AA> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "ליגורית"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Ligur_nyelv> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Ligur nyelv"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Liguuri> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Liguuri"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9B%D1%96%D0%B3%D1%83%D1%80%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Лігурійська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EB%A6%AC%EA%B5%AC%EB%A6%AC%EC%95%84%EC%96%B4> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "리구리아어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/L%C3%ADgur> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Lígur"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%9B%D0%B8%D0%B3%D1%83%D1%80%D1%81%D0%BA%D0%B8_%D0%B5%D0%B7%D0%B8%D0%BA_(%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D1%81%D0%BA%D0%B8)> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Лигурски език (романски)"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://am.wikipedia.org/wiki/%E1%88%8A%E1%8C%89%E1%88%AD%E1%8A%9B> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "am" ;
+	schema:isPartOf <https://am.wikipedia.org/> ;
+	schema:name "ሊጉርኛ"@am .
+
+<https://am.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_ligur> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma ligur"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D9%84%DB%8C%D9%82%D9%88%D8%B1%DB%8C_(%D8%B1%D9%88%D9%85%DB%8C)_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "لیقوری (رومی) دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bat-smg.wikipedia.org/wiki/Lig%C5%ABru_kalba> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "sgs" ;
+	schema:isPartOf <https://bat-smg.wikipedia.org/> ;
+	schema:name "Ligūru kalba"@sgs .
+
+<https://bat-smg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cv.wikipedia.org/wiki/%D0%9B%D0%B8%D0%B3%D1%83%D1%80_%D1%87%C4%95%D0%BB%D1%85%D0%B8_(%D1%85%D0%B0%D0%BB%D1%8C%D1%85%D0%B8)> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "cv" ;
+	schema:isPartOf <https://cv.wikipedia.org/> ;
+	schema:name "Лигур чĕлхи (хальхи)"@cv .
+
+<https://cv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Ligura_lingvo_(latinida)> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Ligura lingvo (latinida)"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Liguriera> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Liguriera"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frp.wikipedia.org/wiki/Liguro> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "frp" ;
+	schema:isPartOf <https://frp.wikipedia.org/> ;
+	schema:name "Liguro"@frp .
+
+<https://frp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Liguurisk_spriak> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Liguurisk spriak"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_l%C3%ADgur_(rom%C3%A1nica)> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua lígur (románica)"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gv.wikipedia.org/wiki/Ligoorish> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "gv" ;
+	schema:isPartOf <https://gv.wikipedia.org/> ;
+	schema:name "Ligoorish"@gv .
+
+<https://gv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hak.wikipedia.org/wiki/Liguria-ng%C3%AE> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "hak" ;
+	schema:isPartOf <https://hak.wikipedia.org/> ;
+	schema:name "Liguria-ngî"@hak .
+
+<https://hak.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Ligurian_language_(Romance)> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Ligurian language (Romance)"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Ligurski_jezik_(romanski)> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Ligurski jezik (romanski)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%9B%D0%B8%D0%B3%D1%83%D1%80_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Лигур кыв"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Ligustica> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Ligustica"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lij.wikipedia.org/wiki/Lengoa_ligure> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "lij" ;
+	schema:isPartOf <https://lij.wikipedia.org/> ;
+	schema:name "Lengoa ligure"@lij .
+
+<https://lij.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lmo.wikipedia.org/wiki/Lengua_lig%C3%BCr_(rumanza)> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "lmo" ;
+	schema:isPartOf <https://lmo.wikipedia.org/> ;
+	schema:name "Lengua ligür (rumanza)"@lmo .
+
+<https://lmo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Lig%C5%ABr%C5%B3_tarm%C4%97> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Ligūrų tarmė"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Ligurisk> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Ligurisk"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Ligur_(romanic)> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Ligur (romanic)"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_l%C3%ACgura> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga lìgura"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://se.wikipedia.org/wiki/Liguragiella> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "se" ;
+	schema:isPartOf <https://se.wikipedia.org/> ;
+	schema:name "Liguragiella"@se .
+
+<https://se.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiliguria> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiliguria"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%A8%E0%AE%B5%E0%AF%80%E0%AE%A9_%E0%AE%87%E0%AE%B2%E0%AE%BF%E0%AE%95%E0%AF%81%E0%AE%B0%E0%AE%BF%E0%AE%AF_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "நவீன இலிகுரிய மொழி"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Ligur> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Ligur"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D9%84%DB%8C%DA%AF%D9%88%D8%B1%DB%8C%D8%A7%D8%A6%DB%8C_(%D8%B1%D9%88%D9%85%D9%86%DB%8C_%D8%B2%D8%A8%D8%A7%D9%86)> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "لیگوریائی (رومنی زبان)"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E5%88%A9%E5%8F%A4%E9%87%8C%E4%BA%9E%E6%96%87> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "利古里亞文"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Liguria> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Liguria"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lfn.wikipedia.org/wiki/Ligure> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "lfn" ;
+	schema:isPartOf <https://lfn.wikipedia.org/> ;
+	schema:name "Ligure"@lfn .
+
+<https://lfn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sc.wikipedia.org/wiki/Limba_l%C3%ACgure> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "sc" ;
+	schema:isPartOf <https://sc.wikipedia.org/> ;
+	schema:name "Limba lìgure"@sc .
+
+<https://sc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sl.wikipedia.org/wiki/Ligur%C5%A1%C4%8Dina> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikipedia.org/> ;
+	schema:name "Ligurščina"@sl .
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D9%84%D9%8A%D8%BA%D9%88%D8%B1%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "اللغة الليغورية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Lig%C5%ABrie%C5%A1u_valoda> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Ligūriešu valoda"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vec.wikipedia.org/wiki/Lengua_ligura> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "vec" ;
+	schema:isPartOf <https://vec.wikipedia.org/> ;
+	schema:name "Lengua ligura"@vec .
+
+<https://vec.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D9%8A%D8%BA%D9%88%D8%B1%D9%8A%D9%87> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "الليغوريه"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E5%88%A9%E5%8F%A4%E9%87%8C%E4%BA%9A%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "利古里亚语"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Liguria_(Roman)> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Liguria (Roman)"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%A5%E0%B8%B5%E0%B8%81%E0%B8%B9%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาลีกูเรีย"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%9E%E1%B1%A4%E1%B1%9C%E1%B1%A9%E1%B1%A8%E1%B1%A4%E1%B1%AD%E1%B1%9F%E1%B1%B1_%E1%B1%AF%E1%B1%9F%E1%B1%B9%E1%B1%A8%E1%B1%A5%E1%B1%A4> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱞᱤᱜᱩᱨᱤᱭᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ligurian_language> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ligurian language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Liguriska> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Liguriska"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Ligureg> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Ligureg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Ligurian_language> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Ligurian language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Liquriya_dili> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Liquriya dili"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wiktionary.org/wiki/Victionarium:Lingua_Ligustica> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wiktionary.org/> ;
+	schema:name "Victionarium:Lingua Ligustica"@la .
+
+<https://la.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://co.wikipedia.org/wiki/Lingua_ligure> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "co" ;
+	schema:isPartOf <https://co.wikipedia.org/> ;
+	schema:name "Lingua ligure"@co .
+
+<https://co.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Limba_ligurian%C4%83> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Limba liguriană"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Liguryaca> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Liguryaca"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ie.wikipedia.org/wiki/Ligurian> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "ie" ;
+	schema:isPartOf <https://ie.wikipedia.org/> ;
+	schema:name "Ligurian"@ie .
+
+<https://ie.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sn.wikipedia.org/wiki/Chiliguria> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "sn" ;
+	schema:isPartOf <https://sn.wikipedia.org/> ;
+	schema:name "Chiliguria"@sn .
+
+<https://sn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://an.wikipedia.org/wiki/Idioma_ligur> a schema:Article ;
+	schema:about wd:Q36106 ;
+	schema:inLanguage "an" ;
+	schema:isPartOf <https://an.wikipedia.org/> ;
+	schema:name "Idioma ligur"@an .
+
+<https://an.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36106 wdt:P220 "lij" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lij> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0h55nfc" ;
+	wdt:P424 "lij" ;
+	wdt:P910 wd:Q6260292 ;
+	wdt:P305 "lij" ;
+	wdt:P279 wd:Q516074 ;
+	wdt:P1705 "Lengoa ligure"@lij ;
+	wdt:P1098 "+500000"^^xsd:decimal ;
+	wdt:P373 "Ligurian language" ;
+	wdt:P227 "4167663-4" ;
+	wdtn:P227 <https://d-nb.info/gnd/4167663-4> ;
+	wdt:P1394 "ligu1248" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ligu1248> ;
+	wdt:P2341 wd:Q1256,
+		wd:Q204051,
+		wd:Q1462,
+		wd:Q15091,
+		wd:Q235,
+		wd:Q15097 ;
+	wdt:P268 "11994811j" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb11994811j#about> ;
+	wdt:P2355 "377" ;
+	wdt:P4132 wd:Q651641,
+		wd:Q7888569 ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P1466 "itg" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_itg> ;
+	wdt:P1014 "300388714" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388714> ;
+	wdt:P17 wd:Q38,
+		wd:Q142,
+		wd:Q235 ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P1627 "lij" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P1245 "608531" ;
+	wdt:P7818 "Ligurien" ;
+	wdt:P1232 "lij" ;
+	wdt:P9060 "lij" ;
+	wdt:P131 wd:Q1256 ;
+	wdt:P1889 wd:Q36104 ;
+	wdt:P1396 "51-AAA-oh" ;
+	wdt:P691 "ph949219" ;
+	rdfs:label "利古里亚语"@zh ;
+	skos:prefLabel "利古里亚语"@zh ;
+	schema:name "利古里亚语"@zh ;
+	rdfs:label "Lenga lìgura"@pms ;
+	skos:prefLabel "Lenga lìgura"@pms ;
+	schema:name "Lenga lìgura"@pms ;
+	rdfs:label "język liguryjski"@pl ;
+	skos:prefLabel "język liguryjski"@pl ;
+	schema:name "język liguryjski"@pl ;
+	rdfs:label "liguriera"@eu ;
+	skos:prefLabel "liguriera"@eu ;
+	schema:name "liguriera"@eu ;
+	rdfs:label "ליגורית"@he ;
+	skos:prefLabel "ליגורית"@he ;
+	schema:name "ליגורית"@he ;
+	rdfs:label "리구리아어"@ko ;
+	skos:prefLabel "리구리아어"@ko ;
+	schema:name "리구리아어"@ko ;
+	rdfs:label "ligure"@fr ;
+	skos:prefLabel "ligure"@fr ;
+	schema:name "ligure"@fr ;
+	rdfs:label "ligur"@es ;
+	skos:prefLabel "ligur"@es ;
+	schema:name "ligur"@es ;
+	rdfs:label "நவீன இலிகுரிய மொழி"@ta ;
+	skos:prefLabel "நவீன இலிகுரிய மொழி"@ta ;
+	schema:name "நவீன இலிகுரிய மொழி"@ta ;
+	rdfs:label "lìgure"@lij ;
+	skos:prefLabel "lìgure"@lij ;
+	schema:name "lìgure"@lij ;
+	rdfs:label "Ligur"@oc ;
+	skos:prefLabel "Ligur"@oc ;
+	schema:name "Ligur"@oc ;
+	rdfs:label "ligur"@hu ;
+	skos:prefLabel "ligur"@hu ;
+	schema:name "ligur"@hu ;
+	rdfs:label "lingua ligure"@it ;
+	skos:prefLabel "lingua ligure"@it ;
+	schema:name "lingua ligure"@it ;
+	rdfs:label "Kiliguria"@sw ;
+	skos:prefLabel "Kiliguria"@sw ;
+	schema:name "Kiliguria"@sw ;
+	rdfs:label "Lingua lígur"@gl ;
+	skos:prefLabel "Lingua lígur"@gl ;
+	schema:name "Lingua lígur"@gl ;
+	rdfs:label "Bahasa Liguria"@id ;
+	skos:prefLabel "Bahasa Liguria"@id ;
+	schema:name "Bahasa Liguria"@id ;
+	rdfs:label "Ligurisch"@de ;
+	skos:prefLabel "Ligurisch"@de ;
+	schema:name "Ligurisch"@de ;
+	rdfs:label "リグリア語"@ja ;
+	skos:prefLabel "リグリア語"@ja ;
+	schema:name "リグリア語"@ja ;
+	rdfs:label "ሊጉርኛ"@am ;
+	skos:prefLabel "ሊጉርኛ"@am ;
+	schema:name "ሊጉርኛ"@am ;
+	rdfs:label "liguriska"@sv ;
+	skos:prefLabel "liguriska"@sv ;
+	schema:name "liguriska"@sv ;
+	rdfs:label "Ligurisch"@nl ;
+	skos:prefLabel "Ligurisch"@nl ;
+	schema:name "Ligurisch"@nl ;
+	rdfs:label "الليغورية"@ar ;
+	skos:prefLabel "الليغورية"@ar ;
+	schema:name "الليغورية"@ar ;
+	rdfs:label "Língua lígure"@pt ;
+	skos:prefLabel "Língua lígure"@pt ;
+	schema:name "Língua lígure"@pt ;
+	rdfs:label "ligura lingvo"@eo ;
+	skos:prefLabel "ligura lingvo"@eo ;
+	schema:name "ligura lingvo"@eo ;
+	rdfs:label "лигурский язык"@ru ;
+	skos:prefLabel "лигурский язык"@ru ;
+	schema:name "лигурский язык"@ru ;
+	rdfs:label "Ligurian"@en ;
+	skos:prefLabel "Ligurian"@en ;
+	schema:name "Ligurian"@en ;
+	rdfs:label "Лигур чĕлхи"@cv ;
+	skos:prefLabel "Лигур чĕлхи"@cv ;
+	schema:name "Лигур чĕлхи"@cv ;
+	rdfs:label "Li-kú-lî-â-ngî"@hak ;
+	skos:prefLabel "Li-kú-lî-â-ngî"@hak ;
+	schema:name "Li-kú-lî-â-ngî"@hak ;
+	rdfs:label "lígur"@ca ;
+	skos:prefLabel "lígur"@ca ;
+	schema:name "lígur"@ca ;
+	rdfs:label "Лігурійська мова"@uk ;
+	skos:prefLabel "Лігурійська мова"@uk ;
+	schema:name "Лігурійська мова"@uk ;
+	rdfs:label "lingua Ligustica"@la ;
+	skos:prefLabel "lingua Ligustica"@la ;
+	schema:name "lingua Ligustica"@la ;
+	rdfs:label "Liguro"@frp ;
+	skos:prefLabel "Liguro"@frp ;
+	schema:name "Liguro"@frp ;
+	rdfs:label "Ligūru kalba"@sgs ;
+	skos:prefLabel "Ligūru kalba"@sgs ;
+	schema:name "Ligūru kalba"@sgs ;
+	rdfs:label "زبان لیگوری-رومی"@fa ;
+	skos:prefLabel "زبان لیگوری-رومی"@fa ;
+	schema:name "زبان لیگوری-رومی"@fa ;
+	rdfs:label "Лигурски език"@bg ;
+	skos:prefLabel "Лигурски език"@bg ;
+	schema:name "Лигурски език"@bg ;
+	rdfs:label "Лигур кыв"@kv ;
+	skos:prefLabel "Лигур кыв"@kv ;
+	schema:name "Лигур кыв"@kv ;
+	rdfs:label "Ligurski jezik"@hr ;
+	skos:prefLabel "Ligurski jezik"@hr ;
+	schema:name "Ligurski jezik"@hr ;
+	rdfs:label "Lengua ligür"@lmo ;
+	skos:prefLabel "Lengua ligür"@lmo ;
+	schema:name "Lengua ligür"@lmo ;
+	rdfs:label "Ligūrų tarmė"@lt ;
+	skos:prefLabel "Ligūrų tarmė"@lt ;
+	schema:name "Ligūrų tarmė"@lt ;
+	rdfs:label "Idioma ligur"@an ;
+	skos:prefLabel "Idioma ligur"@an ;
+	schema:name "Idioma ligur"@an ;
+	rdfs:label "Liguragiella"@se ;
+	skos:prefLabel "Liguragiella"@se ;
+	schema:name "Liguragiella"@se ;
+	rdfs:label "ligurisk"@nn ;
+	skos:prefLabel "ligurisk"@nn ;
+	schema:name "ligurisk"@nn ;
+	rdfs:label "liguuri"@fi ;
+	skos:prefLabel "liguuri"@fi ;
+	schema:name "liguuri"@fi ;
+	rdfs:label "Ligoorish"@gv ;
+	skos:prefLabel "Ligoorish"@gv ;
+	schema:name "Ligoorish"@gv ;
+	rdfs:label "Llingua ligur"@ast ;
+	skos:prefLabel "Llingua ligur"@ast ;
+	schema:name "Llingua ligur"@ast ;
+	rdfs:label "lìguri"@scn ;
+	skos:prefLabel "lìguri"@scn ;
+	schema:name "lìguri"@scn ;
+	rdfs:label "ligurisk"@da ;
+	skos:prefLabel "ligurisk"@da ;
+	schema:name "ligurisk"@da ;
+	rdfs:label "limba liguriană"@ro ;
+	skos:prefLabel "limba liguriană"@ro ;
+	schema:name "limba liguriană"@ro ;
+	rdfs:label "Amanung Ligur"@pam ;
+	skos:prefLabel "Amanung Ligur"@pam ;
+	schema:name "Amanung Ligur"@pam ;
+	rdfs:label "Wikang Ligur"@tl ;
+	skos:prefLabel "Wikang Ligur"@tl ;
+	schema:name "Wikang Ligur"@tl ;
+	rdfs:label "Ligurian"@en-gb ;
+	skos:prefLabel "Ligurian"@en-gb ;
+	schema:name "Ligurian"@en-gb ;
+	rdfs:label "Ligurian language"@hif ;
+	skos:prefLabel "Ligurian language"@hif ;
+	schema:name "Ligurian language"@hif ;
+	rdfs:label "лигурски јазик"@mk ;
+	skos:prefLabel "лигурски јазик"@mk ;
+	schema:name "лигурски јазик"@mk ;
+	rdfs:label "لیقوری (رومی) دیلی"@azb ;
+	skos:prefLabel "لیقوری (رومی) دیلی"@azb ;
+	schema:name "لیقوری (رومی) دیلی"@azb ;
+	rdfs:label "Limba lìgure"@sc ;
+	skos:prefLabel "Limba lìgure"@sc ;
+	schema:name "Limba lìgure"@sc ;
+	rdfs:label "لیگوریائی"@ur ;
+	skos:prefLabel "لیگوریائی"@ur ;
+	schema:name "لیگوریائی"@ur ;
+	rdfs:label "Ligure"@lfn ;
+	skos:prefLabel "Ligure"@lfn ;
+	schema:name "Ligure"@lfn ;
+	rdfs:label "tiếng Liguria"@vi ;
+	skos:prefLabel "tiếng Liguria"@vi ;
+	schema:name "tiếng Liguria"@vi ;
+	rdfs:label "利古里亞文"@yue ;
+	skos:prefLabel "利古里亞文"@yue ;
+	schema:name "利古里亞文"@yue ;
+	rdfs:label "Liguurisk spriak"@frr ;
+	skos:prefLabel "Liguurisk spriak"@frr ;
+	schema:name "Liguurisk spriak"@frr ;
+	rdfs:label "ligurieg"@br ;
+	skos:prefLabel "ligurieg"@br ;
+	schema:name "ligurieg"@br ;
+	rdfs:label "লিগুরীয় ভাষা"@bn ;
+	skos:prefLabel "লিগুরীয় ভাষা"@bn ;
+	schema:name "লিগুরীয় ভাষা"@bn ;
+	rdfs:label "ligurščina"@sl ;
+	skos:prefLabel "ligurščina"@sl ;
+	schema:name "ligurščina"@sl ;
+	rdfs:label "ligurisk"@nb ;
+	skos:prefLabel "ligurisk"@nb ;
+	schema:name "ligurisk"@nb ;
+	rdfs:label "ligūriešu valoda"@lv ;
+	skos:prefLabel "ligūriešu valoda"@lv ;
+	schema:name "ligūriešu valoda"@lv ;
+	rdfs:label "lìguro"@vec ;
+	skos:prefLabel "lìguro"@vec ;
+	schema:name "lìguro"@vec ;
+	rdfs:label "ligurština"@cs ;
+	skos:prefLabel "ligurština"@cs ;
+	schema:name "ligurština"@cs ;
+	rdfs:label "الليغوريه"@arz ;
+	skos:prefLabel "الليغوريه"@arz ;
+	schema:name "الليغوريه"@arz ;
+	rdfs:label "利古里亚语"@wuu ;
+	skos:prefLabel "利古里亚语"@wuu ;
+	schema:name "利古里亚语"@wuu ;
+	rdfs:label "ภาษาลีกูเรีย"@th ;
+	skos:prefLabel "ภาษาลีกูเรีย"@th ;
+	schema:name "ภาษาลีกูเรีย"@th ;
+	rdfs:label "ᱞᱤᱜᱩᱨᱤᱭᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	skos:prefLabel "ᱞᱤᱜᱩᱨᱤᱭᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	schema:name "ᱞᱤᱜᱩᱨᱤᱭᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	rdfs:label "Liquriya dili"@az ;
+	skos:prefLabel "Liquriya dili"@az ;
+	schema:name "Liquriya dili"@az ;
+	rdfs:label "Lingua ligure"@co ;
+	skos:prefLabel "Lingua ligure"@co ;
+	schema:name "Lingua ligure"@co ;
+	rdfs:label "Liguryaca"@tr ;
+	skos:prefLabel "Liguryaca"@tr ;
+	schema:name "Liguryaca"@tr ;
+	rdfs:label "Ligurian"@ie ;
+	skos:prefLabel "Ligurian"@ie ;
+	schema:name "Ligurian"@ie ;
+	rdfs:label "liguurǩiõll"@sms ;
+	skos:prefLabel "liguurǩiõll"@sms ;
+	schema:name "liguurǩiõll"@sms ;
+	rdfs:label "ਲਿਗੂਰੀਅਨ"@pa ;
+	skos:prefLabel "ਲਿਗੂਰੀਅਨ"@pa ;
+	schema:name "ਲਿਗੂਰੀਅਨ"@pa ;
+	rdfs:label "Chiliguria"@sn ;
+	skos:prefLabel "Chiliguria"@sn ;
+	schema:name "Chiliguria"@sn ;
+	schema:description "lengua romance hablada principalmente en Italia, Francia y Mónaco"@es,
+		"taal"@nl,
+		"Gallo-Romance language (for the ancient extinct language use Q36104)"@en,
+		"lingua appartenente alla famiglia delle lingue romanze"@it,
+		"romanische Sprache"@de,
+		"lingua gallu-rumanza chi si parra ntâ Liguria, ntâ Francia e nta certi parti dâ Sardigna"@scn,
+		"שפה"@he,
+		"langue romane"@fr,
+		"latinida lingvo parolata en Ligurio (por la antikva formortinta lingvo uzu Q36104)"@eo,
+		"Llengua romànica"@ca,
+		"yezh"@br,
+		"রোমান্স ভাষা পরিবারের একটি ভাষা (একই নামের বিলুপ্ত ভাষার জন্য Q36104 ব্যবহার করুন)"@bn,
+		"lingua"@la,
+		"iaith"@cy,
+		"hizkuntza galo-erromanikoa"@eu,
+		"galloitáliai (újlatin) nyelv"@hu,
+		"Itālijā runāta romāņu saimes valoda"@lv,
+		"moderní jazyk"@cs,
+		"språk"@sv,
+		"léngoa romànsa"@lij,
+		"lingua rumanza"@co,
+		"لغة جالو الرومانسية"@ar,
+		"romaaninen kieli"@fi,
+		"limbă romanică"@ro,
+		"романська мова, якою розмовляють на північному заході Італії"@uk,
+		"bagian dari rumpun bahasa Indo-Eropa"@id,
+		"Gallo-Romance na linguahe sa Liguria, Hilagang Italya"@tl,
+		"ガロ・ロマンス語系の言語"@ja,
+		"język romański północnych Włoch"@pl,
+		"義大利方言"@zh-tw ;
+	skos:altLabel "Lenga lìgure"@pms,
+		"Lenga ligure"@pms,
+		"Langue ligure"@fr,
+		"Liguriens"@fr,
+		"Ligurien"@fr,
+		"Liguria"@fr,
+		"lij"@fr,
+		"idioma ligur"@es,
+		"lengua ligur"@es,
+		"zeneise"@es,
+		"léngoa lìgure"@lij,
+		"lij"@lij,
+		"Genoés"@oc,
+		"Dialetto ligure"@it,
+		"Idioma ligure"@it,
+		"Lingua genovese"@it,
+		"Dialetto genovese"@it,
+		"Liguru"@de,
+		"Líguru"@de,
+		"ligurische Sprache"@de,
+		"lij"@de,
+		"リグーリア語"@ja,
+		"genuesiska"@sv,
+		"genuanska"@sv,
+		"Liguriano"@pt,
+		"Лигурийские диалекты"@ru,
+		"Лигурское наречие"@ru,
+		"Лигурский диалект"@ru,
+		"Лигурийское наречие"@ru,
+		"Лигурийский язык"@ru,
+		"Лигурийский диалект"@ru,
+		"Лигурийские диалекты итальянского языка"@ru,
+		"Лигурские диалекты"@ru,
+		"lij"@ru,
+		"Ligur"@ca,
+		"Llengua genovesa"@ca,
+		"Llengua lígur"@ca,
+		"Ліґурійська мова"@uk,
+		"Ligūrų kalba"@lt,
+		"Romance ligur"@an,
+		"Romanze ligur"@an,
+		"lingua lìguri"@scn,
+		"Royasc語"@zh,
+		"Liguriano"@pam,
+		"Ligure"@pam,
+		"Wikang Liguryano"@tl,
+		"Wikang Ligure"@tl,
+		"Ligur"@tl,
+		"Liguryano"@tl,
+		"Ligure"@tl,
+		"ليغورية"@ar,
+		"ภาษาเจนัว"@th,
+		"lij"@en,
+		"Ligurian language"@en,
+		"limba ligură"@ro,
+		"limba genoveză"@ro,
+		"ligurski jezik"@sl .
+
+wd:Q25646770 owl:sameAs wd:Q36106 .

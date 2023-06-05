@@ -1,0 +1,95 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12952409 a schema:Dataset ;
+	schema:about wd:Q12952409 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1355266803"^^xsd:integer ;
+	schema:dateModified "2021-02-05T17:08:26Z"^^xsd:dateTime .
+
+wd:Q12952409 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Ede_Nago,_Kura> a schema:Article ;
+	schema:about wd:Q12952409 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Ede Nago, Kura"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiede-Nago-Kura> a schema:Article ;
+	schema:about wd:Q12952409 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiede-Nago-Kura"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12952409 wdt:P220 "nqk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nqk> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kura1248" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kura1248> ;
+	wdt:P279 wd:Q35368 ;
+	wdt:P305 "nqk" ;
+	wdt:P1627 "nqk" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q962 ;
+	wdt:P2341 wd:Q29161 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NQK> ;
+	rdfs:label "Lenga Ede Nago, Kura"@pms ;
+	skos:prefLabel "Lenga Ede Nago, Kura"@pms ;
+	schema:name "Lenga Ede Nago, Kura"@pms ;
+	rdfs:label "Kiede-Nago-Kura"@sw ;
+	skos:prefLabel "Kiede-Nago-Kura"@sw ;
+	schema:name "Kiede-Nago-Kura"@sw ;
+	rdfs:label "Kura Nago"@en ;
+	skos:prefLabel "Kura Nago"@en ;
+	schema:name "Kura Nago"@en ;
+	rdfs:label "kura nago"@fr ;
+	skos:prefLabel "kura nago"@fr ;
+	schema:name "kura nago"@fr ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue ede"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Nago Kura"@en,
+		"Kura Nago language"@en .
+
+wd:Q13123382 owl:sameAs wd:Q12952409 .

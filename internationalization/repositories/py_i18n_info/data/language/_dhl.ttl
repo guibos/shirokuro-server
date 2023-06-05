@@ -1,0 +1,127 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5268787 a schema:Dataset ;
+	schema:about wd:Q5268787 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616005877"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:59:39Z"^^xsd:dateTime .
+
+wd:Q5268787 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_dhalandji> a schema:Article ;
+	schema:about wd:Q5268787 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga dhalandji"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Dhalandji> a schema:Article ;
+	schema:about wd:Q5268787 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Dhalandji"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kidhalandji> a schema:Article ;
+	schema:about wd:Q5268787 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kidhalandji"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Thalanyji_language> a schema:Article ;
+	schema:about wd:Q5268787 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Thalanyji language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5268787 wdt:P1394 "dhal1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/dhal1245> ;
+	wdt:P1252 "W26" ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "dhl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dhl> ;
+	wdt:P2355 "173" ;
+	wdt:P1466 "dhl" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_dhl> ;
+	wdt:P279 wd:Q6365836 ;
+	wdt:P910 wd:Q33289567 ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P2192 "4077" ;
+	wdt:P305 "dhl" ;
+	wdt:P1627 "dhl" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3206 ;
+	wdt:P6915 "Thalanyji" ;
+	wdt:P1245 "698952" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DHL> ;
+	wdt:P646 "/m/02hwg0_" ;
+	rdfs:label "Dhalandji"@en ;
+	skos:prefLabel "Dhalandji"@en ;
+	schema:name "Dhalandji"@en ;
+	rdfs:label "Dhalandji"@sv ;
+	skos:prefLabel "Dhalandji"@sv ;
+	schema:name "Dhalandji"@sv ;
+	rdfs:label "Lenga dhalandji"@pms ;
+	skos:prefLabel "Lenga dhalandji"@pms ;
+	schema:name "Lenga dhalandji"@pms ;
+	rdfs:label "Kidhalandji"@sw ;
+	skos:prefLabel "Kidhalandji"@sw ;
+	schema:name "Kidhalandji"@sw ;
+	rdfs:label "Dhalandji"@en-gb ;
+	skos:prefLabel "Dhalandji"@en-gb ;
+	schema:name "Dhalandji"@en-gb ;
+	rdfs:label "dhalandji"@fr ;
+	skos:prefLabel "dhalandji"@fr ;
+	schema:name "dhalandji"@fr ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"Sprache"@de,
+		"lugha ya asili ya Australia"@sw,
+		"langue pama-nyungan"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Dhalandji language"@en .
+
+wd:Q10470278 owl:sameAs wd:Q5268787 .

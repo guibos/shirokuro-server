@@ -1,0 +1,593 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33963 a schema:Dataset ;
+	schema:about wd:Q33963 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1958957534"^^xsd:integer ;
+	schema:dateModified "2023-08-22T18:07:28Z"^^xsd:dateTime .
+
+wd:Q33963 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Salar_language> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Salar language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Salarische_Sprache> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Salarische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Salar_(langue)> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Salar (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BB%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Саларский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%A9%E3%83%BC%E3%83%AB%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "サラール語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_salar> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua salar"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%92%92%E6%8B%89%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "撒拉语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%B3%D8%A7%D9%84%D8%A7%D8%B1%DB%8C> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان سالاری"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Salarca> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Salarca"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Salaarin_kieli> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Salaarin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Salar> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Salar"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Salar> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Salar"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BB%D0%B0%D1%80%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Саларська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%82%B4%EB%9D%BC%EB%A5%B4%EC%96%B4> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "살라르어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Salar> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Salar"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/Salar> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Salar"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D8%B3%D8%A7%D9%84%D8%A7%D8%B1> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "سالار"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://avk.wikipedia.org/wiki/Salar_ava> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "avk" ;
+	schema:isPartOf <https://avk.wikipedia.org/> ;
+	schema:name "Salar ava"@avk .
+
+<https://avk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Salar_dili> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Salar dili"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D8%B3%D8%A7%D9%84%D8%A7%D8%B1_%D8%AA%D9%88%D8%B1%DA%A9%D8%AC%D9%87%E2%80%8C%D8%B3%DB%8C> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "سالار تورکجه‌سی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ba.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BB%D0%B0%D1%80_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "ba" ;
+	schema:isPartOf <https://ba.wikipedia.org/> ;
+	schema:name "Салар теле"@ba .
+
+<https://ba.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bat-smg.wikipedia.org/wiki/Salaru_kalba> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "sgs" ;
+	schema:isPartOf <https://bat-smg.wikipedia.org/> ;
+	schema:name "Salaru kalba"@sgs .
+
+<https://bat-smg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BB%D0%B0%D1%80%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Саларская мова"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BB%D0%B0%D1%80%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Саларская мова"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Salareg> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Salareg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gag.wikipedia.org/wiki/Salar_dili> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "gag" ;
+	schema:isPartOf <https://gag.wikipedia.org/> ;
+	schema:name "Salar dili"@gag .
+
+<https://gag.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Salarski_jezik> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Salarski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kk.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BB%D0%B0%D1%80_%D1%82%D1%96%D0%BB%D1%96> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "kk" ;
+	schema:isPartOf <https://kk.wikipedia.org/> ;
+	schema:name "Салар тілі"@kk .
+
+<https://kk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BB%D0%B0%D1%80_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Салар кыв"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Salar%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Salarų kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BB%D0%B0%D1%80%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Саларски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Salarisk> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Salarisk"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_salar> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga salar"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sah.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BB%D0%B0%D1%80_%D1%82%D1%8B%D0%BB%D0%B0> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "sah" ;
+	schema:isPartOf <https://sah.wikipedia.org/> ;
+	schema:name "Салар тыла"@sah .
+
+<https://sah.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisalar> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisalar"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szl.wikipedia.org/wiki/Salarsk%C5%8F_g%C5%8Fdka> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "szl" ;
+	schema:isPartOf <https://szl.wikipedia.org/> ;
+	schema:name "Salarskŏ gŏdka"@szl .
+
+<https://szl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%8B%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B9%8C> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาซาลาร์"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BB%D0%B0%D1%80_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Салар теле"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ug.wikipedia.org/wiki/%D8%B3%D8%A7%D9%84%D8%A7%D8%B1_%D8%AA%D9%89%D9%84%D9%89> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "ug" ;
+	schema:isPartOf <https://ug.wikipedia.org/> ;
+	schema:name "سالار تىلى"@ug .
+
+<https://ug.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Salar_tili> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Salar tili"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ps.wikipedia.org/wiki/%D8%B3%D8%A7%D9%84%D8%A7%D8%B1%D9%8A_%DA%98%D8%A8%D9%87> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "ps" ;
+	schema:isPartOf <https://ps.wikipedia.org/> ;
+	schema:name "سالاري ژبه"@ps .
+
+<https://ps.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://crh.wikipedia.org/wiki/Salar_tili> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "crh-Latn" ;
+	schema:isPartOf <https://crh.wikipedia.org/> ;
+	schema:name "Salar tili"@crh-Latn .
+
+<https://crh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Salar%C5%A1tina> a schema:Article ;
+	schema:about wd:Q33963 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Salarština"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33963 wdt:P220 "slr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/slr> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/09n8mv" ;
+	wdt:P305 "slr" ;
+	wdt:P279 wd:Q494600 ;
+	wdt:P1394 "sala1264" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sala1264> ;
+	wdt:P2355 "1429" ;
+	wdt:P4132 wd:Q171263 ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P1466 "slr" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_slr> ;
+	wdt:P2581 "02934658n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s02934658n> ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P910 wd:Q10057025 ;
+	wdt:P2192 "10455" ;
+	wdt:P1889 wd:Q297049 ;
+	wdt:P1627 "slr" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q42392,
+		wd:Q45833,
+		wd:Q34800 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SLR> ;
+	wdt:P1705 "Salırça"@mis ;
+	wdt:P1098 "+70000"^^xsd:decimal ;
+	wdt:P10565 "415327" ;
+	wdt:P973 <https://turkic.elegantlexicon.com/lx.php?lx=slr> ;
+	rdfs:label "撒拉语"@zh ;
+	skos:prefLabel "撒拉语"@zh ;
+	schema:name "撒拉语"@zh ;
+	rdfs:label "Lenga salar"@pms ;
+	skos:prefLabel "Lenga salar"@pms ;
+	schema:name "Lenga salar"@pms ;
+	rdfs:label "살라르어"@ko ;
+	skos:prefLabel "살라르어"@ko ;
+	schema:name "살라르어"@ko ;
+	rdfs:label "salar"@fr ;
+	skos:prefLabel "salar"@fr ;
+	schema:name "salar"@fr ;
+	rdfs:label "Salar tili"@uz ;
+	skos:prefLabel "Salar tili"@uz ;
+	schema:name "Salar tili"@uz ;
+	rdfs:label "سالار تىلى"@ug ;
+	skos:prefLabel "سالار تىلى"@ug ;
+	schema:name "سالار تىلى"@ug ;
+	rdfs:label "Salar dili"@gag ;
+	skos:prefLabel "Salar dili"@gag ;
+	schema:name "Salar dili"@gag ;
+	rdfs:label "Salarisch"@de ;
+	skos:prefLabel "Salarisch"@de ;
+	schema:name "Salarisch"@de ;
+	rdfs:label "サラール語"@ja ;
+	skos:prefLabel "サラール語"@ja ;
+	schema:name "サラール語"@ja ;
+	rdfs:label "salareg"@br ;
+	skos:prefLabel "salareg"@br ;
+	schema:name "salareg"@br ;
+	rdfs:label "Língua salar"@pt ;
+	skos:prefLabel "Língua salar"@pt ;
+	schema:name "Língua salar"@pt ;
+	rdfs:label "Саларский язык"@ru ;
+	skos:prefLabel "Саларский язык"@ru ;
+	schema:name "Саларский язык"@ru ;
+	rdfs:label "Салар теле"@tt ;
+	skos:prefLabel "Салар теле"@tt ;
+	schema:name "Салар теле"@tt ;
+	rdfs:label "Salar"@en ;
+	skos:prefLabel "Salar"@en ;
+	schema:name "Salar"@en ;
+	rdfs:label "Salarca"@tr ;
+	skos:prefLabel "Salarca"@tr ;
+	schema:name "Salarca"@tr ;
+	rdfs:label "ภาษาซาลาร์"@th ;
+	skos:prefLabel "ภาษาซาลาร์"@th ;
+	schema:name "ภาษาซาลาร์"@th ;
+	rdfs:label "Саларски јазик"@mk ;
+	skos:prefLabel "Саларски јазик"@mk ;
+	schema:name "Саларски јазик"@mk ;
+	rdfs:label "Salaarin kieli"@fi ;
+	skos:prefLabel "Salaarin kieli"@fi ;
+	schema:name "Salaarin kieli"@fi ;
+	rdfs:label "Salarisk"@nn ;
+	skos:prefLabel "Salarisk"@nn ;
+	schema:name "Salarisk"@nn ;
+	rdfs:label "Salaru kalba"@sgs ;
+	skos:prefLabel "Salaru kalba"@sgs ;
+	schema:name "Salaru kalba"@sgs ;
+	rdfs:label "زبان سالار"@fa ;
+	skos:prefLabel "زبان سالار"@fa ;
+	schema:name "زبان سالار"@fa ;
+	rdfs:label "Салар кыв"@kv ;
+	skos:prefLabel "Салар кыв"@kv ;
+	schema:name "Салар кыв"@kv ;
+	rdfs:label "Salarski jezik"@hr ;
+	skos:prefLabel "Salarski jezik"@hr ;
+	schema:name "Salarski jezik"@hr ;
+	rdfs:label "Salar dili"@az ;
+	skos:prefLabel "Salar dili"@az ;
+	schema:name "Salar dili"@az ;
+	rdfs:label "Salarų kalba"@lt ;
+	skos:prefLabel "Salarų kalba"@lt ;
+	schema:name "Salarų kalba"@lt ;
+	rdfs:label "Салар тілі"@kk ;
+	skos:prefLabel "Салар тілі"@kk ;
+	schema:name "Салар тілі"@kk ;
+	rdfs:label "Саларская мова"@be-tarask ;
+	skos:prefLabel "Саларская мова"@be-tarask ;
+	schema:name "Саларская мова"@be-tarask ;
+	rdfs:label "Salar"@da ;
+	skos:prefLabel "Salar"@da ;
+	schema:name "Salar"@da ;
+	rdfs:label "Salar"@nb ;
+	skos:prefLabel "Salar"@nb ;
+	schema:name "Salar"@nb ;
+	rdfs:label "Саларська мова"@uk ;
+	skos:prefLabel "Саларська мова"@uk ;
+	schema:name "Саларська мова"@uk ;
+	rdfs:label "Саларская мова"@be ;
+	skos:prefLabel "Саларская мова"@be ;
+	schema:name "Саларская мова"@be ;
+	rdfs:label "Салар теле"@ba ;
+	skos:prefLabel "Салар теле"@ba ;
+	schema:name "Салар теле"@ba ;
+	rdfs:label "Salarskŏ gŏdka"@szl ;
+	skos:prefLabel "Salarskŏ gŏdka"@szl ;
+	schema:name "Salarskŏ gŏdka"@szl ;
+	rdfs:label "Bahasa Salar"@id ;
+	skos:prefLabel "Bahasa Salar"@id ;
+	schema:name "Bahasa Salar"@id ;
+	rdfs:label "Kisalar"@sw ;
+	skos:prefLabel "Kisalar"@sw ;
+	schema:name "Kisalar"@sw ;
+	rdfs:label "Salar"@en-gb ;
+	skos:prefLabel "Salar"@en-gb ;
+	schema:name "Salar"@en-gb ;
+	rdfs:label "سالار تورکجه‌سی"@azb ;
+	skos:prefLabel "سالار تورکجه‌سی"@azb ;
+	schema:name "سالار تورکجه‌سی"@azb ;
+	rdfs:label "Salar"@nl ;
+	skos:prefLabel "Salar"@nl ;
+	schema:name "Salar"@nl ;
+	rdfs:label "সালার ভাষা"@bn ;
+	skos:prefLabel "সালার ভাষা"@bn ;
+	schema:name "সালার ভাষা"@bn ;
+	rdfs:label "Tiếng Salar"@vi ;
+	skos:prefLabel "Tiếng Salar"@vi ;
+	schema:name "Tiếng Salar"@vi ;
+	rdfs:label "سالار"@arz ;
+	skos:prefLabel "سالار"@arz ;
+	schema:name "سالار"@arz ;
+	rdfs:label "Салар тыла"@sah ;
+	skos:prefLabel "Салар тыла"@sah ;
+	schema:name "Салар тыла"@sah ;
+	rdfs:label "Salar ava"@avk ;
+	skos:prefLabel "Salar ava"@avk ;
+	schema:name "Salar ava"@avk ;
+	rdfs:label "salar"@ca ;
+	skos:prefLabel "salar"@ca ;
+	schema:name "salar"@ca ;
+	rdfs:label "salarština"@cs ;
+	skos:prefLabel "salarština"@cs ;
+	schema:name "salarština"@cs ;
+	rdfs:label "سالاري ژبه"@ps ;
+	skos:prefLabel "سالاري ژبه"@ps ;
+	schema:name "سالاري ژبه"@ps ;
+	rdfs:label "Salar tili"@crh ;
+	skos:prefLabel "Salar tili"@crh ;
+	schema:name "Salar tili"@crh ;
+	rdfs:label "سالاری"@pnb ;
+	skos:prefLabel "سالاری"@pnb ;
+	schema:name "سالاری"@pnb ;
+	rdfs:label "ਸਾਲਾਰੀ"@pa ;
+	skos:prefLabel "ਸਾਲਾਰੀ"@pa ;
+	schema:name "ਸਾਲਾਰੀ"@pa ;
+	schema:description "Turksprache"@de,
+		"زبانی ترک‌تبار که قوم سالار به آن سخن می‌گویند"@fa,
+		"language"@en,
+		"שפה"@he,
+		"サラール族が用いるテュルク諸語の言語"@ja,
+		"langue turque"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"уғыҙ төркөмөнә ҡараған төрки тел, Ҡытайҙың Цинхай һәм Ганьсу провинцияларында таралған"@ba,
+		"中國西北部的突厥語言"@zh,
+		"bagian dari rumpun bahasa Turkik"@id,
+		"turkický jazyk"@cs,
+		"Salar halkı tarafından konuşulan türk dili"@tr ;
+	skos:altLabel "撒拉語"@zh,
+		"撒拉尔语"@zh,
+		"salarische Sprache"@de,
+		"撒拉語"@ja,
+		"サラ語"@ja,
+		"Саларская письменность"@ru,
+		"Salar Türkçesi"@tr,
+		"Şalar dili"@tr,
+		"Salar dili"@tr,
+		"Şalarca"@tr,
+		"Şalar Türkçesi"@tr,
+		"Salaari"@fi,
+		"ترکی سالار"@fa,
+		"Salar language"@en .

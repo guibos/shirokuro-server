@@ -1,0 +1,137 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5314004 a schema:Dataset ;
+	schema:about wd:Q5314004 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616005893"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:59:41Z"^^xsd:dateTime .
+
+wd:Q5314004 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Dumun_language> a schema:Article ;
+	schema:about wd:Q5314004 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Dumun language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Dumun> a schema:Article ;
+	schema:about wd:Q5314004 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Dumun"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kidumun> a schema:Article ;
+	schema:about wd:Q5314004 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kidumun"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Dumun> a schema:Article ;
+	schema:about wd:Q5314004 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Dumun"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_dumun> a schema:Article ;
+	schema:about wd:Q5314004 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua dumun"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5314004 wdt:P220 "dui" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dui> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "dumu1246" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/dumu1246> ;
+	wdt:P2355 "2095" ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P279 wd:Q35323986 ;
+	wdt:P2192 "2157" ;
+	wdt:P305 "dui" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P1627 "dui" ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q326254 ;
+	wdt:P646 "/m/02hx4x9" ;
+	rdfs:label "Dumun"@en ;
+	skos:prefLabel "Dumun"@en ;
+	schema:name "Dumun"@en ;
+	rdfs:label "Lenga Dumun"@pms ;
+	skos:prefLabel "Lenga Dumun"@pms ;
+	schema:name "Lenga Dumun"@pms ;
+	rdfs:label "Kidumun"@sw ;
+	skos:prefLabel "Kidumun"@sw ;
+	schema:name "Kidumun"@sw ;
+	rdfs:label "język dumun"@pl ;
+	skos:prefLabel "język dumun"@pl ;
+	schema:name "język dumun"@pl ;
+	rdfs:label "Dumun"@ilo ;
+	skos:prefLabel "Dumun"@ilo ;
+	schema:name "Dumun"@ilo ;
+	rdfs:label "Dumun"@en-gb ;
+	skos:prefLabel "Dumun"@en-gb ;
+	schema:name "Dumun"@en-gb ;
+	rdfs:label "lingua dumun"@it ;
+	skos:prefLabel "lingua dumun"@it ;
+	schema:name "lingua dumun"@it ;
+	rdfs:label "dumun"@fr ;
+	skos:prefLabel "dumun"@fr ;
+	schema:name "dumun"@fr ;
+	rdfs:label "dumun"@vec ;
+	skos:prefLabel "dumun"@vec ;
+	schema:name "dumun"@vec ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue madang"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Dumun language"@en .
+
+wd:Q11732167 owl:sameAs wd:Q5314004 .

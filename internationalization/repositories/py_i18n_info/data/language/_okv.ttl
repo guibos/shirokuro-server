@@ -1,0 +1,160 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7103752 a schema:Dataset ;
+	schema:about wd:Q7103752 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1680513941"^^xsd:integer ;
+	schema:dateModified "2022-07-17T17:35:30Z"^^xsd:dateTime .
+
+wd:Q7103752 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Orokaiva_language> a schema:Article ;
+	schema:about wd:Q7103752 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Orokaiva language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Orokaiva> a schema:Article ;
+	schema:about wd:Q7103752 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Orokaiva"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Orokaiva> a schema:Article ;
+	schema:about wd:Q7103752 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Orokaiva"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiorokaiva> a schema:Article ;
+	schema:about wd:Q7103752 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiorokaiva"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1_%CE%9F%CF%81%CE%BF%CE%BA%CE%AC%CE%B9%CE%B2%CE%B1> a schema:Article ;
+	schema:about wd:Q7103752 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γλώσσα Οροκάιβα"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D0%BE%D0%BA%D0%B0%D0%B8%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q7103752 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Орокаива"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_orokaiva> a schema:Article ;
+	schema:about wd:Q7103752 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język orokaiva"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7103752 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "orok1269" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/orok1269> ;
+	wdt:P279 wd:Q3217374 ;
+	wdt:P220 "ork" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ork> ;
+	wdt:P220 "okv" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/okv> ;
+	wdt:P1466 "oro" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_oro> ;
+	wdt:P305 "okv" ;
+	wdt:P1627 "okv" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q753686 ;
+	wdt:P646 "/m/02hwq9h" ;
+	rdfs:label "Orokaiva"@en ;
+	skos:prefLabel "Orokaiva"@en ;
+	schema:name "Orokaiva"@en ;
+	rdfs:label "Орокаива"@ru ;
+	skos:prefLabel "Орокаива"@ru ;
+	schema:name "Орокаива"@ru ;
+	rdfs:label "język orokaiva"@pl ;
+	skos:prefLabel "język orokaiva"@pl ;
+	schema:name "język orokaiva"@pl ;
+	rdfs:label "オロカイヴァ語"@ja ;
+	skos:prefLabel "オロカイヴァ語"@ja ;
+	schema:name "オロカイヴァ語"@ja ;
+	rdfs:label "Orokaiva"@ilo ;
+	skos:prefLabel "Orokaiva"@ilo ;
+	schema:name "Orokaiva"@ilo ;
+	rdfs:label "orokaiva"@fr ;
+	skos:prefLabel "orokaiva"@fr ;
+	schema:name "orokaiva"@fr ;
+	rdfs:label "Lenga Orokaiva"@pms ;
+	skos:prefLabel "Lenga Orokaiva"@pms ;
+	schema:name "Lenga Orokaiva"@pms ;
+	rdfs:label "Kiorokaiva"@sw ;
+	skos:prefLabel "Kiorokaiva"@sw ;
+	schema:name "Kiorokaiva"@sw ;
+	rdfs:label "Γλώσσα Οροκάιβα"@el ;
+	skos:prefLabel "Γλώσσα Οροκάιβα"@el ;
+	schema:name "Γλώσσα Οροκάιβα"@el ;
+	rdfs:label "歐羅開巴語"@zh ;
+	skos:prefLabel "歐羅開巴語"@zh ;
+	schema:name "歐羅開巴語"@zh ;
+	schema:description "pagsasao idiay Papua Baro a Guinea"@ilo,
+		"langue de Trans-Nouvelle-Guinée"@fr,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"Binanderean language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"język papuaski"@pl ;
+	skos:altLabel "Orokaiva language"@en .
+
+wd:Q12952994 owl:sameAs wd:Q7103752 .
+
+wd:Q11732551 owl:sameAs wd:Q7103752 .

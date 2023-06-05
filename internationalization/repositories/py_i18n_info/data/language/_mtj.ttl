@@ -1,0 +1,179 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11288953 a schema:Dataset ;
+	schema:about wd:Q11288953 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912119413"^^xsd:integer ;
+	schema:dateModified "2023-06-10T10:17:57Z"^^xsd:dateTime .
+
+wd:Q11288953 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Moskona_language> a schema:Article ;
+	schema:about wd:Q11288953 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Moskona language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_moskona> a schema:Article ;
+	schema:about wd:Q11288953 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga moskona"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Moskona_jezik> a schema:Article ;
+	schema:about wd:Q11288953 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Moskona jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Meningoeg> a schema:Article ;
+	schema:about wd:Q11288953 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Meningoeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimoskona> a schema:Article ;
+	schema:about wd:Q11288953 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimoskona"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Moskona> a schema:Article ;
+	schema:about wd:Q11288953 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Moskona"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Moskona> a schema:Article ;
+	schema:about wd:Q11288953 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Moskona"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%BD%D0%B0> a schema:Article ;
+	schema:about wd:Q11288953 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Москона"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_moskona> a schema:Article ;
+	schema:about wd:Q11288953 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język moskona"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11288953 wdt:P220 "mtj" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mtj> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "mosk1236" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mosk1236> ;
+	wdt:P2590 "1061 3" ;
+	wdt:P17 wd:Q252 ;
+	wdt:P305 "mtj" ;
+	wdt:P1627 "mtj" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2341 wd:Q5095,
+		wd:Q5096 ;
+	wdt:P646 "/m/02hxx02" ;
+	rdfs:label "Moskona"@en ;
+	skos:prefLabel "Moskona"@en ;
+	schema:name "Moskona"@en ;
+	rdfs:label "Lenga moskona"@pms ;
+	skos:prefLabel "Lenga moskona"@pms ;
+	schema:name "Lenga moskona"@pms ;
+	rdfs:label "Moskona jezik"@hr ;
+	skos:prefLabel "Moskona jezik"@hr ;
+	schema:name "Moskona jezik"@hr ;
+	rdfs:label "meningoeg"@br ;
+	skos:prefLabel "meningoeg"@br ;
+	schema:name "meningoeg"@br ;
+	rdfs:label "Kimoskona"@sw ;
+	skos:prefLabel "Kimoskona"@sw ;
+	schema:name "Kimoskona"@sw ;
+	rdfs:label "Moskona"@id ;
+	skos:prefLabel "Moskona"@id ;
+	schema:name "Moskona"@id ;
+	rdfs:label "Język meningo"@pl ;
+	skos:prefLabel "Język meningo"@pl ;
+	schema:name "Język meningo"@pl ;
+	rdfs:label "Moskona"@ilo ;
+	skos:prefLabel "Moskona"@ilo ;
+	schema:name "Moskona"@ilo ;
+	rdfs:label "Moskona"@en-gb ;
+	skos:prefLabel "Moskona"@en-gb ;
+	schema:name "Moskona"@en-gb ;
+	rdfs:label "москона"@ru ;
+	skos:prefLabel "москона"@ru ;
+	schema:name "москона"@ru ;
+	schema:description "Sprache"@de,
+		"bagian dari rumpun bahasa Papua"@id,
+		"language in Papua"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"pagsasao idiay Indonesia"@ilo,
+		"восточнопапуасский язык"@ru,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Meningo language"@en,
+		"Sabena language"@en,
+		"Moskona language"@en,
+		"bahasa Moskona"@id,
+		"bahasa Meningo"@id,
+		"bahasa Sabena"@id,
+		"Sabena"@id,
+		"Meningo"@id .
+
+wd:Q11732443 owl:sameAs wd:Q11288953 .

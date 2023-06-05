@@ -1,0 +1,146 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11732376 a schema:Dataset ;
+	schema:about wd:Q11732376 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1556058753"^^xsd:integer ;
+	schema:dateModified "2022-01-04T15:52:02Z"^^xsd:dateTime .
+
+wd:Q11732376 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Kwoma_language> a schema:Article ;
+	schema:about wd:Q11732376 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kwoma language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kwoma> a schema:Article ;
+	schema:about wd:Q11732376 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kwoma"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikwoma> a schema:Article ;
+	schema:about wd:Q11732376 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikwoma"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Kwoma> a schema:Article ;
+	schema:about wd:Q11732376 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kwoma"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Kwoma> a schema:Article ;
+	schema:about wd:Q11732376 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Kwoma"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Kwomaeg> a schema:Article ;
+	schema:about wd:Q11732376 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Kwomaeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11732376 wdt:P220 "kmo" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kmo> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q7068901 ;
+	wdt:P305 "kmo" ;
+	wdt:P1394 "kwom1262" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kwom1262> ;
+	wdt:P1466 "kwo" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_kwo> ;
+	wdt:P910 wd:Q33076524 ;
+	wdt:P2192 "10603" ;
+	wdt:P1627 "kmo" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q690880 ;
+	wdt:P646 "/m/02hx4nq" ;
+	rdfs:label "Język kwoma"@pl ;
+	skos:prefLabel "Język kwoma"@pl ;
+	schema:name "Język kwoma"@pl ;
+	rdfs:label "Kwoma"@en ;
+	skos:prefLabel "Kwoma"@en ;
+	schema:name "Kwoma"@en ;
+	rdfs:label "kwomaeg"@br ;
+	skos:prefLabel "kwomaeg"@br ;
+	schema:name "kwomaeg"@br ;
+	rdfs:label "Lenga Kwoma"@pms ;
+	skos:prefLabel "Lenga Kwoma"@pms ;
+	schema:name "Lenga Kwoma"@pms ;
+	rdfs:label "Kikwoma"@sw ;
+	skos:prefLabel "Kikwoma"@sw ;
+	schema:name "Kikwoma"@sw ;
+	rdfs:label "kwoma"@fr ;
+	skos:prefLabel "kwoma"@fr ;
+	schema:name "kwoma"@fr ;
+	rdfs:label "Kwoma"@ilo ;
+	skos:prefLabel "Kwoma"@ilo ;
+	schema:name "Kwoma"@ilo ;
+	rdfs:label "Kwoma"@en-gb ;
+	skos:prefLabel "Kwoma"@en-gb ;
+	schema:name "Kwoma"@en-gb ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"langue sepik"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kwoma language"@en,
+		"washkuk"@fr .
+
+wd:Q14159360 owl:sameAs wd:Q11732376 .
+
+wd:Q25562862 owl:sameAs wd:Q11732376 .

@@ -1,0 +1,123 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10977737 a schema:Dataset ;
+	schema:about wd:Q10977737 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1403516357"^^xsd:integer ;
+	schema:dateModified "2021-04-17T18:19:59Z"^^xsd:dateTime .
+
+wd:Q10977737 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Itu_mbon_uzo> a schema:Article ;
+	schema:about wd:Q10977737 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Itu mbon uzo"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Itu_Mbon_Uzo> a schema:Article ;
+	schema:about wd:Q10977737 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Itu Mbon Uzo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiitu-Mbon-Uzo> a schema:Article ;
+	schema:about wd:Q10977737 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiitu-Mbon-Uzo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Itu_mbon_uzo> a schema:Article ;
+	schema:about wd:Q10977737 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Itu mbon uzo"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10977737 wdt:P220 "itm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/itm> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "itum1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/itum1245> ;
+	wdt:P279 wd:Q3813193 ;
+	wdt:P910 wd:Q33075874 ;
+	wdt:P2192 "8600" ;
+	wdt:P305 "itm" ;
+	wdt:P1627 "itm" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q320852,
+		wd:Q424388,
+		wd:Q509300 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/ITM> ;
+	wdt:P646 "/m/02hxvr3" ;
+	rdfs:label "Lenga Itu Mbon Uzo"@pms ;
+	skos:prefLabel "Lenga Itu Mbon Uzo"@pms ;
+	schema:name "Lenga Itu Mbon Uzo"@pms ;
+	rdfs:label "Kiitu-Mbon-Uzo"@sw ;
+	skos:prefLabel "Kiitu-Mbon-Uzo"@sw ;
+	schema:name "Kiitu-Mbon-Uzo"@sw ;
+	rdfs:label "Itu Mbon Uzo"@en ;
+	skos:prefLabel "Itu Mbon Uzo"@en ;
+	schema:name "Itu Mbon Uzo"@en ;
+	rdfs:label "Itu Mbon Uzo"@en-gb ;
+	skos:prefLabel "Itu Mbon Uzo"@en-gb ;
+	schema:name "Itu Mbon Uzo"@en-gb ;
+	rdfs:label "itu mbon uzo"@fr ;
+	skos:prefLabel "itu mbon uzo"@fr ;
+	schema:name "itu mbon uzo"@fr ;
+	rdfs:label "itu mbon uzo"@ca ;
+	skos:prefLabel "itu mbon uzo"@ca ;
+	schema:name "itu mbon uzo"@ca ;
+	rdfs:label "Itu mbon uzo"@oc ;
+	skos:prefLabel "Itu mbon uzo"@oc ;
+	schema:name "Itu mbon uzo"@oc ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue cross river"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy .
+
+wd:Q11926990 owl:sameAs wd:Q10977737 .

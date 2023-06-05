@@ -1,0 +1,133 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7684673 a schema:Dataset ;
+	schema:about wd:Q7684673 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960619814"^^xsd:integer ;
+	schema:dateModified "2023-08-25T01:07:59Z"^^xsd:dateTime .
+
+wd:Q7684673 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_tapirap%C3%A9> a schema:Article ;
+	schema:about wd:Q7684673 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga tapirapé"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%BF%D0%B8%D1%80%D0%B0%D0%BF%D0%B5_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q7684673 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Тапирапе (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Tapirap%C3%A9_language> a schema:Article ;
+	schema:about wd:Q7684673 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Tapirapé language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_tapirap%C3%A9> a schema:Article ;
+	schema:about wd:Q7684673 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua tapirapé"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7684673 wdt:P220 "taf" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/taf> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "tapi1254" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tapi1254> ;
+	wdt:P2355 "1872" ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P910 wd:Q33658252 ;
+	wdt:P279 wd:Q148610 ;
+	wdt:P2192 "2168" ;
+	wdt:P305 "taf" ;
+	wdt:P1627 "taf" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q155 ;
+	wdt:P2341 wd:Q42824,
+		wd:Q43695 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TAF> ;
+	wdt:P646 "/m/02hxpdk" ;
+	rdfs:label "Tapirapé"@en ;
+	skos:prefLabel "Tapirapé"@en ;
+	schema:name "Tapirapé"@en ;
+	rdfs:label "Lenga tapirapé"@pms ;
+	skos:prefLabel "Lenga tapirapé"@pms ;
+	schema:name "Lenga tapirapé"@pms ;
+	rdfs:label "Тапирапе"@ru ;
+	skos:prefLabel "Тапирапе"@ru ;
+	schema:name "Тапирапе"@ru ;
+	rdfs:label "Língua tapirapé"@pt ;
+	skos:prefLabel "Língua tapirapé"@pt ;
+	schema:name "Língua tapirapé"@pt ;
+	rdfs:label "Tapirapé"@en-gb ;
+	skos:prefLabel "Tapirapé"@en-gb ;
+	schema:name "Tapirapé"@en-gb ;
+	rdfs:label "tapirape keel"@et ;
+	skos:prefLabel "tapirape keel"@et ;
+	schema:name "tapirape keel"@et ;
+	rdfs:label "tapirapé"@fr ;
+	skos:prefLabel "tapirapé"@fr ;
+	schema:name "tapirapé"@fr ;
+	rdfs:label "Wikang Tapirapé"@tl ;
+	skos:prefLabel "Wikang Tapirapé"@tl ;
+	schema:name "Wikang Tapirapé"@tl ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue tupi"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"Язык"@ru ;
+	skos:altLabel "Tapirapé language"@en,
+		"Tapirape"@en,
+		"Tapirape language"@en .
+
+wd:Q10322155 owl:sameAs wd:Q7684673 .
+
+wd:Q61095364 owl:sameAs wd:Q7684673 .

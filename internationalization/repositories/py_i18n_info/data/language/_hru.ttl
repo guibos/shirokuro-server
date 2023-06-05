@@ -1,0 +1,147 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5923933 a schema:Dataset ;
+	schema:about wd:Q5923933 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1731684781"^^xsd:integer ;
+	schema:dateModified "2022-09-19T05:50:08Z"^^xsd:dateTime .
+
+wd:Q5923933 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Hruso> a schema:Article ;
+	schema:about wd:Q5923933 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Hruso"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kihruso> a schema:Article ;
+	schema:about wd:Q5923933 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kihruso"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Hruso_language> a schema:Article ;
+	schema:about wd:Q5923933 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Hruso language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%85%E0%A4%95%E0%A4%BE_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q5923933 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "अका भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E9%B2%81%E8%8B%8F%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q5923933 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "鲁苏语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5923933 wdt:P220 "hru" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hru> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568,
+		wd:Q33648 ;
+	wdt:P1394 "hrus1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/hrus1242> ;
+	wdt:P2355 "1097" ;
+	wdt:P1999 wd:Q20672088,
+		wd:Q20672090 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P910 wd:Q33664125 ;
+	wdt:P2192 "4278" ;
+	wdt:P305 "hru" ;
+	wdt:P1627 "hru" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2341 wd:Q1162 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HRU> ;
+	wdt:P646 "/m/02hwvf_" ;
+	rdfs:label "Hruso"@en ;
+	skos:prefLabel "Hruso"@en ;
+	schema:name "Hruso"@en ;
+	rdfs:label "Lenga Hruso"@pms ;
+	skos:prefLabel "Lenga Hruso"@pms ;
+	schema:name "Lenga Hruso"@pms ;
+	rdfs:label "Kihruso"@sw ;
+	skos:prefLabel "Kihruso"@sw ;
+	schema:name "Kihruso"@sw ;
+	rdfs:label "フルソ語"@ja ;
+	skos:prefLabel "フルソ語"@ja ;
+	schema:name "フルソ語"@ja ;
+	rdfs:label "Hruso"@en-gb ;
+	skos:prefLabel "Hruso"@en-gb ;
+	schema:name "Hruso"@en-gb ;
+	rdfs:label "ਹਰੁਸੋ"@pa ;
+	skos:prefLabel "ਹਰੁਸੋ"@pa ;
+	schema:name "ਹਰੁਸੋ"@pa ;
+	rdfs:label "hruso"@fr ;
+	skos:prefLabel "hruso"@fr ;
+	schema:name "hruso"@fr ;
+	rdfs:label "अका भाषा"@hi ;
+	skos:prefLabel "अका भाषा"@hi ;
+	schema:name "अका भाषा"@hi ;
+	rdfs:label "鲁苏语"@zh ;
+	skos:prefLabel "鲁苏语"@zh ;
+	schema:name "鲁苏语"@zh ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue isolée parlée en Inde"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ভারতের ভাষা"@bn ;
+	skos:altLabel "Aka"@en,
+		"Hruso language"@en,
+		"ਰੂਸੋ"@pa,
+		"ਏਕਾ"@pa,
+		"ਹਰੁਸੋ ਭਾਸ਼ਾ"@pa,
+		"Hruso語"@ja .
+
+wd:Q12952501 owl:sameAs wd:Q5923933 .
+
+wd:Q31325621 owl:sameAs wd:Q5923933 .

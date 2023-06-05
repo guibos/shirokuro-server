@@ -1,0 +1,103 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7698064 a schema:Dataset ;
+	schema:about wd:Q7698064 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961189643"^^xsd:integer ;
+	schema:dateModified "2023-08-25T20:23:57Z"^^xsd:dateTime .
+
+wd:Q7698064 a wikibase:Item .
+
+<https://sw.wikipedia.org/wiki/Kitemein> a schema:Article ;
+	schema:about wd:Q7698064 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitemein"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Temein_language> a schema:Article ;
+	schema:about wd:Q7698064 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Temein language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7698064 wdt:P220 "teq" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/teq> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "nucl1339" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nucl1339> ;
+	wdt:P2355 "1723" ;
+	wdt:P279 wd:Q241904 ;
+	wdt:P1466 "tmn" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_tmn> ;
+	wdt:P1014 "300389391" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389391> ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P910 wd:Q33077204 ;
+	wdt:P2192 "5095" ;
+	wdt:P305 "teq" ;
+	wdt:P1627 "teq" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q1049 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TEQ> ;
+	wdt:P646 "/m/02hx759" ;
+	rdfs:label "Temein"@en ;
+	skos:prefLabel "Temein"@en ;
+	schema:name "Temein"@en ;
+	rdfs:label "Kitemein"@sw ;
+	skos:prefLabel "Kitemein"@sw ;
+	schema:name "Kitemein"@sw ;
+	rdfs:label "Temein"@en-gb ;
+	skos:prefLabel "Temein"@en-gb ;
+	schema:name "Temein"@en-gb ;
+	rdfs:label "temein"@fr ;
+	skos:prefLabel "temein"@fr ;
+	schema:name "temein"@fr ;
+	rdfs:label "Wikang Temein"@tl ;
+	skos:prefLabel "Wikang Temein"@tl ;
+	schema:name "Wikang Temein"@tl ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue temeinique"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Temein language"@en .

@@ -1,0 +1,115 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12952778 a schema:Dataset ;
+	schema:about wd:Q12952778 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1910952727"^^xsd:integer ;
+	schema:dateModified "2023-06-08T12:55:59Z"^^xsd:dateTime .
+
+wd:Q12952778 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Malay,_Kota_Bangun_Kutai> a schema:Article ;
+	schema:about wd:Q12952778 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Malay, Kota Bangun Kutai"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimalay_cha_Kota_Bangun_Kutai> a schema:Article ;
+	schema:about wd:Q12952778 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimalay cha Kota Bangun Kutai"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Kutai_Kota_Bangun> a schema:Article ;
+	schema:about wd:Q12952778 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Kutai Kota Bangun"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12952778 wdt:P220 "mqg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mqg> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kota1275" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kota1275> ;
+	wdt:P279 wd:Q4264884 ;
+	wdt:P305 "mqg" ;
+	wdt:P1627 "mqg" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2341 wd:Q3795,
+		wd:Q3899 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MQG> ;
+	wdt:P2671 "/g/122s8wsn" ;
+	wdtn:P2671 <http://g.co/kg/g/122s8wsn> ;
+	rdfs:label "Lenga Malay, Kota Bangun Kutai"@pms ;
+	skos:prefLabel "Lenga Malay, Kota Bangun Kutai"@pms ;
+	schema:name "Lenga Malay, Kota Bangun Kutai"@pms ;
+	rdfs:label "Bahasa Melayu Kutai Kota Bangun"@id ;
+	skos:prefLabel "Bahasa Melayu Kutai Kota Bangun"@id ;
+	schema:name "Bahasa Melayu Kutai Kota Bangun"@id ;
+	rdfs:label "Kota Bangun Kutai Malay"@en ;
+	skos:prefLabel "Kota Bangun Kutai Malay"@en ;
+	schema:name "Kota Bangun Kutai Malay"@en ;
+	rdfs:label "Kimalay ya Kota Bangun Kutai"@sw ;
+	skos:prefLabel "Kimalay ya Kota Bangun Kutai"@sw ;
+	schema:name "Kimalay ya Kota Bangun Kutai"@sw ;
+	rdfs:label "Kota Bangun Kutai Malay"@en-gb ;
+	skos:prefLabel "Kota Bangun Kutai Malay"@en-gb ;
+	schema:name "Kota Bangun Kutai Malay"@en-gb ;
+	rdfs:label "malais kota bangun kutai"@fr ;
+	skos:prefLabel "malais kota bangun kutai"@fr ;
+	schema:name "malais kota bangun kutai"@fr ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue malaisienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la,
+		"bagian dari rumpun bahasa Austronesia"@id ;
+	skos:altLabel "Bahasa Kutai Hulu"@id,
+		"Bahasa Melayu Kota Bangun Kutai"@id,
+		"Bahasa melayu kutai kota bangun"@id,
+		"Kota Bangun Kutai Malay language"@en .
+
+wd:Q12473443 owl:sameAs wd:Q12952778 .

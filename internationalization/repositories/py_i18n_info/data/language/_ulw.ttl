@@ -1,0 +1,112 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2405552 a schema:Dataset ;
+	schema:about wd:Q2405552 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960638545"^^xsd:integer ;
+	schema:dateModified "2023-08-25T01:41:58Z"^^xsd:dateTime .
+
+wd:Q2405552 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Ulwa> a schema:Article ;
+	schema:about wd:Q2405552 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Ulwa"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Uluas> a schema:Article ;
+	schema:about wd:Q2405552 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Uluas"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2405552 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "ulw" ;
+	wdt:P279 wd:Q971060,
+		wd:Q281693 ;
+	wdt:P220 "ulw" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ulw> ;
+	wdt:P220 "ulw" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ulw> ;
+	wdt:P2355 "1890" ;
+	wdt:P1394 "ulwa1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ulwa1239> ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P910 wd:Q36166940 ;
+	wdt:P1627 "ulw" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q811 ;
+	wdt:P2341 wd:Q291279 ;
+	wdt:P2671 "/g/1z44z515v" ;
+	wdtn:P2671 <http://g.co/kg/g/1z44z515v> ;
+	wdt:P2671 "/g/11jcnv8q3t" ;
+	wdtn:P2671 <http://g.co/kg/g/11jcnv8q3t> ;
+	rdfs:label "ulwa"@fr ;
+	skos:prefLabel "ulwa"@fr ;
+	schema:name "ulwa"@fr ;
+	rdfs:label "Ulwa"@en ;
+	skos:prefLabel "Ulwa"@en ;
+	schema:name "Ulwa"@en ;
+	rdfs:label "Idioma ulwa"@es ;
+	skos:prefLabel "Idioma ulwa"@es ;
+	schema:name "Idioma ulwa"@es ;
+	rdfs:label "Ulwa"@nl ;
+	skos:prefLabel "Ulwa"@nl ;
+	schema:name "Ulwa"@nl ;
+	rdfs:label "Ulwa"@de ;
+	skos:prefLabel "Ulwa"@de ;
+	schema:name "Ulwa"@de ;
+	rdfs:label "Ulwa"@en-gb ;
+	skos:prefLabel "Ulwa"@en-gb ;
+	schema:name "Ulwa"@en-gb ;
+	schema:description "שפה"@he,
+		"langue misumalpane"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Ulwa"@es,
+		"Uluas"@es,
+		"ulwas"@es,
+		"Ulwa languaje"@en .
+
+wd:Q96589617 owl:sameAs wd:Q2405552 .

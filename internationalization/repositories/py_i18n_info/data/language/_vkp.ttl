@@ -1,0 +1,128 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3915520 a schema:Dataset ;
+	schema:about wd:Q3915520 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961429239"^^xsd:integer ;
+	schema:dateModified "2023-08-26T03:03:21Z"^^xsd:dateTime .
+
+wd:Q3915520 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Indoportugu%C3%A8s_de_Korlai> a schema:Article ;
+	schema:about wd:Q3915520 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Indoportuguès de Korlai"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_cr%C3%A9ola_portugh%C3%A8isa_korlai> a schema:Article ;
+	schema:about wd:Q3915520 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga créola portughèisa korlai"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Korlain_kreoli> a schema:Article ;
+	schema:about wd:Q3915520 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Korlain kreoli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Crioulo_indo-portugu%C3%AAs_de_Korlai> a schema:Article ;
+	schema:about wd:Q3915520 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Crioulo indo-português de Korlai"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Korlai_Portuguese_Creole> a schema:Article ;
+	schema:about wd:Q3915520 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Korlai Portuguese Creole"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3915520 wdt:P220 "vkp" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/vkp> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "korl1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/korl1238> ;
+	wdt:P305 "vkp" ;
+	wdt:P1627 "vkp" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1191 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/VKP> ;
+	wdt:P646 "/m/02hxpgc" ;
+	wdt:P973 <https://apics-online.info/contributions/40> ;
+	wdt:P1232 "vkp" ;
+	rdfs:label "Crioulo de Korlai"@pt ;
+	skos:prefLabel "Crioulo de Korlai"@pt ;
+	schema:name "Crioulo de Korlai"@pt ;
+	rdfs:label "Lenga korlai creole portuguese"@pms ;
+	skos:prefLabel "Lenga korlai creole portuguese"@pms ;
+	schema:name "Lenga korlai creole portuguese"@pms ;
+	rdfs:label "Kristi"@en ;
+	skos:prefLabel "Kristi"@en ;
+	schema:name "Kristi"@en ;
+	rdfs:label "Korlain kreoli"@fi ;
+	skos:prefLabel "Korlain kreoli"@fi ;
+	schema:name "Korlain kreoli"@fi ;
+	rdfs:label "indoportuguès de Korlai"@ca ;
+	skos:prefLabel "indoportuguès de Korlai"@ca ;
+	schema:name "indoportuguès de Korlai"@ca ;
+	rdfs:label "ਕ੍ਰਿਸਟੀ ਭਾਸ਼ਾ"@pa ;
+	skos:prefLabel "ਕ੍ਰਿਸਟੀ ਭਾਸ਼ਾ"@pa ;
+	schema:name "ਕ੍ਰਿਸਟੀ ਭਾਸ਼ਾ"@pa ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"ਭਾਸ਼ਾ"@pa,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ভারতের ভাষা"@bn ;
+	skos:altLabel "Korlai Creole Portuguese"@en,
+		"Kristi language"@en,
+		"Kristi"@pt .

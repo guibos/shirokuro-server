@@ -1,0 +1,155 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q34964 a schema:Dataset ;
+	schema:about wd:Q34964 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1748400506"^^xsd:integer ;
+	schema:dateModified "2022-10-11T17:52:15Z"^^xsd:dateTime .
+
+wd:Q34964 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Batu_(langue)> a schema:Article ;
+	schema:about wd:Q34964 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Batu (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Batu> a schema:Article ;
+	schema:about wd:Q34964 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Batu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibatu> a schema:Article ;
+	schema:about wd:Q34964 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibatu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Batu_language> a schema:Article ;
+	schema:about wd:Q34964 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Batu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Batu_(Sprache)> a schema:Article ;
+	schema:about wd:Q34964 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Batu (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Batu_jezik> a schema:Article ;
+	schema:about wd:Q34964 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Batu jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Batu_language> a schema:Article ;
+	schema:about wd:Q34964 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Batu language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q34964 wdt:P220 "btu" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/btu> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0h96bb2" ;
+	wdt:P1394 "batu1255" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/batu1255> ;
+	wdt:P305 "btu" ;
+	wdt:P1627 "btu" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q509300,
+		wd:Q463959 ;
+	wdt:P1014 "300387958" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300387958> ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BTU> ;
+	wdt:P910 wd:Q33674052 ;
+	rdfs:label "Kibatu"@sw ;
+	skos:prefLabel "Kibatu"@sw ;
+	schema:name "Kibatu"@sw ;
+	rdfs:label "Batu"@de ;
+	skos:prefLabel "Batu"@de ;
+	schema:name "Batu"@de ;
+	rdfs:label "Lenga Batu"@pms ;
+	skos:prefLabel "Lenga Batu"@pms ;
+	schema:name "Lenga Batu"@pms ;
+	rdfs:label "Batu"@en ;
+	skos:prefLabel "Batu"@en ;
+	schema:name "Batu"@en ;
+	rdfs:label "Batu jezik"@hr ;
+	skos:prefLabel "Batu jezik"@hr ;
+	schema:name "Batu jezik"@hr ;
+	rdfs:label "batu"@es ;
+	skos:prefLabel "batu"@es ;
+	schema:name "batu"@es ;
+	rdfs:label "batu"@fr ;
+	skos:prefLabel "batu"@fr ;
+	schema:name "batu"@fr ;
+	rdfs:label "Batu"@en-gb ;
+	skos:prefLabel "Batu"@en-gb ;
+	schema:name "Batu"@en-gb ;
+	rdfs:label "Wikang Batu"@tl ;
+	skos:prefLabel "Wikang Batu"@tl ;
+	schema:name "Wikang Batu"@tl ;
+	rdfs:label "Batu"@ig ;
+	skos:prefLabel "Batu"@ig ;
+	schema:name "Batu"@ig ;
+	schema:description "idioma humano"@es,
+		"Sprache"@de,
+		"Tivoid language of Nigeria"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"Asụsụ Tivoid nke Nigeria"@ig ;
+	skos:altLabel "Batu language"@en .

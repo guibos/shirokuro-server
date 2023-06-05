@@ -1,0 +1,114 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953177 a schema:Dataset ;
+	schema:about wd:Q12953177 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960542582"^^xsd:integer ;
+	schema:dateModified "2023-08-24T23:04:30Z"^^xsd:dateTime .
+
+wd:Q12953177 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Tamang_oriental> a schema:Article ;
+	schema:about wd:Q12953177 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Tamang oriental"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Tamangeg_ar_reter> a schema:Article ;
+	schema:about wd:Q12953177 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Tamangeg ar reter"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitamang-Mashariki> a schema:Article ;
+	schema:about wd:Q12953177 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitamang-Mashariki"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953177 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "taj" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/taj> ;
+	wdt:P1394 "east2347" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/east2347> ;
+	wdt:P279 wd:Q2449073 ;
+	wdt:P910 wd:Q33669782 ;
+	wdt:P1466 "tam" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_tam> ;
+	wdt:P1098 "+1180000"^^xsd:decimal ;
+	wdt:P2341 wd:Q1144444,
+		wd:Q9046,
+		wd:Q9152,
+		wd:Q9183,
+		wd:Q9195 ;
+	wdt:P17 wd:Q837 ;
+	wdt:P305 "taj" ;
+	wdt:P1627 "taj" ;
+	wdt:P3823 wd:Q29051550 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TAJ> ;
+	rdfs:label "Lenga Tamang oriental"@pms ;
+	skos:prefLabel "Lenga Tamang oriental"@pms ;
+	schema:name "Lenga Tamang oriental"@pms ;
+	rdfs:label "tamangeg ar reter"@br ;
+	skos:prefLabel "tamangeg ar reter"@br ;
+	schema:name "tamangeg ar reter"@br ;
+	rdfs:label "Eastern Tamang"@en ;
+	skos:prefLabel "Eastern Tamang"@en ;
+	schema:name "Eastern Tamang"@en ;
+	rdfs:label "Kitamang ya Mashariki"@sw ;
+	skos:prefLabel "Kitamang ya Mashariki"@sw ;
+	schema:name "Kitamang ya Mashariki"@sw ;
+	rdfs:label "Eastern Tamang"@en-gb ;
+	skos:prefLabel "Eastern Tamang"@en-gb ;
+	schema:name "Eastern Tamang"@en-gb ;
+	rdfs:label "tamang de l'Est"@fr ;
+	skos:prefLabel "tamang de l'Est"@fr ;
+	schema:name "tamang de l'Est"@fr ;
+	schema:description "Sino-Tibetan language"@en,
+		"Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue bodique"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Eastern Tamang language"@en .

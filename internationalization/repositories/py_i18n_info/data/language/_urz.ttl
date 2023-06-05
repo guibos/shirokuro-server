@@ -1,0 +1,100 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10266012 a schema:Dataset ;
+	schema:about wd:Q10266012 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960617196"^^xsd:integer ;
+	schema:dateModified "2023-08-25T01:03:20Z"^^xsd:dateTime .
+
+wd:Q10266012 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_uru-eu-wau-wau> a schema:Article ;
+	schema:about wd:Q10266012 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga uru-eu-wau-wau"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Dialeto_uru-eu-uau-uau> a schema:Article ;
+	schema:about wd:Q10266012 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Dialeto uru-eu-uau-uau"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10266012 wdt:P31 wd:Q33384,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "urz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/urz> ;
+	wdt:P279 wd:Q6346712 ;
+	wdt:P2355 "1627" ;
+	wdt:P1394 "urue1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/urue1240> ;
+	wdt:P2192 "1957" ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P305 "urz" ;
+	wdt:P1627 "urz" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q155 ;
+	wdt:P2341 wd:Q15499,
+		wd:Q43235 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/URZ> ;
+	wdt:P2671 "/g/120nky19" ;
+	wdtn:P2671 <http://g.co/kg/g/120nky19> ;
+	wdt:P5008 wd:Q116878906 ;
+	rdfs:label "Dialeto uru-eu-uau-uau"@pt ;
+	skos:prefLabel "Dialeto uru-eu-uau-uau"@pt ;
+	schema:name "Dialeto uru-eu-uau-uau"@pt ;
+	rdfs:label "Lenga uru-eu-wau-wau"@pms ;
+	skos:prefLabel "Lenga uru-eu-wau-wau"@pms ;
+	schema:name "Lenga uru-eu-wau-wau"@pms ;
+	rdfs:label "Uru-eu-wau-wau"@en ;
+	skos:prefLabel "Uru-eu-wau-wau"@en ;
+	schema:name "Uru-eu-wau-wau"@en ;
+	rdfs:label "uru-eu-wau-wau"@fr ;
+	skos:prefLabel "uru-eu-wau-wau"@fr ;
+	schema:name "uru-eu-wau-wau"@fr ;
+	rdfs:label "uru-eu-uau-uau"@es ;
+	skos:prefLabel "uru-eu-uau-uau"@es ;
+	schema:name "uru-eu-uau-uau"@es ;
+	schema:description "langue tupi-guarani"@fr,
+		"language"@en ;
+	skos:altLabel "Língua uru-eu-uau-uau"@pt,
+		"Língua Uru-Eu-Wau-Wáu"@pt,
+		"Uru-eu-au-au"@en,
+		"Uru-eu-wau-wau language"@en .
+
+wd:Q12953958 owl:sameAs wd:Q10266012 .

@@ -1,0 +1,165 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36302 a schema:Dataset ;
+	schema:about wd:Q36302 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1824404473"^^xsd:integer ;
+	schema:dateModified "2023-02-02T06:57:04Z"^^xsd:dateTime .
+
+wd:Q36302 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Oko-Eni-Osayen> a schema:Article ;
+	schema:about wd:Q36302 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Oko-Eni-Osayen"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kioko-Eni-Osayen> a schema:Article ;
+	schema:about wd:Q36302 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kioko-Eni-Osayen"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Oko_language> a schema:Article ;
+	schema:about wd:Q36302 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Oko language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Okoeg> a schema:Article ;
+	schema:about wd:Q36302 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Okoeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Oko_(Sprache)> a schema:Article ;
+	schema:about wd:Q36302 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Oko (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Oko_(lenga)> a schema:Article ;
+	schema:about wd:Q36302 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Oko (lenga)"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://yo.wikipedia.org/wiki/%C3%88d%C3%A8_%E1%BB%8C%CC%80k%E1%BB%8D%CC%81> a schema:Article ;
+	schema:about wd:Q36302 ;
+	schema:inLanguage "yo" ;
+	schema:isPartOf <https://yo.wikipedia.org/> ;
+	schema:name "Èdè Ọ̀kọ́"@yo .
+
+<https://yo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_oko> a schema:Article ;
+	schema:about wd:Q36302 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua oko"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36302 wdt:P220 "oks" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/oks> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "okoe1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/okoe1238> ;
+	wdt:P1417 "topic/Oko-languages" ;
+	wdt:P305 "oks" ;
+	wdt:P1627 "oks" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q682704,
+		wd:Q509300,
+		wd:Q387745 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/OKS> ;
+	wdt:P646 "/m/02hww65" ;
+	wdt:P910 wd:Q105715767 ;
+	rdfs:label "Kioko-Eni-Osayen"@sw ;
+	skos:prefLabel "Kioko-Eni-Osayen"@sw ;
+	schema:name "Kioko-Eni-Osayen"@sw ;
+	rdfs:label "Oko"@de ;
+	skos:prefLabel "Oko"@de ;
+	schema:name "Oko"@de ;
+	rdfs:label "Lenga Oko-Eni-Osayen"@pms ;
+	skos:prefLabel "Lenga Oko-Eni-Osayen"@pms ;
+	schema:name "Lenga Oko-Eni-Osayen"@pms ;
+	rdfs:label "okoeg"@br ;
+	skos:prefLabel "okoeg"@br ;
+	schema:name "okoeg"@br ;
+	rdfs:label "Oko"@en ;
+	skos:prefLabel "Oko"@en ;
+	schema:name "Oko"@en ;
+	rdfs:label "oko"@es ;
+	skos:prefLabel "oko"@es ;
+	schema:name "oko"@es ;
+	rdfs:label "Oko (lenga)"@oc ;
+	skos:prefLabel "Oko (lenga)"@oc ;
+	schema:name "Oko (lenga)"@oc ;
+	rdfs:label "Èdè Ọ̀kọ́"@yo ;
+	skos:prefLabel "Èdè Ọ̀kọ́"@yo ;
+	schema:name "Èdè Ọ̀kọ́"@yo ;
+	rdfs:label "Língua oko"@pt ;
+	skos:prefLabel "Língua oko"@pt ;
+	schema:name "Língua oko"@pt ;
+	rdfs:label "オコ語"@ja ;
+	skos:prefLabel "オコ語"@ja ;
+	schema:name "オコ語"@ja ;
+	schema:description "idioma humano"@es,
+		"Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kioko"@sw,
+		"Kiogori-Magongo"@sw,
+		"Oko-Eni-Osayen"@en,
+		"Oko language"@en .

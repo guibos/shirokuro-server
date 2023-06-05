@@ -1,0 +1,127 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12642603 a schema:Dataset ;
+	schema:about wd:Q12642603 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1780762052"^^xsd:integer ;
+	schema:dateModified "2022-11-29T04:47:33Z"^^xsd:dateTime .
+
+wd:Q12642603 a wikibase:Item .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D0%BA%D0%BE%D1%80%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q12642603 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Среднекорнский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Srednjovjekovni_kornijski_jezik> a schema:Article ;
+	schema:about wd:Q12642603 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Srednjovjekovni kornijski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Middle_Cornish> a schema:Article ;
+	schema:about wd:Q12642603 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Middle Cornish"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Mittelkornische_Sprache> a schema:Article ;
+	schema:about wd:Q12642603 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Mittelkornische Sprache"@de ;
+	wikibase:badge wd:Q70894304 .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12642603 wdt:P31 wd:Q2315359 ;
+	wdt:P220 "cnx" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cnx> ;
+	a wdno:P1394 ;
+	wdt:P1232 "cnx" ;
+	wdt:P279 wd:Q2612853 ;
+	wdt:P155 wd:Q48304520 ;
+	wdt:P156 wd:Q25289 ;
+	wdt:P131 wd:Q48026 ;
+	wdt:P1098 "+0"^^xsd:decimal ;
+	wdt:P576 "1550-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P17 wd:Q145 ;
+	wdt:P305 "cnx" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CNX> ;
+	wdt:P2671 "/g/122ds6qb" ;
+	wdtn:P2671 <http://g.co/kg/g/122ds6qb> ;
+	wdt:P910 wd:Q33140548 ;
+	rdfs:label "Srednjovjekovni kornijski jezik"@hr ;
+	skos:prefLabel "Srednjovjekovni kornijski jezik"@hr ;
+	schema:name "Srednjovjekovni kornijski jezik"@hr ;
+	rdfs:label "Middle Cornish"@en ;
+	skos:prefLabel "Middle Cornish"@en ;
+	schema:name "Middle Cornish"@en ;
+	rdfs:label "Middle Cornish"@en-gb ;
+	skos:prefLabel "Middle Cornish"@en-gb ;
+	schema:name "Middle Cornish"@en-gb ;
+	rdfs:label "moyen cornique"@fr ;
+	skos:prefLabel "moyen cornique"@fr ;
+	schema:name "moyen cornique"@fr ;
+	rdfs:label "Среднекорнский язык"@ru ;
+	skos:prefLabel "Среднекорнский язык"@ru ;
+	schema:name "Среднекорнский язык"@ru ;
+	rdfs:label "córnico medio"@es ;
+	skos:prefLabel "córnico medio"@es ;
+	schema:name "córnico medio"@es ;
+	rdfs:label "Mittelkornisch"@de ;
+	skos:prefLabel "Mittelkornisch"@de ;
+	schema:name "Mittelkornisch"@de ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"вымерший кельтский язык"@ru,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Srednjokornijski jezik"@hr,
+		"Среднекорнский"@ru,
+		"mittelkornische Sprache"@de .

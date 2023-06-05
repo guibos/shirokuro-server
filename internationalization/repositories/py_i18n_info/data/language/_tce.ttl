@@ -1,0 +1,122 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q31091048 a schema:Dataset ;
+	schema:about wd:Q31091048 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960586979"^^xsd:integer ;
+	schema:dateModified "2023-08-25T00:09:59Z"^^xsd:dateTime .
+
+wd:Q31091048 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_tutchone,_meridional> a schema:Article ;
+	schema:about wd:Q31091048 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga tutchone, meridional"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/S%C3%BC%C3%BCd-Tutchone_spriak> a schema:Article ;
+	schema:about wd:Q31091048 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Süüd-Tutchone spriak"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/G%C3%BCney_Tu%C3%A7oncas%C4%B1> a schema:Article ;
+	schema:about wd:Q31091048 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Güney Tuçoncası"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q31091048 wdt:P2355 "2382" ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "sout2957" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sout2957> ;
+	wdt:P220 "tce" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tce> ;
+	wdt:P279 wd:Q28568 ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P305 "tce" ;
+	wdt:P1627 "tce" ;
+	wdt:P910 wd:Q36166845 ;
+	wdt:P2192 "1470" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P17 wd:Q16 ;
+	wdt:P2341 wd:Q2009 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TCE> ;
+	wdt:P2671 "/g/11vjp9h4v" ;
+	wdtn:P2671 <http://g.co/kg/g/11vjp9h4v> ;
+	wdt:P424 "tce" ;
+	rdfs:label "tutchone du Sud"@fr ;
+	skos:prefLabel "tutchone du Sud"@fr ;
+	schema:name "tutchone du Sud"@fr ;
+	rdfs:label "Southern Tutchone"@en ;
+	skos:prefLabel "Southern Tutchone"@en ;
+	schema:name "Southern Tutchone"@en ;
+	rdfs:label "tutchone meridional"@es ;
+	skos:prefLabel "tutchone meridional"@es ;
+	schema:name "tutchone meridional"@es ;
+	rdfs:label "Southern Tutchone"@en-gb ;
+	skos:prefLabel "Southern Tutchone"@en-gb ;
+	schema:name "Southern Tutchone"@en-gb ;
+	rdfs:label "Lenga tutchone, meridional"@pms ;
+	skos:prefLabel "Lenga tutchone, meridional"@pms ;
+	schema:name "Lenga tutchone, meridional"@pms ;
+	rdfs:label "Güney Tuçoncası"@tr ;
+	skos:prefLabel "Güney Tuçoncası"@tr ;
+	schema:name "Güney Tuçoncası"@tr ;
+	rdfs:label "Süüd-Tutchone spriak"@frr ;
+	skos:prefLabel "Süüd-Tutchone spriak"@frr ;
+	schema:name "Süüd-Tutchone spriak"@frr ;
+	rdfs:label "tutchon del sud"@vec ;
+	skos:prefLabel "tutchon del sud"@vec ;
+	schema:name "tutchon del sud"@vec ;
+	rdfs:label "sydtutchone"@sv ;
+	skos:prefLabel "sydtutchone"@sv ;
+	schema:name "sydtutchone"@sv ;
+	schema:description "langue athapascane"@fr,
+		"taal"@nl,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la,
+		"athapaskiskt språk"@sv ;
+	skos:altLabel "Southern Tutchone language"@en .

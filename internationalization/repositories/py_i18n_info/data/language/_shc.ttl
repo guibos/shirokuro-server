@@ -1,0 +1,103 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7560881 a schema:Dataset ;
+	schema:about wd:Q7560881 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961371181"^^xsd:integer ;
+	schema:dateModified "2023-08-26T00:53:40Z"^^xsd:dateTime .
+
+wd:Q7560881 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Sonde> a schema:Article ;
+	schema:about wd:Q7560881 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Sonde"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisonde_(lugha)> a schema:Article ;
+	schema:about wd:Q7560881 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisonde (lugha)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sonde_language> a schema:Article ;
+	schema:about wd:Q7560881 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sonde language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7560881 wdt:P220 "shc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/shc> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "sond1250" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sond1250> ;
+	wdt:P305 "shc" ;
+	wdt:P1627 "shc" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q974 ;
+	wdt:P2341 wd:Q671442 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SHC> ;
+	wdt:P646 "/m/02hxctw" ;
+	wdt:P279 wd:Q7162373 ;
+	rdfs:label "Sonde"@en ;
+	skos:prefLabel "Sonde"@en ;
+	schema:name "Sonde"@en ;
+	rdfs:label "Lenga Sonde"@pms ;
+	skos:prefLabel "Lenga Sonde"@pms ;
+	schema:name "Lenga Sonde"@pms ;
+	rdfs:label "Kisonde (lugha)"@sw ;
+	skos:prefLabel "Kisonde (lugha)"@sw ;
+	schema:name "Kisonde (lugha)"@sw ;
+	rdfs:label "Sonde"@en-gb ;
+	skos:prefLabel "Sonde"@en-gb ;
+	schema:name "Sonde"@en-gb ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Sonde language"@en .
+
+wd:Q11054960 owl:sameAs wd:Q7560881 .

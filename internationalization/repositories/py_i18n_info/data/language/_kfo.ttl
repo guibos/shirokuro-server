@@ -1,0 +1,120 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11160588 a schema:Dataset ;
+	schema:about wd:Q11160588 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1524344687"^^xsd:integer ;
+	schema:dateModified "2021-11-08T19:01:47Z"^^xsd:dateTime .
+
+wd:Q11160588 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Koro> a schema:Article ;
+	schema:about wd:Q11160588 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Koro"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikoro_(Cote_d%27Ivoire)> a schema:Article ;
+	schema:about wd:Q11160588 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikoro (Cote d'Ivoire)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%AD%E8%AA%9E_(%E3%82%B3%E3%83%BC%E3%83%88%E3%82%B8%E3%83%9C%E3%83%AF%E3%83%BC%E3%83%AB)> a schema:Article ;
+	schema:about wd:Q11160588 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "コロ語 (コートジボワール)"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Norsunluurannikonkoro> a schema:Article ;
+	schema:about wd:Q11160588 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Norsunluurannikonkoro"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11160588 wdt:P220 "kfo" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kfo> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "koro1306" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/koro1306> ;
+	wdt:P279 wd:Q35772 ;
+	wdt:P2192 "4375" ;
+	wdt:P305 "kfo" ;
+	wdt:P1627 "kfo" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1008 ;
+	wdt:P2341 wd:Q20980371 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KFO> ;
+	wdt:P2671 "/g/11b66hbzn8" ;
+	wdtn:P2671 <http://g.co/kg/g/11b66hbzn8> ;
+	wdt:P9060 "kfo" ;
+	rdfs:label "Kikoro"@sw ;
+	skos:prefLabel "Kikoro"@sw ;
+	schema:name "Kikoro"@sw ;
+	rdfs:label "Lenga Koro"@pms ;
+	skos:prefLabel "Lenga Koro"@pms ;
+	schema:name "Lenga Koro"@pms ;
+	rdfs:label "Norsunluurannikonkoro"@fi ;
+	skos:prefLabel "Norsunluurannikonkoro"@fi ;
+	schema:name "Norsunluurannikonkoro"@fi ;
+	rdfs:label "Koro"@en ;
+	skos:prefLabel "Koro"@en ;
+	schema:name "Koro"@en ;
+	rdfs:label "コロ・ジュラ語"@ja ;
+	skos:prefLabel "コロ・ジュラ語"@ja ;
+	schema:name "コロ・ジュラ語"@ja ;
+	rdfs:label "koro"@fr ;
+	skos:prefLabel "koro"@fr ;
+	schema:name "koro"@fr ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue mandée parlée en Côte d'Ivoire"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Koro Jula"@en,
+		"Koro language"@en .
+
+wd:Q17232414 owl:sameAs wd:Q11160588 .

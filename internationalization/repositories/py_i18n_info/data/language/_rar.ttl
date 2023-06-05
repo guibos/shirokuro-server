@@ -1,0 +1,621 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36745 a schema:Dataset ;
+	schema:about wd:Q36745 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960524766"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:40:38Z"^^xsd:dateTime .
+
+wd:Q36745 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Rarotongan> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Rarotongan"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BA%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Кукский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9A%D1%83%D0%BA%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Кукська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Cook_Islands_M%C4%81ori> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Cook Islands Māori"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Rarotongesisk> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Rarotongesisk"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Raroton%C5%A1ki_jezik> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Rarotonški jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Maori_das_Ilhas_Cook> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Maori das Ilhas Cook"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Cookeilandse_M%C4%81ori> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Cookeilandse Māori"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/M%C4%81ori_ti_Is-isla_Cook> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Māori ti Is-isla Cook"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%A0%D0%B0%D1%80%D0%BE%D1%82%D0%BE%D0%BD%D0%B3%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Раротонгански јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://an.wikipedia.org/wiki/Maor%C3%AD_d%27as_Islas_Cook> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "an" ;
+	schema:isPartOf <https://an.wikipedia.org/> ;
+	schema:name "Maorí d'as Islas Cook"@an .
+
+<https://an.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%A0%D0%B0%D1%80%D0%BE%D1%82%D0%BE%D0%BD%D0%B3%D0%B0_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Раротонга кыв"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%AD%E3%83%88%E3%83%B3%E3%82%AC%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ラロトンガ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Rarotonganische_Sprache> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Rarotonganische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Kuko_Sal%C5%B3_maori%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Kuko Salų maorių kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Rarotongesiska> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Rarotongesiska"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Cook_uharteetako_m%C4%81oriera> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Cook uharteetako māoriera"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_maoryski_Wysp_Cooka> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język maoryski Wysp Cooka"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pih.wikipedia.org/wiki/Dem_Kuuk_Ailen_Maaori> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "pih" ;
+	schema:isPartOf <https://pih.wikipedia.org/> ;
+	schema:name "Dem Kuuk Ailen Maaori"@pih .
+
+<https://pih.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1_%DA%A9%DA%A9_%D9%85%D8%A7%D9%88%D8%B1%DB%8C> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "جزائر کک ماوری"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Maorski_jezik_Kukovih_Ostrva> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Maorski jezik Kukovih Ostrva"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Rarotonga_keel> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Rarotonga keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Maori_des_%C3%AEles_Cook> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Maori des îles Cook"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Cookeilandmaori> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Cookeilandmaori"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mi.wikipedia.org/wiki/Reo_M%C4%81ori_Kuki_Airani> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "mi" ;
+	schema:isPartOf <https://mi.wikipedia.org/> ;
+	schema:name "Reo Māori Kuki Airani"@mi .
+
+<https://mi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_M%C4%81ori_qu%E1%BA%A7n_%C4%91%E1%BA%A3o_Cook> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Māori quần đảo Cook"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Rarotongeg> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Rarotongeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_maor%C3%AD_das_Illas_Cook> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua maorí das Illas Cook"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_rarotongano> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma rarotongano"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Kuka_salu_m%C4%81ori_valoda> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Kuka salu māori valoda"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Cook_Islands_Maori> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Cook Islands Maori"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikibooks.org/wiki/Rarotongan_kieli> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikibooks.org/> ;
+	schema:name "Rarotongan kieli"@fi .
+
+<https://fi.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://fi.wikipedia.org/wiki/Rarotongan_kieli> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Rarotongan kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Cook_Adalar%C4%B1_Maoricesi> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Cook Adaları Maoricesi"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%BA%93%E5%85%8B%E7%BE%A4%E5%B2%9B%E6%AF%9B%E5%88%A9%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "库克群岛毛利语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Rarotongan_language> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Rarotongan language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D9%85%D8%A7%D8%A6%D9%88%D8%B1%DB%8C_%D8%AC%D8%B2%D8%A7%DB%8C%D8%B1_%DA%A9%D9%88%DA%A9> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "مائوری جزایر کوک"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://to.wikipedia.org/wiki/Lea_faka-Lalotonga> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "to" ;
+	schema:isPartOf <https://to.wikipedia.org/> ;
+	schema:name "Lea faka-Lalotonga"@to .
+
+<https://to.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://anp.wikipedia.org/wiki/%E0%A4%95%E0%A5%81%E0%A4%95_%E0%A4%86%E0%A4%87%E0%A4%B2%E0%A5%88%E0%A4%82%E0%A4%A1%E0%A5%8D%E0%A4%B8_%E0%A4%AE%E0%A4%BE%E0%A4%93%E0%A4%B0%E0%A5%80> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "anp" ;
+	schema:isPartOf <https://anp.wikipedia.org/> ;
+	schema:name "कुक आइलैंड्स माओरी"@anp .
+
+<https://anp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Rarotongaans> a schema:Article ;
+	schema:about wd:Q36745 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Rarotongaans"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36745 wdt:P1018 wd:Q3198845 ;
+	wdt:P1251 "9303" ;
+	wdt:P227 "4605663-4" ;
+	wdtn:P227 <https://d-nb.info/gnd/4605663-4> ;
+	wdt:P219 "rar" ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "rar" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/rar> ;
+	wdt:P646 "/m/065c40" ;
+	wdt:P305 "rar" ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P279 wd:Q38937 ;
+	wdt:P1098 "+17500"^^xsd:decimal ;
+	wdt:P910 wd:Q16270378 ;
+	wdt:P1394 "raro1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/raro1241> ;
+	wdt:P1705 "Māori Kūki 'Āirani"@mis,
+		"Te Reo Maori"@rar ;
+	wdt:P278 "рар 557" ;
+	wdt:P4132 wd:Q7423311 ;
+	wdt:P2192 "2519" ;
+	wdt:P1627 "rar" ;
+	wdt:P4801 "languages/rar" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/rar> ;
+	wdt:P4801 "iso639-2/rar" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/iso639-2/rar> ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q26988 ;
+	wdt:P2341 wd:Q26988 ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P2355 "704" ;
+	wdt:P1245 "1006724" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/RAR> ;
+	wdt:P7084 wd:Q84970990 ;
+	wdt:P8408 "EthnicGroupOfCookIslandMaoris" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/EthnicGroupOfCookIslandMaoris> ;
+	wdt:P7033 "scot/15245" ;
+	wdtn:P7033 <http://vocabulary.curriculum.edu.au/scot/15245.rdf> ;
+	wdt:P424 "rar" ;
+	wdt:P9060 "rar" ;
+	wdt:P10369 "Q440" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q440> ;
+	wdt:P1014 "300389138" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389138> ;
+	wdt:P1232 "rar" ;
+	wdt:P8313 "rarotongansk" ;
+	rdfs:label "Lenga Rarotongan"@pms ;
+	skos:prefLabel "Lenga Rarotongan"@pms ;
+	schema:name "Lenga Rarotongan"@pms ;
+	rdfs:label "język maoryski Wysp Cooka"@pl ;
+	skos:prefLabel "język maoryski Wysp Cooka"@pl ;
+	schema:name "język maoryski Wysp Cooka"@pl ;
+	rdfs:label "кукский язык"@ru ;
+	skos:prefLabel "кукский язык"@ru ;
+	schema:name "кукский язык"@ru ;
+	rdfs:label "maori des îles Cook"@fr ;
+	skos:prefLabel "maori des îles Cook"@fr ;
+	schema:name "maori des îles Cook"@fr ;
+	rdfs:label "Cook Islands Maori"@en ;
+	skos:prefLabel "Cook Islands Maori"@en ;
+	schema:name "Cook Islands Maori"@en ;
+	rdfs:label "Reo Māori Kuki Airani"@mi ;
+	skos:prefLabel "Reo Māori Kuki Airani"@mi ;
+	schema:name "Reo Māori Kuki Airani"@mi ;
+	rdfs:label "Idioma rarotongano"@es ;
+	skos:prefLabel "Idioma rarotongano"@es ;
+	schema:name "Idioma rarotongano"@es ;
+	rdfs:label "Раротонгански јазик"@mk ;
+	skos:prefLabel "Раротонгански јазик"@mk ;
+	schema:name "Раротонгански јазик"@mk ;
+	rdfs:label "Rarotongan kieli"@fi ;
+	skos:prefLabel "Rarotongan kieli"@fi ;
+	schema:name "Rarotongan kieli"@fi ;
+	rdfs:label "Kuka salu māori valoda"@lv ;
+	skos:prefLabel "Kuka salu māori valoda"@lv ;
+	schema:name "Kuka salu māori valoda"@lv ;
+	rdfs:label "Rarotonganisch"@de ;
+	skos:prefLabel "Rarotonganisch"@de ;
+	schema:name "Rarotonganisch"@de ;
+	rdfs:label "ラロトンガ語"@ja ;
+	skos:prefLabel "ラロトンガ語"@ja ;
+	schema:name "ラロトンガ語"@ja ;
+	rdfs:label "rarotongeg"@br ;
+	skos:prefLabel "rarotongeg"@br ;
+	schema:name "rarotongeg"@br ;
+	rdfs:label "Раротонга кыв"@kv ;
+	skos:prefLabel "Раротонга кыв"@kv ;
+	schema:name "Раротонга кыв"@kv ;
+	rdfs:label "Maorski jezik Kukovih Ostrva"@sh ;
+	skos:prefLabel "Maorski jezik Kukovih Ostrva"@sh ;
+	schema:name "Maorski jezik Kukovih Ostrva"@sh ;
+	rdfs:label "Rarotonški jezik"@hr ;
+	skos:prefLabel "Rarotonški jezik"@hr ;
+	schema:name "Rarotonški jezik"@hr ;
+	rdfs:label "Kuko Salų maorių kalba"@lt ;
+	skos:prefLabel "Kuko Salų maorių kalba"@lt ;
+	schema:name "Kuko Salų maorių kalba"@lt ;
+	rdfs:label "rarotongesiska"@sv ;
+	skos:prefLabel "rarotongesiska"@sv ;
+	schema:name "rarotongesiska"@sv ;
+	rdfs:label "Cook Islands Māori"@en-ca ;
+	skos:prefLabel "Cook Islands Māori"@en-ca ;
+	schema:name "Cook Islands Māori"@en-ca ;
+	rdfs:label "Cook Islands Māori"@en-gb ;
+	skos:prefLabel "Cook Islands Māori"@en-gb ;
+	schema:name "Cook Islands Māori"@en-gb ;
+	rdfs:label "Rarotonga keel"@et ;
+	skos:prefLabel "Rarotonga keel"@et ;
+	schema:name "Rarotonga keel"@et ;
+	rdfs:label "кук теле"@tt ;
+	skos:prefLabel "кук теле"@tt ;
+	schema:name "кук теле"@tt ;
+	rdfs:label "Кук теле"@ba ;
+	skos:prefLabel "Кук теле"@ba ;
+	schema:name "Кук теле"@ba ;
+	rdfs:label "Cookeilandmaori"@nl ;
+	skos:prefLabel "Cookeilandmaori"@nl ;
+	schema:name "Cookeilandmaori"@nl ;
+	rdfs:label "庫克群島毛利語"@zh ;
+	skos:prefLabel "庫克群島毛利語"@zh ;
+	schema:name "庫克群島毛利語"@zh ;
+	rdfs:label "Maori das Ilhas Cook"@pt ;
+	skos:prefLabel "Maori das Ilhas Cook"@pt ;
+	schema:name "Maori das Ilhas Cook"@pt ;
+	rdfs:label "Māori ti Is-isla Cook"@ilo ;
+	skos:prefLabel "Māori ti Is-isla Cook"@ilo ;
+	schema:name "Māori ti Is-isla Cook"@ilo ;
+	rdfs:label "maori de les Illes Cook"@ca ;
+	skos:prefLabel "maori de les Illes Cook"@ca ;
+	schema:name "maori de les Illes Cook"@ca ;
+	rdfs:label "Lingua maorí das Illas Cook"@gl ;
+	skos:prefLabel "Lingua maorí das Illas Cook"@gl ;
+	schema:name "Lingua maorí das Illas Cook"@gl ;
+	rdfs:label "Cook Islands Maori"@hif ;
+	skos:prefLabel "Cook Islands Maori"@hif ;
+	schema:name "Cook Islands Maori"@hif ;
+	rdfs:label "Cook-szigeteki maori"@hu ;
+	skos:prefLabel "Cook-szigeteki maori"@hu ;
+	schema:name "Cook-szigeteki maori"@hu ;
+	rdfs:label "Kuk-insulara maoria lingvo"@eo ;
+	skos:prefLabel "Kuk-insulara maoria lingvo"@eo ;
+	schema:name "Kuk-insulara maoria lingvo"@eo ;
+	rdfs:label "Cookeilandse Māori"@af ;
+	skos:prefLabel "Cookeilandse Māori"@af ;
+	schema:name "Cookeilandse Māori"@af ;
+	rdfs:label "جزائر کک ماوری"@ur ;
+	skos:prefLabel "جزائر کک ماوری"@ur ;
+	schema:name "جزائر کک ماوری"@ur ;
+	rdfs:label "rarotongesisk"@nn ;
+	skos:prefLabel "rarotongesisk"@nn ;
+	schema:name "rarotongesisk"@nn ;
+	rdfs:label "Maorí d'as Islas Cook"@an ;
+	skos:prefLabel "Maorí d'as Islas Cook"@an ;
+	schema:name "Maorí d'as Islas Cook"@an ;
+	rdfs:label "Tiếng Māori quần đảo Cook"@vi ;
+	skos:prefLabel "Tiếng Māori quần đảo Cook"@vi ;
+	schema:name "Tiếng Māori quần đảo Cook"@vi ;
+	rdfs:label "Dem Cook Ailen Māori"@pih ;
+	skos:prefLabel "Dem Cook Ailen Māori"@pih ;
+	schema:name "Dem Cook Ailen Māori"@pih ;
+	rdfs:label "Кукська мова"@uk ;
+	skos:prefLabel "Кукська мова"@uk ;
+	schema:name "Кукська мова"@uk ;
+	rdfs:label "Cook uharteetako māoriera"@eu ;
+	skos:prefLabel "Cook uharteetako māoriera"@eu ;
+	schema:name "Cook uharteetako māoriera"@eu ;
+	rdfs:label "rarotongesisk"@nb ;
+	skos:prefLabel "rarotongesisk"@nb ;
+	schema:name "rarotongesisk"@nb ;
+	rdfs:label "Cook Adaları Maoricesi"@tr ;
+	skos:prefLabel "Cook Adaları Maoricesi"@tr ;
+	schema:name "Cook Adaları Maoricesi"@tr ;
+	rdfs:label "庫克羣島毛利人"@zh-hant ;
+	skos:prefLabel "庫克羣島毛利人"@zh-hant ;
+	schema:name "庫克羣島毛利人"@zh-hant ;
+	rdfs:label "Lea fakakuki"@to ;
+	skos:prefLabel "Lea fakakuki"@to ;
+	schema:name "Lea fakakuki"@to ;
+	rdfs:label "مائوری جزایر کوک"@fa ;
+	skos:prefLabel "مائوری جزایر کوک"@fa ;
+	schema:name "مائوری جزایر کوک"@fa ;
+	rdfs:label "कुक आइलैंड्स माओरी"@anp ;
+	skos:prefLabel "कुक आइलैंड्स माओरी"@anp ;
+	schema:name "कुक आइलैंड्स माओरी"@anp ;
+	rdfs:label "rarotongansk"@da ;
+	skos:prefLabel "rarotongansk"@da ;
+	schema:name "rarotongansk"@da ;
+	rdfs:label "Rarotonganesch"@lb ;
+	skos:prefLabel "Rarotonganesch"@lb ;
+	schema:name "Rarotonganesch"@lb ;
+	rdfs:label "Rarotongaans"@frr ;
+	skos:prefLabel "Rarotongaans"@frr ;
+	schema:name "Rarotongaans"@frr ;
+	schema:description "Māori der Cookinseln"@de,
+		"idioma que se habla de manera oficial en las Islas Cook"@es,
+		"Eastern Polynesian language of the Cook Islands"@en,
+		"officiële taal op de Cookeilanden"@nl,
+		"pagsasao idiay Is-isla Cook ken Baro a Selanda"@ilo,
+		"שפה"@he,
+		"polinéz nyelv"@hu,
+		"oficiala lingvo de Kuk-Insularo"@eo,
+		"langue polynésienne parlée aux Îles Cook"@fr,
+		"yezh"@br,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"язык полинезийской группы"@ru,
+		"język z grupy języków polinezyjskich"@pl,
+		"东波利尼西亚语的一支"@zh,
+		"زبان پلی‌نزیایی"@fa,
+		"dil"@tr,
+		"språk"@sv,
+		"polynesisk sprog"@da,
+		"Sprooch op de Cookinselen"@lb ;
+	skos:altLabel "język rarotonga"@pl,
+		"Раротонга"@ru,
+		"кукский маори"@ru,
+		"маори островов Кука"@ru,
+		"диалекты островов Кука"@ru,
+		"Langue maori"@fr,
+		"Rarotongan"@fr,
+		"Māori des Îles Cook"@fr,
+		"Langue māori"@fr,
+		"Rarotongien"@fr,
+		"Te reo Ipukarea"@fr,
+		"Idioma maori de las Islas Cook"@es,
+		"Idioma maori de Islas Cook"@es,
+		"Idioma maorí de Islas Cook"@es,
+		"Idioma maorí de las Islas Cook"@es,
+		"Rarotongano"@es,
+		"Cookinsaarten maori"@fi,
+		"Cook-saarten maori"@fi,
+		"Kuka salu māori"@lv,
+		"Rarotongiešu valoda"@lv,
+		"Te reo Ipukarea"@de,
+		"rarotongaische Sprache"@de,
+		"クック諸島マオリ語"@ja,
+		"rar"@ja,
+		"Maorieg Inizi Cook"@br,
+		"Maorski jezik Cookovih Otoka"@sh,
+		"Rarotongos kalba"@lt,
+		"Cook Islands Māori"@en,
+		"Rarotongan"@en,
+		"rar"@en,
+		"Te reo Ipukarea"@en,
+		"Cook Islands Maori"@en-gb,
+		"Rarotongan"@en-gb,
+		"Māori Kuki Airani"@gl,
+		"Lingua rarotongana"@gl,
+		"rarotongai nyelv"@hu,
+		"rarotongai maori nyelv"@hu,
+		"庫克群島毛利人"@zh,
+		"Rarotongaans"@nl,
+		"Te reo Ipukarea"@nl,
+		"rarotongà"@ca,
+		"Cook Islands Māori"@lb .
+
+wd:Q13153572 owl:sameAs wd:Q36745 .
+
+wd:Q25701742 owl:sameAs wd:Q36745 .

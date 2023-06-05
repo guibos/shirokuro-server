@@ -1,0 +1,139 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10771067 a schema:Dataset ;
+	schema:about wd:Q10771067 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960454535"^^xsd:integer ;
+	schema:dateModified "2023-08-24T21:04:15Z"^^xsd:dateTime .
+
+wd:Q10771067 a wikibase:Item .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D1%80%D0%BE%D0%B8_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q10771067 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Сирои (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Siroi_language> a schema:Article ;
+	schema:about wd:Q10771067 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Siroi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Siroi> a schema:Article ;
+	schema:about wd:Q10771067 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Siroi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisiroi> a schema:Article ;
+	schema:about wd:Q10771067 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisiroi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Siroi> a schema:Article ;
+	schema:about wd:Q10771067 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Siroi"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10771067 wdt:P361 wd:Q34018 ;
+	wdt:P220 "ssd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ssd> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q236425 ;
+	wdt:P1394 "siro1249" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/siro1249> ;
+	wdt:P1466 "sro" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_sro> ;
+	wdt:P2581 "02618063n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s02618063n> ;
+	wdt:P305 "ssd" ;
+	wdt:P1627 "ssd" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q326254 ;
+	wdt:P646 "/m/02hx7gz" ;
+	wdt:P910 wd:Q33077085 ;
+	rdfs:label "Сирои"@ru ;
+	skos:prefLabel "Сирои"@ru ;
+	schema:name "Сирои"@ru ;
+	rdfs:label "Siroi"@en ;
+	skos:prefLabel "Siroi"@en ;
+	schema:name "Siroi"@en ;
+	rdfs:label "Lenga Siroi"@pms ;
+	skos:prefLabel "Lenga Siroi"@pms ;
+	schema:name "Lenga Siroi"@pms ;
+	rdfs:label "Kisiroi"@sw ;
+	skos:prefLabel "Kisiroi"@sw ;
+	schema:name "Kisiroi"@sw ;
+	rdfs:label "Siroi"@ilo ;
+	skos:prefLabel "Siroi"@ilo ;
+	schema:name "Siroi"@ilo ;
+	rdfs:label "Siroi"@en-gb ;
+	skos:prefLabel "Siroi"@en-gb ;
+	schema:name "Siroi"@en-gb ;
+	rdfs:label "Język siroi"@pl ;
+	skos:prefLabel "Język siroi"@pl ;
+	schema:name "Język siroi"@pl ;
+	rdfs:label "シロイ語"@ja ;
+	skos:prefLabel "シロイ語"@ja ;
+	schema:name "シロイ語"@ja ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Siroi language"@en .
+
+wd:Q11732650 owl:sameAs wd:Q10771067 .
+
+wd:Q12953142 owl:sameAs wd:Q10771067 .

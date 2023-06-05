@@ -1,0 +1,130 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11251864 a schema:Dataset ;
+	schema:about wd:Q11251864 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1827839977"^^xsd:integer ;
+	schema:dateModified "2023-02-06T16:59:43Z"^^xsd:dateTime .
+
+wd:Q11251864 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_hmong,_chonganjiang> a schema:Article ;
+	schema:about wd:Q11251864 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga hmong, chonganjiang"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E2%BF%B0%E4%BA%BB%E9%9D%A9%E5%AE%B6%E5%9C%9F%E8%AF%9D> a schema:Article ;
+	schema:about wd:Q11251864 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "⿰亻革家土话"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kige> a schema:Article ;
+	schema:about wd:Q11251864 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kige"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Gejia_language> a schema:Article ;
+	schema:about wd:Q11251864 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Gejia language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%F0%B1%8E%BC%E5%AE%B6%E8%AF%9D> a schema:Article ;
+	schema:about wd:Q11251864 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "𱎼家话"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Gejia> a schema:Article ;
+	schema:about wd:Q11251864 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Gejia"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11251864 wdt:P220 "hmj" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hmj> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "geee1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/geee1239> ;
+	wdt:P305 "hmj" ;
+	wdt:P1627 "hmj" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q47097 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HMJ> ;
+	wdt:P646 "/m/02hwgnn" ;
+	rdfs:label "Lenga hmong, chonganjiang"@pms ;
+	skos:prefLabel "Lenga hmong, chonganjiang"@pms ;
+	schema:name "Lenga hmong, chonganjiang"@pms ;
+	rdfs:label "Gejia"@en ;
+	skos:prefLabel "Gejia"@en ;
+	schema:name "Gejia"@en ;
+	rdfs:label "Kige"@sw ;
+	skos:prefLabel "Kige"@sw ;
+	schema:name "Kige"@sw ;
+	rdfs:label "⿰亻革家话"@zh ;
+	skos:prefLabel "⿰亻革家话"@zh ;
+	schema:name "⿰亻革家话"@zh ;
+	rdfs:label "⿰亻革家土话"@wuu ;
+	skos:prefLabel "⿰亻革家土话"@wuu ;
+	schema:name "⿰亻革家土话"@wuu ;
+	rdfs:label "gejia"@fr ;
+	skos:prefLabel "gejia"@fr ;
+	schema:name "gejia"@fr ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Ge"@en .

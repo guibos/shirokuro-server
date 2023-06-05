@@ -1,0 +1,79 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4965830 a schema:Dataset ;
+	schema:about wd:Q4965830 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960635855"^^xsd:integer ;
+	schema:dateModified "2023-08-25T01:37:01Z"^^xsd:dateTime .
+
+wd:Q4965830 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Bribri_Sign_Language> a schema:Article ;
+	schema:about wd:Q4965830 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Bribri Sign Language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Langue_des_signes_bribri> a schema:Article ;
+	schema:about wd:Q4965830 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Langue des signes bribri"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4965830 wdt:P31 wd:Q3915038 ;
+	wdt:P1394 "brib1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/brib1244> ;
+	wdt:P1232 "1ku" ;
+	wdt:P2192 "7176" ;
+	wdt:P646 "/m/0n8_bz_" ;
+	wdt:P17 wd:Q800 ;
+	wdt:P220 "rib" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/rib> ;
+	wdt:P305 "rib" ;
+	rdfs:label "Bribri Sign Language"@en ;
+	skos:prefLabel "Bribri Sign Language"@en ;
+	schema:name "Bribri Sign Language"@en ;
+	rdfs:label "langue des signes bribri"@fr ;
+	skos:prefLabel "langue des signes bribri"@fr ;
+	schema:name "langue des signes bribri"@fr ;
+	rdfs:label "ブリブリ手話"@ja ;
+	skos:prefLabel "ブリブリ手話"@ja ;
+	schema:name "ブリブリ手話"@ja ;
+	rdfs:label "ब्रिब्री सांकेतिक भाषा"@hi ;
+	skos:prefLabel "ब्रिब्री सांकेतिक भाषा"@hi ;
+	schema:name "ब्रिब्री सांकेतिक भाषा"@hi ;
+	schema:description "Deaf sign language in Costa Rica"@en .

@@ -1,0 +1,121 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3486125 a schema:Dataset ;
+	schema:about wd:Q3486125 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1372589889"^^xsd:integer ;
+	schema:dateModified "2021-02-28T20:37:12Z"^^xsd:dateTime .
+
+wd:Q3486125 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Skalvien> a schema:Article ;
+	schema:about wd:Q3486125 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Skalvien"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lmo.wikipedia.org/wiki/Lengua_scalvega> a schema:Article ;
+	schema:about wd:Q3486125 ;
+	schema:inLanguage "lmo" ;
+	schema:isPartOf <https://lmo.wikipedia.org/> ;
+	schema:name "Lengua scalvega"@lmo .
+
+<https://lmo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Skalvijski_jezik> a schema:Article ;
+	schema:about wd:Q3486125 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Skalvijski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_scalvica> a schema:Article ;
+	schema:about wd:Q3486125 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua scalvica"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3486125 wdt:P31 wd:Q45762,
+		wd:Q2315359,
+		wd:Q38058796 ;
+	wdt:P220 "svx" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/svx> ;
+	wdt:P305 "svx" ;
+	wdt:P279 wd:Q149946 ;
+	wdt:P4132 wd:Q318917 ;
+	a wdno:P1394 ;
+	wdt:P1098 "+0"^^xsd:decimal ;
+	wdt:P1245 "558546" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SVX> ;
+	wdt:P646 "/m/05sx7cd" ;
+	wdt:P910 wd:Q105714340 ;
+	rdfs:label "skalvien"@fr ;
+	skos:prefLabel "skalvien"@fr ;
+	schema:name "skalvien"@fr ;
+	rdfs:label "Lingua scalvica"@it ;
+	skos:prefLabel "Lingua scalvica"@it ;
+	schema:name "Lingua scalvica"@it ;
+	rdfs:label "Lengua scalvega"@lmo ;
+	skos:prefLabel "Lengua scalvega"@lmo ;
+	schema:name "Lengua scalvega"@lmo ;
+	rdfs:label "Skalvisch"@nl ;
+	skos:prefLabel "Skalvisch"@nl ;
+	schema:name "Skalvisch"@nl ;
+	rdfs:label "スカロヴィア語"@ja ;
+	skos:prefLabel "スカロヴィア語"@ja ;
+	schema:name "スカロヴィア語"@ja ;
+	rdfs:label "Skalvian"@en ;
+	skos:prefLabel "Skalvian"@en ;
+	schema:name "Skalvian"@en ;
+	rdfs:label "Skalvijski jezik"@hr ;
+	skos:prefLabel "Skalvijski jezik"@hr ;
+	schema:name "Skalvijski jezik"@hr ;
+	rdfs:label "Skalvian"@en-gb ;
+	skos:prefLabel "Skalvian"@en-gb ;
+	schema:name "Skalvian"@en-gb ;
+	rdfs:label "escálvico"@es ;
+	skos:prefLabel "escálvico"@es ;
+	schema:name "escálvico"@es ;
+	schema:description "שפה"@he,
+		"taal van de Skalven"@nl,
+		"langue balte morte"@fr,
+		"Western Baltic language"@en ;
+	skos:altLabel "Skalviens"@fr,
+		"Skalvie"@fr .
+
+wd:Q16111075 owl:sameAs wd:Q3486125 .

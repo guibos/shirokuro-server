@@ -1,0 +1,179 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56687 a schema:Dataset ;
+	schema:about wd:Q56687 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1756950831"^^xsd:integer ;
+	schema:dateModified "2022-10-24T03:23:04Z"^^xsd:dateTime .
+
+wd:Q56687 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Lokoya_(langue)> a schema:Article ;
+	schema:about wd:Q56687 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Lokoya (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Lokoya> a schema:Article ;
+	schema:about wd:Q56687 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Lokoya"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Lokoya> a schema:Article ;
+	schema:about wd:Q56687 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Lokoya"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%9B%D0%BE%D0%BA%D0%BE%D1%98%D0%B0_%D1%98%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q56687 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Локоја језик"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilokoya> a schema:Article ;
+	schema:about wd:Q56687 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilokoya"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Lokoya_language> a schema:Article ;
+	schema:about wd:Q56687 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Lokoya language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Lokoyeg> a schema:Article ;
+	schema:about wd:Q56687 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Lokoyeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_lakoya> a schema:Article ;
+	schema:about wd:Q56687 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua lakoya"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Lokoya> a schema:Article ;
+	schema:about wd:Q56687 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Lokoya"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56687 wdt:P220 "lky" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lky> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "lky" ;
+	wdt:P279 wd:Q153795 ;
+	wdt:P1394 "loko1254" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/loko1254> ;
+	wdt:P1627 "lky" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q958 ;
+	wdt:P2341 wd:Q487709,
+		wd:Q488519 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LKY> ;
+	wdt:P646 "/m/02hx89l" ;
+	rdfs:label "Lenga Lokoya"@pms ;
+	skos:prefLabel "Lenga Lokoya"@pms ;
+	schema:name "Lenga Lokoya"@pms ;
+	rdfs:label "lokoyeg"@br ;
+	skos:prefLabel "lokoyeg"@br ;
+	schema:name "lokoyeg"@br ;
+	rdfs:label "lokoya"@fr ;
+	skos:prefLabel "lokoya"@fr ;
+	schema:name "lokoya"@fr ;
+	rdfs:label "Локоја језик"@sr ;
+	skos:prefLabel "Локоја језик"@sr ;
+	schema:name "Локоја језик"@sr ;
+	rdfs:label "Lokoya"@en ;
+	skos:prefLabel "Lokoya"@en ;
+	schema:name "Lokoya"@en ;
+	rdfs:label "Kilokoya"@sw ;
+	skos:prefLabel "Kilokoya"@sw ;
+	schema:name "Kilokoya"@sw ;
+	rdfs:label "Língua lakoya"@pt ;
+	skos:prefLabel "Língua lakoya"@pt ;
+	schema:name "Língua lakoya"@pt ;
+	rdfs:label "Wikang Lokoya"@tl ;
+	skos:prefLabel "Wikang Lokoya"@tl ;
+	schema:name "Wikang Lokoya"@tl ;
+	rdfs:label "ロコヤ語"@ja ;
+	skos:prefLabel "ロコヤ語"@ja ;
+	schema:name "ロコヤ語"@ja ;
+	rdfs:label "Asụsụ Lokoya"@ig ;
+	skos:prefLabel "Asụsụ Lokoya"@ig ;
+	schema:name "Asụsụ Lokoya"@ig ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Lokoya language"@en,
+		"Koyo"@en,
+		"Ellyria"@en,
+		"Loirya"@en,
+		"Ohoromok"@en,
+		"Lokoiya"@en,
+		"Lokoja"@en,
+		"Loquia"@en,
+		"Lowoi"@en,
+		"Oirya"@en,
+		"Owoi"@en,
+		"Oxoriok"@en .

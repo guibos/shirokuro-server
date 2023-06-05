@@ -1,0 +1,178 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3513300 a schema:Dataset ;
+	schema:about wd:Q3513300 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912058747"^^xsd:integer ;
+	schema:dateModified "2023-06-10T08:49:10Z"^^xsd:dateTime .
+
+wd:Q3513300 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_ansus> a schema:Article ;
+	schema:about wd:Q3513300 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga ansus"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Ansus> a schema:Article ;
+	schema:about wd:Q3513300 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Ansus"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiansus> a schema:Article ;
+	schema:about wd:Q3513300 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiansus"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ansus_language> a schema:Article ;
+	schema:about wd:Q3513300 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ansus language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Ansus> a schema:Article ;
+	schema:about wd:Q3513300 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Ansus"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Ansus_jezik> a schema:Article ;
+	schema:about wd:Q3513300 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Ansus jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Ansus> a schema:Article ;
+	schema:about wd:Q3513300 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Ansus"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_ansus> a schema:Article ;
+	schema:about wd:Q3513300 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język ansus"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3513300 wdt:P220 "and" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/and> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "ansu1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ansu1237> ;
+	wdt:P279 wd:Q2526616 ;
+	wdt:P305 "and" ;
+	wdt:P1627 "and" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2341 wd:Q5095 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/AND> ;
+	wdt:P646 "/m/02q24_m" ;
+	wdt:P910 wd:Q33076803 ;
+	wdt:P2590 "0826 4" ;
+	wdt:P1705 "bahasa Ansus"@id ;
+	wdt:P4839 "Entity[\"Language\", \"Ansus::22c24\"]",
+		"Entity[\"Language\", \"Ansus\"]" ;
+	wdt:P10369 "Q590220" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q590220> ;
+	rdfs:label "Bahasa Ansus"@id ;
+	skos:prefLabel "Bahasa Ansus"@id ;
+	schema:name "Bahasa Ansus"@id ;
+	rdfs:label "Ansus"@en ;
+	skos:prefLabel "Ansus"@en ;
+	schema:name "Ansus"@en ;
+	rdfs:label "Ansus jezik"@hr ;
+	skos:prefLabel "Ansus jezik"@hr ;
+	schema:name "Ansus jezik"@hr ;
+	rdfs:label "Lenga ansus"@pms ;
+	skos:prefLabel "Lenga ansus"@pms ;
+	schema:name "Lenga ansus"@pms ;
+	rdfs:label "Kiansus"@sw ;
+	skos:prefLabel "Kiansus"@sw ;
+	schema:name "Kiansus"@sw ;
+	rdfs:label "Ansus"@ilo ;
+	skos:prefLabel "Ansus"@ilo ;
+	schema:name "Ansus"@ilo ;
+	rdfs:label "Ansus"@en-gb ;
+	skos:prefLabel "Ansus"@en-gb ;
+	schema:name "Ansus"@en-gb ;
+	rdfs:label "Wikang Ansus"@tl ;
+	skos:prefLabel "Wikang Ansus"@tl ;
+	schema:name "Wikang Ansus"@tl ;
+	rdfs:label "ansuse keel"@et ;
+	skos:prefLabel "ansuse keel"@et ;
+	schema:name "ansuse keel"@et ;
+	rdfs:label "Tataramon na Ansus"@bcl ;
+	skos:prefLabel "Tataramon na Ansus"@bcl ;
+	schema:name "Tataramon na Ansus"@bcl ;
+	rdfs:label "język ansus"@pl ;
+	skos:prefLabel "język ansus"@pl ;
+	schema:name "język ansus"@pl ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Baro a Guinea ti Indonesia"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"bagian dari rumpun bahasa Papua"@id,
+		"język austronezyjski"@pl ;
+	skos:altLabel "Ansus language"@en,
+		"Ansus"@id,
+		"bahasa Ansus"@id .
+
+wd:Q25927428 owl:sameAs wd:Q3513300 .
+
+wd:Q31441758 owl:sameAs wd:Q3513300 .

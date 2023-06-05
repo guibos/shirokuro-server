@@ -1,0 +1,128 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11031964 a schema:Dataset ;
+	schema:about wd:Q11031964 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616007287"^^xsd:integer ;
+	schema:dateModified "2022-04-10T14:01:19Z"^^xsd:dateTime .
+
+wd:Q11031964 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mono> a schema:Article ;
+	schema:about wd:Q11031964 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mono"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimono_(Kamerun)> a schema:Article ;
+	schema:about wd:Q11031964 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimono (Kamerun)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mono_language_(Cameroon)> a schema:Article ;
+	schema:about wd:Q11031964 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mono language (Cameroon)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Mono_(lenga_adamawa)> a schema:Article ;
+	schema:about wd:Q11031964 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Mono (lenga adamawa)"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Mono_(langue_adamaoua)> a schema:Article ;
+	schema:about wd:Q11031964 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Mono (langue adamaoua)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11031964 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "mru" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mru> ;
+	wdt:P1394 "mono1269" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mono1269> ;
+	wdt:P279 wd:Q6799814 ;
+	wdt:P2355 "1397" ;
+	wdt:P910 wd:Q33109557 ;
+	wdt:P2192 "553" ;
+	wdt:P305 "mru" ;
+	wdt:P1627 "mru" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P17 wd:Q1009 ;
+	wdt:P2341 wd:Q502341 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MRU> ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P646 "/m/02hxz3v" ;
+	rdfs:label "Lenga Mono"@pms ;
+	skos:prefLabel "Lenga Mono"@pms ;
+	schema:name "Lenga Mono"@pms ;
+	rdfs:label "Kimono"@sw ;
+	skos:prefLabel "Kimono"@sw ;
+	schema:name "Kimono"@sw ;
+	rdfs:label "mono"@fr ;
+	skos:prefLabel "mono"@fr ;
+	schema:name "mono"@fr ;
+	rdfs:label "Mono"@en ;
+	skos:prefLabel "Mono"@en ;
+	schema:name "Mono"@en ;
+	rdfs:label "Mono (lenga adamawa)"@oc ;
+	skos:prefLabel "Mono (lenga adamawa)"@oc ;
+	schema:name "Mono (lenga adamawa)"@oc ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"moribund Mbum language spoken by older adults in northern Cameroon"@en,
+		"langue mbum parlée au Cameroun"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Mono language"@en .
+
+wd:Q28197145 owl:sameAs wd:Q11031964 .
+
+wd:Q28499979 owl:sameAs wd:Q11031964 .

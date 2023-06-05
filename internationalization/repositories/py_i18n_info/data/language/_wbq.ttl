@@ -1,0 +1,143 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6708569 a schema:Dataset ;
+	schema:about wd:Q6708569 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961429749"^^xsd:integer ;
+	schema:dateModified "2023-08-26T03:05:13Z"^^xsd:dateTime .
+
+wd:Q6708569 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Waddar> a schema:Article ;
+	schema:about wd:Q6708569 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Waddar"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Waddar> a schema:Article ;
+	schema:about wd:Q6708569 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Waddar"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1_%CE%9F%CF%85%CE%B1%CE%BD%CF%84%CE%AC%CF%81> a schema:Article ;
+	schema:about wd:Q6708569 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γλώσσα Ουαντάρ"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiwaddar> a schema:Article ;
+	schema:about wd:Q6708569 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiwaddar"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Waddar_language> a schema:Article ;
+	schema:about wd:Q6708569 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Waddar language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_waddar> a schema:Article ;
+	schema:about wd:Q6708569 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma waddar"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6708569 wdt:P220 "wbq" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/wbq> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "wadd1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/wadd1237> ;
+	wdt:P4132 wd:Q171263 ;
+	wdt:P305 "wbq" ;
+	wdt:P1627 "wbq" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1159,
+		wd:Q1185,
+		wd:Q1191 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/WBQ> ;
+	wdt:P646 "/m/02hx8d3" ;
+	wdt:P910 wd:Q105715670 ;
+	rdfs:label "Waddar"@en ;
+	skos:prefLabel "Waddar"@en ;
+	schema:name "Waddar"@en ;
+	rdfs:label "Lenga Waddar"@pms ;
+	skos:prefLabel "Lenga Waddar"@pms ;
+	schema:name "Lenga Waddar"@pms ;
+	rdfs:label "Waddar"@sv ;
+	skos:prefLabel "Waddar"@sv ;
+	schema:name "Waddar"@sv ;
+	rdfs:label "Kiwaddar"@sw ;
+	skos:prefLabel "Kiwaddar"@sw ;
+	schema:name "Kiwaddar"@sw ;
+	rdfs:label "Waddar"@en-gb ;
+	skos:prefLabel "Waddar"@en-gb ;
+	schema:name "Waddar"@en-gb ;
+	rdfs:label "Γλώσσα Ουαντάρ"@el ;
+	skos:prefLabel "Γλώσσα Ουαντάρ"@el ;
+	schema:name "Γλώσσα Ουαντάρ"@el ;
+	rdfs:label "Waddar"@en-ca ;
+	skos:prefLabel "Waddar"@en-ca ;
+	schema:name "Waddar"@en-ca ;
+	rdfs:label "Idioma waddar"@es ;
+	skos:prefLabel "Idioma waddar"@es ;
+	schema:name "Idioma waddar"@es ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ভারতের ভাষা"@bn ;
+	skos:altLabel "Waddar language"@en .
+
+wd:Q10719010 owl:sameAs wd:Q6708569 .

@@ -1,0 +1,137 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q721182 a schema:Dataset ;
+	schema:about wd:Q721182 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1681562896"^^xsd:integer ;
+	schema:dateModified "2022-07-18T18:28:20Z"^^xsd:dateTime .
+
+wd:Q721182 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Kwinti_(langue)> a schema:Article ;
+	schema:about wd:Q721182 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kwinti (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_kwinti> a schema:Article ;
+	schema:about wd:Q721182 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kwinti"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%B2%D0%B8%D0%BD%D1%82%D0%B8_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q721182 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Квинти (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kwinti_language> a schema:Article ;
+	schema:about wd:Q721182 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kwinti language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_kwinti> a schema:Article ;
+	schema:about wd:Q721182 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua kwinti"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Kwinti> a schema:Article ;
+	schema:about wd:Q721182 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Kwinti"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q721182 wdt:P305 "kww" ;
+	wdt:P220 "kww" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kww> ;
+	wdt:P31 wd:Q34770,
+		wd:Q33289,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0jt3t43" ;
+	wdt:P279 wd:Q31989 ;
+	wdt:P1394 "kwin1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kwin1243> ;
+	wdt:P1627 "kww" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q730 ;
+	wdt:P2341 wd:Q1130138 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KWW> ;
+	wdt:P1098 "+130"^^xsd:decimal ;
+	rdfs:label "Língua kwinti"@pt ;
+	skos:prefLabel "Língua kwinti"@pt ;
+	schema:name "Língua kwinti"@pt ;
+	rdfs:label "Lenga kwinti"@pms ;
+	skos:prefLabel "Lenga kwinti"@pms ;
+	schema:name "Lenga kwinti"@pms ;
+	rdfs:label "Kwinti"@en ;
+	skos:prefLabel "Kwinti"@en ;
+	schema:name "Kwinti"@en ;
+	rdfs:label "kwinti"@fr ;
+	skos:prefLabel "kwinti"@fr ;
+	schema:name "kwinti"@fr ;
+	rdfs:label "Квинти"@ru ;
+	skos:prefLabel "Квинти"@ru ;
+	schema:name "Квинти"@ru ;
+	rdfs:label "Kwinti"@en-gb ;
+	skos:prefLabel "Kwinti"@en-gb ;
+	schema:name "Kwinti"@en-gb ;
+	rdfs:label "Kwinti"@ca ;
+	skos:prefLabel "Kwinti"@ca ;
+	schema:name "Kwinti"@ca ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"llengua criolla"@ca ;
+	skos:altLabel "Kwinti language"@en .

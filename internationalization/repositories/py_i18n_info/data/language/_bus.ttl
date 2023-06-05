@@ -1,0 +1,114 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q9228931 a schema:Dataset ;
+	schema:about wd:Q9228931 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1827839636"^^xsd:integer ;
+	schema:dateModified "2023-02-06T16:59:05Z"^^xsd:dateTime .
+
+wd:Q9228931 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Bokobaru> a schema:Article ;
+	schema:about wd:Q9228931 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Bokobaru"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibokobaru> a schema:Article ;
+	schema:about wd:Q9228931 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibokobaru"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Bokobaru_jezik> a schema:Article ;
+	schema:about wd:Q9228931 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Bokobaru jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Bokobaru> a schema:Article ;
+	schema:about wd:Q9228931 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Bokobaru"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q9228931 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "bus" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bus> ;
+	wdt:P1394 "boko1267" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/boko1267> ;
+	wdt:P305 "bus" ;
+	wdt:P1627 "bus" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q509300,
+		wd:Q464953 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BUS> ;
+	wdt:P910 wd:Q33072710 ;
+	rdfs:label "Bokobaru jezik"@hr ;
+	skos:prefLabel "Bokobaru jezik"@hr ;
+	schema:name "Bokobaru jezik"@hr ;
+	rdfs:label "Kibokobaru"@sw ;
+	skos:prefLabel "Kibokobaru"@sw ;
+	schema:name "Kibokobaru"@sw ;
+	rdfs:label "Lenga Bokobaru"@pms ;
+	skos:prefLabel "Lenga Bokobaru"@pms ;
+	schema:name "Lenga Bokobaru"@pms ;
+	rdfs:label "Bokobaru"@en ;
+	skos:prefLabel "Bokobaru"@en ;
+	schema:name "Bokobaru"@en ;
+	rdfs:label "Bokobaru"@en-gb ;
+	skos:prefLabel "Bokobaru"@en-gb ;
+	schema:name "Bokobaru"@en-gb ;
+	rdfs:label "bokobaru"@fr ;
+	skos:prefLabel "bokobaru"@fr ;
+	schema:name "bokobaru"@fr ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy .

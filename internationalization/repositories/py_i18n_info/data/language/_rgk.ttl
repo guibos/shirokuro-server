@@ -1,0 +1,134 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7292645 a schema:Dataset ;
+	schema:about wd:Q7292645 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961429886"^^xsd:integer ;
+	schema:dateModified "2023-08-26T03:05:42Z"^^xsd:dateTime .
+
+wd:Q7292645 a wikibase:Item .
+
+<https://hr.wikipedia.org/wiki/Rangkas_jezik> a schema:Article ;
+	schema:about wd:Q7292645 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Rangkas jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Rangas_language> a schema:Article ;
+	schema:about wd:Q7292645 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Rangas language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Rangkas> a schema:Article ;
+	schema:about wd:Q7292645 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Rangkas"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Rangkaseg> a schema:Article ;
+	schema:about wd:Q7292645 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Rangkaseg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kirangkas> a schema:Article ;
+	schema:about wd:Q7292645 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kirangkas"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7292645 wdt:P220 "rgk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/rgk> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P279 wd:Q1814078 ;
+	wdt:P1394 "rang1266" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/rang1266> ;
+	wdt:P2581 "01147352n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s01147352n> ;
+	wdt:P1466 "joh" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_joh> ;
+	wdt:P17 wd:Q668 ;
+	wdt:P305 "rgk" ;
+	wdt:P1627 "rgk" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P2341 wd:Q1499 ;
+	wdt:P646 "/m/02hxpzr" ;
+	rdfs:label "Rangkas jezik"@hr ;
+	skos:prefLabel "Rangkas jezik"@hr ;
+	schema:name "Rangkas jezik"@hr ;
+	rdfs:label "Rangas"@en ;
+	skos:prefLabel "Rangas"@en ;
+	schema:name "Rangas"@en ;
+	rdfs:label "Lenga Rangkas"@pms ;
+	skos:prefLabel "Lenga Rangkas"@pms ;
+	schema:name "Lenga Rangkas"@pms ;
+	rdfs:label "rangkaseg"@br ;
+	skos:prefLabel "rangkaseg"@br ;
+	schema:name "rangkaseg"@br ;
+	rdfs:label "Kirangkas"@sw ;
+	skos:prefLabel "Kirangkas"@sw ;
+	schema:name "Kirangkas"@sw ;
+	rdfs:label "rangkas"@fr ;
+	skos:prefLabel "rangkas"@fr ;
+	schema:name "rangkas"@fr ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"Language: None - Sino-Tibetan - Bodic"@en,
+		"langue bodique"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Rangkas"@en,
+		"Johari"@en,
+		"Rangas language"@en,
+		"johari"@fr .
+
+wd:Q12953054 owl:sameAs wd:Q7292645 .
+
+wd:Q47004641 owl:sameAs wd:Q7292645 .

@@ -1,0 +1,190 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56921 a schema:Dataset ;
+	schema:about wd:Q56921 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1785776507"^^xsd:integer ;
+	schema:dateModified "2022-12-06T23:40:52Z"^^xsd:dateTime .
+
+wd:Q56921 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Lipo_(langue)> a schema:Article ;
+	schema:about wd:Q56921 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Lipo (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Lipo> a schema:Article ;
+	schema:about wd:Q56921 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Lipo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Lipo> a schema:Article ;
+	schema:about wd:Q56921 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Lipo"@tl ;
+	wikibase:badge wd:Q70893996 .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilipo> a schema:Article ;
+	schema:about wd:Q56921 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilipo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Lipo_language> a schema:Article ;
+	schema:about wd:Q56921 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Lipo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Lipoeg> a schema:Article ;
+	schema:about wd:Q56921 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Lipoeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_lipo> a schema:Article ;
+	schema:about wd:Q56921 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua lipo"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E9%87%8C%E6%B3%BC%E5%9C%9F%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q56921 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "里泼土语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_lipo> a schema:Article ;
+	schema:about wd:Q56921 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język lipo"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56921 wdt:P220 "lpo" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lpo> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "lpo" ;
+	wdt:P1394 "lipo1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lipo1242> ;
+	wdt:P1014 "300388720" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388720> ;
+	wdt:P279 wd:Q37035 ;
+	wdt:P1627 "lpo" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q19770,
+		wd:Q43194 ;
+	wdt:P1245 "913582" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LPO> ;
+	wdt:P646 "/m/02hwz9l" ;
+	rdfs:label "lipoeg"@br ;
+	skos:prefLabel "lipoeg"@br ;
+	schema:name "lipoeg"@br ;
+	rdfs:label "Lipo"@en ;
+	skos:prefLabel "Lipo"@en ;
+	schema:name "Lipo"@en ;
+	rdfs:label "Lipo"@en-ca ;
+	skos:prefLabel "Lipo"@en-ca ;
+	schema:name "Lipo"@en-ca ;
+	rdfs:label "Lipo"@en-gb ;
+	skos:prefLabel "Lipo"@en-gb ;
+	schema:name "Lipo"@en-gb ;
+	rdfs:label "lipo"@fr ;
+	skos:prefLabel "lipo"@fr ;
+	schema:name "lipo"@fr ;
+	rdfs:label "Lenga Lipo"@pms ;
+	skos:prefLabel "Lenga Lipo"@pms ;
+	schema:name "Lenga Lipo"@pms ;
+	rdfs:label "Kilipo"@sw ;
+	skos:prefLabel "Kilipo"@sw ;
+	schema:name "Kilipo"@sw ;
+	rdfs:label "Wikang Lipo"@tl ;
+	skos:prefLabel "Wikang Lipo"@tl ;
+	schema:name "Wikang Lipo"@tl ;
+	rdfs:label "Língua lipo"@pt ;
+	skos:prefLabel "Língua lipo"@pt ;
+	schema:name "Língua lipo"@pt ;
+	rdfs:label "lipo keel"@et ;
+	skos:prefLabel "lipo keel"@et ;
+	schema:name "lipo keel"@et ;
+	rdfs:label "里泼土语"@zh ;
+	skos:prefLabel "里泼土语"@zh ;
+	schema:name "里泼土语"@zh ;
+	rdfs:label "リポ語"@ja ;
+	skos:prefLabel "リポ語"@ja ;
+	schema:name "リポ語"@ja ;
+	rdfs:label "lipo"@ca ;
+	skos:prefLabel "lipo"@ca ;
+	schema:name "lipo"@ca ;
+	rdfs:label "Język lipo"@pl ;
+	skos:prefLabel "Język lipo"@pl ;
+	schema:name "Język lipo"@pl ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue lolo-birmane"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Lipo language"@en .
+
+wd:Q3242221 owl:sameAs wd:Q56921 .
+
+wd:Q11732387 owl:sameAs wd:Q56921 .
+
+wd:Q31442435 owl:sameAs wd:Q56921 .

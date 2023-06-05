@@ -1,0 +1,110 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10720050 a schema:Dataset ;
+	schema:about wd:Q10720050 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1958507572"^^xsd:integer ;
+	schema:dateModified "2023-08-22T01:30:37Z"^^xsd:dateTime .
+
+wd:Q10720050 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_wilawila> a schema:Article ;
+	schema:about wd:Q10720050 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga wilawila"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Wilawila> a schema:Article ;
+	schema:about wd:Q10720050 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Wilawila"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiwilawila> a schema:Article ;
+	schema:about wd:Q10720050 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiwilawila"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10720050 wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P220 "wil" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/wil> ;
+	wdt:P279 wd:Q2038619 ;
+	wdt:P1394 "wila1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/wila1240> ;
+	wdt:P2192 "3345" ;
+	wdt:P1252 "K35" ;
+	wdt:P305 "wil" ;
+	wdt:P1627 "wil" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3206 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/WIL> ;
+	wdt:P6915 "Wilawila" ;
+	rdfs:label "Wilawila"@sv ;
+	skos:prefLabel "Wilawila"@sv ;
+	schema:name "Wilawila"@sv ;
+	rdfs:label "Lenga wilawila"@pms ;
+	skos:prefLabel "Lenga wilawila"@pms ;
+	schema:name "Lenga wilawila"@pms ;
+	rdfs:label "Wilawila"@en ;
+	skos:prefLabel "Wilawila"@en ;
+	schema:name "Wilawila"@en ;
+	rdfs:label "Wilawila"@en-gb ;
+	skos:prefLabel "Wilawila"@en-gb ;
+	schema:name "Wilawila"@en-gb ;
+	rdfs:label "wilawila"@fr ;
+	skos:prefLabel "wilawila"@fr ;
+	schema:name "wilawila"@fr ;
+	rdfs:label "Kiwilawila"@sw ;
+	skos:prefLabel "Kiwilawila"@sw ;
+	schema:name "Kiwilawila"@sw ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue worrorrane"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"utdött australiskt språk"@sv .

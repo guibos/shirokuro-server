@@ -1,0 +1,174 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3052042 a schema:Dataset ;
+	schema:about wd:Q3052042 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1794141380"^^xsd:integer ;
+	schema:dateModified "2022-12-22T11:48:12Z"^^xsd:dateTime .
+
+wd:Q3052042 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Ember%C3%A1_cham%C3%AD> a schema:Article ;
+	schema:about wd:Q3052042 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Emberá chamí"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_ember%C3%A1-cham%C3%AD> a schema:Article ;
+	schema:about wd:Q3052042 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga emberá-chamí"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D0%BC%D0%B8> a schema:Article ;
+	schema:about wd:Q3052042 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Чами"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1_%CE%A4%CF%83%CE%AC%CE%BC%CE%B9> a schema:Article ;
+	schema:about wd:Q3052042 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γλώσσα Τσάμι"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Chami_language> a schema:Article ;
+	schema:about wd:Q3052042 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Chami language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_chami> a schema:Article ;
+	schema:about wd:Q3052042 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua chami"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_cham%C3%AD> a schema:Article ;
+	schema:about wd:Q3052042 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua chamí"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Cham%C3%AD> a schema:Article ;
+	schema:about wd:Q3052042 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Chamí"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3052042 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "cmi" ;
+	wdt:P279 wd:Q11220654 ;
+	wdt:P1394 "uppe1440" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/uppe1440> ;
+	wdt:P1394 "embe1262" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/embe1262> ;
+	wdt:P220 "cmi" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cmi> ;
+	wdt:P2341 wd:Q739,
+		wd:Q123304,
+		wd:Q230607,
+		wd:Q230602,
+		wd:Q230584,
+		wd:Q13993,
+		wd:Q13990 ;
+	wdt:P1466 "emc" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_emc> ;
+	wdt:P910 wd:Q33072947 ;
+	wdt:P2192 "2597" ;
+	wdt:P1627 "cmi" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q739 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CMI> ;
+	wdt:P646 "/m/0413z2f" ;
+	wdt:P1846 <http://commons.wikimedia.org/wiki/Special:FilePath/Ember%C3%A1%20cham%C3%AD.png> ;
+	rdfs:label "emberá chamí"@fr ;
+	skos:prefLabel "emberá chamí"@fr ;
+	schema:name "emberá chamí"@fr ;
+	rdfs:label "Chami"@en ;
+	skos:prefLabel "Chami"@en ;
+	schema:name "Chami"@en ;
+	rdfs:label "Lenga emberá-chamí"@pms ;
+	skos:prefLabel "Lenga emberá-chamí"@pms ;
+	schema:name "Lenga emberá-chamí"@pms ;
+	rdfs:label "Чами"@ru ;
+	skos:prefLabel "Чами"@ru ;
+	schema:name "Чами"@ru ;
+	rdfs:label "Γλώσσα Τσάμι"@el ;
+	skos:prefLabel "Γλώσσα Τσάμι"@el ;
+	schema:name "Γλώσσα Τσάμι"@el ;
+	rdfs:label "Wikang Chami"@tl ;
+	skos:prefLabel "Wikang Chami"@tl ;
+	schema:name "Wikang Chami"@tl ;
+	rdfs:label "Língua chami"@pt ;
+	skos:prefLabel "Língua chami"@pt ;
+	schema:name "Língua chami"@pt ;
+	rdfs:label "Lingua chamí"@gl ;
+	skos:prefLabel "Lingua chamí"@gl ;
+	schema:name "Lingua chamí"@gl ;
+	rdfs:label "Chamí"@ca ;
+	skos:prefLabel "Chamí"@ca ;
+	schema:name "Chamí"@ca ;
+	schema:description "שפה"@he,
+		"Embera language of Colombia"@en,
+		"langue chocó"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"lingua indíxena falada en Colombia"@gl ;
+	skos:altLabel "Chami language"@en,
+		"Chamí Emberá"@en,
+		"Lingua emberá chamí"@gl .
+
+wd:Q61095711 owl:sameAs wd:Q3052042 .

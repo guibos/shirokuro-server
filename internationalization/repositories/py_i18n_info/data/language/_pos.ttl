@@ -1,0 +1,150 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5908722 a schema:Dataset ;
+	schema:about wd:Q5908722 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1680855055"^^xsd:integer ;
+	schema:dateModified "2022-07-18T01:55:50Z"^^xsd:dateTime .
+
+wd:Q5908722 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Popoluca_de_Sayula> a schema:Article ;
+	schema:about wd:Q5908722 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Popoluca de Sayula"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_popoluca,_sayula> a schema:Article ;
+	schema:about wd:Q5908722 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga popoluca, sayula"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D1%8E%D0%BB%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BE%D0%BF%D0%BE%D0%BB%D1%83%D0%BA%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q5908722 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Саюланский пополукский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sayula_Popoluca> a schema:Article ;
+	schema:about wd:Q5908722 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sayula Popoluca"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Popoluca_de_Sayula> a schema:Article ;
+	schema:about wd:Q5908722 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Popoluca de Sayula"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_sayula_popoluca> a schema:Article ;
+	schema:about wd:Q5908722 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua sayula popoluca"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5908722 wdt:P220 "pos" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pos> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q3833010 ;
+	wdt:P1394 "sayu1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sayu1241> ;
+	wdt:P1466 "say" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_say> ;
+	wdt:P305 "pos" ;
+	wdt:P910 wd:Q31846175 ;
+	wdt:P2192 "5286" ;
+	wdt:P1627 "pos" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q96 ;
+	wdt:P2341 wd:Q60130 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/POS> ;
+	wdt:P646 "/m/02hxl8c" ;
+	rdfs:label "idioma sayulteco"@es ;
+	skos:prefLabel "idioma sayulteco"@es ;
+	schema:name "idioma sayulteco"@es ;
+	rdfs:label "Sayula Popoluca"@en ;
+	skos:prefLabel "Sayula Popoluca"@en ;
+	schema:name "Sayula Popoluca"@en ;
+	rdfs:label "Lenga popoluca, sayula"@pms ;
+	skos:prefLabel "Lenga popoluca, sayula"@pms ;
+	schema:name "Lenga popoluca, sayula"@pms ;
+	rdfs:label "Саюланский пополукский язык"@ru ;
+	skos:prefLabel "Саюланский пополукский язык"@ru ;
+	schema:name "Саюланский пополукский язык"@ru ;
+	rdfs:label "popoluca de Sayula"@ca ;
+	skos:prefLabel "popoluca de Sayula"@ca ;
+	schema:name "popoluca de Sayula"@ca ;
+	rdfs:label "サユラ語"@ja ;
+	skos:prefLabel "サユラ語"@ja ;
+	schema:name "サユラ語"@ja ;
+	rdfs:label "Sayula Popoluca"@en-gb ;
+	skos:prefLabel "Sayula Popoluca"@en-gb ;
+	schema:name "Sayula Popoluca"@en-gb ;
+	rdfs:label "Sayula popoluka keel"@et ;
+	skos:prefLabel "Sayula popoluka keel"@et ;
+	schema:name "Sayula popoluka keel"@et ;
+	rdfs:label "popoluca de Sayula"@fr ;
+	skos:prefLabel "popoluca de Sayula"@fr ;
+	schema:name "popoluca de Sayula"@fr ;
+	rdfs:label "Língua sayula popoluca"@pt ;
+	skos:prefLabel "Língua sayula popoluca"@pt ;
+	schema:name "Língua sayula popoluca"@pt ;
+	schema:description "Mixe-Zoque-ische Sprache, in Mexico gesprochen"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue mixe-zoque, parlé en Méxique"@fr,
+		"lengua mixezoqueana"@es,
+		"lingua"@it,
+		"Mixe–Zoque language spoken in southern Mexico"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith Micsaidd–Zocaidd, sy'n siarad ym Mecsico"@cy,
+		"Mixe–Zoque language spoken in southern Mexico"@en-gb,
+		"cànan Mixeagh-Zoqueagh"@gd .
+
+wd:Q7429313 owl:sameAs wd:Q5908722 .

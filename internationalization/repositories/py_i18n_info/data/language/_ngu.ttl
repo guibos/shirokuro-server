@@ -1,0 +1,166 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5614980 a schema:Dataset ;
+	schema:about wd:Q5614980 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1904221645"^^xsd:integer ;
+	schema:dateModified "2023-05-29T01:14:29Z"^^xsd:dateTime .
+
+wd:Q5614980 a wikibase:Item .
+
+<https://nl.wikipedia.org/wiki/Guerrero-Nahuatl> a schema:Article ;
+	schema:about wd:Q5614980 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Guerrero-Nahuatl"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_nahuatl,_guerrero> a schema:Article ;
+	schema:about wd:Q5614980 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga nahuatl, guerrero"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D1%80%D1%80%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%BD%D0%B0%D1%83%D0%B0%D1%82%D0%BB%D1%8C> a schema:Article ;
+	schema:about wd:Q5614980 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Геррерский науатль"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Guerrero_Nahuatl> a schema:Article ;
+	schema:about wd:Q5614980 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Guerrero Nahuatl"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Mexicano_de_Guerrero> a schema:Article ;
+	schema:about wd:Q5614980 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Mexicano de Guerrero"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nah.wikipedia.org/wiki/Guerrero_nahuatlahtolli> a schema:Article ;
+	schema:about wd:Q5614980 ;
+	schema:inLanguage "nah" ;
+	schema:isPartOf <https://nah.wikipedia.org/> ;
+	schema:name "Guerrero nahuatlahtolli"@nah .
+
+<https://nah.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_n%C3%A1huatl_de_Guerrero> a schema:Article ;
+	schema:about wd:Q5614980 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua náhuatl de Guerrero"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5614980 wdt:P220 "ngu" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ngu> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P361 wd:Q5061477,
+		wd:Q34073 ;
+	wdt:P279 wd:Q13300 ;
+	wdt:P1394 "guer1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/guer1241> ;
+	wdt:P1466 "nhx" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_nhx> ;
+	wdt:P305 "ngu" ;
+	wdt:P1627 "ngu" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q96 ;
+	wdt:P2341 wd:Q60158 ;
+	wdt:P1245 "1394307" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NGU> ;
+	wdt:P646 "/m/0j7jyx4" ;
+	wdt:P131 wd:Q60158 ;
+	wdt:P1098 "+150000"^^xsd:decimal ;
+	wdt:P282 wd:Q41670,
+		wd:Q8229 ;
+	wdt:P910 wd:Q33101156 ;
+	rdfs:label "Guerrero Nahuatl"@en ;
+	skos:prefLabel "Guerrero Nahuatl"@en ;
+	schema:name "Guerrero Nahuatl"@en ;
+	rdfs:label "Геррерский науатль"@ru ;
+	skos:prefLabel "Геррерский науатль"@ru ;
+	schema:name "Геррерский науатль"@ru ;
+	rdfs:label "Lenga nahuatl, guerrero"@pms ;
+	skos:prefLabel "Lenga nahuatl, guerrero"@pms ;
+	schema:name "Lenga nahuatl, guerrero"@pms ;
+	rdfs:label "Guerrero-Nahuatl"@nl ;
+	skos:prefLabel "Guerrero-Nahuatl"@nl ;
+	schema:name "Guerrero-Nahuatl"@nl ;
+	rdfs:label "Mexicano de Guerrero"@es ;
+	skos:prefLabel "Mexicano de Guerrero"@es ;
+	schema:name "Mexicano de Guerrero"@es ;
+	rdfs:label "Guerrero Nahuatl"@en-gb ;
+	skos:prefLabel "Guerrero Nahuatl"@en-gb ;
+	schema:name "Guerrero Nahuatl"@en-gb ;
+	rdfs:label "Guerrero nahuatl"@eu ;
+	skos:prefLabel "Guerrero nahuatl"@eu ;
+	schema:name "Guerrero nahuatl"@eu ;
+	rdfs:label "Guerrero nawatl"@nah ;
+	skos:prefLabel "Guerrero nawatl"@nah ;
+	schema:name "Guerrero nawatl"@nah ;
+	rdfs:label "Lingua náhuatl de Guerrero"@gl ;
+	skos:prefLabel "Lingua náhuatl de Guerrero"@gl ;
+	schema:name "Lingua náhuatl de Guerrero"@gl ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"variante del náhuatl en Guerrero, México"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"hizkuntza"@eu ;
+	skos:altLabel "Mexicano guerrerense"@es,
+		"Náhuatl de Guerrero"@es,
+		"Náhuatl guerrerense"@es,
+		"Nawatl tlen Guerrero"@nah .
+
+wd:Q1852559 owl:sameAs wd:Q5614980 .
+
+wd:Q6047312 owl:sameAs wd:Q5614980 .

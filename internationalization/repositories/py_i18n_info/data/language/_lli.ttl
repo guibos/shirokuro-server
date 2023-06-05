@@ -1,0 +1,120 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36543 a schema:Dataset ;
+	schema:about wd:Q36543 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1360685863"^^xsd:integer ;
+	schema:dateModified "2021-02-14T00:04:01Z"^^xsd:dateTime .
+
+wd:Q36543 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Teke-Laali> a schema:Article ;
+	schema:about wd:Q36543 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Teke-Laali"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiteke-Laali> a schema:Article ;
+	schema:about wd:Q36543 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiteke-Laali"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Teke-Laali> a schema:Article ;
+	schema:about wd:Q36543 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Teke-Laali"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Teke-Laali_jezik> a schema:Article ;
+	schema:about wd:Q36543 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Teke-Laali jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36543 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "teke1277" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/teke1277> ;
+	wdt:P220 "lli" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lli> ;
+	wdt:P2161 "B73b" ;
+	wdt:P279 wd:Q36596 ;
+	wdt:P305 "lli" ;
+	wdt:P1627 "lli" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q971 ;
+	wdt:P2341 wd:Q862753 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LLI> ;
+	wdt:P646 "/m/05sxb21" ;
+	rdfs:label "Teke-Laali"@de ;
+	skos:prefLabel "Teke-Laali"@de ;
+	schema:name "Teke-Laali"@de ;
+	rdfs:label "Teke-Laali jezik"@hr ;
+	skos:prefLabel "Teke-Laali jezik"@hr ;
+	schema:name "Teke-Laali jezik"@hr ;
+	rdfs:label "Teke-Laali"@en ;
+	skos:prefLabel "Teke-Laali"@en ;
+	schema:name "Teke-Laali"@en ;
+	rdfs:label "Kiteke-Laali"@sw ;
+	skos:prefLabel "Kiteke-Laali"@sw ;
+	schema:name "Kiteke-Laali"@sw ;
+	rdfs:label "Lenga Teke-Laali"@pms ;
+	skos:prefLabel "Lenga Teke-Laali"@pms ;
+	schema:name "Lenga Teke-Laali"@pms ;
+	rdfs:label "Teke-Laali"@en-gb ;
+	skos:prefLabel "Teke-Laali"@en-gb ;
+	schema:name "Teke-Laali"@en-gb ;
+	rdfs:label "teke-laali"@fr ;
+	skos:prefLabel "teke-laali"@fr ;
+	schema:name "teke-laali"@fr ;
+	schema:description "Sprache"@de,
+		"language of the Republic of the Congo"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"langue bantoue"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy .
+
+wd:Q11129708 owl:sameAs wd:Q36543 .

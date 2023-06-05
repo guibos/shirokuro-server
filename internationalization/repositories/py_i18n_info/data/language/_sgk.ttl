@@ -1,0 +1,137 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2945610 a schema:Dataset ;
+	schema:about wd:Q2945610 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1956369369"^^xsd:integer ;
+	schema:dateModified "2023-08-19T04:59:48Z"^^xsd:dateTime .
+
+wd:Q2945610 a wikibase:Item .
+
+<https://tl.wikipedia.org/wiki/Wikang_Sangkong> a schema:Article ;
+	schema:about wd:Q2945610 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Sangkong"@tl ;
+	wikibase:badge wd:Q70893996 .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisangkong> a schema:Article ;
+	schema:about wd:Q2945610 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisangkong"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sangkong_language> a schema:Article ;
+	schema:about wd:Q2945610 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sangkong language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%A1%91%E5%AD%94%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q2945610 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "桑孔语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2945610 wdt:P220 "sgk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/sgk> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "sang1320" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sang1320> ;
+	wdt:P2355 "2411" ;
+	wdt:P910 wd:Q30968468 ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P305 "sgk" ;
+	wdt:P279 wd:Q5649340 ;
+	wdt:P2192 "5190" ;
+	wdt:P1627 "sgk" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q43194 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SGK> ;
+	wdt:P646 "/m/0n4b_fh" ;
+	wdt:P10565 "414873" ;
+	rdfs:label "桑孔语"@zh-hans ;
+	skos:prefLabel "桑孔语"@zh-hans ;
+	schema:name "桑孔语"@zh-hans ;
+	rdfs:label "桑孔語"@zh-hant ;
+	skos:prefLabel "桑孔語"@zh-hant ;
+	schema:name "桑孔語"@zh-hant ;
+	rdfs:label "桑孔語"@zh-hk ;
+	skos:prefLabel "桑孔語"@zh-hk ;
+	schema:name "桑孔語"@zh-hk ;
+	rdfs:label "Sangkong"@en ;
+	skos:prefLabel "Sangkong"@en ;
+	schema:name "Sangkong"@en ;
+	rdfs:label "桑孔语"@zh ;
+	skos:prefLabel "桑孔语"@zh ;
+	schema:name "桑孔语"@zh ;
+	rdfs:label "Kisangkong"@sw ;
+	skos:prefLabel "Kisangkong"@sw ;
+	schema:name "Kisangkong"@sw ;
+	rdfs:label "Sangkong"@en-gb ;
+	skos:prefLabel "Sangkong"@en-gb ;
+	schema:name "Sangkong"@en-gb ;
+	rdfs:label "Wikang Sangkong"@tl ;
+	skos:prefLabel "Wikang Sangkong"@tl ;
+	schema:name "Wikang Sangkong"@tl ;
+	rdfs:label "sangkong"@fr ;
+	skos:prefLabel "sangkong"@fr ;
+	schema:name "sangkong"@fr ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue lolo"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "桑孔文"@zh,
+		"布夏语"@zh,
+		"桑孔方言"@zh,
+		"布下土语"@zh,
+		"桑孔话"@zh,
+		"Sangkong language"@en .
+
+wd:Q31442414 owl:sameAs wd:Q2945610 .

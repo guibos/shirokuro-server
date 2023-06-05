@@ -1,0 +1,162 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35206 a schema:Dataset ;
+	schema:about wd:Q35206 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1747469933"^^xsd:integer ;
+	schema:dateModified "2022-10-10T12:48:40Z"^^xsd:dateTime .
+
+wd:Q35206 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Chakali> a schema:Article ;
+	schema:about wd:Q35206 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Chakali"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bar.wikipedia.org/wiki/Chakali_(Sproch)> a schema:Article ;
+	schema:about wd:Q35206 ;
+	schema:inLanguage "bar" ;
+	schema:isPartOf <https://bar.wikipedia.org/> ;
+	schema:name "Chakali (Sproch)"@bar .
+
+<https://bar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kichakali> a schema:Article ;
+	schema:about wd:Q35206 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kichakali"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Chakali_language> a schema:Article ;
+	schema:about wd:Q35206 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Chakali language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Chakali_(Sprache)> a schema:Article ;
+	schema:about wd:Q35206 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Chakali (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Chakali_jezik> a schema:Article ;
+	schema:about wd:Q35206 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Chakali jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Chakali> a schema:Article ;
+	schema:about wd:Q35206 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Chakali"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Chakali_language> a schema:Article ;
+	schema:about wd:Q35206 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Chakali language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35206 wdt:P220 "cli" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cli> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "chak1271" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/chak1271> ;
+	wdt:P2192 "4617" ;
+	wdt:P279 wd:Q721007 ;
+	wdt:P305 "cli" ;
+	wdt:P1627 "cli" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q117 ;
+	wdt:P2341 wd:Q502215,
+		wd:Q715805 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CLI> ;
+	wdt:P646 "/m/02hx1mb" ;
+	rdfs:label "Kichakali"@sw ;
+	skos:prefLabel "Kichakali"@sw ;
+	schema:name "Kichakali"@sw ;
+	rdfs:label "Chakali"@de ;
+	skos:prefLabel "Chakali"@de ;
+	schema:name "Chakali"@de ;
+	rdfs:label "Lenga Chakali"@pms ;
+	skos:prefLabel "Lenga Chakali"@pms ;
+	schema:name "Lenga Chakali"@pms ;
+	rdfs:label "Chakali"@en ;
+	skos:prefLabel "Chakali"@en ;
+	schema:name "Chakali"@en ;
+	rdfs:label "Chakali jezik"@hr ;
+	skos:prefLabel "Chakali jezik"@hr ;
+	schema:name "Chakali jezik"@hr ;
+	rdfs:label "Chakali"@en-gb ;
+	skos:prefLabel "Chakali"@en-gb ;
+	schema:name "Chakali"@en-gb ;
+	rdfs:label "chakali"@fr ;
+	skos:prefLabel "chakali"@fr ;
+	schema:name "chakali"@fr ;
+	rdfs:label "Wikang Chakali"@tl ;
+	skos:prefLabel "Wikang Chakali"@tl ;
+	schema:name "Wikang Chakali"@tl ;
+	rdfs:label "Chakali (Sproch)"@bar ;
+	skos:prefLabel "Chakali (Sproch)"@bar ;
+	schema:name "Chakali (Sproch)"@bar ;
+	rdfs:label "Chakali language"@ig ;
+	skos:prefLabel "Chakali language"@ig ;
+	schema:name "Chakali language"@ig ;
+	schema:description "Gur language"@en,
+		"Sprache"@de,
+		"שפה"@he,
+		"langue gur"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy .
+
+wd:Q50934236 owl:sameAs wd:Q35206 .

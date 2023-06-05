@@ -1,0 +1,96 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q18755523 a schema:Dataset ;
+	schema:about wd:Q18755523 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1355266215"^^xsd:integer ;
+	schema:dateModified "2021-02-05T17:07:18Z"^^xsd:dateTime .
+
+wd:Q18755523 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_manobo,_dibabawon> a schema:Article ;
+	schema:about wd:Q18755523 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga manobo, dibabawon"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimanobo-Dibabawon> a schema:Article ;
+	schema:about wd:Q18755523 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimanobo-Dibabawon"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q18755523 wdt:P220 "mbd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mbd> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "diba1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/diba1242> ;
+	wdt:P279 wd:Q4694612 ;
+	wdt:P910 wd:Q33663342 ;
+	wdt:P305 "mbd" ;
+	wdt:P1627 "mbd" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q928 ;
+	wdt:P2341 wd:Q13694,
+		wd:Q13789,
+		wd:Q13806,
+		wd:Q13792 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MBD> ;
+	rdfs:label "Kimanobo-Dibabawon"@sw ;
+	skos:prefLabel "Kimanobo-Dibabawon"@sw ;
+	schema:name "Kimanobo-Dibabawon"@sw ;
+	rdfs:label "Lenga manobo, dibabawon"@pms ;
+	skos:prefLabel "Lenga manobo, dibabawon"@pms ;
+	schema:name "Lenga manobo, dibabawon"@pms ;
+	rdfs:label "Dibabawon Manobo"@en ;
+	skos:prefLabel "Dibabawon Manobo"@en ;
+	schema:name "Dibabawon Manobo"@en ;
+	rdfs:label "manobo dibabawon"@fr ;
+	skos:prefLabel "manobo dibabawon"@fr ;
+	schema:name "manobo dibabawon"@fr ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue malayo-polynésienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Dibabawon Manobo language"@en .

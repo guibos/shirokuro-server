@@ -1,0 +1,167 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2591165 a schema:Dataset ;
+	schema:about wd:Q2591165 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1775149080"^^xsd:integer ;
+	schema:dateModified "2022-11-19T19:34:03Z"^^xsd:dateTime .
+
+wd:Q2591165 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Pakawara_language> a schema:Article ;
+	schema:about wd:Q2591165 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Pakawara language"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Pacahuara_(langue)> a schema:Article ;
+	schema:about wd:Q2591165 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Pacahuara (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_pacahuara> a schema:Article ;
+	schema:about wd:Q2591165 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma pacahuara"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BA%D0%B0%D1%83%D0%B0%D1%80%D0%B0_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q2591165 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Пакауара (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_pacahuara> a schema:Article ;
+	schema:about wd:Q2591165 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma pacahuara"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_pacahuara> a schema:Article ;
+	schema:about wd:Q2591165 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga pacahuara"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Pacawara> a schema:Article ;
+	schema:about wd:Q2591165 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Pacawara"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BA%D0%B0%D0%B2%D0%B0%D1%80%D0%B0_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q2591165 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Пакавара теле"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2591165 wdt:P220 "pcp" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pcp> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/02pnv27" ;
+	wdt:P305 "pcp" ;
+	wdt:P279 wd:Q1544537 ;
+	wdt:P2355 "1953" ;
+	wdt:P17 wd:Q750 ;
+	wdt:P1394 "paca1246" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/paca1246> ;
+	wdt:P2581 "17153998n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s17153998n> ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P1627 "pcp" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P2341 wd:Q233169,
+		wd:Q235362 ;
+	rdfs:label "Lenga pacahuara"@pms ;
+	skos:prefLabel "Lenga pacahuara"@pms ;
+	schema:name "Lenga pacahuara"@pms ;
+	rdfs:label "pacahuara"@fr ;
+	skos:prefLabel "pacahuara"@fr ;
+	schema:name "pacahuara"@fr ;
+	rdfs:label "Пакауара"@ru ;
+	skos:prefLabel "Пакауара"@ru ;
+	schema:name "Пакауара"@ru ;
+	rdfs:label "Pacahuara"@en ;
+	skos:prefLabel "Pacahuara"@en ;
+	schema:name "Pacahuara"@en ;
+	rdfs:label "Idioma pacahuara"@es ;
+	skos:prefLabel "Idioma pacahuara"@es ;
+	schema:name "Idioma pacahuara"@es ;
+	rdfs:label "pacahuara"@nb ;
+	skos:prefLabel "pacahuara"@nb ;
+	schema:name "pacahuara"@nb ;
+	rdfs:label "Pacahuara"@en-gb ;
+	skos:prefLabel "Pacahuara"@en-gb ;
+	schema:name "Pacahuara"@en-gb ;
+	rdfs:label "Idioma pacahuara"@ast ;
+	skos:prefLabel "Idioma pacahuara"@ast ;
+	schema:name "Idioma pacahuara"@ast ;
+	rdfs:label "Pacawara"@ca ;
+	skos:prefLabel "Pacawara"@ca ;
+	schema:name "Pacawara"@ca ;
+	rdfs:label "Пакавара теле"@tt ;
+	skos:prefLabel "Пакавара теле"@tt ;
+	schema:name "Пакавара теле"@tt ;
+	schema:description "pano-tacanansk språk"@nb,
+		"Sprache"@de,
+		"שפה"@he,
+		"langue panoane"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "pacawara"@fr,
+		"Пакахуара"@ru,
+		"Pacahuara language"@en .

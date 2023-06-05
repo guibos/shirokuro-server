@@ -1,0 +1,148 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2984540 a schema:Dataset ;
+	schema:about wd:Q2984540 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912466685"^^xsd:integer ;
+	schema:dateModified "2023-06-10T18:49:10Z"^^xsd:dateTime .
+
+wd:Q2984540 a wikibase:Item .
+
+<https://nl.wikipedia.org/wiki/Laura_(taal)> a schema:Article ;
+	schema:about wd:Q2984540 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Laura (taal)"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Laura> a schema:Article ;
+	schema:about wd:Q2984540 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Laura"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilaura> a schema:Article ;
+	schema:about wd:Q2984540 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilaura"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Laura> a schema:Article ;
+	schema:about wd:Q2984540 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Laura"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_laura> a schema:Article ;
+	schema:about wd:Q2984540 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język laura"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2984540 wdt:P31 wd:Q34770,
+		wd:Q1288568,
+		wd:Q33384 ;
+	wdt:P220 "lur" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lur> ;
+	wdt:P279 wd:Q2552658,
+		wd:Q4314526 ;
+	wdt:P1098 "+10000"^^xsd:decimal ;
+	wdt:P305 "lur" ;
+	wdt:P1394 "laur1249" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/laur1249> ;
+	wdt:P2590 "0158 4" ;
+	wdt:P1705 "bahasa Laura"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P1627 "lur" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q5061,
+		wd:Q3803 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LUR> ;
+	wdt:P2671 "/g/122r2sz8" ;
+	wdtn:P2671 <http://g.co/kg/g/122r2sz8> ;
+	wdt:P10369 "Q198" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q198> ;
+	rdfs:label "Laura"@nl ;
+	skos:prefLabel "Laura"@nl ;
+	schema:name "Laura"@nl ;
+	rdfs:label "Laura"@id ;
+	skos:prefLabel "Laura"@id ;
+	schema:name "Laura"@id ;
+	rdfs:label "Lenga Laura"@pms ;
+	skos:prefLabel "Lenga Laura"@pms ;
+	schema:name "Lenga Laura"@pms ;
+	rdfs:label "Laura"@en ;
+	skos:prefLabel "Laura"@en ;
+	schema:name "Laura"@en ;
+	rdfs:label "Kilaura"@sw ;
+	skos:prefLabel "Kilaura"@sw ;
+	schema:name "Kilaura"@sw ;
+	rdfs:label "Laura"@en-gb ;
+	skos:prefLabel "Laura"@en-gb ;
+	schema:name "Laura"@en-gb ;
+	rdfs:label "laura"@fr ;
+	skos:prefLabel "laura"@fr ;
+	schema:name "laura"@fr ;
+	rdfs:label "język laura"@pl ;
+	skos:prefLabel "język laura"@pl ;
+	schema:name "język laura"@pl ;
+	schema:description "taal"@nl,
+		"Sprache"@de,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"language spoken in Indonesia"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"dialecte du wejewa"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl ;
+	skos:altLabel "bahasa Laura"@id,
+		"bahasa Laora"@id,
+		"Laora"@en,
+		"Laura language"@en,
+		"język laora"@pl .
+
+wd:Q12473423 owl:sameAs wd:Q2984540 .
+
+wd:Q12953297 owl:sameAs wd:Q2984540 .

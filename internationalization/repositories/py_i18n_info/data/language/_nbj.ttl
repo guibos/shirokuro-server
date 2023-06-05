@@ -1,0 +1,134 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10600380 a schema:Dataset ;
+	schema:about wd:Q10600380 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1861805277"^^xsd:integer ;
+	schema:dateModified "2023-03-26T14:35:20Z"^^xsd:dateTime .
+
+wd:Q10600380 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_ngarinman> a schema:Article ;
+	schema:about wd:Q10600380 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga ngarinman"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Ngarinman> a schema:Article ;
+	schema:about wd:Q10600380 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Ngarinman"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kingarinman> a schema:Article ;
+	schema:about wd:Q10600380 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kingarinman"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10600380 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "nbj" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nbj> ;
+	wdt:P2355 "224" ;
+	wdt:P1394 "ngar1235" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ngar1235> ;
+	wdt:P1466 "ngy" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ngy> ;
+	wdt:P1252 "C27",
+		"N205" ;
+	wdt:P279 wd:Q7022695 ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P2192 "2557" ;
+	wdt:P305 "nbj" ;
+	wdt:P1627 "nbj" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P1251 "8515" ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3235,
+		wd:Q36687 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NBJ> ;
+	wdt:P6915 "Ngarinyman" ;
+	rdfs:label "Ngarinman"@sv ;
+	skos:prefLabel "Ngarinman"@sv ;
+	schema:name "Ngarinman"@sv ;
+	rdfs:label "Lenga ngarinman"@pms ;
+	skos:prefLabel "Lenga ngarinman"@pms ;
+	schema:name "Lenga ngarinman"@pms ;
+	rdfs:label "Ngarinman"@en ;
+	skos:prefLabel "Ngarinman"@en ;
+	schema:name "Ngarinman"@en ;
+	rdfs:label "Ngarinman"@en-gb ;
+	skos:prefLabel "Ngarinman"@en-gb ;
+	schema:name "Ngarinman"@en-gb ;
+	rdfs:label "Kingarinman"@sw ;
+	skos:prefLabel "Kingarinman"@sw ;
+	schema:name "Kingarinman"@sw ;
+	rdfs:label "ngarinman"@fr ;
+	skos:prefLabel "ngarinman"@fr ;
+	schema:name "ngarinman"@fr ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"lugha ya asili ya Australia"@sw,
+		"langue pama-nyungan"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Ngainman"@en,
+		"Ngaringman"@en,
+		"Ngarnman"@en,
+		"Airiman"@en,
+		"Ngainmun"@en,
+		"ainman"@en,
+		"Ngaiman"@en,
+		"Ngraimun"@en,
+		"Agarinman"@en,
+		"Heineman"@en,
+		"Ngaimmun"@en,
+		"Narinman"@en,
+		"Nariman"@en,
+		"Hainman"@en,
+		"Ngrainmun"@en,
+		"Hairiman"@en,
+		"Ngarinyman"@en,
+		"Hyneman"@en .

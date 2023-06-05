@@ -1,0 +1,139 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7706087 a schema:Dataset ;
+	schema:about wd:Q7706087 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960636458"^^xsd:integer ;
+	schema:dateModified "2023-08-25T01:37:59Z"^^xsd:dateTime .
+
+wd:Q7706087 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Tetet%C3%A9_language> a schema:Article ;
+	schema:about wd:Q7706087 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Teteté language"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_tetete> a schema:Article ;
+	schema:about wd:Q7706087 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga tetete"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D1%82%D0%B5%D1%82%D0%B5_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q7706087 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Тетете (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Teteten_kieli> a schema:Article ;
+	schema:about wd:Q7706087 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Teteten kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Tetete> a schema:Article ;
+	schema:about wd:Q7706087 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Tetete"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7706087 wdt:P220 "teb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/teb> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796,
+		wd:Q4085712 ;
+	wdt:P279 wd:Q5972954 ;
+	wdt:P2355 "2064" ;
+	wdt:P1394 "tete1252" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tete1252> ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P460 wd:Q3485116 ;
+	wdt:P2192 "2151" ;
+	wdt:P305 "teb" ;
+	a wdno:P282 ;
+	wdt:P1627 "teb" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P17 wd:Q736 ;
+	wdt:P2341 wd:Q499456 ;
+	wdt:P646 "/m/08xcgf" ;
+	rdfs:label "Teteté"@en ;
+	skos:prefLabel "Teteté"@en ;
+	schema:name "Teteté"@en ;
+	rdfs:label "Lenga tetete"@pms ;
+	skos:prefLabel "Lenga tetete"@pms ;
+	schema:name "Lenga tetete"@pms ;
+	rdfs:label "Тетете"@ru ;
+	skos:prefLabel "Тетете"@ru ;
+	schema:name "Тетете"@ru ;
+	rdfs:label "tetete"@fr ;
+	skos:prefLabel "tetete"@fr ;
+	schema:name "tetete"@fr ;
+	rdfs:label "Wikang Tetete"@tl ;
+	skos:prefLabel "Wikang Tetete"@tl ;
+	schema:name "Wikang Tetete"@tl ;
+	rdfs:label "Tetete"@ca ;
+	skos:prefLabel "Tetete"@ca ;
+	schema:name "Tetete"@ca ;
+	rdfs:label "Teteten kieli"@fi ;
+	skos:prefLabel "Teteten kieli"@fi ;
+	schema:name "Teteten kieli"@fi ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue tucanoane"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Tetete"@en,
+		"Tetete language"@en,
+		"Teteté language"@en .
+
+wd:Q12953919 owl:sameAs wd:Q7706087 .
+
+wd:Q61095915 owl:sameAs wd:Q7706087 .

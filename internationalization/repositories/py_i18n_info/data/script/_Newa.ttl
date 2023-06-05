@@ -1,0 +1,154 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7237292 a schema:Dataset ;
+	schema:about wd:Q7237292 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1920316100"^^xsd:integer ;
+	schema:dateModified "2023-06-21T02:20:22Z"^^xsd:dateTime .
+
+wd:Q7237292 a wikibase:Item .
+
+<https://no.wikipedia.org/wiki/Newa> a schema:Article ;
+	schema:about wd:Q7237292 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Newa"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://commons.wikimedia.org/wiki/Category:Prachalit_script> a schema:Article ;
+	schema:about wd:Q7237292 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "Category:Prachalit script"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+<https://new.wikipedia.org/wiki/%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A4%BE%E0%A4%B2_%E0%A4%B2%E0%A4%BF%E0%A4%AA%E0%A4%BF> a schema:Article ;
+	schema:about wd:Q7237292 ;
+	schema:inLanguage "new" ;
+	schema:isPartOf <https://new.wikipedia.org/> ;
+	schema:name "नेपाल लिपि"@new .
+
+<https://new.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Pracalit_script> a schema:Article ;
+	schema:about wd:Q7237292 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Pracalit script"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%88%E0%B8%A5%E0%B8%B4%E0%B8%95> a schema:Article ;
+	schema:about wd:Q7237292 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "อักษรปรัจลิต"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7237292 wdt:P31 wd:Q8192,
+		wd:Q335806,
+		wd:Q29517555,
+		wd:Q4004706 ;
+	wdt:P373 "Prachalit script" ;
+	wdt:P5949 "U+11400-1147F" ;
+	wdt:P506 "Newa" ;
+	wdt:P2620 "333" ;
+	wdt:P646 "/m/03hkz_j" ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P2561 "Newa, Newar, Newari, Nepāla lipi"@en,
+		"néwa, néwar, néwari, nepāla lipi"@fr,
+		"Newa"@en ;
+	wdt:P1705 "𑐥𑑂𑐬𑐔𑐮𑐶𑐟 𑐣𑐾𑐥𑐵𑐮"@ne ;
+	wdt:P144 wd:Q768023 ;
+	wdt:P407 wd:Q33979,
+		wd:Q11059,
+		wd:Q36727,
+		wd:Q33823,
+		wd:Q1568,
+		wd:Q9610,
+		wd:Q36109 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Om%20in%20Pracalit%28Newa%29%20script.png>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Letter%20in%20nepal%20script.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Ghorashar%20letterhead%201958.jpg> ;
+	wdt:P571 "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P582 "1800-01-01T00:00:00Z"^^xsd:dateTime ;
+	rdfs:label "Prachalit Nepal"@en ;
+	skos:prefLabel "Prachalit Nepal"@en ;
+	schema:name "Prachalit Nepal"@en ;
+	rdfs:label "プラチャリット文字"@ja ;
+	skos:prefLabel "プラチャリット文字"@ja ;
+	schema:name "プラチャリット文字"@ja ;
+	rdfs:label "尼泊爾紐瓦字母"@zh-hant ;
+	skos:prefLabel "尼泊爾紐瓦字母"@zh-hant ;
+	schema:name "尼泊爾紐瓦字母"@zh-hant ;
+	rdfs:label "尼泊尔纽瓦字母"@zh-cn ;
+	skos:prefLabel "尼泊尔纽瓦字母"@zh-cn ;
+	schema:name "尼泊尔纽瓦字母"@zh-cn ;
+	rdfs:label "Αλφάβητο Πρατσαλίτ Νεπάλ"@el ;
+	skos:prefLabel "Αλφάβητο Πρατσαλίτ Νεπάλ"@el ;
+	schema:name "Αλφάβητο Πρατσαλίτ Νεπάλ"@el ;
+	rdfs:label "Newa"@nb ;
+	skos:prefLabel "Newa"@nb ;
+	schema:name "Newa"@nb ;
+	rdfs:label "尼泊尔纽瓦字母"@zh-hans ;
+	skos:prefLabel "尼泊尔纽瓦字母"@zh-hans ;
+	schema:name "尼泊尔纽瓦字母"@zh-hans ;
+	rdfs:label "פראקליט"@he ;
+	skos:prefLabel "פראקליט"@he ;
+	schema:name "פראקליט"@he ;
+	rdfs:label "尼泊尔纽瓦字母"@zh ;
+	skos:prefLabel "尼泊尔纽瓦字母"@zh ;
+	schema:name "尼泊尔纽瓦字母"@zh ;
+	rdfs:label "néwa"@fr ;
+	skos:prefLabel "néwa"@fr ;
+	schema:name "néwa"@fr ;
+	rdfs:label "नेपाल लिपि"@new ;
+	skos:prefLabel "नेपाल लिपि"@new ;
+	schema:name "नेपाल लिपि"@new ;
+	rdfs:label "อักษรปรัจลิต"@th ;
+	skos:prefLabel "อักษรปรัจลิต"@th ;
+	schema:name "อักษรปรัจลิต"@th ;
+	schema:description "script"@en,
+		"système d'écriture"@fr ;
+	skos:altLabel "Newa alphabet"@en,
+		"Pracalit script"@en,
+		"Newa"@en,
+		"Newar"@en,
+		"Newari"@en,
+		"Nepāla lipi"@en,
+		"ネワール文字"@ja,
+		"尼瓦爾通俗體"@zh,
+		"尼瓦爾文"@zh .

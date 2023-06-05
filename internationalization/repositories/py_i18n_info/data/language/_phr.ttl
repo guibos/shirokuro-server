@@ -1,0 +1,119 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q115823263 a schema:Dataset ;
+	schema:about wd:Q115823263 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1905396459"^^xsd:integer ;
+	schema:dateModified "2023-05-31T02:11:51Z"^^xsd:dateTime .
+
+wd:Q115823263 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Pahari-Pothwari> a schema:Article ;
+	schema:about wd:Q115823263 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Pahari-Pothwari"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_pahari_potwari> a schema:Article ;
+	schema:about wd:Q115823263 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga pahari potwari"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Pahari-Pothwari> a schema:Article ;
+	schema:about wd:Q115823263 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Pahari-Pothwari"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kipahari-Potwari> a schema:Article ;
+	schema:about wd:Q115823263 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kipahari-Potwari"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q115823263 wdt:P31 wd:Q1208380,
+		wd:Q215844,
+		wd:Q455374 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PHR> ;
+	wdt:P910 wd:Q105715799 ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q843 ;
+	wdt:P220 "phr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/phr> ;
+	wdt:P1627 "phr" ;
+	wdt:P1394 "paha1251" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/paha1251> ;
+	wdt:P305 "phr" ;
+	wdt:P279 wd:Q1334774 ;
+	wdt:P4913 wd:Q58635 ;
+	rdfs:label "Pahari-Pothohari"@en ;
+	skos:prefLabel "Pahari-Pothohari"@en ;
+	schema:name "Pahari-Pothohari"@en ;
+	rdfs:label "پہاڑی پوٹھوہاری"@pnb ;
+	skos:prefLabel "پہاڑی پوٹھوہاری"@pnb ;
+	schema:name "پہاڑی پوٹھوہاری"@pnb ;
+	rdfs:label "ਪਹਾੜੀ-ਪੋਠੋਹਾਰੀ"@pa ;
+	skos:prefLabel "ਪਹਾੜੀ-ਪੋਠੋਹਾਰੀ"@pa ;
+	schema:name "ਪਹਾੜੀ-ਪੋਠੋਹਾਰੀ"@pa ;
+	rdfs:label "Lenga pahari potwari"@pms ;
+	skos:prefLabel "Lenga pahari potwari"@pms ;
+	schema:name "Lenga pahari potwari"@pms ;
+	rdfs:label "Kipahari-Potwari"@sw ;
+	skos:prefLabel "Kipahari-Potwari"@sw ;
+	schema:name "Kipahari-Potwari"@sw ;
+	rdfs:label "帕哈里-波特瓦里语"@zh ;
+	skos:prefLabel "帕哈里-波特瓦里语"@zh ;
+	schema:name "帕哈里-波特瓦里语"@zh ;
+	rdfs:label "パハリ語"@ja ;
+	skos:prefLabel "パハリ語"@ja ;
+	schema:name "パハリ語"@ja ;
+	rdfs:label "پہاڑی پوٹھوہاری"@skr ;
+	skos:prefLabel "پہاڑی پوٹھوہاری"@skr ;
+	schema:name "پہاڑی پوٹھوہاری"@skr ;
+	schema:description "group of western Punjabi dialects"@en,
+		"پوٹھوہار نیڑے لہجے"@pnb,
+		"Kipahari-Kipotwari ni lugha ya Kihindi-Kiulaya nchini Pakistan na Uhindi inayozungumzwa na Wapahari"@sw,
+		"ਪੋਠੋਹਾਰ ਨੇੜੇ ਲਹਿਜੇ"@pa ;
+	skos:altLabel "Pahari-Pothwari"@en,
+		"Pahari-Potwari"@en,
+		"Kipahari-Kipotwari"@sw,
+		"帕哈里语"@zh .

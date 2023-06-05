@@ -1,0 +1,119 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10706951 a schema:Dataset ;
+	schema:about wd:Q10706951 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1958507762"^^xsd:integer ;
+	schema:dateModified "2023-08-22T01:31:04Z"^^xsd:dateTime .
+
+wd:Q10706951 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_tyaraity> a schema:Article ;
+	schema:about wd:Q10706951 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga tyaraity"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Tyaraity> a schema:Article ;
+	schema:about wd:Q10706951 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Tyaraity"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kityaraity> a schema:Article ;
+	schema:about wd:Q10706951 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kityaraity"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10706951 wdt:P220 "woa" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/woa> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q55729392 ;
+	wdt:P1394 "tyar1236" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tyar1236> ;
+	wdt:P1466 "tye" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_tye> ;
+	wdt:P1252 "N10" ;
+	wdt:P2192 "3329" ;
+	wdt:P305 "woa" ;
+	wdt:P1627 "woa" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P1251 "8158" ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3235 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/WOA> ;
+	wdt:P2671 "/g/11dykz_4y" ;
+	wdtn:P2671 <http://g.co/kg/g/11dykz_4y> ;
+	rdfs:label "Tyaraity"@sv ;
+	skos:prefLabel "Tyaraity"@sv ;
+	schema:name "Tyaraity"@sv ;
+	rdfs:label "Lenga tyaraity"@pms ;
+	skos:prefLabel "Lenga tyaraity"@pms ;
+	schema:name "Lenga tyaraity"@pms ;
+	rdfs:label "Tyaraity"@en ;
+	skos:prefLabel "Tyaraity"@en ;
+	schema:name "Tyaraity"@en ;
+	rdfs:label "Tyaraity"@en-gb ;
+	skos:prefLabel "Tyaraity"@en-gb ;
+	schema:name "Tyaraity"@en-gb ;
+	rdfs:label "Kityaraity"@sw ;
+	skos:prefLabel "Kityaraity"@sw ;
+	schema:name "Kityaraity"@sw ;
+	rdfs:label "tyaraity"@fr ;
+	skos:prefLabel "tyaraity"@fr ;
+	schema:name "tyaraity"@fr ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"lugha ya asili ya Australia iliyotoweka"@sw,
+		"langue aborigène d'Australie"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"australiskt språk"@sv ;
+	skos:altLabel "Tyaraity language"@en,
+		"Tyeraity language"@en,
+		"Kuwema language"@en .
+
+wd:Q12953944 owl:sameAs wd:Q10706951 .

@@ -1,0 +1,79 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33060509 a schema:Dataset ;
+	schema:about wd:Q33060509 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "973672782"^^xsd:integer ;
+	schema:dateModified "2019-07-03T17:11:03Z"^^xsd:dateTime .
+
+wd:Q33060509 a wikibase:Item .
+
+<https://sw.wikipedia.org/wiki/Kingantangarra> a schema:Article ;
+	schema:about wd:Q33060509 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kingantangarra"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33060509 wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P220 "ntg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ntg> ;
+	a wdno:P1394 ;
+	wdt:P1232 "ntg" ;
+	wdt:P1252 "L30" ;
+	wdt:P279 wd:Q13653138 ;
+	wdt:P305 "ntg" ;
+	wdt:P1627 "ntg" ;
+	wdt:P3823 wd:Q29051561 ;
+	rdfs:label "Ngantangarra"@en ;
+	skos:prefLabel "Ngantangarra"@en ;
+	schema:name "Ngantangarra"@en ;
+	rdfs:label "Kingantangarra"@sw ;
+	skos:prefLabel "Kingantangarra"@sw ;
+	schema:name "Kingantangarra"@sw ;
+	rdfs:label "ngantangarra"@fr ;
+	skos:prefLabel "ngantangarra"@fr ;
+	schema:name "ngantangarra"@fr ;
+	schema:description "extinct Australian Aboriginal language"@en,
+		"lugha ya asili ya Australia iliyotoweka"@sw,
+		"taal"@nl,
+		"langue pama-nyungan éteinte"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"iaith"@cy,
+		"lingua"@la .

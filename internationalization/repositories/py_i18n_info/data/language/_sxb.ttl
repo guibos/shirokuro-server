@@ -1,0 +1,154 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33916 a schema:Dataset ;
+	schema:about wd:Q33916 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1855812178"^^xsd:integer ;
+	schema:dateModified "2023-03-19T22:34:58Z"^^xsd:dateTime .
+
+wd:Q33916 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Suba> a schema:Article ;
+	schema:about wd:Q33916 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Suba"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Suba_language> a schema:Article ;
+	schema:about wd:Q33916 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Suba language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Suba_language> a schema:Article ;
+	schema:about wd:Q33916 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Suba language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_suba> a schema:Article ;
+	schema:about wd:Q33916 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma suba"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Suban_kieli> a schema:Article ;
+	schema:about wd:Q33916 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Suban kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_suba> a schema:Article ;
+	schema:about wd:Q33916 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma suba"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33916 wdt:P220 "suh" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/suh> ;
+	wdt:P220 "sxb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/sxb> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "suba1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/suba1238> ;
+	wdt:P2355 "96" ;
+	wdt:P279 wd:Q5599420 ;
+	wdt:P2192 "4789" ;
+	wdt:P305 "sxb" ;
+	wdt:P1627 "sxb" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SXB> ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P646 "/m/02hwryv" ;
+	wdt:P910 wd:Q33669337 ;
+	rdfs:label "Suba"@en ;
+	skos:prefLabel "Suba"@en ;
+	schema:name "Suba"@en ;
+	rdfs:label "Suban kieli"@fi ;
+	skos:prefLabel "Suban kieli"@fi ;
+	schema:name "Suban kieli"@fi ;
+	rdfs:label "Suba"@en-gb ;
+	skos:prefLabel "Suba"@en-gb ;
+	schema:name "Suba"@en-gb ;
+	rdfs:label "Lenga Suba"@pms ;
+	skos:prefLabel "Lenga Suba"@pms ;
+	schema:name "Lenga Suba"@pms ;
+	rdfs:label "Kisuba"@sw ;
+	skos:prefLabel "Kisuba"@sw ;
+	schema:name "Kisuba"@sw ;
+	rdfs:label "suba"@fr ;
+	skos:prefLabel "suba"@fr ;
+	schema:name "suba"@fr ;
+	rdfs:label "Idioma suba"@es ;
+	skos:prefLabel "Idioma suba"@es ;
+	schema:name "Idioma suba"@es ;
+	rdfs:label "idioma suba"@ast ;
+	skos:prefLabel "idioma suba"@ast ;
+	schema:name "idioma suba"@ast ;
+	rdfs:label "スバ語"@ja ;
+	skos:prefLabel "スバ語"@ja ;
+	schema:name "スバ語"@ja ;
+	rdfs:label "Suba"@nl ;
+	skos:prefLabel "Suba"@nl ;
+	schema:name "Suba"@nl ;
+	rdfs:label "suba"@ca ;
+	skos:prefLabel "suba"@ca ;
+	schema:name "suba"@ca ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"taal"@nl,
+		"langue bantoue"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Suba language"@en,
+		"llingua suba"@ast,
+		"suba"@ast .
+
+wd:Q11055800 owl:sameAs wd:Q33916 .

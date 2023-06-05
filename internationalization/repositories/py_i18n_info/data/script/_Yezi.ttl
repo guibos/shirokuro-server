@@ -1,0 +1,117 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q13175481 a schema:Dataset ;
+	schema:about wd:Q13175481 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1585910174"^^xsd:integer ;
+	schema:dateModified "2022-03-02T15:20:18Z"^^xsd:dateTime .
+
+wd:Q13175481 a wikibase:Item .
+
+<https://ku.wikipedia.org/wiki/Alfabeya_%C3%AAzid%C3%AE> a schema:Article ;
+	schema:about wd:Q13175481 ;
+	schema:inLanguage "ku" ;
+	schema:isPartOf <https://ku.wikipedia.org/> ;
+	schema:name "Alfabeya êzidî"@ku .
+
+<https://ku.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Alphabet_y%C3%A9zidi> a schema:Article ;
+	schema:about wd:Q13175481 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Alphabet yézidi"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Escrita_iazidi> a schema:Article ;
+	schema:about wd:Q13175481 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Escrita iazidi"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%95%D0%B7%D0%B8%D0%B4%D1%81%D0%BA%D0%BE%D0%B5_%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q13175481 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Езидское письмо"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q13175481 wdt:P31 wd:Q9779,
+		wd:Q29517555,
+		wd:Q4004706,
+		wd:Q2182919 ;
+	wdt:P506 "Yezi" ;
+	wdt:P2620 "192" ;
+	wdt:P1406 wd:Q7333457 ;
+	wdt:P5949 "U+10E80-10EBF" ;
+	wdt:P2561 "Yezidi"@en,
+		"yézidi"@fr ;
+	wdt:P571 "1300-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P407 wd:Q36163 ;
+	wdt:P144 wd:Q1828555 ;
+	wdt:P2671 "/g/11lqh78fz7" ;
+	wdtn:P2671 <http://g.co/kg/g/11lqh78fz7> ;
+	rdfs:label "Alfabeya êzîdî"@ku ;
+	skos:prefLabel "Alfabeya êzîdî"@ku ;
+	schema:name "Alfabeya êzîdî"@ku ;
+	rdfs:label "Yezidi script"@en ;
+	skos:prefLabel "Yezidi script"@en ;
+	schema:name "Yezidi script"@en ;
+	rdfs:label "jezida alfabeto"@eo ;
+	skos:prefLabel "jezida alfabeto"@eo ;
+	schema:name "jezida alfabeto"@eo ;
+	rdfs:label "alphabet yézidi"@fr ;
+	skos:prefLabel "alphabet yézidi"@fr ;
+	schema:name "alphabet yézidi"@fr ;
+	rdfs:label "Escrita Iezidi"@pt ;
+	skos:prefLabel "Escrita Iezidi"@pt ;
+	schema:name "Escrita Iezidi"@pt ;
+	rdfs:label "Езидское письмо"@ru ;
+	skos:prefLabel "Езидское письмо"@ru ;
+	schema:name "Езидское письмо"@ru ;
+	schema:description "liturgical script used by approximately 100,000 followers of the Yezidi religion"@en,
+		"liturgia skribsistemo uzata de pli-malpli 100 000 sekvantoj de la jezida religio"@eo,
+		"alphabet liturgique"@fr,
+		"Tipo de escrita"@pt ;
+	skos:altLabel "Alfabeya Kurdên Êzîdî"@ku,
+		"Alfabeya êzidî"@ku,
+		"Alfabeya kurdên êzîdî"@ku,
+		"Yezidi alphabet"@en .
+
+wd:Q72401962 owl:sameAs wd:Q13175481 .
+
+wd:Q109638631 owl:sameAs wd:Q13175481 .

@@ -1,0 +1,157 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6426342 a schema:Dataset ;
+	schema:about wd:Q6426342 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616006149"^^xsd:integer ;
+	schema:dateModified "2022-04-10T14:00:04Z"^^xsd:dateTime .
+
+wd:Q6426342 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Koireng> a schema:Article ;
+	schema:about wd:Q6426342 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Koireng"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikoireng> a schema:Article ;
+	schema:about wd:Q6426342 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikoireng"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Koireng_language> a schema:Article ;
+	schema:about wd:Q6426342 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Koireng language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Koirengeg> a schema:Article ;
+	schema:about wd:Q6426342 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Koirengeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Koirengi_keel> a schema:Article ;
+	schema:about wd:Q6426342 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Koirengi keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%8B%E0%A4%87%E0%A4%B0%E0%A5%87%E0%A4%82%E0%A4%97_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q6426342 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "कोइरेंग भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mni.wikipedia.org/wiki/%EA%AF%80%EA%AF%A3%EA%AF%A2%EA%AF%94%EA%AF%A6%EA%AF%A1_%EA%AF%82%EA%AF%A3%EA%AF%9F> a schema:Article ;
+	schema:about wd:Q6426342 ;
+	schema:inLanguage "mni" ;
+	schema:isPartOf <https://mni.wikipedia.org/> ;
+	schema:name "ꯀꯣꯢꯔꯦꯡ ꯂꯣꯟ"@mni .
+
+<https://mni.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6426342 wdt:P220 "nkd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nkd> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P2355 "530" ;
+	wdt:P279 wd:Q832413 ;
+	wdt:P1394 "koir1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/koir1240> ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P2192 "4867" ;
+	wdt:P305 "nkd" ;
+	wdt:P1627 "nkd" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1193,
+		wd:Q1599 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NKD> ;
+	wdt:P646 "/m/02hxmwh" ;
+	wdt:P2671 "/g/11c5wl5lvd" ;
+	wdtn:P2671 <http://g.co/kg/g/11c5wl5lvd> ;
+	rdfs:label "Koireng"@en ;
+	skos:prefLabel "Koireng"@en ;
+	schema:name "Koireng"@en ;
+	rdfs:label "koirengeg"@br ;
+	skos:prefLabel "koirengeg"@br ;
+	schema:name "koirengeg"@br ;
+	rdfs:label "Lenga Koireng"@pms ;
+	skos:prefLabel "Lenga Koireng"@pms ;
+	schema:name "Lenga Koireng"@pms ;
+	rdfs:label "Kikoireng"@sw ;
+	skos:prefLabel "Kikoireng"@sw ;
+	schema:name "Kikoireng"@sw ;
+	rdfs:label "koireng"@fr ;
+	skos:prefLabel "koireng"@fr ;
+	schema:name "koireng"@fr ;
+	rdfs:label "Koireng"@en-gb ;
+	skos:prefLabel "Koireng"@en-gb ;
+	schema:name "Koireng"@en-gb ;
+	rdfs:label "koirengi keel"@et ;
+	skos:prefLabel "koirengi keel"@et ;
+	schema:name "koirengi keel"@et ;
+	rdfs:label "कोइरेंग भाषा"@hi ;
+	skos:prefLabel "कोइरेंग भाषा"@hi ;
+	schema:name "कोइरेंग भाषा"@hi ;
+	rdfs:label "ꯀꯣꯢꯔꯦꯡ ꯂꯣꯟ"@mni ;
+	skos:prefLabel "ꯀꯣꯢꯔꯦꯡ ꯂꯣꯟ"@mni ;
+	schema:name "ꯀꯣꯢꯔꯦꯡ ꯂꯣꯟ"@mni ;
+	schema:description "Sprache"@de,
+		"langue kuki-chin-naga"@fr,
+		"שפה"@he,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ভারতের ভাষা"@bn ;
+	skos:altLabel "Koireng language"@en .
+
+wd:Q31326097 owl:sameAs wd:Q6426342 .

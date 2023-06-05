@@ -1,0 +1,170 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56279 a schema:Dataset ;
+	schema:about wd:Q56279 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1659395885"^^xsd:integer ;
+	schema:dateModified "2022-06-13T04:46:51Z"^^xsd:dateTime .
+
+wd:Q56279 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Cibak> a schema:Article ;
+	schema:about wd:Q56279 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Cibak"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kicibak> a schema:Article ;
+	schema:about wd:Q56279 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kicibak"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Cibak_language> a schema:Article ;
+	schema:about wd:Q56279 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Cibak language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Tchibakeg> a schema:Article ;
+	schema:about wd:Q56279 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Tchibakeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Cibak_jezik> a schema:Article ;
+	schema:about wd:Q56279 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Cibak jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%B3%DB%8C%D8%A8%DA%A9> a schema:Article ;
+	schema:about wd:Q56279 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان سیبک"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Kibaku_(Sprache)> a schema:Article ;
+	schema:about wd:Q56279 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Kibaku (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ha.wikipedia.org/wiki/Harshen_Cibak> a schema:Article ;
+	schema:about wd:Q56279 ;
+	schema:inLanguage "ha" ;
+	schema:isPartOf <https://ha.wikipedia.org/> ;
+	schema:name "Harshen Cibak"@ha .
+
+<https://ha.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56279 wdt:P220 "ckl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ckl> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1014 "300265277" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300265277> ;
+	wdt:P1394 "ciba1236" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ciba1236> ;
+	wdt:P910 wd:Q33673976 ;
+	wdt:P279 wd:Q2251547 ;
+	wdt:P305 "ckl" ;
+	wdt:P1627 "ckl" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q130626,
+		wd:Q509300 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CKL> ;
+	wdt:P646 "/m/03chkf6" ;
+	rdfs:label "Kicibak"@sw ;
+	skos:prefLabel "Kicibak"@sw ;
+	schema:name "Kicibak"@sw ;
+	rdfs:label "Lenga Cibak"@pms ;
+	skos:prefLabel "Lenga Cibak"@pms ;
+	schema:name "Lenga Cibak"@pms ;
+	rdfs:label "tchibakeg"@br ;
+	skos:prefLabel "tchibakeg"@br ;
+	schema:name "tchibakeg"@br ;
+	rdfs:label "Cibak"@en ;
+	skos:prefLabel "Cibak"@en ;
+	schema:name "Cibak"@en ;
+	rdfs:label "Cibak jezik"@hr ;
+	skos:prefLabel "Cibak jezik"@hr ;
+	schema:name "Cibak jezik"@hr ;
+	rdfs:label "チボク語"@ja ;
+	skos:prefLabel "チボク語"@ja ;
+	schema:name "チボク語"@ja ;
+	rdfs:label "Cibak"@en-gb ;
+	skos:prefLabel "Cibak"@en-gb ;
+	schema:name "Cibak"@en-gb ;
+	rdfs:label "cibak"@fr ;
+	skos:prefLabel "cibak"@fr ;
+	schema:name "cibak"@fr ;
+	rdfs:label "Wikang Cibak"@tl ;
+	skos:prefLabel "Wikang Cibak"@tl ;
+	schema:name "Wikang Cibak"@tl ;
+	rdfs:label "زبان سیبک"@fa ;
+	skos:prefLabel "زبان سیبک"@fa ;
+	schema:name "زبان سیبک"@fa ;
+	rdfs:label "Kibaku"@de ;
+	skos:prefLabel "Kibaku"@de ;
+	schema:name "Kibaku"@de ;
+	rdfs:label "Harshen Cibak"@ha ;
+	skos:prefLabel "Harshen Cibak"@ha ;
+	schema:name "Harshen Cibak"@ha ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue biu-mandara"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Sibakeg"@br,
+		"Cibak language"@en .

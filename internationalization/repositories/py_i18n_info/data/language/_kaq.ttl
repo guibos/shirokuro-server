@@ -1,0 +1,131 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2937196 a schema:Dataset ;
+	schema:about wd:Q2937196 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1898561598"^^xsd:integer ;
+	schema:dateModified "2023-05-18T14:33:56Z"^^xsd:dateTime .
+
+wd:Q2937196 a wikibase:Item .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BF%D0%B0%D0%BD%D0%B0%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q2937196 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Капанава"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Capanahua> a schema:Article ;
+	schema:about wd:Q2937196 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Capanahua"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Capanahua_language> a schema:Article ;
+	schema:about wd:Q2937196 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Capanahua language"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_capanahua> a schema:Article ;
+	schema:about wd:Q2937196 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga capanahua"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2937196 wdt:P305 "kaq" ;
+	wdt:P220 "kaq" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kaq> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/027vlws" ;
+	wdt:P244 "sh85019869" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85019869> ;
+	wdt:P268 "14449097m" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb14449097m#about> ;
+	wdt:P279 wd:Q1544537 ;
+	wdt:P2355 "746" ;
+	wdt:P1394 "capa1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/capa1241> ;
+	wdt:P17 wd:Q419 ;
+	wdt:P1466 "cap" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_cap> ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P1627 "kaq" ;
+	wdt:P3823 wd:Q29051555 ;
+	wdt:P2341 wd:Q200938 ;
+	wdt:P8189 "987007283356105171" ;
+	rdfs:label "Капанауа (язык)"@ru ;
+	skos:prefLabel "Капанауа (язык)"@ru ;
+	schema:name "Капанауа (язык)"@ru ;
+	rdfs:label "capanahua"@fr ;
+	skos:prefLabel "capanahua"@fr ;
+	schema:name "capanahua"@fr ;
+	rdfs:label "Capanahua"@en ;
+	skos:prefLabel "Capanahua"@en ;
+	schema:name "Capanahua"@en ;
+	rdfs:label "Lenga capanahua"@pms ;
+	skos:prefLabel "Lenga capanahua"@pms ;
+	schema:name "Lenga capanahua"@pms ;
+	rdfs:label "Capanahua"@en-gb ;
+	skos:prefLabel "Capanahua"@en-gb ;
+	schema:name "Capanahua"@en-gb ;
+	rdfs:label "capanahua"@ca ;
+	skos:prefLabel "capanahua"@ca ;
+	schema:name "capanahua"@ca ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"llengua pano del Perú"@ca ;
+	skos:altLabel "Капанахуа"@ru,
+		"Капанауа"@ru,
+		"Capanahua language"@en,
+		"capabaquebo"@ca,
+		"capacho"@ca,
+		"capanawa"@ca,
+		"kapanawa"@ca .

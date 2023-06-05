@@ -1,0 +1,142 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q586907 a schema:Dataset ;
+	schema:about wd:Q586907 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1478057239"^^xsd:integer ;
+	schema:dateModified "2021-08-11T08:09:46Z"^^xsd:dateTime .
+
+wd:Q586907 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Rerep> a schema:Article ;
+	schema:about wd:Q586907 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Rerep"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Rerep> a schema:Article ;
+	schema:about wd:Q586907 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Rerep"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Rerep> a schema:Article ;
+	schema:about wd:Q586907 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Rerep"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kirerep> a schema:Article ;
+	schema:about wd:Q586907 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kirerep"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Rerep_language> a schema:Article ;
+	schema:about wd:Q586907 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Rerep language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Rerep> a schema:Article ;
+	schema:about wd:Q586907 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Rerep"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q586907 wdt:P220 "pgk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pgk> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "pgk" ;
+	wdt:P279 wd:Q3070307 ;
+	wdt:P1394 "rere1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/rere1240> ;
+	wdt:P2581 "01052085n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s01052085n> ;
+	wdt:P910 wd:Q33658889 ;
+	wdt:P2192 "10793" ;
+	wdt:P1627 "pgk" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q686 ;
+	wdt:P2341 wd:Q740656 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PGK> ;
+	wdt:P646 "/m/02hwhhs" ;
+	rdfs:label "rerep"@fr ;
+	skos:prefLabel "rerep"@fr ;
+	schema:name "rerep"@fr ;
+	rdfs:label "Rerep"@en ;
+	skos:prefLabel "Rerep"@en ;
+	schema:name "Rerep"@en ;
+	rdfs:label "lingua Rerep"@la ;
+	skos:prefLabel "lingua Rerep"@la ;
+	schema:name "lingua Rerep"@la ;
+	rdfs:label "Lenga Rerep"@pms ;
+	skos:prefLabel "Lenga Rerep"@pms ;
+	schema:name "Lenga Rerep"@pms ;
+	rdfs:label "Kirerep"@sw ;
+	skos:prefLabel "Kirerep"@sw ;
+	schema:name "Kirerep"@sw ;
+	rdfs:label "Rerep"@ilo ;
+	skos:prefLabel "Rerep"@ilo ;
+	schema:name "Rerep"@ilo ;
+	rdfs:label "Rerep"@en-gb ;
+	skos:prefLabel "Rerep"@en-gb ;
+	schema:name "Rerep"@en-gb ;
+	rdfs:label "rerepi keel"@et ;
+	skos:prefLabel "rerepi keel"@et ;
+	schema:name "rerepi keel"@et ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"pagsasao idiay Vanuatu"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Rerep language"@en .

@@ -1,0 +1,180 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3092284 a schema:Dataset ;
+	schema:about wd:Q3092284 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1882893501"^^xsd:integer ;
+	schema:dateModified "2023-04-26T08:51:14Z"^^xsd:dateTime .
+
+wd:Q3092284 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Mulam> a schema:Article ;
+	schema:about wd:Q3092284 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Mulam"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_mulam> a schema:Article ;
+	schema:about wd:Q3092284 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga mulam"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_mulam> a schema:Article ;
+	schema:about wd:Q3092284 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język mulam"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimulam> a schema:Article ;
+	schema:about wd:Q3092284 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimulam"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mulam_language> a schema:Article ;
+	schema:about wd:Q3092284 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mulam language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E4%BB%AB%E4%BD%AC%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q3092284 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "仫佬语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_mulam> a schema:Article ;
+	schema:about wd:Q3092284 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua mulam"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_M%E1%BB%A5c_L%C3%A3o> a schema:Article ;
+	schema:about wd:Q3092284 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Mục Lão"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3092284 wdt:P220 "mlm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mlm> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0fq1ct5" ;
+	wdt:P305 "mlm" ;
+	wdt:P1098 "+86000"^^xsd:decimal ;
+	wdt:P1394 "mula1253" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mula1253> ;
+	wdt:P2355 "2425" ;
+	wdt:P1466 "mul" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_mul> ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P279 wd:Q1023641 ;
+	wdt:P910 wd:Q31819664 ;
+	wdt:P2192 "1431" ;
+	wdt:P1627 "mlm" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q15176 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MLM> ;
+	wdt:P10565 "415229" ;
+	rdfs:label "仫佬语"@zh-hans ;
+	skos:prefLabel "仫佬语"@zh-hans ;
+	schema:name "仫佬语"@zh-hans ;
+	rdfs:label "仫佬語"@zh-hant ;
+	skos:prefLabel "仫佬語"@zh-hant ;
+	schema:name "仫佬語"@zh-hant ;
+	rdfs:label "仫佬語"@zh-hk ;
+	skos:prefLabel "仫佬語"@zh-hk ;
+	schema:name "仫佬語"@zh-hk ;
+	rdfs:label "Lenga mulam"@pms ;
+	skos:prefLabel "Lenga mulam"@pms ;
+	schema:name "Lenga mulam"@pms ;
+	rdfs:label "Język mulam"@pl ;
+	skos:prefLabel "Język mulam"@pl ;
+	schema:name "Język mulam"@pl ;
+	rdfs:label "mulam"@fr ;
+	skos:prefLabel "mulam"@fr ;
+	schema:name "mulam"@fr ;
+	rdfs:label "Mulam"@en ;
+	skos:prefLabel "Mulam"@en ;
+	schema:name "Mulam"@en ;
+	rdfs:label "仫佬语"@zh ;
+	skos:prefLabel "仫佬语"@zh ;
+	schema:name "仫佬语"@zh ;
+	rdfs:label "ムーラオ語"@ja ;
+	skos:prefLabel "ムーラオ語"@ja ;
+	schema:name "ムーラオ語"@ja ;
+	rdfs:label "Kimulam"@sw ;
+	skos:prefLabel "Kimulam"@sw ;
+	schema:name "Kimulam"@sw ;
+	rdfs:label "Mulam"@en-gb ;
+	skos:prefLabel "Mulam"@en-gb ;
+	schema:name "Mulam"@en-gb ;
+	rdfs:label "mulami keel"@et ;
+	skos:prefLabel "mulami keel"@et ;
+	schema:name "mulami keel"@et ;
+	rdfs:label "Lingua mulam"@gl ;
+	skos:prefLabel "Lingua mulam"@gl ;
+	schema:name "Lingua mulam"@gl ;
+	rdfs:label "Tiếng Mục Lão"@vi ;
+	skos:prefLabel "Tiếng Mục Lão"@vi ;
+	schema:name "Tiếng Mục Lão"@vi ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue taï-kadaï"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"lingua kam-sui que se fala na China"@gl ;
+	skos:altLabel "Mulam language"@en .

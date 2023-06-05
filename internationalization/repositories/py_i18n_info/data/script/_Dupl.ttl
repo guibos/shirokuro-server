@@ -1,0 +1,122 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5316025 a schema:Dataset ;
+	schema:about wd:Q5316025 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1891839676"^^xsd:integer ;
+	schema:dateModified "2023-05-08T03:47:45Z"^^xsd:dateTime .
+
+wd:Q5316025 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Duployan_shorthand> a schema:Article ;
+	schema:about wd:Q5316025 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Duployan shorthand"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_%D0%94%D1%8E%D0%BF%D0%BB%D0%BE%D0%B9%D0%B5> a schema:Article ;
+	schema:about wd:Q5316025 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Система Дюплойе"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Stenografia_Duploy%C3%A9> a schema:Article ;
+	schema:about wd:Q5316025 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Stenografia Duployé"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5316025 wdt:P373 "Duployan shorthand" ;
+	wdt:P910 wd:Q8393037,
+		wd:Q33154301 ;
+	wdt:P31 wd:Q1191702,
+		wd:Q181066,
+		wd:Q4004706 ;
+	wdt:P170 wd:Q113075 ;
+	wdt:P571 "1860-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P2620 "755" ;
+	wdt:P506 "Dupl" ;
+	wdt:P138 wd:Q113075 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/StenographieDuploy%C3%A9.png>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Duployan%20Word%20JAIN.gif> ;
+	wdt:P646 "/m/0gx04cv" ;
+	wdt:P5949 "U+1BC00-1BC9F" ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P2561 "Duployan shorthand, Duployan stenography"@en,
+		"sténographie Duployé"@fr,
+		"Duployan"@en ;
+	rdfs:label "Duployan shorthand"@en ;
+	skos:prefLabel "Duployan shorthand"@en ;
+	schema:name "Duployan shorthand"@en ;
+	rdfs:label "杜普雷速記"@zh-hant ;
+	skos:prefLabel "杜普雷速記"@zh-hant ;
+	schema:name "杜普雷速記"@zh-hant ;
+	rdfs:label "デュプロワエ式速記"@ja ;
+	skos:prefLabel "デュプロワエ式速記"@ja ;
+	schema:name "デュプロワエ式速記"@ja ;
+	rdfs:label "Система Дюплойе"@ru ;
+	skos:prefLabel "Система Дюплойе"@ru ;
+	schema:name "Система Дюплойе"@ru ;
+	rdfs:label "Στενογραφία Ντουμπλογιάν"@el ;
+	skos:prefLabel "Στενογραφία Ντουμπλογιάν"@el ;
+	schema:name "Στενογραφία Ντουμπλογιάν"@el ;
+	rdfs:label "杜普雷速记"@zh-hans ;
+	skos:prefLabel "杜普雷速记"@zh-hans ;
+	schema:name "杜普雷速记"@zh-hans ;
+	rdfs:label "stenografio de Duployé"@eo ;
+	skos:prefLabel "stenografio de Duployé"@eo ;
+	schema:name "stenografio de Duployé"@eo ;
+	rdfs:label "杜普雷嚴速記"@zh ;
+	skos:prefLabel "杜普雷嚴速記"@zh ;
+	schema:name "杜普雷嚴速記"@zh ;
+	rdfs:label "sténographie Duployé"@fr ;
+	skos:prefLabel "sténographie Duployé"@fr ;
+	schema:name "sténographie Duployé"@fr ;
+	rdfs:label "Stenografia Duployé"@ro ;
+	skos:prefLabel "Stenografia Duployé"@ro ;
+	schema:name "Stenografia Duployé"@ro ;
+	schema:description "система стенографии созданная Эмилем Дюплое в 1860 году для французского языка"@ru,
+		"stenografia sistemo por franca lingvo inventita de Emilo Duployé en 1860"@eo,
+		"shorthand system for French created by Émile Duployé in 1860, and subsequently adapted for English, German, Spanish, Romanian, and Chinook Jargon"@en,
+		"système sténographique utilisé originellement pour écrire le français"@fr ;
+	skos:altLabel "стенография Дюплойе"@ru,
+		"杜普雷速记"@zh,
+		"杜普雷严速记"@zh,
+		"デュブロワエ式速記文字"@ja,
+		"デュプロワエ式速記文字"@ja .

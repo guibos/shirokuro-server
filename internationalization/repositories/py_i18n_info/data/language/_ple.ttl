@@ -1,0 +1,403 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2196866 a schema:Dataset ;
+	schema:about wd:Q2196866 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1788164621"^^xsd:integer ;
+	schema:dateModified "2022-12-11T22:18:23Z"^^xsd:dateTime .
+
+wd:Q2196866 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Palu%27e_(langue)> a schema:Article ;
+	schema:about wd:Q2196866 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Palu'e (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Paluees> a schema:Article ;
+	schema:about wd:Q2196866 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Paluees"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Palu%27e> a schema:Article ;
+	schema:about wd:Q2196866 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Palu'e"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Palu%27e> a schema:Article ;
+	schema:about wd:Q2196866 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Palu'e"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kipalu%27e> a schema:Article ;
+	schema:about wd:Q2196866 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kipalu'e"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Palu%27e_language> a schema:Article ;
+	schema:about wd:Q2196866 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Palu'e language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Palu%E2%80%99en_kieli> a schema:Article ;
+	schema:about wd:Q2196866 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Palu’en kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Palue> a schema:Article ;
+	schema:about wd:Q2196866 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Palue"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_palu%E2%80%99e> a schema:Article ;
+	schema:about wd:Q2196866 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język palu’e"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2196866 wdt:P220 "ple" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ple> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/08kk74" ;
+	wdt:P305 "ple" ;
+	wdt:P279 wd:Q2552658 ;
+	wdt:P1394 "palu1252" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/palu1252> ;
+	wdt:P2590 "0165 6" ;
+	wdt:P1705 "bahasa Palue"@id ;
+	wdt:P2355 "2620" ;
+	wdt:P17 wd:Q252 ;
+	wdt:P276 wd:Q2735628,
+		wd:Q12524934,
+		wd:Q12502325 ;
+	wdt:P1098 "+10000"^^xsd:decimal,
+		"+3000"^^xsd:decimal ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P2192 "2746" ;
+	wdt:P1627 "ple" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q5061,
+		wd:Q3803 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PLE> ;
+	wdt:P910 wd:Q31608116 ;
+	rdfs:label "Paluees"@nl ;
+	skos:prefLabel "Paluees"@nl ;
+	schema:name "Paluees"@nl ;
+	rdfs:label "Palu'e"@en ;
+	skos:prefLabel "Palu'e"@en ;
+	schema:name "Palu'e"@en ;
+	rdfs:label "Palu'en kieli"@fi ;
+	skos:prefLabel "Palu'en kieli"@fi ;
+	schema:name "Palu'en kieli"@fi ;
+	rdfs:label "palu'e"@fr ;
+	skos:prefLabel "palu'e"@fr ;
+	schema:name "palu'e"@fr ;
+	rdfs:label "Lenga Palu'e"@pms ;
+	skos:prefLabel "Lenga Palu'e"@pms ;
+	schema:name "Lenga Palu'e"@pms ;
+	rdfs:label "Palue"@id ;
+	skos:prefLabel "Palue"@id ;
+	schema:name "Palue"@id ;
+	rdfs:label "Kipalu'e"@sw ;
+	skos:prefLabel "Kipalu'e"@sw ;
+	schema:name "Kipalu'e"@sw ;
+	rdfs:label "Palu'e"@ilo ;
+	skos:prefLabel "Palu'e"@ilo ;
+	schema:name "Palu'e"@ilo ;
+	rdfs:label "Palue"@ace ;
+	skos:prefLabel "Palue"@ace ;
+	schema:name "Palue"@ace ;
+	rdfs:label "Palue"@af ;
+	skos:prefLabel "Palue"@af ;
+	schema:name "Palue"@af ;
+	rdfs:label "Palue"@an ;
+	skos:prefLabel "Palue"@an ;
+	schema:name "Palue"@an ;
+	rdfs:label "Palue"@ast ;
+	skos:prefLabel "Palue"@ast ;
+	schema:name "Palue"@ast ;
+	rdfs:label "Palue"@bar ;
+	skos:prefLabel "Palue"@bar ;
+	schema:name "Palue"@bar ;
+	rdfs:label "palue"@br ;
+	skos:prefLabel "palue"@br ;
+	schema:name "palue"@br ;
+	rdfs:label "palue"@ca ;
+	skos:prefLabel "palue"@ca ;
+	schema:name "palue"@ca ;
+	rdfs:label "Palue"@co ;
+	skos:prefLabel "Palue"@co ;
+	schema:name "Palue"@co ;
+	rdfs:label "Palue"@cs ;
+	skos:prefLabel "Palue"@cs ;
+	schema:name "Palue"@cs ;
+	rdfs:label "Palue"@cy ;
+	skos:prefLabel "Palue"@cy ;
+	schema:name "Palue"@cy ;
+	rdfs:label "Palue"@da ;
+	skos:prefLabel "Palue"@da ;
+	schema:name "Palue"@da ;
+	rdfs:label "Palue"@de ;
+	skos:prefLabel "Palue"@de ;
+	schema:name "Palue"@de ;
+	rdfs:label "Palue"@de-at ;
+	skos:prefLabel "Palue"@de-at ;
+	schema:name "Palue"@de-at ;
+	rdfs:label "Palue"@de-ch ;
+	skos:prefLabel "Palue"@de-ch ;
+	schema:name "Palue"@de-ch ;
+	rdfs:label "Palue"@en-ca ;
+	skos:prefLabel "Palue"@en-ca ;
+	schema:name "Palue"@en-ca ;
+	rdfs:label "Palu'e"@en-gb ;
+	skos:prefLabel "Palu'e"@en-gb ;
+	schema:name "Palu'e"@en-gb ;
+	rdfs:label "Palue"@eo ;
+	skos:prefLabel "Palue"@eo ;
+	schema:name "Palue"@eo ;
+	rdfs:label "Palue"@es ;
+	skos:prefLabel "Palue"@es ;
+	schema:name "Palue"@es ;
+	rdfs:label "Palue"@et ;
+	skos:prefLabel "Palue"@et ;
+	schema:name "Palue"@et ;
+	rdfs:label "Palue"@eu ;
+	skos:prefLabel "Palue"@eu ;
+	schema:name "Palue"@eu ;
+	rdfs:label "Palue"@frp ;
+	skos:prefLabel "Palue"@frp ;
+	schema:name "Palue"@frp ;
+	rdfs:label "Palue"@fur ;
+	skos:prefLabel "Palue"@fur ;
+	schema:name "Palue"@fur ;
+	rdfs:label "Palue"@ga ;
+	skos:prefLabel "Palue"@ga ;
+	schema:name "Palue"@ga ;
+	rdfs:label "Palue"@gd ;
+	skos:prefLabel "Palue"@gd ;
+	schema:name "Palue"@gd ;
+	rdfs:label "Palue"@gl ;
+	skos:prefLabel "Palue"@gl ;
+	schema:name "Palue"@gl ;
+	rdfs:label "Palue"@gsw ;
+	skos:prefLabel "Palue"@gsw ;
+	schema:name "Palue"@gsw ;
+	rdfs:label "Palue"@hr ;
+	skos:prefLabel "Palue"@hr ;
+	schema:name "Palue"@hr ;
+	rdfs:label "Palue"@hu ;
+	skos:prefLabel "Palue"@hu ;
+	schema:name "Palue"@hu ;
+	rdfs:label "Palue"@ia ;
+	skos:prefLabel "Palue"@ia ;
+	schema:name "Palue"@ia ;
+	rdfs:label "Palue"@ie ;
+	skos:prefLabel "Palue"@ie ;
+	schema:name "Palue"@ie ;
+	rdfs:label "Palue"@io ;
+	skos:prefLabel "Palue"@io ;
+	schema:name "Palue"@io ;
+	rdfs:label "Palue"@is ;
+	skos:prefLabel "Palue"@is ;
+	schema:name "Palue"@is ;
+	rdfs:label "palue"@it ;
+	skos:prefLabel "palue"@it ;
+	schema:name "palue"@it ;
+	rdfs:label "Palue"@jv ;
+	skos:prefLabel "Palue"@jv ;
+	schema:name "Palue"@jv ;
+	rdfs:label "Palue"@kg ;
+	skos:prefLabel "Palue"@kg ;
+	schema:name "Palue"@kg ;
+	rdfs:label "Palue"@lb ;
+	skos:prefLabel "Palue"@lb ;
+	schema:name "Palue"@lb ;
+	rdfs:label "Palue"@li ;
+	skos:prefLabel "Palue"@li ;
+	schema:name "Palue"@li ;
+	rdfs:label "Palue"@lij ;
+	skos:prefLabel "Palue"@lij ;
+	schema:name "Palue"@lij ;
+	rdfs:label "Palue"@mg ;
+	skos:prefLabel "Palue"@mg ;
+	schema:name "Palue"@mg ;
+	rdfs:label "Palue"@min ;
+	skos:prefLabel "Palue"@min ;
+	schema:name "Palue"@min ;
+	rdfs:label "Palue"@ms ;
+	skos:prefLabel "Palue"@ms ;
+	schema:name "Palue"@ms ;
+	rdfs:label "Palue"@nap ;
+	skos:prefLabel "Palue"@nap ;
+	schema:name "Palue"@nap ;
+	rdfs:label "Palue"@nb ;
+	skos:prefLabel "Palue"@nb ;
+	schema:name "Palue"@nb ;
+	rdfs:label "Palue"@nds ;
+	skos:prefLabel "Palue"@nds ;
+	schema:name "Palue"@nds ;
+	rdfs:label "Palue"@nds-nl ;
+	skos:prefLabel "Palue"@nds-nl ;
+	schema:name "Palue"@nds-nl ;
+	rdfs:label "Palue"@nn ;
+	skos:prefLabel "Palue"@nn ;
+	schema:name "Palue"@nn ;
+	rdfs:label "Palue"@nrm ;
+	skos:prefLabel "Palue"@nrm ;
+	schema:name "Palue"@nrm ;
+	rdfs:label "Palue"@oc ;
+	skos:prefLabel "Palue"@oc ;
+	schema:name "Palue"@oc ;
+	rdfs:label "Palue"@pcd ;
+	skos:prefLabel "Palue"@pcd ;
+	schema:name "Palue"@pcd ;
+	rdfs:label "język palu’e"@pl ;
+	skos:prefLabel "język palu’e"@pl ;
+	schema:name "język palu’e"@pl ;
+	rdfs:label "Palue"@pt ;
+	skos:prefLabel "Palue"@pt ;
+	schema:name "Palue"@pt ;
+	rdfs:label "Palue"@pt-br ;
+	skos:prefLabel "Palue"@pt-br ;
+	schema:name "Palue"@pt-br ;
+	rdfs:label "Palue"@rm ;
+	skos:prefLabel "Palue"@rm ;
+	schema:name "Palue"@rm ;
+	rdfs:label "Palue"@ro ;
+	skos:prefLabel "Palue"@ro ;
+	schema:name "Palue"@ro ;
+	rdfs:label "Palue"@sc ;
+	skos:prefLabel "Palue"@sc ;
+	schema:name "Palue"@sc ;
+	rdfs:label "Palue"@scn ;
+	skos:prefLabel "Palue"@scn ;
+	schema:name "Palue"@scn ;
+	rdfs:label "Palue"@sco ;
+	skos:prefLabel "Palue"@sco ;
+	schema:name "Palue"@sco ;
+	rdfs:label "Palue"@sk ;
+	skos:prefLabel "Palue"@sk ;
+	schema:name "Palue"@sk ;
+	rdfs:label "Palue"@sl ;
+	skos:prefLabel "Palue"@sl ;
+	schema:name "Palue"@sl ;
+	rdfs:label "Palue"@sr-el ;
+	skos:prefLabel "Palue"@sr-el ;
+	schema:name "Palue"@sr-el ;
+	rdfs:label "Palue"@su ;
+	skos:prefLabel "Palue"@su ;
+	schema:name "Palue"@su ;
+	rdfs:label "Palue"@sv ;
+	skos:prefLabel "Palue"@sv ;
+	schema:name "Palue"@sv ;
+	rdfs:label "Palue"@vec ;
+	skos:prefLabel "Palue"@vec ;
+	schema:name "Palue"@vec ;
+	rdfs:label "Palue"@vi ;
+	skos:prefLabel "Palue"@vi ;
+	schema:name "Palue"@vi ;
+	rdfs:label "Palue"@vls ;
+	skos:prefLabel "Palue"@vls ;
+	schema:name "Palue"@vls ;
+	rdfs:label "Palue"@vo ;
+	skos:prefLabel "Palue"@vo ;
+	schema:name "Palue"@vo ;
+	rdfs:label "Palue"@wa ;
+	skos:prefLabel "Palue"@wa ;
+	schema:name "Palue"@wa ;
+	rdfs:label "Palue"@wo ;
+	skos:prefLabel "Palue"@wo ;
+	schema:name "Palue"@wo ;
+	rdfs:label "Palue"@zu ;
+	skos:prefLabel "Palue"@zu ;
+	schema:name "Palue"@zu ;
+	rdfs:label "Wikang Palu'e"@tl ;
+	skos:prefLabel "Wikang Palu'e"@tl ;
+	schema:name "Wikang Palu'e"@tl ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"bahasa daerah di Indonesia"@id,
+		"language spoken in Indonesia"@en,
+		"pagsasao idiay Indonesia"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue bima-sumba parlée en Indonésie"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl ;
+	skos:altLabel "Palue"@en,
+		"Lu'a language"@en,
+		"Lu'a"@en,
+		"Paluqe"@en,
+		"Palu'e language"@en,
+		"bahasa Palue"@id,
+		"Lu'a"@id,
+		"bahasa Lu'a"@id,
+		"bahasa Paluqe"@id,
+		"Palu'e"@id,
+		"język palue"@pl,
+		"język lu’a"@pl .
+
+wd:Q12473458 owl:sameAs wd:Q2196866 .
+
+wd:Q24765913 owl:sameAs wd:Q2196866 .
+
+wd:Q31441860 owl:sameAs wd:Q2196866 .

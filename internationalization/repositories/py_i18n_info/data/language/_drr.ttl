@@ -1,0 +1,138 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56928 a schema:Dataset ;
+	schema:about wd:Q56928 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1550206038"^^xsd:integer ;
+	schema:dateModified "2021-12-25T23:36:00Z"^^xsd:dateTime .
+
+wd:Q56928 a wikibase:Item .
+
+<https://br.wikipedia.org/wiki/Dororoeg> a schema:Article ;
+	schema:about wd:Q56928 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Dororoeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Dororo_(langue)> a schema:Article ;
+	schema:about wd:Q56928 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Dororo (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_dororo> a schema:Article ;
+	schema:about wd:Q56928 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua dororo"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Dororo> a schema:Article ;
+	schema:about wd:Q56928 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Dororo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kidororo> a schema:Article ;
+	schema:about wd:Q56928 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kidororo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56928 wdt:P305 "drr" ;
+	wdt:P279 wd:Q1089069 ;
+	wdt:P220 "drr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/drr> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P2355 "2629" ;
+	wdt:P1394 "doro1267" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/doro1267> ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P17 wd:Q685 ;
+	wdt:P2341 wd:Q150325 ;
+	wdt:P1627 "drr" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P646 "/m/0gdmj3" ;
+	rdfs:label "dororoeg"@br ;
+	skos:prefLabel "dororoeg"@br ;
+	schema:name "dororoeg"@br ;
+	rdfs:label "Język dororo"@pl ;
+	skos:prefLabel "Język dororo"@pl ;
+	schema:name "Język dororo"@pl ;
+	rdfs:label "dororo"@fr ;
+	skos:prefLabel "dororo"@fr ;
+	schema:name "dororo"@fr ;
+	rdfs:label "lingua dororo"@it ;
+	skos:prefLabel "lingua dororo"@it ;
+	schema:name "lingua dororo"@it ;
+	rdfs:label "Lenga Dororo"@pms ;
+	skos:prefLabel "Lenga Dororo"@pms ;
+	schema:name "Lenga Dororo"@pms ;
+	rdfs:label "Kidororo"@sw ;
+	skos:prefLabel "Kidororo"@sw ;
+	schema:name "Kidororo"@sw ;
+	rdfs:label "Dororo"@en ;
+	skos:prefLabel "Dororo"@en ;
+	schema:name "Dororo"@en ;
+	rdfs:label "Dororo"@nl ;
+	skos:prefLabel "Dororo"@nl ;
+	schema:name "Dororo"@nl ;
+	rdfs:label "dororo"@vec ;
+	skos:prefLabel "dororo"@vec ;
+	schema:name "dororo"@vec ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"langue"@fr,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Lingua doriri"@it,
+		"Doriri"@it,
+		"Dororo"@it .
+
+wd:Q12952396 owl:sameAs wd:Q56928 .

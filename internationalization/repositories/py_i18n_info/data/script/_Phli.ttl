@@ -1,0 +1,137 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q24089793 a schema:Dataset ;
+	schema:about wd:Q24089793 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1867314397"^^xsd:integer ;
+	schema:dateModified "2023-04-03T09:57:36Z"^^xsd:dateTime .
+
+wd:Q24089793 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Inscriptional_Pahlavi> a schema:Article ;
+	schema:about wd:Q24089793 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Inscriptional Pahlavi"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D9%BE%D9%87%D9%84%D9%88%DB%8C_%DA%A9%D8%AA%DB%8C%D8%A8%D9%87%E2%80%8C%D8%A7%DB%8C> a schema:Article ;
+	schema:about wd:Q24089793 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "پهلوی کتیبه‌ای"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%83%D8%AA%D8%A7%D8%A8%D8%A9_%D9%86%D9%82%D8%B4%D9%8A%D8%A9_%D8%A8%D9%87%D9%84%D9%88%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q24089793 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "كتابة نقشية بهلوية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Abjad_Pahlavi_Prasasti> a schema:Article ;
+	schema:about wd:Q24089793 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Abjad Pahlavi Prasasti"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q24089793 wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Che%20in%20pahlavi%20manuscript.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Eranshahr.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Gold-M%C3%BCnze%20Ardaschir%20I%20Sassaniden.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Taq-e%20Bostan%20-%20Pahlavi%20writing.jpg> ;
+	wdt:P31 wd:Q185087,
+		wd:Q29517555,
+		wd:Q4004706 ;
+	wdt:P361 wd:Q1771716 ;
+	wdt:P373 "Inscriptional Pahlavi" ;
+	wdt:P1269 wd:Q32063 ;
+	wdt:P2620 "131" ;
+	wdt:P506 "Phli" ;
+	wdt:P2671 "/g/11cls6r916" ;
+	wdtn:P2671 <http://g.co/kg/g/11cls6r916> ;
+	wdt:P5949 "U+10B60-10B7F" ;
+	wdt:P1406 wd:Q7333457 ;
+	wdt:P2561 "Inscriptional Pahlavi"@en,
+		"pehlevi des inscriptions"@fr ;
+	wdt:P144 wd:Q26978 ;
+	wdt:P407 wd:Q6841465 ;
+	wdt:P571 "-0200-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P582 "1700-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P366 wd:Q6841465 ;
+	wdt:P910 wd:Q87838538 ;
+	rdfs:label "Inscriptional Pahlavi"@en ;
+	skos:prefLabel "Inscriptional Pahlavi"@en ;
+	schema:name "Inscriptional Pahlavi"@en ;
+	rdfs:label "Επιγραφικά Παχλαβί"@el ;
+	skos:prefLabel "Επιγραφικά Παχλαβί"@el ;
+	schema:name "Επιγραφικά Παχλαβί"@el ;
+	rdfs:label "epigrafa mezpersa alfabeto"@eo ;
+	skos:prefLabel "epigrafa mezpersa alfabeto"@eo ;
+	schema:name "epigrafa mezpersa alfabeto"@eo ;
+	rdfs:label "碑文パフラヴィー文字"@ja ;
+	skos:prefLabel "碑文パフラヴィー文字"@ja ;
+	schema:name "碑文パフラヴィー文字"@ja ;
+	rdfs:label "pahlavi inscripcional"@es ;
+	skos:prefLabel "pahlavi inscripcional"@es ;
+	schema:name "pahlavi inscripcional"@es ;
+	rdfs:label "escriptura inscripcional pahlavi"@ca ;
+	skos:prefLabel "escriptura inscripcional pahlavi"@ca ;
+	schema:name "escriptura inscripcional pahlavi"@ca ;
+	rdfs:label "巴列维铭文"@zh ;
+	skos:prefLabel "巴列维铭文"@zh ;
+	schema:name "巴列维铭文"@zh ;
+	rdfs:label "پهلوی کتیبه‌ای"@fa ;
+	skos:prefLabel "پهلوی کتیبه‌ای"@fa ;
+	schema:name "پهلوی کتیبه‌ای"@fa ;
+	rdfs:label "pehlevi des inscriptions"@fr ;
+	skos:prefLabel "pehlevi des inscriptions"@fr ;
+	schema:name "pehlevi des inscriptions"@fr ;
+	rdfs:label "كتابة نقشية بهلوية"@ar ;
+	skos:prefLabel "كتابة نقشية بهلوية"@ar ;
+	schema:name "كتابة نقشية بهلوية"@ar ;
+	rdfs:label "abjad Pahlavi Prasasti"@id ;
+	skos:prefLabel "abjad Pahlavi Prasasti"@id ;
+	schema:name "abjad Pahlavi Prasasti"@id ;
+	schema:description "earliest attested form of Pahlavi scripts"@en,
+		"système d'écriture"@fr,
+		"bukti tahap tertua yang diketahui dari abjad Pahlavi"@id ;
+	skos:altLabel "pahlavi inscripcional"@ca,
+		"碑铭巴列维文"@zh,
+		"巴列維銘文字母"@zh .
+
+wd:Q98966275 owl:sameAs wd:Q24089793 .

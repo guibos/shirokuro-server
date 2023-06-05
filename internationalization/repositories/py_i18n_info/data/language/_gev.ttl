@@ -1,0 +1,112 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7937974 a schema:Dataset ;
+	schema:about wd:Q7937974 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1580222853"^^xsd:integer ;
+	schema:dateModified "2022-02-20T08:50:02Z"^^xsd:dateTime .
+
+wd:Q7937974 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Viya_language> a schema:Article ;
+	schema:about wd:Q7937974 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Viya language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Geviya_(langue)> a schema:Article ;
+	schema:about wd:Q7937974 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Geviya (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Viya> a schema:Article ;
+	schema:about wd:Q7937974 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Viya"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7937974 wdt:P220 "gev" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gev> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q2458420 ;
+	wdt:P269 "034378308" ;
+	wdtn:P269 <http://www.idref.fr/034378308/id> ;
+	wdt:P1394 "eviy1235" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/eviy1235> ;
+	wdt:P2161 "B.301" ;
+	wdt:P2192 "9089" ;
+	wdt:P910 wd:Q36157311 ;
+	wdt:P305 "gev" ;
+	wdt:P3823 wd:Q29051555 ;
+	wdt:P1627 "gev" ;
+	wdt:P17 wd:Q1000 ;
+	wdt:P2341 wd:Q823774 ;
+	wdt:P646 "/m/0q58rbg" ;
+	wdt:P10369 "Q570534" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q570534> ;
+	rdfs:label "Viya"@en ;
+	skos:prefLabel "Viya"@en ;
+	schema:name "Viya"@en ;
+	rdfs:label "geviya"@fr ;
+	skos:prefLabel "geviya"@fr ;
+	schema:name "geviya"@fr ;
+	rdfs:label "ヴィヤ語"@ja ;
+	skos:prefLabel "ヴィヤ語"@ja ;
+	schema:name "ヴィヤ語"@ja ;
+	rdfs:label "Viya"@oc ;
+	skos:prefLabel "Viya"@oc ;
+	schema:name "Viya"@oc ;
+	schema:description "langue bantoue"@fr,
+		"Sprache"@de,
+		"שפה"@he,
+		"language"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Geviya"@en,
+		"Viya language"@en .
+
+wd:Q15407189 owl:sameAs wd:Q7937974 .
+
+wd:Q50934935 owl:sameAs wd:Q7937974 .

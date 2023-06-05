@@ -1,0 +1,167 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5091044 a schema:Dataset ;
+	schema:about wd:Q5091044 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1556610119"^^xsd:integer ;
+	schema:dateModified "2022-01-05T13:53:40Z"^^xsd:dateTime .
+
+wd:Q5091044 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Chenapian_language> a schema:Article ;
+	schema:about wd:Q5091044 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Chenapian language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Chenapian> a schema:Article ;
+	schema:about wd:Q5091044 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Chenapian"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Tchenapeg> a schema:Article ;
+	schema:about wd:Q5091044 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Tchenapeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kichenapian> a schema:Article ;
+	schema:about wd:Q5091044 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kichenapian"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Chenapian> a schema:Article ;
+	schema:about wd:Q5091044 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Chenapian"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Chenap_jezik> a schema:Article ;
+	schema:about wd:Q5091044 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Chenap jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Chenapian> a schema:Article ;
+	schema:about wd:Q5091044 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Chenapian"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://diq.wikipedia.org/wiki/Chenapianki> a schema:Article ;
+	schema:about wd:Q5091044 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Chenapianki"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5091044 wdt:P220 "cjn" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cjn> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "chen1259" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/chen1259> ;
+	wdt:P279 wd:Q8029055 ;
+	wdt:P2192 "4174" ;
+	wdt:P305 "cjn" ;
+	wdt:P1627 "cjn" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q690880 ;
+	wdt:P646 "/m/02hx68h" ;
+	wdt:P625 "Point(142.268442 -4.273583)"^^geo:wktLiteral ;
+	rdfs:label "Chenapian"@en ;
+	skos:prefLabel "Chenapian"@en ;
+	schema:name "Chenapian"@en ;
+	rdfs:label "Lenga Chenapian"@pms ;
+	skos:prefLabel "Lenga Chenapian"@pms ;
+	schema:name "Lenga Chenapian"@pms ;
+	rdfs:label "tchenapeg"@br ;
+	skos:prefLabel "tchenapeg"@br ;
+	schema:name "tchenapeg"@br ;
+	rdfs:label "Kichenapian"@sw ;
+	skos:prefLabel "Kichenapian"@sw ;
+	schema:name "Kichenapian"@sw ;
+	rdfs:label "chenapian"@fr ;
+	skos:prefLabel "chenapian"@fr ;
+	schema:name "chenapian"@fr ;
+	rdfs:label "Język chenapian"@pl ;
+	skos:prefLabel "Język chenapian"@pl ;
+	schema:name "Język chenapian"@pl ;
+	rdfs:label "Chenap jezik"@hr ;
+	skos:prefLabel "Chenap jezik"@hr ;
+	schema:name "Chenap jezik"@hr ;
+	rdfs:label "Chenapian"@ilo ;
+	skos:prefLabel "Chenapian"@ilo ;
+	schema:name "Chenapian"@ilo ;
+	rdfs:label "Chenapian"@en-gb ;
+	skos:prefLabel "Chenapian"@en-gb ;
+	schema:name "Chenapian"@en-gb ;
+	rdfs:label "Chenapianki"@diq ;
+	skos:prefLabel "Chenapianki"@diq ;
+	schema:name "Chenapianki"@diq ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"langue sepik"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Chenapian language"@en .
+
+wd:Q11732139 owl:sameAs wd:Q5091044 .
+
+wd:Q12628930 owl:sameAs wd:Q5091044 .
+
+wd:Q16116589 owl:sameAs wd:Q5091044 .

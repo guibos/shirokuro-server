@@ -1,0 +1,170 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3482903 a schema:Dataset ;
+	schema:about wd:Q3482903 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960503838"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:14:16Z"^^xsd:dateTime .
+
+wd:Q3482903 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Siang> a schema:Article ;
+	schema:about wd:Q3482903 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Siang"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Siang> a schema:Article ;
+	schema:about wd:Q3482903 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Siang"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Siang> a schema:Article ;
+	schema:about wd:Q3482903 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Siang"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisiang> a schema:Article ;
+	schema:about wd:Q3482903 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisiang"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Siang_language> a schema:Article ;
+	schema:about wd:Q3482903 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Siang language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Siang> a schema:Article ;
+	schema:about wd:Q3482903 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Siang"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Siang> a schema:Article ;
+	schema:about wd:Q3482903 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Siang"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_siang> a schema:Article ;
+	schema:about wd:Q3482903 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język siang"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3482903 wdt:P305 "sya" ;
+	wdt:P220 "sya" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/sya> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q2761679 ;
+	wdt:P1394 "sian1254" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sian1254> ;
+	wdt:P1627 "sya" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2341 wd:Q3795,
+		wd:Q3891 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SYA> ;
+	wdt:P1889 wd:Q7506818 ;
+	wdt:P646 "/m/02hx5h1" ;
+	rdfs:label "siang"@fr ;
+	skos:prefLabel "siang"@fr ;
+	schema:name "siang"@fr ;
+	rdfs:label "Bahasa Siang"@id ;
+	skos:prefLabel "Bahasa Siang"@id ;
+	schema:name "Bahasa Siang"@id ;
+	rdfs:label "Lenga Siang"@pms ;
+	skos:prefLabel "Lenga Siang"@pms ;
+	schema:name "Lenga Siang"@pms ;
+	rdfs:label "Siang"@en ;
+	skos:prefLabel "Siang"@en ;
+	schema:name "Siang"@en ;
+	rdfs:label "Kisiang"@sw ;
+	skos:prefLabel "Kisiang"@sw ;
+	schema:name "Kisiang"@sw ;
+	rdfs:label "Siang"@ilo ;
+	skos:prefLabel "Siang"@ilo ;
+	schema:name "Siang"@ilo ;
+	rdfs:label "Siang"@en-gb ;
+	skos:prefLabel "Siang"@en-gb ;
+	schema:name "Siang"@en-gb ;
+	rdfs:label "Wikang Siang"@tl ;
+	skos:prefLabel "Wikang Siang"@tl ;
+	schema:name "Wikang Siang"@tl ;
+	rdfs:label "Tataramon na Siang"@bcl ;
+	skos:prefLabel "Tataramon na Siang"@bcl ;
+	schema:name "Tataramon na Siang"@bcl ;
+	rdfs:label "Język siang"@pl ;
+	skos:prefLabel "Język siang"@pl ;
+	schema:name "Język siang"@pl ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Indonesia"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"język austronezyjski"@pl ;
+	skos:altLabel "Bahasa Siang-Murung"@id,
+		"Bahasa siang"@id,
+		"Siang language"@en .
+
+wd:Q7506815 owl:sameAs wd:Q3482903 .
+
+wd:Q31441534 owl:sameAs wd:Q3482903 .

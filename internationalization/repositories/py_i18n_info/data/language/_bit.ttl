@@ -1,0 +1,147 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56447 a schema:Dataset ;
+	schema:about wd:Q56447 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1349576945"^^xsd:integer ;
+	schema:dateModified "2021-01-28T00:16:03Z"^^xsd:dateTime .
+
+wd:Q56447 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Berinomo> a schema:Article ;
+	schema:about wd:Q56447 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Berinomo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Bitaraeg> a schema:Article ;
+	schema:about wd:Q56447 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Bitaraeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Berinomo_language> a schema:Article ;
+	schema:about wd:Q56447 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Berinomo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Berinomo_jezik> a schema:Article ;
+	schema:about wd:Q56447 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Berinomo jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiberinomo> a schema:Article ;
+	schema:about wd:Q56447 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiberinomo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Berinomo> a schema:Article ;
+	schema:about wd:Q56447 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Berinomo"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56447 wdt:P220 "bit" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bit> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "beri1253" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/beri1253> ;
+	wdt:P279 wd:Q4842589 ;
+	wdt:P2192 "10621" ;
+	wdt:P305 "bit" ;
+	wdt:P1627 "bit" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q690880 ;
+	wdt:P646 "/m/02hxqdm" ;
+	rdfs:label "Lenga Berinomo"@pms ;
+	skos:prefLabel "Lenga Berinomo"@pms ;
+	schema:name "Lenga Berinomo"@pms ;
+	rdfs:label "bitaraeg"@br ;
+	skos:prefLabel "bitaraeg"@br ;
+	schema:name "bitaraeg"@br ;
+	rdfs:label "Berinomo"@en ;
+	skos:prefLabel "Berinomo"@en ;
+	schema:name "Berinomo"@en ;
+	rdfs:label "berinomo"@es ;
+	skos:prefLabel "berinomo"@es ;
+	schema:name "berinomo"@es ;
+	rdfs:label "Berinomo jezik"@hr ;
+	skos:prefLabel "Berinomo jezik"@hr ;
+	schema:name "Berinomo jezik"@hr ;
+	rdfs:label "Kiberinomo"@sw ;
+	skos:prefLabel "Kiberinomo"@sw ;
+	schema:name "Kiberinomo"@sw ;
+	rdfs:label "Język bitara"@pl ;
+	skos:prefLabel "Język bitara"@pl ;
+	schema:name "Język bitara"@pl ;
+	rdfs:label "Berinomo"@ilo ;
+	skos:prefLabel "Berinomo"@ilo ;
+	schema:name "Berinomo"@ilo ;
+	rdfs:label "Berinomo"@en-gb ;
+	skos:prefLabel "Berinomo"@en-gb ;
+	schema:name "Berinomo"@en-gb ;
+	rdfs:label "berinomo"@fr ;
+	skos:prefLabel "berinomo"@fr ;
+	schema:name "berinomo"@fr ;
+	schema:description "lengua sepik"@es,
+		"Sprache"@de,
+		"Sepik language of Papua New Guinea"@en,
+		"שפה"@he,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"langue sepik"@fr,
+		"yezh"@br,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Berinomo language"@en,
+		"Bitara"@en .
+
+wd:Q11732111 owl:sameAs wd:Q56447 .

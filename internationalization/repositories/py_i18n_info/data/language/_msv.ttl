@@ -1,0 +1,169 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3502273 a schema:Dataset ;
+	schema:about wd:Q3502273 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1756908971"^^xsd:integer ;
+	schema:dateModified "2022-10-24T01:18:02Z"^^xsd:dateTime .
+
+wd:Q3502273 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Maslam> a schema:Article ;
+	schema:about wd:Q3502273 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Maslam"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Maslam> a schema:Article ;
+	schema:about wd:Q3502273 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Maslam"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimaslam> a schema:Article ;
+	schema:about wd:Q3502273 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimaslam"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Maslam_language> a schema:Article ;
+	schema:about wd:Q3502273 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Maslam language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Maslameg> a schema:Article ;
+	schema:about wd:Q3502273 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Maslameg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Maslam_(Sprache)> a schema:Article ;
+	schema:about wd:Q3502273 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Maslam (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Maslam_jezik> a schema:Article ;
+	schema:about wd:Q3502273 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Maslam jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Maslam_language> a schema:Article ;
+	schema:about wd:Q3502273 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Maslam language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3502273 wdt:P220 "msv" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/msv> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "masl1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/masl1241> ;
+	wdt:P2355 "46" ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P279 wd:Q2251547 ;
+	wdt:P2192 "2306" ;
+	wdt:P305 "msv" ;
+	wdt:P1627 "msv" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P17 wd:Q1009,
+		wd:Q657 ;
+	wdt:P2341 wd:Q823976,
+		wd:Q502341,
+		wd:Q823946,
+		wd:Q165784,
+		wd:Q3659 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MSV> ;
+	wdt:P646 "/m/02hwmb6" ;
+	rdfs:label "Kimaslam"@sw ;
+	skos:prefLabel "Kimaslam"@sw ;
+	schema:name "Kimaslam"@sw ;
+	rdfs:label "Maslam"@en ;
+	skos:prefLabel "Maslam"@en ;
+	schema:name "Maslam"@en ;
+	rdfs:label "Maslam jezik"@hr ;
+	skos:prefLabel "Maslam jezik"@hr ;
+	schema:name "Maslam jezik"@hr ;
+	rdfs:label "Lenga Maslam"@pms ;
+	skos:prefLabel "Lenga Maslam"@pms ;
+	schema:name "Lenga Maslam"@pms ;
+	rdfs:label "maslameg"@br ;
+	skos:prefLabel "maslameg"@br ;
+	schema:name "maslameg"@br ;
+	rdfs:label "Maslam"@de ;
+	skos:prefLabel "Maslam"@de ;
+	schema:name "Maslam"@de ;
+	rdfs:label "maslam"@fr ;
+	skos:prefLabel "maslam"@fr ;
+	schema:name "maslam"@fr ;
+	rdfs:label "Maslam"@en-gb ;
+	skos:prefLabel "Maslam"@en-gb ;
+	schema:name "Maslam"@en-gb ;
+	rdfs:label "Wikang Maslam"@tl ;
+	skos:prefLabel "Wikang Maslam"@tl ;
+	schema:name "Wikang Maslam"@tl ;
+	rdfs:label "Maslam language"@ig ;
+	skos:prefLabel "Maslam language"@ig ;
+	schema:name "Maslam language"@ig ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue biu-mandara"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Maslam language"@en .
+
+wd:Q12952818 owl:sameAs wd:Q3502273 .

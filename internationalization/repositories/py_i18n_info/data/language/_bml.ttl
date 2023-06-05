@@ -1,0 +1,139 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35055 a schema:Dataset ;
+	schema:about wd:Q35055 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1510551382"^^xsd:integer ;
+	schema:dateModified "2021-10-11T01:20:35Z"^^xsd:dateTime .
+
+wd:Q35055 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Bomboli> a schema:Article ;
+	schema:about wd:Q35055 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Bomboli"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_bomboli> a schema:Article ;
+	schema:about wd:Q35055 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język bomboli"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibomboli> a schema:Article ;
+	schema:about wd:Q35055 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibomboli"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Bomboli> a schema:Article ;
+	schema:about wd:Q35055 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Bomboli"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Bomboli_jezik> a schema:Article ;
+	schema:about wd:Q35055 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Bomboli jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Bomboli%E2%80%93Bozaba_language> a schema:Article ;
+	schema:about wd:Q35055 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Bomboli–Bozaba language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35055 wdt:P220 "bml" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bml> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "bomb1261" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/bomb1261> ;
+	wdt:P2192 "4597" ;
+	wdt:P279 wd:Q7022532 ;
+	wdt:P2161 "C161" ;
+	wdt:P305 "bml" ;
+	wdt:P1627 "bml" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q974 ;
+	wdt:P2341 wd:Q834551 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BML> ;
+	wdt:P646 "/m/02hx105" ;
+	rdfs:label "Kibomboli"@sw ;
+	skos:prefLabel "Kibomboli"@sw ;
+	schema:name "Kibomboli"@sw ;
+	rdfs:label "Lenga Bomboli"@pms ;
+	skos:prefLabel "Lenga Bomboli"@pms ;
+	schema:name "Lenga Bomboli"@pms ;
+	rdfs:label "Bomboli"@de ;
+	skos:prefLabel "Bomboli"@de ;
+	schema:name "Bomboli"@de ;
+	rdfs:label "Bomboli jezik"@hr ;
+	skos:prefLabel "Bomboli jezik"@hr ;
+	schema:name "Bomboli jezik"@hr ;
+	rdfs:label "Bomboli"@en ;
+	skos:prefLabel "Bomboli"@en ;
+	schema:name "Bomboli"@en ;
+	rdfs:label "Język bomboli"@pl ;
+	skos:prefLabel "Język bomboli"@pl ;
+	schema:name "Język bomboli"@pl ;
+	rdfs:label "Bomboli"@en-gb ;
+	skos:prefLabel "Bomboli"@en-gb ;
+	schema:name "Bomboli"@en-gb ;
+	rdfs:label "bomboli"@fr ;
+	skos:prefLabel "bomboli"@fr ;
+	schema:name "bomboli"@fr ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue bantoue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Bomboli language"@en .

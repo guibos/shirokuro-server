@@ -1,0 +1,370 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q8048030 a schema:Dataset ;
+	schema:about wd:Q8048030 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912144385"^^xsd:integer ;
+	schema:dateModified "2023-06-10T10:54:56Z"^^xsd:dateTime .
+
+wd:Q8048030 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Yamdena> a schema:Article ;
+	schema:about wd:Q8048030 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Yamdena"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Yamdena> a schema:Article ;
+	schema:about wd:Q8048030 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Yamdena"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiyamdena> a schema:Article ;
+	schema:about wd:Q8048030 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiyamdena"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Yamdena_language> a schema:Article ;
+	schema:about wd:Q8048030 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Yamdena language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Yamdena> a schema:Article ;
+	schema:about wd:Q8048030 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Yamdena"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_yamdena> a schema:Article ;
+	schema:about wd:Q8048030 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język yamdena"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q8048030 wdt:P220 "jmd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/jmd> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "yamd1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/yamd1240> ;
+	wdt:P1098 "+30"^^xsd:decimal ;
+	wdt:P279 wd:Q24375886 ;
+	wdt:P276 wd:Q24376875 ;
+	wdt:P2590 "0707 0" ;
+	wdt:P1705 "bahasa Yamdena"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P1466 "ymd" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ymd> ;
+	wdt:P910 wd:Q31167881 ;
+	wdt:P1014 "300389589" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389589> ;
+	wdt:P305 "jmd" ;
+	wdt:P1627 "jmd" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2341 wd:Q5093 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/JMD> ;
+	wdt:P646 "/m/02hxd6_" ;
+	rdfs:label "Yamdena"@en ;
+	skos:prefLabel "Yamdena"@en ;
+	schema:name "Yamdena"@en ;
+	rdfs:label "Lenga Yamdena"@pms ;
+	skos:prefLabel "Lenga Yamdena"@pms ;
+	schema:name "Lenga Yamdena"@pms ;
+	rdfs:label "Kiyamdena"@sw ;
+	skos:prefLabel "Kiyamdena"@sw ;
+	schema:name "Kiyamdena"@sw ;
+	rdfs:label "Yamdena"@id ;
+	skos:prefLabel "Yamdena"@id ;
+	schema:name "Yamdena"@id ;
+	rdfs:label "Yamdena"@ace ;
+	skos:prefLabel "Yamdena"@ace ;
+	schema:name "Yamdena"@ace ;
+	rdfs:label "Yamdena"@af ;
+	skos:prefLabel "Yamdena"@af ;
+	schema:name "Yamdena"@af ;
+	rdfs:label "Yamdena"@an ;
+	skos:prefLabel "Yamdena"@an ;
+	schema:name "Yamdena"@an ;
+	rdfs:label "Yamdena"@ast ;
+	skos:prefLabel "Yamdena"@ast ;
+	schema:name "Yamdena"@ast ;
+	rdfs:label "Yamdena"@bar ;
+	skos:prefLabel "Yamdena"@bar ;
+	schema:name "Yamdena"@bar ;
+	rdfs:label "yamdena"@br ;
+	skos:prefLabel "yamdena"@br ;
+	schema:name "yamdena"@br ;
+	rdfs:label "yamdena"@ca ;
+	skos:prefLabel "yamdena"@ca ;
+	schema:name "yamdena"@ca ;
+	rdfs:label "Yamdena"@co ;
+	skos:prefLabel "Yamdena"@co ;
+	schema:name "Yamdena"@co ;
+	rdfs:label "Yamdena"@cs ;
+	skos:prefLabel "Yamdena"@cs ;
+	schema:name "Yamdena"@cs ;
+	rdfs:label "Yamdena"@cy ;
+	skos:prefLabel "Yamdena"@cy ;
+	schema:name "Yamdena"@cy ;
+	rdfs:label "Yamdena"@da ;
+	skos:prefLabel "Yamdena"@da ;
+	schema:name "Yamdena"@da ;
+	rdfs:label "Yamdena"@de ;
+	skos:prefLabel "Yamdena"@de ;
+	schema:name "Yamdena"@de ;
+	rdfs:label "Yamdena"@de-at ;
+	skos:prefLabel "Yamdena"@de-at ;
+	schema:name "Yamdena"@de-at ;
+	rdfs:label "Yamdena"@de-ch ;
+	skos:prefLabel "Yamdena"@de-ch ;
+	schema:name "Yamdena"@de-ch ;
+	rdfs:label "Yamdena"@en-ca ;
+	skos:prefLabel "Yamdena"@en-ca ;
+	schema:name "Yamdena"@en-ca ;
+	rdfs:label "Yamdena"@en-gb ;
+	skos:prefLabel "Yamdena"@en-gb ;
+	schema:name "Yamdena"@en-gb ;
+	rdfs:label "Yamdena"@eo ;
+	skos:prefLabel "Yamdena"@eo ;
+	schema:name "Yamdena"@eo ;
+	rdfs:label "Yamdena"@es ;
+	skos:prefLabel "Yamdena"@es ;
+	schema:name "Yamdena"@es ;
+	rdfs:label "Yamdena"@et ;
+	skos:prefLabel "Yamdena"@et ;
+	schema:name "Yamdena"@et ;
+	rdfs:label "Yamdena"@eu ;
+	skos:prefLabel "Yamdena"@eu ;
+	schema:name "Yamdena"@eu ;
+	rdfs:label "Yamdena"@fi ;
+	skos:prefLabel "Yamdena"@fi ;
+	schema:name "Yamdena"@fi ;
+	rdfs:label "yamdena"@fr ;
+	skos:prefLabel "yamdena"@fr ;
+	schema:name "yamdena"@fr ;
+	rdfs:label "Yamdena"@frp ;
+	skos:prefLabel "Yamdena"@frp ;
+	schema:name "Yamdena"@frp ;
+	rdfs:label "Yamdena"@fur ;
+	skos:prefLabel "Yamdena"@fur ;
+	schema:name "Yamdena"@fur ;
+	rdfs:label "Yamdena"@ga ;
+	skos:prefLabel "Yamdena"@ga ;
+	schema:name "Yamdena"@ga ;
+	rdfs:label "Yamdena"@gd ;
+	skos:prefLabel "Yamdena"@gd ;
+	schema:name "Yamdena"@gd ;
+	rdfs:label "Yamdena"@gl ;
+	skos:prefLabel "Yamdena"@gl ;
+	schema:name "Yamdena"@gl ;
+	rdfs:label "Yamdena"@gsw ;
+	skos:prefLabel "Yamdena"@gsw ;
+	schema:name "Yamdena"@gsw ;
+	rdfs:label "Yamdena"@hr ;
+	skos:prefLabel "Yamdena"@hr ;
+	schema:name "Yamdena"@hr ;
+	rdfs:label "Yamdena"@hu ;
+	skos:prefLabel "Yamdena"@hu ;
+	schema:name "Yamdena"@hu ;
+	rdfs:label "Yamdena"@ia ;
+	skos:prefLabel "Yamdena"@ia ;
+	schema:name "Yamdena"@ia ;
+	rdfs:label "Yamdena"@ie ;
+	skos:prefLabel "Yamdena"@ie ;
+	schema:name "Yamdena"@ie ;
+	rdfs:label "Yamdena"@io ;
+	skos:prefLabel "Yamdena"@io ;
+	schema:name "Yamdena"@io ;
+	rdfs:label "Yamdena"@is ;
+	skos:prefLabel "Yamdena"@is ;
+	schema:name "Yamdena"@is ;
+	rdfs:label "yamdena"@it ;
+	skos:prefLabel "yamdena"@it ;
+	schema:name "yamdena"@it ;
+	rdfs:label "Yamdena"@jv ;
+	skos:prefLabel "Yamdena"@jv ;
+	schema:name "Yamdena"@jv ;
+	rdfs:label "Yamdena"@kg ;
+	skos:prefLabel "Yamdena"@kg ;
+	schema:name "Yamdena"@kg ;
+	rdfs:label "Yamdena"@lb ;
+	skos:prefLabel "Yamdena"@lb ;
+	schema:name "Yamdena"@lb ;
+	rdfs:label "Yamdena"@li ;
+	skos:prefLabel "Yamdena"@li ;
+	schema:name "Yamdena"@li ;
+	rdfs:label "Yamdena"@lij ;
+	skos:prefLabel "Yamdena"@lij ;
+	schema:name "Yamdena"@lij ;
+	rdfs:label "Yamdena"@mg ;
+	skos:prefLabel "Yamdena"@mg ;
+	schema:name "Yamdena"@mg ;
+	rdfs:label "Yamdena"@min ;
+	skos:prefLabel "Yamdena"@min ;
+	schema:name "Yamdena"@min ;
+	rdfs:label "Yamdena"@ms ;
+	skos:prefLabel "Yamdena"@ms ;
+	schema:name "Yamdena"@ms ;
+	rdfs:label "Yamdena"@nap ;
+	skos:prefLabel "Yamdena"@nap ;
+	schema:name "Yamdena"@nap ;
+	rdfs:label "Yamdena"@nb ;
+	skos:prefLabel "Yamdena"@nb ;
+	schema:name "Yamdena"@nb ;
+	rdfs:label "Yamdena"@nds ;
+	skos:prefLabel "Yamdena"@nds ;
+	schema:name "Yamdena"@nds ;
+	rdfs:label "Yamdena"@nds-nl ;
+	skos:prefLabel "Yamdena"@nds-nl ;
+	schema:name "Yamdena"@nds-nl ;
+	rdfs:label "Yamdena"@nl ;
+	skos:prefLabel "Yamdena"@nl ;
+	schema:name "Yamdena"@nl ;
+	rdfs:label "Yamdena"@nn ;
+	skos:prefLabel "Yamdena"@nn ;
+	schema:name "Yamdena"@nn ;
+	rdfs:label "Yamdena"@nrm ;
+	skos:prefLabel "Yamdena"@nrm ;
+	schema:name "Yamdena"@nrm ;
+	rdfs:label "Yamdena"@oc ;
+	skos:prefLabel "Yamdena"@oc ;
+	schema:name "Yamdena"@oc ;
+	rdfs:label "Yamdena"@pcd ;
+	skos:prefLabel "Yamdena"@pcd ;
+	schema:name "Yamdena"@pcd ;
+	rdfs:label "Yamdena"@pl ;
+	skos:prefLabel "Yamdena"@pl ;
+	schema:name "Yamdena"@pl ;
+	rdfs:label "Yamdena"@pt ;
+	skos:prefLabel "Yamdena"@pt ;
+	schema:name "Yamdena"@pt ;
+	rdfs:label "Yamdena"@pt-br ;
+	skos:prefLabel "Yamdena"@pt-br ;
+	schema:name "Yamdena"@pt-br ;
+	rdfs:label "Yamdena"@rm ;
+	skos:prefLabel "Yamdena"@rm ;
+	schema:name "Yamdena"@rm ;
+	rdfs:label "Yamdena"@ro ;
+	skos:prefLabel "Yamdena"@ro ;
+	schema:name "Yamdena"@ro ;
+	rdfs:label "Yamdena"@sc ;
+	skos:prefLabel "Yamdena"@sc ;
+	schema:name "Yamdena"@sc ;
+	rdfs:label "Yamdena"@scn ;
+	skos:prefLabel "Yamdena"@scn ;
+	schema:name "Yamdena"@scn ;
+	rdfs:label "Yamdena"@sco ;
+	skos:prefLabel "Yamdena"@sco ;
+	schema:name "Yamdena"@sco ;
+	rdfs:label "Yamdena"@sk ;
+	skos:prefLabel "Yamdena"@sk ;
+	schema:name "Yamdena"@sk ;
+	rdfs:label "Yamdena"@sl ;
+	skos:prefLabel "Yamdena"@sl ;
+	schema:name "Yamdena"@sl ;
+	rdfs:label "Yamdena"@sr-el ;
+	skos:prefLabel "Yamdena"@sr-el ;
+	schema:name "Yamdena"@sr-el ;
+	rdfs:label "Yamdena"@su ;
+	skos:prefLabel "Yamdena"@su ;
+	schema:name "Yamdena"@su ;
+	rdfs:label "Yamdena"@sv ;
+	skos:prefLabel "Yamdena"@sv ;
+	schema:name "Yamdena"@sv ;
+	rdfs:label "Yamdena"@vec ;
+	skos:prefLabel "Yamdena"@vec ;
+	schema:name "Yamdena"@vec ;
+	rdfs:label "Yamdena"@vi ;
+	skos:prefLabel "Yamdena"@vi ;
+	schema:name "Yamdena"@vi ;
+	rdfs:label "Yamdena"@vls ;
+	skos:prefLabel "Yamdena"@vls ;
+	schema:name "Yamdena"@vls ;
+	rdfs:label "Yamdena"@vo ;
+	skos:prefLabel "Yamdena"@vo ;
+	schema:name "Yamdena"@vo ;
+	rdfs:label "Yamdena"@wa ;
+	skos:prefLabel "Yamdena"@wa ;
+	schema:name "Yamdena"@wa ;
+	rdfs:label "Yamdena"@wo ;
+	skos:prefLabel "Yamdena"@wo ;
+	schema:name "Yamdena"@wo ;
+	rdfs:label "Yamdena"@zu ;
+	skos:prefLabel "Yamdena"@zu ;
+	schema:name "Yamdena"@zu ;
+	rdfs:label "Yamdena"@ilo ;
+	skos:prefLabel "Yamdena"@ilo ;
+	schema:name "Yamdena"@ilo ;
+	rdfs:label "Wikang Yamdena"@tl ;
+	skos:prefLabel "Wikang Yamdena"@tl ;
+	schema:name "Wikang Yamdena"@tl ;
+	rdfs:label "ヤムデナ語"@ja ;
+	skos:prefLabel "ヤムデナ語"@ja ;
+	schema:name "ヤムデナ語"@ja ;
+	schema:description "Sprache"@de,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"pagsasao idiay Indonesia"@ilo,
+		"taal"@nl,
+		"שפה"@he,
+		"langue malayo-polynésienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl ;
+	skos:altLabel "Yamdena language"@en,
+		"Bahasa Yamdena"@id,
+		"bahasa Yamdena"@id,
+		"bahasa Jamden"@id,
+		"bahasa Jamdena"@id .
+
+wd:Q25893661 owl:sameAs wd:Q8048030 .
+
+wd:Q31441821 owl:sameAs wd:Q8048030 .

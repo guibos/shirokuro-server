@@ -1,0 +1,182 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3437626 a schema:Dataset ;
+	schema:about wd:Q3437626 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1556057273"^^xsd:integer ;
+	schema:dateModified "2022-01-04T15:49:52Z"^^xsd:dateTime .
+
+wd:Q3437626 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Gorowa> a schema:Article ;
+	schema:about wd:Q3437626 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Gorowa"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Gorowa> a schema:Article ;
+	schema:about wd:Q3437626 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Gorowa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigorowa> a schema:Article ;
+	schema:about wd:Q3437626 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigorowa"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Gorowa_language> a schema:Article ;
+	schema:about wd:Q3437626 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Gorowa language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Goroweg> a schema:Article ;
+	schema:about wd:Q3437626 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Goroweg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Gorowa_(spr%C3%A5k)> a schema:Article ;
+	schema:about wd:Q3437626 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Gorowa (språk)"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Gorowa> a schema:Article ;
+	schema:about wd:Q3437626 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Gorowa"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Gorowa_jezik> a schema:Article ;
+	schema:about wd:Q3437626 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Gorowa jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Gorowa_(Sprache)> a schema:Article ;
+	schema:about wd:Q3437626 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Gorowa (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3437626 wdt:P220 "gow" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gow> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/03qjs_v" ;
+	wdt:P1394 "goro1270" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/goro1270> ;
+	wdt:P1466 "gor" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_gor> ;
+	wdt:P305 "gow" ;
+	wdt:P1627 "gow" ;
+	wdt:P17 wd:Q924 ;
+	wdt:P2341 wd:Q213268,
+		wd:Q331117 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GOW> ;
+	wdt:P279 wd:Q56525 ;
+	wdt:P910 wd:Q105715093 ;
+	rdfs:label "Kigorowa"@sw ;
+	skos:prefLabel "Kigorowa"@sw ;
+	schema:name "Kigorowa"@sw ;
+	rdfs:label "Gorowa"@en ;
+	skos:prefLabel "Gorowa"@en ;
+	schema:name "Gorowa"@en ;
+	rdfs:label "Gorowa jezik"@hr ;
+	skos:prefLabel "Gorowa jezik"@hr ;
+	schema:name "Gorowa jezik"@hr ;
+	rdfs:label "gorowa"@ca ;
+	skos:prefLabel "gorowa"@ca ;
+	schema:name "gorowa"@ca ;
+	rdfs:label "Gorowa"@nb ;
+	skos:prefLabel "Gorowa"@nb ;
+	schema:name "Gorowa"@nb ;
+	rdfs:label "goroweg"@br ;
+	skos:prefLabel "goroweg"@br ;
+	schema:name "goroweg"@br ;
+	rdfs:label "Lenga Gorowa"@pms ;
+	skos:prefLabel "Lenga Gorowa"@pms ;
+	schema:name "Lenga Gorowa"@pms ;
+	rdfs:label "Gorowa"@nn ;
+	skos:prefLabel "Gorowa"@nn ;
+	schema:name "Gorowa"@nn ;
+	rdfs:label "Gorowa"@en-gb ;
+	skos:prefLabel "Gorowa"@en-gb ;
+	schema:name "Gorowa"@en-gb ;
+	rdfs:label "Wikang Gorowa"@tl ;
+	skos:prefLabel "Wikang Gorowa"@tl ;
+	schema:name "Wikang Gorowa"@tl ;
+	rdfs:label "Gorowa"@de ;
+	skos:prefLabel "Gorowa"@de ;
+	schema:name "Gorowa"@de ;
+	rdfs:label "ゴロア語"@ja ;
+	skos:prefLabel "ゴロア語"@ja ;
+	schema:name "ゴロア語"@ja ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kigorwaa"@sw,
+		"Kifiome"@sw,
+		"Kifiomi"@sw,
+		"Gorwaa"@ca,
+		"Gorowa language"@en .
+
+wd:Q12952466 owl:sameAs wd:Q3437626 .

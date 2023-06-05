@@ -1,0 +1,130 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7418144 a schema:Dataset ;
+	schema:about wd:Q7418144 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1820348722"^^xsd:integer ;
+	schema:dateModified "2023-01-27T12:36:32Z"^^xsd:dateTime .
+
+wd:Q7418144 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Naga,_Sangtam> a schema:Article ;
+	schema:about wd:Q7418144 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Naga, Sangtam"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sangtam_language> a schema:Article ;
+	schema:about wd:Q7418144 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sangtam language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A4%82%E0%A4%97%E0%A4%A4%E0%A4%AE_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q7418144 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "संगतम भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Sangtameg> a schema:Article ;
+	schema:about wd:Q7418144 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Sangtameg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinaga_cha_Sangtam> a schema:Article ;
+	schema:about wd:Q7418144 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinaga cha Sangtam"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7418144 wdt:P220 "nsa" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nsa> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "sang1321" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sang1321> ;
+	wdt:P2355 "1133" ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P305 "nsa" ;
+	wdt:P1627 "nsa" ;
+	wdt:P3823 wd:Q29051550 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1599 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NSA> ;
+	wdt:P646 "/m/02hwtf5" ;
+	rdfs:label "Sangtam"@en ;
+	skos:prefLabel "Sangtam"@en ;
+	schema:name "Sangtam"@en ;
+	rdfs:label "sangtameg"@br ;
+	skos:prefLabel "sangtameg"@br ;
+	schema:name "sangtameg"@br ;
+	rdfs:label "Kinaga ya Sangtam"@sw ;
+	skos:prefLabel "Kinaga ya Sangtam"@sw ;
+	schema:name "Kinaga ya Sangtam"@sw ;
+	rdfs:label "Lenga Naga"@pms ;
+	skos:prefLabel "Lenga Naga"@pms ;
+	schema:name "Lenga Naga"@pms ;
+	rdfs:label "संगतम भाषा"@hi ;
+	skos:prefLabel "संगतम भाषा"@hi ;
+	schema:name "संगतम भाषा"@hi ;
+	rdfs:label "সাংতাম ভাষা"@bn ;
+	skos:prefLabel "সাংতাম ভাষা"@bn ;
+	schema:name "সাংতাম ভাষা"@bn ;
+	rdfs:label "サンタム・ナガ語"@ja ;
+	skos:prefLabel "サンタム・ナガ語"@ja ;
+	schema:name "サンタム・ナガ語"@ja ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"पूर्वोत्तर भारत में बोली जाने वाली नागा भाषा"@hi ;
+	skos:altLabel "Sangtam Naga"@en,
+		"Sangtam language"@en,
+		"সাংতাম নাগা"@bn .

@@ -1,0 +1,140 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7902545 a schema:Dataset ;
+	schema:about wd:Q7902545 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1428890905"^^xsd:integer ;
+	schema:dateModified "2021-05-26T03:12:52Z"^^xsd:dateTime .
+
+wd:Q7902545 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Ifo> a schema:Article ;
+	schema:about wd:Q7902545 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Ifo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Utaha> a schema:Article ;
+	schema:about wd:Q7902545 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Utaha"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiifo> a schema:Article ;
+	schema:about wd:Q7902545 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiifo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Utaha_language> a schema:Article ;
+	schema:about wd:Q7902545 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Utaha language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Ifo_jezik> a schema:Article ;
+	schema:about wd:Q7902545 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Ifo jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7902545 wdt:P220 "iff" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/iff> ;
+	wdt:P31 wd:Q34770,
+		wd:Q38058796,
+		wd:Q45762 ;
+	wdt:P1394 "ifoo1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ifoo1237> ;
+	wdt:P2355 "2642" ;
+	wdt:P17 wd:Q686 ;
+	wdt:P279 wd:Q12630673 ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P305 "iff" ;
+	wdt:P1627 "iff" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P2341 wd:Q576417 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/IFF> ;
+	wdt:P646 "/m/02hx346" ;
+	rdfs:label "Utaha"@en ;
+	skos:prefLabel "Utaha"@en ;
+	schema:name "Utaha"@en ;
+	rdfs:label "Lenga Ifo"@pms ;
+	skos:prefLabel "Lenga Ifo"@pms ;
+	schema:name "Lenga Ifo"@pms ;
+	rdfs:label "Kiifo"@sw ;
+	skos:prefLabel "Kiifo"@sw ;
+	schema:name "Kiifo"@sw ;
+	rdfs:label "Utaha"@ilo ;
+	skos:prefLabel "Utaha"@ilo ;
+	schema:name "Utaha"@ilo ;
+	rdfs:label "Ifo jezik"@hr ;
+	skos:prefLabel "Ifo jezik"@hr ;
+	schema:name "Ifo jezik"@hr ;
+	rdfs:label "ifo"@fr ;
+	skos:prefLabel "ifo"@fr ;
+	schema:name "ifo"@fr ;
+	rdfs:label "ifo keel"@et ;
+	skos:prefLabel "ifo keel"@et ;
+	schema:name "ifo keel"@et ;
+	rdfs:label "イフォ語"@ja ;
+	skos:prefLabel "イフォ語"@ja ;
+	schema:name "イフォ語"@ja ;
+	rdfs:label "烏塔哈語"@zh ;
+	skos:prefLabel "烏塔哈語"@zh ;
+	schema:name "烏塔哈語"@zh ;
+	schema:description "Sprache"@de,
+		"awanen a pagsasao iti Vanuatu"@ilo,
+		"שפה"@he,
+		"langue océanienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Ifo"@en,
+		"Utaha language"@en,
+		"utaha keel"@et .
+
+wd:Q12632833 owl:sameAs wd:Q7902545 .

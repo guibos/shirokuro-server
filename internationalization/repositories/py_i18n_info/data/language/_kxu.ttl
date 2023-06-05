@@ -1,0 +1,371 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33919 a schema:Dataset ;
+	schema:about wd:Q33919 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1918427572"^^xsd:integer ;
+	schema:dateModified "2023-06-18T20:30:54Z"^^xsd:dateTime .
+
+wd:Q33919 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kui> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kui"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Khond> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Khond"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%B8_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Куи (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_kui_(drawidyjski)> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język kui (drawidyjski)"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kui_language_(India)> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kui language (India)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%95%E0%B5%81%E0%B4%AF%E0%B4%BF_%E0%B4%AD%E0%B4%BE%E0%B4%B7> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "കുയി ഭാഷ"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%81%E0%B8%B8%E0%B8%A2_(%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B8%99)> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษากุย (ดราวิเดียน)"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Kui> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Kui"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Kui> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Kui"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Kui_(langue)> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kui (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sk.wikipedia.org/wiki/Kui_(jazyk)> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "sk" ;
+	schema:isPartOf <https://sk.wikipedia.org/> ;
+	schema:name "Kui (jazyk)"@sk .
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%A7%D7%95%D7%90%D7%99> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "קואי"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Kui_(India)> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Kui (India)"@tl ;
+	wikibase:badge wd:Q70893996 .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%9A%D1%83%D1%98%D1%81%D0%BA%D0%B8_%D0%B4%D1%80%D0%B0%D0%B2%D0%B8%D0%B4%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Кујски дравидски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikui_(Uhindi)> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikui (Uhindi)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Kwieg> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Kwieg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Kui> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Kui"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Kui> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Kui"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%95%E0%AF%82%E0%AE%AF%E0%AF%8D_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "கூய் மொழி"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Kuin_kieli> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Kuin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%DA%A9%D9%88%D8%A6%DB%8C_%D8%A8%D9%88%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "کوئی بولی"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%9A%D1%83%D0%B8_%D1%82%D0%B5%D0%BB%D0%B5_(%D2%BA%D0%B8%D0%BD%D0%B4%D1%81%D1%82%D0%B0%D0%BD)> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Куи теле (Һиндстан)"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%81%E0%A4%88_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "कुई भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://commons.wikimedia.org/wiki/Category:Kui_language_(India)> a schema:Article ;
+	schema:about wd:Q33919 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "Category:Kui language (India)"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+wd:Q33919 wdt:P305 "kxu" ;
+	wdt:P220 "uki" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/uki> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/02hxwh9" ;
+	wdt:P282 wd:Q1760127 ;
+	wdt:P279 wd:Q68001102 ;
+	wdt:P1098 "+645000"^^xsd:decimal ;
+	wdt:P1394 "kuii1252" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kuii1252> ;
+	wdt:P2355 "1577" ;
+	wdt:P4132 wd:Q171263 ;
+	wdt:P1466 "kui" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_kui> ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2192 "5652" ;
+	wdt:P1627 "kxu" ;
+	wdt:P244 "sh85073375" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85073375> ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2341 wd:Q1159,
+		wd:Q1188,
+		wd:Q22048,
+		wd:Q1445 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KXU> ;
+	wdt:P1889 wd:Q3832935 ;
+	wdt:P8189 "987007548484105171" ;
+	wdt:P527 wd:Q111360885 ;
+	wdt:P373 "Kui language (India)" ;
+	wdt:P8313 "kui_-_dravidisk_sprog" ;
+	rdfs:label "kui"@fr ;
+	skos:prefLabel "kui"@fr ;
+	schema:name "kui"@fr ;
+	rdfs:label "Kui"@en ;
+	skos:prefLabel "Kui"@en ;
+	schema:name "Kui"@en ;
+	rdfs:label "Кујски дравидски јазик"@mk ;
+	skos:prefLabel "Кујски дравидски јазик"@mk ;
+	schema:name "Кујски дравидски јазик"@mk ;
+	rdfs:label "کوئی بولی"@pnb ;
+	skos:prefLabel "کوئی بولی"@pnb ;
+	schema:name "کوئی بولی"@pnb ;
+	rdfs:label "kui"@ca ;
+	skos:prefLabel "kui"@ca ;
+	schema:name "kui"@ca ;
+	rdfs:label "Kui"@en-ca ;
+	skos:prefLabel "Kui"@en-ca ;
+	schema:name "Kui"@en-ca ;
+	rdfs:label "Kui"@en-gb ;
+	skos:prefLabel "Kui"@en-gb ;
+	schema:name "Kui"@en-gb ;
+	rdfs:label "Kuin kieli"@fi ;
+	skos:prefLabel "Kuin kieli"@fi ;
+	schema:name "Kuin kieli"@fi ;
+	rdfs:label "ภาษากุย"@th ;
+	skos:prefLabel "ภาษากุย"@th ;
+	schema:name "ภาษากุย"@th ;
+	rdfs:label "Куи (язык)"@ru ;
+	skos:prefLabel "Куи (язык)"@ru ;
+	schema:name "Куи (язык)"@ru ;
+	rdfs:label "கூய் மொழி"@ta ;
+	skos:prefLabel "கூய் மொழி"@ta ;
+	schema:name "கூய் மொழி"@ta ;
+	rdfs:label "Kui"@oc ;
+	skos:prefLabel "Kui"@oc ;
+	schema:name "Kui"@oc ;
+	rdfs:label "lingua Kui"@la ;
+	skos:prefLabel "lingua Kui"@la ;
+	schema:name "lingua Kui"@la ;
+	rdfs:label "Lenga Kui"@pms ;
+	skos:prefLabel "Lenga Kui"@pms ;
+	schema:name "Lenga Kui"@pms ;
+	rdfs:label "കുയി"@ml ;
+	skos:prefLabel "കുയി"@ml ;
+	schema:name "കുയി"@ml ;
+	rdfs:label "Kui (jazyk)"@sk ;
+	skos:prefLabel "Kui (jazyk)"@sk ;
+	schema:name "Kui (jazyk)"@sk ;
+	rdfs:label "kwieg"@br ;
+	skos:prefLabel "kwieg"@br ;
+	schema:name "kwieg"@br ;
+	rdfs:label "Język kui (drawidyjski)"@pl ;
+	skos:prefLabel "Język kui (drawidyjski)"@pl ;
+	schema:name "Język kui (drawidyjski)"@pl ;
+	rdfs:label "Kui"@nb ;
+	skos:prefLabel "Kui"@nb ;
+	schema:name "Kui"@nb ;
+	rdfs:label "Khond"@sv ;
+	skos:prefLabel "Khond"@sv ;
+	schema:name "Khond"@sv ;
+	rdfs:label "Kikui"@sw ;
+	skos:prefLabel "Kikui"@sw ;
+	schema:name "Kikui"@sw ;
+	rdfs:label "Kui"@nn ;
+	skos:prefLabel "Kui"@nn ;
+	schema:name "Kui"@nn ;
+	rdfs:label "クーイ語"@ja ;
+	skos:prefLabel "クーイ語"@ja ;
+	schema:name "クーイ語"@ja ;
+	rdfs:label "Wikang Kui"@tl ;
+	skos:prefLabel "Wikang Kui"@tl ;
+	schema:name "Wikang Kui"@tl ;
+	rdfs:label "קואי"@he ;
+	skos:prefLabel "קואי"@he ;
+	schema:name "קואי"@he ;
+	rdfs:label "Куи теле (Һиндстан)"@tt ;
+	skos:prefLabel "Куи теле (Һиндстан)"@tt ;
+	schema:name "Куи теле (Һиндстан)"@tt ;
+	rdfs:label "कुई भाषा"@hi ;
+	skos:prefLabel "कुई भाषा"@hi ;
+	schema:name "कुई भाषा"@hi ;
+	rdfs:label "孔迪語"@zh ;
+	skos:prefLabel "孔迪語"@zh ;
+	schema:name "孔迪語"@zh ;
+	schema:description "Sprache"@de,
+		"Dravidian language spoken in Eastern India"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue dravidienne parlée en Inde"@fr,
+		"ഒറീസ്സയിലെ വനവാസികൾ സംസാരിക്കുന്ന ഭാഷ"@ml,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ভারতের ভাষা"@bn ;
+	skos:altLabel "Khond"@ca,
+		"Kui (India)"@en,
+		"Kui language"@en,
+		"奎语"@zh .
+
+wd:Q10545253 owl:sameAs wd:Q33919 .
+
+wd:Q31326164 owl:sameAs wd:Q33919 .
+
+wd:Q31444099 owl:sameAs wd:Q33919 .

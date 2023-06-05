@@ -1,0 +1,156 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3409819 a schema:Dataset ;
+	schema:about wd:Q3409819 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960633008"^^xsd:integer ;
+	schema:dateModified "2023-08-25T01:32:14Z"^^xsd:dateTime .
+
+wd:Q3409819 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_quechua,_bolivian_n%C3%B2rd> a schema:Article ;
+	schema:about wd:Q3409819 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga quechua, bolivian nòrd"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BE-%D0%B1%D0%BE%D0%BB%D0%B8%D0%B2%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B5%D1%87%D1%83%D0%B0> a schema:Article ;
+	schema:about wd:Q3409819 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Северо-боливийский кечуа"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B1%D0%BE%D0%BB%D0%B8%D0%B2%D0%B8%D1%81%D0%BA%D0%B8_%D0%BA%D0%B5%D1%87%D1%83%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D0%B4%D0%B8%D1%98%D0%B0%D0%BB%D0%B5%D0%BA%D1%82> a schema:Article ;
+	schema:about wd:Q3409819 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Северноболивиски кечуански дијалект"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/North_Bolivian_Quechua> a schema:Article ;
+	schema:about wd:Q3409819 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "North Bolivian Quechua"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://qu.wikipedia.org/wiki/Apulu_qhichwa_simi> a schema:Article ;
+	schema:about wd:Q3409819 ;
+	schema:inLanguage "qu" ;
+	schema:isPartOf <https://qu.wikipedia.org/> ;
+	schema:name "Apulu qhichwa simi"@qu .
+
+<https://qu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Qu%C3%ADtxua_nordbolivi%C3%A0> a schema:Article ;
+	schema:about wd:Q3409819 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Quítxua nordbolivià"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3409819 wdt:P220 "qul" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/qul> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "nort2976" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nort2976> ;
+	wdt:P2355 "1944" ;
+	wdt:P279 wd:Q6094333 ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P2192 "8126" ;
+	wdt:P305 "qul" ;
+	wdt:P1627 "qul" ;
+	wdt:P3823 wd:Q29051547 ;
+	wdt:P17 wd:Q750 ;
+	wdt:P2341 wd:Q272784 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/QUL> ;
+	wdt:P646 "/m/02hwnyx" ;
+	wdt:P1098 "+116000"^^xsd:decimal ;
+	wdt:P1705 "Apulu qhichwa simi"@qu ;
+	wdt:P131 wd:Q272784 ;
+	rdfs:label "Apulu qhichwa simi"@qu ;
+	skos:prefLabel "Apulu qhichwa simi"@qu ;
+	schema:name "Apulu qhichwa simi"@qu ;
+	rdfs:label "North Bolivian Quechua"@en ;
+	skos:prefLabel "North Bolivian Quechua"@en ;
+	schema:name "North Bolivian Quechua"@en ;
+	rdfs:label "Северноболивиски кечуански дијалект"@mk ;
+	skos:prefLabel "Северноболивиски кечуански дијалект"@mk ;
+	schema:name "Северноболивиски кечуански дијалект"@mk ;
+	rdfs:label "Северо-боливийский кечуа"@ru ;
+	skos:prefLabel "Северо-боливийский кечуа"@ru ;
+	schema:name "Северо-боливийский кечуа"@ru ;
+	rdfs:label "Lenga quechua, bolivian nòrd"@pms ;
+	skos:prefLabel "Lenga quechua, bolivian nòrd"@pms ;
+	schema:name "Lenga quechua, bolivian nòrd"@pms ;
+	rdfs:label "nordbolivianisches Quechua"@de ;
+	skos:prefLabel "nordbolivianisches Quechua"@de ;
+	schema:name "nordbolivianisches Quechua"@de ;
+	rdfs:label "North Bolivian Quechua"@en-gb ;
+	skos:prefLabel "North Bolivian Quechua"@en-gb ;
+	schema:name "North Bolivian Quechua"@en-gb ;
+	rdfs:label "nord-bolivia keĉua lingvo"@eo ;
+	skos:prefLabel "nord-bolivia keĉua lingvo"@eo ;
+	schema:name "nord-bolivia keĉua lingvo"@eo ;
+	rdfs:label "quechua bolivien du Nord"@fr ;
+	skos:prefLabel "quechua bolivien du Nord"@fr ;
+	schema:name "quechua bolivien du Nord"@fr ;
+	rdfs:label "quechua boliviano settentrionale"@it ;
+	skos:prefLabel "quechua boliviano settentrionale"@it ;
+	schema:name "quechua boliviano settentrionale"@it ;
+	rdfs:label "Quítxua nordbolivià"@ca ;
+	skos:prefLabel "Quítxua nordbolivià"@ca ;
+	schema:name "Quítxua nordbolivià"@ca ;
+	rdfs:label "quechua bołivian setentrionałe"@vec ;
+	skos:prefLabel "quechua bołivian setentrionałe"@vec ;
+	schema:name "quechua bołivian setentrionałe"@vec ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"taal"@nl,
+		"langue quechua"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy .
+
+wd:Q12953836 owl:sameAs wd:Q3409819 .

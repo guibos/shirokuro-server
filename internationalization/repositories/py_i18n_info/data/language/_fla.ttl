@@ -1,0 +1,187 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3111983 a schema:Dataset ;
+	schema:about wd:Q3111983 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1753518597"^^xsd:integer ;
+	schema:dateModified "2022-10-18T09:02:40Z"^^xsd:dateTime .
+
+wd:Q3111983 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Kalispel> a schema:Article ;
+	schema:about wd:Q3111983 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kalispel"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_kalispel-pend_d%27oreille> a schema:Article ;
+	schema:about wd:Q3111983 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kalispel-pend d'oreille"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D0%B8%D1%81%D0%BF%D0%B5%D0%BB> a schema:Article ;
+	schema:about wd:Q3111983 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Калиспел"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Salish-Spokane-Kalispel_language> a schema:Article ;
+	schema:about wd:Q3111983 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Salish-Spokane-Kalispel language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Selica> a schema:Article ;
+	schema:about wd:Q3111983 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Selica"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_salishe> a schema:Article ;
+	schema:about wd:Q3111983 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua salishe"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3111983 wdt:P373 "Montana Salish language" ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "fla" ;
+	wdt:P279 wd:Q54440380 ;
+	wdt:P2341 wd:Q492901,
+		wd:Q1212,
+		wd:Q1223 ;
+	wdt:P2355 "960" ;
+	wdt:P220 "fla" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/fla> ;
+	wdt:P4132 wd:Q171263 ;
+	wdt:P1394 "kali1308" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kali1308> ;
+	wdt:P1466 "kls" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_kls> ;
+	wdt:P910 wd:Q32829353 ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P244 "sh85071351" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85071351> ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P1627 "fla" ;
+	wdt:P17 wd:Q30 ;
+	wdt:P1245 "708874" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/FLA> ;
+	wdt:P6366 "2908521855" ;
+	wdtn:P6366 <http://ma-graph.org/entity/2908521855> ;
+	wdt:P8408 "FlatheadLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/FlatheadLanguage> ;
+	wdt:P646 "/m/04ybt_l" ;
+	wdt:P8189 "987007538687605171" ;
+	rdfs:label "Lenga kalispel-pend d'oreille"@pms ;
+	skos:prefLabel "Lenga kalispel-pend d'oreille"@pms ;
+	schema:name "Lenga kalispel-pend d'oreille"@pms ;
+	rdfs:label "kalispel"@fr ;
+	skos:prefLabel "kalispel"@fr ;
+	schema:name "kalispel"@fr ;
+	rdfs:label "Montana Salish"@es ;
+	skos:prefLabel "Montana Salish"@es ;
+	schema:name "Montana Salish"@es ;
+	rdfs:label "Калиспел"@ru ;
+	skos:prefLabel "Калиспел"@ru ;
+	schema:name "Калиспел"@ru ;
+	rdfs:label "lingua Selica"@la ;
+	skos:prefLabel "lingua Selica"@la ;
+	schema:name "lingua Selica"@la ;
+	rdfs:label "Salish-Spokane-Kalispel Sprache"@de ;
+	skos:prefLabel "Salish-Spokane-Kalispel Sprache"@de ;
+	schema:name "Salish-Spokane-Kalispel Sprache"@de ;
+	rdfs:label "Salish-Spokane-Kalispel"@en ;
+	skos:prefLabel "Salish-Spokane-Kalispel"@en ;
+	schema:name "Salish-Spokane-Kalispel"@en ;
+	rdfs:label "Salish-Spokane-Kalispel"@en-ca ;
+	skos:prefLabel "Salish-Spokane-Kalispel"@en-ca ;
+	schema:name "Salish-Spokane-Kalispel"@en-ca ;
+	rdfs:label "Salish-Spokane-Kalispel"@en-gb ;
+	skos:prefLabel "Salish-Spokane-Kalispel"@en-gb ;
+	schema:name "Salish-Spokane-Kalispel"@en-gb ;
+	rdfs:label "Língua salishe"@pt ;
+	skos:prefLabel "Língua salishe"@pt ;
+	schema:name "Língua salishe"@pt ;
+	rdfs:label "カリスペル語"@ja ;
+	skos:prefLabel "カリスペル語"@ja ;
+	schema:name "カリスペル語"@ja ;
+	rdfs:label "spokani-kalispeli keel"@et ;
+	skos:prefLabel "spokani-kalispeli keel"@et ;
+	schema:name "spokani-kalispeli keel"@et ;
+	rdfs:label "Wikang Salish-Spokane-Kalispel"@tl ;
+	skos:prefLabel "Wikang Salish-Spokane-Kalispel"@tl ;
+	schema:name "Wikang Salish-Spokane-Kalispel"@tl ;
+	rdfs:label "蒙大拿薩利希語"@zh ;
+	skos:prefLabel "蒙大拿薩利希語"@zh ;
+	schema:name "蒙大拿薩利希語"@zh ;
+	rdfs:label "Kalispel"@nl ;
+	skos:prefLabel "Kalispel"@nl ;
+	schema:name "Kalispel"@nl ;
+	rdfs:label "salish-spokane-kalispel"@ca ;
+	skos:prefLabel "salish-spokane-kalispel"@ca ;
+	schema:name "salish-spokane-kalispel"@ca ;
+	schema:description "idioma"@es,
+		"Sprache"@de,
+		"שפה"@he,
+		"langue salish"@fr,
+		"yezh"@br,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Pend d'oreille"@fr,
+		"Montana Salish Sprache"@de,
+		"Kalispel"@de,
+		"Kalispel-Spokane-Flathead Sprache"@de,
+		"Kalispel-Pend d'oreille Sprache"@de,
+		"Montana Salish language"@en,
+		"Kalispel"@en,
+		"Salish-Spokane-Kalispel language"@en .
+
+wd:Q61097536 owl:sameAs wd:Q3111983 .

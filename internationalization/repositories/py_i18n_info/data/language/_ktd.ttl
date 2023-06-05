@@ -1,0 +1,129 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10547021 a schema:Dataset ;
+	schema:about wd:Q10547021 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1654807821"^^xsd:integer ;
+	schema:dateModified "2022-06-05T06:13:36Z"^^xsd:dateTime .
+
+wd:Q10547021 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_kokata> a schema:Article ;
+	schema:about wd:Q10547021 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kokata"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Kokata> a schema:Article ;
+	schema:about wd:Q10547021 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Kokata"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikokata> a schema:Article ;
+	schema:about wd:Q10547021 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikokata"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Kokatan_kieli> a schema:Article ;
+	schema:about wd:Q10547021 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Kokatan kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10547021 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "ktd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ktd> ;
+	wdt:P1394 "koka1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/koka1244> ;
+	wdt:P1466 "gug" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_gug> ;
+	wdt:P910 wd:Q36159280 ;
+	wdt:P279 wd:Q7974669 ;
+	wdt:P1252 "C3" ;
+	wdt:P2192 "4445" ;
+	wdt:P305 "ktd" ;
+	wdt:P1627 "ktd" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q35715 ;
+	wdt:P1251 "8705" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KTD> ;
+	wdt:P6915 "Kokatha" ;
+	rdfs:label "Kokata"@sv ;
+	skos:prefLabel "Kokata"@sv ;
+	schema:name "Kokata"@sv ;
+	rdfs:label "Lenga kokata"@pms ;
+	skos:prefLabel "Lenga kokata"@pms ;
+	schema:name "Lenga kokata"@pms ;
+	rdfs:label "Kokata"@en ;
+	skos:prefLabel "Kokata"@en ;
+	schema:name "Kokata"@en ;
+	rdfs:label "Kokata"@en-gb ;
+	skos:prefLabel "Kokata"@en-gb ;
+	schema:name "Kokata"@en-gb ;
+	rdfs:label "Kikokata"@sw ;
+	skos:prefLabel "Kikokata"@sw ;
+	schema:name "Kikokata"@sw ;
+	rdfs:label "kokata"@fr ;
+	skos:prefLabel "kokata"@fr ;
+	schema:name "kokata"@fr ;
+	rdfs:label "kokata"@fi ;
+	skos:prefLabel "kokata"@fi ;
+	schema:name "kokata"@fi ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"lugha ya asili ya Australia"@sw,
+		"langue pama-nyungan"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kikukarta"@sw,
+		"Kokatha language"@en,
+		"Kukatha"@en,
+		"Kokata language"@en,
+		"kokatan kieli"@fi .

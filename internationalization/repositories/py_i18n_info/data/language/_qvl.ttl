@@ -1,0 +1,90 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953839 a schema:Dataset ;
+	schema:about wd:Q12953839 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960620214"^^xsd:integer ;
+	schema:dateModified "2023-08-25T01:08:49Z"^^xsd:dateTime .
+
+wd:Q12953839 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_quechua,_cayatambo_n%C3%B2rd_Lima> a schema:Article ;
+	schema:about wd:Q12953839 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga quechua, cayatambo nòrd Lima"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953839 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "qvl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/qvl> ;
+	wdt:P1394 "caja1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/caja1239> ;
+	wdt:P279 wd:Q1468128 ;
+	wdt:P305 "qvl" ;
+	wdt:P1627 "qvl" ;
+	wdt:P3823 wd:Q29051555 ;
+	wdt:P17 wd:Q419 ;
+	wdt:P2341 wd:Q205089,
+		wd:Q215221,
+		wd:Q211795,
+		wd:Q579240 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/QVL> ;
+	rdfs:label "Lenga quechua, cayatambo nòrd Lima"@pms ;
+	skos:prefLabel "Lenga quechua, cayatambo nòrd Lima"@pms ;
+	schema:name "Lenga quechua, cayatambo nòrd Lima"@pms ;
+	rdfs:label "Cajatambo North Lima Quechua"@en ;
+	skos:prefLabel "Cajatambo North Lima Quechua"@en ;
+	schema:name "Cajatambo North Lima Quechua"@en ;
+	rdfs:label "Cajatambo North Lima Quechua"@en-gb ;
+	skos:prefLabel "Cajatambo North Lima Quechua"@en-gb ;
+	schema:name "Cajatambo North Lima Quechua"@en-gb ;
+	rdfs:label "quechua de Cajatambo et du nord de Lima"@fr ;
+	skos:prefLabel "quechua de Cajatambo et du nord de Lima"@fr ;
+	schema:name "quechua de Cajatambo et du nord de Lima"@fr ;
+	rdfs:label "quechua de Cajatambo"@es ;
+	skos:prefLabel "quechua de Cajatambo"@es ;
+	schema:name "quechua de Cajatambo"@es ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue quechua"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "quechua del norte de Lima"@es .

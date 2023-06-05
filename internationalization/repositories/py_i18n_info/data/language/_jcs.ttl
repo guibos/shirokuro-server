@@ -1,0 +1,118 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6127418 a schema:Dataset ;
+	schema:about wd:Q6127418 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1871019443"^^xsd:integer ;
+	schema:dateModified "2023-04-08T21:47:58Z"^^xsd:dateTime .
+
+wd:Q6127418 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Langue_des_signes_jama%C3%AFcaine_rurale> a schema:Article ;
+	schema:about wd:Q6127418 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Langue des signes jamaïcaine rurale"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Jamaican_Country_Sign_Language> a schema:Article ;
+	schema:about wd:Q6127418 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Jamaican Country Sign Language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Jamaj%C4%8Danski_country_znakovni_jezik> a schema:Article ;
+	schema:about wd:Q6127418 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Jamajčanski country znakovni jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6127418 wdt:P220 "jcs" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/jcs> ;
+	wdt:P31 wd:Q34228,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "jcs" ;
+	wdt:P1394 "jama1256" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/jama1256> ;
+	wdt:P2192 "7186" ;
+	wdt:P279 wd:Q3915038 ;
+	wdt:P17 wd:Q766 ;
+	wdt:P1627 "jcs" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P2341 wd:Q1473646 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/JCS> ;
+	wdt:P646 "/m/02hxnw5" ;
+	wdt:P910 wd:Q105715576 ;
+	rdfs:label "Jamaican Country Sign Language"@en ;
+	skos:prefLabel "Jamaican Country Sign Language"@en ;
+	schema:name "Jamaican Country Sign Language"@en ;
+	rdfs:label "langue des signes jamaïcaine rurale"@fr ;
+	skos:prefLabel "langue des signes jamaïcaine rurale"@fr ;
+	schema:name "langue des signes jamaïcaine rurale"@fr ;
+	rdfs:label "Jamaican Country Sign Language"@nl ;
+	skos:prefLabel "Jamaican Country Sign Language"@nl ;
+	schema:name "Jamaican Country Sign Language"@nl ;
+	rdfs:label "Jamajčanski country znakovni jezik"@hr ;
+	skos:prefLabel "Jamajčanski country znakovni jezik"@hr ;
+	schema:name "Jamajčanski country znakovni jezik"@hr ;
+	rdfs:label "Jamaican Country Sign Language"@en-gb ;
+	skos:prefLabel "Jamaican Country Sign Language"@en-gb ;
+	schema:name "Jamaican Country Sign Language"@en-gb ;
+	rdfs:label "ジャマイカ・カントリー手話"@ja ;
+	skos:prefLabel "ジャマイカ・カントリー手話"@ja ;
+	schema:name "ジャマイカ・カントリー手話"@ja ;
+	rdfs:label "জামাইকা দেশীয় ইশারা ভাষা"@bn ;
+	skos:prefLabel "জামাইকা দেশীয় ইশারা ভাষা"@bn ;
+	schema:name "জামাইকা দেশীয় ইশারা ভাষা"@bn ;
+	rdfs:label "जमैका देश की सांकेतिक भाषा"@hi ;
+	skos:prefLabel "जमैका देश की सांकेतिक भाषा"@hi ;
+	schema:name "जमैका देश की सांकेतिक भाषा"@hi ;
+	rdfs:label "zimanê hêmayan ê patoisa jamaîkayî"@ku-latn ;
+	skos:prefLabel "zimanê hêmayan ê patoisa jamaîkayî"@ku-latn ;
+	schema:name "zimanê hêmayan ê patoisa jamaîkayî"@ku-latn ;
+	rdfs:label "zimanê hêmayan ê patoisa jamaîkayî"@ku ;
+	skos:prefLabel "zimanê hêmayan ê patoisa jamaîkayî"@ku ;
+	schema:name "zimanê hêmayan ê patoisa jamaîkayî"@ku ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"Deaf sign language of Jamacia"@en ;
+	skos:altLabel "JCSL"@fr,
+		"Country Sign"@en .
+
+wd:Q12633482 owl:sameAs wd:Q6127418 .

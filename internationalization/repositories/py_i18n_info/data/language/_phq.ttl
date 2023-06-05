@@ -1,0 +1,164 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7180427 a schema:Dataset ;
+	schema:about wd:Q7180427 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1785774848"^^xsd:integer ;
+	schema:dateModified "2022-12-06T23:36:04Z"^^xsd:dateTime .
+
+wd:Q7180427 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Phana> a schema:Article ;
+	schema:about wd:Q7180427 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Phana"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9F%D1%85%D0%B0%D0%BD%D0%B0> a schema:Article ;
+	schema:about wd:Q7180427 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Пхана"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Phana%E2%80%99> a schema:Article ;
+	schema:about wd:Q7180427 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Phana’"@tl ;
+	wikibase:badge wd:Q70893996 .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Phana%CA%BC_language> a schema:Article ;
+	schema:about wd:Q7180427 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Phanaʼ language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Phana%27_(jezik)> a schema:Article ;
+	schema:about wd:Q7180427 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Phana' (jezik)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%B8%95%E9%82%A3%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q7180427 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "帕那语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B8%B2> a schema:Article ;
+	schema:about wd:Q7180427 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาพนา"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7180427 wdt:P220 "phq" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/phq> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q5649340 ;
+	wdt:P1394 "phan1254" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/phan1254> ;
+	wdt:P2355 "516" ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P305 "phq" ;
+	wdt:P2192 "4966" ;
+	wdt:P1627 "phq" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q819 ;
+	wdt:P2341 wd:Q334884,
+		wd:Q948691,
+		wd:Q334868 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PHQ> ;
+	wdt:P646 "/m/02hwstn" ;
+	rdfs:label "Phana’"@en ;
+	skos:prefLabel "Phana’"@en ;
+	schema:name "Phana’"@en ;
+	rdfs:label "Пхана"@ru ;
+	skos:prefLabel "Пхана"@ru ;
+	schema:name "Пхана"@ru ;
+	rdfs:label "Lenga Phana"@pms ;
+	skos:prefLabel "Lenga Phana"@pms ;
+	schema:name "Lenga Phana"@pms ;
+	rdfs:label "Phana' (jezik)"@hr ;
+	skos:prefLabel "Phana' (jezik)"@hr ;
+	schema:name "Phana' (jezik)"@hr ;
+	rdfs:label "Wikang Phana’"@tl ;
+	skos:prefLabel "Wikang Phana’"@tl ;
+	schema:name "Wikang Phana’"@tl ;
+	rdfs:label "phana’"@fr ;
+	skos:prefLabel "phana’"@fr ;
+	schema:name "phana’"@fr ;
+	rdfs:label "帕那语"@zh ;
+	skos:prefLabel "帕那语"@zh ;
+	schema:name "帕那语"@zh ;
+	rdfs:label "ภาษาพนา"@th ;
+	skos:prefLabel "ภาษาพนา"@th ;
+	schema:name "ภาษาพนา"@th ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue lolo-birmane"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Phana'"@en,
+		"Bana language"@en,
+		"Pana language"@en,
+		"Phana’ language"@en .
+
+wd:Q12639656 owl:sameAs wd:Q7180427 .
+
+wd:Q13018548 owl:sameAs wd:Q7180427 .
+
+wd:Q19570966 owl:sameAs wd:Q7180427 .
+
+wd:Q12953034 owl:sameAs wd:Q7180427 .
+
+wd:Q31442408 owl:sameAs wd:Q7180427 .

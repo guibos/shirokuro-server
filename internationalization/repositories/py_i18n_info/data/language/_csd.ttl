@@ -1,0 +1,100 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5095211 a schema:Dataset ;
+	schema:about wd:Q5095211 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1839307707"^^xsd:integer ;
+	schema:dateModified "2023-02-22T15:29:31Z"^^xsd:dateTime .
+
+wd:Q5095211 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_dij_segn_chiangmai> a schema:Article ;
+	schema:about wd:Q5095211 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga dij segn chiangmai"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Chiangmai_Sign_Language> a schema:Article ;
+	schema:about wd:Q5095211 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Chiangmai Sign Language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5095211 wdt:P220 "csd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/csd> ;
+	wdt:P31 wd:Q34228,
+		wd:Q1288568 ;
+	wdt:P1394 "chia1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/chia1237> ;
+	wdt:P305 "csd" ;
+	wdt:P279 wd:Q25303841 ;
+	wdt:P2192 "9029" ;
+	wdt:P17 wd:Q869 ;
+	wdt:P1627 "csd" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P2341 wd:Q233588 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CSD> ;
+	wdt:P646 "/m/02hx4qv" ;
+	wdt:P910 wd:Q105715526 ;
+	rdfs:label "Chiangmai Sign Language"@en ;
+	skos:prefLabel "Chiangmai Sign Language"@en ;
+	schema:name "Chiangmai Sign Language"@en ;
+	rdfs:label "Lenga dij segn chiangmai"@pms ;
+	skos:prefLabel "Lenga dij segn chiangmai"@pms ;
+	schema:name "Lenga dij segn chiangmai"@pms ;
+	rdfs:label "Chiangmai Sign Language"@en-gb ;
+	skos:prefLabel "Chiangmai Sign Language"@en-gb ;
+	schema:name "Chiangmai Sign Language"@en-gb ;
+	rdfs:label "langue des signes de Chiangmai"@fr ;
+	skos:prefLabel "langue des signes de Chiangmai"@fr ;
+	schema:name "langue des signes de Chiangmai"@fr ;
+	rdfs:label "Chiangmai-Gebärdensprache"@de ;
+	skos:prefLabel "Chiangmai-Gebärdensprache"@de ;
+	schema:name "Chiangmai-Gebärdensprache"@de ;
+	rdfs:label "原チェンマイ手話"@ja ;
+	skos:prefLabel "原チェンマイ手話"@ja ;
+	schema:name "原チェンマイ手話"@ja ;
+	rdfs:label "ছিয়াংমাই ইশারা ভাষা"@bn ;
+	skos:prefLabel "ছিয়াংমাই ইশারা ভাষা"@bn ;
+	schema:name "ছিয়াংমাই ইশারা ভাষা"@bn ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"Secondary sign language of Thailand"@en ;
+	skos:altLabel "Original Chiangmai Sign Language"@en,
+		"Old Chiangmai Sign Language"@en .
+
+wd:Q12953472 owl:sameAs wd:Q5095211 .

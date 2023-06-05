@@ -1,0 +1,162 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56303 a schema:Dataset ;
+	schema:about wd:Q56303 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1756954671"^^xsd:integer ;
+	schema:dateModified "2022-10-24T03:36:01Z"^^xsd:dateTime .
+
+wd:Q56303 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Mofu_du_Nord> a schema:Article ;
+	schema:about wd:Q56303 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Mofu du Nord"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mofu_setentrional> a schema:Article ;
+	schema:about wd:Q56303 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mofu setentrional"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimofu-Kaskazini> a schema:Article ;
+	schema:about wd:Q56303 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimofu-Kaskazini"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/North_Mofu_language> a schema:Article ;
+	schema:about wd:Q56303 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "North Mofu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Mofoueg_an_norzh> a schema:Article ;
+	schema:about wd:Q56303 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Mofoueg an norzh"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Sjeverni_mofu_jezik> a schema:Article ;
+	schema:about wd:Q56303 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Sjeverni mofu jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Mofu_del_n%C3%B2rd> a schema:Article ;
+	schema:about wd:Q56303 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Mofu del nòrd"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/North_Mofu_language> a schema:Article ;
+	schema:about wd:Q56303 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "North Mofu language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56303 wdt:P220 "mfk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mfk> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "nort3046" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nort3046> ;
+	wdt:P305 "mfk" ;
+	wdt:P1627 "mfk" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q1009 ;
+	wdt:P2341 wd:Q823976,
+		wd:Q502341,
+		wd:Q857122 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MFK> ;
+	wdt:P646 "/m/02hwrb6" ;
+	rdfs:label "Kimofu-Kaskazini"@sw ;
+	skos:prefLabel "Kimofu-Kaskazini"@sw ;
+	schema:name "Kimofu-Kaskazini"@sw ;
+	rdfs:label "mofoueg an norzh"@br ;
+	skos:prefLabel "mofoueg an norzh"@br ;
+	schema:name "mofoueg an norzh"@br ;
+	rdfs:label "North Mofu"@en ;
+	skos:prefLabel "North Mofu"@en ;
+	schema:name "North Mofu"@en ;
+	rdfs:label "Sjeverni mofu jezik"@hr ;
+	skos:prefLabel "Sjeverni mofu jezik"@hr ;
+	schema:name "Sjeverni mofu jezik"@hr ;
+	rdfs:label "mofu septentrional"@es ;
+	skos:prefLabel "mofu septentrional"@es ;
+	schema:name "mofu septentrional"@es ;
+	rdfs:label "mofu du Nord"@fr ;
+	skos:prefLabel "mofu du Nord"@fr ;
+	schema:name "mofu du Nord"@fr ;
+	rdfs:label "Lenga Mofu setentrional"@pms ;
+	skos:prefLabel "Lenga Mofu setentrional"@pms ;
+	schema:name "Lenga Mofu setentrional"@pms ;
+	rdfs:label "North Mofu"@en-gb ;
+	skos:prefLabel "North Mofu"@en-gb ;
+	schema:name "North Mofu"@en-gb ;
+	rdfs:label "Mofu del nòrd"@oc ;
+	skos:prefLabel "Mofu del nòrd"@oc ;
+	schema:name "Mofu del nòrd"@oc ;
+	rdfs:label "North Mofu language"@ig ;
+	skos:prefLabel "North Mofu language"@ig ;
+	schema:name "North Mofu language"@ig ;
+	schema:description "lengua chádica"@es,
+		"Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "North Mofu language"@en .
+
+wd:Q12952856 owl:sameAs wd:Q56303 .

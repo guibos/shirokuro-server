@@ -1,0 +1,172 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5288055 a schema:Dataset ;
+	schema:about wd:Q5288055 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1761471337"^^xsd:integer ;
+	schema:dateModified "2022-10-31T01:24:55Z"^^xsd:dateTime .
+
+wd:Q5288055 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Doe> a schema:Article ;
+	schema:about wd:Q5288055 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Doe"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_doe> a schema:Article ;
+	schema:about wd:Q5288055 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język doe"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kidoe> a schema:Article ;
+	schema:about wd:Q5288055 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kidoe"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Doe_language> a schema:Article ;
+	schema:about wd:Q5288055 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Doe language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Doe> a schema:Article ;
+	schema:about wd:Q5288055 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Doe"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Doe> a schema:Article ;
+	schema:about wd:Q5288055 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Doe"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Doe_language> a schema:Article ;
+	schema:about wd:Q5288055 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Doe language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5288055 wdt:P220 "doe" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/doe> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568,
+		wd:Q4085712 ;
+	a wdno:P282 ;
+	wdt:P1627 "doe" ;
+	wdt:P1098 "+24000"^^xsd:decimal ;
+	wdt:P2161 "G.301" ;
+	wdt:P279 wd:Q7057848 ;
+	wdt:P1394 "doee1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/doee1238> ;
+	wdt:P2192 "5063" ;
+	wdt:P910 wd:Q33669543 ;
+	wdt:P305 "doe" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q924 ;
+	wdt:P2341 wd:Q458412 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DOE> ;
+	wdt:P646 "/m/02hxdcw" ;
+	rdfs:label "Doe"@en ;
+	skos:prefLabel "Doe"@en ;
+	schema:name "Doe"@en ;
+	rdfs:label "Doe (språk)"@nb ;
+	skos:prefLabel "Doe (språk)"@nb ;
+	schema:name "Doe (språk)"@nb ;
+	rdfs:label "Lenga Doe"@pms ;
+	skos:prefLabel "Lenga Doe"@pms ;
+	schema:name "Lenga Doe"@pms ;
+	rdfs:label "Język doe"@pl ;
+	skos:prefLabel "Język doe"@pl ;
+	schema:name "Język doe"@pl ;
+	rdfs:label "Kidoe"@sw ;
+	skos:prefLabel "Kidoe"@sw ;
+	schema:name "Kidoe"@sw ;
+	rdfs:label "Doe"@en-gb ;
+	skos:prefLabel "Doe"@en-gb ;
+	schema:name "Doe"@en-gb ;
+	rdfs:label "doe"@fr ;
+	skos:prefLabel "doe"@fr ;
+	schema:name "doe"@fr ;
+	rdfs:label "Wikang Doe"@tl ;
+	skos:prefLabel "Wikang Doe"@tl ;
+	schema:name "Wikang Doe"@tl ;
+	rdfs:label "doe"@it ;
+	skos:prefLabel "doe"@it ;
+	schema:name "doe"@it ;
+	rdfs:label "lengua doe"@es ;
+	skos:prefLabel "lengua doe"@es ;
+	schema:name "lengua doe"@es ;
+	rdfs:label "Doe"@oc ;
+	skos:prefLabel "Doe"@oc ;
+	schema:name "Doe"@oc ;
+	rdfs:label "doe"@vec ;
+	skos:prefLabel "doe"@vec ;
+	schema:name "doe"@vec ;
+	rdfs:label "Doe language"@ig ;
+	skos:prefLabel "Doe language"@ig ;
+	schema:name "Doe language"@ig ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"language"@en,
+		"langue bantoue"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Doe language"@en,
+		"Dowe language"@en,
+		"lingua doe"@it .
+
+wd:Q11002151 owl:sameAs wd:Q5288055 .
+
+wd:Q50934785 owl:sameAs wd:Q5288055 .

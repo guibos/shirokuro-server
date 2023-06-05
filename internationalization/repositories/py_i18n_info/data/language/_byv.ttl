@@ -1,0 +1,193 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36019 a schema:Dataset ;
+	schema:about wd:Q36019 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1681940686"^^xsd:integer ;
+	schema:dateModified "2022-07-19T08:37:20Z"^^xsd:dateTime .
+
+wd:Q36019 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Medumba> a schema:Article ;
+	schema:about wd:Q36019 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Medumba"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimedumba> a schema:Article ;
+	schema:about wd:Q36019 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimedumba"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Medumba_language> a schema:Article ;
+	schema:about wd:Q36019 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Medumba language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%89%E3%82%A5%E3%83%B3%E3%83%90%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q36019 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "メドゥンバ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Medumba> a schema:Article ;
+	schema:about wd:Q36019 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Medumba"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Medumba_jezik> a schema:Article ;
+	schema:about wd:Q36019 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Medumba jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Medumba_dili> a schema:Article ;
+	schema:about wd:Q36019 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Medumba dili"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Medumba> a schema:Article ;
+	schema:about wd:Q36019 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Medumba"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Medumba> a schema:Article ;
+	schema:about wd:Q36019 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Medumba"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36019 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "byv" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/byv> ;
+	wdt:P646 "/m/0h94sfc" ;
+	wdt:P305 "byv" ;
+	wdt:P279 wd:Q806005 ;
+	wdt:P1394 "medu1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/medu1238> ;
+	wdt:P1627 "byv" ;
+	wdt:P3823 wd:Q29051549 ;
+	wdt:P17 wd:Q1009 ;
+	wdt:P2341 wd:Q739951,
+		wd:Q845168,
+		wd:Q845172,
+		wd:Q165784 ;
+	wdt:P1245 "691055" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BYV> ;
+	wdt:P268 "13560883d" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb13560883d#about> ;
+	wdt:P244 "sh85083249" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85083249> ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P9060 "byv" ;
+	wdt:P8189 "987007563015805171" ;
+	rdfs:label "Kimedumba"@sw ;
+	skos:prefLabel "Kimedumba"@sw ;
+	schema:name "Kimedumba"@sw ;
+	rdfs:label "Lenga Medumba"@pms ;
+	skos:prefLabel "Lenga Medumba"@pms ;
+	schema:name "Lenga Medumba"@pms ;
+	rdfs:label "Medumba"@de ;
+	skos:prefLabel "Medumba"@de ;
+	schema:name "Medumba"@de ;
+	rdfs:label "medumba"@fr ;
+	skos:prefLabel "medumba"@fr ;
+	schema:name "medumba"@fr ;
+	rdfs:label "Medumba"@en ;
+	skos:prefLabel "Medumba"@en ;
+	schema:name "Medumba"@en ;
+	rdfs:label "Medumba jezik"@hr ;
+	skos:prefLabel "Medumba jezik"@hr ;
+	schema:name "Medumba jezik"@hr ;
+	rdfs:label "メドゥンバ語"@ja ;
+	skos:prefLabel "メドゥンバ語"@ja ;
+	schema:name "メドゥンバ語"@ja ;
+	rdfs:label "Medumba"@en-gb ;
+	skos:prefLabel "Medumba"@en-gb ;
+	schema:name "Medumba"@en-gb ;
+	rdfs:label "Medumba dili"@tr ;
+	skos:prefLabel "Medumba dili"@tr ;
+	schema:name "Medumba dili"@tr ;
+	rdfs:label "Medumba"@nl ;
+	skos:prefLabel "Medumba"@nl ;
+	schema:name "Medumba"@nl ;
+	rdfs:label "Medumba"@oc ;
+	skos:prefLabel "Medumba"@oc ;
+	schema:name "Medumba"@oc ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"Kamerun'un otlak dili"@tr ;
+	skos:altLabel "Medumba language"@en,
+		"Médúmba"@en,
+		"médumba"@fr,
+		"mëdumba"@fr,
+		"medúmba"@fr,
+		"médúmba"@fr,
+		"medùmba"@fr,
+		"mëdûmba"@fr,
+		"medumbà"@fr,
+		"medúmbà"@fr,
+		"mè̳dû̳mbà̳"@fr,
+		"bangangté"@fr .

@@ -1,0 +1,109 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7974656 a schema:Dataset ;
+	schema:about wd:Q7974656 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1958508221"^^xsd:integer ;
+	schema:dateModified "2023-08-22T01:31:44Z"^^xsd:dateTime .
+
+wd:Q7974656 a wikibase:Item .
+
+<https://sw.wikipedia.org/wiki/Kiwathawurrung> a schema:Article ;
+	schema:about wd:Q7974656 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiwathawurrung"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_wathaurong> a schema:Article ;
+	schema:about wd:Q7974656 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma wathaurong"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Wadawurrung_language> a schema:Article ;
+	schema:about wd:Q7974656 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Wadawurrung language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7974656 wdt:P220 "wth" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/wth> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "wath1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/wath1238> ;
+	wdt:P1466 "wth" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_wth> ;
+	wdt:P305 "wth" ;
+	wdt:P1627 "wth" ;
+	wdt:P279 wd:Q33942 ;
+	wdt:P1252 "S29" ;
+	wdt:P2192 "6732" ;
+	wdt:P910 wd:Q33140675 ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P6915 "Wathaurong" ;
+	wdt:P646 "/m/0jt2np7" ;
+	wdt:P17 wd:Q408 ;
+	rdfs:label "Wathawurrung"@en ;
+	skos:prefLabel "Wathawurrung"@en ;
+	schema:name "Wathawurrung"@en ;
+	rdfs:label "Wathawurrung"@en-gb ;
+	skos:prefLabel "Wathawurrung"@en-gb ;
+	schema:name "Wathawurrung"@en-gb ;
+	rdfs:label "Kiwathawurrung"@sw ;
+	skos:prefLabel "Kiwathawurrung"@sw ;
+	schema:name "Kiwathawurrung"@sw ;
+	rdfs:label "wathawurrung"@fr ;
+	skos:prefLabel "wathawurrung"@fr ;
+	schema:name "wathawurrung"@fr ;
+	rdfs:label "Idioma wathaurong"@es ;
+	skos:prefLabel "Idioma wathaurong"@es ;
+	schema:name "Idioma wathaurong"@es ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue pama-nyungan"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"former language of Victoria, Australia"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Wathawurrung language"@en .

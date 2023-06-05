@@ -1,0 +1,163 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7514021 a schema:Dataset ;
+	schema:about wd:Q7514021 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960434357"^^xsd:integer ;
+	schema:dateModified "2023-08-24T20:32:20Z"^^xsd:dateTime .
+
+wd:Q7514021 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Sila> a schema:Article ;
+	schema:about wd:Q7514021 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Sila"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisila> a schema:Article ;
+	schema:about wd:Q7514021 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisila"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Si_La> a schema:Article ;
+	schema:about wd:Q7514021 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Si La"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Silaeg_(sinek-tibetek)> a schema:Article ;
+	schema:about wd:Q7514021 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Silaeg (sinek-tibetek)"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Sila_jezik> a schema:Article ;
+	schema:about wd:Q7514021 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Sila jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sila_language_(Sino-Tibetan)> a schema:Article ;
+	schema:about wd:Q7514021 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sila language (Sino-Tibetan)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%AA%E0%B8%B4%E0%B8%A5%E0%B8%B2> a schema:Article ;
+	schema:about wd:Q7514021 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาสิลา"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7514021 wdt:P220 "slt" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/slt> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q5649340 ;
+	wdt:P1394 "sila1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sila1247> ;
+	wdt:P2355 "559" ;
+	wdt:P2581 "03071653n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s03071653n> ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P910 wd:Q36165727 ;
+	wdt:P2192 "5192" ;
+	wdt:P305 "slt" ;
+	wdt:P1627 "slt" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q819,
+		wd:Q881 ;
+	wdt:P2341 wd:Q465961,
+		wd:Q334868,
+		wd:Q36409 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SLT> ;
+	wdt:P646 "/m/02hxph_" ;
+	rdfs:label "Sila"@en ;
+	skos:prefLabel "Sila"@en ;
+	schema:name "Sila"@en ;
+	rdfs:label "Lenga Sila"@pms ;
+	skos:prefLabel "Lenga Sila"@pms ;
+	schema:name "Lenga Sila"@pms ;
+	rdfs:label "silaeg"@br ;
+	skos:prefLabel "silaeg"@br ;
+	schema:name "silaeg"@br ;
+	rdfs:label "Sila jezik"@hr ;
+	skos:prefLabel "Sila jezik"@hr ;
+	schema:name "Sila jezik"@hr ;
+	rdfs:label "Kisila"@sw ;
+	skos:prefLabel "Kisila"@sw ;
+	schema:name "Kisila"@sw ;
+	rdfs:label "Sila"@en-gb ;
+	skos:prefLabel "Sila"@en-gb ;
+	schema:name "Sila"@en-gb ;
+	rdfs:label "sila"@fr ;
+	skos:prefLabel "sila"@fr ;
+	schema:name "sila"@fr ;
+	rdfs:label "Tiếng Si La"@vi ;
+	skos:prefLabel "Tiếng Si La"@vi ;
+	schema:name "Tiếng Si La"@vi ;
+	rdfs:label "ภาษาสิลา"@th ;
+	skos:prefLabel "ภาษาสิลา"@th ;
+	schema:name "ภาษาสิลา"@th ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue lolo"@fr,
+		"yezh sinek-tibetek"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language of Asia"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Sila language"@en .
+
+wd:Q13018583 owl:sameAs wd:Q7514021 .
+
+wd:Q12953133 owl:sameAs wd:Q7514021 .
+
+wd:Q20526410 owl:sameAs wd:Q7514021 .

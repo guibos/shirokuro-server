@@ -1,0 +1,367 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7286370 a schema:Dataset ;
+	schema:about wd:Q7286370 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960503027"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:13:09Z"^^xsd:dateTime .
+
+wd:Q7286370 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Rajong> a schema:Article ;
+	schema:about wd:Q7286370 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Rajong"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Rajong> a schema:Article ;
+	schema:about wd:Q7286370 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Rajong"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kirajong> a schema:Article ;
+	schema:about wd:Q7286370 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kirajong"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Rajong_language> a schema:Article ;
+	schema:about wd:Q7286370 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Rajong language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Rajong> a schema:Article ;
+	schema:about wd:Q7286370 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Rajong"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_rajong> a schema:Article ;
+	schema:about wd:Q7286370 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język rajong"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7286370 wdt:P220 "rjg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/rjg> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q49228 ;
+	wdt:P1014 "300389134" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389134> ;
+	wdt:P1394 "rajo1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/rajo1237> ;
+	wdt:P2590 "0179 1" ;
+	wdt:P17 wd:Q252 ;
+	wdt:P1448 "bahasa Rajong"@id ;
+	wdt:P276 wd:Q12492060 ;
+	wdt:P2192 "9549" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P1627 "rjg" ;
+	wdt:P305 "rjg" ;
+	wdt:P2341 wd:Q5061,
+		wd:Q3803 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/RJG> ;
+	wdt:P646 "/m/02hxv0h" ;
+	rdfs:label "Rajong"@en ;
+	skos:prefLabel "Rajong"@en ;
+	schema:name "Rajong"@en ;
+	rdfs:label "Lenga Rajong"@pms ;
+	skos:prefLabel "Lenga Rajong"@pms ;
+	schema:name "Lenga Rajong"@pms ;
+	rdfs:label "Rajong"@id ;
+	skos:prefLabel "Rajong"@id ;
+	schema:name "Rajong"@id ;
+	rdfs:label "Kirajong"@sw ;
+	skos:prefLabel "Kirajong"@sw ;
+	schema:name "Kirajong"@sw ;
+	rdfs:label "Rajong"@ilo ;
+	skos:prefLabel "Rajong"@ilo ;
+	schema:name "Rajong"@ilo ;
+	rdfs:label "Rajong"@ace ;
+	skos:prefLabel "Rajong"@ace ;
+	schema:name "Rajong"@ace ;
+	rdfs:label "Rajong"@af ;
+	skos:prefLabel "Rajong"@af ;
+	schema:name "Rajong"@af ;
+	rdfs:label "Rajong"@an ;
+	skos:prefLabel "Rajong"@an ;
+	schema:name "Rajong"@an ;
+	rdfs:label "Rajong"@ast ;
+	skos:prefLabel "Rajong"@ast ;
+	schema:name "Rajong"@ast ;
+	rdfs:label "Rajong"@bar ;
+	skos:prefLabel "Rajong"@bar ;
+	schema:name "Rajong"@bar ;
+	rdfs:label "rajong"@br ;
+	skos:prefLabel "rajong"@br ;
+	schema:name "rajong"@br ;
+	rdfs:label "rajong"@ca ;
+	skos:prefLabel "rajong"@ca ;
+	schema:name "rajong"@ca ;
+	rdfs:label "Rajong"@co ;
+	skos:prefLabel "Rajong"@co ;
+	schema:name "Rajong"@co ;
+	rdfs:label "Rajong"@cs ;
+	skos:prefLabel "Rajong"@cs ;
+	schema:name "Rajong"@cs ;
+	rdfs:label "Rajong"@cy ;
+	skos:prefLabel "Rajong"@cy ;
+	schema:name "Rajong"@cy ;
+	rdfs:label "Rajong"@da ;
+	skos:prefLabel "Rajong"@da ;
+	schema:name "Rajong"@da ;
+	rdfs:label "Rajong"@de ;
+	skos:prefLabel "Rajong"@de ;
+	schema:name "Rajong"@de ;
+	rdfs:label "Rajong"@de-at ;
+	skos:prefLabel "Rajong"@de-at ;
+	schema:name "Rajong"@de-at ;
+	rdfs:label "Rajong"@de-ch ;
+	skos:prefLabel "Rajong"@de-ch ;
+	schema:name "Rajong"@de-ch ;
+	rdfs:label "Rajong"@en-ca ;
+	skos:prefLabel "Rajong"@en-ca ;
+	schema:name "Rajong"@en-ca ;
+	rdfs:label "Rajong"@en-gb ;
+	skos:prefLabel "Rajong"@en-gb ;
+	schema:name "Rajong"@en-gb ;
+	rdfs:label "Rajong"@eo ;
+	skos:prefLabel "Rajong"@eo ;
+	schema:name "Rajong"@eo ;
+	rdfs:label "Rajong"@es ;
+	skos:prefLabel "Rajong"@es ;
+	schema:name "Rajong"@es ;
+	rdfs:label "Rajong"@et ;
+	skos:prefLabel "Rajong"@et ;
+	schema:name "Rajong"@et ;
+	rdfs:label "Rajong"@eu ;
+	skos:prefLabel "Rajong"@eu ;
+	schema:name "Rajong"@eu ;
+	rdfs:label "Rajong"@fi ;
+	skos:prefLabel "Rajong"@fi ;
+	schema:name "Rajong"@fi ;
+	rdfs:label "rajong"@fr ;
+	skos:prefLabel "rajong"@fr ;
+	schema:name "rajong"@fr ;
+	rdfs:label "Rajong"@frp ;
+	skos:prefLabel "Rajong"@frp ;
+	schema:name "Rajong"@frp ;
+	rdfs:label "Rajong"@fur ;
+	skos:prefLabel "Rajong"@fur ;
+	schema:name "Rajong"@fur ;
+	rdfs:label "Rajong"@ga ;
+	skos:prefLabel "Rajong"@ga ;
+	schema:name "Rajong"@ga ;
+	rdfs:label "Rajong"@gd ;
+	skos:prefLabel "Rajong"@gd ;
+	schema:name "Rajong"@gd ;
+	rdfs:label "Rajong"@gl ;
+	skos:prefLabel "Rajong"@gl ;
+	schema:name "Rajong"@gl ;
+	rdfs:label "Rajong"@gsw ;
+	skos:prefLabel "Rajong"@gsw ;
+	schema:name "Rajong"@gsw ;
+	rdfs:label "Rajong"@hr ;
+	skos:prefLabel "Rajong"@hr ;
+	schema:name "Rajong"@hr ;
+	rdfs:label "Rajong"@hu ;
+	skos:prefLabel "Rajong"@hu ;
+	schema:name "Rajong"@hu ;
+	rdfs:label "Rajong"@ia ;
+	skos:prefLabel "Rajong"@ia ;
+	schema:name "Rajong"@ia ;
+	rdfs:label "Rajong"@ie ;
+	skos:prefLabel "Rajong"@ie ;
+	schema:name "Rajong"@ie ;
+	rdfs:label "Rajong"@io ;
+	skos:prefLabel "Rajong"@io ;
+	schema:name "Rajong"@io ;
+	rdfs:label "Rajong"@is ;
+	skos:prefLabel "Rajong"@is ;
+	schema:name "Rajong"@is ;
+	rdfs:label "rajong"@it ;
+	skos:prefLabel "rajong"@it ;
+	schema:name "rajong"@it ;
+	rdfs:label "Rajong"@jv ;
+	skos:prefLabel "Rajong"@jv ;
+	schema:name "Rajong"@jv ;
+	rdfs:label "Rajong"@kg ;
+	skos:prefLabel "Rajong"@kg ;
+	schema:name "Rajong"@kg ;
+	rdfs:label "Rajong"@lb ;
+	skos:prefLabel "Rajong"@lb ;
+	schema:name "Rajong"@lb ;
+	rdfs:label "Rajong"@li ;
+	skos:prefLabel "Rajong"@li ;
+	schema:name "Rajong"@li ;
+	rdfs:label "Rajong"@lij ;
+	skos:prefLabel "Rajong"@lij ;
+	schema:name "Rajong"@lij ;
+	rdfs:label "Rajong"@mg ;
+	skos:prefLabel "Rajong"@mg ;
+	schema:name "Rajong"@mg ;
+	rdfs:label "Rajong"@min ;
+	skos:prefLabel "Rajong"@min ;
+	schema:name "Rajong"@min ;
+	rdfs:label "Rajong"@ms ;
+	skos:prefLabel "Rajong"@ms ;
+	schema:name "Rajong"@ms ;
+	rdfs:label "Rajong"@nap ;
+	skos:prefLabel "Rajong"@nap ;
+	schema:name "Rajong"@nap ;
+	rdfs:label "Rajong"@nb ;
+	skos:prefLabel "Rajong"@nb ;
+	schema:name "Rajong"@nb ;
+	rdfs:label "Rajong"@nds ;
+	skos:prefLabel "Rajong"@nds ;
+	schema:name "Rajong"@nds ;
+	rdfs:label "Rajong"@nds-nl ;
+	skos:prefLabel "Rajong"@nds-nl ;
+	schema:name "Rajong"@nds-nl ;
+	rdfs:label "Rajong"@nl ;
+	skos:prefLabel "Rajong"@nl ;
+	schema:name "Rajong"@nl ;
+	rdfs:label "Rajong"@nn ;
+	skos:prefLabel "Rajong"@nn ;
+	schema:name "Rajong"@nn ;
+	rdfs:label "Rajong"@nrm ;
+	skos:prefLabel "Rajong"@nrm ;
+	schema:name "Rajong"@nrm ;
+	rdfs:label "Rajong"@oc ;
+	skos:prefLabel "Rajong"@oc ;
+	schema:name "Rajong"@oc ;
+	rdfs:label "Rajong"@pcd ;
+	skos:prefLabel "Rajong"@pcd ;
+	schema:name "Rajong"@pcd ;
+	rdfs:label "język rajong"@pl ;
+	skos:prefLabel "język rajong"@pl ;
+	schema:name "język rajong"@pl ;
+	rdfs:label "Rajong"@pt ;
+	skos:prefLabel "Rajong"@pt ;
+	schema:name "Rajong"@pt ;
+	rdfs:label "Rajong"@pt-br ;
+	skos:prefLabel "Rajong"@pt-br ;
+	schema:name "Rajong"@pt-br ;
+	rdfs:label "Rajong"@rm ;
+	skos:prefLabel "Rajong"@rm ;
+	schema:name "Rajong"@rm ;
+	rdfs:label "Rajong"@ro ;
+	skos:prefLabel "Rajong"@ro ;
+	schema:name "Rajong"@ro ;
+	rdfs:label "Rajong"@sc ;
+	skos:prefLabel "Rajong"@sc ;
+	schema:name "Rajong"@sc ;
+	rdfs:label "Rajong"@scn ;
+	skos:prefLabel "Rajong"@scn ;
+	schema:name "Rajong"@scn ;
+	rdfs:label "Rajong"@sco ;
+	skos:prefLabel "Rajong"@sco ;
+	schema:name "Rajong"@sco ;
+	rdfs:label "Rajong"@sk ;
+	skos:prefLabel "Rajong"@sk ;
+	schema:name "Rajong"@sk ;
+	rdfs:label "Rajong"@sl ;
+	skos:prefLabel "Rajong"@sl ;
+	schema:name "Rajong"@sl ;
+	rdfs:label "Rajong"@sr-el ;
+	skos:prefLabel "Rajong"@sr-el ;
+	schema:name "Rajong"@sr-el ;
+	rdfs:label "Rajong"@su ;
+	skos:prefLabel "Rajong"@su ;
+	schema:name "Rajong"@su ;
+	rdfs:label "Rajong"@sv ;
+	skos:prefLabel "Rajong"@sv ;
+	schema:name "Rajong"@sv ;
+	rdfs:label "Rajong"@vec ;
+	skos:prefLabel "Rajong"@vec ;
+	schema:name "Rajong"@vec ;
+	rdfs:label "Rajong"@vi ;
+	skos:prefLabel "Rajong"@vi ;
+	schema:name "Rajong"@vi ;
+	rdfs:label "Rajong"@vls ;
+	skos:prefLabel "Rajong"@vls ;
+	schema:name "Rajong"@vls ;
+	rdfs:label "Rajong"@vo ;
+	skos:prefLabel "Rajong"@vo ;
+	schema:name "Rajong"@vo ;
+	rdfs:label "Rajong"@wa ;
+	skos:prefLabel "Rajong"@wa ;
+	schema:name "Rajong"@wa ;
+	rdfs:label "Rajong"@wo ;
+	skos:prefLabel "Rajong"@wo ;
+	schema:name "Rajong"@wo ;
+	rdfs:label "Rajong"@zu ;
+	skos:prefLabel "Rajong"@zu ;
+	schema:name "Rajong"@zu ;
+	rdfs:label "Wikang Rajong"@tl ;
+	skos:prefLabel "Wikang Rajong"@tl ;
+	schema:name "Wikang Rajong"@tl ;
+	schema:description "Sprache"@de,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"language spoken in Indonesia"@en,
+		"pagsasao idiay Indonesia"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl ;
+	skos:altLabel "Razong"@en,
+		"Rajong language"@en,
+		"bahasa Rajong"@id,
+		"bahasa Razong"@id,
+		"język razong"@pl .
+
+wd:Q12473460 owl:sameAs wd:Q7286370 .
+
+wd:Q12953049 owl:sameAs wd:Q7286370 .
+
+wd:Q31441862 owl:sameAs wd:Q7286370 .

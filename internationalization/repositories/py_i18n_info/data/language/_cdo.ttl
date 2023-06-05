@@ -1,0 +1,672 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36455 a schema:Dataset ;
+	schema:about wd:Q36455 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1919897941"^^xsd:integer ;
+	schema:dateModified "2023-06-20T13:40:58Z"^^xsd:dateTime .
+
+wd:Q36455 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Cin%C3%A8isa,_Min_Dong> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Cinèisa, Min Dong"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%BC%D0%B8%D0%BD%D1%8C%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Восточноминьский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-min-nan.wikipedia.org/wiki/B%C3%A2n-tang-g%C3%AD> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "nan" ;
+	schema:isPartOf <https://zh-min-nan.wikipedia.org/> ;
+	schema:name "Bân-tang-gí"@nan .
+
+<https://zh-min-nan.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Eastern_Min> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Eastern Min"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%AE%E0%A5%80%E0%A4%A8_%E0%A4%A6%E0%A5%8B%E0%A4%82%E0%A4%97_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "मीन दोंग भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B4%E0%B9%88%E0%B8%99%E0%B8%95%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%81> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาหมิ่นตะวันออก"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Min_Dong_kineski_(jezik)> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Min Dong kineski (jezik)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Min_Dong> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Min Dong"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E9%97%BD%E4%B8%9C%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "闽东语"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%91%CE%BD%CE%B1%CF%84%CE%BF%CE%BB%CE%B9%CE%BA%CE%AC_%CE%9C%CE%B9%CE%BD> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Ανατολικά Μιν"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimindong> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimindong"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-classical.wikipedia.org/wiki/%E9%96%A9%E6%9D%B1%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "lzh" ;
+	schema:isPartOf <https://zh-classical.wikipedia.org/> ;
+	schema:name "閩東語"@lzh .
+
+<https://zh-classical.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikiversity.org/wiki/Subject:%E9%97%BD%E4%B8%9C%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikiversity.org/> ;
+	schema:name "Subject:闽东语"@zh .
+
+<https://zh.wikiversity.org/> wikibase:wikiGroup "wikiversity" .
+
+<https://de.wikipedia.org/wiki/Min_Dong> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Min Dong"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Ryt%C5%B3_min%C5%B3_tarm%C4%97s> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Rytų minų tarmės"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%AE%E0%AE%BF%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%8B%E0%AE%99%E0%AF%8D%E0%AE%95_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "மிந்தோங்க மொழி"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Do%C4%9Fu_Min_%C3%87incesi> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Doğu Min Çincesi"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cdo.wikipedia.org/wiki/M%C3%ACng-d%C4%95%CC%A4ng-ng%E1%B9%B3%CC%84> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "cdo" ;
+	schema:isPartOf <https://cdo.wikipedia.org/> ;
+	schema:name "Mìng-dĕ̤ng-ngṳ̄"@cdo ;
+	wikibase:badge wd:Q17437798 .
+
+<https://cdo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Mindong> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Mindong"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_mindong> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język mindong"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Min_dong> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Min dong"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gv.wikipedia.org/wiki/Minish_Hiar> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "gv" ;
+	schema:isPartOf <https://gv.wikipedia.org/> ;
+	schema:name "Minish Hiar"@gv .
+
+<https://gv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hak.wikipedia.org/wiki/M%C3%A9n-t%C3%BBng-ng%C3%AE> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "hak" ;
+	schema:isPartOf <https://hak.wikipedia.org/> ;
+	schema:name "Mén-tûng-ngî"@hak .
+
+<https://hak.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Min_dong> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Min dong"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Mindong> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Mindong"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D9%85%DB%8C%D9%86_%D8%AF%D9%88%D9%86%D9%82_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "مین دونق دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E9%96%A9%E6%9D%B1%E8%A9%B1> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "閩東話"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Min-donga_lingvo> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Min-donga lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_M%C3%A2n_%C4%90%C3%B4ng> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Mân Đông"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Mineg_ar_reter> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Mineg ar reter"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_min_dong> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua min dong"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Mindong> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Mindong"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Min_dong> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Min dong"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Mindong> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Mindong"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EB%AF%BC%EB%91%A5%EC%96%B4> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "민둥어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E9%96%A9%E6%9D%B1%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "閩東語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E9%96%A9%E6%9D%B1%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "閩東語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D9%85%DB%8C%D9%86_%D8%B4%D8%B1%D9%82%DB%8C> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "مین شرقی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_min_dong> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua min dong"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Oostelijk_Min> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Oostelijk Min"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%A2%E1%B1%A4%E1%B1%B1_%E1%B1%AB%E1%B1%9A%E1%B1%9D_%E1%B1%AF%E1%B1%9F%E1%B1%B9%E1%B1%A8%E1%B1%A5%E1%B1%A4> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱢᱤᱱ ᱫᱚᱝ ᱯᱟᱹᱨᱥᱤ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%A1%D1%85%D1%96%D0%B4%D0%BD%D0%BE%D0%BC%D1%96%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Східномінська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Min_Timur> a schema:Article ;
+	schema:about wd:Q36455 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Min Timur"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36455 wdt:P220 "cdo" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cdo> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P910 wd:Q8632891 ;
+	wdt:P646 "/m/06_r_v",
+		"/m/02hx3s0" ;
+	wdt:P305 "cdo" ;
+	wdt:P282 wd:Q8201,
+		wd:Q8229 ;
+	wdt:P279 wd:Q20667215 ;
+	wdt:P1098 "+10300000"^^xsd:decimal ;
+	wdt:P424 "cdo" ;
+	wdt:P373 "Eastern Min language" ;
+	wdt:P1394 "mind1253" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mind1253> ;
+	wdt:P1394 "mind1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mind1241> ;
+	wdt:P2959 wd:Q22305060 ;
+	wdt:P1466 "fuz" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_fuz> ;
+	wdt:P1705 "Mìng-dĕ̤ng-ngṳ̄"@cdo,
+		"Mìng-dĕ̤ng-uâ"@cdo,
+		"平話"@cdo-hani,
+		"闽东话‎"@cdo-hani,
+		"Bàng-uâ"@cdo,
+		"閩東語"@cdo-hani,
+		"閩東話"@cdo-hani ;
+	wdt:P1627 "cdo" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q921,
+		wd:Q148,
+		wd:Q833,
+		wd:Q17,
+		wd:Q865 ;
+	wdt:P2341 wd:Q41705,
+		wd:Q16967 ;
+	wdt:P1396 "79-AAA-ic" ;
+	wdt:P1245 "693915" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CDO> ;
+	wdt:P3553 "20023331" ;
+	wdt:P9748 <https://incubator.wikimedia.org/wiki/Wb/cdo>,
+		<https://incubator.wikimedia.org/wiki/Wt/cdo>,
+		<https://incubator.wikimedia.org/wiki/Wn/cdo> ;
+	rdfs:label "Bân-tang-oē"@nan ;
+	skos:prefLabel "Bân-tang-oē"@nan ;
+	schema:name "Bân-tang-oē"@nan ;
+	rdfs:label "閩東語"@zh ;
+	skos:prefLabel "閩東語"@zh ;
+	schema:name "閩東語"@zh ;
+	rdfs:label "Lenga Cinèisa, Min Dong"@pms ;
+	skos:prefLabel "Lenga Cinèisa, Min Dong"@pms ;
+	schema:name "Lenga Cinèisa, Min Dong"@pms ;
+	rdfs:label "Język mindong"@pl ;
+	skos:prefLabel "Język mindong"@pl ;
+	schema:name "Język mindong"@pl ;
+	rdfs:label "민둥어"@ko ;
+	skos:prefLabel "민둥어"@ko ;
+	schema:name "민둥어"@ko ;
+	rdfs:label "mindong"@fr ;
+	skos:prefLabel "mindong"@fr ;
+	schema:name "mindong"@fr ;
+	rdfs:label "min dong"@es ;
+	skos:prefLabel "min dong"@es ;
+	schema:name "min dong"@es ;
+	rdfs:label "மிந்தோங்க மொழி"@ta ;
+	skos:prefLabel "மிந்தோங்க மொழி"@ta ;
+	schema:name "மிந்தோங்க மொழி"@ta ;
+	rdfs:label "min dong"@it ;
+	skos:prefLabel "min dong"@it ;
+	schema:name "min dong"@it ;
+	rdfs:label "Min Dong"@de ;
+	skos:prefLabel "Min Dong"@de ;
+	schema:name "Min Dong"@de ;
+	rdfs:label "閩東語"@ja ;
+	skos:prefLabel "閩東語"@ja ;
+	schema:name "閩東語"@ja ;
+	rdfs:label "mineg ar reter"@br ;
+	skos:prefLabel "mineg ar reter"@br ;
+	schema:name "mineg ar reter"@br ;
+	rdfs:label "tiếng Mân Đông"@vi ;
+	skos:prefLabel "tiếng Mân Đông"@vi ;
+	schema:name "tiếng Mân Đông"@vi ;
+	rdfs:label "Mìng-dĕ̤ng-ngṳ̄"@cdo ;
+	skos:prefLabel "Mìng-dĕ̤ng-ngṳ̄"@cdo ;
+	schema:name "Mìng-dĕ̤ng-ngṳ̄"@cdo ;
+	rdfs:label "Mindong"@nl ;
+	skos:prefLabel "Mindong"@nl ;
+	schema:name "Mindong"@nl ;
+	rdfs:label "मीन दोंग भाषा"@hi ;
+	skos:prefLabel "मीन दोंग भाषा"@hi ;
+	schema:name "मीन दोंग भाषा"@hi ;
+	rdfs:label "Língua min oriental"@pt ;
+	skos:prefLabel "Língua min oriental"@pt ;
+	schema:name "Língua min oriental"@pt ;
+	rdfs:label "min-donga lingvo"@eo ;
+	skos:prefLabel "min-donga lingvo"@eo ;
+	schema:name "min-donga lingvo"@eo ;
+	rdfs:label "Восточноминьский язык"@ru ;
+	skos:prefLabel "Восточноминьский язык"@ru ;
+	schema:name "Восточноминьский язык"@ru ;
+	rdfs:label "Eastern Min"@en ;
+	skos:prefLabel "Eastern Min"@en ;
+	schema:name "Eastern Min"@en ;
+	rdfs:label "ภาษาหมิ่นตะวันออก"@th ;
+	skos:prefLabel "ภาษาหมิ่นตะวันออก"@th ;
+	schema:name "ภาษาหมิ่นตะวันออก"@th ;
+	rdfs:label "Mên-tûng-ngî"@hak ;
+	skos:prefLabel "Mên-tûng-ngî"@hak ;
+	schema:name "Mên-tûng-ngî"@hak ;
+	rdfs:label "Східноміньська мова"@uk ;
+	skos:prefLabel "Східноміньська мова"@uk ;
+	schema:name "Східноміньська мова"@uk ;
+	rdfs:label "Min Dong kineski"@hr ;
+	skos:prefLabel "Min Dong kineski"@hr ;
+	schema:name "Min Dong kineski"@hr ;
+	rdfs:label "Minish Hiar"@gv ;
+	skos:prefLabel "Minish Hiar"@gv ;
+	schema:name "Minish Hiar"@gv ;
+	rdfs:label "Rytų minų tarmės"@lt ;
+	skos:prefLabel "Rytų minų tarmės"@lt ;
+	schema:name "Rytų minų tarmės"@lt ;
+	rdfs:label "mindong"@sv ;
+	skos:prefLabel "mindong"@sv ;
+	schema:name "mindong"@sv ;
+	rdfs:label "Mindong"@nb ;
+	skos:prefLabel "Mindong"@nb ;
+	schema:name "Mindong"@nb ;
+	rdfs:label "閩東話"@yue ;
+	skos:prefLabel "閩東話"@yue ;
+	schema:name "閩東話"@yue ;
+	rdfs:label "閩東語"@lzh ;
+	skos:prefLabel "閩東語"@lzh ;
+	schema:name "閩東語"@lzh ;
+	rdfs:label "mindong"@fi ;
+	skos:prefLabel "mindong"@fi ;
+	schema:name "mindong"@fi ;
+	rdfs:label "زبان مین دونگ"@fa ;
+	skos:prefLabel "زبان مین دونگ"@fa ;
+	schema:name "زبان مین دونگ"@fa ;
+	rdfs:label "闽东语"@wuu ;
+	skos:prefLabel "闽东语"@wuu ;
+	schema:name "闽东语"@wuu ;
+	rdfs:label "min dong"@ca ;
+	skos:prefLabel "min dong"@ca ;
+	schema:name "min dong"@ca ;
+	rdfs:label "источномински јазик"@mk ;
+	skos:prefLabel "источномински јазик"@mk ;
+	schema:name "источномински јазик"@mk ;
+	rdfs:label "Kimindong"@sw ;
+	skos:prefLabel "Kimindong"@sw ;
+	schema:name "Kimindong"@sw ;
+	rdfs:label "闽东语"@zh-hans ;
+	skos:prefLabel "闽东语"@zh-hans ;
+	schema:name "闽东语"@zh-hans ;
+	rdfs:label "闽东语"@zh-cn ;
+	skos:prefLabel "闽东语"@zh-cn ;
+	schema:name "闽东语"@zh-cn ;
+	rdfs:label "闽东语"@zh-sg ;
+	skos:prefLabel "闽东语"@zh-sg ;
+	schema:name "闽东语"@zh-sg ;
+	rdfs:label "閩東語"@zh-hant ;
+	skos:prefLabel "閩東語"@zh-hant ;
+	schema:name "閩東語"@zh-hant ;
+	rdfs:label "閩東語"@zh-hk ;
+	skos:prefLabel "閩東語"@zh-hk ;
+	schema:name "閩東語"@zh-hk ;
+	rdfs:label "閩東語"@zh-mo ;
+	skos:prefLabel "閩東語"@zh-mo ;
+	schema:name "閩東語"@zh-mo ;
+	rdfs:label "閩東語"@zh-tw ;
+	skos:prefLabel "閩東語"@zh-tw ;
+	schema:name "閩東語"@zh-tw ;
+	rdfs:label "Doğu Min Çincesi"@tr ;
+	skos:prefLabel "Doğu Min Çincesi"@tr ;
+	schema:name "Doğu Min Çincesi"@tr ;
+	rdfs:label "Lingua ming dong"@gl ;
+	skos:prefLabel "Lingua ming dong"@gl ;
+	schema:name "Lingua ming dong"@gl ;
+	rdfs:label "مین دونق دیلی"@azb ;
+	skos:prefLabel "مین دونق دیلی"@azb ;
+	schema:name "مین دونق دیلی"@azb ;
+	rdfs:label "Min dong"@ast ;
+	skos:prefLabel "Min dong"@ast ;
+	schema:name "Min dong"@ast ;
+	rdfs:label "Ανατολικά Μιν"@el ;
+	skos:prefLabel "Ανατολικά Μιν"@el ;
+	schema:name "Ανατολικά Μιν"@el ;
+	rdfs:label "Eastern Min"@en-ca ;
+	skos:prefLabel "Eastern Min"@en-ca ;
+	schema:name "Eastern Min"@en-ca ;
+	rdfs:label "Eastern Min"@en-gb ;
+	skos:prefLabel "Eastern Min"@en-gb ;
+	schema:name "Eastern Min"@en-gb ;
+	rdfs:label "Min Dong"@pt-br ;
+	skos:prefLabel "Min Dong"@pt-br ;
+	schema:name "Min Dong"@pt-br ;
+	rdfs:label "Bahasa Min Timur"@id ;
+	skos:prefLabel "Bahasa Min Timur"@id ;
+	schema:name "Bahasa Min Timur"@id ;
+	rdfs:label "ᱢᱤᱱ ᱫᱚᱝ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	skos:prefLabel "ᱢᱤᱱ ᱫᱚᱝ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	schema:name "ᱢᱤᱱ ᱫᱚᱝ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	rdfs:label "min dong"@vec ;
+	skos:prefLabel "min dong"@vec ;
+	schema:name "min dong"@vec ;
+	rdfs:label "ਮਿਨ ਡੌਂਗ ਚੀਨੀ"@pa ;
+	skos:prefLabel "ਮਿਨ ਡੌਂਗ ਚੀਨੀ"@pa ;
+	schema:name "ਮਿਨ ਡੌਂਗ ਚੀਨੀ"@pa ;
+	rdfs:label "מין מזרחית"@he ;
+	skos:prefLabel "מין מזרחית"@he ;
+	schema:name "מין מזרחית"@he ;
+	rdfs:label "مين الشرقية"@ar ;
+	skos:prefLabel "مين الشرقية"@ar ;
+	schema:name "مين الشرقية"@ar ;
+	schema:description "lengua china"@es,
+		"Sprache"@de,
+		"lingua parlata principalmente nella parte orientale della provincia di Fujian in Cina"@it,
+		"branch of the Min group of Sinitic languages of China"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"diŏh Hók-gióng dĕ̤ng buô gâe̤ng Ciék-gŏng dĕ̤ng-nàng tŭng-hèng gì siŏh cṳ̄ng Mìng-ngṳ̄"@cdo,
+		"yezh"@br,
+		"langue"@fr,
+		"lingua"@la,
+		"iaith"@cy,
+		"språk"@sv,
+		"llengua xinesa"@ca,
+		"bagian dari rumpun bahasa Sino-Tibet"@id,
+		"ਭਾਸ਼ਾ"@pa,
+		"漢語族閩語支的一種語言"@zh-tw,
+		"漢語族閩語支的一種語言"@zh,
+		"漢語族閩語支的一種語言"@zh-hant,
+		"فرع من مجموعة مين من اللغات الصينية"@ar ;
+	skos:altLabel "Bân-tang-gú"@nan,
+		"闽东方言"@zh,
+		"闽东话"@zh,
+		"閩東話"@zh,
+		"闽东片"@zh,
+		"閩東次方言"@zh,
+		"Lenga Cinèis, Min Dong"@pms,
+		"민동어"@ko,
+		"Min dong"@fr,
+		"Min oriental"@fr,
+		"cdo"@fr,
+		"Ming dĕ̤ng ngṳ̄"@es,
+		"Min del este"@es,
+		"Ming deng ngu"@es,
+		"lingua min dong"@it,
+		"min orientale"@it,
+		"Mìng-dĕ̤ng-ngṳ̄"@de,
+		"Mindong"@de,
+		"ミン東語"@ja,
+		"ビン東語"@ja,
+		"Mìng-dĕ̤ng-uâ"@cdo,
+		"cdo"@cdo,
+		"Fuzhou-dialect"@nl,
+		"Mindongyu"@nl,
+		"Mindong-dialect"@nl,
+		"Fuzhouhua"@nl,
+		"Oostelijk Min"@nl,
+		"मीन दोंग"@hi,
+		"Língua mindongue"@pt,
+		"Min Dong"@pt,
+		"Língua oriental de Min"@pt,
+		"Min-donga"@eo,
+		"Min-donge"@eo,
+		"Минь-дун"@ru,
+		"Восточноминьский"@ru,
+		"ภาษาจีนฝูโจว"@th,
+		"สำเนียงหมิ่นตง"@th,
+		"ภาษาหมิ่นตง"@th,
+		"Mîn-tûng-ngî"@hak,
+		"Min Dong"@gv,
+		"Min Dong Chinese"@en,
+		"cdo"@en,
+		"Mindong"@en,
+		"Min Dong"@en,
+		"Østlig min"@nb,
+		"Min dong"@nb,
+		"источномински дијалект"@mk,
+		"миндунг"@mk,
+		"Lingua min oriental"@gl,
+		"ਚੀਨੀ (ਮਿਨ ਡੌਂਗ)"@pa,
+		"مين دونج"@ar .
+
+wd:Q14225089 owl:sameAs wd:Q36455 .

@@ -1,0 +1,151 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5031131 a schema:Dataset ;
+	schema:about wd:Q5031131 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1923074879"^^xsd:integer ;
+	schema:dateModified "2023-06-24T18:29:07Z"^^xsd:dateTime .
+
+wd:Q5031131 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_kukna> a schema:Article ;
+	schema:about wd:Q5031131 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kukna"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikukna> a schema:Article ;
+	schema:about wd:Q5031131 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikukna"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Canarese_Konkani> a schema:Article ;
+	schema:about wd:Q5031131 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Canarese Konkani"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Kukna> a schema:Article ;
+	schema:about wd:Q5031131 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Kukna"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Kukna> a schema:Article ;
+	schema:about wd:Q5031131 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Kukna"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5031131 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "kex" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kex> ;
+	wdt:P1394 "kukn1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kukn1238> ;
+	wdt:P4132 wd:Q539808 ;
+	wdt:P1466 "kkz" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_kkz> ;
+	wdt:P305 "kex" ;
+	wdt:P1627 "kex" ;
+	wdt:P3823 wd:Q29051549 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1061,
+		wd:Q1185,
+		wd:Q1191,
+		wd:Q1437 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KEX> ;
+	wdt:P646 "/m/02hxmsz" ;
+	rdfs:label "Canara Konkani"@en ;
+	skos:prefLabel "Canara Konkani"@en ;
+	schema:name "Canara Konkani"@en ;
+	rdfs:label "Lenga kukna"@pms ;
+	skos:prefLabel "Lenga kukna"@pms ;
+	schema:name "Lenga kukna"@pms ;
+	rdfs:label "Kikukna"@sw ;
+	skos:prefLabel "Kikukna"@sw ;
+	schema:name "Kikukna"@sw ;
+	rdfs:label "Bahasa Kukna"@id ;
+	skos:prefLabel "Bahasa Kukna"@id ;
+	schema:name "Bahasa Kukna"@id ;
+	rdfs:label "ਕੈਨਰਾ ਕੋਨਕਨੀ"@pa ;
+	skos:prefLabel "ਕੈਨਰਾ ਕੋਨਕਨੀ"@pa ;
+	schema:name "ਕੈਨਰਾ ਕੋਨਕਨੀ"@pa ;
+	rdfs:label "卡納里孔卡尼語"@zh-hant ;
+	skos:prefLabel "卡納里孔卡尼語"@zh-hant ;
+	schema:name "卡納里孔卡尼語"@zh-hant ;
+	rdfs:label "卡纳里孔卡尼语"@zh-hans ;
+	skos:prefLabel "卡纳里孔卡尼语"@zh-hans ;
+	schema:name "卡纳里孔卡尼语"@zh-hans ;
+	rdfs:label "ಕೆನರಾ ಕೊಂಕಣಿ"@kn ;
+	skos:prefLabel "ಕೆನರಾ ಕೊಂಕಣಿ"@kn ;
+	schema:name "ಕೆನರಾ ಕೊಂಕಣಿ"@kn ;
+	rdfs:label "Kukna"@oc ;
+	skos:prefLabel "Kukna"@oc ;
+	schema:name "Kukna"@oc ;
+	rdfs:label "卡纳里孔卡尼语"@zh ;
+	skos:prefLabel "卡纳里孔卡尼语"@zh ;
+	schema:name "卡纳里孔卡尼语"@zh ;
+	rdfs:label "קונקנית קנארית"@he ;
+	skos:prefLabel "קונקנית קנארית"@he ;
+	schema:name "קונקנית קנארית"@he ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"bagian dari rumpun bahasa Indo-Eropa"@id ;
+	skos:altLabel "Kukna language"@en,
+		"Kukna"@en,
+		"ਕੁਕਨਾ ਭਾਸ਼ਾ"@pa,
+		"ਕੁਕਨਾ"@pa .
+
+wd:Q6442538 owl:sameAs wd:Q5031131 .
+
+wd:Q12953658 owl:sameAs wd:Q5031131 .

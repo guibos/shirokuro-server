@@ -1,0 +1,604 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q32979 a schema:Dataset ;
+	schema:about wd:Q32979 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1871866653"^^xsd:integer ;
+	schema:dateModified "2023-04-10T09:39:07Z"^^xsd:dateTime .
+
+wd:Q32979 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_choctaw> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga choctaw"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A7%D0%BE%D0%BA%D1%82%D0%B0%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Чоктавский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%A7%D0%BE%D0%BA%D1%82%D0%B0%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Чоктавська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Choctaw_language> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Choctaw language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Choctawski_jezik> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Choctawski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_choctaw> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua choctaw"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Choctaw> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Choctaw"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%A7%D0%BE%D0%BA%D1%82%D0%B0%D0%B2_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Чоктав кыв"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A7%E3%82%AF%E3%83%88%E3%83%BC%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "チョクトー語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Choctaw_(Sprache)> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Choctaw (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Choctaw> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Choctaw"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/%C4%8Cokt%C5%A1tina> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Čoktština"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%9A%E0%AF%8A%E0%AE%95%E0%AF%8D%E0%AE%9F%E0%AF%8B_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "சொக்டோ மொழி"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Choctaw> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Choctaw"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%A9%E1%83%9D%E1%83%A5%E1%83%A2%E1%83%90%E1%83%A3_(%E1%83%94%E1%83%9C%E1%83%90)> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "ჩოქტაუ (ენა)"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_czoktawski> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język czoktawski"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_choctaw> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma choctaw"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://qu.wikipedia.org/wiki/Chahta_simi> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "qu" ;
+	schema:isPartOf <https://qu.wikipedia.org/> ;
+	schema:name "Chahta simi"@qu .
+
+<https://qu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%A7%D0%BE%D0%BA%D1%82%D0%B0%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Чоктаўская мова"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/T%C5%A1okto_keel> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Tšokto keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Choctaw> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Choctaw"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Chacta_(langue)> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Chacta (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Choctaw_(taal)> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Choctaw (taal)"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%DA%86%D8%A7%DA%A9%D8%AA%D8%A7%D9%88%DB%8C_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "چاکتاوی دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%A7%D0%B0%D0%BA%D1%82%D0%B0_(%D0%BC%D0%BE%D0%B2%D0%B0)> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Чакта (мова)"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/%C4%88akta_lingvo> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Ĉakta lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%DA%86%D8%A7%DA%A9%D8%AA%D8%A7%D9%88%DB%8C> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان چاکتاوی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rw.wikipedia.org/wiki/Igicokitawu> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "rw" ;
+	schema:isPartOf <https://rw.wikipedia.org/> ;
+	schema:name "Igicokitawu"@rw .
+
+<https://rw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Tchoktaweg> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Tchoktaweg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_choctaw> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua choctaw"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Choctaw_(spr%C3%A5k)> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Choctaw (språk)"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_choctaw> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma choctaw"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Choctawin_kieli> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Choctawin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%96%AC%E5%85%8B%E6%89%98%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "喬克托語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sco.wikipedia.org/wiki/Choctaw_leid> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "sco" ;
+	schema:isPartOf <https://sco.wikipedia.org/> ;
+	schema:name "Choctaw leid"@sco .
+
+<https://sco.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D8%A7%D9%84%D8%B4%D9%88%D9%83%D8%AA%D9%88> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "الشوكتو"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cho.wikipedia.org/wiki/Chahta_Anumpa> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "cho" ;
+	schema:isPartOf <https://cho.wikipedia.org/> ;
+	schema:name "Chahta Anumpa"@cho .
+
+<https://cho.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%AA%E1%B1%B3%E1%B1%A0%E1%B1%B4%E1%B1%9F%E1%B1%A3_%E1%B1%AF%E1%B1%9F%E1%B1%B9%E1%B1%A8%E1%B1%A5%E1%B1%A4> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱪᱳᱠᱴᱟᱣ ᱯᱟᱹᱨᱥᱤ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cy.wikipedia.org/wiki/Siocto_(iaith)> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "cy" ;
+	schema:isPartOf <https://cy.wikipedia.org/> ;
+	schema:name "Siocto (iaith)"@cy .
+
+<https://cy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Llengua_choctaw> a schema:Article ;
+	schema:about wd:Q32979 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Llengua choctaw"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q32979 wdt:P424 "cho" ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P219 "cho" ;
+	wdt:P220 "cho" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cho> ;
+	wdt:P646 "/m/03_vfy" ;
+	wdt:P305 "cho" ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P1705 "Chahta anumpa"@cho,
+		"Chahta"@cho ;
+	wdt:P1098 "+9200"^^xsd:decimal ;
+	wdt:P279 wd:Q902978 ;
+	wdt:P278 "чок 794" ;
+	wdt:P3417 "Choctaw" ;
+	wdt:P2355 "896",
+		"1541",
+		"1542" ;
+	wdt:P1394 "choc1276" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/choc1276> ;
+	wdt:P4132 wd:Q539808,
+		wd:Q171263 ;
+	wdt:P17 wd:Q30 ;
+	wdt:P1466 "cct" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_cct> ;
+	wdt:P2192 "1692" ;
+	wdt:P1627 "cho" ;
+	wdt:P4801 "languages/cho" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/cho> ;
+	wdt:P4801 "iso639-2/cho" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/iso639-2/cho> ;
+	wdt:P268 "12071417z" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb12071417z#about> ;
+	wdt:P244 "sh85024613" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85024613> ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2341 wd:Q1588,
+		wd:Q1494,
+		wd:Q1509 ;
+	wdt:P1245 "394564" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CHO> ;
+	wdt:P910 wd:Q30510378 ;
+	wdt:P8408 "ChoctawLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/ChoctawLanguage> ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P1014 "300388144" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388144> ;
+	wdt:P9748 <https://incubator.wikimedia.org/wiki/Wp/cho> ;
+	wdt:P9060 "cho" ;
+	wdt:P10369 "Q404" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q404> ;
+	wdt:P9717 "choctaw" ;
+	wdt:P8189 "987007285763405171" ;
+	wdt:P8814 "06925212-n" ;
+	wdtn:P8814 <http://wordnet-rdf.princeton.edu/rdf/id/06925212-n> ;
+	rdfs:label "língua choctaw"@pt ;
+	skos:prefLabel "língua choctaw"@pt ;
+	schema:name "língua choctaw"@pt ;
+	rdfs:label "ĉakta lingvo"@eo ;
+	skos:prefLabel "ĉakta lingvo"@eo ;
+	schema:name "ĉakta lingvo"@eo ;
+	rdfs:label "lenga choctaw"@pms ;
+	skos:prefLabel "lenga choctaw"@pms ;
+	schema:name "lenga choctaw"@pms ;
+	rdfs:label "język czoktaw"@pl ;
+	skos:prefLabel "język czoktaw"@pl ;
+	schema:name "język czoktaw"@pl ;
+	rdfs:label "Chahta simi"@qu ;
+	skos:prefLabel "Chahta simi"@qu ;
+	schema:name "Chahta simi"@qu ;
+	rdfs:label "choctaw"@fr ;
+	skos:prefLabel "choctaw"@fr ;
+	schema:name "choctaw"@fr ;
+	rdfs:label "Чоктавский язык"@ru ;
+	skos:prefLabel "Чоктавский язык"@ru ;
+	schema:name "Чоктавский язык"@ru ;
+	rdfs:label "idioma choctaw"@es ;
+	skos:prefLabel "idioma choctaw"@es ;
+	schema:name "idioma choctaw"@es ;
+	rdfs:label "Choctaw"@en ;
+	skos:prefLabel "Choctaw"@en ;
+	schema:name "Choctaw"@en ;
+	rdfs:label "சொக்டோ மொழி"@ta ;
+	skos:prefLabel "சொக்டோ மொழி"@ta ;
+	schema:name "சொக்டோ மொழி"@ta ;
+	rdfs:label "Choctawin kieli"@fi ;
+	skos:prefLabel "Choctawin kieli"@fi ;
+	schema:name "Choctawin kieli"@fi ;
+	rdfs:label "Bahasa Choctaw"@ms ;
+	skos:prefLabel "Bahasa Choctaw"@ms ;
+	schema:name "Bahasa Choctaw"@ms ;
+	rdfs:label "Чоктавська мова"@uk ;
+	skos:prefLabel "Чоктавська мова"@uk ;
+	schema:name "Чоктавська мова"@uk ;
+	rdfs:label "чоктаўская мова"@be-tarask ;
+	skos:prefLabel "чоктаўская мова"@be-tarask ;
+	schema:name "чоктаўская мова"@be-tarask ;
+	rdfs:label "Choctaw"@de ;
+	skos:prefLabel "Choctaw"@de ;
+	schema:name "Choctaw"@de ;
+	rdfs:label "チョクトー語"@ja ;
+	skos:prefLabel "チョクトー語"@ja ;
+	schema:name "チョクトー語"@ja ;
+	rdfs:label "tchoktaweg"@br ;
+	skos:prefLabel "tchoktaweg"@br ;
+	schema:name "tchoktaweg"@br ;
+	rdfs:label "Igicokitawu"@rw ;
+	skos:prefLabel "Igicokitawu"@rw ;
+	schema:name "Igicokitawu"@rw ;
+	rdfs:label "ჩოქტაუ"@ka ;
+	skos:prefLabel "ჩოქტაუ"@ka ;
+	schema:name "ჩოქტაუ"@ka ;
+	rdfs:label "Choctaw jezik"@hr ;
+	skos:prefLabel "Choctaw jezik"@hr ;
+	schema:name "Choctaw jezik"@hr ;
+	rdfs:label "Choctaw"@nl ;
+	skos:prefLabel "Choctaw"@nl ;
+	schema:name "Choctaw"@nl ;
+	rdfs:label "choctaw"@sv ;
+	skos:prefLabel "choctaw"@sv ;
+	schema:name "choctaw"@sv ;
+	rdfs:label "choctaw"@ca ;
+	skos:prefLabel "choctaw"@ca ;
+	schema:name "choctaw"@ca ;
+	rdfs:label "Choctaw"@oc ;
+	skos:prefLabel "Choctaw"@oc ;
+	schema:name "Choctaw"@oc ;
+	rdfs:label "Choctaw leid"@sco ;
+	skos:prefLabel "Choctaw leid"@sco ;
+	schema:name "Choctaw leid"@sco ;
+	rdfs:label "lingua choctaw"@it ;
+	skos:prefLabel "lingua choctaw"@it ;
+	schema:name "lingua choctaw"@it ;
+	rdfs:label "tšokto keel"@et ;
+	skos:prefLabel "tšokto keel"@et ;
+	schema:name "tšokto keel"@et ;
+	rdfs:label "lingua choctaw"@gl ;
+	skos:prefLabel "lingua choctaw"@gl ;
+	schema:name "lingua choctaw"@gl ;
+	rdfs:label "Чоктав кыв"@kv ;
+	skos:prefLabel "Чоктав кыв"@kv ;
+	schema:name "Чоктав кыв"@kv ;
+	rdfs:label "Chahta Anumpa"@cho ;
+	skos:prefLabel "Chahta Anumpa"@cho ;
+	schema:name "Chahta Anumpa"@cho ;
+	rdfs:label "喬克托語"@zh ;
+	skos:prefLabel "喬克托語"@zh ;
+	schema:name "喬克托語"@zh ;
+	rdfs:label "زبان چاکتاوی"@fa ;
+	skos:prefLabel "زبان چاکتاوی"@fa ;
+	schema:name "زبان چاکتاوی"@fa ;
+	rdfs:label "Bahasa Choctaw"@id ;
+	skos:prefLabel "Bahasa Choctaw"@id ;
+	schema:name "Bahasa Choctaw"@id ;
+	rdfs:label "čoktština"@cs ;
+	skos:prefLabel "čoktština"@cs ;
+	schema:name "čoktština"@cs ;
+	rdfs:label "чоктовски јазик"@mk ;
+	skos:prefLabel "чоктовски јазик"@mk ;
+	schema:name "чоктовски јазик"@mk ;
+	rdfs:label "tiếng Choctaw"@vi ;
+	skos:prefLabel "tiếng Choctaw"@vi ;
+	schema:name "tiếng Choctaw"@vi ;
+	rdfs:label "choctaw"@nb ;
+	skos:prefLabel "choctaw"@nb ;
+	schema:name "choctaw"@nb ;
+	rdfs:label "choctaw"@nn ;
+	skos:prefLabel "choctaw"@nn ;
+	schema:name "choctaw"@nn ;
+	rdfs:label "Choctaw"@en-gb ;
+	skos:prefLabel "Choctaw"@en-gb ;
+	schema:name "Choctaw"@en-gb ;
+	rdfs:label "csaktó"@hu ;
+	skos:prefLabel "csaktó"@hu ;
+	schema:name "csaktó"@hu ;
+	rdfs:label "촉토어"@ko ;
+	skos:prefLabel "촉토어"@ko ;
+	schema:name "촉토어"@ko ;
+	rdfs:label "چاکتاوی دیلی"@azb ;
+	skos:prefLabel "چاکتاوی دیلی"@azb ;
+	schema:name "چاکتاوی دیلی"@azb ;
+	rdfs:label "idioma choctaw"@ast ;
+	skos:prefLabel "idioma choctaw"@ast ;
+	schema:name "idioma choctaw"@ast ;
+	rdfs:label "Чакта"@be ;
+	skos:prefLabel "Чакта"@be ;
+	schema:name "Чакта"@be ;
+	rdfs:label "الشوكتو"@arz ;
+	skos:prefLabel "الشوكتو"@arz ;
+	schema:name "الشوكتو"@arz ;
+	rdfs:label "Çoktavca"@tr ;
+	skos:prefLabel "Çoktavca"@tr ;
+	schema:name "Çoktavca"@tr ;
+	rdfs:label "ᱪᱳᱠᱴᱟᱣ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	skos:prefLabel "ᱪᱳᱠᱴᱟᱣ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	schema:name "ᱪᱳᱠᱴᱟᱣ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	rdfs:label "乔克托语"@zh-hans ;
+	skos:prefLabel "乔克托语"@zh-hans ;
+	schema:name "乔克托语"@zh-hans ;
+	rdfs:label "شوكتاو"@ar ;
+	skos:prefLabel "شوكتاو"@ar ;
+	schema:name "شوكتاو"@ar ;
+	rdfs:label "شوكتاو"@ary ;
+	skos:prefLabel "شوكتاو"@ary ;
+	schema:name "شوكتاو"@ary ;
+	rdfs:label "Siocto"@cy ;
+	skos:prefLabel "Siocto"@cy ;
+	schema:name "Siocto"@cy ;
+	rdfs:label "choctaw"@vec ;
+	skos:prefLabel "choctaw"@vec ;
+	schema:name "choctaw"@vec ;
+	schema:description "Muskogean language spoken in US"@en,
+		"taal"@nl,
+		"lengua hablada en Estados Unidos"@es,
+		"Sprache"@de,
+		"lingua"@it,
+		"јазик на Чоктовците од југоисточни САД"@mk,
+		"שפה"@he,
+		"langue muskogéenne"@fr,
+		"yezh"@br,
+		"lingua"@la,
+		"iaith"@cy,
+		"modern indián nyelv"@hu,
+		"indianspråk"@sv,
+		"لغة"@ar,
+		"لغة"@ary,
+		"choctawi-intiaanien kieli yhdysvalloissa"@fi,
+		"мова маскогі, якой карыстаецца чоктаўскі народ"@be-tarask ;
+	skos:altLabel "ĉoktaŭa lingvo"@eo,
+		"Чоктау"@ru,
+		"Чоктав"@ru,
+		"Чокто"@ru,
+		"சொக்ட்டோ மொழி"@ta,
+		"チャクトー語"@ja,
+		"cho"@ja,
+		"ჩოტჩაუ"@ka,
+		"ჩოკტაუ"@ka,
+		"cho"@en,
+		"Choctaw language"@en,
+		"cho"@fr,
+		"чокто"@mk,
+		"cho"@cho .
+
+wd:Q50934557 owl:sameAs wd:Q32979 .

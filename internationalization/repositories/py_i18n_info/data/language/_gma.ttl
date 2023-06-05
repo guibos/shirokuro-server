@@ -1,0 +1,128 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10502327 a schema:Dataset ;
+	schema:about wd:Q10502327 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1668623606"^^xsd:integer ;
+	schema:dateModified "2022-06-29T19:37:52Z"^^xsd:dateTime .
+
+wd:Q10502327 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_gambera> a schema:Article ;
+	schema:about wd:Q10502327 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga gambera"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Gambera> a schema:Article ;
+	schema:about wd:Q10502327 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Gambera"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigambera> a schema:Article ;
+	schema:about wd:Q10502327 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigambera"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Gambera_jezik> a schema:Article ;
+	schema:about wd:Q10502327 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Gambera jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10502327 wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P220 "gma" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gma> ;
+	wdt:P1394 "gamb1251" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gamb1251> ;
+	wdt:P279 wd:Q2038619,
+		wd:Q109633616 ;
+	wdt:P2192 "4227" ;
+	wdt:P305 "gma" ;
+	wdt:P1627 "gma" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P1251 "8813" ;
+	wdt:P1252 "K39" ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3206 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GMA> ;
+	wdt:P6915 "Gamberre" ;
+	rdfs:label "Gambera"@sv ;
+	skos:prefLabel "Gambera"@sv ;
+	schema:name "Gambera"@sv ;
+	rdfs:label "Lenga gambera"@pms ;
+	skos:prefLabel "Lenga gambera"@pms ;
+	schema:name "Lenga gambera"@pms ;
+	rdfs:label "Gambera jezik"@hr ;
+	skos:prefLabel "Gambera jezik"@hr ;
+	schema:name "Gambera jezik"@hr ;
+	rdfs:label "Gambera"@en ;
+	skos:prefLabel "Gambera"@en ;
+	schema:name "Gambera"@en ;
+	rdfs:label "Gambera"@en-gb ;
+	skos:prefLabel "Gambera"@en-gb ;
+	schema:name "Gambera"@en-gb ;
+	rdfs:label "gambera"@fr ;
+	skos:prefLabel "gambera"@fr ;
+	schema:name "gambera"@fr ;
+	rdfs:label "Kigambera"@sw ;
+	skos:prefLabel "Kigambera"@sw ;
+	schema:name "Kigambera"@sw ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue worrorrane"@fr,
+		"language"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"lingua"@la,
+		"iaith"@cy,
+		"utdött australiskt språk"@sv ;
+	skos:altLabel "Gamberre"@en .
+
+wd:Q12631353 owl:sameAs wd:Q10502327 .
+
+wd:Q50934989 owl:sameAs wd:Q10502327 .

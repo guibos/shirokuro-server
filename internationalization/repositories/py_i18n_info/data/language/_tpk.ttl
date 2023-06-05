@@ -1,0 +1,177 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33924 a schema:Dataset ;
+	schema:about wd:Q33924 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1964212287"^^xsd:integer ;
+	schema:dateModified "2023-08-29T23:07:02Z"^^xsd:dateTime .
+
+wd:Q33924 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Tupiniquim_language> a schema:Article ;
+	schema:about wd:Q33924 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Tupiniquim language"@en ;
+	wikibase:badge wd:Q70894304 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_tupiniquim> a schema:Article ;
+	schema:about wd:Q33924 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma tupiniquim"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D0%BF%D0%B8%D0%BD%D0%B8%D0%BA%D0%B8%D0%BD_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q33924 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Тупиникин (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_tupiniquim> a schema:Article ;
+	schema:about wd:Q33924 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua tupiniquim"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_tupiniquim> a schema:Article ;
+	schema:about wd:Q33924 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma tupiniquim"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Toupinkineg> a schema:Article ;
+	schema:about wd:Q33924 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Toupinkineg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_tupinikin> a schema:Article ;
+	schema:about wd:Q33924 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga tupinikin"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_tupiniquim> a schema:Article ;
+	schema:about wd:Q33924 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua tupiniquim"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33924 wdt:P31 wd:Q34770,
+		wd:Q38058796,
+		wd:Q45762 ;
+	wdt:P220 "tpk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tpk> ;
+	wdt:P279 wd:Q34070 ;
+	wdt:P1394 "tupi1272" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tupi1272> ;
+	wdt:P2581 "02663160n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s02663160n> ;
+	wdt:P305 "tpk" ;
+	wdt:P1627 "tpk" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q155 ;
+	wdt:P2341 wd:Q43233 ;
+	wdt:P910 wd:Q105714765 ;
+	wdt:P646 "/m/02hxz0t" ;
+	rdfs:label "Língua tupiniquim"@pt ;
+	skos:prefLabel "Língua tupiniquim"@pt ;
+	schema:name "Língua tupiniquim"@pt ;
+	rdfs:label "toupinkineg"@br ;
+	skos:prefLabel "toupinkineg"@br ;
+	schema:name "toupinkineg"@br ;
+	rdfs:label "tupiniquim"@es ;
+	skos:prefLabel "tupiniquim"@es ;
+	schema:name "tupiniquim"@es ;
+	rdfs:label "Tupiniquim"@en ;
+	skos:prefLabel "Tupiniquim"@en ;
+	schema:name "Tupiniquim"@en ;
+	rdfs:label "Lenga tupinikin"@pms ;
+	skos:prefLabel "Lenga tupinikin"@pms ;
+	schema:name "Lenga tupinikin"@pms ;
+	rdfs:label "Тупиникин"@ru ;
+	skos:prefLabel "Тупиникин"@ru ;
+	schema:name "Тупиникин"@ru ;
+	rdfs:label "Tupiniquim"@en-gb ;
+	skos:prefLabel "Tupiniquim"@en-gb ;
+	schema:name "Tupiniquim"@en-gb ;
+	rdfs:label "tupiniquim"@fr ;
+	skos:prefLabel "tupiniquim"@fr ;
+	schema:name "tupiniquim"@fr ;
+	rdfs:label "tupinikini keel"@et ;
+	skos:prefLabel "tupinikini keel"@et ;
+	schema:name "tupinikini keel"@et ;
+	rdfs:label "Idioma tupiniquim"@ast ;
+	skos:prefLabel "Idioma tupiniquim"@ast ;
+	schema:name "Idioma tupiniquim"@ast ;
+	rdfs:label "Lingua tupiniquim"@gl ;
+	skos:prefLabel "Lingua tupiniquim"@gl ;
+	schema:name "Lingua tupiniquim"@gl ;
+	rdfs:label "tupinikimščina"@sl ;
+	skos:prefLabel "tupinikimščina"@sl ;
+	schema:name "tupinikimščina"@sl ;
+	schema:description "lengua extinta brasileña"@es,
+		"Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue tupi"@fr,
+		"yezh"@br,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"lingua morta da familia tupí-guaraní"@gl,
+		"izumrl tupijski jezik"@sl ;
+	skos:altLabel "tupinaki"@es,
+		"Tupinikin"@en,
+		"Tupiniquim language"@en,
+		"Lingua tupinaki"@gl,
+		"tupinikimski jezik"@sl .
+
+wd:Q12953941 owl:sameAs wd:Q33924 .

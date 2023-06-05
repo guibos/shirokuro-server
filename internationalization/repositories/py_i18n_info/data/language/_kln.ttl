@@ -1,0 +1,183 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q637228 a schema:Dataset ;
+	schema:about wd:Q637228 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1594675507"^^xsd:integer ;
+	schema:dateModified "2022-03-15T04:31:54Z"^^xsd:dateTime .
+
+wd:Q637228 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Langues_kalendjin> a schema:Article ;
+	schema:about wd:Q637228 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Langues kalendjin"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kalenjin> a schema:Article ;
+	schema:about wd:Q637228 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kalenjin"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Kalenjin_(spr%C3%A5k)> a schema:Article ;
+	schema:about wd:Q637228 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Kalenjin (språk)"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikalenjin> a schema:Article ;
+	schema:about wd:Q637228 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikalenjin"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kalenjin_languages> a schema:Article ;
+	schema:about wd:Q637228 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kalenjin languages"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Yezho%C3%B9_kalendjinek> a schema:Article ;
+	schema:about wd:Q637228 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Yezhoù kalendjinek"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Kalenjin_bhasa> a schema:Article ;
+	schema:about wd:Q637228 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Kalenjin bhasa"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Kalenjin-kielet> a schema:Article ;
+	schema:about wd:Q637228 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Kalenjin-kielet"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q637228 wdt:P910 wd:Q8570073 ;
+	wdt:P31 wd:Q25295,
+		wd:Q34770,
+		wd:Q152559,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q1552410 ;
+	wdt:P220 "kln" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kln> ;
+	wdt:P305 "kln" ;
+	wdt:P1394 "kale1246" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kale1246> ;
+	wdt:P1627 "kln" ;
+	wdt:P2581 "00814602n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s00814602n> ;
+	wdt:P1466 "nan" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_nan> ;
+	wdt:P1014 "300388527" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388527> ;
+	wdt:P1245 "802036" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KLN> ;
+	wdt:P8408 "KalenjinLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/KalenjinLanguage> ;
+	wdt:P646 "/m/05d623" ;
+	wdt:P2341 wd:Q114 ;
+	wdt:P9060 "kln" ;
+	wdt:P17 wd:Q114,
+		wd:Q1036,
+		wd:Q924 ;
+	rdfs:label "langues kalenjin"@fr ;
+	skos:prefLabel "langues kalenjin"@fr ;
+	schema:name "langues kalenjin"@fr ;
+	rdfs:label "yezhoù kalendjinek"@br ;
+	skos:prefLabel "yezhoù kalendjinek"@br ;
+	schema:name "yezhoù kalendjinek"@br ;
+	rdfs:label "Kalenjin"@en ;
+	skos:prefLabel "Kalenjin"@en ;
+	schema:name "Kalenjin"@en ;
+	rdfs:label "Kikalenjin"@sw ;
+	skos:prefLabel "Kikalenjin"@sw ;
+	schema:name "Kikalenjin"@sw ;
+	rdfs:label "Lenga Kalenjin"@pms ;
+	skos:prefLabel "Lenga Kalenjin"@pms ;
+	schema:name "Lenga Kalenjin"@pms ;
+	rdfs:label "Kalenjin-kielet"@fi ;
+	skos:prefLabel "Kalenjin-kielet"@fi ;
+	schema:name "Kalenjin-kielet"@fi ;
+	rdfs:label "Kalenjin"@en-gb ;
+	skos:prefLabel "Kalenjin"@en-gb ;
+	schema:name "Kalenjin"@en-gb ;
+	rdfs:label "Kalenjin"@sv ;
+	skos:prefLabel "Kalenjin"@sv ;
+	schema:name "Kalenjin"@sv ;
+	rdfs:label "カレンジン諸語"@ja ;
+	skos:prefLabel "カレンジン諸語"@ja ;
+	schema:name "カレンジン諸語"@ja ;
+	rdfs:label "Kalenjin bhasa"@hif ;
+	skos:prefLabel "Kalenjin bhasa"@hif ;
+	schema:name "Kalenjin bhasa"@hif ;
+	rdfs:label "Kalenjin"@nl ;
+	skos:prefLabel "Kalenjin"@nl ;
+	schema:name "Kalenjin"@nl ;
+	rdfs:label "الكالنجينية"@ar ;
+	skos:prefLabel "الكالنجينية"@ar ;
+	schema:name "الكالنجينية"@ar ;
+	rdfs:label "کالجنی زبان"@ur ;
+	skos:prefLabel "کالجنی زبان"@ur ;
+	schema:name "کالجنی زبان"@ur ;
+	rdfs:label "łéngue kalenjin"@vec ;
+	skos:prefLabel "łéngue kalenjin"@vec ;
+	schema:name "łéngue kalenjin"@vec ;
+	schema:description "Southern Nilotic language family"@en,
+		"famille de langues"@fr,
+		"familh yezhoù"@br,
+		"groep Nilotische talen, gesproken in Kenya, Tanzania en Oeganda"@nl,
+		"أسرة لغات أفريقية"@ar ;
+	skos:altLabel "Kalenjin languages"@en,
+		"Kalenjin language"@en .
+
+wd:Q25645477 owl:sameAs wd:Q637228 .

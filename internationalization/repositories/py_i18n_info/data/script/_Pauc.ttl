@@ -1,0 +1,115 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q25339852 a schema:Dataset ;
+	schema:about wd:Q25339852 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1766404016"^^xsd:integer ;
+	schema:dateModified "2022-11-07T04:05:57Z"^^xsd:dateTime .
+
+wd:Q25339852 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Pau_Cin_Hau_script> a schema:Article ;
+	schema:about wd:Q25339852 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Pau Cin Hau script"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Escrita_Pau_Cin_Hau> a schema:Article ;
+	schema:about wd:Q25339852 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Escrita Pau Cin Hau"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://my.wikipedia.org/wiki/%E1%80%95%E1%80%B1%E1%80%AB%E1%80%84%E1%80%BA%E1%80%80%E1%80%BB%E1%80%84%E1%80%B7%E1%80%BA%E1%80%9F%E1%80%B1%E1%80%AC%E1%80%80%E1%80%BA_%E1%80%85%E1%80%AC%E1%80%A1%E1%80%9B%E1%80%B1%E1%80%B8%E1%80%A1%E1%80%9E%E1%80%AC%E1%80%B8%E1%80%85%E1%80%94%E1%80%85%E1%80%BA> a schema:Article ;
+	schema:about wd:Q25339852 ;
+	schema:inLanguage "my" ;
+	schema:isPartOf <https://my.wikipedia.org/> ;
+	schema:name "ပေါင်ကျင့်ဟောက် စာအရေးအသားစနစ်"@my .
+
+<https://my.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q25339852 wdt:P31 wd:Q1191702,
+		wd:Q4004706,
+		wd:Q3953107,
+		wd:Q2182919 ;
+	wdt:P506 "Pauc" ;
+	wdt:P2620 "263" ;
+	wdt:P366 wd:Q3517100 ;
+	wdt:P170 wd:Q7148814 ;
+	wdt:P5949 "U+11AC0-11AFF" ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P2671 "/g/11bvt11x67" ;
+	wdtn:P2671 <http://g.co/kg/g/11bvt11x67> ;
+	wdt:P2561 "Pau Cin Hau"@en,
+		"paou chin haou"@fr ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Pau%20Cin%20Hau%20letter%20nga.svg> ;
+	wdt:P138 wd:Q7148814 ;
+	wdt:P407 wd:Q37011,
+		wd:Q56357 ;
+	wdt:P571 "1902-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P910 wd:Q112039631 ;
+	rdfs:label "Pau Cin Hau"@en ;
+	skos:prefLabel "Pau Cin Hau"@en ;
+	schema:name "Pau Cin Hau"@en ;
+	rdfs:label "袍清豪文"@zh ;
+	skos:prefLabel "袍清豪文"@zh ;
+	schema:name "袍清豪文"@zh ;
+	rdfs:label "Γραφή Πάου Τσιν Χάου"@el ;
+	skos:prefLabel "Γραφή Πάου Τσιν Χάου"@el ;
+	schema:name "Γραφή Πάου Τσιν Χάου"@el ;
+	rdfs:label "包钦豪文"@zh-hans ;
+	skos:prefLabel "包钦豪文"@zh-hans ;
+	schema:name "包钦豪文"@zh-hans ;
+	rdfs:label "paou chin haou"@fr ;
+	skos:prefLabel "paou chin haou"@fr ;
+	schema:name "paou chin haou"@fr ;
+	rdfs:label "Escrita Pau Cin Hau"@pt ;
+	skos:prefLabel "Escrita Pau Cin Hau"@pt ;
+	schema:name "Escrita Pau Cin Hau"@pt ;
+	rdfs:label "ပေါင်ကျင့်ဟောက် စာအရေးအသားစနစ်"@my ;
+	skos:prefLabel "ပေါင်ကျင့်ဟောက် စာအရေးအသားစနစ်"@my ;
+	schema:name "ပေါင်ကျင့်ဟောက် စာအရေးအသားစနစ်"@my ;
+	rdfs:label "パウ・チン・ハウ文字"@ja ;
+	skos:prefLabel "パウ・チン・ハウ文字"@ja ;
+	schema:name "パウ・チン・ハウ文字"@ja ;
+	schema:description "writing system"@en,
+		"système d'écriture"@fr ;
+	skos:altLabel "包欽豪文"@zh,
+		"包钦豪文"@zh,
+		"Pau Cin Hau script"@en .
+
+wd:Q65161777 owl:sameAs wd:Q25339852 .

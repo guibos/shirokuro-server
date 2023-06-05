@@ -1,0 +1,130 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11002130 a schema:Dataset ;
+	schema:about wd:Q11002130 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1756959917"^^xsd:integer ;
+	schema:dateModified "2022-10-24T03:51:20Z"^^xsd:dateTime .
+
+wd:Q11002130 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Maninkakan_de_l%27Est> a schema:Article ;
+	schema:about wd:Q11002130 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Maninkakan de l'Est"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Maninkakan_oriental> a schema:Article ;
+	schema:about wd:Q11002130 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Maninkakan oriental"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimaninkakan-Mashariki> a schema:Article ;
+	schema:about wd:Q11002130 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimaninkakan-Mashariki"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mg.wikipedia.org/wiki/Fiteny_maninka_atsinanana> a schema:Article ;
+	schema:about wd:Q11002130 ;
+	schema:inLanguage "mg" ;
+	schema:isPartOf <https://mg.wikipedia.org/> ;
+	schema:name "Fiteny maninka atsinanana"@mg .
+
+<https://mg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11002130 wdt:P220 "emk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/emk> ;
+	wdt:P305 "emk" ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q35772 ;
+	wdt:P269 "114399700" ;
+	wdtn:P269 <http://www.idref.fr/114399700/id> ;
+	wdt:P268 "155283226" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb155283226#about> ;
+	wdt:P1394 "east2426" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/east2426> ;
+	wdt:P1466 "mnk" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_mnk> ;
+	wdt:P1627 "emk" ;
+	wdt:P3823 wd:Q29051549 ;
+	wdt:P17 wd:Q1006,
+		wd:Q912,
+		wd:Q1044 ;
+	wdt:P2341 wd:Q1006,
+		wd:Q287789,
+		wd:Q461298,
+		wd:Q3703,
+		wd:Q912359 ;
+	wdt:P1396 "00-AAA-ah" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/EMK> ;
+	wdt:P646 "/m/0d8x9x" ;
+	wdt:P910 wd:Q105714546 ;
+	rdfs:label "Lenga Maninkakan oriental"@pms ;
+	skos:prefLabel "Lenga Maninkakan oriental"@pms ;
+	schema:name "Lenga Maninkakan oriental"@pms ;
+	rdfs:label "Kimaninkakan-Mashariki"@sw ;
+	skos:prefLabel "Kimaninkakan-Mashariki"@sw ;
+	schema:name "Kimaninkakan-Mashariki"@sw ;
+	rdfs:label "maninkakan de l'Est"@fr ;
+	skos:prefLabel "maninkakan de l'Est"@fr ;
+	schema:name "maninkakan de l'Est"@fr ;
+	rdfs:label "Eastern Maninkaka"@en ;
+	skos:prefLabel "Eastern Maninkaka"@en ;
+	schema:name "Eastern Maninkaka"@en ;
+	rdfs:label "ߡߊ߲߬ߣߌߞߊ߬ ߞߊ߲߫"@nqo ;
+	skos:prefLabel "ߡߊ߲߬ߣߌߞߊ߬ ߞߊ߲߫"@nqo ;
+	schema:name "ߡߊ߲߬ߣߌߞߊ߬ ߞߊ߲߫"@nqo ;
+	rdfs:label "Fiteny maninka atsinanana"@mg ;
+	skos:prefLabel "Fiteny maninka atsinanana"@mg ;
+	schema:name "Fiteny maninka atsinanana"@mg ;
+	schema:description "langue mandingue"@fr,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"ߡߊ߲߬ߘߋ߲߬ ߞߊ߲"@nqo ;
+	skos:altLabel "Eastern Maninkaka language"@en .

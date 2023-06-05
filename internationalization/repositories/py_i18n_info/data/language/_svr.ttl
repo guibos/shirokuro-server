@@ -1,0 +1,125 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33771 a schema:Dataset ;
+	schema:about wd:Q33771 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1965296724"^^xsd:integer ;
+	schema:dateModified "2023-08-31T10:41:32Z"^^xsd:dateTime .
+
+wd:Q33771 a wikibase:Item .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_savara> a schema:Article ;
+	schema:about wd:Q33771 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua savara"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Savara_language_(Dravidian)> a schema:Article ;
+	schema:about wd:Q33771 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Savara language (Dravidian)"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%9A%E0%AE%B5%E0%AE%BE%E0%AE%B0%E0%AE%BE_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF> a schema:Article ;
+	schema:about wd:Q33771 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "சவாரா மொழி"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Savara> a schema:Article ;
+	schema:about wd:Q33771 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Savara"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisavara> a schema:Article ;
+	schema:about wd:Q33771 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisavara"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33771 wdt:P227 "4376393-5" ;
+	wdtn:P227 <https://d-nb.info/gnd/4376393-5> ;
+	wdt:P220 "svr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/svr> ;
+	wdt:P1394 "sava1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sava1244> ;
+	wdt:P305 "svr" ;
+	wdt:P646 "/m/02hxjn4" ;
+	rdfs:label "Língua savara"@pt ;
+	skos:prefLabel "Língua savara"@pt ;
+	schema:name "Língua savara"@pt ;
+	rdfs:label "Savara"@en ;
+	skos:prefLabel "Savara"@en ;
+	schema:name "Savara"@en ;
+	rdfs:label "சவாரா மொழி"@ta ;
+	skos:prefLabel "சவாரா மொழி"@ta ;
+	schema:name "சவாரா மொழி"@ta ;
+	rdfs:label "Savara-Sprache"@de ;
+	skos:prefLabel "Savara-Sprache"@de ;
+	schema:name "Savara-Sprache"@de ;
+	rdfs:label "Lenga Savara"@pms ;
+	skos:prefLabel "Lenga Savara"@pms ;
+	schema:name "Lenga Savara"@pms ;
+	rdfs:label "Kisavara"@sw ;
+	skos:prefLabel "Kisavara"@sw ;
+	schema:name "Kisavara"@sw ;
+	rdfs:label "savara"@fr ;
+	skos:prefLabel "savara"@fr ;
+	schema:name "savara"@fr ;
+	rdfs:label "савара"@ru ;
+	skos:prefLabel "савара"@ru ;
+	schema:name "савара"@ru ;
+	rdfs:label "savarščina"@sl ;
+	skos:prefLabel "savarščina"@sl ;
+	schema:name "savarščina"@sl ;
+	schema:description "Mundasprache in Orissa, Indien"@de,
+		"language"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"langue considérée comme inexistante par Ethnologue"@fr ;
+	skos:altLabel "Savara language"@en,
+		"savarski jezik"@sl .
+
+wd:Q7427923 owl:sameAs wd:Q33771 .

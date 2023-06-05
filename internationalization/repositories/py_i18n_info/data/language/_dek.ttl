@@ -1,0 +1,116 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5252754 a schema:Dataset ;
+	schema:about wd:Q5252754 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1486171648"^^xsd:integer ;
+	schema:dateModified "2021-08-23T08:41:17Z"^^xsd:dateTime .
+
+wd:Q5252754 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Dek> a schema:Article ;
+	schema:about wd:Q5252754 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Dek"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Dek> a schema:Article ;
+	schema:about wd:Q5252754 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Dek"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kidek> a schema:Article ;
+	schema:about wd:Q5252754 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kidek"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Dek_language> a schema:Article ;
+	schema:about wd:Q5252754 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Dek language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5252754 wdt:P220 "dek" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dek> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "dekk1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/dekk1240> ;
+	wdt:P305 "dek" ;
+	wdt:P1627 "dek" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q1009 ;
+	wdt:P2341 wd:Q502341 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DEK> ;
+	wdt:P646 "/m/02hxrst" ;
+	rdfs:label "Dek"@en ;
+	skos:prefLabel "Dek"@en ;
+	schema:name "Dek"@en ;
+	rdfs:label "Kidek"@sw ;
+	skos:prefLabel "Kidek"@sw ;
+	schema:name "Kidek"@sw ;
+	rdfs:label "Lenga Dek"@pms ;
+	skos:prefLabel "Lenga Dek"@pms ;
+	schema:name "Lenga Dek"@pms ;
+	rdfs:label "dek"@fr ;
+	skos:prefLabel "dek"@fr ;
+	schema:name "dek"@fr ;
+	rdfs:label "Dek"@en-gb ;
+	skos:prefLabel "Dek"@en-gb ;
+	schema:name "Dek"@en-gb ;
+	rdfs:label "Wikang Dek"@tl ;
+	skos:prefLabel "Wikang Dek"@tl ;
+	schema:name "Wikang Dek"@tl ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Dek language"@en .
+
+wd:Q11015722 owl:sameAs wd:Q5252754 .

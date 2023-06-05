@@ -1,0 +1,119 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q15462671 a schema:Dataset ;
+	schema:about wd:Q15462671 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1760562501"^^xsd:integer ;
+	schema:dateModified "2022-10-29T15:23:27Z"^^xsd:dateTime .
+
+wd:Q15462671 a wikibase:Item .
+
+<https://ru.wikipedia.org/wiki/%D0%AD%D0%BD%D0%BB%D1%8C%D0%B5%D1%82_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q15462671 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Энльет (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Enlhet_language> a schema:Article ;
+	schema:about wd:Q15462671 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Enlhet language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_enlhet> a schema:Article ;
+	schema:about wd:Q15462671 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma enlhet"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Enlhet> a schema:Article ;
+	schema:about wd:Q15462671 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Enlhet"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q15462671 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "nort2971" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nort2971> ;
+	wdt:P220 "enl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/enl> ;
+	wdt:P279 wd:Q1906952 ;
+	wdt:P910 wd:Q32828555 ;
+	wdt:P2192 "4490" ;
+	wdt:P305 "enl" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P1627 "enl" ;
+	wdt:P17 wd:Q733 ;
+	wdt:P2341 wd:Q3435610,
+		wd:Q750551,
+		wd:Q682642,
+		wd:Q741017 ;
+	wdt:P646 "/m/0wy1rbk" ;
+	rdfs:label "Энльет (язык)"@ru ;
+	skos:prefLabel "Энльет (язык)"@ru ;
+	schema:name "Энльет (язык)"@ru ;
+	rdfs:label "Enlhet"@en ;
+	skos:prefLabel "Enlhet"@en ;
+	schema:name "Enlhet"@en ;
+	rdfs:label "enlhet"@fr ;
+	skos:prefLabel "enlhet"@fr ;
+	schema:name "enlhet"@fr ;
+	rdfs:label "Wikang Enlhet"@tl ;
+	skos:prefLabel "Wikang Enlhet"@tl ;
+	schema:name "Wikang Enlhet"@tl ;
+	rdfs:label "enxet"@es ;
+	skos:prefLabel "enxet"@es ;
+	schema:name "enxet"@es ;
+	schema:description "langue lengua-mascoy"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "lengua du Nord"@fr,
+		"Northern Lengua"@en,
+		"Enlhet language"@en .
+
+wd:Q61095978 owl:sameAs wd:Q15462671 .

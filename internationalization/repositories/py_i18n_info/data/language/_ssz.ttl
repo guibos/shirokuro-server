@@ -1,0 +1,137 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7450601 a schema:Dataset ;
+	schema:about wd:Q7450601 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960454671"^^xsd:integer ;
+	schema:dateModified "2023-08-24T21:04:33Z"^^xsd:dateTime .
+
+wd:Q7450601 a wikibase:Item .
+
+<https://diq.wikipedia.org/wiki/Sengsengki> a schema:Article ;
+	schema:about wd:Q7450601 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Sengsengki"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Sengseng> a schema:Article ;
+	schema:about wd:Q7450601 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Sengseng"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Sengseng> a schema:Article ;
+	schema:about wd:Q7450601 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Sengseng"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisengseng> a schema:Article ;
+	schema:about wd:Q7450601 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisengseng"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sengseng_language> a schema:Article ;
+	schema:about wd:Q7450601 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sengseng language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7450601 wdt:P220 "ssz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ssz> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q20526566 ;
+	wdt:P1394 "seng1281" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/seng1281> ;
+	wdt:P2355 "2701" ;
+	wdt:P2581 "03860465n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s03860465n> ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P305 "ssz" ;
+	wdt:P2192 "2650" ;
+	wdt:P1627 "ssz" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q667468 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SSZ> ;
+	wdt:P646 "/m/02pm3dx" ;
+	rdfs:label "Sengseng"@en ;
+	skos:prefLabel "Sengseng"@en ;
+	schema:name "Sengseng"@en ;
+	rdfs:label "Lenga Sengseng"@pms ;
+	skos:prefLabel "Lenga Sengseng"@pms ;
+	schema:name "Lenga Sengseng"@pms ;
+	rdfs:label "Kisengseng"@sw ;
+	skos:prefLabel "Kisengseng"@sw ;
+	schema:name "Kisengseng"@sw ;
+	rdfs:label "Sengseng"@ilo ;
+	skos:prefLabel "Sengseng"@ilo ;
+	schema:name "Sengseng"@ilo ;
+	rdfs:label "Sengseng"@en-gb ;
+	skos:prefLabel "Sengseng"@en-gb ;
+	schema:name "Sengseng"@en-gb ;
+	rdfs:label "Sengsengki"@diq ;
+	skos:prefLabel "Sengsengki"@diq ;
+	schema:name "Sengsengki"@diq ;
+	rdfs:label "sengseng"@fr ;
+	skos:prefLabel "sengseng"@fr ;
+	schema:name "sengseng"@fr ;
+	rdfs:label "Sengseng"@nl ;
+	skos:prefLabel "Sengseng"@nl ;
+	schema:name "Sengseng"@nl ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue de Nouvelle-Guinée du Nord"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Sengseng language"@en .
+
+wd:Q12953119 owl:sameAs wd:Q7450601 .

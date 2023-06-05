@@ -1,0 +1,132 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6748664 a schema:Dataset ;
+	schema:about wd:Q6748664 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616006552"^^xsd:integer ;
+	schema:dateModified "2022-04-10T14:00:25Z"^^xsd:dateTime .
+
+wd:Q6748664 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_mangala> a schema:Article ;
+	schema:about wd:Q6748664 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga mangala"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Mangala> a schema:Article ;
+	schema:about wd:Q6748664 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Mangala"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimangala> a schema:Article ;
+	schema:about wd:Q6748664 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimangala"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mangarla_language> a schema:Article ;
+	schema:about wd:Q6748664 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mangarla language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6748664 wdt:P220 "mem" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mem> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "mang1383" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mang1383> ;
+	wdt:P1252 "A65" ;
+	wdt:P2355 "205" ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P279 wd:Q16151520 ;
+	wdt:P910 wd:Q56241091 ;
+	wdt:P2192 "5934" ;
+	wdt:P305 "mem" ;
+	wdt:P1627 "mem" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3206 ;
+	wdt:P6915 "Mangala" ;
+	wdt:P1251 "8926" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MEM> ;
+	wdt:P646 "/m/02hwnfn" ;
+	rdfs:label "Mangarla"@en ;
+	skos:prefLabel "Mangarla"@en ;
+	schema:name "Mangarla"@en ;
+	rdfs:label "Lenga mangala"@pms ;
+	skos:prefLabel "Lenga mangala"@pms ;
+	schema:name "Lenga mangala"@pms ;
+	rdfs:label "lingua Mangarla"@it ;
+	skos:prefLabel "lingua Mangarla"@it ;
+	schema:name "lingua Mangarla"@it ;
+	rdfs:label "Mangala"@sv ;
+	skos:prefLabel "Mangala"@sv ;
+	schema:name "Mangala"@sv ;
+	rdfs:label "Kimangala"@sw ;
+	skos:prefLabel "Kimangala"@sw ;
+	schema:name "Kimangala"@sw ;
+	rdfs:label "mangala"@fr ;
+	skos:prefLabel "mangala"@fr ;
+	schema:name "mangala"@fr ;
+	rdfs:label "mangarla"@vec ;
+	skos:prefLabel "mangarla"@vec ;
+	schema:name "mangarla"@vec ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"lugha ya asili ya Australia"@sw,
+		"langue pama-nyungan"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"språk"@sv ;
+	skos:altLabel "Mangala"@en,
+		"Mangarla language"@en,
+		"Kimangarla"@sw .
+
+wd:Q10576372 owl:sameAs wd:Q6748664 .

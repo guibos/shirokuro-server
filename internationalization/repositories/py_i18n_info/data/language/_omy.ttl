@@ -1,0 +1,138 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q31775823 a schema:Dataset ;
+	schema:about wd:Q31775823 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1907130551"^^xsd:integer ;
+	schema:dateModified "2023-06-03T06:30:41Z"^^xsd:dateTime .
+
+wd:Q31775823 a wikibase:Item .
+
+<https://id.wikipedia.org/wiki/Bahasa_Melayu_Kuno> a schema:Article ;
+	schema:about wd:Q31775823 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Melayu Kuno"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Melayu_Kuno> a schema:Article ;
+	schema:about wd:Q31775823 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Melayu Kuno"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jv.wikipedia.org/wiki/Basa_Melayu_Kuna> a schema:Article ;
+	schema:about wd:Q31775823 ;
+	schema:inLanguage "jv" ;
+	schema:isPartOf <https://jv.wikipedia.org/> ;
+	schema:name "Basa Melayu Kuna"@jv .
+
+<https://jv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Old_Malay_language> a schema:Article ;
+	schema:about wd:Q31775823 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Old Malay language"@en ;
+	wikibase:badge wd:Q70894304 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Antigo_malaio> a schema:Article ;
+	schema:about wd:Q31775823 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Antigo malaio"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q31775823 wdt:P31 wd:Q34770,
+		wd:Q2315359 ;
+	wdt:P279 wd:Q662628 ;
+	wdt:P737 wd:Q49340 ;
+	wdt:P1417 "topic/Old-Malay-language" ;
+	wdt:P1394 "oldm1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/oldm1243> ;
+	wdt:P282 wd:Q15104320 ;
+	wdt:P220 "omy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/omy> ;
+	wdt:P2671 "/g/11bc5xxh0p" ;
+	wdtn:P2671 <http://g.co/kg/g/11bc5xxh0p> ;
+	wdt:P305 "omy" ;
+	wdt:P2561 "Bahase Melayu Tue"@ms ;
+	wdt:P2341 wd:Q3492 ;
+	rdfs:label "Old Malay"@en ;
+	skos:prefLabel "Old Malay"@en ;
+	schema:name "Old Malay"@en ;
+	rdfs:label "antikva malaja lingvo"@eo ;
+	skos:prefLabel "antikva malaja lingvo"@eo ;
+	schema:name "antikva malaja lingvo"@eo ;
+	rdfs:label "Melayu Kuna"@jv ;
+	skos:prefLabel "Melayu Kuna"@jv ;
+	schema:name "Melayu Kuna"@jv ;
+	rdfs:label "Melayu Tua"@id ;
+	skos:prefLabel "Melayu Tua"@id ;
+	schema:name "Melayu Tua"@id ;
+	rdfs:label "Melayu Tua"@ms ;
+	skos:prefLabel "Melayu Tua"@ms ;
+	schema:name "Melayu Tua"@ms ;
+	rdfs:label "malai antic"@ca ;
+	skos:prefLabel "malai antic"@ca ;
+	schema:name "malai antic"@ca ;
+	schema:description "oldest attested form of Malay, attested through inscriptions mainly found in Sumatra and parts of Java"@en,
+		"taal"@nl,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"iaith"@cy,
+		"lingua"@la,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"wujud bahasa Melayu tertua, dichakapkan kat Sumatera"@ms,
+		"llengua"@ca ;
+	skos:altLabel "Bahasa Melayu Tua"@id,
+		"Melayu Kuno"@id,
+		"Bahasa Melayu Kuno"@id,
+		"basa Melayu Kuna"@jv,
+		"Old Malay language"@en,
+		"Ancient Malay"@en,
+		"Ancient Malay language"@en,
+		"Bahasa Melayu Tua"@ms,
+		"Melayu Lama"@ms,
+		"Bahasa Melayu Lama"@ms .
+
+wd:Q108103650 owl:sameAs wd:Q31775823 .

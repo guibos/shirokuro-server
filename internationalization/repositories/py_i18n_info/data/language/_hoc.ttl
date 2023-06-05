@@ -1,0 +1,515 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33270 a schema:Dataset ;
+	schema:about wd:Q33270 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1890540802"^^xsd:integer ;
+	schema:dateModified "2023-05-06T12:34:26Z"^^xsd:dateTime .
+
+wd:Q33270 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_ho> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga ho"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A5%D0%BE_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Хо (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ho_language> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ho language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%B9%E0%A5%8B_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "हो भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Ho> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Ho"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%82%E0%B8%AE> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาโฮ"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_ho> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua ho"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiho> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiho"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%9B%E3%83%BC%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ホー語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/Ho_(sprog)> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Ho (sprog)"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%DB%81%D9%88_%D8%A8%D9%88%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "ہو بولی"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_ho> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język ho"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D9%87%D9%88%D9%8A%D9%88%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "اللغة الهويوية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%A5%D0%BE_(%D0%B5%D0%B7%D0%B8%D0%BA)> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Хо (език)"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Hoo_keel> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Hoo keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Ho_(llengua)> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Ho (llengua)"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://diq.wikipedia.org/wiki/Hoki> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Hoki"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Ho_(langue)> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Ho (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Ho> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Ho"@tl ;
+	wikibase:badge wd:Q70893996 .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Hoa_lingvo> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Hoa lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Ho> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Ho"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Hoeg> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Hoeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://or.wikipedia.org/wiki/%E0%AC%B9%E0%AD%8B_%E0%AC%AD%E0%AC%BE%E0%AC%B7%E0%AC%BE> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "or" ;
+	schema:isPartOf <https://or.wikipedia.org/> ;
+	schema:name "ହୋ ଭାଷା"@or .
+
+<https://or.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%B9%E0%A7%8B_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "হো ভাষা"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Ho_language> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Ho language"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Ho> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Ho"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Hon_kieli> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Hon kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%ED%98%B8%EC%96%B4> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "호어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E9%9C%8D%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "霍语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ne.wikipedia.org/wiki/%E0%A4%B9%E0%A5%8B_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "ne" ;
+	schema:isPartOf <https://ne.wikipedia.org/> ;
+	schema:name "हो भाषा"@ne .
+
+<https://ne.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Ho_(lenga)> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Ho (lenga)"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%A6%E1%B1%B3_%E1%B1%AF%E1%B1%9F%E1%B1%B9%E1%B1%A8%E1%B1%A5%E1%B1%A4> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱦᱳ ᱯᱟᱹᱨᱥᱤ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Ho> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Ho"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Ho_(spr%C3%A5k)> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Ho (språk)"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://anp.wikipedia.org/wiki/%E0%A4%B9%E0%A5%8B_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q33270 ;
+	schema:inLanguage "anp" ;
+	schema:isPartOf <https://anp.wikipedia.org/> ;
+	schema:name "हो भाषा"@anp .
+
+<https://anp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33270 wdt:P220 "hoc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hoc> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P349 "00575834" ;
+	wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00575834> ;
+	wdt:P646 "/m/02hxtvb" ;
+	wdt:P305 "hoc" ;
+	wdt:P282 wd:Q79199,
+		wd:Q1760127,
+		wd:Q38592,
+		wd:Q8229,
+		wd:Q570450,
+		wd:Q12438487 ;
+	wdt:P279 wd:Q33892 ;
+	wdt:P1098 "+1500000"^^xsd:decimal ;
+	wdt:P1394 "hooo1248" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/hooo1248> ;
+	wdt:P2355 "1212" ;
+	wdt:P1466 "ho" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ho> ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P1627 "hoc" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1184,
+		wd:Q22048,
+		wd:Q1356 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HOC> ;
+	wdt:P8408 "HoLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/HoLanguage> ;
+	wdt:P172 wd:Q2392686 ;
+	wdt:P910 wd:Q33309258 ;
+	wdt:P424 "hoc" ;
+	wdt:P1014 "300393249" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300393249> ;
+	wdt:P2347 "29181" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p29181> ;
+	wdt:P10369 "Q27302" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q27302> ;
+	rdfs:label "हो भाषा"@hi ;
+	skos:prefLabel "हो भाषा"@hi ;
+	schema:name "हो भाषा"@hi ;
+	rdfs:label "Língua ho"@pt ;
+	skos:prefLabel "Língua ho"@pt ;
+	schema:name "Língua ho"@pt ;
+	rdfs:label "Lenga ho"@pms ;
+	skos:prefLabel "Lenga ho"@pms ;
+	schema:name "Lenga ho"@pms ;
+	rdfs:label "Język ho"@pl ;
+	skos:prefLabel "Język ho"@pl ;
+	schema:name "Język ho"@pl ;
+	rdfs:label "Хо"@ru ;
+	skos:prefLabel "Хо"@ru ;
+	schema:name "Хо"@ru ;
+	rdfs:label "호어"@ko ;
+	skos:prefLabel "호어"@ko ;
+	schema:name "호어"@ko ;
+	rdfs:label "ho"@fr ;
+	skos:prefLabel "ho"@fr ;
+	schema:name "ho"@fr ;
+	rdfs:label "Ho"@en ;
+	skos:prefLabel "Ho"@en ;
+	schema:name "Ho"@en ;
+	rdfs:label "ภาษาโฮ"@th ;
+	skos:prefLabel "ภาษาโฮ"@th ;
+	schema:name "ภาษาโฮ"@th ;
+	rdfs:label "ho"@ca ;
+	skos:prefLabel "ho"@ca ;
+	schema:name "ho"@ca ;
+	rdfs:label "lingua Ho"@la ;
+	skos:prefLabel "lingua Ho"@la ;
+	schema:name "lingua Ho"@la ;
+	rdfs:label "ホー語"@ja ;
+	skos:prefLabel "ホー語"@ja ;
+	schema:name "ホー語"@ja ;
+	rdfs:label "হো ভাষা"@bn ;
+	skos:prefLabel "হো ভাষা"@bn ;
+	schema:name "হো ভাষা"@bn ;
+	rdfs:label "hoeg"@br ;
+	skos:prefLabel "hoeg"@br ;
+	schema:name "hoeg"@br ;
+	rdfs:label "Tiếng Ho"@vi ;
+	skos:prefLabel "Tiếng Ho"@vi ;
+	schema:name "Tiếng Ho"@vi ;
+	rdfs:label "ہو بولی"@pnb ;
+	skos:prefLabel "ہو بولی"@pnb ;
+	schema:name "ہو بولی"@pnb ;
+	rdfs:label "Ho"@da ;
+	skos:prefLabel "Ho"@da ;
+	schema:name "Ho"@da ;
+	rdfs:label "Ho"@oc ;
+	skos:prefLabel "Ho"@oc ;
+	schema:name "Ho"@oc ;
+	rdfs:label "hoo keel"@et ;
+	skos:prefLabel "hoo keel"@et ;
+	schema:name "hoo keel"@et ;
+	rdfs:label "الهويوية"@ar ;
+	skos:prefLabel "الهويوية"@ar ;
+	schema:name "الهويوية"@ar ;
+	rdfs:label "lingua ho"@it ;
+	skos:prefLabel "lingua ho"@it ;
+	schema:name "lingua ho"@it ;
+	rdfs:label "霍语"@zh ;
+	skos:prefLabel "霍语"@zh ;
+	schema:name "霍语"@zh ;
+	rdfs:label "Hon kieli"@fi ;
+	skos:prefLabel "Hon kieli"@fi ;
+	schema:name "Hon kieli"@fi ;
+	rdfs:label "Ho language"@hif ;
+	skos:prefLabel "Ho language"@hif ;
+	schema:name "Ho language"@hif ;
+	rdfs:label "ହୋ ଭାଷା"@or ;
+	skos:prefLabel "ହୋ ଭାଷା"@or ;
+	schema:name "ହୋ ଭାଷା"@or ;
+	rdfs:label "Kiho"@sw ;
+	skos:prefLabel "Kiho"@sw ;
+	schema:name "Kiho"@sw ;
+	rdfs:label "Хо"@bg ;
+	skos:prefLabel "Хо"@bg ;
+	schema:name "Хо"@bg ;
+	rdfs:label "Ho"@en-gb ;
+	skos:prefLabel "Ho"@en-gb ;
+	schema:name "Ho"@en-gb ;
+	rdfs:label "Wikang Ho"@tl ;
+	skos:prefLabel "Wikang Ho"@tl ;
+	schema:name "Wikang Ho"@tl ;
+	rdfs:label "Hoera"@eu ;
+	skos:prefLabel "Hoera"@eu ;
+	schema:name "Hoera"@eu ;
+	rdfs:label "Hoki"@diq ;
+	skos:prefLabel "Hoki"@diq ;
+	schema:name "Hoki"@diq ;
+	rdfs:label "Tataramon na Ho"@bcl ;
+	skos:prefLabel "Tataramon na Ho"@bcl ;
+	schema:name "Tataramon na Ho"@bcl ;
+	rdfs:label "hoa lingvo"@eo ;
+	skos:prefLabel "hoa lingvo"@eo ;
+	schema:name "hoa lingvo"@eo ;
+	rdfs:label "ᱦᱚ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	skos:prefLabel "ᱦᱚ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	schema:name "ᱦᱚ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	rdfs:label "हो भाषा"@ne ;
+	skos:prefLabel "हो भाषा"@ne ;
+	schema:name "हो भाषा"@ne ;
+	rdfs:label "ਹੋ"@pa ;
+	skos:prefLabel "ਹੋ"@pa ;
+	schema:name "ਹੋ"@pa ;
+	rdfs:label "Ho"@af ;
+	skos:prefLabel "Ho"@af ;
+	schema:name "Ho"@af ;
+	rdfs:label "Ho"@de ;
+	skos:prefLabel "Ho"@de ;
+	schema:name "Ho"@de ;
+	rdfs:label "ho"@sv ;
+	skos:prefLabel "ho"@sv ;
+	schema:name "ho"@sv ;
+	rdfs:label "ho"@vec ;
+	skos:prefLabel "ho"@vec ;
+	schema:name "ho"@vec ;
+	rdfs:label "हो भाषा"@anp ;
+	skos:prefLabel "हो भाषा"@anp ;
+	schema:name "हो भाषा"@anp ;
+	schema:description "Munda language of the Austro-Asiatic language family spoken primarily in India"@en,
+		"lingua austroasiatica"@it,
+		"Munda-Sprache"@de,
+		"שפה"@he,
+		"Ho jendeak egiten duen munda hizkuntza, austro-asiatiko familiakoa"@eu,
+		"munda keel Indias"@et,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ਆਸਟ੍ਰੋ-ਏਸ਼ੀਆਈ ਭਾਸ਼ਾ ਪਰਿਵਾਰ ਦੇ ਮੁੰਡਾ ਭਾਸ਼ਾ ਮੁੱਖ ਤੌਰ ਤੇ ਭਾਰਤ ਵਿੱਚ ਬੋਲੀ ਜਾਂਦੀ ਹੈ"@pa,
+		"språk"@sv,
+		"język z rodziny austroazjatyckiej"@pl,
+		"मुंडा समूह की भाषा"@hi ;
+	skos:altLabel "Ho jagara"@en,
+		"Ho jagar"@en,
+		"Kol language"@en,
+		"Kolha language"@en,
+		"Ho language"@en,
+		"هويوية"@ar,
+		"Ho hizkuntza"@eu,
+		"ਹੋ ਭਾਸ਼ਾ"@pa,
+		"हो जागर"@hi,
+		"कोल भाषा"@hi,
+		"हो मुंडा भाषा"@hi .
+
+wd:Q13154160 owl:sameAs wd:Q33270 .
+
+wd:Q31442353 owl:sameAs wd:Q33270 .

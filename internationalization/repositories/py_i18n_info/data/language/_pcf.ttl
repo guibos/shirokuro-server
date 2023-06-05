@@ -1,0 +1,123 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7127643 a schema:Dataset ;
+	schema:about wd:Q7127643 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1841172524"^^xsd:integer ;
+	schema:dateModified "2023-02-25T09:39:14Z"^^xsd:dateTime .
+
+wd:Q7127643 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Paliyan> a schema:Article ;
+	schema:about wd:Q7127643 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Paliyan"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kipaliyan> a schema:Article ;
+	schema:about wd:Q7127643 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kipaliyan"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Paliyan_language> a schema:Article ;
+	schema:about wd:Q7127643 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Paliyan language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%AA%E0%AE%B4%E0%AE%BF%E0%AE%AF%E0%AE%A9%E0%AF%8D_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF> a schema:Article ;
+	schema:about wd:Q7127643 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "பழியன் மொழி"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7127643 wdt:P220 "pcf" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pcf> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "pali1274" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/pali1274> ;
+	wdt:P305 "pcf" ;
+	wdt:P1627 "pcf" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1185,
+		wd:Q1186,
+		wd:Q1445 ;
+	wdt:P279 wd:Q6741581 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PCF> ;
+	wdt:P646 "/m/02hwflz" ;
+	rdfs:label "Paliyan"@en ;
+	skos:prefLabel "Paliyan"@en ;
+	schema:name "Paliyan"@en ;
+	rdfs:label "Lenga Paliyan"@pms ;
+	skos:prefLabel "Lenga Paliyan"@pms ;
+	schema:name "Lenga Paliyan"@pms ;
+	rdfs:label "Kipaliyan"@sw ;
+	skos:prefLabel "Kipaliyan"@sw ;
+	schema:name "Kipaliyan"@sw ;
+	rdfs:label "பழியன் மொழி"@ta ;
+	skos:prefLabel "பழியன் மொழி"@ta ;
+	schema:name "பழியன் மொழி"@ta ;
+	rdfs:label "Paliyan"@en-gb ;
+	skos:prefLabel "Paliyan"@en-gb ;
+	schema:name "Paliyan"@en-gb ;
+	rdfs:label "പാലിയൻ"@ml ;
+	skos:prefLabel "പാലിയൻ"@ml ;
+	schema:name "പാലിയൻ"@ml ;
+	rdfs:label "ਪਾਲੀਅਨ"@pa ;
+	skos:prefLabel "ਪਾਲੀਅਨ"@pa ;
+	schema:name "ਪਾਲੀਅਨ"@pa ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ভারতের ভাষা"@bn,
+		"ਭਾਸ਼ਾ"@pa ;
+	skos:altLabel "Paliyan language"@en,
+		"ਪਾਲੀਅਨ ਭਾਸ਼ਾ"@pa .

@@ -1,0 +1,137 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6913216 a schema:Dataset ;
+	schema:about wd:Q6913216 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616011958"^^xsd:integer ;
+	schema:dateModified "2022-04-10T14:07:07Z"^^xsd:dateTime .
+
+wd:Q6913216 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Morokodo> a schema:Article ;
+	schema:about wd:Q6913216 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Morokodo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%9C%D0%BE%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%BE_%D1%98%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q6913216 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Морокодо језик"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimorokodo> a schema:Article ;
+	schema:about wd:Q6913216 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimorokodo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Morokodo_language> a schema:Article ;
+	schema:about wd:Q6913216 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Morokodo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Morokodoeg> a schema:Article ;
+	schema:about wd:Q6913216 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Morokodoeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6913216 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "moro1284" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/moro1284> ;
+	wdt:P2355 "1736" ;
+	wdt:P220 "mgc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mgc> ;
+	wdt:P279 wd:Q3505042 ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P2192 "4645" ;
+	wdt:P305 "mgc" ;
+	wdt:P1627 "mgc" ;
+	wdt:P910 wd:Q63123915 ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q958 ;
+	wdt:P2341 wd:Q319979 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MGC> ;
+	wdt:P646 "/m/02hx798" ;
+	rdfs:label "Morokodo"@en ;
+	skos:prefLabel "Morokodo"@en ;
+	schema:name "Morokodo"@en ;
+	rdfs:label "Морокодо језик"@sr ;
+	skos:prefLabel "Морокодо језик"@sr ;
+	schema:name "Морокодо језик"@sr ;
+	rdfs:label "Lenga Morokodo"@pms ;
+	skos:prefLabel "Lenga Morokodo"@pms ;
+	schema:name "Lenga Morokodo"@pms ;
+	rdfs:label "Kimorokodo"@sw ;
+	skos:prefLabel "Kimorokodo"@sw ;
+	schema:name "Kimorokodo"@sw ;
+	rdfs:label "morokodoeg"@br ;
+	skos:prefLabel "morokodoeg"@br ;
+	schema:name "morokodoeg"@br ;
+	rdfs:label "Morokodo"@en-gb ;
+	skos:prefLabel "Morokodo"@en-gb ;
+	schema:name "Morokodo"@en-gb ;
+	rdfs:label "morokodo"@fr ;
+	skos:prefLabel "morokodo"@fr ;
+	schema:name "morokodo"@fr ;
+	rdfs:label "morocodo"@es ;
+	skos:prefLabel "morocodo"@es ;
+	schema:name "morocodo"@es ;
+	rdfs:label "モロコド語"@ja ;
+	skos:prefLabel "モロコド語"@ja ;
+	schema:name "モロコド語"@ja ;
+	schema:description "langue soudanique centrale"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Morokodo language"@en .
+
+wd:Q11033805 owl:sameAs wd:Q6913216 .

@@ -1,0 +1,158 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56606 a schema:Dataset ;
+	schema:about wd:Q56606 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1615996650"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:47:14Z"^^xsd:dateTime .
+
+wd:Q56606 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Lakha> a schema:Article ;
+	schema:about wd:Q56606 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Lakha"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9B%D0%B0-%D0%BA%D1%85%D0%B0> a schema:Article ;
+	schema:about wd:Q56606 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Ла-кха"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Lakha_language> a schema:Article ;
+	schema:about wd:Q56606 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Lakha language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%A9%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q56606 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ラ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Lakeg_(tibetek)> a schema:Article ;
+	schema:about wd:Q56606 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Lakeg (tibetek)"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%D9%84%D8%A7%DA%A9%DA%BE%D8%A7_%D8%A8%D9%88%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q56606 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "لاکھا بولی"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%8B%89%E5%8D%A1%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q56606 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "拉卡语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56606 wdt:P220 "lkh" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lkh> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568,
+		wd:Q4085712 ;
+	wdt:P2355 "1255" ;
+	wdt:P1394 "lakh1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lakh1240> ;
+	wdt:P279 wd:Q16112877 ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P2192 "4511" ;
+	wdt:P305 "lkh" ;
+	a wdno:P282 ;
+	wdt:P1627 "lkh" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q917 ;
+	wdt:P2341 wd:Q728933,
+		wd:Q728938 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LKH> ;
+	wdt:P646 "/m/02hx0yk" ;
+	rdfs:label "Lenga Lakha"@pms ;
+	skos:prefLabel "Lenga Lakha"@pms ;
+	schema:name "Lenga Lakha"@pms ;
+	rdfs:label "lakeg"@br ;
+	skos:prefLabel "lakeg"@br ;
+	schema:name "lakeg"@br ;
+	rdfs:label "Lakha"@en ;
+	skos:prefLabel "Lakha"@en ;
+	schema:name "Lakha"@en ;
+	rdfs:label "لاکھا بولی"@pnb ;
+	skos:prefLabel "لاکھا بولی"@pnb ;
+	schema:name "لاکھا بولی"@pnb ;
+	rdfs:label "Ла-кха"@ru ;
+	skos:prefLabel "Ла-кха"@ru ;
+	schema:name "Ла-кха"@ru ;
+	rdfs:label "ラ語"@ja ;
+	skos:prefLabel "ラ語"@ja ;
+	schema:name "ラ語"@ja ;
+	rdfs:label "Lakha"@en-gb ;
+	skos:prefLabel "Lakha"@en-gb ;
+	schema:name "Lakha"@en-gb ;
+	rdfs:label "lakha"@fr ;
+	skos:prefLabel "lakha"@fr ;
+	schema:name "lakha"@fr ;
+	rdfs:label "Wikang Lakha"@tl ;
+	skos:prefLabel "Wikang Lakha"@tl ;
+	schema:name "Wikang Lakha"@tl ;
+	rdfs:label "拉卡语"@zh ;
+	skos:prefLabel "拉卡语"@zh ;
+	schema:name "拉卡语"@zh ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue tibétique"@fr,
+		"yezh sinek-tibetek"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy .
+
+wd:Q31442322 owl:sameAs wd:Q56606 .

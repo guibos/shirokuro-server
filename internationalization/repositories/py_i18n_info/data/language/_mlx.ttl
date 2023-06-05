@@ -1,0 +1,143 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2157421 a schema:Dataset ;
+	schema:about wd:Q2157421 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1478056537"^^xsd:integer ;
+	schema:dateModified "2021-08-11T08:08:34Z"^^xsd:dateTime .
+
+wd:Q2157421 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Malfaxal> a schema:Article ;
+	schema:about wd:Q2157421 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Malfaxal"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Malfaxal> a schema:Article ;
+	schema:about wd:Q2157421 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Malfaxal"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinaha%27ai> a schema:Article ;
+	schema:about wd:Q2157421 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinaha'ai"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Malfaxal_language> a schema:Article ;
+	schema:about wd:Q2157421 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Malfaxal language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Malfaxal> a schema:Article ;
+	schema:about wd:Q2157421 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Malfaxal"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Naha%27ai> a schema:Article ;
+	schema:about wd:Q2157421 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Naha'ai"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2157421 wdt:P220 "mlx" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mlx> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "malf1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/malf1237> ;
+	wdt:P305 "mlx" ;
+	wdt:P279 wd:Q6743068 ;
+	wdt:P2192 "10189" ;
+	wdt:P1627 "mlx" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q686 ;
+	wdt:P2341 wd:Q740656 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MLX> ;
+	wdt:P646 "/m/02hwgzt" ;
+	rdfs:label "lingua Malfaxal"@la ;
+	skos:prefLabel "lingua Malfaxal"@la ;
+	schema:name "lingua Malfaxal"@la ;
+	rdfs:label "Malfaxal"@en ;
+	skos:prefLabel "Malfaxal"@en ;
+	schema:name "Malfaxal"@en ;
+	rdfs:label "Lenga Malfaxal"@pms ;
+	skos:prefLabel "Lenga Malfaxal"@pms ;
+	schema:name "Lenga Malfaxal"@pms ;
+	rdfs:label "Kinaha'ai"@sw ;
+	skos:prefLabel "Kinaha'ai"@sw ;
+	schema:name "Kinaha'ai"@sw ;
+	rdfs:label "Malfaxal"@ilo ;
+	skos:prefLabel "Malfaxal"@ilo ;
+	schema:name "Malfaxal"@ilo ;
+	rdfs:label "Malfaxal"@en-gb ;
+	skos:prefLabel "Malfaxal"@en-gb ;
+	schema:name "Malfaxal"@en-gb ;
+	rdfs:label "naha'ai"@fr ;
+	skos:prefLabel "naha'ai"@fr ;
+	schema:name "naha'ai"@fr ;
+	rdfs:label "Naha'ai"@oc ;
+	skos:prefLabel "Naha'ai"@oc ;
+	schema:name "Naha'ai"@oc ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Vanuatu"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue du nord et du centre du Vanuatu"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Naha'ai"@en,
+		"Malfaxal language"@en,
+		"malfaxal"@fr .
+
+wd:Q12952784 owl:sameAs wd:Q2157421 .

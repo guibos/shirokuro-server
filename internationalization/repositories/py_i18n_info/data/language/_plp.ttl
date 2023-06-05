@@ -1,0 +1,115 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3832956 a schema:Dataset ;
+	schema:about wd:Q3832956 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1887179713"^^xsd:integer ;
+	schema:dateModified "2023-05-02T04:48:32Z"^^xsd:dateTime .
+
+wd:Q3832956 a wikibase:Item .
+
+<https://it.wikipedia.org/wiki/Lingua_palpa> a schema:Article ;
+	schema:about wd:Q3832956 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua palpa"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_palpa> a schema:Article ;
+	schema:about wd:Q3832956 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga palpa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kipalpa> a schema:Article ;
+	schema:about wd:Q3832956 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kipalpa"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Palpa_language_(Indo-Aryan)> a schema:Article ;
+	schema:about wd:Q3832956 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Palpa language (Indo-Aryan)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3832956 wdt:P220 "plp" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/plp> ;
+	wdt:P31 wd:Q5015649 ;
+	wdt:P1394 "palp1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/palp1242> ;
+	wdt:P305 "plp" ;
+	wdt:P1627 "plp" ;
+	wdt:P3823 wd:Q63671741 ;
+	wdt:P17 wd:Q837 ;
+	wdt:P2341 wd:Q9172 ;
+	wdt:P646 "/m/026wh4v" ;
+	rdfs:label "Palpa"@en ;
+	skos:prefLabel "Palpa"@en ;
+	schema:name "Palpa"@en ;
+	rdfs:label "lingua palpa"@it ;
+	skos:prefLabel "lingua palpa"@it ;
+	schema:name "lingua palpa"@it ;
+	rdfs:label "Lenga palpa"@pms ;
+	skos:prefLabel "Lenga palpa"@pms ;
+	schema:name "Lenga palpa"@pms ;
+	rdfs:label "Kipalpa"@sw ;
+	skos:prefLabel "Kipalpa"@sw ;
+	schema:name "Kipalpa"@sw ;
+	rdfs:label "パルパ語"@ja ;
+	skos:prefLabel "パルパ語"@ja ;
+	schema:name "パルパ語"@ja ;
+	rdfs:label "Palpa"@en-gb ;
+	skos:prefLabel "Palpa"@en-gb ;
+	schema:name "Palpa"@en-gb ;
+	rdfs:label "palpa"@vec ;
+	skos:prefLabel "palpa"@vec ;
+	schema:name "palpa"@vec ;
+	schema:description "lingua pahari parlata nel Nepal"@it,
+		"Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"extinct language"@en,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Palpa language"@en .

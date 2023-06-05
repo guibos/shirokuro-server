@@ -1,0 +1,112 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6753812 a schema:Dataset ;
+	schema:about wd:Q6753812 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1780482577"^^xsd:integer ;
+	schema:dateModified "2022-11-28T17:32:58Z"^^xsd:dateTime .
+
+wd:Q6753812 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Mapidian_language> a schema:Article ;
+	schema:about wd:Q6753812 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mapidian language"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_mapidian> a schema:Article ;
+	schema:about wd:Q6753812 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga mapidian"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BF%D0%B8%D0%B4%D0%B8%D0%B0%D0%BD> a schema:Article ;
+	schema:about wd:Q6753812 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Мапидиан"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6753812 wdt:P220 "mpw" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mpw> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "mapi1252" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mapi1252> ;
+	wdt:P279 wd:Q626753 ;
+	wdt:P460 wd:Q6794377 ;
+	wdt:P305 "mpw" ;
+	wdt:P1627 "mpw" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P17 wd:Q155,
+		wd:Q734 ;
+	wdt:P2341 wd:Q42508 ;
+	wdt:P910 wd:Q105714434 ;
+	wdt:P646 "/m/05sx6yw" ;
+	rdfs:label "Mapidian"@en ;
+	skos:prefLabel "Mapidian"@en ;
+	schema:name "Mapidian"@en ;
+	rdfs:label "Lenga mapidian"@pms ;
+	skos:prefLabel "Lenga mapidian"@pms ;
+	schema:name "Lenga mapidian"@pms ;
+	rdfs:label "Мапидиан"@ru ;
+	skos:prefLabel "Мапидиан"@ru ;
+	schema:name "Мапидиан"@ru ;
+	rdfs:label "Mapidian"@en-gb ;
+	skos:prefLabel "Mapidian"@en-gb ;
+	schema:name "Mapidian"@en-gb ;
+	rdfs:label "mapidian"@fr ;
+	skos:prefLabel "mapidian"@fr ;
+	schema:name "mapidian"@fr ;
+	rdfs:label "Wikang Mapidian"@tl ;
+	skos:prefLabel "Wikang Mapidian"@tl ;
+	schema:name "Wikang Mapidian"@tl ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue arawakienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Mapidian language"@en .
+
+wd:Q61095951 owl:sameAs wd:Q6753812 .

@@ -1,0 +1,150 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7144304 a schema:Dataset ;
+	schema:about wd:Q7144304 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960619710"^^xsd:integer ;
+	schema:dateModified "2023-08-25T01:07:50Z"^^xsd:dateTime .
+
+wd:Q7144304 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_patax%C3%B3-h%C3%A3ha%C3%A3i> a schema:Article ;
+	schema:about wd:Q7144304 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga pataxó-hãhaãi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%82%D0%B0%D1%88%D0%BE_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q7144304 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Паташо (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_patash%C3%B3> a schema:Article ;
+	schema:about wd:Q7144304 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma patashó"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Patax%C3%B3_language> a schema:Article ;
+	schema:about wd:Q7144304 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Pataxó language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_patax%C3%B3> a schema:Article ;
+	schema:about wd:Q7144304 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua pataxó"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_patash%C3%B3> a schema:Article ;
+	schema:about wd:Q7144304 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma patashó"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_patax%C3%B3> a schema:Article ;
+	schema:about wd:Q7144304 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua pataxó"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7144304 wdt:P220 "pth" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pth> ;
+	wdt:P31 wd:Q34770,
+		wd:Q38058796,
+		wd:Q45762 ;
+	wdt:P1394 "pata1261" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/pata1261> ;
+	wdt:P17 wd:Q155 ;
+	wdt:P2341 wd:Q432324,
+		wd:Q40430,
+		wd:Q39109 ;
+	wdt:P1098 "+0"^^xsd:decimal ;
+	wdt:P305 "pth" ;
+	wdt:P1627 "pth" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PTH> ;
+	wdt:P646 "/m/02hxw40" ;
+	rdfs:label "Pataxó"@en ;
+	skos:prefLabel "Pataxó"@en ;
+	schema:name "Pataxó"@en ;
+	rdfs:label "Idioma patashó"@es ;
+	skos:prefLabel "Idioma patashó"@es ;
+	schema:name "Idioma patashó"@es ;
+	rdfs:label "Lenga pataxó-hãhaãi"@pms ;
+	skos:prefLabel "Lenga pataxó-hãhaãi"@pms ;
+	schema:name "Lenga pataxó-hãhaãi"@pms ;
+	rdfs:label "Паташо"@ru ;
+	skos:prefLabel "Паташо"@ru ;
+	schema:name "Паташо"@ru ;
+	rdfs:label "Idioma patashó"@ast ;
+	skos:prefLabel "Idioma patashó"@ast ;
+	schema:name "Idioma patashó"@ast ;
+	rdfs:label "Lingua pataxó"@gl ;
+	skos:prefLabel "Lingua pataxó"@gl ;
+	schema:name "Lingua pataxó"@gl ;
+	rdfs:label "Língua pataxó"@pt ;
+	skos:prefLabel "Língua pataxó"@pt ;
+	schema:name "Língua pataxó"@pt ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"extinct language of the Pataxó people of Brazil"@en,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"lingua extinta falada polo pobo pataxó"@gl ;
+	skos:altLabel "Pataxó Hã-Ha-Hãe"@en,
+		"Pataxo language"@en,
+		"Pataxó language"@en,
+		"Idioma patasho"@es,
+		"Pataxó Hã-Ha-Hãe"@gl .

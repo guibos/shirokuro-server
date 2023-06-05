@@ -1,0 +1,136 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q641748 a schema:Dataset ;
+	schema:about wd:Q641748 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1345139922"^^xsd:integer ;
+	schema:dateModified "2021-01-21T00:44:44Z"^^xsd:dateTime .
+
+wd:Q641748 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Horo> a schema:Article ;
+	schema:about wd:Q641748 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Horo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kihoro> a schema:Article ;
+	schema:about wd:Q641748 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kihoro"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Horo_language> a schema:Article ;
+	schema:about wd:Q641748 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Horo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Horoeg> a schema:Article ;
+	schema:about wd:Q641748 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Horoeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Horo_jezik> a schema:Article ;
+	schema:about wd:Q641748 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Horo jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q641748 wdt:P220 "hor" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hor> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "horo1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/horo1247> ;
+	wdt:P2355 "1651" ;
+	wdt:P279 wd:Q2036691 ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P305 "hor" ;
+	wdt:P1627 "hor" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P17 wd:Q657 ;
+	wdt:P2341 wd:Q177799 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HOR> ;
+	wdt:P646 "/m/02hxktz" ;
+	rdfs:label "Kihoro"@sw ;
+	skos:prefLabel "Kihoro"@sw ;
+	schema:name "Kihoro"@sw ;
+	rdfs:label "Lenga Horo"@pms ;
+	skos:prefLabel "Lenga Horo"@pms ;
+	schema:name "Lenga Horo"@pms ;
+	rdfs:label "Horo"@en ;
+	skos:prefLabel "Horo"@en ;
+	schema:name "Horo"@en ;
+	rdfs:label "horoeg"@br ;
+	skos:prefLabel "horoeg"@br ;
+	schema:name "horoeg"@br ;
+	rdfs:label "Horo jezik"@hr ;
+	skos:prefLabel "Horo jezik"@hr ;
+	schema:name "Horo jezik"@hr ;
+	rdfs:label "horo"@fr ;
+	skos:prefLabel "horo"@fr ;
+	schema:name "horo"@fr ;
+	rdfs:label "Horo"@en-gb ;
+	skos:prefLabel "Horo"@en-gb ;
+	schema:name "Horo"@en-gb ;
+	rdfs:label "ホロ語"@ja ;
+	skos:prefLabel "ホロ語"@ja ;
+	schema:name "ホロ語"@ja ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue soudanique centrale"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Horo language"@en .
+
+wd:Q5904666 owl:sameAs wd:Q641748 .
+
+wd:Q12632394 owl:sameAs wd:Q641748 .

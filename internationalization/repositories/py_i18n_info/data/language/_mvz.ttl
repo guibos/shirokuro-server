@@ -1,0 +1,173 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6821677 a schema:Dataset ;
+	schema:about wd:Q6821677 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1756901872"^^xsd:integer ;
+	schema:dateModified "2022-10-24T01:01:07Z"^^xsd:dateTime .
+
+wd:Q6821677 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Mesqan> a schema:Article ;
+	schema:about wd:Q6821677 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Mesqan"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mesqan> a schema:Article ;
+	schema:about wd:Q6821677 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mesqan"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%81%D0%BA%D0%B0%D0%BD> a schema:Article ;
+	schema:about wd:Q6821677 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Мескан"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimesqan> a schema:Article ;
+	schema:about wd:Q6821677 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimesqan"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mesqan_language> a schema:Article ;
+	schema:about wd:Q6821677 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mesqan language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Mesqan_jezik> a schema:Article ;
+	schema:about wd:Q6821677 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Mesqan jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%85%D8%B3%D9%83%D8%A7%D9%86_(%D9%84%D8%BA%D8%A9)> a schema:Article ;
+	schema:about wd:Q6821677 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "مسكان (لغة)"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Mesqan_language> a schema:Article ;
+	schema:about wd:Q6821677 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Mesqan language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6821677 wdt:P220 "mvz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mvz> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568,
+		wd:Q4085712 ;
+	wdt:P244 "sh2007010899" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh2007010899> ;
+	wdt:P279 wd:Q3528019 ;
+	wdt:P1394 "mesq1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mesq1240> ;
+	wdt:P2581 "02360841n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s02360841n> ;
+	wdt:P17 wd:Q115 ;
+	wdt:P131 wd:Q1070678 ;
+	wdt:P1098 "+195000"^^xsd:decimal ;
+	a wdno:P282 ;
+	wdt:P305 "mvz" ;
+	wdt:P1627 "mvz" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MVZ> ;
+	wdt:P646 "/m/049x2q9" ;
+	wdt:P910 wd:Q105714145 ;
+	wdt:P8189 "987007556968905171" ;
+	rdfs:label "Mesqan jezik"@hr ;
+	skos:prefLabel "Mesqan jezik"@hr ;
+	schema:name "Mesqan jezik"@hr ;
+	rdfs:label "Mesqan"@en ;
+	skos:prefLabel "Mesqan"@en ;
+	schema:name "Mesqan"@en ;
+	rdfs:label "mesqan"@ca ;
+	skos:prefLabel "mesqan"@ca ;
+	schema:name "mesqan"@ca ;
+	rdfs:label "Lenga Mesqan"@pms ;
+	skos:prefLabel "Lenga Mesqan"@pms ;
+	schema:name "Lenga Mesqan"@pms ;
+	rdfs:label "Kimesqan"@sw ;
+	skos:prefLabel "Kimesqan"@sw ;
+	schema:name "Kimesqan"@sw ;
+	rdfs:label "Mesqan"@en-gb ;
+	skos:prefLabel "Mesqan"@en-gb ;
+	schema:name "Mesqan"@en-gb ;
+	rdfs:label "Мескан"@ru ;
+	skos:prefLabel "Мескан"@ru ;
+	schema:name "Мескан"@ru ;
+	rdfs:label "Wikang Mesqan"@tl ;
+	skos:prefLabel "Wikang Mesqan"@tl ;
+	schema:name "Wikang Mesqan"@tl ;
+	rdfs:label "مسكان (لغة)"@ar ;
+	skos:prefLabel "مسكان (لغة)"@ar ;
+	schema:name "مسكان (لغة)"@ar ;
+	rdfs:label "Mesqan language"@ig ;
+	skos:prefLabel "Mesqan language"@ig ;
+	schema:name "Mesqan language"@ig ;
+	schema:description "Sprache"@de,
+		"Gurage language of Ethiopia"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Mesqan language"@en,
+		"Mäsqan"@en .
+
+wd:Q11936595 owl:sameAs wd:Q6821677 .
+
+wd:Q31443344 owl:sameAs wd:Q6821677 .

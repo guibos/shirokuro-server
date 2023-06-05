@@ -1,0 +1,182 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q962392 a schema:Dataset ;
+	schema:about wd:Q962392 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1864018256"^^xsd:integer ;
+	schema:dateModified "2023-03-29T15:19:58Z"^^xsd:dateTime .
+
+wd:Q962392 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Desano> a schema:Article ;
+	schema:about wd:Q962392 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Desano"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_desano> a schema:Article ;
+	schema:about wd:Q962392 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga desano"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D1%81%D0%B0%D0%BD%D0%BE> a schema:Article ;
+	schema:about wd:Q962392 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Десано"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Desano_language> a schema:Article ;
+	schema:about wd:Q962392 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Desano language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_desano> a schema:Article ;
+	schema:about wd:Q962392 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua desano"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_desana> a schema:Article ;
+	schema:about wd:Q962392 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua desana"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Desano> a schema:Article ;
+	schema:about wd:Q962392 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Desano"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_desano> a schema:Article ;
+	schema:about wd:Q962392 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma desano"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q962392 wdt:P220 "des" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/des> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "des" ;
+	wdt:P279 wd:Q5972956 ;
+	wdt:P1394 "desa1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/desa1247> ;
+	wdt:P2355 "1628",
+		"2004" ;
+	wdt:P1889 wd:Q618073 ;
+	wdt:P1466 "des" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_des> ;
+	wdt:P131 wd:Q40040 ;
+	wdt:P1098 "+6000"^^xsd:decimal ;
+	wdt:P17 wd:Q155,
+		wd:Q739 ;
+	wdt:P910 wd:Q33073951 ;
+	wdt:P2192 "1455" ;
+	wdt:P1627 "des" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2341 wd:Q40040,
+		wd:Q234505 ;
+	wdt:P1245 "698705" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DES> ;
+	wdt:P646 "/m/02hx2q2" ;
+	wdt:P1705 "Winá"@es ;
+	wdt:P9717 "desano" ;
+	wdt:P1846 <http://commons.wikimedia.org/wiki/Special:FilePath/Desano.png> ;
+	rdfs:label "desano"@fr ;
+	skos:prefLabel "desano"@fr ;
+	schema:name "desano"@fr ;
+	rdfs:label "Desano"@en ;
+	skos:prefLabel "Desano"@en ;
+	schema:name "Desano"@en ;
+	rdfs:label "Lenga desano"@pms ;
+	skos:prefLabel "Lenga desano"@pms ;
+	schema:name "Lenga desano"@pms ;
+	rdfs:label "Десано"@ru ;
+	skos:prefLabel "Десано"@ru ;
+	schema:name "Десано"@ru ;
+	rdfs:label "Desano"@en-gb ;
+	skos:prefLabel "Desano"@en-gb ;
+	schema:name "Desano"@en-gb ;
+	rdfs:label "Wikang Desano"@tl ;
+	skos:prefLabel "Wikang Desano"@tl ;
+	schema:name "Wikang Desano"@tl ;
+	rdfs:label "デサノ語"@ja ;
+	skos:prefLabel "デサノ語"@ja ;
+	schema:name "デサノ語"@ja ;
+	rdfs:label "Lingua desano"@gl ;
+	skos:prefLabel "Lingua desano"@gl ;
+	schema:name "Lingua desano"@gl ;
+	rdfs:label "Língua desana"@pt ;
+	skos:prefLabel "Língua desana"@pt ;
+	schema:name "Língua desana"@pt ;
+	rdfs:label "Desano"@ca ;
+	skos:prefLabel "Desano"@ca ;
+	schema:name "Desano"@ca ;
+	rdfs:label "Idioma desano"@es ;
+	skos:prefLabel "Idioma desano"@es ;
+	schema:name "Idioma desano"@es ;
+	schema:description "Sprache"@de,
+		"Amazonian language"@en,
+		"שפה"@he,
+		"langue tucanoane"@fr,
+		"yezh"@br,
+		"lengua de la Amazonia"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"lingua da familia tucana falada en Colombia e no Brasil"@gl,
+		"língua da Amazônia"@pt ;
+	skos:altLabel "Desano language"@en,
+		"Winá"@es .
+
+wd:Q61095755 owl:sameAs wd:Q962392 .

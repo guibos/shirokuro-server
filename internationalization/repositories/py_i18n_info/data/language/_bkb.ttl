@@ -1,0 +1,90 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12631018 a schema:Dataset ;
+	schema:about wd:Q12631018 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1594679800"^^xsd:integer ;
+	schema:dateModified "2022-03-15T04:45:03Z"^^xsd:dateTime .
+
+wd:Q12631018 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_finallig> a schema:Article ;
+	schema:about wd:Q12631018 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga finallig"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Finallig_jezik> a schema:Article ;
+	schema:about wd:Q12631018 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Finallig jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12631018 wdt:P31 wd:Q34770 ;
+	wdt:P220 "bkb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bkb> ;
+	wdt:P1394 "fina1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/fina1242> ;
+	wdt:P305 "bkb" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BKB> ;
+	rdfs:label "Finallig jezik"@hr ;
+	skos:prefLabel "Finallig jezik"@hr ;
+	schema:name "Finallig jezik"@hr ;
+	rdfs:label "Lenga finallig"@pms ;
+	skos:prefLabel "Lenga finallig"@pms ;
+	schema:name "Lenga finallig"@pms ;
+	rdfs:label "Финаллиг"@ru ;
+	skos:prefLabel "Финаллиг"@ru ;
+	schema:name "Финаллиг"@ru ;
+	rdfs:label "Finallig"@en ;
+	skos:prefLabel "Finallig"@en ;
+	schema:name "Finallig"@en ;
+	rdfs:label "Финалліг"@uk ;
+	skos:prefLabel "Финалліг"@uk ;
+	schema:name "Финалліг"@uk ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"язык"@ru,
+		"мова"@uk .

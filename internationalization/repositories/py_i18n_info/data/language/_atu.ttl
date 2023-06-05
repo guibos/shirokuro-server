@@ -1,0 +1,155 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7306882 a schema:Dataset ;
+	schema:about wd:Q7306882 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1355898566"^^xsd:integer ;
+	schema:dateModified "2021-02-06T18:07:01Z"^^xsd:dateTime .
+
+wd:Q7306882 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Reel_(langue)> a schema:Article ;
+	schema:about wd:Q7306882 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Reel (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Reel> a schema:Article ;
+	schema:about wd:Q7306882 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Reel"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%90%D1%82%D1%83%D0%BE%D1%82> a schema:Article ;
+	schema:about wd:Q7306882 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Атуот"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kireel> a schema:Article ;
+	schema:about wd:Q7306882 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kireel"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Reel_language> a schema:Article ;
+	schema:about wd:Q7306882 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Reel language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Reeleg> a schema:Article ;
+	schema:about wd:Q7306882 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Reeleg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Reel_jezik> a schema:Article ;
+	schema:about wd:Q7306882 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Reel jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7306882 wdt:P220 "atu" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/atu> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "reel1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/reel1238> ;
+	wdt:P910 wd:Q32829335 ;
+	wdt:P279 wd:Q3114989 ;
+	wdt:P2192 "1376" ;
+	wdt:P305 "atu" ;
+	wdt:P1627 "atu" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q958 ;
+	wdt:P2341 wd:Q491096 ;
+	wdt:P1245 "600071" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/ATU> ;
+	wdt:P646 "/m/02hxlry" ;
+	rdfs:label "Reel"@en ;
+	skos:prefLabel "Reel"@en ;
+	schema:name "Reel"@en ;
+	rdfs:label "Lenga Reel"@pms ;
+	skos:prefLabel "Lenga Reel"@pms ;
+	schema:name "Lenga Reel"@pms ;
+	rdfs:label "Kireel"@sw ;
+	skos:prefLabel "Kireel"@sw ;
+	schema:name "Kireel"@sw ;
+	rdfs:label "Реель"@ru ;
+	skos:prefLabel "Реель"@ru ;
+	schema:name "Реель"@ru ;
+	rdfs:label "reeleg"@br ;
+	skos:prefLabel "reeleg"@br ;
+	schema:name "reeleg"@br ;
+	rdfs:label "reel"@fr ;
+	skos:prefLabel "reel"@fr ;
+	schema:name "reel"@fr ;
+	rdfs:label "Reel jezik"@hr ;
+	skos:prefLabel "Reel jezik"@hr ;
+	schema:name "Reel jezik"@hr ;
+	rdfs:label "Reel"@en-gb ;
+	skos:prefLabel "Reel"@en-gb ;
+	schema:name "Reel"@en-gb ;
+	rdfs:label "Reel語"@ja ;
+	skos:prefLabel "Reel語"@ja ;
+	schema:name "Reel語"@ja ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue nilotique"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Reel language"@en .
+
+wd:Q12641108 owl:sameAs wd:Q7306882 .
+
+wd:Q12953058 owl:sameAs wd:Q7306882 .

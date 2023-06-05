@@ -1,0 +1,145 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35439 a schema:Dataset ;
+	schema:about wd:Q35439 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1602469895"^^xsd:integer ;
+	schema:dateModified "2022-03-25T15:25:55Z"^^xsd:dateTime .
+
+wd:Q35439 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Gusilay> a schema:Article ;
+	schema:about wd:Q35439 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Gusilay"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Gusilay> a schema:Article ;
+	schema:about wd:Q35439 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Gusilay"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigusilay> a schema:Article ;
+	schema:about wd:Q35439 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigusilay"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Gusilay_language> a schema:Article ;
+	schema:about wd:Q35439 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Gusilay language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Gusilay> a schema:Article ;
+	schema:about wd:Q35439 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Gusilay"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Gusilay_jezik> a schema:Article ;
+	schema:about wd:Q35439 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Gusilay jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35439 wdt:P220 "gsl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gsl> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "gusi1246" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gusi1246> ;
+	wdt:P2355 "1300" ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P2192 "7717" ;
+	wdt:P279 wd:Q35176 ;
+	wdt:P305 "gsl" ;
+	wdt:P1627 "gsl" ;
+	wdt:P17 wd:Q1041 ;
+	wdt:P2341 wd:Q822692 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GSL> ;
+	wdt:P646 "/m/02hx142" ;
+	rdfs:label "Kigusilay"@sw ;
+	skos:prefLabel "Kigusilay"@sw ;
+	schema:name "Kigusilay"@sw ;
+	rdfs:label "Lenga Gusilay"@pms ;
+	skos:prefLabel "Lenga Gusilay"@pms ;
+	schema:name "Lenga Gusilay"@pms ;
+	rdfs:label "Gusilay"@de ;
+	skos:prefLabel "Gusilay"@de ;
+	schema:name "Gusilay"@de ;
+	rdfs:label "Gusilay"@en ;
+	skos:prefLabel "Gusilay"@en ;
+	schema:name "Gusilay"@en ;
+	rdfs:label "Gusilay jezik"@hr ;
+	skos:prefLabel "Gusilay jezik"@hr ;
+	schema:name "Gusilay jezik"@hr ;
+	rdfs:label "グスィライ語"@ja ;
+	skos:prefLabel "グスィライ語"@ja ;
+	schema:name "グスィライ語"@ja ;
+	rdfs:label "Gusilay"@en-gb ;
+	skos:prefLabel "Gusilay"@en-gb ;
+	schema:name "Gusilay"@en-gb ;
+	rdfs:label "Wikang Gusilay"@tl ;
+	skos:prefLabel "Wikang Gusilay"@tl ;
+	schema:name "Wikang Gusilay"@tl ;
+	rdfs:label "gusilay"@fr ;
+	skos:prefLabel "gusilay"@fr ;
+	schema:name "gusilay"@fr ;
+	rdfs:label "gusilai keel"@et ;
+	skos:prefLabel "gusilai keel"@et ;
+	schema:name "gusilai keel"@et ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue atlantique du Nord"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Gusilay language"@en .

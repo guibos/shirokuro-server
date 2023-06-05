@@ -1,0 +1,167 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35403 a schema:Dataset ;
+	schema:about wd:Q35403 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1744377568"^^xsd:integer ;
+	schema:dateModified "2022-10-06T10:00:47Z"^^xsd:dateTime .
+
+wd:Q35403 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Hyam> a schema:Article ;
+	schema:about wd:Q35403 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Hyam"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Hyam> a schema:Article ;
+	schema:about wd:Q35403 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Hyam"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kihyam> a schema:Article ;
+	schema:about wd:Q35403 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kihyam"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Hyam_language> a schema:Article ;
+	schema:about wd:Q35403 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Hyam language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Hyam> a schema:Article ;
+	schema:about wd:Q35403 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Hyam"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Hyam_jezik> a schema:Article ;
+	schema:about wd:Q35403 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Hyam jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ha.wikipedia.org/wiki/Harshen_Hyam> a schema:Article ;
+	schema:about wd:Q35403 ;
+	schema:inLanguage "ha" ;
+	schema:isPartOf <https://ha.wikipedia.org/> ;
+	schema:name "Harshen Hyam"@ha .
+
+<https://ha.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kcg.wikipedia.org/wiki/Daa_(a%CC%B1lyem)> a schema:Article ;
+	schema:about wd:Q35403 ;
+	schema:inLanguage "kcg" ;
+	schema:isPartOf <https://kcg.wikipedia.org/> ;
+	schema:name "Daa (a̱lyem)"@kcg .
+
+<https://kcg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Hyam> a schema:Article ;
+	schema:about wd:Q35403 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Hyam"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35403 wdt:P305 "jab" ;
+	wdt:P220 "jab" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/jab> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q33253 ;
+	wdt:P1394 "hyam1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/hyam1245> ;
+	wdt:P1627 "jab" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q509300,
+		wd:Q878284 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/JAB> ;
+	wdt:P646 "/m/02hwlz7" ;
+	wdt:P910 wd:Q33668656 ;
+	rdfs:label "Kihyam"@sw ;
+	skos:prefLabel "Kihyam"@sw ;
+	schema:name "Kihyam"@sw ;
+	rdfs:label "Hyam"@de ;
+	skos:prefLabel "Hyam"@de ;
+	schema:name "Hyam"@de ;
+	rdfs:label "Lenga Hyam"@pms ;
+	skos:prefLabel "Lenga Hyam"@pms ;
+	schema:name "Lenga Hyam"@pms ;
+	rdfs:label "Hyam"@en ;
+	skos:prefLabel "Hyam"@en ;
+	schema:name "Hyam"@en ;
+	rdfs:label "Hyam jezik"@hr ;
+	skos:prefLabel "Hyam jezik"@hr ;
+	schema:name "Hyam jezik"@hr ;
+	rdfs:label "hyam"@fr ;
+	skos:prefLabel "hyam"@fr ;
+	schema:name "hyam"@fr ;
+	rdfs:label "Hyam"@en-gb ;
+	skos:prefLabel "Hyam"@en-gb ;
+	schema:name "Hyam"@en-gb ;
+	rdfs:label "Harshen Hyam"@ha ;
+	skos:prefLabel "Harshen Hyam"@ha ;
+	schema:name "Harshen Hyam"@ha ;
+	rdfs:label "Daa (a̱lyem)"@kcg ;
+	skos:prefLabel "Daa (a̱lyem)"@kcg ;
+	schema:name "Daa (a̱lyem)"@kcg ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kijabba"@sw,
+		"Hyam language"@en .

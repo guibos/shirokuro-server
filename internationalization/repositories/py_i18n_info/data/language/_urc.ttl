@@ -1,0 +1,123 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10710522 a schema:Dataset ;
+	schema:about wd:Q10710522 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1958506934"^^xsd:integer ;
+	schema:dateModified "2023-08-22T01:29:29Z"^^xsd:dateTime .
+
+wd:Q10710522 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_urningangg> a schema:Article ;
+	schema:about wd:Q10710522 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga urningangg"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Urningangg> a schema:Article ;
+	schema:about wd:Q10710522 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Urningangg"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiurningangg> a schema:Article ;
+	schema:about wd:Q10710522 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiurningangg"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Urningangg_jezik> a schema:Article ;
+	schema:about wd:Q10710522 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Urningangg jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10710522 wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P220 "urc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/urc> ;
+	wdt:P1394 "urni1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/urni1239> ;
+	wdt:P279 wd:Q2585632 ;
+	wdt:P1252 "N66" ;
+	wdt:P2192 "3419" ;
+	wdt:P305 "urc" ;
+	wdt:P1627 "urc" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3235 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/URC> ;
+	wdt:P6915 "Urningangk" ;
+	rdfs:label "Urningangg"@sv ;
+	skos:prefLabel "Urningangg"@sv ;
+	schema:name "Urningangg"@sv ;
+	rdfs:label "Lenga urningangg"@pms ;
+	skos:prefLabel "Lenga urningangg"@pms ;
+	schema:name "Lenga urningangg"@pms ;
+	rdfs:label "Urningangg jezik"@hr ;
+	skos:prefLabel "Urningangg jezik"@hr ;
+	schema:name "Urningangg jezik"@hr ;
+	rdfs:label "Urningangg"@en ;
+	skos:prefLabel "Urningangg"@en ;
+	schema:name "Urningangg"@en ;
+	rdfs:label "Urningangg"@en-gb ;
+	skos:prefLabel "Urningangg"@en-gb ;
+	schema:name "Urningangg"@en-gb ;
+	rdfs:label "Kiurningangg"@sw ;
+	skos:prefLabel "Kiurningangg"@sw ;
+	schema:name "Kiurningangg"@sw ;
+	rdfs:label "urningangg"@fr ;
+	skos:prefLabel "urningangg"@fr ;
+	schema:name "urningangg"@fr ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue giimbiyu"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"utdött australiskt språk"@sv .
+
+wd:Q16117250 owl:sameAs wd:Q10710522 .

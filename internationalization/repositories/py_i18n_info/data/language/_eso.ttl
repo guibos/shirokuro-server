@@ -1,0 +1,169 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3196221 a schema:Dataset ;
+	schema:about wd:Q3196221 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1839304844"^^xsd:integer ;
+	schema:dateModified "2023-02-22T15:22:06Z"^^xsd:dateTime .
+
+wd:Q3196221 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Langue_des_signes_estonienne> a schema:Article ;
+	schema:about wd:Q3196221 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Langue des signes estonienne"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_dij_segn_dl%27Estonia> a schema:Article ;
+	schema:about wd:Q3196221 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga dij segn dl'Estonia"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%AD%D1%81%D1%82%D0%BE%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%B6%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q3196221 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Эстонский жестовый язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Estonian_Sign_Language> a schema:Article ;
+	schema:about wd:Q3196221 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Estonian Sign Language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Eesti_viipekeel> a schema:Article ;
+	schema:about wd:Q3196221 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Eesti viipekeel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_de_sinais_estoniana> a schema:Article ;
+	schema:about wd:Q3196221 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua de sinais estoniana"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%A7%D8%B4%D8%A7%D8%B1%D9%87_%D8%A7%D8%B3%D8%AA%D9%88%D9%86%DB%8C%D8%A7%DB%8C%DB%8C> a schema:Article ;
+	schema:about wd:Q3196221 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان اشاره استونیایی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3196221 wdt:P220 "eso" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/eso> ;
+	wdt:P31 wd:Q34228,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "eso" ;
+	wdt:P1394 "esto1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/esto1238> ;
+	wdt:P17 wd:Q191 ;
+	wdt:P1098 "+1500"^^xsd:decimal ;
+	wdt:P4839 "Entity[\"Language\", \"EstonianSignLanguage::2fw38\"]",
+		"Entity[\"Language\", \"EstonianSignLanguage\"]" ;
+	wdt:P2192 "7179" ;
+	wdt:P1627 "eso" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2341 wd:Q185036 ;
+	wdt:P5008 wd:Q57005414 ;
+	wdt:P1245 "708443" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/ESO> ;
+	wdt:P646 "/m/02hx6m1" ;
+	wdt:P910 wd:Q105715413 ;
+	rdfs:label "Eesti viipekeel"@et ;
+	skos:prefLabel "Eesti viipekeel"@et ;
+	schema:name "Eesti viipekeel"@et ;
+	rdfs:label "Língua de sinais estoniana"@pt ;
+	skos:prefLabel "Língua de sinais estoniana"@pt ;
+	schema:name "Língua de sinais estoniana"@pt ;
+	rdfs:label "Lenga dij segn dl'Estonia"@pms ;
+	skos:prefLabel "Lenga dij segn dl'Estonia"@pms ;
+	schema:name "Lenga dij segn dl'Estonia"@pms ;
+	rdfs:label "Estonian Sign Language"@en ;
+	skos:prefLabel "Estonian Sign Language"@en ;
+	schema:name "Estonian Sign Language"@en ;
+	rdfs:label "Estlandse gebarentaal"@nl ;
+	skos:prefLabel "Estlandse gebarentaal"@nl ;
+	schema:name "Estlandse gebarentaal"@nl ;
+	rdfs:label "Эстонский жестовый язык"@ru ;
+	skos:prefLabel "Эстонский жестовый язык"@ru ;
+	schema:name "Эстонский жестовый язык"@ru ;
+	rdfs:label "langue des signes estonienne"@fr ;
+	skos:prefLabel "langue des signes estonienne"@fr ;
+	schema:name "langue des signes estonienne"@fr ;
+	rdfs:label "estona signolingvo"@eo ;
+	skos:prefLabel "estona signolingvo"@eo ;
+	schema:name "estona signolingvo"@eo ;
+	rdfs:label "Estonian Sign Language"@en-gb ;
+	skos:prefLabel "Estonian Sign Language"@en-gb ;
+	schema:name "Estonian Sign Language"@en-gb ;
+	rdfs:label "lingua de sinia esti"@lfn ;
+	skos:prefLabel "lingua de sinia esti"@lfn ;
+	schema:name "lingua de sinia esti"@lfn ;
+	rdfs:label "エストニア手話"@ja ;
+	skos:prefLabel "エストニア手話"@ja ;
+	schema:name "エストニア手話"@ja ;
+	rdfs:label "Estnische Gebärdensprache"@de ;
+	skos:prefLabel "Estnische Gebärdensprache"@de ;
+	schema:name "Estnische Gebärdensprache"@de ;
+	rdfs:label "زبان اشاره استونیایی"@fa ;
+	skos:prefLabel "زبان اشاره استونیایی"@fa ;
+	schema:name "زبان اشاره استونیایی"@fa ;
+	rdfs:label "toki luka Esi"@tok ;
+	skos:prefLabel "toki luka Esi"@tok ;
+	schema:name "toki luka Esi"@tok ;
+	rdfs:label "এস্তোনীয় ইশারা ভাষা"@bn ;
+	skos:prefLabel "এস্তোনীয় ইশারা ভাষা"@bn ;
+	schema:name "এস্তোনীয় ইশারা ভাষা"@bn ;
+	schema:description "national sign language of Estonia"@en,
+		"زبان اشاره"@fa,
+		"toki luka pi ma Esi"@tok ;
+	skos:altLabel "Língua Gestual da Estónia"@pt,
+		"Língua de Sinais da Estónia"@pt,
+		"ESL"@en,
+		"eesti viipekeel"@en .

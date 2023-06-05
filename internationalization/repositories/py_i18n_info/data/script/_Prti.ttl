@@ -1,0 +1,148 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q13023804 a schema:Dataset ;
+	schema:about wd:Q13023804 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1745590794"^^xsd:integer ;
+	schema:dateModified "2022-10-08T03:02:08Z"^^xsd:dateTime .
+
+wd:Q13023804 a wikibase:Item .
+
+<https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A3%E0%B8%9E%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%99> a schema:Article ;
+	schema:about wd:Q13023804 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "อักษรพาร์เทียน"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Inscriptional_Parthian> a schema:Article ;
+	schema:about wd:Q13023804 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Inscriptional Parthian"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%81%D8%B1%D8%AB%D9%8A%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D9%82%D9%88%D8%B4%D8%A9> a schema:Article ;
+	schema:about wd:Q13023804 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "الفرثية المنقوشة"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://commons.wikimedia.org/wiki/Category:Inscriptional_Parthian> a schema:Article ;
+	schema:about wd:Q13023804 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "Category:Inscriptional Parthian"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+<https://fa.wikipedia.org/wiki/%D9%BE%D9%87%D9%84%D9%88%DB%8C_%D8%A7%D8%B4%DA%A9%D8%A7%D9%86%DB%8C_%DA%A9%D8%AA%DB%8C%D8%A8%D9%87%E2%80%8C%D8%A7%DB%8C> a schema:Article ;
+	schema:about wd:Q13023804 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "پهلوی اشکانی کتیبه‌ای"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Abjad_Partia_Prasasti> a schema:Article ;
+	schema:about wd:Q13023804 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Abjad Partia Prasasti"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q13023804 wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Inscriptional%20Parthian%20Ligature%20Heth%20Waw.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Shapur%20Kabe%20Zartosht.png>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Naqsh-e%20Rajab%20-%20Shapur%20parade%20-%20detail%20of%20inscription.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Inscriptional%20Parthian%20Letter%20Samekh.svg> ;
+	wdt:P361 wd:Q1771716 ;
+	wdt:P407 wd:Q25953 ;
+	wdt:P31 wd:Q185087,
+		wd:Q29517555,
+		wd:Q4004706 ;
+	wdt:P2620 "130" ;
+	wdt:P506 "Prti" ;
+	wdt:P2671 "/g/11c3x86clr" ;
+	wdtn:P2671 <http://g.co/kg/g/11c3x86clr> ;
+	wdt:P5949 "U+10B40-10B5F" ;
+	wdt:P1406 wd:Q7333457 ;
+	wdt:P2561 "Inscriptional Parthian"@en,
+		"parthe des inscriptions"@fr ;
+	wdt:P571 "0200-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P144 wd:Q1771716 ;
+	wdt:P366 wd:Q25953 ;
+	wdt:P582 "0300-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P138 wd:Q1645483 ;
+	wdt:P373 "Inscriptional Parthian" ;
+	rdfs:label "อักษรพาร์เทียน"@th ;
+	skos:prefLabel "อักษรพาร์เทียน"@th ;
+	schema:name "อักษรพาร์เทียน"@th ;
+	rdfs:label "Inscriptional Parthian"@en ;
+	skos:prefLabel "Inscriptional Parthian"@en ;
+	schema:name "Inscriptional Parthian"@en ;
+	rdfs:label "Επιγραφικά παρθικά"@el ;
+	skos:prefLabel "Επιγραφικά παρθικά"@el ;
+	schema:name "Επιγραφικά παρθικά"@el ;
+	rdfs:label "epigrafa parta alfabeto"@eo ;
+	skos:prefLabel "epigrafa parta alfabeto"@eo ;
+	schema:name "epigrafa parta alfabeto"@eo ;
+	rdfs:label "partio inscripcional"@es ;
+	skos:prefLabel "partio inscripcional"@es ;
+	schema:name "partio inscripcional"@es ;
+	rdfs:label "سنگ‌نبشته اشکانی"@fa ;
+	skos:prefLabel "سنگ‌نبشته اشکانی"@fa ;
+	schema:name "سنگ‌نبشته اشکانی"@fa ;
+	rdfs:label "الفرثية المنقوشة"@ar ;
+	skos:prefLabel "الفرثية المنقوشة"@ar ;
+	schema:name "الفرثية المنقوشة"@ar ;
+	rdfs:label "parthe des inscriptions"@fr ;
+	skos:prefLabel "parthe des inscriptions"@fr ;
+	schema:name "parthe des inscriptions"@fr ;
+	rdfs:label "碑铭帕提亚文"@zh ;
+	skos:prefLabel "碑铭帕提亚文"@zh ;
+	schema:name "碑铭帕提亚文"@zh ;
+	rdfs:label "Abjad Partia Prasasti"@id ;
+	skos:prefLabel "Abjad Partia Prasasti"@id ;
+	schema:name "Abjad Partia Prasasti"@id ;
+	schema:description "script used to write Parthian language on coins of Parthia from the time of Arsaces I of Parthia (250 BC)"@en,
+		"نص يستخدم لكتابة اللغة البارثية على عملات معدنية من بارثيا من زمن Arsaces I of Parthia (250 قبل الميلاد)"@ar,
+		"système d'écriture"@fr,
+		"aksara berjenis abjad yang digunakan untuk menulis bahasa Partia"@id ;
+	skos:altLabel "帕提亞銘文字母"@zh .
+
+wd:Q24089828 owl:sameAs wd:Q13023804 .

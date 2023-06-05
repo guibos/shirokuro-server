@@ -1,0 +1,122 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7511448 a schema:Dataset ;
+	schema:about wd:Q7511448 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961133289"^^xsd:integer ;
+	schema:dateModified "2023-08-25T18:40:29Z"^^xsd:dateTime .
+
+wd:Q7511448 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Sierra_Leonean_Sign_Language> a schema:Article ;
+	schema:about wd:Q7511448 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sierra Leonean Sign Language"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Langue_des_signes_sierra-l%C3%A9onaise> a schema:Article ;
+	schema:about wd:Q7511448 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Langue des signes sierra-léonaise"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_dij_segn_dla_Sierra_Leone> a schema:Article ;
+	schema:about wd:Q7511448 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga dij segn dla Sierra Leone"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_de_sinais_da_Serra_Leoa> a schema:Article ;
+	schema:about wd:Q7511448 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua de sinais da Serra Leoa"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7511448 wdt:P220 "sgx" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/sgx> ;
+	wdt:P31 wd:Q34228,
+		wd:Q1288568 ;
+	wdt:P305 "sgx" ;
+	wdt:P1394 "sier1246" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sier1246> ;
+	wdt:P279 wd:Q14759 ;
+	wdt:P17 wd:Q1044 ;
+	wdt:P1627 "sgx" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q1050475 ;
+	wdt:P646 "/m/05sx5p3" ;
+	wdt:P910 wd:Q105715498 ;
+	rdfs:label "Sierra Leonean Sign Language"@en ;
+	skos:prefLabel "Sierra Leonean Sign Language"@en ;
+	schema:name "Sierra Leonean Sign Language"@en ;
+	rdfs:label "langue des signes sierra-léonaise"@fr ;
+	skos:prefLabel "langue des signes sierra-léonaise"@fr ;
+	schema:name "langue des signes sierra-léonaise"@fr ;
+	rdfs:label "Lenga dij segn dla Sierra Leone"@pms ;
+	skos:prefLabel "Lenga dij segn dla Sierra Leone"@pms ;
+	schema:name "Lenga dij segn dla Sierra Leone"@pms ;
+	rdfs:label "Língua de Sinais da Serra Leoa"@pt ;
+	skos:prefLabel "Língua de Sinais da Serra Leoa"@pt ;
+	schema:name "Língua de Sinais da Serra Leoa"@pt ;
+	rdfs:label "Sierraleonische Gebärdensprache"@de ;
+	skos:prefLabel "Sierraleonische Gebärdensprache"@de ;
+	schema:name "Sierraleonische Gebärdensprache"@de ;
+	rdfs:label "Sierra Leonean Sign Language"@en-gb ;
+	skos:prefLabel "Sierra Leonean Sign Language"@en-gb ;
+	schema:name "Sierra Leonean Sign Language"@en-gb ;
+	rdfs:label "シエラレオネ手話"@ja ;
+	skos:prefLabel "シエラレオネ手話"@ja ;
+	schema:name "シエラレオネ手話"@ja ;
+	rdfs:label "sieraleona signolingvo"@eo ;
+	skos:prefLabel "sieraleona signolingvo"@eo ;
+	schema:name "sieraleona signolingvo"@eo ;
+	rdfs:label "toki luka Sijelalijon"@tok ;
+	skos:prefLabel "toki luka Sijelalijon"@tok ;
+	schema:name "toki luka Sijelalijon"@tok ;
+	schema:description "Langue des signes"@fr,
+		"toki luka pi ma Sijelalijon"@tok ;
+	skos:altLabel "Sierra Leone Sign Language"@en,
+		"Língua Gestual da Serra Leoa"@pt .
+
+wd:Q10322090 owl:sameAs wd:Q7511448 .
+
+wd:Q12953482 owl:sameAs wd:Q7511448 .

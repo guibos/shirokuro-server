@@ -1,0 +1,121 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q1298715 a schema:Dataset ;
+	schema:about wd:Q1298715 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1865767073"^^xsd:integer ;
+	schema:dateModified "2023-04-01T07:57:54Z"^^xsd:dateTime .
+
+wd:Q1298715 a wikibase:Item .
+
+<https://nl.wikipedia.org/wiki/Romanova> a schema:Article ;
+	schema:about wd:Q1298715 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Romanova"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Romanova> a schema:Article ;
+	schema:about wd:Q1298715 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Romanova"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ie.wikipedia.org/wiki/Romanova> a schema:Article ;
+	schema:about wd:Q1298715 ;
+	schema:inLanguage "ie" ;
+	schema:isPartOf <https://ie.wikipedia.org/> ;
+	schema:name "Romanova"@ie .
+
+<https://ie.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Romanova_language> a schema:Article ;
+	schema:about wd:Q1298715 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Romanova language"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q1298715 wdt:P31 wd:Q1790577,
+		wd:Q838296,
+		wd:Q33215 ;
+	wdt:P220 "rmv" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/rmv> ;
+	wdt:P1394 "roma1338" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/roma1338> ;
+	wdt:P1889 wd:Q35268999 ;
+	wdt:P305 "rmv" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/RMV> ;
+	wdt:P6262 "ial:Romanova" ;
+	wdt:P910 wd:Q36165172 ;
+	wdt:P646 "/m/05sxb7l" ;
+	wdt:P973 <https://cals.info/language/romanova/>,
+		<https://database.conlang.org/view/?conlang=530> ;
+	rdfs:label "Romanova"@eo ;
+	skos:prefLabel "Romanova"@eo ;
+	schema:name "Romanova"@eo ;
+	rdfs:label "Romanova"@de ;
+	skos:prefLabel "Romanova"@de ;
+	schema:name "Romanova"@de ;
+	rdfs:label "Romanova"@nl ;
+	skos:prefLabel "Romanova"@nl ;
+	schema:name "Romanova"@nl ;
+	rdfs:label "Рома-нова"@ru ;
+	skos:prefLabel "Рома-нова"@ru ;
+	schema:name "Рома-нова"@ru ;
+	rdfs:label "Romanova"@en ;
+	skos:prefLabel "Romanova"@en ;
+	schema:name "Romanova"@en ;
+	rdfs:label "romanova"@fr ;
+	skos:prefLabel "romanova"@fr ;
+	schema:name "romanova"@fr ;
+	rdfs:label "Romanova"@ie ;
+	skos:prefLabel "Romanova"@ie ;
+	schema:name "Romanova"@ie ;
+	rdfs:label "ロマノヴァ"@ja ;
+	skos:prefLabel "ロマノヴァ"@ja ;
+	schema:name "ロマノヴァ"@ja ;
+	schema:description "Plansprache"@de,
+		"плановый язык"@ru,
+		"planned language"@en,
+		"langue construite"@fr,
+		"kunsttaal"@nl ;
+	skos:altLabel "Romanova lingvo"@eo,
+		"Romanowa"@de,
+		"романова"@ru,
+		"Романова"@ru .

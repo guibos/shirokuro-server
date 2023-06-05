@@ -1,0 +1,381 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6966574 a schema:Dataset ;
+	schema:about wd:Q6966574 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912039793"^^xsd:integer ;
+	schema:dateModified "2023-06-10T08:22:37Z"^^xsd:dateTime .
+
+wd:Q6966574 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Nasal_(langue)> a schema:Article ;
+	schema:about wd:Q6966574 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Nasal (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%81%D0%B0%D0%BB> a schema:Article ;
+	schema:about wd:Q6966574 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Насал"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinasal> a schema:Article ;
+	schema:about wd:Q6966574 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinasal"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nasal_language> a schema:Article ;
+	schema:about wd:Q6966574 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nasal language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Nasal> a schema:Article ;
+	schema:about wd:Q6966574 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Nasal"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://min.wikipedia.org/wiki/Bahaso_Nasal> a schema:Article ;
+	schema:about wd:Q6966574 ;
+	schema:inLanguage "min" ;
+	schema:isPartOf <https://min.wikipedia.org/> ;
+	schema:name "Bahaso Nasal"@min .
+
+<https://min.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Nasal> a schema:Article ;
+	schema:about wd:Q6966574 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Nasal"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_nasal> a schema:Article ;
+	schema:about wd:Q6966574 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język nasal"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Nasal> a schema:Article ;
+	schema:about wd:Q6966574 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Nasal"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6966574 wdt:P220 "nsy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nsy> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q143158 ;
+	wdt:P1394 "nasa1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nasa1239> ;
+	wdt:P2590 "0173 3" ;
+	wdt:P1705 "bahasa Nasal"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2192 "10718" ;
+	wdt:P305 "nsy" ;
+	wdt:P1627 "nsy" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q1890,
+		wd:Q3492 ;
+	wdt:P1098 "+3000"^^xsd:decimal ;
+	wdt:P131 wd:Q3182322 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NSY> ;
+	wdt:P1889 wd:Q1321760 ;
+	wdt:P646 "/m/05sx8zl" ;
+	rdfs:label "Nasal"@en ;
+	skos:prefLabel "Nasal"@en ;
+	schema:name "Nasal"@en ;
+	rdfs:label "Nasal"@id ;
+	skos:prefLabel "Nasal"@id ;
+	schema:name "Nasal"@id ;
+	rdfs:label "Kinasal"@sw ;
+	skos:prefLabel "Kinasal"@sw ;
+	schema:name "Kinasal"@sw ;
+	rdfs:label "Nasal"@ace ;
+	skos:prefLabel "Nasal"@ace ;
+	schema:name "Nasal"@ace ;
+	rdfs:label "Nasal"@af ;
+	skos:prefLabel "Nasal"@af ;
+	schema:name "Nasal"@af ;
+	rdfs:label "Nasal"@an ;
+	skos:prefLabel "Nasal"@an ;
+	schema:name "Nasal"@an ;
+	rdfs:label "Nasal"@ast ;
+	skos:prefLabel "Nasal"@ast ;
+	schema:name "Nasal"@ast ;
+	rdfs:label "Nasal"@bar ;
+	skos:prefLabel "Nasal"@bar ;
+	schema:name "Nasal"@bar ;
+	rdfs:label "nasal"@br ;
+	skos:prefLabel "nasal"@br ;
+	schema:name "nasal"@br ;
+	rdfs:label "nasal"@ca ;
+	skos:prefLabel "nasal"@ca ;
+	schema:name "nasal"@ca ;
+	rdfs:label "Nasal"@co ;
+	skos:prefLabel "Nasal"@co ;
+	schema:name "Nasal"@co ;
+	rdfs:label "Nasal"@cs ;
+	skos:prefLabel "Nasal"@cs ;
+	schema:name "Nasal"@cs ;
+	rdfs:label "Nasal"@cy ;
+	skos:prefLabel "Nasal"@cy ;
+	schema:name "Nasal"@cy ;
+	rdfs:label "Nasal"@da ;
+	skos:prefLabel "Nasal"@da ;
+	schema:name "Nasal"@da ;
+	rdfs:label "Nasal"@de ;
+	skos:prefLabel "Nasal"@de ;
+	schema:name "Nasal"@de ;
+	rdfs:label "Nasal"@de-at ;
+	skos:prefLabel "Nasal"@de-at ;
+	schema:name "Nasal"@de-at ;
+	rdfs:label "Nasal"@de-ch ;
+	skos:prefLabel "Nasal"@de-ch ;
+	schema:name "Nasal"@de-ch ;
+	rdfs:label "Nasal"@en-ca ;
+	skos:prefLabel "Nasal"@en-ca ;
+	schema:name "Nasal"@en-ca ;
+	rdfs:label "Nasal"@en-gb ;
+	skos:prefLabel "Nasal"@en-gb ;
+	schema:name "Nasal"@en-gb ;
+	rdfs:label "Nasal"@eo ;
+	skos:prefLabel "Nasal"@eo ;
+	schema:name "Nasal"@eo ;
+	rdfs:label "Nasal"@es ;
+	skos:prefLabel "Nasal"@es ;
+	schema:name "Nasal"@es ;
+	rdfs:label "Nasal"@et ;
+	skos:prefLabel "Nasal"@et ;
+	schema:name "Nasal"@et ;
+	rdfs:label "Nasal"@eu ;
+	skos:prefLabel "Nasal"@eu ;
+	schema:name "Nasal"@eu ;
+	rdfs:label "Nasal"@fi ;
+	skos:prefLabel "Nasal"@fi ;
+	schema:name "Nasal"@fi ;
+	rdfs:label "nasal"@fr ;
+	skos:prefLabel "nasal"@fr ;
+	schema:name "nasal"@fr ;
+	rdfs:label "Nasal"@frp ;
+	skos:prefLabel "Nasal"@frp ;
+	schema:name "Nasal"@frp ;
+	rdfs:label "Nasal"@fur ;
+	skos:prefLabel "Nasal"@fur ;
+	schema:name "Nasal"@fur ;
+	rdfs:label "Nasal"@ga ;
+	skos:prefLabel "Nasal"@ga ;
+	schema:name "Nasal"@ga ;
+	rdfs:label "Nasal"@gd ;
+	skos:prefLabel "Nasal"@gd ;
+	schema:name "Nasal"@gd ;
+	rdfs:label "Nasal"@gl ;
+	skos:prefLabel "Nasal"@gl ;
+	schema:name "Nasal"@gl ;
+	rdfs:label "Nasal"@gsw ;
+	skos:prefLabel "Nasal"@gsw ;
+	schema:name "Nasal"@gsw ;
+	rdfs:label "Nasal"@hr ;
+	skos:prefLabel "Nasal"@hr ;
+	schema:name "Nasal"@hr ;
+	rdfs:label "Nasal"@hu ;
+	skos:prefLabel "Nasal"@hu ;
+	schema:name "Nasal"@hu ;
+	rdfs:label "Nasal"@ia ;
+	skos:prefLabel "Nasal"@ia ;
+	schema:name "Nasal"@ia ;
+	rdfs:label "Nasal"@ie ;
+	skos:prefLabel "Nasal"@ie ;
+	schema:name "Nasal"@ie ;
+	rdfs:label "Nasal"@io ;
+	skos:prefLabel "Nasal"@io ;
+	schema:name "Nasal"@io ;
+	rdfs:label "Nasal"@is ;
+	skos:prefLabel "Nasal"@is ;
+	schema:name "Nasal"@is ;
+	rdfs:label "nasal"@it ;
+	skos:prefLabel "nasal"@it ;
+	schema:name "nasal"@it ;
+	rdfs:label "Nasal"@jv ;
+	skos:prefLabel "Nasal"@jv ;
+	schema:name "Nasal"@jv ;
+	rdfs:label "Nasal"@kg ;
+	skos:prefLabel "Nasal"@kg ;
+	schema:name "Nasal"@kg ;
+	rdfs:label "Nasal"@lb ;
+	skos:prefLabel "Nasal"@lb ;
+	schema:name "Nasal"@lb ;
+	rdfs:label "Nasal"@li ;
+	skos:prefLabel "Nasal"@li ;
+	schema:name "Nasal"@li ;
+	rdfs:label "Nasal"@lij ;
+	skos:prefLabel "Nasal"@lij ;
+	schema:name "Nasal"@lij ;
+	rdfs:label "Nasal"@mg ;
+	skos:prefLabel "Nasal"@mg ;
+	schema:name "Nasal"@mg ;
+	rdfs:label "Nasal"@min ;
+	skos:prefLabel "Nasal"@min ;
+	schema:name "Nasal"@min ;
+	rdfs:label "Nasal"@ms ;
+	skos:prefLabel "Nasal"@ms ;
+	schema:name "Nasal"@ms ;
+	rdfs:label "Nasal"@nap ;
+	skos:prefLabel "Nasal"@nap ;
+	schema:name "Nasal"@nap ;
+	rdfs:label "Nasal"@nb ;
+	skos:prefLabel "Nasal"@nb ;
+	schema:name "Nasal"@nb ;
+	rdfs:label "Nasal"@nds ;
+	skos:prefLabel "Nasal"@nds ;
+	schema:name "Nasal"@nds ;
+	rdfs:label "Nasal"@nds-nl ;
+	skos:prefLabel "Nasal"@nds-nl ;
+	schema:name "Nasal"@nds-nl ;
+	rdfs:label "Nasal"@nl ;
+	skos:prefLabel "Nasal"@nl ;
+	schema:name "Nasal"@nl ;
+	rdfs:label "Nasal"@nn ;
+	skos:prefLabel "Nasal"@nn ;
+	schema:name "Nasal"@nn ;
+	rdfs:label "Nasal"@nrm ;
+	skos:prefLabel "Nasal"@nrm ;
+	schema:name "Nasal"@nrm ;
+	rdfs:label "Nasal"@oc ;
+	skos:prefLabel "Nasal"@oc ;
+	schema:name "Nasal"@oc ;
+	rdfs:label "Nasal"@pcd ;
+	skos:prefLabel "Nasal"@pcd ;
+	schema:name "Nasal"@pcd ;
+	rdfs:label "język nasal"@pl ;
+	skos:prefLabel "język nasal"@pl ;
+	schema:name "język nasal"@pl ;
+	rdfs:label "Nasal"@pms ;
+	skos:prefLabel "Nasal"@pms ;
+	schema:name "Nasal"@pms ;
+	rdfs:label "Nasal"@pt ;
+	skos:prefLabel "Nasal"@pt ;
+	schema:name "Nasal"@pt ;
+	rdfs:label "Nasal"@pt-br ;
+	skos:prefLabel "Nasal"@pt-br ;
+	schema:name "Nasal"@pt-br ;
+	rdfs:label "Nasal"@rm ;
+	skos:prefLabel "Nasal"@rm ;
+	schema:name "Nasal"@rm ;
+	rdfs:label "Nasal"@ro ;
+	skos:prefLabel "Nasal"@ro ;
+	schema:name "Nasal"@ro ;
+	rdfs:label "Nasal"@sc ;
+	skos:prefLabel "Nasal"@sc ;
+	schema:name "Nasal"@sc ;
+	rdfs:label "Nasal"@scn ;
+	skos:prefLabel "Nasal"@scn ;
+	schema:name "Nasal"@scn ;
+	rdfs:label "Nasal"@sco ;
+	skos:prefLabel "Nasal"@sco ;
+	schema:name "Nasal"@sco ;
+	rdfs:label "Nasal"@sk ;
+	skos:prefLabel "Nasal"@sk ;
+	schema:name "Nasal"@sk ;
+	rdfs:label "Nasal"@sl ;
+	skos:prefLabel "Nasal"@sl ;
+	schema:name "Nasal"@sl ;
+	rdfs:label "Nasal"@sr-el ;
+	skos:prefLabel "Nasal"@sr-el ;
+	schema:name "Nasal"@sr-el ;
+	rdfs:label "Nasal"@su ;
+	skos:prefLabel "Nasal"@su ;
+	schema:name "Nasal"@su ;
+	rdfs:label "Nasal"@sv ;
+	skos:prefLabel "Nasal"@sv ;
+	schema:name "Nasal"@sv ;
+	rdfs:label "Nasal"@vec ;
+	skos:prefLabel "Nasal"@vec ;
+	schema:name "Nasal"@vec ;
+	rdfs:label "Nasal"@vi ;
+	skos:prefLabel "Nasal"@vi ;
+	schema:name "Nasal"@vi ;
+	rdfs:label "Nasal"@vls ;
+	skos:prefLabel "Nasal"@vls ;
+	schema:name "Nasal"@vls ;
+	rdfs:label "Nasal"@vo ;
+	skos:prefLabel "Nasal"@vo ;
+	schema:name "Nasal"@vo ;
+	rdfs:label "Nasal"@wa ;
+	skos:prefLabel "Nasal"@wa ;
+	schema:name "Nasal"@wa ;
+	rdfs:label "Nasal"@wo ;
+	skos:prefLabel "Nasal"@wo ;
+	schema:name "Nasal"@wo ;
+	rdfs:label "Nasal"@zu ;
+	skos:prefLabel "Nasal"@zu ;
+	schema:name "Nasal"@zu ;
+	rdfs:label "Tataramon na Nasal"@bcl ;
+	skos:prefLabel "Tataramon na Nasal"@bcl ;
+	schema:name "Tataramon na Nasal"@bcl ;
+	rdfs:label "Насал"@ru ;
+	skos:prefLabel "Насал"@ru ;
+	schema:name "Насал"@ru ;
+	schema:description "Sprache"@de,
+		"language spoken in southwestern Sumatra, Indonesia"@en,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"שפה"@he,
+		"langue malayo-polynésienne parlée au sud-ouest de Sumatra en Indonésie"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl ;
+	skos:altLabel "Nasal language"@en,
+		"bahasa Nasal"@id .

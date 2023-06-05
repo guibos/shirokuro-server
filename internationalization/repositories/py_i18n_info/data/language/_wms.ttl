@@ -1,0 +1,136 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7966922 a schema:Dataset ;
+	schema:about wd:Q7966922 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960505818"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:16:55Z"^^xsd:dateTime .
+
+wd:Q7966922 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Wambon_language> a schema:Article ;
+	schema:about wd:Q7966922 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Wambon language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Wambon> a schema:Article ;
+	schema:about wd:Q7966922 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Wambon"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiwambon> a schema:Article ;
+	schema:about wd:Q7966922 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiwambon"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Wambon> a schema:Article ;
+	schema:about wd:Q7966922 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Wambon"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Wambon> a schema:Article ;
+	schema:about wd:Q7966922 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Wambon"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7966922 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "ketu1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ketu1239> ;
+	wdt:P220 "wms" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/wms> ;
+	wdt:P910 wd:Q33656433 ;
+	wdt:P279 wd:Q4830163 ;
+	wdt:P1466 "wbn" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_wbn> ;
+	wdt:P305 "wms" ;
+	wdt:P1627 "wms" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2341 wd:Q5095 ;
+	wdt:P646 "/m/0dfbr8" ;
+	wdt:P2192 "4451" ;
+	rdfs:label "Wambon"@en ;
+	skos:prefLabel "Wambon"@en ;
+	schema:name "Wambon"@en ;
+	rdfs:label "Język wambon"@pl ;
+	skos:prefLabel "Język wambon"@pl ;
+	schema:name "Język wambon"@pl ;
+	rdfs:label "Lenga Wambon"@pms ;
+	skos:prefLabel "Lenga Wambon"@pms ;
+	schema:name "Lenga Wambon"@pms ;
+	rdfs:label "Kiwambon"@sw ;
+	skos:prefLabel "Kiwambon"@sw ;
+	schema:name "Kiwambon"@sw ;
+	rdfs:label "Wambon"@ilo ;
+	skos:prefLabel "Wambon"@ilo ;
+	schema:name "Wambon"@ilo ;
+	rdfs:label "Wambon"@en-gb ;
+	skos:prefLabel "Wambon"@en-gb ;
+	schema:name "Wambon"@en-gb ;
+	rdfs:label "wambon"@fr ;
+	skos:prefLabel "wambon"@fr ;
+	schema:name "wambon"@fr ;
+	rdfs:label "Bahasa Wambon"@id ;
+	skos:prefLabel "Bahasa Wambon"@id ;
+	schema:name "Bahasa Wambon"@id ;
+	schema:description "pagsasao idiay Indonesia"@ilo,
+		"langue asmat-awyu-ok"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"bagian dari rumpun bahasa Papua"@id ;
+	skos:altLabel "Wambon language"@en,
+		"Digul"@en,
+		"Ketum"@en,
+		"Yonggom"@en .

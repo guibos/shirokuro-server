@@ -1,0 +1,118 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5101597 a schema:Dataset ;
+	schema:about wd:Q5101597 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1840414724"^^xsd:integer ;
+	schema:dateModified "2023-02-24T08:44:58Z"^^xsd:dateTime .
+
+wd:Q5101597 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Chipiajes_language> a schema:Article ;
+	schema:about wd:Q5101597 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Chipiajes language"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Chipac%27heseg> a schema:Article ;
+	schema:about wd:Q5101597 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Chipac'heseg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D0%BF%D0%B8%D0%B0%D1%85%D0%B5%D1%81> a schema:Article ;
+	schema:about wd:Q5101597 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Чипиахес"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Chipiajes_jezik> a schema:Article ;
+	schema:about wd:Q5101597 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Chipiajes jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_chipiajes> a schema:Article ;
+	schema:about wd:Q5101597 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga chipiajes"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5101597 wdt:P220 "cbe" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cbe> ;
+	wdt:P31 wd:Q34770 ;
+	wdt:P1394 "chip1236" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/chip1236> ;
+	wdt:P305 "cbe" ;
+	wdt:P646 "/m/02hxssc" ;
+	rdfs:label "Chipiajes"@en ;
+	skos:prefLabel "Chipiajes"@en ;
+	schema:name "Chipiajes"@en ;
+	rdfs:label "chipac'heseg"@br ;
+	skos:prefLabel "chipac'heseg"@br ;
+	schema:name "chipac'heseg"@br ;
+	rdfs:label "Чипиахес"@ru ;
+	skos:prefLabel "Чипиахес"@ru ;
+	schema:name "Чипиахес"@ru ;
+	rdfs:label "Chipiajes jezik"@hr ;
+	skos:prefLabel "Chipiajes jezik"@hr ;
+	schema:name "Chipiajes jezik"@hr ;
+	rdfs:label "Lenga chipiajes"@pms ;
+	skos:prefLabel "Lenga chipiajes"@pms ;
+	schema:name "Lenga chipiajes"@pms ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Chipiajes language"@en .
+
+wd:Q12953448 owl:sameAs wd:Q5101597 .
+
+wd:Q16116703 owl:sameAs wd:Q5101597 .

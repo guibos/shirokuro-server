@@ -1,0 +1,168 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3344791 a schema:Dataset ;
+	schema:about wd:Q3344791 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1765859005"^^xsd:integer ;
+	schema:dateModified "2022-11-06T08:38:50Z"^^xsd:dateTime .
+
+wd:Q3344791 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Nottoway> a schema:Article ;
+	schema:about wd:Q3344791 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Nottoway"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Nottoway_(langue)> a schema:Article ;
+	schema:about wd:Q3344791 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Nottoway (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_nottoway> a schema:Article ;
+	schema:about wd:Q3344791 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga nottoway"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D1%82%D1%82%D0%BE%D0%B2%D0%B5%D0%B9> a schema:Article ;
+	schema:about wd:Q3344791 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Ноттовей"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nottoway_language> a schema:Article ;
+	schema:about wd:Q3344791 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nottoway language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cv.wikipedia.org/wiki/%D0%9D%D0%BE%D1%82%D1%82%D0%BE%D0%B2%D0%B5%D0%B9> a schema:Article ;
+	schema:about wd:Q3344791 ;
+	schema:inLanguage "cv" ;
+	schema:isPartOf <https://cv.wikipedia.org/> ;
+	schema:name "Ноттовей"@cv .
+
+<https://cv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Nottoway_(Sprache)> a schema:Article ;
+	schema:about wd:Q3344791 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Nottoway (Sprache)"@de ;
+	wikibase:badge wd:Q70894304 .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3344791 wdt:P31 wd:Q45762,
+		wd:Q34770,
+		wd:Q38058796 ;
+	wdt:P220 "ntw" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ntw> ;
+	wdt:P305 "ntw" ;
+	wdt:P279 wd:Q33623 ;
+	wdt:P1394 "nott1246" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nott1246> ;
+	wdt:P1627 "ntw" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q30 ;
+	wdt:P2341 wd:Q1370 ;
+	wdt:P1245 "1340215" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NTW> ;
+	wdt:P646 "/m/05sx69c" ;
+	wdt:P910 wd:Q32145680 ;
+	rdfs:label "nottoway"@fr ;
+	skos:prefLabel "nottoway"@fr ;
+	schema:name "nottoway"@fr ;
+	rdfs:label "Nottoway"@en ;
+	skos:prefLabel "Nottoway"@en ;
+	schema:name "Nottoway"@en ;
+	rdfs:label "Lenga nottoway"@pms ;
+	skos:prefLabel "Lenga nottoway"@pms ;
+	schema:name "Lenga nottoway"@pms ;
+	rdfs:label "Ноттовей"@ru ;
+	skos:prefLabel "Ноттовей"@ru ;
+	schema:name "Ноттовей"@ru ;
+	rdfs:label "nottoway"@ca ;
+	skos:prefLabel "nottoway"@ca ;
+	schema:name "nottoway"@ca ;
+	rdfs:label "Nottoway"@en-gb ;
+	skos:prefLabel "Nottoway"@en-gb ;
+	schema:name "Nottoway"@en-gb ;
+	rdfs:label "Ноттовей"@cv ;
+	skos:prefLabel "Ноттовей"@cv ;
+	schema:name "Ноттовей"@cv ;
+	rdfs:label "نوتوويي"@ar ;
+	skos:prefLabel "نوتوويي"@ar ;
+	schema:name "نوتوويي"@ar ;
+	rdfs:label "نوتوويي"@ary ;
+	skos:prefLabel "نوتوويي"@ary ;
+	schema:name "نوتوويي"@ary ;
+	rdfs:label "Nottoway"@es ;
+	skos:prefLabel "Nottoway"@es ;
+	schema:name "Nottoway"@es ;
+	rdfs:label "Nottoway"@it ;
+	skos:prefLabel "Nottoway"@it ;
+	schema:name "Nottoway"@it ;
+	rdfs:label "Nottoway"@pt ;
+	skos:prefLabel "Nottoway"@pt ;
+	schema:name "Nottoway"@pt ;
+	rdfs:label "Nottoway"@sv ;
+	skos:prefLabel "Nottoway"@sv ;
+	schema:name "Nottoway"@sv ;
+	rdfs:label "Nottoway"@de ;
+	skos:prefLabel "Nottoway"@de ;
+	schema:name "Nottoway"@de ;
+	rdfs:label "nottoway"@vec ;
+	skos:prefLabel "nottoway"@vec ;
+	schema:name "nottoway"@vec ;
+	schema:description "لغة"@ar,
+		"لغة"@ary,
+		"langue iroquoienne éteinte"@fr,
+		"Språk"@sv,
+		"Sprache"@de,
+		"extinct Language"@en ;
+	skos:altLabel "Nottoway language"@en .
+
+wd:Q65392568 owl:sameAs wd:Q3344791 .

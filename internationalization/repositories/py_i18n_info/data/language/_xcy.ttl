@@ -1,0 +1,185 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2472016 a schema:Dataset ;
+	schema:about wd:Q2472016 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1602016491"^^xsd:integer ;
+	schema:dateModified "2022-03-24T13:01:52Z"^^xsd:dateTime .
+
+wd:Q2472016 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Cayuse> a schema:Article ;
+	schema:about wd:Q2472016 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Cayuse"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Cayuse_(langue)> a schema:Article ;
+	schema:about wd:Q2472016 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Cayuse (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%8E%D1%81%D0%B5> a schema:Article ;
+	schema:about wd:Q2472016 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Каюсе"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_cayuse> a schema:Article ;
+	schema:about wd:Q2472016 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język cayuse"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Cayuse_language> a schema:Article ;
+	schema:about wd:Q2472016 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Cayuse language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Kayouseg> a schema:Article ;
+	schema:about wd:Q2472016 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Kayouseg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_cayuse> a schema:Article ;
+	schema:about wd:Q2472016 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma cayuse"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_cayuse> a schema:Article ;
+	schema:about wd:Q2472016 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua cayuse"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Cayuse_(Sprache)> a schema:Article ;
+	schema:about wd:Q2472016 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Cayuse (Sprache)"@de ;
+	wikibase:badge wd:Q70894304 .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2472016 wdt:P220 "xcy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xcy> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P646 "/m/04jfwb3" ;
+	wdt:P305 "xcy" ;
+	wdt:P1098 "+0"^^xsd:decimal ;
+	wdt:P373 "Cayuse" ;
+	wdt:P1394 "cayu1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/cayu1241> ;
+	wdt:P2355 "881" ;
+	wdt:P1417 "topic/Cayuse-language" ;
+	wdt:P4132 wd:Q33648 ;
+	wdt:P17 wd:Q30 ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P1889 wd:Q2520164 ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XCY> ;
+	wdt:P279 wd:Q2307476 ;
+	wdt:P910 wd:Q105715040 ;
+	wdt:P9717 "cayuse" ;
+	wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/Cayuse%20lang.png> ;
+	rdfs:label "Каюсе"@ru ;
+	skos:prefLabel "Каюсе"@ru ;
+	schema:name "Каюсе"@ru ;
+	rdfs:label "cayuse"@fr ;
+	skos:prefLabel "cayuse"@fr ;
+	schema:name "cayuse"@fr ;
+	rdfs:label "Idioma cayuse"@es ;
+	skos:prefLabel "Idioma cayuse"@es ;
+	schema:name "Idioma cayuse"@es ;
+	rdfs:label "Cayuse"@en ;
+	skos:prefLabel "Cayuse"@en ;
+	schema:name "Cayuse"@en ;
+	rdfs:label "cayuse"@ca ;
+	skos:prefLabel "cayuse"@ca ;
+	schema:name "cayuse"@ca ;
+	rdfs:label "Język cayuse"@pl ;
+	skos:prefLabel "Język cayuse"@pl ;
+	schema:name "Język cayuse"@pl ;
+	rdfs:label "kayouseg"@br ;
+	skos:prefLabel "kayouseg"@br ;
+	schema:name "kayouseg"@br ;
+	rdfs:label "Cayuse"@en-gb ;
+	skos:prefLabel "Cayuse"@en-gb ;
+	schema:name "Cayuse"@en-gb ;
+	rdfs:label "lingua cayuse"@it ;
+	skos:prefLabel "lingua cayuse"@it ;
+	schema:name "lingua cayuse"@it ;
+	rdfs:label "קאיוסה"@he ;
+	skos:prefLabel "קאיוסה"@he ;
+	schema:name "קאיוסה"@he ;
+	rdfs:label "Cayuse"@de ;
+	skos:prefLabel "Cayuse"@de ;
+	schema:name "Cayuse"@de ;
+	rdfs:label "cayuse"@vec ;
+	skos:prefLabel "cayuse"@vec ;
+	schema:name "cayuse"@vec ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Каюс"@ru,
+		"Llengua cayuse"@ca,
+		"Cayuse language"@en .

@@ -1,0 +1,159 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36374 a schema:Dataset ;
+	schema:about wd:Q36374 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1756955746"^^xsd:integer ;
+	schema:dateModified "2022-10-24T03:38:53Z"^^xsd:dateTime .
+
+wd:Q36374 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Nzakambay> a schema:Article ;
+	schema:about wd:Q36374 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Nzakambay"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Nzakambay> a schema:Article ;
+	schema:about wd:Q36374 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Nzakambay"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinzakambay> a schema:Article ;
+	schema:about wd:Q36374 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinzakambay"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nzakambay_language> a schema:Article ;
+	schema:about wd:Q36374 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nzakambay language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Nzakambay> a schema:Article ;
+	schema:about wd:Q36374 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Nzakambay"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Nzakambay_jezik> a schema:Article ;
+	schema:about wd:Q36374 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Nzakambay jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Nzakambay_language> a schema:Article ;
+	schema:about wd:Q36374 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Nzakambay language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36374 wdt:P220 "nzy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nzy> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "nzak1246" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nzak1246> ;
+	wdt:P305 "nzy" ;
+	wdt:P1627 "nzy" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q1009,
+		wd:Q657 ;
+	wdt:P1098 "+31500"^^xsd:decimal ;
+	wdt:P2341 wd:Q502341,
+		wd:Q167514 ;
+	wdt:P4839 "Entity[\"Language\", \"Nzakambay::mzh6w\"]",
+		"Entity[\"Language\", \"Nzakambay\"]" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NZY> ;
+	wdt:P1889 wd:Q36170 ;
+	wdt:P646 "/m/02hx7gh" ;
+	rdfs:label "Kinzakambay"@sw ;
+	skos:prefLabel "Kinzakambay"@sw ;
+	schema:name "Kinzakambay"@sw ;
+	rdfs:label "Nzakambay"@de ;
+	skos:prefLabel "Nzakambay"@de ;
+	schema:name "Nzakambay"@de ;
+	rdfs:label "Lenga Nzakambay"@pms ;
+	skos:prefLabel "Lenga Nzakambay"@pms ;
+	schema:name "Lenga Nzakambay"@pms ;
+	rdfs:label "Nzakambay"@en ;
+	skos:prefLabel "Nzakambay"@en ;
+	schema:name "Nzakambay"@en ;
+	rdfs:label "lingua Nzakambay"@it ;
+	skos:prefLabel "lingua Nzakambay"@it ;
+	schema:name "lingua Nzakambay"@it ;
+	rdfs:label "Nzakambay jezik"@hr ;
+	skos:prefLabel "Nzakambay jezik"@hr ;
+	schema:name "Nzakambay jezik"@hr ;
+	rdfs:label "nzakambay"@fr ;
+	skos:prefLabel "nzakambay"@fr ;
+	schema:name "nzakambay"@fr ;
+	rdfs:label "Nzakambay"@en-gb ;
+	skos:prefLabel "Nzakambay"@en-gb ;
+	schema:name "Nzakambay"@en-gb ;
+	rdfs:label "Wikang Nzakambay"@tl ;
+	skos:prefLabel "Wikang Nzakambay"@tl ;
+	schema:name "Wikang Nzakambay"@tl ;
+	rdfs:label "nzakambay"@vec ;
+	skos:prefLabel "nzakambay"@vec ;
+	schema:name "nzakambay"@vec ;
+	rdfs:label "Nzakambay language"@ig ;
+	skos:prefLabel "Nzakambay language"@ig ;
+	schema:name "Nzakambay language"@ig ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Nzakambay language"@en .

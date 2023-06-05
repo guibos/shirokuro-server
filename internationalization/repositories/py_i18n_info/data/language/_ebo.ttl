@@ -1,0 +1,148 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36473 a schema:Dataset ;
+	schema:about wd:Q36473 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1666135659"^^xsd:integer ;
+	schema:dateModified "2022-06-24T13:32:48Z"^^xsd:dateTime .
+
+wd:Q36473 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Teke-Eboo> a schema:Article ;
+	schema:about wd:Q36473 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Teke-Eboo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiteke-Eboo> a schema:Article ;
+	schema:about wd:Q36473 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiteke-Eboo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Central_Teke_language> a schema:Article ;
+	schema:about wd:Q36473 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Central Teke language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Teke-Eboo> a schema:Article ;
+	schema:about wd:Q36473 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Teke-Eboo"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Teke-Eboo_jezik> a schema:Article ;
+	schema:about wd:Q36473 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Teke-Eboo jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36473 wdt:P646 "/m/0hgnyxy" ;
+	wdt:P31 wd:Q33384,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q36528 ;
+	wdt:P1394 "teke1278" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/teke1278> ;
+	wdt:P220 "ebo" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ebo> ;
+	wdt:P2581 "02719789n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s02719789n> ;
+	wdt:P305 "ebo" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2161 "B74b" ;
+	wdt:P1627 "ebo" ;
+	wdt:P17 wd:Q971,
+		wd:Q974 ;
+	wdt:P2341 wd:Q671442,
+		wd:Q765370 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/EBO> ;
+	rdfs:label "Kiteke-Eboo"@sw ;
+	skos:prefLabel "Kiteke-Eboo"@sw ;
+	schema:name "Kiteke-Eboo"@sw ;
+	rdfs:label "Teke-Eboo"@de ;
+	skos:prefLabel "Teke-Eboo"@de ;
+	schema:name "Teke-Eboo"@de ;
+	rdfs:label "Lenga Teke-Eboo"@pms ;
+	skos:prefLabel "Lenga Teke-Eboo"@pms ;
+	schema:name "Lenga Teke-Eboo"@pms ;
+	rdfs:label "Central Teke"@en ;
+	skos:prefLabel "Central Teke"@en ;
+	schema:name "Central Teke"@en ;
+	rdfs:label "Teke-Eboo jezik"@hr ;
+	skos:prefLabel "Teke-Eboo jezik"@hr ;
+	schema:name "Teke-Eboo jezik"@hr ;
+	rdfs:label "中部特克語"@zh ;
+	skos:prefLabel "中部特克語"@zh ;
+	schema:name "中部特克語"@zh ;
+	rdfs:label "eboo keel"@et ;
+	skos:prefLabel "eboo keel"@et ;
+	schema:name "eboo keel"@et ;
+	rdfs:label "teke-ebo"@fr ;
+	skos:prefLabel "teke-ebo"@fr ;
+	schema:name "teke-ebo"@fr ;
+	rdfs:label "teke-ebo"@pt ;
+	skos:prefLabel "teke-ebo"@pt ;
+	schema:name "teke-ebo"@pt ;
+	rdfs:label "teke-ebo"@es ;
+	skos:prefLabel "teke-ebo"@es ;
+	schema:name "teke-ebo"@es ;
+	rdfs:label "teke-ebo"@it ;
+	skos:prefLabel "teke-ebo"@it ;
+	schema:name "teke-ebo"@it ;
+	rdfs:label "Eboo Teke語"@ja ;
+	skos:prefLabel "Eboo Teke語"@ja ;
+	schema:name "Eboo Teke語"@ja ;
+	rdfs:label "teke-ebo"@vec ;
+	skos:prefLabel "teke-ebo"@vec ;
+	schema:name "teke-ebo"@vec ;
+	schema:description "idioma humano"@es,
+		"Sprache"@de,
+		"dialect"@en,
+		"bantu keel"@et,
+		"langue bantoue"@fr,
+		"língua banta falada na República do Congo"@pt,
+		"lingua banta parlata nella Repubblica del Congo"@it ;
+	skos:altLabel "teke-eboo keel"@et,
+		"Central Teke language"@en .

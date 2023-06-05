@@ -1,0 +1,166 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3281043 a schema:Dataset ;
+	schema:about wd:Q3281043 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1681688537"^^xsd:integer ;
+	schema:dateModified "2022-07-18T21:43:34Z"^^xsd:dateTime .
+
+wd:Q3281043 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Mak%C3%A1_(langue_mataguayo)> a schema:Article ;
+	schema:about wd:Q3281043 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Maká (langue mataguayo)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_maca> a schema:Article ;
+	schema:about wd:Q3281043 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga maca"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BA%D0%B0_(%D0%BC%D0%B0%D1%82%D0%B0%D0%BA%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q3281043 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Мака (матакский язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mak%C3%A1_language> a schema:Article ;
+	schema:about wd:Q3281043 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Maká language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Maka_keel> a schema:Article ;
+	schema:about wd:Q3281043 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Maka keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Mak%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q3281043 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Makų kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_mak%C3%A1> a schema:Article ;
+	schema:about wd:Q3281043 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma maká"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3281043 wdt:P220 "mca" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mca> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "mca" ;
+	wdt:P279 wd:Q2447424 ;
+	wdt:P1394 "maca1260" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/maca1260> ;
+	wdt:P17 wd:Q733 ;
+	wdt:P2355 "623" ;
+	wdt:P1466 "mca" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_mca> ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P910 wd:Q32828908 ;
+	wdt:P2192 "3020" ;
+	wdt:P1627 "mca" ;
+	wdt:P244 "sh85079243" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85079243> ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2341 wd:Q682654,
+		wd:Q372461,
+		wd:Q750551,
+		wd:Q526176,
+		wd:Q755121,
+		wd:Q222564,
+		wd:Q2933 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MCA> ;
+	wdt:P646 "/m/02hwq1r" ;
+	wdt:P8189 "987007541163605171" ;
+	rdfs:label "Makų kalba"@lt ;
+	skos:prefLabel "Makų kalba"@lt ;
+	schema:name "Makų kalba"@lt ;
+	rdfs:label "Maká"@en ;
+	skos:prefLabel "Maká"@en ;
+	schema:name "Maká"@en ;
+	rdfs:label "maká"@fr ;
+	skos:prefLabel "maká"@fr ;
+	schema:name "maká"@fr ;
+	rdfs:label "Lenga maca"@pms ;
+	skos:prefLabel "Lenga maca"@pms ;
+	schema:name "Lenga maca"@pms ;
+	rdfs:label "мака"@ru ;
+	skos:prefLabel "мака"@ru ;
+	schema:name "мака"@ru ;
+	rdfs:label "maka keel"@et ;
+	skos:prefLabel "maka keel"@et ;
+	schema:name "maka keel"@et ;
+	rdfs:label "Wikang Maka"@tl ;
+	skos:prefLabel "Wikang Maka"@tl ;
+	schema:name "Wikang Maka"@tl ;
+	rdfs:label "Idioma maká"@es ;
+	skos:prefLabel "Idioma maká"@es ;
+	schema:name "Idioma maká"@es ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"индейский язык матакской группы, распространён в Парагвае"@ru,
+		"langue mataguayo"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "maka"@fr,
+		"Maca"@en,
+		"Maka language"@en,
+		"Maká language"@en .
+
+wd:Q61096008 owl:sameAs wd:Q3281043 .

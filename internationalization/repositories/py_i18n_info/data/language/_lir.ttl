@@ -1,0 +1,107 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6541128 a schema:Dataset ;
+	schema:about wd:Q6541128 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1487305499"^^xsd:integer ;
+	schema:dateModified "2021-08-25T06:19:02Z"^^xsd:dateTime .
+
+wd:Q6541128 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Cr%C3%A9ole_lib%C3%A9rien> a schema:Article ;
+	schema:about wd:Q6541128 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Créole libérien"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Liberian_Kreyol> a schema:Article ;
+	schema:about wd:Q6541128 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Liberian Kreyol"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6541128 wdt:P220 "lir" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lir> ;
+	wdt:P31 wd:Q34770 ;
+	wdt:P1394 "libe1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/libe1240> ;
+	wdt:P305 "lir" ;
+	wdt:P1627 "lir" ;
+	wdt:P3823 wd:Q29051549 ;
+	wdt:P17 wd:Q1014 ;
+	wdt:P2341 wd:Q844127,
+		wd:Q1052737,
+		wd:Q862608 ;
+	wdt:P646 "/m/04pnvz" ;
+	rdfs:label "Liberian Kreyol"@en ;
+	skos:prefLabel "Liberian Kreyol"@en ;
+	schema:name "Liberian Kreyol"@en ;
+	rdfs:label "利比里亞克里奧爾語"@zh-hant ;
+	skos:prefLabel "利比里亞克里奧爾語"@zh-hant ;
+	schema:name "利比里亞克里奧爾語"@zh-hant ;
+	rdfs:label "利比里亚克里奥尔语"@zh-cn ;
+	skos:prefLabel "利比里亚克里奥尔语"@zh-cn ;
+	schema:name "利比里亚克里奥尔语"@zh-cn ;
+	rdfs:label "利比里亚克里奥尔语"@zh-hans ;
+	skos:prefLabel "利比里亚克里奥尔语"@zh-hans ;
+	schema:name "利比里亚克里奥尔语"@zh-hans ;
+	rdfs:label "créole libérien"@fr ;
+	skos:prefLabel "créole libérien"@fr ;
+	schema:name "créole libérien"@fr ;
+	rdfs:label "Liberia kreola lingvo"@eo ;
+	skos:prefLabel "Liberia kreola lingvo"@eo ;
+	schema:name "Liberia kreola lingvo"@eo ;
+	rdfs:label "利比里亚克里奥尔语"@zh ;
+	skos:prefLabel "利比里亚克里奥尔语"@zh ;
+	schema:name "利比里亚克里奥尔语"@zh ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue du Liberia"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"lingvo parolata en Liberio"@eo ;
+	skos:altLabel "Liberian Pidgin English"@en,
+		"Liberian Vernacular English"@en,
+		"Kolokwa"@en,
+		"Kru Pidgin English"@en,
+		"Liberian Kreyol language"@en,
+		"利比亞克里奧爾語"@zh .

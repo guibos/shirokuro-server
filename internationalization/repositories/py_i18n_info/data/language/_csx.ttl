@@ -1,0 +1,98 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q50934287 a schema:Dataset ;
+	schema:about wd:Q50934287 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1913010028"^^xsd:integer ;
+	schema:dateModified "2023-06-11T13:45:19Z"^^xsd:dateTime .
+
+wd:Q50934287 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Cambodian_Sign_Language> a schema:Article ;
+	schema:about wd:Q50934287 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Cambodian Sign Language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Isyarat_Kamboja> a schema:Article ;
+	schema:about wd:Q50934287 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Isyarat Kamboja"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q50934287 wdt:P31 wd:Q34228 ;
+	wdt:P2192 "10129" ;
+	wdt:P1394 "camb1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/camb1244> ;
+	wdt:P17 wd:Q424 ;
+	wdt:P220 "csx" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/csx> ;
+	wdt:P2671 "/g/11m4378yj0" ;
+	wdtn:P2671 <http://g.co/kg/g/11m4378yj0> ;
+	wdt:P305 "csx" ;
+	wdt:P1813 "KSL"@en ;
+	wdt:P1098 "+7500"^^xsd:decimal ;
+	wdt:P1627 "csx" ;
+	rdfs:label "Cambodian Sign Language"@en ;
+	skos:prefLabel "Cambodian Sign Language"@en ;
+	schema:name "Cambodian Sign Language"@en ;
+	rdfs:label "langue des signes cambodgienne"@fr ;
+	skos:prefLabel "langue des signes cambodgienne"@fr ;
+	schema:name "langue des signes cambodgienne"@fr ;
+	rdfs:label "Cambodian Sign Language"@en-gb ;
+	skos:prefLabel "Cambodian Sign Language"@en-gb ;
+	schema:name "Cambodian Sign Language"@en-gb ;
+	rdfs:label "カンボジア手話"@ja ;
+	skos:prefLabel "カンボジア手話"@ja ;
+	schema:name "カンボジア手話"@ja ;
+	rdfs:label "Bahasa Isyarat Kamboja"@id ;
+	skos:prefLabel "Bahasa Isyarat Kamboja"@id ;
+	schema:name "Bahasa Isyarat Kamboja"@id ;
+	rdfs:label "toki luka Kanpusi"@tok ;
+	skos:prefLabel "toki luka Kanpusi"@tok ;
+	schema:name "toki luka Kanpusi"@tok ;
+	rdfs:label "কম্বোডীয় ইশারা ভাষা"@bn ;
+	skos:prefLabel "কম্বোডীয় ইশারা ভাষা"@bn ;
+	schema:name "কম্বোডীয় ইশারা ভাষা"@bn ;
+	schema:description "sign language"@en,
+		"toki luka pi ma Kanpusi"@tok,
+		"bagian dari rumpun bahasa Isyarat"@id ;
+	skos:altLabel "Khmer Sign Language"@en,
+		"KSL"@en,
+		"CBDSL"@en .
+
+wd:Q105337027 owl:sameAs wd:Q50934287 .

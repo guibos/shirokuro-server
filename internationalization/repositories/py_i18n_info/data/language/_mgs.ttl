@@ -1,0 +1,114 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q16939267 a schema:Dataset ;
+	schema:about wd:Q16939267 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1855809454"^^xsd:integer ;
+	schema:dateModified "2023-03-19T22:31:30Z"^^xsd:dateTime .
+
+wd:Q16939267 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Manda> a schema:Article ;
+	schema:about wd:Q16939267 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Manda"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Manda-Matumba_language> a schema:Article ;
+	schema:about wd:Q16939267 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Manda-Matumba language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Manda-Matumba_language> a schema:Article ;
+	schema:about wd:Q16939267 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Manda-Matumba language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q16939267 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P2161 "N.11" ;
+	wdt:P279 wd:Q116521669 ;
+	wdt:P1394 "mand1423" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mand1423> ;
+	wdt:P220 "mgs" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mgs> ;
+	wdt:P1396 "99-AUS-ra" ;
+	wdt:P910 wd:Q33076623 ;
+	wdt:P17 wd:Q924 ;
+	wdt:P2192 "4650" ;
+	wdt:P305 "mgs" ;
+	wdt:P1627 "mgs" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q309352,
+		wd:Q115318 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MGS> ;
+	wdt:P646 "/m/02hxs3s" ;
+	rdfs:label "Manda"@en ;
+	skos:prefLabel "Manda"@en ;
+	schema:name "Manda"@en ;
+	rdfs:label "manda"@fr ;
+	skos:prefLabel "manda"@fr ;
+	schema:name "manda"@fr ;
+	rdfs:label "Lenga Manda"@pms ;
+	skos:prefLabel "Lenga Manda"@pms ;
+	schema:name "Lenga Manda"@pms ;
+	rdfs:label "Wikang Manda"@tl ;
+	skos:prefLabel "Wikang Manda"@tl ;
+	schema:name "Wikang Manda"@tl ;
+	rdfs:label "Manda-Matumba language"@ig ;
+	skos:prefLabel "Manda-Matumba language"@ig ;
+	schema:name "Manda-Matumba language"@ig ;
+	rdfs:label "manda"@ca ;
+	skos:prefLabel "manda"@ca ;
+	schema:name "manda"@ca ;
+	schema:description "Bantu language"@en,
+		"langue bantoue parlée en Tanzanie"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"taal"@nl,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Manda-Matumba language"@en,
+		"manda-matumba"@ca .
+
+wd:Q61094545 owl:sameAs wd:Q16939267 .

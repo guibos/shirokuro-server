@@ -1,0 +1,158 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12631978 a schema:Dataset ;
+	schema:about wd:Q12631978 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1602473019"^^xsd:integer ;
+	schema:dateModified "2022-03-25T15:34:00Z"^^xsd:dateTime .
+
+wd:Q12631978 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Gwi> a schema:Article ;
+	schema:about wd:Q12631978 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Gwi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/G%C7%80ui_dialect> a schema:Article ;
+	schema:about wd:Q12631978 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Gǀui dialect"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/G%C7%80wi_jezik> a schema:Article ;
+	schema:about wd:Q12631978 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Gǀwi jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_%C7%80gwi> a schema:Article ;
+	schema:about wd:Q12631978 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua ǀgwi"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_g%C7%80ui> a schema:Article ;
+	schema:about wd:Q12631978 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua gǀui"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12631978 wdt:P220 "gwj" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gwj> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/03551b" ;
+	wdt:P1394 "gwii1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gwii1239> ;
+	wdt:P2355 "1376" ;
+	wdt:P279 wd:Q2736449 ;
+	wdt:P1417 "topic/Gui-language" ;
+	wdt:P4913 wd:Q1975199 ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P305 "gwj" ;
+	wdt:P910 wd:Q33100903 ;
+	wdt:P2192 "595" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P1627 "gwj" ;
+	wdt:P17 wd:Q963 ;
+	wdt:P2341 wd:Q57571,
+		wd:Q57599 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GWJ> ;
+	rdfs:label "Gǀwi jezik"@hr ;
+	skos:prefLabel "Gǀwi jezik"@hr ;
+	schema:name "Gǀwi jezik"@hr ;
+	rdfs:label "Gǀui"@en ;
+	skos:prefLabel "Gǀui"@en ;
+	schema:name "Gǀui"@en ;
+	rdfs:label "lingua ǀgwi"@it ;
+	skos:prefLabel "lingua ǀgwi"@it ;
+	schema:name "lingua ǀgwi"@it ;
+	rdfs:label "|gui"@fr ;
+	skos:prefLabel "|gui"@fr ;
+	schema:name "|gui"@fr ;
+	rdfs:label "Lenga Gwi"@pms ;
+	skos:prefLabel "Lenga Gwi"@pms ;
+	schema:name "Lenga Gwi"@pms ;
+	rdfs:label "Gǀui"@en-gb ;
+	skos:prefLabel "Gǀui"@en-gb ;
+	schema:name "Gǀui"@en-gb ;
+	rdfs:label "gvii keel"@et ;
+	skos:prefLabel "gvii keel"@et ;
+	schema:name "gvii keel"@et ;
+	rdfs:label "Língua gǀui"@pt ;
+	skos:prefLabel "Língua gǀui"@pt ;
+	schema:name "Língua gǀui"@pt ;
+	rdfs:label "Wikaing Gǀui"@tl ;
+	skos:prefLabel "Wikaing Gǀui"@tl ;
+	schema:name "Wikaing Gǀui"@tl ;
+	rdfs:label "/Gwi"@nl ;
+	skos:prefLabel "/Gwi"@nl ;
+	schema:name "/Gwi"@nl ;
+	rdfs:label "グイ語"@ja ;
+	skos:prefLabel "グイ語"@ja ;
+	schema:name "グイ語"@ja ;
+	rdfs:label "/gui"@vec ;
+	skos:prefLabel "/gui"@vec ;
+	schema:name "/gui"@vec ;
+	schema:description "Sprache"@de,
+		"langue khoe"@fr,
+		"taal"@nl,
+		"שפה"@he,
+		"khoisani keel"@et,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "/Gwi"@en,
+		"Gǀwi"@en,
+		"Dcui"@en,
+		"Gcwi"@en,
+		"Cgui"@en,
+		"ǀGwi"@nl .
+
+wd:Q25559396 owl:sameAs wd:Q12631978 .
+
+wd:Q31443275 owl:sameAs wd:Q12631978 .

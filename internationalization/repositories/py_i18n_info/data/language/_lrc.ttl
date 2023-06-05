@@ -1,0 +1,186 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q19933293 a schema:Dataset ;
+	schema:about wd:Q19933293 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1907490303"^^xsd:integer ;
+	schema:dateModified "2023-06-03T18:12:38Z"^^xsd:dateTime .
+
+wd:Q19933293 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Northern_Luri_language> a schema:Article ;
+	schema:about wd:Q19933293 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Northern Luri language"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Luri_setentrional> a schema:Article ;
+	schema:about wd:Q19933293 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Luri setentrional"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D9%84%D8%B1%DB%8C_%D8%B4%D9%85%D8%A7%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q19933293 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "لری شمالی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ckb.wikipedia.org/wiki/%D9%84%D9%88%DA%95%DB%8C%DB%8C_%D8%A8%D8%A7%DA%A9%D9%88%D9%88%D8%B1%DB%8C> a schema:Article ;
+	schema:about wd:Q19933293 ;
+	schema:inLanguage "ckb" ;
+	schema:isPartOf <https://ckb.wikipedia.org/> ;
+	schema:name "لوڕیی باکووری"@ckb .
+
+<https://ckb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E5%8C%97%E3%83%AD%E3%83%AB%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q19933293 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "北ロル語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D9%85%DB%8C%D9%86%D8%AC%D8%A7%DB%8C%DB%8C_%D9%84%D9%88%D8%B1%D8%AC%D8%A7> a schema:Article ;
+	schema:about wd:Q19933293 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "مینجایی لورجا"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q19933293 wdt:P220 "lrc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lrc> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P424 "lrc" ;
+	wdt:P279 wd:Q4701277 ;
+	wdt:P1098 "+1500000"^^xsd:decimal ;
+	wdt:P1394 "nort2645" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nort2645> ;
+	wdt:P1466 "lur" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_lur> ;
+	wdt:P1705 "لۊری"@lrc ;
+	wdt:P305 "lrc" ;
+	wdt:P1627 "lrc" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q794 ;
+	wdt:P2341 wd:Q170570,
+		wd:Q241119,
+		wd:Q1131727,
+		wd:Q134417,
+		wd:Q187373 ;
+	wdt:P2671 "/g/11bwcrytf8" ;
+	wdtn:P2671 <http://g.co/kg/g/11bwcrytf8> ;
+	wdt:P282 wd:Q1828555 ;
+	wdt:P9060 "lrc" ;
+	wdt:P910 wd:Q33139791 ;
+	rdfs:label "Northern Luri"@en ;
+	skos:prefLabel "Northern Luri"@en ;
+	schema:name "Northern Luri"@en ;
+	rdfs:label "لری شمالی"@fa ;
+	skos:prefLabel "لری شمالی"@fa ;
+	schema:name "لری شمالی"@fa ;
+	rdfs:label "Lenga Luri setentrional"@pms ;
+	skos:prefLabel "Lenga Luri setentrional"@pms ;
+	schema:name "Lenga Luri setentrional"@pms ;
+	rdfs:label "北ロル語"@ja ;
+	skos:prefLabel "北ロル語"@ja ;
+	schema:name "北ロル語"@ja ;
+	rdfs:label "لوڕیی باکووری"@ckb ;
+	skos:prefLabel "لوڕیی باکووری"@ckb ;
+	schema:name "لوڕیی باکووری"@ckb ;
+	rdfs:label "Noordelijk Luri"@nl ;
+	skos:prefLabel "Noordelijk Luri"@nl ;
+	schema:name "Noordelijk Luri"@nl ;
+	rdfs:label "Wikipedia tiếng Luri Bắc"@vi ;
+	skos:prefLabel "Wikipedia tiếng Luri Bắc"@vi ;
+	schema:name "Wikipedia tiếng Luri Bắc"@vi ;
+	rdfs:label "Northern Luri"@en-gb ;
+	skos:prefLabel "Northern Luri"@en-gb ;
+	schema:name "Northern Luri"@en-gb ;
+	rdfs:label "lori du Nord"@fr ;
+	skos:prefLabel "lori du Nord"@fr ;
+	schema:name "lori du Nord"@fr ;
+	rdfs:label "北卢尔语"@zh ;
+	skos:prefLabel "北卢尔语"@zh ;
+	schema:name "北卢尔语"@zh ;
+	rdfs:label "luri setentrional"@pt ;
+	skos:prefLabel "luri setentrional"@pt ;
+	schema:name "luri setentrional"@pt ;
+	rdfs:label "Nördliches Luri"@de ;
+	skos:prefLabel "Nördliches Luri"@de ;
+	schema:name "Nördliches Luri"@de ;
+	rdfs:label "luri septentrional"@es ;
+	skos:prefLabel "luri septentrional"@es ;
+	schema:name "luri septentrional"@es ;
+	rdfs:label "lingua luri setentrional"@gl ;
+	skos:prefLabel "lingua luri setentrional"@gl ;
+	schema:name "lingua luri setentrional"@gl ;
+	rdfs:label "luri del nord"@vec ;
+	skos:prefLabel "luri del nord"@vec ;
+	schema:name "luri del nord"@vec ;
+	rdfs:label "luri del nord"@it ;
+	skos:prefLabel "luri del nord"@it ;
+	schema:name "luri del nord"@it ;
+	rdfs:label "مینجایی لورجا"@azb ;
+	skos:prefLabel "مینجایی لورجا"@azb ;
+	schema:name "مینجایی لورجا"@azb ;
+	rdfs:label "لۏری مینجایی"@lrc ;
+	skos:prefLabel "لۏری مینجایی"@lrc ;
+	schema:name "لۏری مینجایی"@lrc ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue iranienne"@fr,
+		"yezh"@br,
+		"lengua hablada en el sudoeste del Irán"@es,
+		"lingua parlata nal sud-ovest dell'Iran"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la,
+		"lingua iraniana falada no suroeste de Irán"@gl,
+		"língua falada no sudoeste do Irã"@pt ;
+	skos:altLabel "lrc"@en,
+		"Northern Luri language"@en,
+		"lrc"@lrc .
+
+wd:Q25649144 owl:sameAs wd:Q19933293 .

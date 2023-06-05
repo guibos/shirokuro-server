@@ -1,0 +1,750 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q135305 a schema:Dataset ;
+	schema:about wd:Q135305 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1868218045"^^xsd:integer ;
+	schema:dateModified "2023-04-04T13:33:57Z"^^xsd:dateTime .
+
+wd:Q135305 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Bihari_languages> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Bihari languages"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Lenguas_bihari> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Lenguas bihari"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%91%D0%B8%D1%85%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B5_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Бихарские языки"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingue_bihari> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingue bihari"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%93%E3%83%8F%E3%83%BC%E3%83%AB%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ビハール語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Bihari_(taal)> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Bihari (taal)"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADnguas_biaris> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Línguas biaris"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%AF%94%E5%93%88%E5%B0%94%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "比哈尔语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%A8%DB%8C%D9%87%D8%A7%D8%B1%DB%8C> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان بیهاری"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Bihar-kielet> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Bihar-kielet"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Bihari> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Bihari"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%91%D1%96%D0%B3%D0%B0%D1%80%D1%81%D1%8C%D0%BA%D1%96_%D0%BC%D0%BE%D0%B2%D0%B8> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Бігарські мови"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Bihari> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Bihari"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Bih%C3%A1rsk%C3%A9_jazyky> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Bihárské jazyky"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/Bihari_(sprog)> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Bihari (sprog)"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Bihari_languages> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Bihari languages"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Lling%C3%BCes_bihari> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Llingües bihari"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D8%A8%DB%8C%D9%87%D8%A7%D8%B1%DB%8C_%D8%AF%DB%8C%D9%84%D9%84%D8%B1%DB%8C> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "بیهاری دیللری"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bh.wikipedia.org/wiki/%E0%A4%AC%E0%A4%BF%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "bho" ;
+	schema:isPartOf <https://bh.wikipedia.org/> ;
+	schema:name "बिहारी भाषा"@bho .
+
+<https://bh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%AC%E0%A6%BF%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A6%BF_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE%E0%A6%B8%E0%A6%AE%E0%A7%82%E0%A6%B9> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "বিহারি ভাষাসমূহ"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Bihara_lingvo> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Bihara lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Bihaari_keel> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Bihaari keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Linguas_bihari> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Linguas bihari"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A4%BF%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE%E0%A4%8F%E0%A4%81> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "बिहारी भाषाएँ"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Biharski_jezici> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Biharski jezici"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/B%C3%ADhar%C3%ADsk_tungum%C3%A1l> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Bíharísk tungumál"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Bihari> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Bihari"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lez.wikipedia.org/wiki/%D0%91%D0%B8%D1%85%D0%B0%D1%80_%D1%87%D3%80%D0%B0%D0%BB%D0%B0%D1%80> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "lez" ;
+	schema:isPartOf <https://lez.wikipedia.org/> ;
+	schema:name "Бихар чӀалар"@lez .
+
+<https://lez.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Bihar%C5%B3_kalbos> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Biharų kalbos"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Bih%C4%81ri_valodas> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Bihāri valodas"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%AC%E0%B4%BF%E0%B4%B9%E0%B4%BE%E0%B4%B1%E0%B4%BF_%E0%B4%AD%E0%B4%BE%E0%B4%B7%E0%B4%95%E0%B5%BE> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "ബിഹാറി ഭാഷകൾ"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mr.wikipedia.org/wiki/%E0%A4%AC%E0%A4%BF%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "mr" ;
+	schema:isPartOf <https://mr.wikipedia.org/> ;
+	schema:name "बिहारी भाषा"@mr .
+
+<https://mr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mzn.wikipedia.org/wiki/%D8%A8%D9%87%D8%A7%D8%B1%D8%A7%D8%AA%DB%8C> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "mzn" ;
+	schema:isPartOf <https://mzn.wikipedia.org/> ;
+	schema:name "بهاراتی"@mzn .
+
+<https://mzn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Biharispr%C3%A5k> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Biharispråk"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%D8%A8%DB%81%D8%A7%D8%B1%DB%8C> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "بہاری"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%AA%E0%AF%80%E0%AE%95%E0%AE%BE%E0%AE%B0%E0%AE%BF_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF%E0%AE%95%E0%AE%B3%E0%AF%8D> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "பீகாரி மொழிகள்"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ug.wikipedia.org/wiki/%D8%A8%D9%89%DA%BE%D8%A7%D8%B1%D9%89_%D8%AA%D9%89%D9%84%D9%89> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "ug" ;
+	schema:isPartOf <https://ug.wikipedia.org/> ;
+	schema:name "بىھارى تىلى"@ug .
+
+<https://ug.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D8%A8%DB%81%D8%A7%D8%B1%DB%8C_%D8%B2%D8%A8%D8%A7%D9%86%DB%8C%DA%BA> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "بہاری زبانیں"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ne.wikipedia.org/wiki/%E0%A4%AC%E0%A4%BF%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE%E0%A4%B9%E0%A4%B0%E0%A5%82> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "ne" ;
+	schema:isPartOf <https://ne.wikipedia.org/> ;
+	schema:name "बिहारी भाषाहरू"@ne .
+
+<https://ne.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1_%CE%9C%CF%80%CE%B9%CF%87%CE%AC%CF%81%CE%B9> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γλώσσα Μπιχάρι"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Bihari-Sprachen> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Bihari-Sprachen"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EB%B9%84%ED%95%98%EB%A5%B4%EC%96%B4%EA%B5%B0> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "비하르어군"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Nh%C3%B3m_ng%C3%B4n_ng%E1%BB%AF_Bihar> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Nhóm ngôn ngữ Bihar"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Lengas_bihari> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Lengas bihari"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_bihari> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język bihari"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Bihari-tale> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Bihari-tale"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D8%BA%D8%A7%D8%AA_%D8%A7%D9%84%D8%A8%D9%87%D8%A7%D8%B1%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "اللغات البهارية"@ar ;
+	wikibase:badge wd:Q17506997 .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Langues_biharies> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Langues biharies"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Bihari> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Bihari"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sa.wikipedia.org/wiki/%E0%A4%AC%E0%A4%BF%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%80%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE%E0%A4%83> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "sa" ;
+	schema:isPartOf <https://sa.wikipedia.org/> ;
+	schema:name "बिहारीभाषाः"@sa .
+
+<https://sa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%91%D0%B8%D1%85%D0%B0%D1%80%D0%B8_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Бихари теле"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pa.wikipedia.org/wiki/%E0%A8%AC%E0%A8%BF%E0%A8%B9%E0%A8%BE%E0%A8%B0%E0%A9%80_%E0%A8%AD%E0%A8%BE%E0%A8%B8%E0%A8%BC%E0%A8%BE%E0%A8%B5%E0%A8%BE%E0%A8%82> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "pa" ;
+	schema:isPartOf <https://pa.wikipedia.org/> ;
+	schema:name "ਬਿਹਾਰੀ ਭਾਸ਼ਾਵਾਂ"@pa .
+
+<https://pa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://anp.wikipedia.org/wiki/%E0%A4%AC%E0%A4%BF%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q135305 ;
+	schema:inLanguage "anp" ;
+	schema:isPartOf <https://anp.wikipedia.org/> ;
+	schema:name "बिहारी भाषा"@anp .
+
+<https://anp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q135305 wdt:P305 "bh" ;
+	wdt:P1036 "491.454" ;
+	wdt:P349 "00576307" ;
+	wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00576307> ;
+	wdt:P646 "/m/020gn5" ;
+	wdt:P31 wd:Q25295 ;
+	wdt:P282 wd:Q38592 ;
+	wdt:P219 "bih" ;
+	wdt:P1098 "+63000000"^^xsd:decimal ;
+	wdt:P910 wd:Q8299832 ;
+	wdt:P279 wd:Q33577 ;
+	wdt:P218 "bh" ;
+	wdtn:P218 <http://id.loc.gov/vocabulary/iso639-1/bh.rdf> ;
+	wdt:P1798 "bih" ;
+	wdt:P1417 "topic/Bihari-languages" ;
+	wdt:P1394 "biha1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/biha1245> ;
+	wdt:P1705 "बिहारी भाषा"@bh ;
+	wdt:P5250 "1046" ;
+	wdt:P4801 "languages/bih" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/bih> ;
+	wdt:P4801 "iso639-2/bih" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/iso639-2/bih> ;
+	wdt:P4801 "iso639-1/bh" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/iso639-1/bh> ;
+	wdt:P8408 "BihariLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/BihariLanguage> ;
+	wdt:P278 "110" ;
+	wdt:P4644 "15ea7b6b-1b93-4ed8-b58a-5c54777e0832" ;
+	wdtn:P4644 <http://data.europa.eu/esco/skill/15ea7b6b-1b93-4ed8-b58a-5c54777e0832> ;
+	wdt:P6385 "gumanitarnye_nauki/lingvistika/BIHARI.html" ;
+	wdt:P10369 "Q109" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q109> ;
+	wdt:P11012 "Q2740445" ;
+	wdtn:P11012 <https://linkedopendata.eu/entity/Q2740445> ;
+	rdfs:label "比哈尔语"@zh-hans ;
+	skos:prefLabel "比哈尔语"@zh-hans ;
+	schema:name "比哈尔语"@zh-hans ;
+	rdfs:label "比哈爾語"@zh-hant ;
+	skos:prefLabel "比哈爾語"@zh-hant ;
+	schema:name "比哈爾語"@zh-hant ;
+	rdfs:label "比哈爾語"@zh-hk ;
+	skos:prefLabel "比哈爾語"@zh-hk ;
+	schema:name "比哈爾語"@zh-hk ;
+	rdfs:label "比哈尔语"@zh-cn ;
+	skos:prefLabel "比哈尔语"@zh-cn ;
+	schema:name "比哈尔语"@zh-cn ;
+	rdfs:label "比哈尔语"@zh-sg ;
+	skos:prefLabel "比哈尔语"@zh-sg ;
+	schema:name "比哈尔语"@zh-sg ;
+	rdfs:label "比哈爾語"@zh-tw ;
+	skos:prefLabel "比哈爾語"@zh-tw ;
+	schema:name "比哈爾語"@zh-tw ;
+	rdfs:label "bihari"@pl ;
+	skos:prefLabel "bihari"@pl ;
+	schema:name "bihari"@pl ;
+	rdfs:label "Бихар чӀалар"@lez ;
+	skos:prefLabel "Бихар чӀалар"@lez ;
+	schema:name "Бихар чӀалар"@lez ;
+	rdfs:label "비하르어"@ko ;
+	skos:prefLabel "비하르어"@ko ;
+	schema:name "비하르어"@ko ;
+	rdfs:label "bihari"@fr ;
+	skos:prefLabel "bihari"@fr ;
+	schema:name "bihari"@fr ;
+	rdfs:label "lenguas bihari"@es ;
+	skos:prefLabel "lenguas bihari"@es ;
+	schema:name "lenguas bihari"@es ;
+	rdfs:label "بىھارى تىلى"@ug ;
+	skos:prefLabel "بىھارى تىلى"@ug ;
+	schema:name "بىھارى تىلى"@ug ;
+	rdfs:label "பீகாரி மொழிகள்"@ta ;
+	skos:prefLabel "பீகாரி மொழிகள்"@ta ;
+	schema:name "பீகாரி மொழிகள்"@ta ;
+	rdfs:label "bihāri valodas"@lv ;
+	skos:prefLabel "bihāri valodas"@lv ;
+	schema:name "bihāri valodas"@lv ;
+	rdfs:label "lingue bihari"@it ;
+	skos:prefLabel "lingue bihari"@it ;
+	schema:name "lingue bihari"@it ;
+	rdfs:label "bihaari keel"@et ;
+	skos:prefLabel "bihaari keel"@et ;
+	schema:name "bihaari keel"@et ;
+	rdfs:label "Bihari"@de ;
+	skos:prefLabel "Bihari"@de ;
+	schema:name "Bihari"@de ;
+	rdfs:label "ビハール語"@ja ;
+	skos:prefLabel "ビハール語"@ja ;
+	schema:name "ビハール語"@ja ;
+	rdfs:label "بہاری"@pnb ;
+	skos:prefLabel "بہاری"@pnb ;
+	schema:name "بہاری"@pnb ;
+	rdfs:label "Bihari"@nl ;
+	skos:prefLabel "Bihari"@nl ;
+	schema:name "Bihari"@nl ;
+	rdfs:label "línguas biaris"@pt ;
+	skos:prefLabel "línguas biaris"@pt ;
+	schema:name "línguas biaris"@pt ;
+	rdfs:label "bíharísk tungumál"@is ;
+	skos:prefLabel "bíharísk tungumál"@is ;
+	schema:name "bíharísk tungumál"@is ;
+	rdfs:label "bihara lingvo"@eo ;
+	skos:prefLabel "bihara lingvo"@eo ;
+	schema:name "bihara lingvo"@eo ;
+	rdfs:label "бихарские языки"@ru ;
+	skos:prefLabel "бихарские языки"@ru ;
+	schema:name "бихарские языки"@ru ;
+	rdfs:label "Bihari"@en ;
+	skos:prefLabel "Bihari"@en ;
+	schema:name "Bihari"@en ;
+	rdfs:label "bihari"@ca ;
+	skos:prefLabel "bihari"@ca ;
+	schema:name "bihari"@ca ;
+	rdfs:label "Бігарські мови"@uk ;
+	skos:prefLabel "Бігарські мови"@uk ;
+	schema:name "Бігарські мови"@uk ;
+	rdfs:label "lingua bihari"@la ;
+	skos:prefLabel "lingua bihari"@la ;
+	schema:name "lingua bihari"@la ;
+	rdfs:label "biharispråk"@nn ;
+	skos:prefLabel "biharispråk"@nn ;
+	schema:name "biharispråk"@nn ;
+	rdfs:label "bihárské jazyky"@cs ;
+	skos:prefLabel "bihárské jazyky"@cs ;
+	schema:name "bihárské jazyky"@cs ;
+	rdfs:label "biharski jezici"@hr ;
+	skos:prefLabel "biharski jezici"@hr ;
+	schema:name "biharski jezici"@hr ;
+	rdfs:label "biharų kalbos"@lt ;
+	skos:prefLabel "biharų kalbos"@lt ;
+	schema:name "biharų kalbos"@lt ;
+	rdfs:label "bihari"@da ;
+	skos:prefLabel "bihari"@da ;
+	schema:name "bihari"@da ;
+	rdfs:label "ബിഹാറി ഭാഷകൾ"@ml ;
+	skos:prefLabel "ബിഹാറി ഭാഷകൾ"@ml ;
+	schema:name "ബിഹാറി ഭാഷകൾ"@ml ;
+	rdfs:label "比哈尔语"@zh ;
+	skos:prefLabel "比哈尔语"@zh ;
+	schema:name "比哈尔语"@zh ;
+	rdfs:label "बिहारी भाषा"@mr ;
+	skos:prefLabel "बिहारी भाषा"@mr ;
+	schema:name "बिहारी भाषा"@mr ;
+	rdfs:label "bihari"@nb ;
+	skos:prefLabel "bihari"@nb ;
+	schema:name "bihari"@nb ;
+	rdfs:label "زبان بیهاری"@fa ;
+	skos:prefLabel "زبان بیهاری"@fa ;
+	schema:name "زبان بیهاری"@fa ;
+	rdfs:label "बिहारी भाषाएँ"@hi ;
+	skos:prefLabel "बिहारी भाषाएँ"@hi ;
+	schema:name "बिहारी भाषाएँ"@hi ;
+	rdfs:label "বিহারি ভাষাসমূহ"@bn ;
+	skos:prefLabel "বিহারি ভাষাসমূহ"@bn ;
+	schema:name "বিহারি ভাষাসমূহ"@bn ;
+	rdfs:label "Bihar-kielet"@fi ;
+	skos:prefLabel "Bihar-kielet"@fi ;
+	schema:name "Bihar-kielet"@fi ;
+	rdfs:label "Μπιχάρι γλώσσα"@el ;
+	skos:prefLabel "Μπιχάρι γλώσσα"@el ;
+	schema:name "Μπιχάρι γλώσσα"@el ;
+	rdfs:label "قائمة اللغات البهارية"@ar ;
+	skos:prefLabel "قائمة اللغات البهارية"@ar ;
+	schema:name "قائمة اللغات البهارية"@ar ;
+	rdfs:label "𑂥𑂱𑂯𑂰𑂩𑂲 𑂦𑂰𑂎𑂰"@bho ;
+	skos:prefLabel "𑂥𑂱𑂯𑂰𑂩𑂲 𑂦𑂰𑂎𑂰"@bho ;
+	schema:name "𑂥𑂱𑂯𑂰𑂩𑂲 𑂦𑂰𑂎𑂰"@bho ;
+	rdfs:label "بهاراتی"@mzn ;
+	skos:prefLabel "بهاراتی"@mzn ;
+	schema:name "بهاراتی"@mzn ;
+	rdfs:label "Linguas bihari"@gl ;
+	skos:prefLabel "Linguas bihari"@gl ;
+	schema:name "Linguas bihari"@gl ;
+	rdfs:label "Biħari"@mt ;
+	skos:prefLabel "Biħari"@mt ;
+	schema:name "Biħari"@mt ;
+	rdfs:label "Wikang Bihari"@tl ;
+	skos:prefLabel "Wikang Bihari"@tl ;
+	schema:name "Wikang Bihari"@tl ;
+	rdfs:label "ବିହାରୀ ଭାଷା"@or ;
+	skos:prefLabel "ବିହାରୀ ଭାଷା"@or ;
+	schema:name "ବିହାରୀ ଭାଷା"@or ;
+	rdfs:label "ਬਿਹਾਰੀ ਭਾਸ਼ਾਵਾਂ"@pa ;
+	skos:prefLabel "ਬਿਹਾਰੀ ਭਾਸ਼ਾਵਾਂ"@pa ;
+	schema:name "ਬਿਹਾਰੀ ਭਾਸ਼ਾਵਾਂ"@pa ;
+	rdfs:label "बिहारी भाषाहरू"@ne ;
+	skos:prefLabel "बिहारी भाषाहरू"@ne ;
+	schema:name "बिहारी भाषाहरू"@ne ;
+	rdfs:label "بہاری زبانیں"@ur ;
+	skos:prefLabel "بہاری زبانیں"@ur ;
+	schema:name "بہاری زبانیں"@ur ;
+	rdfs:label "بیهاری دیللری"@azb ;
+	skos:prefLabel "بیهاری دیللری"@azb ;
+	schema:name "بیهاری دیللری"@azb ;
+	rdfs:label "Llingües bihari"@ast ;
+	skos:prefLabel "Llingües bihari"@ast ;
+	schema:name "Llingües bihari"@ast ;
+	rdfs:label "bihari"@br ;
+	skos:prefLabel "bihari"@br ;
+	schema:name "bihari"@br ;
+	rdfs:label "బీహార్ భాషలు"@te ;
+	skos:prefLabel "బీహార్ భాషలు"@te ;
+	schema:name "బీహార్ భాషలు"@te ;
+	rdfs:label "Nhóm ngôn ngữ Bihar"@vi ;
+	skos:prefLabel "Nhóm ngôn ngữ Bihar"@vi ;
+	schema:name "Nhóm ngôn ngữ Bihar"@vi ;
+	rdfs:label "Lengas bihari"@oc ;
+	skos:prefLabel "Lengas bihari"@oc ;
+	schema:name "Lengas bihari"@oc ;
+	rdfs:label "Bihari-tale"@af ;
+	skos:prefLabel "Bihari-tale"@af ;
+	schema:name "Bihari-tale"@af ;
+	rdfs:label "bihari"@sv ;
+	skos:prefLabel "bihari"@sv ;
+	schema:name "bihari"@sv ;
+	rdfs:label "bihárčina"@sk ;
+	skos:prefLabel "bihárčina"@sk ;
+	schema:name "bihárčina"@sk ;
+	rdfs:label "łéngue bihari"@vec ;
+	skos:prefLabel "łéngue bihari"@vec ;
+	schema:name "łéngue bihari"@vec ;
+	rdfs:label "बिहारीभाषाः"@sa ;
+	skos:prefLabel "बिहारीभाषाः"@sa ;
+	schema:name "बिहारीभाषाः"@sa ;
+	rdfs:label "bihári"@hu ;
+	skos:prefLabel "bihári"@hu ;
+	schema:name "bihári"@hu ;
+	rdfs:label "Бихари теле"@tt ;
+	skos:prefLabel "Бихари теле"@tt ;
+	schema:name "Бихари теле"@tt ;
+	rdfs:label "बिहारी भाषा"@anp ;
+	skos:prefLabel "बिहारी भाषा"@anp ;
+	schema:name "बिहारी भाषा"@anp ;
+	schema:description "Lingua indoaria"@it,
+		"Sprache"@de,
+		"𑂣𑂴𑂩𑂥𑂲 𑂅𑂁𑂙𑂱𑂍 𑂦𑂰𑂭𑂰 𑂍𑂵 𑂣𑂒𑂹𑂓𑂱𑂧𑂲 𑂮𑂧𑂴𑂯, 𑂥𑂱𑂯𑂰𑂩, 𑂣𑂴𑂩𑂥𑂲 𑂇𑂞𑂹𑂞𑂩 𑂣𑂹𑂩𑂠𑂵𑂬, 𑂢𑂵𑂣𑂰𑂪 𑂍𑂵 𑂍𑂳𑂓 𑂯𑂱𑂮𑂹𑂮𑂰, 𑂄 𑂃𑂢𑂹𑂨 𑂄𑂮𑂣𑂰𑂮 𑂍𑂵 𑂅𑂪𑂰𑂍𑂵 𑂧𑂵𑂁 𑂥𑂷𑂪𑂪 𑂔𑂰𑂉 𑂫𑂰𑂪𑂲 𑂦𑂰𑂭𑂰।"@bho,
+		"taalfamilie"@nl,
+		"група мов в індійському штаті Бігар"@uk,
+		"ομάδα γλωσσών της ινδοευρωπαϊκής οικογένειας"@el,
+		"a subgroup of the Indo-Aryan languages that is usually included in the Eastern branch of Indo-Aryan"@en,
+		"पूर्वी हिन्द–आर्य भाषाओं का पश्चित्मी समूह है जो मुख्यतः भारत में बिहार एवं इसके अन्य पड़ोसी राज्यों में बोली जाती है।"@hi,
+		"ପୂର୍ବ ହିନ୍ଦୀ- ଆର୍ଯ୍ୟ ଭାଷାଏ ପଶ୍ଚୀମ ସମୂହ ଅଟେ ଯାହା ମୁଖ୍ୟତଃ ଭାରତରେ ବିହାର ଏବଂ ଏହାର ଅନ୍ୟ ପଡୋଶୀ ରାଜ୍ୟରେ କୁହାଯାଏ ।"@or,
+		"ਪੂਰਬੀ ਹਿੰਦ-ਆਰੀਅਨ ਭਾਸ਼ਾਵਾਂ ਦਾ ਇੱਕ ਨਿਸ਼ਚਿਤ ਸਮੂਹ ਹੈ ਜੋ ਮੁੱਖ ਤੌਰ 'ਤੇ ਬਿਹਾਰ ਅਤੇ ਉਸਦੇ ਗੁਆਂਢੀ ਸੂਬਿਆਂ 'ਚ ਬੋਲੀ ਜਾਂਦੀ ਹੈ."@pa,
+		"famille de langues indo-aryennes"@fr,
+		"familh yezhoù"@br,
+		"インドを中心に使用されている言語"@ja,
+		"हिन्द-आर्यभाषाणाम् उपसमूहः यः प्रायः हिन्द-आर्यस्य पूर्वशाखायां समाविष्टः भवति"@sa ;
+	skos:altLabel "比哈爾語"@zh,
+		"比哈爾諸語言"@zh,
+		"Bihari"@es,
+		"Idioma bijari"@es,
+		"Idioma bijarí"@es,
+		"Lengua bihari"@es,
+		"Bihari tili"@ug,
+		"Bihāri"@lv,
+		"Biharu valoda"@lv,
+		"Lingua bihari"@it,
+		"bih"@ja,
+		"Língua bihari"@pt,
+		"Língua biari"@pt,
+		"Línguas biari"@pt,
+		"Bíharísk mál"@is,
+		"Бихарский язык"@ru,
+		"Біхарські мови"@uk,
+		"Linguae Bihari"@la,
+		"Bihari"@nn,
+		"bihárština"@cs,
+		"biharština"@cs,
+		"Biharų kalba"@lt,
+		"बिहारी भाषा"@hi,
+		"𑂥𑂱𑂯𑂰𑂩𑂲"@bho,
+		"Μπιχάρι"@el,
+		"Bihari languages"@en,
+		"ਬਿਹਾਰੀ ਭਾਸ਼ਾ"@pa,
+		"ਬਿਹਾਰੀ"@pa,
+		"ਭੋਜਪੁਰੀ"@pa,
+		"बिहारी"@sa,
+		"बिहारी भाषाः"@sa,
+		"bihári nyelvek"@hu .
+
+wd:Q1277604 owl:sameAs wd:Q135305 .
+
+wd:Q12442025 owl:sameAs wd:Q135305 .
+
+wd:Q31441336 owl:sameAs wd:Q135305 .

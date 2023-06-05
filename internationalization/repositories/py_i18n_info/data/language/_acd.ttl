@@ -1,0 +1,186 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35256 a schema:Dataset ;
+	schema:about wd:Q35256 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1827840009"^^xsd:integer ;
+	schema:dateModified "2023-02-06T16:59:48Z"^^xsd:dateTime .
+
+wd:Q35256 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Gikyode> a schema:Article ;
+	schema:about wd:Q35256 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Gikyode"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Gikyode> a schema:Article ;
+	schema:about wd:Q35256 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Gikyode"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigikyode> a schema:Article ;
+	schema:about wd:Q35256 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigikyode"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kyode_language> a schema:Article ;
+	schema:about wd:Q35256 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kyode language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://li.wikipedia.org/wiki/Gikyode> a schema:Article ;
+	schema:about wd:Q35256 ;
+	schema:inLanguage "li" ;
+	schema:isPartOf <https://li.wikipedia.org/> ;
+	schema:name "Gikyode"@li .
+
+<https://li.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Gikyode_(Sprache)> a schema:Article ;
+	schema:about wd:Q35256 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Gikyode (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Gikyode_jezik> a schema:Article ;
+	schema:about wd:Q35256 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Gikyode jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Gikyode> a schema:Article ;
+	schema:about wd:Q35256 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Gikyode"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Kyode_language> a schema:Article ;
+	schema:about wd:Q35256 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Kyode language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35256 wdt:P220 "acd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/acd> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "giky1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/giky1238> ;
+	wdt:P305 "acd" ;
+	wdt:P1627 "acd" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q117 ;
+	wdt:P2341 wd:Q712832 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/ACD> ;
+	wdt:P279 wd:Q684009 ;
+	wdt:P646 "/m/02hwh83" ;
+	wdt:P910 wd:Q105715489 ;
+	wdt:P10369 "Q590190" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q590190> ;
+	rdfs:label "Kigikyode"@sw ;
+	skos:prefLabel "Kigikyode"@sw ;
+	schema:name "Kigikyode"@sw ;
+	rdfs:label "Lenga Gikyode"@pms ;
+	skos:prefLabel "Lenga Gikyode"@pms ;
+	schema:name "Lenga Gikyode"@pms ;
+	rdfs:label "Gikyode"@de ;
+	skos:prefLabel "Gikyode"@de ;
+	schema:name "Gikyode"@de ;
+	rdfs:label "Gikyode jezik"@hr ;
+	skos:prefLabel "Gikyode jezik"@hr ;
+	schema:name "Gikyode jezik"@hr ;
+	rdfs:label "Gikyode"@de-ch ;
+	skos:prefLabel "Gikyode"@de-ch ;
+	schema:name "Gikyode"@de-ch ;
+	rdfs:label "Kyode"@en ;
+	skos:prefLabel "Kyode"@en ;
+	schema:name "Kyode"@en ;
+	rdfs:label "Kyode"@en-ca ;
+	skos:prefLabel "Kyode"@en-ca ;
+	schema:name "Kyode"@en-ca ;
+	rdfs:label "Kyode"@en-gb ;
+	skos:prefLabel "Kyode"@en-gb ;
+	schema:name "Kyode"@en-gb ;
+	rdfs:label "gikyode"@ca ;
+	skos:prefLabel "gikyode"@ca ;
+	schema:name "gikyode"@ca ;
+	rdfs:label "Gikyode"@li ;
+	skos:prefLabel "Gikyode"@li ;
+	schema:name "Gikyode"@li ;
+	rdfs:label "ギチョーデ語"@ja ;
+	skos:prefLabel "ギチョーデ語"@ja ;
+	schema:name "ギチョーデ語"@ja ;
+	rdfs:label "gikyode"@fr ;
+	skos:prefLabel "gikyode"@fr ;
+	schema:name "gikyode"@fr ;
+	rdfs:label "Kyode language"@ig ;
+	skos:prefLabel "Kyode language"@ig ;
+	schema:name "Kyode language"@ig ;
+	schema:description "Sprache"@de,
+		"Guang language of Ghana"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Gichode"@de,
+		"Kyode"@de,
+		"Chode"@de,
+		"Gikyode"@en,
+		"Chode"@en,
+		"Kyode language"@en .
+
+wd:Q6451890 owl:sameAs wd:Q35256 .

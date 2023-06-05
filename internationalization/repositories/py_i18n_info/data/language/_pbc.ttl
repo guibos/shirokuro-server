@@ -1,0 +1,138 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3915921 a schema:Dataset ;
+	schema:about wd:Q3915921 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1827871753"^^xsd:integer ;
+	schema:dateModified "2023-02-06T17:51:37Z"^^xsd:dateTime .
+
+wd:Q3915921 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_patamona> a schema:Article ;
+	schema:about wd:Q3915921 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga patamona"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/Patam%C3%B3na> a schema:Article ;
+	schema:about wd:Q3915921 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Patamóna"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Patamona> a schema:Article ;
+	schema:about wd:Q3915921 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Patamona"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Patamona> a schema:Article ;
+	schema:about wd:Q3915921 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Patamona"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Patamoneg> a schema:Article ;
+	schema:about wd:Q3915921 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Patamoneg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3915921 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "pbc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pbc> ;
+	wdt:P2355 "307",
+		"1916" ;
+	wdt:P1394 "pata1262" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/pata1262> ;
+	wdt:P279 wd:Q54841654 ;
+	wdt:P17 wd:Q734,
+		wd:Q155 ;
+	wdt:P1889 wd:Q682975 ;
+	wdt:P305 "pbc" ;
+	wdt:P1627 "pbc" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2341 wd:Q1454035,
+		wd:Q1516381 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PBC> ;
+	wdt:P646 "/m/02hxg9j" ;
+	rdfs:label "Lenga patamona"@pms ;
+	skos:prefLabel "Lenga patamona"@pms ;
+	schema:name "Lenga patamona"@pms ;
+	rdfs:label "Patamona"@es ;
+	skos:prefLabel "Patamona"@es ;
+	schema:name "Patamona"@es ;
+	rdfs:label "patamona"@fr ;
+	skos:prefLabel "patamona"@fr ;
+	schema:name "patamona"@fr ;
+	rdfs:label "Patamona"@en ;
+	skos:prefLabel "Patamona"@en ;
+	schema:name "Patamona"@en ;
+	rdfs:label "Patamona"@en-gb ;
+	skos:prefLabel "Patamona"@en-gb ;
+	schema:name "Patamona"@en-gb ;
+	rdfs:label "Patamóna"@is ;
+	skos:prefLabel "Patamóna"@is ;
+	schema:name "Patamóna"@is ;
+	rdfs:label "Patamona"@ast ;
+	skos:prefLabel "Patamona"@ast ;
+	schema:name "Patamona"@ast ;
+	rdfs:label "patamoneg"@br ;
+	skos:prefLabel "patamoneg"@br ;
+	schema:name "patamoneg"@br ;
+	schema:description "שפה"@he,
+		"langue caribe"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Patamona language"@en .
+
+wd:Q16423592 owl:sameAs wd:Q3915921 .
+
+wd:Q20582689 owl:sameAs wd:Q3915921 .

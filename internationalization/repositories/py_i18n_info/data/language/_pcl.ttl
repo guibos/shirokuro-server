@@ -1,0 +1,133 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7136554 a schema:Dataset ;
+	schema:about wd:Q7136554 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1355791881"^^xsd:integer ;
+	schema:dateModified "2021-02-06T14:31:17Z"^^xsd:dateTime .
+
+wd:Q7136554 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_pardhi> a schema:Article ;
+	schema:about wd:Q7136554 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga pardhi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kipardhi> a schema:Article ;
+	schema:about wd:Q7136554 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kipardhi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Pardhi_language> a schema:Article ;
+	schema:about wd:Q7136554 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Pardhi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Pardhi> a schema:Article ;
+	schema:about wd:Q7136554 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Pardhi"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7136554 wdt:P220 "pcl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pcl> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "pard1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/pard1243> ;
+	wdt:P279 wd:Q4901727 ;
+	wdt:P910 wd:Q47922941 ;
+	wdt:P373 "Pardhi language" ;
+	wdt:P305 "pcl" ;
+	wdt:P1627 "pcl" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1061,
+		wd:Q1185,
+		wd:Q1191,
+		wd:Q1188 ;
+	wdt:P1014 "300389067" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389067> ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PCL> ;
+	wdt:P646 "/m/02hxqzx" ;
+	rdfs:label "Pardhi"@en ;
+	skos:prefLabel "Pardhi"@en ;
+	schema:name "Pardhi"@en ;
+	rdfs:label "Lenga pardhi"@pms ;
+	skos:prefLabel "Lenga pardhi"@pms ;
+	schema:name "Lenga pardhi"@pms ;
+	rdfs:label "Kipardhi"@sw ;
+	skos:prefLabel "Kipardhi"@sw ;
+	schema:name "Kipardhi"@sw ;
+	rdfs:label "Pardhi"@en-gb ;
+	skos:prefLabel "Pardhi"@en-gb ;
+	schema:name "Pardhi"@en-gb ;
+	rdfs:label "pardhi"@fr ;
+	skos:prefLabel "pardhi"@fr ;
+	schema:name "pardhi"@fr ;
+	rdfs:label "పార్ధి"@te ;
+	skos:prefLabel "పార్ధి"@te ;
+	schema:name "పార్ధి"@te ;
+	rdfs:label "ਪਰਧੀ"@pa ;
+	skos:prefLabel "ਪਰਧੀ"@pa ;
+	schema:name "ਪਰਧੀ"@pa ;
+	rdfs:label "Pardhi"@oc ;
+	skos:prefLabel "Pardhi"@oc ;
+	schema:name "Pardhi"@oc ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"sprog"@da,
+		"language"@en,
+		"langue bhil"@fr,
+		"పార్ధి"@te,
+		"ਭਾਸ਼ਾ"@pa,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ভারতের ভাষা"@bn ;
+	skos:altLabel "Pardhi language"@en,
+		"ਪਰਧੀ ਭਾਸ਼ਾ"@pa .

@@ -1,0 +1,85 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q60611109 a schema:Dataset ;
+	schema:about wd:Q60611109 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1355267457"^^xsd:integer ;
+	schema:dateModified "2021-02-05T17:09:40Z"^^xsd:dateTime .
+
+wd:Q60611109 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_amuzgo,_San_Pedro_amuzgos> a schema:Article ;
+	schema:about wd:Q60611109 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga amuzgo, San Pedro amuzgos"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Amuzgo_de_San_Pedro_Amuzgos_(jezik)> a schema:Article ;
+	schema:about wd:Q60611109 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Amuzgo de San Pedro Amuzgos (jezik)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q60611109 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q35092 ;
+	wdt:P910 wd:Q33091014 ;
+	wdt:P220 "azg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/azg> ;
+	wdt:P1394 "sanp1260" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sanp1260> ;
+	wdt:P305 "azg" ;
+	wdt:P1627 "azg" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q96 ;
+	wdt:P2341 wd:Q34110 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/AZG> ;
+	rdfs:label "San Pedro Amuzgos Amuzgo"@en ;
+	skos:prefLabel "San Pedro Amuzgos Amuzgo"@en ;
+	schema:name "San Pedro Amuzgos Amuzgo"@en ;
+	rdfs:label "amuzgo de San Pedro Amuzgos"@fr ;
+	skos:prefLabel "amuzgo de San Pedro Amuzgos"@fr ;
+	schema:name "amuzgo de San Pedro Amuzgos"@fr ;
+	rdfs:label "Lenga amuzgo, San Pedro amuzgos"@pms ;
+	skos:prefLabel "Lenga amuzgo, San Pedro amuzgos"@pms ;
+	schema:name "Lenga amuzgo, San Pedro amuzgos"@pms ;
+	rdfs:label "Amuzgo de San Pedro Amuzgos (jezik)"@hr ;
+	skos:prefLabel "Amuzgo de San Pedro Amuzgos (jezik)"@hr ;
+	schema:name "Amuzgo de San Pedro Amuzgos (jezik)"@hr ;
+	schema:description "langue oto-mangue"@fr,
+		"taal"@nl ;
+	skos:altLabel "San Pedro Amuzgos Amuzgo language"@en .

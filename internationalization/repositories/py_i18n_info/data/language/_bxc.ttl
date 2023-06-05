@@ -1,0 +1,203 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q13345 a schema:Dataset ;
+	schema:about wd:Q13345 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1856640040"^^xsd:integer ;
+	schema:dateModified "2023-03-20T17:13:06Z"^^xsd:dateTime .
+
+wd:Q13345 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Lengue> a schema:Article ;
+	schema:about wd:Q13345 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Lengue"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Molengue> a schema:Article ;
+	schema:about wd:Q13345 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Molengue"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_balengue> a schema:Article ;
+	schema:about wd:Q13345 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma balengue"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Lengue_language> a schema:Article ;
+	schema:about wd:Q13345 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Lengue language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Molengue> a schema:Article ;
+	schema:about wd:Q13345 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Molengue"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_balengue> a schema:Article ;
+	schema:about wd:Q13345 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma balengue"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Molengue_jezik> a schema:Article ;
+	schema:about wd:Q13345 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Molengue jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_balengue> a schema:Article ;
+	schema:about wd:Q13345 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua balengue"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_balengue> a schema:Article ;
+	schema:about wd:Q13345 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua balengue"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q13345 wdt:P220 "bxc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bxc> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/04hj8l" ;
+	wdt:P279 wd:Q33838 ;
+	wdt:P1394 "mole1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mole1238> ;
+	wdt:P305 "bxc" ;
+	wdt:P1627 "bxc" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q983 ;
+	wdt:P2341 wd:Q203873 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BXC> ;
+	rdfs:label "Lengue"@en ;
+	skos:prefLabel "Lengue"@en ;
+	schema:name "Lengue"@en ;
+	rdfs:label "Lengue"@en-ca ;
+	skos:prefLabel "Lengue"@en-ca ;
+	schema:name "Lengue"@en-ca ;
+	rdfs:label "Lengue"@en-gb ;
+	skos:prefLabel "Lengue"@en-gb ;
+	schema:name "Lengue"@en-gb ;
+	rdfs:label "Molengue"@de ;
+	skos:prefLabel "Molengue"@de ;
+	schema:name "Molengue"@de ;
+	rdfs:label "balengue"@es ;
+	skos:prefLabel "balengue"@es ;
+	schema:name "balengue"@es ;
+	rdfs:label "Molengue jezik"@hr ;
+	skos:prefLabel "Molengue jezik"@hr ;
+	schema:name "Molengue jezik"@hr ;
+	rdfs:label "Lenga Molengue"@pms ;
+	skos:prefLabel "Lenga Molengue"@pms ;
+	schema:name "Lenga Molengue"@pms ;
+	rdfs:label "Língua balengue"@pt ;
+	skos:prefLabel "Língua balengue"@pt ;
+	schema:name "Língua balengue"@pt ;
+	rdfs:label "Língua balengue"@pt-br ;
+	skos:prefLabel "Língua balengue"@pt-br ;
+	schema:name "Língua balengue"@pt-br ;
+	rdfs:label "lengue"@fr ;
+	skos:prefLabel "lengue"@fr ;
+	schema:name "lengue"@fr ;
+	rdfs:label "lingua molenghe"@it ;
+	skos:prefLabel "lingua molenghe"@it ;
+	schema:name "lingua molenghe"@it ;
+	rdfs:label "balengue"@ca ;
+	skos:prefLabel "balengue"@ca ;
+	schema:name "balengue"@ca ;
+	rdfs:label "レング語"@ja ;
+	skos:prefLabel "レング語"@ja ;
+	schema:name "レング語"@ja ;
+	rdfs:label "molenge keel"@et ;
+	skos:prefLabel "molenge keel"@et ;
+	schema:name "molenge keel"@et ;
+	rdfs:label "Idioma balengue"@ast ;
+	skos:prefLabel "Idioma balengue"@ast ;
+	schema:name "Idioma balengue"@ast ;
+	rdfs:label "Lingua balengue"@gl ;
+	skos:prefLabel "Lingua balengue"@gl ;
+	schema:name "Lingua balengue"@gl ;
+	rdfs:label "molenghe"@vec ;
+	skos:prefLabel "molenghe"@vec ;
+	schema:name "molenghe"@vec ;
+	schema:description "Bantu language of southern Equatorial Guinea"@en,
+		"lengua hablada por la tribu balengue, al sur de Guinea Ecuatorial"@es,
+		"Bantusprache  Äquatorialguineain"@de,
+		"langue de Guinée Equatoriale"@fr,
+		"lingua niger-kordofaniana"@it,
+		"שפה"@he,
+		"yezh"@br,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"lingua bantú"@gl,
+		"llengua bantoide de Guinea Equatorial"@ca ;
+	skos:altLabel "Molengue language"@en,
+		"Molengue"@en,
+		"Balengue language"@en,
+		"Molendji language"@en,
+		"Lengue language"@en,
+		"Balengue"@de,
+		"Molendji"@de,
+		"molengue"@fr,
+		"balengue"@fr,
+		"molendji"@fr,
+		"Lingua lengue"@gl,
+		"Lingua molengue"@gl,
+		"molendji"@ca,
+		"molengue"@ca .

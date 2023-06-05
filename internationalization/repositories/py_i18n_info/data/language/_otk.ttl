@@ -1,0 +1,576 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q34988 a schema:Dataset ;
+	schema:about wd:Q34988 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1924323921"^^xsd:integer ;
+	schema:dateModified "2023-06-26T17:52:38Z"^^xsd:dateTime .
+
+wd:Q34988 a wikibase:Item .
+
+<https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D1%85%D0%BE%D0%BD%D0%BE-%D0%B5%D0%BD%D0%B8%D1%81%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Орхоно-енисейский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%80%D0%BE%D1%82%D1%8E%D1%80%D0%BA%D1%81%D1%8C%D0%BA%D1%96_%D0%BC%D0%BE%D0%B2%D0%B8> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Старотюркські мови"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%AA%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A5%80_%E0%A4%A4%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%95%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "पुरानी तुर्की भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%81%E0%B8%B4%E0%B8%81%E0%B9%80%E0%B8%81%E0%B9%88%E0%B8%B2> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาเตอร์กิกเก่า"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Gammaltyrkisk> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Gammaltyrkisk"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szl.wikipedia.org/wiki/Star%C5%8Ftureck%C5%8F_g%C5%8Fdka> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "szl" ;
+	schema:isPartOf <https://szl.wikipedia.org/> ;
+	schema:name "Starŏtureckŏ gŏdka"@szl .
+
+<https://szl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%80%D0%BE%D1%82%D1%83%D1%80%D0%BA%D0%B8%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Старотуркиски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Altt%C3%BCrkische_Sprache> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Alttürkische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Staroture%C4%8Dtina> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Staroturečtina"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_turca_antica> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua turca antica"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Q%C9%99dim_t%C3%BCrk_dili> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Qədim türk dili"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Senov%C4%97s_tiurk%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Senovės tiurkų kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Eski_T%C3%BCrk%C3%A7e> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Eski Türkçe"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%D9%BE%D8%B1%D8%A7%D9%86%DB%8C_%D8%AA%D8%B1%DA%A9_%D8%A8%D9%88%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "پرانی ترک بولی"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kk.wikipedia.org/wiki/%D0%9A%D3%A9%D0%BD%D0%B5_%D1%82%D2%AF%D1%80%D0%BA%D1%96%D0%BB%D1%96%D0%BA_%D1%82%D1%96%D0%BB%D1%96> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "kk" ;
+	schema:isPartOf <https://kk.wikipedia.org/> ;
+	schema:name "Көне түркілік тілі"@kk .
+
+<https://kk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%9D%E1%83%A0%E1%83%AE%E1%83%9D%E1%83%9C-%E1%83%94%E1%83%9C%E1%83%98%E1%83%A1%E1%83%94%E1%83%98%E1%83%A1_%E1%83%AB%E1%83%94%E1%83%92%E1%83%9A%E1%83%97%E1%83%90_%E1%83%94%E1%83%9C%E1%83%90> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "ორხონ-ენისეის ძეგლთა ენა"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_staroturecki> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język staroturecki"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D8%AA%D8%B1%D9%83%D9%8A%D8%A9_%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85%D8%A9> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "اللغة التركية القديمة"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D9%82%D8%AF%DB%8C%D9%85_%D8%AA%D8%B1%DA%A9%DB%8C_%D8%B2%D8%A8%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "قدیم ترکی زبان"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ky.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D1%8B%D1%80%D0%BA%D1%8B_%D1%82%D2%AF%D1%80%D0%BA_%D1%82%D0%B8%D0%BB%D0%B4%D0%B5%D1%80%D0%B8> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "ky" ;
+	schema:isPartOf <https://ky.wikipedia.org/> ;
+	schema:name "Байыркы түрк тилдери"@ky .
+
+<https://ky.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%80%D0%BE%D1%82%D1%8E%D1%80%D0%BA%D1%81%D0%BA%D0%B8_%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Старотюркски език"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Vieux_turc> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Vieux turc"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/G%C3%B6kturks> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Gökturks"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D8%A7%D8%B3%DA%A9%DB%8C_%D8%AA%D9%88%D8%B1%DA%A9%D8%AC%D9%87> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "اسکی تورکجه"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%AA%D8%B1%DA%A9%DB%8C_%D8%A8%D8%A7%D8%B3%D8%AA%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان ترکی باستان"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Gammeltyrkisk> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Gammeltyrkisk"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Muinaisuiguurin_kieli> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Muinaisuiguurin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Old_Turkic> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Old Turkic"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sah.wikipedia.org/wiki/%D0%9E%D1%80%D1%85%D0%BE%D0%BD-%D0%95%D0%BD%D0%B8%D1%81%D0%B5%D0%B9_%D1%82%D1%8B%D0%BB%D0%B0> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "sah" ;
+	schema:isPartOf <https://sah.wikipedia.org/> ;
+	schema:name "Орхон-Енисей тыла"@sah .
+
+<https://sah.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E5%8F%A4%E3%83%81%E3%83%A5%E3%83%AB%E3%82%AF%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "古チュルク語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%8F%A4%E4%BB%A3%E7%AA%81%E5%8E%A5%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "古代突厥語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%8C%80_%ED%8A%80%EB%A5%B4%ED%81%AC%EC%96%B4> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "고대 튀르크어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Staroturkijski_jezik> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Staroturkijski jezik"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D1%8B%D0%BD%D0%B3%D1%8B_%D1%82%D3%A9%D1%80%D0%BA%D0%B8_%D3%99%D0%B4%D3%99%D0%B1%D0%B8_%D1%82%D0%B5%D0%BB> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Борынгы төрки әдәби тел"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Malnova_tjurka_lingvaro> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Malnova tjurka lingvaro"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Qadimgi_turkiy> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Qadimgi turkiy"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ckb.wikipedia.org/wiki/%D8%B2%D9%85%D8%A7%D9%86%DB%8C_%D8%AA%D9%88%D8%B1%DA%A9%DB%8C%DB%8C_%DA%A9%DB%86%D9%86> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "ckb" ;
+	schema:isPartOf <https://ckb.wikipedia.org/> ;
+	schema:name "زمانی تورکیی کۆن"@ckb .
+
+<https://ckb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ku.wikipedia.org/wiki/Ziman%C3%AA_tirk%C3%AE_y%C3%AA_kevn> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "ku" ;
+	schema:isPartOf <https://ku.wikipedia.org/> ;
+	schema:name "Zimanê tirkî yê kevn"@ku .
+
+<https://ku.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Turkik_Kuno> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Turkik Kuno"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mg.wikipedia.org/wiki/Fiteny_tiorka_taloha> a schema:Article ;
+	schema:about wd:Q34988 ;
+	schema:inLanguage "mg" ;
+	schema:isPartOf <https://mg.wikipedia.org/> ;
+	schema:name "Fiteny tiorka taloha"@mg .
+
+<https://mg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q34988 wdt:P646 "/m/05vz55" ;
+	wdt:P31 wd:Q34770,
+		wd:Q2315359 ;
+	wdt:P305 "otk" ;
+	wdt:P282 wd:Q5058305 ;
+	wdt:P279 wd:Q1126028 ;
+	wdt:P1394 "oldt1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/oldt1247> ;
+	wdt:P220 "otk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/otk> ;
+	wdt:P1417 "topic/Old-Turkic-language" ;
+	wdt:P4132 wd:Q539808,
+		wd:Q171263 ;
+	wdt:P910 wd:Q31935637 ;
+	wdt:P227 "4120137-1" ;
+	wdtn:P227 <https://d-nb.info/gnd/4120137-1> ;
+	wdt:P1889 wd:Q7083390 ;
+	wdt:P424 "otk" ;
+	wdt:P1245 "545152" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/OTK> ;
+	wdt:P576 "0701-01-01T00:00:00Z"^^xsd:dateTime ;
+	rdfs:label "पुरानी तुर्की भाषा"@hi ;
+	skos:prefLabel "पुरानी तुर्की भाषा"@hi ;
+	schema:name "पुरानी तुर्की भाषा"@hi ;
+	rdfs:label "język staroturecki"@pl ;
+	skos:prefLabel "język staroturecki"@pl ;
+	schema:name "język staroturecki"@pl ;
+	rdfs:label "vieux-turc"@fr ;
+	skos:prefLabel "vieux-turc"@fr ;
+	schema:name "vieux-turc"@fr ;
+	rdfs:label "орхоно-енисейский язык"@ru ;
+	skos:prefLabel "орхоно-енисейский язык"@ru ;
+	schema:name "орхоно-енисейский язык"@ru ;
+	rdfs:label "Old Turkic"@en ;
+	skos:prefLabel "Old Turkic"@en ;
+	schema:name "Old Turkic"@en ;
+	rdfs:label "Eski Türkçe"@tr ;
+	skos:prefLabel "Eski Türkçe"@tr ;
+	schema:name "Eski Türkçe"@tr ;
+	rdfs:label "ภาษาเตอร์กิกโบราณ"@th ;
+	skos:prefLabel "ภาษาเตอร์กิกโบราณ"@th ;
+	schema:name "ภาษาเตอร์กิกโบราณ"@th ;
+	rdfs:label "Старотурски јазик"@mk ;
+	skos:prefLabel "Старотурски јазик"@mk ;
+	schema:name "Старотурски јазик"@mk ;
+	rdfs:label "Muinaisuiguurin kieli"@fi ;
+	skos:prefLabel "Muinaisuiguurin kieli"@fi ;
+	schema:name "Muinaisuiguurin kieli"@fi ;
+	rdfs:label "Alttürkisch"@de ;
+	skos:prefLabel "Alttürkisch"@de ;
+	schema:name "Alttürkisch"@de ;
+	rdfs:label "staroturečtina"@cs ;
+	skos:prefLabel "staroturečtina"@cs ;
+	schema:name "staroturečtina"@cs ;
+	rdfs:label "Старотюркски език"@bg ;
+	skos:prefLabel "Старотюркски език"@bg ;
+	schema:name "Старотюркски език"@bg ;
+	rdfs:label "Gökturks"@nl ;
+	skos:prefLabel "Gökturks"@nl ;
+	schema:name "Gökturks"@nl ;
+	rdfs:label "قدیم ترکی زبان"@ur ;
+	skos:prefLabel "قدیم ترکی زبان"@ur ;
+	schema:name "قدیم ترکی زبان"@ur ;
+	rdfs:label "زبان ترکی باستان"@fa ;
+	skos:prefLabel "زبان ترکی باستان"@fa ;
+	schema:name "زبان ترکی باستان"@fa ;
+	rdfs:label "التركية القديمة"@ar ;
+	skos:prefLabel "التركية القديمة"@ar ;
+	schema:name "التركية القديمة"@ar ;
+	rdfs:label "lingua turca antica"@it ;
+	skos:prefLabel "lingua turca antica"@it ;
+	schema:name "lingua turca antica"@it ;
+	rdfs:label "старотюркські мови"@uk ;
+	skos:prefLabel "старотюркські мови"@uk ;
+	schema:name "старотюркські мови"@uk ;
+	rdfs:label "turco antiguo"@es ;
+	skos:prefLabel "turco antiguo"@es ;
+	schema:name "turco antiguo"@es ;
+	rdfs:label "古代突厥語"@zh ;
+	skos:prefLabel "古代突厥語"@zh ;
+	schema:name "古代突厥語"@zh ;
+	rdfs:label "Senovės tiurkų kalba"@lt ;
+	skos:prefLabel "Senovės tiurkų kalba"@lt ;
+	schema:name "Senovės tiurkų kalba"@lt ;
+	rdfs:label "Qədim türk dili"@az ;
+	skos:prefLabel "Qədim türk dili"@az ;
+	schema:name "Qədim türk dili"@az ;
+	rdfs:label "Көне түркілік тілі"@kk ;
+	skos:prefLabel "Көне түркілік тілі"@kk ;
+	schema:name "Көне түркілік тілі"@kk ;
+	rdfs:label "古テュルク語"@ja ;
+	skos:prefLabel "古テュルク語"@ja ;
+	schema:name "古テュルク語"@ja ;
+	rdfs:label "Байыркы түрк тилдери"@ky ;
+	skos:prefLabel "Байыркы түрк тилдери"@ky ;
+	schema:name "Байыркы түрк тилдери"@ky ;
+	rdfs:label "पुरातन तुर्की भाषा"@ne ;
+	skos:prefLabel "पुरातन तुर्की भाषा"@ne ;
+	schema:name "पुरातन तुर्की भाषा"@ne ;
+	rdfs:label "Starŏtureckŏ gŏdka"@szl ;
+	skos:prefLabel "Starŏtureckŏ gŏdka"@szl ;
+	schema:name "Starŏtureckŏ gŏdka"@szl ;
+	rdfs:label "돌궐어"@ko ;
+	skos:prefLabel "돌궐어"@ko ;
+	schema:name "돌궐어"@ko ;
+	rdfs:label "پرانی ترک بولی"@pnb ;
+	skos:prefLabel "پرانی ترک بولی"@pnb ;
+	schema:name "پرانی ترک بولی"@pnb ;
+	rdfs:label "antikva tjurka lingvo"@eo ;
+	skos:prefLabel "antikva tjurka lingvo"@eo ;
+	schema:name "antikva tjurka lingvo"@eo ;
+	rdfs:label "التركي القديم"@aeb-arab ;
+	skos:prefLabel "التركي القديم"@aeb-arab ;
+	schema:name "التركي القديم"@aeb-arab ;
+	rdfs:label "παλαιά τουρκικά"@el ;
+	skos:prefLabel "παλαιά τουρκικά"@el ;
+	schema:name "παλαιά τουρκικά"@el ;
+	rdfs:label "قدیم تورک دیلی"@azb ;
+	skos:prefLabel "قدیم تورک دیلی"@azb ;
+	schema:name "قدیم تورک دیلی"@azb ;
+	rdfs:label "Bahasa Turkik Kuno"@id ;
+	skos:prefLabel "Bahasa Turkik Kuno"@id ;
+	schema:name "Bahasa Turkik Kuno"@id ;
+	rdfs:label "Gammeltyrkisk"@nb ;
+	skos:prefLabel "Gammeltyrkisk"@nb ;
+	schema:name "Gammeltyrkisk"@nb ;
+	rdfs:label "ორხონ-ენისეის ძეგლთა ენა"@ka ;
+	skos:prefLabel "ორხონ-ენისეის ძეგლთა ენა"@ka ;
+	schema:name "ორხონ-ენისეის ძეგლთა ენა"@ka ;
+	rdfs:label "প্রাচীন তুর্কীয় ভাষা"@bn ;
+	skos:prefLabel "প্রাচীন তুর্কীয় ভাষা"@bn ;
+	schema:name "প্রাচীন তুর্কীয় ভাষা"@bn ;
+	rdfs:label "Gammaltyrkisk"@nn ;
+	skos:prefLabel "Gammaltyrkisk"@nn ;
+	schema:name "Gammaltyrkisk"@nn ;
+	rdfs:label "Орхон-Енисей тыла"@sah ;
+	skos:prefLabel "Орхон-Енисей тыла"@sah ;
+	schema:name "Орхон-Енисей тыла"@sah ;
+	rdfs:label "Tiếng Turk Cổ"@vi ;
+	skos:prefLabel "Tiếng Turk Cổ"@vi ;
+	schema:name "Tiếng Turk Cổ"@vi ;
+	rdfs:label "limba turcă veche"@ro ;
+	skos:prefLabel "limba turcă veche"@ro ;
+	schema:name "limba turcă veche"@ro ;
+	rdfs:label "turca antiga"@vec ;
+	skos:prefLabel "turca antiga"@vec ;
+	schema:name "turca antiga"@vec ;
+	rdfs:label "Борынгы төрки әдәби тел"@tt ;
+	skos:prefLabel "Борынгы төрки әдәби тел"@tt ;
+	schema:name "Борынгы төрки әдәби тел"@tt ;
+	rdfs:label "Staroturkijski jezik"@sh ;
+	skos:prefLabel "Staroturkijski jezik"@sh ;
+	schema:name "Staroturkijski jezik"@sh ;
+	rdfs:label "Qadimgi turkiy"@uz ;
+	skos:prefLabel "Qadimgi turkiy"@uz ;
+	schema:name "Qadimgi turkiy"@uz ;
+	rdfs:label "tirkiya kevn"@ku ;
+	skos:prefLabel "tirkiya kevn"@ku ;
+	schema:name "tirkiya kevn"@ku ;
+	rdfs:label "زمانی تورکیی کۆن"@ckb ;
+	skos:prefLabel "زمانی تورکیی کۆن"@ckb ;
+	schema:name "زمانی تورکیی کۆن"@ckb ;
+	rdfs:label "Fiteny tiorka taloha"@mg ;
+	skos:prefLabel "Fiteny tiorka taloha"@mg ;
+	schema:name "Fiteny tiorka taloha"@mg ;
+	schema:description "idioma"@es,
+		"lingua del ramo sud-orientale delle lingue turche"@it,
+		"صفحه ابهام‌زدایی ویکی‌مدیا"@fa,
+		"earliest attested form of Turkic, found in Göktürk and Uyghur inscriptions dating from about the 7th century to the 13th century"@en,
+		"שפה"@he,
+		"mortinta tjurka lingvo, parolita inter 7-a kaj 13-a jarcentoj"@eo,
+		"πρώτη καταγεγραμμένη μορφή της τουρκικής γλώσσας, που χρονολογείται από τον 7ο έως τον 13ο αιώνα"@el,
+		"premiere forme de la langue turque, qui date du 7e siècle jusqu'au 13e siècle"@fr,
+		"yezh"@br,
+		"Sprache"@de,
+		"lingua"@la,
+		"iaith"@cy,
+		"najstarszy zaświadczony w piśmie język turkijski"@pl,
+		"Türkçenin 13. yüzyıla dek kullanılan en eski biçimi"@tr,
+		"kieli"@fi,
+		"أقدم نسخة معروفة من اللغة التركية الحالية"@ar,
+		"チュルク語族シベリア・チュルク語群に属する古代の言語"@ja,
+		"bagian dari rumpun bahasa Turkik"@id ;
+	skos:altLabel "Vieil-ouïgour"@fr,
+		"Vieux turc"@fr,
+		"Vieux-ouïghour"@fr,
+		"языки рунических надписей"@ru,
+		"язык орхоно-енисейских памятников"@ru,
+		"древнетюркский язык"@ru,
+		"Köktürkçe"@tr,
+		"Türk Dilinin Zamanla Değişimi"@tr,
+		"Öz Türkçe"@tr,
+		"Eski Türk dili"@tr,
+		"Göktürkçe"@tr,
+		"ภาษาอุยกูร์โบราณ"@th,
+		"Altturkisch"@de,
+		"Orkhon-Türkisch"@de,
+		"Karachaniden-Türkisch"@de,
+		"Orchon-Türkisch"@de,
+		"Altuigurisch"@de,
+		"altuigurische Sprache"@de,
+		"alttürkische Sprache"@de,
+		"Древнотюркски език"@bg,
+		"Gokturks"@nl,
+		"turco antiguo oriental"@es,
+		"Qədim türk dilləri"@az,
+		"Old Turkic language"@en,
+		"otk"@en,
+		"παλαιά τουρκική γλώσσα"@el,
+		"język staroturkijski"@pl,
+		"اسکی تورکجه"@azb,
+		"muinaisturkki"@fi .
+
+wd:Q13410386 owl:sameAs wd:Q34988 .
+
+wd:Q31768917 owl:sameAs wd:Q34988 .

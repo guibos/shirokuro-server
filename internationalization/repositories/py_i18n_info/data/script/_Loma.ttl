@@ -1,0 +1,95 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q13023816 a schema:Dataset ;
+	schema:about wd:Q13023816 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1521799486"^^xsd:integer ;
+	schema:dateModified "2021-11-03T22:02:44Z"^^xsd:dateTime .
+
+wd:Q13023816 a wikibase:Item .
+
+<https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A3%E0%B9%82%E0%B8%A5%E0%B8%A1%E0%B8%B2> a schema:Article ;
+	schema:about wd:Q13023816 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "อักษรโลมา"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%9E%E6%96%87%E5%AD%97> a schema:Article ;
+	schema:about wd:Q13023816 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ロマ文字"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q13023816 wdt:P31 wd:Q182133,
+		wd:Q1191702,
+		wd:Q4004706 ;
+	wdt:P506 "Loma" ;
+	wdt:P2620 "437" ;
+	wdt:P2561 "Loma"@en,
+		"loma"@fr ;
+	wdt:P571 "1930-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P582 "1940-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P407 wd:Q35885 ;
+	wdt:P366 wd:Q35885 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Loma%20syllable%20loo.svg> ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P2671 "/g/11f65954zs" ;
+	wdtn:P2671 <http://g.co/kg/g/11f65954zs> ;
+	rdfs:label "อักษรโลมา"@th ;
+	skos:prefLabel "อักษรโลมา"@th ;
+	schema:name "อักษรโลมา"@th ;
+	rdfs:label "Loma script"@en ;
+	skos:prefLabel "Loma script"@en ;
+	schema:name "Loma script"@en ;
+	rdfs:label "écriture loma"@fr ;
+	skos:prefLabel "écriture loma"@fr ;
+	schema:name "écriture loma"@fr ;
+	rdfs:label "loma"@ca ;
+	skos:prefLabel "loma"@ca ;
+	schema:name "loma"@ca ;
+	rdfs:label "loma"@es ;
+	skos:prefLabel "loma"@es ;
+	schema:name "loma"@es ;
+	rdfs:label "ロマ文字"@ja ;
+	skos:prefLabel "ロマ文字"@ja ;
+	schema:name "ロマ文字"@ja ;
+	schema:description "syllabary script used to write the Loma language of Liberia"@en ;
+	skos:altLabel "Loma syllabary"@en .
+
+wd:Q56345841 owl:sameAs wd:Q13023816 .
+
+wd:Q72948512 owl:sameAs wd:Q13023816 .

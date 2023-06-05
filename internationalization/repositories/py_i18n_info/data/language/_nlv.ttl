@@ -1,0 +1,175 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3086050 a schema:Dataset ;
+	schema:about wd:Q3086050 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1897759046"^^xsd:integer ;
+	schema:dateModified "2023-05-17T11:27:54Z"^^xsd:dateTime .
+
+wd:Q3086050 a wikibase:Item .
+
+<https://nl.wikipedia.org/wiki/Orizaba-Nahuatl> a schema:Article ;
+	schema:about wd:Q3086050 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Orizaba-Nahuatl"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_nahuatl,_orizaba> a schema:Article ;
+	schema:about wd:Q3086050 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga nahuatl, orizaba"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D0%B8%D1%81%D0%B0%D0%B1%D1%81%D0%BA%D0%B8%D0%B9_%D0%BD%D0%B0%D1%83%D0%B0%D1%82%D0%BB%D1%8C> a schema:Article ;
+	schema:about wd:Q3086050 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Орисабский науатль"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Orizaba_Nahuatl> a schema:Article ;
+	schema:about wd:Q3086050 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Orizaba Nahuatl"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/N%C3%A1huatl_central_de_Veracruz> a schema:Article ;
+	schema:about wd:Q3086050 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Náhuatl central de Veracruz"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Orizaba_Nahuatl> a schema:Article ;
+	schema:about wd:Q3086050 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Orizaba Nahuatl"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_n%C3%A1huatl_de_Orizaba> a schema:Article ;
+	schema:about wd:Q3086050 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua náhuatl de Orizaba"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3086050 wdt:P220 "nlv" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nlv> ;
+	wdt:P31 wd:Q34770,
+		wd:Q13300,
+		wd:Q1288568 ;
+	wdt:P1394 "oriz1235" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/oriz1235> ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P279 wd:Q13589641 ;
+	wdt:P305 "nlv" ;
+	wdt:P1627 "nlv" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q96 ;
+	wdt:P2341 wd:Q34110,
+		wd:Q79923,
+		wd:Q60130 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NLV> ;
+	wdt:P646 "/m/02rbvkq" ;
+	wdt:P910 wd:Q33061834 ;
+	rdfs:label "Orizaba-Nahuatl"@nl ;
+	skos:prefLabel "Orizaba-Nahuatl"@nl ;
+	schema:name "Orizaba-Nahuatl"@nl ;
+	rdfs:label "Orizaba Nahuatl"@en ;
+	skos:prefLabel "Orizaba Nahuatl"@en ;
+	schema:name "Orizaba Nahuatl"@en ;
+	rdfs:label "Lenga nahuatl, orizaba"@pms ;
+	skos:prefLabel "Lenga nahuatl, orizaba"@pms ;
+	schema:name "Lenga nahuatl, orizaba"@pms ;
+	rdfs:label "орисабский науатль"@ru ;
+	skos:prefLabel "орисабский науатль"@ru ;
+	schema:name "орисабский науатль"@ru ;
+	rdfs:label "Orizaba Nahuatl"@hif ;
+	skos:prefLabel "Orizaba Nahuatl"@hif ;
+	schema:name "Orizaba Nahuatl"@hif ;
+	rdfs:label "Náhuatl veracruzano"@es ;
+	skos:prefLabel "Náhuatl veracruzano"@es ;
+	schema:name "Náhuatl veracruzano"@es ;
+	rdfs:label "Orizaba Nahuatl"@en-gb ;
+	skos:prefLabel "Orizaba Nahuatl"@en-gb ;
+	schema:name "Orizaba Nahuatl"@en-gb ;
+	rdfs:label "nahuatl d'Orizaba"@fr ;
+	skos:prefLabel "nahuatl d'Orizaba"@fr ;
+	schema:name "nahuatl d'Orizaba"@fr ;
+	rdfs:label "Orizabako nahuatl"@eu ;
+	skos:prefLabel "Orizabako nahuatl"@eu ;
+	schema:name "Orizabako nahuatl"@eu ;
+	rdfs:label "Awilisapan nawatl"@nah ;
+	skos:prefLabel "Awilisapan nawatl"@nah ;
+	schema:name "Awilisapan nawatl"@nah ;
+	rdfs:label "Lingua náhuatl de Orizaba"@gl ;
+	skos:prefLabel "Lingua náhuatl de Orizaba"@gl ;
+	schema:name "Lingua náhuatl de Orizaba"@gl ;
+	schema:description "Sprache"@de,
+		"коренной американский язык"@ru,
+		"שפה"@he,
+		"langue aztèque"@fr,
+		"yezh"@br,
+		"variante del náhuatl en Veracruz, México"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"hizkuntza"@eu,
+		"variedade do náhuatl falada en Orizaba, México"@gl ;
+	skos:altLabel "орисабанский науатль"@ru,
+		"науатль орисабский"@ru,
+		"Mexicano de Orizaba"@es,
+		"Náhuatl de la Sierra de Zongolica"@es,
+		"Veracruzeko nahuatl"@eu,
+		"Nawatl tlen Awilisapan"@nah,
+		"Nawatl tlen Tsonkoliwkan"@nah,
+		"Tsonkoliwkan nawatl"@nah .
+
+wd:Q6047333 owl:sameAs wd:Q3086050 .
+
+wd:Q7102906 owl:sameAs wd:Q3086050 .
+
+wd:Q13155129 owl:sameAs wd:Q3086050 .

@@ -1,0 +1,158 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q1975199 a schema:Dataset ;
+	schema:about wd:Q1975199 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1837121021"^^xsd:integer ;
+	schema:dateModified "2023-02-19T12:07:28Z"^^xsd:dateTime .
+
+wd:Q1975199 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Gana> a schema:Article ;
+	schema:about wd:Q1975199 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Gana"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9B%D1%8A%D0%B3%D0%B0%D0%BD%D0%B0-%D1%86%D1%8A%D0%B3%D0%B2%D0%B8> a schema:Article ;
+	schema:about wd:Q1975199 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Лъгана-цъгви"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/G%C7%81ana_language> a schema:Article ;
+	schema:about wd:Q1975199 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Gǁana language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/%C7%81Gana_jezik> a schema:Article ;
+	schema:about wd:Q1975199 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "ǁGana jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_g%C7%81ana> a schema:Article ;
+	schema:about wd:Q1975199 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua gǁana"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q1975199 wdt:P31 wd:Q215844,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0357kc" ;
+	wdt:P279 wd:Q33614 ;
+	wdt:P1394 "gana1274" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gana1274> ;
+	wdt:P2355 "1377" ;
+	wdt:P220 "gnk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gnk> ;
+	wdt:P17 wd:Q963 ;
+	wdt:P2192 "596" ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P305 "gnk" ;
+	wdt:P1627 "gnk" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P5198 "400527839" ;
+	wdt:P2341 wd:Q57525,
+		wd:Q57571 ;
+	wdt:P1245 "590731" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GNK> ;
+	wdt:P4839 "Entity[\"Language\", \"Ani\"]" ;
+	wdt:P910 wd:Q33125220 ;
+	rdfs:label "лъгана-цъгви"@ru ;
+	skos:prefLabel "лъгана-цъгви"@ru ;
+	schema:name "лъгана-цъгви"@ru ;
+	rdfs:label "Gǁana"@en ;
+	skos:prefLabel "Gǁana"@en ;
+	schema:name "Gǁana"@en ;
+	rdfs:label "ǁGana jezik"@hr ;
+	skos:prefLabel "ǁGana jezik"@hr ;
+	schema:name "ǁGana jezik"@hr ;
+	rdfs:label "lingua gǁana"@it ;
+	skos:prefLabel "lingua gǁana"@it ;
+	schema:name "lingua gǁana"@it ;
+	rdfs:label "ガーナ語"@ja ;
+	skos:prefLabel "ガーナ語"@ja ;
+	schema:name "ガーナ語"@ja ;
+	rdfs:label "Lenga Gana"@pms ;
+	skos:prefLabel "Lenga Gana"@pms ;
+	schema:name "Lenga Gana"@pms ;
+	rdfs:label "gana"@fr ;
+	skos:prefLabel "gana"@fr ;
+	schema:name "gana"@fr ;
+	rdfs:label "Wikang Gǁana"@tl ;
+	skos:prefLabel "Wikang Gǁana"@tl ;
+	schema:name "Wikang Gǁana"@tl ;
+	rdfs:label "||Gana"@nl ;
+	skos:prefLabel "||Gana"@nl ;
+	schema:name "||Gana"@nl ;
+	rdfs:label "gǁana"@vec ;
+	skos:prefLabel "gǁana"@vec ;
+	schema:name "gǁana"@vec ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue khoïsan"@fr,
+		"language"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "язык лъгана-цъгви"@ru,
+		"Gǁana"@it,
+		"Gana language"@en,
+		"||Gana"@en,
+		"Gxana"@en,
+		"Dxana"@en,
+		"Gǁana language"@en,
+		"gǁana"@fr,
+		"//Gana"@nl .
+
+wd:Q12952441 owl:sameAs wd:Q1975199 .
+
+wd:Q31443265 owl:sameAs wd:Q1975199 .
+
+wd:Q50924872 owl:sameAs wd:Q1975199 .

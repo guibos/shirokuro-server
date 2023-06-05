@@ -1,0 +1,97 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12642599 a schema:Dataset ;
+	schema:about wd:Q12642599 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1497699780"^^xsd:integer ;
+	schema:dateModified "2021-09-14T19:31:51Z"^^xsd:dateTime .
+
+wd:Q12642599 a wikibase:Item .
+
+<https://hr.wikipedia.org/wiki/Srednjohetitski_jezik> a schema:Article ;
+	schema:about wd:Q12642599 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Srednjohetitski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Mittelhethitisch> a schema:Article ;
+	schema:about wd:Q12642599 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Mittelhethitisch"@de ;
+	wikibase:badge wd:Q70894304 .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12642599 wdt:P31 wd:Q34770,
+		wd:Q436240 ;
+	wdt:P220 "htx" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/htx> ;
+	a wdno:P1394 ;
+	wdt:P279 wd:Q147085 ;
+	wdt:P156 wd:Q41499830 ;
+	wdt:P305 "htx" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HTX> ;
+	rdfs:label "Srednjohetitski jezik"@hr ;
+	skos:prefLabel "Srednjohetitski jezik"@hr ;
+	schema:name "Srednjohetitski jezik"@hr ;
+	rdfs:label "Middle Hittite"@en ;
+	skos:prefLabel "Middle Hittite"@en ;
+	schema:name "Middle Hittite"@en ;
+	rdfs:label "Middle Hittite"@en-gb ;
+	skos:prefLabel "Middle Hittite"@en-gb ;
+	schema:name "Middle Hittite"@en-gb ;
+	rdfs:label "moyen hittite"@fr ;
+	skos:prefLabel "moyen hittite"@fr ;
+	schema:name "moyen hittite"@fr ;
+	rdfs:label "средњехетитски језик"@sr ;
+	skos:prefLabel "средњехетитски језик"@sr ;
+	schema:name "средњехетитски језик"@sr ;
+	rdfs:label "hitita medio"@es ;
+	skos:prefLabel "hitita medio"@es ;
+	schema:name "hitita medio"@es ;
+	rdfs:label "Mittelhethitisch"@de ;
+	skos:prefLabel "Mittelhethitisch"@de ;
+	schema:name "Mittelhethitisch"@de ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"forme du hittite parlée entre 1500 et 1430 avant J.-C."@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy .

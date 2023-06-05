@@ -1,0 +1,132 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q8843664 a schema:Dataset ;
+	schema:about wd:Q8843664 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1353162130"^^xsd:integer ;
+	schema:dateModified "2021-02-02T11:14:23Z"^^xsd:dateTime .
+
+wd:Q8843664 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Bina,_Papua> a schema:Article ;
+	schema:about wd:Q8843664 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Bina, Papua"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Bina_(Papua_Baro_a_Guinea)> a schema:Article ;
+	schema:about wd:Q8843664 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Bina (Papua Baro a Guinea)"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibina_(PNG)> a schema:Article ;
+	schema:about wd:Q8843664 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibina (PNG)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Bina_language_(Papua_New_Guinea)> a schema:Article ;
+	schema:about wd:Q8843664 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Bina language (Papua New Guinea)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Bina_(austronezijski_jezik)> a schema:Article ;
+	schema:about wd:Q8843664 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Bina (austronezijski jezik)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q8843664 wdt:P220 "bmn" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bmn> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "bina1271" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/bina1271> ;
+	wdt:P2355 "2661" ;
+	wdt:P279 wd:Q3039108 ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P305 "bmn" ;
+	wdt:P1627 "bmn" ;
+	wdt:P910 wd:Q62057456 ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q874942 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BMN> ;
+	wdt:P646 "/m/02hxbr6" ;
+	rdfs:label "Bina"@hr ;
+	skos:prefLabel "Bina"@hr ;
+	schema:name "Bina"@hr ;
+	rdfs:label "Bina"@en ;
+	skos:prefLabel "Bina"@en ;
+	schema:name "Bina"@en ;
+	rdfs:label "Lenga Bina, Papua"@pms ;
+	skos:prefLabel "Lenga Bina, Papua"@pms ;
+	schema:name "Lenga Bina, Papua"@pms ;
+	rdfs:label "Kibina"@sw ;
+	skos:prefLabel "Kibina"@sw ;
+	schema:name "Kibina"@sw ;
+	rdfs:label "Bina"@ilo ;
+	skos:prefLabel "Bina"@ilo ;
+	schema:name "Bina"@ilo ;
+	rdfs:label "bina"@fr ;
+	skos:prefLabel "bina"@fr ;
+	schema:name "bina"@fr ;
+	rdfs:label "bina"@es ;
+	skos:prefLabel "bina"@es ;
+	schema:name "bina"@es ;
+	schema:description "Sprache"@de,
+		"awanen a pagsasao iti Papua Baro a Guinea"@ilo,
+		"taal"@nl,
+		"שפה"@he,
+		"langue océanienne"@fr,
+		"language spoken in Papua New Guinea"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"austronezijski jezik"@hr ;
+	skos:altLabel "Bina language"@en .

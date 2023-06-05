@@ -1,0 +1,535 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q812124 a schema:Dataset ;
+	schema:about wd:Q812124 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1848608480"^^xsd:integer ;
+	schema:dateModified "2023-03-10T07:21:30Z"^^xsd:dateTime .
+
+wd:Q812124 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Baybayin"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Baybayin"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Baybayin"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Baybayin"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%B1%D0%B0%D0%B9%D0%B8%D0%BD> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Байбайин"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Baybayin"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%90%E3%82%A4%E3%83%90%E3%82%A4%E3%83%B3_(%E6%96%87%E5%AD%97)> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "バイバイン (文字)"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Baybayin"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Escrita_baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Escrita baybayin"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Baybayin"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%A7%D9%84%D9%81%D8%A8%D8%A7%DB%8C_%D8%A8%DB%8C%D8%A8%DB%8C%DB%8C%D9%86> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "الفبای بیبیین"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Baybayin"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Baybayin"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%B1%D0%B0%D1%97%D0%BD> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Байбаїн"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%EB%B0%94%EC%9D%B4%EC%9D%B8> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "바이바이인"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Baybayin"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Aksara_Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Aksara Baybayin"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Baybayin"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Baybayin"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Skritur_babayinek> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Skritur babayinek"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A4%BE%E0%A4%AF%E0%A4%AC%E0%A4%BE%E0%A4%AF%E0%A4%BF%E0%A4%A8_%E0%A4%B2%E0%A4%BF%E0%A4%AA%E0%A4%BF> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "बायबायिन लिपि"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Baybayin"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Baybayin"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Baybayin"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%AC%E0%B4%AF%E0%B5%8D%E0%B4%AC%E0%B4%BE%E0%B4%AF%E0%B4%BF%E0%B5%BB> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "ബയ്ബായിൻ"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pag.wikipedia.org/wiki/Salitan_Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "pag" ;
+	schema:isPartOf <https://pag.wikipedia.org/> ;
+	schema:name "Salitan Baybayin"@pag .
+
+<https://pag.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A3%E0%B9%84%E0%B8%9A%E0%B8%9A%E0%B8%B2%E0%B8%A2%E0%B8%B4%E0%B8%99> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "อักษรไบบายิน"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Baybayin"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://war.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "war" ;
+	schema:isPartOf <https://war.wikipedia.org/> ;
+	schema:name "Baybayin"@war .
+
+<https://war.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-min-nan.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "nan" ;
+	schema:isPartOf <https://zh-min-nan.wikipedia.org/> ;
+	schema:name "Baybayin"@nan .
+
+<https://zh-min-nan.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Baybayin"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cbk-zam.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "cbk-x-zam" ;
+	schema:isPartOf <https://cbk-zam.wikipedia.org/> ;
+	schema:name "Baybayin"@cbk-x-zam .
+
+<https://cbk-zam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Baybayin"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ceb.wikipedia.org/wiki/Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "ceb" ;
+	schema:isPartOf <https://ceb.wikipedia.org/> ;
+	schema:name "Baybayin"@ceb ;
+	wikibase:badge wd:Q17437796 .
+
+<https://ceb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E8%B4%9D%E8%B4%9D%E5%9B%A0%E5%AD%97%E6%AF%8D> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "贝贝因字母"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Aksara_Baybayin> a schema:Article ;
+	schema:about wd:Q812124 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Aksara Baybayin"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q812124 wdt:P373 "Baybayin" ;
+	wdt:P646 "/m/01rl9t" ;
+	wdt:P910 wd:Q9766747 ;
+	wdt:P506 "Tglg" ;
+	wdt:P2620 "370" ;
+	wdt:P3417 "Baybayin" ;
+	wdt:P31 wd:Q29517555,
+		wd:Q335806,
+		wd:Q4004706 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Baybayin%20Bo.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Abugida%20in%20PH%20%28Baybayin%29.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Baybayin%20sample.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/DoctrinaChristianaEspanolaYTagala8-9.jpg> ;
+	wdt:P407 wd:Q947858,
+		wd:Q35936,
+		wd:Q36121,
+		wd:Q33879,
+		wd:Q34057,
+		wd:Q35455,
+		wd:Q35978,
+		wd:Q2592378,
+		wd:Q1584458,
+		wd:Q33298 ;
+	wdt:P8408 "TagalogWriting" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/TagalogWriting> ;
+	wdt:P5949 "U+1700-171F" ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P2561 "Tagalog (Baybayin, Alibata)"@en,
+		"tagal (baybayin, alibata)"@fr,
+		"Tagalog"@en,
+		"ᜊᜌ᜔ᜊᜌᜒᜈ᜔"@tl ;
+	wdt:P1705 "ᜊᜌ᜔ᜊᜌᜒᜈ᜔"@tl ;
+	wdt:P144 wd:Q975802 ;
+	wdt:P571 "1400-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3984 "baybayin_script" ;
+	rdfs:label "Байбайин"@ru ;
+	skos:prefLabel "Байбайин"@ru ;
+	schema:name "Байбайин"@ru ;
+	rdfs:label "Baybayin"@fr ;
+	skos:prefLabel "Baybayin"@fr ;
+	schema:name "Baybayin"@fr ;
+	rdfs:label "baybayin"@en ;
+	skos:prefLabel "baybayin"@en ;
+	schema:name "baybayin"@en ;
+	rdfs:label "Skritur babayinek"@br ;
+	skos:prefLabel "Skritur babayinek"@br ;
+	schema:name "Skritur babayinek"@br ;
+	rdfs:label "Escrita baybayin"@pt ;
+	skos:prefLabel "Escrita baybayin"@pt ;
+	schema:name "Escrita baybayin"@pt ;
+	rdfs:label "Baybayin"@la ;
+	skos:prefLabel "Baybayin"@la ;
+	schema:name "Baybayin"@la ;
+	rdfs:label "Baybayin"@ilo ;
+	skos:prefLabel "Baybayin"@ilo ;
+	schema:name "Baybayin"@ilo ;
+	rdfs:label "Baybayin"@is ;
+	skos:prefLabel "Baybayin"@is ;
+	schema:name "Baybayin"@is ;
+	rdfs:label "Baybayin"@de ;
+	skos:prefLabel "Baybayin"@de ;
+	schema:name "Baybayin"@de ;
+	rdfs:label "Baybayin"@sv ;
+	skos:prefLabel "Baybayin"@sv ;
+	schema:name "Baybayin"@sv ;
+	rdfs:label "Байбаїн"@uk ;
+	skos:prefLabel "Байбаїн"@uk ;
+	schema:name "Байбаїн"@uk ;
+	rdfs:label "Alibata"@cbk-zam ;
+	skos:prefLabel "Alibata"@cbk-zam ;
+	schema:name "Alibata"@cbk-zam ;
+	rdfs:label "Baybayin"@tl ;
+	skos:prefLabel "Baybayin"@tl ;
+	schema:name "Baybayin"@tl ;
+	rdfs:label "Baybayin"@pl ;
+	skos:prefLabel "Baybayin"@pl ;
+	schema:name "Baybayin"@pl ;
+	rdfs:label "อักษรไบบายิน"@th ;
+	skos:prefLabel "อักษรไบบายิน"@th ;
+	schema:name "อักษรไบบายิน"@th ;
+	rdfs:label "Salitan Baybayin"@pag ;
+	skos:prefLabel "Salitan Baybayin"@pag ;
+	schema:name "Salitan Baybayin"@pag ;
+	rdfs:label "Baybayin"@it ;
+	skos:prefLabel "Baybayin"@it ;
+	schema:name "Baybayin"@it ;
+	rdfs:label "バイバイン"@ja ;
+	skos:prefLabel "バイバイン"@ja ;
+	schema:name "バイバイン"@ja ;
+	rdfs:label "baybayin"@es ;
+	skos:prefLabel "baybayin"@es ;
+	schema:name "baybayin"@es ;
+	rdfs:label "Baybayin"@ceb ;
+	skos:prefLabel "Baybayin"@ceb ;
+	schema:name "Baybayin"@ceb ;
+	rdfs:label "Baybayin"@nl ;
+	skos:prefLabel "Baybayin"@nl ;
+	schema:name "Baybayin"@nl ;
+	rdfs:label "Aksara Baybayin"@id ;
+	skos:prefLabel "Aksara Baybayin"@id ;
+	schema:name "Aksara Baybayin"@id ;
+	rdfs:label "baybayin"@cs ;
+	skos:prefLabel "baybayin"@cs ;
+	schema:name "baybayin"@cs ;
+	rdfs:label "ബയ്ബായിൻ"@ml ;
+	skos:prefLabel "ബയ്ബായിൻ"@ml ;
+	schema:name "ബയ്ബായിൻ"@ml ;
+	rdfs:label "바이바이인"@ko ;
+	skos:prefLabel "바이바이인"@ko ;
+	schema:name "바이바이인"@ko ;
+	rdfs:label "बायबायिन लिपि"@hi ;
+	skos:prefLabel "बायबायिन लिपि"@hi ;
+	schema:name "बायबायिन लिपि"@hi ;
+	rdfs:label "бајбајин"@mk ;
+	skos:prefLabel "бајбајин"@mk ;
+	schema:name "бајбајин"@mk ;
+	rdfs:label "貝貝因字母"@zh-hant ;
+	skos:prefLabel "貝貝因字母"@zh-hant ;
+	schema:name "貝貝因字母"@zh-hant ;
+	rdfs:label "貝貝因字母"@zh ;
+	skos:prefLabel "貝貝因字母"@zh ;
+	schema:name "貝貝因字母"@zh ;
+	rdfs:label "Baybayin"@bcl ;
+	skos:prefLabel "Baybayin"@bcl ;
+	schema:name "Baybayin"@bcl ;
+	rdfs:label "Baybayin"@nb ;
+	skos:prefLabel "Baybayin"@nb ;
+	schema:name "Baybayin"@nb ;
+	rdfs:label "Μπαϋμπαϋτζίν"@el ;
+	skos:prefLabel "Μπαϋμπαϋτζίν"@el ;
+	schema:name "Μπαϋμπαϋτζίν"@el ;
+	rdfs:label "贝贝因字母"@zh-hans ;
+	skos:prefLabel "贝贝因字母"@zh-hans ;
+	schema:name "贝贝因字母"@zh-hans ;
+	rdfs:label "Baybayin"@nan ;
+	skos:prefLabel "Baybayin"@nan ;
+	schema:name "Baybayin"@nan ;
+	rdfs:label "Baybayin"@vi ;
+	skos:prefLabel "Baybayin"@vi ;
+	schema:name "Baybayin"@vi ;
+	rdfs:label "Baybayin"@war ;
+	skos:prefLabel "Baybayin"@war ;
+	schema:name "Baybayin"@war ;
+	rdfs:label "Baybayin"@ast ;
+	skos:prefLabel "Baybayin"@ast ;
+	schema:name "Baybayin"@ast ;
+	rdfs:label "الفبای بیبیین"@fa ;
+	skos:prefLabel "الفبای بیبیین"@fa ;
+	schema:name "الفبای بیبیین"@fa ;
+	rdfs:label "Baybayin"@ms ;
+	skos:prefLabel "Baybayin"@ms ;
+	schema:name "Baybayin"@ms ;
+	rdfs:label "Baybayin"@ca ;
+	skos:prefLabel "Baybayin"@ca ;
+	schema:name "Baybayin"@ca ;
+	rdfs:label "Baybayin"@en-gb ;
+	skos:prefLabel "Baybayin"@en-gb ;
+	schema:name "Baybayin"@en-gb ;
+	rdfs:label "Baybayin"@en-ca ;
+	skos:prefLabel "Baybayin"@en-ca ;
+	schema:name "Baybayin"@en-ca ;
+	rdfs:label "Բայբային"@hy ;
+	skos:prefLabel "Բայբային"@hy ;
+	schema:name "Բայբային"@hy ;
+	schema:description "ancient pre-colonial Philippine writing system"@en,
+		"старо филипинско писмо"@mk,
+		"ブラーフミー文字を先祖に持つ文字"@ja,
+		"Karaan nga paagi sa pagsulat sa mga Pilipino"@ceb,
+		"sinaunang paraan ng panulat ng mga Pilipino"@tl,
+		"Kadaanan nga porma ti panagsurat dagiti nagkauna nga Pilipino"@ilo,
+		"oud schrift dat werd gebruikt op de Filipijnen"@nl,
+		"système d'écriture pré-colonial philippin"@fr,
+		"ancient pre-colonial Philippine writing system"@en-gb,
+		"ancient pre-colonial Philippine writing system"@en-ca,
+		"jenis aksara untuk menuliskan sebuah bahasa"@id,
+		"filipínské písmo"@cs,
+		"filippinskt skriftsystem"@sv,
+		"նախագաղութային հին Ֆիլիպինյան գրային համակարգ"@hy ;
+	skos:altLabel "Бисайское письмо"@ru,
+		"Alibata"@tl,
+		"Alibata pinagmulan"@tl,
+		"Sulat Tagalog"@tl,
+		"Alibata"@la,
+		"Alibata"@ilo,
+		"Alibata"@de,
+		"Tagalog-skrift"@sv,
+		"Tagalogskrift"@sv,
+		"Байбайїн"@uk,
+		"アリバタ"@ja,
+		"タガログ文字"@ja,
+		"Alibata"@ceb,
+		"висајска азбука"@mk,
+		"висајско писмо"@mk,
+		"貝貝因文字"@zh,
+		"他加禄字母"@zh,
+		"贝贝因字母"@zh,
+		"贝贝因文"@zh,
+		"贝贝因文字"@zh,
+		"他加祿字母"@zh-hant,
+		"貝貝因文字"@zh-hant,
+		"贝贝因文字"@zh-hans,
+		"他加禄字母"@zh-hans,
+		"Tagalog"@en,
+		"Baybayin script"@en,
+		"Tagalog"@en-ca,
+		"Բիսայական գիր"@hy .

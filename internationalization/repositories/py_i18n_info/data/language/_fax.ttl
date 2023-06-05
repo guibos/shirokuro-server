@@ -1,0 +1,474 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q300402 a schema:Dataset ;
+	schema:about wd:Q300402 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1881888327"^^xsd:integer ;
+	schema:dateModified "2023-04-24T11:17:32Z"^^xsd:dateTime .
+
+wd:Q300402 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_fala> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga fala"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%BB%D0%B0_%D0%B4%D0%B5_%D0%A8%D0%B0%D0%BB%D0%B8%D0%BC%D0%B0> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Фала де Шалима"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%A4%D0%B0%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Фальська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Fala_language> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Fala language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lmo.wikipedia.org/wiki/Lengua_fala> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "lmo" ;
+	schema:isPartOf <https://lmo.wikipedia.org/> ;
+	schema:name "Lengua fala"@lmo .
+
+<https://lmo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Fala_jezik> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Fala jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Xalimego> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Xalimego"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%83%A9%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ファラ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Fala_(Sprache)> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Fala (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://co.wikipedia.org/wiki/A_Fala> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "co" ;
+	schema:isPartOf <https://co.wikipedia.org/> ;
+	schema:name "A Fala"@co .
+
+<https://co.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Extremadurako_fala> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Extremadurako fala"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ext.wikipedia.org/wiki/A_fala> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "ext" ;
+	schema:isPartOf <https://ext.wikipedia.org/> ;
+	schema:name "A fala"@ext .
+
+<https://ext.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Fala_xalimesa> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Fala xalimesa"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gv.wikipedia.org/wiki/Fala> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "gv" ;
+	schema:isPartOf <https://gv.wikipedia.org/> ;
+	schema:name "Fala"@gv .
+
+<https://gv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fy.wikipedia.org/wiki/Falaansk> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "fy" ;
+	schema:isPartOf <https://fy.wikipedia.org/> ;
+	schema:name "Falaansk"@fy .
+
+<https://fy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mzn.wikipedia.org/wiki/%D9%81%D8%A7%D9%84%D8%A7> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "mzn" ;
+	schema:isPartOf <https://mzn.wikipedia.org/> ;
+	schema:name "فالا"@mzn .
+
+<https://mzn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Fala_de_X%C3%A0lima> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Fala de Xàlima"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Fala_(langue)> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Fala (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Fala_(taal)> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Fala (taal)"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D9%81%D8%A7%D9%84%D8%A7_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "فالا دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D9%81%D8%A7%D9%84%D8%A7> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان فالا"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Fala_de_Estremadura> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Fala de Estremadura"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Fala> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Fala"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Fala_(valle_de_J%C3%A1lama)> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Fala (valle de Jálama)"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Xalamensis> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Xalamensis"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%ED%8C%94%EB%9D%BC%EC%96%B4_(%EA%B0%88%EB%A6%AC%EC%8B%9C%EC%95%84%ED%8F%AC%EB%A5%B4%ED%88%AC%EA%B0%88%EC%96%B4)> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "팔라어 (갈리시아포르투갈어)"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%B3%95%E6%8B%89%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "法拉語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://an.wikipedia.org/wiki/Fala> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "an" ;
+	schema:isPartOf <https://an.wikipedia.org/> ;
+	schema:name "Fala"@an .
+
+<https://an.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sco.wikipedia.org/wiki/Fala_leid> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "sco" ;
+	schema:isPartOf <https://sco.wikipedia.org/> ;
+	schema:name "Fala leid"@sco .
+
+<https://sco.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/X%C3%A1limego> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Xálimego"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mwl.wikipedia.org/wiki/Xalimego> a schema:Article ;
+	schema:about wd:Q300402 ;
+	schema:inLanguage "mwl" ;
+	schema:isPartOf <https://mwl.wikipedia.org/> ;
+	schema:name "Xalimego"@mwl .
+
+<https://mwl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q300402 wdt:P305 "fax" ;
+	wdt:P220 "fax" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/fax> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/05nl0l" ;
+	wdt:P279 wd:Q9080204 ;
+	wdt:P1394 "fala1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/fala1241> ;
+	wdt:P3259 wd:Q23712 ;
+	wdt:P17 wd:Q29 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Nome%20Lagarteiro.JPG> ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P1627 "fax" ;
+	wdt:P910 wd:Q32141071 ;
+	wdt:P2341 wd:Q5777 ;
+	wdt:P1245 "603486" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/FAX> ;
+	wdt:P1098 "+11000"^^xsd:decimal ;
+	rdfs:label "Fala"@gv ;
+	skos:prefLabel "Fala"@gv ;
+	schema:name "Fala"@gv ;
+	rdfs:label "fala"@fr ;
+	skos:prefLabel "fala"@fr ;
+	schema:name "fala"@fr ;
+	rdfs:label "Fala"@en ;
+	skos:prefLabel "Fala"@en ;
+	schema:name "Fala"@en ;
+	rdfs:label "A Fala"@co ;
+	skos:prefLabel "A Fala"@co ;
+	schema:name "A Fala"@co ;
+	rdfs:label "Fala jezik"@hr ;
+	skos:prefLabel "Fala jezik"@hr ;
+	schema:name "Fala jezik"@hr ;
+	rdfs:label "Falaansk"@fy ;
+	skos:prefLabel "Falaansk"@fy ;
+	schema:name "Falaansk"@fy ;
+	rdfs:label "fala de Xàlima"@ca ;
+	skos:prefLabel "fala de Xàlima"@ca ;
+	schema:name "fala de Xàlima"@ca ;
+	rdfs:label "Fala"@de ;
+	skos:prefLabel "Fala"@de ;
+	schema:name "Fala"@de ;
+	rdfs:label "fala"@it ;
+	skos:prefLabel "fala"@it ;
+	schema:name "fala"@it ;
+	rdfs:label "زبان فالا"@fa ;
+	skos:prefLabel "زبان فالا"@fa ;
+	schema:name "زبان فالا"@fa ;
+	rdfs:label "Lengua fala"@lmo ;
+	skos:prefLabel "Lengua fala"@lmo ;
+	schema:name "Lengua fala"@lmo ;
+	rdfs:label "Extremadurako fala"@eu ;
+	skos:prefLabel "Extremadurako fala"@eu ;
+	schema:name "Extremadurako fala"@eu ;
+	rdfs:label "Fala de Estremadura"@gl ;
+	skos:prefLabel "Fala de Estremadura"@gl ;
+	schema:name "Fala de Estremadura"@gl ;
+	rdfs:label "fala"@es ;
+	skos:prefLabel "fala"@es ;
+	schema:name "fala"@es ;
+	rdfs:label "Фала де Шалима"@ru ;
+	skos:prefLabel "Фала де Шалима"@ru ;
+	schema:name "Фала де Шалима"@ru ;
+	rdfs:label "Fala"@nl ;
+	skos:prefLabel "Fala"@nl ;
+	schema:name "Fala"@nl ;
+	rdfs:label "fala da Estremadura"@pt ;
+	skos:prefLabel "fala da Estremadura"@pt ;
+	schema:name "fala da Estremadura"@pt ;
+	rdfs:label "lingua Xalamensis"@la ;
+	skos:prefLabel "lingua Xalamensis"@la ;
+	schema:name "lingua Xalamensis"@la ;
+	rdfs:label "팔라어"@ko ;
+	skos:prefLabel "팔라어"@ko ;
+	schema:name "팔라어"@ko ;
+	rdfs:label "A fala"@ext ;
+	skos:prefLabel "A fala"@ext ;
+	schema:name "A fala"@ext ;
+	rdfs:label "Фальська мова"@uk ;
+	skos:prefLabel "Фальська мова"@uk ;
+	schema:name "Фальська мова"@uk ;
+	rdfs:label "fala"@nb ;
+	skos:prefLabel "fala"@nb ;
+	schema:name "fala"@nb ;
+	rdfs:label "Lenga fala"@pms ;
+	skos:prefLabel "Lenga fala"@pms ;
+	schema:name "Lenga fala"@pms ;
+	rdfs:label "Fala xalimesa"@ast ;
+	skos:prefLabel "Fala xalimesa"@ast ;
+	schema:name "Fala xalimesa"@ast ;
+	rdfs:label "法拉語"@zh ;
+	skos:prefLabel "法拉語"@zh ;
+	schema:name "法拉語"@zh ;
+	rdfs:label "ファラ語"@ja ;
+	skos:prefLabel "ファラ語"@ja ;
+	schema:name "ファラ語"@ja ;
+	rdfs:label "فالا"@mzn ;
+	skos:prefLabel "فالا"@mzn ;
+	schema:name "فالا"@mzn ;
+	rdfs:label "Fala"@en-gb ;
+	skos:prefLabel "Fala"@en-gb ;
+	schema:name "Fala"@en-gb ;
+	rdfs:label "فالا دیلی"@azb ;
+	skos:prefLabel "فالا دیلی"@azb ;
+	schema:name "فالا دیلی"@azb ;
+	rdfs:label "ফালা ভাষা"@bn ;
+	skos:prefLabel "ফালা ভাষা"@bn ;
+	schema:name "ফালা ভাষা"@bn ;
+	rdfs:label "фальская мова"@be-tarask ;
+	skos:prefLabel "фальская мова"@be-tarask ;
+	schema:name "фальская мова"@be-tarask ;
+	rdfs:label "Fala"@an ;
+	skos:prefLabel "Fala"@an ;
+	schema:name "Fala"@an ;
+	rdfs:label "fala"@vec ;
+	skos:prefLabel "fala"@vec ;
+	schema:name "fala"@vec ;
+	rdfs:label "Fala leid"@sco ;
+	skos:prefLabel "Fala leid"@sco ;
+	schema:name "Fala leid"@sco ;
+	rdfs:label "Xalimego"@mwl ;
+	skos:prefLabel "Xalimego"@mwl ;
+	schema:name "Xalimego"@mwl ;
+	schema:description "taal"@nl,
+		"indogermanische Sprache"@de,
+		"Ibero-Romance language"@en,
+		"שפה"@he,
+		"Ibero-Romance language"@en-gb,
+		"lengua romance del subgrupo galaico-portugués"@es,
+		"lingua"@it,
+		"yezh"@br,
+		"langue romane"@fr,
+		"lingua"@la,
+		"iaith"@cy,
+		"ібэра-раманская мова"@be-tarask,
+		"variedade lingüística galego-portuguesa"@gl ;
+	skos:altLabel "ISO 639:fax"@en,
+		"Fala language"@en,
+		"Lingua fala"@co,
+		"Extremadurako galiziera"@eu,
+		"Extremadurako Fala"@eu,
+		"Galego de Estremadura"@gl,
+		"Galego-estremeño"@gl,
+		"Fala de Xálima"@gl,
+		"Fala dos tres lugares"@gl,
+		"A fala"@es,
+		"Lagarteiro"@es,
+		"Lagarteiru"@es,
+		"Lagartero"@es,
+		"Valverdeiru"@es,
+		"Valverdeiro"@es,
+		"A Fala de Xálima"@es,
+		"A fala de xalima"@es,
+		"Idioma xalimegu"@es,
+		"Idioma fala"@es,
+		"A Fala de Xalima"@es,
+		"A Fala"@es,
+		"Fala extremena"@es,
+		"Manego"@es,
+		"Manegu"@es,
+		"galaico-extremeño"@es,
+		"mañego"@es,
+		"mañegu"@es,
+		"fala extremeña"@es,
+		"fala de Extremadura"@es,
+		"galaico Extremeño"@es,
+		"Fala de Xálima"@pt,
+		"Fala da extremadura"@pt,
+		"Fala de xálima"@pt,
+		"Fala da Extremadura"@pt,
+		"Fala"@pt,
+		"Xalamice"@la,
+		"Fala"@la,
+		"Lingua Fala"@la,
+		"Falice"@la,
+		"La fala"@ext,
+		"La Fala"@ext,
+		"A nossa fala"@ext,
+		"A nosa fala"@ext,
+		"A fala de Xálima"@ext,
+		"Xalimegu"@ext,
+		"Fala"@ext,
+		"ISO 639:fax"@en-gb,
+		"lingua fala"@it,
+		"фала"@be-tarask .

@@ -1,0 +1,98 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6448765 a schema:Dataset ;
+	schema:about wd:Q6448765 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1823580648"^^xsd:integer ;
+	schema:dateModified "2023-01-31T22:52:11Z"^^xsd:dateTime .
+
+wd:Q6448765 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Kuvale_language> a schema:Article ;
+	schema:about wd:Q6448765 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kuvale language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D4%BF%D5%B8%D6%82%D5%BE%D5%A1%D5%AC%D5%A5_%D5%AC%D5%A5%D5%A6%D5%B8%D6%82> a schema:Article ;
+	schema:about wd:Q6448765 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Կուվալե լեզու"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6448765 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kuva1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kuva1244> ;
+	wdt:P1394 "kuva1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kuva1243> ;
+	wdt:P220 "olu" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/olu> ;
+	wdt:P2161 "R.101" ;
+	wdt:P279 wd:Q116543539 ;
+	wdt:P305 "olu" ;
+	wdt:P1627 "olu" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q916 ;
+	wdt:P2341 wd:Q212786,
+		wd:Q214572,
+		wd:Q216819 ;
+	wdt:P646 "/m/0qfq_s6" ;
+	rdfs:label "Kuvale"@en ;
+	skos:prefLabel "Kuvale"@en ;
+	schema:name "Kuvale"@en ;
+	rdfs:label "Կուվալե լեզու"@hy ;
+	skos:prefLabel "Կուվալե լեզու"@hy ;
+	schema:name "Կուվալե լեզու"@hy ;
+	rdfs:label "Wikang Kuvale"@tl ;
+	skos:prefLabel "Wikang Kuvale"@tl ;
+	schema:name "Wikang Kuvale"@tl ;
+	rdfs:label "kuvale"@fr ;
+	skos:prefLabel "kuvale"@fr ;
+	schema:name "kuvale"@fr ;
+	schema:description "langue bantoue"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kuvale language"@en .
+
+wd:Q31443109 owl:sameAs wd:Q6448765 .

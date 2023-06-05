@@ -1,0 +1,116 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10511004 a schema:Dataset ;
+	schema:about wd:Q10511004 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1602472950"^^xsd:integer ;
+	schema:dateModified "2022-03-25T15:33:52Z"^^xsd:dateTime .
+
+wd:Q10511004 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_gupapuyngu> a schema:Article ;
+	schema:about wd:Q10511004 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga gupapuyngu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Gupapuyngu> a schema:Article ;
+	schema:about wd:Q10511004 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Gupapuyngu"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigupapuyngu> a schema:Article ;
+	schema:about wd:Q10511004 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigupapuyngu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10511004 wdt:P279 wd:Q3120791 ;
+	wdt:P1394 "gupa1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gupa1247> ;
+	wdt:P2355 "187" ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P220 "guf" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/guf> ;
+	wdt:P1466 "guf" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_guf> ;
+	wdt:P305 "guf" ;
+	wdt:P1627 "guf" ;
+	wdt:P1251 "8243" ;
+	wdt:P1252 "N122.1" ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3235 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GUF> ;
+	wdt:P910 wd:Q33669392 ;
+	rdfs:label "Gupapuyngu"@sv ;
+	skos:prefLabel "Gupapuyngu"@sv ;
+	schema:name "Gupapuyngu"@sv ;
+	rdfs:label "Lenga gupapuyngu"@pms ;
+	skos:prefLabel "Lenga gupapuyngu"@pms ;
+	schema:name "Lenga gupapuyngu"@pms ;
+	rdfs:label "Gupapuyngu"@en ;
+	skos:prefLabel "Gupapuyngu"@en ;
+	schema:name "Gupapuyngu"@en ;
+	rdfs:label "Gupapuyngu"@en-gb ;
+	skos:prefLabel "Gupapuyngu"@en-gb ;
+	schema:name "Gupapuyngu"@en-gb ;
+	rdfs:label "Kigupapuyngu"@sw ;
+	skos:prefLabel "Kigupapuyngu"@sw ;
+	schema:name "Kigupapuyngu"@sw ;
+	rdfs:label "gupapuyngu"@fr ;
+	skos:prefLabel "gupapuyngu"@fr ;
+	schema:name "gupapuyngu"@fr ;
+	rdfs:label "купапунгю"@ru ;
+	skos:prefLabel "купапунгю"@ru ;
+	schema:name "купапунгю"@ru ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"indigenous Australian language"@en,
+		"Sprache"@de,
+		"lugha ya asili ya Australia"@sw,
+		"yezh"@br,
+		"langue pama-nyungan"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"австралийский аборигенский язык"@ru .

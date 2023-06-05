@@ -1,0 +1,150 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56292 a schema:Dataset ;
+	schema:about wd:Q56292 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961415232"^^xsd:integer ;
+	schema:dateModified "2023-08-26T02:22:28Z"^^xsd:dateTime .
+
+wd:Q56292 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Sukur> a schema:Article ;
+	schema:about wd:Q56292 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Sukur"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisukur> a schema:Article ;
+	schema:about wd:Q56292 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisukur"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sukur_language> a schema:Article ;
+	schema:about wd:Q56292 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sukur language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Soukoureg> a schema:Article ;
+	schema:about wd:Q56292 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Soukoureg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Sukur_jezik> a schema:Article ;
+	schema:about wd:Q56292 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Sukur jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56292 wdt:P220 "syk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/syk> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "suku1272" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/suku1272> ;
+	wdt:P1014 "300262598" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300262598> ;
+	wdt:P2192 "856" ;
+	wdt:P305 "syk" ;
+	wdt:P1627 "syk" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q337514,
+		wd:Q130626,
+		wd:Q509300 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SYK> ;
+	wdt:P646 "/m/02hwfqn" ;
+	wdt:P910 wd:Q33077174 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Sukur1.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Sukur%20Adamawa%20Nigeria.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Sukur6.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Sukur3.jpg> ;
+	wdt:P8814 "06997011-n" ;
+	wdtn:P8814 <http://wordnet-rdf.princeton.edu/rdf/id/06997011-n> ;
+	rdfs:label "Kisukur"@sw ;
+	skos:prefLabel "Kisukur"@sw ;
+	schema:name "Kisukur"@sw ;
+	rdfs:label "Lenga Sukur"@pms ;
+	skos:prefLabel "Lenga Sukur"@pms ;
+	schema:name "Lenga Sukur"@pms ;
+	rdfs:label "soukoureg"@br ;
+	skos:prefLabel "soukoureg"@br ;
+	schema:name "soukoureg"@br ;
+	rdfs:label "Sukur"@en ;
+	skos:prefLabel "Sukur"@en ;
+	schema:name "Sukur"@en ;
+	rdfs:label "Sukur jezik"@hr ;
+	skos:prefLabel "Sukur jezik"@hr ;
+	schema:name "Sukur jezik"@hr ;
+	rdfs:label "Sukur"@en-gb ;
+	skos:prefLabel "Sukur"@en-gb ;
+	schema:name "Sukur"@en-gb ;
+	rdfs:label "Wikang Sukur"@tl ;
+	skos:prefLabel "Wikang Sukur"@tl ;
+	schema:name "Wikang Sukur"@tl ;
+	rdfs:label "Sukur"@ig ;
+	skos:prefLabel "Sukur"@ig ;
+	schema:name "Sukur"@ig ;
+	schema:description "Biu–Mandara language of Nigeria"@en,
+		"Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"Asusu Biu-Mandara nke Naijiria"@ig ;
+	skos:altLabel "Gemasakun"@en,
+		"Adikimmu Sukur"@en,
+		"Sakul"@en,
+		"Sugur"@en,
+		"Sukur language"@en,
+		"Gemasakun"@ig,
+		"Adikummu Sukur"@ig,
+		"Sakul"@ig,
+		"Sugur"@ig,
+		"Asusu Sukur"@ig .

@@ -1,0 +1,144 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3337158 a schema:Dataset ;
+	schema:about wd:Q3337158 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1611789294"^^xsd:integer ;
+	schema:dateModified "2022-04-05T17:20:26Z"^^xsd:dateTime .
+
+wd:Q3337158 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Nauna> a schema:Article ;
+	schema:about wd:Q3337158 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Nauna"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Nauna> a schema:Article ;
+	schema:about wd:Q3337158 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Nauna"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Nauna> a schema:Article ;
+	schema:about wd:Q3337158 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Nauna"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%9D%D0%B0%D1%83%D0%BD%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q3337158 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Наунански јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinauna> a schema:Article ;
+	schema:about wd:Q3337158 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinauna"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nauna_language> a schema:Article ;
+	schema:about wd:Q3337158 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nauna language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3337158 wdt:P305 "ncn" ;
+	wdt:P220 "ncn" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ncn> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q2701306 ;
+	wdt:P1394 "naun1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/naun1237> ;
+	wdt:P2355 "2693" ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P2192 "2370" ;
+	wdt:P1627 "ncn" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q874935 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NCN> ;
+	wdt:P646 "/m/02hx_jf" ;
+	wdt:P910 wd:Q105714195 ;
+	wdt:P625 "Point(148.198706 -2.211239)"^^geo:wktLiteral ;
+	rdfs:label "nauna"@fr ;
+	skos:prefLabel "nauna"@fr ;
+	schema:name "nauna"@fr ;
+	rdfs:label "Nauna"@en ;
+	skos:prefLabel "Nauna"@en ;
+	schema:name "Nauna"@en ;
+	rdfs:label "Наунански јазик"@mk ;
+	skos:prefLabel "Наунански јазик"@mk ;
+	schema:name "Наунански јазик"@mk ;
+	rdfs:label "Lenga Nauna"@pms ;
+	skos:prefLabel "Lenga Nauna"@pms ;
+	schema:name "Lenga Nauna"@pms ;
+	rdfs:label "Kinauna"@sw ;
+	skos:prefLabel "Kinauna"@sw ;
+	schema:name "Kinauna"@sw ;
+	rdfs:label "Nauna"@ilo ;
+	skos:prefLabel "Nauna"@ilo ;
+	schema:name "Nauna"@ilo ;
+	rdfs:label "Nauna"@en-gb ;
+	skos:prefLabel "Nauna"@en-gb ;
+	schema:name "Nauna"@en-gb ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"langue des îles de l'Amirauté"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Oceanic language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Nauna language"@en .
+
+wd:Q12952931 owl:sameAs wd:Q3337158 .
+
+wd:Q5477498 owl:sameAs wd:Q3337158 .

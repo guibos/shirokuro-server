@@ -1,0 +1,146 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q8029096 a schema:Dataset ;
+	schema:about wd:Q8029096 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960505942"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:17:00Z"^^xsd:dateTime .
+
+wd:Q8029096 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Woisika_language> a schema:Article ;
+	schema:about wd:Q8029096 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Woisika language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kamang> a schema:Article ;
+	schema:about wd:Q8029096 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kamang"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikamang> a schema:Article ;
+	schema:about wd:Q8029096 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikamang"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Woisika> a schema:Article ;
+	schema:about wd:Q8029096 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Woisika"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_kamang> a schema:Article ;
+	schema:about wd:Q8029096 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język kamang"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q8029096 wdt:P220 "woi" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/woi> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kama1365" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kama1365> ;
+	wdt:P2590 "0140 1" ;
+	wdt:P1705 "bahasa Woisika"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P1466 "woi" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_woi> ;
+	wdt:P279 wd:Q12626779 ;
+	wdt:P910 wd:Q33673093 ;
+	wdt:P2192 "9489" ;
+	wdt:P305 "woi" ;
+	wdt:P1627 "woi" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q5061,
+		wd:Q3803 ;
+	wdt:P646 "/m/02hxrfr" ;
+	rdfs:label "Woisika"@en ;
+	skos:prefLabel "Woisika"@en ;
+	schema:name "Woisika"@en ;
+	rdfs:label "Lenga Kamang"@pms ;
+	skos:prefLabel "Lenga Kamang"@pms ;
+	schema:name "Lenga Kamang"@pms ;
+	rdfs:label "Kikamang"@sw ;
+	skos:prefLabel "Kikamang"@sw ;
+	schema:name "Kikamang"@sw ;
+	rdfs:label "Woisika"@id ;
+	skos:prefLabel "Woisika"@id ;
+	schema:name "Woisika"@id ;
+	rdfs:label "Woisika"@ilo ;
+	skos:prefLabel "Woisika"@ilo ;
+	schema:name "Woisika"@ilo ;
+	rdfs:label "język kamang"@pl ;
+	skos:prefLabel "język kamang"@pl ;
+	schema:name "język kamang"@pl ;
+	rdfs:label "kamang"@fr ;
+	skos:prefLabel "kamang"@fr ;
+	schema:name "kamang"@fr ;
+	rdfs:label "カマン語"@ja ;
+	skos:prefLabel "カマン語"@ja ;
+	schema:name "カマン語"@ja ;
+	schema:description "Sprache"@de,
+		"bahasa di Indonesia"@id,
+		"language in Indonesia"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"pagsasao idiay Indonesia"@ilo,
+		"langue timor-alor-pantar"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"język transnowogwinejski"@pl ;
+	skos:altLabel "Kamang"@en,
+		"Woisika language"@en,
+		"bahasa Kamang"@id,
+		"bahasa Woisika"@id,
+		"język woisika"@pl,
+		"język waisika"@pl,
+		"język kamana-kamang"@pl .
+
+wd:Q11732755 owl:sameAs wd:Q8029096 .

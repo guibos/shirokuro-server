@@ -1,0 +1,138 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7067553 a schema:Dataset ;
+	schema:about wd:Q7067553 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1756955025"^^xsd:integer ;
+	schema:dateModified "2022-10-24T03:36:53Z"^^xsd:dateTime .
+
+wd:Q7067553 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Kenswei_nsei> a schema:Article ;
+	schema:about wd:Q7067553 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kenswei nsei"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kenswei_Nsei> a schema:Article ;
+	schema:about wd:Q7067553 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kenswei Nsei"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikenswei-Nsei> a schema:Article ;
+	schema:about wd:Q7067553 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikenswei-Nsei"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nsei_language> a schema:Article ;
+	schema:about wd:Q7067553 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nsei language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Kenswei_nsei> a schema:Article ;
+	schema:about wd:Q7067553 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Kenswei nsei"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Nsei_language> a schema:Article ;
+	schema:about wd:Q7067553 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Nsei language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7067553 wdt:P220 "ndb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ndb> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kens1251" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kens1251> ;
+	wdt:P305 "ndb" ;
+	wdt:P1627 "ndb" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q1009 ;
+	wdt:P2341 wd:Q502341,
+		wd:Q165784 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NDB> ;
+	wdt:P646 "/m/02hwph6" ;
+	wdt:P10369 "Q211851" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q211851> ;
+	rdfs:label "Nsei"@en ;
+	skos:prefLabel "Nsei"@en ;
+	schema:name "Nsei"@en ;
+	rdfs:label "Kikenswei-Nsei"@sw ;
+	skos:prefLabel "Kikenswei-Nsei"@sw ;
+	schema:name "Kikenswei-Nsei"@sw ;
+	rdfs:label "Lenga Kenswei Nsei"@pms ;
+	skos:prefLabel "Lenga Kenswei Nsei"@pms ;
+	schema:name "Lenga Kenswei Nsei"@pms ;
+	rdfs:label "kenswei nsei"@fr ;
+	skos:prefLabel "kenswei nsei"@fr ;
+	schema:name "kenswei nsei"@fr ;
+	rdfs:label "Kenswei nsei"@oc ;
+	skos:prefLabel "Kenswei nsei"@oc ;
+	schema:name "Kenswei nsei"@oc ;
+	rdfs:label "Nsei language"@ig ;
+	skos:prefLabel "Nsei language"@ig ;
+	schema:name "Nsei language"@ig ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"taal"@nl,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kenswei Nsei"@en,
+		"Nsei language"@en .
+
+wd:Q11129699 owl:sameAs wd:Q7067553 .
+
+wd:Q28498891 owl:sameAs wd:Q7067553 .

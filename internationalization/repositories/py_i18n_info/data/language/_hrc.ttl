@@ -1,0 +1,77 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q30323994 a schema:Dataset ;
+	schema:about wd:Q30323994 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1586167708"^^xsd:integer ;
+	schema:dateModified "2022-03-03T00:27:32Z"^^xsd:dateTime .
+
+wd:Q30323994 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Niwer_Mil_language> a schema:Article ;
+	schema:about wd:Q30323994 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Niwer Mil language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q30323994 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "hrc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hrc> ;
+	wdt:P305 "hrc" ;
+	wdt:P17 wd:Q691 ;
+	wdt:P910 wd:Q33657369 ;
+	wdt:P1627 "hrc" ;
+	wdt:P1394 "niwe1234" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/niwe1234> ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P1466 "tga" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_tga> ;
+	wdt:P2341 wd:Q838690 ;
+	wdt:P2671 "/g/11g6ynss2q" ;
+	wdtn:P2671 <http://g.co/kg/g/11g6ynss2q> ;
+	rdfs:label "Niwer Mil"@en ;
+	skos:prefLabel "Niwer Mil"@en ;
+	schema:name "Niwer Mil"@en ;
+	schema:description "yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"Austronesian language"@en,
+		"taal"@nl,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Niwer Mil language"@en .

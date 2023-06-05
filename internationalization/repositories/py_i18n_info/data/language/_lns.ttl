@@ -1,0 +1,178 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35788 a schema:Dataset ;
+	schema:about wd:Q35788 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1817721732"^^xsd:integer ;
+	schema:dateModified "2023-01-23T15:16:14Z"^^xsd:dateTime .
+
+wd:Q35788 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Lamnso%27> a schema:Article ;
+	schema:about wd:Q35788 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Lamnso'"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Lamnso%27> a schema:Article ;
+	schema:about wd:Q35788 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Lamnso'"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilamnso%27> a schema:Article ;
+	schema:about wd:Q35788 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilamnso'"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nso_language> a schema:Article ;
+	schema:about wd:Q35788 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nso language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Lamnso> a schema:Article ;
+	schema:about wd:Q35788 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Lamnso"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Lamnso_keel> a schema:Article ;
+	schema:about wd:Q35788 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Lamnso keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Nso_dili> a schema:Article ;
+	schema:about wd:Q35788 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Nso dili"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_nso> a schema:Article ;
+	schema:about wd:Q35788 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua nso"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Nso_language> a schema:Article ;
+	schema:about wd:Q35788 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Nso language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35788 wdt:P220 "lns" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lns> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "lamn1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lamn1239> ;
+	wdt:P1466 "lns" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_lns> ;
+	wdt:P5198 "294929185" ;
+	wdt:P305 "lns" ;
+	wdt:P1627 "lns" ;
+	wdt:P3823 wd:Q29051549 ;
+	wdt:P17 wd:Q1009,
+		wd:Q1033 ;
+	wdt:P2341 wd:Q845168,
+		wd:Q502341,
+		wd:Q165784,
+		wd:Q509300,
+		wd:Q463959 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LNS> ;
+	wdt:P646 "/m/02hwp1x" ;
+	wdt:P279 wd:Q750932 ;
+	rdfs:label "Kilamnso'"@sw ;
+	skos:prefLabel "Kilamnso'"@sw ;
+	schema:name "Kilamnso'"@sw ;
+	rdfs:label "Lamnso"@de ;
+	skos:prefLabel "Lamnso"@de ;
+	schema:name "Lamnso"@de ;
+	rdfs:label "Lenga Lamnso'"@pms ;
+	skos:prefLabel "Lenga Lamnso'"@pms ;
+	schema:name "Lenga Lamnso'"@pms ;
+	rdfs:label "Nso"@en ;
+	skos:prefLabel "Nso"@en ;
+	schema:name "Nso"@en ;
+	rdfs:label "Lamnso keel"@et ;
+	skos:prefLabel "Lamnso keel"@et ;
+	schema:name "Lamnso keel"@et ;
+	rdfs:label "lamnso'"@fr ;
+	skos:prefLabel "lamnso'"@fr ;
+	schema:name "lamnso'"@fr ;
+	rdfs:label "Nso dili"@tr ;
+	skos:prefLabel "Nso dili"@tr ;
+	schema:name "Nso dili"@tr ;
+	rdfs:label "ламнсо"@ru ;
+	skos:prefLabel "ламнсо"@ru ;
+	schema:name "ламнсо"@ru ;
+	rdfs:label "Língua nso"@pt ;
+	skos:prefLabel "Língua nso"@pt ;
+	schema:name "Língua nso"@pt ;
+	rdfs:label "Nso language"@ig ;
+	skos:prefLabel "Nso language"@ig ;
+	schema:name "Nso language"@ig ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"язык народа нсо"@ru ;
+	skos:altLabel "Lamnso'"@en,
+		"Nso language"@en,
+		"язык нсо"@ru .

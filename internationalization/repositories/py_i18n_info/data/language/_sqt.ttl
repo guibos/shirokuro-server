@@ -1,0 +1,478 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q13283 a schema:Dataset ;
+	schema:about wd:Q13283 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1966345841"^^xsd:integer ;
+	schema:dateModified "2023-09-02T01:15:15Z"^^xsd:dateTime .
+
+wd:Q13283 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Soqotri_language> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Soqotri language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Soqotri> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Soqotri"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Soqotri> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Soqotri"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_socotr%C3%AD> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma socotrí"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BA%D0%BE%D1%82%D1%80%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Сокотрийский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%BD%E3%82%B3%E3%83%88%E3%83%A9%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ソコトラ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_socotri> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua socotri"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Soqotri> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Soqotri"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Szokotri_nyelv> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Szokotri nyelv"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Sokotran_kieli> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Sokotran kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D8%B3%D9%82%D8%B7%D8%B1%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "اللغة السقطرية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Soqotri> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Soqotri"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%86%8C%EC%BD%94%ED%8A%B8%EB%9D%BC%EC%96%B4> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "소코트라어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Socotri%C3%A0> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Socotrià"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Soqotri_language> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Soqotri language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://an.wikipedia.org/wiki/Idioma_socotor%C3%AD> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "an" ;
+	schema:isPartOf <https://an.wikipedia.org/> ;
+	schema:name "Idioma socotorí"@an .
+
+<https://an.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_socotr%C3%AD> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma socotrí"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Sokotreg> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Sokotreg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Sokotra_keel> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Sokotra keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Soqotri_hizkuntza> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Soqotri hizkuntza"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Soqotri> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Soqotri"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Sokotranski_jezik> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Sokotranski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Sokotr%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Sokotrų kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BA%D0%BE%D1%82%D1%80%D0%B8%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Сокотриски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Soqotri> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Soqotri"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%A1%D7%95%D7%A7%D7%95%D7%98%D7%A8%D7%99%D7%AA> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "סוקוטרית"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BA%D0%BE%D1%82%D1%80%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Сокотрійська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Suqutri> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Suqutri"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Soqotri> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Soqotri"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E7%B4%A2%E7%A7%91%E7%89%B9%E6%8B%89%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q13283 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "索科特拉語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q13283 wdt:P220 "sqt" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/sqt> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/02gnbk" ;
+	wdt:P279 wd:Q1981908 ;
+	wdt:P244 "sh85124475" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85124475> ;
+	wdt:P268 "135371915" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb135371915#about> ;
+	wdt:P1394 "soqo1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/soqo1240> ;
+	wdt:P2355 "1949" ;
+	wdt:P1466 "soq" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_soq> ;
+	wdt:P2924 "3633738" ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P910 wd:Q57258623 ;
+	wdt:P2192 "5410" ;
+	wdt:P305 "sqt" ;
+	wdt:P1627 "sqt" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P17 wd:Q805 ;
+	wdt:P2341 wd:Q275729,
+		wd:Q2471 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SQT> ;
+	wdt:P8189 "987007553393805171" ;
+	rdfs:label "Soqotri"@en ;
+	skos:prefLabel "Soqotri"@en ;
+	schema:name "Soqotri"@en ;
+	rdfs:label "Soqotri"@en-ca ;
+	skos:prefLabel "Soqotri"@en-ca ;
+	schema:name "Soqotri"@en-ca ;
+	rdfs:label "Soqotri"@en-gb ;
+	skos:prefLabel "Soqotri"@en-gb ;
+	schema:name "Soqotri"@en-gb ;
+	rdfs:label "Idioma socotorí"@an ;
+	skos:prefLabel "Idioma socotorí"@an ;
+	schema:name "Idioma socotorí"@an ;
+	rdfs:label "السقطرية"@ar ;
+	skos:prefLabel "السقطرية"@ar ;
+	schema:name "السقطرية"@ar ;
+	rdfs:label "sokotreg"@br ;
+	skos:prefLabel "sokotreg"@br ;
+	schema:name "sokotreg"@br ;
+	rdfs:label "sokotri"@ca ;
+	skos:prefLabel "sokotri"@ca ;
+	schema:name "sokotri"@ca ;
+	rdfs:label "Soqotri"@de ;
+	skos:prefLabel "Soqotri"@de ;
+	schema:name "Soqotri"@de ;
+	rdfs:label "socotrí"@es ;
+	skos:prefLabel "socotrí"@es ;
+	schema:name "socotrí"@es ;
+	rdfs:label "Soqotri hizkuntza"@eu ;
+	skos:prefLabel "Soqotri hizkuntza"@eu ;
+	schema:name "Soqotri hizkuntza"@eu ;
+	rdfs:label "Sokotran kieli"@fi ;
+	skos:prefLabel "Sokotran kieli"@fi ;
+	schema:name "Sokotran kieli"@fi ;
+	rdfs:label "Sokotranski jezik"@hr ;
+	skos:prefLabel "Sokotranski jezik"@hr ;
+	schema:name "Sokotranski jezik"@hr ;
+	rdfs:label "szokotri"@hu ;
+	skos:prefLabel "szokotri"@hu ;
+	schema:name "szokotri"@hu ;
+	rdfs:label "소코트라어"@ko ;
+	skos:prefLabel "소코트라어"@ko ;
+	schema:name "소코트라어"@ko ;
+	rdfs:label "Sokotrų kalba"@lt ;
+	skos:prefLabel "Sokotrų kalba"@lt ;
+	schema:name "Sokotrų kalba"@lt ;
+	rdfs:label "Lenga Soqotri"@pms ;
+	skos:prefLabel "Lenga Soqotri"@pms ;
+	schema:name "Lenga Soqotri"@pms ;
+	rdfs:label "Língua socotri"@pt ;
+	skos:prefLabel "Língua socotri"@pt ;
+	schema:name "Língua socotri"@pt ;
+	rdfs:label "Língua socotri"@pt-br ;
+	skos:prefLabel "Língua socotri"@pt-br ;
+	schema:name "Língua socotri"@pt-br ;
+	rdfs:label "сокотрийский язык"@ru ;
+	skos:prefLabel "сокотрийский язык"@ru ;
+	schema:name "сокотрийский язык"@ru ;
+	rdfs:label "soqotri"@fr ;
+	skos:prefLabel "soqotri"@fr ;
+	schema:name "soqotri"@fr ;
+	rdfs:label "lingua soqotri"@it ;
+	skos:prefLabel "lingua soqotri"@it ;
+	schema:name "lingua soqotri"@it ;
+	rdfs:label "Soqotri"@nb ;
+	skos:prefLabel "Soqotri"@nb ;
+	schema:name "Soqotri"@nb ;
+	rdfs:label "ソコトラ語"@ja ;
+	skos:prefLabel "ソコトラ語"@ja ;
+	schema:name "ソコトラ語"@ja ;
+	rdfs:label "An Shocatrais"@ga ;
+	skos:prefLabel "An Shocatrais"@ga ;
+	schema:name "An Shocatrais"@ga ;
+	rdfs:label "Soqotri"@sv ;
+	skos:prefLabel "Soqotri"@sv ;
+	schema:name "Soqotri"@sv ;
+	rdfs:label "Soqotri"@frr ;
+	skos:prefLabel "Soqotri"@frr ;
+	schema:name "Soqotri"@frr ;
+	rdfs:label "bahasa Soqotri"@id ;
+	skos:prefLabel "bahasa Soqotri"@id ;
+	schema:name "bahasa Soqotri"@id ;
+	rdfs:label "Idioma socotrí"@ast ;
+	skos:prefLabel "Idioma socotrí"@ast ;
+	schema:name "Idioma socotrí"@ast ;
+	rdfs:label "Сокотриски јазик"@mk ;
+	skos:prefLabel "Сокотриски јазик"@mk ;
+	schema:name "Сокотриски јазик"@mk ;
+	rdfs:label "Sokotra keel"@et ;
+	skos:prefLabel "Sokotra keel"@et ;
+	schema:name "Sokotra keel"@et ;
+	rdfs:label "索科特拉語"@zh-hant ;
+	skos:prefLabel "索科特拉語"@zh-hant ;
+	schema:name "索科特拉語"@zh-hant ;
+	rdfs:label "索科特拉语"@zh-hans ;
+	skos:prefLabel "索科特拉语"@zh-hans ;
+	schema:name "索科特拉语"@zh-hans ;
+	rdfs:label "索科特拉语"@zh ;
+	skos:prefLabel "索科特拉语"@zh ;
+	schema:name "索科特拉语"@zh ;
+	rdfs:label "סוקוטרי"@he ;
+	skos:prefLabel "סוקוטרי"@he ;
+	schema:name "סוקוטרי"@he ;
+	rdfs:label "soqotri"@vec ;
+	skos:prefLabel "soqotri"@vec ;
+	schema:name "soqotri"@vec ;
+	rdfs:label "Сокотрійська мова"@uk ;
+	skos:prefLabel "Сокотрійська мова"@uk ;
+	schema:name "Сокотрійська мова"@uk ;
+	rdfs:label "Suqutri"@cs ;
+	skos:prefLabel "Suqutri"@cs ;
+	schema:name "Suqutri"@cs ;
+	schema:description "The language of the native population of the Socotra archipelago, in the Guardafui Channel"@en,
+		"bahsa"@ace,
+		"taal"@af,
+		"idioma"@an,
+		"bahasa"@bjn,
+		"yezh"@br,
+		"jezik"@bs,
+		"llengua"@ca,
+		"lingua"@co,
+		"sprog"@da,
+		"Sprache"@de,
+		"lısan"@diq,
+		"γλώσσα"@el,
+		"langua"@eml,
+		"lingvo"@eo,
+		"idioma sudarábiga"@es,
+		"keel"@et,
+		"hizkuntza"@eu,
+		"luenga"@ext,
+		"kieli"@fi,
+		"langue sémitique"@fr,
+		"lengoua"@frp,
+		"lenghe"@fur,
+		"taal"@fy,
+		"teanga a labhraítear i Socatra"@ga,
+		"nyelv"@hu,
+		"bahasa yang digunakan penduduk asli di kepulauan Sokotra, di Selat Guardafui"@id,
+		"linguo"@io,
+		"tungumál"@is,
+		"lingua"@it,
+		"言語"@ja,
+		"basa"@jv,
+		"ndinga"@kg,
+		"lingua"@la,
+		"kalba"@lt,
+		"valoda"@lv,
+		"fiteny"@mg,
+		"bahasa"@ms,
+		"språk"@nn,
+		"langue"@pcd,
+		"língua"@pt,
+		"limba"@ro,
+		"язык"@ru,
+		"basa"@su,
+		"tiếng"@vi,
+		"làkk"@wo,
+		"语言"@zh,
+		"språk"@nb,
+		"語言"@lzh,
+		"taal"@nl,
+		"שפה"@he,
+		"iaith"@cy ;
+	skos:altLabel "Socotri langugage"@en,
+		"Soqotri language"@en,
+		"Lingua socotri"@it,
+		"سقطرية"@ar,
+		"socotri"@es,
+		"Socatrais"@ga,
+		"Soqotri语"@zh,
+		"szokotri nyelv"@hu .

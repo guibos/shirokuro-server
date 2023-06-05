@@ -1,0 +1,132 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3508092 a schema:Dataset ;
+	schema:about wd:Q3508092 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1355762838"^^xsd:integer ;
+	schema:dateModified "2021-02-06T13:14:20Z"^^xsd:dateTime .
+
+wd:Q3508092 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Amri> a schema:Article ;
+	schema:about wd:Q3508092 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Amri"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1_%CE%86%CE%BC%CF%81%CE%B9> a schema:Article ;
+	schema:about wd:Q3508092 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γλώσσα Άμρι"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiamri-Karbi> a schema:Article ;
+	schema:about wd:Q3508092 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiamri-Karbi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Amri_language> a schema:Article ;
+	schema:about wd:Q3508092 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Amri language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Amri_Karbi_jezik> a schema:Article ;
+	schema:about wd:Q3508092 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Amri Karbi jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3508092 wdt:P220 "ajz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ajz> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "amri1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/amri1238> ;
+	wdt:P305 "ajz" ;
+	wdt:P1627 "ajz" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1164,
+		wd:Q1195 ;
+	wdt:P1245 "660214" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/AJZ> ;
+	wdt:P646 "/m/05sx9r0" ;
+	rdfs:label "Lenga Amri"@pms ;
+	skos:prefLabel "Lenga Amri"@pms ;
+	schema:name "Lenga Amri"@pms ;
+	rdfs:label "Amri"@en ;
+	skos:prefLabel "Amri"@en ;
+	schema:name "Amri"@en ;
+	rdfs:label "Amri Karbi jezik"@hr ;
+	skos:prefLabel "Amri Karbi jezik"@hr ;
+	schema:name "Amri Karbi jezik"@hr ;
+	rdfs:label "Kiamri-Karbi"@sw ;
+	skos:prefLabel "Kiamri-Karbi"@sw ;
+	schema:name "Kiamri-Karbi"@sw ;
+	rdfs:label "アムリ語"@ja ;
+	skos:prefLabel "アムリ語"@ja ;
+	schema:name "アムリ語"@ja ;
+	rdfs:label "Γλώσσα Άμρι"@el ;
+	skos:prefLabel "Γλώσσα Άμρι"@el ;
+	schema:name "Γλώσσα Άμρι"@el ;
+	rdfs:label "Amri"@en-ca ;
+	skos:prefLabel "Amri"@en-ca ;
+	schema:name "Amri"@en-ca ;
+	rdfs:label "Amri"@en-gb ;
+	skos:prefLabel "Amri"@en-gb ;
+	schema:name "Amri"@en-gb ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"spoken by the Karbi people of Assam and Meghalaya, India"@en,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ভারতীয় ভাষা"@bn ;
+	skos:altLabel "Amri Karbi"@en,
+		"Amri language"@en .

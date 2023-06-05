@@ -1,0 +1,139 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56464 a schema:Dataset ;
+	schema:about wd:Q56464 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1526378322"^^xsd:integer ;
+	schema:dateModified "2021-11-12T13:48:29Z"^^xsd:dateTime .
+
+wd:Q56464 a wikibase:Item .
+
+<https://diq.wikipedia.org/wiki/Herzendki> a schema:Article ;
+	schema:about wd:Q56464 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Herzendki"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Harzani> a schema:Article ;
+	schema:about wd:Q56464 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Harzani"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Harzandi_dialect> a schema:Article ;
+	schema:about wd:Q56464 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Harzandi dialect"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Harzaneg> a schema:Article ;
+	schema:about wd:Q56464 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Harzaneg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Harzandi> a schema:Article ;
+	schema:about wd:Q56464 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Harzandi"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%DA%AF%D9%88%DB%8C%D8%B4_%D9%87%D8%B1%D8%B2%D9%86%D8%AF%DB%8C> a schema:Article ;
+	schema:about wd:Q56464 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "گویش هرزندی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56464 wdt:P220 "hrz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hrz> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "harz1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/harz1239> ;
+	wdt:P2192 "4279" ;
+	wdt:P279 wd:Q390576 ;
+	wdt:P910 wd:Q33139608 ;
+	wdt:P305 "hrz" ;
+	wdt:P1627 "hrz" ;
+	wdt:P3823 wd:Q29051555 ;
+	wdt:P17 wd:Q794 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HRZ> ;
+	wdt:P646 "/m/04ng20" ;
+	rdfs:label "harzaneg"@br ;
+	skos:prefLabel "harzaneg"@br ;
+	schema:name "harzaneg"@br ;
+	rdfs:label "Herzendki"@diq ;
+	skos:prefLabel "Herzendki"@diq ;
+	schema:name "Herzendki"@diq ;
+	rdfs:label "Harzandi"@en ;
+	skos:prefLabel "Harzandi"@en ;
+	schema:name "Harzandi"@en ;
+	rdfs:label "Lenga Harzani"@pms ;
+	skos:prefLabel "Lenga Harzani"@pms ;
+	schema:name "Lenga Harzani"@pms ;
+	rdfs:label "Herzendī"@ja ;
+	skos:prefLabel "Herzendī"@ja ;
+	schema:name "Herzendī"@ja ;
+	rdfs:label "harzani"@fr ;
+	skos:prefLabel "harzani"@fr ;
+	schema:name "harzani"@fr ;
+	rdfs:label "لهجه هرزندی"@fa ;
+	skos:prefLabel "لهجه هرزندی"@fa ;
+	schema:name "لهجه هرزندی"@fa ;
+	rdfs:label "Harzandi"@de ;
+	skos:prefLabel "Harzandi"@de ;
+	schema:name "Harzandi"@de ;
+	schema:description "dialect of Tati spoken in the north of the Iranian province of East Azarbaijan, around the village of Harzand"@en,
+		"Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue iranienne"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Harzani"@en,
+		"Harzandi dialect"@en .

@@ -1,0 +1,112 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12639245 a schema:Dataset ;
+	schema:about wd:Q12639245 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1727762065"^^xsd:integer ;
+	schema:dateModified "2022-09-13T10:23:22Z"^^xsd:dateTime .
+
+wd:Q12639245 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_atta,_pamplona> a schema:Article ;
+	schema:about wd:Q12639245 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga atta, pamplona"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Pamplona_Atta_jezik> a schema:Article ;
+	schema:about wd:Q12639245 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Pamplona Atta jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiatta_cha_Pamplona> a schema:Article ;
+	schema:about wd:Q12639245 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiatta cha Pamplona"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12639245 wdt:P31 wd:Q34770,
+		wd:Q33384,
+		wd:Q1288568 ;
+	wdt:P220 "att" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/att> ;
+	wdt:P279 wd:Q4817853 ;
+	wdt:P1394 "pamp1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/pamp1244> ;
+	wdt:P305 "att" ;
+	wdt:P1627 "att" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q928 ;
+	wdt:P2341 wd:Q13615,
+		wd:Q13759 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/ATT> ;
+	wdt:P4839 "Entity[\"Language\", \"AttaPamplona::ym6vh\"]",
+		"Entity[\"Language\", \"AttaPamplona\"]" ;
+	rdfs:label "Pamplona Atta jezik"@hr ;
+	skos:prefLabel "Pamplona Atta jezik"@hr ;
+	schema:name "Pamplona Atta jezik"@hr ;
+	rdfs:label "Pamplona Atta"@en ;
+	skos:prefLabel "Pamplona Atta"@en ;
+	schema:name "Pamplona Atta"@en ;
+	rdfs:label "Lenga atta, pamplona"@pms ;
+	skos:prefLabel "Lenga atta, pamplona"@pms ;
+	schema:name "Lenga atta, pamplona"@pms ;
+	rdfs:label "Kiatta ya Pamplona"@sw ;
+	skos:prefLabel "Kiatta ya Pamplona"@sw ;
+	schema:name "Kiatta ya Pamplona"@sw ;
+	rdfs:label "Pamplona Atta"@en-gb ;
+	skos:prefLabel "Pamplona Atta"@en-gb ;
+	schema:name "Pamplona Atta"@en-gb ;
+	rdfs:label "atta de Pamplona"@fr ;
+	skos:prefLabel "atta de Pamplona"@fr ;
+	schema:name "atta de Pamplona"@fr ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue malayo-polynésienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Pamplona Atta language"@en .
+
+wd:Q18002413 owl:sameAs wd:Q12639245 .

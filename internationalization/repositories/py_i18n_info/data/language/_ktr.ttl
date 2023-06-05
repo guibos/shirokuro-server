@@ -1,0 +1,87 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q18642280 a schema:Dataset ;
+	schema:about wd:Q18642280 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1355266750"^^xsd:integer ;
+	schema:dateModified "2021-02-05T17:08:20Z"^^xsd:dateTime .
+
+wd:Q18642280 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_kota_marudu_tinagas> a schema:Article ;
+	schema:about wd:Q18642280 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kota marudu tinagas"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikota-Marudu-Tinagas> a schema:Article ;
+	schema:about wd:Q18642280 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikota-Marudu-Tinagas"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q18642280 wdt:P220 "ktr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ktr> ;
+	wdt:P31 wd:Q34770 ;
+	wdt:P1394 "kota1278" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kota1278> ;
+	wdt:P279 wd:Q3217447 ;
+	wdt:P305 "ktr" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KTR> ;
+	rdfs:label "Lenga kota marudu tinagas"@pms ;
+	skos:prefLabel "Lenga kota marudu tinagas"@pms ;
+	schema:name "Lenga kota marudu tinagas"@pms ;
+	rdfs:label "Kikota-Marudu-Tinagas"@sw ;
+	skos:prefLabel "Kikota-Marudu-Tinagas"@sw ;
+	schema:name "Kikota-Marudu-Tinagas"@sw ;
+	rdfs:label "Kota Marudu Tinagas"@en ;
+	skos:prefLabel "Kota Marudu Tinagas"@en ;
+	schema:name "Kota Marudu Tinagas"@en ;
+	rdfs:label "kota marudu tinagas"@fr ;
+	skos:prefLabel "kota marudu tinagas"@fr ;
+	schema:name "kota marudu tinagas"@fr ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue malayo-polynésienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Kota Marudu Tinagas language"@en .

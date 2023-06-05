@@ -1,0 +1,115 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q17478066 a schema:Dataset ;
+	schema:about wd:Q17478066 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1872526891"^^xsd:integer ;
+	schema:dateModified "2023-04-11T11:18:02Z"^^xsd:dateTime .
+
+wd:Q17478066 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Guarani_paraguayen> a schema:Article ;
+	schema:about wd:Q17478066 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Guarani paraguayen"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Guaran%C3%AD_paraguayo_(dialecto)> a schema:Article ;
+	schema:about wd:Q17478066 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Guaraní paraguayo (dialecto)"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Paraguay_guaranii_keel> a schema:Article ;
+	schema:about wd:Q17478066 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Paraguay guaranii keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Guarani_paraguaio_(dialeto)> a schema:Article ;
+	schema:about wd:Q17478066 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Guarani paraguaio (dialeto)"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q17478066 wdt:P31 wd:Q33384,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/Localizaci%C3%B3n%20Paraguay.PNG> ;
+	wdt:P220 "gug" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gug> ;
+	wdt:P1394 "para1311" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/para1311> ;
+	wdt:P305 "gug" ;
+	wdt:P4132 wd:Q651641 ;
+	wdt:P1466 "gua" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_gua> ;
+	wdt:P4913 wd:Q35876 ;
+	wdt:P1627 "gug" ;
+	wdt:P17 wd:Q733 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GUG> ;
+	wdt:P2671 "/g/1q6fyxzrc" ;
+	wdtn:P2671 <http://g.co/kg/g/1q6fyxzrc> ;
+	wdt:P910 wd:Q105714292 ;
+	wdt:P279 wd:Q35876 ;
+	rdfs:label "guaraní paraguayo"@es ;
+	skos:prefLabel "guaraní paraguayo"@es ;
+	schema:name "guaraní paraguayo"@es ;
+	rdfs:label "Paraguay guaranii keel"@et ;
+	skos:prefLabel "Paraguay guaranii keel"@et ;
+	schema:name "Paraguay guaranii keel"@et ;
+	rdfs:label "guarani paraguayen"@fr ;
+	skos:prefLabel "guarani paraguayen"@fr ;
+	schema:name "guarani paraguayen"@fr ;
+	rdfs:label "Paraguayan Guaraní"@en ;
+	skos:prefLabel "Paraguayan Guaraní"@en ;
+	schema:name "Paraguayan Guaraní"@en ;
+	rdfs:label "Paraguayan Guaraní"@en-gb ;
+	skos:prefLabel "Paraguayan Guaraní"@en-gb ;
+	schema:name "Paraguayan Guaraní"@en-gb ;
+	rdfs:label "Guarani paraguaio (dialeto)"@pt ;
+	skos:prefLabel "Guarani paraguaio (dialeto)"@pt ;
+	schema:name "Guarani paraguaio (dialeto)"@pt ;
+	schema:description "langue tupi-guarani"@fr,
+		"dialecto del idioma guaraní"@es ;
+	skos:altLabel "avañe'e"@fr,
+		"guaraní moderno"@es,
+		"guaraní coloquial paraguayo"@es .

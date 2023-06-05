@@ -1,0 +1,85 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12642598 a schema:Dataset ;
+	schema:about wd:Q12642598 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1925855168"^^xsd:integer ;
+	schema:dateModified "2023-06-29T14:06:17Z"^^xsd:dateTime .
+
+wd:Q12642598 a wikibase:Item .
+
+<https://hr.wikipedia.org/wiki/Srednjoameri%C4%8Dki_indijanski_jezici> a schema:Article ;
+	schema:about wd:Q12642598 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Srednjoamerički indijanski jezici"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12642598 wdt:P1798 "cai" ;
+	wdt:P219 "cai" ;
+	wdt:P31 wd:Q25295 ;
+	wdt:P305 "cai" ;
+	wdt:P4801 "languages/cai" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/cai> ;
+	wdt:P4801 "iso639-2/cai" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/iso639-2/cai> ;
+	wdt:P4801 "iso639-5/cai" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/iso639-5/cai> ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CAI> ;
+	wdt:P8313 "mellemamerikanske_sprog" ;
+	wdt:P10565 "235029" ;
+	rdfs:label "Srednjoamerički indijanski jezici"@hr ;
+	skos:prefLabel "Srednjoamerički indijanski jezici"@hr ;
+	schema:name "Srednjoamerički indijanski jezici"@hr ;
+	rdfs:label "langues indiennes américaines centrales"@fr ;
+	skos:prefLabel "langues indiennes américaines centrales"@fr ;
+	schema:name "langues indiennes américaines centrales"@fr ;
+	rdfs:label "Central American Indian languages"@en ;
+	skos:prefLabel "Central American Indian languages"@en ;
+	schema:name "Central American Indian languages"@en ;
+	rdfs:label "centra indiana lingvaro"@eo ;
+	skos:prefLabel "centra indiana lingvaro"@eo ;
+	schema:name "centra indiana lingvaro"@eo ;
+	rdfs:label "línguas indígenas centro-americanas"@pt-br ;
+	skos:prefLabel "línguas indígenas centro-americanas"@pt-br ;
+	schema:name "línguas indígenas centro-americanas"@pt-br ;
+	rdfs:label "łéngue indiane americane sentrałi"@vec ;
+	skos:prefLabel "łéngue indiane americane sentrałi"@vec ;
+	schema:name "łéngue indiane americane sentrałi"@vec ;
+	rdfs:label "ieithoedd Indiaidd America Ganol"@cy ;
+	skos:prefLabel "ieithoedd Indiaidd America Ganol"@cy ;
+	schema:name "ieithoedd Indiaidd America Ganol"@cy ;
+	schema:description "famille de langues"@fr,
+		"familh yezhoù"@br ;
+	skos:altLabel "ieithoedd Indiaidd Canol America"@cy .

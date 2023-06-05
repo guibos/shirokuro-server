@@ -1,0 +1,141 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q34801 a schema:Dataset ;
+	schema:about wd:Q34801 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1836666185"^^xsd:integer ;
+	schema:dateModified "2023-02-18T21:19:18Z"^^xsd:dateTime .
+
+wd:Q34801 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Akpa> a schema:Article ;
+	schema:about wd:Q34801 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Akpa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiakpa> a schema:Article ;
+	schema:about wd:Q34801 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiakpa"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_akpa> a schema:Article ;
+	schema:about wd:Q34801 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua akpa"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Akpa> a schema:Article ;
+	schema:about wd:Q34801 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Akpa"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Akpa_jezik> a schema:Article ;
+	schema:about wd:Q34801 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Akpa jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q34801 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "akf" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/akf> ;
+	wdt:P1394 "akpa1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/akpa1238> ;
+	wdt:P279 wd:Q12645373 ;
+	wdt:P910 wd:Q36153100 ;
+	wdt:P305 "akf" ;
+	wdt:P1627 "akf" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q429908,
+		wd:Q509300 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/AKF> ;
+	wdt:P646 "/m/02hxr6j" ;
+	wdt:P443 <http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q33578%20%28ibo%29-Deventus-Akpa.wav> ;
+	rdfs:label "Kiakpa"@sw ;
+	skos:prefLabel "Kiakpa"@sw ;
+	schema:name "Kiakpa"@sw ;
+	rdfs:label "Lingua akpa"@gl ;
+	skos:prefLabel "Lingua akpa"@gl ;
+	schema:name "Lingua akpa"@gl ;
+	rdfs:label "Akpa"@de ;
+	skos:prefLabel "Akpa"@de ;
+	schema:name "Akpa"@de ;
+	rdfs:label "Lenga Akpa"@pms ;
+	skos:prefLabel "Lenga Akpa"@pms ;
+	schema:name "Lenga Akpa"@pms ;
+	rdfs:label "Akpa jezik"@hr ;
+	skos:prefLabel "Akpa jezik"@hr ;
+	schema:name "Akpa jezik"@hr ;
+	rdfs:label "akpa"@ca ;
+	skos:prefLabel "akpa"@ca ;
+	schema:name "akpa"@ca ;
+	rdfs:label "Akpa"@oc ;
+	skos:prefLabel "Akpa"@oc ;
+	schema:name "Akpa"@oc ;
+	rdfs:label "Akpa"@en ;
+	skos:prefLabel "Akpa"@en ;
+	schema:name "Akpa"@en ;
+	rdfs:label "Akpa"@nl ;
+	skos:prefLabel "Akpa"@nl ;
+	schema:name "Akpa"@nl ;
+	rdfs:label "Akpa"@en-gb ;
+	skos:prefLabel "Akpa"@en-gb ;
+	schema:name "Akpa"@en-gb ;
+	rdfs:label "akpa"@fr ;
+	skos:prefLabel "akpa"@fr ;
+	schema:name "akpa"@fr ;
+	schema:description "Sprache"@de,
+		"language of Nigeria"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"langue idomoïde"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Akpa"@gl .

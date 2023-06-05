@@ -1,0 +1,561 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q23014 a schema:Dataset ;
+	schema:about wd:Q23014 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1928285457"^^xsd:integer ;
+	schema:dateModified "2023-07-03T11:35:18Z"^^xsd:dateTime .
+
+wd:Q23014 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_pfaelzisch> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga pfaelzisch"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9F%D1%84%D0%B0%D0%BB%D1%8C%D1%86%D1%81%D0%BA%D0%B8%D0%B9_%D0%B4%D0%B8%D0%B0%D0%BB%D0%B5%D0%BA%D1%82> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Пфальцский диалект"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9F%D1%84%D0%B0%D0%BB%D1%8C%D1%86%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%B4%D1%96%D0%B0%D0%BB%D0%B5%D0%BA%D1%82_%D0%BD%D1%96%D0%BC%D0%B5%D1%86%D1%8C%D0%BA%D0%BE%D1%97> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Пфальцський діалект німецької"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Palatine_German_language> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Palatine German language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Fala%C4%8Dki_jezik> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Falački jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%A4%D0%B0%D0%BB%D0%B5%D1%87%D0%BA%D0%B8_%D0%B4%D0%B8%D1%98%D0%B0%D0%BB%D0%B5%D0%BA%D1%82> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Фалечки дијалект"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://an.wikipedia.org/wiki/Franco_palat%C3%ADn> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "an" ;
+	schema:isPartOf <https://an.wikipedia.org/> ;
+	schema:name "Franco palatín"@an .
+
+<https://an.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pdc.wikipedia.org/wiki/P%C3%A4lzisch> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "pdc" ;
+	schema:isPartOf <https://pdc.wikipedia.org/> ;
+	schema:name "Pälzisch"@pdc .
+
+<https://pdc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%95%E3%82%A1%E3%83%AB%E3%83%84%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "プファルツ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pfl.wikipedia.org/wiki/Pf%C3%A4lzisch> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "pfl" ;
+	schema:isPartOf <https://pfl.wikipedia.org/> ;
+	schema:name "Pfälzisch"@pfl .
+
+<https://pfl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ksh.wikipedia.org/wiki/P%C3%A4llzisch_(Sprooch)> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "ksh" ;
+	schema:isPartOf <https://ksh.wikipedia.org/> ;
+	schema:name "Pällzisch (Sprooch)"@ksh .
+
+<https://ksh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Pf%C3%A4lzische_Dialekte> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Pfälzische Dialekte"@de ;
+	wikibase:badge wd:Q17437798 .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Fal%C4%8Dtina> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Falčtina"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Pfalzi_nyelv> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Pfalzi nyelv"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Pfalco_vokie%C4%8Di%C5%B3_tarm%C4%97> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Pfalco vokiečių tarmė"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sq.wikipedia.org/wiki/Gjuha_palatine_gjermane> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "sq" ;
+	schema:isPartOf <https://sq.wikipedia.org/> ;
+	schema:name "Gjuha palatine gjermane"@sq .
+
+<https://sq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/Gwary_palatynackie> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Gwary palatynackie"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Alem%C3%A1n_del_Palatin%C3%A1u> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Alemán del Palatináu"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://stq.wikipedia.org/wiki/Paltsersk> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "stq" ;
+	schema:isPartOf <https://stq.wikipedia.org/> ;
+	schema:name "Paltsersk"@stq .
+
+<https://stq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Pf%C3%A4lzisch> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Pfälzisch"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Palatin_(langue)> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Palatin (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Paltsisch> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Paltsisch"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D9%BE%D8%A7%D9%84%D8%A7%D8%AA%D9%86_%D8%A2%D9%84%D9%85%D8%A7%D9%86_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "پالاتن آلمان دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nds.wikipedia.org/wiki/P%C3%A4lzisch> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "nds" ;
+	schema:isPartOf <https://nds.wikipedia.org/> ;
+	schema:name "Pälzisch"@nds .
+
+<https://nds.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Palatinata_germana_dialektaro> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Palatinata germana dialektaro"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%A2%D9%84%D9%85%D8%A7%D9%86%DB%8C_%D9%BE%D8%A7%D9%84%D8%A7%D8%AA%D9%86> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان آلمانی پالاتن"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Alem%C3%A1n_do_Palatinado> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Alemán do Palatinado"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Alem%C3%A1n_del_Palatinado> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Alemán del Palatinado"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%99%AE%E6%B3%95%E5%B0%94%E8%8C%A8%E6%96%B9%E8%A8%80> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "普法尔茨方言"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_%C4%90%E1%BB%A9c_Pfalz> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Đức Pfalz"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D8%A8%D8%A7%D9%84%D8%A7%D8%AA%D9%8A%D9%86%D8%A7%D8%AA_%D8%A7%D9%84%D8%A7%D9%84%D9%85%D8%A7%D9%86%D9%8A%D9%87> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "بالاتينات الالمانيه"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_tedesca_palatina> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua tedesca palatina"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Pfalziska> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Pfalziska"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Pfeltsisk> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Pfeltsisk"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Palatine_German_language> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Palatine German language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%AF%E1%B1%AE%E1%B1%9E%E1%B1%AE%E1%B1%B4%E1%B1%A4%E1%B1%B1_%E1%B1%A1%E1%B1%9F%E1%B1%A8%E1%B1%A2%E1%B1%9F%E1%B1%B1_%E1%B1%AF%E1%B1%9F%E1%B1%B9%E1%B1%A8%E1%B1%A5%E1%B1%A4> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱯᱮᱞᱮᱴᱤᱱ ᱡᱟᱨᱢᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://als.wikipedia.org/wiki/Pf%C3%A4lzische_Dialekte> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "gsw" ;
+	schema:isPartOf <https://als.wikipedia.org/> ;
+	schema:name "Pfälzische Dialekte"@gsw .
+
+<https://als.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BB%D0%B0%D1%82%D0%B8%D0%BD%D0%B0%D0%BB%D1%8C_%D0%B0%D0%BB%D0%BC%D0%B0%D0%BD_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q23014 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Палатиналь алман теле"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q23014 wdt:P305 "pfl" ;
+	wdt:P373 "Palatine German language" ;
+	wdt:P220 "pfl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pfl> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P227 "4120309-4" ;
+	wdtn:P227 <https://d-nb.info/gnd/4120309-4> ;
+	wdt:P646 "/m/027h4z" ;
+	wdt:P424 "pfl" ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P279 wd:Q707007 ;
+	wdt:P1705 "Pälzisch"@pfl ;
+	wdt:P1098 "+1000000"^^xsd:decimal ;
+	wdt:P910 wd:Q9712917 ;
+	wdt:P1394 "pala1330" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/pala1330> ;
+	wdt:P1846 <http://commons.wikimedia.org/wiki/Special:FilePath/Rheinfrankisch.png> ;
+	wdt:P4132 wd:Q539808 ;
+	wdt:P2581 "15363919n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s15363919n> ;
+	wdt:P1627 "pfl" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q142,
+		wd:Q183 ;
+	wdt:P2341 wd:Q1200,
+		wd:Q1142,
+		wd:Q1137 ;
+	wdt:P1245 "670713" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PFL> ;
+	wdt:P9060 "pfl" ;
+	wdt:P1014 "300443831" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300443831> ;
+	rdfs:label "普法尔茨方言"@zh ;
+	skos:prefLabel "普法尔茨方言"@zh ;
+	schema:name "普法尔茨方言"@zh ;
+	rdfs:label "Palatinata germana dialektaro"@eo ;
+	skos:prefLabel "Palatinata germana dialektaro"@eo ;
+	schema:name "Palatinata germana dialektaro"@eo ;
+	rdfs:label "Lenga pfaelzisch"@pms ;
+	skos:prefLabel "Lenga pfaelzisch"@pms ;
+	schema:name "Lenga pfaelzisch"@pms ;
+	rdfs:label "Gwary palatynackie"@pl ;
+	skos:prefLabel "Gwary palatynackie"@pl ;
+	schema:name "Gwary palatynackie"@pl ;
+	rdfs:label "Пфальцский диалект"@ru ;
+	skos:prefLabel "Пфальцский диалект"@ru ;
+	schema:name "Пфальцский диалект"@ru ;
+	rdfs:label "palatin"@fr ;
+	skos:prefLabel "palatin"@fr ;
+	schema:name "palatin"@fr ;
+	rdfs:label "Palatinate German"@en ;
+	skos:prefLabel "Palatinate German"@en ;
+	schema:name "Palatinate German"@en ;
+	rdfs:label "Pfälzisch"@ca ;
+	skos:prefLabel "Pfälzisch"@ca ;
+	schema:name "Pfälzisch"@ca ;
+	rdfs:label "pfalzi"@hu ;
+	skos:prefLabel "pfalzi"@hu ;
+	schema:name "pfalzi"@hu ;
+	rdfs:label "Pälzisch"@pfl ;
+	skos:prefLabel "Pälzisch"@pfl ;
+	schema:name "Pälzisch"@pfl ;
+	rdfs:label "Paltsersk"@stq ;
+	skos:prefLabel "Paltsersk"@stq ;
+	schema:name "Paltsersk"@stq ;
+	rdfs:label "Pälzisch"@pdc ;
+	skos:prefLabel "Pälzisch"@pdc ;
+	schema:name "Pälzisch"@pdc ;
+	rdfs:label "tedesco palatino"@it ;
+	skos:prefLabel "tedesco palatino"@it ;
+	schema:name "tedesco palatino"@it ;
+	rdfs:label "Pfälzisch"@de ;
+	skos:prefLabel "Pfälzisch"@de ;
+	schema:name "Pfälzisch"@de ;
+	rdfs:label "プファルツ語"@ja ;
+	skos:prefLabel "プファルツ語"@ja ;
+	schema:name "プファルツ語"@ja ;
+	rdfs:label "falčtina"@cs ;
+	skos:prefLabel "falčtina"@cs ;
+	schema:name "falčtina"@cs ;
+	rdfs:label "Pällzisch"@ksh ;
+	skos:prefLabel "Pällzisch"@ksh ;
+	schema:name "Pällzisch"@ksh ;
+	rdfs:label "Falački jezik"@hr ;
+	skos:prefLabel "Falački jezik"@hr ;
+	schema:name "Falački jezik"@hr ;
+	rdfs:label "Pälzisch"@nds ;
+	skos:prefLabel "Pälzisch"@nds ;
+	schema:name "Pälzisch"@nds ;
+	rdfs:label "Pfalco vokiečių tarmė"@lt ;
+	skos:prefLabel "Pfalco vokiečių tarmė"@lt ;
+	schema:name "Pfalco vokiečių tarmė"@lt ;
+	rdfs:label "Paltsisch"@nl ;
+	skos:prefLabel "Paltsisch"@nl ;
+	schema:name "Paltsisch"@nl ;
+	rdfs:label "Фалечки дијалект"@mk ;
+	skos:prefLabel "Фалечки дијалект"@mk ;
+	schema:name "Фалечки дијалект"@mk ;
+	rdfs:label "alemán palatino"@es ;
+	skos:prefLabel "alemán palatino"@es ;
+	schema:name "alemán palatino"@es ;
+	rdfs:label "زبان آلمانی پالاتن"@fa ;
+	skos:prefLabel "زبان آلمانی پالاتن"@fa ;
+	schema:name "زبان آلمانی پالاتن"@fa ;
+	rdfs:label "Пфальцський діалект німецької"@uk ;
+	skos:prefLabel "Пфальцський діалект німецької"@uk ;
+	schema:name "Пфальцський діалект німецької"@uk ;
+	rdfs:label "Franco palatín"@an ;
+	skos:prefLabel "Franco palatín"@an ;
+	schema:name "Franco palatín"@an ;
+	rdfs:label "tiếng Đức xứ quân"@vi ;
+	skos:prefLabel "tiếng Đức xứ quân"@vi ;
+	schema:name "tiếng Đức xứ quân"@vi ;
+	rdfs:label "Alemán do Palatinado"@gl ;
+	skos:prefLabel "Alemán do Palatinado"@gl ;
+	schema:name "Alemán do Palatinado"@gl ;
+	rdfs:label "Alemán del Palatináu"@ast ;
+	skos:prefLabel "Alemán del Palatináu"@ast ;
+	schema:name "Alemán del Palatináu"@ast ;
+	rdfs:label "Gjuha palatine gjermane"@sq ;
+	skos:prefLabel "Gjuha palatine gjermane"@sq ;
+	schema:name "Gjuha palatine gjermane"@sq ;
+	rdfs:label "پالاتن آلمان دیلی"@azb ;
+	skos:prefLabel "پالاتن آلمان دیلی"@azb ;
+	schema:name "پالاتن آلمان دیلی"@azb ;
+	rdfs:label "Palatinatuko alemana"@eu ;
+	skos:prefLabel "Palatinatuko alemana"@eu ;
+	schema:name "Palatinatuko alemana"@eu ;
+	rdfs:label "بالاتينات الالمانيه"@arz ;
+	skos:prefLabel "بالاتينات الالمانيه"@arz ;
+	schema:name "بالاتينات الالمانيه"@arz ;
+	rdfs:label "pfalziska"@sv ;
+	skos:prefLabel "pfalziska"@sv ;
+	schema:name "pfalziska"@sv ;
+	rdfs:label "Pfeltsisk"@frr ;
+	skos:prefLabel "Pfeltsisk"@frr ;
+	schema:name "Pfeltsisk"@frr ;
+	rdfs:label "pfaltsi"@fi ;
+	skos:prefLabel "pfaltsi"@fi ;
+	schema:name "pfaltsi"@fi ;
+	rdfs:label "ᱯᱮᱞᱮᱴᱤᱱ ᱡᱟᱨᱢᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	skos:prefLabel "ᱯᱮᱞᱮᱴᱤᱱ ᱡᱟᱨᱢᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	schema:name "ᱯᱮᱞᱮᱴᱤᱱ ᱡᱟᱨᱢᱟᱱ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	rdfs:label "todesco palatin"@vec ;
+	skos:prefLabel "todesco palatin"@vec ;
+	schema:name "todesco palatin"@vec ;
+	rdfs:label "ਪਫਾਈਲਜ਼ਿਸਚ"@pa ;
+	skos:prefLabel "ਪਫਾਈਲਜ਼ਿਸਚ"@pa ;
+	schema:name "ਪਫਾਈਲਜ਼ਿਸਚ"@pa ;
+	rdfs:label "普法尔茨方言"@zh-cn ;
+	skos:prefLabel "普法尔茨方言"@zh-cn ;
+	schema:name "普法尔茨方言"@zh-cn ;
+	rdfs:label "팔츠 독일어"@ko ;
+	skos:prefLabel "팔츠 독일어"@ko ;
+	schema:name "팔츠 독일어"@ko ;
+	schema:description "West Franconian dialect of German"@en,
+		"dialecte allemand"@fr,
+		"deutsche Dialekte"@de,
+		"dialecto del alemán"@es,
+		"lingua del Palatinato"@it,
+		"dialektaro de germana lingvo"@eo,
+		"диалект немецкого"@ru,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"lingua"@la,
+		"iaith"@cy,
+		"alemanaren dialektoa"@eu,
+		"tysk dialekt"@sv,
+		"német dialektus"@hu ;
+	skos:altLabel "Palatinata lingvo"@eo,
+		"Palatinata germana dialekto"@eo,
+		"Palatinata germana lingvo"@eo,
+		"Język palatynacki"@pl,
+		"Dialekt palatynacki"@pl,
+		"Пфальцские диалекты"@ru,
+		"Пфальцское наречие"@ru,
+		"Pälzisch"@en,
+		"Pfälzisch language"@en,
+		"Pakatinate German dialect group"@en,
+		"Pfälzisch"@en,
+		"Palatinate German dialect"@en,
+		"Pälzisch language"@en,
+		"Palatinate German language"@en,
+		"Pfaelzisch"@en,
+		"pfl"@en,
+		"Palatine German language"@en,
+		"Pälzisch"@hu,
+		"Pälzischi Sprooch"@hu,
+		"Pfalzi német nyelv"@hu,
+		"pfalzi nyelv"@hu,
+		"Pfälzisch"@pfl,
+		"Pälzische Sprooch"@pfl,
+		"pfl"@pfl,
+		"Pfälzisch"@pdc,
+		"Pelzisch"@pdc,
+		"lingua tedesca palatina"@it,
+		"lingua palatina"@it,
+		"pfälzische Dialektgruppe"@de,
+		"pfälzische Sprache"@de,
+		"pfälzische Dialekte"@de,
+		"プァルツ語"@ja,
+		"Pfälzische"@hr,
+		"Pfälzisch"@nds,
+		"Pfälzisch"@nl,
+		"Pfalzisch"@nl,
+		"pfl"@fr,
+		"tiếng Đức Palatine"@vi,
+		"alemán del Palatinado"@es,
+		"pfl"@es,
+		"aleman palatino"@es,
+		"aleman del Palatinado"@es,
+		"Pälzisch"@gl,
+		"Pfaelzisch"@eu,
+		"pfaltsin kieli"@fi .

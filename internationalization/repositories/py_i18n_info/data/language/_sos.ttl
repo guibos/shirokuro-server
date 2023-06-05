@@ -1,0 +1,174 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36274 a schema:Dataset ;
+	schema:about wd:Q36274 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961174500"^^xsd:integer ;
+	schema:dateModified "2023-08-25T20:03:03Z"^^xsd:dateTime .
+
+wd:Q36274 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Seeku> a schema:Article ;
+	schema:about wd:Q36274 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Seeku"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiseeku> a schema:Article ;
+	schema:about wd:Q36274 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiseeku"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sembla_language> a schema:Article ;
+	schema:about wd:Q36274 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sembla language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Seenku> a schema:Article ;
+	schema:about wd:Q36274 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Seenku"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Seeku_jezik> a schema:Article ;
+	schema:about wd:Q36274 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Seeku jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Seenku> a schema:Article ;
+	schema:about wd:Q36274 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Seenku"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Seenku> a schema:Article ;
+	schema:about wd:Q36274 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Seenku"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Sembla> a schema:Article ;
+	schema:about wd:Q36274 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Sembla"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36274 wdt:P220 "sos" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/sos> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0gy1bym" ;
+	wdt:P1394 "seek1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/seek1238> ;
+	wdt:P910 wd:Q33077050 ;
+	wdt:P279 wd:Q7410000 ;
+	wdt:P305 "sos" ;
+	wdt:P1627 "sos" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q965 ;
+	wdt:P2341 wd:Q845303,
+		wd:Q620710,
+		wd:Q1074161 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SOS> ;
+	wdt:P268 "17986958k" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb17986958k#about> ;
+	rdfs:label "Kiseeku"@sw ;
+	skos:prefLabel "Kiseeku"@sw ;
+	schema:name "Kiseeku"@sw ;
+	rdfs:label "Lenga Seeku"@pms ;
+	skos:prefLabel "Lenga Seeku"@pms ;
+	schema:name "Lenga Seeku"@pms ;
+	rdfs:label "Seenku"@de ;
+	skos:prefLabel "Seenku"@de ;
+	schema:name "Seenku"@de ;
+	rdfs:label "Sembla"@en ;
+	skos:prefLabel "Sembla"@en ;
+	schema:name "Sembla"@en ;
+	rdfs:label "Seeku jezik"@hr ;
+	skos:prefLabel "Seeku jezik"@hr ;
+	schema:name "Seeku jezik"@hr ;
+	rdfs:label "sembla"@fr ;
+	skos:prefLabel "sembla"@fr ;
+	schema:name "sembla"@fr ;
+	rdfs:label "Seenku"@oc ;
+	skos:prefLabel "Seenku"@oc ;
+	schema:name "Seenku"@oc ;
+	rdfs:label "zimanê sembla"@ku-latn ;
+	skos:prefLabel "zimanê sembla"@ku-latn ;
+	schema:name "zimanê sembla"@ku-latn ;
+	rdfs:label "zimanê sembla"@ku ;
+	skos:prefLabel "zimanê sembla"@ku ;
+	schema:name "zimanê sembla"@ku ;
+	rdfs:label "Asụsụ Sembla"@ig ;
+	skos:prefLabel "Asụsụ Sembla"@ig ;
+	schema:name "Asụsụ Sembla"@ig ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue mandée"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kisembla"@sw,
+		"Seeku"@de,
+		"Sembla"@de,
+		"Seeku"@en,
+		"Sembla language"@en,
+		"seeku"@fr,
+		"Sambla (langue)"@fr,
+		"Samogho-Senku"@fr,
+		"Samogho"@fr,
+		"Samogo-Senku"@fr,
+		"Seenku"@fr .

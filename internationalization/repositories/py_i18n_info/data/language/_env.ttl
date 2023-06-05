@@ -1,0 +1,158 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3438334 a schema:Dataset ;
+	schema:about wd:Q3438334 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1747337970"^^xsd:integer ;
+	schema:dateModified "2022-10-10T08:50:39Z"^^xsd:dateTime .
+
+wd:Q3438334 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Ewan_(Edo)> a schema:Article ;
+	schema:about wd:Q3438334 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Ewan (Edo)"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_enwan> a schema:Article ;
+	schema:about wd:Q3438334 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język enwan"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kienwan> a schema:Article ;
+	schema:about wd:Q3438334 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kienwan"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Enwan_language> a schema:Article ;
+	schema:about wd:Q3438334 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Enwan language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Enwan_(edoid_jezik)> a schema:Article ;
+	schema:about wd:Q3438334 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Enwan (edoid jezik)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Enwan> a schema:Article ;
+	schema:about wd:Q3438334 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Enwan"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ha.wikipedia.org/wiki/Harshen_Enwan> a schema:Article ;
+	schema:about wd:Q3438334 ;
+	schema:inLanguage "ha" ;
+	schema:isPartOf <https://ha.wikipedia.org/> ;
+	schema:name "Harshen Enwan"@ha .
+
+<https://ha.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Enwan_language> a schema:Article ;
+	schema:about wd:Q3438334 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Enwan language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3438334 wdt:P220 "env" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/env> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "enwa1246" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/enwa1246> ;
+	wdt:P305 "env" ;
+	wdt:P1627 "env" ;
+	wdt:P279 wd:Q1287469 ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q682704,
+		wd:Q509300 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/ENV> ;
+	wdt:P646 "/m/05sx9q7" ;
+	rdfs:label "Kienwan"@sw ;
+	skos:prefLabel "Kienwan"@sw ;
+	schema:name "Kienwan"@sw ;
+	rdfs:label "Lenga Ewan"@pms ;
+	skos:prefLabel "Lenga Ewan"@pms ;
+	schema:name "Lenga Ewan"@pms ;
+	rdfs:label "Enwan"@en ;
+	skos:prefLabel "Enwan"@en ;
+	schema:name "Enwan"@en ;
+	rdfs:label "Enwan"@hr ;
+	skos:prefLabel "Enwan"@hr ;
+	schema:name "Enwan"@hr ;
+	rdfs:label "Język enwan"@pl ;
+	skos:prefLabel "Język enwan"@pl ;
+	schema:name "Język enwan"@pl ;
+	rdfs:label "enwan"@fr ;
+	skos:prefLabel "enwan"@fr ;
+	schema:name "enwan"@fr ;
+	rdfs:label "Enwan"@oc ;
+	skos:prefLabel "Enwan"@oc ;
+	schema:name "Enwan"@oc ;
+	rdfs:label "Harshen Enwan"@ha ;
+	skos:prefLabel "Harshen Enwan"@ha ;
+	schema:name "Harshen Enwan"@ha ;
+	rdfs:label "Enwan language"@ig ;
+	skos:prefLabel "Enwan language"@ig ;
+	schema:name "Enwan language"@ig ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue édoïde"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Enwan (Edu State)"@en,
+		"Enwan language"@en .

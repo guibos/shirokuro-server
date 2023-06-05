@@ -1,0 +1,124 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5555465 a schema:Dataset ;
+	schema:about wd:Q5555465 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1924370504"^^xsd:integer ;
+	schema:dateModified "2023-06-26T19:34:07Z"^^xsd:dateTime .
+
+wd:Q5555465 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Ghanaian_Pidgin_English> a schema:Article ;
+	schema:about wd:Q5555465 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ghanaian Pidgin English"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Pidgin_ghan%C3%A9s> a schema:Article ;
+	schema:about wd:Q5555465 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Pidgin ghanés"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Ghanaian_Pidgin_English> a schema:Article ;
+	schema:about wd:Q5555465 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Ghanaian Pidgin English"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5555465 wdt:P220 "gpe" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gpe> ;
+	wdt:P31 wd:Q33831,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "ghan1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ghan1244> ;
+	wdt:P279 wd:Q1860 ;
+	wdt:P305 "gpe" ;
+	wdt:P1627 "gpe" ;
+	wdt:P17 wd:Q117 ;
+	wdt:P2341 wd:Q431729 ;
+	wdt:P5996 wd:Q15355409 ;
+	wdt:P646 "/m/0j29fww" ;
+	wdt:P3823 wd:Q29051549 ;
+	wdt:P424 "gpe" ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P1098 "+5000000"^^xsd:decimal ;
+	wdt:P973 <https://apics-online.info/contributions/16> ;
+	wdt:P910 wd:Q36164443 ;
+	rdfs:label "Ghanaian Pidgin English"@en ;
+	skos:prefLabel "Ghanaian Pidgin English"@en ;
+	schema:name "Ghanaian Pidgin English"@en ;
+	rdfs:label "ганский пиджин английского"@ru ;
+	skos:prefLabel "ганский пиджин английского"@ru ;
+	schema:name "ганский пиджин английского"@ru ;
+	rdfs:label "Ghanaian Pidgin English"@en-gb ;
+	skos:prefLabel "Ghanaian Pidgin English"@en-gb ;
+	schema:name "Ghanaian Pidgin English"@en-gb ;
+	rdfs:label "ganaa piĝino"@eo ;
+	skos:prefLabel "ganaa piĝino"@eo ;
+	schema:name "ganaa piĝino"@eo ;
+	rdfs:label "ঘানাইয় পিজিন ইংরেজি"@bn ;
+	skos:prefLabel "ঘানাইয় পিজিন ইংরেজি"@bn ;
+	schema:name "ঘানাইয় পিজিন ইংরেজি"@bn ;
+	rdfs:label "pidgin inglés de Ghana"@es ;
+	skos:prefLabel "pidgin inglés de Ghana"@es ;
+	schema:name "pidgin inglés de Ghana"@es ;
+	rdfs:label "加纳皮钦语"@zh ;
+	skos:prefLabel "加纳皮钦语"@zh ;
+	schema:name "加纳皮钦语"@zh ;
+	rdfs:label "Pidgin ghanés"@gl ;
+	skos:prefLabel "Pidgin ghanés"@gl ;
+	schema:name "Pidgin ghanés"@gl ;
+	rdfs:label "Ганський піджин англійської мови"@uk ;
+	skos:prefLabel "Ганський піджин англійської мови"@uk ;
+	schema:name "Ганський піджин англійської мови"@uk ;
+	rdfs:label "ghanalâš pidginkielâ"@smn ;
+	skos:prefLabel "ghanalâš pidginkielâ"@smn ;
+	schema:name "ghanalâš pidginkielâ"@smn ;
+	rdfs:label "Ghanaian Pidgin English"@ig ;
+	skos:prefLabel "Ghanaian Pidgin English"@ig ;
+	schema:name "Ghanaian Pidgin English"@ig ;
+	schema:description "Sprache"@de,
+		"piĝino bazita de la angla lingvo parolata en Ganao"@eo,
+		"creole language"@en,
+		"піджин мов Гани і англійської мови"@uk ;
+	skos:altLabel "Kroo brofo"@en,
+		"Pidgin inglés de Ghana"@gl,
+		"код ISO 639-3: gpe"@uk .

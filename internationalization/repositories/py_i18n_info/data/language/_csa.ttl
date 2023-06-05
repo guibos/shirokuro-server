@@ -1,0 +1,106 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953435 a schema:Dataset ;
+	schema:about wd:Q12953435 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1897570495"^^xsd:integer ;
+	schema:dateModified "2023-05-17T05:41:25Z"^^xsd:dateTime .
+
+wd:Q12953435 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_chinantec,_chiltepec> a schema:Article ;
+	schema:about wd:Q12953435 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga chinantec, chiltepec"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Tchinantekeg_Chiltepec> a schema:Article ;
+	schema:about wd:Q12953435 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Tchinantekeg Chiltepec"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Chinant%C3%A8que_de_Chiltepec> a schema:Article ;
+	schema:about wd:Q12953435 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Chinantèque de Chiltepec"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953435 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "csa" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/csa> ;
+	wdt:P279 wd:Q5100107 ;
+	wdt:P1394 "chil1282" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/chil1282> ;
+	wdt:P305 "csa" ;
+	wdt:P1627 "csa" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P17 wd:Q96 ;
+	wdt:P2341 wd:Q34110 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CSA> ;
+	rdfs:label "Lenga chinantec, chiltepec"@pms ;
+	skos:prefLabel "Lenga chinantec, chiltepec"@pms ;
+	schema:name "Lenga chinantec, chiltepec"@pms ;
+	rdfs:label "tchinantekeg Chiltepec"@br ;
+	skos:prefLabel "tchinantekeg Chiltepec"@br ;
+	schema:name "tchinantekeg Chiltepec"@br ;
+	rdfs:label "chinanteca de Chiltepec"@es ;
+	skos:prefLabel "chinanteca de Chiltepec"@es ;
+	schema:name "chinanteca de Chiltepec"@es ;
+	rdfs:label "Chiltepec Chinantec"@en ;
+	skos:prefLabel "Chiltepec Chinantec"@en ;
+	schema:name "Chiltepec Chinantec"@en ;
+	rdfs:label "Chiltepec Chinantec"@en-gb ;
+	skos:prefLabel "Chiltepec Chinantec"@en-gb ;
+	schema:name "Chiltepec Chinantec"@en-gb ;
+	rdfs:label "chinantèque de Chiltepec"@fr ;
+	skos:prefLabel "chinantèque de Chiltepec"@fr ;
+	schema:name "chinantèque de Chiltepec"@fr ;
+	schema:description "lengua indígena de San José Chiltepec, Oaxaca (México)"@es,
+		"taal"@nl,
+		"שפה"@he,
+		"langue chinantèque parlée au Mexique"@fr,
+		"yezh"@br,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "chinantèque central"@fr .

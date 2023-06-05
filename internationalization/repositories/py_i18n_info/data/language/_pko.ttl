@@ -1,0 +1,202 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36323 a schema:Dataset ;
+	schema:about wd:Q36323 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1827842764"^^xsd:integer ;
+	schema:dateModified "2023-02-06T17:04:06Z"^^xsd:dateTime .
+
+wd:Q36323 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_P%C3%B6koot> a schema:Article ;
+	schema:about wd:Q36323 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Pökoot"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BA%D0%BE%D1%82_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q36323 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Покот (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kipokoot> a schema:Article ;
+	schema:about wd:Q36323 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kipokoot"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/P%C3%B6koot_language> a schema:Article ;
+	schema:about wd:Q36323 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Pökoot language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Peukouteg> a schema:Article ;
+	schema:about wd:Q36323 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Peukouteg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/P%C3%B6koot> a schema:Article ;
+	schema:about wd:Q36323 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Pökoot"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_pocote> a schema:Article ;
+	schema:about wd:Q36323 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua pocote"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/P%C3%B6kot> a schema:Article ;
+	schema:about wd:Q36323 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Pökot"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36323 wdt:P220 "pko" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pko> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P244 "sh85130302" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85130302> ;
+	wdt:P268 "12282071f" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb12282071f#about> ;
+	wdt:P1394 "poko1263" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/poko1263> ;
+	wdt:P424 "pko" ;
+	wdt:P1466 "pkt" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_pkt> ;
+	wdt:P5198 "294939504" ;
+	wdt:P305 "pko" ;
+	wdt:P1627 "pko" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q114,
+		wd:Q1036,
+		wd:Q924 ;
+	wdt:P2341 wd:Q808201,
+		wd:Q1852202,
+		wd:Q1714352,
+		wd:Q1633078,
+		wd:Q590860,
+		wd:Q1375853 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PKO> ;
+	wdt:P646 "/m/05d9zt" ;
+	wdt:P508 "78" ;
+	wdtn:P508 <http://purl.org/bncf/tid/78> ;
+	wdt:P1014 "300389107" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389107> ;
+	wdt:P279 wd:Q637228 ;
+	wdt:P8189 "987007548602605171" ;
+	rdfs:label "Kipokoot"@sw ;
+	skos:prefLabel "Kipokoot"@sw ;
+	schema:name "Kipokoot"@sw ;
+	rdfs:label "Lenga Pökoot"@pms ;
+	skos:prefLabel "Lenga Pökoot"@pms ;
+	schema:name "Lenga Pökoot"@pms ;
+	rdfs:label "Pökoot"@de ;
+	skos:prefLabel "Pökoot"@de ;
+	schema:name "Pökoot"@de ;
+	rdfs:label "peukouteg"@br ;
+	skos:prefLabel "peukouteg"@br ;
+	schema:name "peukouteg"@br ;
+	rdfs:label "Pökoot"@en ;
+	skos:prefLabel "Pökoot"@en ;
+	schema:name "Pökoot"@en ;
+	rdfs:label "Pökoot"@en-gb ;
+	skos:prefLabel "Pökoot"@en-gb ;
+	schema:name "Pökoot"@en-gb ;
+	rdfs:label "Wikang Pökoot"@tl ;
+	skos:prefLabel "Wikang Pökoot"@tl ;
+	schema:name "Wikang Pökoot"@tl ;
+	rdfs:label "Покот"@ru ;
+	skos:prefLabel "Покот"@ru ;
+	schema:name "Покот"@ru ;
+	rdfs:label "ポコット語"@ja ;
+	skos:prefLabel "ポコット語"@ja ;
+	schema:name "ポコット語"@ja ;
+	rdfs:label "Língua pocote"@pt ;
+	skos:prefLabel "Língua pocote"@pt ;
+	schema:name "Língua pocote"@pt ;
+	rdfs:label "pökoot"@sv ;
+	skos:prefLabel "pökoot"@sv ;
+	schema:name "pökoot"@sv ;
+	rdfs:label "lingua suk"@it ;
+	skos:prefLabel "lingua suk"@it ;
+	schema:name "lingua suk"@it ;
+	rdfs:label "suk"@vec ;
+	skos:prefLabel "suk"@vec ;
+	schema:name "suk"@vec ;
+	rdfs:label "pökot"@fr ;
+	skos:prefLabel "pökot"@fr ;
+	schema:name "pökot"@fr ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"språk"@sv ;
+	skos:altLabel "Pökoot language"@en,
+		"Pokot"@en,
+		"Päkot"@en,
+		"Pökot"@en,
+		"Suk"@en,
+		"pko"@en,
+		"ポコト語"@ja,
+		"lingua pokot"@it,
+		"lingua pökot"@it .
+
+wd:Q111211111 owl:sameAs wd:Q36323 .

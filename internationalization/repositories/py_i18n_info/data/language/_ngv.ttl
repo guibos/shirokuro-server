@@ -1,0 +1,151 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35842 a schema:Dataset ;
+	schema:about wd:Q35842 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1550206646"^^xsd:integer ;
+	schema:dateModified "2021-12-25T23:38:03Z"^^xsd:dateTime .
+
+wd:Q35842 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Nagumi> a schema:Article ;
+	schema:about wd:Q35842 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Nagumi"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Nagumi> a schema:Article ;
+	schema:about wd:Q35842 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Nagumi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinagumi> a schema:Article ;
+	schema:about wd:Q35842 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinagumi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nagumi_language> a schema:Article ;
+	schema:about wd:Q35842 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nagumi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Nagumi_(tataramon)> a schema:Article ;
+	schema:about wd:Q35842 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Nagumi (tataramon)"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Ngong_(Sprache)> a schema:Article ;
+	schema:about wd:Q35842 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Ngong (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35842 wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "nagu1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nagu1244> ;
+	wdt:P2355 "35" ;
+	wdt:P220 "ngv" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ngv> ;
+	wdt:P279 wd:Q1683430 ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P305 "ngv" ;
+	wdt:P1627 "ngv" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P17 wd:Q1009 ;
+	wdt:P2341 wd:Q502341 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NGV> ;
+	wdt:P646 "/m/02hxqw6" ;
+	wdt:P2192 "555" ;
+	rdfs:label "Kinagumi"@sw ;
+	skos:prefLabel "Kinagumi"@sw ;
+	schema:name "Kinagumi"@sw ;
+	rdfs:label "Ngong"@de ;
+	skos:prefLabel "Ngong"@de ;
+	schema:name "Ngong"@de ;
+	rdfs:label "Lenga Ngong"@pms ;
+	skos:prefLabel "Lenga Ngong"@pms ;
+	schema:name "Lenga Ngong"@pms ;
+	rdfs:label "Nagumi"@en ;
+	skos:prefLabel "Nagumi"@en ;
+	schema:name "Nagumi"@en ;
+	rdfs:label "lingua Nagumi"@it ;
+	skos:prefLabel "lingua Nagumi"@it ;
+	schema:name "lingua Nagumi"@it ;
+	rdfs:label "nagumi"@fr ;
+	skos:prefLabel "nagumi"@fr ;
+	schema:name "nagumi"@fr ;
+	rdfs:label "Nagumi"@en-gb ;
+	skos:prefLabel "Nagumi"@en-gb ;
+	schema:name "Nagumi"@en-gb ;
+	rdfs:label "Wikang Nagumi"@tl ;
+	skos:prefLabel "Wikang Nagumi"@tl ;
+	schema:name "Wikang Nagumi"@tl ;
+	rdfs:label "Nagumi"@bcl ;
+	skos:prefLabel "Nagumi"@bcl ;
+	schema:name "Nagumi"@bcl ;
+	rdfs:label "ナグミ語"@ja ;
+	skos:prefLabel "ナグミ語"@ja ;
+	schema:name "ナグミ語"@ja ;
+	rdfs:label "nagumi"@vec ;
+	skos:prefLabel "nagumi"@vec ;
+	schema:name "nagumi"@vec ;
+	schema:description "Sprache"@de,
+		"lingua estinta parlata in Camerun"@it,
+		"extinct language of Cameroon"@en,
+		"langue bantoïde du Sud"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Ngong"@en,
+		"Gong"@en,
+		"Nagumi language"@en .

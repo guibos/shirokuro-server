@@ -1,0 +1,104 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5285190 a schema:Dataset ;
+	schema:about wd:Q5285190 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616924018"^^xsd:integer ;
+	schema:dateModified "2022-04-11T13:06:39Z"^^xsd:dateTime .
+
+wd:Q5285190 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Djadjawurrung_language> a schema:Article ;
+	schema:about wd:Q5285190 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Djadjawurrung language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kidjadjawurrung> a schema:Article ;
+	schema:about wd:Q5285190 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kidjadjawurrung"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_djadjawurrung> a schema:Article ;
+	schema:about wd:Q5285190 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma djadjawurrung"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5285190 wdt:P220 "dja" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dja> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	a wdno:P1394 ;
+	wdt:P279 wd:Q6443011 ;
+	wdt:P1252 "S31.1" ;
+	wdt:P305 "dja" ;
+	wdt:P1627 "dja" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P6915 "Dja-Dja-Wurrung" ;
+	wdt:P646 "/m/0jt2zpx" ;
+	wdt:P910 wd:Q105715375 ;
+	rdfs:label "Djadjawurrung"@en ;
+	skos:prefLabel "Djadjawurrung"@en ;
+	schema:name "Djadjawurrung"@en ;
+	rdfs:label "Djadjawurrung"@en-gb ;
+	skos:prefLabel "Djadjawurrung"@en-gb ;
+	schema:name "Djadjawurrung"@en-gb ;
+	rdfs:label "djadjawurrung"@fr ;
+	skos:prefLabel "djadjawurrung"@fr ;
+	schema:name "djadjawurrung"@fr ;
+	rdfs:label "Kidjadjawurrung"@sw ;
+	skos:prefLabel "Kidjadjawurrung"@sw ;
+	schema:name "Kidjadjawurrung"@sw ;
+	rdfs:label "Idioma djadjawurrung"@es ;
+	skos:prefLabel "Idioma djadjawurrung"@es ;
+	schema:name "Idioma djadjawurrung"@es ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue pama–nyungan"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Aboriginal Australian language of central Victoria spoken by one of the Kulin groups"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Djadjawurrung language"@en .

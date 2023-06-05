@@ -1,0 +1,124 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q18379970 a schema:Dataset ;
+	schema:about wd:Q18379970 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960971563"^^xsd:integer ;
+	schema:dateModified "2023-08-25T13:28:58Z"^^xsd:dateTime .
+
+wd:Q18379970 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Weme> a schema:Article ;
+	schema:about wd:Q18379970 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Weme"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Gbe,_Weme> a schema:Article ;
+	schema:about wd:Q18379970 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Gbe, Weme"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigbe-Weme> a schema:Article ;
+	schema:about wd:Q18379970 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigbe-Weme"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Weme_(langue)> a schema:Article ;
+	schema:about wd:Q18379970 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Weme (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q18379970 wdt:P220 "wem" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/wem> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "weme1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/weme1239> ;
+	wdt:P279 wd:Q668284 ;
+	wdt:P1466 "wmn" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_wmn> ;
+	wdt:P305 "wem" ;
+	wdt:P1627 "wem" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q962 ;
+	wdt:P2341 wd:Q29147,
+		wd:Q29169,
+		wd:Q32108 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/WEM> ;
+	wdt:P646 "/m/02hxg0z" ;
+	wdt:P691 "ph714583" ;
+	rdfs:label "Kigbe-Weme"@sw ;
+	skos:prefLabel "Kigbe-Weme"@sw ;
+	schema:name "Kigbe-Weme"@sw ;
+	rdfs:label "Lenga Gbe, Weme"@pms ;
+	skos:prefLabel "Lenga Gbe, Weme"@pms ;
+	schema:name "Lenga Gbe, Weme"@pms ;
+	rdfs:label "Gbe-Weme"@en ;
+	skos:prefLabel "Gbe-Weme"@en ;
+	schema:name "Gbe-Weme"@en ;
+	rdfs:label "weme"@ca ;
+	skos:prefLabel "weme"@ca ;
+	schema:name "weme"@ca ;
+	rdfs:label "weme"@fr ;
+	skos:prefLabel "weme"@fr ;
+	schema:name "weme"@fr ;
+	rdfs:label "weme-gbe"@cs ;
+	skos:prefLabel "weme-gbe"@cs ;
+	schema:name "weme-gbe"@cs ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue voltaïco-congolaise parlée au Bénin"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "jazyk weme-gbe"@cs,
+		"ouémé"@fr,
+		"gbe-weme"@fr,
+		"wéménugbé"@fr,
+		"weme-gbe"@fr .

@@ -1,0 +1,161 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7077191 a schema:Dataset ;
+	schema:about wd:Q7077191 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1852478340"^^xsd:integer ;
+	schema:dateModified "2023-03-15T03:40:14Z"^^xsd:dateTime .
+
+wd:Q7077191 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_od> a schema:Article ;
+	schema:about wd:Q7077191 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga od"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiod> a schema:Article ;
+	schema:about wd:Q7077191 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiod"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Od_language> a schema:Article ;
+	schema:about wd:Q7077191 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Od language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%A7%D9%88%D8%AF%DA%A9%DB%8C> a schema:Article ;
+	schema:about wd:Q7077191 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان اودکی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Od_language> a schema:Article ;
+	schema:about wd:Q7077191 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Od language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Odin_kieli> a schema:Article ;
+	schema:about wd:Q7077191 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Odin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Od_(Sprache)> a schema:Article ;
+	schema:about wd:Q7077191 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Od (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Od_(langue)> a schema:Article ;
+	schema:about wd:Q7077191 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Od (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7077191 wdt:P220 "odk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/odk> ;
+	wdt:P31 wd:Q33742,
+		wd:Q1288568 ;
+	wdt:P1394 "oddd1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/oddd1238> ;
+	wdt:P305 "odk" ;
+	wdt:P1627 "odk" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q843 ;
+	wdt:P2341 wd:Q843 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/ODK> ;
+	wdt:P646 "/m/02hwx6k" ;
+	rdfs:label "Od"@en ;
+	skos:prefLabel "Od"@en ;
+	schema:name "Od"@en ;
+	rdfs:label "Lenga od"@pms ;
+	skos:prefLabel "Lenga od"@pms ;
+	schema:name "Lenga od"@pms ;
+	rdfs:label "Odin kieli"@fi ;
+	skos:prefLabel "Odin kieli"@fi ;
+	schema:name "Odin kieli"@fi ;
+	rdfs:label "Od"@en-gb ;
+	skos:prefLabel "Od"@en-gb ;
+	schema:name "Od"@en-gb ;
+	rdfs:label "Kiod"@sw ;
+	skos:prefLabel "Kiod"@sw ;
+	schema:name "Kiod"@sw ;
+	rdfs:label "زبان اودکی"@fa ;
+	skos:prefLabel "زبان اودکی"@fa ;
+	schema:name "زبان اودکی"@fa ;
+	rdfs:label "Od"@de ;
+	skos:prefLabel "Od"@de ;
+	schema:name "Od"@de ;
+	rdfs:label "od"@fr ;
+	skos:prefLabel "od"@fr ;
+	schema:name "od"@fr ;
+	rdfs:label "اوڈکی"@pnb ;
+	skos:prefLabel "اوڈکی"@pnb ;
+	schema:name "اوڈکی"@pnb ;
+	rdfs:label "ਓਡਕੀ"@pa ;
+	skos:prefLabel "ਓਡਕੀ"@pa ;
+	schema:name "ਓਡਕੀ"@pa ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"язык"@ru ;
+	skos:altLabel "Od language"@en .
+
+wd:Q12953776 owl:sameAs wd:Q7077191 .

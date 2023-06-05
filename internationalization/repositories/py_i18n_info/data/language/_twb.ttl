@@ -1,0 +1,95 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953912 a schema:Dataset ;
+	schema:about wd:Q12953912 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960545209"^^xsd:integer ;
+	schema:dateModified "2023-08-24T23:07:41Z"^^xsd:dateTime .
+
+wd:Q12953912 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_tawbuid_ossidental> a schema:Article ;
+	schema:about wd:Q12953912 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga tawbuid ossidental"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitawbuid-Magharibi> a schema:Article ;
+	schema:about wd:Q12953912 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitawbuid-Magharibi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953912 wdt:P220 "twb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/twb> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q7689247 ;
+	wdt:P1394 "west2559" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/west2559> ;
+	wdt:P305 "twb" ;
+	wdt:P1627 "twb" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q928 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TWB> ;
+	wdt:P910 wd:Q105714480 ;
+	rdfs:label "Lenga tawbuid ossidental"@pms ;
+	skos:prefLabel "Lenga tawbuid ossidental"@pms ;
+	schema:name "Lenga tawbuid ossidental"@pms ;
+	rdfs:label "Western Tawbuid"@en ;
+	skos:prefLabel "Western Tawbuid"@en ;
+	schema:name "Western Tawbuid"@en ;
+	rdfs:label "Kitawbuid-Magharibi"@sw ;
+	skos:prefLabel "Kitawbuid-Magharibi"@sw ;
+	schema:name "Kitawbuid-Magharibi"@sw ;
+	rdfs:label "Western Tawbuid"@en-gb ;
+	skos:prefLabel "Western Tawbuid"@en-gb ;
+	schema:name "Western Tawbuid"@en-gb ;
+	rdfs:label "tawbuid de l'Ouest"@fr ;
+	skos:prefLabel "tawbuid de l'Ouest"@fr ;
+	schema:name "tawbuid de l'Ouest"@fr ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue malayo-polynésienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Western Tawbuid language"@en .

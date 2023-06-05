@@ -1,0 +1,94 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q25559664 a schema:Dataset ;
+	schema:about wd:Q25559664 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1727762147"^^xsd:integer ;
+	schema:dateModified "2022-09-13T10:23:30Z"^^xsd:dateTime .
+
+wd:Q25559664 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_ohlone,_meridional> a schema:Article ;
+	schema:about wd:Q25559664 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga ohlone, meridional"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q25559664 wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P220 "css" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/css> ;
+	wdt:P1394 "sout2986" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sout2986> ;
+	wdt:P1466 "mut" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_mut> ;
+	wdt:P279 wd:Q2612570 ;
+	wdt:P910 wd:Q33109579 ;
+	wdt:P305 "css" ;
+	wdt:P1627 "css" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q30 ;
+	wdt:P2341 wd:Q99 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CSS> ;
+	wdt:P4839 "Entity[\"Language\", \"OhloneSouthern::288sp\"]",
+		"Entity[\"Language\", \"OhloneSouthern\"]" ;
+	rdfs:label "Lenga ohlone, meridional"@pms ;
+	skos:prefLabel "Lenga ohlone, meridional"@pms ;
+	schema:name "Lenga ohlone, meridional"@pms ;
+	rdfs:label "Southern Ohlone"@en ;
+	skos:prefLabel "Southern Ohlone"@en ;
+	schema:name "Southern Ohlone"@en ;
+	rdfs:label "Southern Ohlone"@en-gb ;
+	skos:prefLabel "Southern Ohlone"@en-gb ;
+	schema:name "Southern Ohlone"@en-gb ;
+	rdfs:label "ohlone du Sud"@fr ;
+	skos:prefLabel "ohlone du Sud"@fr ;
+	schema:name "ohlone du Sud"@fr ;
+	rdfs:label "ohlone del Sud"@ca ;
+	skos:prefLabel "ohlone del Sud"@ca ;
+	schema:name "ohlone del Sud"@ca ;
+	schema:description "שפה"@he,
+		"langue costanoane"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"iaith"@cy,
+		"lingua"@la,
+		"llengua"@ca ;
+	skos:altLabel "ohlone meridional"@ca .

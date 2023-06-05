@@ -1,0 +1,164 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2400870 a schema:Dataset ;
+	schema:about wd:Q2400870 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1685827908"^^xsd:integer ;
+	schema:dateModified "2022-07-23T09:15:39Z"^^xsd:dateTime .
+
+wd:Q2400870 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Inonhan> a schema:Article ;
+	schema:about wd:Q2400870 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Inonhan"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Inonhan> a schema:Article ;
+	schema:about wd:Q2400870 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Inonhan"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Onhan> a schema:Article ;
+	schema:about wd:Q2400870 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Onhan"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Onhan> a schema:Article ;
+	schema:about wd:Q2400870 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Onhan"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiinonhan> a schema:Article ;
+	schema:about wd:Q2400870 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiinonhan"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Onhan_language> a schema:Article ;
+	schema:about wd:Q2400870 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Onhan language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Onhan> a schema:Article ;
+	schema:about wd:Q2400870 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Onhan"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%82%E0%B8%AD%E0%B8%99%E0%B8%AE%E0%B8%B1%E0%B8%99> a schema:Article ;
+	schema:about wd:Q2400870 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาโอนฮัน"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2400870 wdt:P305 "loc" ;
+	wdt:P220 "loc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/loc> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q3217376 ;
+	wdt:P1394 "inon1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/inon1237> ;
+	wdt:P1627 "loc" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q928 ;
+	wdt:P2341 wd:Q13867,
+		wd:Q13868,
+		wd:Q13875 ;
+	wdt:P1245 "906447" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LOC> ;
+	wdt:P646 "/m/0fyjcr" ;
+	wdt:P910 wd:Q91086423 ;
+	rdfs:label "inonhan"@fr ;
+	skos:prefLabel "inonhan"@fr ;
+	schema:name "inonhan"@fr ;
+	rdfs:label "Onhan"@en ;
+	skos:prefLabel "Onhan"@en ;
+	schema:name "Onhan"@en ;
+	rdfs:label "ภาษาโอนฮัน"@th ;
+	skos:prefLabel "ภาษาโอนฮัน"@th ;
+	schema:name "ภาษาโอนฮัน"@th ;
+	rdfs:label "Lenga Inonhan"@pms ;
+	skos:prefLabel "Lenga Inonhan"@pms ;
+	schema:name "Lenga Inonhan"@pms ;
+	rdfs:label "Kiinonhan"@sw ;
+	skos:prefLabel "Kiinonhan"@sw ;
+	schema:name "Kiinonhan"@sw ;
+	rdfs:label "Onhan"@ilo ;
+	skos:prefLabel "Onhan"@ilo ;
+	schema:name "Onhan"@ilo ;
+	rdfs:label "Wikang Onhan"@tl ;
+	skos:prefLabel "Wikang Onhan"@tl ;
+	schema:name "Wikang Onhan"@tl ;
+	rdfs:label "Tataramon na Onhan"@bcl ;
+	skos:prefLabel "Tataramon na Onhan"@bcl ;
+	schema:name "Tataramon na Onhan"@bcl ;
+	rdfs:label "Onhan"@nl ;
+	skos:prefLabel "Onhan"@nl ;
+	schema:name "Onhan"@nl ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Filipinas"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Austronesian language of the Philippines"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Inonhan"@en,
+		"Onhan language"@en .
+
+wd:Q6583620 owl:sameAs wd:Q2400870 .

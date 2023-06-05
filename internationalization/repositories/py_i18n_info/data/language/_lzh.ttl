@@ -1,0 +1,909 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q37041 a schema:Dataset ;
+	schema:about wd:Q37041 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1928636653"^^xsd:integer ;
+	schema:dateModified "2023-07-03T23:59:53Z"^^xsd:dateTime .
+
+wd:Q37041 a wikibase:Item .
+
+<https://ru.wikibooks.org/wiki/%D0%94%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikibooks.org/> ;
+	schema:name "Древнекитайский язык"@ru .
+
+<https://ru.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://uk.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D0%B8%D1%87%D0%BD%D0%B0_%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Класична китайська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikibooks.org/wiki/Classical_Chinese> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikibooks.org/> ;
+	schema:name "Classical Chinese"@en .
+
+<https://en.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://zh-classical.wikipedia.org/wiki/%E6%96%87%E8%A8%80> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "lzh" ;
+	schema:isPartOf <https://zh-classical.wikipedia.org/> ;
+	schema:name "文言"@lzh .
+
+<https://zh-classical.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikiversity.org/wiki/Subject:%E6%96%87%E8%A8%80> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikiversity.org/> ;
+	schema:name "Subject:文言"@zh .
+
+<https://zh.wikiversity.org/> wikibase:wikiGroup "wikiversity" .
+
+<https://ja.wikipedia.org/wiki/%E6%BC%A2%E6%96%87> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "漢文"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Klasszikus_k%C3%ADnai_nyelv> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Klasszikus kínai nyelv"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kk.wikipedia.org/wiki/%D0%92%D1%8D%D0%BD%D1%8C%D1%8F%D0%BD%D1%8C> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "kk" ;
+	schema:isPartOf <https://kk.wikipedia.org/> ;
+	schema:name "Вэньянь"@kk .
+
+<https://kk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Chinu_cl%C3%A1sicu> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Chinu clásicu"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Klasi%C4%8Dni_kineski_jezik> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Klasični kineski jezik"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Vanahiina_kirjakeel> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Vanahiina kirjakeel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Tionghoa_Klasik> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Tionghoa Klasik"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Klassiek_Chinees> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Klassiek Chinees"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D0%B8%D1%87%D0%BD%D0%B8_%D0%BA%D0%B8%D0%BD%D0%B5%D1%81%D0%BA%D0%B8_%D1%98%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Класични кинески језик"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/V%C4%83n_ng%C3%B4n> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Văn ngôn"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-min-nan.wikipedia.org/wiki/H%C3%A0n-b%C3%BBn> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "nan" ;
+	schema:isPartOf <https://zh-min-nan.wikipedia.org/> ;
+	schema:name "Hàn-bûn"@nan .
+
+<https://zh-min-nan.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Classical_Chinese> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Classical Chinese"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Literarni_kineski> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Literarni kineski"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sk.wikipedia.org/wiki/Klasick%C3%A1_%C4%8D%C3%ADn%C5%A1tina> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "sk" ;
+	schema:isPartOf <https://sk.wikipedia.org/> ;
+	schema:name "Klasická čínština"@sk .
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Klasiko_nga_Insik> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Klasiko nga Insik"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E6%96%87%E8%A8%80%E6%96%87> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "文言文"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Classical_Chinese> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Classical Chinese"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Klassisches_Chinesisch> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Klassisches Chinesisch"@de ;
+	wikibase:badge wd:Q17437798 .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Klasick%C3%A1_%C4%8D%C3%ADn%C5%A1tina> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Klasická čínština"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Klasik_%C3%87ince> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Klasik Çince"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cdo.wikipedia.org/wiki/%C3%99ng-ngi%C3%B2ng-%C3%B9ng> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "cdo" ;
+	schema:isPartOf <https://cdo.wikipedia.org/> ;
+	schema:name "Ùng-ngiòng-ùng"@cdo .
+
+<https://cdo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Klassisk_kinesiska> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Klassisk kinesiska"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Txinera_klasiko> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Txinera klasiko"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/Klasyczny_j%C4%99zyk_chi%C5%84ski> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Klasyczny język chiński"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%84%D8%BA%D8%A9_%D8%B5%D9%8A%D9%86%D9%8A%D8%A9_%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "لغة صينية كلاسيكية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikiversity.org/wiki/Classical_Chinese> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikiversity.org/> ;
+	schema:name "Classical Chinese"@en .
+
+<https://en.wikiversity.org/> wikibase:wikiGroup "wikiversity" .
+
+<https://sc.wikipedia.org/wiki/Tzinesu_classicu> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "sc" ;
+	schema:isPartOf <https://sc.wikipedia.org/> ;
+	schema:name "Tzinesu classicu"@sc .
+
+<https://sc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gan.wikipedia.org/wiki/%E6%96%87%E8%A8%80%E6%96%87> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "gan" ;
+	schema:isPartOf <https://gan.wikipedia.org/> ;
+	schema:name "文言文"@gan .
+
+<https://gan.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8_%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8_%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Класически китайски език"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Xin%C3%A8s_cl%C3%A0ssic> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Xinès clàssic"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Chinois_classique> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Chinois classique"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D9%82%D8%AF%DB%8C%D9%85_%DA%86%DB%8C%D9%86_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "قدیم چین دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%92%D1%8D%D0%BD%D1%8C%D1%8F%D0%BD%D1%8C> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Вэньянь"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikibooks.org/wiki/%E6%96%87%E8%A8%80> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikibooks.org/> ;
+	schema:name "文言"@zh .
+
+<https://zh.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://zh-yue.wikipedia.org/wiki/%E6%96%87%E8%A8%80%E6%96%87> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "文言文"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Klasika_%C4%89ina_lingvo> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Klasika ĉina lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%DA%86%DB%8C%D9%86%DB%8C_%DA%A9%D9%84%D8%A7%D8%B3%DB%8C%DA%A9> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان چینی کلاسیک"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Chin%C3%A9s_cl%C3%A1sico> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Chinés clásico"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Wenyan> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Wenyan"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%ED%95%9C%EB%AC%B8> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "한문"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%96%87%E8%A8%80%E6%96%87> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "文言文"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Cina_Klasik> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Cina Klasik"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Chino_cl%C3%A1sico> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Chino clásico"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Klassik_%C3%87in_dili> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Klassik Çin dili"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%92%D1%8D%D0%BD%D1%8C%D1%8F%D0%BD%D1%8C> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Вэньянь"@ru ;
+	wikibase:badge wd:Q17559452 .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikiversity.org/wiki/%D9%84%D8%BA%D8%A9_%D8%B5%D9%8A%D9%86%D9%8A%D8%A9_%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikiversity.org/> ;
+	schema:name "لغة صينية كلاسيكية"@ar .
+
+<https://ar.wikiversity.org/> wikibase:wikiGroup "wikiversity" .
+
+<https://it.wikipedia.org/wiki/Cinese_classico> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Cinese classico"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%A0%E1%B1%9E%E1%B1%9F%E1%B1%A5%E1%B1%A4%E1%B1%A0%E1%B1%9F%E1%B1%9E_%E1%B1%AA%E1%B1%9F%E1%B1%AD%E1%B1%B1%E1%B1%A4%E1%B1%A1%E1%B1%BD> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱠᱞᱟᱥᱤᱠᱟᱞ ᱪᱟᱭᱱᱤᱡᱽ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%A1%D7%99%D7%A0%D7%99%D7%AA_%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%AA> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "סינית קלאסית"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%9A%CE%BB%CE%B1%CF%83%CE%B9%CE%BA%CE%AE_%CE%BA%CE%B9%CE%BD%CE%B5%CE%B6%CE%B9%CE%BA%CE%AE_%CE%B3%CE%BB%CF%8E%CF%83%CF%83%CE%B1> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Κλασική κινεζική γλώσσα"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%AF%E0%A6%BC_%E0%A6%9A%E0%A7%80%E0%A6%A8%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "শাস্ত্রীয় চীনাভাষা"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://commons.wikimedia.org/wiki/Category:Classical_Chinese_language> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "Category:Classical Chinese language"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+<https://pt.wikipedia.org/wiki/Chin%C3%AAs_cl%C3%A1ssico> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Chinês clássico"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Wenyan> a schema:Article ;
+	schema:about wd:Q37041 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Wenyan"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q37041 wdt:P305 "lzh" ;
+	wdt:P31 wd:Q1149626,
+		wd:Q2315359,
+		wd:Q11499915,
+		wd:Q3329375 ;
+	wdt:P220 "lzh" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lzh> ;
+	wdt:P349 "00564852" ;
+	wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00564852> ;
+	wdt:P646 "/m/0x2wv" ;
+	wdt:P279 wd:Q3110592 ;
+	wdt:P424 "lzh" ;
+	wdt:P1394 "lite1248" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lite1248> ;
+	wdt:P373 "Classical Chinese language" ;
+	wdt:P910 wd:Q28131156,
+		wd:Q32023531 ;
+	wdt:P3417 "Wenyan" ;
+	wdt:P282 wd:Q8201 ;
+	wdt:P1705 "文言文"@zh ;
+	wdt:P3553 "19558351" ;
+	wdt:P1245 "1707375" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LZH> ;
+	wdt:P1417 "topic/wenyan" ;
+	wdt:P6366 "2777828232" ;
+	wdtn:P6366 <http://ma-graph.org/entity/2777828232> ;
+	wdt:P9100 "chinese-traditional" ;
+	wdt:P2581 "00386984n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s00386984n> ;
+	wdt:P9060 "lzh" ;
+	wdt:P1813 "классикон китайаг"@os ;
+	wdt:P10283 "C2777828232" ;
+	wdt:P1889 wd:Q18130932 ;
+	wdt:P460 wd:Q55744058 ;
+	rdfs:label "Bûn-giân-bûn"@nan ;
+	skos:prefLabel "Bûn-giân-bûn"@nan ;
+	schema:name "Bûn-giân-bûn"@nan ;
+	rdfs:label "文言文"@zh ;
+	skos:prefLabel "文言文"@zh ;
+	schema:name "文言文"@zh ;
+	rdfs:label "文言"@lzh ;
+	skos:prefLabel "文言"@lzh ;
+	schema:name "文言"@lzh ;
+	rdfs:label "Kanbun"@su ;
+	skos:prefLabel "Kanbun"@su ;
+	schema:name "Kanbun"@su ;
+	rdfs:label "한문"@ko ;
+	skos:prefLabel "한문"@ko ;
+	schema:name "한문"@ko ;
+	rdfs:label "סינית קלאסית"@he ;
+	skos:prefLabel "סינית קלאסית"@he ;
+	schema:name "סינית קלאסית"@he ;
+	rdfs:label "chino clásico"@es ;
+	skos:prefLabel "chino clásico"@es ;
+	schema:name "chino clásico"@es ;
+	rdfs:label "Bahasa Cina klasik"@ms ;
+	skos:prefLabel "Bahasa Cina klasik"@ms ;
+	schema:name "Bahasa Cina klasik"@ms ;
+	rdfs:label "klasszikus kínai"@hu ;
+	skos:prefLabel "klasszikus kínai"@hu ;
+	schema:name "klasszikus kínai"@hu ;
+	rdfs:label "класична китайська мова"@uk ;
+	skos:prefLabel "класична китайська мова"@uk ;
+	schema:name "класична китайська мова"@uk ;
+	rdfs:label "Vanahiina kirjakeel"@et ;
+	skos:prefLabel "Vanahiina kirjakeel"@et ;
+	schema:name "Vanahiina kirjakeel"@et ;
+	rdfs:label "文言文"@gan ;
+	skos:prefLabel "文言文"@gan ;
+	schema:name "文言文"@gan ;
+	rdfs:label "漢文"@ja ;
+	skos:prefLabel "漢文"@ja ;
+	schema:name "漢文"@ja ;
+	rdfs:label "văn ngôn"@vi ;
+	skos:prefLabel "văn ngôn"@vi ;
+	schema:name "văn ngôn"@vi ;
+	rdfs:label "Класически китайски език"@bg ;
+	skos:prefLabel "Класически китайски език"@bg ;
+	schema:name "Класически китайски език"@bg ;
+	rdfs:label "文言文"@yue ;
+	skos:prefLabel "文言文"@yue ;
+	schema:name "文言文"@yue ;
+	rdfs:label "Literarni kineski"@hr ;
+	skos:prefLabel "Literarni kineski"@hr ;
+	schema:name "Literarni kineski"@hr ;
+	rdfs:label "klassisk kinesiska"@sv ;
+	skos:prefLabel "klassisk kinesiska"@sv ;
+	schema:name "klassisk kinesiska"@sv ;
+	rdfs:label "Klassiek Chinees"@nl ;
+	skos:prefLabel "Klassiek Chinees"@nl ;
+	schema:name "Klassiek Chinees"@nl ;
+	rdfs:label "Classical Chinese"@en ;
+	skos:prefLabel "Classical Chinese"@en ;
+	schema:name "Classical Chinese"@en ;
+	rdfs:label "Вэньянь"@kk ;
+	skos:prefLabel "Вэньянь"@kk ;
+	schema:name "Вэньянь"@kk ;
+	rdfs:label "китайский (вэньянь)"@ru ;
+	skos:prefLabel "китайский (вэньянь)"@ru ;
+	schema:name "китайский (вэньянь)"@ru ;
+	rdfs:label "Klasická čínština"@sk ;
+	skos:prefLabel "Klasická čínština"@sk ;
+	schema:name "Klasická čínština"@sk ;
+	rdfs:label "الصينية الكلاسيكية"@ar ;
+	skos:prefLabel "الصينية الكلاسيكية"@ar ;
+	schema:name "الصينية الكلاسيكية"@ar ;
+	rdfs:label "вэньянь"@be ;
+	skos:prefLabel "вэньянь"@be ;
+	schema:name "вэньянь"@be ;
+	rdfs:label "xinès clàssic"@ca ;
+	skos:prefLabel "xinès clàssic"@ca ;
+	schema:name "xinès clàssic"@ca ;
+	rdfs:label "klassisches Chinesisch"@de ;
+	skos:prefLabel "klassisches Chinesisch"@de ;
+	schema:name "klassisches Chinesisch"@de ;
+	rdfs:label "Classical Chinese"@en-ca ;
+	skos:prefLabel "Classical Chinese"@en-ca ;
+	schema:name "Classical Chinese"@en-ca ;
+	rdfs:label "Classical Chinese"@en-gb ;
+	skos:prefLabel "Classical Chinese"@en-gb ;
+	schema:name "Classical Chinese"@en-gb ;
+	rdfs:label "chinois classique"@fr ;
+	skos:prefLabel "chinois classique"@fr ;
+	schema:name "chinois classique"@fr ;
+	rdfs:label "Bahasa Tionghoa Klasik"@id ;
+	skos:prefLabel "Bahasa Tionghoa Klasik"@id ;
+	schema:name "Bahasa Tionghoa Klasik"@id ;
+	rdfs:label "wenyan"@nb ;
+	skos:prefLabel "wenyan"@nb ;
+	schema:name "wenyan"@nb ;
+	rdfs:label "klasyczny język chiński"@pl ;
+	skos:prefLabel "klasyczny język chiński"@pl ;
+	schema:name "klasyczny język chiński"@pl ;
+	rdfs:label "класични кинески језик"@sr ;
+	skos:prefLabel "класични кинески језик"@sr ;
+	schema:name "класични кинески језик"@sr ;
+	rdfs:label "klasika ĉina lingvo"@eo ;
+	skos:prefLabel "klasika ĉina lingvo"@eo ;
+	schema:name "klasika ĉina lingvo"@eo ;
+	rdfs:label "класични кинески језик"@sr-ec ;
+	skos:prefLabel "класични кинески језик"@sr-ec ;
+	schema:name "класични кинески језик"@sr-ec ;
+	rdfs:label "klasični kineski jezik"@sr-el ;
+	skos:prefLabel "klasični kineski jezik"@sr-el ;
+	schema:name "klasični kineski jezik"@sr-el ;
+	rdfs:label "Klasiko nga Insik"@ilo ;
+	skos:prefLabel "Klasiko nga Insik"@ilo ;
+	schema:name "Klasiko nga Insik"@ilo ;
+	rdfs:label "cinese classico"@it ;
+	skos:prefLabel "cinese classico"@it ;
+	schema:name "cinese classico"@it ;
+	rdfs:label "زبان چینی کلاسیک"@fa ;
+	skos:prefLabel "زبان چینی کلاسیک"@fa ;
+	schema:name "زبان چینی کلاسیک"@fa ;
+	rdfs:label "Klasični kineski jezik"@sh ;
+	skos:prefLabel "Klasični kineski jezik"@sh ;
+	schema:name "Klasični kineski jezik"@sh ;
+	rdfs:label "klasická čínština"@cs ;
+	skos:prefLabel "klasická čínština"@cs ;
+	schema:name "klasická čínština"@cs ;
+	rdfs:label "Tzinesu classicu"@sc ;
+	skos:prefLabel "Tzinesu classicu"@sc ;
+	schema:name "Tzinesu classicu"@sc ;
+	rdfs:label "Ùng-ngiòng-ùng"@cdo ;
+	skos:prefLabel "Ùng-ngiòng-ùng"@cdo ;
+	schema:name "Ùng-ngiòng-ùng"@cdo ;
+	rdfs:label "文言文"@zh-cn ;
+	skos:prefLabel "文言文"@zh-cn ;
+	schema:name "文言文"@zh-cn ;
+	rdfs:label "文言文"@zh-hans ;
+	skos:prefLabel "文言文"@zh-hans ;
+	schema:name "文言文"@zh-hans ;
+	rdfs:label "文言文"@zh-hant ;
+	skos:prefLabel "文言文"@zh-hant ;
+	schema:name "文言文"@zh-hant ;
+	rdfs:label "文言文"@zh-hk ;
+	skos:prefLabel "文言文"@zh-hk ;
+	schema:name "文言文"@zh-hk ;
+	rdfs:label "文言文"@zh-mo ;
+	skos:prefLabel "文言文"@zh-mo ;
+	schema:name "文言文"@zh-mo ;
+	rdfs:label "文言文"@zh-my ;
+	skos:prefLabel "文言文"@zh-my ;
+	schema:name "文言文"@zh-my ;
+	rdfs:label "文言文"@zh-sg ;
+	skos:prefLabel "文言文"@zh-sg ;
+	schema:name "文言文"@zh-sg ;
+	rdfs:label "文言文"@zh-tw ;
+	skos:prefLabel "文言文"@zh-tw ;
+	schema:name "文言文"@zh-tw ;
+	rdfs:label "класичен кинески јазик"@mk ;
+	skos:prefLabel "класичен кинески јазик"@mk ;
+	schema:name "класичен кинески јазик"@mk ;
+	rdfs:label "դասական չինարեն"@hy ;
+	skos:prefLabel "դասական չինարեն"@hy ;
+	schema:name "դասական չինարեն"@hy ;
+	rdfs:label "Klasik Çince"@tr ;
+	skos:prefLabel "Klasik Çince"@tr ;
+	schema:name "Klasik Çince"@tr ;
+	rdfs:label "Chinés clásico"@gl ;
+	skos:prefLabel "Chinés clásico"@gl ;
+	schema:name "Chinés clásico"@gl ;
+	rdfs:label "chinês clássico"@pt ;
+	skos:prefLabel "chinês clássico"@pt ;
+	schema:name "chinês clássico"@pt ;
+	rdfs:label "کلاسیکی چینی"@ur ;
+	skos:prefLabel "کلاسیکی چینی"@ur ;
+	schema:name "کلاسیکی چینی"@ur ;
+	rdfs:label "Κλασσικά κινέζικα"@el ;
+	skos:prefLabel "Κλασσικά κινέζικα"@el ;
+	schema:name "Κλασσικά κινέζικα"@el ;
+	rdfs:label "文言文"@wuu ;
+	skos:prefLabel "文言文"@wuu ;
+	schema:name "文言文"@wuu ;
+	rdfs:label "klassisk kinesisk"@da ;
+	skos:prefLabel "klassisk kinesisk"@da ;
+	schema:name "klassisk kinesisk"@da ;
+	rdfs:label "sinaeg klasel"@br ;
+	skos:prefLabel "sinaeg klasel"@br ;
+	schema:name "sinaeg klasel"@br ;
+	rdfs:label "قدیم چین دیلی"@azb ;
+	skos:prefLabel "قدیم چین دیلی"@azb ;
+	schema:name "قدیم چین دیلی"@azb ;
+	rdfs:label "Chinu clásicu"@ast ;
+	skos:prefLabel "Chinu clásicu"@ast ;
+	schema:name "Chinu clásicu"@ast ;
+	rdfs:label "венъянь"@tt ;
+	skos:prefLabel "венъянь"@tt ;
+	schema:name "венъянь"@tt ;
+	rdfs:label "txinera klasiko"@eu ;
+	skos:prefLabel "txinera klasiko"@eu ;
+	schema:name "txinera klasiko"@eu ;
+	rdfs:label "lingua Sinica classica"@la ;
+	skos:prefLabel "lingua Sinica classica"@la ;
+	schema:name "lingua Sinica classica"@la ;
+	rdfs:label "klassik Çin dili"@az ;
+	skos:prefLabel "klassik Çin dili"@az ;
+	schema:name "klassik Çin dili"@az ;
+	rdfs:label "ᱠᱞᱟᱥᱤᱠᱟᱞ ᱪᱟᱭᱱᱤᱡᱽ"@sat ;
+	skos:prefLabel "ᱠᱞᱟᱥᱤᱠᱟᱞ ᱪᱟᱭᱱᱤᱡᱽ"@sat ;
+	schema:name "ᱠᱞᱟᱥᱤᱠᱟᱞ ᱪᱟᱭᱱᱤᱡᱽ"@sat ;
+	rdfs:label "klassinen kiina"@fi ;
+	skos:prefLabel "klassinen kiina"@fi ;
+	schema:name "klassinen kiina"@fi ;
+	rdfs:label "cinezo clàsego"@vec ;
+	skos:prefLabel "cinezo clàsego"@vec ;
+	schema:name "cinezo clàsego"@vec ;
+	rdfs:label "классикон китайаг æвзаг"@os ;
+	skos:prefLabel "классикон китайаг æвзаг"@os ;
+	schema:name "классикон китайаг æвзаг"@os ;
+	rdfs:label "শাস্ত্রীয় চীনাভাষা"@bn ;
+	skos:prefLabel "শাস্ত্রীয় চীনাভাষা"@bn ;
+	schema:name "শাস্ত্রীয় চীনাভাষা"@bn ;
+	rdfs:label "ਰਵਾਇਤੀ ਚੀਨੀ"@pa ;
+	skos:prefLabel "ਰਵਾਇਤੀ ਚੀਨੀ"@pa ;
+	schema:name "ਰਵਾਇਤੀ ਚੀਨੀ"@pa ;
+	rdfs:label "An tSínis Chlasaiceach"@ga ;
+	skos:prefLabel "An tSínis Chlasaiceach"@ga ;
+	schema:name "An tSínis Chlasaiceach"@ga ;
+	rdfs:label "روائتی چینی"@pnb ;
+	skos:prefLabel "روائتی چینی"@pnb ;
+	schema:name "روائتی چینی"@pnb ;
+	rdfs:label "الشينوية لكلاسيكية"@ary ;
+	skos:prefLabel "الشينوية لكلاسيكية"@ary ;
+	schema:name "الشينوية لكلاسيكية"@ary ;
+	rdfs:label "wenyan"@nn ;
+	skos:prefLabel "wenyan"@nn ;
+	schema:name "wenyan"@nn ;
+	rdfs:label "klasična kitajščina"@sl ;
+	skos:prefLabel "klasična kitajščina"@sl ;
+	schema:name "klasična kitajščina"@sl ;
+	schema:description "한자로 쓴 중국어의 고전 문어체"@ko,
+		"language of the Sino-Tibetan language family in written form (ISO 639-3: lzh) as opposed to the spoken, known as Old Chinese (ISO 639-3: och) or Middle Chinese (ISO 639-3: ltc)"@en,
+		"письменный язык, использовавшийся в Китае до начала XX века"@ru,
+		"bahsa"@ace,
+		"taal"@af,
+		"idioma"@an,
+		"bahasa"@bjn,
+		"yezh"@br,
+		"jezik"@bs,
+		"llengua"@ca,
+		"lingua"@co,
+		"asijský jazyk"@cs,
+		"sprog"@da,
+		"chinesische Literatursprache"@de,
+		"lısan"@diq,
+		"γλώσσα"@el,
+		"langua"@eml,
+		"lingvo"@eo,
+		"idioma"@es,
+		"keel"@et,
+		"hizkuntza"@eu,
+		"luenga"@ext,
+		"زبان"@fa,
+		"kieli"@fi,
+		"langue"@fr,
+		"lengoua"@frp,
+		"lenghe"@fur,
+		"taal"@fy,
+		"teanga"@ga,
+		"lingua"@gl,
+		"nyelv"@hu,
+		"bagian dari rumpun bahasa Sino-Tibet"@id,
+		"linguo"@io,
+		"tungumál"@is,
+		"lingua"@it,
+		"古代中国語の文体に基づいて書かれた言語"@ja,
+		"basa"@jv,
+		"ndinga"@kg,
+		"lingua"@la,
+		"kalba"@lt,
+		"valoda"@lv,
+		"fiteny"@mg,
+		"јазик"@mk,
+		"bahaso"@min,
+		"bahasa"@ms,
+		"språk"@nb,
+		"Spraak"@nds,
+		"språk"@nn,
+		"langue"@pcd,
+		"língua"@pt,
+		"limba"@ro,
+		"basa"@su,
+		"reo"@ty,
+		"ngôn ngữ viết dựa trên cơ sở của tiếng Hán cổ điển"@vi,
+		"làkk"@wo,
+		"古代漢語書面語"@zh,
+		"pagsasao iti pamilia ti Sino-Tibetano (ISO 639-3: lzh)"@ilo,
+		"華夏四裔所以書其言"@lzh,
+		"oude schrijfvorm van het Chinees, tot recent gebruikelijk in literatuur en ambtenarij"@nl,
+		"نمط قديم من اللغة الصينية المكتوبة التي تعتمد على قواعد ومفردات اللغة الصينية القديمة"@ar,
+		"以古漢語做底嘅中文書面形式"@yue,
+		"XX ғасырдың басына дейін Қытайда қолданыста болған жазба тіл"@kk,
+		"שפה ממשפחה סינו-טיבטית"@he ;
+	skos:altLabel "古中文"@zh,
+		"古漢文"@zh,
+		"文言"@zh,
+		"汉文"@zh,
+		"古文"@zh,
+		"文言文"@lzh,
+		"漢文"@lzh,
+		"lzh"@lzh,
+		"zh-classical"@lzh,
+		"문언문"@ko,
+		"문언"@ko,
+		"קאנבון"@he,
+		"Idioma chino clasico"@es,
+		"Chino clasico"@es,
+		"文言"@es,
+		"Idioma chino clásico"@es,
+		"Камбун"@uk,
+		"Веньянь"@uk,
+		"Канбун"@uk,
+		"класична китайська"@uk,
+		"літературна китайська"@uk,
+		"Klassikaline hiina keel"@et,
+		"文言"@ja,
+		"漢文体"@ja,
+		"văn ngôn văn"@vi,
+		"Hán văn"@vi,
+		"cổ văn"@vi,
+		"Венян"@bg,
+		"Класически китайски"@bg,
+		"文言"@yue,
+		"古文"@yue,
+		"漢文"@yue,
+		"古漢文"@yue,
+		"古中文"@yue,
+		"Wenyanwen"@nl,
+		"klassiek Chinees"@nl,
+		"Wenyan"@en,
+		"zh-classical"@en,
+		"lzh"@en,
+		"Literary Chinese"@en,
+		"Traditional Chinese"@en,
+		"Wen yan wen"@en,
+		"Literario nga Insik"@ilo,
+		"венјан"@mk,
+		"книжевен кинески јазик"@mk,
+		"zh-classical"@fr,
+		"Chinés literario"@gl,
+		"zh-classical"@br,
+		"txinera literario"@eu,
+		"literatura-txinera"@eu,
+		"wenyan"@eu,
+		"классический китайский"@ru,
+		"вэньянь"@ru,
+		"классикалық қытай тілі"@kk,
+		"Κλασική κινεζική γλώσσα"@el,
+		"вэньянь"@os,
+		"klasszikus kínai nyelv"@hu,
+		"ਚੀਨੀ (ਲਿਟਰੇਰੀ)"@pa,
+		"ਚੀਨੀ (ਰਵਾਇਤੀ)"@pa,
+		"ਲਿਟਰੇਰੀ ਚੀਨੀ"@pa,
+		"venyan"@az .

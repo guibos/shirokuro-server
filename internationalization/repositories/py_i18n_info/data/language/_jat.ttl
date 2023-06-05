@@ -1,0 +1,125 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4159744 a schema:Dataset ;
+	schema:about wd:Q4159744 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1702456217"^^xsd:integer ;
+	schema:dateModified "2022-08-12T14:03:01Z"^^xsd:dateTime .
+
+wd:Q4159744 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_jakati> a schema:Article ;
+	schema:about wd:Q4159744 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga jakati"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%B0%D0%BA%D0%B0%D1%82%D0%B8> a schema:Article ;
+	schema:about wd:Q4159744 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Джакати"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_jakati> a schema:Article ;
+	schema:about wd:Q4159744 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język jakati"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Inku_language> a schema:Article ;
+	schema:about wd:Q4159744 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Inku language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4159744 wdt:P220 "jat" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/jat> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1014 "300388483" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388483> ;
+	wdt:P1394 "jaka1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/jaka1245> ;
+	wdt:P2581 "01037126n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s01037126n> ;
+	wdt:P305 "jat" ;
+	wdt:P1627 "jat" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q889 ;
+	wdt:P2341 wd:Q121104,
+		wd:Q173830,
+		wd:Q182844 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/JAT> ;
+	wdt:P8408 "JakatiLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/JakatiLanguage> ;
+	wdt:P646 "/m/02hwmjw" ;
+	rdfs:label "Джакати"@ru ;
+	skos:prefLabel "Джакати"@ru ;
+	schema:name "Джакати"@ru ;
+	rdfs:label "Inku"@en ;
+	skos:prefLabel "Inku"@en ;
+	schema:name "Inku"@en ;
+	rdfs:label "Język jakati"@pl ;
+	skos:prefLabel "Język jakati"@pl ;
+	schema:name "Język jakati"@pl ;
+	rdfs:label "Lenga jakati"@pms ;
+	skos:prefLabel "Lenga jakati"@pms ;
+	schema:name "Lenga jakati"@pms ;
+	rdfs:label "inku"@fr ;
+	skos:prefLabel "inku"@fr ;
+	schema:name "inku"@fr ;
+	rdfs:label "インク語"@ja ;
+	skos:prefLabel "インク語"@ja ;
+	schema:name "インク語"@ja ;
+	schema:description "indogermanische Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue lahnda parlée en Afghanistan"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language spoken in Afghanistan"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Inku language"@en,
+		"jakati"@fr .
+
+wd:Q11275462 owl:sameAs wd:Q4159744 .

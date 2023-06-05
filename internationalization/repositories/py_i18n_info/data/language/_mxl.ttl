@@ -1,0 +1,140 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35770 a schema:Dataset ;
+	schema:about wd:Q35770 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1835685257"^^xsd:integer ;
+	schema:dateModified "2023-02-17T12:08:57Z"^^xsd:dateTime .
+
+wd:Q35770 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Gbe,_Maxi> a schema:Article ;
+	schema:about wd:Q35770 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Gbe, Maxi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigbe-Maxi> a schema:Article ;
+	schema:about wd:Q35770 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigbe-Maxi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Mahi_(Sprache)> a schema:Article ;
+	schema:about wd:Q35770 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Mahi (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Maxi_(llengua_gbe)> a schema:Article ;
+	schema:about wd:Q35770 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Maxi (llengua gbe)"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Maxi-gbe> a schema:Article ;
+	schema:about wd:Q35770 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Maxi-gbe"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35770 wdt:P220 "mxl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mxl> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q668284 ;
+	wdt:P1394 "maxi1236" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/maxi1236> ;
+	wdt:P305 "mxl" ;
+	wdt:P1627 "mxl" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q962,
+		wd:Q945 ;
+	wdt:P2341 wd:Q29141,
+		wd:Q29161,
+		wd:Q29172,
+		wd:Q316306 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MXL> ;
+	wdt:P2671 "/g/11b7cqtr7t" ;
+	wdtn:P2671 <http://g.co/kg/g/11b7cqtr7t> ;
+	rdfs:label "Lenga Gbe"@pms ;
+	skos:prefLabel "Lenga Gbe"@pms ;
+	schema:name "Lenga Gbe"@pms ;
+	rdfs:label "Mahi"@de ;
+	skos:prefLabel "Mahi"@de ;
+	schema:name "Mahi"@de ;
+	rdfs:label "Mahi"@de-ch ;
+	skos:prefLabel "Mahi"@de-ch ;
+	schema:name "Mahi"@de-ch ;
+	rdfs:label "Mahi"@en ;
+	skos:prefLabel "Mahi"@en ;
+	schema:name "Mahi"@en ;
+	rdfs:label "Kigbe-Maxi"@sw ;
+	skos:prefLabel "Kigbe-Maxi"@sw ;
+	schema:name "Kigbe-Maxi"@sw ;
+	rdfs:label "maxi-gbe"@fr ;
+	skos:prefLabel "maxi-gbe"@fr ;
+	schema:name "maxi-gbe"@fr ;
+	rdfs:label "maxi"@ca ;
+	skos:prefLabel "maxi"@ca ;
+	schema:name "maxi"@ca ;
+	schema:description "Sprache in Afrika"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue nigéro-congolaise parlée au Bénin et au Togo"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"llengua"@ca ;
+	skos:altLabel "Gbe-Maxi"@en,
+		"Mahi language"@en,
+		"mahi"@ca,
+		"maxi"@fr,
+		"mahi"@fr,
+		"gbe-maxi"@fr,
+		"kigbe-maxi"@fr .
+
+wd:Q21084301 owl:sameAs wd:Q35770 .

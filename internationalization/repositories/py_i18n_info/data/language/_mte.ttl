@@ -1,0 +1,160 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33503 a schema:Dataset ;
+	schema:about wd:Q33503 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1773480205"^^xsd:integer ;
+	schema:dateModified "2022-11-17T10:53:33Z"^^xsd:dateTime .
+
+wd:Q33503 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Mono_(langue_oc%C3%A9anienne)> a schema:Article ;
+	schema:about wd:Q33503 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Mono (langue océanienne)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mono,_Solomon> a schema:Article ;
+	schema:about wd:Q33503 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mono, Solomon"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Mono-Alu> a schema:Article ;
+	schema:about wd:Q33503 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Mono-Alu"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BD%D0%BE-%D0%B0%D0%BB%D1%83> a schema:Article ;
+	schema:about wd:Q33503 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Моно-алу"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimono_(Visiwa_vya_Solomon)> a schema:Article ;
+	schema:about wd:Q33503 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimono (Visiwa vya Solomon)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mono-Alu_language> a schema:Article ;
+	schema:about wd:Q33503 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mono-Alu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33503 wdt:P305 "mte" ;
+	wdt:P220 "mte" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mte> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q6491579 ;
+	wdt:P1394 "mono1273" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mono1273> ;
+	wdt:P3417 "Kimono" ;
+	wdt:P1466 "moa" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_moa> ;
+	wdt:P910 wd:Q36162549 ;
+	wdt:P2192 "4719" ;
+	wdt:P1627 "mte" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q685 ;
+	wdt:P2341 wd:Q150325,
+		wd:Q115251467 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MTE> ;
+	wdt:P131 wd:Q150325 ;
+	wdt:P1098 "+2940"^^xsd:decimal ;
+	wdt:P646 "/m/02hxmz6" ;
+	rdfs:label "mono"@fr ;
+	skos:prefLabel "mono"@fr ;
+	schema:name "mono"@fr ;
+	rdfs:label "Mono"@en ;
+	skos:prefLabel "Mono"@en ;
+	schema:name "Mono"@en ;
+	rdfs:label "lingua Mono"@it ;
+	skos:prefLabel "lingua Mono"@it ;
+	schema:name "lingua Mono"@it ;
+	rdfs:label "Моно-алу"@ru ;
+	skos:prefLabel "Моно-алу"@ru ;
+	schema:name "Моно-алу"@ru ;
+	rdfs:label "Lenga Mono, Solomon"@pms ;
+	skos:prefLabel "Lenga Mono, Solomon"@pms ;
+	schema:name "Lenga Mono, Solomon"@pms ;
+	rdfs:label "Kimono"@sw ;
+	skos:prefLabel "Kimono"@sw ;
+	schema:name "Kimono"@sw ;
+	rdfs:label "大洋洲莫諾語"@zh ;
+	skos:prefLabel "大洋洲莫諾語"@zh ;
+	schema:name "大洋洲莫諾語"@zh ;
+	rdfs:label "Mono-Alu"@ilo ;
+	skos:prefLabel "Mono-Alu"@ilo ;
+	schema:name "Mono-Alu"@ilo ;
+	rdfs:label "Mono"@nl ;
+	skos:prefLabel "Mono"@nl ;
+	schema:name "Mono"@nl ;
+	rdfs:label "lengua mono"@es ;
+	skos:prefLabel "lengua mono"@es ;
+	schema:name "lengua mono"@es ;
+	rdfs:label "mono"@vec ;
+	skos:prefLabel "mono"@vec ;
+	schema:name "mono"@vec ;
+	schema:description "lingua austronesiana parlata nelle Isole Salomone"@it,
+		"langue méso-mélanésienne"@fr,
+		"Sprache"@de,
+		"language spoken in the Solomon Islands"@en,
+		"pagsasao idiay Is-isla Solomon"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"lengua"@es,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Mono (Solomon Islands)"@en,
+		"Mono-Alu"@en,
+		"Mono language"@en,
+		"idioma de las islas Salomón"@es .
+
+wd:Q12952862 owl:sameAs wd:Q33503 .

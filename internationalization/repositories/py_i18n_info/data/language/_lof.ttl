@@ -1,0 +1,167 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35779 a schema:Dataset ;
+	schema:about wd:Q35779 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616008865"^^xsd:integer ;
+	schema:dateModified "2022-04-10T14:03:15Z"^^xsd:dateTime .
+
+wd:Q35779 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Logol> a schema:Article ;
+	schema:about wd:Q35779 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Logol"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B3%D0%BE%D0%BB%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q35779 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Логолски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilogol> a schema:Article ;
+	schema:about wd:Q35779 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilogol"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Logol_language> a schema:Article ;
+	schema:about wd:Q35779 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Logol language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Logoleg> a schema:Article ;
+	schema:about wd:Q35779 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Logoleg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Logol_(Sprache)> a schema:Article ;
+	schema:about wd:Q35779 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Logol (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Logol_jezik> a schema:Article ;
+	schema:about wd:Q35779 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Logol jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%84%D8%BA%D8%A9_%D9%84%D9%88%D8%BA%D9%88%D9%84> a schema:Article ;
+	schema:about wd:Q35779 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "لغة لوغول"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35779 wdt:P220 "lof" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lof> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "logo1262" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/logo1262> ;
+	wdt:P2355 "1714" ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P279 wd:Q12630418 ;
+	wdt:P2192 "4523" ;
+	wdt:P305 "lof" ;
+	wdt:P1627 "lof" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P17 wd:Q1049 ;
+	wdt:P2341 wd:Q849297,
+		wd:Q311371 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LOF> ;
+	wdt:P646 "/m/02hxq2p" ;
+	rdfs:label "Logol"@de ;
+	skos:prefLabel "Logol"@de ;
+	schema:name "Logol"@de ;
+	rdfs:label "Lenga Logol"@pms ;
+	skos:prefLabel "Lenga Logol"@pms ;
+	schema:name "Lenga Logol"@pms ;
+	rdfs:label "logoleg"@br ;
+	skos:prefLabel "logoleg"@br ;
+	schema:name "logoleg"@br ;
+	rdfs:label "Logol"@en ;
+	skos:prefLabel "Logol"@en ;
+	schema:name "Logol"@en ;
+	rdfs:label "Logol jezik"@hr ;
+	skos:prefLabel "Logol jezik"@hr ;
+	schema:name "Logol jezik"@hr ;
+	rdfs:label "Логолски јазик"@mk ;
+	skos:prefLabel "Логолски јазик"@mk ;
+	schema:name "Логолски јазик"@mk ;
+	rdfs:label "Kilogol"@sw ;
+	skos:prefLabel "Kilogol"@sw ;
+	schema:name "Kilogol"@sw ;
+	rdfs:label "Logol"@en-gb ;
+	skos:prefLabel "Logol"@en-gb ;
+	schema:name "Logol"@en-gb ;
+	rdfs:label "Wikang Logol"@tl ;
+	skos:prefLabel "Wikang Logol"@tl ;
+	schema:name "Wikang Logol"@tl ;
+	rdfs:label "logol"@fr ;
+	skos:prefLabel "logol"@fr ;
+	schema:name "logol"@fr ;
+	rdfs:label "لغة لوغول"@ar ;
+	skos:prefLabel "لغة لوغول"@ar ;
+	schema:name "لغة لوغول"@ar ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue talodi-heiban"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"لغة في السودان"@ar ;
+	skos:altLabel "Logol language"@en .

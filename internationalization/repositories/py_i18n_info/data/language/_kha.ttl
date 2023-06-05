@@ -1,0 +1,615 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33584 a schema:Dataset ;
+	schema:about wd:Q33584 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1923622596"^^xsd:integer ;
+	schema:dateModified "2023-06-25T12:19:24Z"^^xsd:dateTime .
+
+wd:Q33584 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_khasi> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga khasi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://xmf.wikipedia.org/wiki/%E1%83%AE%E1%83%90%E1%83%A1%E1%83%98_(%E1%83%9C%E1%83%98%E1%83%9C%E1%83%90)> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "xmf" ;
+	schema:isPartOf <https://xmf.wikipedia.org/> ;
+	schema:name "ხასი (ნინა)"@xmf .
+
+<https://xmf.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D1%85%D0%B0%D1%81%D0%B8_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Кхаси (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9A%D1%85%D0%B0%D1%81%D1%96_(%D0%BC%D0%BE%D0%B2%D0%B0)> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Кхасі (мова)"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Khasi_language> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Khasi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%96%E0%A4%BE%E0%A4%B8%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "खासी भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%8B%E0%B8%B5> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาคาซี"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Khasi_jezik> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Khasi jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pa.wikipedia.org/wiki/%E0%A8%96%E0%A8%BE%E0%A8%B8%E0%A9%80_%E0%A8%AD%E0%A8%BE%E0%A8%B8%E0%A8%BC%E0%A8%BE> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "pa" ;
+	schema:isPartOf <https://pa.wikipedia.org/> ;
+	schema:name "ਖਾਸੀ ਭਾਸ਼ਾ"@pa .
+
+<https://pa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_khasi> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua khasi"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikhasi> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikhasi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%9A%D1%85%D0%B0%D1%81%D0%B8> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Кхаси"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%B7%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "カシ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Khasi_(Sprache)> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Khasi (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%95%E0%AE%BE%E0%AE%9A%E0%AE%BF_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "காசி மொழி"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%DA%A9%DA%BE%D8%A7%D8%B3%DB%8C_%D8%A8%D9%88%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "کھاسی بولی"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_khasi> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język khasi"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%84%D8%BA%D8%A9_%D8%AE%D8%A7%D8%B3%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "لغة خاسية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://as.wikipedia.org/wiki/%E0%A6%96%E0%A6%BE%E0%A6%9B%E0%A7%80_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "as" ;
+	schema:isPartOf <https://as.wikipedia.org/> ;
+	schema:name "খাছী ভাষা"@as .
+
+<https://as.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Khasi_(llengua)> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Khasi (llengua)"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Khasi> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Khasi"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Khasi> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Khasi"@tl ;
+	wikibase:badge wd:Q70893996 .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gu.wikipedia.org/wiki/%E0%AA%96%E0%AA%BE%E0%AA%B8%E0%AB%80_%E0%AA%AD%E0%AA%BE%E0%AA%B7%E0%AA%BE> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "gu" ;
+	schema:isPartOf <https://gu.wikipedia.org/> ;
+	schema:name "ખાસી ભાષા"@gu .
+
+<https://gu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Khasi> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Khasi"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Kaseg> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Kaseg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://or.wikipedia.org/wiki/%E0%AC%96%E0%AC%BE%E0%AC%B8%E0%AC%BF_%E0%AC%AD%E0%AC%BE%E0%AC%B7%E0%AC%BE> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "or" ;
+	schema:isPartOf <https://or.wikipedia.org/> ;
+	schema:name "ଖାସି ଭାଷା"@or .
+
+<https://or.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%96%E0%A6%BE%E0%A6%B8%E0%A6%BF_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "খাসি ভাষা"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Khasi> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Khasi"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Khasi> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Khasi"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Khasi> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Khasi"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bh.wikipedia.org/wiki/%E0%A4%96%E0%A4%BE%E0%A4%B8%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B8%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "bho" ;
+	schema:isPartOf <https://bh.wikipedia.org/> ;
+	schema:name "खासी भासा"@bho .
+
+<https://bh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Khasi> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Khasi"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%A0%E1%B1%B7%E1%B1%9F%E1%B1%A5%E1%B1%A4_%E1%B1%AF%E1%B1%9F%E1%B1%B9%E1%B1%A8%E1%B1%A5%E1%B1%A4> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱠᱷᱟᱥᱤ ᱯᱟᱹᱨᱥᱤ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mr.wikipedia.org/wiki/%E0%A4%96%E0%A4%BE%E0%A4%B8%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "mr" ;
+	schema:isPartOf <https://mr.wikipedia.org/> ;
+	schema:name "खासी भाषा"@mr .
+
+<https://mr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%AE%D8%A7%D8%B3%DB%8C> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان خاسی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%8D%A1%E8%A5%BF%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "卡西语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%96%E0%B4%BE%E0%B4%B8%E0%B4%BF_%E0%B4%AD%E0%B4%BE%E0%B4%B7> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "ഖാസി ഭാഷ"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%B9%B4%EC%8B%9C%EC%96%B4> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "카시어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://anp.wikipedia.org/wiki/%E0%A4%96%E0%A4%BE%E0%A4%B8%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "anp" ;
+	schema:isPartOf <https://anp.wikipedia.org/> ;
+	schema:name "खासी भाषा"@anp .
+
+<https://anp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ne.wikipedia.org/wiki/%E0%A4%96%E0%A4%BE%E0%A4%B8%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q33584 ;
+	schema:inLanguage "ne" ;
+	schema:isPartOf <https://ne.wikipedia.org/> ;
+	schema:name "खासी भाषा"@ne .
+
+<https://ne.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33584 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P219 "kha" ;
+	wdt:P220 "kha" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kha> ;
+	wdt:P349 "00576800" ;
+	wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00576800> ;
+	wdt:P646 "/m/02sk1l" ;
+	wdt:P305 "kha" ;
+	wdt:P279 wd:Q3073734 ;
+	wdt:P1098 "+865000"^^xsd:decimal,
+		"+843000"^^xsd:decimal ;
+	wdt:P1394 "khas1269" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/khas1269> ;
+	wdt:P2355 "1231" ;
+	wdt:P424 "kha" ;
+	wdt:P3417 "Khasi" ;
+	wdt:P278 "кха 357" ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P1466 "khs" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_khs> ;
+	wdt:P1417 "topic/Khasi-language" ;
+	wdt:P1889 wd:Q1261144,
+		wd:Q104848718 ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P1627 "kha" ;
+	wdt:P2924 "2126276" ;
+	wdt:P4801 "languages/kha" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/kha> ;
+	wdt:P3823 wd:Q29051547 ;
+	wdt:P17 wd:Q902,
+		wd:Q668 ;
+	wdt:P2341 wd:Q459732,
+		wd:Q1164,
+		wd:Q1195,
+		wd:Q1193,
+		wd:Q1363,
+		wd:Q1356 ;
+	wdt:P1245 "550022" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KHA> ;
+	wdt:P6366 "2781142233" ;
+	wdtn:P6366 <http://ma-graph.org/entity/2781142233> ;
+	wdt:P910 wd:Q31171222 ;
+	wdt:P8408 "KhasiLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/KhasiLanguage> ;
+	wdt:P9060 "kha" ;
+	wdt:P6385 "narody-i-yazyki/khasi-yazyk" ;
+	wdt:P10283 "C2781142233" ;
+	wdt:P10369 "Q252" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q252> ;
+	wdt:P691 "ph297013" ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Khasi%20map.png> ;
+	wdt:P2561 "ꠈꠣꠡꠤꠀ ꠝꠣꠔ"@syl ;
+	rdfs:label "Língua khasi"@pt ;
+	skos:prefLabel "Língua khasi"@pt ;
+	schema:name "Língua khasi"@pt ;
+	rdfs:label "Lenga khasi"@pms ;
+	skos:prefLabel "Lenga khasi"@pms ;
+	schema:name "Lenga khasi"@pms ;
+	rdfs:label "Język khasi"@pl ;
+	skos:prefLabel "Język khasi"@pl ;
+	schema:name "Język khasi"@pl ;
+	rdfs:label "khasi"@fr ;
+	skos:prefLabel "khasi"@fr ;
+	schema:name "khasi"@fr ;
+	rdfs:label "Кхаси"@ru ;
+	skos:prefLabel "Кхаси"@ru ;
+	schema:name "Кхаси"@ru ;
+	rdfs:label "Khasi"@en ;
+	skos:prefLabel "Khasi"@en ;
+	schema:name "Khasi"@en ;
+	rdfs:label "ଖାସି ଭାଷା"@or ;
+	skos:prefLabel "ଖାସି ଭାଷା"@or ;
+	schema:name "ଖାସି ଭାଷା"@or ;
+	rdfs:label "ภาษาคาซี"@th ;
+	skos:prefLabel "ภาษาคาซี"@th ;
+	schema:name "ภาษาคาซี"@th ;
+	rdfs:label "khasi"@ca ;
+	skos:prefLabel "khasi"@ca ;
+	schema:name "khasi"@ca ;
+	rdfs:label "lingua Khasi"@la ;
+	skos:prefLabel "lingua Khasi"@la ;
+	schema:name "lingua Khasi"@la ;
+	rdfs:label "Khasi"@de ;
+	skos:prefLabel "Khasi"@de ;
+	schema:name "Khasi"@de ;
+	rdfs:label "カシ語"@ja ;
+	skos:prefLabel "カシ語"@ja ;
+	schema:name "カシ語"@ja ;
+	rdfs:label "খাসি ভাষা"@bn ;
+	skos:prefLabel "খাসি ভাষা"@bn ;
+	schema:name "খাসি ভাষা"@bn ;
+	rdfs:label "kaseg"@br ;
+	skos:prefLabel "kaseg"@br ;
+	schema:name "kaseg"@br ;
+	rdfs:label "Tiếng Khasi"@vi ;
+	skos:prefLabel "Tiếng Khasi"@vi ;
+	schema:name "Tiếng Khasi"@vi ;
+	rdfs:label "Кхаси"@kv ;
+	skos:prefLabel "Кхаси"@kv ;
+	schema:name "Кхаси"@kv ;
+	rdfs:label "Khasi jezik"@hr ;
+	skos:prefLabel "Khasi jezik"@hr ;
+	schema:name "Khasi jezik"@hr ;
+	rdfs:label "کھاسی بولی"@pnb ;
+	skos:prefLabel "کھاسی بولی"@pnb ;
+	schema:name "کھاسی بولی"@pnb ;
+	rdfs:label "Khasi"@oc ;
+	skos:prefLabel "Khasi"@oc ;
+	schema:name "Khasi"@oc ;
+	rdfs:label "खसी भाषा"@hi ;
+	skos:prefLabel "खसी भाषा"@hi ;
+	schema:name "खसी भाषा"@hi ;
+	rdfs:label "الخاسية"@ar ;
+	skos:prefLabel "الخاسية"@ar ;
+	schema:name "الخاسية"@ar ;
+	rdfs:label "lingua khasi"@it ;
+	skos:prefLabel "lingua khasi"@it ;
+	schema:name "lingua khasi"@it ;
+	rdfs:label "ਖਾਸੀ"@pa ;
+	skos:prefLabel "ਖਾਸੀ"@pa ;
+	schema:name "ਖਾਸੀ"@pa ;
+	rdfs:label "Khasi"@fi ;
+	skos:prefLabel "Khasi"@fi ;
+	schema:name "Khasi"@fi ;
+	rdfs:label "khasijčina"@sk ;
+	skos:prefLabel "khasijčina"@sk ;
+	schema:name "khasijčina"@sk ;
+	rdfs:label "Kikhasi"@sw ;
+	skos:prefLabel "Kikhasi"@sw ;
+	schema:name "Kikhasi"@sw ;
+	rdfs:label "காசி மொழி"@ta ;
+	skos:prefLabel "காசி மொழி"@ta ;
+	schema:name "காசி மொழி"@ta ;
+	rdfs:label "卡西語"@zh-hant ;
+	skos:prefLabel "卡西語"@zh-hant ;
+	schema:name "卡西語"@zh-hant ;
+	rdfs:label "卡西语"@zh-cn ;
+	skos:prefLabel "卡西语"@zh-cn ;
+	schema:name "卡西语"@zh-cn ;
+	rdfs:label "Кхасі"@uk ;
+	skos:prefLabel "Кхасі"@uk ;
+	schema:name "Кхасі"@uk ;
+	rdfs:label "Khasi"@en-gb ;
+	skos:prefLabel "Khasi"@en-gb ;
+	schema:name "Khasi"@en-gb ;
+	rdfs:label "卡西語"@zh ;
+	skos:prefLabel "卡西語"@zh ;
+	schema:name "卡西語"@zh ;
+	rdfs:label "khasiera"@eu ;
+	skos:prefLabel "khasiera"@eu ;
+	schema:name "khasiera"@eu ;
+	rdfs:label "Wikang Khasi"@tl ;
+	skos:prefLabel "Wikang Khasi"@tl ;
+	schema:name "Wikang Khasi"@tl ;
+	rdfs:label "الخاسي"@aeb-arab ;
+	skos:prefLabel "الخاسي"@aeb-arab ;
+	schema:name "الخاسي"@aeb-arab ;
+	rdfs:label "касиски јазик"@mk ;
+	skos:prefLabel "касиски јазик"@mk ;
+	schema:name "касиски јазик"@mk ;
+	rdfs:label "ხასი"@xmf ;
+	skos:prefLabel "ხასი"@xmf ;
+	schema:name "ხასი"@xmf ;
+	rdfs:label "ખાસી ભાષા"@gu ;
+	skos:prefLabel "ખાસી ભાષા"@gu ;
+	schema:name "ખાસી ભાષા"@gu ;
+	rdfs:label "খাছী ভাষা"@as ;
+	skos:prefLabel "খাছী ভাষা"@as ;
+	schema:name "খাছী ভাষা"@as ;
+	rdfs:label "卡西语"@zh-hans ;
+	skos:prefLabel "卡西语"@zh-hans ;
+	schema:name "卡西语"@zh-hans ;
+	rdfs:label "Khasi"@nl ;
+	skos:prefLabel "Khasi"@nl ;
+	schema:name "Khasi"@nl ;
+	rdfs:label "खासी भासा"@bho ;
+	skos:prefLabel "खासी भासा"@bho ;
+	schema:name "खासी भासा"@bho ;
+	rdfs:label "زبان کهاسی"@fa ;
+	skos:prefLabel "زبان کهاسی"@fa ;
+	schema:name "زبان کهاسی"@fa ;
+	rdfs:label "Khasi"@af ;
+	skos:prefLabel "Khasi"@af ;
+	schema:name "Khasi"@af ;
+	rdfs:label "ᱠᱷᱟᱥᱤ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	skos:prefLabel "ᱠᱷᱟᱥᱤ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	schema:name "ᱠᱷᱟᱥᱤ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	rdfs:label "khasi"@vec ;
+	skos:prefLabel "khasi"@vec ;
+	schema:name "khasi"@vec ;
+	rdfs:label "खासी भाषा"@mr ;
+	skos:prefLabel "खासी भाषा"@mr ;
+	schema:name "खासी भाषा"@mr ;
+	rdfs:label "קהאסי"@he ;
+	skos:prefLabel "קהאסי"@he ;
+	schema:name "קהאסי"@he ;
+	rdfs:label "ഖാസി ഭാഷ"@ml ;
+	skos:prefLabel "ഖാസി ഭാഷ"@ml ;
+	schema:name "ഖാസി ഭാഷ"@ml ;
+	rdfs:label "kasia lingvo"@eo ;
+	skos:prefLabel "kasia lingvo"@eo ;
+	schema:name "kasia lingvo"@eo ;
+	rdfs:label "카시어"@ko ;
+	skos:prefLabel "카시어"@ko ;
+	schema:name "카시어"@ko ;
+	rdfs:label "khasiština"@cs ;
+	skos:prefLabel "khasiština"@cs ;
+	schema:name "khasiština"@cs ;
+	rdfs:label "खासी भाषा"@anp ;
+	skos:prefLabel "खासी भाषा"@anp ;
+	schema:name "खासी भाषा"@anp ;
+	rdfs:label "ꠈꠣꠡꠤꠀ"@syl ;
+	skos:prefLabel "ꠈꠣꠡꠤꠀ"@syl ;
+	schema:name "ꠈꠣꠡꠤꠀ"@syl ;
+	schema:description "Sprache"@de,
+		"lingua austroasiatica"@it,
+		"jazyk"@sk,
+		"Austroasiatic language of Meghalaya state, India"@en,
+		"שפה"@he,
+		"австроазійська мова на сході Індії"@uk,
+		"hizkuntza. India, Bangladesh"@eu,
+		"ਭਾਸ਼ਾ"@pa,
+		"yezh"@br,
+		"langue austroasiatique parlée en Inde"@fr,
+		"lengua"@es,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ꠜꠣꠡꠣ"@syl,
+		"语言"@zh ;
+	skos:altLabel "Język chasycki"@pl,
+		"Język chasi"@pl,
+		"Язык кхаси"@ru,
+		"Кхаси язык"@ru,
+		"カーシー語"@ja,
+		"kha"@ja,
+		"खासी भाषा"@hi,
+		"खांसी भाषा"@hi,
+		"Khasi language"@en,
+		"kha"@en,
+		"لغة خاسية"@ar,
+		"اللغة الخاسية"@ar,
+		"خاسية"@ar,
+		"Кхасійська мова"@uk,
+		"ਖਾਸੀ ਭਾਸ਼ਾ"@pa,
+		"каси"@mk,
+		"卡西语"@zh,
+		"ꠈꠣꠡꠤꠀ ꠜꠣꠡꠣ"@syl,
+		"ꠈꠣꠡꠤꠀ ꠝꠣꠔ"@syl .
+
+wd:Q31326047 owl:sameAs wd:Q33584 .
+
+wd:Q31442341 owl:sameAs wd:Q33584 .

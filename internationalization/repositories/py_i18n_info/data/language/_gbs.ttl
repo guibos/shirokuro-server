@@ -1,0 +1,109 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12952448 a schema:Dataset ;
+	schema:about wd:Q12952448 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1403065088"^^xsd:integer ;
+	schema:dateModified "2021-04-17T03:24:57Z"^^xsd:dateTime .
+
+wd:Q12952448 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Gbe,_Gbesi> a schema:Article ;
+	schema:about wd:Q12952448 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Gbe, Gbesi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigbe-Gbesi> a schema:Article ;
+	schema:about wd:Q12952448 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigbe-Gbesi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Gbesi> a schema:Article ;
+	schema:about wd:Q12952448 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Gbesi"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12952448 wdt:P220 "gbs" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gbs> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "gbes1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gbes1238> ;
+	wdt:P279 wd:Q668284 ;
+	wdt:P305 "gbs" ;
+	wdt:P1627 "gbs" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q962 ;
+	wdt:P2341 wd:Q29147 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GBS> ;
+	wdt:P2671 "/g/11b74k44zr" ;
+	wdtn:P2671 <http://g.co/kg/g/11b74k44zr> ;
+	rdfs:label "Lenga Gbe, Gbesi"@pms ;
+	skos:prefLabel "Lenga Gbe, Gbesi"@pms ;
+	schema:name "Lenga Gbe, Gbesi"@pms ;
+	rdfs:label "Kigbe-Gbesi"@sw ;
+	skos:prefLabel "Kigbe-Gbesi"@sw ;
+	schema:name "Kigbe-Gbesi"@sw ;
+	rdfs:label "Gbesi"@en ;
+	skos:prefLabel "Gbesi"@en ;
+	schema:name "Gbesi"@en ;
+	rdfs:label "gbe gbesi"@fr ;
+	skos:prefLabel "gbe gbesi"@fr ;
+	schema:name "gbe gbesi"@fr ;
+	rdfs:label "Gbesi"@ca ;
+	skos:prefLabel "Gbesi"@ca ;
+	schema:name "Gbesi"@ca ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue voltaïco-congolaise"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Gbesi language"@en .
+
+wd:Q13123388 owl:sameAs wd:Q12952448 .
+
+wd:Q21082873 owl:sameAs wd:Q12952448 .

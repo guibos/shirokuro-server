@@ -1,0 +1,105 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5616441 a schema:Dataset ;
+	schema:about wd:Q5616441 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1957050502"^^xsd:integer ;
+	schema:dateModified "2023-08-20T07:57:16Z"^^xsd:dateTime .
+
+wd:Q5616441 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Guinea-Bissau_Sign_Language> a schema:Article ;
+	schema:about wd:Q5616441 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Guinea-Bissau Sign Language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Langue_des_signes_bissau-guin%C3%A9enne> a schema:Article ;
+	schema:about wd:Q5616441 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Langue des signes bissau-guinéenne"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_gestual_guineense> a schema:Article ;
+	schema:about wd:Q5616441 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua gestual guineense"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%A7%D8%B4%D8%A7%D8%B1%D9%87_%DA%AF%DB%8C%D9%86%D9%87_%D8%A8%DB%8C%D8%B3%D8%A7%D8%A6%D9%88%DB%8C%DB%8C> a schema:Article ;
+	schema:about wd:Q5616441 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان اشاره گینه بیسائویی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5616441 wdt:P31 wd:Q34228 ;
+	wdt:P1394 "guin1260" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/guin1260> ;
+	wdt:P646 "/m/0k2g51m" ;
+	wdt:P17 wd:Q1007 ;
+	wdt:P220 "lgs" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lgs> ;
+	wdt:P305 "lgs" ;
+	rdfs:label "Guinea-Bissau Sign Language"@en ;
+	skos:prefLabel "Guinea-Bissau Sign Language"@en ;
+	schema:name "Guinea-Bissau Sign Language"@en ;
+	rdfs:label "langue des signes bissau-guinéenne"@fr ;
+	skos:prefLabel "langue des signes bissau-guinéenne"@fr ;
+	schema:name "langue des signes bissau-guinéenne"@fr ;
+	rdfs:label "Língua de Sinais Guineense"@pt ;
+	skos:prefLabel "Língua de Sinais Guineense"@pt ;
+	schema:name "Língua de Sinais Guineense"@pt ;
+	rdfs:label "زبان اشاره گینه بیسائویی"@fa ;
+	skos:prefLabel "زبان اشاره گینه بیسائویی"@fa ;
+	schema:name "زبان اشاره گینه بیسائویی"@fa ;
+	rdfs:label "ギニアビサウ手話"@ja ;
+	skos:prefLabel "ギニアビサウ手話"@ja ;
+	schema:name "ギニアビサウ手話"@ja ;
+	rdfs:label "toki luka Kinepisa"@tok ;
+	skos:prefLabel "toki luka Kinepisa"@tok ;
+	schema:name "toki luka Kinepisa"@tok ;
+	rdfs:label "গিনি-বিসাউ ইশারা ভাষা"@bn ;
+	skos:prefLabel "গিনি-বিসাউ ইশারা ভাষা"@bn ;
+	schema:name "গিনি-বিসাউ ইশারা ভাষা"@bn ;
+	schema:description "زبان اشاره"@fa,
+		"Deaf sign language of Guinea-Bissau"@en,
+		"toki luka pi ma Kinepisa"@tok ;
+	skos:altLabel "Língua Gestual Guineense"@pt .

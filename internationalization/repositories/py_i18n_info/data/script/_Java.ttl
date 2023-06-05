@@ -1,0 +1,474 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q879704 a schema:Dataset ;
+	schema:about wd:Q879704 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1920933470"^^xsd:integer ;
+	schema:dateModified "2023-06-21T21:38:06Z"^^xsd:dateTime .
+
+wd:Q879704 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Javanese_script> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Javanese script"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/%C3%89criture_javanaise> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Écriture javanaise"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%AF%D0%B2%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%B5_%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Яванское письмо"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Alfabeto_giavanese> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Alfabeto giavanese"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/Pismo_jawajskie> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Pismo jawajskie"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E7%88%AA%E5%93%87%E5%AD%97%E6%AF%8D> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "爪哇字母"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Javanesisk_skrift> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Javanesisk skrift"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%A7%D9%84%D9%81%D8%A8%D8%A7%DB%8C_%D8%AC%D8%A7%D9%88%D9%87%E2%80%8C%D8%A7%DB%8C> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "الفبای جاوه‌ای"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Jaavalainen_kirjaimisto> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Jaavalainen kirjaimisto"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Javanesisk_skrift> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Javanesisk skrift"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Java_alfabeto> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Java alfabeto"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%B5%E0%A4%BE%E0%A4%88_%E0%A4%B2%E0%A4%BF%E0%A4%AA%E0%A4%BF> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "जावाई लिपि"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%98%E1%83%90%E1%83%95%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%93%E1%83%90%E1%83%9B%E1%83%AC%E1%83%94%E1%83%A0%E1%83%9A%E1%83%9D%E1%83%91%E1%83%90> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "იავური დამწერლობა"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%88%D0%B0%D0%B2%D0%B0%D0%BD%D1%81%D0%BA%D0%BE_%D0%BF%D0%B8%D1%81%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Јаванско писмо"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Hanacaraka> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Hanacaraka"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%D8%AC%D8%A7%D9%88%DB%8C_%D9%84%D9%BE%DB%8C> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "جاوی لپی"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A3%E0%B8%8A%E0%B8%A7%E0%B8%B2> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "อักษรชวา"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%9E%90%EC%99%80_%EB%AC%B8%EC%9E%90> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "자와 문자"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://map-bms.wikipedia.org/wiki/Aksara_Jawa> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "jv-x-bms" ;
+	schema:isPartOf <https://map-bms.wikipedia.org/> ;
+	schema:name "Aksara Jawa"@jv-x-bms .
+
+<https://map-bms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jv.wikipedia.org/wiki/Aksara_Carakan> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "jv" ;
+	schema:isPartOf <https://jv.wikipedia.org/> ;
+	schema:name "Aksara Carakan"@jv .
+
+<https://jv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%AF%E6%96%87%E5%AD%97> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ジャワ文字"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ch%E1%BB%AF_Java> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Chữ Java"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%AF%D0%B2%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B5_%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%BE> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Яванське письмо"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Alfabet_javan%C3%A8s> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Alfabet javanès"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Aksara_Jawa> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Aksara Jawa"@id ;
+	wikibase:badge wd:Q17437798 .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Alfabeto_javan%C3%A9s> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Alfabeto javanés"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%83%D8%AA%D8%A7%D8%A8%D8%A9_%D8%AC%D8%A7%D9%88%D9%8A%D8%A9> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "كتابة جاوية"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mad.wikipedia.org/wiki/Aksara_Carakan_Madhur%C3%A2> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "mad" ;
+	schema:isPartOf <https://mad.wikipedia.org/> ;
+	schema:name "Aksara Carakan Madhurâ"@mad .
+
+<https://mad.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Javanese_script> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Javanese script"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Javanische_Schrift> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Javanische Schrift"@de ;
+	wikibase:badge wd:Q70894304 .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ps.wikipedia.org/wiki/%D8%AC%D8%A7%D9%88%D9%87_%D9%8A%D9%8A_%D9%84%D9%8A%DA%A9%D8%AF%D9%88%D8%AF> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "ps" ;
+	schema:isPartOf <https://ps.wikipedia.org/> ;
+	schema:name "جاوه يي ليکدود"@ps .
+
+<https://ps.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://anp.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%B5%E0%A4%BE%E0%A4%88_%E0%A4%B2%E0%A4%BF%E0%A4%AA%E0%A4%BF> a schema:Article ;
+	schema:about wd:Q879704 ;
+	schema:inLanguage "anp" ;
+	schema:isPartOf <https://anp.wikipedia.org/> ;
+	schema:name "जावाई लिपि"@anp .
+
+<https://anp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q879704 wdt:P910 wd:Q15099953 ;
+	wdt:P373 "Javanese script" ;
+	wdt:P31 wd:Q335806,
+		wd:Q29517555,
+		wd:Q4004706 ;
+	wdt:P646 "/m/02rfp6" ;
+	wdt:P3417 "Hanacaraka" ;
+	wdt:P2581 "16083111n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s16083111n> ;
+	wdt:P571 "0900-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P2620 "361" ;
+	wdt:P506 "Java" ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Hanacaraka-jawa.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Groot%20Javaansch%20No.2%20cursief%20-%20Lettergieterij%20Amsterdam.jpg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Serat%20Babad%20Tuban.pdf> ;
+	wdt:P1889 wd:Q2005 ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P144 wd:Q975802 ;
+	wdt:P407 wd:Q33549,
+		wd:Q36213,
+		wd:Q2071325,
+		wd:Q33014,
+		wd:Q11059 ;
+	wdt:P8408 "JavaneseWriting" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/JavaneseWriting> ;
+	wdt:P5949 "U+A980-A9DF" ;
+	wdt:P2561 "Javanese"@en,
+		"javanais"@fr ;
+	rdfs:label "Java alfabeto"@eo ;
+	skos:prefLabel "Java alfabeto"@eo ;
+	schema:name "Java alfabeto"@eo ;
+	rdfs:label "Hanacaraka"@jv ;
+	skos:prefLabel "Hanacaraka"@jv ;
+	schema:name "Hanacaraka"@jv ;
+	rdfs:label "pismo jawajskie"@pl ;
+	skos:prefLabel "pismo jawajskie"@pl ;
+	schema:name "pismo jawajskie"@pl ;
+	rdfs:label "alphabet javanais"@fr ;
+	skos:prefLabel "alphabet javanais"@fr ;
+	schema:name "alphabet javanais"@fr ;
+	rdfs:label "яванское письмо"@ru ;
+	skos:prefLabel "яванское письмо"@ru ;
+	schema:name "яванское письмо"@ru ;
+	rdfs:label "Javanese script"@en ;
+	skos:prefLabel "Javanese script"@en ;
+	schema:name "Javanese script"@en ;
+	rdfs:label "อักษรชวา"@th ;
+	skos:prefLabel "อักษรชวา"@th ;
+	schema:name "อักษรชวา"@th ;
+	rdfs:label "Јаванско писмо"@mk ;
+	skos:prefLabel "Јаванско писмо"@mk ;
+	schema:name "Јаванско писмо"@mk ;
+	rdfs:label "Hanacaraka"@ms ;
+	skos:prefLabel "Hanacaraka"@ms ;
+	schema:name "Hanacaraka"@ms ;
+	rdfs:label "alfabeto giavanese"@it ;
+	skos:prefLabel "alfabeto giavanese"@it ;
+	schema:name "alfabeto giavanese"@it ;
+	rdfs:label "aksara Jawa"@id ;
+	skos:prefLabel "aksara Jawa"@id ;
+	schema:name "aksara Jawa"@id ;
+	rdfs:label "الفبای جاوه‌ای"@fa ;
+	skos:prefLabel "الفبای جاوه‌ای"@fa ;
+	schema:name "الفبای جاوه‌ای"@fa ;
+	rdfs:label "იავური დამწერლობა"@ka ;
+	skos:prefLabel "იავური დამწერლობა"@ka ;
+	schema:name "იავური დამწერლობა"@ka ;
+	rdfs:label "Javanesisk skrift"@sv ;
+	skos:prefLabel "Javanesisk skrift"@sv ;
+	schema:name "Javanesisk skrift"@sv ;
+	rdfs:label "ألفبائية جاوية"@ar ;
+	skos:prefLabel "ألفبائية جاوية"@ar ;
+	schema:name "ألفبائية جاوية"@ar ;
+	rdfs:label "Jaavalainen kirjaimisto"@fi ;
+	skos:prefLabel "Jaavalainen kirjaimisto"@fi ;
+	schema:name "Jaavalainen kirjaimisto"@fi ;
+	rdfs:label "जावाई लिपि"@hi ;
+	skos:prefLabel "जावाई लिपि"@hi ;
+	schema:name "जावाई लिपि"@hi ;
+	rdfs:label "爪哇字母"@zh ;
+	skos:prefLabel "爪哇字母"@zh ;
+	schema:name "爪哇字母"@zh ;
+	rdfs:label "Javanese script"@nl ;
+	skos:prefLabel "Javanese script"@nl ;
+	schema:name "Javanese script"@nl ;
+	rdfs:label "ジャワ文字"@ja ;
+	skos:prefLabel "ジャワ文字"@ja ;
+	schema:name "ジャワ文字"@ja ;
+	rdfs:label "Javanesisk skrift"@nb ;
+	skos:prefLabel "Javanesisk skrift"@nb ;
+	schema:name "Javanesisk skrift"@nb ;
+	rdfs:label "جاوی لپی"@pnb ;
+	skos:prefLabel "جاوی لپی"@pnb ;
+	schema:name "جاوی لپی"@pnb ;
+	rdfs:label "자와 문자"@ko ;
+	skos:prefLabel "자와 문자"@ko ;
+	schema:name "자와 문자"@ko ;
+	rdfs:label "Ιαβανέζικη γραφή"@el ;
+	skos:prefLabel "Ιαβανέζικη γραφή"@el ;
+	schema:name "Ιαβανέζικη γραφή"@el ;
+	rdfs:label "Aksara Jawa"@map-bms ;
+	skos:prefLabel "Aksara Jawa"@map-bms ;
+	schema:name "Aksara Jawa"@map-bms ;
+	rdfs:label "Ява язуы"@tt ;
+	skos:prefLabel "Ява язуы"@tt ;
+	schema:name "Ява язуы"@tt ;
+	rdfs:label "jávai ábécé"@hu ;
+	skos:prefLabel "jávai ábécé"@hu ;
+	schema:name "jávai ábécé"@hu ;
+	rdfs:label "Chữ Java"@vi ;
+	skos:prefLabel "Chữ Java"@vi ;
+	schema:name "Chữ Java"@vi ;
+	rdfs:label "яванське письмо"@uk ;
+	skos:prefLabel "яванське письмо"@uk ;
+	schema:name "яванське письмо"@uk ;
+	rdfs:label "alfabet javanès"@ca ;
+	skos:prefLabel "alfabet javanès"@ca ;
+	schema:name "alfabet javanès"@ca ;
+	rdfs:label "alfabeto javanés"@es ;
+	skos:prefLabel "alfabeto javanés"@es ;
+	schema:name "alfabeto javanés"@es ;
+	rdfs:label "Aksara Carakan Madhurâ"@mad ;
+	skos:prefLabel "Aksara Carakan Madhurâ"@mad ;
+	schema:name "Aksara Carakan Madhurâ"@mad ;
+	rdfs:label "Javanese script"@tr ;
+	skos:prefLabel "Javanese script"@tr ;
+	schema:name "Javanese script"@tr ;
+	rdfs:label "javanische Schrift"@de ;
+	skos:prefLabel "javanische Schrift"@de ;
+	schema:name "javanische Schrift"@de ;
+	rdfs:label "جاوه يي ليکدود"@ps ;
+	skos:prefLabel "جاوه يي ليکدود"@ps ;
+	schema:name "جاوه يي ليکدود"@ps ;
+	rdfs:label "जावाई लिपि"@anp ;
+	skos:prefLabel "जावाई लिपि"@anp ;
+	schema:name "जावाई लिपि"@anp ;
+	rdfs:label "javanska pisava"@sl ;
+	skos:prefLabel "javanska pisava"@sl ;
+	schema:name "javanska pisava"@sl ;
+	schema:description "aksara kang dipigunakaké kanggo nulis basa Jawa"@jv,
+		"aksara yang digunakan untuk menulis bahasa Jawa"@id,
+		"a jávai nyelv ábécéje"@hu,
+		"абугида, используемая для яванского языка"@ru,
+		"writing system used for Javanic languages"@en,
+		"tulisan Jawa"@ms,
+		"système d'écriture utilisé dans plusieurs pays d'Australasie"@fr,
+		"元音附标文字"@zh ;
+	skos:altLabel "Hanacaraka"@pl,
+		"écriture javanaise"@fr,
+		"чаракан"@ru,
+		"Javanese script"@th,
+		"Tulisan Jawa"@ms,
+		"Aksara Jawa"@ms,
+		"Huruf Jawa"@ms,
+		"Abjad Jawa"@ms,
+		"Scrittura giavanese"@it,
+		"خط جاوه ای"@fa,
+		"الفبای جاوهٔ ای"@fa,
+		"خط جاوهٔ ای"@fa,
+		"الفبای جاوه ای"@fa,
+		"Javanesiska tecken"@sv,
+		"Carakan"@sv,
+		"هانتشاراكا"@ar,
+		"هانچاراکا"@ar,
+		"Hanacaraka"@id,
+		"Carakan"@id,
+		"Dentawyanjana"@id,
+		"Javanese abugida"@en,
+		"Aksara Jawa"@en,
+		"Hanacaraka"@en,
+		"Javanese alphabet"@en,
+		"Javanese"@en,
+		"Carakan"@jv,
+		"Dentawyanjana"@jv .
+
+wd:Q32176143 owl:sameAs wd:Q879704 .

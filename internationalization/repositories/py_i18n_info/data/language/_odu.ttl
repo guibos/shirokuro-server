@@ -1,0 +1,161 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3813392 a schema:Dataset ;
+	schema:about wd:Q3813392 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1794736511"^^xsd:integer ;
+	schema:dateModified "2022-12-23T10:00:32Z"^^xsd:dateTime .
+
+wd:Q3813392 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Odual> a schema:Article ;
+	schema:about wd:Q3813392 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Odual"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Odual> a schema:Article ;
+	schema:about wd:Q3813392 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Odual"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiodual> a schema:Article ;
+	schema:about wd:Q3813392 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiodual"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Odual_language> a schema:Article ;
+	schema:about wd:Q3813392 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Odual language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Odual> a schema:Article ;
+	schema:about wd:Q3813392 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Odual"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Odual> a schema:Article ;
+	schema:about wd:Q3813392 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Odual"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9E%D0%B4%D1%83%D0%B0%D0%BB> a schema:Article ;
+	schema:about wd:Q3813392 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Одуал"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Odual_language> a schema:Article ;
+	schema:about wd:Q3813392 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Odual language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3813392 wdt:P220 "odu" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/odu> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "odua1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/odua1238> ;
+	wdt:P1014 "300389013" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389013> ;
+	wdt:P305 "odu" ;
+	wdt:P1627 "odu" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q532153,
+		wd:Q509300,
+		wd:Q503923 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/ODU> ;
+	wdt:P279 wd:Q3813191 ;
+	wdt:P646 "/m/02hwlxy" ;
+	wdt:P910 wd:Q33675069 ;
+	rdfs:label "Kiodual"@sw ;
+	skos:prefLabel "Kiodual"@sw ;
+	schema:name "Kiodual"@sw ;
+	rdfs:label "Lenga Odual"@pms ;
+	skos:prefLabel "Lenga Odual"@pms ;
+	schema:name "Lenga Odual"@pms ;
+	rdfs:label "Odual"@en ;
+	skos:prefLabel "Odual"@en ;
+	schema:name "Odual"@en ;
+	rdfs:label "odual"@ca ;
+	skos:prefLabel "odual"@ca ;
+	schema:name "odual"@ca ;
+	rdfs:label "Odual"@en-gb ;
+	skos:prefLabel "Odual"@en-gb ;
+	schema:name "Odual"@en-gb ;
+	rdfs:label "Wikang Odual"@tl ;
+	skos:prefLabel "Wikang Odual"@tl ;
+	schema:name "Wikang Odual"@tl ;
+	rdfs:label "Odual"@oc ;
+	skos:prefLabel "Odual"@oc ;
+	schema:name "Odual"@oc ;
+	rdfs:label "odual"@fr ;
+	skos:prefLabel "odual"@fr ;
+	schema:name "odual"@fr ;
+	rdfs:label "Одуал"@ru ;
+	skos:prefLabel "Одуал"@ru ;
+	schema:name "Одуал"@ru ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Odual language"@en .

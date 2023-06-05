@@ -1,0 +1,121 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q42508148 a schema:Dataset ;
+	schema:about wd:Q42508148 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961845251"^^xsd:integer ;
+	schema:dateModified "2023-08-26T20:03:01Z"^^xsd:dateTime .
+
+wd:Q42508148 a wikibase:Item .
+
+<https://nl.wikipedia.org/wiki/Nataoraans_Amis> a schema:Article ;
+	schema:about wd:Q42508148 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Nataoraans Amis"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q42508148 wdt:P31 wd:Q5015649 ;
+	wdt:P1098 "+653"^^xsd:decimal ;
+	wdt:P220 "ais" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ais> ;
+	wdt:P1394 "nata1254" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nata1254> ;
+	wdt:P2355 "2036" ;
+	wdt:P910 wd:Q32145341 ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P1627 "ais" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/AIS> ;
+	wdt:P1232 "ais-nat" ;
+	wdt:P10369 "Q51872" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q51872> ;
+	wdt:P305 "ais" ;
+	wdt:P17 wd:Q865 ;
+	rdfs:label "Nataoran"@en ;
+	skos:prefLabel "Nataoran"@en ;
+	schema:name "Nataoran"@en ;
+	rdfs:label "Nataoran Amis jezik"@hr ;
+	skos:prefLabel "Nataoran Amis jezik"@hr ;
+	schema:name "Nataoran Amis jezik"@hr ;
+	rdfs:label "ナタオラン語"@ja ;
+	skos:prefLabel "ナタオラン語"@ja ;
+	schema:name "ナタオラン語"@ja ;
+	rdfs:label "Nataoran"@ilo ;
+	skos:prefLabel "Nataoran"@ilo ;
+	schema:name "Nataoran"@ilo ;
+	rdfs:label "lingua nataoran amis"@it ;
+	skos:prefLabel "lingua nataoran amis"@it ;
+	schema:name "lingua nataoran amis"@it ;
+	rdfs:label "Натаорански јазик"@mk ;
+	skos:prefLabel "Натаорански јазик"@mk ;
+	schema:name "Натаорански јазик"@mk ;
+	rdfs:label "Nataoraans Amis"@nl ;
+	skos:prefLabel "Nataoraans Amis"@nl ;
+	schema:name "Nataoraans Amis"@nl ;
+	rdfs:label "Amanung Nataoran"@pam ;
+	skos:prefLabel "Amanung Nataoran"@pam ;
+	schema:name "Amanung Nataoran"@pam ;
+	rdfs:label "Lenga amis, Nataoran"@pms ;
+	skos:prefLabel "Lenga amis, Nataoran"@pms ;
+	schema:name "Lenga amis, Nataoran"@pms ;
+	rdfs:label "Kiamis-Nataoran"@sw ;
+	skos:prefLabel "Kiamis-Nataoran"@sw ;
+	schema:name "Kiamis-Nataoran"@sw ;
+	rdfs:label "nataoran"@fr ;
+	skos:prefLabel "nataoran"@fr ;
+	schema:name "nataoran"@fr ;
+	rdfs:label "Tataramon na Nataoran"@bcl ;
+	skos:prefLabel "Tataramon na Nataoran"@bcl ;
+	schema:name "Tataramon na Nataoran"@bcl ;
+	rdfs:label "那荳蘭語"@zh ;
+	skos:prefLabel "那荳蘭語"@zh ;
+	schema:name "那荳蘭語"@zh ;
+	schema:description "pagsasao idiay Taiwan"@ilo,
+		"taal"@nl,
+		"langue formosane de l'Est"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Tauraans"@nl,
+		"Nataoraans"@nl,
+		"Natawraans"@nl,
+		"Northern Amis language"@en,
+		"Nataoran language"@en .
+
+wd:Q45901110 owl:sameAs wd:Q42508148 .

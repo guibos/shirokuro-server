@@ -1,0 +1,379 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6370196 a schema:Dataset ;
+	schema:about wd:Q6370196 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912144560"^^xsd:integer ;
+	schema:dateModified "2023-06-10T10:55:18Z"^^xsd:dateTime .
+
+wd:Q6370196 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Karey> a schema:Article ;
+	schema:about wd:Q6370196 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Karey"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Karey> a schema:Article ;
+	schema:about wd:Q6370196 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Karey"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q6370196 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Карейский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikarey> a schema:Article ;
+	schema:about wd:Q6370196 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikarey"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Karey_language> a schema:Article ;
+	schema:about wd:Q6370196 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Karey language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Karey> a schema:Article ;
+	schema:about wd:Q6370196 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Karey"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Karey> a schema:Article ;
+	schema:about wd:Q6370196 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Karey"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_karey> a schema:Article ;
+	schema:about wd:Q6370196 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język karey"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6370196 wdt:P220 "kyd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kyd> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kare1339" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kare1339> ;
+	wdt:P1098 "+2000"^^xsd:decimal ;
+	wdt:P279 wd:Q24286911 ;
+	wdt:P2341 wd:Q24286916,
+		wd:Q5093 ;
+	wdt:P131 wd:Q24286915 ;
+	wdt:P305 "kyd" ;
+	wdt:P1627 "kyd" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KYD> ;
+	wdt:P646 "/m/02hwxpx" ;
+	wdt:P910 wd:Q105715790 ;
+	rdfs:label "Karey"@en ;
+	skos:prefLabel "Karey"@en ;
+	schema:name "Karey"@en ;
+	rdfs:label "Lenga Karey"@pms ;
+	skos:prefLabel "Lenga Karey"@pms ;
+	schema:name "Lenga Karey"@pms ;
+	rdfs:label "Карейский язык"@ru ;
+	skos:prefLabel "Карейский язык"@ru ;
+	schema:name "Карейский язык"@ru ;
+	rdfs:label "Kikarey"@sw ;
+	skos:prefLabel "Kikarey"@sw ;
+	schema:name "Kikarey"@sw ;
+	rdfs:label "Karey"@id ;
+	skos:prefLabel "Karey"@id ;
+	schema:name "Karey"@id ;
+	rdfs:label "Karey"@ilo ;
+	skos:prefLabel "Karey"@ilo ;
+	schema:name "Karey"@ilo ;
+	rdfs:label "Karey"@ace ;
+	skos:prefLabel "Karey"@ace ;
+	schema:name "Karey"@ace ;
+	rdfs:label "Karey"@af ;
+	skos:prefLabel "Karey"@af ;
+	schema:name "Karey"@af ;
+	rdfs:label "Karey"@an ;
+	skos:prefLabel "Karey"@an ;
+	schema:name "Karey"@an ;
+	rdfs:label "Karey"@ast ;
+	skos:prefLabel "Karey"@ast ;
+	schema:name "Karey"@ast ;
+	rdfs:label "Karey"@bar ;
+	skos:prefLabel "Karey"@bar ;
+	schema:name "Karey"@bar ;
+	rdfs:label "karey"@br ;
+	skos:prefLabel "karey"@br ;
+	schema:name "karey"@br ;
+	rdfs:label "karey"@ca ;
+	skos:prefLabel "karey"@ca ;
+	schema:name "karey"@ca ;
+	rdfs:label "Karey"@co ;
+	skos:prefLabel "Karey"@co ;
+	schema:name "Karey"@co ;
+	rdfs:label "Karey"@cs ;
+	skos:prefLabel "Karey"@cs ;
+	schema:name "Karey"@cs ;
+	rdfs:label "Karey"@cy ;
+	skos:prefLabel "Karey"@cy ;
+	schema:name "Karey"@cy ;
+	rdfs:label "Karey"@da ;
+	skos:prefLabel "Karey"@da ;
+	schema:name "Karey"@da ;
+	rdfs:label "Karey"@de ;
+	skos:prefLabel "Karey"@de ;
+	schema:name "Karey"@de ;
+	rdfs:label "Karey"@de-at ;
+	skos:prefLabel "Karey"@de-at ;
+	schema:name "Karey"@de-at ;
+	rdfs:label "Karey"@de-ch ;
+	skos:prefLabel "Karey"@de-ch ;
+	schema:name "Karey"@de-ch ;
+	rdfs:label "Karey"@en-ca ;
+	skos:prefLabel "Karey"@en-ca ;
+	schema:name "Karey"@en-ca ;
+	rdfs:label "Karey"@en-gb ;
+	skos:prefLabel "Karey"@en-gb ;
+	schema:name "Karey"@en-gb ;
+	rdfs:label "Karey"@eo ;
+	skos:prefLabel "Karey"@eo ;
+	schema:name "Karey"@eo ;
+	rdfs:label "Karey"@es ;
+	skos:prefLabel "Karey"@es ;
+	schema:name "Karey"@es ;
+	rdfs:label "Karey"@et ;
+	skos:prefLabel "Karey"@et ;
+	schema:name "Karey"@et ;
+	rdfs:label "Karey"@eu ;
+	skos:prefLabel "Karey"@eu ;
+	schema:name "Karey"@eu ;
+	rdfs:label "Karey"@fi ;
+	skos:prefLabel "Karey"@fi ;
+	schema:name "Karey"@fi ;
+	rdfs:label "karey"@fr ;
+	skos:prefLabel "karey"@fr ;
+	schema:name "karey"@fr ;
+	rdfs:label "Karey"@frp ;
+	skos:prefLabel "Karey"@frp ;
+	schema:name "Karey"@frp ;
+	rdfs:label "Karey"@fur ;
+	skos:prefLabel "Karey"@fur ;
+	schema:name "Karey"@fur ;
+	rdfs:label "Karey"@ga ;
+	skos:prefLabel "Karey"@ga ;
+	schema:name "Karey"@ga ;
+	rdfs:label "Karey"@gd ;
+	skos:prefLabel "Karey"@gd ;
+	schema:name "Karey"@gd ;
+	rdfs:label "Karey"@gl ;
+	skos:prefLabel "Karey"@gl ;
+	schema:name "Karey"@gl ;
+	rdfs:label "Karey"@gsw ;
+	skos:prefLabel "Karey"@gsw ;
+	schema:name "Karey"@gsw ;
+	rdfs:label "Karey"@hr ;
+	skos:prefLabel "Karey"@hr ;
+	schema:name "Karey"@hr ;
+	rdfs:label "Karey"@hu ;
+	skos:prefLabel "Karey"@hu ;
+	schema:name "Karey"@hu ;
+	rdfs:label "Karey"@ia ;
+	skos:prefLabel "Karey"@ia ;
+	schema:name "Karey"@ia ;
+	rdfs:label "Karey"@ie ;
+	skos:prefLabel "Karey"@ie ;
+	schema:name "Karey"@ie ;
+	rdfs:label "Karey"@io ;
+	skos:prefLabel "Karey"@io ;
+	schema:name "Karey"@io ;
+	rdfs:label "Karey"@is ;
+	skos:prefLabel "Karey"@is ;
+	schema:name "Karey"@is ;
+	rdfs:label "karey"@it ;
+	skos:prefLabel "karey"@it ;
+	schema:name "karey"@it ;
+	rdfs:label "Karey"@jv ;
+	skos:prefLabel "Karey"@jv ;
+	schema:name "Karey"@jv ;
+	rdfs:label "Karey"@kg ;
+	skos:prefLabel "Karey"@kg ;
+	schema:name "Karey"@kg ;
+	rdfs:label "Karey"@lb ;
+	skos:prefLabel "Karey"@lb ;
+	schema:name "Karey"@lb ;
+	rdfs:label "Karey"@li ;
+	skos:prefLabel "Karey"@li ;
+	schema:name "Karey"@li ;
+	rdfs:label "Karey"@lij ;
+	skos:prefLabel "Karey"@lij ;
+	schema:name "Karey"@lij ;
+	rdfs:label "Karey"@mg ;
+	skos:prefLabel "Karey"@mg ;
+	schema:name "Karey"@mg ;
+	rdfs:label "Karey"@min ;
+	skos:prefLabel "Karey"@min ;
+	schema:name "Karey"@min ;
+	rdfs:label "Karey"@ms ;
+	skos:prefLabel "Karey"@ms ;
+	schema:name "Karey"@ms ;
+	rdfs:label "Karey"@nap ;
+	skos:prefLabel "Karey"@nap ;
+	schema:name "Karey"@nap ;
+	rdfs:label "Karey"@nb ;
+	skos:prefLabel "Karey"@nb ;
+	schema:name "Karey"@nb ;
+	rdfs:label "Karey"@nds ;
+	skos:prefLabel "Karey"@nds ;
+	schema:name "Karey"@nds ;
+	rdfs:label "Karey"@nds-nl ;
+	skos:prefLabel "Karey"@nds-nl ;
+	schema:name "Karey"@nds-nl ;
+	rdfs:label "Karey"@nl ;
+	skos:prefLabel "Karey"@nl ;
+	schema:name "Karey"@nl ;
+	rdfs:label "Karey"@nn ;
+	skos:prefLabel "Karey"@nn ;
+	schema:name "Karey"@nn ;
+	rdfs:label "Karey"@nrm ;
+	skos:prefLabel "Karey"@nrm ;
+	schema:name "Karey"@nrm ;
+	rdfs:label "Karey"@oc ;
+	skos:prefLabel "Karey"@oc ;
+	schema:name "Karey"@oc ;
+	rdfs:label "Karey"@pcd ;
+	skos:prefLabel "Karey"@pcd ;
+	schema:name "Karey"@pcd ;
+	rdfs:label "język karey"@pl ;
+	skos:prefLabel "język karey"@pl ;
+	schema:name "język karey"@pl ;
+	rdfs:label "Karey"@pt ;
+	skos:prefLabel "Karey"@pt ;
+	schema:name "Karey"@pt ;
+	rdfs:label "Karey"@pt-br ;
+	skos:prefLabel "Karey"@pt-br ;
+	schema:name "Karey"@pt-br ;
+	rdfs:label "Karey"@rm ;
+	skos:prefLabel "Karey"@rm ;
+	schema:name "Karey"@rm ;
+	rdfs:label "Karey"@ro ;
+	skos:prefLabel "Karey"@ro ;
+	schema:name "Karey"@ro ;
+	rdfs:label "Karey"@sc ;
+	skos:prefLabel "Karey"@sc ;
+	schema:name "Karey"@sc ;
+	rdfs:label "Karey"@scn ;
+	skos:prefLabel "Karey"@scn ;
+	schema:name "Karey"@scn ;
+	rdfs:label "Karey"@sco ;
+	skos:prefLabel "Karey"@sco ;
+	schema:name "Karey"@sco ;
+	rdfs:label "Karey"@sk ;
+	skos:prefLabel "Karey"@sk ;
+	schema:name "Karey"@sk ;
+	rdfs:label "Karey"@sl ;
+	skos:prefLabel "Karey"@sl ;
+	schema:name "Karey"@sl ;
+	rdfs:label "Karey"@sr-el ;
+	skos:prefLabel "Karey"@sr-el ;
+	schema:name "Karey"@sr-el ;
+	rdfs:label "Karey"@su ;
+	skos:prefLabel "Karey"@su ;
+	schema:name "Karey"@su ;
+	rdfs:label "Karey"@sv ;
+	skos:prefLabel "Karey"@sv ;
+	schema:name "Karey"@sv ;
+	rdfs:label "Karey"@vec ;
+	skos:prefLabel "Karey"@vec ;
+	schema:name "Karey"@vec ;
+	rdfs:label "Karey"@vi ;
+	skos:prefLabel "Karey"@vi ;
+	schema:name "Karey"@vi ;
+	rdfs:label "Karey"@vls ;
+	skos:prefLabel "Karey"@vls ;
+	schema:name "Karey"@vls ;
+	rdfs:label "Karey"@vo ;
+	skos:prefLabel "Karey"@vo ;
+	schema:name "Karey"@vo ;
+	rdfs:label "Karey"@wa ;
+	skos:prefLabel "Karey"@wa ;
+	schema:name "Karey"@wa ;
+	rdfs:label "Karey"@wo ;
+	skos:prefLabel "Karey"@wo ;
+	schema:name "Karey"@wo ;
+	rdfs:label "Karey"@zu ;
+	skos:prefLabel "Karey"@zu ;
+	schema:name "Karey"@zu ;
+	rdfs:label "Wikang Karey"@tl ;
+	skos:prefLabel "Wikang Karey"@tl ;
+	schema:name "Wikang Karey"@tl ;
+	rdfs:label "Tataramon na Karey"@bcl ;
+	skos:prefLabel "Tataramon na Karey"@bcl ;
+	schema:name "Tataramon na Karey"@bcl ;
+	schema:description "Sprache"@de,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"pagsasao idiay Indonesia"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl ;
+	skos:altLabel "Karey language"@en,
+		"Bahasa Karey"@id .
+
+wd:Q31441661 owl:sameAs wd:Q6370196 .

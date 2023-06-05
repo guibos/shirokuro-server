@@ -1,0 +1,141 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7680531 a schema:Dataset ;
+	schema:about wd:Q7680531 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960503917"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:14:25Z"^^xsd:dateTime .
+
+wd:Q7680531 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Tamagario_language> a schema:Article ;
+	schema:about wd:Q7680531 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Tamagario language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Tamagario> a schema:Article ;
+	schema:about wd:Q7680531 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Tamagario"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Tamagario> a schema:Article ;
+	schema:about wd:Q7680531 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Tamagario"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitamagario> a schema:Article ;
+	schema:about wd:Q7680531 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitamagario"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Tamagario> a schema:Article ;
+	schema:about wd:Q7680531 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Tamagario"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7680531 wdt:P220 "tcg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tcg> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "tama1336" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tama1336> ;
+	wdt:P2590 "1127 1" ;
+	wdt:P17 wd:Q252 ;
+	wdt:P1466 "tmg" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_tmg> ;
+	wdt:P305 "tcg" ;
+	wdt:P1627 "tcg" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q5095 ;
+	wdt:P646 "/m/02hwj0v" ;
+	rdfs:label "Tamagario"@en ;
+	skos:prefLabel "Tamagario"@en ;
+	schema:name "Tamagario"@en ;
+	rdfs:label "Lenga Tamagario"@pms ;
+	skos:prefLabel "Lenga Tamagario"@pms ;
+	schema:name "Lenga Tamagario"@pms ;
+	rdfs:label "tamagario"@fr ;
+	skos:prefLabel "tamagario"@fr ;
+	schema:name "tamagario"@fr ;
+	rdfs:label "Tamagario"@de ;
+	skos:prefLabel "Tamagario"@de ;
+	schema:name "Tamagario"@de ;
+	rdfs:label "Kitamagario"@sw ;
+	skos:prefLabel "Kitamagario"@sw ;
+	schema:name "Kitamagario"@sw ;
+	rdfs:label "Tamagario"@id ;
+	skos:prefLabel "Tamagario"@id ;
+	schema:name "Tamagario"@id ;
+	rdfs:label "Tamagario"@ilo ;
+	skos:prefLabel "Tamagario"@ilo ;
+	schema:name "Tamagario"@ilo ;
+	rdfs:label "Tamagario"@en-gb ;
+	skos:prefLabel "Tamagario"@en-gb ;
+	schema:name "Tamagario"@en-gb ;
+	rdfs:label "Język tamagario"@pl ;
+	skos:prefLabel "Język tamagario"@pl ;
+	schema:name "Język tamagario"@pl ;
+	schema:description "Sprache"@de,
+		"langue papoue parlée en Indonésie"@fr,
+		"Papuan language of West Papua"@en,
+		"bahasa di Papua Barat"@id,
+		"שפה"@he,
+		"pagsasao idiay Indonesia"@ilo,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Tamaraw language"@en,
+		"Wiyagar language"@en,
+		"Tamagario language"@en,
+		"bahasa Tamaraw"@id,
+		"bahasa Wiyagar"@id .
+
+wd:Q11732674 owl:sameAs wd:Q7680531 .

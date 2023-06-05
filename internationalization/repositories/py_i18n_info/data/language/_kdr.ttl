@@ -1,0 +1,677 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33725 a schema:Dataset ;
+	schema:about wd:Q33725 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1915470881"^^xsd:integer ;
+	schema:dateModified "2023-06-15T01:53:59Z"^^xsd:dateTime .
+
+wd:Q33725 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_karaim> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga karaim"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Qaraim_tili> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Qaraim tili"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D0%B8%D0%BC%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Караимский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D1%97%D0%BC%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Караїмська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cv.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D0%B8%D0%BC_%D1%87%C4%95%D0%BB%D1%85%D0%B8> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "cv" ;
+	schema:isPartOf <https://cv.wikipedia.org/> ;
+	schema:name "Караим чĕлхи"@cv .
+
+<https://cv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hsb.wikipedia.org/wiki/Karaim%C5%A1%C4%87ina> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "hsb" ;
+	schema:isPartOf <https://hsb.wikipedia.org/> ;
+	schema:name "Karaimšćina"@hsb .
+
+<https://hsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Karaim_language> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Karaim language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B9%84%E0%B8%A3%E0%B8%A1%E0%B9%8C> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาคาไรม์"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://crh.wikipedia.org/wiki/Qaray_tili> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "crh-Latn" ;
+	schema:isPartOf <https://crh.wikipedia.org/> ;
+	schema:name "Qaray tili"@crh-Latn .
+
+<https://crh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Karaimski_jezik> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Karaimski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_karaim> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua karaim"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szl.wikipedia.org/wiki/Karaimsk%C5%8F_g%C5%8Fdka> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "szl" ;
+	schema:isPartOf <https://szl.wikipedia.org/> ;
+	schema:name "Karaimskŏ gŏdka"@szl .
+
+<https://szl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bat-smg.wikipedia.org/wiki/Karaimu_kalba> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "sgs" ;
+	schema:isPartOf <https://bat-smg.wikipedia.org/> ;
+	schema:name "Karaimu kalba"@sgs .
+
+<https://bat-smg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%A7%D7%A8%D7%90%D7%99%D7%9E%D7%99%D7%AA> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "קראימית"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D0%B8%D0%BC%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Караимски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%A9%E3%82%A4%E3%83%A0%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "カライム語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D4%BF%D5%A1%D6%80%D5%A1%D5%AB%D5%B4%D5%A5%D6%80%D5%A5%D5%B6> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Կարաիմերեն"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Karaimische_Sprache> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Karaimische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_caraima> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua caraima"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/K%C9%99raim_dili> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Kəraim dili"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Karaim%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Karaimų kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Karayca> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Karayca"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lad.wikipedia.org/wiki/Karaimit> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "lad" ;
+	schema:isPartOf <https://lad.wikipedia.org/> ;
+	schema:name "Karaimit"@lad .
+
+<https://lad.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Karaimiska> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Karaimiska"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kk.wikipedia.org/wiki/%D2%9A%D0%B0%D1%80%D0%B0%D0%B9%D1%8B%D0%BC_%D1%82%D1%96%D0%BB%D1%96> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "kk" ;
+	schema:isPartOf <https://kk.wikipedia.org/> ;
+	schema:name "Қарайым тілі"@kk .
+
+<https://kk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_karaimski> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język karaimski"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ky.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D0%B9%D1%8B%D0%BC_%D1%82%D0%B8%D0%BB%D0%B8> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "ky" ;
+	schema:isPartOf <https://ky.wikipedia.org/> ;
+	schema:name "Карайым тили"@ky .
+
+<https://ky.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sah.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D0%B8%D0%BC_%D1%82%D1%8B%D0%BB%D0%BB%D0%B0%D1%80%D0%B0> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "sah" ;
+	schema:isPartOf <https://sah.wikipedia.org/> ;
+	schema:name "Караим тыллара"@sah .
+
+<https://sah.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Karaiimi_keel> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Karaiimi keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Karaim> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Karaim"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Kara%C3%AFm> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Karaïm"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Kara%C3%AFm> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Karaïm"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D9%82%D8%A7%D8%B1%D8%A7%DB%8C_%D8%AA%D9%88%D8%B1%DA%A9%D8%AC%D9%87%E2%80%8C%D8%B3%DB%8C> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "قارای تورکجه‌سی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gag.wikipedia.org/wiki/Karaim_dili> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "gag" ;
+	schema:isPartOf <https://gag.wikipedia.org/> ;
+	schema:name "Karaim dili"@gag .
+
+<https://gag.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Karaima_lingvo> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Karaima lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Karaimeg> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Karaimeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%AF%E0%A6%BC_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "কারায় ভাষা"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D0%B8%D0%BC_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Караим теле"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Karaiimin_kieli> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Karaiimin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%B9%B4%EB%9D%BC%EC%9E%84%EC%96%B4> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "카라임어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%DA%A9%D8%A7%D8%B1%D8%A7%DB%8C%DB%8C%D9%85> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان کاراییم"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ba.wikipedia.org/wiki/%D2%A0%D0%B0%D1%80%D0%B0%D0%B8%D0%BC_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "ba" ;
+	schema:isPartOf <https://ba.wikipedia.org/> ;
+	schema:name "Ҡараим теле"@ba .
+
+<https://ba.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Karaitica> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Karaitica"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cdo.wikipedia.org/wiki/Karaim-ng%E1%B9%B3%CC%84> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "cdo" ;
+	schema:isPartOf <https://cdo.wikipedia.org/> ;
+	schema:name "Karaim-ngṳ̄"@cdo .
+
+<https://cdo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D1%96%D0%BC%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Караімская мова"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%8D%A1%E6%8B%89%E4%BC%8A%E5%A7%86%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33725 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "卡拉伊姆語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33725 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "kdr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kdr> ;
+	wdt:P349 "00565030" ;
+	wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00565030> ;
+	wdt:P646 "/m/033r5w" ;
+	wdt:P305 "kdr" ;
+	wdt:P282 wd:Q106644552,
+		wd:Q8229,
+		wd:Q8209 ;
+	wdt:P279 wd:Q4370412,
+		wd:Q615948 ;
+	wdt:P1627 "kdr" ;
+	wdt:P1098 "+80"^^xsd:decimal ;
+	wdt:P910 wd:Q9575752 ;
+	wdt:P1394 "kara1464" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kara1464> ;
+	wdt:P278 "каи 270" ;
+	wdt:P2355 "341",
+		"369",
+		"379" ;
+	wdt:P1417 "topic/Karaim-language" ;
+	wdt:P4132 wd:Q171263,
+		wd:Q651641 ;
+	wdt:P1466 "krm" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_krm> ;
+	wdt:P2581 "03559270n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s03559270n> ;
+	wdt:P2924 "2044407" ;
+	wdt:P2192 "2366" ;
+	wdt:P17 wd:Q37,
+		wd:Q36,
+		wd:Q7835 ;
+	wdt:P2341 wd:Q720982,
+		wd:Q1987743 ;
+	wdt:P2989 wd:Q131105,
+		wd:Q145599,
+		wd:Q192997,
+		wd:Q156986,
+		wd:Q146078,
+		wd:Q146233,
+		wd:Q202142 ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P4613 "9606" ;
+	wdt:P1438 "11971" ;
+	wdt:P1245 "546289" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KDR> ;
+	wdt:P9498 "6c96" ;
+	wdt:P7666 "karaimu-kalba" ;
+	wdt:P2347 "16075" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p16075> ;
+	wdt:P691 "ph457470" ;
+	wdt:P7305 "3920242" ;
+	rdfs:label "Lenga karaim"@pms ;
+	skos:prefLabel "Lenga karaim"@pms ;
+	schema:name "Lenga karaim"@pms ;
+	rdfs:label "język karaimski"@pl ;
+	skos:prefLabel "język karaimski"@pl ;
+	schema:name "język karaimski"@pl ;
+	rdfs:label "קראימית"@he ;
+	skos:prefLabel "קראימית"@he ;
+	schema:name "קראימית"@he ;
+	rdfs:label "카라임어"@ko ;
+	skos:prefLabel "카라임어"@ko ;
+	schema:name "카라임어"@ko ;
+	rdfs:label "karaïm"@fr ;
+	skos:prefLabel "karaïm"@fr ;
+	schema:name "karaïm"@fr ;
+	rdfs:label "Qaraim tili"@uz ;
+	skos:prefLabel "Qaraim tili"@uz ;
+	schema:name "Qaraim tili"@uz ;
+	rdfs:label "Karaimit"@lad ;
+	skos:prefLabel "Karaimit"@lad ;
+	schema:name "Karaimit"@lad ;
+	rdfs:label "Karaim dili"@gag ;
+	skos:prefLabel "Karaim dili"@gag ;
+	schema:name "Karaim dili"@gag ;
+	rdfs:label "lingua caraima"@it ;
+	skos:prefLabel "lingua caraima"@it ;
+	schema:name "lingua caraima"@it ;
+	rdfs:label "Karaimisch"@de ;
+	skos:prefLabel "Karaimisch"@de ;
+	schema:name "Karaimisch"@de ;
+	rdfs:label "カライム語"@ja ;
+	skos:prefLabel "カライム語"@ja ;
+	schema:name "カライム語"@ja ;
+	rdfs:label "karaimeg"@br ;
+	skos:prefLabel "karaimeg"@br ;
+	schema:name "karaimeg"@br ;
+	rdfs:label "Qaray tili"@crh-latn ;
+	skos:prefLabel "Qaray tili"@crh-latn ;
+	schema:name "Qaray tili"@crh-latn ;
+	rdfs:label "Karaimiska"@sv ;
+	skos:prefLabel "Karaimiska"@sv ;
+	schema:name "Karaimiska"@sv ;
+	rdfs:label "karaim"@pt ;
+	skos:prefLabel "karaim"@pt ;
+	schema:name "karaim"@pt ;
+	rdfs:label "karaima lingvo"@eo ;
+	skos:prefLabel "karaima lingvo"@eo ;
+	schema:name "karaima lingvo"@eo ;
+	rdfs:label "караимский язык"@ru ;
+	skos:prefLabel "караимский язык"@ru ;
+	schema:name "караимский язык"@ru ;
+	rdfs:label "Караим теле"@tt ;
+	skos:prefLabel "Караим теле"@tt ;
+	schema:name "Караим теле"@tt ;
+	rdfs:label "կարաիմերեն"@hy ;
+	skos:prefLabel "կարաիմերեն"@hy ;
+	schema:name "կարաիմերեն"@hy ;
+	rdfs:label "Karaim"@en ;
+	skos:prefLabel "Karaim"@en ;
+	schema:name "Karaim"@en ;
+	rdfs:label "Караим чĕлхи"@cv ;
+	skos:prefLabel "Караим чĕлхи"@cv ;
+	schema:name "Караим чĕлхи"@cv ;
+	rdfs:label "Karayca"@tr ;
+	skos:prefLabel "Karayca"@tr ;
+	schema:name "Karayca"@tr ;
+	rdfs:label "ภาษาคาไรม์"@th ;
+	skos:prefLabel "ภาษาคาไรม์"@th ;
+	schema:name "ภาษาคาไรม์"@th ;
+	rdfs:label "caraïta"@ca ;
+	skos:prefLabel "caraïta"@ca ;
+	schema:name "caraïta"@ca ;
+	rdfs:label "Караимски јазик"@mk ;
+	skos:prefLabel "Караимски јазик"@mk ;
+	schema:name "Караимски јазик"@mk ;
+	rdfs:label "Karaiimin kieli"@fi ;
+	skos:prefLabel "Karaiimin kieli"@fi ;
+	schema:name "Karaiimin kieli"@fi ;
+	rdfs:label "караїмська мова"@uk ;
+	skos:prefLabel "караїмська мова"@uk ;
+	schema:name "караїмська мова"@uk ;
+	rdfs:label "Karaimu kalba"@sgs ;
+	skos:prefLabel "Karaimu kalba"@sgs ;
+	schema:name "Karaimu kalba"@sgs ;
+	rdfs:label "Karaimski jezik"@hr ;
+	skos:prefLabel "Karaimski jezik"@hr ;
+	schema:name "Karaimski jezik"@hr ;
+	rdfs:label "Karaimų kalba"@lt ;
+	skos:prefLabel "Karaimų kalba"@lt ;
+	schema:name "Karaimų kalba"@lt ;
+	rdfs:label "Қарайым тілі"@kk ;
+	skos:prefLabel "Қарайым тілі"@kk ;
+	schema:name "Қарайым тілі"@kk ;
+	rdfs:label "Karaïm"@oc ;
+	skos:prefLabel "Karaïm"@oc ;
+	schema:name "Karaïm"@oc ;
+	rdfs:label "Kəraim dili"@az ;
+	skos:prefLabel "Kəraim dili"@az ;
+	schema:name "Kəraim dili"@az ;
+	rdfs:label "Караим тыллара"@sah ;
+	skos:prefLabel "Караим тыллара"@sah ;
+	schema:name "Караим тыллара"@sah ;
+	rdfs:label "Karaimskŏ gŏdka"@szl ;
+	skos:prefLabel "Karaimskŏ gŏdka"@szl ;
+	schema:name "Karaimskŏ gŏdka"@szl ;
+	rdfs:label "卡拉伊姆語"@zh ;
+	skos:prefLabel "卡拉伊姆語"@zh ;
+	schema:name "卡拉伊姆語"@zh ;
+	rdfs:label "Karaim"@en-gb ;
+	skos:prefLabel "Karaim"@en-gb ;
+	schema:name "Karaim"@en-gb ;
+	rdfs:label "karaim"@es ;
+	skos:prefLabel "karaim"@es ;
+	schema:name "karaim"@es ;
+	rdfs:label "karaim"@eu ;
+	skos:prefLabel "karaim"@eu ;
+	schema:name "karaim"@eu ;
+	rdfs:label "کاراییم تورکجه‌سی"@azb ;
+	skos:prefLabel "کاراییم تورکجه‌سی"@azb ;
+	schema:name "کاراییم تورکجه‌سی"@azb ;
+	rdfs:label "Bahasa Karaim"@id ;
+	skos:prefLabel "Bahasa Karaim"@id ;
+	schema:name "Bahasa Karaim"@id ;
+	rdfs:label "Karaimšćina"@hsb ;
+	skos:prefLabel "Karaimšćina"@hsb ;
+	schema:name "Karaimšćina"@hsb ;
+	rdfs:label "Qaray tili"@crh ;
+	skos:prefLabel "Qaray tili"@crh ;
+	schema:name "Qaray tili"@crh ;
+	rdfs:label "کرائیم"@fa ;
+	skos:prefLabel "کرائیم"@fa ;
+	schema:name "کرائیم"@fa ;
+	rdfs:label "Карайым тили"@ky ;
+	skos:prefLabel "Карайым тили"@ky ;
+	schema:name "Карайым тили"@ky ;
+	rdfs:label "Karaïms"@nl ;
+	skos:prefLabel "Karaïms"@nl ;
+	schema:name "Karaïms"@nl ;
+	rdfs:label "কারায় ভাষা"@bn ;
+	skos:prefLabel "কারায় ভাষা"@bn ;
+	schema:name "কারায় ভাষা"@bn ;
+	rdfs:label "Karaiimi keel"@et ;
+	skos:prefLabel "Karaiimi keel"@et ;
+	schema:name "Karaiimi keel"@et ;
+	rdfs:label "Ҡараим теле"@ba ;
+	skos:prefLabel "Ҡараим теле"@ba ;
+	schema:name "Ҡараим теле"@ba ;
+	rdfs:label "καραϊμική γλώσσα"@el ;
+	skos:prefLabel "καραϊμική γλώσσα"@el ;
+	schema:name "καραϊμική γλώσσα"@el ;
+	rdfs:label "караімская мова"@be ;
+	skos:prefLabel "караімская мова"@be ;
+	schema:name "караімская мова"@be ;
+	rdfs:label "caraima"@vec ;
+	skos:prefLabel "caraima"@vec ;
+	schema:name "caraima"@vec ;
+	rdfs:label "karaim"@hu ;
+	skos:prefLabel "karaim"@hu ;
+	schema:name "karaim"@hu ;
+	rdfs:label "Lingua Karaitica"@la ;
+	skos:prefLabel "Lingua Karaitica"@la ;
+	schema:name "Lingua Karaitica"@la ;
+	rdfs:label "karaimština"@cs ;
+	skos:prefLabel "karaimština"@cs ;
+	schema:name "karaimština"@cs ;
+	rdfs:label "Karaim-ngṳ̄"@cdo ;
+	skos:prefLabel "Karaim-ngṳ̄"@cdo ;
+	schema:name "Karaim-ngṳ̄"@cdo ;
+	schema:description "Sprache"@de,
+		"lingua turca parlata in Lituania e Ucraina"@it,
+		"Turkic language spoken by the Crimean Karaites"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"lengua túrquica con influencias hebreas"@es,
+		"langue turcique avec des influences hébraïques"@fr,
+		"língua turcomana influenciada pela língua hebraica"@pt,
+		"desagertzeko zorian dagoen Krimea aldeko hizkuntza. Turkieraren familiakoa, hebreera hizkuntzarekin nolabaiteko harremana."@eu,
+		"yezh"@br,
+		"język z rodziny turkijskiej używany w Europie wschodniej"@pl,
+		"lingua"@la,
+		"iaith"@cy,
+		"төрөк телдәренең ҡыпсаҡ төркөмө, өс диалекты бар"@ba,
+		"kieli"@fi,
+		"Türkçe dilinin bir lehçesi"@tr,
+		"nordvästligt turkspråk"@sv,
+		"тюркська мова караїмів"@uk,
+		"török nyelv, ami a héber ábécét használna"@hu,
+		"llengua turquesa de Lituània i Ucraïna"@ca,
+		"bagian dari rumpun bahasa Turkik"@id ;
+	skos:altLabel "לשון קדר"@he,
+		"Karaim"@fr,
+		"langue karaim"@fr,
+		"karaïme"@fr,
+		"caraïte"@fr,
+		"charaïme"@fr,
+		"Karaim"@it,
+		"lingua karaima"@it,
+		"Karaimska"@sv,
+		"Karaim"@sv,
+		"караимский"@ru,
+		"Karay dili"@tr,
+		"Karay Türkçesi"@tr,
+		"Karaimce"@tr,
+		"Karaiimi"@fi,
+		"Karaimi"@fi,
+		"Karaimski"@hr,
+		"Karaim language"@en,
+		"caraim"@es,
+		"karaimische Sprache"@de,
+		"língua karaim"@pt,
+		"język karaicki"@pl,
+		"卡拉因語"@zh,
+		"卡拉姆語"@zh .
+
+wd:Q25578450 owl:sameAs wd:Q33725 .

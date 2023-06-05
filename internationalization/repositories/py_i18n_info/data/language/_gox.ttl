@@ -1,0 +1,114 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7194986 a schema:Dataset ;
+	schema:about wd:Q7194986 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1412365455"^^xsd:integer ;
+	schema:dateModified "2021-05-01T12:44:08Z"^^xsd:dateTime .
+
+wd:Q7194986 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Gobu> a schema:Article ;
+	schema:about wd:Q7194986 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Gobu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigobu> a schema:Article ;
+	schema:about wd:Q7194986 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigobu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Gubu> a schema:Article ;
+	schema:about wd:Q7194986 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Gubu"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7194986 wdt:P220 "gox" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gox> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "gobu1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gobu1238> ;
+	wdt:P279 wd:Q33932 ;
+	wdt:P305 "gox" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P1627 "gox" ;
+	wdt:P17 wd:Q929,
+		wd:Q974 ;
+	wdt:P2341 wd:Q988104,
+		wd:Q3832,
+		wd:Q848560 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GOX> ;
+	wdt:P646 "/m/02hxsbt" ;
+	rdfs:label "Kigobu"@sw ;
+	skos:prefLabel "Kigobu"@sw ;
+	schema:name "Kigobu"@sw ;
+	rdfs:label "Lenga Gobu"@pms ;
+	skos:prefLabel "Lenga Gobu"@pms ;
+	schema:name "Lenga Gobu"@pms ;
+	rdfs:label "Gubu"@fi ;
+	skos:prefLabel "Gubu"@fi ;
+	schema:name "Gubu"@fi ;
+	rdfs:label "Gobu"@en ;
+	skos:prefLabel "Gobu"@en ;
+	schema:name "Gobu"@en ;
+	rdfs:label "Gobu"@en-gb ;
+	skos:prefLabel "Gobu"@en-gb ;
+	schema:name "Gobu"@en-gb ;
+	rdfs:label "gobu"@fr ;
+	skos:prefLabel "gobu"@fr ;
+	schema:name "gobu"@fr ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue oubanguienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kigubu"@sw,
+		"Gobu"@fi,
+		"Gobu language"@en .
+
+wd:Q11860714 owl:sameAs wd:Q7194986 .

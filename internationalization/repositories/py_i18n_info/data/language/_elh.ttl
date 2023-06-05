@@ -1,0 +1,108 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5351410 a schema:Dataset ;
+	schema:about wd:Q5351410 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616011561"^^xsd:integer ;
+	schema:dateModified "2022-04-10T14:06:38Z"^^xsd:dateTime .
+
+wd:Q5351410 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_El_Hugeirat> a schema:Article ;
+	schema:about wd:Q5351410 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga El Hugeirat"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kielhugeirat> a schema:Article ;
+	schema:about wd:Q5351410 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kielhugeirat"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/El_Hugeirat_language> a schema:Article ;
+	schema:about wd:Q5351410 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "El Hugeirat language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5351410 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "elh" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/elh> ;
+	wdt:P2355 "75" ;
+	wdt:P1394 "elhu1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/elhu1238> ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P2192 "4122" ;
+	wdt:P279 wd:Q1517194 ;
+	wdt:P305 "elh" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P1627 "elh" ;
+	wdt:P17 wd:Q1049 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/ELH> ;
+	wdt:P646 "/m/02hw_c3" ;
+	rdfs:label "El Hugeirat"@en ;
+	skos:prefLabel "El Hugeirat"@en ;
+	schema:name "El Hugeirat"@en ;
+	rdfs:label "Lenga El Hugeirat"@pms ;
+	skos:prefLabel "Lenga El Hugeirat"@pms ;
+	schema:name "Lenga El Hugeirat"@pms ;
+	rdfs:label "Kielhugeirat"@sw ;
+	skos:prefLabel "Kielhugeirat"@sw ;
+	schema:name "Kielhugeirat"@sw ;
+	rdfs:label "El Hugeirat"@en-gb ;
+	skos:prefLabel "El Hugeirat"@en-gb ;
+	schema:name "El Hugeirat"@en-gb ;
+	rdfs:label "el hugeirat"@fr ;
+	skos:prefLabel "el hugeirat"@fr ;
+	schema:name "el hugeirat"@fr ;
+	schema:description "שפה"@he,
+		"language"@en,
+		"yezh"@br,
+		"langue nubienne"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "El Hugeirat language"@en .
+
+wd:Q30588079 owl:sameAs wd:Q5351410 .

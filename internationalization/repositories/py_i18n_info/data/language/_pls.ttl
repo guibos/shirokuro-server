@@ -1,0 +1,109 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12641692 a schema:Dataset ;
+	schema:about wd:Q12641692 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1827872021"^^xsd:integer ;
+	schema:dateModified "2023-02-06T17:51:48Z"^^xsd:dateTime .
+
+wd:Q12641692 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_popoloca,_San_Marcos_tlalcoyalco> a schema:Article ;
+	schema:about wd:Q12641692 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga popoloca, San Marcos tlalcoyalco"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Popolokeg_San_Marcos_Tlalcoyalco> a schema:Article ;
+	schema:about wd:Q12641692 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Popolokeg San Marcos Tlalcoyalco"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/San_Marcos_Tlalcoyalco_Popoloca_jezik> a schema:Article ;
+	schema:about wd:Q12641692 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "San Marcos Tlalcoyalco Popoloca jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12641692 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "pls" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pls> ;
+	wdt:P1394 "sanm1301" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sanm1301> ;
+	wdt:P279 wd:Q7058861 ;
+	wdt:P910 wd:Q33101217 ;
+	wdt:P305 "pls" ;
+	wdt:P1627 "pls" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q96 ;
+	wdt:P2341 wd:Q79923 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PLS> ;
+	rdfs:label "San Marcos Tlalcoyalco Popoloca jezik"@hr ;
+	skos:prefLabel "San Marcos Tlalcoyalco Popoloca jezik"@hr ;
+	schema:name "San Marcos Tlalcoyalco Popoloca jezik"@hr ;
+	rdfs:label "San Marcos Tlacoyalco Popoloca"@en ;
+	skos:prefLabel "San Marcos Tlacoyalco Popoloca"@en ;
+	schema:name "San Marcos Tlacoyalco Popoloca"@en ;
+	rdfs:label "San Marcos Tlacoyalco Popoloca"@en-gb ;
+	skos:prefLabel "San Marcos Tlacoyalco Popoloca"@en-gb ;
+	schema:name "San Marcos Tlacoyalco Popoloca"@en-gb ;
+	rdfs:label "popoloca de San Marcos Tlacoyalco"@fr ;
+	skos:prefLabel "popoloca de San Marcos Tlacoyalco"@fr ;
+	schema:name "popoloca de San Marcos Tlacoyalco"@fr ;
+	rdfs:label "popolokeg San Marcos Tlalcoyalco"@br ;
+	skos:prefLabel "popolokeg San Marcos Tlalcoyalco"@br ;
+	schema:name "popolokeg San Marcos Tlalcoyalco"@br ;
+	rdfs:label "Lenga popoloca, San Marcos tlalcoyalco"@pms ;
+	skos:prefLabel "Lenga popoloca, San Marcos tlalcoyalco"@pms ;
+	schema:name "Lenga popoloca, San Marcos tlalcoyalco"@pms ;
+	rdfs:label "Popoloca norteño"@es ;
+	skos:prefLabel "Popoloca norteño"@es ;
+	schema:name "Popoloca norteño"@es ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue popolocane"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy .

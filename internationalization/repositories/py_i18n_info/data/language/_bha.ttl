@@ -1,0 +1,147 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4901287 a schema:Dataset ;
+	schema:about wd:Q4901287 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1909492859"^^xsd:integer ;
+	schema:dateModified "2023-06-06T10:56:21Z"^^xsd:dateTime .
+
+wd:Q4901287 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Bharia> a schema:Article ;
+	schema:about wd:Q4901287 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Bharia"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibharia> a schema:Article ;
+	schema:about wd:Q4901287 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibharia"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Bharia_jezik> a schema:Article ;
+	schema:about wd:Q4901287 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Bharia jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Bhariati> a schema:Article ;
+	schema:about wd:Q4901287 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Bhariati"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4901287 wdt:P279 wd:Q33577 ;
+	wdt:P220 "bha" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bha> ;
+	wdt:P31 wd:Q33742,
+		wd:Q1288568 ;
+	wdt:P1394 "bhar1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/bhar1241> ;
+	wdt:P2581 "02900749n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s02900749n> ;
+	wdt:P305 "bha" ;
+	wdt:P1627 "bha" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1168,
+		wd:Q1188,
+		wd:Q1498,
+		wd:Q1356 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BHA> ;
+	wdt:P646 "/m/02hxmnw" ;
+	wdt:P910 wd:Q105715634 ;
+	wdt:P1705 "भरीयाटी"@mis ;
+	wdt:P527 wd:Q113330883,
+		wd:Q113330884,
+		wd:Q113330886 ;
+	wdt:P282 wd:Q38592 ;
+	wdt:P1098 "+50000"^^xsd:decimal ;
+	wdt:P1018 wd:Q113363085 ;
+	rdfs:label "Bharia jezik"@hr ;
+	skos:prefLabel "Bharia jezik"@hr ;
+	schema:name "Bharia jezik"@hr ;
+	rdfs:label "Bhariati"@en ;
+	skos:prefLabel "Bhariati"@en ;
+	schema:name "Bhariati"@en ;
+	rdfs:label "Lenga Bharia"@pms ;
+	skos:prefLabel "Lenga Bharia"@pms ;
+	schema:name "Lenga Bharia"@pms ;
+	rdfs:label "Kibharia"@sw ;
+	skos:prefLabel "Kibharia"@sw ;
+	schema:name "Kibharia"@sw ;
+	rdfs:label "ভারিয়া ভাষা"@bn ;
+	skos:prefLabel "ভারিয়া ভাষা"@bn ;
+	schema:name "ভারিয়া ভাষা"@bn ;
+	rdfs:label "भरीयाटी"@hi ;
+	skos:prefLabel "भरीयाटी"@hi ;
+	schema:name "भरीयाटी"@hi ;
+	rdfs:label "بھریاٹی"@pnb ;
+	skos:prefLabel "بھریاٹی"@pnb ;
+	schema:name "بھریاٹی"@pnb ;
+	rdfs:label "ਭਰੀਆਟੀ"@pa ;
+	skos:prefLabel "ਭਰੀਆਟੀ"@pa ;
+	schema:name "ਭਰੀਆਟੀ"@pa ;
+	rdfs:label "بھریاٹی"@skr ;
+	skos:prefLabel "بھریاٹی"@skr ;
+	schema:name "بھریاٹی"@skr ;
+	rdfs:label "بھریاٹی"@ur ;
+	skos:prefLabel "بھریاٹی"@ur ;
+	schema:name "بھریاٹی"@ur ;
+	rdfs:label "בהריאטית"@he ;
+	skos:prefLabel "בהריאטית"@he ;
+	schema:name "בהריאטית"@he ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language of the Indian subcontinent"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Bharia language"@en,
+		"Bhariati language"@en,
+		"Bharia"@en .
+
+wd:Q12952266 owl:sameAs wd:Q4901287 .

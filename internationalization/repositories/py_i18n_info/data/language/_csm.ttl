@@ -1,0 +1,142 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2944443 a schema:Dataset ;
+	schema:about wd:Q2944443 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616004440"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:57:58Z"^^xsd:dateTime .
+
+wd:Q2944443 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Miwok_de_la_sierra_central> a schema:Article ;
+	schema:about wd:Q2944443 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Miwok de la sierra central"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Central_sierra_miwok> a schema:Article ;
+	schema:about wd:Q2944443 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Central sierra miwok"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_miwok,_sierra_sentral> a schema:Article ;
+	schema:about wd:Q2944443 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga miwok, sierra sentral"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%81%D1%8C%D0%B5%D1%80%D1%80%D0%B0-%D0%BC%D0%B8%D0%B2%D0%BE%D0%BA%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q2944443 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Центральный сьерра-мивокский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Central_Sierra_Miwok> a schema:Article ;
+	schema:about wd:Q2944443 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Central Sierra Miwok"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikibooks.org/wiki/Miwok_(Central_Sierra)> a schema:Article ;
+	schema:about wd:Q2944443 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikibooks.org/> ;
+	schema:name "Miwok (Central Sierra)"@en .
+
+<https://en.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+wd:Q2944443 wdt:P220 "csm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/csm> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "csm" ;
+	wdt:P279 wd:Q61975960 ;
+	wdt:P1394 "cent2140" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/cent2140> ;
+	wdt:P2355 "816" ;
+	wdt:P17 wd:Q30 ;
+	wdt:P1466 "mcs" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_mcs> ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P1627 "csm" ;
+	wdt:P910 wd:Q36162311 ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P2341 wd:Q99 ;
+	wdt:P131 wd:Q99 ;
+	wdt:P1245 "697552" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CSM> ;
+	wdt:P646 "/m/02hx6r9" ;
+	wdt:P1098 "+12"^^xsd:decimal ;
+	rdfs:label "miwok central de la Sierra"@fr ;
+	skos:prefLabel "miwok central de la Sierra"@fr ;
+	schema:name "miwok central de la Sierra"@fr ;
+	rdfs:label "Central Sierra Miwok"@en ;
+	skos:prefLabel "Central Sierra Miwok"@en ;
+	schema:name "Central Sierra Miwok"@en ;
+	rdfs:label "Lenga miwok, sierra sentral"@pms ;
+	skos:prefLabel "Lenga miwok, sierra sentral"@pms ;
+	schema:name "Lenga miwok, sierra sentral"@pms ;
+	rdfs:label "Центральный сьерра-мивокский язык"@ru ;
+	skos:prefLabel "Центральный сьерра-мивокский язык"@ru ;
+	schema:name "Центральный сьерра-мивокский язык"@ru ;
+	rdfs:label "miwok de la sierra central"@ca ;
+	skos:prefLabel "miwok de la sierra central"@ca ;
+	schema:name "miwok de la sierra central"@ca ;
+	rdfs:label "Central Sierra Miwok"@en-gb ;
+	skos:prefLabel "Central Sierra Miwok"@en-gb ;
+	schema:name "Central Sierra Miwok"@en-gb ;
+	rdfs:label "miwok de sierra central"@es ;
+	skos:prefLabel "miwok de sierra central"@es ;
+	schema:name "miwok de sierra central"@es ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue miwok"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "central sierra miwok"@fr .

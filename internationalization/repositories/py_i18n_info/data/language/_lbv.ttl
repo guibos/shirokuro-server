@@ -1,0 +1,143 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2405981 a schema:Dataset ;
+	schema:about wd:Q2405981 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1372678687"^^xsd:integer ;
+	schema:dateModified "2021-02-28T23:21:28Z"^^xsd:dateTime .
+
+wd:Q2405981 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Lavatbura-lamusong> a schema:Article ;
+	schema:about wd:Q2405981 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Lavatbura-lamusong"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Lavatbura-Lamusong> a schema:Article ;
+	schema:about wd:Q2405981 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Lavatbura-Lamusong"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Lavatbura-Lamusong> a schema:Article ;
+	schema:about wd:Q2405981 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Lavatbura-Lamusong"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%9B%D0%B0%D0%B2%D0%B0%D1%82%D0%B1%D1%83%D1%80%D0%B0%D0%BD%D1%81%D0%BA%D0%BE-%D0%BB%D0%B0%D0%BC%D1%83%D1%81%D0%BE%D0%BD%D1%88%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q2405981 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Лаватбуранско-ламусоншки јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilavatbura-Lamusong> a schema:Article ;
+	schema:about wd:Q2405981 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilavatbura-Lamusong"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Lavatbura-Lamusong_language> a schema:Article ;
+	schema:about wd:Q2405981 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Lavatbura-Lamusong language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2405981 wdt:P305 "lbv" ;
+	wdt:P220 "lbv" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lbv> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q2245269 ;
+	wdt:P1394 "lava1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lava1239> ;
+	wdt:P1627 "lbv" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q874942,
+		wd:Q838690 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LBV> ;
+	wdt:P646 "/m/02hx4yb" ;
+	wdt:P910 wd:Q33657073 ;
+	rdfs:label "lavatbura-lamusong"@fr ;
+	skos:prefLabel "lavatbura-lamusong"@fr ;
+	schema:name "lavatbura-lamusong"@fr ;
+	rdfs:label "Lavatbura-Lamusong"@en ;
+	skos:prefLabel "Lavatbura-Lamusong"@en ;
+	schema:name "Lavatbura-Lamusong"@en ;
+	rdfs:label "Lenga Lavatbura-Lamusong"@pms ;
+	skos:prefLabel "Lenga Lavatbura-Lamusong"@pms ;
+	schema:name "Lenga Lavatbura-Lamusong"@pms ;
+	rdfs:label "Kilavatbura-Lamusong"@sw ;
+	skos:prefLabel "Kilavatbura-Lamusong"@sw ;
+	schema:name "Kilavatbura-Lamusong"@sw ;
+	rdfs:label "ラヴァットブラ・ラムソン語"@ja ;
+	skos:prefLabel "ラヴァットブラ・ラムソン語"@ja ;
+	schema:name "ラヴァットブラ・ラムソン語"@ja ;
+	rdfs:label "Lavatbura-Lamusong"@ilo ;
+	skos:prefLabel "Lavatbura-Lamusong"@ilo ;
+	schema:name "Lavatbura-Lamusong"@ilo ;
+	rdfs:label "Lavatbura-Lamusong"@en-gb ;
+	skos:prefLabel "Lavatbura-Lamusong"@en-gb ;
+	schema:name "Lavatbura-Lamusong"@en-gb ;
+	rdfs:label "Лаватбуранско-ламусоншки јазик"@mk ;
+	skos:prefLabel "Лаватбуранско-ламусоншки јазик"@mk ;
+	schema:name "Лаватбуранско-ламусоншки јазик"@mk ;
+	rdfs:label "Lavatbura-Lamusong"@nl ;
+	skos:prefLabel "Lavatbura-Lamusong"@nl ;
+	schema:name "Lavatbura-Lamusong"@nl ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Lavatbura-Lamusong language"@en .

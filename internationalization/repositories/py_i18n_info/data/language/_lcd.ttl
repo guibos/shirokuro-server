@@ -1,0 +1,178 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6668867 a schema:Dataset ;
+	schema:about wd:Q6668867 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912145818"^^xsd:integer ;
+	schema:dateModified "2023-06-10T10:57:02Z"^^xsd:dateTime .
+
+wd:Q6668867 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Lola_language> a schema:Article ;
+	schema:about wd:Q6668867 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Lola language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9B%D0%BE%D0%BB%D0%B0_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q6668867 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Лола (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilola> a schema:Article ;
+	schema:about wd:Q6668867 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilola"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Lola> a schema:Article ;
+	schema:about wd:Q6668867 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Lola"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Lola> a schema:Article ;
+	schema:about wd:Q6668867 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Lola"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Lola> a schema:Article ;
+	schema:about wd:Q6668867 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Lola"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Lola> a schema:Article ;
+	schema:about wd:Q6668867 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Lola"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_lola> a schema:Article ;
+	schema:about wd:Q6668867 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język lola"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6668867 wdt:P220 "lcd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lcd> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "lola1248" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lola1248> ;
+	wdt:P2355 "2598" ;
+	wdt:P1098 "+900"^^xsd:decimal ;
+	wdt:P279 wd:Q3217369 ;
+	wdt:P276 wd:Q24443294 ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P2192 "2289" ;
+	wdt:P2590 "0735 6" ;
+	wdt:P1705 "bahasa Lola"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P305 "lcd" ;
+	wdt:P1627 "lcd" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2341 wd:Q5093 ;
+	wdt:P646 "/m/02qpsvn" ;
+	rdfs:label "Lola"@en ;
+	skos:prefLabel "Lola"@en ;
+	schema:name "Lola"@en ;
+	rdfs:label "Лола"@ru ;
+	skos:prefLabel "Лола"@ru ;
+	schema:name "Лола"@ru ;
+	rdfs:label "Lenga Lola"@pms ;
+	skos:prefLabel "Lenga Lola"@pms ;
+	schema:name "Lenga Lola"@pms ;
+	rdfs:label "Kilola"@sw ;
+	skos:prefLabel "Kilola"@sw ;
+	schema:name "Kilola"@sw ;
+	rdfs:label "Lola"@id ;
+	skos:prefLabel "Lola"@id ;
+	schema:name "Lola"@id ;
+	rdfs:label "Lola"@ilo ;
+	skos:prefLabel "Lola"@ilo ;
+	schema:name "Lola"@ilo ;
+	rdfs:label "Lola"@en-gb ;
+	skos:prefLabel "Lola"@en-gb ;
+	schema:name "Lola"@en-gb ;
+	rdfs:label "Wikang Lola"@tl ;
+	skos:prefLabel "Wikang Lola"@tl ;
+	schema:name "Wikang Lola"@tl ;
+	rdfs:label "lola"@fr ;
+	skos:prefLabel "lola"@fr ;
+	schema:name "lola"@fr ;
+	rdfs:label "Tataramon na Lola"@bcl ;
+	skos:prefLabel "Tataramon na Lola"@bcl ;
+	schema:name "Tataramon na Lola"@bcl ;
+	rdfs:label "Język lola"@pl ;
+	skos:prefLabel "Język lola"@pl ;
+	schema:name "Język lola"@pl ;
+	schema:description "Sprache"@de,
+		"language in Maluku"@en,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"pagsasao idiay Indonesia"@ilo,
+		"שפה"@he,
+		"langue aru"@fr,
+		"taal"@nl,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl ;
+	skos:altLabel "Lola language"@en,
+		"bahasa Lola"@id .
+
+wd:Q12952734 owl:sameAs wd:Q6668867 .
+
+wd:Q25894116 owl:sameAs wd:Q6668867 .
+
+wd:Q31441665 owl:sameAs wd:Q6668867 .

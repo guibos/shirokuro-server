@@ -1,0 +1,106 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q31745045 a schema:Dataset ;
+	schema:about wd:Q31745045 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1839994331"^^xsd:integer ;
+	schema:dateModified "2023-02-23T19:06:36Z"^^xsd:dateTime .
+
+wd:Q31745045 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Old_Khmer> a schema:Article ;
+	schema:about wd:Q31745045 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Old Khmer"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%8F%A4%E9%AB%98%E6%A3%89%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q31745045 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "古高棉语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%AE%D9%85%D8%B1_%D8%A8%D8%A7%D8%B3%D8%AA%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q31745045 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان خمر باستان"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wiktionary.org/wiki/Wiktionary:About_Old_Khmer> a schema:Article ;
+	schema:about wd:Q31745045 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wiktionary.org/> ;
+	schema:name "Wiktionary:About Old Khmer"@en .
+
+<https://en.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+wd:Q31745045 wdt:P31 wd:Q34770 ;
+	wdt:P1394 "oldk1249" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/oldk1249> ;
+	wdt:P1417 "topic/Old-Khmer-language" ;
+	wdt:P910 wd:Q30449981 ;
+	wdt:P220 "okz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/okz> ;
+	wdt:P2671 "/g/11m434qp26" ;
+	wdtn:P2671 <http://g.co/kg/g/11m434qp26> ;
+	wdt:P305 "okz" ;
+	rdfs:label "Old Khmer"@en ;
+	skos:prefLabel "Old Khmer"@en ;
+	schema:name "Old Khmer"@en ;
+	rdfs:label "antikva ĥmera lingvo"@eo ;
+	skos:prefLabel "antikva ĥmera lingvo"@eo ;
+	schema:name "antikva ĥmera lingvo"@eo ;
+	rdfs:label "vieux khmer"@fr ;
+	skos:prefLabel "vieux khmer"@fr ;
+	schema:name "vieux khmer"@fr ;
+	rdfs:label "古高棉语"@zh ;
+	skos:prefLabel "古高棉语"@zh ;
+	schema:name "古高棉语"@zh ;
+	rdfs:label "زبان خمر باستان"@fa ;
+	skos:prefLabel "زبان خمر باستان"@fa ;
+	schema:name "زبان خمر باستان"@fa ;
+	schema:description "taal"@nl,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la .

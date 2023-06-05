@@ -1,0 +1,132 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3914494 a schema:Dataset ;
+	schema:about wd:Q3914494 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961414413"^^xsd:integer ;
+	schema:dateModified "2023-08-26T02:20:44Z"^^xsd:dateTime .
+
+wd:Q3914494 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Tala> a schema:Article ;
+	schema:about wd:Q3914494 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Tala"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%BB%D0%B0_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q3914494 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Тала (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitala> a schema:Article ;
+	schema:about wd:Q3914494 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitala"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Tala_language> a schema:Article ;
+	schema:about wd:Q3914494 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Tala language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Tala_jezik> a schema:Article ;
+	schema:about wd:Q3914494 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Tala jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3914494 wdt:P220 "tak" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tak> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "tala1295" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tala1295> ;
+	wdt:P910 wd:Q36166124 ;
+	wdt:P279 wd:Q25494554 ;
+	wdt:P2192 "1021" ;
+	wdt:P305 "tak" ;
+	wdt:P1627 "tak" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q503936,
+		wd:Q509300 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TAK> ;
+	wdt:P646 "/m/02hwyyb" ;
+	wdt:P1098 "+1000"^^xsd:decimal ;
+	rdfs:label "Kitala"@sw ;
+	skos:prefLabel "Kitala"@sw ;
+	schema:name "Kitala"@sw ;
+	rdfs:label "Lenga Tala"@pms ;
+	skos:prefLabel "Lenga Tala"@pms ;
+	schema:name "Lenga Tala"@pms ;
+	rdfs:label "Tala"@en ;
+	skos:prefLabel "Tala"@en ;
+	schema:name "Tala"@en ;
+	rdfs:label "Tala jezik"@hr ;
+	skos:prefLabel "Tala jezik"@hr ;
+	schema:name "Tala jezik"@hr ;
+	rdfs:label "Тала"@ru ;
+	skos:prefLabel "Тала"@ru ;
+	schema:name "Тала"@ru ;
+	rdfs:label "Tala"@en-gb ;
+	skos:prefLabel "Tala"@en-gb ;
+	schema:name "Tala"@en-gb ;
+	rdfs:label "tala"@fr ;
+	skos:prefLabel "tala"@fr ;
+	schema:name "tala"@fr ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"Chadic language of Nigeria"@en,
+		"langue tchadique"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Tala language"@en .
+
+wd:Q12643291 owl:sameAs wd:Q3914494 .

@@ -1,0 +1,150 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6786446 a schema:Dataset ;
+	schema:about wd:Q6786446 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1851295738"^^xsd:integer ;
+	schema:dateModified "2023-03-13T14:34:47Z"^^xsd:dateTime .
+
+wd:Q6786446 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Matengo_(langue)> a schema:Article ;
+	schema:about wd:Q6786446 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Matengo (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Matengo> a schema:Article ;
+	schema:about wd:Q6786446 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Matengo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimatengo> a schema:Article ;
+	schema:about wd:Q6786446 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimatengo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Matengo_language> a schema:Article ;
+	schema:about wd:Q6786446 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Matengo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Matengo> a schema:Article ;
+	schema:about wd:Q6786446 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Matengo"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Matengo_language> a schema:Article ;
+	schema:about wd:Q6786446 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Matengo language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6786446 wdt:P220 "mgv" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mgv> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P2161 "N.13" ;
+	wdt:P279 wd:Q33146 ;
+	wdt:P1394 "mate1258" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mate1258> ;
+	wdt:P1014 "300388838" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388838> ;
+	wdt:P5198 "336355637" ;
+	wdt:P305 "mgv" ;
+	wdt:P1627 "mgv" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q924 ;
+	wdt:P2341 wd:Q115318 ;
+	wdt:P1396 "99-AUS-rc" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MGV> ;
+	wdt:P646 "/m/02hxbwv" ;
+	wdt:P910 wd:Q33672387 ;
+	wdt:P268 "18064341w" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb18064341w#about> ;
+	rdfs:label "Matengo"@en ;
+	skos:prefLabel "Matengo"@en ;
+	schema:name "Matengo"@en ;
+	rdfs:label "Kimatengo"@sw ;
+	skos:prefLabel "Kimatengo"@sw ;
+	schema:name "Kimatengo"@sw ;
+	rdfs:label "Lenga Matengo"@pms ;
+	skos:prefLabel "Lenga Matengo"@pms ;
+	schema:name "Lenga Matengo"@pms ;
+	rdfs:label "Matengo"@en-gb ;
+	skos:prefLabel "Matengo"@en-gb ;
+	schema:name "Matengo"@en-gb ;
+	rdfs:label "Wikang Matengo"@tl ;
+	skos:prefLabel "Wikang Matengo"@tl ;
+	schema:name "Wikang Matengo"@tl ;
+	rdfs:label "matengo"@fr ;
+	skos:prefLabel "matengo"@fr ;
+	schema:name "matengo"@fr ;
+	rdfs:label "マテンゴ語"@ja ;
+	skos:prefLabel "マテンゴ語"@ja ;
+	schema:name "マテンゴ語"@ja ;
+	rdfs:label "Matengo"@oc ;
+	skos:prefLabel "Matengo"@oc ;
+	schema:name "Matengo"@oc ;
+	rdfs:label "Matengo language"@ig ;
+	skos:prefLabel "Matengo language"@ig ;
+	schema:name "Matengo language"@ig ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Matengo language"@en .
+
+wd:Q11128440 owl:sameAs wd:Q6786446 .

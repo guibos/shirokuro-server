@@ -1,0 +1,164 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7188298 a schema:Dataset ;
+	schema:about wd:Q7188298 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1785779379"^^xsd:integer ;
+	schema:dateModified "2022-12-06T23:47:32Z"^^xsd:dateTime .
+
+wd:Q7188298 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Phula> a schema:Article ;
+	schema:about wd:Q7188298 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Phula"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Phukha> a schema:Article ;
+	schema:about wd:Q7188298 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Phukha"@tl ;
+	wikibase:badge wd:Q70893996 .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiphula> a schema:Article ;
+	schema:about wd:Q7188298 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiphula"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Phukha_language> a schema:Article ;
+	schema:about wd:Q7188298 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Phukha language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Ph%C3%B9_L%C3%A1> a schema:Article ;
+	schema:about wd:Q7188298 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Phù Lá"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%A4%AB%E5%8D%A1%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q7188298 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "夫卡语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%9E%E0%B8%B9%E0%B8%A5%E0%B8%B2> a schema:Article ;
+	schema:about wd:Q7188298 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาพูลา"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7188298 wdt:P220 "phh" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/phh> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q56990 ;
+	wdt:P2355 "2244",
+		"2245" ;
+	wdt:P1394 "phuk1235" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/phuk1235> ;
+	wdt:P1999 wd:Q20672088,
+		wd:Q20672087 ;
+	wdt:P2192 "4964" ;
+	wdt:P305 "phh" ;
+	wdt:P1627 "phh" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q881 ;
+	wdt:P2341 wd:Q36409,
+		wd:Q36446,
+		wd:Q36685,
+		wd:Q33379 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PHH> ;
+	wdt:P646 "/m/02hwy7j" ;
+	rdfs:label "Phukha"@en ;
+	skos:prefLabel "Phukha"@en ;
+	schema:name "Phukha"@en ;
+	rdfs:label "Lenga Phula"@pms ;
+	skos:prefLabel "Lenga Phula"@pms ;
+	schema:name "Lenga Phula"@pms ;
+	rdfs:label "Kiphula"@sw ;
+	skos:prefLabel "Kiphula"@sw ;
+	schema:name "Kiphula"@sw ;
+	rdfs:label "Phukha"@en-gb ;
+	skos:prefLabel "Phukha"@en-gb ;
+	schema:name "Phukha"@en-gb ;
+	rdfs:label "Wikang Phukha"@tl ;
+	skos:prefLabel "Wikang Phukha"@tl ;
+	schema:name "Wikang Phukha"@tl ;
+	rdfs:label "phukha"@fr ;
+	skos:prefLabel "phukha"@fr ;
+	schema:name "phukha"@fr ;
+	rdfs:label "Tiếng Phukha"@vi ;
+	skos:prefLabel "Tiếng Phukha"@vi ;
+	schema:name "Tiếng Phukha"@vi ;
+	rdfs:label "夫卡语"@zh ;
+	skos:prefLabel "夫卡语"@zh ;
+	schema:name "夫卡语"@zh ;
+	rdfs:label "ภาษาพูลา"@th ;
+	skos:prefLabel "ภาษาพูลา"@th ;
+	schema:name "ภาษาพูลา"@th ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue lolo"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Phukha language"@en,
+		"phula"@fr .
+
+wd:Q16306687 owl:sameAs wd:Q7188298 .
+
+wd:Q12953037 owl:sameAs wd:Q7188298 .
+
+wd:Q31442537 owl:sameAs wd:Q7188298 .

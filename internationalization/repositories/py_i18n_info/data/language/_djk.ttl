@@ -1,0 +1,109 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2659044 a schema:Dataset ;
+	schema:about wd:Q2659044 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1679035806"^^xsd:integer ;
+	schema:dateModified "2022-07-16T06:37:28Z"^^xsd:dateTime .
+
+wd:Q2659044 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Langue_des_Aluku,_des_Ndjuka_et_des_Paramaka> a schema:Article ;
+	schema:about wd:Q2659044 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Langue des Aluku, des Ndjuka et des Paramaka"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Marrontaal> a schema:Article ;
+	schema:about wd:Q2659044 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Marrontaal"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_de_los_Aluku,_Ndjuka_y_Paramaka> a schema:Article ;
+	schema:about wd:Q2659044 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma de los Aluku, Ndjuka y Paramaka"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2659044 wdt:P31 wd:Q33289,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "djk" ;
+	wdt:P910 wd:Q8670024 ;
+	wdt:P279 wd:Q31989 ;
+	wdt:P220 "djk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/djk> ;
+	wdt:P1394 "ndyu1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ndyu1242> ;
+	wdt:P1466 "ndy" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ndy> ;
+	wdt:P1627 "djk" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q142,
+		wd:Q730 ;
+	wdt:P2341 wd:Q847680,
+		wd:Q952510,
+		wd:Q1140897,
+		wd:Q1140891,
+		wd:Q1130138 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DJK> ;
+	wdt:P2671 "/g/1226g5fr" ;
+	wdtn:P2671 <http://g.co/kg/g/1226g5fr> ;
+	wdt:P10369 "Q538622" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q538622> ;
+	rdfs:label "Marrontaal"@nl ;
+	skos:prefLabel "Marrontaal"@nl ;
+	schema:name "Marrontaal"@nl ;
+	rdfs:label "aluku-ndjuka-paramaka"@fr ;
+	skos:prefLabel "aluku-ndjuka-paramaka"@fr ;
+	schema:name "aluku-ndjuka-paramaka"@fr ;
+	rdfs:label "Businenge Tongo"@en ;
+	skos:prefLabel "Businenge Tongo"@en ;
+	schema:name "Businenge Tongo"@en ;
+	rdfs:label "Idioma de los Aluku, Ndjuka y Paramaka"@es ;
+	skos:prefLabel "Idioma de los Aluku, Ndjuka y Paramaka"@es ;
+	schema:name "Idioma de los Aluku, Ndjuka y Paramaka"@es ;
+	schema:description "taal"@nl,
+		"créole à base lexicale anglaise"@fr,
+		"yezh kreolek"@br ;
+	skos:altLabel "Eastern Maroon Creole"@en,
+		"Nenge"@en,
+		"nenge-tongo"@fr,
+		"nengee-tongo"@fr .

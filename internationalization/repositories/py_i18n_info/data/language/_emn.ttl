@@ -1,0 +1,139 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5368975 a schema:Dataset ;
+	schema:about wd:Q5368975 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1757231679"^^xsd:integer ;
+	schema:dateModified "2022-10-24T14:58:37Z"^^xsd:dateTime .
+
+wd:Q5368975 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Eman_(langue)> a schema:Article ;
+	schema:about wd:Q5368975 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Eman (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Eman> a schema:Article ;
+	schema:about wd:Q5368975 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Eman"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kieman> a schema:Article ;
+	schema:about wd:Q5368975 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kieman"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Eman_language> a schema:Article ;
+	schema:about wd:Q5368975 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Eman language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Eman_language> a schema:Article ;
+	schema:about wd:Q5368975 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Eman language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5368975 wdt:P220 "emn" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/emn> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "eman1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/eman1238> ;
+	wdt:P2355 "1411" ;
+	wdt:P2192 "546" ;
+	wdt:P279 wd:Q752377 ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P305 "emn" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P910 wd:Q33673545 ;
+	wdt:P1627 "emn" ;
+	wdt:P17 wd:Q1009 ;
+	wdt:P2341 wd:Q845168,
+		wd:Q502341,
+		wd:Q165784,
+		wd:Q857122 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/EMN> ;
+	wdt:P646 "/m/02hwt3x" ;
+	rdfs:label "Eman"@en ;
+	skos:prefLabel "Eman"@en ;
+	schema:name "Eman"@en ;
+	rdfs:label "Kieman"@sw ;
+	skos:prefLabel "Kieman"@sw ;
+	schema:name "Kieman"@sw ;
+	rdfs:label "Lenga Eman"@pms ;
+	skos:prefLabel "Lenga Eman"@pms ;
+	schema:name "Lenga Eman"@pms ;
+	rdfs:label "eman"@fr ;
+	skos:prefLabel "eman"@fr ;
+	schema:name "eman"@fr ;
+	rdfs:label "Eman"@en-gb ;
+	skos:prefLabel "Eman"@en-gb ;
+	schema:name "Eman"@en-gb ;
+	rdfs:label "Wikang Eman"@tl ;
+	skos:prefLabel "Wikang Eman"@tl ;
+	schema:name "Wikang Eman"@tl ;
+	rdfs:label "eman"@nb ;
+	skos:prefLabel "eman"@nb ;
+	schema:name "eman"@nb ;
+	rdfs:label "Eman language"@ig ;
+	skos:prefLabel "Eman language"@ig ;
+	schema:name "Eman language"@ig ;
+	schema:description "Sprache"@de,
+		"langue bantoïde"@fr,
+		"שפה"@he,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"Sprog"@nb ;
+	skos:altLabel "Eman language"@en .
+
+wd:Q11128863 owl:sameAs wd:Q5368975 .

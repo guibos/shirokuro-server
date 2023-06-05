@@ -1,0 +1,155 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q752854 a schema:Dataset ;
+	schema:about wd:Q752854 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1759979659"^^xsd:integer ;
+	schema:dateModified "2022-10-28T16:55:25Z"^^xsd:dateTime .
+
+wd:Q752854 a wikibase:Item .
+
+<https://ko.wikipedia.org/wiki/%EC%88%98_%EB%AC%B8%EC%9E%90> a schema:Article ;
+	schema:about wd:Q752854 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "수 문자"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Shui_%C3%ADr%C3%A1s> a schema:Article ;
+	schema:about wd:Q752854 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Shui írás"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Scrittura_shui> a schema:Article ;
+	schema:about wd:Q752854 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Scrittura shui"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%B0%B4%E4%B9%A6> a schema:Article ;
+	schema:about wd:Q752854 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "水书"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E6%B0%B4%E6%9B%B8> a schema:Article ;
+	schema:about wd:Q752854 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "水書"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Shuishu> a schema:Article ;
+	schema:about wd:Q752854 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Shuishu"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://commons.wikimedia.org/wiki/Category:Sui_script> a schema:Article ;
+	schema:about wd:Q752854 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "Category:Sui script"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+<https://en.wikipedia.org/wiki/Sui_script> a schema:Article ;
+	schema:about wd:Q752854 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sui script"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q752854 wdt:P31 wd:Q29517555,
+		wd:Q3953107,
+		wd:Q4004706 ;
+	wdt:P506 "Shui" ;
+	wdt:P2620 "530" ;
+	wdt:P373 "Sui script" ;
+	wdt:P2561 "Shuishu"@en,
+		"shuishu"@fr ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Shuishu%20Sample%20Character.png>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/Li%C3%B9ji%C7%8E%20F%C7%8Ensh%C5%AB%2C%20Page%203.JPG>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/EAP143%201%201%203%20Shuishu%20manuscript%20from%20Libo.jpg> ;
+	wdt:P407 wd:Q3112388 ;
+	wdt:P571 "1600-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P2671 "/g/12170_31" ;
+	wdtn:P2671 <http://g.co/kg/g/12170_31> ;
+	wdt:P144 wd:Q8201 ;
+	wdt:P1406 wd:Q105395084 ;
+	rdfs:label "수 문자"@ko ;
+	skos:prefLabel "수 문자"@ko ;
+	schema:name "수 문자"@ko ;
+	rdfs:label "shui írás"@hu ;
+	skos:prefLabel "shui írás"@hu ;
+	schema:name "shui írás"@hu ;
+	rdfs:label "Scrittura shui"@it ;
+	skos:prefLabel "Scrittura shui"@it ;
+	schema:name "Scrittura shui"@it ;
+	rdfs:label "水書"@ja ;
+	skos:prefLabel "水書"@ja ;
+	schema:name "水書"@ja ;
+	rdfs:label "水书"@zh ;
+	skos:prefLabel "水书"@zh ;
+	schema:name "水书"@zh ;
+	rdfs:label "shuishu"@fr ;
+	skos:prefLabel "shuishu"@fr ;
+	schema:name "shuishu"@fr ;
+	rdfs:label "Sui"@en ;
+	skos:prefLabel "Sui"@en ;
+	schema:name "Sui"@en ;
+	rdfs:label "Sui schrift"@nl ;
+	skos:prefLabel "Sui schrift"@nl ;
+	schema:name "Sui schrift"@nl ;
+	rdfs:label "水書"@zh-hant ;
+	skos:prefLabel "水書"@zh-hant ;
+	schema:name "水書"@zh-hant ;
+	schema:description "écriture pictographique du peuple shui"@fr,
+		"pictographic writing system for the Sui language"@en ;
+	skos:altLabel "Sui script"@en,
+		"Shuishu"@en,
+		"écriture shui"@fr .
+
+wd:Q18212399 owl:sameAs wd:Q752854 .

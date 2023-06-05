@@ -1,0 +1,116 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q18609750 a schema:Dataset ;
+	schema:about wd:Q18609750 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960504575"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:15:06Z"^^xsd:dateTime .
+
+wd:Q18609750 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Tarangan_est> a schema:Article ;
+	schema:about wd:Q18609750 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Tarangan est"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitarangan-Mashariki> a schema:Article ;
+	schema:about wd:Q18609750 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitarangan-Mashariki"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_tarangan_wschodni> a schema:Article ;
+	schema:about wd:Q18609750 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język tarangan wschodni"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q18609750 wdt:P220 "tre" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tre> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P2590 "0788 3" ;
+	wdt:P1705 "bahasa Tarangan Timur"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P1448 "bahasa Tarangan Timur"@id ;
+	wdt:P1394 "east2465" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/east2465> ;
+	wdt:P279 wd:Q7685430 ;
+	wdt:P305 "tre" ;
+	wdt:P1627 "tre" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q5093 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TRE> ;
+	rdfs:label "Kitarangan-Mashariki"@sw ;
+	skos:prefLabel "Kitarangan-Mashariki"@sw ;
+	schema:name "Kitarangan-Mashariki"@sw ;
+	rdfs:label "Lenga Tarangan est"@pms ;
+	skos:prefLabel "Lenga Tarangan est"@pms ;
+	schema:name "Lenga Tarangan est"@pms ;
+	rdfs:label "East Tarangan"@en ;
+	skos:prefLabel "East Tarangan"@en ;
+	schema:name "East Tarangan"@en ;
+	rdfs:label "Tarangan Timur"@id ;
+	skos:prefLabel "Tarangan Timur"@id ;
+	schema:name "Tarangan Timur"@id ;
+	rdfs:label "East Tarangan"@en-gb ;
+	skos:prefLabel "East Tarangan"@en-gb ;
+	schema:name "East Tarangan"@en-gb ;
+	rdfs:label "tarangan de l'Est"@fr ;
+	skos:prefLabel "tarangan de l'Est"@fr ;
+	schema:name "tarangan de l'Est"@fr ;
+	rdfs:label "język tarangan wschodni"@pl ;
+	skos:prefLabel "język tarangan wschodni"@pl ;
+	schema:name "język tarangan wschodni"@pl ;
+	schema:description "Sprache"@de,
+		"bahasa di provinsi Maluku"@id,
+		"taal"@nl,
+		"שפה"@he,
+		"langue malayo-polynésienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la,
+		"język austronezyjski"@pl ;
+	skos:altLabel "East Tarangan language"@en .
+
+wd:Q25927340 owl:sameAs wd:Q18609750 .

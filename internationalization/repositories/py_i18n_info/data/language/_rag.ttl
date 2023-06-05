@@ -1,0 +1,171 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6667767 a schema:Dataset ;
+	schema:about wd:Q6667767 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961148019"^^xsd:integer ;
+	schema:dateModified "2023-08-25T19:09:24Z"^^xsd:dateTime .
+
+wd:Q6667767 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Logooli> a schema:Article ;
+	schema:about wd:Q6667767 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Logooli"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B3%D0%BE%D0%BB%D0%B8> a schema:Article ;
+	schema:about wd:Q6667767 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Логоли"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1_%CE%9B%CE%BF%CE%B3%CE%BA%CE%BF%CF%8C%CE%BB%CE%B9> a schema:Article ;
+	schema:about wd:Q6667767 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γλώσσα Λογκοόλι"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_ragoli> a schema:Article ;
+	schema:about wd:Q6667767 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język ragoli"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilogooli> a schema:Article ;
+	schema:about wd:Q6667767 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilogooli"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Logooli_language> a schema:Article ;
+	schema:about wd:Q6667767 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Logooli language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Logooli_(langue)> a schema:Article ;
+	schema:about wd:Q6667767 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Logooli (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6667767 wdt:P220 "rag" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/rag> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P269 "088886751" ;
+	wdtn:P269 <http://www.idref.fr/088886751/id> ;
+	wdt:P279 wd:Q12636428 ;
+	wdt:P1394 "logo1258" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/logo1258> ;
+	wdt:P1014 "300262677" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300262677> ;
+	wdt:P910 wd:Q33660299 ;
+	wdt:P2161 "JE.41" ;
+	wdt:P305 "rag" ;
+	wdt:P1627 "rag" ;
+	wdt:P3823 wd:Q29051550 ;
+	wdt:P17 wd:Q114 ;
+	wdt:P2341 wd:Q1721867,
+		wd:Q1313202 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/RAG> ;
+	wdt:P646 "/m/02hx0r3" ;
+	wdt:P131 wd:Q38585 ;
+	wdt:P1098 "+618300"^^xsd:decimal ;
+	wdt:P268 "14650630c" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb14650630c#about> ;
+	rdfs:label "Logooli"@en ;
+	skos:prefLabel "Logooli"@en ;
+	schema:name "Logooli"@en ;
+	rdfs:label "logooli"@fr ;
+	skos:prefLabel "logooli"@fr ;
+	schema:name "logooli"@fr ;
+	rdfs:label "Lenga Logooli"@pms ;
+	skos:prefLabel "Lenga Logooli"@pms ;
+	schema:name "Lenga Logooli"@pms ;
+	rdfs:label "Логоли"@ru ;
+	skos:prefLabel "Логоли"@ru ;
+	schema:name "Логоли"@ru ;
+	rdfs:label "Kilogooli"@sw ;
+	skos:prefLabel "Kilogooli"@sw ;
+	schema:name "Kilogooli"@sw ;
+	rdfs:label "ロゴーリ語"@ja ;
+	skos:prefLabel "ロゴーリ語"@ja ;
+	schema:name "ロゴーリ語"@ja ;
+	rdfs:label "Język ragoli"@pl ;
+	skos:prefLabel "Język ragoli"@pl ;
+	schema:name "Język ragoli"@pl ;
+	rdfs:label "Γλώσσα Λογκοόλι"@el ;
+	skos:prefLabel "Γλώσσα Λογκοόλι"@el ;
+	schema:name "Γλώσσα Λογκοόλι"@el ;
+	rdfs:label "Logooli"@en-ca ;
+	skos:prefLabel "Logooli"@en-ca ;
+	schema:name "Logooli"@en-ca ;
+	rdfs:label "Logooli"@en-gb ;
+	skos:prefLabel "Logooli"@en-gb ;
+	schema:name "Logooli"@en-gb ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue bantoue parlée au Kenya"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"język z rodziny bantu"@pl ;
+	skos:altLabel "Logooli language"@en,
+		"Lulogooli"@en,
+		"Język logooli"@pl,
+		"lulogooli"@fr,
+		"ragoli"@fr .
+
+wd:Q11732594 owl:sameAs wd:Q6667767 .
+
+wd:Q12952736 owl:sameAs wd:Q6667767 .

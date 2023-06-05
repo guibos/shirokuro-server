@@ -1,0 +1,163 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35882 a schema:Dataset ;
+	schema:about wd:Q35882 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1941246821"^^xsd:integer ;
+	schema:dateModified "2023-07-27T05:40:44Z"^^xsd:dateTime .
+
+wd:Q35882 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_quechua,_classical> a schema:Article ;
+	schema:about wd:Q35882 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga quechua, classical"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B5%D1%87%D1%83%D0%B0> a schema:Article ;
+	schema:about wd:Q35882 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Классический кечуа"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://qu.wikipedia.org/wiki/Inka_qhichwa_simi> a schema:Article ;
+	schema:about wd:Q35882 ;
+	schema:inLanguage "qu" ;
+	schema:isPartOf <https://qu.wikipedia.org/> ;
+	schema:name "Inka qhichwa simi"@qu .
+
+<https://qu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Klassisches_Quechua> a schema:Article ;
+	schema:about wd:Q35882 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Klassisches Quechua"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Quechua_cl%C3%A1sico> a schema:Article ;
+	schema:about wd:Q35882 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Quechua clásico"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Qu%C3%ADtxua_cl%C3%A0ssic> a schema:Article ;
+	schema:about wd:Q35882 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Quítxua clàssic"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Classical_Quechua> a schema:Article ;
+	schema:about wd:Q35882 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Classical Quechua"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35882 wdt:P31 wd:Q2315359 ;
+	wdt:P220 "qwc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/qwc> ;
+	wdt:P1394 "clas1251" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/clas1251> ;
+	wdt:P910 wd:Q33101223 ;
+	wdt:P279 wd:Q36806 ;
+	wdt:P305 "qwc" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/QWC> ;
+	wdt:P2671 "/g/121qmkxv" ;
+	wdtn:P2671 <http://g.co/kg/g/121qmkxv> ;
+	rdfs:label "Lenga quechua"@pms ;
+	skos:prefLabel "Lenga quechua"@pms ;
+	schema:name "Lenga quechua"@pms ;
+	rdfs:label "klassisches Quechua"@de ;
+	skos:prefLabel "klassisches Quechua"@de ;
+	schema:name "klassisches Quechua"@de ;
+	rdfs:label "Inka qhichwa simi"@qu ;
+	skos:prefLabel "Inka qhichwa simi"@qu ;
+	schema:name "Inka qhichwa simi"@qu ;
+	rdfs:label "Классический кечуа"@ru ;
+	skos:prefLabel "Классический кечуа"@ru ;
+	schema:name "Классический кечуа"@ru ;
+	rdfs:label "quechua clásico"@es ;
+	skos:prefLabel "quechua clásico"@es ;
+	schema:name "quechua clásico"@es ;
+	rdfs:label "Qechua classica"@oc ;
+	skos:prefLabel "Qechua classica"@oc ;
+	schema:name "Qechua classica"@oc ;
+	rdfs:label "Classical Quechua"@en ;
+	skos:prefLabel "Classical Quechua"@en ;
+	schema:name "Classical Quechua"@en ;
+	rdfs:label "Classical Quechua"@en-gb ;
+	skos:prefLabel "Classical Quechua"@en-gb ;
+	schema:name "Classical Quechua"@en-gb ;
+	rdfs:label "klasika keĉua lingvo"@eo ;
+	skos:prefLabel "klasika keĉua lingvo"@eo ;
+	schema:name "klasika keĉua lingvo"@eo ;
+	rdfs:label "quechua classique"@fr ;
+	skos:prefLabel "quechua classique"@fr ;
+	schema:name "quechua classique"@fr ;
+	rdfs:label "Quítxua clàssic"@ca ;
+	skos:prefLabel "Quítxua clàssic"@ca ;
+	schema:name "Quítxua clàssic"@ca ;
+	rdfs:label "古ケチュア語"@ja ;
+	skos:prefLabel "古ケチュア語"@ja ;
+	schema:name "古ケチュア語"@ja ;
+	rdfs:label "an Cheatsuais Chlasaiceach"@ga ;
+	skos:prefLabel "an Cheatsuais Chlasaiceach"@ga ;
+	schema:name "an Cheatsuais Chlasaiceach"@ga ;
+	schema:description "lenga"@oc,
+		"variedad del quechua"@es,
+		"Sprache"@de,
+		"extinct language"@en,
+		"שפה"@he,
+		"langue quechua"@fr,
+		"yezh"@br,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Klasiku qhichwa simi"@qu,
+		"Klasiku Runasimi"@qu,
+		"Klasiku Qhichwa"@qu,
+		"Quechua clasico"@es .
+
+wd:Q107415731 owl:sameAs wd:Q35882 .

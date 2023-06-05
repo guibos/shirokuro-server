@@ -1,0 +1,163 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35867 a schema:Dataset ;
+	schema:about wd:Q35867 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1838786473"^^xsd:integer ;
+	schema:dateModified "2023-02-21T19:04:13Z"^^xsd:dateTime .
+
+wd:Q35867 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Nkonya> a schema:Article ;
+	schema:about wd:Q35867 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Nkonya"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Nkonya> a schema:Article ;
+	schema:about wd:Q35867 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Nkonya"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Nkonya> a schema:Article ;
+	schema:about wd:Q35867 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Nkonya"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinkonya> a schema:Article ;
+	schema:about wd:Q35867 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinkonya"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nkonya_language> a schema:Article ;
+	schema:about wd:Q35867 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nkonya language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Nkonya_(Sprache)> a schema:Article ;
+	schema:about wd:Q35867 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Nkonya (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Nkonya_language> a schema:Article ;
+	schema:about wd:Q35867 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Nkonya language"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_nkonya> a schema:Article ;
+	schema:about wd:Q35867 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua nkonya"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35867 wdt:P220 "nko" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nko> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "nkon1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nkon1245> ;
+	wdt:P279 wd:Q684009 ;
+	wdt:P910 wd:Q33668892 ;
+	wdt:P1466 "nkn" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_nkn> ;
+	wdt:P305 "nko" ;
+	wdt:P1627 "nko" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q117 ;
+	wdt:P2341 wd:Q846323,
+		wd:Q712832 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NKO> ;
+	wdt:P646 "/m/02hxgzw" ;
+	rdfs:label "Kinkonya"@sw ;
+	skos:prefLabel "Kinkonya"@sw ;
+	schema:name "Kinkonya"@sw ;
+	rdfs:label "Nkonya"@de ;
+	skos:prefLabel "Nkonya"@de ;
+	schema:name "Nkonya"@de ;
+	rdfs:label "Lenga Nkonya"@pms ;
+	skos:prefLabel "Lenga Nkonya"@pms ;
+	schema:name "Lenga Nkonya"@pms ;
+	rdfs:label "Nkonya"@en ;
+	skos:prefLabel "Nkonya"@en ;
+	schema:name "Nkonya"@en ;
+	rdfs:label "nkonya"@ca ;
+	skos:prefLabel "nkonya"@ca ;
+	schema:name "nkonya"@ca ;
+	rdfs:label "nkonya"@fr ;
+	skos:prefLabel "nkonya"@fr ;
+	schema:name "nkonya"@fr ;
+	rdfs:label "Nkonya"@en-gb ;
+	skos:prefLabel "Nkonya"@en-gb ;
+	schema:name "Nkonya"@en-gb ;
+	rdfs:label "Wikang Nkonya"@tl ;
+	skos:prefLabel "Wikang Nkonya"@tl ;
+	schema:name "Wikang Nkonya"@tl ;
+	rdfs:label "Nkonya language"@ig ;
+	skos:prefLabel "Nkonya language"@ig ;
+	schema:name "Nkonya language"@ig ;
+	rdfs:label "Língua nkonya"@pt ;
+	skos:prefLabel "Língua nkonya"@pt ;
+	schema:name "Língua nkonya"@pt ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue nyo"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Nkonya language"@en .

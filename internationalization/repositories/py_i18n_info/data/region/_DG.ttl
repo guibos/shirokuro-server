@@ -1,0 +1,951 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q184851 a schema:Dataset ;
+	schema:about wd:Q184851 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1952501960"^^xsd:integer ;
+	schema:dateModified "2023-08-12T16:15:44Z"^^xsd:dateTime .
+
+wd:Q184851 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Diego Garcia"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Diego Garcia"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Diego Garcia"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Diego_Garc%C3%ADa> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Diego García"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D0%B5%D0%B3%D0%BE-%D0%93%D0%B0%D1%80%D1%81%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Диего-Гарсия"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Diego Garcia"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A3%E3%82%A8%E3%82%B4%E3%82%AC%E3%83%AB%E3%82%B7%E3%82%A2%E5%B3%B6> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ディエゴガルシア島"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Diego_Garcia_(eiland)> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Diego Garcia (eiland)"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Diego Garcia"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Diego Garcia"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E8%BF%AA%E6%88%88%E5%8A%A0%E8%A5%BF%E4%BA%9A%E5%B2%9B> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "迪戈加西亚岛"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Diego Garcia"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%AC%D8%B2%DB%8C%D8%B1%D9%87_%D8%AF%DB%8C%D9%87%E2%80%8C%DA%AF%D9%88_%DA%AF%D8%A7%D8%B1%D8%B3%DB%8C%D8%A7> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "جزیره دیه‌گو گارسیا"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%93%D7%99%D7%99%D7%92%D7%95_%D7%92%D7%A8%D7%A1%D7%99%D7%94> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "דייגו גרסיה"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Diego Garcia"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Diego Garcia"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%AF%D9%8A%D9%8A%D8%BA%D9%88_%D8%BA%D8%A7%D8%B1%D8%B3%D9%8A%D8%A7> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "دييغو غارسيا"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Diego Garcia"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Diego Garcia"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%94%D1%96%D1%94%D0%B3%D0%BE-%D0%93%D0%B0%D1%80%D1%81%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Дієго-Гарсія"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Diego Garcia"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Diego_Garc%C3%ADa> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Diego García"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%94%D0%B8%D1%98%D0%B5%D0%B3%D0%BE_%D0%93%D0%B0%D1%80%D1%81%D0%B8%D1%98%D0%B0> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Дијего Гарсија"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Diego Garcia"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Diego Garcia"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%94%D0%B8%D0%B5%D0%B3%D0%BE_%D0%93%D0%B0%D1%80%D1%81%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Диего Гарсия"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Diego Garcia"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%94%D1%8B%D0%B5%D0%B3%D0%B0_%D0%93%D0%B0%D1%80%D1%81%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Дыега Гарсія"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%A6%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%97%E0%A7%8B_%E0%A6%97%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "দিয়েগো গার্সিয়া"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ceb.wikipedia.org/wiki/Diego_Garcia_(pulong_kagaangan)> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "ceb" ;
+	schema:isPartOf <https://ceb.wikipedia.org/> ;
+	schema:name "Diego Garcia (pulong kagaangan)"@ceb .
+
+<https://ceb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%9D%CF%84%CE%B9%CE%AD%CE%B3%CE%BA%CE%BF_%CE%93%CE%BA%CE%B1%CF%81%CF%83%CE%AF%CE%B1> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Ντιέγκο Γκαρσία"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Diego Garcia"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Diego Garcia"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Diego_Garc%C3%ADa_(uhartea)> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Diego García (uhartea)"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Atol_Diego_Garc%C3%ADa> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Atol Diego García"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%A1%E0%A4%BF%E0%A4%8F%E0%A4%97%E0%A5%8B_%E0%A4%97%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B8%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "डिएगो गार्सिया"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Diego_Garsija> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Diego Garsija"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%A1%E0%B5%80%E0%B4%97%E0%B5%8B_%E0%B4%97%E0%B4%BE%E0%B5%BC%E0%B4%B7%E0%B4%BF%E0%B4%AF> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "ഡീഗോ ഗാർഷിയ"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Diego Garcia"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%DA%88%DB%8C%DA%AF%D9%88_%DA%AF%D8%A7%D8%B1%D8%B4%DB%8C%D8%A7> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "ڈیگو گارشیا"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sco.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "sco" ;
+	schema:isPartOf <https://sco.wikipedia.org/> ;
+	schema:name "Diego Garcia"@sco .
+
+<https://sco.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Diego Garcia"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sq.wikipedia.org/wiki/Diego_Garsia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "sq" ;
+	schema:isPartOf <https://sq.wikipedia.org/> ;
+	schema:name "Diego Garsia"@sq .
+
+<https://sq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Diego Garcia"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%A4%E0%AE%BF%E0%AE%AF%E0%AF%87%E0%AE%95%E0%AF%8B_%E0%AE%95%E0%AE%BE%E0%AE%B0%E0%AF%8D%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%BE> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "தியேகோ கார்சியா"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://te.wikipedia.org/wiki/%E0%B0%A1%E0%B0%BF%E0%B0%AF%E0%B1%86%E0%B0%97%E0%B1%8B_%E0%B0%97%E0%B0%BE%E0%B0%B0%E0%B1%8D%E0%B0%B8%E0%B0%BF%E0%B0%AF%E0%B0%BE> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "te" ;
+	schema:isPartOf <https://te.wikipedia.org/> ;
+	schema:name "డియెగో గార్సియా"@te .
+
+<https://te.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%94%E0%B8%B5%E0%B9%80%E0%B8%AD%E0%B9%82%E0%B8%81%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%8B%E0%B8%B5%E0%B8%AD%E0%B8%B2> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ดีเอโกการ์ซีอา"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%DA%88%DB%8C%DA%AF%D9%88_%DA%AF%D8%A7%D8%B1%D8%B4%DB%8C%D8%A7> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "ڈیگو گارشیا"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Diyegogarsiya> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Diyegogarsiya"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://war.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "war" ;
+	schema:isPartOf <https://war.wikipedia.org/> ;
+	schema:name "Diego Garcia"@war .
+
+<https://war.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mr.wikipedia.org/wiki/%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A5%87%E0%A4%97%E0%A5%8B_%E0%A4%97%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B8%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "mr" ;
+	schema:isPartOf <https://mr.wikipedia.org/> ;
+	schema:name "डियेगो गार्सिया"@mr .
+
+<https://mr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikivoyage.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikivoyage.org/> ;
+	schema:name "Diego Garcia"@fi .
+
+<https://fi.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ne.wikipedia.org/wiki/%E0%A4%A1%E0%A4%BF%E0%A4%8F%E0%A4%97%E0%A5%8B_%E0%A4%97%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B8%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "ne" ;
+	schema:isPartOf <https://ne.wikipedia.org/> ;
+	schema:name "डिएगो गार्सिया"@ne .
+
+<https://ne.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%94%D1%8B%D0%B5%D0%B3%D0%B0-%D0%93%D0%B0%D1%80%D1%81%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Дыега-Гарсія"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://commons.wikimedia.org/wiki/Category:Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "Category:Diego Garcia"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+<https://ko.wikipedia.org/wiki/%EB%94%94%EC%97%90%EA%B3%A0%EA%B0%80%EB%A5%B4%EC%8B%9C%EC%95%84%EC%84%AC> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "디에고가르시아섬"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%94%D0%B8%D0%B5%D0%B3%D0%BE_%D0%93%D0%B0%D1%80%D1%81%D0%B8%D1%98%D0%B0> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Диего Гарсија"@mk ;
+	wikibase:badge wd:Q17437796 .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D4%B4%D5%AB%D5%A5%D5%A3%D5%B8-%D4%B3%D5%A1%D6%80%D5%BD%D5%AB%D5%A1> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Դիեգո-Գարսիա"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D8%AF%D9%8A%D9%8A%D8%AC%D9%88_%D8%AC%D8%A7%D8%B1%D8%B3%D9%8A%D8%A7_(%D8%AC%D8%B2%D9%8A%D8%B1%D9%87)> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "دييجو جارسيا (جزيره)"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E8%BF%AA%E6%88%88%E5%8A%A0%E8%A5%BF%E4%BA%9A%E5%B2%9B> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "迪戈加西亚岛"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://shn.wikipedia.org/wiki/%E1%80%90%E1%80%AE%E1%82%87%E1%80%9A%E1%80%B1%E1%80%B8%E1%81%B5%E1%80%B0%E1%80%9D%E1%80%BA%E1%80%B8_%E1%81%B5%E1%80%9B%E1%82%83%E1%82%87%E1%80%9E%E1%80%AE%E1%80%B8%E1%80%9A%E1%82%83%E1%80%B8> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "shn" ;
+	schema:isPartOf <https://shn.wikipedia.org/> ;
+	schema:name "တီႇယေးၵူဝ်း ၵရႃႇသီးယႃး"@shn .
+
+<https://shn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E8%BF%AA%E4%BA%9E%E5%93%A5%E5%8A%A0%E6%96%AF%E4%BA%9E%E5%B3%B6> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "迪亞哥加斯亞島"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Diego Garcia"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Diego_Garcia> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Diego Garcia"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mzn.wikipedia.org/wiki/%D8%AF%DB%8C%DA%AF%D9%88_%DA%AF%D8%A7%D8%B1%D8%B3%DB%8C%D8%A7> a schema:Article ;
+	schema:about wd:Q184851 ;
+	schema:inLanguage "mzn" ;
+	schema:isPartOf <https://mzn.wikipedia.org/> ;
+	schema:name "دیگو گارسیا"@mzn .
+
+<https://mzn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q184851 wdt:P373 "Diego Garcia" ;
+	wdt:P17 wd:Q145 ;
+	wdt:P94 <http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20the%20British%20Indian%20Ocean%20Territory.svg> ;
+	wdt:P31 wd:Q23442 ;
+	wdt:P625 "Point(72.411111111111 -7.3133333333333)"^^geo:wktLiteral ;
+	wdt:P646 "/m/02ddv" ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Diegogarcia.jpg> ;
+	wdt:P1566 "1282575" ;
+	wdtn:P1566 <http://sws.geonames.org/1282575/> ;
+	wdt:P214 "244099778" ;
+	wdtn:P214 <http://viaf.org/viaf/244099778> ;
+	wdt:P227 "4090770-3" ;
+	wdtn:P227 <https://d-nb.info/gnd/4090770-3> ;
+	wdt:P206 wd:Q1239 ;
+	wdt:P2046 "+30"^^xsd:decimal ;
+	wdt:P2525 "1077" ;
+	wdt:P3417 "Diego-Garcia-3" ;
+	wdt:P1813 "🇩🇬"@zxx ;
+	wdt:P421 wd:Q6906 ;
+	wdt:P1225 "10037202" ;
+	wdt:P402 "2732108" ;
+	wdtn:P402 <https://www.openstreetmap.org/relation/2732108> ;
+	wdt:P5198 "294907874" ;
+	wdt:P1417 "place/Diego-Garcia-island-Indian-Ocean" ;
+	wdt:P361 wd:Q192188 ;
+	wdt:P131 wd:Q43448 ;
+	wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/Biot-map.png> ;
+	wdt:P2044 "+7"^^xsd:decimal ;
+	wdt:P244 "sh85037775" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85037775> ;
+	wdt:P3222 "diego-garcia" ;
+	wdt:P6821 "alvin-place:733" ;
+	wdtn:P6821 <http://www.alvin-portal.org/alvin/view.jsf?pid=alvin-place:733> ;
+	wdt:P1082 "+4202"^^xsd:decimal ;
+	wdt:P1245 "1009521" ;
+	wdt:P7867 wd:Q83977914 ;
+	wdt:P487 "🇩🇬" ;
+	wdt:P41 <http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Commissioner%20of%20the%20British%20Indian%20Ocean%20Territory.svg> ;
+	wdt:P4527 "9644" ;
+	wdtn:P4527 <http://data.parliament.uk/terms/9644> ;
+	wdt:P297 "DG" ;
+	wdt:P298 "DGA" ;
+	wdt:P9545 "198672" ;
+	wdt:P1889 wd:Q409212 ;
+	wdt:P4342 "Diego_Garcia" ;
+	wdt:P8313 "Diego_Garcia" ;
+	wdt:P1343 wd:Q19219752 ;
+	wdt:P8189 "987007553030705171" ;
+	rdfs:label "迪戈加西亚岛"@zh-hans ;
+	skos:prefLabel "迪戈加西亚岛"@zh-hans ;
+	schema:name "迪戈加西亚岛"@zh-hans ;
+	rdfs:label "迪亞哥加西亞島"@zh-hant ;
+	skos:prefLabel "迪亞哥加西亞島"@zh-hant ;
+	schema:name "迪亞哥加西亞島"@zh-hant ;
+	rdfs:label "迪亞哥加西亞島"@zh-hk ;
+	skos:prefLabel "迪亞哥加西亞島"@zh-hk ;
+	schema:name "迪亞哥加西亞島"@zh-hk ;
+	rdfs:label "迪戈加西亚岛"@zh-cn ;
+	skos:prefLabel "迪戈加西亚岛"@zh-cn ;
+	schema:name "迪戈加西亚岛"@zh-cn ;
+	rdfs:label "迪戈加西亚岛"@zh-sg ;
+	skos:prefLabel "迪戈加西亚岛"@zh-sg ;
+	schema:name "迪戈加西亚岛"@zh-sg ;
+	rdfs:label "迪亞哥加西亞島"@zh-tw ;
+	skos:prefLabel "迪亞哥加西亞島"@zh-tw ;
+	schema:name "迪亞哥加西亞島"@zh-tw ;
+	rdfs:label "Diego Garcia"@pl ;
+	skos:prefLabel "Diego Garcia"@pl ;
+	schema:name "Diego Garcia"@pl ;
+	rdfs:label "דייגו גרסיה"@he ;
+	skos:prefLabel "דייגו גרסיה"@he ;
+	schema:name "דייגו גרסיה"@he ;
+	rdfs:label "Востраў Дыега-Гарсія"@be ;
+	skos:prefLabel "Востраў Дыега-Гарсія"@be ;
+	schema:name "Востраў Дыега-Гарсія"@be ;
+	rdfs:label "Diego Garcia"@fr ;
+	skos:prefLabel "Diego Garcia"@fr ;
+	schema:name "Diego Garcia"@fr ;
+	rdfs:label "디에고가르시아섬"@ko ;
+	skos:prefLabel "디에고가르시아섬"@ko ;
+	schema:name "디에고가르시아섬"@ko ;
+	rdfs:label "Diego García"@es ;
+	skos:prefLabel "Diego García"@es ;
+	schema:name "Diego García"@es ;
+	rdfs:label "Diego Garcia"@it ;
+	skos:prefLabel "Diego Garcia"@it ;
+	schema:name "Diego Garcia"@it ;
+	rdfs:label "Atol Diego García"@gl ;
+	skos:prefLabel "Atol Diego García"@gl ;
+	schema:name "Atol Diego García"@gl ;
+	rdfs:label "Diego Garcia"@sw ;
+	skos:prefLabel "Diego Garcia"@sw ;
+	schema:name "Diego Garcia"@sw ;
+	rdfs:label "Diego Garcia"@de ;
+	skos:prefLabel "Diego Garcia"@de ;
+	schema:name "Diego Garcia"@de ;
+	rdfs:label "Diego Garcia"@id ;
+	skos:prefLabel "Diego Garcia"@id ;
+	schema:name "Diego Garcia"@id ;
+	rdfs:label "ഡീഗോ ഗാർഷിയ"@ml ;
+	skos:prefLabel "ഡീഗോ ഗാർഷിയ"@ml ;
+	schema:name "ഡീഗോ ഗാർഷിയ"@ml ;
+	rdfs:label "দিয়েগো গার্সিয়া"@bn ;
+	skos:prefLabel "দিয়েগো গার্সিয়া"@bn ;
+	schema:name "দিয়েগো গার্সিয়া"@bn ;
+	rdfs:label "ディエゴガルシア島"@ja ;
+	skos:prefLabel "ディエゴガルシア島"@ja ;
+	schema:name "ディエゴガルシア島"@ja ;
+	rdfs:label "Diego Garsia"@sq ;
+	skos:prefLabel "Diego Garsia"@sq ;
+	schema:name "Diego Garsia"@sq ;
+	rdfs:label "Diego Garcia"@vi ;
+	skos:prefLabel "Diego Garcia"@vi ;
+	schema:name "Diego Garcia"@vi ;
+	rdfs:label "Ντιέγκο Γκαρσία"@el ;
+	skos:prefLabel "Ντιέγκο Γκαρσία"@el ;
+	schema:name "Ντιέγκο Γκαρσία"@el ;
+	rdfs:label "Dijego Garsija"@sh ;
+	skos:prefLabel "Dijego Garsija"@sh ;
+	schema:name "Dijego Garsija"@sh ;
+	rdfs:label "ڈِئیگو گارسیا"@pnb ;
+	skos:prefLabel "ڈِئیگو گارسیا"@pnb ;
+	schema:name "ڈِئیگو گارسیا"@pnb ;
+	rdfs:label "Diego Garcia"@sv ;
+	skos:prefLabel "Diego Garcia"@sv ;
+	schema:name "Diego Garcia"@sv ;
+	rdfs:label "دييغو غارسيا"@ar ;
+	skos:prefLabel "دييغو غارسيا"@ar ;
+	schema:name "دييغو غارسيا"@ar ;
+	rdfs:label "Diego Garcia"@nl ;
+	skos:prefLabel "Diego Garcia"@nl ;
+	schema:name "Diego Garcia"@nl ;
+	rdfs:label "डिएगो गार्सिया"@hi ;
+	skos:prefLabel "डिएगो गार्सिया"@hi ;
+	schema:name "डिएगो गार्सिया"@hi ;
+	rdfs:label "Diego Garcia"@pt ;
+	skos:prefLabel "Diego Garcia"@pt ;
+	schema:name "Diego Garcia"@pt ;
+	rdfs:label "Diego Garcia"@eo ;
+	skos:prefLabel "Diego Garcia"@eo ;
+	schema:name "Diego Garcia"@eo ;
+	rdfs:label "Диего-Гарсия"@ru ;
+	skos:prefLabel "Диего-Гарсия"@ru ;
+	schema:name "Диего-Гарсия"@ru ;
+	rdfs:label "Dijego Garsija"@sr-el ;
+	skos:prefLabel "Dijego Garsija"@sr-el ;
+	schema:name "Dijego Garsija"@sr-el ;
+	rdfs:label "Дијего Гарсија"@sr-ec ;
+	skos:prefLabel "Дијего Гарсија"@sr-ec ;
+	schema:name "Дијего Гарсија"@sr-ec ;
+	rdfs:label "Diego Garcia"@en ;
+	skos:prefLabel "Diego Garcia"@en ;
+	schema:name "Diego Garcia"@en ;
+	rdfs:label "Diego Garcia"@ca ;
+	skos:prefLabel "Diego Garcia"@ca ;
+	schema:name "Diego Garcia"@ca ;
+	rdfs:label "Diego Garcia"@fi ;
+	skos:prefLabel "Diego Garcia"@fi ;
+	schema:name "Diego Garcia"@fi ;
+	rdfs:label "Дієго-Гарсія"@uk ;
+	skos:prefLabel "Дієго-Гарсія"@uk ;
+	schema:name "Дієго-Гарсія"@uk ;
+	rdfs:label "Дыега Гарсія"@be-tarask ;
+	skos:prefLabel "Дыега Гарсія"@be-tarask ;
+	schema:name "Дыега Гарсія"@be-tarask ;
+	rdfs:label "Diego Garcia"@war ;
+	skos:prefLabel "Diego Garcia"@war ;
+	schema:name "Diego Garcia"@war ;
+	rdfs:label "Diego García"@cs ;
+	skos:prefLabel "Diego García"@cs ;
+	schema:name "Diego García"@cs ;
+	rdfs:label "دیگو گارسیا"@fa ;
+	skos:prefLabel "دیگو گارسیا"@fa ;
+	schema:name "دیگو گارسیا"@fa ;
+	rdfs:label "Диего Гарсия"@bg ;
+	skos:prefLabel "Диего Гарсия"@bg ;
+	schema:name "Диего Гарсия"@bg ;
+	rdfs:label "డియెగో గార్సియా"@te ;
+	skos:prefLabel "డియెగో గార్సియా"@te ;
+	schema:name "డియెగో గార్సియా"@te ;
+	rdfs:label "ڈیگو گارشیا"@ur ;
+	skos:prefLabel "ڈیگو گارشیا"@ur ;
+	schema:name "ڈیگو گارشیا"@ur ;
+	rdfs:label "Diego Garcia"@hr ;
+	skos:prefLabel "Diego Garcia"@hr ;
+	schema:name "Diego Garcia"@hr ;
+	rdfs:label "Diego Garsija"@lt ;
+	skos:prefLabel "Diego Garsija"@lt ;
+	schema:name "Diego Garsija"@lt ;
+	rdfs:label "Diego Garcia"@da ;
+	skos:prefLabel "Diego Garcia"@da ;
+	schema:name "Diego Garcia"@da ;
+	rdfs:label "Дијего Гарсија"@sr ;
+	skos:prefLabel "Дијего Гарсија"@sr ;
+	schema:name "Дијего Гарсија"@sr ;
+	rdfs:label "迪戈加西亚岛"@zh ;
+	skos:prefLabel "迪戈加西亚岛"@zh ;
+	schema:name "迪戈加西亚岛"@zh ;
+	rdfs:label "ดีเอโกการ์ซีอา"@th ;
+	skos:prefLabel "ดีเอโกการ์ซีอา"@th ;
+	schema:name "ดีเอโกการ์ซีอา"@th ;
+	rdfs:label "Diego Garcia"@af ;
+	skos:prefLabel "Diego Garcia"@af ;
+	schema:name "Diego Garcia"@af ;
+	rdfs:label "Diego Garcia"@nb ;
+	skos:prefLabel "Diego Garcia"@nb ;
+	schema:name "Diego Garcia"@nb ;
+	rdfs:label "Diego Garcia"@sco ;
+	skos:prefLabel "Diego Garcia"@sco ;
+	schema:name "Diego Garcia"@sco ;
+	rdfs:label "Диего Гарсија"@mk ;
+	skos:prefLabel "Диего Гарсија"@mk ;
+	schema:name "Диего Гарсија"@mk ;
+	rdfs:label "Diego Garcia"@ms ;
+	skos:prefLabel "Diego Garcia"@ms ;
+	schema:name "Diego Garcia"@ms ;
+	rdfs:label "Diego Garcia"@hu ;
+	skos:prefLabel "Diego Garcia"@hu ;
+	schema:name "Diego Garcia"@hu ;
+	rdfs:label "Diyego-Garsiya"@uz ;
+	skos:prefLabel "Diyego-Garsiya"@uz ;
+	schema:name "Diyego-Garsiya"@uz ;
+	rdfs:label "தியேகோ கார்சியா"@ta ;
+	skos:prefLabel "தியேகோ கார்சியா"@ta ;
+	schema:name "தியேகோ கார்சியா"@ta ;
+	rdfs:label "Diego Garcia"@et ;
+	skos:prefLabel "Diego Garcia"@et ;
+	schema:name "Diego Garcia"@et ;
+	rdfs:label "Diego Garcia"@ceb ;
+	skos:prefLabel "Diego Garcia"@ceb ;
+	schema:name "Diego Garcia"@ceb ;
+	rdfs:label "Diego García (uhartea)"@eu ;
+	skos:prefLabel "Diego García (uhartea)"@eu ;
+	schema:name "Diego García (uhartea)"@eu ;
+	rdfs:label "डियेगो गार्सिया"@mr ;
+	skos:prefLabel "डियेगो गार्सिया"@mr ;
+	schema:name "डियेगो गार्सिया"@mr ;
+	rdfs:label "Диего-Гарсия"@kk-cyrl ;
+	skos:prefLabel "Диего-Гарсия"@kk-cyrl ;
+	schema:name "Диего-Гарсия"@kk-cyrl ;
+	rdfs:label "Díego Garcia"@is ;
+	skos:prefLabel "Díego Garcia"@is ;
+	schema:name "Díego Garcia"@is ;
+	rdfs:label "Диего Гарсиа"@mn ;
+	skos:prefLabel "Диего Гарсиа"@mn ;
+	schema:name "Диего Гарсиа"@mn ;
+	rdfs:label "Диего-Гарсия"@tg-cyrl ;
+	skos:prefLabel "Диего-Гарсия"@tg-cyrl ;
+	schema:name "Диего-Гарсия"@tg-cyrl ;
+	rdfs:label "Djego Garsija"@lv ;
+	skos:prefLabel "Djego Garsija"@lv ;
+	schema:name "Djego Garsija"@lv ;
+	rdfs:label "Diego Garcia"@sl ;
+	skos:prefLabel "Diego Garcia"@sl ;
+	schema:name "Diego Garcia"@sl ;
+	rdfs:label "Diego Garcia"@bs ;
+	skos:prefLabel "Diego Garcia"@bs ;
+	schema:name "Diego Garcia"@bs ;
+	rdfs:label "Dieqo-Qarsia"@az ;
+	skos:prefLabel "Dieqo-Qarsia"@az ;
+	schema:name "Dieqo-Qarsia"@az ;
+	rdfs:label "Diego Garcia"@tl ;
+	skos:prefLabel "Diego Garcia"@tl ;
+	schema:name "Diego Garcia"@tl ;
+	rdfs:label "ಡೈಗೋ ಗಾರ್ಸಿಯ"@kn ;
+	skos:prefLabel "ಡೈಗೋ ಗಾರ್ಸಿಯ"@kn ;
+	schema:name "ಡೈಗೋ ಗಾರ್ಸಿಯ"@kn ;
+	rdfs:label "დიეგო გარსია"@ka ;
+	skos:prefLabel "დიეგო გარსია"@ka ;
+	schema:name "დიეგო გარსია"@ka ;
+	rdfs:label "ડીયેગો ગાર્સીયા"@gu ;
+	skos:prefLabel "ડીયેગો ગાર્સીયા"@gu ;
+	schema:name "ડીયેગો ગાર્સીયા"@gu ;
+	rdfs:label "දියාගෝ ගාර්සියා"@si ;
+	skos:prefLabel "දියාගෝ ගාර්සියා"@si ;
+	schema:name "දියාගෝ ගාර්සියා"@si ;
+	rdfs:label "Diego-Garsiýa"@tk ;
+	skos:prefLabel "Diego-Garsiýa"@tk ;
+	schema:name "Diego-Garsiýa"@tk ;
+	rdfs:label "Diego Garcia"@cy ;
+	skos:prefLabel "Diego Garcia"@cy ;
+	schema:name "Diego Garcia"@cy ;
+	rdfs:label "डिएगो गार्सिया"@ne ;
+	skos:prefLabel "डिएगो गार्सिया"@ne ;
+	schema:name "डिएगो गार्सिया"@ne ;
+	rdfs:label "迪戈加西亚岛"@zh-my ;
+	skos:prefLabel "迪戈加西亚岛"@zh-my ;
+	schema:name "迪戈加西亚岛"@zh-my ;
+	rdfs:label "迪亞哥加西亞島"@zh-mo ;
+	skos:prefLabel "迪亞哥加西亞島"@zh-mo ;
+	schema:name "迪亞哥加西亞島"@zh-mo ;
+	rdfs:label "Diego Garcia"@ro ;
+	skos:prefLabel "Diego Garcia"@ro ;
+	schema:name "Diego Garcia"@ro ;
+	rdfs:label "Դիեգո-Գարսիա"@hy ;
+	skos:prefLabel "Դիեգո-Գարսիա"@hy ;
+	schema:name "Դիեգո-Գարսիա"@hy ;
+	rdfs:label "دييجو جارسيا"@arz ;
+	skos:prefLabel "دييجو جارسيا"@arz ;
+	schema:name "دييجو جارسيا"@arz ;
+	rdfs:label "迪戈加西亚岛"@wuu ;
+	skos:prefLabel "迪戈加西亚岛"@wuu ;
+	schema:name "迪戈加西亚岛"@wuu ;
+	rdfs:label "တီႇယေးၵူဝ်း ၵရႃႇသီးယႃး"@shn ;
+	skos:prefLabel "တီႇယေးၵူဝ်း ၵရႃႇသီးယႃး"@shn ;
+	schema:name "တီႇယေးၵူဝ်း ၵရႃႇသီးယႃး"@shn ;
+	rdfs:label "迪亞哥加斯亞島"@yue ;
+	skos:prefLabel "迪亞哥加斯亞島"@yue ;
+	schema:name "迪亞哥加斯亞島"@yue ;
+	rdfs:label "Diego Garcia"@tr ;
+	skos:prefLabel "Diego Garcia"@tr ;
+	schema:name "Diego Garcia"@tr ;
+	rdfs:label "ਡਿਏਗੋ ਗਾਰਸੀਆ"@pa ;
+	skos:prefLabel "ਡਿਏਗੋ ਗਾਰਸੀਆ"@pa ;
+	schema:name "ਡਿਏਗੋ ਗਾਰਸੀਆ"@pa ;
+	rdfs:label "Diego Garcia"@ga ;
+	skos:prefLabel "Diego Garcia"@ga ;
+	schema:name "Diego Garcia"@ga ;
+	rdfs:label "دیگو گارسیا"@mzn ;
+	skos:prefLabel "دیگو گارسیا"@mzn ;
+	schema:name "دیگو گارسیا"@mzn ;
+	rdfs:label "Diego Garcia"@pt-br ;
+	skos:prefLabel "Diego Garcia"@pt-br ;
+	schema:name "Diego Garcia"@pt-br ;
+	schema:description "eiland"@nl,
+		"British atoll in the Indian Ocean"@en,
+		"brittisk ö i Indiska oceanen"@sv,
+		"atoll India ookeanis"@et,
+		"atolón en el Océano Índico administrado por Reino Unido y reclamado por Mauricio"@es,
+		"Үнді мұхитындағы Британдық атолл"@kk-cyrl,
+		"британски атол во Индискиот Океан"@mk,
+		"brit atoll az Indiai-óceánban"@hu,
+		"ibu kota Wilayah Samudra Hindia, Britania Raya"@id,
+		"pulo di Inggréh"@ace,
+		"pulo ing Britania Raya"@jv,
+		"Atoll des Chagos-Archipels im Indischen Ozean"@de,
+		"Territorio britannico dell'Oceano Indiano"@it,
+		"teritoriu britanic în Oceanul Indian"@ro,
+		"ostrov v Indickém oceánu"@cs,
+		"pulong kagaangan"@ceb,
+		"ब्रिटिश हिन्द महासागरीय क्षेत्रको भाग"@ne,
+		"אי באוקיינוס ההודי"@he,
+		"Iso-Britannialle kuuluva atolli Intian valtamerellä"@fi,
+		"インド洋のイギリス領インド洋地域チャゴス諸島にある環礁"@ja,
+		"印度洋的一个岛礁"@zh,
+		"Atoll constitutif du territoire britannique de l'océan Indien"@fr,
+		"Hint Okyanusu'nda bulunan Britanya denizaşırı bölgesi"@tr,
+		"চাগোস দ্বীপপুঞ্জে অবস্থিত একটি প্রবালদ্বীপ"@bn,
+		"Isla"@pap,
+		"остров в Индийском океане"@ru,
+		"atol britânico no Oceano Índico"@pt,
+		"atol britânico no Oceano Índico"@pt-br ;
+	skos:altLabel "迪亞哥加西亞"@zh,
+		"迪亚哥加西亚岛"@zh,
+		"迪亞哥嘉西亞"@zh,
+		"🇩🇬"@zh,
+		"דייגו גארסיה"@he,
+		"Дыега-Гарсія"@be,
+		"디에고 가르시아 섬"@ko,
+		"🇩🇬"@ko,
+		"Diego Garcia"@es,
+		"Isla de Diego García"@es,
+		"Isla de Diego Garcia"@es,
+		"Isla Diego Garcia"@es,
+		"Isla Diego García"@es,
+		"Diego García"@gl,
+		"Diego Garcia"@ml,
+		"ディエゴガルシア"@ja,
+		"🇩🇬"@ja,
+		"Diego Garcia"@sh,
+		"دييغو جارسيا"@ar,
+		"قاعدة دييغو غارسيا"@ar,
+		"دييجو جارسيا"@ar,
+		"دييجو غارسيا"@ar,
+		"Остров Диего-Гарсия"@ru,
+		"Острво Дијего Гарсија"@sr,
+		"جزیرهٔ دیگو گارسیا"@fa,
+		"دیگوگارسیا"@fa,
+		"دیه گو گارسیا"@fa,
+		"دیه‌گو گارسیا"@fa,
+		"ڈیگو گارسیا"@ur,
+		"Djego Garsijas atols"@lv,
+		"டியேகோ கார்ஸியா"@ta,
+		"দিয়াগোগার্সিয়া"@bn,
+		"డిగో గార్సియా"@te,
+		"迪戈加西亞島"@zh-tw,
+		"迪戈加西亞島"@zh-hk,
+		"🇩🇬"@en .
+
+wd:Q18366875 owl:sameAs wd:Q184851 .

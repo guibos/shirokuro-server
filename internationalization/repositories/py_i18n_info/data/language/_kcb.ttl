@@ -1,0 +1,144 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11732302 a schema:Dataset ;
+	schema:about wd:Q11732302 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616004952"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:58:22Z"^^xsd:dateTime .
+
+wd:Q11732302 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kawacha> a schema:Article ;
+	schema:about wd:Q11732302 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kawacha"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kawacha_language> a schema:Article ;
+	schema:about wd:Q11732302 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kawacha language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikawacha> a schema:Article ;
+	schema:about wd:Q11732302 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikawacha"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Kawacha> a schema:Article ;
+	schema:about wd:Q11732302 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Kawacha"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1_%CE%9A%CE%B1%CE%BF%CF%85%CE%AC%CF%84%CF%83%CE%B1> a schema:Article ;
+	schema:about wd:Q11732302 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γλώσσα Καουάτσα"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11732302 wdt:P220 "kcb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kcb> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kawa1276" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kawa1276> ;
+	wdt:P2355 "2110" ;
+	wdt:P279 wd:Q3217366 ;
+	wdt:P910 wd:Q33672880 ;
+	wdt:P2192 "2225" ;
+	wdt:P305 "kcb" ;
+	wdt:P1627 "kcb" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q853664,
+		wd:Q753686 ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P646 "/m/02hwhsf" ;
+	wdt:P625 "Point(146.152479 -7.046688)"^^geo:wktLiteral ;
+	rdfs:label "Język kawatsa"@pl ;
+	skos:prefLabel "Język kawatsa"@pl ;
+	schema:name "Język kawatsa"@pl ;
+	rdfs:label "Lenga Kawacha"@pms ;
+	skos:prefLabel "Lenga Kawacha"@pms ;
+	schema:name "Lenga Kawacha"@pms ;
+	rdfs:label "Kawacha"@en ;
+	skos:prefLabel "Kawacha"@en ;
+	schema:name "Kawacha"@en ;
+	rdfs:label "Kikawacha"@sw ;
+	skos:prefLabel "Kikawacha"@sw ;
+	schema:name "Kikawacha"@sw ;
+	rdfs:label "Kawacha"@ilo ;
+	skos:prefLabel "Kawacha"@ilo ;
+	schema:name "Kawacha"@ilo ;
+	rdfs:label "Kawacha"@en-gb ;
+	skos:prefLabel "Kawacha"@en-gb ;
+	schema:name "Kawacha"@en-gb ;
+	rdfs:label "Γλώσσα Καουάτσα"@el ;
+	skos:prefLabel "Γλώσσα Καουάτσα"@el ;
+	schema:name "Γλώσσα Καουάτσα"@el ;
+	rdfs:label "kawacha"@fr ;
+	skos:prefLabel "kawacha"@fr ;
+	schema:name "kawacha"@fr ;
+	rdfs:label "кавача"@ru ;
+	skos:prefLabel "кавача"@ru ;
+	schema:name "кавача"@ru ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"yezh"@br,
+		"langue angane"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"язык"@ru ;
+	skos:altLabel "Kawucha"@en,
+		"Kawacha language"@en .
+
+wd:Q6379438 owl:sameAs wd:Q11732302 .
+
+wd:Q12952593 owl:sameAs wd:Q11732302 .

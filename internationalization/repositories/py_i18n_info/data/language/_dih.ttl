@@ -1,0 +1,95 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q20064918 a schema:Dataset ;
+	schema:about wd:Q20064918 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1905902161"^^xsd:integer ;
+	schema:dateModified "2023-05-31T23:37:00Z"^^xsd:dateTime .
+
+wd:Q20064918 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Diegue%C3%B1o> a schema:Article ;
+	schema:about wd:Q20064918 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Diegueño"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Kumiai_keel> a schema:Article ;
+	schema:about wd:Q20064918 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Kumiai keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q20064918 wdt:P279 wd:Q579137 ;
+	wdt:P31 wd:Q34770 ;
+	wdt:P305 "dih" ;
+	wdt:P220 "dih" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dih> ;
+	wdt:P4913 wd:Q3027474,
+		wd:Q3027471,
+		wd:Q4910139 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DIH> ;
+	wdt:P2671 "/g/11b7w5rnft" ;
+	wdtn:P2671 <http://g.co/kg/g/11b7w5rnft> ;
+	rdfs:label "diegueño"@fr ;
+	skos:prefLabel "diegueño"@fr ;
+	schema:name "diegueño"@fr ;
+	rdfs:label "diegueño"@es ;
+	skos:prefLabel "diegueño"@es ;
+	schema:name "diegueño"@es ;
+	rdfs:label "Kumeyaay"@en ;
+	skos:prefLabel "Kumeyaay"@en ;
+	schema:name "Kumeyaay"@en ;
+	rdfs:label "diegenjo keel"@et ;
+	skos:prefLabel "diegenjo keel"@et ;
+	schema:name "diegenjo keel"@et ;
+	rdfs:label "diegueño"@ca ;
+	skos:prefLabel "diegueño"@ca ;
+	schema:name "diegueño"@ca ;
+	schema:description "lengua amerindia"@es,
+		"langue yumane de la branche des langues Delta-Californie"@fr,
+		"Native American language"@en,
+		"yezh"@br,
+		"lingua"@it,
+		"Sprache"@de,
+		"taal"@nl,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "kumeyaay"@es,
+		"Diegueño"@en,
+		"kumeyaay"@fr,
+		"kumiai keel"@et .

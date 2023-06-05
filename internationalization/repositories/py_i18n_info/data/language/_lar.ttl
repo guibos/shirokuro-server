@@ -1,0 +1,156 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35639 a schema:Dataset ;
+	schema:about wd:Q35639 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1827841235"^^xsd:integer ;
+	schema:dateModified "2023-02-06T17:01:39Z"^^xsd:dateTime .
+
+wd:Q35639 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Larteh> a schema:Article ;
+	schema:about wd:Q35639 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Larteh"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Larteh> a schema:Article ;
+	schema:about wd:Q35639 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Larteh"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilarteh> a schema:Article ;
+	schema:about wd:Q35639 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilarteh"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Larteh_language> a schema:Article ;
+	schema:about wd:Q35639 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Larteh language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Larteh_(Sprache)> a schema:Article ;
+	schema:about wd:Q35639 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Larteh (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Larteh> a schema:Article ;
+	schema:about wd:Q35639 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Larteh"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Larteh> a schema:Article ;
+	schema:about wd:Q35639 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Larteh"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Asusu_Larteh> a schema:Article ;
+	schema:about wd:Q35639 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asusu Larteh"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35639 wdt:P220 "lar" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lar> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "lart1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lart1238> ;
+	wdt:P305 "lar" ;
+	wdt:P1627 "lar" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q117 ;
+	wdt:P2341 wd:Q405670 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LAR> ;
+	wdt:P279 wd:Q684009 ;
+	wdt:P646 "/m/02hwj2p" ;
+	rdfs:label "Kilarteh"@sw ;
+	skos:prefLabel "Kilarteh"@sw ;
+	schema:name "Kilarteh"@sw ;
+	rdfs:label "Lenga Larteh"@pms ;
+	skos:prefLabel "Lenga Larteh"@pms ;
+	schema:name "Lenga Larteh"@pms ;
+	rdfs:label "Larteh"@de ;
+	skos:prefLabel "Larteh"@de ;
+	schema:name "Larteh"@de ;
+	rdfs:label "Larteh"@en ;
+	skos:prefLabel "Larteh"@en ;
+	schema:name "Larteh"@en ;
+	rdfs:label "larteh"@ca ;
+	skos:prefLabel "larteh"@ca ;
+	schema:name "larteh"@ca ;
+	rdfs:label "Larteh"@en-gb ;
+	skos:prefLabel "Larteh"@en-gb ;
+	schema:name "Larteh"@en-gb ;
+	rdfs:label "Wikang Larteh"@tl ;
+	skos:prefLabel "Wikang Larteh"@tl ;
+	schema:name "Wikang Larteh"@tl ;
+	rdfs:label "Larteh"@oc ;
+	skos:prefLabel "Larteh"@oc ;
+	schema:name "Larteh"@oc ;
+	rdfs:label "larteh"@fr ;
+	skos:prefLabel "larteh"@fr ;
+	schema:name "larteh"@fr ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Larteh language"@en .

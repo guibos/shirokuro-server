@@ -1,0 +1,205 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q20824 a schema:Dataset ;
+	schema:about wd:Q20824 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1788633273"^^xsd:integer ;
+	schema:dateModified "2022-12-12T20:16:35Z"^^xsd:dateTime .
+
+wd:Q20824 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Mattole> a schema:Article ;
+	schema:about wd:Q20824 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Mattole"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_mattole> a schema:Article ;
+	schema:about wd:Q20824 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga mattole"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D1%82%D0%BE%D0%BB> a schema:Article ;
+	schema:about wd:Q20824 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Маттол"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Mattole_spriak> a schema:Article ;
+	schema:about wd:Q20824 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Mattole spriak"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_mattole> a schema:Article ;
+	schema:about wd:Q20824 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język mattole"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mattole_language> a schema:Article ;
+	schema:about wd:Q20824 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mattole language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Mattole_jezik> a schema:Article ;
+	schema:about wd:Q20824 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Mattole jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Mattole_(spr%C3%A5k)> a schema:Article ;
+	schema:about wd:Q20824 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Mattole (språk)"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q20824 wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P220 "mvb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mvb> ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P279 wd:Q20654 ;
+	wdt:P1098 "+0"^^xsd:decimal ;
+	wdt:P1394 "matt1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/matt1238> ;
+	wdt:P1014 "300388841" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388841> ;
+	wdt:P2355 "781" ;
+	wdt:P1466 "mtl" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_mtl> ;
+	wdt:P2581 "01539192n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s01539192n> ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P305 "mvb" ;
+	wdt:P1627 "mvb" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q30 ;
+	wdt:P2341 wd:Q99 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MVB> ;
+	wdt:P646 "/m/02hwq6_" ;
+	wdt:P8814 "06932688-n" ;
+	wdtn:P8814 <http://wordnet-rdf.princeton.edu/rdf/id/06932688-n> ;
+	rdfs:label "Lenga mattole"@pms ;
+	skos:prefLabel "Lenga mattole"@pms ;
+	schema:name "Lenga mattole"@pms ;
+	rdfs:label "Mattole"@en ;
+	skos:prefLabel "Mattole"@en ;
+	schema:name "Mattole"@en ;
+	rdfs:label "Mattole spriak"@frr ;
+	skos:prefLabel "Mattole spriak"@frr ;
+	schema:name "Mattole spriak"@frr ;
+	rdfs:label "Mattole jezik"@hr ;
+	skos:prefLabel "Mattole jezik"@hr ;
+	schema:name "Mattole jezik"@hr ;
+	rdfs:label "Mattole"@en-ca ;
+	skos:prefLabel "Mattole"@en-ca ;
+	schema:name "Mattole"@en-ca ;
+	rdfs:label "Mattole"@en-gb ;
+	skos:prefLabel "Mattole"@en-gb ;
+	schema:name "Mattole"@en-gb ;
+	rdfs:label "Język mattole"@pl ;
+	skos:prefLabel "Język mattole"@pl ;
+	schema:name "Język mattole"@pl ;
+	rdfs:label "mattole"@es ;
+	skos:prefLabel "mattole"@es ;
+	schema:name "mattole"@es ;
+	rdfs:label "Mattole"@de ;
+	skos:prefLabel "Mattole"@de ;
+	schema:name "Mattole"@de ;
+	rdfs:label "lingua mattole"@it ;
+	skos:prefLabel "lingua mattole"@it ;
+	schema:name "lingua mattole"@it ;
+	rdfs:label "Маттол"@ru ;
+	skos:prefLabel "Маттол"@ru ;
+	schema:name "Маттол"@ru ;
+	rdfs:label "mattole"@ca ;
+	skos:prefLabel "mattole"@ca ;
+	schema:name "mattole"@ca ;
+	rdfs:label "mattole"@fr ;
+	skos:prefLabel "mattole"@fr ;
+	schema:name "mattole"@fr ;
+	rdfs:label "matole keel"@et ;
+	skos:prefLabel "matole keel"@et ;
+	schema:name "matole keel"@et ;
+	rdfs:label "馬投爾語"@zh ;
+	skos:prefLabel "馬投爾語"@zh ;
+	schema:name "馬投爾語"@zh ;
+	rdfs:label "Wikang Mattole"@tl ;
+	skos:prefLabel "Wikang Mattole"@tl ;
+	schema:name "Wikang Mattole"@tl ;
+	rdfs:label "Mattole (språk)"@nb ;
+	skos:prefLabel "Mattole (språk)"@nb ;
+	schema:name "Mattole (språk)"@nb ;
+	rdfs:label "mattole"@vec ;
+	skos:prefLabel "mattole"@vec ;
+	schema:name "mattole"@vec ;
+	schema:description "extinct Athabaskan language"@en,
+		"lengua atabascana extinta"@es,
+		"ausgestorbene athabaskische Sprache"@de,
+		"lingua nativo americana"@it,
+		"langue amérindienne"@fr,
+		"שפה"@he,
+		"väljasurnud atapaski keel"@et,
+		"yezh"@br,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Mattole–Bear River language"@en,
+		"Bear River language"@en,
+		"Mattole–Bear River"@en,
+		"ISO 639:mvb"@en,
+		"Mattole-Bear River"@en,
+		"Mattole-Bear River language"@en,
+		"Mattole language"@en .
+
+wd:Q61097494 owl:sameAs wd:Q20824 .

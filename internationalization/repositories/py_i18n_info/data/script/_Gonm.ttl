@@ -1,0 +1,114 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q16977603 a schema:Dataset ;
+	schema:about wd:Q16977603 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1672804551"^^xsd:integer ;
+	schema:dateModified "2022-07-07T10:46:37Z"^^xsd:dateTime .
+
+wd:Q16977603 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Gondi_writing> a schema:Article ;
+	schema:about wd:Q16977603 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Gondi writing"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%97%E0%A5%8B%E0%A4%A3%E0%A5%8D%E0%A4%A1%E0%A5%80_%E0%A4%B2%E0%A5%87%E0%A4%96%E0%A4%A8> a schema:Article ;
+	schema:about wd:Q16977603 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "गोण्डी लेखन"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pa.wikipedia.org/wiki/%E0%A8%97%E0%A9%8B%E0%A8%82%E0%A8%A1%E0%A9%80_%E0%A8%B2%E0%A8%BF%E0%A8%AA%E0%A9%80> a schema:Article ;
+	schema:about wd:Q16977603 ;
+	schema:inLanguage "pa" ;
+	schema:isPartOf <https://pa.wikipedia.org/> ;
+	schema:name "ਗੋਂਡੀ ਲਿਪੀ"@pa .
+
+<https://pa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q16977603 wdt:P506 "Gonm" ;
+	wdt:P2620 "313" ;
+	wdt:P31 wd:Q8192,
+		wd:Q335806,
+		wd:Q29517555,
+		wd:Q4004706 ;
+	wdt:P2671 "/g/125_dly7l" ;
+	wdtn:P2671 <http://g.co/kg/g/125_dly7l> ;
+	wdt:P5949 "U+11D00-11D5F" ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P2561 "Masaram Gondi"@en,
+		"masaram gondî"@fr ;
+	wdt:P571 "1918-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P366 wd:Q1775361 ;
+	wdt:P144 wd:Q185083 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Masaram%20Gondi%20letter%20ka.svg> ;
+	wdt:P910 wd:Q33656868 ;
+	rdfs:label "Masaram Gondi"@en ;
+	skos:prefLabel "Masaram Gondi"@en ;
+	schema:name "Masaram Gondi"@en ;
+	rdfs:label "馬薩拉姆共地文字"@zh-hant ;
+	skos:prefLabel "馬薩拉姆共地文字"@zh-hant ;
+	schema:name "馬薩拉姆共地文字"@zh-hant ;
+	rdfs:label "马萨拉姆共地文字"@zh-cn ;
+	skos:prefLabel "马萨拉姆共地文字"@zh-cn ;
+	schema:name "马萨拉姆共地文字"@zh-cn ;
+	rdfs:label "गोंडी लेखन"@hi ;
+	skos:prefLabel "गोंडी लेखन"@hi ;
+	schema:name "गोंडी लेखन"@hi ;
+	rdfs:label "马萨拉姆共地文字"@zh-hans ;
+	skos:prefLabel "马萨拉姆共地文字"@zh-hans ;
+	schema:name "马萨拉姆共地文字"@zh-hans ;
+	rdfs:label "马萨拉姆共地文字"@zh ;
+	skos:prefLabel "马萨拉姆共地文字"@zh ;
+	schema:name "马萨拉姆共地文字"@zh ;
+	rdfs:label "masaram gondî"@fr ;
+	skos:prefLabel "masaram gondî"@fr ;
+	schema:name "masaram gondî"@fr ;
+	rdfs:label "ਗੋਂਡੀ ਲਿਪੀ"@pa ;
+	skos:prefLabel "ਗੋਂਡੀ ਲਿਪੀ"@pa ;
+	schema:name "ਗੋਂਡੀ ਲਿਪੀ"@pa ;
+	schema:description "writing system"@en,
+		"गोंडी भाषा लेखन"@hi,
+		"abugida"@fr ;
+	skos:altLabel "Gondi Script"@en,
+		"Masaram Gondi script"@en,
+		"गोंडी लिपि"@hi,
+		"masaram gondi"@fr .
+
+wd:Q72403632 owl:sameAs wd:Q16977603 .

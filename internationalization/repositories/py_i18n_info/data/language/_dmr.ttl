@@ -1,0 +1,381 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5328200 a schema:Dataset ;
+	schema:about wd:Q5328200 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912142399"^^xsd:integer ;
+	schema:dateModified "2023-06-10T10:52:15Z"^^xsd:dateTime .
+
+wd:Q5328200 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Damar_est> a schema:Article ;
+	schema:about wd:Q5328200 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Damar est"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Daya_a_Damar> a schema:Article ;
+	schema:about wd:Q5328200 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Daya a Damar"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kidamar-Mashariki> a schema:Article ;
+	schema:about wd:Q5328200 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kidamar-Mashariki"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/East_Damar_language> a schema:Article ;
+	schema:about wd:Q5328200 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "East Damar language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Subangan_na_Damar> a schema:Article ;
+	schema:about wd:Q5328200 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Subangan na Damar"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Isto%C4%8Dnodamarski_jezik> a schema:Article ;
+	schema:about wd:Q5328200 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Istočnodamarski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_damar_wschodni> a schema:Article ;
+	schema:about wd:Q5328200 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język damar wschodni"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Damar_Timur> a schema:Article ;
+	schema:about wd:Q5328200 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Damar Timur"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5328200 wdt:P220 "dmr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dmr> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "east2472" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/east2472> ;
+	wdt:P1098 "+400"^^xsd:decimal ;
+	wdt:P276 wd:Q15057229,
+		wd:Q24287351 ;
+	wdt:P2341 wd:Q24287360,
+		wd:Q5093 ;
+	wdt:P2590 "0124 0" ;
+	wdt:P17 wd:Q252 ;
+	wdt:P1448 "bahasa Damar Timur"@id,
+		"bahasa Kumur"@id ;
+	wdt:P305 "dmr" ;
+	wdt:P1627 "dmr" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P1245 "701210" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DMR> ;
+	wdt:P646 "/m/02hwlgn" ;
+	wdt:P910 wd:Q105714639 ;
+	rdfs:label "East Damar"@en ;
+	skos:prefLabel "East Damar"@en ;
+	schema:name "East Damar"@en ;
+	rdfs:label "Lenga Damar est"@pms ;
+	skos:prefLabel "Lenga Damar est"@pms ;
+	schema:name "Lenga Damar est"@pms ;
+	rdfs:label "Istočnodamarski jezik"@hr ;
+	skos:prefLabel "Istočnodamarski jezik"@hr ;
+	schema:name "Istočnodamarski jezik"@hr ;
+	rdfs:label "Kidamar-Mashariki"@sw ;
+	skos:prefLabel "Kidamar-Mashariki"@sw ;
+	schema:name "Kidamar-Mashariki"@sw ;
+	rdfs:label "Damar Timur"@id ;
+	skos:prefLabel "Damar Timur"@id ;
+	schema:name "Damar Timur"@id ;
+	rdfs:label "Damar Timur"@ace ;
+	skos:prefLabel "Damar Timur"@ace ;
+	schema:name "Damar Timur"@ace ;
+	rdfs:label "Damar Timur"@af ;
+	skos:prefLabel "Damar Timur"@af ;
+	schema:name "Damar Timur"@af ;
+	rdfs:label "Damar Timur"@an ;
+	skos:prefLabel "Damar Timur"@an ;
+	schema:name "Damar Timur"@an ;
+	rdfs:label "Damar Timur"@ast ;
+	skos:prefLabel "Damar Timur"@ast ;
+	schema:name "Damar Timur"@ast ;
+	rdfs:label "Damar Timur"@bar ;
+	skos:prefLabel "Damar Timur"@bar ;
+	schema:name "Damar Timur"@bar ;
+	rdfs:label "damar Timur"@br ;
+	skos:prefLabel "damar Timur"@br ;
+	schema:name "damar Timur"@br ;
+	rdfs:label "Damar Timur"@ca ;
+	skos:prefLabel "Damar Timur"@ca ;
+	schema:name "Damar Timur"@ca ;
+	rdfs:label "Damar Timur"@co ;
+	skos:prefLabel "Damar Timur"@co ;
+	schema:name "Damar Timur"@co ;
+	rdfs:label "Damar Timur"@cs ;
+	skos:prefLabel "Damar Timur"@cs ;
+	schema:name "Damar Timur"@cs ;
+	rdfs:label "Damar Timur"@cy ;
+	skos:prefLabel "Damar Timur"@cy ;
+	schema:name "Damar Timur"@cy ;
+	rdfs:label "Damar Timur"@da ;
+	skos:prefLabel "Damar Timur"@da ;
+	schema:name "Damar Timur"@da ;
+	rdfs:label "Damar Timur"@de ;
+	skos:prefLabel "Damar Timur"@de ;
+	schema:name "Damar Timur"@de ;
+	rdfs:label "Damar Timur"@de-at ;
+	skos:prefLabel "Damar Timur"@de-at ;
+	schema:name "Damar Timur"@de-at ;
+	rdfs:label "Damar Timur"@de-ch ;
+	skos:prefLabel "Damar Timur"@de-ch ;
+	schema:name "Damar Timur"@de-ch ;
+	rdfs:label "Damar Timur"@en-ca ;
+	skos:prefLabel "Damar Timur"@en-ca ;
+	schema:name "Damar Timur"@en-ca ;
+	rdfs:label "Damar Timur"@en-gb ;
+	skos:prefLabel "Damar Timur"@en-gb ;
+	schema:name "Damar Timur"@en-gb ;
+	rdfs:label "Damar Timur"@eo ;
+	skos:prefLabel "Damar Timur"@eo ;
+	schema:name "Damar Timur"@eo ;
+	rdfs:label "Damar Timur"@es ;
+	skos:prefLabel "Damar Timur"@es ;
+	schema:name "Damar Timur"@es ;
+	rdfs:label "Damar Timur"@et ;
+	skos:prefLabel "Damar Timur"@et ;
+	schema:name "Damar Timur"@et ;
+	rdfs:label "Damar Timur"@eu ;
+	skos:prefLabel "Damar Timur"@eu ;
+	schema:name "Damar Timur"@eu ;
+	rdfs:label "Damar Timur"@fi ;
+	skos:prefLabel "Damar Timur"@fi ;
+	schema:name "Damar Timur"@fi ;
+	rdfs:label "damar Timur"@fr ;
+	skos:prefLabel "damar Timur"@fr ;
+	schema:name "damar Timur"@fr ;
+	rdfs:label "Damar Timur"@frp ;
+	skos:prefLabel "Damar Timur"@frp ;
+	schema:name "Damar Timur"@frp ;
+	rdfs:label "Damar Timur"@fur ;
+	skos:prefLabel "Damar Timur"@fur ;
+	schema:name "Damar Timur"@fur ;
+	rdfs:label "Damar Timur"@ga ;
+	skos:prefLabel "Damar Timur"@ga ;
+	schema:name "Damar Timur"@ga ;
+	rdfs:label "Damar Timur"@gd ;
+	skos:prefLabel "Damar Timur"@gd ;
+	schema:name "Damar Timur"@gd ;
+	rdfs:label "Damar Timur"@gl ;
+	skos:prefLabel "Damar Timur"@gl ;
+	schema:name "Damar Timur"@gl ;
+	rdfs:label "Damar Timur"@gsw ;
+	skos:prefLabel "Damar Timur"@gsw ;
+	schema:name "Damar Timur"@gsw ;
+	rdfs:label "Damar Timur"@hu ;
+	skos:prefLabel "Damar Timur"@hu ;
+	schema:name "Damar Timur"@hu ;
+	rdfs:label "Damar Timur"@ia ;
+	skos:prefLabel "Damar Timur"@ia ;
+	schema:name "Damar Timur"@ia ;
+	rdfs:label "Damar Timur"@ie ;
+	skos:prefLabel "Damar Timur"@ie ;
+	schema:name "Damar Timur"@ie ;
+	rdfs:label "Damar Timur"@io ;
+	skos:prefLabel "Damar Timur"@io ;
+	schema:name "Damar Timur"@io ;
+	rdfs:label "Damar Timur"@is ;
+	skos:prefLabel "Damar Timur"@is ;
+	schema:name "Damar Timur"@is ;
+	rdfs:label "damar timur"@it ;
+	skos:prefLabel "damar timur"@it ;
+	schema:name "damar timur"@it ;
+	rdfs:label "Damar Timur"@jv ;
+	skos:prefLabel "Damar Timur"@jv ;
+	schema:name "Damar Timur"@jv ;
+	rdfs:label "Damar Timur"@kg ;
+	skos:prefLabel "Damar Timur"@kg ;
+	schema:name "Damar Timur"@kg ;
+	rdfs:label "Damar Timur"@lb ;
+	skos:prefLabel "Damar Timur"@lb ;
+	schema:name "Damar Timur"@lb ;
+	rdfs:label "Damar Timur"@li ;
+	skos:prefLabel "Damar Timur"@li ;
+	schema:name "Damar Timur"@li ;
+	rdfs:label "Damar Timur"@lij ;
+	skos:prefLabel "Damar Timur"@lij ;
+	schema:name "Damar Timur"@lij ;
+	rdfs:label "Damar Timur"@mg ;
+	skos:prefLabel "Damar Timur"@mg ;
+	schema:name "Damar Timur"@mg ;
+	rdfs:label "Damar Timur"@min ;
+	skos:prefLabel "Damar Timur"@min ;
+	schema:name "Damar Timur"@min ;
+	rdfs:label "Damar Timur"@ms ;
+	skos:prefLabel "Damar Timur"@ms ;
+	schema:name "Damar Timur"@ms ;
+	rdfs:label "Damar Timur"@nap ;
+	skos:prefLabel "Damar Timur"@nap ;
+	schema:name "Damar Timur"@nap ;
+	rdfs:label "Damar Timur"@nb ;
+	skos:prefLabel "Damar Timur"@nb ;
+	schema:name "Damar Timur"@nb ;
+	rdfs:label "Damar Timur"@nds ;
+	skos:prefLabel "Damar Timur"@nds ;
+	schema:name "Damar Timur"@nds ;
+	rdfs:label "Damar Timur"@nds-nl ;
+	skos:prefLabel "Damar Timur"@nds-nl ;
+	schema:name "Damar Timur"@nds-nl ;
+	rdfs:label "Damar Timur"@nl ;
+	skos:prefLabel "Damar Timur"@nl ;
+	schema:name "Damar Timur"@nl ;
+	rdfs:label "Damar Timur"@nn ;
+	skos:prefLabel "Damar Timur"@nn ;
+	schema:name "Damar Timur"@nn ;
+	rdfs:label "Damar Timur"@nrm ;
+	skos:prefLabel "Damar Timur"@nrm ;
+	schema:name "Damar Timur"@nrm ;
+	rdfs:label "Damar Timur"@oc ;
+	skos:prefLabel "Damar Timur"@oc ;
+	schema:name "Damar Timur"@oc ;
+	rdfs:label "Damar Timur"@pcd ;
+	skos:prefLabel "Damar Timur"@pcd ;
+	schema:name "Damar Timur"@pcd ;
+	rdfs:label "Damar Timur"@pl ;
+	skos:prefLabel "Damar Timur"@pl ;
+	schema:name "Damar Timur"@pl ;
+	rdfs:label "Damar Timur"@pt ;
+	skos:prefLabel "Damar Timur"@pt ;
+	schema:name "Damar Timur"@pt ;
+	rdfs:label "Damar Timur"@pt-br ;
+	skos:prefLabel "Damar Timur"@pt-br ;
+	schema:name "Damar Timur"@pt-br ;
+	rdfs:label "Damar Timur"@rm ;
+	skos:prefLabel "Damar Timur"@rm ;
+	schema:name "Damar Timur"@rm ;
+	rdfs:label "Damar Timur"@ro ;
+	skos:prefLabel "Damar Timur"@ro ;
+	schema:name "Damar Timur"@ro ;
+	rdfs:label "Damar Timur"@sc ;
+	skos:prefLabel "Damar Timur"@sc ;
+	schema:name "Damar Timur"@sc ;
+	rdfs:label "Damar Timur"@scn ;
+	skos:prefLabel "Damar Timur"@scn ;
+	schema:name "Damar Timur"@scn ;
+	rdfs:label "Damar Timur"@sco ;
+	skos:prefLabel "Damar Timur"@sco ;
+	schema:name "Damar Timur"@sco ;
+	rdfs:label "Damar Timur"@sk ;
+	skos:prefLabel "Damar Timur"@sk ;
+	schema:name "Damar Timur"@sk ;
+	rdfs:label "Damar Timur"@sl ;
+	skos:prefLabel "Damar Timur"@sl ;
+	schema:name "Damar Timur"@sl ;
+	rdfs:label "Damar Timur"@sr-el ;
+	skos:prefLabel "Damar Timur"@sr-el ;
+	schema:name "Damar Timur"@sr-el ;
+	rdfs:label "Damar Timur"@su ;
+	skos:prefLabel "Damar Timur"@su ;
+	schema:name "Damar Timur"@su ;
+	rdfs:label "Damar Timur"@sv ;
+	skos:prefLabel "Damar Timur"@sv ;
+	schema:name "Damar Timur"@sv ;
+	rdfs:label "Damar Timur"@vec ;
+	skos:prefLabel "Damar Timur"@vec ;
+	schema:name "Damar Timur"@vec ;
+	rdfs:label "Damar Timur"@vi ;
+	skos:prefLabel "Damar Timur"@vi ;
+	schema:name "Damar Timur"@vi ;
+	rdfs:label "Damar Timur"@vls ;
+	skos:prefLabel "Damar Timur"@vls ;
+	schema:name "Damar Timur"@vls ;
+	rdfs:label "Damar Timur"@vo ;
+	skos:prefLabel "Damar Timur"@vo ;
+	schema:name "Damar Timur"@vo ;
+	rdfs:label "Damar Timur"@wa ;
+	skos:prefLabel "Damar Timur"@wa ;
+	schema:name "Damar Timur"@wa ;
+	rdfs:label "Damar Timur"@wo ;
+	skos:prefLabel "Damar Timur"@wo ;
+	schema:name "Damar Timur"@wo ;
+	rdfs:label "Damar Timur"@zu ;
+	skos:prefLabel "Damar Timur"@zu ;
+	schema:name "Damar Timur"@zu ;
+	rdfs:label "Daya a Damar"@ilo ;
+	skos:prefLabel "Daya a Damar"@ilo ;
+	schema:name "Daya a Damar"@ilo ;
+	rdfs:label "Tataramon na Subangan na Damar"@bcl ;
+	skos:prefLabel "Tataramon na Subangan na Damar"@bcl ;
+	schema:name "Tataramon na Subangan na Damar"@bcl ;
+	schema:description "Sprache"@de,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"pagsasao idiay Indonesia"@ilo,
+		"language in Indonesia"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"język austronezyjski"@pl ;
+	skos:altLabel "Damar Timur"@en,
+		"East Damar language"@en,
+		"Kumur"@id,
+		"Oost-Damar"@nl .
+
+wd:Q12633084 owl:sameAs wd:Q5328200 .
+
+wd:Q24750721 owl:sameAs wd:Q5328200 .

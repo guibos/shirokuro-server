@@ -1,0 +1,509 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33284 a schema:Dataset ;
+	schema:about wd:Q33284 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912166992"^^xsd:integer ;
+	schema:dateModified "2023-06-10T11:28:56Z"^^xsd:dateTime .
+
+wd:Q33284 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Bicolano_sentral> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Bicolano sentral"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%B1%D0%B8%D0%BA%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Центральный бикольский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Bikol_Sentral> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Bikol Sentral"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Centralni_Bicolano_(jezik)> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Centralni Bicolano (jezik)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Bikol_Sentral> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Bikol Sentral"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%A4%AE%E3%83%93%E3%82%B3%E3%83%BC%E3%83%AB%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "中央ビコール語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%AE%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%AF_%E0%AE%AA%E0%AE%BF%E0%AE%95%E0%AF%8B%E0%AE%B2%E0%AF%8D_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "மத்திய பிகோல் மொழி"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%D8%A8%DB%8C%DA%A9%D9%88%D9%84%D8%A7%D9%86%D9%88> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "بیکولانو"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Bicolano_central> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Bicolano central"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hak.wikipedia.org/wiki/Ch%C3%BBng_Bikol-ng%C3%AE> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "hak" ;
+	schema:isPartOf <https://hak.wikipedia.org/> ;
+	schema:name "Chûng Bikol-ngî"@hak .
+
+<https://hak.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Bicol_central> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Bicol central"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Bicolano_central> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Bicolano central"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Centraal-Bikol> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Centraal-Bikol"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D8%A8%DB%8C%DA%A9%D9%88%D9%84_%D9%85%D8%B1%DA%A9%D8%B2%DB%8C_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "بیکول مرکزی دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gor.wikipedia.org/wiki/Bahasa_Bikol_Tengah> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "gor" ;
+	schema:isPartOf <https://gor.wikipedia.org/> ;
+	schema:name "Bahasa Bikol Tengah"@gor .
+
+<https://gor.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Gitnang_Bikol> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Gitnang Bikol"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikivoyage.org/wiki/Bikol_phrasebook> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikivoyage.org/> ;
+	schema:name "Bikol phrasebook"@en .
+
+<https://en.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%A8%DB%8C%DA%A9%D9%88%D9%84_%D9%85%D8%B1%DA%A9%D8%B2%DB%8C> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان بیکول مرکزی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_bikol_central> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua bikol central"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Bicolano_central> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Bicolano central"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Keskibikol> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Keskibikol"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%A4%91%EB%B6%80_%EB%B9%84%EC%BD%9C%EC%96%B4> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "중부 비콜어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E4%B8%AD%E6%AF%94%E7%A7%91%E7%88%BE%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "中比科爾語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sco.wikipedia.org/wiki/Central_Bikolano_leid> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "sco" ;
+	schema:isPartOf <https://sco.wikipedia.org/> ;
+	schema:name "Central Bikolano leid"@sco .
+
+<https://sco.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibikol_cha_Kati> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibikol cha Kati"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%9B%E1%B1%9F%E1%B1%9E%E1%B1%A2%E1%B1%9F_%E1%B1%B5%E1%B1%A4%E1%B1%A0%E1%B1%B3%E1%B1%9E_%E1%B1%AF%E1%B1%9F%E1%B1%B9%E1%B1%A8%E1%B1%A5%E1%B1%A4> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱛᱟᱞᱢᱟ ᱵᱤᱠᱳᱞ ᱯᱟᱹᱨᱥᱤ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Bikol_Tengah> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Bikol Tengah"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Central_Bikol> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Central Bikol"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ceb.wikipedia.org/wiki/Pinulongang_Tungang_Bikol> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "ceb" ;
+	schema:isPartOf <https://ceb.wikipedia.org/> ;
+	schema:name "Pinulongang Tungang Bikol"@ceb .
+
+<https://ceb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wiktionary.org/wiki/Wiktionary:About_Bikol_Central> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wiktionary.org/> ;
+	schema:name "Wiktionary:About Bikol Central"@en .
+
+<https://en.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://cdo.wikipedia.org/wiki/D%E1%B9%B3%CC%86ng_Bikol-ng%E1%B9%B3%CC%84> a schema:Article ;
+	schema:about wd:Q33284 ;
+	schema:inLanguage "cdo" ;
+	schema:isPartOf <https://cdo.wikipedia.org/> ;
+	schema:name "Dṳ̆ng Bikol-ngṳ̄"@cdo .
+
+<https://cdo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33284 wdt:P305 "bcl" ;
+	wdt:P220 "bcl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bcl> ;
+	wdt:P31 wd:Q34770 ;
+	wdt:P646 "/m/0gchqt" ;
+	wdt:P17 wd:Q928 ;
+	wdt:P279 wd:Q35455 ;
+	wdt:P424 "bcl" ;
+	wdt:P1394 "cent2087" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/cent2087> ;
+	wdt:P1098 "+2500000"^^xsd:decimal ;
+	wdt:P373 "Central Bikol language" ;
+	wdt:P1466 "bkl" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_bkl> ;
+	wdt:P1705 "Bikol Sentral"@bcl,
+		"Bikol Sana"@bcl ;
+	wdt:P1627 "bcl" ;
+	wdt:P3823 wd:Q29051549 ;
+	wdt:P2341 wd:Q13662,
+		wd:Q13650,
+		wd:Q13726,
+		wd:Q13763,
+		wd:Q13767,
+		wd:Q13778,
+		wd:Q13847,
+		wd:Q13872,
+		wd:Q13881 ;
+	wdt:P625 "Point(123.5 13.333333333333)"^^geo:wktLiteral ;
+	wdt:P2888 <https://publications.europa.eu/resource/authority/language/BCL> ;
+	wdt:P910 wd:Q31159042 ;
+	wdt:P948 <http://commons.wikimedia.org/wiki/Special:FilePath/Bikol%20Phrasebook%20banner%20Mayon%20Volcano.jpg> ;
+	wdt:P4839 "Entity[\"Language\", \"BikolCentral::4j7hz\"]",
+		"Entity[\"Language\", \"Bikol::qt795\"]" ;
+	wdt:P10369 "Q115107" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q115107> ;
+	wdt:P1018 wd:Q25662827 ;
+	rdfs:label "Tiếng Bikol Trung"@vi ;
+	skos:prefLabel "Tiếng Bikol Trung"@vi ;
+	schema:name "Tiếng Bikol Trung"@vi ;
+	rdfs:label "Central Bikolano leid"@sco ;
+	skos:prefLabel "Central Bikolano leid"@sco ;
+	schema:name "Central Bikolano leid"@sco ;
+	rdfs:label "bikol central"@fr ;
+	skos:prefLabel "bikol central"@fr ;
+	schema:name "bikol central"@fr ;
+	rdfs:label "Central Bikol"@en ;
+	skos:prefLabel "Central Bikol"@en ;
+	schema:name "Central Bikol"@en ;
+	rdfs:label "Centralni Bicolano"@hr ;
+	skos:prefLabel "Centralni Bicolano"@hr ;
+	schema:name "Centralni Bicolano"@hr ;
+	rdfs:label "بیکولانو"@pnb ;
+	skos:prefLabel "بیکولانو"@pnb ;
+	schema:name "بیکولانو"@pnb ;
+	rdfs:label "Chûng Bikolano-ngî"@hak ;
+	skos:prefLabel "Chûng Bikolano-ngî"@hak ;
+	schema:name "Chûng Bikolano-ngî"@hak ;
+	rdfs:label "Wikang Gitnang Bikol"@tl ;
+	skos:prefLabel "Wikang Gitnang Bikol"@tl ;
+	schema:name "Wikang Gitnang Bikol"@tl ;
+	rdfs:label "中比科爾語"@zh-tw ;
+	skos:prefLabel "中比科爾語"@zh-tw ;
+	schema:name "中比科爾語"@zh-tw ;
+	rdfs:label "中比科爾語"@zh-hant ;
+	skos:prefLabel "中比科爾語"@zh-hant ;
+	schema:name "中比科爾語"@zh-hant ;
+	rdfs:label "中比科尔语"@zh-hans ;
+	skos:prefLabel "中比科尔语"@zh-hans ;
+	schema:name "中比科尔语"@zh-hans ;
+	rdfs:label "中比科爾語"@zh ;
+	skos:prefLabel "中比科爾語"@zh ;
+	schema:name "中比科爾語"@zh ;
+	rdfs:label "lingua bicolano centrale"@it ;
+	skos:prefLabel "lingua bicolano centrale"@it ;
+	schema:name "lingua bicolano centrale"@it ;
+	rdfs:label "Центральный бикольский язык"@ru ;
+	skos:prefLabel "Центральный бикольский язык"@ru ;
+	schema:name "Центральный бикольский язык"@ru ;
+	rdfs:label "中央ビコール語"@ja ;
+	skos:prefLabel "中央ビコール語"@ja ;
+	schema:name "中央ビコール語"@ja ;
+	rdfs:label "bicolano central"@es ;
+	skos:prefLabel "bicolano central"@es ;
+	schema:name "bicolano central"@es ;
+	rdfs:label "زبان بیکول مرکزی"@fa ;
+	skos:prefLabel "زبان بیکول مرکزی"@fa ;
+	schema:name "زبان بیکول مرکزی"@fa ;
+	rdfs:label "Bikol Sentral"@bcl ;
+	skos:prefLabel "Bikol Sentral"@bcl ;
+	schema:name "Bikol Sentral"@bcl ;
+	rdfs:label "Keskibikol"@fi ;
+	skos:prefLabel "Keskibikol"@fi ;
+	schema:name "Keskibikol"@fi ;
+	rdfs:label "Kibikol ya Katikati"@sw ;
+	skos:prefLabel "Kibikol ya Katikati"@sw ;
+	schema:name "Kibikol ya Katikati"@sw ;
+	rdfs:label "Lenga Bicolano sentral"@pms ;
+	skos:prefLabel "Lenga Bicolano sentral"@pms ;
+	schema:name "Lenga Bicolano sentral"@pms ;
+	rdfs:label "bikol central"@ca ;
+	skos:prefLabel "bikol central"@ca ;
+	schema:name "bikol central"@ca ;
+	rdfs:label "மத்திய பிகோல் மொழி"@ta ;
+	skos:prefLabel "மத்திய பிகோல் மொழி"@ta ;
+	schema:name "மத்திய பிகோல் மொழி"@ta ;
+	rdfs:label "Centraal-Bikol"@nl ;
+	skos:prefLabel "Centraal-Bikol"@nl ;
+	schema:name "Centraal-Bikol"@nl ;
+	rdfs:label "중부 비콜어"@ko ;
+	skos:prefLabel "중부 비콜어"@ko ;
+	schema:name "중부 비콜어"@ko ;
+	rdfs:label "централнобиколски јазик"@mk ;
+	skos:prefLabel "централнобиколски јазик"@mk ;
+	schema:name "централнобиколски јазик"@mk ;
+	rdfs:label "Bikol Sentral"@ilo ;
+	skos:prefLabel "Bikol Sentral"@ilo ;
+	schema:name "Bikol Sentral"@ilo ;
+	rdfs:label "Lingua bikol central"@gl ;
+	skos:prefLabel "Lingua bikol central"@gl ;
+	schema:name "Lingua bikol central"@gl ;
+	rdfs:label "Central Bikol"@en-gb ;
+	skos:prefLabel "Central Bikol"@en-gb ;
+	schema:name "Central Bikol"@en-gb ;
+	rdfs:label "erdialdeko bikolera"@eu ;
+	skos:prefLabel "erdialdeko bikolera"@eu ;
+	schema:name "erdialdeko bikolera"@eu ;
+	rdfs:label "Bicolano central"@ast ;
+	skos:prefLabel "Bicolano central"@ast ;
+	schema:name "Bicolano central"@ast ;
+	rdfs:label "بیکول مرکزی دیلی"@azb ;
+	skos:prefLabel "بیکول مرکزی دیلی"@azb ;
+	schema:name "بیکول مرکزی دیلی"@azb ;
+	rdfs:label "Bahasa Bikol Tengah"@gor ;
+	skos:prefLabel "Bahasa Bikol Tengah"@gor ;
+	schema:name "Bahasa Bikol Tengah"@gor ;
+	rdfs:label "bikoleg an diabarzh"@br ;
+	skos:prefLabel "bikoleg an diabarzh"@br ;
+	schema:name "bikoleg an diabarzh"@br ;
+	rdfs:label "بيكول المركزية"@ar ;
+	skos:prefLabel "بيكول المركزية"@ar ;
+	schema:name "بيكول المركزية"@ar ;
+	rdfs:label "ᱛᱟᱞᱢᱟ ᱵᱤᱠᱳᱞ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	skos:prefLabel "ᱛᱟᱞᱢᱟ ᱵᱤᱠᱳᱞ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	schema:name "ᱛᱟᱞᱢᱟ ᱵᱤᱠᱳᱞ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	rdfs:label "Zentral-Bikol"@de ;
+	skos:prefLabel "Zentral-Bikol"@de ;
+	schema:name "Zentral-Bikol"@de ;
+	rdfs:label "Bahasa Bikol Tengah"@id ;
+	skos:prefLabel "Bahasa Bikol Tengah"@id ;
+	schema:name "Bahasa Bikol Tengah"@id ;
+	rdfs:label "Central Bikol"@en-ca ;
+	skos:prefLabel "Central Bikol"@en-ca ;
+	schema:name "Central Bikol"@en-ca ;
+	rdfs:label "bicołan sentrałe"@vec ;
+	skos:prefLabel "bicołan sentrałe"@vec ;
+	schema:name "bicołan sentrałe"@vec ;
+	rdfs:label "Binikol Sentral"@krj ;
+	skos:prefLabel "Binikol Sentral"@krj ;
+	schema:name "Binikol Sentral"@krj ;
+	rdfs:label "Tungâng Bikol"@ceb ;
+	skos:prefLabel "Tungâng Bikol"@ceb ;
+	schema:name "Tungâng Bikol"@ceb ;
+	rdfs:label "ਕੇਂਦਰੀ ਬਿਕਲ"@pa ;
+	skos:prefLabel "ਕੇਂਦਰੀ ਬਿਕਲ"@pa ;
+	schema:name "ਕੇਂਦਰੀ ਬਿਕਲ"@pa ;
+	rdfs:label "Dṳ̆ng Bikol-ngṳ̄"@cdo ;
+	skos:prefLabel "Dṳ̆ng Bikol-ngṳ̄"@cdo ;
+	schema:name "Dṳ̆ng Bikol-ngṳ̄"@cdo ;
+	schema:description "Austronesian language spoken in the Philippines"@en,
+		"lingua"@it,
+		"philippinische Sprache"@de,
+		"taal"@nl,
+		"kaaduan a naisasao a pagsasao idiay Rehion ti Bicol ti akin-abagatan a Luzon, Filipinas"@ilo,
+		"שפה"@he,
+		"langue malayo-polynésienne"@fr,
+		"Luzon uharteko Bikol eskualdeko hizkuntza"@eu,
+		"yezh"@br,
+		"variedad estándar del bicolano"@es,
+		"lingua"@la,
+		"iaith"@cy,
+		"اللغة الأكثر استخداما في منطقة بيكول في لوزون، الفلبين"@ar,
+		"most-spoken language in the Bicol region of Luzon, Philippines"@en-gb,
+		"most-spoken language in the Bicol region of Luzon, Philippines"@en-ca,
+		"bagian dari rumpun bahasa Austronesia"@id,
+		"pinulongang Bikol"@ceb,
+		"ਭਾਸ਼ਾ"@pa,
+		"Lugha ya Kiaustronesia nchini Ufilipino inayozungumzwa"@sw ;
+	skos:altLabel "bicol central"@fr,
+		"bcl"@fr,
+		"bicolano central"@fr,
+		"wikang Bikol Central"@tl,
+		"Bikol Central"@en,
+		"Central Bikol language"@en,
+		"Central Bicol language"@en,
+		"bcl"@en,
+		"Pagsasao a Tengnga a Bikol"@ilo,
+		"중부비콜어"@ko,
+		"중앙비콜어"@ko,
+		"중앙 비콜어"@ko,
+		"bikol naga hizkuntza"@eu,
+		"لغة بيكول المركزية"@ar,
+		"bcl"@bcl,
+		"bicolano estándar"@es,
+		"Bikol Central"@en-ca,
+		"Central Bikol language"@en-ca,
+		"Central Bicol language"@en-ca,
+		"bcl"@en-ca,
+		"Binikol Estandar"@krj,
+		"Binikol Sintral"@krj,
+		"Binikol Istandar"@krj,
+		"Binikolnën Sentral"@krj,
+		"Binikolnun Sintral"@krj,
+		"Binikolnën Estandar"@krj,
+		"Binikolnun Istandar"@krj,
+		"Pinulongang Tungâng Bikol"@ceb,
+		"Bikol Sentral"@ceb,
+		"ਕੇਂਦਰੀ ਬਿਕਲ ਭਾਸ਼ਾ"@pa,
+		"léngua bicolana"@vec,
+		"bicolan stàndar"@vec .
+
+wd:Q18664333 owl:sameAs wd:Q33284 .

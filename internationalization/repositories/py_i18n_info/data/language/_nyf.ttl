@@ -1,0 +1,127 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3107606 a schema:Dataset ;
+	schema:about wd:Q3107606 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1835167433"^^xsd:integer ;
+	schema:dateModified "2023-02-16T16:40:38Z"^^xsd:dateTime .
+
+wd:Q3107606 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Giriama_(langue)> a schema:Article ;
+	schema:about wd:Q3107606 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Giriama (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Giryama> a schema:Article ;
+	schema:about wd:Q3107606 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Giryama"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_giryama> a schema:Article ;
+	schema:about wd:Q3107606 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język giryama"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigiryama> a schema:Article ;
+	schema:about wd:Q3107606 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigiryama"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3107606 wdt:P220 "nyf" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nyf> ;
+	wdt:P305 "nyf" ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P269 "082562946" ;
+	wdtn:P269 <http://www.idref.fr/082562946/id> ;
+	wdt:P279 wd:Q7057848 ;
+	wdt:P1394 "giry1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/giry1241> ;
+	wdt:P1627 "nyf" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q114 ;
+	wdt:P2341 wd:Q1741307,
+		wd:Q952571,
+		wd:Q1112885,
+		wd:Q383150 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NYF> ;
+	wdt:P646 "/m/02hxn0b" ;
+	wdt:P268 "14590430g" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb14590430g#about> ;
+	rdfs:label "giriama"@fr ;
+	skos:prefLabel "giriama"@fr ;
+	schema:name "giriama"@fr ;
+	rdfs:label "Język giryama"@pl ;
+	skos:prefLabel "Język giryama"@pl ;
+	schema:name "Język giryama"@pl ;
+	rdfs:label "Lenga Giryama"@pms ;
+	skos:prefLabel "Lenga Giryama"@pms ;
+	schema:name "Lenga Giryama"@pms ;
+	rdfs:label "Kigiryama"@sw ;
+	skos:prefLabel "Kigiryama"@sw ;
+	schema:name "Kigiryama"@sw ;
+	rdfs:label "Giryama"@en ;
+	skos:prefLabel "Giryama"@en ;
+	schema:name "Giryama"@en ;
+	rdfs:label "Giryama"@en-gb ;
+	skos:prefLabel "Giryama"@en-gb ;
+	schema:name "Giryama"@en-gb ;
+	rdfs:label "ギリアマ語"@ja ;
+	skos:prefLabel "ギリアマ語"@ja ;
+	schema:name "ギリアマ語"@ja ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue bantoue parlée au Kenya"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kigiryama"@pl,
+		"Giryama language"@en,
+		"giryama"@fr .

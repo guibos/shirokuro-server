@@ -1,0 +1,124 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q25559289 a schema:Dataset ;
+	schema:about wd:Q25559289 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961436032"^^xsd:integer ;
+	schema:dateModified "2023-08-26T03:25:53Z"^^xsd:dateTime .
+
+wd:Q25559289 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_sindhi_bhil> a schema:Article ;
+	schema:about wd:Q25559289 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga sindhi bhil"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sd.wikipedia.org/wiki/%D8%B3%D9%86%DA%8C%D9%8A_%DA%80%D9%8A%D9%84_%D9%BB%D9%88%D9%84%D9%8A> a schema:Article ;
+	schema:about wd:Q25559289 ;
+	schema:inLanguage "sd" ;
+	schema:isPartOf <https://sd.wikipedia.org/> ;
+	schema:name "سنڌي ڀيل ٻولي"@sd .
+
+<https://sd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q25559289 wdt:P31 wd:Q33384 ;
+	wdt:P220 "sbn" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/sbn> ;
+	wdt:P1394 "sind1270" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sind1270> ;
+	wdt:P279 wd:Q33997 ;
+	wdt:P305 "sbn" ;
+	wdt:P1627 "sbn" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q843 ;
+	wdt:P2341 wd:Q37211 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SBN> ;
+	wdt:P4913 wd:Q33997 ;
+	rdfs:label "Lenga sindhi bhil"@pms ;
+	skos:prefLabel "Lenga sindhi bhil"@pms ;
+	schema:name "Lenga sindhi bhil"@pms ;
+	rdfs:label "Sindhi Bhil"@en ;
+	skos:prefLabel "Sindhi Bhil"@en ;
+	schema:name "Sindhi Bhil"@en ;
+	rdfs:label "Sindhi Bhil"@en-gb ;
+	skos:prefLabel "Sindhi Bhil"@en-gb ;
+	schema:name "Sindhi Bhil"@en-gb ;
+	rdfs:label "sindhi bhil"@fr ;
+	skos:prefLabel "sindhi bhil"@fr ;
+	schema:name "sindhi bhil"@fr ;
+	rdfs:label "سنڌي ڀيل"@sd ;
+	skos:prefLabel "سنڌي ڀيل"@sd ;
+	schema:name "سنڌي ڀيل"@sd ;
+	rdfs:label "سندھی بھیل"@pnb ;
+	skos:prefLabel "سندھی بھیل"@pnb ;
+	schema:name "سندھی بھیل"@pnb ;
+	rdfs:label "ਸਿੰਧੀ ਭੀਲ"@pa ;
+	skos:prefLabel "ਸਿੰਧੀ ਭੀਲ"@pa ;
+	schema:name "ਸਿੰਧੀ ਭੀਲ"@pa ;
+	rdfs:label "سندھی بھیل"@hno ;
+	skos:prefLabel "سندھی بھیل"@hno ;
+	schema:name "سندھی بھیل"@hno ;
+	rdfs:label "سندھی بھیل"@skr ;
+	skos:prefLabel "سندھی بھیل"@skr ;
+	schema:name "سندھی بھیل"@skr ;
+	rdfs:label "سندھی بھیل"@ur ;
+	skos:prefLabel "سندھی بھیل"@ur ;
+	schema:name "سندھی بھیل"@ur ;
+	rdfs:label "सिंधी भील"@hi ;
+	skos:prefLabel "सिंधी भील"@hi ;
+	schema:name "सिंधी भील"@hi ;
+	rdfs:label "સિંધી ભીલ"@gu ;
+	skos:prefLabel "સિંધી ભીલ"@gu ;
+	schema:name "સિંધી ભીલ"@gu ;
+	rdfs:label "সিংধি ভীল"@bn ;
+	skos:prefLabel "সিংধি ভীল"@bn ;
+	schema:name "সিংধি ভীল"@bn ;
+	schema:description "שפה"@he,
+		"langue indo-aryennes"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"Sindhi dialect"@en,
+		"taal"@nl,
+		"iaith"@cy,
+		"lingua"@la,
+		"سندھی لہجہ"@pnb,
+		"ਸਿੰਧੀ ਲਹਿਜਾ"@pa,
+		"سنڌي لهجو"@sd ;
+	skos:altLabel "سنڌي ڀيل ٻولي"@sd .
+
+wd:Q25653307 owl:sameAs wd:Q25559289 .

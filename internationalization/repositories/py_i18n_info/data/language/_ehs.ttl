@@ -1,0 +1,94 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q65056943 a schema:Dataset ;
+	schema:about wd:Q65056943 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1956350695"^^xsd:integer ;
+	schema:dateModified "2023-08-19T04:06:38Z"^^xsd:dateTime .
+
+wd:Q65056943 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Miyakubo_Sign_Language> a schema:Article ;
+	schema:about wd:Q65056943 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Miyakubo Sign Language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E5%AE%AE%E7%AA%AA%E6%89%8B%E8%A9%B1> a schema:Article ;
+	schema:about wd:Q65056943 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "宮窪手話"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%96%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA_%D0%9C%D0%B8%D1%8F%D0%BA%D1%83%D0%B1%D0%BE> a schema:Article ;
+	schema:about wd:Q65056943 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Жестовый язык Миякубо"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q65056943 wdt:P31 wd:Q34228,
+		wd:Q1288568 ;
+	wdt:P1394 "miya1268" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/miya1268> ;
+	wdt:P17 wd:Q17 ;
+	wdt:P279 wd:Q3915038 ;
+	wdt:P2341 wd:Q8191863 ;
+	wdt:P2671 "/g/11fkspgkfr" ;
+	wdtn:P2671 <http://g.co/kg/g/11fkspgkfr> ;
+	wdt:P220 "ehs" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ehs> ;
+	wdt:P305 "ehs" ;
+	wdt:P1705 "宮窪手話"@ja ;
+	wdt:P1098 "+70"^^xsd:decimal ;
+	wdt:P1627 "ehs" ;
+	wdt:P973 <https://scriptsource.org/lang/ehs> ;
+	rdfs:label "Miyakubo Sign Language"@en ;
+	skos:prefLabel "Miyakubo Sign Language"@en ;
+	schema:name "Miyakubo Sign Language"@en ;
+	rdfs:label "宮窪手話"@ja ;
+	skos:prefLabel "宮窪手話"@ja ;
+	schema:name "宮窪手話"@ja ;
+	rdfs:label "Жестовый язык Миякубо"@ru ;
+	skos:prefLabel "Жестовый язык Миякубо"@ru ;
+	schema:name "Жестовый язык Миякубо"@ru ;
+	rdfs:label "मियाकूबो सांकेतिक भाषा"@hi ;
+	skos:prefLabel "मियाकूबो सांकेतिक भाषा"@hi ;
+	schema:name "मियाकूबो सांकेतिक भाषा"@hi ;
+	schema:description "sign language from a Japanese village"@en ;
+	skos:altLabel "Ehime-Oshima Sign Language"@en .

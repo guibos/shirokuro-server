@@ -1,0 +1,133 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35748 a schema:Dataset ;
+	schema:about wd:Q35748 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1360685967"^^xsd:integer ;
+	schema:dateModified "2021-02-14T00:04:12Z"^^xsd:dateTime .
+
+wd:Q35748 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Kpessi> a schema:Article ;
+	schema:about wd:Q35748 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Kpessi"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kpessi> a schema:Article ;
+	schema:about wd:Q35748 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kpessi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikpessi> a schema:Article ;
+	schema:about wd:Q35748 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikpessi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Kpessi_(Sprache)> a schema:Article ;
+	schema:about wd:Q35748 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Kpessi (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Kpessi_jezik> a schema:Article ;
+	schema:about wd:Q35748 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Kpessi jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35748 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "kef" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kef> ;
+	wdt:P279 wd:Q668284 ;
+	wdt:P1394 "kpes1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kpes1238> ;
+	wdt:P2192 "5078" ;
+	wdt:P305 "kef" ;
+	wdt:P1627 "kef" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q945 ;
+	wdt:P2341 wd:Q316220,
+		wd:Q316306 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KEF> ;
+	wdt:P2671 "/g/12233fs5" ;
+	wdtn:P2671 <http://g.co/kg/g/12233fs5> ;
+	rdfs:label "Kikpessi"@sw ;
+	skos:prefLabel "Kikpessi"@sw ;
+	schema:name "Kikpessi"@sw ;
+	rdfs:label "Kpessi"@de ;
+	skos:prefLabel "Kpessi"@de ;
+	schema:name "Kpessi"@de ;
+	rdfs:label "Lenga Kpessi"@pms ;
+	skos:prefLabel "Lenga Kpessi"@pms ;
+	schema:name "Lenga Kpessi"@pms ;
+	rdfs:label "Kpessi jezik"@hr ;
+	skos:prefLabel "Kpessi jezik"@hr ;
+	schema:name "Kpessi jezik"@hr ;
+	rdfs:label "Kpessi"@en ;
+	skos:prefLabel "Kpessi"@en ;
+	schema:name "Kpessi"@en ;
+	rdfs:label "kpessi"@ca ;
+	skos:prefLabel "kpessi"@ca ;
+	schema:name "kpessi"@ca ;
+	rdfs:label "Kpessi"@en-gb ;
+	skos:prefLabel "Kpessi"@en-gb ;
+	schema:name "Kpessi"@en-gb ;
+	rdfs:label "kpessi"@fr ;
+	skos:prefLabel "kpessi"@fr ;
+	schema:name "kpessi"@fr ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue gbe"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"llengua gbe que parlen els kpessis"@ca ;
+	skos:altLabel "kpési"@fr .

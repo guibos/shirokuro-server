@@ -1,0 +1,184 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q1845148 a schema:Dataset ;
+	schema:about wd:Q1845148 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1823580600"^^xsd:integer ;
+	schema:dateModified "2023-01-31T22:52:00Z"^^xsd:dateTime .
+
+wd:Q1845148 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Zemba> a schema:Article ;
+	schema:about wd:Q1845148 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Zemba"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Zemba_(taal)> a schema:Article ;
+	schema:about wd:Q1845148 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Zemba (taal)"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Zemba> a schema:Article ;
+	schema:about wd:Q1845148 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Zemba"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_zemba> a schema:Article ;
+	schema:about wd:Q1845148 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język zemba"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kizemba> a schema:Article ;
+	schema:about wd:Q1845148 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kizemba"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Zemba_language> a schema:Article ;
+	schema:about wd:Q1845148 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Zemba language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D4%B6%D5%A5%D5%B4%D5%A2%D5%A1_%D5%AC%D5%A5%D5%A6%D5%B8%D6%82> a schema:Article ;
+	schema:about wd:Q1845148 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Զեմբա լեզու"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Zemba_jezik> a schema:Article ;
+	schema:about wd:Q1845148 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Zemba jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q1845148 wdt:P220 "dhm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dhm> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P1098 "+22000"^^xsd:decimal ;
+	wdt:P1394 "zemb1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/zemb1238> ;
+	wdt:P1014 "300389628" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389628> ;
+	wdt:P279 wd:Q116543539 ;
+	wdt:P2192 "61" ;
+	wdt:P305 "dhm" ;
+	wdt:P1627 "dhm" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q916,
+		wd:Q1030 ;
+	wdt:P2341 wd:Q212786,
+		wd:Q216987,
+		wd:Q214572,
+		wd:Q216819,
+		wd:Q834513 ;
+	wdt:P1245 "698956" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DHM> ;
+	wdt:P646 "/m/02hx7pk" ;
+	rdfs:label "Zemba"@nl ;
+	skos:prefLabel "Zemba"@nl ;
+	schema:name "Zemba"@nl ;
+	rdfs:label "Kizemba"@sw ;
+	skos:prefLabel "Kizemba"@sw ;
+	schema:name "Kizemba"@sw ;
+	rdfs:label "Zemba"@en ;
+	skos:prefLabel "Zemba"@en ;
+	schema:name "Zemba"@en ;
+	rdfs:label "Zemba jezik"@hr ;
+	skos:prefLabel "Zemba jezik"@hr ;
+	schema:name "Zemba jezik"@hr ;
+	rdfs:label "Język zemba"@pl ;
+	skos:prefLabel "Język zemba"@pl ;
+	schema:name "Język zemba"@pl ;
+	rdfs:label "zemba"@ca ;
+	skos:prefLabel "zemba"@ca ;
+	schema:name "zemba"@ca ;
+	rdfs:label "զեմբա լեզու"@hy ;
+	skos:prefLabel "զեմբա լեզու"@hy ;
+	schema:name "զեմբա լեզու"@hy ;
+	rdfs:label "Lenga Zemba"@pms ;
+	skos:prefLabel "Lenga Zemba"@pms ;
+	schema:name "Lenga Zemba"@pms ;
+	rdfs:label "Zemba"@en-gb ;
+	skos:prefLabel "Zemba"@en-gb ;
+	schema:name "Zemba"@en-gb ;
+	rdfs:label "Wikang Zemba"@tl ;
+	skos:prefLabel "Wikang Zemba"@tl ;
+	schema:name "Wikang Zemba"@tl ;
+	rdfs:label "zemba"@fr ;
+	skos:prefLabel "zemba"@fr ;
+	schema:name "zemba"@fr ;
+	rdfs:label "zemba lingvo"@eo ;
+	skos:prefLabel "zemba lingvo"@eo ;
+	schema:name "zemba lingvo"@eo ;
+	schema:description "taal"@nl,
+		"Sprache"@de,
+		"שפה"@he,
+		"langue bantoue"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"lingvo"@eo,
+		"język z rodziny bantu używany w Angoli i Namibii"@pl ;
+	skos:altLabel "Zemba language"@en .
+
+wd:Q3502283 owl:sameAs wd:Q1845148 .
+
+wd:Q12953346 owl:sameAs wd:Q1845148 .
+
+wd:Q31443232 owl:sameAs wd:Q1845148 .

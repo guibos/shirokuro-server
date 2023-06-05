@@ -1,0 +1,168 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3138831 a schema:Dataset ;
+	schema:about wd:Q3138831 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1924545889"^^xsd:integer ;
+	schema:dateModified "2023-06-27T03:17:39Z"^^xsd:dateTime .
+
+wd:Q3138831 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Hmong_njua> a schema:Article ;
+	schema:about wd:Q3138831 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Hmong njua"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_hmong_njua> a schema:Article ;
+	schema:about wd:Q3138831 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga hmong njua"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kihmong-Njua> a schema:Article ;
+	schema:about wd:Q3138831 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kihmong-Njua"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%A1%E0%B9%89%E0%B8%87%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%A7> a schema:Article ;
+	schema:about wd:Q3138831 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาม้งเขียว"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3138831 wdt:P220 "hnj" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hnj> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "hnj" ;
+	wdt:P279 wd:Q9040772 ;
+	wdt:P1394 "hmon1264" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/hmon1264> ;
+	wdt:P1466 "hmo" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_hmo> ;
+	wdt:P1627 "hnj" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q148,
+		wd:Q819,
+		wd:Q869,
+		wd:Q881 ;
+	wdt:P2341 wd:Q47097,
+		wd:Q19770,
+		wd:Q43194,
+		wd:Q819,
+		wd:Q275388,
+		wd:Q273794,
+		wd:Q244652,
+		wd:Q244698,
+		wd:Q244618,
+		wd:Q269270,
+		wd:Q244649,
+		wd:Q273807,
+		wd:Q275758,
+		wd:Q380764,
+		wd:Q240520,
+		wd:Q36409,
+		wd:Q36446,
+		wd:Q33379,
+		wd:Q36015,
+		wd:Q36512,
+		wd:Q36587 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HNJ> ;
+	wdt:P268 "122418331" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb122418331#about> ;
+	wdt:P244 "sh90004954" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh90004954> ;
+	wdt:P646 "/m/05sx7sz" ;
+	wdt:P910 wd:Q105714266 ;
+	wdt:P8189 "987007536808305171" ;
+	rdfs:label "hmong njua"@fr ;
+	skos:prefLabel "hmong njua"@fr ;
+	schema:name "hmong njua"@fr ;
+	rdfs:label "Hmong Njua"@en ;
+	skos:prefLabel "Hmong Njua"@en ;
+	schema:name "Hmong Njua"@en ;
+	rdfs:label "Lenga hmong njua"@pms ;
+	skos:prefLabel "Lenga hmong njua"@pms ;
+	schema:name "Lenga hmong njua"@pms ;
+	rdfs:label "Kihmong-Njua"@sw ;
+	skos:prefLabel "Kihmong-Njua"@sw ;
+	schema:name "Kihmong-Njua"@sw ;
+	rdfs:label "Hmong Njua"@en-gb ;
+	skos:prefLabel "Hmong Njua"@en-gb ;
+	schema:name "Hmong Njua"@en-gb ;
+	rdfs:label "hmong njua"@eu ;
+	skos:prefLabel "hmong njua"@eu ;
+	schema:name "hmong njua"@eu ;
+	rdfs:label "绿苗语"@zh ;
+	skos:prefLabel "绿苗语"@zh ;
+	schema:name "绿苗语"@zh ;
+	rdfs:label "ภาษาม้งเขียว"@th ;
+	skos:prefLabel "ภาษาม้งเขียว"@th ;
+	schema:name "ภาษาม้งเขียว"@th ;
+	rdfs:label "hmong njua"@ca ;
+	skos:prefLabel "hmong njua"@ca ;
+	schema:name "hmong njua"@ca ;
+	rdfs:label "Lục Miêu"@vi ;
+	skos:prefLabel "Lục Miêu"@vi ;
+	schema:name "Lục Miêu"@vi ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue hmong"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"hizkuntza"@eu,
+		"ngôn ngữ"@vi ;
+	skos:altLabel "Hmong Njua language"@en,
+		"mong leng"@eu,
+		"miao berdea"@eu,
+		"hmong vert"@fr,
+		"ภาษาม้งจั๊ว"@th,
+		"ภาษาม้งตะวันตก"@th,
+		"tiếng H'Mông Njua"@vi .
+
+wd:Q13018560 owl:sameAs wd:Q3138831 .

@@ -1,0 +1,130 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12952327 a schema:Dataset ;
+	schema:about wd:Q12952327 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1520312623"^^xsd:integer ;
+	schema:dateModified "2021-10-31T22:27:56Z"^^xsd:dateTime .
+
+wd:Q12952327 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Chin,_Chinbon> a schema:Article ;
+	schema:about wd:Q12952327 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Chin, Chinbon"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Tchinboneg> a schema:Article ;
+	schema:about wd:Q12952327 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Tchinboneg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Chinbon_Chin_jezik> a schema:Article ;
+	schema:about wd:Q12952327 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Chinbon Chin jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kichin_cha_Chinbon> a schema:Article ;
+	schema:about wd:Q12952327 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kichin cha Chinbon"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%8A%E0%B8%B4%E0%B8%99%E0%B8%9A%E0%B8%AD%E0%B8%99> a schema:Article ;
+	schema:about wd:Q12952327 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาชินบอน"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12952327 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "cnb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cnb> ;
+	wdt:P1394 "chin1478" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/chin1478> ;
+	wdt:P305 "cnb" ;
+	wdt:P1627 "cnb" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q836 ;
+	wdt:P2341 wd:Q833013,
+		wd:Q46910,
+		wd:Q233838 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CNB> ;
+	rdfs:label "Lenga Chin, Chinbon"@pms ;
+	skos:prefLabel "Lenga Chin, Chinbon"@pms ;
+	schema:name "Lenga Chin, Chinbon"@pms ;
+	rdfs:label "Chinbon Chin"@en ;
+	skos:prefLabel "Chinbon Chin"@en ;
+	schema:name "Chinbon Chin"@en ;
+	rdfs:label "tchinboneg"@br ;
+	skos:prefLabel "tchinboneg"@br ;
+	schema:name "tchinboneg"@br ;
+	rdfs:label "Chinbon Chin jezik"@hr ;
+	skos:prefLabel "Chinbon Chin jezik"@hr ;
+	schema:name "Chinbon Chin jezik"@hr ;
+	rdfs:label "Kichin ya Chinbon"@sw ;
+	skos:prefLabel "Kichin ya Chinbon"@sw ;
+	schema:name "Kichin ya Chinbon"@sw ;
+	rdfs:label "Chinbon Chin"@en-gb ;
+	skos:prefLabel "Chinbon Chin"@en-gb ;
+	schema:name "Chinbon Chin"@en-gb ;
+	rdfs:label "ภาษาชินบอน"@th ;
+	skos:prefLabel "ภาษาชินบอน"@th ;
+	schema:name "ภาษาชินบอน"@th ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Chinbon Chin language"@en .
+
+wd:Q16116661 owl:sameAs wd:Q12952327 .
+
+wd:Q16306622 owl:sameAs wd:Q12952327 .

@@ -1,0 +1,140 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6583560 a schema:Dataset ;
+	schema:about wd:Q6583560 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1886657949"^^xsd:integer ;
+	schema:dateModified "2023-05-01T13:27:23Z"^^xsd:dateTime .
+
+wd:Q6583560 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_nahari> a schema:Article ;
+	schema:about wd:Q6583560 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga nahari"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinahari> a schema:Article ;
+	schema:about wd:Q6583560 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinahari"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nahari_language> a schema:Article ;
+	schema:about wd:Q6583560 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nahari language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%99%E0%B8%B2%E0%B8%AE%E0%B8%B2%E0%B8%A3%E0%B8%B5> a schema:Article ;
+	schema:about wd:Q6583560 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษานาฮารี"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://as.wikipedia.org/wiki/%E0%A6%A8%E0%A6%B9%E0%A7%B0%E0%A7%80_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q6583560 ;
+	schema:inLanguage "as" ;
+	schema:isPartOf <https://as.wikipedia.org/> ;
+	schema:name "নহৰী ভাষা"@as .
+
+<https://as.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6583560 wdt:P220 "nhh" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nhh> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "naha1262" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/naha1262> ;
+	wdt:P279 wd:Q16910593 ;
+	wdt:P2192 "4854" ;
+	wdt:P305 "nhh" ;
+	wdt:P1627 "nhh" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1168,
+		wd:Q22048 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NHH> ;
+	wdt:P646 "/m/02hwl_y" ;
+	rdfs:label "Nahari"@en ;
+	skos:prefLabel "Nahari"@en ;
+	schema:name "Nahari"@en ;
+	rdfs:label "ภาษานาฮารี"@th ;
+	skos:prefLabel "ภาษานาฮารี"@th ;
+	schema:name "ภาษานาฮารี"@th ;
+	rdfs:label "Lenga nahari"@pms ;
+	skos:prefLabel "Lenga nahari"@pms ;
+	schema:name "Lenga nahari"@pms ;
+	rdfs:label "Kinahari"@sw ;
+	skos:prefLabel "Kinahari"@sw ;
+	schema:name "Kinahari"@sw ;
+	rdfs:label "Nahari"@en-gb ;
+	skos:prefLabel "Nahari"@en-gb ;
+	schema:name "Nahari"@en-gb ;
+	rdfs:label "ਨਾਹਾਰੀ"@pa ;
+	skos:prefLabel "ਨਾਹਾਰੀ"@pa ;
+	schema:name "ਨਾਹਾਰੀ"@pa ;
+	rdfs:label "नाहारी"@hi ;
+	skos:prefLabel "नाहारी"@hi ;
+	schema:name "नाहारी"@hi ;
+	rdfs:label "নাহারী"@bn ;
+	skos:prefLabel "নাহারী"@bn ;
+	schema:name "নাহারী"@bn ;
+	rdfs:label "nahari"@fr ;
+	skos:prefLabel "nahari"@fr ;
+	schema:name "nahari"@fr ;
+	rdfs:label "নহৰী ভাষা"@as ;
+	skos:prefLabel "নহৰী ভাষা"@as ;
+	schema:name "নহৰী ভাষা"@as ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"ਛਤੀਸਗੜ੍ਹ ਅਤੇ ਓਡੀਸ਼ਾ ਦੀ ਇੱਕ ਭਾਸ਼ਾ"@pa,
+		"langue indo-aryenne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Nahari language"@en,
+		"ਨਹਾਰੀ ਭਾਸ਼ਾ"@pa,
+		"ਨਾਹਾਰੀ ਭਾਸ਼ਾ"@pa .

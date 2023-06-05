@@ -1,0 +1,124 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11130307 a schema:Dataset ;
+	schema:about wd:Q11130307 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1403378317"^^xsd:integer ;
+	schema:dateModified "2021-04-17T13:44:54Z"^^xsd:dateTime .
+
+wd:Q11130307 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Nkari> a schema:Article ;
+	schema:about wd:Q11130307 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Nkari"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Nkari> a schema:Article ;
+	schema:about wd:Q11130307 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Nkari"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinkari> a schema:Article ;
+	schema:about wd:Q11130307 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinkari"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Nkari> a schema:Article ;
+	schema:about wd:Q11130307 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Nkari"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11130307 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "nkz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nkz> ;
+	wdt:P1394 "nkar1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nkar1238> ;
+	wdt:P279 wd:Q2743643 ;
+	wdt:P910 wd:Q33666653 ;
+	wdt:P2192 "8591" ;
+	wdt:P305 "nkz" ;
+	wdt:P1627 "nkz" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q320852,
+		wd:Q424388,
+		wd:Q509300 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NKZ> ;
+	wdt:P2671 "/g/1203lznzw" ;
+	wdtn:P2671 <http://g.co/kg/g/1203lznzw> ;
+	rdfs:label "Kinkari"@sw ;
+	skos:prefLabel "Kinkari"@sw ;
+	schema:name "Kinkari"@sw ;
+	rdfs:label "Lenga Nkari"@pms ;
+	skos:prefLabel "Lenga Nkari"@pms ;
+	schema:name "Lenga Nkari"@pms ;
+	rdfs:label "Nkari"@en ;
+	skos:prefLabel "Nkari"@en ;
+	schema:name "Nkari"@en ;
+	rdfs:label "Nkari"@en-gb ;
+	skos:prefLabel "Nkari"@en-gb ;
+	schema:name "Nkari"@en-gb ;
+	rdfs:label "nkari"@fr ;
+	skos:prefLabel "nkari"@fr ;
+	schema:name "nkari"@fr ;
+	rdfs:label "nkari"@ca ;
+	skos:prefLabel "nkari"@ca ;
+	schema:name "nkari"@ca ;
+	rdfs:label "Nkari"@oc ;
+	skos:prefLabel "Nkari"@oc ;
+	schema:name "Nkari"@oc ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue cross river"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy .
+
+wd:Q11938881 owl:sameAs wd:Q11130307 .

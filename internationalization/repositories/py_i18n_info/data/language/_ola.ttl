@@ -1,0 +1,108 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q22674847 a schema:Dataset ;
+	schema:about wd:Q22674847 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1820742491"^^xsd:integer ;
+	schema:dateModified "2023-01-28T03:36:23Z"^^xsd:dateTime .
+
+wd:Q22674847 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Walungge> a schema:Article ;
+	schema:about wd:Q22674847 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Walungge"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiwalungge> a schema:Article ;
+	schema:about wd:Q22674847 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiwalungge"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Walungge_language> a schema:Article ;
+	schema:about wd:Q22674847 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Walungge language"@en ;
+	wikibase:badge wd:Q70894304 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q22674847 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "ola" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ola> ;
+	wdt:P1394 "walu1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/walu1241> ;
+	wdt:P2355 "1145" ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P305 "ola" ;
+	wdt:P1627 "ola" ;
+	wdt:P279 wd:Q1641150 ;
+	wdt:P910 wd:Q62091945 ;
+	wdt:P2192 "4918" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q837 ;
+	wdt:P2341 wd:Q25104008 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/OLA> ;
+	rdfs:label "Kiwalungge"@sw ;
+	skos:prefLabel "Kiwalungge"@sw ;
+	schema:name "Kiwalungge"@sw ;
+	rdfs:label "Lenga Walungge"@pms ;
+	skos:prefLabel "Lenga Walungge"@pms ;
+	schema:name "Lenga Walungge"@pms ;
+	rdfs:label "Walungge"@en ;
+	skos:prefLabel "Walungge"@en ;
+	schema:name "Walungge"@en ;
+	rdfs:label "Walungge"@en-gb ;
+	skos:prefLabel "Walungge"@en-gb ;
+	schema:name "Walungge"@en-gb ;
+	rdfs:label "walungge"@fr ;
+	skos:prefLabel "walungge"@fr ;
+	schema:name "walungge"@fr ;
+	schema:description "Sino-Tibetan language"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue tibétique"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Walungge language"@en .

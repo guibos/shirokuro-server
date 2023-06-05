@@ -1,0 +1,184 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5370369 a schema:Dataset ;
+	schema:about wd:Q5370369 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912130659"^^xsd:integer ;
+	schema:dateModified "2023-06-10T10:34:58Z"^^xsd:dateTime .
+
+wd:Q5370369 a wikibase:Item .
+
+<https://hr.wikipedia.org/wiki/Emem_jezik> a schema:Article ;
+	schema:about wd:Q5370369 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Emem jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Emem_language> a schema:Article ;
+	schema:about wd:Q5370369 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Emem language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Emumu> a schema:Article ;
+	schema:about wd:Q5370369 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Emumu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Emumu> a schema:Article ;
+	schema:about wd:Q5370369 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Emumu"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiemem> a schema:Article ;
+	schema:about wd:Q5370369 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiemem"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Emem> a schema:Article ;
+	schema:about wd:Q5370369 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Emem"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Emem> a schema:Article ;
+	schema:about wd:Q5370369 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Emem"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://su.wikipedia.org/wiki/Basa_Emem> a schema:Article ;
+	schema:about wd:Q5370369 ;
+	schema:inLanguage "su" ;
+	schema:isPartOf <https://su.wikipedia.org/> ;
+	schema:name "Basa Emem"@su .
+
+<https://su.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_emem> a schema:Article ;
+	schema:about wd:Q5370369 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język emem"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5370369 wdt:P220 "enr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/enr> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "emum1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/emum1240> ;
+	wdt:P279 wd:Q16115496 ;
+	wdt:P2590 "0933 3" ;
+	wdt:P1705 "bahasa Emumu"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P910 wd:Q36156143 ;
+	wdt:P2192 "10700" ;
+	wdt:P305 "enr" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P1627 "enr" ;
+	wdt:P2341 wd:Q5095 ;
+	wdt:P646 "/m/02hxgq6" ;
+	rdfs:label "Emem jezik"@hr ;
+	skos:prefLabel "Emem jezik"@hr ;
+	schema:name "Emem jezik"@hr ;
+	rdfs:label "Emem"@en ;
+	skos:prefLabel "Emem"@en ;
+	schema:name "Emem"@en ;
+	rdfs:label "Język emem"@pl ;
+	skos:prefLabel "Język emem"@pl ;
+	schema:name "Język emem"@pl ;
+	rdfs:label "Lenga Emumu"@pms ;
+	skos:prefLabel "Lenga Emumu"@pms ;
+	schema:name "Lenga Emumu"@pms ;
+	rdfs:label "emumu"@fr ;
+	skos:prefLabel "emumu"@fr ;
+	schema:name "emumu"@fr ;
+	rdfs:label "Kiemem"@sw ;
+	skos:prefLabel "Kiemem"@sw ;
+	schema:name "Kiemem"@sw ;
+	rdfs:label "Bahasa Emem"@id ;
+	skos:prefLabel "Bahasa Emem"@id ;
+	schema:name "Bahasa Emem"@id ;
+	rdfs:label "Emem"@ilo ;
+	skos:prefLabel "Emem"@ilo ;
+	schema:name "Emem"@ilo ;
+	rdfs:label "ememi keel"@et ;
+	skos:prefLabel "ememi keel"@et ;
+	schema:name "ememi keel"@et ;
+	rdfs:label "Basa Emem"@su ;
+	skos:prefLabel "Basa Emem"@su ;
+	schema:name "Basa Emem"@su ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"pagsasao idiay Indonesia"@ilo,
+		"bagian dari rumpun bahasa Papua"@id,
+		"taal"@nl,
+		"langue pauwasi"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"język"@pl ;
+	skos:altLabel "Emumu jezik"@hr,
+		"Język emumu"@pl,
+		"Emem language"@en,
+		"Emumu"@en,
+		"Emumu"@id,
+		"bahasa Emumu"@id .
+
+wd:Q11732179 owl:sameAs wd:Q5370369 .
+
+wd:Q25931658 owl:sameAs wd:Q5370369 .
+
+wd:Q65340121 owl:sameAs wd:Q5370369 .

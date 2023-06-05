@@ -1,0 +1,161 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4800819 a schema:Dataset ;
+	schema:about wd:Q4800819 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1900667378"^^xsd:integer ;
+	schema:dateModified "2023-05-21T18:57:56Z"^^xsd:dateTime .
+
+wd:Q4800819 a wikibase:Item .
+
+<https://nl.wikipedia.org/wiki/Morelos-Nahuatl> a schema:Article ;
+	schema:about wd:Q4800819 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Morelos-Nahuatl"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_nahuatl,_morelos> a schema:Article ;
+	schema:about wd:Q4800819 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga nahuatl, morelos"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%80%D0%B5%D0%BB%D0%BE%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D0%BD%D0%B0%D1%83%D0%B0%D1%82%D0%BB%D1%8C> a schema:Article ;
+	schema:about wd:Q4800819 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Морелосский науатль"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Morelos_Nahuatl> a schema:Article ;
+	schema:about wd:Q4800819 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Morelos Nahuatl"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Mexicano_de_Tetela_del_Volc%C3%A1n> a schema:Article ;
+	schema:about wd:Q4800819 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Mexicano de Tetela del Volcán"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Morelos_Nahuatl_dili> a schema:Article ;
+	schema:about wd:Q4800819 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Morelos Nahuatl dili"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_n%C3%A1huatl_de_Morelos> a schema:Article ;
+	schema:about wd:Q4800819 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua náhuatl de Morelos"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4800819 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "nhm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nhm> ;
+	wdt:P305 "nhm" ;
+	wdt:P1394 "more1259" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/more1259> ;
+	wdt:P910 wd:Q33101158 ;
+	wdt:P279 wd:Q5061477 ;
+	wdt:P1627 "nhm" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q96 ;
+	wdt:P2341 wd:Q66117,
+		wd:Q79923 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NHM> ;
+	wdt:P646 "/m/02hxtnq" ;
+	rdfs:label "Morelos-Nahuatl"@nl ;
+	skos:prefLabel "Morelos-Nahuatl"@nl ;
+	schema:name "Morelos-Nahuatl"@nl ;
+	rdfs:label "Lenga nahuatl, morelos"@pms ;
+	skos:prefLabel "Lenga nahuatl, morelos"@pms ;
+	schema:name "Lenga nahuatl, morelos"@pms ;
+	rdfs:label "Morelos Nahuatl"@en ;
+	skos:prefLabel "Morelos Nahuatl"@en ;
+	schema:name "Morelos Nahuatl"@en ;
+	rdfs:label "Морелосский науатль"@ru ;
+	skos:prefLabel "Морелосский науатль"@ru ;
+	schema:name "Морелосский науатль"@ru ;
+	rdfs:label "nahuatl du Morelos"@fr ;
+	skos:prefLabel "nahuatl du Morelos"@fr ;
+	schema:name "nahuatl du Morelos"@fr ;
+	rdfs:label "náhuatl morelense"@es ;
+	skos:prefLabel "náhuatl morelense"@es ;
+	schema:name "náhuatl morelense"@es ;
+	rdfs:label "Morelos Nahuatl"@en-gb ;
+	skos:prefLabel "Morelos Nahuatl"@en-gb ;
+	schema:name "Morelos Nahuatl"@en-gb ;
+	rdfs:label "Morelos Nahuatl dili"@tr ;
+	skos:prefLabel "Morelos Nahuatl dili"@tr ;
+	schema:name "Morelos Nahuatl dili"@tr ;
+	rdfs:label "Morelos nawatl"@nah ;
+	skos:prefLabel "Morelos nawatl"@nah ;
+	schema:name "Morelos nawatl"@nah ;
+	rdfs:label "Lingua náhuatl de Morelos"@gl ;
+	skos:prefLabel "Lingua náhuatl de Morelos"@gl ;
+	schema:name "Lingua náhuatl de Morelos"@gl ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue aztèque"@fr,
+		"yezh"@br,
+		"variante del náhuatl en Morelos, México"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"variedade do náhuatl falada en Morelos, México"@gl ;
+	skos:altLabel "Nahuatl morelense"@es,
+		"Mexicano de Morelos"@es,
+		"Mexicano morelense"@es,
+		"Nawatl tlen Morelos"@nah .
+
+wd:Q6047318 owl:sameAs wd:Q4800819 .
+
+wd:Q12953761 owl:sameAs wd:Q4800819 .

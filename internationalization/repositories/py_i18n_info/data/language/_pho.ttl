@@ -1,0 +1,155 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7188361 a schema:Dataset ;
+	schema:about wd:Q7188361 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1602472584"^^xsd:integer ;
+	schema:dateModified "2022-03-25T15:33:05Z"^^xsd:dateTime .
+
+wd:Q7188361 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Phunoi> a schema:Article ;
+	schema:about wd:Q7188361 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Phunoi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Phunoi_language> a schema:Article ;
+	schema:about wd:Q7188361 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Phunoi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Pounoieg> a schema:Article ;
+	schema:about wd:Q7188361 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Pounoieg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Phunoi_jezik> a schema:Article ;
+	schema:about wd:Q7188361 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Phunoi jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%99%AE%E5%86%85%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q7188361 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "普内语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2> a schema:Article ;
+	schema:about wd:Q7188361 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาผู้น้อย"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7188361 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "pho" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pho> ;
+	wdt:P279 wd:Q48844742 ;
+	wdt:P1394 "phun1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/phun1245> ;
+	wdt:P2355 "2235" ;
+	wdt:P17 wd:Q819 ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P910 wd:Q36164417 ;
+	wdt:P2192 "5188" ;
+	wdt:P305 "pho" ;
+	wdt:P1627 "pho" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q334868 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PHO> ;
+	wdt:P646 "/m/02hw_rh" ;
+	rdfs:label "Phunoi"@en ;
+	skos:prefLabel "Phunoi"@en ;
+	schema:name "Phunoi"@en ;
+	rdfs:label "Lenga Phunoi"@pms ;
+	skos:prefLabel "Lenga Phunoi"@pms ;
+	schema:name "Lenga Phunoi"@pms ;
+	rdfs:label "pounoieg"@br ;
+	skos:prefLabel "pounoieg"@br ;
+	schema:name "pounoieg"@br ;
+	rdfs:label "プーノーイ語"@ja ;
+	skos:prefLabel "プーノーイ語"@ja ;
+	schema:name "プーノーイ語"@ja ;
+	rdfs:label "Phunoi jezik"@hr ;
+	skos:prefLabel "Phunoi jezik"@hr ;
+	schema:name "Phunoi jezik"@hr ;
+	rdfs:label "Phunoi"@en-gb ;
+	skos:prefLabel "Phunoi"@en-gb ;
+	schema:name "Phunoi"@en-gb ;
+	rdfs:label "Wikang Phunoi"@tl ;
+	skos:prefLabel "Wikang Phunoi"@tl ;
+	schema:name "Wikang Phunoi"@tl ;
+	rdfs:label "phunoi"@fr ;
+	skos:prefLabel "phunoi"@fr ;
+	schema:name "phunoi"@fr ;
+	rdfs:label "普内语"@zh ;
+	skos:prefLabel "普内语"@zh ;
+	schema:name "普内语"@zh ;
+	rdfs:label "ภาษาผู้น้อย"@th ;
+	skos:prefLabel "ภาษาผู้น้อย"@th ;
+	schema:name "ภาษาผู้น้อย"@th ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue lolo"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Phunoi language"@en .
+
+wd:Q12639676 owl:sameAs wd:Q7188361 .
+
+wd:Q16306678 owl:sameAs wd:Q7188361 .
+
+wd:Q12953038 owl:sameAs wd:Q7188361 .
+
+wd:Q31442114 owl:sameAs wd:Q7188361 .

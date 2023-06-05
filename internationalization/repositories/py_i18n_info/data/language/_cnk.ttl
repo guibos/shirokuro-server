@@ -1,0 +1,169 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56308 a schema:Dataset ;
+	schema:about wd:Q56308 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1692430665"^^xsd:integer ;
+	schema:dateModified "2022-07-31T04:19:20Z"^^xsd:dateTime .
+
+wd:Q56308 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Chin,_Khumi> a schema:Article ;
+	schema:about wd:Q56308 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Chin, Khumi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kichin-Khumi> a schema:Article ;
+	schema:about wd:Q56308 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kichin-Khumi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Khumi_language> a schema:Article ;
+	schema:about wd:Q56308 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Khumi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%84%E0%B8%B9%E0%B8%A1%E0%B8%B5> a schema:Article ;
+	schema:about wd:Q56308 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาคูมี"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Koumeg> a schema:Article ;
+	schema:about wd:Q56308 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Koumeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%96%E0%A7%81%E0%A6%AE%E0%A6%BF_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q56308 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "খুমি ভাষা"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://my.wikipedia.org/wiki/%E1%80%81%E1%80%B0%E1%80%99%E1%80%AE%E1%80%B8%E1%80%98%E1%80%AC%E1%80%9E%E1%80%AC%E1%80%85%E1%80%80%E1%80%AC%E1%80%B8> a schema:Article ;
+	schema:about wd:Q56308 ;
+	schema:inLanguage "my" ;
+	schema:isPartOf <https://my.wikipedia.org/> ;
+	schema:name "ခူမီးဘာသာစကား"@my .
+
+<https://my.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56308 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "khum1248" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/khum1248> ;
+	wdt:P220 "cnk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cnk> ;
+	wdt:P1466 "khu" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_khu> ;
+	wdt:P279 wd:Q832413 ;
+	wdt:P305 "cnk" ;
+	wdt:P1627 "cnk" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q902,
+		wd:Q668,
+		wd:Q836 ;
+	wdt:P2341 wd:Q806273,
+		wd:Q158087,
+		wd:Q1502,
+		wd:Q46910,
+		wd:Q233838 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CNK> ;
+	wdt:P646 "/m/0h7q73y" ;
+	rdfs:label "awaeg"@br ;
+	skos:prefLabel "awaeg"@br ;
+	schema:name "awaeg"@br ;
+	rdfs:label "Khumi"@en ;
+	skos:prefLabel "Khumi"@en ;
+	schema:name "Khumi"@en ;
+	rdfs:label "ภาษาคูมี"@th ;
+	skos:prefLabel "ภาษาคูมี"@th ;
+	schema:name "ภาษาคูมี"@th ;
+	rdfs:label "khumi"@es ;
+	skos:prefLabel "khumi"@es ;
+	schema:name "khumi"@es ;
+	rdfs:label "খুমি ভাষা"@bn ;
+	skos:prefLabel "খুমি ভাষা"@bn ;
+	schema:name "খুমি ভাষা"@bn ;
+	rdfs:label "Lenga Chin, Khumi"@pms ;
+	skos:prefLabel "Lenga Chin, Khumi"@pms ;
+	schema:name "Lenga Chin, Khumi"@pms ;
+	rdfs:label "Kichin-Khumi"@sw ;
+	skos:prefLabel "Kichin-Khumi"@sw ;
+	schema:name "Kichin-Khumi"@sw ;
+	rdfs:label "khumi chin"@fr ;
+	skos:prefLabel "khumi chin"@fr ;
+	schema:name "khumi chin"@fr ;
+	rdfs:label "Wikang Khumi"@tl ;
+	skos:prefLabel "Wikang Khumi"@tl ;
+	schema:name "Wikang Khumi"@tl ;
+	rdfs:label "ခူမီးဘာသာစကား"@my ;
+	skos:prefLabel "ခူမီးဘာသာစကား"@my ;
+	schema:name "ခူမီးဘာသာစကား"@my ;
+	rdfs:label "庫米語"@zh ;
+	skos:prefLabel "庫米語"@zh ;
+	schema:name "庫米語"@zh ;
+	rdfs:label "ਖੂਮੀ"@pa ;
+	skos:prefLabel "ਖੂਮੀ"@pa ;
+	schema:name "ਖੂਮੀ"@pa ;
+	schema:description "lengua tibetobirmana"@es,
+		"Sino-Tibetan language spoken in Bangladesh and Burma"@en,
+		"langue mizo-kuki-chin"@fr,
+		"yezh"@br,
+		"lingua"@it,
+		"Sprache"@de,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ဘာသာစကား"@my,
+		"ਭਾਸ਼ਾ"@pa ;
+	skos:altLabel "Khumi Chin"@en,
+		"Khumi language"@en,
+		"ਖੂਮੀ ਚੀਨ"@pa,
+		"ਖੂਮੀ ਭਾਸ਼ਾ"@pa .

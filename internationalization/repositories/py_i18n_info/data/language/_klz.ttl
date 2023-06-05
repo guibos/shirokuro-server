@@ -1,0 +1,336 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11732258 a schema:Dataset ;
+	schema:about wd:Q11732258 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912465340"^^xsd:integer ;
+	schema:dateModified "2023-06-10T18:47:06Z"^^xsd:dateTime .
+
+wd:Q11732258 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kabola> a schema:Article ;
+	schema:about wd:Q11732258 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kabola"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikabola> a schema:Article ;
+	schema:about wd:Q11732258 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikabola"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Kabola> a schema:Article ;
+	schema:about wd:Q11732258 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Kabola"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11732258 wdt:P220 "klz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/klz> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P2590 "0137 0" ;
+	wdt:P1705 "bahasa Kabola"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P276 wd:Q15128554,
+		wd:Q15123117 ;
+	wdt:P2355 "2742" ;
+	wdt:P1394 "kabo1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kabo1247> ;
+	wdt:P279 wd:Q3502429 ;
+	wdt:P305 "klz" ;
+	wdt:P1627 "klz" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q5061,
+		wd:Q3803 ;
+	wdt:P2671 "/g/11dxjxqhrm" ;
+	wdtn:P2671 <http://g.co/kg/g/11dxjxqhrm> ;
+	rdfs:label "Język kabola"@pl ;
+	skos:prefLabel "Język kabola"@pl ;
+	schema:name "Język kabola"@pl ;
+	rdfs:label "Lenga Kabola"@pms ;
+	skos:prefLabel "Lenga Kabola"@pms ;
+	schema:name "Lenga Kabola"@pms ;
+	rdfs:label "Kabola"@en ;
+	skos:prefLabel "Kabola"@en ;
+	schema:name "Kabola"@en ;
+	rdfs:label "Kikabola"@sw ;
+	skos:prefLabel "Kikabola"@sw ;
+	schema:name "Kikabola"@sw ;
+	rdfs:label "Kabola"@id ;
+	skos:prefLabel "Kabola"@id ;
+	schema:name "Kabola"@id ;
+	rdfs:label "Kabola"@ace ;
+	skos:prefLabel "Kabola"@ace ;
+	schema:name "Kabola"@ace ;
+	rdfs:label "Kabola"@af ;
+	skos:prefLabel "Kabola"@af ;
+	schema:name "Kabola"@af ;
+	rdfs:label "Kabola"@an ;
+	skos:prefLabel "Kabola"@an ;
+	schema:name "Kabola"@an ;
+	rdfs:label "Kabola"@ast ;
+	skos:prefLabel "Kabola"@ast ;
+	schema:name "Kabola"@ast ;
+	rdfs:label "Kabola"@bar ;
+	skos:prefLabel "Kabola"@bar ;
+	schema:name "Kabola"@bar ;
+	rdfs:label "Kabola"@bjn ;
+	skos:prefLabel "Kabola"@bjn ;
+	schema:name "Kabola"@bjn ;
+	rdfs:label "kabola"@br ;
+	skos:prefLabel "kabola"@br ;
+	schema:name "kabola"@br ;
+	rdfs:label "Kabola"@bug ;
+	skos:prefLabel "Kabola"@bug ;
+	schema:name "Kabola"@bug ;
+	rdfs:label "kabola"@ca ;
+	skos:prefLabel "kabola"@ca ;
+	schema:name "kabola"@ca ;
+	rdfs:label "Kabola"@co ;
+	skos:prefLabel "Kabola"@co ;
+	schema:name "Kabola"@co ;
+	rdfs:label "Kabola"@cs ;
+	skos:prefLabel "Kabola"@cs ;
+	schema:name "Kabola"@cs ;
+	rdfs:label "Kabola"@cy ;
+	skos:prefLabel "Kabola"@cy ;
+	schema:name "Kabola"@cy ;
+	rdfs:label "Kabola"@da ;
+	skos:prefLabel "Kabola"@da ;
+	schema:name "Kabola"@da ;
+	rdfs:label "Kabola"@de ;
+	skos:prefLabel "Kabola"@de ;
+	schema:name "Kabola"@de ;
+	rdfs:label "Kabola"@de-at ;
+	skos:prefLabel "Kabola"@de-at ;
+	schema:name "Kabola"@de-at ;
+	rdfs:label "Kabola"@de-ch ;
+	skos:prefLabel "Kabola"@de-ch ;
+	schema:name "Kabola"@de-ch ;
+	rdfs:label "Kabola"@en-ca ;
+	skos:prefLabel "Kabola"@en-ca ;
+	schema:name "Kabola"@en-ca ;
+	rdfs:label "Kabola"@en-gb ;
+	skos:prefLabel "Kabola"@en-gb ;
+	schema:name "Kabola"@en-gb ;
+	rdfs:label "Kabola"@eo ;
+	skos:prefLabel "Kabola"@eo ;
+	schema:name "Kabola"@eo ;
+	rdfs:label "Kabola"@es ;
+	skos:prefLabel "Kabola"@es ;
+	schema:name "Kabola"@es ;
+	rdfs:label "kabola keel"@et ;
+	skos:prefLabel "kabola keel"@et ;
+	schema:name "kabola keel"@et ;
+	rdfs:label "Kabola"@eu ;
+	skos:prefLabel "Kabola"@eu ;
+	schema:name "Kabola"@eu ;
+	rdfs:label "Kabola"@fi ;
+	skos:prefLabel "Kabola"@fi ;
+	schema:name "Kabola"@fi ;
+	rdfs:label "kabola"@fr ;
+	skos:prefLabel "kabola"@fr ;
+	schema:name "kabola"@fr ;
+	rdfs:label "Kabola"@frp ;
+	skos:prefLabel "Kabola"@frp ;
+	schema:name "Kabola"@frp ;
+	rdfs:label "Kabola"@fur ;
+	skos:prefLabel "Kabola"@fur ;
+	schema:name "Kabola"@fur ;
+	rdfs:label "Kabola"@ga ;
+	skos:prefLabel "Kabola"@ga ;
+	schema:name "Kabola"@ga ;
+	rdfs:label "Kabola"@gd ;
+	skos:prefLabel "Kabola"@gd ;
+	schema:name "Kabola"@gd ;
+	rdfs:label "Kabola"@gl ;
+	skos:prefLabel "Kabola"@gl ;
+	schema:name "Kabola"@gl ;
+	rdfs:label "Kabola"@gsw ;
+	skos:prefLabel "Kabola"@gsw ;
+	schema:name "Kabola"@gsw ;
+	rdfs:label "Kabola"@hr ;
+	skos:prefLabel "Kabola"@hr ;
+	schema:name "Kabola"@hr ;
+	rdfs:label "Kabola"@hu ;
+	skos:prefLabel "Kabola"@hu ;
+	schema:name "Kabola"@hu ;
+	rdfs:label "Kabola"@ia ;
+	skos:prefLabel "Kabola"@ia ;
+	schema:name "Kabola"@ia ;
+	rdfs:label "Kabola"@ie ;
+	skos:prefLabel "Kabola"@ie ;
+	schema:name "Kabola"@ie ;
+	rdfs:label "Kabola"@io ;
+	skos:prefLabel "Kabola"@io ;
+	schema:name "Kabola"@io ;
+	rdfs:label "Kabola"@is ;
+	skos:prefLabel "Kabola"@is ;
+	schema:name "Kabola"@is ;
+	rdfs:label "kabola"@it ;
+	skos:prefLabel "kabola"@it ;
+	schema:name "kabola"@it ;
+	rdfs:label "Kabola"@jv ;
+	skos:prefLabel "Kabola"@jv ;
+	schema:name "Kabola"@jv ;
+	rdfs:label "Kabola"@kg ;
+	skos:prefLabel "Kabola"@kg ;
+	schema:name "Kabola"@kg ;
+	rdfs:label "Kabola"@lb ;
+	skos:prefLabel "Kabola"@lb ;
+	schema:name "Kabola"@lb ;
+	rdfs:label "Kabola"@li ;
+	skos:prefLabel "Kabola"@li ;
+	schema:name "Kabola"@li ;
+	rdfs:label "Kabola"@lij ;
+	skos:prefLabel "Kabola"@lij ;
+	schema:name "Kabola"@lij ;
+	rdfs:label "Kabola"@map-bms ;
+	skos:prefLabel "Kabola"@map-bms ;
+	schema:name "Kabola"@map-bms ;
+	rdfs:label "Kabola"@mg ;
+	skos:prefLabel "Kabola"@mg ;
+	schema:name "Kabola"@mg ;
+	rdfs:label "Kabola"@min ;
+	skos:prefLabel "Kabola"@min ;
+	schema:name "Kabola"@min ;
+	rdfs:label "Kabola"@ms ;
+	skos:prefLabel "Kabola"@ms ;
+	schema:name "Kabola"@ms ;
+	rdfs:label "Kabola"@nap ;
+	skos:prefLabel "Kabola"@nap ;
+	schema:name "Kabola"@nap ;
+	rdfs:label "Kabola"@nb ;
+	skos:prefLabel "Kabola"@nb ;
+	schema:name "Kabola"@nb ;
+	rdfs:label "Kabola"@nds ;
+	skos:prefLabel "Kabola"@nds ;
+	schema:name "Kabola"@nds ;
+	rdfs:label "Kabola"@nds-nl ;
+	skos:prefLabel "Kabola"@nds-nl ;
+	schema:name "Kabola"@nds-nl ;
+	rdfs:label "Kabola"@nl ;
+	skos:prefLabel "Kabola"@nl ;
+	schema:name "Kabola"@nl ;
+	rdfs:label "Kabola"@nn ;
+	skos:prefLabel "Kabola"@nn ;
+	schema:name "Kabola"@nn ;
+	rdfs:label "Kabola"@nrm ;
+	skos:prefLabel "Kabola"@nrm ;
+	schema:name "Kabola"@nrm ;
+	rdfs:label "Kabola"@oc ;
+	skos:prefLabel "Kabola"@oc ;
+	schema:name "Kabola"@oc ;
+	rdfs:label "Kabola"@pcd ;
+	skos:prefLabel "Kabola"@pcd ;
+	schema:name "Kabola"@pcd ;
+	rdfs:label "Kabola"@pt ;
+	skos:prefLabel "Kabola"@pt ;
+	schema:name "Kabola"@pt ;
+	rdfs:label "Kabola"@pt-br ;
+	skos:prefLabel "Kabola"@pt-br ;
+	schema:name "Kabola"@pt-br ;
+	rdfs:label "Kabola"@rm ;
+	skos:prefLabel "Kabola"@rm ;
+	schema:name "Kabola"@rm ;
+	rdfs:label "Kabola"@ro ;
+	skos:prefLabel "Kabola"@ro ;
+	schema:name "Kabola"@ro ;
+	rdfs:label "Kabola"@sc ;
+	skos:prefLabel "Kabola"@sc ;
+	schema:name "Kabola"@sc ;
+	rdfs:label "Kabola"@scn ;
+	skos:prefLabel "Kabola"@scn ;
+	schema:name "Kabola"@scn ;
+	rdfs:label "Kabola"@sco ;
+	skos:prefLabel "Kabola"@sco ;
+	schema:name "Kabola"@sco ;
+	rdfs:label "Kabola"@sk ;
+	skos:prefLabel "Kabola"@sk ;
+	schema:name "Kabola"@sk ;
+	rdfs:label "Kabola"@sl ;
+	skos:prefLabel "Kabola"@sl ;
+	schema:name "Kabola"@sl ;
+	rdfs:label "Kabola"@sr-el ;
+	skos:prefLabel "Kabola"@sr-el ;
+	schema:name "Kabola"@sr-el ;
+	rdfs:label "Kabola"@su ;
+	skos:prefLabel "Kabola"@su ;
+	schema:name "Kabola"@su ;
+	rdfs:label "Kabola"@sv ;
+	skos:prefLabel "Kabola"@sv ;
+	schema:name "Kabola"@sv ;
+	rdfs:label "Kabola"@vec ;
+	skos:prefLabel "Kabola"@vec ;
+	schema:name "Kabola"@vec ;
+	rdfs:label "Kabola"@vi ;
+	skos:prefLabel "Kabola"@vi ;
+	schema:name "Kabola"@vi ;
+	rdfs:label "Kabola"@vls ;
+	skos:prefLabel "Kabola"@vls ;
+	schema:name "Kabola"@vls ;
+	rdfs:label "Kabola"@vo ;
+	skos:prefLabel "Kabola"@vo ;
+	schema:name "Kabola"@vo ;
+	rdfs:label "Kabola"@wa ;
+	skos:prefLabel "Kabola"@wa ;
+	schema:name "Kabola"@wa ;
+	rdfs:label "Kabola"@wo ;
+	skos:prefLabel "Kabola"@wo ;
+	schema:name "Kabola"@wo ;
+	rdfs:label "Kabola"@zu ;
+	skos:prefLabel "Kabola"@zu ;
+	schema:name "Kabola"@zu ;
+	schema:description "bagian dari rumpun bahasa Austronesia"@id,
+		"language in Indonesia"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"langue timor-alor-pantar"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "bahasa Kabola"@id,
+		"Kabola language"@en .
+
+wd:Q12952534 owl:sameAs wd:Q11732258 .

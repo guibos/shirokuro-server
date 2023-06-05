@@ -1,0 +1,128 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6371071 a schema:Dataset ;
+	schema:about wd:Q6371071 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1899068288"^^xsd:integer ;
+	schema:dateModified "2023-05-19T08:54:37Z"^^xsd:dateTime .
+
+wd:Q6371071 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_karipun%C3%A1> a schema:Article ;
+	schema:about wd:Q6371071 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga karipuná"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%BD%D0%B4%D0%BE%D0%BD%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B0%D1%80%D0%B8%D0%BF%D1%83%D0%BD%D0%B0> a schema:Article ;
+	schema:about wd:Q6371071 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Рондонийский карипуна"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Dialeto_caripuna> a schema:Article ;
+	schema:about wd:Q6371071 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Dialeto caripuna"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Karipuna_language_(Panoan)> a schema:Article ;
+	schema:about wd:Q6371071 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Karipuna language (Panoan)"@en ;
+	wikibase:badge wd:Q70894304 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6371071 wdt:P220 "kuq" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kuq> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568,
+		wd:Q33384 ;
+	wdt:P2355 "613" ;
+	wdt:P1394 "kari1317" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kari1317> ;
+	wdt:P279 wd:Q148610 ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P1466 "kdg" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_kdg> ;
+	wdt:P2192 "3107" ;
+	wdt:P305 "kuq" ;
+	wdt:P1627 "kuq" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P17 wd:Q155 ;
+	wdt:P2341 wd:Q43235 ;
+	wdt:P4913 wd:Q2591202,
+		wd:Q6346712 ;
+	rdfs:label "Karipuna"@en ;
+	skos:prefLabel "Karipuna"@en ;
+	schema:name "Karipuna"@en ;
+	rdfs:label "Lenga karipuná"@pms ;
+	skos:prefLabel "Lenga karipuná"@pms ;
+	schema:name "Lenga karipuná"@pms ;
+	rdfs:label "Рондониянский карипуна"@ru ;
+	skos:prefLabel "Рондониянский карипуна"@ru ;
+	schema:name "Рондониянский карипуна"@ru ;
+	rdfs:label "Karipuna"@en-gb ;
+	skos:prefLabel "Karipuna"@en-gb ;
+	schema:name "Karipuna"@en-gb ;
+	rdfs:label "karipuna"@fr ;
+	skos:prefLabel "karipuna"@fr ;
+	schema:name "karipuna"@fr ;
+	rdfs:label "karipuna keel"@et ;
+	skos:prefLabel "karipuna keel"@et ;
+	schema:name "karipuna keel"@et ;
+	rdfs:label "Dialeto caripuna"@pt ;
+	skos:prefLabel "Dialeto caripuna"@pt ;
+	schema:name "Dialeto caripuna"@pt ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue tupi"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Karipuna language"@en .
+
+wd:Q12953617 owl:sameAs wd:Q6371071 .
+
+wd:Q55644076 owl:sameAs wd:Q6371071 .

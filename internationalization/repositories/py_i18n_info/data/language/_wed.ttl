@@ -1,0 +1,101 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953294 a schema:Dataset ;
+	schema:about wd:Q12953294 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960457852"^^xsd:integer ;
+	schema:dateModified "2023-08-24T21:09:11Z"^^xsd:dateTime .
+
+wd:Q12953294 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Wedau> a schema:Article ;
+	schema:about wd:Q12953294 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Wedau"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiwedau> a schema:Article ;
+	schema:about wd:Q12953294 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiwedau"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953294 wdt:P220 "wed" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/wed> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q3039108 ;
+	wdt:P1394 "weda1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/weda1241> ;
+	wdt:P1466 "wed" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_wed> ;
+	wdt:P305 "wed" ;
+	wdt:P1627 "wed" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q874962 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/WED> ;
+	wdt:P910 wd:Q33675471 ;
+	rdfs:label "Lenga Wedau"@pms ;
+	skos:prefLabel "Lenga Wedau"@pms ;
+	schema:name "Lenga Wedau"@pms ;
+	rdfs:label "Wedau"@en ;
+	skos:prefLabel "Wedau"@en ;
+	schema:name "Wedau"@en ;
+	rdfs:label "Kiwedau"@sw ;
+	skos:prefLabel "Kiwedau"@sw ;
+	schema:name "Kiwedau"@sw ;
+	rdfs:label "Wedau"@en-gb ;
+	skos:prefLabel "Wedau"@en-gb ;
+	schema:name "Wedau"@en-gb ;
+	rdfs:label "Wedau"@de ;
+	skos:prefLabel "Wedau"@de ;
+	schema:name "Wedau"@de ;
+	rdfs:label "wedau"@fr ;
+	skos:prefLabel "wedau"@fr ;
+	schema:name "wedau"@fr ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"language"@en,
+		"langue océanienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Wedau language"@en .

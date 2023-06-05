@@ -1,0 +1,175 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3414522 a schema:Dataset ;
+	schema:about wd:Q3414522 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960589083"^^xsd:integer ;
+	schema:dateModified "2023-08-25T00:13:24Z"^^xsd:dateTime .
+
+wd:Q3414522 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Quinault_(langue)> a schema:Article ;
+	schema:about wd:Q3414522 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Quinault (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_quinault> a schema:Article ;
+	schema:about wd:Q3414522 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga quinault"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%B2%D0%B8%D0%BD%D0%BE%D0%BB%D1%82> a schema:Article ;
+	schema:about wd:Q3414522 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Квинолт"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Quinault_language> a schema:Article ;
+	schema:about wd:Q3414522 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Quinault language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Quinault_jezik> a schema:Article ;
+	schema:about wd:Q3414522 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Quinault jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_quinault> a schema:Article ;
+	schema:about wd:Q3414522 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua quinault"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3414522 wdt:P220 "qun" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/qun> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P646 "/m/0j64hl9" ;
+	wdt:P305 "qun" ;
+	wdt:P279 wd:Q1754875 ;
+	wdt:P2341 wd:Q1807851,
+		wd:Q1223 ;
+	wdt:P1394 "quin1251" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/quin1251> ;
+	wdt:P2355 "795" ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P1627 "qun" ;
+	wdt:P3823 wd:Q61954960 ;
+	wdt:P17 wd:Q30 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/QUN> ;
+	wdt:P1014 "300389131" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389131> ;
+	wdt:P910 wd:Q105714559 ;
+	rdfs:label "quinault"@fr ;
+	skos:prefLabel "quinault"@fr ;
+	schema:name "quinault"@fr ;
+	rdfs:label "Quinault"@en ;
+	skos:prefLabel "Quinault"@en ;
+	schema:name "Quinault"@en ;
+	rdfs:label "Кинаулт"@ru ;
+	skos:prefLabel "Кинаулт"@ru ;
+	schema:name "Кинаулт"@ru ;
+	rdfs:label "Lenga quinault"@pms ;
+	skos:prefLabel "Lenga quinault"@pms ;
+	schema:name "Lenga quinault"@pms ;
+	rdfs:label "lingua quinault"@it ;
+	skos:prefLabel "lingua quinault"@it ;
+	schema:name "lingua quinault"@it ;
+	rdfs:label "Quinault jezik"@hr ;
+	skos:prefLabel "Quinault jezik"@hr ;
+	schema:name "Quinault jezik"@hr ;
+	rdfs:label "Quinault"@en-gb ;
+	skos:prefLabel "Quinault"@en-gb ;
+	schema:name "Quinault"@en-gb ;
+	rdfs:label "クイナルト語"@ja ;
+	skos:prefLabel "クイナルト語"@ja ;
+	schema:name "クイナルト語"@ja ;
+	rdfs:label "kvinolti keel"@et ;
+	skos:prefLabel "kvinolti keel"@et ;
+	schema:name "kvinolti keel"@et ;
+	rdfs:label "quinault"@ca ;
+	skos:prefLabel "quinault"@ca ;
+	schema:name "quinault"@ca ;
+	rdfs:label "كينولت"@ar ;
+	skos:prefLabel "كينولت"@ar ;
+	schema:name "كينولت"@ar ;
+	rdfs:label "كينولت"@ary ;
+	skos:prefLabel "كينولت"@ary ;
+	schema:name "كينولت"@ary ;
+	rdfs:label "Quinault"@es ;
+	skos:prefLabel "Quinault"@es ;
+	schema:name "Quinault"@es ;
+	rdfs:label "Quinault"@pt ;
+	skos:prefLabel "Quinault"@pt ;
+	schema:name "Quinault"@pt ;
+	rdfs:label "Quinault"@sv ;
+	skos:prefLabel "Quinault"@sv ;
+	schema:name "Quinault"@sv ;
+	rdfs:label "quinault"@vec ;
+	skos:prefLabel "quinault"@vec ;
+	schema:name "quinault"@vec ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"لغة"@ar,
+		"لغة"@ary,
+		"Språk"@sv ;
+	skos:altLabel "Quinault language"@en .
+
+wd:Q16114514 owl:sameAs wd:Q3414522 .
+
+wd:Q12953849 owl:sameAs wd:Q3414522 .

@@ -1,0 +1,389 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33367 a schema:Dataset ;
+	schema:about wd:Q33367 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1917410686"^^xsd:integer ;
+	schema:dateModified "2023-06-17T13:35:39Z"^^xsd:dateTime .
+
+wd:Q33367 a wikibase:Item .
+
+<https://lad.wikipedia.org/wiki/Djidi> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "lad" ;
+	schema:isPartOf <https://lad.wikipedia.org/> ;
+	schema:name "Djidi"@lad .
+
+<https://lad.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Dzhidi> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Dzhidi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%95%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%BE-%D0%BF%D0%B5%D1%80%D1%81%D0%B8%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Еврейско-персидский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ce.wikipedia.org/wiki/%D0%96%D1%83%D1%8C%D0%B3%D1%82%D0%B8%D0%B9%D0%BD-%D0%B3%D3%80%D0%B0%D0%B6%D0%B0%D1%80%D0%B8%D0%B9%D0%BD_%D0%BC%D0%BE%D1%82%D1%82> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "ce" ;
+	schema:isPartOf <https://ce.wikipedia.org/> ;
+	schema:name "Жуьгтийн-гӀажарийн мотт"@ce .
+
+<https://ce.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Judeo-Persian> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Judeo-Persian"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%80%E0%B8%9B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%A2%E0%B8%B4%E0%B8%A7> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาเปอร์เซียของชาวยิว"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Judeopersa> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Judeopersa"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://diq.wikipedia.org/wiki/Cidi> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Cidi"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C_%DB%8C%D9%87%D9%88%D8%AF%DB%8C_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "فارسی یهودی دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%BC%E3%83%87%E3%82%A3> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ジーディ"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Djidieg> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Djidieg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Jud%C3%A4o-Persisch> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Judäo-Persisch"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_giudeo-persiana> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua giudeo-persiana"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Juutalaispersia> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Juutalaispersia"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Cidi> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Cidi"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C%D9%87%D9%88%D8%AF> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "فارسیهود"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E7%8C%B6%E5%A4%AA-%E6%B3%A2%E6%96%AF%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "猶太-波斯語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Judeo-Perzisch> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Judeo-Perzisch"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Judeopersa> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Judeopersa"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Persia_Yahudi> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Persia Yahudi"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_dzhidi> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua dzhidi"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%A4%D7%A8%D7%A1%D7%99%D7%AA_%D7%99%D7%94%D7%95%D7%93%D7%99%D7%AA> a schema:Article ;
+	schema:about wd:Q33367 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "פרסית יהודית"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33367 wdt:P305 "jpr" ;
+	wdt:P219 "jpr" ;
+	wdt:P220 "jpr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/jpr> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1208380,
+		wd:Q1288568 ;
+	wdt:P646 "/m/01db4x" ;
+	wdt:P279 wd:Q9168 ;
+	wdt:P2263 "735" ;
+	wdtn:P2263 <http://www.isocat.org/datcat/DC-735> ;
+	wdt:P1394 "jude1257" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/jude1257> ;
+	wdt:P278 "епе 193" ;
+	wdt:P2355 "1768" ;
+	wdt:P282 wd:Q106644552,
+		wd:Q33513 ;
+	wdt:P1098 "+60000"^^xsd:decimal ;
+	wdt:P131 wd:Q27275 ;
+	wdt:P17 wd:Q801,
+		wd:Q794 ;
+	wdt:P2581 "15639682n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s15639682n> ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P1627 "jpr" ;
+	wdt:P4801 "languages/jpr" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/jpr> ;
+	wdt:P4801 "iso639-2/jpr" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/iso639-2/jpr> ;
+	wdt:P244 "sh85070892" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85070892> ;
+	wdt:P3823 wd:Q29051555 ;
+	wdt:P2341 wd:Q188781,
+		wd:Q192232,
+		wd:Q189942 ;
+	wdt:P4913 wd:Q9168 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/JPR> ;
+	wdt:P1438 "11530" ;
+	wdt:P910 wd:Q105714511 ;
+	wdt:P1343 wd:Q4173137 ;
+	wdt:P9060 "jpr" ;
+	wdt:P10369 "Q77" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q77> ;
+	wdt:P8189 "987007536165005171" ;
+	wdt:P691 "ph466402" ;
+	wdt:P2671 "/g/122xk_qk" ;
+	wdtn:P2671 <http://g.co/kg/g/122xk_qk> ;
+	rdfs:label "Judäo-Persisch"@de ;
+	skos:prefLabel "Judäo-Persisch"@de ;
+	schema:name "Judäo-Persisch"@de ;
+	rdfs:label "ジーディ"@ja ;
+	skos:prefLabel "ジーディ"@ja ;
+	schema:name "ジーディ"@ja ;
+	rdfs:label "djidieg"@br ;
+	skos:prefLabel "djidieg"@br ;
+	schema:name "djidieg"@br ;
+	rdfs:label "еврейско-персидский язык"@ru ;
+	skos:prefLabel "еврейско-персидский язык"@ru ;
+	schema:name "еврейско-персидский язык"@ru ;
+	rdfs:label "Judæo-Persian"@en ;
+	skos:prefLabel "Judæo-Persian"@en ;
+	schema:name "Judæo-Persian"@en ;
+	rdfs:label "Cidi"@tr ;
+	skos:prefLabel "Cidi"@tr ;
+	schema:name "Cidi"@tr ;
+	rdfs:label "Djidi"@lad ;
+	skos:prefLabel "Djidi"@lad ;
+	schema:name "Djidi"@lad ;
+	rdfs:label "ภาษาเปอร์เซียของชาวยิว"@th ;
+	skos:prefLabel "ภาษาเปอร์เซียของชาวยิว"@th ;
+	schema:name "ภาษาเปอร์เซียของชาวยิว"@th ;
+	rdfs:label "juutalaispersia"@fi ;
+	skos:prefLabel "juutalaispersia"@fi ;
+	schema:name "juutalaispersia"@fi ;
+	rdfs:label "lingua giudeo-persiana"@it ;
+	skos:prefLabel "lingua giudeo-persiana"@it ;
+	schema:name "lingua giudeo-persiana"@it ;
+	rdfs:label "judeopersa"@es ;
+	skos:prefLabel "judeopersa"@es ;
+	schema:name "judeopersa"@es ;
+	rdfs:label "פרסית יהודית"@he ;
+	skos:prefLabel "פרסית יהודית"@he ;
+	schema:name "פרסית יהודית"@he ;
+	rdfs:label "Lenga Dzhidi"@pms ;
+	skos:prefLabel "Lenga Dzhidi"@pms ;
+	schema:name "Lenga Dzhidi"@pms ;
+	rdfs:label "dzhidi"@fr ;
+	skos:prefLabel "dzhidi"@fr ;
+	schema:name "dzhidi"@fr ;
+	rdfs:label "Жуьгтийн-гӀажарийн мотт"@ce ;
+	skos:prefLabel "Жуьгтийн-гӀажарийн мотт"@ce ;
+	schema:name "Жуьгтийн-гӀажарийн мотт"@ce ;
+	rdfs:label "فارسیهود"@fa ;
+	skos:prefLabel "فارسیهود"@fa ;
+	schema:name "فارسیهود"@fa ;
+	rdfs:label "judeopersa"@ca ;
+	skos:prefLabel "judeopersa"@ca ;
+	schema:name "judeopersa"@ca ;
+	rdfs:label "Cidi"@diq ;
+	skos:prefLabel "Cidi"@diq ;
+	schema:name "Cidi"@diq ;
+	rdfs:label "Judeo-Perzisch"@nl ;
+	skos:prefLabel "Judeo-Perzisch"@nl ;
+	schema:name "Judeo-Perzisch"@nl ;
+	rdfs:label "猶太-波斯語"@zh-hant ;
+	skos:prefLabel "猶太-波斯語"@zh-hant ;
+	schema:name "猶太-波斯語"@zh-hant ;
+	rdfs:label "犹太-波斯语"@zh-cn ;
+	skos:prefLabel "犹太-波斯语"@zh-cn ;
+	schema:name "犹太-波斯语"@zh-cn ;
+	rdfs:label "فارسی یهودی دیلی"@azb ;
+	skos:prefLabel "فارسی یهودی دیلی"@azb ;
+	schema:name "فارسی یهودی دیلی"@azb ;
+	rdfs:label "jud-persa lingvo"@eo ;
+	skos:prefLabel "jud-persa lingvo"@eo ;
+	schema:name "jud-persa lingvo"@eo ;
+	rdfs:label "犹太-波斯语"@zh-hans ;
+	skos:prefLabel "犹太-波斯语"@zh-hans ;
+	schema:name "犹太-波斯语"@zh-hans ;
+	rdfs:label "犹太-波斯语"@zh ;
+	skos:prefLabel "犹太-波斯语"@zh ;
+	schema:name "犹太-波斯语"@zh ;
+	rdfs:label "zudeo-persian"@vec ;
+	skos:prefLabel "zudeo-persian"@vec ;
+	schema:name "zudeo-persian"@vec ;
+	rdfs:label "bahasa Persia Yahudi"@id ;
+	skos:prefLabel "bahasa Persia Yahudi"@id ;
+	schema:name "bahasa Persia Yahudi"@id ;
+	rdfs:label "Língua dzhidi"@pt ;
+	skos:prefLabel "Língua dzhidi"@pt ;
+	schema:name "Língua dzhidi"@pt ;
+	rdfs:label "judeo-perština"@cs ;
+	skos:prefLabel "judeo-perština"@cs ;
+	schema:name "judeo-perština"@cs ;
+	schema:description "grupo de dialectos persas hablados por los judíos iraníes o sus descendientes"@es,
+		"gruppo di dialetti"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lingua"@la,
+		"iaith"@cy,
+		"язык части персидских евреев, один из еврейско-иранских языков"@ru,
+		"Yahudi Farsçası olarak bilinen bir dil."@tr,
+		"گویشی از زبان فارسی"@fa,
+		"bagian dari rumpun bahasa Indo-Eropa"@id ;
+	skos:altLabel "Dzhidi"@de,
+		"ユダヤ・ペルシア語"@ja,
+		"jpr"@ja,
+		"Dzhidieg"@br,
+		"Yuzev-perseg"@br,
+		"Latorayi"@tr,
+		"Dzhidi"@tr,
+		"Yahudi Farsçası"@tr,
+		"Jidi"@tr,
+		"džidi"@fi,
+		"Dzhidi"@it,
+		"Lingua dzhidi"@it,
+		"Judeo-Persian"@en,
+		"Dzhidi"@en,
+		"judéo-persan"@fr,
+		"Judæo-Perzisch"@nl,
+		"Yehud"@id,
+		"Dzhidi"@id,
+		"Dzhidi"@pt .
+
+wd:Q10322107 owl:sameAs wd:Q33367 .
+
+wd:Q12952411 owl:sameAs wd:Q33367 .
+
+wd:Q31769524 owl:sameAs wd:Q33367 .

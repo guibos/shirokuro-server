@@ -1,0 +1,129 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6935252 a schema:Dataset ;
+	schema:about wd:Q6935252 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1372583652"^^xsd:integer ;
+	schema:dateModified "2021-02-28T20:26:29Z"^^xsd:dateTime .
+
+wd:Q6935252 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Mum_language> a schema:Article ;
+	schema:about wd:Q6935252 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mum language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mum> a schema:Article ;
+	schema:about wd:Q6935252 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mum"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimum> a schema:Article ;
+	schema:about wd:Q6935252 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimum"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Mum> a schema:Article ;
+	schema:about wd:Q6935252 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Mum"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://diq.wikipedia.org/wiki/Mumki> a schema:Article ;
+	schema:about wd:Q6935252 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Mumki"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6935252 wdt:P361 wd:Q34018 ;
+	wdt:P220 "kqa" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kqa> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q236425 ;
+	wdt:P1394 "mumm1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mumm1238> ;
+	wdt:P305 "kqa" ;
+	wdt:P1627 "kqa" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q326254 ;
+	wdt:P646 "/m/02hxhys" ;
+	wdt:P910 wd:Q105714755 ;
+	rdfs:label "Mum"@en ;
+	skos:prefLabel "Mum"@en ;
+	schema:name "Mum"@en ;
+	rdfs:label "Lenga Mum"@pms ;
+	skos:prefLabel "Lenga Mum"@pms ;
+	schema:name "Lenga Mum"@pms ;
+	rdfs:label "Kimum"@sw ;
+	skos:prefLabel "Kimum"@sw ;
+	schema:name "Kimum"@sw ;
+	rdfs:label "język katiati"@pl ;
+	skos:prefLabel "język katiati"@pl ;
+	schema:name "język katiati"@pl ;
+	rdfs:label "Mum"@ilo ;
+	skos:prefLabel "Mum"@ilo ;
+	schema:name "Mum"@ilo ;
+	rdfs:label "Mum"@en-gb ;
+	skos:prefLabel "Mum"@en-gb ;
+	schema:name "Mum"@en-gb ;
+	rdfs:label "Mumki"@diq ;
+	skos:prefLabel "Mumki"@diq ;
+	schema:name "Mumki"@diq ;
+	schema:description "Sprache"@de,
+		"Trans-New Guinea language"@en,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy .
+
+wd:Q11732293 owl:sameAs wd:Q6935252 .

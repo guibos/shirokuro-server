@@ -1,0 +1,356 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6960073 a schema:Dataset ;
+	schema:about wd:Q6960073 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1835615497"^^xsd:integer ;
+	schema:dateModified "2023-02-17T09:41:47Z"^^xsd:dateTime .
+
+wd:Q6960073 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Naka%27ela> a schema:Article ;
+	schema:about wd:Q6960073 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Naka'ela"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Naka%27ela> a schema:Article ;
+	schema:about wd:Q6960073 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Naka'ela"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinaka%27ela> a schema:Article ;
+	schema:about wd:Q6960073 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinaka'ela"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Naka%27ela_language> a schema:Article ;
+	schema:about wd:Q6960073 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Naka'ela language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_naka%E2%80%99ela> a schema:Article ;
+	schema:about wd:Q6960073 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język naka’ela"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6960073 wdt:P220 "nae" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nae> ;
+	wdt:P31 wd:Q45762,
+		wd:Q34770,
+		wd:Q38058796 ;
+	wdt:P279 wd:Q25494655 ;
+	wdt:P1394 "naka1263" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/naka1263> ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2355 "2601" ;
+	wdt:P305 "nae" ;
+	wdt:P131 wd:Q185532 ;
+	wdt:P2590 "0756 3" ;
+	wdt:P1705 "bahasa Naka’ela"@id ;
+	wdt:P2192 "4765" ;
+	wdt:P1627 "nae" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P2341 wd:Q5093 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NAE> ;
+	wdt:P646 "/m/02hw_20" ;
+	rdfs:label "Lenga Naka'ela"@pms ;
+	skos:prefLabel "Lenga Naka'ela"@pms ;
+	schema:name "Lenga Naka'ela"@pms ;
+	rdfs:label "Naka'ela"@en ;
+	skos:prefLabel "Naka'ela"@en ;
+	schema:name "Naka'ela"@en ;
+	rdfs:label "Kinaka'ela"@sw ;
+	skos:prefLabel "Kinaka'ela"@sw ;
+	schema:name "Kinaka'ela"@sw ;
+	rdfs:label "Naka'ela"@id ;
+	skos:prefLabel "Naka'ela"@id ;
+	schema:name "Naka'ela"@id ;
+	rdfs:label "Naka'ela"@ace ;
+	skos:prefLabel "Naka'ela"@ace ;
+	schema:name "Naka'ela"@ace ;
+	rdfs:label "Naka'ela"@af ;
+	skos:prefLabel "Naka'ela"@af ;
+	schema:name "Naka'ela"@af ;
+	rdfs:label "Naka'ela"@an ;
+	skos:prefLabel "Naka'ela"@an ;
+	schema:name "Naka'ela"@an ;
+	rdfs:label "Naka'ela"@ast ;
+	skos:prefLabel "Naka'ela"@ast ;
+	schema:name "Naka'ela"@ast ;
+	rdfs:label "Naka'ela"@bar ;
+	skos:prefLabel "Naka'ela"@bar ;
+	schema:name "Naka'ela"@bar ;
+	rdfs:label "naka'ela"@br ;
+	skos:prefLabel "naka'ela"@br ;
+	schema:name "naka'ela"@br ;
+	rdfs:label "naka'ela"@ca ;
+	skos:prefLabel "naka'ela"@ca ;
+	schema:name "naka'ela"@ca ;
+	rdfs:label "Naka'ela"@co ;
+	skos:prefLabel "Naka'ela"@co ;
+	schema:name "Naka'ela"@co ;
+	rdfs:label "Naka'ela"@cs ;
+	skos:prefLabel "Naka'ela"@cs ;
+	schema:name "Naka'ela"@cs ;
+	rdfs:label "Naka'ela"@cy ;
+	skos:prefLabel "Naka'ela"@cy ;
+	schema:name "Naka'ela"@cy ;
+	rdfs:label "Naka'ela"@da ;
+	skos:prefLabel "Naka'ela"@da ;
+	schema:name "Naka'ela"@da ;
+	rdfs:label "Naka'ela"@de ;
+	skos:prefLabel "Naka'ela"@de ;
+	schema:name "Naka'ela"@de ;
+	rdfs:label "Naka'ela"@de-at ;
+	skos:prefLabel "Naka'ela"@de-at ;
+	schema:name "Naka'ela"@de-at ;
+	rdfs:label "Naka'ela"@de-ch ;
+	skos:prefLabel "Naka'ela"@de-ch ;
+	schema:name "Naka'ela"@de-ch ;
+	rdfs:label "Naka'ela"@en-ca ;
+	skos:prefLabel "Naka'ela"@en-ca ;
+	schema:name "Naka'ela"@en-ca ;
+	rdfs:label "Naka'ela"@en-gb ;
+	skos:prefLabel "Naka'ela"@en-gb ;
+	schema:name "Naka'ela"@en-gb ;
+	rdfs:label "Naka'ela"@eo ;
+	skos:prefLabel "Naka'ela"@eo ;
+	schema:name "Naka'ela"@eo ;
+	rdfs:label "Naka'ela"@es ;
+	skos:prefLabel "Naka'ela"@es ;
+	schema:name "Naka'ela"@es ;
+	rdfs:label "Naka'ela"@et ;
+	skos:prefLabel "Naka'ela"@et ;
+	schema:name "Naka'ela"@et ;
+	rdfs:label "Naka'ela"@eu ;
+	skos:prefLabel "Naka'ela"@eu ;
+	schema:name "Naka'ela"@eu ;
+	rdfs:label "Naka'ela"@fi ;
+	skos:prefLabel "Naka'ela"@fi ;
+	schema:name "Naka'ela"@fi ;
+	rdfs:label "naka'ela"@fr ;
+	skos:prefLabel "naka'ela"@fr ;
+	schema:name "naka'ela"@fr ;
+	rdfs:label "Naka'ela"@frp ;
+	skos:prefLabel "Naka'ela"@frp ;
+	schema:name "Naka'ela"@frp ;
+	rdfs:label "Naka'ela"@fur ;
+	skos:prefLabel "Naka'ela"@fur ;
+	schema:name "Naka'ela"@fur ;
+	rdfs:label "Naka'ela"@ga ;
+	skos:prefLabel "Naka'ela"@ga ;
+	schema:name "Naka'ela"@ga ;
+	rdfs:label "Naka'ela"@gd ;
+	skos:prefLabel "Naka'ela"@gd ;
+	schema:name "Naka'ela"@gd ;
+	rdfs:label "Naka'ela"@gl ;
+	skos:prefLabel "Naka'ela"@gl ;
+	schema:name "Naka'ela"@gl ;
+	rdfs:label "Naka'ela"@gsw ;
+	skos:prefLabel "Naka'ela"@gsw ;
+	schema:name "Naka'ela"@gsw ;
+	rdfs:label "Naka'ela"@hr ;
+	skos:prefLabel "Naka'ela"@hr ;
+	schema:name "Naka'ela"@hr ;
+	rdfs:label "Naka'ela"@hu ;
+	skos:prefLabel "Naka'ela"@hu ;
+	schema:name "Naka'ela"@hu ;
+	rdfs:label "Naka'ela"@ia ;
+	skos:prefLabel "Naka'ela"@ia ;
+	schema:name "Naka'ela"@ia ;
+	rdfs:label "Naka'ela"@ie ;
+	skos:prefLabel "Naka'ela"@ie ;
+	schema:name "Naka'ela"@ie ;
+	rdfs:label "Naka'ela"@io ;
+	skos:prefLabel "Naka'ela"@io ;
+	schema:name "Naka'ela"@io ;
+	rdfs:label "Naka'ela"@is ;
+	skos:prefLabel "Naka'ela"@is ;
+	schema:name "Naka'ela"@is ;
+	rdfs:label "Naka'ela"@it ;
+	skos:prefLabel "Naka'ela"@it ;
+	schema:name "Naka'ela"@it ;
+	rdfs:label "Naka'ela"@jv ;
+	skos:prefLabel "Naka'ela"@jv ;
+	schema:name "Naka'ela"@jv ;
+	rdfs:label "Naka'ela"@kg ;
+	skos:prefLabel "Naka'ela"@kg ;
+	schema:name "Naka'ela"@kg ;
+	rdfs:label "Naka'ela"@lb ;
+	skos:prefLabel "Naka'ela"@lb ;
+	schema:name "Naka'ela"@lb ;
+	rdfs:label "Naka'ela"@li ;
+	skos:prefLabel "Naka'ela"@li ;
+	schema:name "Naka'ela"@li ;
+	rdfs:label "Naka'ela"@lij ;
+	skos:prefLabel "Naka'ela"@lij ;
+	schema:name "Naka'ela"@lij ;
+	rdfs:label "Naka'ela"@mg ;
+	skos:prefLabel "Naka'ela"@mg ;
+	schema:name "Naka'ela"@mg ;
+	rdfs:label "Naka'ela"@min ;
+	skos:prefLabel "Naka'ela"@min ;
+	schema:name "Naka'ela"@min ;
+	rdfs:label "Naka'ela"@ms ;
+	skos:prefLabel "Naka'ela"@ms ;
+	schema:name "Naka'ela"@ms ;
+	rdfs:label "Naka'ela"@nap ;
+	skos:prefLabel "Naka'ela"@nap ;
+	schema:name "Naka'ela"@nap ;
+	rdfs:label "Naka'ela"@nb ;
+	skos:prefLabel "Naka'ela"@nb ;
+	schema:name "Naka'ela"@nb ;
+	rdfs:label "Naka'ela"@nds ;
+	skos:prefLabel "Naka'ela"@nds ;
+	schema:name "Naka'ela"@nds ;
+	rdfs:label "Naka'ela"@nds-nl ;
+	skos:prefLabel "Naka'ela"@nds-nl ;
+	schema:name "Naka'ela"@nds-nl ;
+	rdfs:label "Naka'ela"@nl ;
+	skos:prefLabel "Naka'ela"@nl ;
+	schema:name "Naka'ela"@nl ;
+	rdfs:label "Naka'ela"@nn ;
+	skos:prefLabel "Naka'ela"@nn ;
+	schema:name "Naka'ela"@nn ;
+	rdfs:label "Naka'ela"@nrm ;
+	skos:prefLabel "Naka'ela"@nrm ;
+	schema:name "Naka'ela"@nrm ;
+	rdfs:label "Naka'ela"@oc ;
+	skos:prefLabel "Naka'ela"@oc ;
+	schema:name "Naka'ela"@oc ;
+	rdfs:label "Naka'ela"@pcd ;
+	skos:prefLabel "Naka'ela"@pcd ;
+	schema:name "Naka'ela"@pcd ;
+	rdfs:label "Naka'ela"@pl ;
+	skos:prefLabel "Naka'ela"@pl ;
+	schema:name "Naka'ela"@pl ;
+	rdfs:label "Naka'ela"@pt ;
+	skos:prefLabel "Naka'ela"@pt ;
+	schema:name "Naka'ela"@pt ;
+	rdfs:label "Naka'ela"@pt-br ;
+	skos:prefLabel "Naka'ela"@pt-br ;
+	schema:name "Naka'ela"@pt-br ;
+	rdfs:label "Naka'ela"@rm ;
+	skos:prefLabel "Naka'ela"@rm ;
+	schema:name "Naka'ela"@rm ;
+	rdfs:label "Naka'ela"@ro ;
+	skos:prefLabel "Naka'ela"@ro ;
+	schema:name "Naka'ela"@ro ;
+	rdfs:label "Naka'ela"@sc ;
+	skos:prefLabel "Naka'ela"@sc ;
+	schema:name "Naka'ela"@sc ;
+	rdfs:label "Naka'ela"@scn ;
+	skos:prefLabel "Naka'ela"@scn ;
+	schema:name "Naka'ela"@scn ;
+	rdfs:label "Naka'ela"@sco ;
+	skos:prefLabel "Naka'ela"@sco ;
+	schema:name "Naka'ela"@sco ;
+	rdfs:label "Naka'ela"@sk ;
+	skos:prefLabel "Naka'ela"@sk ;
+	schema:name "Naka'ela"@sk ;
+	rdfs:label "Naka'ela"@sl ;
+	skos:prefLabel "Naka'ela"@sl ;
+	schema:name "Naka'ela"@sl ;
+	rdfs:label "Naka'ela"@sr-el ;
+	skos:prefLabel "Naka'ela"@sr-el ;
+	schema:name "Naka'ela"@sr-el ;
+	rdfs:label "Naka'ela"@su ;
+	skos:prefLabel "Naka'ela"@su ;
+	schema:name "Naka'ela"@su ;
+	rdfs:label "Naka'ela"@sv ;
+	skos:prefLabel "Naka'ela"@sv ;
+	schema:name "Naka'ela"@sv ;
+	rdfs:label "Naka'ela"@vec ;
+	skos:prefLabel "Naka'ela"@vec ;
+	schema:name "Naka'ela"@vec ;
+	rdfs:label "Naka'ela"@vi ;
+	skos:prefLabel "Naka'ela"@vi ;
+	schema:name "Naka'ela"@vi ;
+	rdfs:label "Naka'ela"@vls ;
+	skos:prefLabel "Naka'ela"@vls ;
+	schema:name "Naka'ela"@vls ;
+	rdfs:label "Naka'ela"@vo ;
+	skos:prefLabel "Naka'ela"@vo ;
+	schema:name "Naka'ela"@vo ;
+	rdfs:label "Naka'ela"@wa ;
+	skos:prefLabel "Naka'ela"@wa ;
+	schema:name "Naka'ela"@wa ;
+	rdfs:label "Naka'ela"@wo ;
+	skos:prefLabel "Naka'ela"@wo ;
+	schema:name "Naka'ela"@wo ;
+	rdfs:label "Naka'ela"@zu ;
+	skos:prefLabel "Naka'ela"@zu ;
+	schema:name "Naka'ela"@zu ;
+	rdfs:label "Naka'ela"@ilo ;
+	skos:prefLabel "Naka'ela"@ilo ;
+	schema:name "Naka'ela"@ilo ;
+	rdfs:label "Wikang Naka'ela"@tl ;
+	skos:prefLabel "Wikang Naka'ela"@tl ;
+	schema:name "Wikang Naka'ela"@tl ;
+	schema:description "Sprache"@de,
+		"bahasa punah di Pulau Seram, Indonesia"@id,
+		"extinct language in Seram Island, Indonesia"@en,
+		"mabalin nga awanen a pagsasao ti Indonesia"@ilo,
+		"שפה"@he,
+		"langue maluku central"@fr,
+		"taal"@nl,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"iaith"@cy,
+		"lingua"@la,
+		"język austronezyjski"@pl ;
+	skos:altLabel "Naka’ela"@id,
+		"bahasa Naka’ela"@id .
+
+wd:Q12952917 owl:sameAs wd:Q6960073 .
+
+wd:Q25894180 owl:sameAs wd:Q6960073 .
+
+wd:Q31441713 owl:sameAs wd:Q6960073 .

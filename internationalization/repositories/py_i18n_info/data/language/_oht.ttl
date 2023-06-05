@@ -1,0 +1,83 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q41499994 a schema:Dataset ;
+	schema:about wd:Q41499994 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1497699327"^^xsd:integer ;
+	schema:dateModified "2021-09-14T19:30:21Z"^^xsd:dateTime .
+
+wd:Q41499994 a wikibase:Item .
+
+<https://de.wikipedia.org/wiki/Althethitisch> a schema:Article ;
+	schema:about wd:Q41499994 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Althethitisch"@de ;
+	wikibase:badge wd:Q70894304 .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q41499994 wdt:P220 "oht" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/oht> ;
+	wdt:P156 wd:Q12642599 ;
+	wdt:P31 wd:Q34770,
+		wd:Q436240 ;
+	a wdno:P1394 ;
+	wdt:P279 wd:Q147085 ;
+	wdt:P1232 "oht" ;
+	wdt:P305 "oht" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/OHT> ;
+	rdfs:label "Old Hittite"@en ;
+	skos:prefLabel "Old Hittite"@en ;
+	schema:name "Old Hittite"@en ;
+	rdfs:label "ancien hittite"@fr ;
+	skos:prefLabel "ancien hittite"@fr ;
+	schema:name "ancien hittite"@fr ;
+	rdfs:label "старохетитски језик"@sr ;
+	skos:prefLabel "старохетитски језик"@sr ;
+	schema:name "старохетитски језик"@sr ;
+	rdfs:label "hitita antiguo"@es ;
+	skos:prefLabel "hitita antiguo"@es ;
+	schema:name "hitita antiguo"@es ;
+	rdfs:label "Althethitisch"@de ;
+	skos:prefLabel "Althethitisch"@de ;
+	schema:name "Althethitisch"@de ;
+	schema:description "forme du hittite parlée entre 1750 et 1500 avant J.-C."@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"iaith"@cy,
+		"lingua"@la .

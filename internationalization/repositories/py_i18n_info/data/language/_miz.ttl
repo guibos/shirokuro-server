@@ -1,0 +1,146 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3317290 a schema:Dataset ;
+	schema:about wd:Q3317290 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1580222816"^^xsd:integer ;
+	schema:dateModified "2022-02-20T08:49:57Z"^^xsd:dateTime .
+
+wd:Q3317290 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Mixt%C3%A8que_de_Coatzospan> a schema:Article ;
+	schema:about wd:Q3317290 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Mixtèque de Coatzospan"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_mixtec,_coatzospan> a schema:Article ;
+	schema:about wd:Q3317290 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga mixtec, coatzospan"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B0%D1%86%D0%BE%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%B8%D1%88%D1%82%D0%B5%D0%BA%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q3317290 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Коацоспанский миштекский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Coatzospan_Mixtec> a schema:Article ;
+	schema:about wd:Q3317290 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Coatzospan Mixtec"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Mikstekeg_Coatzospan> a schema:Article ;
+	schema:about wd:Q3317290 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Mikstekeg Coatzospan"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_mixteca_de_Coatzospan> a schema:Article ;
+	schema:about wd:Q3317290 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua mixteca de Coatzospan"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3317290 wdt:P31 wd:Q33384,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "miz" ;
+	wdt:P279 wd:Q56791458 ;
+	wdt:P220 "miz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/miz> ;
+	wdt:P1394 "coat1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/coat1241> ;
+	wdt:P910 wd:Q33665735 ;
+	wdt:P1466 "mxz" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_mxz> ;
+	wdt:P1627 "miz" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q96 ;
+	wdt:P2341 wd:Q34110 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MIZ> ;
+	wdt:P646 "/m/02hxgzf" ;
+	wdt:P2671 "/g/11j74c93qd" ;
+	wdtn:P2671 <http://g.co/kg/g/11j74c93qd> ;
+	wdt:P131 wd:Q34110 ;
+	wdt:P10369 "Q570528" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q570528> ;
+	rdfs:label "mixtèque de Coatzospan"@fr ;
+	skos:prefLabel "mixtèque de Coatzospan"@fr ;
+	schema:name "mixtèque de Coatzospan"@fr ;
+	rdfs:label "mikstekeg Coatzospan"@br ;
+	skos:prefLabel "mikstekeg Coatzospan"@br ;
+	schema:name "mikstekeg Coatzospan"@br ;
+	rdfs:label "Lenga mixtec, coatzospan"@pms ;
+	skos:prefLabel "Lenga mixtec, coatzospan"@pms ;
+	schema:name "Lenga mixtec, coatzospan"@pms ;
+	rdfs:label "Coatzospan Mixtec"@en ;
+	skos:prefLabel "Coatzospan Mixtec"@en ;
+	schema:name "Coatzospan Mixtec"@en ;
+	rdfs:label "Коацоспанский миштекский язык"@ru ;
+	skos:prefLabel "Коацоспанский миштекский язык"@ru ;
+	schema:name "Коацоспанский миштекский язык"@ru ;
+	rdfs:label "Coatzospan Mixtec"@en-gb ;
+	skos:prefLabel "Coatzospan Mixtec"@en-gb ;
+	schema:name "Coatzospan Mixtec"@en-gb ;
+	rdfs:label "Língua coatzospan mixtec"@pt ;
+	skos:prefLabel "Língua coatzospan mixtec"@pt ;
+	schema:name "Língua coatzospan mixtec"@pt ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy .
+
+wd:Q12953725 owl:sameAs wd:Q3317290 .
+
+wd:Q97169417 owl:sameAs wd:Q3317290 .

@@ -1,0 +1,190 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3435078 a schema:Dataset ;
+	schema:about wd:Q3435078 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1889706749"^^xsd:integer ;
+	schema:dateModified "2023-05-05T11:56:56Z"^^xsd:dateTime .
+
+wd:Q3435078 a wikibase:Item .
+
+<https://zh.wikipedia.org/wiki/%E6%B4%8B%E6%B3%BE%E6%B5%9C%E8%8B%B1%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q3435078 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "洋泾浜英语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/Pid%C5%BCyn_chi%C5%84sko-angielski> a schema:Article ;
+	schema:about wd:Q3435078 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Pidżyn chińsko-angielski"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Chinese_Pidgin_English> a schema:Article ;
+	schema:about wd:Q3435078 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Chinese Pidgin English"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Kineski_pid%C5%BEin_engleski> a schema:Article ;
+	schema:about wd:Q3435078 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Kineski pidžin engleski"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Pidginengelska> a schema:Article ;
+	schema:about wd:Q3435078 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Pidginengelska"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikivoyage.org/wiki/%E6%B4%8B%E6%B6%87%E6%B5%9C%E8%8B%B1%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q3435078 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikivoyage.org/> ;
+	schema:name "洋涇浜英語"@zh ;
+	wikibase:badge wd:Q70894304 .
+
+<https://zh.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://pms.wikipedia.org/wiki/Lenga_chinese_pidgin_english> a schema:Article ;
+	schema:about wd:Q3435078 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga chinese pidgin english"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3435078 wdt:P646 "/m/02hx2_4" ;
+	wdt:P1343 wd:Q678259,
+		wd:Q3181656 ;
+	wdt:P1394 "chin1253" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/chin1253> ;
+	wdt:P1417 "topic/Chinese-Pidgin-English" ;
+	wdt:P220 "cpi" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cpi> ;
+	wdt:P31 wd:Q33831,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q31989 ;
+	wdt:P910 wd:Q32885243 ;
+	wdt:P4132 wd:Q651641 ;
+	wdt:P17 wd:Q148,
+		wd:Q697 ;
+	wdt:P305 "cpi" ;
+	wdt:P1627 "cpi" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P2341 wd:Q697 ;
+	wdt:P138 wd:Q6762996 ;
+	wdt:P973 <https://apics-online.info/contributions/20> ;
+	rdfs:label "洋泾浜英语"@zh-hans ;
+	skos:prefLabel "洋泾浜英语"@zh-hans ;
+	schema:name "洋泾浜英语"@zh-hans ;
+	rdfs:label "洋涇浜英語"@zh-hant ;
+	skos:prefLabel "洋涇浜英語"@zh-hant ;
+	schema:name "洋涇浜英語"@zh-hant ;
+	rdfs:label "洋涇浜英語"@zh-hk ;
+	skos:prefLabel "洋涇浜英語"@zh-hk ;
+	schema:name "洋涇浜英語"@zh-hk ;
+	rdfs:label "Pidżyn chińsko-angielski"@pl ;
+	skos:prefLabel "Pidżyn chińsko-angielski"@pl ;
+	schema:name "Pidżyn chińsko-angielski"@pl ;
+	rdfs:label "Chinese Pidgin English"@en ;
+	skos:prefLabel "Chinese Pidgin English"@en ;
+	schema:name "Chinese Pidgin English"@en ;
+	rdfs:label "Kineski pidžin engleski"@hr ;
+	skos:prefLabel "Kineski pidžin engleski"@hr ;
+	schema:name "Kineski pidžin engleski"@hr ;
+	rdfs:label "Pidginengelska"@sv ;
+	skos:prefLabel "Pidginengelska"@sv ;
+	schema:name "Pidginengelska"@sv ;
+	rdfs:label "洋泾浜英语"@zh ;
+	skos:prefLabel "洋泾浜英语"@zh ;
+	schema:name "洋泾浜英语"@zh ;
+	rdfs:label "洋涇浜"@yue ;
+	skos:prefLabel "洋涇浜"@yue ;
+	schema:name "洋涇浜"@yue ;
+	rdfs:label "中国ピジン語"@ja ;
+	skos:prefLabel "中国ピジン語"@ja ;
+	schema:name "中国ピジン語"@ja ;
+	rdfs:label "pidgin chinois"@fr ;
+	skos:prefLabel "pidgin chinois"@fr ;
+	schema:name "pidgin chinois"@fr ;
+	rdfs:label "ĉina-angla piĝino"@eo ;
+	skos:prefLabel "ĉina-angla piĝino"@eo ;
+	schema:name "ĉina-angla piĝino"@eo ;
+	rdfs:label "Chinese Pidgin English"@en-ca ;
+	skos:prefLabel "Chinese Pidgin English"@en-ca ;
+	schema:name "Chinese Pidgin English"@en-ca ;
+	rdfs:label "Chinese Pidgin English"@en-gb ;
+	skos:prefLabel "Chinese Pidgin English"@en-gb ;
+	schema:name "Chinese Pidgin English"@en-gb ;
+	rdfs:label "Lenga chinese pidgin english"@pms ;
+	skos:prefLabel "Lenga chinese pidgin english"@pms ;
+	schema:name "Lenga chinese pidgin english"@pms ;
+	rdfs:label "Chinees Pidginengels"@nl ;
+	skos:prefLabel "Chinees Pidginengels"@nl ;
+	schema:name "Chinees Pidginengels"@nl ;
+	rdfs:label "Txinako pidgin ingelesa"@eu ;
+	skos:prefLabel "Txinako pidgin ingelesa"@eu ;
+	schema:name "Txinako pidgin ingelesa"@eu ;
+	rdfs:label "洋泾浜英语"@zh-cn ;
+	skos:prefLabel "洋泾浜英语"@zh-cn ;
+	schema:name "洋泾浜英语"@zh-cn ;
+	schema:description "type of contact language"@en,
+		"mengtaal ontstaan uit handelsverkeer van Chinezen met Engelsen"@nl,
+		"ingelesa eta txinera aldaeren arteko kontaktutik sortutako pidgina"@eu,
+		"中文和英语使用者交流的通用语言的简化语言形式"@zh-cn,
+		"中文和英语使用者交流的通用语言的简化语言形式"@zh ;
+	skos:altLabel "白鴿英語"@zh,
+		"洋泾滨英语"@zh,
+		"通勝"@zh,
+		"Chiński pidżyn"@pl,
+		"Yang-King-Pang English"@en,
+		"Pigeon English"@en,
+		"Yang-King-Pang English"@eu,
+		"Yang-King-Pang ingelesa"@eu,
+		"Txinako kostaldeko ingelesa"@eu,
+		"チャイニーズピジン英語"@ja,
+		"中国語ピジン英語"@ja,
+		"皮钦英语"@zh-cn .

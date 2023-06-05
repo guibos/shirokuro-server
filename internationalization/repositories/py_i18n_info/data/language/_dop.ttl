@@ -1,0 +1,139 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3258739 a schema:Dataset ;
+	schema:about wd:Q3258739 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1550206884"^^xsd:integer ;
+	schema:dateModified "2021-12-25T23:38:57Z"^^xsd:dateTime .
+
+wd:Q3258739 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Lukpa> a schema:Article ;
+	schema:about wd:Q3258739 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Lukpa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilukpa> a schema:Article ;
+	schema:about wd:Q3258739 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilukpa"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Lukpa_language> a schema:Article ;
+	schema:about wd:Q3258739 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Lukpa language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_lukpa> a schema:Article ;
+	schema:about wd:Q3258739 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua lukpa"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Lokpa_(langue)> a schema:Article ;
+	schema:about wd:Q3258739 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Lokpa (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3258739 wdt:P305 "dop" ;
+	wdt:P220 "dop" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dop> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P269 "168134578" ;
+	wdtn:P269 <http://www.idref.fr/168134578/id> ;
+	wdt:P268 "16671403v" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb16671403v#about> ;
+	wdt:P279 wd:Q721007 ;
+	wdt:P1394 "lukp1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lukp1238> ;
+	wdt:P1627 "dop" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q962,
+		wd:Q945 ;
+	wdt:P2341 wd:Q29136,
+		wd:Q29161,
+		wd:Q316216 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DOP> ;
+	wdt:P646 "/m/02hwpt_" ;
+	rdfs:label "lokpa"@fr ;
+	skos:prefLabel "lokpa"@fr ;
+	schema:name "lokpa"@fr ;
+	rdfs:label "Lukpa"@en ;
+	skos:prefLabel "Lukpa"@en ;
+	schema:name "Lukpa"@en ;
+	rdfs:label "Kilukpa"@sw ;
+	skos:prefLabel "Kilukpa"@sw ;
+	schema:name "Kilukpa"@sw ;
+	rdfs:label "Lenga Lukpa"@pms ;
+	skos:prefLabel "Lenga Lukpa"@pms ;
+	schema:name "Lenga Lukpa"@pms ;
+	rdfs:label "Lukpa"@en-gb ;
+	skos:prefLabel "Lukpa"@en-gb ;
+	schema:name "Lukpa"@en-gb ;
+	rdfs:label "lukpa keel"@et ;
+	skos:prefLabel "lukpa keel"@et ;
+	schema:name "lukpa keel"@et ;
+	rdfs:label "Wikang Lukpa"@tl ;
+	skos:prefLabel "Wikang Lukpa"@tl ;
+	schema:name "Wikang Lukpa"@tl ;
+	rdfs:label "Lingua lukpa"@it ;
+	skos:prefLabel "Lingua lukpa"@it ;
+	schema:name "Lingua lukpa"@it ;
+	rdfs:label "lukpa"@vec ;
+	skos:prefLabel "lukpa"@vec ;
+	schema:name "lukpa"@vec ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Lukpa language"@en .

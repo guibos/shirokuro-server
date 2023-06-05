@@ -1,0 +1,135 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6760942 a schema:Dataset ;
+	schema:about wd:Q6760942 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1788635388"^^xsd:integer ;
+	schema:dateModified "2022-12-12T20:20:07Z"^^xsd:dateTime .
+
+wd:Q6760942 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mari> a schema:Article ;
+	schema:about wd:Q6760942 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mari"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Mari_(Sepik)> a schema:Article ;
+	schema:about wd:Q6760942 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Mari (Sepik)"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimari_(Sepik)> a schema:Article ;
+	schema:about wd:Q6760942 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimari (Sepik)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mari_language_(Sepik)> a schema:Article ;
+	schema:about wd:Q6760942 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mari language (Sepik)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Marieg_(yezh_papouek)> a schema:Article ;
+	schema:about wd:Q6760942 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Marieg (yezh papouek)"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6760942 wdt:P220 "mbx" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mbx> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "mari1432" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mari1432> ;
+	wdt:P2355 "2686" ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P279 wd:Q7451928 ;
+	wdt:P2192 "4627" ;
+	wdt:P305 "mbx" ;
+	wdt:P1627 "mbx" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q690880 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MBX> ;
+	wdt:P5996 wd:Q18574616 ;
+	wdt:P646 "/m/02hxwjm" ;
+	wdt:P625 "Point(143.063548 -4.3449)"^^geo:wktLiteral ;
+	wdt:P8814 "06970027-n" ;
+	wdtn:P8814 <http://wordnet-rdf.princeton.edu/rdf/id/06970027-n> ;
+	rdfs:label "Mari"@en ;
+	skos:prefLabel "Mari"@en ;
+	schema:name "Mari"@en ;
+	rdfs:label "marieg"@br ;
+	skos:prefLabel "marieg"@br ;
+	schema:name "marieg"@br ;
+	rdfs:label "Lenga Mari"@pms ;
+	skos:prefLabel "Lenga Mari"@pms ;
+	schema:name "Lenga Mari"@pms ;
+	rdfs:label "Kimari"@sw ;
+	skos:prefLabel "Kimari"@sw ;
+	schema:name "Kimari"@sw ;
+	rdfs:label "Mari"@ilo ;
+	skos:prefLabel "Mari"@ilo ;
+	schema:name "Mari"@ilo ;
+	rdfs:label "mari"@fr ;
+	skos:prefLabel "mari"@fr ;
+	schema:name "mari"@fr ;
+	rdfs:label "limba mari"@ro ;
+	skos:prefLabel "limba mari"@ro ;
+	schema:name "limba mari"@ro ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"pagsasao idiay Probinsia ti Daya a Sepik, Papua Baro a Guinea"@ilo,
+		"langue sepik"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Mari (East Sepik Province)"@en,
+		"Mari language"@en .

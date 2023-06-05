@@ -1,0 +1,403 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q20923490 a schema:Dataset ;
+	schema:about wd:Q20923490 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1918879644"^^xsd:integer ;
+	schema:dateModified "2023-06-19T09:34:41Z"^^xsd:dateTime .
+
+wd:Q20923490 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Multilingue> a schema:Article ;
+	schema:about wd:Q20923490 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Multilingue"@fr ;
+	wikibase:badge wd:Q70894304 .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q20923490 wdt:P220 "mul" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mul> ;
+	wdt:P219 "mul" ;
+	wdt:P305 "mul" ;
+	wdt:P2263 "2982" ;
+	wdtn:P2263 <http://www.isocat.org/datcat/DC-2982> ;
+	wdt:P2263 "820" ;
+	wdtn:P2263 <http://www.isocat.org/datcat/DC-820> ;
+	wdt:P424 "mul" ;
+	wdt:P1269 wd:Q34770 ;
+	wdt:P31 wd:Q1514741,
+		wd:Q2001982,
+		wd:Q17376908 ;
+	a wdno:P1394 ;
+	wdt:P4801 "languages/mul" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/languages/mul> ;
+	wdt:P4801 "iso639-2/mul" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/iso639-2/mul> ;
+	wdt:P2888 <https://op.europa.eu/en/home> ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Christiania%20Support%20Copenhagen%2015305825416.jpg> ;
+	wdt:P1889 wd:Q105668334,
+		wd:Q107031344,
+		wd:Q30081 ;
+	wdt:P910 wd:Q105668411 ;
+	wdt:P460 wd:Q90470657 ;
+	wdt:P9060 "mul" ;
+	wdt:P10369 "Q383" ;
+	wdtn:P10369 <https://lingualibre.org/entity/Q383> ;
+	wdt:P279 wd:Q17376908 ;
+	rdfs:label "multilingue"@fr ;
+	skos:prefLabel "multilingue"@fr ;
+	schema:name "multilingue"@fr ;
+	rdfs:label "multiple languages"@en ;
+	skos:prefLabel "multiple languages"@en ;
+	schema:name "multiple languages"@en ;
+	rdfs:label "несколько языков"@ru ;
+	skos:prefLabel "несколько языков"@ru ;
+	schema:name "несколько языков"@ru ;
+	rdfs:label "flere språk"@nb ;
+	skos:prefLabel "flere språk"@nb ;
+	schema:name "flere språk"@nb ;
+	rdfs:label "több nyelv"@hu ;
+	skos:prefLabel "több nyelv"@hu ;
+	schema:name "több nyelv"@hu ;
+	rdfs:label "mehrere Sprachen"@de ;
+	skos:prefLabel "mehrere Sprachen"@de ;
+	schema:name "mehrere Sprachen"@de ;
+	rdfs:label "pluraj lingvoj"@eo ;
+	skos:prefLabel "pluraj lingvoj"@eo ;
+	schema:name "pluraj lingvoj"@eo ;
+	rdfs:label "varios idiomas"@gl ;
+	skos:prefLabel "varios idiomas"@gl ;
+	schema:name "varios idiomas"@gl ;
+	rdfs:label "некалькі моў"@be ;
+	skos:prefLabel "некалькі моў"@be ;
+	schema:name "некалькі моў"@be ;
+	rdfs:label "다중 언어"@ko ;
+	skos:prefLabel "다중 언어"@ko ;
+	schema:name "다중 언어"@ko ;
+	rdfs:label "多语种"@zh-hans ;
+	skos:prefLabel "多语种"@zh-hans ;
+	schema:name "多语种"@zh-hans ;
+	rdfs:label "多語種"@zh-hant ;
+	skos:prefLabel "多語種"@zh-hant ;
+	schema:name "多語種"@zh-hant ;
+	rdfs:label "вишејезички"@sr ;
+	skos:prefLabel "вишејезички"@sr ;
+	schema:name "вишејезички"@sr ;
+	rdfs:label "multilingua"@it ;
+	skos:prefLabel "multilingua"@it ;
+	schema:name "multilingua"@it ;
+	rdfs:label "декілька мов"@uk ;
+	skos:prefLabel "декілька мов"@uk ;
+	schema:name "декілька мов"@uk ;
+	rdfs:label "لغات متعددة"@ar ;
+	skos:prefLabel "لغات متعددة"@ar ;
+	schema:name "لغات متعددة"@ar ;
+	rdfs:label "múltiplos idiomas"@pt ;
+	skos:prefLabel "múltiplos idiomas"@pt ;
+	schema:name "múltiplos idiomas"@pt ;
+	rdfs:label "meerdere talen"@nl ;
+	skos:prefLabel "meerdere talen"@nl ;
+	schema:name "meerdere talen"@nl ;
+	rdfs:label "wiele języków"@pl ;
+	skos:prefLabel "wiele języków"@pl ;
+	schema:name "wiele języków"@pl ;
+	rdfs:label "plurilingüe"@es ;
+	skos:prefLabel "plurilingüe"@es ;
+	schema:name "plurilingüe"@es ;
+	rdfs:label "eleaniztun"@eu ;
+	skos:prefLabel "eleaniztun"@eu ;
+	schema:name "eleaniztun"@eu ;
+	rdfs:label "שפות מרובות"@he ;
+	skos:prefLabel "שפות מרובות"@he ;
+	schema:name "שפות מרובות"@he ;
+	rdfs:label "mnoho jazyků"@cs ;
+	skos:prefLabel "mnoho jazyků"@cs ;
+	schema:name "mnoho jazyků"@cs ;
+	rdfs:label "múltiples llengües"@ca ;
+	skos:prefLabel "múltiples llengües"@ca ;
+	schema:name "múltiples llengües"@ca ;
+	rdfs:label "πολλαπλές γλώσσες"@el ;
+	skos:prefLabel "πολλαπλές γλώσσες"@el ;
+	schema:name "πολλαπλές γλώσσες"@el ;
+	rdfs:label "բազմալեզու"@hy ;
+	skos:prefLabel "բազմալեզու"@hy ;
+	schema:name "բազմալեզու"@hy ;
+	rdfs:label "flere sprog"@da ;
+	skos:prefLabel "flere sprog"@da ;
+	schema:name "flere sprog"@da ;
+	rdfs:label "берничә тел"@tt ;
+	skos:prefLabel "берничә тел"@tt ;
+	schema:name "берничә тел"@tt ;
+	rdfs:label "distintes llingües"@ast ;
+	skos:prefLabel "distintes llingües"@ast ;
+	schema:name "distintes llingües"@ast ;
+	rdfs:label "একাধিক ভাষা"@bn ;
+	skos:prefLabel "একাধিক ভাষা"@bn ;
+	schema:name "একাধিক ভাষা"@bn ;
+	rdfs:label "多言語"@ja ;
+	skos:prefLabel "多言語"@ja ;
+	schema:name "多言語"@ja ;
+	rdfs:label "берничә тел"@tt-cyrl ;
+	skos:prefLabel "берничә тел"@tt-cyrl ;
+	schema:name "берничә тел"@tt-cyrl ;
+	rdfs:label "fleire språk"@nn ;
+	skos:prefLabel "fleire språk"@nn ;
+	schema:name "fleire språk"@nn ;
+	rdfs:label "multiple languages"@en-gb ;
+	skos:prefLabel "multiple languages"@en-gb ;
+	schema:name "multiple languages"@en-gb ;
+	rdfs:label "flera språk"@sv ;
+	skos:prefLabel "flera språk"@sv ;
+	schema:name "flera språk"@sv ;
+	rdfs:label "пвоеќе јазици"@mk ;
+	skos:prefLabel "пвоеќе јазици"@mk ;
+	schema:name "пвоеќе јазици"@mk ;
+	rdfs:label "liesyezhek"@br ;
+	skos:prefLabel "liesyezhek"@br ;
+	schema:name "liesyezhek"@br ;
+	rdfs:label "некалькі моваў"@be-tarask ;
+	skos:prefLabel "некалькі моваў"@be-tarask ;
+	schema:name "некалькі моваў"@be-tarask ;
+	rdfs:label "çoxdilli"@az ;
+	skos:prefLabel "çoxdilli"@az ;
+	schema:name "çoxdilli"@az ;
+	rdfs:label "shumëgjuhësor"@sq ;
+	skos:prefLabel "shumëgjuhësor"@sq ;
+	schema:name "shumëgjuhësor"@sq ;
+	rdfs:label "berbilang bahasa"@ms ;
+	skos:prefLabel "berbilang bahasa"@ms ;
+	schema:name "berbilang bahasa"@ms ;
+	rdfs:label "useita kieliä"@fi ;
+	skos:prefLabel "useita kieliä"@fi ;
+	schema:name "useita kieliä"@fi ;
+	rdfs:label "vairākas valodas"@lv ;
+	skos:prefLabel "vairākas valodas"@lv ;
+	schema:name "vairākas valodas"@lv ;
+	rdfs:label "чандинзабона"@tg ;
+	skos:prefLabel "чандинзабона"@tg ;
+	schema:name "чандинзабона"@tg ;
+	rdfs:label "banyak bahasa"@id ;
+	skos:prefLabel "banyak bahasa"@id ;
+	schema:name "banyak bahasa"@id ;
+	rdfs:label "multilingüisme"@oc ;
+	skos:prefLabel "multilingüisme"@oc ;
+	schema:name "multilingüisme"@oc ;
+	rdfs:label "mai multe limbi"@ro ;
+	skos:prefLabel "mai multe limbi"@ro ;
+	schema:name "mai multe limbi"@ro ;
+	rdfs:label "multiłéngua"@vec ;
+	skos:prefLabel "multiłéngua"@vec ;
+	schema:name "multiłéngua"@vec ;
+	rdfs:label "ieithoedd lluosog"@cy ;
+	skos:prefLabel "ieithoedd lluosog"@cy ;
+	schema:name "ieithoedd lluosog"@cy ;
+	rdfs:label "nhiều ngôn ngữ"@vi ;
+	skos:prefLabel "nhiều ngôn ngữ"@vi ;
+	schema:name "nhiều ngôn ngữ"@vi ;
+	rdfs:label "多语种"@zh ;
+	skos:prefLabel "多语种"@zh ;
+	schema:name "多语种"@zh ;
+	rdfs:label "çok dilli"@tr ;
+	skos:prefLabel "çok dilli"@tr ;
+	schema:name "çok dilli"@tr ;
+	rdfs:label "pirzimanî"@ku ;
+	skos:prefLabel "pirzimanî"@ku ;
+	schema:name "pirzimanî"@ku ;
+	rdfs:label "多语种"@zh-cn ;
+	skos:prefLabel "多语种"@zh-cn ;
+	schema:name "多语种"@zh-cn ;
+	rdfs:label "多語種"@zh-tw ;
+	skos:prefLabel "多語種"@zh-tw ;
+	schema:name "多語種"@zh-tw ;
+	rdfs:label "ဘာသာစကားအမျိုးမျိုး"@my ;
+	skos:prefLabel "ဘာသာစကားအမျိုးမျိုး"@my ;
+	schema:name "ဘာသာစကားအမျိုးမျိုး"@my ;
+	rdfs:label "چندزبانه"@fa ;
+	skos:prefLabel "چندزبانه"@fa ;
+	schema:name "چندزبانه"@fa ;
+	rdfs:label "multiple languages"@en-ca ;
+	skos:prefLabel "multiple languages"@en-ca ;
+	schema:name "multiple languages"@en-ca ;
+	rdfs:label "کثیر زبانیں"@ur ;
+	skos:prefLabel "کثیر زبانیں"@ur ;
+	schema:name "کثیر زبانیں"@ur ;
+	rdfs:label "бер нисә тел"@ba ;
+	skos:prefLabel "бер нисә тел"@ba ;
+	schema:name "бер нисә тел"@ba ;
+	rdfs:label "iltheangacha"@ga ;
+	skos:prefLabel "iltheangacha"@ga ;
+	schema:name "iltheangacha"@ga ;
+	rdfs:label "višejezičnost"@bs ;
+	skos:prefLabel "višejezičnost"@bs ;
+	schema:name "višejezičnost"@bs ;
+	rdfs:label "कई भाषाएँ"@hi ;
+	skos:prefLabel "कई भाषाएँ"@hi ;
+	schema:name "कई भाषाएँ"@hi ;
+	rdfs:label "ਕਈ ਭਾਸ਼ਾਵਾਂ"@pa ;
+	skos:prefLabel "ਕਈ ਭਾਸ਼ਾਵਾਂ"@pa ;
+	schema:name "ਕਈ ਭਾਸ਼ਾਵਾਂ"@pa ;
+	rdfs:label "multiple languages"@en-us ;
+	skos:prefLabel "multiple languages"@en-us ;
+	schema:name "multiple languages"@en-us ;
+	rdfs:label "Հայերէն եւ բազմալեզու"@hyw ;
+	skos:prefLabel "Հայերէն եւ բազմալեզու"@hyw ;
+	schema:name "Հայերէն եւ բազմալեզու"@hyw ;
+	rdfs:label "масийтта мотт"@ce ;
+	skos:prefLabel "масийтта мотт"@ce ;
+	schema:name "масийтта мотт"@ce ;
+	rdfs:label "واریاہ زَبانہٕ"@ks ;
+	skos:prefLabel "واریاہ زَبانہٕ"@ks ;
+	schema:name "واریاہ زَبانہٕ"@ks ;
+	rdfs:label "več jezikov"@sl ;
+	skos:prefLabel "več jezikov"@sl ;
+	schema:name "več jezikov"@sl ;
+	schema:description "caractéristique d'un élément qui inclut plus d'une langue"@fr,
+		"kvalifikator for dokumenter på flere språk"@nb,
+		"여러 언어를 혼합해서 쓰는 개념 상의 언어"@ko,
+		"taal"@nl,
+		"יצירה שנוצרה במקור בשפות רבות"@he,
+		"obra que está disponible en más de un idioma"@es,
+		"characteristic of material that includes more than one language"@en,
+		"определение стандарта ISO 639-3 для материалов, включающих более одного языка"@ru,
+		"definición ISO 639-3 de materiales que tán en más d'una llingua"@ast,
+		"визначення стандарту ISO 639-3 для матеріалів, що включають більше однієї мови"@uk,
+		"characteristic of material that includes more than one language"@en-gb,
+		"вызначэньне стандарту ISO 639-3 для матэрыялаў, якія ўключаюць больш за адну мову"@be-tarask,
+		"Identifikator der ISO 639-3, mit der ein mehrsprachiges Werk gekennzeichnet wird"@de,
+		"qualifica una òbra disponibla en mantuna lenga"@oc,
+		"material que inclou més d'una llengua"@ca,
+		"valoare ISO 639-3 care caracterizează materialele ce includ mai multe limbi"@ro,
+		"označení pro díla psaná více jazyky"@cs,
+		"identifierare för material som omfattar flera än ett språk"@sv,
+		"材料包含超过一种语言"@zh,
+		"caratteristica di un prodotto che include più di una lingua"@it,
+		"birden fazla dil içeren materyalin özelliği"@tr,
+		"خاصية المواد التي تحتوي على أكثر من لغة"@ar,
+		"taybetmendiya xwedîbûna çend zimanan"@ku,
+		"材料包含超過一種語言"@zh-tw,
+		"材料包含超過一種語言"@zh-hant,
+		"材料包含超过一种语言"@zh-cn,
+		"材料包含超过一种语言"@zh-hans,
+		"characteristic of material that includes more than one language"@en-ca,
+		"бер нисә телде үҙ эсенә алған материал характеристикаһы"@ba,
+		"hizkuntza bat baino gehiagotan dagoen materialaren ezaugarria"@eu,
+		"2言語以上で提供されている"@ja,
+		"cecha materiału, który zawiera więcej niż jeden język"@pl,
+		"characteristic of material that includes more than one language"@en-us ;
+	skos:altLabel "mul"@en,
+		"multilingual"@en,
+		"multilanguage"@en,
+		"мультилингвально"@ru,
+		"mul"@ru,
+		"множество языков"@ru,
+		"mul"@fr,
+		"ISO 639:mul"@fr,
+		"plurilinguisme"@fr,
+		"mul"@nb,
+		"multilingual"@nb,
+		"multilanguage"@nb,
+		"varias linguas"@gl,
+		"여러 언어들"@ko,
+		"여러 언어"@ko,
+		"다국어"@ko,
+		"다언어"@ko,
+		"다중 국어"@ko,
+		"вишејезични"@sr,
+		"múltiplas línguas"@pt,
+		"multilíngue"@pt,
+		"multilingual"@de,
+		"mul"@de,
+		"mehrsprachig"@de,
+		"translingual"@de,
+		"wielojęzyczność"@pl,
+		"mezijazykové"@cs,
+		"více jazyků"@cs,
+		"mul"@cs,
+		"multilingüe"@es,
+		"múltiples lenguas"@es,
+		"múltiples idiomas"@es,
+		"varios idiomas"@es,
+		"mul"@es,
+		"πολύγλωσσο"@el,
+		"mul"@ast,
+		"distintos idiomes"@ast,
+		"multillingüe"@ast,
+		"varios idiomes"@ast,
+		"множина мов"@uk,
+		"mul"@uk,
+		"мноства моваў"@be-tarask,
+		"multi gjuhë"@sq,
+		"më shumë gjuhë"@sq,
+		"aneka bahasa"@ms,
+		"pelbagai bahasa"@ms,
+		"berbagai-bagai bahasa"@ms,
+		"banyak bahasa"@ms,
+		"mul"@lv,
+		"vairākvalodu"@lv,
+		"байнизабонагӣ"@tg,
+		"байнизабонӣ"@tg,
+		"бисёрзабонӣ"@tg,
+		"чанд забон"@tg,
+		"multilingüe"@ca,
+		"multe limbi"@ro,
+		"multilingual"@ro,
+		"multilingv"@ro,
+		"mul"@ro,
+		"đa ngôn ngữ"@vi,
+		"đa ngữ"@vi,
+		"många språk"@sv,
+		"flerspråkig"@sv,
+		"多语言"@zh,
+		"多語種"@zh,
+		"多語言"@zh,
+		"ISO 639:mul"@tr,
+		"çoklu dil"@tr,
+		"birden çok dil"@tr,
+		"多语言"@zh-cn,
+		"多語言"@zh-tw,
+		"多語言"@zh-hant,
+		"mul"@en-ca,
+		"multilingual"@en-ca,
+		"multilanguage"@en-ca,
+		"күп телле"@ba,
+		"बहुभाषी"@hi,
+		"mul"@en-gb,
+		"multilingual"@en-gb,
+		"multilanguage"@en-gb,
+		"mul"@en-us,
+		"multilingual"@en-us,
+		"multilanguage"@en-us .
+
+wd:Q115610940 owl:sameAs wd:Q20923490 .

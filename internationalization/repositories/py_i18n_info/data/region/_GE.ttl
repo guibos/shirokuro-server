@@ -1,0 +1,4320 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q230 a schema:Dataset ;
+	schema:about wd:Q230 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1965437770"^^xsd:integer ;
+	schema:dateModified "2023-08-31T15:13:45Z"^^xsd:dateTime .
+
+wd:Q230 a wikibase:Item .
+
+<https://it.wikivoyage.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikivoyage.org/> ;
+	schema:name "Georgia"@it .
+
+<https://it.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ru.wikivoyage.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikivoyage.org/> ;
+	schema:name "Грузия"@ru .
+
+<https://ru.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://fa.wikiquote.org/wiki/%DA%AF%D8%B1%D8%AC%D8%B3%D8%AA%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikiquote.org/> ;
+	schema:name "گرجستان"@fa .
+
+<https://fa.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://de.wikivoyage.org/wiki/Georgien> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikivoyage.org/> ;
+	schema:name "Georgien"@de ;
+	wikibase:badge wd:Q17559452 .
+
+<https://de.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://en.wikivoyage.org/wiki/Georgia_(country)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikivoyage.org/> ;
+	schema:name "Georgia (country)"@en .
+
+<https://en.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://he.wikivoyage.org/wiki/%D7%92%D7%90%D7%95%D7%A8%D7%92%D7%99%D7%94> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikivoyage.org/> ;
+	schema:name "גאורגיה"@he .
+
+<https://he.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://eo.wikinews.org/wiki/Kategorio:Kartvelujo> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikinews.org/> ;
+	schema:name "Kategorio:Kartvelujo"@eo .
+
+<https://eo.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://fr.wikinews.org/wiki/Cat%C3%A9gorie:G%C3%A9orgie> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikinews.org/> ;
+	schema:name "Catégorie:Géorgie"@fr .
+
+<https://fr.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://pl.wikiquote.org/wiki/Gruzja> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikiquote.org/> ;
+	schema:name "Gruzja"@pl .
+
+<https://pl.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://nl.wikinews.org/wiki/Categorie:Georgi%C3%AB> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikinews.org/> ;
+	schema:name "Categorie:Georgië"@nl .
+
+<https://nl.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://sv.wikivoyage.org/wiki/Georgien> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikivoyage.org/> ;
+	schema:name "Georgien"@sv .
+
+<https://sv.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ar.wikinews.org/wiki/%D8%AA%D8%B5%D9%86%D9%8A%D9%81:%D8%AC%D9%88%D8%B1%D8%AC%D9%8A%D8%A7> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikinews.org/> ;
+	schema:name "تصنيف:جورجيا"@ar .
+
+<https://ar.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://fr.wikivoyage.org/wiki/G%C3%A9orgie_(pays)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikivoyage.org/> ;
+	schema:name "Géorgie (pays)"@fr .
+
+<https://fr.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://zh.wikivoyage.org/wiki/%E6%A0%BC%E9%B2%81%E5%90%89%E4%BA%9A> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikivoyage.org/> ;
+	schema:name "格鲁吉亚"@zh .
+
+<https://zh.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://pl.wikinews.org/wiki/Kategoria:Gruzja> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikinews.org/> ;
+	schema:name "Kategoria:Gruzja"@pl .
+
+<https://pl.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://ja.wikinews.org/wiki/%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA:%E3%82%B0%E3%83%AB%E3%82%B8%E3%82%A2> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikinews.org/> ;
+	schema:name "カテゴリ:グルジア"@ja .
+
+<https://ja.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://he.wikinews.org/wiki/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%94:%D7%92%D7%90%D7%95%D7%A8%D7%92%D7%99%D7%94> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikinews.org/> ;
+	schema:name "קטגוריה:גאורגיה"@he .
+
+<https://he.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://vi.wikivoyage.org/wiki/Gruzia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikivoyage.org/> ;
+	schema:name "Gruzia"@vi .
+
+<https://vi.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://tr.wikinews.org/wiki/Kategori:G%C3%BCrcistan> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikinews.org/> ;
+	schema:name "Kategori:Gürcistan"@tr .
+
+<https://tr.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://fa.wikivoyage.org/wiki/%DA%AF%D8%B1%D8%AC%D8%B3%D8%AA%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikivoyage.org/> ;
+	schema:name "گرجستان"@fa .
+
+<https://fa.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ro.wikivoyage.org/wiki/Georgia_(Europa)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikivoyage.org/> ;
+	schema:name "Georgia (Europa)"@ro .
+
+<https://ro.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://de.wikisource.org/wiki/Georgien> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikisource.org/> ;
+	schema:name "Georgien"@de .
+
+<https://de.wikisource.org/> wikibase:wikiGroup "wikisource" .
+
+<https://fi.wikinews.org/wiki/Luokka:Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikinews.org/> ;
+	schema:name "Luokka:Georgia"@fi .
+
+<https://fi.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://pl.wikivoyage.org/wiki/Gruzja> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikivoyage.org/> ;
+	schema:name "Gruzja"@pl .
+
+<https://pl.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://ca.wikinews.org/wiki/Categoria:Ge%C3%B2rgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikinews.org/> ;
+	schema:name "Categoria:Geòrgia"@ca .
+
+<https://ca.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://sr.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%98%D0%B0:%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%98%D0%B0> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikinews.org/> ;
+	schema:name "Категорија:Грузија"@sr .
+
+<https://sr.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://pt.wikivoyage.org/wiki/Ge%C3%B3rgia_(pa%C3%ADs)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikivoyage.org/> ;
+	schema:name "Geórgia (país)"@pt .
+
+<https://pt.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://en.wikinews.org/wiki/Category:Georgia_(country)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikinews.org/> ;
+	schema:name "Category:Georgia (country)"@en .
+
+<https://en.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://ro.wikinews.org/wiki/Categorie:Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikinews.org/> ;
+	schema:name "Categorie:Georgia"@ro .
+
+<https://ro.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://sv.wikinews.org/wiki/Kategori:Georgien> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikinews.org/> ;
+	schema:name "Kategori:Georgien"@sv .
+
+<https://sv.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://es.wikivoyage.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikivoyage.org/> ;
+	schema:name "Georgia"@es .
+
+<https://es.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://el.wikinews.org/wiki/%CE%9A%CE%B1%CF%84%CE%B7%CE%B3%CE%BF%CF%81%CE%AF%CE%B1:%CE%93%CE%B5%CF%89%CF%81%CE%B3%CE%AF%CE%B1> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikinews.org/> ;
+	schema:name "Κατηγορία:Γεωργία"@el .
+
+<https://el.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://sq.wikinews.org/wiki/Kategoria:Gjeorgji> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sq" ;
+	schema:isPartOf <https://sq.wikinews.org/> ;
+	schema:name "Kategoria:Gjeorgji"@sq .
+
+<https://sq.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://es.wikinews.org/wiki/Categor%C3%ADa:Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikinews.org/> ;
+	schema:name "Categoría:Georgia"@es .
+
+<https://es.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://uk.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D1%96%D1%8F:%D0%93%D1%80%D1%83%D0%B7%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikinews.org/> ;
+	schema:name "Категорія:Грузія"@uk .
+
+<https://uk.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://cs.wikinews.org/wiki/Kategorie:Gruzie> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikinews.org/> ;
+	schema:name "Kategorie:Gruzie"@cs .
+
+<https://cs.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://no.wikinews.org/wiki/Kategori:Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikinews.org/> ;
+	schema:name "Kategori:Georgia"@nb .
+
+<https://no.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://zh.wikinews.org/wiki/Category:%E6%A0%BC%E9%AD%AF%E5%90%89%E4%BA%9E> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikinews.org/> ;
+	schema:name "Category:格魯吉亞"@zh .
+
+<https://zh.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://uk.wikivoyage.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikivoyage.org/> ;
+	schema:name "Грузія"@uk .
+
+<https://uk.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://pt.wikinews.org/wiki/Categoria:Ge%C3%B3rgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikinews.org/> ;
+	schema:name "Categoria:Geórgia"@pt .
+
+<https://pt.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://nl.wikivoyage.org/wiki/Georgi%C3%AB> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikivoyage.org/> ;
+	schema:name "Georgië"@nl .
+
+<https://nl.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://hu.wikinews.org/wiki/Kateg%C3%B3ria:Gr%C3%BAzia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikinews.org/> ;
+	schema:name "Kategória:Grúzia"@hu .
+
+<https://hu.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://commons.wikimedia.org/wiki/%E1%83%A1%E1%83%90%E1%83%A5%E1%83%90%E1%83%A0%E1%83%97%E1%83%95%E1%83%94%E1%83%9A%E1%83%9D> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://commons.wikimedia.org/> ;
+	schema:name "საქართველო"@en .
+
+<https://commons.wikimedia.org/> wikibase:wikiGroup "commons" .
+
+<https://ru.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikinews.org/> ;
+	schema:name "Категория:Грузия"@ru .
+
+<https://ru.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://ta.wikinews.org/wiki/%E0%AE%AA%E0%AE%95%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81:%E0%AE%9C%E0%AF%8B%E0%AE%B0%E0%AF%8D%E0%AE%9C%E0%AE%BF%E0%AE%AF%E0%AE%BE> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikinews.org/> ;
+	schema:name "பகுப்பு:ஜோர்ஜியா"@ta .
+
+<https://ta.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://de.wikinews.org/wiki/Kategorie:Georgien> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikinews.org/> ;
+	schema:name "Kategorie:Georgien"@de .
+
+<https://de.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://it.wikinews.org/wiki/Categoria:Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikinews.org/> ;
+	schema:name "Categoria:Georgia"@it .
+
+<https://it.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://el.wikivoyage.org/wiki/%CE%93%CE%B5%CF%89%CF%81%CE%B3%CE%AF%CE%B1> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikivoyage.org/> ;
+	schema:name "Γεωργία"@el .
+
+<https://el.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://fa.wikinews.org/wiki/%D8%B1%D8%AF%D9%87:%DA%AF%D8%B1%D8%AC%D8%B3%D8%AA%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikinews.org/> ;
+	schema:name "رده:گرجستان"@fa .
+
+<https://fa.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://fi.wikivoyage.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikivoyage.org/> ;
+	schema:name "Georgia"@fi .
+
+<https://fi.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://en.wikiquote.org/wiki/Georgia_(country)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikiquote.org/> ;
+	schema:name "Georgia (country)"@en .
+
+<https://en.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://it.wikiquote.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikiquote.org/> ;
+	schema:name "Georgia"@it .
+
+<https://it.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://eo.wikiquote.org/wiki/Kartvelio> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikiquote.org/> ;
+	schema:name "Kartvelio"@eo .
+
+<https://eo.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://eo.wikivoyage.org/wiki/Kartvelio> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikivoyage.org/> ;
+	schema:name "Kartvelio"@eo .
+
+<https://eo.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://tr.wikivoyage.org/wiki/G%C3%BCrcistan> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikivoyage.org/> ;
+	schema:name "Gürcistan"@tr .
+
+<https://tr.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://tr.wikiquote.org/wiki/G%C3%BCrcistan> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikiquote.org/> ;
+	schema:name "Gürcistan"@tr .
+
+<https://tr.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://en.wikipedia.org/wiki/Georgia_(country)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Georgia (country)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Georgien> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Georgien"@de ;
+	wikibase:badge wd:Q17437798 .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/G%C3%A9orgie_(pays)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Géorgie (pays)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Georgia"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Грузия"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Georgia"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%B8%E3%82%A2_(%E5%9B%BD)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ジョージア (国)"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Georgi%C3%AB> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Georgië"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/Gruzja> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Gruzja"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Ge%C3%B3rgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Geórgia"@pt ;
+	wikibase:badge wd:Q17437796 .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%A0%BC%E9%B2%81%E5%90%89%E4%BA%9A> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "格鲁吉亚"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Georgien> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Georgien"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%DA%AF%D8%B1%D8%AC%D8%B3%D8%AA%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "گرجستان"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%92%D7%90%D7%95%D7%A8%D7%92%D7%99%D7%94> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "גאורגיה"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/G%C3%BCrcistan> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Gürcistan"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Gr%C3%BAzia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Grúzia"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Georgia"@fi ;
+	wikibase:badge wd:Q17437796 .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%AC%D9%88%D8%B1%D8%AC%D9%8A%D8%A7> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "جورجيا"@ar ;
+	wikibase:badge wd:Q17437798 .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Gruzia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Gruzia"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Georgia"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Грузія"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%A7%80%EC%95%84> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "조지아"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Ge%C3%B2rgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Geòrgia"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Gruzie> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Gruzie"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%98%D0%B0> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "Грузија"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Georgia"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Georgia"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://da.wikipedia.org/wiki/Georgien> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "da" ;
+	schema:isPartOf <https://da.wikipedia.org/> ;
+	schema:name "Georgien"@da .
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Georgia_(country)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Georgia (country)"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Грузия"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ab.wikipedia.org/wiki/%D2%9A%D1%8B%D1%80%D2%AD%D1%82%D3%99%D1%8B%D0%BB%D0%B0> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ab" ;
+	schema:isPartOf <https://ab.wikipedia.org/> ;
+	schema:name "Қырҭтәыла"@ab .
+
+<https://ab.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ace.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ace" ;
+	schema:isPartOf <https://ace.wikipedia.org/> ;
+	schema:name "Georgia"@ace .
+
+<https://ace.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ady.wikipedia.org/wiki/%D0%A5%D1%8A%D1%8B%D1%80%D1%86%D1%8B%D0%B5> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ady" ;
+	schema:isPartOf <https://ady.wikipedia.org/> ;
+	schema:name "Хъырцые"@ady .
+
+<https://ady.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Georgi%C3%AB> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Georgië"@af ;
+	wikibase:badge wd:Q17437796 .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://als.wikipedia.org/wiki/Georgien> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "gsw" ;
+	schema:isPartOf <https://als.wikipedia.org/> ;
+	schema:name "Georgien"@gsw .
+
+<https://als.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://am.wikipedia.org/wiki/%E1%8C%82%E1%8B%AE%E1%88%AD%E1%8C%82%E1%8B%AB> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "am" ;
+	schema:isPartOf <https://am.wikipedia.org/> ;
+	schema:name "ጂዮርጂያ"@am .
+
+<https://am.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ami.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ami" ;
+	schema:isPartOf <https://ami.wikipedia.org/> ;
+	schema:name "Georgia"@ami .
+
+<https://ami.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://an.wikipedia.org/wiki/Cheorchia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "an" ;
+	schema:isPartOf <https://an.wikipedia.org/> ;
+	schema:name "Cheorchia"@an .
+
+<https://an.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ang.wikipedia.org/wiki/Georgia_(land)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ang" ;
+	schema:isPartOf <https://ang.wikipedia.org/> ;
+	schema:name "Georgia (land)"@ang .
+
+<https://ang.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arc.wikipedia.org/wiki/%DC%93%DC%98%DC%AA%DC%93%DC%9D%DC%90_(%DC%90%DC%AC%DC%AA%DC%90)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "arc" ;
+	schema:isPartOf <https://arc.wikipedia.org/> ;
+	schema:name "ܓܘܪܓܝܐ (ܐܬܪܐ)"@arc .
+
+<https://arc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ary.wikipedia.org/wiki/%D8%AC%D9%88%D8%B1%D8%AC%D9%8A%D8%A7> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ary" ;
+	schema:isPartOf <https://ary.wikipedia.org/> ;
+	schema:name "جورجيا"@ary .
+
+<https://ary.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://as.wikipedia.org/wiki/%E0%A6%9C%E0%A7%B0%E0%A7%8D%E0%A6%9C%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE_(%E0%A6%A6%E0%A7%87%E0%A6%B6)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "as" ;
+	schema:isPartOf <https://as.wikipedia.org/> ;
+	schema:name "জৰ্জিয়া (দেশ)"@as .
+
+<https://as.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Xeorxa> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Xeorxa"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://av.wikipedia.org/wiki/%D0%A5%D1%8A%D0%B8%D0%B7%D0%B8%D1%85%D1%8A> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "av" ;
+	schema:isPartOf <https://av.wikipedia.org/> ;
+	schema:name "Хъизихъ"@av .
+
+<https://av.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://avk.wikipedia.org/wiki/Sakartvela> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "avk" ;
+	schema:isPartOf <https://avk.wikipedia.org/> ;
+	schema:name "Sakartvela"@avk .
+
+<https://avk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://awa.wikipedia.org/wiki/%E0%A4%9C%E0%A4%B0%E0%A5%8D%E0%A4%9C%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "awa" ;
+	schema:isPartOf <https://awa.wikipedia.org/> ;
+	schema:name "जर्जिया"@awa .
+
+<https://awa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ay.wikipedia.org/wiki/Kiyorxiya> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ay" ;
+	schema:isPartOf <https://ay.wikipedia.org/> ;
+	schema:name "Kiyorxiya"@ay .
+
+<https://ay.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/G%C3%BCrc%C3%BCstan> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Gürcüstan"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ba.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ba" ;
+	schema:isPartOf <https://ba.wikipedia.org/> ;
+	schema:name "Грузия"@ba .
+
+<https://ba.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ban.wikipedia.org/wiki/G%C3%A9orgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ban" ;
+	schema:isPartOf <https://ban.wikipedia.org/> ;
+	schema:name "Géorgia"@ban .
+
+<https://ban.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bar.wikipedia.org/wiki/Georgien> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "bar" ;
+	schema:isPartOf <https://bar.wikipedia.org/> ;
+	schema:name "Georgien"@bar .
+
+<https://bar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bat-smg.wikipedia.org/wiki/Groz%C4%97j%C4%97> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sgs" ;
+	schema:isPartOf <https://bat-smg.wikipedia.org/> ;
+	schema:name "Grozėjė"@sgs .
+
+<https://bat-smg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Georgia_(nasyon)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Georgia (nasyon)"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Грузія"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Грузія"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bh.wikipedia.org/wiki/%E0%A4%9C%E0%A5%89%E0%A4%B0%E0%A5%8D%E0%A4%9C%E0%A4%BF%E0%A4%AF%E0%A4%BE_(%E0%A4%A6%E0%A5%87%E0%A4%B6)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "bho" ;
+	schema:isPartOf <https://bh.wikipedia.org/> ;
+	schema:name "जॉर्जिया (देश)"@bho .
+
+<https://bh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bi.wikipedia.org/wiki/Jojia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "bi" ;
+	schema:isPartOf <https://bi.wikipedia.org/> ;
+	schema:name "Jojia"@bi .
+
+<https://bi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bjn.wikipedia.org/wiki/Jorjiya> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "bjn" ;
+	schema:isPartOf <https://bjn.wikipedia.org/> ;
+	schema:name "Jorjiya"@bjn .
+
+<https://bjn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%9C%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "জর্জিয়া"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bo.wikipedia.org/wiki/%E0%BD%A0%E0%BD%87%E0%BD%BC%E0%BD%A2%E0%BC%8B%E0%BD%87%E0%BD%B2%E0%BC%8B%E0%BD%A1%E0%BC%8D_(%E0%BD%A2%E0%BE%92%E0%BE%B1%E0%BD%A3%E0%BC%8B%E0%BD%81%E0%BD%96%E0%BC%8D)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "bo" ;
+	schema:isPartOf <https://bo.wikipedia.org/> ;
+	schema:name "འཇོར་ཇི་ཡ། (རྒྱལ་ཁབ།)"@bo .
+
+<https://bo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bpy.wikipedia.org/wiki/%E0%A6%9C%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE_(%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "bpy" ;
+	schema:isPartOf <https://bpy.wikipedia.org/> ;
+	schema:name "জর্জিয়া (রাষ্ট্র)"@bpy .
+
+<https://bpy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Jorjia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Jorjia"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bs.wikipedia.org/wiki/Gruzija> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "bs" ;
+	schema:isPartOf <https://bs.wikipedia.org/> ;
+	schema:name "Gruzija"@bs .
+
+<https://bs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bxr.wikipedia.org/wiki/%D0%93%D2%AF%D1%80%D0%B6%D0%B8> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "bxr" ;
+	schema:isPartOf <https://bxr.wikipedia.org/> ;
+	schema:name "Гүржи"@bxr .
+
+<https://bxr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cbk-zam.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "cbk-x-zam" ;
+	schema:isPartOf <https://cbk-zam.wikipedia.org/> ;
+	schema:name "Georgia"@cbk-x-zam .
+
+<https://cbk-zam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cdo.wikipedia.org/wiki/Gruzia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "cdo" ;
+	schema:isPartOf <https://cdo.wikipedia.org/> ;
+	schema:name "Gruzia"@cdo .
+
+<https://cdo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ce.wikipedia.org/wiki/%D0%93%D1%83%D1%8C%D1%80%D0%B6%D0%B8%D0%B9%D1%87%D0%BE%D1%8C> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ce" ;
+	schema:isPartOf <https://ce.wikipedia.org/> ;
+	schema:name "Гуьржийчоь"@ce .
+
+<https://ce.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://chr.wikipedia.org/wiki/%E1%8F%A3%E1%8E%A0%E1%8F%A5%E1%8E%A2> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "chr" ;
+	schema:isPartOf <https://chr.wikipedia.org/> ;
+	schema:name "ᏣᎠᏥᎢ"@chr .
+
+<https://chr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ckb.wikipedia.org/wiki/%DA%AF%D9%88%D8%B1%D8%AC%D8%B3%D8%AA%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ckb" ;
+	schema:isPartOf <https://ckb.wikipedia.org/> ;
+	schema:name "گورجستان"@ckb .
+
+<https://ckb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://co.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "co" ;
+	schema:isPartOf <https://co.wikipedia.org/> ;
+	schema:name "Georgia"@co .
+
+<https://co.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://crh.wikipedia.org/wiki/G%C3%BCrcistan> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "crh-Latn" ;
+	schema:isPartOf <https://crh.wikipedia.org/> ;
+	schema:name "Gürcistan"@crh-Latn .
+
+<https://crh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://csb.wikipedia.org/wiki/Gr%C3%ABz%C3%B3%C5%84sk%C3%B4> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "csb" ;
+	schema:isPartOf <https://csb.wikipedia.org/> ;
+	schema:name "Grëzóńskô"@csb .
+
+<https://csb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cu.wikipedia.org/wiki/%D0%93%D1%94%D1%A1%D1%80%D0%B3%D1%97%EA%99%97> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "cu" ;
+	schema:isPartOf <https://cu.wikipedia.org/> ;
+	schema:name "Гєѡргїꙗ"@cu .
+
+<https://cu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cv.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "cv" ;
+	schema:isPartOf <https://cv.wikipedia.org/> ;
+	schema:name "Грузи"@cv .
+
+<https://cv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cy.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "cy" ;
+	schema:isPartOf <https://cy.wikipedia.org/> ;
+	schema:name "Georgia"@cy .
+
+<https://cy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://diq.wikipedia.org/wiki/Gurc%C4%B1stan> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Gurcıstan"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dsb.wikipedia.org/wiki/Georgiska> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "dsb" ;
+	schema:isPartOf <https://dsb.wikipedia.org/> ;
+	schema:name "Georgiska"@dsb .
+
+<https://dsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dty.wikipedia.org/wiki/%E0%A4%9C%E0%A4%B0%E0%A5%8D%E0%A4%9C%E0%A4%BF%E0%A4%AF%E0%A4%BE_(%E0%A4%A6%E0%A5%87%E0%A4%B6)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "dty" ;
+	schema:isPartOf <https://dty.wikipedia.org/> ;
+	schema:name "जर्जिया (देश)"@dty .
+
+<https://dty.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dv.wikipedia.org/wiki/%DE%96%DE%AF%DE%96%DE%A8%DE%94%DE%A7_(%DE%A4%DE%A6%DE%87%DE%AA%DE%89%DE%AA)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "dv" ;
+	schema:isPartOf <https://dv.wikipedia.org/> ;
+	schema:name "ޖޯޖިޔާ (ޤައުމު)"@dv .
+
+<https://dv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dz.wikipedia.org/wiki/%E0%BD%87%E0%BD%BD%E0%BC%8B%E0%BD%87%E0%BD%B1> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "dz" ;
+	schema:isPartOf <https://dz.wikipedia.org/> ;
+	schema:name "ཇཽ་ཇཱ"@dz .
+
+<https://dz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ee.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ee" ;
+	schema:isPartOf <https://ee.wikipedia.org/> ;
+	schema:name "Georgia"@ee .
+
+<https://ee.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%B5%CF%89%CF%81%CE%B3%CE%AF%CE%B1> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γεωργία"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eml.wikipedia.org/wiki/Ge%C3%B2rgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "egl" ;
+	schema:isPartOf <https://eml.wikipedia.org/> ;
+	schema:name "Geòrgia"@egl .
+
+<https://eml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Kartvelio> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Kartvelio"@eo ;
+	wikibase:badge wd:Q17437796 .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Gruusia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Gruusia"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Georgia"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ff.wikipedia.org/wiki/Jorjiya> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ff" ;
+	schema:isPartOf <https://ff.wikipedia.org/> ;
+	schema:name "Jorjiya"@ff .
+
+<https://ff.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fiu-vro.wikipedia.org/wiki/Gruusia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "vro" ;
+	schema:isPartOf <https://fiu-vro.wikipedia.org/> ;
+	schema:name "Gruusia"@vro .
+
+<https://fiu-vro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fj.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "fj" ;
+	schema:isPartOf <https://fj.wikipedia.org/> ;
+	schema:name "Georgia"@fj .
+
+<https://fj.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fo.wikipedia.org/wiki/Georgia_(land)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "fo" ;
+	schema:isPartOf <https://fo.wikipedia.org/> ;
+	schema:name "Georgia (land)"@fo .
+
+<https://fo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frp.wikipedia.org/wiki/Jorgia_(payis)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "frp" ;
+	schema:isPartOf <https://frp.wikipedia.org/> ;
+	schema:name "Jorgia (payis)"@frp .
+
+<https://frp.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Georgien> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Georgien"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fy.wikipedia.org/wiki/Georgje> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "fy" ;
+	schema:isPartOf <https://fy.wikipedia.org/> ;
+	schema:name "Georgje"@fy .
+
+<https://fy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ga.wikipedia.org/wiki/An_tSeoirsia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ga" ;
+	schema:isPartOf <https://ga.wikipedia.org/> ;
+	schema:name "An tSeoirsia"@ga .
+
+<https://ga.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gag.wikipedia.org/wiki/G%C3%BCrc%C3%BCstan> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "gag" ;
+	schema:isPartOf <https://gag.wikipedia.org/> ;
+	schema:name "Gürcüstan"@gag .
+
+<https://gag.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gcr.wikipedia.org/wiki/J%C3%A9y%C3%B2rji_(p%C3%A9yi)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "gcr" ;
+	schema:isPartOf <https://gcr.wikipedia.org/> ;
+	schema:name "Jéyòrji (péyi)"@gcr .
+
+<https://gcr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gd.wikipedia.org/wiki/A%27_Chairtbheil> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "gd" ;
+	schema:isPartOf <https://gd.wikipedia.org/> ;
+	schema:name "A' Chairtbheil"@gd .
+
+<https://gd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Xeorxia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Xeorxia"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gn.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "gn" ;
+	schema:isPartOf <https://gn.wikipedia.org/> ;
+	schema:name "Georgia"@gn .
+
+<https://gn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gom.wikipedia.org/wiki/%E0%A4%9C%E0%A5%89%E0%A4%B0%E0%A5%8D%E0%A4%9C%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "gom" ;
+	schema:isPartOf <https://gom.wikipedia.org/> ;
+	schema:name "जॉर्जिया"@gom .
+
+<https://gom.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://got.wikipedia.org/wiki/%F0%90%8C%B2%F0%90%8C%B4%F0%90%8C%B0%F0%90%8C%BF%F0%90%8D%82%F0%90%8C%B2%F0%90%8C%BE%F0%90%8C%B0> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "got" ;
+	schema:isPartOf <https://got.wikipedia.org/> ;
+	schema:name "𐌲𐌴𐌰𐌿𐍂𐌲𐌾𐌰"@got .
+
+<https://got.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gu.wikipedia.org/wiki/%E0%AA%9C%E0%AB%8D%E0%AA%AF%E0%AB%8B%E0%AA%B0%E0%AB%8D%E0%AA%9C%E0%AB%80%E0%AA%AF%E0%AA%BE_(%E0%AA%A6%E0%AB%87%E0%AA%B6)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "gu" ;
+	schema:isPartOf <https://gu.wikipedia.org/> ;
+	schema:name "જ્યોર્જીયા (દેશ)"@gu .
+
+<https://gu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gv.wikipedia.org/wiki/Yn_%C3%87horshey> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "gv" ;
+	schema:isPartOf <https://gv.wikipedia.org/> ;
+	schema:name "Yn Çhorshey"@gv .
+
+<https://gv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ha.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ha" ;
+	schema:isPartOf <https://ha.wikipedia.org/> ;
+	schema:name "Georgia"@ha .
+
+<https://ha.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hak.wikipedia.org/wiki/Gruzia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "hak" ;
+	schema:isPartOf <https://hak.wikipedia.org/> ;
+	schema:name "Gruzia"@hak .
+
+<https://hak.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://haw.wikipedia.org/wiki/Keokia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "haw" ;
+	schema:isPartOf <https://haw.wikipedia.org/> ;
+	schema:name "Keokia"@haw .
+
+<https://haw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A5%89%E0%A4%B0%E0%A5%8D%E0%A4%9C%E0%A4%BF%E0%A4%AF%E0%A4%BE_(%E0%A4%A6%E0%A5%87%E0%A4%B6)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "जॉर्जिया (देश)"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Georgia"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Gruzija> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Gruzija"@hr ;
+	wikibase:badge wd:Q17437796 .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hsb.wikipedia.org/wiki/Georgiska> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "hsb" ;
+	schema:isPartOf <https://hsb.wikipedia.org/> ;
+	schema:name "Georgiska"@hsb .
+
+<https://hsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ht.wikipedia.org/wiki/Jeoji> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ht" ;
+	schema:isPartOf <https://ht.wikipedia.org/> ;
+	schema:name "Jeoji"@ht .
+
+<https://ht.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D5%8E%D6%80%D5%A1%D5%BD%D5%BF%D5%A1%D5%B6> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Վրաստան"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hyw.wikipedia.org/wiki/%D5%8E%D6%80%D5%A1%D5%BD%D5%BF%D5%A1%D5%B6> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "hyw" ;
+	schema:isPartOf <https://hyw.wikipedia.org/> ;
+	schema:name "Վրաստան"@hyw .
+
+<https://hyw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ia.wikipedia.org/wiki/Georgia_(pais)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ia" ;
+	schema:isPartOf <https://ia.wikipedia.org/> ;
+	schema:name "Georgia (pais)"@ia .
+
+<https://ia.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ie.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ie" ;
+	schema:isPartOf <https://ie.wikipedia.org/> ;
+	schema:name "Georgia"@ie .
+
+<https://ie.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Georgia_(pagilian)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Georgia (pagilian)"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://inh.wikipedia.org/wiki/%D0%93%D1%83%D1%80%D0%B6%D0%B5%D1%85%D1%8C%D0%B5> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "inh" ;
+	schema:isPartOf <https://inh.wikipedia.org/> ;
+	schema:name "Гуржехье"@inh .
+
+<https://inh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://io.wikipedia.org/wiki/Gruzia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "io" ;
+	schema:isPartOf <https://io.wikipedia.org/> ;
+	schema:name "Gruzia"@io .
+
+<https://io.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/Georg%C3%ADa> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Georgía"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jam.wikipedia.org/wiki/Jaajia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "jam" ;
+	schema:isPartOf <https://jam.wikipedia.org/> ;
+	schema:name "Jaajia"@jam .
+
+<https://jam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jv.wikipedia.org/wiki/G%C3%A9orgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "jv" ;
+	schema:isPartOf <https://jv.wikipedia.org/> ;
+	schema:name "Géorgia"@jv .
+
+<https://jv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%A1%E1%83%90%E1%83%A5%E1%83%90%E1%83%A0%E1%83%97%E1%83%95%E1%83%94%E1%83%9A%E1%83%9D> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "საქართველო"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kaa.wikipedia.org/wiki/Gruziya> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "kaa" ;
+	schema:isPartOf <https://kaa.wikipedia.org/> ;
+	schema:name "Gruziya"@kaa .
+
+<https://kaa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kab.wikipedia.org/wiki/Jurjya> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "kab" ;
+	schema:isPartOf <https://kab.wikipedia.org/> ;
+	schema:name "Jurjya"@kab .
+
+<https://kab.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kbd.wikipedia.org/wiki/%D0%A5%D1%8A%D1%8B%D1%80%D1%86%D0%B5%D0%B9> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "kbd" ;
+	schema:isPartOf <https://kbd.wikipedia.org/> ;
+	schema:name "Хъырцей"@kbd .
+
+<https://kbd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kg.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "kg" ;
+	schema:isPartOf <https://kg.wikipedia.org/> ;
+	schema:name "Georgia"@kg .
+
+<https://kg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ki.wikipedia.org/wiki/Georgia_(country)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ki" ;
+	schema:isPartOf <https://ki.wikipedia.org/> ;
+	schema:name "Georgia (country)"@ki .
+
+<https://ki.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kk.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "kk" ;
+	schema:isPartOf <https://kk.wikipedia.org/> ;
+	schema:name "Грузия"@kk .
+
+<https://kk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://km.wikipedia.org/wiki/%E1%9E%85%E1%9E%85%E1%9E%87%E1%9E%B8> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "km" ;
+	schema:isPartOf <https://km.wikipedia.org/> ;
+	schema:name "ចចជី"@km .
+
+<https://km.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kn.wikipedia.org/wiki/%E0%B2%9C%E0%B2%BE%E0%B2%B0%E0%B3%8D%E0%B2%9C%E0%B2%BF%E0%B2%AF> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "kn" ;
+	schema:isPartOf <https://kn.wikipedia.org/> ;
+	schema:name "ಜಾರ್ಜಿಯ"@kn .
+
+<https://kn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://krc.wikipedia.org/wiki/%D0%93%D1%8E%D1%80%D0%B4%D0%B6%D1%8E> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "krc" ;
+	schema:isPartOf <https://krc.wikipedia.org/> ;
+	schema:name "Гюрджю"@krc .
+
+<https://krc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ku.wikipedia.org/wiki/Gurcistan> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ku" ;
+	schema:isPartOf <https://ku.wikipedia.org/> ;
+	schema:name "Gurcistan"@ku .
+
+<https://ku.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Грузия"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kw.wikipedia.org/wiki/Pow_Grouzi> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "kw" ;
+	schema:isPartOf <https://kw.wikipedia.org/> ;
+	schema:name "Pow Grouzi"@kw .
+
+<https://kw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ky.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ky" ;
+	schema:isPartOf <https://ky.wikipedia.org/> ;
+	schema:name "Грузия"@ky .
+
+<https://ky.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Georgia"@la ;
+	wikibase:badge wd:Q17437796 .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lb.wikipedia.org/wiki/Georgien> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "lb" ;
+	schema:isPartOf <https://lb.wikipedia.org/> ;
+	schema:name "Georgien"@lb .
+
+<https://lb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lbe.wikipedia.org/wiki/%D0%93%D1%83%D1%80%D0%B6%D0%B8%D1%81%D1%82%D1%82%D0%B0%D0%BD> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "lbe" ;
+	schema:isPartOf <https://lbe.wikipedia.org/> ;
+	schema:name "Гуржисттан"@lbe .
+
+<https://lbe.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lez.wikipedia.org/wiki/%D0%93%D1%83%D1%80%D0%B6%D0%B8%D1%81%D1%82%D0%B0%D0%BD> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "lez" ;
+	schema:isPartOf <https://lez.wikipedia.org/> ;
+	schema:name "Гуржистан"@lez .
+
+<https://lez.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lfn.wikipedia.org/wiki/Sacartvelo> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "lfn" ;
+	schema:isPartOf <https://lfn.wikipedia.org/> ;
+	schema:name "Sacartvelo"@lfn .
+
+<https://lfn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://li.wikipedia.org/wiki/Georgi%C3%AB> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "li" ;
+	schema:isPartOf <https://li.wikipedia.org/> ;
+	schema:name "Georgië"@li .
+
+<https://li.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lij.wikipedia.org/wiki/Gi%C3%B6rgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "lij" ;
+	schema:isPartOf <https://lij.wikipedia.org/> ;
+	schema:name "Giörgia"@lij .
+
+<https://lij.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lmo.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "lmo" ;
+	schema:isPartOf <https://lmo.wikipedia.org/> ;
+	schema:name "Georgia"@lmo .
+
+<https://lmo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ln.wikipedia.org/wiki/Zolozi> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ln" ;
+	schema:isPartOf <https://ln.wikipedia.org/> ;
+	schema:name "Zolozi"@ln .
+
+<https://ln.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lo.wikipedia.org/wiki/%E0%BA%9B%E0%BA%B0%E0%BB%80%E0%BA%97%E0%BA%94%E0%BA%8A%E0%BA%AD%E0%BA%81%E0%BA%8A%E0%BA%B5> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "lo" ;
+	schema:isPartOf <https://lo.wikipedia.org/> ;
+	schema:name "ປະເທດຊອກຊີ"@lo .
+
+<https://lo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ltg.wikipedia.org/wiki/Gruzeja> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ltg" ;
+	schema:isPartOf <https://ltg.wikipedia.org/> ;
+	schema:name "Gruzeja"@ltg .
+
+<https://ltg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Gruzija> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Gruzija"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mad.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "mad" ;
+	schema:isPartOf <https://mad.wikipedia.org/> ;
+	schema:name "Georgia"@mad .
+
+<https://mad.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mai.wikipedia.org/wiki/%E0%A4%9C%E0%A4%B0%E0%A5%8D%E0%A4%9C%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "mai" ;
+	schema:isPartOf <https://mai.wikipedia.org/> ;
+	schema:name "जर्जिया"@mai .
+
+<https://mai.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mg.wikipedia.org/wiki/Je%C3%B4rjia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "mg" ;
+	schema:isPartOf <https://mg.wikipedia.org/> ;
+	schema:name "Jeôrjia"@mg .
+
+<https://mg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mhr.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D0%B9> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "mhr" ;
+	schema:isPartOf <https://mhr.wikipedia.org/> ;
+	schema:name "Грузий"@mhr .
+
+<https://mhr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mi.wikipedia.org/wiki/H%C5%8Dria> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "mi" ;
+	schema:isPartOf <https://mi.wikipedia.org/> ;
+	schema:name "Hōria"@mi .
+
+<https://mi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://min.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "min" ;
+	schema:isPartOf <https://min.wikipedia.org/> ;
+	schema:name "Georgia"@min .
+
+<https://min.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%98%D0%B0> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Грузија"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%9C%E0%B5%8B%E0%B5%BC%E0%B4%9C%E0%B5%8D%E0%B4%9C%E0%B4%BF%E0%B4%AF_(%E0%B4%B0%E0%B4%BE%E0%B4%9C%E0%B5%8D%E0%B4%AF%E0%B4%82)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "ജോർജ്ജിയ (രാജ്യം)"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mn.wikipedia.org/wiki/%D0%93%D2%AF%D1%80%D0%B6> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "mn" ;
+	schema:isPartOf <https://mn.wikipedia.org/> ;
+	schema:name "Гүрж"@mn .
+
+<https://mn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mr.wikipedia.org/wiki/%E0%A4%9C%E0%A5%89%E0%A4%B0%E0%A5%8D%E0%A4%9C%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "mr" ;
+	schema:isPartOf <https://mr.wikipedia.org/> ;
+	schema:name "जॉर्जिया"@mr .
+
+<https://mr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mrj.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "mrj" ;
+	schema:isPartOf <https://mrj.wikipedia.org/> ;
+	schema:name "Грузи"@mrj .
+
+<https://mrj.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Georgia"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mt.wikipedia.org/wiki/%C4%A0eor%C4%A1ja> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "mt" ;
+	schema:isPartOf <https://mt.wikipedia.org/> ;
+	schema:name "Ġeorġja"@mt .
+
+<https://mt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://my.wikipedia.org/wiki/%E1%80%82%E1%80%BB%E1%80%B1%E1%80%AC%E1%80%BA%E1%80%82%E1%80%BB%E1%80%AE%E1%80%9A%E1%80%AC%E1%80%94%E1%80%AD%E1%80%AF%E1%80%84%E1%80%BA%E1%80%84%E1%80%B6> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "my" ;
+	schema:isPartOf <https://my.wikipedia.org/> ;
+	schema:name "ဂျော်ဂျီယာနိုင်ငံ"@my .
+
+<https://my.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://myv.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F_%D0%9C%D0%B0%D1%81%D1%82%D0%BE%D1%80> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "myv" ;
+	schema:isPartOf <https://myv.wikipedia.org/> ;
+	schema:name "Грузия Мастор"@myv .
+
+<https://myv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mzn.wikipedia.org/wiki/%DA%AF%D8%B1%D8%AC%D8%B3%D8%AA%D9%88%D9%86> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "mzn" ;
+	schema:isPartOf <https://mzn.wikipedia.org/> ;
+	schema:name "گرجستون"@mzn .
+
+<https://mzn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nap.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "nap" ;
+	schema:isPartOf <https://nap.wikipedia.org/> ;
+	schema:name "Georgia"@nap .
+
+<https://nap.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nds.wikipedia.org/wiki/Georgien> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "nds" ;
+	schema:isPartOf <https://nds.wikipedia.org/> ;
+	schema:name "Georgien"@nds .
+
+<https://nds.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nds-nl.wikipedia.org/wiki/Georgi%C3%AB> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "nds-NL" ;
+	schema:isPartOf <https://nds-nl.wikipedia.org/> ;
+	schema:name "Georgië"@nds-NL .
+
+<https://nds-nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ne.wikipedia.org/wiki/%E0%A4%9C%E0%A4%B0%E0%A5%8D%E0%A4%9C%E0%A4%BF%E0%A4%AF%E0%A4%BE_(%E0%A4%A6%E0%A5%87%E0%A4%B6)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ne" ;
+	schema:isPartOf <https://ne.wikipedia.org/> ;
+	schema:name "जर्जिया (देश)"@ne .
+
+<https://ne.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://new.wikipedia.org/wiki/%E0%A4%9C%E0%A4%B0%E0%A5%8D%E0%A4%9C%E0%A4%BF%E0%A4%AF%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "new" ;
+	schema:isPartOf <https://new.wikipedia.org/> ;
+	schema:name "जर्जिया"@new .
+
+<https://new.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Georgia"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nov.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "nov" ;
+	schema:isPartOf <https://nov.wikipedia.org/> ;
+	schema:name "Georgia"@nov .
+
+<https://nov.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nv.wikipedia.org/wiki/Dzi%C5%82_Daantsaa%C3%ADtah_Bilag%C3%A1ana_Bik%C3%A9yah> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "nv" ;
+	schema:isPartOf <https://nv.wikipedia.org/> ;
+	schema:name "Dził Daantsaaítah Bilagáana Bikéyah"@nv .
+
+<https://nv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Georgia_(Cauc%C3%A0s)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Georgia (Caucàs)"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://olo.wikipedia.org/wiki/Gruuzii> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "olo" ;
+	schema:isPartOf <https://olo.wikipedia.org/> ;
+	schema:name "Gruuzii"@olo .
+
+<https://olo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://om.wikipedia.org/wiki/Ji%27oorjiyaa> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "om" ;
+	schema:isPartOf <https://om.wikipedia.org/> ;
+	schema:name "Ji'oorjiyaa"@om .
+
+<https://om.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://or.wikipedia.org/wiki/%E0%AC%9C%E0%AC%B0%E0%AD%8D%E0%AC%9C%E0%AC%BF%E0%AC%86> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "or" ;
+	schema:isPartOf <https://or.wikipedia.org/> ;
+	schema:name "ଜର୍ଜିଆ"@or .
+
+<https://or.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://os.wikipedia.org/wiki/%D0%93%D1%83%D1%8B%D1%80%D0%B4%D0%B7%D1%8B%D1%81%D1%82%D0%BE%D0%BD> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "os" ;
+	schema:isPartOf <https://os.wikipedia.org/> ;
+	schema:name "Гуырдзыстон"@os .
+
+<https://os.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pa.wikipedia.org/wiki/%E0%A8%9C%E0%A8%BE%E0%A8%B0%E0%A8%9C%E0%A9%80%E0%A8%86_(%E0%A8%A6%E0%A9%87%E0%A8%B8%E0%A8%BC)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "pa" ;
+	schema:isPartOf <https://pa.wikipedia.org/> ;
+	schema:name "ਜਾਰਜੀਆ (ਦੇਸ਼)"@pa .
+
+<https://pa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pag.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "pag" ;
+	schema:isPartOf <https://pag.wikipedia.org/> ;
+	schema:name "Georgia"@pag .
+
+<https://pag.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pam.wikipedia.org/wiki/Heorhia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "pam" ;
+	schema:isPartOf <https://pam.wikipedia.org/> ;
+	schema:name "Heorhia"@pam .
+
+<https://pam.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pap.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "pap" ;
+	schema:isPartOf <https://pap.wikipedia.org/> ;
+	schema:name "Georgia"@pap .
+
+<https://pap.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pcd.wikipedia.org/wiki/G%C3%A9orgie_(pa%C3%AFs)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "pcd" ;
+	schema:isPartOf <https://pcd.wikipedia.org/> ;
+	schema:name "Géorgie (païs)"@pcd .
+
+<https://pcd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pdc.wikipedia.org/wiki/Georgie> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "pdc" ;
+	schema:isPartOf <https://pdc.wikipedia.org/> ;
+	schema:name "Georgie"@pdc .
+
+<https://pdc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pi.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%9C%E0%A4%BF%E0%A4%AF%E0%A4%BE-%E0%A4%A6%E0%A5%87%E0%A4%B6:> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "pi" ;
+	schema:isPartOf <https://pi.wikipedia.org/> ;
+	schema:name "जार्जिया-देश:"@pi .
+
+<https://pi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pih.wikipedia.org/wiki/Jorja> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "pih" ;
+	schema:isPartOf <https://pih.wikipedia.org/> ;
+	schema:name "Jorja"@pih .
+
+<https://pih.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Ge%C3%B2rgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Geòrgia"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%D8%AC%D8%A7%D8%B1%D8%AC%DB%8C%D8%A7> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "جارجیا"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnt.wikipedia.org/wiki/%CE%93%CF%81%CE%BF%CF%85%CE%B6%CE%AF%CE%B1> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "pnt" ;
+	schema:isPartOf <https://pnt.wikipedia.org/> ;
+	schema:name "Γρουζία"@pnt .
+
+<https://pnt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ps.wikipedia.org/wiki/%DA%AB%D8%B1%D8%AC%D8%B3%D8%AA%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ps" ;
+	schema:isPartOf <https://ps.wikipedia.org/> ;
+	schema:name "ګرجستان"@ps .
+
+<https://ps.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://qu.wikipedia.org/wiki/Kartulsuyu> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "qu" ;
+	schema:isPartOf <https://qu.wikipedia.org/> ;
+	schema:name "Kartulsuyu"@qu .
+
+<https://qu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rmy.wikipedia.org/wiki/Jorjiya_(them)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "rmy" ;
+	schema:isPartOf <https://rmy.wikipedia.org/> ;
+	schema:name "Jorjiya (them)"@rmy .
+
+<https://rmy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://roa-rup.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "rup" ;
+	schema:isPartOf <https://roa-rup.wikipedia.org/> ;
+	schema:name "Georgia"@rup .
+
+<https://roa-rup.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rue.wikipedia.org/wiki/%D2%90%D1%80%D1%83%D0%B7%D1%96%D1%8F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "rue" ;
+	schema:isPartOf <https://rue.wikipedia.org/> ;
+	schema:name "Ґрузія"@rue .
+
+<https://rue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://rw.wikipedia.org/wiki/Geworugiya> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "rw" ;
+	schema:isPartOf <https://rw.wikipedia.org/> ;
+	schema:name "Geworugiya"@rw .
+
+<https://rw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sa.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%9C%E0%A4%BF%E0%A4%AF%E0%A4%BE_(%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A4%83)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sa" ;
+	schema:isPartOf <https://sa.wikipedia.org/> ;
+	schema:name "जार्जिया (देशः)"@sa .
+
+<https://sa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sah.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sah" ;
+	schema:isPartOf <https://sah.wikipedia.org/> ;
+	schema:name "Грузия"@sah .
+
+<https://sah.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%A1%E1%B1%9A%E1%B1%A8%E1%B1%A1%E1%B1%A4%E1%B1%AD%E1%B1%9F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱡᱚᱨᱡᱤᱭᱟ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sc.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sc" ;
+	schema:isPartOf <https://sc.wikipedia.org/> ;
+	schema:name "Georgia"@sc .
+
+<https://sc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://scn.wikipedia.org/wiki/Giorgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "scn" ;
+	schema:isPartOf <https://scn.wikipedia.org/> ;
+	schema:name "Giorgia"@scn .
+
+<https://scn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sco.wikipedia.org/wiki/Georgie_(kintra)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sco" ;
+	schema:isPartOf <https://sco.wikipedia.org/> ;
+	schema:name "Georgie (kintra)"@sco .
+
+<https://sco.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sd.wikipedia.org/wiki/%D8%AC%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sd" ;
+	schema:isPartOf <https://sd.wikipedia.org/> ;
+	schema:name "جارجيا"@sd .
+
+<https://sd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://se.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "se" ;
+	schema:isPartOf <https://se.wikipedia.org/> ;
+	schema:name "Georgia"@se .
+
+<https://se.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sh.wikipedia.org/wiki/Gruzija> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sh" ;
+	schema:isPartOf <https://sh.wikipedia.org/> ;
+	schema:name "Gruzija"@sh .
+
+<https://sh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://shn.wikipedia.org/wiki/%E1%80%99%E1%80%AD%E1%80%B0%E1%80%84%E1%80%BA%E1%80%B8%E1%81%B5%E1%80%BB%E1%80%B1%E1%82%83%E1%82%87%E1%81%B5%E1%80%BB%E1%82%83%E1%82%87> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "shn" ;
+	schema:isPartOf <https://shn.wikipedia.org/> ;
+	schema:name "မိူင်းၵျေႃႇၵျႃႇ"@shn .
+
+<https://shn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://si.wikipedia.org/wiki/%E0%B6%A2%E0%B7%9D%E0%B6%BB%E0%B7%8A%E0%B6%A2%E0%B7%92%E0%B6%BA%E0%B7%8F%E0%B7%80> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "si" ;
+	schema:isPartOf <https://si.wikipedia.org/> ;
+	schema:name "ජෝර්ජියාව"@si .
+
+<https://si.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sk.wikipedia.org/wiki/Gruz%C3%ADnsko> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sk" ;
+	schema:isPartOf <https://sk.wikipedia.org/> ;
+	schema:name "Gruzínsko"@sk .
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sl.wikipedia.org/wiki/Gruzija> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sl" ;
+	schema:isPartOf <https://sl.wikipedia.org/> ;
+	schema:name "Gruzija"@sl .
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sm.wikipedia.org/wiki/Siaosia_(Atunuu)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sm" ;
+	schema:isPartOf <https://sm.wikipedia.org/> ;
+	schema:name "Siaosia (Atunuu)"@sm .
+
+<https://sm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://smn.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "smn" ;
+	schema:isPartOf <https://smn.wikipedia.org/> ;
+	schema:name "Georgia"@smn .
+
+<https://smn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://so.wikipedia.org/wiki/Joorjiya_(wadan)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "so" ;
+	schema:isPartOf <https://so.wikipedia.org/> ;
+	schema:name "Joorjiya (wadan)"@so .
+
+<https://so.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sq.wikipedia.org/wiki/Gjeorgjia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sq" ;
+	schema:isPartOf <https://sq.wikipedia.org/> ;
+	schema:name "Gjeorgjia"@sq .
+
+<https://sq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://srn.wikipedia.org/wiki/Georgikondre> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "srn" ;
+	schema:isPartOf <https://srn.wikipedia.org/> ;
+	schema:name "Georgikondre"@srn .
+
+<https://srn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ss.wikipedia.org/wiki/IJojiya> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ss" ;
+	schema:isPartOf <https://ss.wikipedia.org/> ;
+	schema:name "IJojiya"@ss .
+
+<https://ss.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://stq.wikipedia.org/wiki/Georgien> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "stq" ;
+	schema:isPartOf <https://stq.wikipedia.org/> ;
+	schema:name "Georgien"@stq .
+
+<https://stq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://su.wikipedia.org/wiki/G%C3%A9orgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "su" ;
+	schema:isPartOf <https://su.wikipedia.org/> ;
+	schema:name "Géorgia"@su .
+
+<https://su.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Georgia"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szl.wikipedia.org/wiki/Gruzyjo> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "szl" ;
+	schema:isPartOf <https://szl.wikipedia.org/> ;
+	schema:name "Gruzyjo"@szl .
+
+<https://szl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szy.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "szy" ;
+	schema:isPartOf <https://szy.wikipedia.org/> ;
+	schema:name "Georgia"@szy .
+
+<https://szy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%BE%E0%AE%B0%E0%AF%8D%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%BE> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "சியார்சியா"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tay.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "tay" ;
+	schema:isPartOf <https://tay.wikipedia.org/> ;
+	schema:name "Georgia"@tay .
+
+<https://tay.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://te.wikipedia.org/wiki/%E0%B0%9C%E0%B0%BE%E0%B0%B0%E0%B1%8D%E0%B0%9C%E0%B0%BF%E0%B0%AF%E0%B0%BE_(%E0%B0%A6%E0%B1%87%E0%B0%B6%E0%B0%82)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "te" ;
+	schema:isPartOf <https://te.wikipedia.org/> ;
+	schema:name "జార్జియా (దేశం)"@te .
+
+<https://te.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tet.wikipedia.org/wiki/Je%C3%B3rjia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "tet" ;
+	schema:isPartOf <https://tet.wikipedia.org/> ;
+	schema:name "Jeórjia"@tet .
+
+<https://tet.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tg.wikipedia.org/wiki/%D0%93%D1%83%D1%80%D2%B7%D0%B8%D1%81%D1%82%D0%BE%D0%BD> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "tg" ;
+	schema:isPartOf <https://tg.wikipedia.org/> ;
+	schema:name "Гурҷистон"@tg .
+
+<https://tg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%88%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B8%A2> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ประเทศจอร์เจีย"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ti.wikipedia.org/wiki/%E1%8C%86%E1%88%AD%E1%8C%82%E1%8B%AB> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ti" ;
+	schema:isPartOf <https://ti.wikipedia.org/> ;
+	schema:name "ጆርጂያ"@ti .
+
+<https://ti.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://trv.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "trv" ;
+	schema:isPartOf <https://trv.wikipedia.org/> ;
+	schema:name "Georgia"@trv .
+
+<https://trv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ts.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ts" ;
+	schema:isPartOf <https://ts.wikipedia.org/> ;
+	schema:name "Georgia"@ts .
+
+<https://ts.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tum.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "tum" ;
+	schema:isPartOf <https://tum.wikipedia.org/> ;
+	schema:name "Georgia"@tum .
+
+<https://tum.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://udm.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "udm" ;
+	schema:isPartOf <https://udm.wikipedia.org/> ;
+	schema:name "Грузия"@udm .
+
+<https://udm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ug.wikipedia.org/wiki/%DA%AF%D8%B1%DB%87%D8%B2%D9%89%D9%8A%DB%95> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ug" ;
+	schema:isPartOf <https://ug.wikipedia.org/> ;
+	schema:name "گرۇزىيە"@ug .
+
+<https://ug.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D8%AC%D8%A7%D8%B1%D8%AC%DB%8C%D8%A7> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "جارجیا"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Gruziya> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Gruziya"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vec.wikipedia.org/wiki/Zeorza> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "vec" ;
+	schema:isPartOf <https://vec.wikipedia.org/> ;
+	schema:name "Zeorza"@vec .
+
+<https://vec.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vep.wikipedia.org/wiki/Gruzii> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "vep" ;
+	schema:isPartOf <https://vep.wikipedia.org/> ;
+	schema:name "Gruzii"@vep .
+
+<https://vep.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vls.wikipedia.org/wiki/Georgi%C3%AB> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "vls" ;
+	schema:isPartOf <https://vls.wikipedia.org/> ;
+	schema:name "Georgië"@vls .
+
+<https://vls.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vo.wikipedia.org/wiki/Grusiy%C3%A4n> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "vo" ;
+	schema:isPartOf <https://vo.wikipedia.org/> ;
+	schema:name "Grusiyän"@vo .
+
+<https://vo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://war.wikipedia.org/wiki/Georgia_(nasod)> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "war" ;
+	schema:isPartOf <https://war.wikipedia.org/> ;
+	schema:name "Georgia (nasod)"@war .
+
+<https://war.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wo.wikipedia.org/wiki/Jeoorji> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "wo" ;
+	schema:isPartOf <https://wo.wikipedia.org/> ;
+	schema:name "Jeoorji"@wo .
+
+<https://wo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E6%A0%BC%E9%B2%81%E5%90%89%E4%BA%9A> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "格鲁吉亚"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://xal.wikipedia.org/wiki/%D0%93%D2%AF%D1%80%D2%97%D0%BC%D2%AF%D0%B4%D0%B8%D0%BD_%D0%9E%D1%80%D0%BD> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "xal" ;
+	schema:isPartOf <https://xal.wikipedia.org/> ;
+	schema:name "Гүрҗмүдин Орн"@xal .
+
+<https://xal.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://xmf.wikipedia.org/wiki/%E1%83%A1%E1%83%90%E1%83%A5%E1%83%9D%E1%83%A0%E1%83%97%E1%83%A3%E1%83%9D> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "xmf" ;
+	schema:isPartOf <https://xmf.wikipedia.org/> ;
+	schema:name "საქორთუო"@xmf .
+
+<https://xmf.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://yi.wikipedia.org/wiki/%D7%92%D7%A8%D7%95%D7%96%D7%99%D7%A2> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "yi" ;
+	schema:isPartOf <https://yi.wikipedia.org/> ;
+	schema:name "גרוזיע"@yi .
+
+<https://yi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://yo.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "yo" ;
+	schema:isPartOf <https://yo.wikipedia.org/> ;
+	schema:name "Georgia"@yo .
+
+<https://yo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zea.wikipedia.org/wiki/Georhi%C3%AB> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "zea" ;
+	schema:isPartOf <https://zea.wikipedia.org/> ;
+	schema:name "Georhië"@zea .
+
+<https://zea.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-classical.wikipedia.org/wiki/%E6%A0%BC%E9%AD%AF%E5%90%89%E4%BA%9E> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "lzh" ;
+	schema:isPartOf <https://zh-classical.wikipedia.org/> ;
+	schema:name "格魯吉亞"@lzh .
+
+<https://zh-classical.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-min-nan.wikipedia.org/wiki/Gruzia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "nan" ;
+	schema:isPartOf <https://zh-min-nan.wikipedia.org/> ;
+	schema:name "Gruzia"@nan .
+
+<https://zh-min-nan.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E6%A0%BC%E9%AD%AF%E5%90%89%E4%BA%9E> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "格魯吉亞"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D8%AC%D9%88%D8%B1%D8%AC%D9%8A%D8%A7> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "جورجيا"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mdf.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "mdf" ;
+	schema:isPartOf <https://mdf.wikipedia.org/> ;
+	schema:name "Грузия"@mdf .
+
+<https://mdf.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nso.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "nso" ;
+	schema:isPartOf <https://nso.wikipedia.org/> ;
+	schema:name "Georgia"@nso .
+
+<https://nso.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tpi.wikipedia.org/wiki/Siosia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "tpi" ;
+	schema:isPartOf <https://tpi.wikipedia.org/> ;
+	schema:name "Siosia"@tpi .
+
+<https://tpi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%DA%AF%D9%88%D8%B1%D8%AC%D9%88%D8%B3%D8%AA%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "گورجوستان"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lld.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "lld" ;
+	schema:isPartOf <https://lld.wikipedia.org/> ;
+	schema:name "Georgia"@lld .
+
+<https://lld.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikiquote.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%98%D0%B0> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikiquote.org/> ;
+	schema:name "Грузија"@sr .
+
+<https://sr.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://tl.wikipedia.org/wiki/Heorhiya> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Heorhiya"@tl .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tk.wikipedia.org/wiki/Gruzi%C3%BDa> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "tk" ;
+	schema:isPartOf <https://tk.wikipedia.org/> ;
+	schema:name "Gruziýa"@tk .
+
+<https://tk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://to.wikipedia.org/wiki/Se%C5%8Dsia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "to" ;
+	schema:isPartOf <https://to.wikipedia.org/> ;
+	schema:name "Seōsia"@to .
+
+<https://to.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://za.wikipedia.org/wiki/Gwzlujgizya> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "za" ;
+	schema:isPartOf <https://za.wikipedia.org/> ;
+	schema:name "Gwzlujgizya"@za .
+
+<https://za.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ext.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ext" ;
+	schema:isPartOf <https://ext.wikipedia.org/> ;
+	schema:name "Georgia"@ext .
+
+<https://ext.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dag.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "dag" ;
+	schema:isPartOf <https://dag.wikipedia.org/> ;
+	schema:name "Georgia"@dag .
+
+<https://dag.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://map-bms.wikipedia.org/wiki/Georgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "jv-x-bms" ;
+	schema:isPartOf <https://map-bms.wikipedia.org/> ;
+	schema:name "Georgia"@jv-x-bms .
+
+<https://map-bms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikivoyage.org/wiki/%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%B8%E3%82%A2> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikivoyage.org/> ;
+	schema:name "ジョージア"@ja .
+
+<https://ja.wikivoyage.org/> wikibase:wikiGroup "wikivoyage" .
+
+<https://tt.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Грузия"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mwl.wikipedia.org/wiki/Ge%C3%B3rgia> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "mwl" ;
+	schema:isPartOf <https://mwl.wikipedia.org/> ;
+	schema:name "Geórgia"@mwl .
+
+<https://mwl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Gruzija> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Gruzija"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ceb.wikipedia.org/wiki/Heyorhiya> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ceb" ;
+	schema:isPartOf <https://ceb.wikipedia.org/> ;
+	schema:name "Heyorhiya"@ceb .
+
+<https://ceb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikiquote.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikiquote.org/> ;
+	schema:name "Грузия"@ru .
+
+<https://ru.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+<https://tly.wikipedia.org/wiki/Q%C4%B1rciston> a schema:Article ;
+	schema:about wd:Q230 ;
+	schema:inLanguage "tly" ;
+	schema:isPartOf <https://tly.wikipedia.org/> ;
+	schema:name "Qırciston"@tly .
+
+<https://tly.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q230 wdt:P2924 "1932520" ;
+	wdt:P3068 "GE" ;
+	wdt:P1082 "+3717100"^^xsd:decimal ;
+	wdt:P1667 "7006653" ;
+	wdtn:P1667 <http://vocab.getty.edu/tgn/7006653> ;
+	wdt:P1151 wd:Q10815230 ;
+	wdt:P1333 "Point(46.49392605 41.05521392)"^^geo:wktLiteral ;
+	wdt:P1546 wd:Q3646621 ;
+	wdt:P5125 wd:Q7112270 ;
+	wdt:P349 "00577524" ;
+	wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00577524> ;
+	wdt:P349 "00562662" ;
+	wdtn:P349 <http://id.ndl.go.jp/auth/ndlna/00562662> ;
+	wdt:P38 wd:Q4608 ;
+	wdt:P3365 "georgia" ;
+	wdt:P3221 "destination/georgia" ;
+	wdt:P2581 "00040252n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s00040252n> ;
+	wdt:P1566 "614540" ;
+	wdtn:P1566 <http://sws.geonames.org/614540/> ;
+	wdt:P227 "4022406-5" ;
+	wdtn:P227 <https://d-nb.info/gnd/4022406-5> ;
+	wdt:P487 "🇬🇪" ;
+	wdt:P1792 wd:Q6994590 ;
+	wdt:P2852 wd:Q1061257,
+		wd:Q4547309,
+		wd:Q25648804,
+		wd:Q25648812 ;
+	wdt:P3916 "concept4785" ;
+	wdtn:P3916 <http://vocabularies.unesco.org/thesaurus/concept4785> ;
+	wdt:P2853 wd:Q1378312,
+		wd:Q1123613 ;
+	wdt:P395 "GE" ;
+	wdt:P1889 wd:Q1428,
+		wd:Q4962 ;
+	wdt:P1335 "Point(40.00773713 43.38783202)"^^geo:wktLiteral ;
+	wdt:P2633 wd:Q1440599 ;
+	wdt:P298 "GEO" ;
+	wdt:P1313 wd:Q1975365 ;
+	wdt:P3417 "Georgia-country",
+		"Sakartvelo" ;
+	wdt:P417 wd:Q48438 ;
+	wdt:P998 "Regional/Asia/Georgia/" ;
+	wdt:P17 wd:Q230 ;
+	wdt:P3219 "georgie" ;
+	wdt:P1705 "საქართველო"@ka ;
+	wdt:P2959 wd:Q21287329 ;
+	wdt:P3743 "2.16.268" ;
+	wdt:P122 wd:Q49890 ;
+	wdt:P982 "7e081aa0-817b-3ae0-9fe2-4bb4e3b3cc95" ;
+	wdtn:P982 <http://musicbrainz.org/area/7e081aa0-817b-3ae0-9fe2-4bb4e3b3cc95> ;
+	wdt:P832 wd:Q196627,
+		wd:Q28055438,
+		wd:Q19809,
+		wd:Q15954764,
+		wd:Q47502,
+		wd:Q38964,
+		wd:Q28055480,
+		wd:Q40317,
+		wd:Q16962827,
+		wd:Q21196,
+		wd:Q209663,
+		wd:Q207811,
+		wd:Q270706,
+		wd:Q28055501,
+		wd:Q12868922,
+		wd:Q4069073,
+		wd:Q4309182,
+		wd:Q212829 ;
+	wdt:P1552 wd:Q47185145 ;
+	wdt:P94 <http://commons.wikimedia.org/wiki/Special:FilePath/Greater%20coat%20of%20arms%20of%20Georgia.svg> ;
+	wdt:P2981 "GE" ;
+	wdt:P486 "D005846" ;
+	wdtn:P486 <http://id.nlm.nih.gov/mesh/D005846> ;
+	wdt:P5247 "3035-3236" ;
+	wdt:P3422 "99255" ;
+	wdt:P530 wd:Q38,
+		wd:Q183,
+		wd:Q30,
+		wd:Q43,
+		wd:Q399,
+		wd:Q227,
+		wd:Q889,
+		wd:Q921,
+		wd:Q17,
+		wd:Q668,
+		wd:Q794,
+		wd:Q801,
+		wd:Q851,
+		wd:Q408,
+		wd:Q40,
+		wd:Q222,
+		wd:Q262,
+		wd:Q916,
+		wd:Q228,
+		wd:Q781,
+		wd:Q878,
+		wd:Q414,
+		wd:Q664,
+		wd:Q902,
+		wd:Q778,
+		wd:Q398,
+		wd:Q184,
+		wd:Q31,
+		wd:Q750,
+		wd:Q225,
+		wd:Q963,
+		wd:Q155,
+		wd:Q219,
+		wd:Q965,
+		wd:Q967,
+		wd:Q1000,
+		wd:Q734,
+		wd:Q1005,
+		wd:Q117,
+		wd:Q774,
+		wd:Q1007,
+		wd:Q1006,
+		wd:Q769,
+		wd:Q35,
+		wd:Q145,
+		wd:Q784,
+		wd:Q786,
+		wd:Q79,
+		wd:Q115,
+		wd:Q736,
+		wd:Q983,
+		wd:Q792,
+		wd:Q796,
+		wd:Q986,
+		wd:Q29,
+		wd:Q191,
+		wd:Q686,
+		wd:Q237,
+		wd:Q881,
+		wd:Q953,
+		wd:Q954,
+		wd:Q874,
+		wd:Q766,
+		wd:Q805,
+		wd:Q252,
+		wd:Q810,
+		wd:Q27,
+		wd:Q189,
+		wd:Q1011,
+		wd:Q424,
+		wd:Q16,
+		wd:Q1009,
+		wd:Q846,
+		wd:Q114,
+		wd:Q229,
+		wd:Q710,
+		wd:Q739,
+		wd:Q970,
+		wd:Q974,
+		wd:Q971,
+		wd:Q884,
+		wd:Q423,
+		wd:Q800,
+		wd:Q1008,
+		wd:Q241,
+		wd:Q819,
+		wd:Q211,
+		wd:Q1013,
+		wd:Q822,
+		wd:Q1016,
+		wd:Q37,
+		wd:Q347,
+		wd:Q32,
+		wd:Q212,
+		wd:Q142,
+		wd:Q232,
+		wd:Q36,
+		wd:Q159583,
+		wd:Q458,
+		wd:Q865,
+		wd:Q96,
+		wd:Q28,
+		wd:Q55,
+		wd:Q148 ;
+	wdt:P571 "1991-12-25T00:00:00Z"^^xsd:dateTime ;
+	wdt:P1906 wd:Q843405 ;
+	wdt:P935 "საქართველო",
+		"Géorgie (pays)" ;
+	wdt:P194 wd:Q1417210 ;
+	wdt:P6200 "cmj34zmwml4t" ;
+	wdt:P3238 "0" ;
+	wdt:P2184 wd:Q238246 ;
+	wdt:P1296 "0029716" ;
+	wdt:P3911 "17472-2" ;
+	wdtn:P3911 <http://zbw.eu/stw/descriptor/17472-2> ;
+	wdt:P1365 wd:Q130229 ;
+	wdt:P3021 "georgia-" ;
+	wdt:P30 wd:Q48,
+		wd:Q46 ;
+	wdt:P36 wd:Q994 ;
+	wdt:P237 wd:Q200053 ;
+	wdt:P5250 "1299" ;
+	wdt:P1549 "Georgian"@en,
+		"grúz"@hu,
+		"georgier"@da,
+		"Gruziano"@io,
+		"kartvelo"@eo,
+		"Grusiyänan"@vo,
+		"ქართველი"@ka,
+		"грузин"@ru,
+		"грузинка"@ru,
+		"جورجي"@ar,
+		"جورجية"@ar,
+		"جورجيون"@ar,
+		"грузин"@uk,
+		"грузинка"@uk,
+		"грузини"@uk,
+		"גאורגי"@he,
+		"גאורגית"@he,
+		"georgieni"@ro,
+		"georgian"@ro,
+		"georgiană"@ro,
+		"জর্জীয়"@bn,
+		"géorgien"@fr,
+		"Géorgiens"@fr,
+		"georgiano"@it,
+		"georgiana"@it,
+		"georgiani"@it,
+		"georgiane"@it,
+		"cartuli"@lfn,
+		"jorjian"@lfn,
+		"xeorxanu"@ast,
+		"xeorxana"@ast,
+		"georgià"@ca,
+		"georgiana"@ca,
+		"djeyordjin"@wa,
+		"djeyordjinne"@wa,
+		"Géorgien"@fr,
+		"Géorgienne"@fr,
+		"Georgierin"@de,
+		"Georgier"@de,
+		"zeorzani"@vec,
+		"zeorzana"@vec,
+		"zeorzane"@vec,
+		"zeorzan"@vec ;
+	wdt:P949 "000559833" ;
+	wdt:P402 "28699" ;
+	wdtn:P402 <https://www.openstreetmap.org/relation/28699> ;
+	wdt:P1245 "7632" ;
+	wdt:P1332 "Point(40.25 43.58)"^^geo:wktLiteral ;
+	wdt:P1958 "12413" ;
+	wdt:P2258 "282" ;
+	wdt:P4841 "+1.816"^^xsd:decimal ;
+	wdt:P2979 "213" ;
+	wdt:P1225 "10045259" ;
+	wdt:P3000 "+18"^^xsd:decimal ;
+	wdt:P910 wd:Q7059874 ;
+	wdt:P6 wd:Q6066533 ;
+	wdt:P155 wd:Q154816,
+		wd:Q7216494,
+		wd:Q112745 ;
+	wdt:P1791 wd:Q8328591 ;
+	wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/Georgia%20%28orthographic%20projection%20with%20inset%29.svg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/LocationGeorgia.svg> ;
+	wdt:P1451 "ძალა ერთობაშია"@ka ;
+	wdt:P3896 <http://commons.wikimedia.org/data/main/Data:Georgia.map> ;
+	wdt:P1036 "2--4758" ;
+	wdt:P1334 "Point(46.73609197 41.28500627)"^^geo:wktLiteral ;
+	wdt:P2046 "+69700"^^xsd:decimal ;
+	wdt:P3612 "pays/georgie" ;
+	wdt:P984 "GEO" ;
+	wdt:P463 wd:Q8908,
+		wd:Q7825,
+		wd:Q380340,
+		wd:Q1065,
+		wd:Q81299,
+		wd:Q326816,
+		wd:Q61923,
+		wd:Q663492,
+		wd:Q1377616,
+		wd:Q5412411,
+		wd:Q183191,
+		wd:Q7817,
+		wd:Q191384,
+		wd:Q827525,
+		wd:Q656801,
+		wd:Q177773,
+		wd:Q1928989,
+		wd:Q233611,
+		wd:Q7809,
+		wd:Q5611262,
+		wd:Q17495,
+		wd:Q376150,
+		wd:Q162656,
+		wd:Q7779,
+		wd:Q318693,
+		wd:Q8475 ;
+	wdt:P1448 "საქართველო"@ka,
+		"Грузия"@ru,
+		"Georgia"@en,
+		"Géorgie (la)"@fr,
+		"Georgien"@sv,
+		"Gruzie"@cs,
+		"Sakartvelas"@lt,
+		"Gruzija"@lt ;
+	wdt:P5658 wd:Q14565199 ;
+	wdt:P4427 "679" ;
+	wdt:P214 "150029386" ;
+	wdtn:P214 <http://viaf.org/viaf/150029386> ;
+	wdt:P214 "244524373" ;
+	wdtn:P214 <http://viaf.org/viaf/244524373> ;
+	wdt:P214 "3948167322926078000008" ;
+	wdtn:P214 <http://viaf.org/viaf/3948167322926078000008> ;
+	wdt:P214 "316638062" ;
+	wdtn:P214 <http://viaf.org/viaf/316638062> ;
+	wdt:P214 "144230826" ;
+	wdtn:P214 <http://viaf.org/viaf/144230826> ;
+	wdt:P1417 "place/Georgia" ;
+	wdt:P691 "ge129207" ;
+	wdt:P706 wd:Q18869 ;
+	wdt:P948 <http://commons.wikimedia.org/wiki/Special:FilePath/Kazbeg%20banner.jpg> ;
+	wdt:P1740 wd:Q8458101 ;
+	wdt:P2884 "+220"^^xsd:decimal ;
+	wdt:P208 wd:Q2613132 ;
+	wdt:P421 wd:Q6779,
+		wd:Q63285937,
+		wd:Q7805334 ;
+	wdt:P1465 wd:Q6334712 ;
+	wdt:P2347 "106264" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p106264> ;
+	wdt:P85 wd:Q200079 ;
+	wdt:P209 wd:Q5164290 ;
+	wdt:P2250 "+73.261"^^xsd:decimal ;
+	wdt:P373 "Georgia" ;
+	wdt:P78 wd:Q40683 ;
+	wdt:P47 wd:Q399,
+		wd:Q227,
+		wd:Q159,
+		wd:Q43 ;
+	wdt:P1944 <http://commons.wikimedia.org/wiki/Special:FilePath/Relief%20Map%20of%20Georgia.svg> ;
+	wdt:P31 wd:Q3624078 ;
+	wdt:P610 wd:Q217457 ;
+	wdt:P1464 wd:Q8051498 ;
+	wdt:P1813 "🇬🇪"@zxx ;
+	wdt:P3086 "+110"^^xsd:decimal ;
+	wdt:P1621 <http://commons.wikimedia.org/wiki/Special:FilePath/Georgia%20before%20August%202008.svg> ;
+	wdt:P2573 "+21306"^^xsd:decimal ;
+	wdt:P1622 wd:Q14565199 ;
+	wdt:P35 wd:Q272416 ;
+	wdt:P2982 "28" ;
+	wdt:P1589 wd:Q166 ;
+	wdt:P4527 "10435" ;
+	wdtn:P4527 <http://data.parliament.uk/terms/10435> ;
+	wdt:P898 "gɛˈɔɾgjɑ" ;
+	wdt:P5573 "2985" ;
+	wdt:P299 "268" ;
+	wdt:P37 wd:Q8108,
+		wd:Q5111 ;
+	wdt:P150 wd:Q2914461,
+		wd:Q200309,
+		wd:Q200045,
+		wd:Q169674,
+		wd:Q19039,
+		wd:Q200047,
+		wd:Q200048,
+		wd:Q45693,
+		wd:Q19038,
+		wd:Q203339,
+		wd:Q38893,
+		wd:Q994 ;
+	wdt:P474 "+995" ;
+	wdt:P646 "/m/0d0kn" ;
+	wdt:P3175 "uge" ;
+	wdt:P138 wd:Q18973 ;
+	wdt:P244 "n82118923" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/n82118923> ;
+	wdt:P297 "GE" ;
+	wdt:P163 wd:Q26491 ;
+	wdt:P625 "Point(44 42)"^^geo:wktLiteral ;
+	wdt:P901 "GG" ;
+	wdt:P1343 wd:Q2041543,
+		wd:Q63985075,
+		wd:Q867541,
+		wd:Q15987490,
+		wd:Q602358,
+		wd:Q19180675,
+		wd:Q4114391,
+		wd:Q19219752,
+		wd:Q1053256 ;
+	wdt:P41 <http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Georgia.svg> ;
+	wdt:P6150 "4480" ;
+	wdt:P5180 "georgia" ;
+	wdt:P5019 "georgien" ;
+	wdt:P6573 "Georgien" ;
+	wdt:P4801 "countries/gs" ;
+	wdtn:P4801 <http://id.loc.gov/vocabulary/countries/gs> ;
+	wdt:P2936 wd:Q7737,
+		wd:Q8108,
+		wd:Q180945,
+		wd:Q1160372,
+		wd:Q56564,
+		wd:Q5111,
+		wd:Q13257,
+		wd:Q13359,
+		wd:Q29561,
+		wd:Q33259,
+		wd:Q33230,
+		wd:Q33054,
+		wd:Q33968,
+		wd:Q34067,
+		wd:Q34033,
+		wd:Q791623,
+		wd:Q3515311 ;
+	wdt:P5905 "4020-57465" ;
+	wdt:P7012 "georgia" ;
+	wdt:P6766 "85633163" ;
+	wdt:P5002 "168205" ;
+	wdt:P6849 "georgien" ;
+	wdt:P672 "Z01.542.900.420" ;
+	wdtn:P672 <http://id.nlm.nih.gov/mesh/Z01.542.900.420> ;
+	wdt:P672 "Z01.542.931.420" ;
+	wdtn:P672 <http://id.nlm.nih.gov/mesh/Z01.542.931.420> ;
+	wdt:P672 "Z01.586.950.420" ;
+	wdtn:P672 <http://id.nlm.nih.gov/mesh/Z01.586.950.420> ;
+	wdt:P902 "025006" ;
+	wdt:P3067 "486" ;
+	wdt:P2596 wd:Q1456595 ;
+	wdt:P5400 "mXg4QJ" ;
+	wdt:P1344 wd:Q1209169 ;
+	wdt:P7870 "9560" ;
+	wdt:P7867 wd:Q8607373 ;
+	wdt:P2855 "+18"^^xsd:decimal ;
+	wdt:P7818 "Géorgie" ;
+	wdt:P7829 "Georgia_(country)" ;
+	wdt:P7827 "Georgia" ;
+	wdt:P443 <http://commons.wikimedia.org/wiki/Special:FilePath/Lb-Georgien.ogg>,
+		<http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q7913%20%28ron%29-KlaudiuMihaila-Georgia.wav> ;
+	wdt:P5437 "5652" ;
+	wdtn:P5437 <http://eurovoc.europa.eu/5652> ;
+	wdt:P6404 "georgia-stato-della-transcaucasia" ;
+	wdt:P7859 "viaf-244524373" ;
+	wdt:P8402 wd:Q97095681 ;
+	wdt:P8408 "GeorgiaCountry" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/GeorgiaCountry> ;
+	wdt:P8406 "T031424" ;
+	wdtn:P8406 <http://dx.doi.org/10.1093/gao/9781884446054.article.T031424> ;
+	wdt:P8477 "+5.73"^^xsd:decimal,
+		"+6.6"^^xsd:decimal,
+		"+6.03"^^xsd:decimal,
+		"+5.88"^^xsd:decimal,
+		"+6.16"^^xsd:decimal,
+		"+6.31"^^xsd:decimal,
+		"+6.42"^^xsd:decimal,
+		"+6.39"^^xsd:decimal,
+		"+6"^^xsd:decimal ;
+	wdt:P8476 "+5.9"^^xsd:decimal,
+		"+6.36"^^xsd:decimal,
+		"+5.68"^^xsd:decimal,
+		"+5.38"^^xsd:decimal,
+		"+5.76"^^xsd:decimal,
+		"+5.72"^^xsd:decimal,
+		"+5.87"^^xsd:decimal,
+		"+5.86"^^xsd:decimal,
+		"+5.55"^^xsd:decimal ;
+	wdt:P8519 "26874" ;
+	wdtn:P8519 <https://data.rkd.nl/thesau/26874> ;
+	wdt:P3984 "Sakartvelo" ;
+	wdt:P5063 "i84062" ;
+	wdtn:P5063 <http://globalwordnet.org/ili/i84062> ;
+	wdt:P1438 "11321" ;
+	wdt:P8744 wd:Q282182 ;
+	wdt:P8826 "H0010843" ;
+	wdt:P5456 "georgia" ;
+	wdt:P9100 "georgia" ;
+	wdt:P8814 "09041218-n" ;
+	wdtn:P8814 <http://wordnet-rdf.princeton.edu/rdf/id/09041218-n> ;
+	wdt:P9241 wd:Q2359156 ;
+	wdt:P7471 "8857" ;
+	wdt:P7850 "T84-3192" ;
+	wdtn:P7850 <http://data.culture.fr/thesaurus/resource/ark:/67717/T84-3192> ;
+	wdt:P8672 "1255142666557255682" ;
+	wdt:P3553 "20007151" ;
+	wdt:P8217 "2043344" ;
+	wdt:P8935 "Gruziya" ;
+	wdt:P4613 "32079" ;
+	wdt:P6293 "Y106264" ;
+	wdtn:P6293 <http://www.yso.fi/onto/ysa/Y106264> ;
+	wdt:P8309 "18-188442" ;
+	wdt:P6385 "strany_mira/GRUZIYA.html" ;
+	wdt:P4342 "Georgia" ;
+	wdt:P8313 "Georgien" ;
+	wdt:P9629 "2105",
+		"4794" ;
+	wdt:P9757 "5194" ;
+	wdt:P7841 "Վրաստան" ;
+	wdt:P9948 "georgia" ;
+	wdt:P8248 "SG--5858" ;
+	wdt:P92 wd:Q2468398 ;
+	wdt:P8328 "+5.31"^^xsd:decimal ;
+	wdt:P7305 "4169043" ;
+	wdt:P10234 "georgien",
+		"georgia_en" ;
+	wdt:P9084 "georgia" ;
+	wdt:P9957 "7732" ;
+	wdt:P10291 "86806" ;
+	wdt:P8885 "조지아" ;
+	wdt:P10456 "16" ;
+	wdt:P10730 "country/GEO" ;
+	wdt:P9937 "9848" ;
+	wdt:P8168 "Q393650" ;
+	wdtn:P8168 <https://database.factgrid.de/entity/Q393650> ;
+	wdt:P7502 "Georgia_(country)-4AW44" ;
+	wdt:P7127 "georgia" ;
+	wdt:P1081 "+0.802"^^xsd:decimal ;
+	wdt:P9495 "geo/46F85141-0509-4F80-9B7B-CA0F1973588B" ;
+	wdt:P11012 "Q352" ;
+	wdtn:P11012 <https://linkedopendata.eu/entity/Q352> ;
+	wdt:P10280 wd:Q7981817 ;
+	wdt:P2572 "Georgia" ;
+	wdt:P5008 wd:Q6173448 ;
+	wdt:P1125 "+34.5"^^xsd:decimal ;
+	wdt:P8483 "B17" ;
+	wdt:P6778 "00004942" ;
+	wdtn:P6778 <http://purl.obolibrary.org/obo/GAZ_00004942> ;
+	wdt:P11137 "georgia_country" ;
+	wdt:P6706 "Geòrgia+(Stato+del+Caucaso)" ;
+	wdt:P8717 "1585805502" ;
+	wdtn:P8717 <https://metadata.ilo.org/thesaurus/1585805502> ;
+	wdt:P10326 "14331" ;
+	wdt:P2163 "1221658" ;
+	wdtn:P2163 <http://id.worldcat.org/fast/1221658> ;
+	wdt:P268 "11948075h" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb11948075h#about> ;
+	wdt:P268 "15322920c" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb15322920c#about> ;
+	wdt:P268 "116643727" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb116643727#about> ;
+	wdt:P3348 "52221" ;
+	wdtn:P3348 <http://data.nlg.gr/resource/authority/A52221> ;
+	wdt:P271 "DA14282410" ;
+	wdtn:P271 <https://ci.nii.ac.jp/author/DA14282410#entity> ;
+	wdt:P8179 "ncf10204038" ;
+	wdt:P10227 "vtls001152799" ;
+	wdt:P1375 "000269534" ;
+	wdt:P7699 "LNB:V*11519;=BD" ;
+	wdt:P3065 "02-A000077352" ;
+	wdt:P9272 "30923" ;
+	wdt:P6694 "M0009186" ;
+	wdtn:P6694 <http://id.nlm.nih.gov/mesh/M0009186> ;
+	wdt:P6680 "T017697" ;
+	wdtn:P6680 <http://id.nlm.nih.gov/mesh/T017697> ;
+	wdt:P2892 "C0017454" ;
+	wdt:P1748 "C16634" ;
+	wdt:P5806 "223375006" ;
+	wdtn:P5806 <http://snomed.info/id/223375006> ;
+	wdt:P9571 "georgia" ;
+	wdt:P10046 "7100467592452165443" ;
+	wdt:P6265 "20403" ;
+	wdt:P8988 "osm&id=268" ;
+	wdt:P3749 "5733215796351290050" ;
+	wdt:P8370 "1002659" ;
+	wdtn:P8370 <http://metadata.un.org/thesaurus/1002659> ;
+	wdt:P8072 "65645" ;
+	wdt:P8061 "c_33250" ;
+	wdtn:P8061 <http://aims.fao.org/aos/agrovoc/c_33250> ;
+	wdt:P8365 "10042361" ;
+	wdt:P2004 "42792" ;
+	wdtn:P2004 <https://lod.nal.usda.gov/nalt/42792> ;
+	wdt:P3006 "2102" ;
+	wdtn:P3006 <http://marineregions.org/mrgid/2102> ;
+	wdt:P1617 "830bd446-4932-4d77-aa8d-f42a34f406bf" ;
+	wdtn:P1617 <http://www.bbc.co.uk/things/830bd446-4932-4d77-aa8d-f42a34f406bf#id> ;
+	wdt:P4212 "pcrtKd058eA7RH" ;
+	wdtn:P4212 <https://ark.frantiq.fr/ark:/26678/pcrtKd058eA7RH> ;
+	wdt:P6058 "pays/wd/121178" ;
+	wdt:P3222 "georgien",
+		"grusien" ;
+	wdt:P3509 "georgien" ;
+	wdt:P950 "XX451331" ;
+	wdtn:P950 <http://datos.bne.es/resource/XX451331> ;
+	wdt:P3633 "x40859" ;
+	wdt:P3479 "feb564a648e34456ef6f4df8613ee08fc5783dfb" ;
+	wdt:P7666 "sakartvelas" ;
+	wdt:P8349 "24718" ;
+	wdt:P7982 "23590" ;
+	wdt:P5337 "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR1F3YTI0U0FtVnVLQUFQAQ" ;
+	wdt:P9885 "4fe7777a-3d26-0e6a-243d-ae6d45c843c6" ;
+	wdt:P3134 "294194" ;
+	wdt:P2326 "-2327232" ;
+	wdt:P3106 "world/georgia-news" ;
+	wdt:P7284 "country-of-georgia" ;
+	wdt:P3788 "000048681" ;
+	wdt:P4813 "98881" ;
+	wdt:P11547 "+44.3"^^xsd:decimal ;
+	wdt:P1424 wd:Q17588367,
+		wd:Q13156644 ;
+	wdt:P4619 "000086919" ;
+	wdt:P7039 "000077000" ;
+	wdt:P9807 "90425" ;
+	wdt:P8034 "494/32881" ;
+	wdt:P5843 "Georgia" ;
+	wdt:P6839 "UsefulNotes/GeorgiaCaucasus" ;
+	wdt:P8895 "Georgia" ;
+	wdt:P11194 "birthplace/georgia-country" ;
+	wdt:P9982 "92626" ;
+	wdt:P7783 "200906097759310349" ;
+	wdt:P11593 "+0.706"^^xsd:decimal ;
+	wdt:P11693 "432424985" ;
+	wdt:P11496 "1140845216771180032" ;
+	wdtn:P11496 <https://cir.nii.ac.jp/crid/1140845216771180032.rdf> ;
+	wdt:P8189 "987007557547605171" ;
+	wdt:P11835 "3265" ;
+	wdt:P9475 "E0007323" ;
+	wdt:P11897 "TCS-GR" ;
+	wdt:P2131 "+18629365612"^^xsd:decimal,
+		"+24605375420"^^xsd:decimal ;
+	rdfs:label "Гурҷистон"@tg ;
+	skos:prefLabel "Гурҷистон"@tg ;
+	schema:name "Гурҷистон"@tg ;
+	rdfs:label "Gruzínsko"@sk ;
+	skos:prefLabel "Gruzínsko"@sk ;
+	schema:name "Gruzínsko"@sk ;
+	rdfs:label "گرجستان"@pnb ;
+	skos:prefLabel "گرجستان"@pnb ;
+	schema:name "گرجستان"@pnb ;
+	rdfs:label "Djiordjiya"@na ;
+	skos:prefLabel "Djiordjiya"@na ;
+	schema:name "Djiordjiya"@na ;
+	rdfs:label "Грузија"@mk ;
+	skos:prefLabel "Грузија"@mk ;
+	schema:name "Грузија"@mk ;
+	rdfs:label "জর্জিয়া"@bpy ;
+	skos:prefLabel "জর্জিয়া"@bpy ;
+	schema:name "জর্জিয়া"@bpy ;
+	rdfs:label "जॉर्जिया"@hi ;
+	skos:prefLabel "जॉर्जिया"@hi ;
+	schema:name "जॉर्जिया"@hi ;
+	rdfs:label "A' Chairtbheil"@gd ;
+	skos:prefLabel "A' Chairtbheil"@gd ;
+	schema:name "A' Chairtbheil"@gd ;
+	rdfs:label "جارجیا"@ur ;
+	skos:prefLabel "جارجیا"@ur ;
+	schema:name "جارجیا"@ur ;
+	rdfs:label "Joorjiya"@so ;
+	skos:prefLabel "Joorjiya"@so ;
+	schema:name "Joorjiya"@so ;
+	rdfs:label "Juoja"@jam ;
+	skos:prefLabel "Juoja"@jam ;
+	schema:name "Juoja"@jam ;
+	rdfs:label "Грузія"@uk ;
+	skos:prefLabel "Грузія"@uk ;
+	schema:name "Грузія"@uk ;
+	rdfs:label "Гүрж"@bxr ;
+	skos:prefLabel "Гүрж"@bxr ;
+	schema:name "Гүрж"@bxr ;
+	rdfs:label "Jorjiya"@ff ;
+	skos:prefLabel "Jorjiya"@ff ;
+	schema:name "Jorjiya"@ff ;
+	rdfs:label "Gruzia"@za ;
+	skos:prefLabel "Gruzia"@za ;
+	schema:name "Gruzia"@za ;
+	rdfs:label "Georgia"@yo ;
+	skos:prefLabel "Georgia"@yo ;
+	schema:name "Georgia"@yo ;
+	rdfs:label "Geólgia"@ext ;
+	skos:prefLabel "Geólgia"@ext ;
+	schema:name "Geólgia"@ext ;
+	rdfs:label "Georhië"@zea ;
+	skos:prefLabel "Georhië"@zea ;
+	schema:name "Georhië"@zea ;
+	rdfs:label "Georgia"@es ;
+	skos:prefLabel "Georgia"@es ;
+	schema:name "Georgia"@es ;
+	rdfs:label "ଜର୍ଜିଆ"@or ;
+	skos:prefLabel "ଜର୍ଜିଆ"@or ;
+	schema:name "ଜର୍ଜିଆ"@or ;
+	rdfs:label "Грузия Мастор"@myv ;
+	skos:prefLabel "Грузия Мастор"@myv ;
+	schema:name "Грузия Мастор"@myv ;
+	rdfs:label "גרוזיע"@yi ;
+	skos:prefLabel "גרוזיע"@yi ;
+	schema:name "גרוזיע"@yi ;
+	rdfs:label "An tSeoirsia"@ga ;
+	skos:prefLabel "An tSeoirsia"@ga ;
+	schema:name "An tSeoirsia"@ga ;
+	rdfs:label "Grëzóńskô"@csb ;
+	skos:prefLabel "Grëzóńskô"@csb ;
+	schema:name "Grëzóńskô"@csb ;
+	rdfs:label "Gruziya"@gag ;
+	skos:prefLabel "Gruziya"@gag ;
+	schema:name "Gruziya"@gag ;
+	rdfs:label "Georgia"@oc ;
+	skos:prefLabel "Georgia"@oc ;
+	schema:name "Georgia"@oc ;
+	rdfs:label "Geworugiya"@rw ;
+	skos:prefLabel "Geworugiya"@rw ;
+	schema:name "Geworugiya"@rw ;
+	rdfs:label "Georgie"@sco ;
+	skos:prefLabel "Georgie"@sco ;
+	schema:name "Georgie"@sco ;
+	rdfs:label "Grozėjė"@sgs ;
+	skos:prefLabel "Grozėjė"@sgs ;
+	schema:name "Grozėjė"@sgs ;
+	rdfs:label "Gruzeja"@ltg ;
+	skos:prefLabel "Gruzeja"@ltg ;
+	schema:name "Gruzeja"@ltg ;
+	rdfs:label "格鲁吉亚"@zh-sg ;
+	skos:prefLabel "格鲁吉亚"@zh-sg ;
+	schema:name "格鲁吉亚"@zh-sg ;
+	rdfs:label "Jeórjia"@tet ;
+	skos:prefLabel "Jeórjia"@tet ;
+	schema:name "Jeórjia"@tet ;
+	rdfs:label "Gürcüstan"@az ;
+	skos:prefLabel "Gürcüstan"@az ;
+	schema:name "Gürcüstan"@az ;
+	rdfs:label "گرجستون"@mzn ;
+	skos:prefLabel "گرجستون"@mzn ;
+	schema:name "گرجستون"@mzn ;
+	rdfs:label "格鲁吉亚共和国"@zh ;
+	skos:prefLabel "格鲁吉亚共和国"@zh ;
+	schema:name "格鲁吉亚共和国"@zh ;
+	rdfs:label "Georgia"@min ;
+	skos:prefLabel "Georgia"@min ;
+	schema:name "Georgia"@min ;
+	rdfs:label "ಜಾರ್ಜಿಯ"@kn ;
+	skos:prefLabel "ಜಾರ್ಜಿಯ"@kn ;
+	schema:name "ಜಾರ್ಜಿಯ"@kn ;
+	rdfs:label "Georgië"@nl ;
+	skos:prefLabel "Georgië"@nl ;
+	schema:name "Georgië"@nl ;
+	rdfs:label "Гуржистан"@lez ;
+	skos:prefLabel "Гуржистан"@lez ;
+	schema:name "Гуржистан"@lez ;
+	rdfs:label "Xeorxa"@ast ;
+	skos:prefLabel "Xeorxa"@ast ;
+	schema:name "Xeorxa"@ast ;
+	rdfs:label "Georgia"@nap ;
+	skos:prefLabel "Georgia"@nap ;
+	schema:name "Georgia"@nap ;
+	rdfs:label "Georgia"@ms ;
+	skos:prefLabel "Georgia"@ms ;
+	schema:name "Georgia"@ms ;
+	rdfs:label "Georgia"@jv ;
+	skos:prefLabel "Georgia"@jv ;
+	schema:name "Georgia"@jv ;
+	rdfs:label "Georgia"@kl ;
+	skos:prefLabel "Georgia"@kl ;
+	schema:name "Georgia"@kl ;
+	rdfs:label "Gruzija"@lt ;
+	skos:prefLabel "Gruzija"@lt ;
+	schema:name "Gruzija"@lt ;
+	rdfs:label "Гөрҗистан"@tt ;
+	skos:prefLabel "Гөрҗистан"@tt ;
+	schema:name "Гөрҗистан"@tt ;
+	rdfs:label "Гүрж"@mn ;
+	skos:prefLabel "Гүрж"@mn ;
+	schema:name "Гүрж"@mn ;
+	rdfs:label "Geòrgia"@pms ;
+	skos:prefLabel "Geòrgia"@pms ;
+	schema:name "Geòrgia"@pms ;
+	rdfs:label "Ji'oorjiyaa"@om ;
+	skos:prefLabel "Ji'oorjiyaa"@om ;
+	schema:name "Ji'oorjiyaa"@om ;
+	rdfs:label "Gruzija"@sl ;
+	skos:prefLabel "Gruzija"@sl ;
+	schema:name "Gruzija"@sl ;
+	rdfs:label "Gürcistan"@crh ;
+	skos:prefLabel "Gürcistan"@crh ;
+	schema:name "Gürcistan"@crh ;
+	rdfs:label "சியார்சியா"@ta ;
+	skos:prefLabel "சியார்சியா"@ta ;
+	schema:name "சியார்சியா"@ta ;
+	rdfs:label "Jorjiya"@bjn ;
+	skos:prefLabel "Jorjiya"@bjn ;
+	schema:name "Jorjiya"@bjn ;
+	rdfs:label "Georgia"@ro ;
+	skos:prefLabel "Georgia"@ro ;
+	schema:name "Georgia"@ro ;
+	rdfs:label "जॉर्जिया"@bho ;
+	skos:prefLabel "जॉर्जिया"@bho ;
+	schema:name "जॉर्जिया"@bho ;
+	rdfs:label "Гуржи"@av ;
+	skos:prefLabel "Гуржи"@av ;
+	schema:name "Гуржи"@av ;
+	rdfs:label "Georgien"@lb ;
+	skos:prefLabel "Georgien"@lb ;
+	schema:name "Georgien"@lb ;
+	rdfs:label "Georgia"@co ;
+	skos:prefLabel "Georgia"@co ;
+	schema:name "Georgia"@co ;
+	rdfs:label "Georgia"@en-gb ;
+	skos:prefLabel "Georgia"@en-gb ;
+	schema:name "Georgia"@en-gb ;
+	rdfs:label "Gruziya"@kaa ;
+	skos:prefLabel "Gruziya"@kaa ;
+	schema:name "Gruziya"@kaa ;
+	rdfs:label "ګرجستان"@ps ;
+	skos:prefLabel "ګرجستان"@ps ;
+	schema:name "ګرجستان"@ps ;
+	rdfs:label "جورجيا"@aeb-arab ;
+	skos:prefLabel "جورجيا"@aeb-arab ;
+	schema:name "جورجيا"@aeb-arab ;
+	rdfs:label "ປະເທດເຊອັອກຊີ"@lo ;
+	skos:prefLabel "ປະເທດເຊອັອກຊີ"@lo ;
+	schema:name "ປະເທດເຊອັອກຊີ"@lo ;
+	rdfs:label "Georgia"@sw ;
+	skos:prefLabel "Georgia"@sw ;
+	schema:name "Georgia"@sw ;
+	rdfs:label "Georgien"@nds ;
+	skos:prefLabel "Georgien"@nds ;
+	schema:name "Georgien"@nds ;
+	rdfs:label "Georgia"@pag ;
+	skos:prefLabel "Georgia"@pag ;
+	schema:name "Georgia"@pag ;
+	rdfs:label "Georgya"@bcl ;
+	skos:prefLabel "Georgya"@bcl ;
+	schema:name "Georgya"@bcl ;
+	rdfs:label "Georgien"@da ;
+	skos:prefLabel "Georgien"@da ;
+	schema:name "Georgien"@da ;
+	rdfs:label "Geòrgia"@ca ;
+	skos:prefLabel "Geòrgia"@ca ;
+	schema:name "Geòrgia"@ca ;
+	rdfs:label "Γεωργία"@el ;
+	skos:prefLabel "Γεωργία"@el ;
+	schema:name "Γεωργία"@el ;
+	rdfs:label "Gruzija"@lv ;
+	skos:prefLabel "Gruzija"@lv ;
+	schema:name "Gruzija"@lv ;
+	rdfs:label "Georgia"@rup ;
+	skos:prefLabel "Georgia"@rup ;
+	schema:name "Georgia"@rup ;
+	rdfs:label "Грузие"@ady ;
+	skos:prefLabel "Грузие"@ady ;
+	schema:name "Грузие"@ady ;
+	rdfs:label "Georgia"@gom-latn ;
+	skos:prefLabel "Georgia"@gom-latn ;
+	schema:name "Georgia"@gom-latn ;
+	rdfs:label "Yn Çhorshey"@gv ;
+	skos:prefLabel "Yn Çhorshey"@gv ;
+	schema:name "Yn Çhorshey"@gv ;
+	rdfs:label "جورجيا"@ar ;
+	skos:prefLabel "جورجيا"@ar ;
+	schema:name "جورجيا"@ar ;
+	rdfs:label "Georgia"@gn ;
+	skos:prefLabel "Georgia"@gn ;
+	schema:name "Georgia"@gn ;
+	rdfs:label "জর্জিয়া"@bn ;
+	skos:prefLabel "জর্জিয়া"@bn ;
+	schema:name "জর্জিয়া"@bn ;
+	rdfs:label "Jorja"@pih ;
+	skos:prefLabel "Jorja"@pih ;
+	schema:name "Jorja"@pih ;
+	rdfs:label "Georgia"@ki ;
+	skos:prefLabel "Georgia"@ki ;
+	schema:name "Georgia"@ki ;
+	rdfs:label "Gruzyjo"@szl ;
+	skos:prefLabel "Gruzyjo"@szl ;
+	schema:name "Gruzyjo"@szl ;
+	rdfs:label "Georgia"@ace ;
+	skos:prefLabel "Georgia"@ace ;
+	schema:name "Georgia"@ace ;
+	rdfs:label "Грузи"@cv ;
+	skos:prefLabel "Грузи"@cv ;
+	schema:name "Грузи"@cv ;
+	rdfs:label "Geórgia"@pt ;
+	skos:prefLabel "Geórgia"@pt ;
+	schema:name "Geórgia"@pt ;
+	rdfs:label "Gürcistan"@crh-latn ;
+	skos:prefLabel "Gürcistan"@crh-latn ;
+	schema:name "Gürcistan"@crh-latn ;
+	rdfs:label "Gruzia"@io ;
+	skos:prefLabel "Gruzia"@io ;
+	schema:name "Gruzia"@io ;
+	rdfs:label "Грузия"@ru ;
+	skos:prefLabel "Грузия"@ru ;
+	schema:name "Грузия"@ru ;
+	rdfs:label "Georgia"@tpi ;
+	skos:prefLabel "Georgia"@tpi ;
+	schema:name "Georgia"@tpi ;
+	rdfs:label "Georgia"@tl ;
+	skos:prefLabel "Georgia"@tl ;
+	schema:name "Georgia"@tl ;
+	rdfs:label "Georgia"@ha ;
+	skos:prefLabel "Georgia"@ha ;
+	schema:name "Georgia"@ha ;
+	rdfs:label "گورجیستان"@azb ;
+	skos:prefLabel "گورجیستان"@azb ;
+	schema:name "گورجیستان"@azb ;
+	rdfs:label "Cheorchia"@an ;
+	skos:prefLabel "Cheorchia"@an ;
+	schema:name "Cheorchia"@an ;
+	rdfs:label "Վրաստան"@hy ;
+	skos:prefLabel "Վրաստան"@hy ;
+	schema:name "Վրաստան"@hy ;
+	rdfs:label "Gruzii"@vep ;
+	skos:prefLabel "Gruzii"@vep ;
+	schema:name "Gruzii"@vep ;
+	rdfs:label "जर्जिया"@mai ;
+	skos:prefLabel "जर्जिया"@mai ;
+	schema:name "जर्जिया"@mai ;
+	rdfs:label "Georgia"@nov ;
+	skos:prefLabel "Georgia"@nov ;
+	schema:name "Georgia"@nov ;
+	rdfs:label "जर्जिया"@ne ;
+	skos:prefLabel "जर्जिया"@ne ;
+	schema:name "जर्जिया"@ne ;
+	rdfs:label "Қырҭтәыла"@ab ;
+	skos:prefLabel "Қырҭтәыла"@ab ;
+	schema:name "Қырҭтәыла"@ab ;
+	rdfs:label "Georgien"@de ;
+	skos:prefLabel "Georgien"@de ;
+	schema:name "Georgien"@de ;
+	rdfs:label "Siaosia"@sm ;
+	skos:prefLabel "Siaosia"@sm ;
+	schema:name "Siaosia"@sm ;
+	rdfs:label "Georgya"@pam ;
+	skos:prefLabel "Georgya"@pam ;
+	schema:name "Georgya"@pam ;
+	rdfs:label "Georgia"@war ;
+	skos:prefLabel "Georgia"@war ;
+	schema:name "Georgia"@war ;
+	rdfs:label "Хъырцей"@kbd ;
+	skos:prefLabel "Хъырцей"@kbd ;
+	schema:name "Хъырцей"@kbd ;
+	rdfs:label "Грузия"@mdf ;
+	skos:prefLabel "Грузия"@mdf ;
+	schema:name "Грузия"@mdf ;
+	rdfs:label "گورجستان"@lrc ;
+	skos:prefLabel "گورجستان"@lrc ;
+	schema:name "گورجستان"@lrc ;
+	rdfs:label "Georgia"@en ;
+	skos:prefLabel "Georgia"@en ;
+	schema:name "Georgia"@en ;
+	rdfs:label "জৰ্জিয়া"@as ;
+	skos:prefLabel "জৰ্জিয়া"@as ;
+	schema:name "জৰ্জিয়া"@as ;
+	rdfs:label "گرجستان"@bgn ;
+	skos:prefLabel "گرجستان"@bgn ;
+	schema:name "گرجستان"@bgn ;
+	rdfs:label "Geörgje"@fy ;
+	skos:prefLabel "Geörgje"@fy ;
+	schema:name "Geörgje"@fy ;
+	rdfs:label "ဂျော်ဂျီယာနိုင်ငံ"@my ;
+	skos:prefLabel "ဂျော်ဂျီယာနိုင်ငံ"@my ;
+	schema:name "ဂျော်ဂျီယာနိုင်ငံ"@my ;
+	rdfs:label "格鲁吉亚"@zh-cn ;
+	skos:prefLabel "格鲁吉亚"@zh-cn ;
+	schema:name "格鲁吉亚"@zh-cn ;
+	rdfs:label "Georgia"@sma ;
+	skos:prefLabel "Georgia"@sma ;
+	schema:name "Georgia"@sma ;
+	rdfs:label "ཇཽ་ཇཱ"@dz ;
+	skos:prefLabel "ཇཽ་ཇཱ"@dz ;
+	schema:name "ཇཽ་ཇཱ"@dz ;
+	rdfs:label "Gruusia"@et ;
+	skos:prefLabel "Gruusia"@et ;
+	schema:name "Gruusia"@et ;
+	rdfs:label "Georgia"@cbk-zam ;
+	skos:prefLabel "Georgia"@cbk-zam ;
+	schema:name "Georgia"@cbk-zam ;
+	rdfs:label "Jeoorji"@wo ;
+	skos:prefLabel "Jeoorji"@wo ;
+	schema:name "Jeoorji"@wo ;
+	rdfs:label "Гуырдзыстон"@os ;
+	skos:prefLabel "Гуырдзыстон"@os ;
+	schema:name "Гуырдзыстон"@os ;
+	rdfs:label "喬治亞"@zh-tw ;
+	skos:prefLabel "喬治亞"@zh-tw ;
+	schema:name "喬治亞"@zh-tw ;
+	rdfs:label "Georgia"@nn ;
+	skos:prefLabel "Georgia"@nn ;
+	schema:name "Georgia"@nn ;
+	rdfs:label "ᏣᎠᏥᎢ"@chr ;
+	skos:prefLabel "ᏣᎠᏥᎢ"@chr ;
+	schema:name "ᏣᎠᏥᎢ"@chr ;
+	rdfs:label "格鲁吉亚"@wuu ;
+	skos:prefLabel "格鲁吉亚"@wuu ;
+	schema:name "格鲁吉亚"@wuu ;
+	rdfs:label "Xeorxia"@gl ;
+	skos:prefLabel "Xeorxia"@gl ;
+	schema:name "Xeorxia"@gl ;
+	rdfs:label "Kartvelio"@eo ;
+	skos:prefLabel "Kartvelio"@eo ;
+	schema:name "Kartvelio"@eo ;
+	rdfs:label "Georgia"@ee ;
+	skos:prefLabel "Georgia"@ee ;
+	schema:name "Georgia"@ee ;
+	rdfs:label "Georgian Republic"@bi ;
+	skos:prefLabel "Georgian Republic"@bi ;
+	schema:name "Georgian Republic"@bi ;
+	rdfs:label "Georgia"@kg ;
+	skos:prefLabel "Georgia"@kg ;
+	schema:name "Georgia"@kg ;
+	rdfs:label "ജോർജ്ജിയ"@ml ;
+	skos:prefLabel "ജോർജ്ജിയ"@ml ;
+	schema:name "ജോർജ്ജിയ"@ml ;
+	rdfs:label "گورجستان"@ckb ;
+	skos:prefLabel "گورجستان"@ckb ;
+	schema:name "گورجستان"@ckb ;
+	rdfs:label "Géorgie"@ln ;
+	skos:prefLabel "Géorgie"@ln ;
+	schema:name "Géorgie"@ln ;
+	rdfs:label "Jôrg·ie"@frp ;
+	skos:prefLabel "Jôrg·ie"@frp ;
+	schema:name "Jôrg·ie"@frp ;
+	rdfs:label "Georgia"@cy ;
+	skos:prefLabel "Georgia"@cy ;
+	schema:name "Georgia"@cy ;
+	rdfs:label "Georgia"@la ;
+	skos:prefLabel "Georgia"@la ;
+	schema:name "Georgia"@la ;
+	rdfs:label "Грузия"@ky ;
+	skos:prefLabel "Грузия"@ky ;
+	schema:name "Грузия"@ky ;
+	rdfs:label "जॉर्जिया"@mr ;
+	skos:prefLabel "जॉर्जिया"@mr ;
+	schema:name "जॉर्जिया"@mr ;
+	rdfs:label "Georgia"@fo ;
+	skos:prefLabel "Georgia"@fo ;
+	schema:name "Georgia"@fo ;
+	rdfs:label "Géorgie"@fr ;
+	skos:prefLabel "Géorgie"@fr ;
+	schema:name "Géorgie"@fr ;
+	rdfs:label "Georgía"@is ;
+	skos:prefLabel "Georgía"@is ;
+	schema:name "Georgía"@is ;
+	rdfs:label "Georgiska"@hsb ;
+	skos:prefLabel "Georgiska"@hsb ;
+	schema:name "Georgiska"@hsb ;
+	rdfs:label "Georgia"@mt ;
+	skos:prefLabel "Georgia"@mt ;
+	schema:name "Georgia"@mt ;
+	rdfs:label "Georgië"@li ;
+	skos:prefLabel "Georgië"@li ;
+	schema:name "Georgië"@li ;
+	rdfs:label "Gruusia"@vro ;
+	skos:prefLabel "Gruusia"@vro ;
+	schema:name "Gruusia"@vro ;
+	rdfs:label "Georgia"@fi ;
+	skos:prefLabel "Georgia"@fi ;
+	schema:name "Georgia"@fi ;
+	rdfs:label "喬治亞"@zh-hant ;
+	skos:prefLabel "喬治亞"@zh-hant ;
+	schema:name "喬治亞"@zh-hant ;
+	rdfs:label "Georgia"@id ;
+	skos:prefLabel "Georgia"@id ;
+	schema:name "Georgia"@id ;
+	rdfs:label "जॉर्जिया"@gom ;
+	skos:prefLabel "जॉर्जिया"@gom ;
+	schema:name "जॉर्जिया"@gom ;
+	rdfs:label "જ્યોર્જીયા"@gu ;
+	skos:prefLabel "જ્યોર્જીયા"@gu ;
+	schema:name "જ્યોર્જીયા"@gu ;
+	rdfs:label "Géorgia"@su ;
+	skos:prefLabel "Géorgia"@su ;
+	schema:name "Géorgia"@su ;
+	rdfs:label "Гуржехье"@inh ;
+	skos:prefLabel "Гуржехье"@inh ;
+	schema:name "Гуржехье"@inh ;
+	rdfs:label "Georgia"@ia ;
+	skos:prefLabel "Georgia"@ia ;
+	schema:name "Georgia"@ia ;
+	rdfs:label "ਜਾਰਜੀਆ"@pa ;
+	skos:prefLabel "ਜਾਰਜੀਆ"@pa ;
+	schema:name "ਜਾਰਜੀਆ"@pa ;
+	rdfs:label "Járjíá"@brh ;
+	skos:prefLabel "Járjíá"@brh ;
+	schema:name "Járjíá"@brh ;
+	rdfs:label "Gruzia"@vi ;
+	skos:prefLabel "Gruzia"@vi ;
+	schema:name "Gruzia"@vi ;
+	rdfs:label "Georgia"@ilo ;
+	skos:prefLabel "Georgia"@ilo ;
+	schema:name "Georgia"@ilo ;
+	rdfs:label "Гуржисттан"@lbe ;
+	skos:prefLabel "Гуржисттан"@lbe ;
+	schema:name "Гуржисттан"@lbe ;
+	rdfs:label "Georgië"@af ;
+	skos:prefLabel "Georgië"@af ;
+	schema:name "Georgië"@af ;
+	rdfs:label "Georgia"@ceb ;
+	skos:prefLabel "Georgia"@ceb ;
+	schema:name "Georgia"@ceb ;
+	rdfs:label "Гюрджю"@krc ;
+	skos:prefLabel "Гюрджю"@krc ;
+	schema:name "Гюрджю"@krc ;
+	rdfs:label "Georgia"@nb ;
+	skos:prefLabel "Georgia"@nb ;
+	schema:name "Georgia"@nb ;
+	rdfs:label "Georgie"@gsw ;
+	skos:prefLabel "Georgie"@gsw ;
+	schema:name "Georgie"@gsw ;
+	rdfs:label "ජෝර්ජියා"@si ;
+	skos:prefLabel "ජෝර්ජියා"@si ;
+	schema:name "ජෝර්ජියා"@si ;
+	rdfs:label "格鲁吉亚"@zh-hans ;
+	skos:prefLabel "格鲁吉亚"@zh-hans ;
+	schema:name "格鲁吉亚"@zh-hans ;
+	rdfs:label "Georgien"@sv ;
+	skos:prefLabel "Georgien"@sv ;
+	schema:name "Georgien"@sv ;
+	rdfs:label "Georgien"@de-ch ;
+	skos:prefLabel "Georgien"@de-ch ;
+	schema:name "Georgien"@de-ch ;
+	rdfs:label "Giorgia"@scn ;
+	skos:prefLabel "Giorgia"@scn ;
+	schema:name "Giorgia"@scn ;
+	rdfs:label "Jurjya"@kab ;
+	skos:prefLabel "Jurjya"@kab ;
+	schema:name "Jurjya"@kab ;
+	rdfs:label "Грузия"@bg ;
+	skos:prefLabel "Грузия"@bg ;
+	schema:name "Грузия"@bg ;
+	rdfs:label "Georgia"@eu ;
+	skos:prefLabel "Georgia"@eu ;
+	schema:name "Georgia"@eu ;
+	rdfs:label "საქორთუო"@xmf ;
+	skos:prefLabel "საქორთუო"@xmf ;
+	schema:name "საქორთუო"@xmf ;
+	rdfs:label "Grusiyän"@vo ;
+	skos:prefLabel "Grusiyän"@vo ;
+	schema:name "Grusiyän"@vo ;
+	rdfs:label "Georgien"@bar ;
+	skos:prefLabel "Georgien"@bar ;
+	schema:name "Georgien"@bar ;
+	rdfs:label "Georgia"@pap ;
+	skos:prefLabel "Georgia"@pap ;
+	schema:name "Georgia"@pap ;
+	rdfs:label "जॉर्जिया"@gom-deva ;
+	skos:prefLabel "जॉर्जिया"@gom-deva ;
+	schema:name "जॉर्जिया"@gom-deva ;
+	rdfs:label "Keokia"@haw ;
+	skos:prefLabel "Keokia"@haw ;
+	schema:name "Keokia"@haw ;
+	rdfs:label "Georgia"@tum ;
+	skos:prefLabel "Georgia"@tum ;
+	schema:name "Georgia"@tum ;
+	rdfs:label "Géorgie"@pcd ;
+	skos:prefLabel "Géorgie"@pcd ;
+	schema:name "Géorgie"@pcd ;
+	rdfs:label "Jeorjia"@mg ;
+	skos:prefLabel "Jeorjia"@mg ;
+	schema:name "Jeorjia"@mg ;
+	rdfs:label "जार्जिया"@sa ;
+	skos:prefLabel "जार्जिया"@sa ;
+	schema:name "जार्जिया"@sa ;
+	rdfs:label "גאורגיה"@he ;
+	skos:prefLabel "גאורגיה"@he ;
+	schema:name "גאורגיה"@he ;
+	rdfs:label "Georgiska"@dsb ;
+	skos:prefLabel "Georgiska"@dsb ;
+	schema:name "Georgiska"@dsb ;
+	rdfs:label "Gruuzii"@olo ;
+	skos:prefLabel "Gruuzii"@olo ;
+	schema:name "Gruuzii"@olo ;
+	rdfs:label "Zeòrza"@vec ;
+	skos:prefLabel "Zeòrza"@vec ;
+	schema:name "Zeòrza"@vec ;
+	rdfs:label "Gruzia"@cdo ;
+	skos:prefLabel "Gruzia"@cdo ;
+	schema:name "Gruzia"@cdo ;
+	rdfs:label "Gruzia"@nan ;
+	skos:prefLabel "Gruzia"@nan ;
+	schema:name "Gruzia"@nan ;
+	rdfs:label "Gurcıstan"@diq ;
+	skos:prefLabel "Gurcıstan"@diq ;
+	schema:name "Gurcıstan"@diq ;
+	rdfs:label "گرجستان"@fa ;
+	skos:prefLabel "گرجستان"@fa ;
+	schema:name "گرجستان"@fa ;
+	rdfs:label "Gruzija"@bs ;
+	skos:prefLabel "Gruzija"@bs ;
+	schema:name "Gruzija"@bs ;
+	rdfs:label "جارجيا"@sd ;
+	skos:prefLabel "جارجيا"@sd ;
+	schema:name "جارجيا"@sd ;
+	rdfs:label "Gruzija"@sh ;
+	skos:prefLabel "Gruzija"@sh ;
+	schema:name "Gruzija"@sh ;
+	rdfs:label "Grúzia"@hu ;
+	skos:prefLabel "Grúzia"@hu ;
+	schema:name "Grúzia"@hu ;
+	rdfs:label "格魯吉亞"@yue ;
+	skos:prefLabel "格魯吉亞"@yue ;
+	schema:name "格魯吉亞"@yue ;
+	rdfs:label "జార్జియా"@te ;
+	skos:prefLabel "జార్జియా"@te ;
+	schema:name "జార్జియా"@te ;
+	rdfs:label "जर्जिया"@dty ;
+	skos:prefLabel "जर्जिया"@dty ;
+	schema:name "जर्जिया"@dty ;
+	rdfs:label "Грузия"@ba ;
+	skos:prefLabel "Грузия"@ba ;
+	schema:name "Грузия"@ba ;
+	rdfs:label "Грузия"@sah ;
+	skos:prefLabel "Грузия"@sah ;
+	schema:name "Грузия"@sah ;
+	rdfs:label "Georgia"@ang ;
+	skos:prefLabel "Georgia"@ang ;
+	schema:name "Georgia"@ang ;
+	rdfs:label "जार्जिया-देश:"@pi ;
+	skos:prefLabel "जार्जिया-देश:"@pi ;
+	schema:name "जार्जिया-देश:"@pi ;
+	rdfs:label "Gurjiston"@uz ;
+	skos:prefLabel "Gurjiston"@uz ;
+	schema:name "Gurjiston"@uz ;
+	rdfs:label "Gruziýa"@tk ;
+	skos:prefLabel "Gruziýa"@tk ;
+	schema:name "Gruziýa"@tk ;
+	rdfs:label "Georgia"@hif ;
+	skos:prefLabel "Georgia"@hif ;
+	schema:name "Georgia"@hif ;
+	rdfs:label "Гүрҗмүдин Орн"@xal ;
+	skos:prefLabel "Гүрҗмүдин Орн"@xal ;
+	schema:name "Гүрҗмүдин Орн"@xal ;
+	rdfs:label "Гєѡргїꙗ"@cu ;
+	skos:prefLabel "Гєѡргїꙗ"@cu ;
+	schema:name "Гєѡргїꙗ"@cu ;
+	rdfs:label "ज्योर्जिया"@new ;
+	skos:prefLabel "ज्योर्जिया"@new ;
+	schema:name "ज्योर्जिया"@new ;
+	rdfs:label "Грузія"@be-tarask ;
+	skos:prefLabel "Грузія"@be-tarask ;
+	schema:name "Грузія"@be-tarask ;
+	rdfs:label "Georgia"@sn ;
+	skos:prefLabel "Georgia"@sn ;
+	schema:name "Georgia"@sn ;
+	rdfs:label "조지아"@ko ;
+	skos:prefLabel "조지아"@ko ;
+	schema:name "조지아"@ko ;
+	rdfs:label "Georgia"@ie ;
+	skos:prefLabel "Georgia"@ie ;
+	schema:name "Georgia"@ie ;
+	rdfs:label "Jeoji"@ht ;
+	skos:prefLabel "Jeoji"@ht ;
+	schema:name "Jeoji"@ht ;
+	rdfs:label "Грузія"@be ;
+	skos:prefLabel "Грузія"@be ;
+	schema:name "Грузія"@be ;
+	rdfs:label "საქართველო"@ka ;
+	skos:prefLabel "საქართველო"@ka ;
+	schema:name "საქართველო"@ka ;
+	rdfs:label "Гуьржийчоь"@ce ;
+	skos:prefLabel "Гуьржийчоь"@ce ;
+	schema:name "Гуьржийчоь"@ce ;
+	rdfs:label "Грузия"@kv ;
+	skos:prefLabel "Грузия"@kv ;
+	schema:name "Грузия"@kv ;
+	rdfs:label "Georgien"@stq ;
+	skos:prefLabel "Georgien"@stq ;
+	schema:name "Georgien"@stq ;
+	rdfs:label "格魯吉亞"@zh-hk ;
+	skos:prefLabel "格魯吉亞"@zh-hk ;
+	schema:name "格魯吉亞"@zh-hk ;
+	rdfs:label "འཇོར་ཇི་ཡ།"@bo ;
+	skos:prefLabel "འཇོར་ཇི་ཡ།"@bo ;
+	schema:name "འཇོར་ཇི་ཡ།"@bo ;
+	rdfs:label "Hōria"@mi ;
+	skos:prefLabel "Hōria"@mi ;
+	schema:name "Hōria"@mi ;
+	rdfs:label "Gruzja"@pl ;
+	skos:prefLabel "Gruzja"@pl ;
+	schema:name "Gruzja"@pl ;
+	rdfs:label "Georgia"@en-ca ;
+	skos:prefLabel "Georgia"@en-ca ;
+	schema:name "Georgia"@en-ca ;
+	rdfs:label "Georgien"@de-at ;
+	skos:prefLabel "Georgien"@de-at ;
+	schema:name "Georgien"@de-at ;
+	rdfs:label "ጂዮርጂያ"@am ;
+	skos:prefLabel "ጂዮርጂያ"@am ;
+	schema:name "ጂዮርጂያ"@am ;
+	rdfs:label "Gruzija"@sr-el ;
+	skos:prefLabel "Gruzija"@sr-el ;
+	schema:name "Gruzija"@sr-el ;
+	rdfs:label "Грузия"@udm ;
+	skos:prefLabel "Грузия"@udm ;
+	schema:name "Грузия"@udm ;
+	rdfs:label "Грузия"@kk ;
+	skos:prefLabel "Грузия"@kk ;
+	schema:name "Грузия"@kk ;
+	rdfs:label "Georgia"@it ;
+	skos:prefLabel "Georgia"@it ;
+	schema:name "Georgia"@it ;
+	rdfs:label "Georgien"@frr ;
+	skos:prefLabel "Georgien"@frr ;
+	schema:name "Georgien"@frr ;
+	rdfs:label "Georgië"@vls ;
+	skos:prefLabel "Georgië"@vls ;
+	schema:name "Georgië"@vls ;
+	rdfs:label "Gjeorgjia"@sq ;
+	skos:prefLabel "Gjeorgjia"@sq ;
+	schema:name "Gjeorgjia"@sq ;
+	rdfs:label "Γρουζία"@pnt ;
+	skos:prefLabel "Γρουζία"@pnt ;
+	schema:name "Γρουζία"@pnt ;
+	rdfs:label "Geórgia"@pt-br ;
+	skos:prefLabel "Geórgia"@pt-br ;
+	schema:name "Geórgia"@pt-br ;
+	rdfs:label "Грузий"@mhr ;
+	skos:prefLabel "Грузий"@mhr ;
+	schema:name "Грузий"@mhr ;
+	rdfs:label "گرۇزىيە"@ug ;
+	skos:prefLabel "گرۇزىيە"@ug ;
+	schema:name "گرۇزىيە"@ug ;
+	rdfs:label "Ґрузія"@rue ;
+	skos:prefLabel "Ґрузія"@rue ;
+	schema:name "Ґрузія"@rue ;
+	rdfs:label "Georgia"@sc ;
+	skos:prefLabel "Georgia"@sc ;
+	schema:name "Georgia"@sc ;
+	rdfs:label "Gurcistan"@ku ;
+	skos:prefLabel "Gurcistan"@ku ;
+	schema:name "Gurcistan"@ku ;
+	rdfs:label "ܓܘܪܓܝܐ"@arc ;
+	skos:prefLabel "ܓܘܪܓܝܐ"@arc ;
+	schema:name "ܓܘܪܓܝܐ"@arc ;
+	rdfs:label "IJojiya"@ss ;
+	skos:prefLabel "IJojiya"@ss ;
+	schema:name "IJojiya"@ss ;
+	rdfs:label "Georgia"@ts ;
+	skos:prefLabel "Georgia"@ts ;
+	schema:name "Georgia"@ts ;
+	rdfs:label "ޖޯޖިޔާ"@dv ;
+	skos:prefLabel "ޖޯޖިޔާ"@dv ;
+	schema:name "ޖޯޖިޔާ"@dv ;
+	rdfs:label "جورجيا"@arz ;
+	skos:prefLabel "جورجيا"@arz ;
+	schema:name "جورجيا"@arz ;
+	rdfs:label "Georgia"@se ;
+	skos:prefLabel "Georgia"@se ;
+	schema:name "Georgia"@se ;
+	rdfs:label "Georgia"@nah ;
+	skos:prefLabel "Georgia"@nah ;
+	schema:name "Georgia"@nah ;
+	rdfs:label "Kartulsuyu"@qu ;
+	skos:prefLabel "Kartulsuyu"@qu ;
+	schema:name "Kartulsuyu"@qu ;
+	rdfs:label "Gruzie"@cs ;
+	skos:prefLabel "Gruzie"@cs ;
+	schema:name "Gruzie"@cs ;
+	rdfs:label "Geòrgia"@lij ;
+	skos:prefLabel "Geòrgia"@lij ;
+	schema:name "Geòrgia"@lij ;
+	rdfs:label "Sacartvelo"@lfn ;
+	skos:prefLabel "Sacartvelo"@lfn ;
+	schema:name "Sacartvelo"@lfn ;
+	rdfs:label "Грузи"@mrj ;
+	skos:prefLabel "Грузи"@mrj ;
+	schema:name "Грузи"@mrj ;
+	rdfs:label "Грузија"@sr-ec ;
+	skos:prefLabel "Грузија"@sr-ec ;
+	schema:name "Грузија"@sr-ec ;
+	rdfs:label "Gruzija"@hr ;
+	skos:prefLabel "Gruzija"@hr ;
+	schema:name "Gruzija"@hr ;
+	rdfs:label "ジョージア"@ja ;
+	skos:prefLabel "ジョージア"@ja ;
+	schema:name "ジョージア"@ja ;
+	rdfs:label "Gürcistan"@tr ;
+	skos:prefLabel "Gürcistan"@tr ;
+	schema:name "Gürcistan"@tr ;
+	rdfs:label "Jorjia"@br ;
+	skos:prefLabel "Jorjia"@br ;
+	schema:name "Jorjia"@br ;
+	rdfs:label "格魯吉亞"@lzh ;
+	skos:prefLabel "格魯吉亞"@lzh ;
+	schema:name "格魯吉亞"@lzh ;
+	rdfs:label "Pow Grouzi"@kw ;
+	skos:prefLabel "Pow Grouzi"@kw ;
+	schema:name "Pow Grouzi"@kw ;
+	rdfs:label "Georgia"@lmo ;
+	skos:prefLabel "Georgia"@lmo ;
+	schema:name "Georgia"@lmo ;
+	rdfs:label "ประเทศจอร์เจีย"@th ;
+	skos:prefLabel "ประเทศจอร์เจีย"@th ;
+	schema:name "ประเทศจอร์เจีย"@th ;
+	rdfs:label "Gruzia"@hak ;
+	skos:prefLabel "Gruzia"@hak ;
+	schema:name "Gruzia"@hak ;
+	rdfs:label "Georgië"@nds-nl ;
+	skos:prefLabel "Georgië"@nds-nl ;
+	schema:name "Georgië"@nds-nl ;
+	rdfs:label "Грузија"@sr ;
+	skos:prefLabel "Грузија"@sr ;
+	schema:name "Грузија"@sr ;
+	rdfs:label "ᱡᱚᱨᱡᱤᱭᱟ"@sat ;
+	skos:prefLabel "ᱡᱚᱨᱡᱤᱭᱟ"@sat ;
+	schema:name "ᱡᱚᱨᱡᱤᱭᱟ"@sat ;
+	rdfs:label "Վրաստան"@hyw ;
+	skos:prefLabel "Վրաստան"@hyw ;
+	schema:name "Վրաստան"@hyw ;
+	rdfs:label "Kartulsuyu"@ay ;
+	skos:prefLabel "Kartulsuyu"@ay ;
+	schema:name "Kartulsuyu"@ay ;
+	rdfs:label "格鲁吉亚"@zh-my ;
+	skos:prefLabel "格鲁吉亚"@zh-my ;
+	schema:name "格鲁吉亚"@zh-my ;
+	rdfs:label "Georgia"@fj ;
+	skos:prefLabel "Georgia"@fj ;
+	schema:name "Georgia"@fj ;
+	rdfs:label "Georgia"@ban ;
+	skos:prefLabel "Georgia"@ban ;
+	schema:name "Georgia"@ban ;
+	rdfs:label "𐌲𐌴𐌰𐌿𐍂𐌲𐌾𐌰"@got ;
+	skos:prefLabel "𐌲𐌴𐌰𐌿𐍂𐌲𐌾𐌰"@got ;
+	schema:name "𐌲𐌴𐌰𐌿𐍂𐌲𐌾𐌰"@got ;
+	rdfs:label "Georgia"@szy ;
+	skos:prefLabel "Georgia"@szy ;
+	schema:name "Georgia"@szy ;
+	rdfs:label "Jéyòrji (péyi)"@gcr ;
+	skos:prefLabel "Jéyòrji (péyi)"@gcr ;
+	schema:name "Jéyòrji (péyi)"@gcr ;
+	rdfs:label "ចចជី"@km ;
+	skos:prefLabel "ចចជី"@km ;
+	schema:name "ចចជី"@km ;
+	rdfs:label "格魯吉亞"@zh-mo ;
+	skos:prefLabel "格魯吉亞"@zh-mo ;
+	schema:name "格魯吉亞"@zh-mo ;
+	rdfs:label "ጆርጂያ"@ti ;
+	skos:prefLabel "ጆርጂያ"@ti ;
+	schema:name "ጆርጂያ"@ti ;
+	rdfs:label "جورجيا"@ary ;
+	skos:prefLabel "جورجيا"@ary ;
+	schema:name "جورجيا"@ary ;
+	rdfs:label "မိူင်းၵျေႃႇၵျႃႇ"@shn ;
+	skos:prefLabel "မိူင်းၵျေႃႇၵျႃႇ"@shn ;
+	schema:name "မိူင်းၵျေႃႇၵျႃႇ"@shn ;
+	rdfs:label "जर्जिया"@awa ;
+	skos:prefLabel "जर्जिया"@awa ;
+	schema:name "जर्जिया"@awa ;
+	rdfs:label "Georgia"@smn ;
+	skos:prefLabel "Georgia"@smn ;
+	schema:name "Georgia"@smn ;
+	rdfs:label "Georgia"@sms ;
+	skos:prefLabel "Georgia"@sms ;
+	schema:name "Georgia"@sms ;
+	rdfs:label "Гөрҗистан"@tt-cyrl ;
+	skos:prefLabel "Гөрҗистан"@tt-cyrl ;
+	schema:name "Гөрҗистан"@tt-cyrl ;
+	rdfs:label "Georgia"@ak ;
+	skos:prefLabel "Georgia"@ak ;
+	schema:name "Georgia"@ak ;
+	rdfs:label "Sakartvela"@avk ;
+	skos:prefLabel "Sakartvela"@avk ;
+	schema:name "Sakartvela"@avk ;
+	rdfs:label "Georgie"@pdc ;
+	skos:prefLabel "Georgie"@pdc ;
+	schema:name "Georgie"@pdc ;
+	rdfs:label "Dził Daantsaaítah Bilagáana Bikéyah"@nv ;
+	skos:prefLabel "Dził Daantsaaítah Bilagáana Bikéyah"@nv ;
+	schema:name "Dził Daantsaaítah Bilagáana Bikéyah"@nv ;
+	rdfs:label "Geòrgia"@eml ;
+	skos:prefLabel "Geòrgia"@eml ;
+	schema:name "Geòrgia"@eml ;
+	rdfs:label "Georgikondre"@srn ;
+	skos:prefLabel "Georgikondre"@srn ;
+	schema:name "Georgikondre"@srn ;
+	rdfs:label "Georgia"@tay ;
+	skos:prefLabel "Georgia"@tay ;
+	schema:name "Georgia"@tay ;
+	rdfs:label "Georgia"@mad ;
+	skos:prefLabel "Georgia"@mad ;
+	schema:name "Georgia"@mad ;
+	rdfs:label "Jorjiya (them)"@rmy ;
+	skos:prefLabel "Jorjiya (them)"@rmy ;
+	schema:name "Jorjiya (them)"@rmy ;
+	rdfs:label "Georgia"@trv ;
+	skos:prefLabel "Georgia"@trv ;
+	schema:name "Georgia"@trv ;
+	rdfs:label "Georgia"@ami ;
+	skos:prefLabel "Georgia"@ami ;
+	schema:name "Georgia"@ami ;
+	rdfs:label "Georgia"@dag ;
+	skos:prefLabel "Georgia"@dag ;
+	schema:name "Georgia"@dag ;
+	rdfs:label "Georgia"@nso ;
+	skos:prefLabel "Georgia"@nso ;
+	schema:name "Georgia"@nso ;
+	rdfs:label "Georgia"@lld ;
+	skos:prefLabel "Georgia"@lld ;
+	schema:name "Georgia"@lld ;
+	rdfs:label "Heorhiya"@krj ;
+	skos:prefLabel "Heorhiya"@krj ;
+	schema:name "Heorhiya"@krj ;
+	rdfs:label "Georgia"@map-bms ;
+	skos:prefLabel "Georgia"@map-bms ;
+	schema:name "Georgia"@map-bms ;
+	rdfs:label "Seōsia"@to ;
+	skos:prefLabel "Seōsia"@to ;
+	schema:name "Seōsia"@to ;
+	rdfs:label "ma Katelo"@tok ;
+	skos:prefLabel "ma Katelo"@tok ;
+	schema:name "ma Katelo"@tok ;
+	rdfs:label "Geórgia"@mwl ;
+	skos:prefLabel "Geórgia"@mwl ;
+	schema:name "Geórgia"@mwl ;
+	rdfs:label "Georgia"@gpe ;
+	skos:prefLabel "Georgia"@gpe ;
+	schema:name "Georgia"@gpe ;
+	rdfs:label "Georgie"@nrm ;
+	skos:prefLabel "Georgie"@nrm ;
+	schema:name "Georgie"@nrm ;
+	rdfs:label "ဂျော်ဂျီယာနိုင်ငံ"@rki ;
+	skos:prefLabel "ဂျော်ဂျီယာနိုင်ငံ"@rki ;
+	schema:name "ဂျော်ဂျီယာနိုင်ငံ"@rki ;
+	schema:description "štát vo východnej Európe"@sk,
+		"pays du Caucase"@fr,
+		"valstybė pietų Kaukaze"@lt,
+		"高加索地區國家"@zh,
+		"stato transcontinentale euro-asiatico"@it,
+		"stat we wuchodnej Europje"@hsb,
+		"পূর্ব ইউরোপীয় দেশ"@bn,
+		"valtio Itä-Euroopassa"@fi,
+		"держава Південного Кавказу"@uk,
+		"negara di Eropa Timur dan Asia Barat"@id,
+		"სახელმწიფო აღმოსავლეთ ევროპაში"@ka,
+		"государство в Евразии"@ru,
+		"Staat in Osteuropa"@de-ch,
+		"کشوری در جنوب‌شرقی قارهٔ اروپا"@fa,
+		"país no Cáucaso"@pt,
+		"東歐國家"@zh-tw,
+		"pagilian idiay Europa"@ilo,
+		"país del Cáucaso en Europa Oriental"@es,
+		"ଇଉରୋପ/ ଏସିଆର ଏକ ଦେଶ"@or,
+		"հանրապետություն Արևելյան Եվրոպայում"@hy,
+		"Staat in Osteuropa"@de-at,
+		"państwo w Europie Wschodniej"@pl,
+		"東歐國家"@zh-hant,
+		"land i Øst-Europa"@nb,
+		"állam Kelet-Európában"@hu,
+		"නැගෙනහිර යුරෝපයේ පිහිටි රටකි"@si,
+		"西亚国家"@zh-hans,
+		"land in Azië en Europa"@nl,
+		"Staat in Vorderasien"@de,
+		"republik på gränsen mellan Europa och Asien"@sv,
+		"държава в Кавказкия регион"@bg,
+		"هي دولة أوروبية ذات نظام جمهوري"@ar,
+		"युरोप / एसियाको देश"@ne,
+		"東歐國家"@zh-hk,
+		"país da Europa Oriental"@pt-br,
+		"država u istočnoj Evropi"@sr-el,
+		"country in the Caucasus"@en,
+		"regno en Kaŭkazio, bordanta la Nigran Maron, apud Rusio, Azerbajĝano, Armenio, kaj Turkio"@eo,
+		"东欧国家"@zh-cn,
+		"पूर्वी यूरोप में स्थित एक देश"@hi,
+		"stát na rozhraní Evropy a Asie"@cs,
+		"eit land i Aust-Europa"@nn,
+		"מדינה בקווקז לחוף הים השחור"@he,
+		"χώρα της Ανατολικής Ευρώπης"@el,
+		"țară în Europa Orientală"@ro,
+		"држава у источној Европи"@sr-ec,
+		"東ヨーロッパ、西アジアにある国"@ja,
+		"서아시아와 동유럽의 국가"@ko,
+		"देशः"@sa,
+		"држава у источној Европи"@sr,
+		"país de l'Europa de l'Est i l'Àsia de l'Oest"@ca,
+		"Un Land in Europa"@ie,
+		"republic in Eastern Europe"@en-ca,
+		"republic in Eastern Europe"@en-gb,
+		"riika Eurohpás"@se,
+		"peyi ki nan lès kontinan Ewòp"@ht,
+		"republik i Østeuropa"@da,
+		"дзяржава ў Каўказскім регіёне"@be,
+		"Kafkasya'da bir ülke"@tr,
+		"Eurasian kintra tae the east o the Black Sea"@sco,
+		"ქიანა ევრაზიას"@xmf,
+		"pajjiż fil-Kawkasu"@mt,
+		"riik Lõuna-Kaukaasias"@et,
+		"Кавказ аръяғының өлөшөндә һәм Ҡара диңгеҙҙең көнсығыш ярҙарында урынлашҡан дәүләт"@ba,
+		"краіна ва Ўсходняй Эўропе"@be-tarask,
+		"مُلُک"@ks,
+		"Land í Kákasusfjöllum; Austur-Evrópu og Vestur-Asíu"@is,
+		"quốc gia tại khu vực Kavkaz tại giao giới giữa Tây Á và Đông Âu"@vi,
+		"Cənubi Qafqazda dövlət"@az,
+		"stat tl Caucas"@lld,
+		"država u Zakavkazju"@hr,
+		"un pais en Asia"@lfn,
+		"паччахьалкхе я Кавказа дехьен малхбузера даькъе Ӏаьржа форда малхбоалера фордйиста тӀа"@inh,
+		"država v Zakavkazju"@sl ;
+	skos:altLabel "Република Грузия"@bg,
+		"جيورجا"@ar,
+		"جورجي"@ar,
+		"جمهورية جورجيا"@ar,
+		"كرجستان"@ar,
+		"غرجستان"@ar,
+		"گورجئستان"@lrc,
+		"Republic of Georgia"@en,
+		"GE"@en,
+		"🇬🇪"@en,
+		"GEO"@en,
+		"Georgia (country)"@en,
+		"Sakartvelo"@en,
+		"格魯吉亞"@zh,
+		"喬治亞"@zh,
+		"サカルトベロ"@ja,
+		"サカルトヴェロ"@ja,
+		"ジョージア (国)"@ja,
+		"ジョージア国"@ja,
+		"ジョルジア"@ja,
+		"グルジア"@ja,
+		"Gruzėjė"@sgs,
+		"Georgian tasavalta"@fi,
+		"Gruusia"@fi,
+		"그루지야"@ko,
+		"사카르트벨로"@ko,
+		"조지아 공화국"@ko,
+		"그루지야 공화국"@ko,
+		"Sakartvelas"@lt,
+		"Georgia"@vi,
+		"საქართველოს რესპუბლიკა"@ka,
+		"Республика Грузия"@ru,
+		"Сакартвело"@ru,
+		"Jorjia"@lfn,
+		"גרוזיה"@he,
+		"גורג'יה"@he,
+		"גורג'יסטן"@he,
+		"גיאורגיה"@he,
+		"סכרתוולו"@he,
+		"סקרטוולו"@he,
+		"סקרטבלו"@he,
+		"סַכָּרְתְבֵלוֹ"@he,
+		"Georgia-kok"@nan,
+		"Sakartvelo"@nan,
+		"Heyorhiya"@ceb,
+		"格魯吉亞"@zh-hant,
+		"Respubliko Kartvelio"@eo,
+		"GE"@eo,
+		"Georgie"@nl,
+		"GE"@nl,
+		"GEO"@nl,
+		"Грузия"@yue,
+		"格鲁吉亚"@yue,
+		"Sakartvelo"@yue,
+		"佐治亞"@yue,
+		"Georgia"@yue,
+		"საქართველო"@yue,
+		"Република Грузија"@sr,
+		"Georgia"@pam,
+		"Grusien"@de,
+		"Grusinien"@de,
+		"république de Géorgie"@fr,
+		"GE"@fr,
+		"Géorgie (Pays)"@fr,
+		"Géorg."@fr,
+		"Georgia dásseváldi"@se,
+		"Georgia täsiväldi"@smn,
+		"Georgia tääʹssväʹldd"@sms,
+		"Ġeorġja"@mt,
+		"il-Georgia"@mt,
+		"Сакартвело"@uk,
+		"Картвелія"@uk,
+		"جۆرجیا"@ckb,
+		"Repubblica di Georgia"@it,
+		"Georgia"@et,
+		"Гуырдзы"@os,
+		"جيورجيا"@arz,
+		"República de Georgia"@es,
+		"GEO"@es,
+		"GE"@es,
+		"🇬🇪"@es,
+		"Georgia (nación)"@es,
+		"Georgia (país)"@es,
+		"Sakartvelo"@es,
+		"🇬🇪"@en-gb,
+		"🇬🇪"@be-tarask,
+		"Сакартвэла"@be-tarask,
+		"Рэспубліка Грузія"@be-tarask,
+		"Hiyorhya"@krj,
+		"🇬🇪"@id,
+		"Republik Georgia"@id,
+		"Gürcüstan Respublikası"@az,
+		"Gürcü dövləti"@az,
+		"Sakartvelo"@eu,
+		"Georgiako Errepublika"@eu,
+		"Гуржий Мохк"@inh,
+		"Гуржий Паччахьалхе"@inh,
+		"Républyique dé Georgie"@nrm .
+
+wd:Q19746790 owl:sameAs wd:Q230 .
+
+wd:Q13055736 owl:sameAs wd:Q230 .
+
+wd:Q21167735 owl:sameAs wd:Q230 .
+
+wd:Q23662172 owl:sameAs wd:Q230 .
+
+wd:Q25678488 owl:sameAs wd:Q230 .
+
+wd:Q98386016 owl:sameAs wd:Q230 .

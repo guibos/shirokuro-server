@@ -1,0 +1,194 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q33404 a schema:Dataset ;
+	schema:about wd:Q33404 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616001386"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:53:44Z"^^xsd:dateTime .
+
+wd:Q33404 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Klallam> a schema:Article ;
+	schema:about wd:Q33404 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Klallam"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_clallam> a schema:Article ;
+	schema:about wd:Q33404 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga clallam"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D0%BB%D0%BB%D0%B0%D0%BC_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q33404 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Клаллам (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_klallam> a schema:Article ;
+	schema:about wd:Q33404 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język klallam"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Klallam_language> a schema:Article ;
+	schema:about wd:Q33404 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Klallam language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Clallam_jezik> a schema:Article ;
+	schema:about wd:Q33404 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Clallam jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_clallam> a schema:Article ;
+	schema:about wd:Q33404 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua clallam"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q33404 wdt:P220 "clm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/clm> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/05fs5p" ;
+	wdt:P305 "clm" ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P1098 "+0"^^xsd:decimal ;
+	wdt:P279 wd:Q1754875 ;
+	wdt:P2341 wd:Q958274,
+		wd:Q1223 ;
+	wdt:P1394 "clal1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/clal1241> ;
+	wdt:P2355 "792" ;
+	wdt:P1466 "cla" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_cla> ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P910 wd:Q32828498 ;
+	wdt:P2192 "2292" ;
+	wdt:P1627 "clm" ;
+	wdt:P3823 wd:Q61954960 ;
+	wdt:P17 wd:Q30,
+		wd:Q6693471,
+		wd:Q106395898,
+		wd:Q106396961 ;
+	wdt:P1014 "300388166" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388166> ;
+	wdt:P1245 "696339" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CLM> ;
+	wdt:P8408 "ClallamLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/ClallamLanguage> ;
+	rdfs:label "Lenga clallam"@pms ;
+	skos:prefLabel "Lenga clallam"@pms ;
+	schema:name "Lenga clallam"@pms ;
+	rdfs:label "Język klallam"@pl ;
+	skos:prefLabel "Język klallam"@pl ;
+	schema:name "Język klallam"@pl ;
+	rdfs:label "klallam"@fr ;
+	skos:prefLabel "klallam"@fr ;
+	schema:name "klallam"@fr ;
+	rdfs:label "Klallam"@en ;
+	skos:prefLabel "Klallam"@en ;
+	schema:name "Klallam"@en ;
+	rdfs:label "Clallam jezik"@hr ;
+	skos:prefLabel "Clallam jezik"@hr ;
+	schema:name "Clallam jezik"@hr ;
+	rdfs:label "Клаллам"@ru ;
+	skos:prefLabel "Клаллам"@ru ;
+	schema:name "Клаллам"@ru ;
+	rdfs:label "lingua Klallam"@it ;
+	skos:prefLabel "lingua Klallam"@it ;
+	schema:name "lingua Klallam"@it ;
+	rdfs:label "Klallam"@en-ca ;
+	skos:prefLabel "Klallam"@en-ca ;
+	schema:name "Klallam"@en-ca ;
+	rdfs:label "Klallam"@en-gb ;
+	skos:prefLabel "Klallam"@en-gb ;
+	schema:name "Klallam"@en-gb ;
+	rdfs:label "クラーラム語"@ja ;
+	skos:prefLabel "クラーラム語"@ja ;
+	schema:name "クラーラム語"@ja ;
+	rdfs:label "klallami keel"@et ;
+	skos:prefLabel "klallami keel"@et ;
+	schema:name "klallami keel"@et ;
+	rdfs:label "克拉勒姆语"@zh ;
+	skos:prefLabel "克拉勒姆语"@zh ;
+	schema:name "克拉勒姆语"@zh ;
+	rdfs:label "克拉勒姆語"@zh-hant ;
+	skos:prefLabel "克拉勒姆語"@zh-hant ;
+	schema:name "克拉勒姆語"@zh-hant ;
+	rdfs:label "Klallam"@nl ;
+	skos:prefLabel "Klallam"@nl ;
+	schema:name "Klallam"@nl ;
+	rdfs:label "Klallam"@de ;
+	skos:prefLabel "Klallam"@de ;
+	schema:name "Klallam"@de ;
+	rdfs:label "klallam"@vec ;
+	skos:prefLabel "klallam"@vec ;
+	schema:name "klallam"@vec ;
+	rdfs:label "klallam"@fi ;
+	skos:prefLabel "klallam"@fi ;
+	schema:name "klallam"@fi ;
+	schema:description "lingua indigena parlata nel Nord America"@it,
+		"indigene amerikanische Sprache"@de,
+		"language"@en,
+		"langue salish"@fr,
+		"שפה"@he,
+		"yezh"@br,
+		"lengua"@es,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"język z rodziny salisz"@pl,
+		"sukupuuttoon kuollut salisanin kieli, jota Klallam-kansat puhuivat perinteisesti Becher Bayssä Vancouverin saarella Brittiläisessä Kolumbiassa ja Juan de Fucan salmen toisella puolella Olympian niemimaan pohjoisrannikolla Washingtonissa."@fi ;
+	skos:altLabel "Clallam"@en,
+		"Klallam language"@en,
+		"克拉勒姆語"@zh,
+		"Clallam"@de .

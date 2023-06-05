@@ -1,0 +1,142 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5880707 a schema:Dataset ;
+	schema:about wd:Q5880707 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1372613089"^^xsd:integer ;
+	schema:dateModified "2021-02-28T21:20:40Z"^^xsd:dateTime .
+
+wd:Q5880707 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Holiya> a schema:Article ;
+	schema:about wd:Q5880707 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Holiya"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://he.wikipedia.org/wiki/%D7%94%D7%95%D7%9C%D7%99%D7%99%D7%94> a schema:Article ;
+	schema:about wd:Q5880707 ;
+	schema:inLanguage "he" ;
+	schema:isPartOf <https://he.wikipedia.org/> ;
+	schema:name "הולייה"@he .
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiholiya> a schema:Article ;
+	schema:about wd:Q5880707 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiholiya"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Holiya_language> a schema:Article ;
+	schema:about wd:Q5880707 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Holiya language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ml.wikipedia.org/wiki/%E0%B4%B9%E0%B5%8A%E0%B4%B2%E0%B4%BF%E0%B4%AF_%E0%B4%AD%E0%B4%BE%E0%B4%B7> a schema:Article ;
+	schema:about wd:Q5880707 ;
+	schema:inLanguage "ml" ;
+	schema:isPartOf <https://ml.wikipedia.org/> ;
+	schema:name "ഹൊലിയ ഭാഷ"@ml .
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kn.wikipedia.org/wiki/%E0%B2%B9%E0%B3%8A%E0%B2%B2%E0%B2%BF%E0%B2%AF_%E0%B2%AD%E0%B2%BE%E0%B2%B7%E0%B3%86> a schema:Article ;
+	schema:about wd:Q5880707 ;
+	schema:inLanguage "kn" ;
+	schema:isPartOf <https://kn.wikipedia.org/> ;
+	schema:name "ಹೊಲಿಯ ಭಾಷೆ"@kn .
+
+<https://kn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5880707 wdt:P220 "hoy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hoy> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "holi1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/holi1239> ;
+	wdt:P305 "hoy" ;
+	wdt:P1627 "hoy" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1185,
+		wd:Q1191,
+		wd:Q1188 ;
+	wdt:P279 wd:Q6363888 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HOY> ;
+	wdt:P646 "/m/02hwhb_" ;
+	wdt:P910 wd:Q105715672 ;
+	rdfs:label "Holiya"@en ;
+	skos:prefLabel "Holiya"@en ;
+	schema:name "Holiya"@en ;
+	rdfs:label "Lenga Holiya"@pms ;
+	skos:prefLabel "Lenga Holiya"@pms ;
+	schema:name "Lenga Holiya"@pms ;
+	rdfs:label "Kiholiya"@sw ;
+	skos:prefLabel "Kiholiya"@sw ;
+	schema:name "Kiholiya"@sw ;
+	rdfs:label "Holiya"@en-gb ;
+	skos:prefLabel "Holiya"@en-gb ;
+	schema:name "Holiya"@en-gb ;
+	rdfs:label "ഹൊലിയ ഭാഷ"@ml ;
+	skos:prefLabel "ഹൊലിയ ഭാഷ"@ml ;
+	schema:name "ഹൊലിയ ഭാഷ"@ml ;
+	rdfs:label "ಹೊಲಿಯ ಭಾಷೆ"@kn ;
+	skos:prefLabel "ಹೊಲಿಯ ಭಾಷೆ"@kn ;
+	schema:name "ಹೊಲಿಯ ಭಾಷೆ"@kn ;
+	rdfs:label "הולייה"@he ;
+	skos:prefLabel "הולייה"@he ;
+	schema:name "הולייה"@he ;
+	rdfs:label "ਹੌਲੀਆ"@pa ;
+	skos:prefLabel "ਹੌਲੀਆ"@pa ;
+	schema:name "ਹੌਲੀਆ"@pa ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ਭਾਸ਼ਾ"@pa ;
+	skos:altLabel "Holiya language"@en,
+		"ਹੌਲੀਆ ਭਾਸ਼ਾ"@pa .

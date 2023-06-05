@@ -1,0 +1,106 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7313307 a schema:Dataset ;
+	schema:about wd:Q7313307 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960526682"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:43:35Z"^^xsd:dateTime .
+
+wd:Q7313307 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_dij_segn_rennellese> a schema:Article ;
+	schema:about wd:Q7313307 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga dij segn rennellese"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%BD%D0%BD%D0%B5%D0%BB%D0%BB%D1%81%D0%BA%D0%B8%D0%B9_%D0%B6%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q7313307 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Реннеллский жестовый язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Rennellese_Sign_Language> a schema:Article ;
+	schema:about wd:Q7313307 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Rennellese Sign Language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7313307 wdt:P220 "rsi" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/rsi> ;
+	wdt:P31 wd:Q34228,
+		wd:Q4388663,
+		wd:Q38058796 ;
+	wdt:P1394 "renn1236" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/renn1236> ;
+	wdt:P17 wd:Q685 ;
+	wdt:P1098 "+0"^^xsd:decimal ;
+	wdt:P131 wd:Q59580 ;
+	wdt:P305 "rsi" ;
+	wdt:P2192 "5349" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/RSI> ;
+	wdt:P646 "/m/02hxcnc" ;
+	rdfs:label "Rennellese Sign Language"@en ;
+	skos:prefLabel "Rennellese Sign Language"@en ;
+	schema:name "Rennellese Sign Language"@en ;
+	rdfs:label "Lenga dij segn rennellese"@pms ;
+	skos:prefLabel "Lenga dij segn rennellese"@pms ;
+	schema:name "Lenga dij segn rennellese"@pms ;
+	rdfs:label "Реннеллский жестовый язык"@ru ;
+	skos:prefLabel "Реннеллский жестовый язык"@ru ;
+	schema:name "Реннеллский жестовый язык"@ru ;
+	rdfs:label "langue des signes rennellaise"@fr ;
+	skos:prefLabel "langue des signes rennellaise"@fr ;
+	schema:name "langue des signes rennellaise"@fr ;
+	rdfs:label "Rennellese Sign Language"@en-gb ;
+	skos:prefLabel "Rennellese Sign Language"@en-gb ;
+	schema:name "Rennellese Sign Language"@en-gb ;
+	rdfs:label "レンネル手話"@ja ;
+	skos:prefLabel "レンネル手話"@ja ;
+	schema:name "レンネル手話"@ja ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"extinct form of home sign from Rennell Island"@en,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy .

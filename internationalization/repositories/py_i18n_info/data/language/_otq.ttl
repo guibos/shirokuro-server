@@ -1,0 +1,118 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q23755688 a schema:Dataset ;
+	schema:about wd:Q23755688 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1602473301"^^xsd:integer ;
+	schema:dateModified "2022-03-25T15:34:40Z"^^xsd:dateTime .
+
+wd:Q23755688 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_otomi,_quer%C3%A9taro> a schema:Article ;
+	schema:about wd:Q23755688 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga otomi, querétaro"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Otomeg_Quer%C3%A9taro> a schema:Article ;
+	schema:about wd:Q23755688 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Otomeg Querétaro"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Quer%C3%A9taro_otomi> a schema:Article ;
+	schema:about wd:Q23755688 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Querétaro otomi"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q23755688 wdt:P220 "otq" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/otq> ;
+	wdt:P279 wd:Q7060362 ;
+	wdt:P2355 "930" ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "quer1236" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/quer1236> ;
+	wdt:P910 wd:Q33101173 ;
+	wdt:P1466 "osm" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_osm> ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P305 "otq" ;
+	wdt:P1627 "otq" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q96 ;
+	wdt:P2341 wd:Q46475,
+		wd:Q82112,
+		wd:Q79861,
+		wd:Q79754 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/OTQ> ;
+	wdt:P131 wd:Q49953734 ;
+	rdfs:label "Querétaro Otomi"@en ;
+	skos:prefLabel "Querétaro Otomi"@en ;
+	schema:name "Querétaro Otomi"@en ;
+	rdfs:label "otomeg Querétaro"@br ;
+	skos:prefLabel "otomeg Querétaro"@br ;
+	schema:name "otomeg Querétaro"@br ;
+	rdfs:label "Lenga otomi, querétaro"@pms ;
+	skos:prefLabel "Lenga otomi, querétaro"@pms ;
+	schema:name "Lenga otomi, querétaro"@pms ;
+	rdfs:label "Querétaro Otomi"@en-gb ;
+	skos:prefLabel "Querétaro Otomi"@en-gb ;
+	schema:name "Querétaro Otomi"@en-gb ;
+	rdfs:label "otomi de Querétaro"@fr ;
+	skos:prefLabel "otomi de Querétaro"@fr ;
+	schema:name "otomi de Querétaro"@fr ;
+	rdfs:label "Querétaro otomi"@sv ;
+	skos:prefLabel "Querétaro otomi"@sv ;
+	schema:name "Querétaro otomi"@sv ;
+	rdfs:label "Otomí queretano"@es ;
+	skos:prefLabel "Otomí queretano"@es ;
+	schema:name "Otomí queretano"@es ;
+	schema:description "שפה"@he,
+		"langue oto-mangue"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "otomi de Queretaro"@fr .

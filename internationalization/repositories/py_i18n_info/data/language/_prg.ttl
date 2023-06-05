@@ -1,0 +1,899 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35501 a schema:Dataset ;
+	schema:about wd:Q35501 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1964443823"^^xsd:integer ;
+	schema:dateModified "2023-08-30T06:34:38Z"^^xsd:dateTime .
+
+wd:Q35501 a wikibase:Item .
+
+<https://pl.wikibooks.org/wiki/J%C4%99zyk_pruski_dla_pocz%C4%85tkuj%C4%85cych> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikibooks.org/> ;
+	schema:name "Język pruski dla początkujących"@pl .
+
+<https://pl.wikibooks.org/> wikibase:wikiGroup "wikibooks" .
+
+<https://de.wiktionary.org/wiki/Wiktionary:Pru%C3%9Fisch> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wiktionary.org/> ;
+	schema:name "Wiktionary:Prußisch"@de .
+
+<https://de.wiktionary.org/> wikibase:wikiGroup "wiktionary" .
+
+<https://en.wikipedia.org/wiki/Old_Prussian_language> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Old Prussian language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Altpreu%C3%9Fische_Sprache> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Altpreußische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_prusiano_antiguo> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma prusiano antiguo"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Прусский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_prussiana> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua prussiana"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AD%E3%82%B7%E3%82%A2%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "プロシア語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Oudpruisisch> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Oudpruisisch"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_pruski> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język pruski"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/Prussiano_antigo> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Prussiano antigo"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%8F%A4%E6%99%AE%E9%AD%AF%E5%A3%AB%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "古普魯士語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Prusiska> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Prusiska"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D9%BE%D8%B1%D9%88%D8%B3%DB%8C_%D8%A8%D8%A7%D8%B3%D8%AA%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان پروسی باستان"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Eski_Prusyal%C4%B1_dili> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Eski Prusyalı dili"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Muinaispreussin_kieli> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Muinaispreussin kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D8%A8%D8%B1%D9%88%D8%B3%D9%8A%D8%A9_%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85%D8%A9> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "اللغة البروسية القديمة"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Ph%E1%BB%95_c%E1%BB%95> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Tiếng Phổ cổ"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Gammelpr%C3%B8yssisk> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Gammelprøyssisk"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9F%D1%80%D1%83%D1%81%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Прусська мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%8C%80_%ED%94%84%EB%A1%9C%EC%9D%B4%EC%84%BC%EC%96%B4> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "고대 프로이센어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Prussi%C3%A0> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Prussià"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Pru%C5%A1tina> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Pruština"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Limba_prusac%C4%83_veche> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Limba prusacă veche"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Prusia_Kuno> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Prusia Kuno"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Old_Prussian_language> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Old Prussian language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%9F%D1%80%D1%83%D1%81%D0%BA%D0%B8_%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Пруски език"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://arz.wikipedia.org/wiki/%D9%84%D8%BA%D9%87_%D8%A8%D8%B1%D9%88%D8%B3%D9%8A%D9%87_%D9%82%D8%AF%D9%8A%D9%85%D9%87> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "arz" ;
+	schema:isPartOf <https://arz.wikipedia.org/> ;
+	schema:name "لغه بروسيه قديمه"@arz .
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_prusianu_antiguu> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma prusianu antiguu"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D9%82%D8%AF%DB%8C%D9%85_%D9%BE%D8%B1%D9%88%D8%B3_%D8%AF%DB%8C%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "قدیم پروس دیلی"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ba.wikipedia.org/wiki/%D0%9F%D1%80%D1%83%D1%81_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "ba" ;
+	schema:isPartOf <https://ba.wikipedia.org/> ;
+	schema:name "Прус теле"@ba .
+
+<https://ba.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bat-smg.wikipedia.org/wiki/Pr%C5%ABsu_kalba> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "sgs" ;
+	schema:isPartOf <https://bat-smg.wikipedia.org/> ;
+	schema:name "Prūsu kalba"@sgs .
+
+<https://bat-smg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%9F%D1%80%D1%83%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Пруская мова"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%9F%D1%80%D1%83%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Пруская мова"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Henbruseg> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Henbruseg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cv.wikipedia.org/wiki/%D0%9F%D1%80%D1%83%D1%81_%D1%87%C4%95%D0%BB%D1%85%D0%B8> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "cv" ;
+	schema:isPartOf <https://cv.wikipedia.org/> ;
+	schema:name "Прус чĕлхи"@cv .
+
+<https://cv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://dsb.wikipedia.org/wiki/Pru%C5%A1%C4%87ina> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "dsb" ;
+	schema:isPartOf <https://dsb.wikipedia.org/> ;
+	schema:name "Prušćina"@dsb .
+
+<https://dsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Preisi_keel> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Preisi keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Prusiera_zahar> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Prusiera zahar"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Ualpreu%C3%9Fisk_spriak> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Ualpreußisk spriak"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Lingua_prusiana_antiga> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua prusiana antiga"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Pruski_jezik> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Pruski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hsb.wikipedia.org/wiki/Pru%C5%A1%C4%87ina> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "hsb" ;
+	schema:isPartOf <https://hsb.wikipedia.org/> ;
+	schema:name "Prušćina"@hsb .
+
+<https://hsb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hy.wikipedia.org/wiki/%D5%8A%D6%80%D5%B8%D6%82%D5%BD%D5%A5%D6%80%D5%A5%D5%B6> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "hy" ;
+	schema:isPartOf <https://hy.wikipedia.org/> ;
+	schema:name "Պրուսերեն"@hy .
+
+<https://hy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%9F%D1%80%D1%83%D1%81%D1%81_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Прусс кыв"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Prussica> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Prussica"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://li.wikipedia.org/wiki/Prusisch> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "li" ;
+	schema:isPartOf <https://li.wikipedia.org/> ;
+	schema:name "Prusisch"@li .
+
+<https://li.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lmo.wikipedia.org/wiki/Lengua_prussiana> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "lmo" ;
+	schema:isPartOf <https://lmo.wikipedia.org/> ;
+	schema:name "Lengua prussiana"@lmo .
+
+<https://lmo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Pr%C5%ABs%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Prūsų kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Senpr%C5%AB%C5%A1u_valoda> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Senprūšu valoda"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%9F%D1%80%D1%83%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Пруски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Gammalpr%C3%B8yssisk> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Gammalprøyssisk"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Prussian_ancian> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Prussian ancian"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_prussian-a> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga prussian-a"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sc.wikipedia.org/wiki/Limba_prussiana> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "sc" ;
+	schema:isPartOf <https://sc.wikipedia.org/> ;
+	schema:name "Limba prussiana"@sc .
+
+<https://sc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://se.wikipedia.org/wiki/Preussigiella> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "se" ;
+	schema:isPartOf <https://se.wikipedia.org/> ;
+	schema:name "Preussigiella"@se .
+
+<https://se.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sk.wikipedia.org/wiki/Pru%C5%A1tina> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "sk" ;
+	schema:isPartOf <https://sk.wikipedia.org/> ;
+	schema:name "Pruština"@sk .
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://szl.wikipedia.org/wiki/Prusko_godka> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "szl" ;
+	schema:isPartOf <https://szl.wikipedia.org/> ;
+	schema:name "Prusko godka"@szl .
+
+<https://szl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://udm.wikipedia.org/wiki/%D0%9F%D1%80%D1%83%D1%81%D1%81_%D0%BA%D1%8B%D0%BB> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "udm" ;
+	schema:isPartOf <https://udm.wikipedia.org/> ;
+	schema:name "Прусс кыл"@udm .
+
+<https://udm.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Prus_tili> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Prus tili"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E5%8F%A4%E6%99%AE%E9%B2%81%E5%A3%AB%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "古普鲁士语"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh-yue.wikipedia.org/wiki/%E6%99%AE%E9%AD%AF%E5%A3%AB%E6%96%87> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "yue" ;
+	schema:isPartOf <https://zh-yue.wikipedia.org/> ;
+	schema:name "普魯士文"@yue .
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Vieux_prussien> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Vieux prussien"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://an.wikipedia.org/wiki/Idioma_prusiano_antigo> a schema:Article ;
+	schema:about wd:Q35501 ;
+	schema:inLanguage "an" ;
+	schema:isPartOf <https://an.wikipedia.org/> ;
+	schema:name "Idioma prusiano antigo"@an .
+
+<https://an.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35501 wdt:P1627 "prg" ;
+	wdt:P220 "prg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/prg> ;
+	wdt:P31 wd:Q45762,
+		wd:Q1288568,
+		wd:Q38058796 ;
+	wdt:P646 "/m/05nfh" ;
+	wdt:P305 "prg" ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P279 wd:Q149946 ;
+	wdt:P1098 "+50"^^xsd:decimal ;
+	wdt:P1705 "Prūsiskan"@prg ;
+	wdt:P1343 wd:Q2657718,
+		wd:Q602358,
+		wd:Q19180675 ;
+	wdt:P1394 "prus1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/prus1238> ;
+	wdt:P424 "prg" ;
+	wdt:P3417 "Old-Prussian-Language" ;
+	wdt:P1014 "300395461" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300395461> ;
+	wdt:P910 wd:Q10054300 ;
+	wdt:P4132 wd:Q318917 ;
+	wdt:P1417 "topic/Old-Prussian-language" ;
+	wdt:P2924 "3170325" ;
+	wdt:P3219 "vieux-prussien-langue" ;
+	wdt:P227 "4120129-2" ;
+	wdtn:P227 <https://d-nb.info/gnd/4120129-2> ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q36,
+		wd:Q159 ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Catechismus%20in%20pre%C3%BC%C3%9Fnischer%20sprach%2C%20gecorrigiret%20und%20dagegen%20das%20de%C3%BCdsche.jpg> ;
+	wdt:P1245 "1708298" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PRG> ;
+	wdt:P373 "Prussian language" ;
+	wdt:P8408 "OldPrussianLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/OldPrussianLanguage> ;
+	wdt:P9498 "6863" ;
+	wdt:P9060 "prg" ;
+	wdt:P6385 "gumanitarnye_nauki/lingvistika/PRUSSKI_YAZIK.html" ;
+	wdt:P2347 "38485" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p38485> ;
+	wdt:P8885 "프로이센어" ;
+	wdt:P8814 "09767979-n" ;
+	wdtn:P8814 <http://wordnet-rdf.princeton.edu/rdf/id/09767979-n> ;
+	wdt:P691 "ph587013" ;
+	wdt:P7305 "3963057" ;
+	wdt:P8703 "прус." ;
+	rdfs:label "Prusko godka"@szl ;
+	skos:prefLabel "Prusko godka"@szl ;
+	schema:name "Prusko godka"@szl ;
+	rdfs:label "普魯士語"@zh ;
+	skos:prefLabel "普魯士語"@zh ;
+	schema:name "普魯士語"@zh ;
+	rdfs:label "Lenga prussian-a"@pms ;
+	skos:prefLabel "Lenga prussian-a"@pms ;
+	schema:name "Lenga prussian-a"@pms ;
+	rdfs:label "język pruski"@pl ;
+	skos:prefLabel "język pruski"@pl ;
+	schema:name "język pruski"@pl ;
+	rdfs:label "vieux-prussien"@fr ;
+	skos:prefLabel "vieux-prussien"@fr ;
+	schema:name "vieux-prussien"@fr ;
+	rdfs:label "고대 프로이센어"@ko ;
+	skos:prefLabel "고대 프로이센어"@ko ;
+	schema:name "고대 프로이센어"@ko ;
+	rdfs:label "prusiano antiguo"@es ;
+	skos:prefLabel "prusiano antiguo"@es ;
+	schema:name "prusiano antiguo"@es ;
+	rdfs:label "prūšu valoda"@lv ;
+	skos:prefLabel "prūšu valoda"@lv ;
+	schema:name "prūšu valoda"@lv ;
+	rdfs:label "antico prussiano"@it ;
+	skos:prefLabel "antico prussiano"@it ;
+	schema:name "antico prussiano"@it ;
+	rdfs:label "Prusisch"@li ;
+	skos:prefLabel "Prusisch"@li ;
+	schema:name "Prusisch"@li ;
+	rdfs:label "Lingua prusiana antiga"@gl ;
+	skos:prefLabel "Lingua prusiana antiga"@gl ;
+	schema:name "Lingua prusiana antiga"@gl ;
+	rdfs:label "Altpreußisch"@de ;
+	skos:prefLabel "Altpreußisch"@de ;
+	schema:name "Altpreußisch"@de ;
+	rdfs:label "Altpreussisch"@de-ch ;
+	skos:prefLabel "Altpreussisch"@de-ch ;
+	schema:name "Altpreussisch"@de-ch ;
+	rdfs:label "Bahasa Prusia Kuno"@id ;
+	skos:prefLabel "Bahasa Prusia Kuno"@id ;
+	schema:name "Bahasa Prusia Kuno"@id ;
+	rdfs:label "プロシア語"@ja ;
+	skos:prefLabel "プロシア語"@ja ;
+	schema:name "プロシア語"@ja ;
+	rdfs:label "prušćina"@hsb ;
+	skos:prefLabel "prušćina"@hsb ;
+	schema:name "prušćina"@hsb ;
+	rdfs:label "prusiska"@sv ;
+	skos:prefLabel "prusiska"@sv ;
+	schema:name "prusiska"@sv ;
+	rdfs:label "البروسية القديمة"@ar ;
+	skos:prefLabel "البروسية القديمة"@ar ;
+	schema:name "البروسية القديمة"@ar ;
+	rdfs:label "Oudpruisisch"@nl ;
+	skos:prefLabel "Oudpruisisch"@nl ;
+	schema:name "Oudpruisisch"@nl ;
+	rdfs:label "prussiano antigo"@pt ;
+	skos:prefLabel "prussiano antigo"@pt ;
+	schema:name "prussiano antigo"@pt ;
+	rdfs:label "Stará pruština"@sk ;
+	skos:prefLabel "Stará pruština"@sk ;
+	schema:name "Stará pruština"@sk ;
+	rdfs:label "прусский язык"@ru ;
+	skos:prefLabel "прусский язык"@ru ;
+	schema:name "прусский язык"@ru ;
+	rdfs:label "Old Prussian"@en ;
+	skos:prefLabel "Old Prussian"@en ;
+	schema:name "Old Prussian"@en ;
+	rdfs:label "Preussigiella"@se ;
+	skos:prefLabel "Preussigiella"@se ;
+	schema:name "Preussigiella"@se ;
+	rdfs:label "Limba prusacă veche"@ro ;
+	skos:prefLabel "Limba prusacă veche"@ro ;
+	schema:name "Limba prusacă veche"@ro ;
+	rdfs:label "prussià"@ca ;
+	skos:prefLabel "prussià"@ca ;
+	schema:name "prussià"@ca ;
+	rdfs:label "Пруски јазик"@mk ;
+	skos:prefLabel "Пруски јазик"@mk ;
+	schema:name "Пруски јазик"@mk ;
+	rdfs:label "muinaispreussin kieli"@fi ;
+	skos:prefLabel "muinaispreussin kieli"@fi ;
+	schema:name "muinaispreussin kieli"@fi ;
+	rdfs:label "Пруcська мова"@uk ;
+	skos:prefLabel "Пруcська мова"@uk ;
+	schema:name "Пруcська мова"@uk ;
+	rdfs:label "lingua Borussica"@la ;
+	skos:prefLabel "lingua Borussica"@la ;
+	schema:name "lingua Borussica"@la ;
+	rdfs:label "gammalprøyssisk"@nn ;
+	skos:prefLabel "gammalprøyssisk"@nn ;
+	schema:name "gammalprøyssisk"@nn ;
+	rdfs:label "pruština"@cs ;
+	skos:prefLabel "pruština"@cs ;
+	schema:name "pruština"@cs ;
+	rdfs:label "Prūsu kalba"@sgs ;
+	skos:prefLabel "Prūsu kalba"@sgs ;
+	schema:name "Prūsu kalba"@sgs ;
+	rdfs:label "زبان پروسی باستان"@fa ;
+	skos:prefLabel "زبان پروسی باستان"@fa ;
+	schema:name "زبان پروسی باستان"@fa ;
+	rdfs:label "Пруски език"@bg ;
+	skos:prefLabel "Пруски език"@bg ;
+	schema:name "Пруски език"@bg ;
+	rdfs:label "Прусс кыв"@kv ;
+	skos:prefLabel "Прусс кыв"@kv ;
+	schema:name "Прусс кыв"@kv ;
+	rdfs:label "Prušćina"@dsb ;
+	skos:prefLabel "Prušćina"@dsb ;
+	schema:name "Prušćina"@dsb ;
+	rdfs:label "Pruski jezik"@hr ;
+	skos:prefLabel "Pruski jezik"@hr ;
+	schema:name "Pruski jezik"@hr ;
+	rdfs:label "Prūsų kalba"@lt ;
+	skos:prefLabel "Prūsų kalba"@lt ;
+	schema:name "Prūsų kalba"@lt ;
+	rdfs:label "Idioma prusián antigo"@an ;
+	skos:prefLabel "Idioma prusián antigo"@an ;
+	schema:name "Idioma prusián antigo"@an ;
+	rdfs:label "Prussiano antigo"@pt-br ;
+	skos:prefLabel "Prussiano antigo"@pt-br ;
+	schema:name "Prussiano antigo"@pt-br ;
+	rdfs:label "Old Prussian"@en-ca ;
+	skos:prefLabel "Old Prussian"@en-ca ;
+	schema:name "Old Prussian"@en-ca ;
+	rdfs:label "Old Prussian"@en-gb ;
+	skos:prefLabel "Old Prussian"@en-gb ;
+	schema:name "Old Prussian"@en-gb ;
+	rdfs:label "Прус теле"@ba ;
+	skos:prefLabel "Прус теле"@ba ;
+	schema:name "Прус теле"@ba ;
+	rdfs:label "henbruseg"@br ;
+	skos:prefLabel "henbruseg"@br ;
+	schema:name "henbruseg"@br ;
+	rdfs:label "gammelprøyssisk"@nb ;
+	skos:prefLabel "gammelprøyssisk"@nb ;
+	schema:name "gammelprøyssisk"@nb ;
+	rdfs:label "Пруская мова"@be ;
+	skos:prefLabel "Пруская мова"@be ;
+	schema:name "Пруская мова"@be ;
+	rdfs:label "пруская мова"@be-tarask ;
+	skos:prefLabel "пруская мова"@be-tarask ;
+	schema:name "пруская мова"@be-tarask ;
+	rdfs:label "Lengua prussiana"@lmo ;
+	skos:prefLabel "Lengua prussiana"@lmo ;
+	schema:name "Lengua prussiana"@lmo ;
+	rdfs:label "Limba prussiana"@sc ;
+	skos:prefLabel "Limba prussiana"@sc ;
+	schema:name "Limba prussiana"@sc ;
+	rdfs:label "պրուսերեն"@hy ;
+	skos:prefLabel "պրուսերեն"@hy ;
+	schema:name "պրուսերեն"@hy ;
+	rdfs:label "Auld Proushie"@sco ;
+	skos:prefLabel "Auld Proushie"@sco ;
+	schema:name "Auld Proushie"@sco ;
+	rdfs:label "Prusiera zahar"@eu ;
+	skos:prefLabel "Prusiera zahar"@eu ;
+	schema:name "Prusiera zahar"@eu ;
+	rdfs:label "Prus tili"@uz ;
+	skos:prefLabel "Prus tili"@uz ;
+	schema:name "Prus tili"@uz ;
+	rdfs:label "Preisi keel"@et ;
+	skos:prefLabel "Preisi keel"@et ;
+	schema:name "Preisi keel"@et ;
+	rdfs:label "Прусс кыл"@udm ;
+	skos:prefLabel "Прусс кыл"@udm ;
+	schema:name "Прусс кыл"@udm ;
+	rdfs:label "antikva prusa lingvo"@eo ;
+	skos:prefLabel "antikva prusa lingvo"@eo ;
+	schema:name "antikva prusa lingvo"@eo ;
+	rdfs:label "قدیم پروس دیلی"@azb ;
+	skos:prefLabel "قدیم پروس دیلی"@azb ;
+	schema:name "قدیم پروس دیلی"@azb ;
+	rdfs:label "普魯士文"@yue ;
+	skos:prefLabel "普魯士文"@yue ;
+	schema:name "普魯士文"@yue ;
+	rdfs:label "Ualpreußisk spriak"@frr ;
+	skos:prefLabel "Ualpreußisk spriak"@frr ;
+	schema:name "Ualpreußisk spriak"@frr ;
+	rdfs:label "Idioma prusianu antiguu"@ast ;
+	skos:prefLabel "Idioma prusianu antiguu"@ast ;
+	schema:name "Idioma prusianu antiguu"@ast ;
+	rdfs:label "Eski Prusyalı dili"@tr ;
+	skos:prefLabel "Eski Prusyalı dili"@tr ;
+	schema:name "Eski Prusyalı dili"@tr ;
+	rdfs:label "Prussian ancian"@oc ;
+	skos:prefLabel "Prussian ancian"@oc ;
+	schema:name "Prussian ancian"@oc ;
+	rdfs:label "Tiếng Phổ cổ"@vi ;
+	skos:prefLabel "Tiếng Phổ cổ"@vi ;
+	schema:name "Tiếng Phổ cổ"@vi ;
+	rdfs:label "لغه بروسيه قديمه"@arz ;
+	skos:prefLabel "لغه بروسيه قديمه"@arz ;
+	schema:name "لغه بروسيه قديمه"@arz ;
+	rdfs:label "古普鲁士语"@wuu ;
+	skos:prefLabel "古普鲁士语"@wuu ;
+	schema:name "古普鲁士语"@wuu ;
+	rdfs:label "Παλαιά πρωσική γλώσσα"@el ;
+	skos:prefLabel "Παλαιά πρωσική γλώσσα"@el ;
+	schema:name "Παλαιά πρωσική γλώσσα"@el ;
+	rdfs:label "antigo prusian"@vec ;
+	skos:prefLabel "antigo prusian"@vec ;
+	schema:name "antigo prusian"@vec ;
+	rdfs:label "Прус чĕлхи"@cv ;
+	skos:prefLabel "Прус чĕлхи"@cv ;
+	schema:name "Прус чĕлхи"@cv ;
+	rdfs:label "óporosz"@hu ;
+	skos:prefLabel "óporosz"@hu ;
+	schema:name "óporosz"@hu ;
+	rdfs:label "פרוסית עתיקה"@he ;
+	skos:prefLabel "פרוסית עתיקה"@he ;
+	schema:name "פרוסית עתיקה"@he ;
+	schema:description "서발트어군에 속한 언어로 오래전에 사멸되었다."@ko,
+		"westbaltische Sprache"@de,
+		"lingua baltica occidentale parlata nella Prussia Orientale"@it,
+		"lengua báltica extinta, hablada en lo que posteriormente se llamó Prusia Oriental (hoy repartida entre Polonia, Lituania y Kaliningrado)"@es,
+		"extinct Western Baltic language"@en,
+		"taal"@nl,
+		"limbă"@ro,
+		"שפה"@he,
+		"вымерший балтийский язык Пруссии"@ru,
+		"extinct Baltic language"@en-gb,
+		"mortinta balta lingvo"@eo,
+		"langue"@fr,
+		"martwy język z rodziny bałtyckiej"@pl,
+		"utdött baltiskt språk"@sv,
+		"Yok olmuş Baltık dili"@tr,
+		"mortwa baltiska rěč"@hsb,
+		"かつて東プロイセン（現在のポーランド北東部とロシア・カリーニングラード州）の先住民族プロシア人が話していた言語"@ja,
+		"1600-luvulla kuollut balttilainen kieli"@fi,
+		"izmirusi rietumbaltu valoda"@lv,
+		"لغة ميتة في غرب البلطيق"@ar,
+		"bagian dari rumpun bahasa Indo-Eropa"@id,
+		"мёртвая заходнебалтыйская мова"@be-tarask ;
+	skos:altLabel "古普魯士語"@zh,
+		"język staropruski"@pl,
+		"prg"@fr,
+		"vieux prussien"@fr,
+		"borusse"@fr,
+		"langue prussienne"@fr,
+		"고대 프러시아어"@ko,
+		"prusiano"@es,
+		"antiguo prusiano"@es,
+		"idioma prusiano antiguo"@es,
+		"prussiano"@it,
+		"lingua prussiana"@it,
+		"Antigo prusiano"@gl,
+		"Prusiano Antigo"@gl,
+		"Prussisch"@de,
+		"Pruzzisch"@de,
+		"Prußisch"@de,
+		"altpreussische Sprache"@de,
+		"prußische Sprache"@de,
+		"altpreußische Sprache"@de,
+		"Bahasa Prusia Kuna"@id,
+		"プルーシスカン"@ja,
+		"古こプロシア語ご"@ja,
+		"古こプロイセン語ご"@ja,
+		"古代こだいプロイセン語ご"@ja,
+		"プルーセン語ご"@ja,
+		"Ostpreussiska"@sv,
+		"Preussiska"@sv,
+		"Prussiska"@sv,
+		"Fornpreussiska"@sv,
+		"Oud-Pruisisch"@nl,
+		"Pruisisch"@nl,
+		"Língua prussiana"@pt,
+		"древнепрусский язык"@ru,
+		"Limba prusacă"@ro,
+		"Пруська мова"@uk,
+		"Lingua Prussica"@la,
+		"gammalprøyssisk språk"@nn,
+		"gammelprøyssisk språk"@nn,
+		"Staropruština"@cs,
+		"Prusínština"@cs,
+		"Prūsū ruoda"@sgs,
+		"Prūsu ruoda"@sgs,
+		"Staropruski jezik"@hr,
+		"Idioma prusiano antigo"@an,
+		"Prussian"@en,
+		"prg"@en,
+		"Old Prussian language"@en,
+		"Prussian language"@en,
+		"gammelpreussisk språk"@nb,
+		"gammelprøyssisk språk"@nb,
+		"gammalprøyssisk"@nb,
+		"Prussian"@en-gb,
+		"pruska rěč"@hsb,
+		"staropruska rěč"@hsb,
+		"prg"@prg,
+		"prusa lingvo"@eo,
+		"prg"@eo,
+		"prusa"@eo,
+		"óporosz nyelv"@hu,
+		"preussin kieli"@fi,
+		"muinaispreussi"@fi,
+		"старапруская мова"@be-tarask .

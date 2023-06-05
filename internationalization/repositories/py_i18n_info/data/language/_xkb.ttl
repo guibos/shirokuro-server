@@ -1,0 +1,130 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36042 a schema:Dataset ;
+	schema:about wd:Q36042 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961134472"^^xsd:integer ;
+	schema:dateModified "2023-08-25T18:42:51Z"^^xsd:dateTime .
+
+wd:Q36042 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Ede_Nago,_Manigri-Kambol%C3%A9> a schema:Article ;
+	schema:about wd:Q36042 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Ede Nago, Manigri-Kambolé"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiede-Nago-Manigri-Kambole> a schema:Article ;
+	schema:about wd:Q36042 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiede-Nago-Manigri-Kambole"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://yo.wikipedia.org/wiki/%C3%88d%C3%A8_Kambol%C3%A9> a schema:Article ;
+	schema:about wd:Q36042 ;
+	schema:inLanguage "yo" ;
+	schema:isPartOf <https://yo.wikipedia.org/> ;
+	schema:name "Èdè Kambolé"@yo .
+
+<https://yo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Manigri-Kambol%C3%A9> a schema:Article ;
+	schema:about wd:Q36042 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Manigri-Kambolé"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36042 wdt:P220 "xkb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xkb> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "mani1294" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mani1294> ;
+	wdt:P279 wd:Q35368 ;
+	wdt:P305 "xkb" ;
+	wdt:P1627 "xkb" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q962,
+		wd:Q945 ;
+	wdt:P2341 wd:Q29136,
+		wd:Q29161,
+		wd:Q316220 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XKB> ;
+	wdt:P2671 "/g/122ds8pb" ;
+	wdtn:P2671 <http://g.co/kg/g/122ds8pb> ;
+	rdfs:label "Kiede-Nago-Manigri-Kambole"@sw ;
+	skos:prefLabel "Kiede-Nago-Manigri-Kambole"@sw ;
+	schema:name "Kiede-Nago-Manigri-Kambole"@sw ;
+	rdfs:label "Lenga Ede Nago"@pms ;
+	skos:prefLabel "Lenga Ede Nago"@pms ;
+	schema:name "Lenga Ede Nago"@pms ;
+	rdfs:label "Manigri-Kambolé"@de ;
+	skos:prefLabel "Manigri-Kambolé"@de ;
+	schema:name "Manigri-Kambolé"@de ;
+	rdfs:label "Èdè Kambolé"@yo ;
+	skos:prefLabel "Èdè Kambolé"@yo ;
+	schema:name "Èdè Kambolé"@yo ;
+	rdfs:label "Northern Nago"@en ;
+	skos:prefLabel "Northern Nago"@en ;
+	schema:name "Northern Nago"@en ;
+	rdfs:label "Northern Nago"@en-gb ;
+	skos:prefLabel "Northern Nago"@en-gb ;
+	schema:name "Northern Nago"@en-gb ;
+	rdfs:label "nago du Nord"@fr ;
+	skos:prefLabel "nago du Nord"@fr ;
+	schema:name "nago du Nord"@fr ;
+	schema:description "Sprache"@de,
+		"language of Togo and Benin"@en,
+		"שפה"@he,
+		"langue nigéro-congolaise"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kimanigri"@sw,
+		"Manigri"@de,
+		"Kambolé"@de,
+		"Kambole"@de,
+		"Southwest Ede"@de,
+		"Edo Nago"@de,
+		"Manigri-Kambolé language"@yo,
+		"Manigri-Kambolé"@en,
+		"Manigri-Kambole"@en .

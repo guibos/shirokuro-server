@@ -1,0 +1,133 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3914000 a schema:Dataset ;
+	schema:about wd:Q3914000 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1827840422"^^xsd:integer ;
+	schema:dateModified "2023-02-06T17:00:24Z"^^xsd:dateTime .
+
+wd:Q3914000 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kalams%C3%A9> a schema:Article ;
+	schema:about wd:Q3914000 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kalamsé"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisamoma> a schema:Article ;
+	schema:about wd:Q3914000 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisamoma"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kalams%C3%A9_language> a schema:Article ;
+	schema:about wd:Q3914000 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kalamsé language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Kalams%C3%A9> a schema:Article ;
+	schema:about wd:Q3914000 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kalamsé"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Kalamse_language> a schema:Article ;
+	schema:about wd:Q3914000 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Kalamse language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3914000 wdt:P220 "knz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/knz> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kala1383" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kala1383> ;
+	wdt:P2192 "4826" ;
+	wdt:P305 "knz" ;
+	wdt:P1627 "knz" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q965,
+		wd:Q912 ;
+	wdt:P2341 wd:Q558703,
+		wd:Q214155 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KNZ> ;
+	wdt:P646 "/m/02hwfhl" ;
+	rdfs:label "Kisamoma"@sw ;
+	skos:prefLabel "Kisamoma"@sw ;
+	schema:name "Kisamoma"@sw ;
+	rdfs:label "Lenga Kalamsé"@pms ;
+	skos:prefLabel "Lenga Kalamsé"@pms ;
+	schema:name "Lenga Kalamsé"@pms ;
+	rdfs:label "Kalamsé"@en ;
+	skos:prefLabel "Kalamsé"@en ;
+	schema:name "Kalamsé"@en ;
+	rdfs:label "Kalamsé"@en-gb ;
+	skos:prefLabel "Kalamsé"@en-gb ;
+	schema:name "Kalamsé"@en-gb ;
+	rdfs:label "kalamsé"@fr ;
+	skos:prefLabel "kalamsé"@fr ;
+	schema:name "kalamsé"@fr ;
+	rdfs:label "zimanê kalamse"@ku-latn ;
+	skos:prefLabel "zimanê kalamse"@ku-latn ;
+	schema:name "zimanê kalamse"@ku-latn ;
+	rdfs:label "zimanê kalamse"@ku ;
+	skos:prefLabel "zimanê kalamse"@ku ;
+	schema:name "zimanê kalamse"@ku ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue gur parlée au Burkina Faso et au Mali"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kikalamse"@sw,
+		"Kalamsé language"@en,
+		"Kalamse"@en,
+		"Kalamse language"@en .
+
+wd:Q106006147 owl:sameAs wd:Q3914000 .

@@ -1,0 +1,155 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3320111 a schema:Dataset ;
+	schema:about wd:Q3320111 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1843470183"^^xsd:integer ;
+	schema:dateModified "2023-03-01T10:51:19Z"^^xsd:dateTime .
+
+wd:Q3320111 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Monan> a schema:Article ;
+	schema:about wd:Q3320111 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Monan"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mwan> a schema:Article ;
+	schema:about wd:Q3320111 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mwan"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9C%D1%83%D0%B0%D0%BD_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q3320111 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Муан (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimwan> a schema:Article ;
+	schema:about wd:Q3320111 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimwan"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mwan_language> a schema:Article ;
+	schema:about wd:Q3320111 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mwan language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Mwan> a schema:Article ;
+	schema:about wd:Q3320111 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Mwan"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Mwan> a schema:Article ;
+	schema:about wd:Q3320111 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Mwan"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3320111 wdt:P220 "moa" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/moa> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "moa" ;
+	wdt:P279 wd:Q33681 ;
+	wdt:P1394 "mwan1250" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mwan1250> ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P2581 "02577490n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s02577490n> ;
+	wdt:P1627 "moa" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q1008 ;
+	wdt:P2341 wd:Q20980371 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MOA> ;
+	wdt:P646 "/m/02hwn1g" ;
+	wdt:P910 wd:Q105714425 ;
+	rdfs:label "monan"@fr ;
+	skos:prefLabel "monan"@fr ;
+	schema:name "monan"@fr ;
+	rdfs:label "Mwan"@en ;
+	skos:prefLabel "Mwan"@en ;
+	schema:name "Mwan"@en ;
+	rdfs:label "Kimwan"@sw ;
+	skos:prefLabel "Kimwan"@sw ;
+	schema:name "Kimwan"@sw ;
+	rdfs:label "Lenga Mwan"@pms ;
+	skos:prefLabel "Lenga Mwan"@pms ;
+	schema:name "Lenga Mwan"@pms ;
+	rdfs:label "Муан (язык)"@ru ;
+	skos:prefLabel "Муан (язык)"@ru ;
+	schema:name "Муан (язык)"@ru ;
+	rdfs:label "Mwan"@en-gb ;
+	skos:prefLabel "Mwan"@en-gb ;
+	schema:name "Mwan"@en-gb ;
+	rdfs:label "Mwan"@oc ;
+	skos:prefLabel "Mwan"@oc ;
+	schema:name "Mwan"@oc ;
+	rdfs:label "Mwan"@fi ;
+	skos:prefLabel "Mwan"@fi ;
+	schema:name "Mwan"@fi ;
+	rdfs:label "မးဝါန်"@mnw ;
+	skos:prefLabel "မးဝါန်"@mnw ;
+	schema:name "မးဝါန်"@mnw ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"အရေဝ်ဘာသာ"@mnw ;
+	skos:altLabel "Mona (langue)"@fr,
+		"Mwan language"@en,
+		"ဘာသာမးဝါန်"@mnw .

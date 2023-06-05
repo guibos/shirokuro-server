@@ -1,0 +1,142 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11732453 a schema:Dataset ;
+	schema:about wd:Q11732453 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1349564606"^^xsd:integer ;
+	schema:dateModified "2021-01-27T23:47:08Z"^^xsd:dateTime .
+
+wd:Q11732453 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kyenele> a schema:Article ;
+	schema:about wd:Q11732453 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kyenele"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kyenele_language> a schema:Article ;
+	schema:about wd:Q11732453 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kyenele language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Kyenele> a schema:Article ;
+	schema:about wd:Q11732453 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kyenele"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikyenele> a schema:Article ;
+	schema:about wd:Q11732453 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikyenele"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Kyeneleg> a schema:Article ;
+	schema:about wd:Q11732453 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Kyeneleg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Kyenele> a schema:Article ;
+	schema:about wd:Q11732453 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Kyenele"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11732453 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kyen1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kyen1243> ;
+	wdt:P220 "kql" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kql> ;
+	wdt:P279 wd:Q8060096 ;
+	wdt:P2192 "10633" ;
+	wdt:P305 "kql" ;
+	wdt:P1627 "kql" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q690880 ;
+	wdt:P646 "/m/02hwt29" ;
+	rdfs:label "Język miyak"@pl ;
+	skos:prefLabel "Język miyak"@pl ;
+	schema:name "Język miyak"@pl ;
+	rdfs:label "Kyenele"@en ;
+	skos:prefLabel "Kyenele"@en ;
+	schema:name "Kyenele"@en ;
+	rdfs:label "Lenga Kyenele"@pms ;
+	skos:prefLabel "Lenga Kyenele"@pms ;
+	schema:name "Lenga Kyenele"@pms ;
+	rdfs:label "miyakeg"@br ;
+	skos:prefLabel "miyakeg"@br ;
+	schema:name "miyakeg"@br ;
+	rdfs:label "kyenele"@fr ;
+	skos:prefLabel "kyenele"@fr ;
+	schema:name "kyenele"@fr ;
+	rdfs:label "Kikyenele"@sw ;
+	skos:prefLabel "Kikyenele"@sw ;
+	schema:name "Kikyenele"@sw ;
+	rdfs:label "Kyenele"@ilo ;
+	skos:prefLabel "Kyenele"@ilo ;
+	schema:name "Kyenele"@ilo ;
+	rdfs:label "Kyenele"@en-gb ;
+	skos:prefLabel "Kyenele"@en-gb ;
+	schema:name "Kyenele"@en-gb ;
+	schema:description "pagsasao idiay Papua Baro a Guinea"@ilo,
+		"langue yuat"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kyeneleg"@br,
+		"Kyenele language"@en .
+
+wd:Q14916882 owl:sameAs wd:Q11732453 .
+
+wd:Q20580449 owl:sameAs wd:Q11732453 .

@@ -1,0 +1,121 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q56836 a schema:Dataset ;
+	schema:about wd:Q56836 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1727759583"^^xsd:integer ;
+	schema:dateModified "2022-09-13T10:19:22Z"^^xsd:dateTime .
+
+wd:Q56836 a wikibase:Item .
+
+<https://sw.wikipedia.org/wiki/Kibaygo> a schema:Article ;
+	schema:about wd:Q56836 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibaygo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Beigo_language> a schema:Article ;
+	schema:about wd:Q56836 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Beigo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Begoeg> a schema:Article ;
+	schema:about wd:Q56836 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Begoeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Baygo_jezik> a schema:Article ;
+	schema:about wd:Q56836 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Baygo jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q56836 wdt:P220 "byg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/byg> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P2355 "1692" ;
+	wdt:P1394 "bayg1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/bayg1239> ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P279 wd:Q956724 ;
+	wdt:P2192 "5055" ;
+	wdt:P305 "byg" ;
+	wdt:P1627 "byg" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q1049 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BYG> ;
+	wdt:P646 "/m/02hxy83" ;
+	wdt:P4839 "Entity[\"Language\", \"Baygo::y9bkp\"]",
+		"Entity[\"Language\", \"Baygo\"]" ;
+	rdfs:label "begoeg"@br ;
+	skos:prefLabel "begoeg"@br ;
+	schema:name "begoeg"@br ;
+	rdfs:label "Beigo"@en ;
+	skos:prefLabel "Beigo"@en ;
+	schema:name "Beigo"@en ;
+	rdfs:label "Baygo jezik"@hr ;
+	skos:prefLabel "Baygo jezik"@hr ;
+	schema:name "Baygo jezik"@hr ;
+	rdfs:label "Kibaygo"@sw ;
+	skos:prefLabel "Kibaygo"@sw ;
+	schema:name "Kibaygo"@sw ;
+	rdfs:label "ベイゴ語"@ja ;
+	skos:prefLabel "ベイゴ語"@ja ;
+	schema:name "ベイゴ語"@ja ;
+	rdfs:label "baygo"@fr ;
+	skos:prefLabel "baygo"@fr ;
+	schema:name "baygo"@fr ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue dadjo"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Baygo"@en,
+		"Beigo language"@en .

@@ -1,0 +1,328 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7442316 a schema:Dataset ;
+	schema:about wd:Q7442316 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1827872228"^^xsd:integer ;
+	schema:dateModified "2023-02-06T17:52:07Z"^^xsd:dateTime .
+
+wd:Q7442316 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Seba> a schema:Article ;
+	schema:about wd:Q7442316 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Seba"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiseba_(lugha)> a schema:Article ;
+	schema:about wd:Q7442316 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiseba (lugha)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Seba_language> a schema:Article ;
+	schema:about wd:Q7442316 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Seba language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7442316 wdt:P220 "kdg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kdg> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568,
+		wd:Q33384 ;
+	wdt:P1394 "seba1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/seba1247> ;
+	wdt:P305 "kdg" ;
+	wdt:P1627 "kdg" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q974,
+		wd:Q252 ;
+	wdt:P2341 wd:Q217242 ;
+	wdt:P279 wd:Q2319877 ;
+	wdt:P4913 wd:Q2319877 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KDG> ;
+	wdt:P646 "/m/02hxw2x" ;
+	rdfs:label "Seba"@en ;
+	skos:prefLabel "Seba"@en ;
+	schema:name "Seba"@en ;
+	rdfs:label "Kiseba (lugha)"@sw ;
+	skos:prefLabel "Kiseba (lugha)"@sw ;
+	schema:name "Kiseba (lugha)"@sw ;
+	rdfs:label "Lenga Seba"@pms ;
+	skos:prefLabel "Lenga Seba"@pms ;
+	schema:name "Lenga Seba"@pms ;
+	rdfs:label "Seba"@en-gb ;
+	skos:prefLabel "Seba"@en-gb ;
+	schema:name "Seba"@en-gb ;
+	rdfs:label "Seba"@id ;
+	skos:prefLabel "Seba"@id ;
+	schema:name "Seba"@id ;
+	rdfs:label "Seba"@ace ;
+	skos:prefLabel "Seba"@ace ;
+	schema:name "Seba"@ace ;
+	rdfs:label "Seba"@af ;
+	skos:prefLabel "Seba"@af ;
+	schema:name "Seba"@af ;
+	rdfs:label "Seba"@an ;
+	skos:prefLabel "Seba"@an ;
+	schema:name "Seba"@an ;
+	rdfs:label "Seba"@ast ;
+	skos:prefLabel "Seba"@ast ;
+	schema:name "Seba"@ast ;
+	rdfs:label "Seba"@bar ;
+	skos:prefLabel "Seba"@bar ;
+	schema:name "Seba"@bar ;
+	rdfs:label "seba"@br ;
+	skos:prefLabel "seba"@br ;
+	schema:name "seba"@br ;
+	rdfs:label "seba"@ca ;
+	skos:prefLabel "seba"@ca ;
+	schema:name "seba"@ca ;
+	rdfs:label "Seba"@co ;
+	skos:prefLabel "Seba"@co ;
+	schema:name "Seba"@co ;
+	rdfs:label "Seba"@cs ;
+	skos:prefLabel "Seba"@cs ;
+	schema:name "Seba"@cs ;
+	rdfs:label "Seba"@cy ;
+	skos:prefLabel "Seba"@cy ;
+	schema:name "Seba"@cy ;
+	rdfs:label "Seba"@da ;
+	skos:prefLabel "Seba"@da ;
+	schema:name "Seba"@da ;
+	rdfs:label "Seba"@de ;
+	skos:prefLabel "Seba"@de ;
+	schema:name "Seba"@de ;
+	rdfs:label "Seba"@de-at ;
+	skos:prefLabel "Seba"@de-at ;
+	schema:name "Seba"@de-at ;
+	rdfs:label "Seba"@de-ch ;
+	skos:prefLabel "Seba"@de-ch ;
+	schema:name "Seba"@de-ch ;
+	rdfs:label "Seba"@en-ca ;
+	skos:prefLabel "Seba"@en-ca ;
+	schema:name "Seba"@en-ca ;
+	rdfs:label "Seba"@eo ;
+	skos:prefLabel "Seba"@eo ;
+	schema:name "Seba"@eo ;
+	rdfs:label "Seba"@es ;
+	skos:prefLabel "Seba"@es ;
+	schema:name "Seba"@es ;
+	rdfs:label "Seba"@et ;
+	skos:prefLabel "Seba"@et ;
+	schema:name "Seba"@et ;
+	rdfs:label "Seba"@eu ;
+	skos:prefLabel "Seba"@eu ;
+	schema:name "Seba"@eu ;
+	rdfs:label "Seba"@fi ;
+	skos:prefLabel "Seba"@fi ;
+	schema:name "Seba"@fi ;
+	rdfs:label "seba"@fr ;
+	skos:prefLabel "seba"@fr ;
+	schema:name "seba"@fr ;
+	rdfs:label "Seba"@frp ;
+	skos:prefLabel "Seba"@frp ;
+	schema:name "Seba"@frp ;
+	rdfs:label "Seba"@fur ;
+	skos:prefLabel "Seba"@fur ;
+	schema:name "Seba"@fur ;
+	rdfs:label "Seba"@ga ;
+	skos:prefLabel "Seba"@ga ;
+	schema:name "Seba"@ga ;
+	rdfs:label "Seba"@gd ;
+	skos:prefLabel "Seba"@gd ;
+	schema:name "Seba"@gd ;
+	rdfs:label "Seba"@gl ;
+	skos:prefLabel "Seba"@gl ;
+	schema:name "Seba"@gl ;
+	rdfs:label "Seba"@gsw ;
+	skos:prefLabel "Seba"@gsw ;
+	schema:name "Seba"@gsw ;
+	rdfs:label "Seba"@hr ;
+	skos:prefLabel "Seba"@hr ;
+	schema:name "Seba"@hr ;
+	rdfs:label "Seba"@hu ;
+	skos:prefLabel "Seba"@hu ;
+	schema:name "Seba"@hu ;
+	rdfs:label "Seba"@ia ;
+	skos:prefLabel "Seba"@ia ;
+	schema:name "Seba"@ia ;
+	rdfs:label "Seba"@ie ;
+	skos:prefLabel "Seba"@ie ;
+	schema:name "Seba"@ie ;
+	rdfs:label "Seba"@io ;
+	skos:prefLabel "Seba"@io ;
+	schema:name "Seba"@io ;
+	rdfs:label "Seba"@is ;
+	skos:prefLabel "Seba"@is ;
+	schema:name "Seba"@is ;
+	rdfs:label "seba"@it ;
+	skos:prefLabel "seba"@it ;
+	schema:name "seba"@it ;
+	rdfs:label "Seba"@jv ;
+	skos:prefLabel "Seba"@jv ;
+	schema:name "Seba"@jv ;
+	rdfs:label "Seba"@kg ;
+	skos:prefLabel "Seba"@kg ;
+	schema:name "Seba"@kg ;
+	rdfs:label "Seba"@lb ;
+	skos:prefLabel "Seba"@lb ;
+	schema:name "Seba"@lb ;
+	rdfs:label "Seba"@li ;
+	skos:prefLabel "Seba"@li ;
+	schema:name "Seba"@li ;
+	rdfs:label "Seba"@lij ;
+	skos:prefLabel "Seba"@lij ;
+	schema:name "Seba"@lij ;
+	rdfs:label "Seba"@mg ;
+	skos:prefLabel "Seba"@mg ;
+	schema:name "Seba"@mg ;
+	rdfs:label "Seba"@min ;
+	skos:prefLabel "Seba"@min ;
+	schema:name "Seba"@min ;
+	rdfs:label "Seba"@ms ;
+	skos:prefLabel "Seba"@ms ;
+	schema:name "Seba"@ms ;
+	rdfs:label "Seba"@nap ;
+	skos:prefLabel "Seba"@nap ;
+	schema:name "Seba"@nap ;
+	rdfs:label "Seba"@nb ;
+	skos:prefLabel "Seba"@nb ;
+	schema:name "Seba"@nb ;
+	rdfs:label "Seba"@nds ;
+	skos:prefLabel "Seba"@nds ;
+	schema:name "Seba"@nds ;
+	rdfs:label "Seba"@nds-nl ;
+	skos:prefLabel "Seba"@nds-nl ;
+	schema:name "Seba"@nds-nl ;
+	rdfs:label "Seba"@nl ;
+	skos:prefLabel "Seba"@nl ;
+	schema:name "Seba"@nl ;
+	rdfs:label "Seba"@nn ;
+	skos:prefLabel "Seba"@nn ;
+	schema:name "Seba"@nn ;
+	rdfs:label "Seba"@nrm ;
+	skos:prefLabel "Seba"@nrm ;
+	schema:name "Seba"@nrm ;
+	rdfs:label "Seba"@oc ;
+	skos:prefLabel "Seba"@oc ;
+	schema:name "Seba"@oc ;
+	rdfs:label "Seba"@pcd ;
+	skos:prefLabel "Seba"@pcd ;
+	schema:name "Seba"@pcd ;
+	rdfs:label "Seba"@pl ;
+	skos:prefLabel "Seba"@pl ;
+	schema:name "Seba"@pl ;
+	rdfs:label "Seba"@pt ;
+	skos:prefLabel "Seba"@pt ;
+	schema:name "Seba"@pt ;
+	rdfs:label "Seba"@pt-br ;
+	skos:prefLabel "Seba"@pt-br ;
+	schema:name "Seba"@pt-br ;
+	rdfs:label "Seba"@rm ;
+	skos:prefLabel "Seba"@rm ;
+	schema:name "Seba"@rm ;
+	rdfs:label "Seba"@ro ;
+	skos:prefLabel "Seba"@ro ;
+	schema:name "Seba"@ro ;
+	rdfs:label "Seba"@sc ;
+	skos:prefLabel "Seba"@sc ;
+	schema:name "Seba"@sc ;
+	rdfs:label "Seba"@scn ;
+	skos:prefLabel "Seba"@scn ;
+	schema:name "Seba"@scn ;
+	rdfs:label "Seba"@sco ;
+	skos:prefLabel "Seba"@sco ;
+	schema:name "Seba"@sco ;
+	rdfs:label "Seba"@sk ;
+	skos:prefLabel "Seba"@sk ;
+	schema:name "Seba"@sk ;
+	rdfs:label "Seba"@sl ;
+	skos:prefLabel "Seba"@sl ;
+	schema:name "Seba"@sl ;
+	rdfs:label "Seba"@sr-el ;
+	skos:prefLabel "Seba"@sr-el ;
+	schema:name "Seba"@sr-el ;
+	rdfs:label "Seba"@su ;
+	skos:prefLabel "Seba"@su ;
+	schema:name "Seba"@su ;
+	rdfs:label "Seba"@sv ;
+	skos:prefLabel "Seba"@sv ;
+	schema:name "Seba"@sv ;
+	rdfs:label "Seba"@vec ;
+	skos:prefLabel "Seba"@vec ;
+	schema:name "Seba"@vec ;
+	rdfs:label "Seba"@vi ;
+	skos:prefLabel "Seba"@vi ;
+	schema:name "Seba"@vi ;
+	rdfs:label "Seba"@vls ;
+	skos:prefLabel "Seba"@vls ;
+	schema:name "Seba"@vls ;
+	rdfs:label "Seba"@vo ;
+	skos:prefLabel "Seba"@vo ;
+	schema:name "Seba"@vo ;
+	rdfs:label "Seba"@wa ;
+	skos:prefLabel "Seba"@wa ;
+	schema:name "Seba"@wa ;
+	rdfs:label "Seba"@wo ;
+	skos:prefLabel "Seba"@wo ;
+	schema:name "Seba"@wo ;
+	rdfs:label "Seba"@zu ;
+	skos:prefLabel "Seba"@zu ;
+	schema:name "Seba"@zu ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"dialek bahasa Hawu"@id ;
+	skos:altLabel "Seba language"@en,
+		"Seba"@pms,
+		"Seba"@sw,
+		"Heba"@id .
+
+wd:Q11007155 owl:sameAs wd:Q7442316 .
+
+wd:Q27777784 owl:sameAs wd:Q7442316 .

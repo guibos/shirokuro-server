@@ -1,0 +1,98 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q13591205 a schema:Dataset ;
+	schema:about wd:Q13591205 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1360111465"^^xsd:integer ;
+	schema:dateModified "2021-02-13T02:56:54Z"^^xsd:dateTime .
+
+wd:Q13591205 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_ndyuka-trio_pidgin> a schema:Article ;
+	schema:about wd:Q13591205 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga ndyuka-trio pidgin"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ndyuka-Tiriy%C3%B3_Pidgin> a schema:Article ;
+	schema:about wd:Q13591205 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ndyuka-Tiriyó Pidgin"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q13591205 wdt:P220 "njt" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/njt> ;
+	wdt:P31 wd:Q33831,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "ndyu1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ndyu1241> ;
+	wdt:P305 "njt" ;
+	wdt:P144 wd:Q56885 ;
+	wdt:P2192 "4866" ;
+	wdt:P1627 "njt" ;
+	wdt:P910 wd:Q63123310 ;
+	wdt:P3823 wd:Q61954942 ;
+	wdt:P17 wd:Q730 ;
+	wdt:P2341 wd:Q1130138 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/NJT> ;
+	wdt:P646 "/m/02hw_zr" ;
+	rdfs:label "Lenga ndyuka-trio pidgin"@pms ;
+	skos:prefLabel "Lenga ndyuka-trio pidgin"@pms ;
+	schema:name "Lenga ndyuka-trio pidgin"@pms ;
+	rdfs:label "Ndyuka-Trio Pidgin"@en ;
+	skos:prefLabel "Ndyuka-Trio Pidgin"@en ;
+	schema:name "Ndyuka-Trio Pidgin"@en ;
+	rdfs:label "Ндюка-тирийо пиджин"@ru ;
+	skos:prefLabel "Ндюка-тирийо пиджин"@ru ;
+	schema:name "Ндюка-тирийо пиджин"@ru ;
+	rdfs:label "Ndyuka-Trio Pidgin"@en-gb ;
+	skos:prefLabel "Ndyuka-Trio Pidgin"@en-gb ;
+	schema:name "Ndyuka-Trio Pidgin"@en-gb ;
+	rdfs:label "pidgin ndyuka-trio"@fr ;
+	skos:prefLabel "pidgin ndyuka-trio"@fr ;
+	schema:name "pidgin ndyuka-trio"@fr ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la .

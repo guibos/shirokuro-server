@@ -1,0 +1,136 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35152 a schema:Dataset ;
+	schema:about wd:Q35152 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1615995574"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:45:54Z"^^xsd:dateTime .
+
+wd:Q35152 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Dilling> a schema:Article ;
+	schema:about wd:Q35152 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Dilling"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kidilling> a schema:Article ;
+	schema:about wd:Q35152 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kidilling"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Dilling_language> a schema:Article ;
+	schema:about wd:Q35152 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Dilling language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Dilling_(Sprache)> a schema:Article ;
+	schema:about wd:Q35152 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Dilling (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D8%AF%D9%84%D9%86%D8%AC> a schema:Article ;
+	schema:about wd:Q35152 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "لغة الدلنج"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35152 wdt:P279 wd:Q5762211 ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "dil" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dil> ;
+	wdt:P2355 "73" ;
+	wdt:P1394 "dill1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/dill1242> ;
+	wdt:P2192 "4082" ;
+	wdt:P910 wd:Q33666752 ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P305 "dil" ;
+	wdt:P1627 "dil" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P17 wd:Q1049 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DIL> ;
+	wdt:P646 "/m/02hxnjx" ;
+	rdfs:label "Dilling"@de ;
+	skos:prefLabel "Dilling"@de ;
+	schema:name "Dilling"@de ;
+	rdfs:label "Lenga Dilling"@pms ;
+	skos:prefLabel "Lenga Dilling"@pms ;
+	schema:name "Lenga Dilling"@pms ;
+	rdfs:label "Dilling"@en ;
+	skos:prefLabel "Dilling"@en ;
+	schema:name "Dilling"@en ;
+	rdfs:label "Kidilling"@sw ;
+	skos:prefLabel "Kidilling"@sw ;
+	schema:name "Kidilling"@sw ;
+	rdfs:label "Dilling"@en-gb ;
+	skos:prefLabel "Dilling"@en-gb ;
+	schema:name "Dilling"@en-gb ;
+	rdfs:label "dilling"@fr ;
+	skos:prefLabel "dilling"@fr ;
+	schema:name "dilling"@fr ;
+	rdfs:label "لغة الدلنغ"@ar ;
+	skos:prefLabel "لغة الدلنغ"@ar ;
+	schema:name "لغة الدلنغ"@ar ;
+	schema:description "Sprache"@de,
+		"language of Sudan"@en,
+		"שפה"@he,
+		"langue nubienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"لغة في السودان"@ar ;
+	skos:altLabel "Warki"@de,
+		"Warkimbe"@de,
+		"Dilling language"@en .
+
+wd:Q30588078 owl:sameAs wd:Q35152 .
+
+wd:Q50934806 owl:sameAs wd:Q35152 .

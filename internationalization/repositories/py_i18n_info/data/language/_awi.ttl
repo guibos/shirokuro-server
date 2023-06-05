@@ -1,0 +1,173 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3399691 a schema:Dataset ;
+	schema:about wd:Q3399691 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1727760702"^^xsd:integer ;
+	schema:dateModified "2022-09-13T10:21:18Z"^^xsd:dateTime .
+
+wd:Q3399691 a wikibase:Item .
+
+<https://gl.wikipedia.org/wiki/Lingua_aekyom> a schema:Article ;
+	schema:about wd:Q3399691 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Lingua aekyom"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Awin_language> a schema:Article ;
+	schema:about wd:Q3399691 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Awin language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Aekyom_jezik> a schema:Article ;
+	schema:about wd:Q3399691 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Aekyom jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_aekyom> a schema:Article ;
+	schema:about wd:Q3399691 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma aekyom"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Aekyom> a schema:Article ;
+	schema:about wd:Q3399691 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Aekyom"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiaekyom> a schema:Article ;
+	schema:about wd:Q3399691 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiaekyom"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Awin> a schema:Article ;
+	schema:about wd:Q3399691 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Awin"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Aekyom> a schema:Article ;
+	schema:about wd:Q3399691 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Aekyom"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3399691 wdt:P361 wd:Q12627426 ;
+	wdt:P220 "awi" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/awi> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "aeky1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/aeky1238> ;
+	wdt:P1466 "awi" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_awi> ;
+	wdt:P305 "awi" ;
+	wdt:P1627 "awi" ;
+	wdt:P244 "sh85001242" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh85001242> ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q849790 ;
+	wdt:P1245 "669540" ;
+	wdt:P646 "/m/02hwl0y" ;
+	wdt:P910 wd:Q105715600 ;
+	wdt:P4839 "Entity[\"Language\", \"Aekyom::8c5b9\"]",
+		"Entity[\"Language\", \"Aekyom\"]" ;
+	wdt:P8189 "987007293964305171" ;
+	rdfs:label "Lingua aekyom"@gl ;
+	skos:prefLabel "Lingua aekyom"@gl ;
+	schema:name "Lingua aekyom"@gl ;
+	rdfs:label "Awin"@en ;
+	skos:prefLabel "Awin"@en ;
+	schema:name "Awin"@en ;
+	rdfs:label "Aekyom jezik"@hr ;
+	skos:prefLabel "Aekyom jezik"@hr ;
+	schema:name "Aekyom jezik"@hr ;
+	rdfs:label "Idioma aekyom"@es ;
+	skos:prefLabel "Idioma aekyom"@es ;
+	schema:name "Idioma aekyom"@es ;
+	rdfs:label "Lenga Aekyom"@pms ;
+	skos:prefLabel "Lenga Aekyom"@pms ;
+	schema:name "Lenga Aekyom"@pms ;
+	rdfs:label "Kiaekyom"@sw ;
+	skos:prefLabel "Kiaekyom"@sw ;
+	schema:name "Kiaekyom"@sw ;
+	rdfs:label "Język awin"@pl ;
+	skos:prefLabel "Język awin"@pl ;
+	schema:name "Język awin"@pl ;
+	rdfs:label "Awin"@ilo ;
+	skos:prefLabel "Awin"@ilo ;
+	schema:name "Awin"@ilo ;
+	rdfs:label "aekyom langue"@fr ;
+	skos:prefLabel "aekyom langue"@fr ;
+	schema:name "aekyom langue"@fr ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Aekyom"@gl,
+		"Aekyom"@en,
+		"Awin language"@en .
+
+wd:Q11732058 owl:sameAs wd:Q3399691 .
+
+wd:Q12952234 owl:sameAs wd:Q3399691 .
+
+wd:Q5908498 owl:sameAs wd:Q3399691 .

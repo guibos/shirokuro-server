@@ -1,0 +1,132 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11732656 a schema:Dataset ;
+	schema:about wd:Q11732656 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960453996"^^xsd:integer ;
+	schema:dateModified "2023-08-24T21:03:37Z"^^xsd:dateTime .
+
+wd:Q11732656 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kanasi> a schema:Article ;
+	schema:about wd:Q11732656 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kanasi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kanasi_language> a schema:Article ;
+	schema:about wd:Q11732656 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kanasi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikanasi> a schema:Article ;
+	schema:about wd:Q11732656 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikanasi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_kanasi> a schema:Article ;
+	schema:about wd:Q11732656 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua kanasi"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Kanasi> a schema:Article ;
+	schema:about wd:Q11732656 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Kanasi"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11732656 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "soq" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/soq> ;
+	wdt:P1394 "kana1288" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kana1288> ;
+	wdt:P305 "soq" ;
+	wdt:P1627 "soq" ;
+	wdt:P244 "sh93006372" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh93006372> ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q874962 ;
+	wdt:P646 "/m/02hxmq0" ;
+	wdt:P8189 "987007537045805171" ;
+	rdfs:label "Język sona"@pl ;
+	skos:prefLabel "Język sona"@pl ;
+	schema:name "Język sona"@pl ;
+	rdfs:label "Lenga Kanasi"@pms ;
+	skos:prefLabel "Lenga Kanasi"@pms ;
+	schema:name "Lenga Kanasi"@pms ;
+	rdfs:label "Kanasi"@en ;
+	skos:prefLabel "Kanasi"@en ;
+	schema:name "Kanasi"@en ;
+	rdfs:label "Kikanasi"@sw ;
+	skos:prefLabel "Kikanasi"@sw ;
+	schema:name "Kikanasi"@sw ;
+	rdfs:label "Língua kanasi"@pt ;
+	skos:prefLabel "Língua kanasi"@pt ;
+	schema:name "Língua kanasi"@pt ;
+	rdfs:label "Kanasi"@ilo ;
+	skos:prefLabel "Kanasi"@ilo ;
+	schema:name "Kanasi"@ilo ;
+	rdfs:label "Kanasi"@en-gb ;
+	skos:prefLabel "Kanasi"@en-gb ;
+	schema:name "Kanasi"@en-gb ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kanasi language"@en .
+
+wd:Q6360695 owl:sameAs wd:Q11732656 .
+
+wd:Q12952561 owl:sameAs wd:Q11732656 .

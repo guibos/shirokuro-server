@@ -1,0 +1,146 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q18642798 a schema:Dataset ;
+	schema:about wd:Q18642798 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1785548273"^^xsd:integer ;
+	schema:dateModified "2022-12-06T15:19:45Z"^^xsd:dateTime .
+
+wd:Q18642798 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_malay,_baba> a schema:Article ;
+	schema:about wd:Q18642798 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga malay, baba"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Baba> a schema:Article ;
+	schema:about wd:Q18642798 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Baba"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Baba_Malay> a schema:Article ;
+	schema:about wd:Q18642798 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Baba Malay"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%A1%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%B9%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%9A%E0%B9%8B%E0%B8%B2> a schema:Article ;
+	schema:about wd:Q18642798 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษามลายูบ้าบ๋า"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimalay_cha_Baba> a schema:Article ;
+	schema:about wd:Q18642798 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimalay cha Baba"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%B3%87%E5%B3%87%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q18642798 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "峇峇語"@zh ;
+	wikibase:badge wd:Q70893996 .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q18642798 wdt:P31 wd:Q33831,
+		wd:Q1288568 ;
+	wdt:P220 "mbf" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mbf> ;
+	wdt:P1394 "baba1267" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/baba1267> ;
+	wdt:P279 wd:Q653415 ;
+	wdt:P2192 "421" ;
+	wdt:P17 wd:Q833,
+		wd:Q334 ;
+	wdt:P131 wd:Q185221 ;
+	wdt:P1098 "+12000"^^xsd:decimal ;
+	wdt:P305 "mbf" ;
+	wdt:P1627 "mbf" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P1396 "31-MFB-a" ;
+	wdt:P910 wd:Q105714183 ;
+	wdt:P646 "/m/02hwkp3" ;
+	rdfs:label "Lenga malay, baba"@pms ;
+	skos:prefLabel "Lenga malay, baba"@pms ;
+	schema:name "Lenga malay, baba"@pms ;
+	rdfs:label "Kimalay ya Baba"@sw ;
+	skos:prefLabel "Kimalay ya Baba"@sw ;
+	schema:name "Kimalay ya Baba"@sw ;
+	rdfs:label "Bahasa Baba"@ms ;
+	skos:prefLabel "Bahasa Baba"@ms ;
+	schema:name "Bahasa Baba"@ms ;
+	rdfs:label "Baba Malay"@en ;
+	skos:prefLabel "Baba Malay"@en ;
+	schema:name "Baba Malay"@en ;
+	rdfs:label "ภาษาบ้าบ๋า"@th ;
+	skos:prefLabel "ภาษาบ้าบ๋า"@th ;
+	schema:name "ภาษาบ้าบ๋า"@th ;
+	rdfs:label "Baba Malay"@en-gb ;
+	skos:prefLabel "Baba Malay"@en-gb ;
+	schema:name "Baba Malay"@en-gb ;
+	rdfs:label "malais baba"@fr ;
+	skos:prefLabel "malais baba"@fr ;
+	schema:name "malais baba"@fr ;
+	rdfs:label "峇峇語"@zh ;
+	skos:prefLabel "峇峇語"@zh ;
+	schema:name "峇峇語"@zh ;
+	rdfs:label "Baba-Maleis"@nl ;
+	skos:prefLabel "Baba-Maleis"@nl ;
+	schema:name "Baba-Maleis"@nl ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"créole malais"@fr,
+		"Malay-based pidgin spoken in Melaka"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Peranakan malay"@en .

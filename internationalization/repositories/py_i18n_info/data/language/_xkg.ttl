@@ -1,0 +1,131 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11159524 a schema:Dataset ;
+	schema:about wd:Q11159524 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961145929"^^xsd:integer ;
+	schema:dateModified "2023-08-25T19:05:24Z"^^xsd:dateTime .
+
+wd:Q11159524 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Kagoro_(langue_du_Mali)> a schema:Article ;
+	schema:about wd:Q11159524 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kagoro (langue du Mali)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kagoro> a schema:Article ;
+	schema:about wd:Q11159524 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kagoro"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikagoro> a schema:Article ;
+	schema:about wd:Q11159524 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikagoro"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Kagoron_kieli> a schema:Article ;
+	schema:about wd:Q11159524 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Kagoron kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11159524 wdt:P220 "xkg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xkg> ;
+	wdt:P305 "xkg" ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q35772 ;
+	wdt:P269 "12149828X" ;
+	wdtn:P269 <http://www.idref.fr/12149828X/id> ;
+	wdt:P244 "sh2003003143" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh2003003143> ;
+	wdt:P268 "156027020" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb156027020#about> ;
+	wdt:P1394 "kago1248" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kago1248> ;
+	wdt:P2192 "3250" ;
+	wdt:P1627 "xkg" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q912 ;
+	wdt:P2341 wd:Q332113,
+		wd:Q287789,
+		wd:Q656845 ;
+	wdt:P1396 "00-AAA-ag" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XKG> ;
+	wdt:P2671 "/g/11b76ggt8k" ;
+	wdtn:P2671 <http://g.co/kg/g/11b76ggt8k> ;
+	wdt:P8189 "987007542104205171" ;
+	rdfs:label "Kikagoro"@sw ;
+	skos:prefLabel "Kikagoro"@sw ;
+	schema:name "Kikagoro"@sw ;
+	rdfs:label "Lenga Kagoro"@pms ;
+	skos:prefLabel "Lenga Kagoro"@pms ;
+	schema:name "Lenga Kagoro"@pms ;
+	rdfs:label "kagoro"@fr ;
+	skos:prefLabel "kagoro"@fr ;
+	schema:name "kagoro"@fr ;
+	rdfs:label "Kagoro"@en ;
+	skos:prefLabel "Kagoro"@en ;
+	schema:name "Kagoro"@en ;
+	rdfs:label "Kagoro"@en-gb ;
+	skos:prefLabel "Kagoro"@en-gb ;
+	schema:name "Kagoro"@en-gb ;
+	rdfs:label "Kagoron kieli"@fi ;
+	skos:prefLabel "Kagoron kieli"@fi ;
+	schema:name "Kagoron kieli"@fi ;
+	rdfs:label "ߞߊ߬ߜ߭ߙߏ"@nqo ;
+	skos:prefLabel "ߞߊ߬ߜ߭ߙߏ"@nqo ;
+	schema:name "ߞߊ߬ߜ߭ߙߏ"@nqo ;
+	schema:description "langue mandingue"@fr,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"ߡߊ߲߬ߘߋ߲߫ ߞߊ߲"@nqo ;
+	skos:altLabel "Kagoro language"@en .

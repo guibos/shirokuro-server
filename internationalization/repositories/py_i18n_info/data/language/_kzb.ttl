@@ -1,0 +1,348 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6347565 a schema:Dataset ;
+	schema:about wd:Q6347565 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1615999431"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:50:56Z"^^xsd:dateTime .
+
+wd:Q6347565 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kaibobo> a schema:Article ;
+	schema:about wd:Q6347565 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kaibobo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Kaibobo> a schema:Article ;
+	schema:about wd:Q6347565 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Kaibobo"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikaibobo> a schema:Article ;
+	schema:about wd:Q6347565 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikaibobo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kaibobo_language> a schema:Article ;
+	schema:about wd:Q6347565 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kaibobo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6347565 wdt:P220 "kzb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kzb> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q7198118 ;
+	wdt:P1394 "kaib1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kaib1244> ;
+	wdt:P276 wd:Q24341337 ;
+	wdt:P2355 "2335" ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2590 "0711 3" ;
+	wdt:P1705 "bahasa Kaibobo"@id ;
+	wdt:P2192 "1810" ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P305 "kzb" ;
+	wdt:P1627 "kzb" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P2341 wd:Q5093 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KZB> ;
+	wdt:P646 "/m/02hx31j" ;
+	rdfs:label "Kaibobo"@en ;
+	skos:prefLabel "Kaibobo"@en ;
+	schema:name "Kaibobo"@en ;
+	rdfs:label "Kikaibobo"@sw ;
+	skos:prefLabel "Kikaibobo"@sw ;
+	schema:name "Kikaibobo"@sw ;
+	rdfs:label "Lenga Kaibobo"@pms ;
+	skos:prefLabel "Lenga Kaibobo"@pms ;
+	schema:name "Lenga Kaibobo"@pms ;
+	rdfs:label "Kaibobo"@id ;
+	skos:prefLabel "Kaibobo"@id ;
+	schema:name "Kaibobo"@id ;
+	rdfs:label "Kaibobo"@ace ;
+	skos:prefLabel "Kaibobo"@ace ;
+	schema:name "Kaibobo"@ace ;
+	rdfs:label "Kaibobo"@af ;
+	skos:prefLabel "Kaibobo"@af ;
+	schema:name "Kaibobo"@af ;
+	rdfs:label "Kaibobo"@an ;
+	skos:prefLabel "Kaibobo"@an ;
+	schema:name "Kaibobo"@an ;
+	rdfs:label "Kaibobo"@ast ;
+	skos:prefLabel "Kaibobo"@ast ;
+	schema:name "Kaibobo"@ast ;
+	rdfs:label "Kaibobo"@bar ;
+	skos:prefLabel "Kaibobo"@bar ;
+	schema:name "Kaibobo"@bar ;
+	rdfs:label "kaibobo"@br ;
+	skos:prefLabel "kaibobo"@br ;
+	schema:name "kaibobo"@br ;
+	rdfs:label "kaibobo"@ca ;
+	skos:prefLabel "kaibobo"@ca ;
+	schema:name "kaibobo"@ca ;
+	rdfs:label "Kaibobo"@co ;
+	skos:prefLabel "Kaibobo"@co ;
+	schema:name "Kaibobo"@co ;
+	rdfs:label "Kaibobo"@cs ;
+	skos:prefLabel "Kaibobo"@cs ;
+	schema:name "Kaibobo"@cs ;
+	rdfs:label "Kaibobo"@cy ;
+	skos:prefLabel "Kaibobo"@cy ;
+	schema:name "Kaibobo"@cy ;
+	rdfs:label "Kaibobo"@da ;
+	skos:prefLabel "Kaibobo"@da ;
+	schema:name "Kaibobo"@da ;
+	rdfs:label "Kaibobo"@de ;
+	skos:prefLabel "Kaibobo"@de ;
+	schema:name "Kaibobo"@de ;
+	rdfs:label "Kaibobo"@de-at ;
+	skos:prefLabel "Kaibobo"@de-at ;
+	schema:name "Kaibobo"@de-at ;
+	rdfs:label "Kaibobo"@de-ch ;
+	skos:prefLabel "Kaibobo"@de-ch ;
+	schema:name "Kaibobo"@de-ch ;
+	rdfs:label "Kaibobo"@en-ca ;
+	skos:prefLabel "Kaibobo"@en-ca ;
+	schema:name "Kaibobo"@en-ca ;
+	rdfs:label "Kaibobo"@en-gb ;
+	skos:prefLabel "Kaibobo"@en-gb ;
+	schema:name "Kaibobo"@en-gb ;
+	rdfs:label "Kaibobo"@eo ;
+	skos:prefLabel "Kaibobo"@eo ;
+	schema:name "Kaibobo"@eo ;
+	rdfs:label "Kaibobo"@es ;
+	skos:prefLabel "Kaibobo"@es ;
+	schema:name "Kaibobo"@es ;
+	rdfs:label "Kaibobo"@et ;
+	skos:prefLabel "Kaibobo"@et ;
+	schema:name "Kaibobo"@et ;
+	rdfs:label "Kaibobo"@eu ;
+	skos:prefLabel "Kaibobo"@eu ;
+	schema:name "Kaibobo"@eu ;
+	rdfs:label "Kaibobo"@fi ;
+	skos:prefLabel "Kaibobo"@fi ;
+	schema:name "Kaibobo"@fi ;
+	rdfs:label "kaibobo"@fr ;
+	skos:prefLabel "kaibobo"@fr ;
+	schema:name "kaibobo"@fr ;
+	rdfs:label "Kaibobo"@frp ;
+	skos:prefLabel "Kaibobo"@frp ;
+	schema:name "Kaibobo"@frp ;
+	rdfs:label "Kaibobo"@fur ;
+	skos:prefLabel "Kaibobo"@fur ;
+	schema:name "Kaibobo"@fur ;
+	rdfs:label "Kaibobo"@ga ;
+	skos:prefLabel "Kaibobo"@ga ;
+	schema:name "Kaibobo"@ga ;
+	rdfs:label "Kaibobo"@gd ;
+	skos:prefLabel "Kaibobo"@gd ;
+	schema:name "Kaibobo"@gd ;
+	rdfs:label "Kaibobo"@gl ;
+	skos:prefLabel "Kaibobo"@gl ;
+	schema:name "Kaibobo"@gl ;
+	rdfs:label "Kaibobo"@gsw ;
+	skos:prefLabel "Kaibobo"@gsw ;
+	schema:name "Kaibobo"@gsw ;
+	rdfs:label "Kaibobo"@hr ;
+	skos:prefLabel "Kaibobo"@hr ;
+	schema:name "Kaibobo"@hr ;
+	rdfs:label "Kaibobo"@hu ;
+	skos:prefLabel "Kaibobo"@hu ;
+	schema:name "Kaibobo"@hu ;
+	rdfs:label "Kaibobo"@ia ;
+	skos:prefLabel "Kaibobo"@ia ;
+	schema:name "Kaibobo"@ia ;
+	rdfs:label "Kaibobo"@ie ;
+	skos:prefLabel "Kaibobo"@ie ;
+	schema:name "Kaibobo"@ie ;
+	rdfs:label "Kaibobo"@io ;
+	skos:prefLabel "Kaibobo"@io ;
+	schema:name "Kaibobo"@io ;
+	rdfs:label "Kaibobo"@is ;
+	skos:prefLabel "Kaibobo"@is ;
+	schema:name "Kaibobo"@is ;
+	rdfs:label "kaibobo"@it ;
+	skos:prefLabel "kaibobo"@it ;
+	schema:name "kaibobo"@it ;
+	rdfs:label "Kaibobo"@jv ;
+	skos:prefLabel "Kaibobo"@jv ;
+	schema:name "Kaibobo"@jv ;
+	rdfs:label "Kaibobo"@kg ;
+	skos:prefLabel "Kaibobo"@kg ;
+	schema:name "Kaibobo"@kg ;
+	rdfs:label "Kaibobo"@lb ;
+	skos:prefLabel "Kaibobo"@lb ;
+	schema:name "Kaibobo"@lb ;
+	rdfs:label "Kaibobo"@li ;
+	skos:prefLabel "Kaibobo"@li ;
+	schema:name "Kaibobo"@li ;
+	rdfs:label "Kaibobo"@lij ;
+	skos:prefLabel "Kaibobo"@lij ;
+	schema:name "Kaibobo"@lij ;
+	rdfs:label "Kaibobo"@mg ;
+	skos:prefLabel "Kaibobo"@mg ;
+	schema:name "Kaibobo"@mg ;
+	rdfs:label "Kaibobo"@min ;
+	skos:prefLabel "Kaibobo"@min ;
+	schema:name "Kaibobo"@min ;
+	rdfs:label "Kaibobo"@ms ;
+	skos:prefLabel "Kaibobo"@ms ;
+	schema:name "Kaibobo"@ms ;
+	rdfs:label "Kaibobo"@nap ;
+	skos:prefLabel "Kaibobo"@nap ;
+	schema:name "Kaibobo"@nap ;
+	rdfs:label "Kaibobo"@nb ;
+	skos:prefLabel "Kaibobo"@nb ;
+	schema:name "Kaibobo"@nb ;
+	rdfs:label "Kaibobo"@nds ;
+	skos:prefLabel "Kaibobo"@nds ;
+	schema:name "Kaibobo"@nds ;
+	rdfs:label "Kaibobo"@nds-nl ;
+	skos:prefLabel "Kaibobo"@nds-nl ;
+	schema:name "Kaibobo"@nds-nl ;
+	rdfs:label "Kaibobo"@nl ;
+	skos:prefLabel "Kaibobo"@nl ;
+	schema:name "Kaibobo"@nl ;
+	rdfs:label "Kaibobo"@nn ;
+	skos:prefLabel "Kaibobo"@nn ;
+	schema:name "Kaibobo"@nn ;
+	rdfs:label "Kaibobo"@nrm ;
+	skos:prefLabel "Kaibobo"@nrm ;
+	schema:name "Kaibobo"@nrm ;
+	rdfs:label "Kaibobo"@oc ;
+	skos:prefLabel "Kaibobo"@oc ;
+	schema:name "Kaibobo"@oc ;
+	rdfs:label "Kaibobo"@pcd ;
+	skos:prefLabel "Kaibobo"@pcd ;
+	schema:name "Kaibobo"@pcd ;
+	rdfs:label "Kaibobo"@pl ;
+	skos:prefLabel "Kaibobo"@pl ;
+	schema:name "Kaibobo"@pl ;
+	rdfs:label "Kaibobo"@pt ;
+	skos:prefLabel "Kaibobo"@pt ;
+	schema:name "Kaibobo"@pt ;
+	rdfs:label "Kaibobo"@pt-br ;
+	skos:prefLabel "Kaibobo"@pt-br ;
+	schema:name "Kaibobo"@pt-br ;
+	rdfs:label "Kaibobo"@rm ;
+	skos:prefLabel "Kaibobo"@rm ;
+	schema:name "Kaibobo"@rm ;
+	rdfs:label "Kaibobo"@ro ;
+	skos:prefLabel "Kaibobo"@ro ;
+	schema:name "Kaibobo"@ro ;
+	rdfs:label "Kaibobo"@sc ;
+	skos:prefLabel "Kaibobo"@sc ;
+	schema:name "Kaibobo"@sc ;
+	rdfs:label "Kaibobo"@scn ;
+	skos:prefLabel "Kaibobo"@scn ;
+	schema:name "Kaibobo"@scn ;
+	rdfs:label "Kaibobo"@sco ;
+	skos:prefLabel "Kaibobo"@sco ;
+	schema:name "Kaibobo"@sco ;
+	rdfs:label "Kaibobo"@sk ;
+	skos:prefLabel "Kaibobo"@sk ;
+	schema:name "Kaibobo"@sk ;
+	rdfs:label "Kaibobo"@sl ;
+	skos:prefLabel "Kaibobo"@sl ;
+	schema:name "Kaibobo"@sl ;
+	rdfs:label "Kaibobo"@sr-el ;
+	skos:prefLabel "Kaibobo"@sr-el ;
+	schema:name "Kaibobo"@sr-el ;
+	rdfs:label "Kaibobo"@su ;
+	skos:prefLabel "Kaibobo"@su ;
+	schema:name "Kaibobo"@su ;
+	rdfs:label "Kaibobo"@sv ;
+	skos:prefLabel "Kaibobo"@sv ;
+	schema:name "Kaibobo"@sv ;
+	rdfs:label "Kaibobo"@vec ;
+	skos:prefLabel "Kaibobo"@vec ;
+	schema:name "Kaibobo"@vec ;
+	rdfs:label "Kaibobo"@vi ;
+	skos:prefLabel "Kaibobo"@vi ;
+	schema:name "Kaibobo"@vi ;
+	rdfs:label "Kaibobo"@vls ;
+	skos:prefLabel "Kaibobo"@vls ;
+	schema:name "Kaibobo"@vls ;
+	rdfs:label "Kaibobo"@vo ;
+	skos:prefLabel "Kaibobo"@vo ;
+	schema:name "Kaibobo"@vo ;
+	rdfs:label "Kaibobo"@wa ;
+	skos:prefLabel "Kaibobo"@wa ;
+	schema:name "Kaibobo"@wa ;
+	rdfs:label "Kaibobo"@wo ;
+	skos:prefLabel "Kaibobo"@wo ;
+	schema:name "Kaibobo"@wo ;
+	rdfs:label "Kaibobo"@zu ;
+	skos:prefLabel "Kaibobo"@zu ;
+	schema:name "Kaibobo"@zu ;
+	rdfs:label "Kaibobo"@ilo ;
+	skos:prefLabel "Kaibobo"@ilo ;
+	schema:name "Kaibobo"@ilo ;
+	rdfs:label "Wikang Kaibobo"@tl ;
+	skos:prefLabel "Wikang Kaibobo"@tl ;
+	schema:name "Wikang Kaibobo"@tl ;
+	schema:description "Sprache"@de,
+		"bahasa di Maluku"@id,
+		"pagsasao idiay Indonesia"@ilo,
+		"שפה"@he,
+		"taal"@nl,
+		"langue maluku central"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kaibobo language"@en,
+		"bahasa Kaibobo"@id,
+		"Kaibubu"@id,
+		"bahasa Kaibubu"@id .
+
+wd:Q12952544 owl:sameAs wd:Q6347565 .
+
+wd:Q25893677 owl:sameAs wd:Q6347565 .
+
+wd:Q31441697 owl:sameAs wd:Q6347565 .

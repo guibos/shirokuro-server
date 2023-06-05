@@ -1,0 +1,136 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7500203 a schema:Dataset ;
+	schema:about wd:Q7500203 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961429942"^^xsd:integer ;
+	schema:dateModified "2023-08-26T03:05:54Z"^^xsd:dateTime .
+
+wd:Q7500203 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Sholaga> a schema:Article ;
+	schema:about wd:Q7500203 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Sholaga"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Sholaga> a schema:Article ;
+	schema:about wd:Q7500203 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Sholaga"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisholaga> a schema:Article ;
+	schema:about wd:Q7500203 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisholaga"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sholaga_language> a schema:Article ;
+	schema:about wd:Q7500203 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sholaga language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ta.wikipedia.org/wiki/%E0%AE%B7%E0%AF%8B%E0%AE%B2%E0%AE%95_%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF> a schema:Article ;
+	schema:about wd:Q7500203 ;
+	schema:inLanguage "ta" ;
+	schema:isPartOf <https://ta.wikipedia.org/> ;
+	schema:name "ஷோலக மொழி"@ta .
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7500203 wdt:P220 "sle" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/sle> ;
+	wdt:P31 wd:Q33742,
+		wd:Q1288568 ;
+	wdt:P1394 "shol1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/shol1240> ;
+	wdt:P279 wd:Q6363888 ;
+	wdt:P910 wd:Q32829403 ;
+	wdt:P2192 "2061" ;
+	wdt:P305 "sle" ;
+	wdt:P1627 "sle" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1185,
+		wd:Q1445 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SLE> ;
+	wdt:P646 "/m/02hwhwd" ;
+	wdt:P1098 "+24000"^^xsd:decimal ;
+	rdfs:label "Sholaga"@en ;
+	skos:prefLabel "Sholaga"@en ;
+	schema:name "Sholaga"@en ;
+	rdfs:label "Kisholaga"@sw ;
+	skos:prefLabel "Kisholaga"@sw ;
+	schema:name "Kisholaga"@sw ;
+	rdfs:label "Lenga Sholaga"@pms ;
+	skos:prefLabel "Lenga Sholaga"@pms ;
+	schema:name "Lenga Sholaga"@pms ;
+	rdfs:label "ஷோலக மொழி"@ta ;
+	skos:prefLabel "ஷோலக மொழி"@ta ;
+	schema:name "ஷோலக மொழி"@ta ;
+	rdfs:label "Sholaga"@en-gb ;
+	skos:prefLabel "Sholaga"@en-gb ;
+	schema:name "Sholaga"@en-gb ;
+	rdfs:label "sholaga"@fr ;
+	skos:prefLabel "sholaga"@fr ;
+	schema:name "sholaga"@fr ;
+	rdfs:label "شولک"@pnb ;
+	skos:prefLabel "شولک"@pnb ;
+	schema:name "شولک"@pnb ;
+	rdfs:label "ਸ਼ੋਲਕ"@pa ;
+	skos:prefLabel "ਸ਼ੋਲਕ"@pa ;
+	schema:name "ਸ਼ੋਲਕ"@pa ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue dravidienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ভারতের ভাষা"@bn,
+		"بولی"@pnb,
+		"ਬੋਲੀ"@pa ;
+	skos:altLabel "Sholaga language"@en .

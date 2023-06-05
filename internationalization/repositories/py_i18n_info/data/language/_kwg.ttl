@@ -1,0 +1,138 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3915384 a schema:Dataset ;
+	schema:about wd:Q3915384 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1748042988"^^xsd:integer ;
+	schema:dateModified "2022-10-11T08:16:09Z"^^xsd:dateTime .
+
+wd:Q3915384 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kaba_Deme> a schema:Article ;
+	schema:about wd:Q3915384 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kaba Deme"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1_%CE%9A%CE%AC%CE%BC%CF%80%CE%B1_%CE%9D%CF%84%CE%B5%CE%BC%CE%AD> a schema:Article ;
+	schema:about wd:Q3915384 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γλώσσα Κάμπα Ντεμέ"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikaba-Deme> a schema:Article ;
+	schema:about wd:Q3915384 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikaba-Deme"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kaba_Deme_language> a schema:Article ;
+	schema:about wd:Q3915384 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kaba Deme language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Kabademeg> a schema:Article ;
+	schema:about wd:Q3915384 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Kabademeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3915384 wdt:P220 "kwg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kwg> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "sara1322" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sara1322> ;
+	wdt:P279 wd:Q6343715 ;
+	wdt:P305 "kwg" ;
+	wdt:P1627 "kwg" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q657 ;
+	wdt:P2341 wd:Q175706,
+		wd:Q867869,
+		wd:Q177799 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KWG> ;
+	wdt:P646 "/m/02hx1gn" ;
+	rdfs:label "Kikaba-Deme"@sw ;
+	skos:prefLabel "Kikaba-Deme"@sw ;
+	schema:name "Kikaba-Deme"@sw ;
+	rdfs:label "Lenga Kaba Deme"@pms ;
+	skos:prefLabel "Lenga Kaba Deme"@pms ;
+	schema:name "Lenga Kaba Deme"@pms ;
+	rdfs:label "Kaba Deme"@en ;
+	skos:prefLabel "Kaba Deme"@en ;
+	schema:name "Kaba Deme"@en ;
+	rdfs:label "kabademeg"@br ;
+	skos:prefLabel "kabademeg"@br ;
+	schema:name "kabademeg"@br ;
+	rdfs:label "sara kaba deme"@fr ;
+	skos:prefLabel "sara kaba deme"@fr ;
+	schema:name "sara kaba deme"@fr ;
+	rdfs:label "Γλώσσα Κάμπα Ντεμέ"@el ;
+	skos:prefLabel "Γλώσσα Κάμπα Ντεμέ"@el ;
+	schema:name "Γλώσσα Κάμπα Ντεμέ"@el ;
+	rdfs:label "Kaba Deme"@en-ca ;
+	skos:prefLabel "Kaba Deme"@en-ca ;
+	schema:name "Kaba Deme"@en-ca ;
+	rdfs:label "Kaba Deme"@en-gb ;
+	skos:prefLabel "Kaba Deme"@en-gb ;
+	schema:name "Kaba Deme"@en-gb ;
+	rdfs:label "Kaba Deme"@ig ;
+	skos:prefLabel "Kaba Deme"@ig ;
+	schema:name "Kaba Deme"@ig ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue soudanique centrale"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"asụsụ ndị naijiria"@ig ;
+	skos:altLabel "Sara Kaba Deme"@en,
+		"Dem"@en,
+		"Kaba Deme language"@en,
+		"asụsụ kaba deme"@ig .

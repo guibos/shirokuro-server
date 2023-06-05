@@ -1,0 +1,70 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q118169871 a schema:Dataset ;
+	schema:about wd:Q118169871 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1900053548"^^xsd:integer ;
+	schema:dateModified "2023-05-20T18:22:59Z"^^xsd:dateTime .
+
+wd:Q118169871 a wikibase:Item ;
+	wdt:P279 wd:Q29517555,
+		wd:Q8192 ;
+	wdt:P144 wd:Q3317411,
+		wd:Q31354943 ;
+	wdt:P495 wd:Q230 ;
+	wdt:P407 wd:Q34030 ;
+	wdt:P361 wd:Q161428 ;
+	wdt:P506 "Geor" ;
+	wdt:P2620 "240" ;
+	wdt:P31 wd:Q4004706,
+		wd:Q29517555,
+		wd:Q8192 ;
+	wdt:P1406 wd:Q17321844 ;
+	wdt:P2561 "géorgien (mkhédrouli et mtavrouli)"@fr,
+		"Georgian (Mkhedruli and Mtavruli)"@en ;
+	wdt:P5949 "U+10D0-10FF",
+		"U+1C90-1CBF" ;
+	rdfs:label "écriture géorgienne moderne"@fr ;
+	skos:prefLabel "écriture géorgienne moderne"@fr ;
+	schema:name "écriture géorgienne moderne"@fr ;
+	rdfs:label "modern Georgian script"@en ;
+	skos:prefLabel "modern Georgian script"@en ;
+	schema:name "modern Georgian script"@en ;
+	rdfs:label "современное грузинское письмо"@ru ;
+	skos:prefLabel "современное грузинское письмо"@ru ;
+	schema:name "современное грузинское письмо"@ru ;
+	schema:description "système d'écriture utilisé en géorgien moderne, avec deux alphabets unicaméraux alternatifs (le mkhédrouli usuellement ; le mtavrouli pour le titrage, l'affichage public, l'emphase ou les textes condensés)"@fr,
+		"script system used in modern Georgian, with two alternate unicameral alphabets (Mkhedruli for usual texts ; Mtavruli for titling, public displays, emphasis, or condensed texts)"@en ;
+	skos:altLabel "écriture géorgienne"@fr,
+		"Goergian script"@en,
+		"Geor"@en .

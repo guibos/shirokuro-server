@@ -1,0 +1,178 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q57000 a schema:Dataset ;
+	schema:about wd:Q57000 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1882892451"^^xsd:integer ;
+	schema:dateModified "2023-04-26T08:47:19Z"^^xsd:dateTime .
+
+wd:Q57000 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Pela> a schema:Article ;
+	schema:about wd:Q57000 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Pela"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Pela> a schema:Article ;
+	schema:about wd:Q57000 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Pela"@tl ;
+	wikibase:badge wd:Q70893996 .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kipela> a schema:Article ;
+	schema:about wd:Q57000 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kipela"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Pela_language> a schema:Article ;
+	schema:about wd:Q57000 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Pela language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Belaeg> a schema:Article ;
+	schema:about wd:Q57000 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Belaeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Pela_keel> a schema:Article ;
+	schema:about wd:Q57000 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Pela keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Pela_jezik> a schema:Article ;
+	schema:about wd:Q57000 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Pela jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%B3%A2%E6%8B%89%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q57000 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "波拉语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q57000 wdt:P220 "bxd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bxd> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q865713 ;
+	wdt:P2355 "2441" ;
+	wdt:P1394 "pela1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/pela1242> ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P2192 "4001" ;
+	wdt:P910 wd:Q32829243 ;
+	wdt:P305 "bxd" ;
+	wdt:P1627 "bxd" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q43194 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BXD> ;
+	wdt:P646 "/m/02hxfqz" ;
+	wdt:P1098 "+400"^^xsd:decimal ;
+	wdt:P10565 "414854" ;
+	rdfs:label "belaeg"@br ;
+	skos:prefLabel "belaeg"@br ;
+	schema:name "belaeg"@br ;
+	rdfs:label "Pela"@en ;
+	skos:prefLabel "Pela"@en ;
+	schema:name "Pela"@en ;
+	rdfs:label "Pela"@en-ca ;
+	skos:prefLabel "Pela"@en-ca ;
+	schema:name "Pela"@en-ca ;
+	rdfs:label "Pela"@en-gb ;
+	skos:prefLabel "Pela"@en-gb ;
+	schema:name "Pela"@en-gb ;
+	rdfs:label "pela"@es ;
+	skos:prefLabel "pela"@es ;
+	schema:name "pela"@es ;
+	rdfs:label "Lenga Pela"@pms ;
+	skos:prefLabel "Lenga Pela"@pms ;
+	schema:name "Lenga Pela"@pms ;
+	rdfs:label "Pela jezik"@hr ;
+	skos:prefLabel "Pela jezik"@hr ;
+	schema:name "Pela jezik"@hr ;
+	rdfs:label "Kipela"@sw ;
+	skos:prefLabel "Kipela"@sw ;
+	schema:name "Kipela"@sw ;
+	rdfs:label "pela"@fr ;
+	skos:prefLabel "pela"@fr ;
+	schema:name "pela"@fr ;
+	rdfs:label "Wikang Pela"@tl ;
+	skos:prefLabel "Wikang Pela"@tl ;
+	schema:name "Wikang Pela"@tl ;
+	rdfs:label "波拉語"@zh ;
+	skos:prefLabel "波拉語"@zh ;
+	schema:name "波拉語"@zh ;
+	rdfs:label "Pela keel"@et ;
+	skos:prefLabel "Pela keel"@et ;
+	schema:name "Pela keel"@et ;
+	schema:description "lengua tibetobirmana"@es,
+		"Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"langue lolo-birmane"@fr,
+		"yezh"@br,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"語言"@zh ;
+	skos:altLabel "Pela language"@en,
+		"bola"@fr .
+
+wd:Q12639475 owl:sameAs wd:Q57000 .
+
+wd:Q12953028 owl:sameAs wd:Q57000 .

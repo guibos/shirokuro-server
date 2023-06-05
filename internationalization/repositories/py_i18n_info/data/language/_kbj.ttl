@@ -1,0 +1,132 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6370438 a schema:Dataset ;
+	schema:about wd:Q6370438 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1761493629"^^xsd:integer ;
+	schema:dateModified "2022-10-31T02:23:30Z"^^xsd:dateTime .
+
+wd:Q6370438 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kari> a schema:Article ;
+	schema:about wd:Q6370438 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kari"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikari> a schema:Article ;
+	schema:about wd:Q6370438 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikari"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kari_language> a schema:Article ;
+	schema:about wd:Q6370438 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kari language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Kari_keel> a schema:Article ;
+	schema:about wd:Q6370438 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Kari keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Kari> a schema:Article ;
+	schema:about wd:Q6370438 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Kari"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6370438 wdt:P220 "kbj" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kbj> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kari1306" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kari1306> ;
+	wdt:P2355 "112" ;
+	wdt:P2192 "586" ;
+	wdt:P279 wd:Q4931250 ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P305 "kbj" ;
+	wdt:P1627 "kbj" ;
+	wdt:P2161 "D301" ;
+	wdt:P910 wd:Q62057331 ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P17 wd:Q974 ;
+	wdt:P2341 wd:Q652056 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KBJ> ;
+	wdt:P646 "/m/02hxxjg" ;
+	rdfs:label "Kari"@en ;
+	skos:prefLabel "Kari"@en ;
+	schema:name "Kari"@en ;
+	rdfs:label "Kikari"@sw ;
+	skos:prefLabel "Kikari"@sw ;
+	schema:name "Kikari"@sw ;
+	rdfs:label "Lenga Kari"@pms ;
+	skos:prefLabel "Lenga Kari"@pms ;
+	schema:name "Lenga Kari"@pms ;
+	rdfs:label "Kari"@en-gb ;
+	skos:prefLabel "Kari"@en-gb ;
+	schema:name "Kari"@en-gb ;
+	rdfs:label "kari"@fr ;
+	skos:prefLabel "kari"@fr ;
+	schema:name "kari"@fr ;
+	rdfs:label "Kari keel"@et ;
+	skos:prefLabel "Kari keel"@et ;
+	schema:name "Kari keel"@et ;
+	rdfs:label "Asụsụ Kari"@ig ;
+	skos:prefLabel "Asụsụ Kari"@ig ;
+	schema:name "Asụsụ Kari"@ig ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue bantoue"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kikari (lugha)"@sw,
+		"Kari language"@en .

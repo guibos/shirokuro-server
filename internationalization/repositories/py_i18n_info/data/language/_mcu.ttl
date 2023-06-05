@@ -1,0 +1,100 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q19359039 a schema:Dataset ;
+	schema:about wd:Q19359039 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1718450796"^^xsd:integer ;
+	schema:dateModified "2022-09-01T07:51:15Z"^^xsd:dateTime .
+
+wd:Q19359039 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mambila_Cameron> a schema:Article ;
+	schema:about wd:Q19359039 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mambila Cameron"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimambila_(Kamerun)> a schema:Article ;
+	schema:about wd:Q19359039 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimambila (Kamerun)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q19359039 wdt:P31 wd:Q33384,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "mcu" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mcu> ;
+	wdt:P1394 "came1252" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/came1252> ;
+	wdt:P279 wd:Q35800 ;
+	wdt:P4913 wd:Q35800 ;
+	wdt:P305 "mcu" ;
+	wdt:P1627 "mcu" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P1466 "mla" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_mla> ;
+	wdt:P17 wd:Q1009 ;
+	wdt:P2341 wd:Q351514,
+		wd:Q845168,
+		wd:Q502341,
+		wd:Q823946,
+		wd:Q165784 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MCU> ;
+	wdt:P910 wd:Q105715516 ;
+	rdfs:label "Kimambila"@sw ;
+	skos:prefLabel "Kimambila"@sw ;
+	schema:name "Kimambila"@sw ;
+	rdfs:label "Lenga Mambila Cameron"@pms ;
+	skos:prefLabel "Lenga Mambila Cameron"@pms ;
+	schema:name "Lenga Mambila Cameron"@pms ;
+	rdfs:label "Cameroon Mambila"@en ;
+	skos:prefLabel "Cameroon Mambila"@en ;
+	schema:name "Cameroon Mambila"@en ;
+	rdfs:label "Cameroon Mambila"@en-gb ;
+	skos:prefLabel "Cameroon Mambila"@en-gb ;
+	schema:name "Cameroon Mambila"@en-gb ;
+	rdfs:label "mambila du Cameroun"@fr ;
+	skos:prefLabel "mambila du Cameroun"@fr ;
+	schema:name "mambila du Cameroun"@fr ;
+	rdfs:label "kamerunsk mambila"@nb ;
+	skos:prefLabel "kamerunsk mambila"@nb ;
+	schema:name "kamerunsk mambila"@nb ;
+	rdfs:label "mambila de Camerún"@es ;
+	skos:prefLabel "mambila de Camerún"@es ;
+	schema:name "mambila de Camerún"@es ;
+	schema:description "langue bantoïde du Nord"@fr .

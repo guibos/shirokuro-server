@@ -1,0 +1,164 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q13600429 a schema:Dataset ;
+	schema:about wd:Q13600429 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1873473698"^^xsd:integer ;
+	schema:dateModified "2023-04-12T17:23:04Z"^^xsd:dateTime .
+
+wd:Q13600429 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_pangwali> a schema:Article ;
+	schema:about wd:Q13600429 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga pangwali"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kipangwali> a schema:Article ;
+	schema:about wd:Q13600429 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kipangwali"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Pangwali> a schema:Article ;
+	schema:about wd:Q13600429 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Pangwali"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%AA%E0%A6%BE%E0%A6%82%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B2%E0%A6%BF_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q13600429 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "পাংওয়ালি ভাষা"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%AA%E0%A4%BE%E0%A4%82%E0%A4%97%E0%A4%B5%E0%A4%BE%E0%A4%B2%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q13600429 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "पांगवाली भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_pangwali> a schema:Article ;
+	schema:about wd:Q13600429 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua pangwali"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://as.wikipedia.org/wiki/%E0%A6%AA%E0%A6%82%E0%A6%97%E0%A7%B1%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A7%80> a schema:Article ;
+	schema:about wd:Q13600429 ;
+	schema:inLanguage "as" ;
+	schema:isPartOf <https://as.wikipedia.org/> ;
+	schema:name "পংগৱাড়ী"@as .
+
+<https://as.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q13600429 wdt:P220 "pgg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pgg> ;
+	wdt:P31 wd:Q33742,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q12645574 ;
+	wdt:P1394 "pang1282" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/pang1282> ;
+	wdt:P305 "pgg" ;
+	wdt:P2192 "4961" ;
+	wdt:P1627 "pgg" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1177,
+		wd:Q1180 ;
+	wdt:P2671 "/g/11c6zys6hp" ;
+	wdtn:P2671 <http://g.co/kg/g/11c6zys6hp> ;
+	wdt:P2671 "/g/11c5wlmxjv" ;
+	wdtn:P2671 <http://g.co/kg/g/11c5wlmxjv> ;
+	wdt:P910 wd:Q105714967 ;
+	rdfs:label "Lenga pangwali"@pms ;
+	skos:prefLabel "Lenga pangwali"@pms ;
+	schema:name "Lenga pangwali"@pms ;
+	rdfs:label "Pangwali"@en ;
+	skos:prefLabel "Pangwali"@en ;
+	schema:name "Pangwali"@en ;
+	rdfs:label "Kipangwali"@sw ;
+	skos:prefLabel "Kipangwali"@sw ;
+	schema:name "Kipangwali"@sw ;
+	rdfs:label "Pangwali"@en-gb ;
+	skos:prefLabel "Pangwali"@en-gb ;
+	schema:name "Pangwali"@en-gb ;
+	rdfs:label "pangwali"@fr ;
+	skos:prefLabel "pangwali"@fr ;
+	schema:name "pangwali"@fr ;
+	rdfs:label "পাংওয়ালি ভাষা"@bn ;
+	skos:prefLabel "পাংওয়ালি ভাষা"@bn ;
+	schema:name "পাংওয়ালি ভাষা"@bn ;
+	rdfs:label "パングワーリー語"@ja ;
+	skos:prefLabel "パングワーリー語"@ja ;
+	schema:name "パングワーリー語"@ja ;
+	rdfs:label "पंगवाड़ी"@hi ;
+	skos:prefLabel "पंगवाड़ी"@hi ;
+	schema:name "पंगवाड़ी"@hi ;
+	rdfs:label "Língua pangwali"@pt ;
+	skos:prefLabel "Língua pangwali"@pt ;
+	schema:name "Língua pangwali"@pt ;
+	rdfs:label "پنگواڑی"@pnb ;
+	skos:prefLabel "پنگواڑی"@pnb ;
+	schema:name "پنگواڑی"@pnb ;
+	rdfs:label "ਪੰਗਵਾੜੀ"@pa ;
+	skos:prefLabel "ਪੰਗਵਾੜੀ"@pa ;
+	schema:name "ਪੰਗਵਾੜੀ"@pa ;
+	rdfs:label "পংগৱাড়ী"@as ;
+	skos:prefLabel "পংগৱাড়ী"@as ;
+	schema:name "পংগৱাড়ী"@as ;
+	schema:description "indogermanische Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue indo-aryenne"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "पंगवाड़ी भाषा"@hi .
+
+wd:Q31326516 owl:sameAs wd:Q13600429 .

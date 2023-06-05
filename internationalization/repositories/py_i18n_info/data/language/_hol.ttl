@@ -1,0 +1,139 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4121133 a schema:Dataset ;
+	schema:about wd:Q4121133 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1835154115"^^xsd:integer ;
+	schema:dateModified "2023-02-16T16:12:50Z"^^xsd:dateTime .
+
+wd:Q4121133 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Holu> a schema:Article ;
+	schema:about wd:Q4121133 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Holu"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Holu_(langue)> a schema:Article ;
+	schema:about wd:Q4121133 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Holu (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Holu> a schema:Article ;
+	schema:about wd:Q4121133 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Holu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiholu> a schema:Article ;
+	schema:about wd:Q4121133 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiholu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Holu_language> a schema:Article ;
+	schema:about wd:Q4121133 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Holu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4121133 wdt:P269 "082395128" ;
+	wdtn:P269 <http://www.idref.fr/082395128/id> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q7162373 ;
+	wdt:P1394 "holu1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/holu1245> ;
+	wdt:P220 "hol" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/hol> ;
+	wdt:P5198 "294915583" ;
+	wdt:P305 "hol" ;
+	wdt:P1627 "hol" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q916,
+		wd:Q974 ;
+	wdt:P2341 wd:Q214221,
+		wd:Q219072,
+		wd:Q671442 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/HOL> ;
+	wdt:P646 "/m/02hw_hk" ;
+	wdt:P527 wd:Q116456373 ;
+	wdt:P268 "14589338x" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb14589338x#about> ;
+	rdfs:label "Holu"@en ;
+	skos:prefLabel "Holu"@en ;
+	schema:name "Holu"@en ;
+	rdfs:label "holu"@ca ;
+	skos:prefLabel "holu"@ca ;
+	schema:name "holu"@ca ;
+	rdfs:label "holu"@fr ;
+	skos:prefLabel "holu"@fr ;
+	schema:name "holu"@fr ;
+	rdfs:label "Lenga Holu"@pms ;
+	skos:prefLabel "Lenga Holu"@pms ;
+	schema:name "Lenga Holu"@pms ;
+	rdfs:label "Kiholu"@sw ;
+	skos:prefLabel "Kiholu"@sw ;
+	schema:name "Kiholu"@sw ;
+	rdfs:label "Holu"@en-gb ;
+	skos:prefLabel "Holu"@en-gb ;
+	schema:name "Holu"@en-gb ;
+	rdfs:label "Wikang Holu"@tl ;
+	skos:prefLabel "Wikang Holu"@tl ;
+	schema:name "Wikang Holu"@tl ;
+	schema:description "שפה"@he,
+		"yezh"@br,
+		"langue bantoue parlée en République démocratique du Congo et en Angola"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Holu language"@en .
+
+wd:Q10962185 owl:sameAs wd:Q4121133 .
+
+wd:Q31443095 owl:sameAs wd:Q4121133 .

@@ -1,0 +1,102 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10511230 a schema:Dataset ;
+	schema:about wd:Q10511230 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1387409214"^^xsd:integer ;
+	schema:dateModified "2021-03-22T02:44:51Z"^^xsd:dateTime .
+
+wd:Q10511230 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_guyani> a schema:Article ;
+	schema:about wd:Q10511230 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga guyani"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Guyani> a schema:Article ;
+	schema:about wd:Q10511230 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Guyani"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiguyani> a schema:Article ;
+	schema:about wd:Q10511230 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiguyani"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10511230 wdt:P1394 "guya1249" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/guya1249> ;
+	wdt:P31 wd:Q45762,
+		wd:Q34770,
+		wd:Q38058796 ;
+	wdt:P220 "gvy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gvy> ;
+	wdt:P1252 "L9" ;
+	wdt:P279 wd:Q7799234 ;
+	wdt:P305 "gvy" ;
+	wdt:P2192 "6664" ;
+	wdt:P1627 "gvy" ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q35715 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GVY> ;
+	wdt:P910 wd:Q105715391 ;
+	wdt:P6915 "Kuyani" ;
+	rdfs:label "Guyani"@sv ;
+	skos:prefLabel "Guyani"@sv ;
+	schema:name "Guyani"@sv ;
+	rdfs:label "Lenga guyani"@pms ;
+	skos:prefLabel "Lenga guyani"@pms ;
+	schema:name "Lenga guyani"@pms ;
+	rdfs:label "Guyani"@en ;
+	skos:prefLabel "Guyani"@en ;
+	schema:name "Guyani"@en ;
+	rdfs:label "Guyani"@en-gb ;
+	skos:prefLabel "Guyani"@en-gb ;
+	schema:name "Guyani"@en-gb ;
+	rdfs:label "Kiguyani"@sw ;
+	skos:prefLabel "Kiguyani"@sw ;
+	schema:name "Kiguyani"@sw ;
+	rdfs:label "guyani"@fr ;
+	skos:prefLabel "guyani"@fr ;
+	schema:name "guyani"@fr ;
+	schema:description "lugha ya asili ya Australia iliyotoweka"@sw,
+		"langue pama-nyungan"@fr ;
+	skos:altLabel "Kuyani"@en .

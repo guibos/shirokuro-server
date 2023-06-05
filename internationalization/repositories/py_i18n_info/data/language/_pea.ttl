@@ -1,0 +1,120 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q20580675 a schema:Dataset ;
+	schema:about wd:Q20580675 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1907150124"^^xsd:integer ;
+	schema:dateModified "2023-06-03T07:13:15Z"^^xsd:dateTime .
+
+wd:Q20580675 a wikibase:Item .
+
+<https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%80%E0%B8%9B%E0%B8%AD%E0%B8%A3%E0%B8%B2%E0%B8%99%E0%B8%B2%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B9%82%E0%B8%94%E0%B8%99%E0%B8%B5%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2> a schema:Article ;
+	schema:about wd:Q20580675 ;
+	schema:inLanguage "th" ;
+	schema:isPartOf <https://th.wikipedia.org/> ;
+	schema:name "ภาษาเปอรานากันอินโดนีเซีย"@th .
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa_Indonesia_Peranakan> a schema:Article ;
+	schema:about wd:Q20580675 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa Indonesia Peranakan"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Indonesia_Peranakan> a schema:Article ;
+	schema:about wd:Q20580675 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Indonesia Peranakan"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q20580675 wdt:P17 wd:Q252 ;
+	wdt:P2671 "/g/1q6j9v4vy" ;
+	wdtn:P2671 <http://g.co/kg/g/1q6j9v4vy> ;
+	wdt:P495 wd:Q252 ;
+	wdt:P31 wd:Q34770,
+		wd:Q1322198 ;
+	wdt:P1394 "pera1256" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/pera1256> ;
+	wdt:P220 "pea" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/pea> ;
+	wdt:P305 "pea" ;
+	wdt:P1627 "pea" ;
+	wdt:P3823 wd:Q29051555 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PEA> ;
+	wdt:P373 "Peranakan Indonesian" ;
+	wdt:P910 wd:Q110622399 ;
+	wdt:P279 wd:Q111280922 ;
+	rdfs:label "ภาษาเปอรานากันอินโดนีเซีย"@th ;
+	skos:prefLabel "ภาษาเปอรานากันอินโดนีเซีย"@th ;
+	schema:name "ภาษาเปอรานากันอินโดนีเซีย"@th ;
+	rdfs:label "Bahasa Indonesia Peranakan"@id ;
+	skos:prefLabel "Bahasa Indonesia Peranakan"@id ;
+	schema:name "Bahasa Indonesia Peranakan"@id ;
+	rdfs:label "Bahasa Indonesia Peranakan"@ms ;
+	skos:prefLabel "Bahasa Indonesia Peranakan"@ms ;
+	schema:name "Bahasa Indonesia Peranakan"@ms ;
+	rdfs:label "Peranakan Indonesian"@en ;
+	skos:prefLabel "Peranakan Indonesian"@en ;
+	schema:name "Peranakan Indonesian"@en ;
+	rdfs:label "Peranakan indonesi"@ca ;
+	skos:prefLabel "Peranakan indonesi"@ca ;
+	schema:name "Peranakan indonesi"@ca ;
+	rdfs:label "Peranakan Indonesian"@en-gb ;
+	skos:prefLabel "Peranakan Indonesian"@en-gb ;
+	schema:name "Peranakan Indonesian"@en-gb ;
+	rdfs:label "印尼峇峇話"@zh ;
+	skos:prefLabel "印尼峇峇話"@zh ;
+	schema:name "印尼峇峇話"@zh ;
+	schema:description "bagian dari rumpun bahasa Kreol"@id,
+		"native language spoken by Peranakan people"@en,
+		"native language spoken by Peranakan people"@en-gb,
+		"la varietat de la llengua indonèsia parlada pels peranakans"@ca,
+		"bahasa yang dipakai bangsa Peranakan"@ms,
+		"ความหลากหลายของภาษาชาวอินโดนีเซียที่พูดโดยชาวเปรานากัน"@th ;
+	skos:altLabel "Peranakan language"@en,
+		"Peranakanese"@en,
+		"Peranakan-Javanese"@en,
+		"Chinese-Javanese"@en,
+		"Bahasa Peranakan"@id,
+		"Bahasa Jawa-Tiongwen"@id,
+		"Bahasa Tiongwen-Jawa"@id,
+		"Bahasa Peranakan Indonesia"@ms .
+
+wd:Q56410348 owl:sameAs wd:Q20580675 .
+
+wd:Q61085007 owl:sameAs wd:Q20580675 .

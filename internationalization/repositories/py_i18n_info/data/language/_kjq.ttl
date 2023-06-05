@@ -1,0 +1,144 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12645568 a schema:Dataset ;
+	schema:about wd:Q12645568 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616000415"^^xsd:integer ;
+	schema:dateModified "2022-04-10T13:52:12Z"^^xsd:dateTime .
+
+wd:Q12645568 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_keres_ossidental> a schema:Article ;
+	schema:about wd:Q12645568 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga keres ossidental"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Zapadnokereski_jezik> a schema:Article ;
+	schema:about wd:Q12645568 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Zapadnokereski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%90%D0%BA%D0%BE%D0%BC%D0%B0_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q12645568 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Акома (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12645568 wdt:P31 wd:Q34770,
+		wd:Q25295,
+		wd:Q1288568 ;
+	wdt:P220 "kjq" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kjq> ;
+	wdt:P279 wd:Q35878 ;
+	wdt:P1394 "west2632" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/west2632> ;
+	wdt:P2355 "878" ;
+	wdt:P1466 "aco" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_aco> ;
+	wdt:P2192 "650" ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P305 "kjq" ;
+	wdt:P1627 "kjq" ;
+	wdt:P3823 wd:Q29051555 ;
+	wdt:P17 wd:Q30 ;
+	wdt:P2341 wd:Q1522 ;
+	wdt:P131 wd:Q1522 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KJQ> ;
+	wdt:P2671 "/g/1210xqqt" ;
+	wdtn:P2671 <http://g.co/kg/g/1210xqqt> ;
+	wdt:P9717 "western-keres" ;
+	rdfs:label "Zapadnokereski jezik"@hr ;
+	skos:prefLabel "Zapadnokereski jezik"@hr ;
+	schema:name "Zapadnokereski jezik"@hr ;
+	rdfs:label "Lenga keres ossidental"@pms ;
+	skos:prefLabel "Lenga keres ossidental"@pms ;
+	schema:name "Lenga keres ossidental"@pms ;
+	rdfs:label "keres de l'Ouest"@fr ;
+	skos:prefLabel "keres de l'Ouest"@fr ;
+	schema:name "keres de l'Ouest"@fr ;
+	rdfs:label "Western Keres"@en ;
+	skos:prefLabel "Western Keres"@en ;
+	schema:name "Western Keres"@en ;
+	rdfs:label "queresano occidental"@es ;
+	skos:prefLabel "queresano occidental"@es ;
+	schema:name "queresano occidental"@es ;
+	rdfs:label "Western Keres"@en-gb ;
+	skos:prefLabel "Western Keres"@en-gb ;
+	schema:name "Western Keres"@en-gb ;
+	rdfs:label "keres occidental"@ca ;
+	skos:prefLabel "keres occidental"@ca ;
+	schema:name "keres occidental"@ca ;
+	rdfs:label "läänekerese keel"@et ;
+	skos:prefLabel "läänekerese keel"@et ;
+	schema:name "läänekerese keel"@et ;
+	rdfs:label "Акома (язык)"@ru ;
+	skos:prefLabel "Акома (язык)"@ru ;
+	schema:name "Акома (язык)"@ru ;
+	rdfs:label "querezan osidentałe"@vec ;
+	skos:prefLabel "querezan osidentałe"@vec ;
+	schema:name "querezan osidentałe"@vec ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"Keresan language family spoken in the Acoma and Laguna pueblos in New Mexico, USA"@en,
+		"família lingüística"@ca,
+		"Acoma ja Laguna pueblos räägitav kerese keel"@et,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Western Keresen"@en,
+		"Acoma-Laguna"@en,
+		"Acoma Keresan"@en,
+		"Laguna Keresen"@en,
+		"Acoma-Laguna"@fr,
+		"akoma murre"@et,
+		"Laguna murre"@et .
+
+wd:Q12953634 owl:sameAs wd:Q12645568 .
+
+wd:Q15649025 owl:sameAs wd:Q12645568 .
+
+wd:Q22043001 owl:sameAs wd:Q12645568 .
+
+wd:Q30312355 owl:sameAs wd:Q12645568 .

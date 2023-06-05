@@ -1,0 +1,99 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4739455 a schema:Dataset ;
+	schema:about wd:Q4739455 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1842694860"^^xsd:integer ;
+	schema:dateModified "2023-02-27T19:23:10Z"^^xsd:dateTime .
+
+wd:Q4739455 a wikibase:Item .
+
+<https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%B7%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CE%AE_%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1_%CE%91%CE%BC%CE%AC%CE%BC%CE%B9_%CE%9F%CF%83%CE%AF%CE%BC%CE%B1> a schema:Article ;
+	schema:about wd:Q4739455 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Νοηματική Γλώσσα Αμάμι Οσίμα"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Koniya_Sign_Language> a schema:Article ;
+	schema:about wd:Q4739455 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Koniya Sign Language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E5%A5%84%E7%BE%8E%E5%A4%A7%E5%B3%B6%E6%89%8B%E8%A9%B1> a schema:Article ;
+	schema:about wd:Q4739455 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "奄美大島手話"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4739455 wdt:P31 wd:Q3915038 ;
+	wdt:P220 "jks" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/jks> ;
+	wdt:P646 "/m/0jkvv5v" ;
+	wdt:P2341 wd:Q11410846 ;
+	wdt:P17 wd:Q17 ;
+	wdt:P305 "jks" ;
+	wdt:P1394 "amam1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/amam1247> ;
+	rdfs:label "Koniya Sign Language"@en ;
+	skos:prefLabel "Koniya Sign Language"@en ;
+	schema:name "Koniya Sign Language"@en ;
+	rdfs:label "奄美大島手話"@ja ;
+	skos:prefLabel "奄美大島手話"@ja ;
+	schema:name "奄美大島手話"@ja ;
+	rdfs:label "Νοηματική Γλώσσα Αμάμι Οσίμα"@el ;
+	skos:prefLabel "Νοηματική Γλώσσα Αμάμι Οσίμα"@el ;
+	schema:name "Νοηματική Γλώσσα Αμάμι Οσίμα"@el ;
+	rdfs:label "Amami Koniya Sign Language"@en-ca ;
+	skos:prefLabel "Amami Koniya Sign Language"@en-ca ;
+	schema:name "Amami Koniya Sign Language"@en-ca ;
+	rdfs:label "Amami Koniya Sign Language"@en-gb ;
+	skos:prefLabel "Amami Koniya Sign Language"@en-gb ;
+	schema:name "Amami Koniya Sign Language"@en-gb ;
+	rdfs:label "奄美大島手語"@zh ;
+	skos:prefLabel "奄美大島手語"@zh ;
+	schema:name "奄美大島手語"@zh ;
+	rdfs:label "कोनिया सांकेतिक भाषा"@hi ;
+	skos:prefLabel "कोनिया सांकेतिक भाषा"@hi ;
+	schema:name "कोनिया सांकेतिक भाषा"@hi ;
+	schema:description "日本の鹿児島県奄美大島で使用される村落手話"@ja,
+		"sign languages of Amami Oshima, Japan"@en ;
+	skos:altLabel "古仁屋手話"@ja,
+		"Amami Oshima Sign Language"@en,
+		"Amami Koniya Sign Language"@en .

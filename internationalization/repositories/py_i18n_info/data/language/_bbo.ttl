@@ -1,0 +1,144 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35371 a schema:Dataset ;
+	schema:about wd:Q35371 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1741233150"^^xsd:integer ;
+	schema:dateModified "2022-10-02T13:50:23Z"^^xsd:dateTime .
+
+wd:Q35371 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Bobo_Madar%C3%A9_setentrional> a schema:Article ;
+	schema:about wd:Q35371 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Bobo Madaré setentrional"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibobo-Madare-Kaskazini> a schema:Article ;
+	schema:about wd:Q35371 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibobo-Madare-Kaskazini"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://yo.wikipedia.org/wiki/Bobo_Madare> a schema:Article ;
+	schema:about wd:Q35371 ;
+	schema:inLanguage "yo" ;
+	schema:isPartOf <https://yo.wikipedia.org/> ;
+	schema:name "Bobo Madare"@yo .
+
+<https://yo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Boboda> a schema:Article ;
+	schema:about wd:Q35371 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Boboda"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Konab%C3%A9r%C3%A9_jezik> a schema:Article ;
+	schema:about wd:Q35371 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Konabéré jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35371 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0gy0mzs" ;
+	wdt:P1394 "nort2819" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nort2819> ;
+	wdt:P220 "bbo" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bbo> ;
+	wdt:P1466 "bbf" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_bbf> ;
+	wdt:P279 wd:Q12628055 ;
+	wdt:P910 wd:Q33657016 ;
+	wdt:P305 "bbo" ;
+	wdt:P1627 "bbo" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q965,
+		wd:Q912 ;
+	wdt:P2341 wd:Q674664,
+		wd:Q1074485,
+		wd:Q461298,
+		wd:Q656845 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BBO> ;
+	rdfs:label "Kibobo-Madare-Kaskazini"@sw ;
+	skos:prefLabel "Kibobo-Madare-Kaskazini"@sw ;
+	schema:name "Kibobo-Madare-Kaskazini"@sw ;
+	rdfs:label "Boboda"@de ;
+	skos:prefLabel "Boboda"@de ;
+	schema:name "Boboda"@de ;
+	rdfs:label "Lenga Bobo Madaré setentrional"@pms ;
+	skos:prefLabel "Lenga Bobo Madaré setentrional"@pms ;
+	schema:name "Lenga Bobo Madaré setentrional"@pms ;
+	rdfs:label "Northern Bobo Madaré"@en ;
+	skos:prefLabel "Northern Bobo Madaré"@en ;
+	schema:name "Northern Bobo Madaré"@en ;
+	rdfs:label "Konabéré jezik"@hr ;
+	skos:prefLabel "Konabéré jezik"@hr ;
+	schema:name "Konabéré jezik"@hr ;
+	rdfs:label "Bobo Madare"@yo ;
+	skos:prefLabel "Bobo Madare"@yo ;
+	schema:name "Bobo Madare"@yo ;
+	rdfs:label "Bobon kieli"@fi ;
+	skos:prefLabel "Bobon kieli"@fi ;
+	schema:name "Bobon kieli"@fi ;
+	rdfs:label "konabéré"@fr ;
+	skos:prefLabel "konabéré"@fr ;
+	schema:name "konabéré"@fr ;
+	rdfs:label "zimanê bobo madare yê bakur"@ku-latn ;
+	skos:prefLabel "zimanê bobo madare yê bakur"@ku-latn ;
+	schema:name "zimanê bobo madare yê bakur"@ku-latn ;
+	rdfs:label "zimanê bobo madare yê bakur"@ku ;
+	skos:prefLabel "zimanê bobo madare yê bakur"@ku ;
+	schema:name "zimanê bobo madare yê bakur"@ku ;
+	schema:description "Mande language"@en,
+		"Sprache"@de,
+		"שפה"@he,
+		"langue mandée"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kikonabere"@sw,
+		"bobo madaré du Nord"@fr,
+		"Konabéré"@en .

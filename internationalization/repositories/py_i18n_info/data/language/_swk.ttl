@@ -1,0 +1,118 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11056292 a schema:Dataset ;
+	schema:about wd:Q11056292 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961135735"^^xsd:integer ;
+	schema:dateModified "2023-08-25T18:45:17Z"^^xsd:dateTime .
+
+wd:Q11056292 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Sena_du_Malawi> a schema:Article ;
+	schema:about wd:Q11056292 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Sena du Malawi"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Sena,_Malawi> a schema:Article ;
+	schema:about wd:Q11056292 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Sena, Malawi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisena_cha_Malawi> a schema:Article ;
+	schema:about wd:Q11056292 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisena cha Malawi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Malawinsena> a schema:Article ;
+	schema:about wd:Q11056292 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Malawinsena"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11056292 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "swk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/swk> ;
+	wdt:P1394 "mala1475" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mala1475> ;
+	wdt:P305 "swk" ;
+	wdt:P1627 "swk" ;
+	wdt:P279 wd:Q7070921 ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q1020 ;
+	wdt:P2341 wd:Q722509,
+		wd:Q198587 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SWK> ;
+	wdt:P646 "/m/02hxx75" ;
+	rdfs:label "Lenga Sena, Malawi"@pms ;
+	skos:prefLabel "Lenga Sena, Malawi"@pms ;
+	schema:name "Lenga Sena, Malawi"@pms ;
+	rdfs:label "Kisena cha Malawi"@sw ;
+	skos:prefLabel "Kisena cha Malawi"@sw ;
+	schema:name "Kisena cha Malawi"@sw ;
+	rdfs:label "Malawinsena"@fi ;
+	skos:prefLabel "Malawinsena"@fi ;
+	schema:name "Malawinsena"@fi ;
+	rdfs:label "Malawi Sena"@en ;
+	skos:prefLabel "Malawi Sena"@en ;
+	schema:name "Malawi Sena"@en ;
+	rdfs:label "Malawi Sena"@en-gb ;
+	skos:prefLabel "Malawi Sena"@en-gb ;
+	schema:name "Malawi Sena"@en-gb ;
+	rdfs:label "sena du Malawi"@fr ;
+	skos:prefLabel "sena du Malawi"@fr ;
+	schema:name "sena du Malawi"@fr ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue bantoue"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Malawian Sena"@en,
+		"chisena"@fr,
+		"cisena"@fr .

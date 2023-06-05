@@ -1,0 +1,161 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q787610 a schema:Dataset ;
+	schema:about wd:Q787610 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1839202722"^^xsd:integer ;
+	schema:dateModified "2023-02-22T11:18:56Z"^^xsd:dateTime .
+
+wd:Q787610 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Bret%C3%B3_mitj%C3%A0> a schema:Article ;
+	schema:about wd:Q787610 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Bretó mitjà"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Moyen_breton> a schema:Article ;
+	schema:about wd:Q787610 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Moyen breton"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D0%B1%D1%80%D0%B5%D1%82%D0%BE%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q787610 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Среднебретонский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cy.wikipedia.org/wiki/Llydaweg_Canol> a schema:Article ;
+	schema:about wd:Q787610 ;
+	schema:inLanguage "cy" ;
+	schema:isPartOf <https://cy.wikipedia.org/> ;
+	schema:name "Llydaweg Canol"@cy .
+
+<https://cy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Krennvrezhoneg> a schema:Article ;
+	schema:about wd:Q787610 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Krennvrezhoneg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%A1%D1%8F%D1%80%D1%8D%D0%B4%D0%BD%D0%B5%D0%B1%D1%80%D1%8D%D1%82%D0%BE%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q787610 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Сярэднебрэтонская мова"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Mittelbretonisch> a schema:Article ;
+	schema:about wd:Q787610 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Mittelbretonisch"@de ;
+	wikibase:badge wd:Q70894304 .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q787610 wdt:P220 "xbm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xbm> ;
+	wdt:P31 wd:Q2315359 ;
+	wdt:P305 "xbm" ;
+	wdt:P279 wd:Q12107 ;
+	wdt:P4132 wd:Q178435,
+		wd:Q318917 ;
+	wdt:P1394 "midd1359" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/midd1359> ;
+	wdt:P1245 "1715452" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XBM> ;
+	wdt:P910 wd:Q33084851 ;
+	wdt:P2671 "/g/122fptl3" ;
+	wdtn:P2671 <http://g.co/kg/g/122fptl3> ;
+	rdfs:label "moyen breton"@fr ;
+	skos:prefLabel "moyen breton"@fr ;
+	schema:name "moyen breton"@fr ;
+	rdfs:label "krennvrezhoneg"@br ;
+	skos:prefLabel "krennvrezhoneg"@br ;
+	schema:name "krennvrezhoneg"@br ;
+	rdfs:label "bretó mitjà"@ca ;
+	skos:prefLabel "bretó mitjà"@ca ;
+	schema:name "bretó mitjà"@ca ;
+	rdfs:label "Llydaweg Canol"@cy ;
+	skos:prefLabel "Llydaweg Canol"@cy ;
+	schema:name "Llydaweg Canol"@cy ;
+	rdfs:label "среднебретонский язык"@ru ;
+	skos:prefLabel "среднебретонский язык"@ru ;
+	schema:name "среднебретонский язык"@ru ;
+	rdfs:label "Сярэднебрэтонская мова"@be-tarask ;
+	skos:prefLabel "Сярэднебрэтонская мова"@be-tarask ;
+	schema:name "Сярэднебрэтонская мова"@be-tarask ;
+	rdfs:label "bretón medio"@es ;
+	skos:prefLabel "bretón medio"@es ;
+	schema:name "bretón medio"@es ;
+	rdfs:label "Middle Breton"@en ;
+	skos:prefLabel "Middle Breton"@en ;
+	schema:name "Middle Breton"@en ;
+	rdfs:label "Middle Breton"@en-gb ;
+	skos:prefLabel "Middle Breton"@en-gb ;
+	schema:name "Middle Breton"@en-gb ;
+	rdfs:label "meza bretona lingvo"@eo ;
+	skos:prefLabel "meza bretona lingvo"@eo ;
+	schema:name "meza bretona lingvo"@eo ;
+	rdfs:label "język średniobretoński"@pl ;
+	skos:prefLabel "język średniobretoński"@pl ;
+	schema:name "język średniobretoński"@pl ;
+	rdfs:label "fornbretonska"@sv ;
+	skos:prefLabel "fornbretonska"@sv ;
+	schema:name "fornbretonska"@sv ;
+	rdfs:label "Mittelbretonisch"@de ;
+	skos:prefLabel "Mittelbretonisch"@de ;
+	schema:name "Mittelbretonisch"@de ;
+	rdfs:label "mellombretonsk"@nb ;
+	skos:prefLabel "mellombretonsk"@nb ;
+	schema:name "mellombretonsk"@nb ;
+	rdfs:label "mellombretonsk"@nn ;
+	skos:prefLabel "mellombretonsk"@nn ;
+	schema:name "mellombretonsk"@nn ;
+	schema:description "indogermanische Sprache"@de,
+		"lengua muerta"@es,
+		"extinct language"@en,
+		"langue parlée du XIe au XVIIe siècle"@fr ;
+	skos:altLabel "breton medio"@es .

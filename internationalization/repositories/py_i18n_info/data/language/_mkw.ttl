@@ -1,0 +1,100 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953639 a schema:Dataset ;
+	schema:about wd:Q12953639 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1835196151"^^xsd:integer ;
+	schema:dateModified "2023-02-16T17:40:40Z"^^xsd:dateTime .
+
+wd:Q12953639 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_kituba,_C%C3%B2ngo> a schema:Article ;
+	schema:about wd:Q12953639 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kituba, Còngo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953639 wdt:P31 wd:Q34770 ;
+	wdt:P220 "mkw" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mkw> ;
+	wdt:P1394 "kitu1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kitu1245> ;
+	wdt:P279 wd:Q35746 ;
+	wdt:P305 "mkw" ;
+	wdt:P1627 "mkw" ;
+	wdt:P3823 wd:Q29051549 ;
+	wdt:P2161 "H10B" ;
+	wdt:P1889 wd:Q35746,
+		wd:Q63283489 ;
+	wdt:P910 wd:Q36162802 ;
+	wdt:P17 wd:Q971 ;
+	wdt:P2341 wd:Q7208306,
+		wd:Q3844 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MKW> ;
+	wdt:P268 "11961628c" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb11961628c#about> ;
+	rdfs:label "Lenga kituba, Còngo"@pms ;
+	skos:prefLabel "Lenga kituba, Còngo"@pms ;
+	schema:name "Lenga kituba, Còngo"@pms ;
+	rdfs:label "kituba"@fr ;
+	skos:prefLabel "kituba"@fr ;
+	schema:name "kituba"@fr ;
+	rdfs:label "Kituba (Congo)"@en ;
+	skos:prefLabel "Kituba (Congo)"@en ;
+	schema:name "Kituba (Congo)"@en ;
+	rdfs:label "Kituba"@es ;
+	skos:prefLabel "Kituba"@es ;
+	schema:name "Kituba"@es ;
+	rdfs:label "Kituba (Congo)"@it ;
+	skos:prefLabel "Kituba (Congo)"@it ;
+	schema:name "Kituba (Congo)"@it ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue bantoue parlée en République du Congo"@fr,
+		"yezh"@br,
+		"idioma de la República del Congo"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"iaith"@cy,
+		"lingua"@la,
+		"language of the Republic of the Congo"@en ;
+	skos:altLabel "Lenga kituba, Congo"@pms,
+		"Kituba (Congo) language"@en,
+		"Kituba language"@en,
+		"Kituba"@en,
+		"Idioma Kituba (Congo)"@es,
+		"Kituba (Congo)"@es,
+		"Idioma Kituba"@es,
+		"kituba congolais"@fr .

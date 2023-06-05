@@ -1,0 +1,134 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q18458203 a schema:Dataset ;
+	schema:about wd:Q18458203 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1910950006"^^xsd:integer ;
+	schema:dateModified "2023-06-08T12:51:26Z"^^xsd:dateTime .
+
+wd:Q18458203 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_malay,_kupang> a schema:Article ;
+	schema:about wd:Q18458203 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga malay, kupang"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://jv.wikipedia.org/wiki/Basa_Melayu_Kupang> a schema:Article ;
+	schema:about wd:Q18458203 ;
+	schema:inLanguage "jv" ;
+	schema:isPartOf <https://jv.wikipedia.org/> ;
+	schema:name "Basa Melayu Kupang"@jv .
+
+<https://jv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Melayu_Kupang> a schema:Article ;
+	schema:about wd:Q18458203 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Melayu Kupang"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimalay_cha_Kupang> a schema:Article ;
+	schema:about wd:Q18458203 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimalay cha Kupang"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_malajski_Kupangu> a schema:Article ;
+	schema:about wd:Q18458203 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język malajski Kupangu"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q18458203 wdt:P220 "mkn" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mkn> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kupa1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kupa1239> ;
+	wdt:P279 wd:Q9237 ;
+	wdt:P305 "mkn" ;
+	wdt:P1627 "mkn" ;
+	wdt:P3823 wd:Q29051549 ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2341 wd:Q5061,
+		wd:Q3803 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MKN> ;
+	wdt:P2671 "/g/1hc0hjr6v" ;
+	wdtn:P2671 <http://g.co/kg/g/1hc0hjr6v> ;
+	rdfs:label "Kimalay ya Kupang"@sw ;
+	skos:prefLabel "Kimalay ya Kupang"@sw ;
+	schema:name "Kimalay ya Kupang"@sw ;
+	rdfs:label "Bahasa Melayu Kupang"@id ;
+	skos:prefLabel "Bahasa Melayu Kupang"@id ;
+	schema:name "Bahasa Melayu Kupang"@id ;
+	rdfs:label "Lenga malay, kupang"@pms ;
+	skos:prefLabel "Lenga malay, kupang"@pms ;
+	schema:name "Lenga malay, kupang"@pms ;
+	rdfs:label "Kupang Malay"@en ;
+	skos:prefLabel "Kupang Malay"@en ;
+	schema:name "Kupang Malay"@en ;
+	rdfs:label "Kupang Malay"@en-gb ;
+	skos:prefLabel "Kupang Malay"@en-gb ;
+	schema:name "Kupang Malay"@en-gb ;
+	rdfs:label "malais kupang"@fr ;
+	skos:prefLabel "malais kupang"@fr ;
+	schema:name "malais kupang"@fr ;
+	rdfs:label "Basa Melayu Kupang"@jv ;
+	skos:prefLabel "Basa Melayu Kupang"@jv ;
+	schema:name "Basa Melayu Kupang"@jv ;
+	rdfs:label "Język malajski Kupangu"@pl ;
+	skos:prefLabel "Język malajski Kupangu"@pl ;
+	schema:name "Język malajski Kupangu"@pl ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue malayo-polynésienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la,
+		"język austronezyjski"@pl,
+		"bagian dari rumpun bahasa Austronesia"@id .
+
+wd:Q12953690 owl:sameAs wd:Q18458203 .

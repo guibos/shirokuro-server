@@ -1,0 +1,167 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12629039 a schema:Dataset ;
+	schema:about wd:Q12629039 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1873425078"^^xsd:integer ;
+	schema:dateModified "2023-04-12T16:12:02Z"^^xsd:dateTime .
+
+wd:Q12629039 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_churahi> a schema:Article ;
+	schema:about wd:Q12629039 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga churahi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kichurahi> a schema:Article ;
+	schema:about wd:Q12629039 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kichurahi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Churahi_jezik> a schema:Article ;
+	schema:about wd:Q12629039 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Churahi jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Churahi> a schema:Article ;
+	schema:about wd:Q12629039 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Churahi"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%9A%E0%A7%81%E0%A6%B0%E0%A6%BE%E0%A6%B9%E0%A7%80_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE> a schema:Article ;
+	schema:about wd:Q12629039 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "চুরাহী ভাষা"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%9A%E0%A5%8C%E0%A4%B0%E0%A4%BE%E0%A4%B9%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q12629039 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "चौराही भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://as.wikipedia.org/wiki/%E0%A6%9A%E0%A7%81%E0%A7%B0%E0%A6%BE%E0%A6%B9%E0%A7%80> a schema:Article ;
+	schema:about wd:Q12629039 ;
+	schema:inLanguage "as" ;
+	schema:isPartOf <https://as.wikipedia.org/> ;
+	schema:name "চুৰাহী"@as .
+
+<https://as.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12629039 wdt:P31 wd:Q33742,
+		wd:Q1288568 ;
+	wdt:P220 "cdj" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/cdj> ;
+	wdt:P2355 "1554" ;
+	wdt:P1394 "chur1258" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/chur1258> ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P279 wd:Q12645574 ;
+	wdt:P2192 "1628" ;
+	wdt:P305 "cdj" ;
+	wdt:P1627 "cdj" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1177,
+		wd:Q1180 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CDJ> ;
+	wdt:P2671 "/g/12209183" ;
+	wdtn:P2671 <http://g.co/kg/g/12209183> ;
+	wdt:P910 wd:Q105715739 ;
+	wdt:P646 "/m/02hxvty" ;
+	rdfs:label "Churahi jezik"@hr ;
+	skos:prefLabel "Churahi jezik"@hr ;
+	schema:name "Churahi jezik"@hr ;
+	rdfs:label "Lenga churahi"@pms ;
+	skos:prefLabel "Lenga churahi"@pms ;
+	schema:name "Lenga churahi"@pms ;
+	rdfs:label "Churahi"@en ;
+	skos:prefLabel "Churahi"@en ;
+	schema:name "Churahi"@en ;
+	rdfs:label "Kichurahi"@sw ;
+	skos:prefLabel "Kichurahi"@sw ;
+	schema:name "Kichurahi"@sw ;
+	rdfs:label "Churahi"@en-gb ;
+	skos:prefLabel "Churahi"@en-gb ;
+	schema:name "Churahi"@en-gb ;
+	rdfs:label "churahi"@fr ;
+	skos:prefLabel "churahi"@fr ;
+	schema:name "churahi"@fr ;
+	rdfs:label "চুরাহী ভাষা"@bn ;
+	skos:prefLabel "চুরাহী ভাষা"@bn ;
+	schema:name "চুরাহী ভাষা"@bn ;
+	rdfs:label "चुराही"@hi ;
+	skos:prefLabel "चुराही"@hi ;
+	schema:name "चुराही"@hi ;
+	rdfs:label "چراہی"@pnb ;
+	skos:prefLabel "چراہی"@pnb ;
+	schema:name "چراہی"@pnb ;
+	rdfs:label "ਚੁਰਾਹੀ"@pa ;
+	skos:prefLabel "ਚੁਰਾਹੀ"@pa ;
+	schema:name "ਚੁਰਾਹੀ"@pa ;
+	rdfs:label "চুৰাহী"@as ;
+	skos:prefLabel "চুৰাহী"@as ;
+	schema:name "চুৰাহী"@as ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue indo-aryenne"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Lenga Churahi"@pms,
+		"Churahi language"@en,
+		"चुराही भाषा"@hi .
+
+wd:Q12953450 owl:sameAs wd:Q12629039 .
+
+wd:Q31325855 owl:sameAs wd:Q12629039 .

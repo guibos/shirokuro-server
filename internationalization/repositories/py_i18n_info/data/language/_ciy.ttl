@@ -1,0 +1,132 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12628867 a schema:Dataset ;
+	schema:about wd:Q12628867 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1925259375"^^xsd:integer ;
+	schema:dateModified "2023-06-28T10:12:38Z"^^xsd:dateTime .
+
+wd:Q12628867 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_chaima> a schema:Article ;
+	schema:about wd:Q12628867 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga chaima"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Chaimaeg> a schema:Article ;
+	schema:about wd:Q12628867 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Chaimaeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Chaima_jezik> a schema:Article ;
+	schema:about wd:Q12628867 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Chaima jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Chaima> a schema:Article ;
+	schema:about wd:Q12628867 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Chaima"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12628867 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "ciy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ciy> ;
+	wdt:P1394 "chai1253" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/chai1253> ;
+	wdt:P279 wd:Q33090 ;
+	wdt:P910 wd:Q33672578 ;
+	wdt:P2192 "4172" ;
+	wdt:P305 "ciy" ;
+	wdt:P1627 "ciy" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P17 wd:Q717 ;
+	wdt:P2341 wd:Q190922,
+		wd:Q205776,
+		wd:Q205824 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/CIY> ;
+	rdfs:label "Chaima jezik"@hr ;
+	skos:prefLabel "Chaima jezik"@hr ;
+	schema:name "Chaima jezik"@hr ;
+	rdfs:label "Lenga chaima"@pms ;
+	skos:prefLabel "Lenga chaima"@pms ;
+	schema:name "Lenga chaima"@pms ;
+	rdfs:label "Chaima"@en ;
+	skos:prefLabel "Chaima"@en ;
+	schema:name "Chaima"@en ;
+	rdfs:label "Chaima"@en-gb ;
+	skos:prefLabel "Chaima"@en-gb ;
+	schema:name "Chaima"@en-gb ;
+	rdfs:label "chaima"@fr ;
+	skos:prefLabel "chaima"@fr ;
+	schema:name "chaima"@fr ;
+	rdfs:label "Chaimaeg"@br ;
+	skos:prefLabel "Chaimaeg"@br ;
+	schema:name "Chaimaeg"@br ;
+	rdfs:label "Chaima"@es ;
+	skos:prefLabel "Chaima"@es ;
+	schema:name "Chaima"@es ;
+	rdfs:label "chaima"@ca ;
+	skos:prefLabel "chaima"@ca ;
+	schema:name "chaima"@ca ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue caribe"@fr,
+		"language"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"lingua"@la,
+		"iaith"@cy,
+		"llengua carib de Veneçuela"@ca ;
+	skos:altLabel "chayma"@ca,
+		"guaga-tagare"@ca,
+		"sayma"@ca,
+		"warapiche"@ca .
+
+wd:Q12953433 owl:sameAs wd:Q12628867 .
+
+wd:Q50934239 owl:sameAs wd:Q12628867 .

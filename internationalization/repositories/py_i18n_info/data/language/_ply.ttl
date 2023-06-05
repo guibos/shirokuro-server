@@ -1,0 +1,174 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3361723 a schema:Dataset ;
+	schema:about wd:Q3361723 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1670967641"^^xsd:integer ;
+	schema:dateModified "2022-07-04T08:18:09Z"^^xsd:dateTime .
+
+wd:Q3361723 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Palyu> a schema:Article ;
+	schema:about wd:Q3361723 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Palyu"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_bolyu> a schema:Article ;
+	schema:about wd:Q3361723 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga bolyu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Bolyu> a schema:Article ;
+	schema:about wd:Q3361723 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Bolyu"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibolyu> a schema:Article ;
+	schema:about wd:Q3361723 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibolyu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Bolyu_language> a schema:Article ;
+	schema:about wd:Q3361723 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Bolyu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Bolyu_jezik> a schema:Article ;
+	schema:about wd:Q3361723 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Bolyu jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%B7%B4%E7%90%89%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q3361723 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "巴琉语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_bolyu> a schema:Article ;
+	schema:about wd:Q3361723 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua bolyu"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3361723 wdt:P220 "ply" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ply> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "ply" ;
+	wdt:P279 wd:Q3509556 ;
+	wdt:P2355 "533" ;
+	wdt:P1394 "boly1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/boly1239> ;
+	wdt:P1014 "300389052" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389052> ;
+	wdt:P910 wd:Q33657533 ;
+	wdt:P2192 "1237" ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P131 wd:Q1355184 ;
+	wdt:P2341 wd:Q48987674,
+		wd:Q15176,
+		wd:Q47097,
+		wd:Q43194 ;
+	wdt:P361 wd:Q33199 ;
+	wdt:P4132 wd:Q191328 ;
+	wdt:P1627 "ply" ;
+	wdt:P3823 wd:Q29051556 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/PLY> ;
+	wdt:P646 "/m/02hxf6p" ;
+	rdfs:label "palyu"@fr ;
+	skos:prefLabel "palyu"@fr ;
+	schema:name "palyu"@fr ;
+	rdfs:label "Bolyu"@en ;
+	skos:prefLabel "Bolyu"@en ;
+	schema:name "Bolyu"@en ;
+	rdfs:label "Bolyu jezik"@hr ;
+	skos:prefLabel "Bolyu jezik"@hr ;
+	schema:name "Bolyu jezik"@hr ;
+	rdfs:label "Lenga bolyu"@pms ;
+	skos:prefLabel "Lenga bolyu"@pms ;
+	schema:name "Lenga bolyu"@pms ;
+	rdfs:label "Kibolyu"@sw ;
+	skos:prefLabel "Kibolyu"@sw ;
+	schema:name "Kibolyu"@sw ;
+	rdfs:label "Bolyu"@en-gb ;
+	skos:prefLabel "Bolyu"@en-gb ;
+	schema:name "Bolyu"@en-gb ;
+	rdfs:label "Bolyu"@ilo ;
+	skos:prefLabel "Bolyu"@ilo ;
+	schema:name "Bolyu"@ilo ;
+	rdfs:label "巴琉语"@zh ;
+	skos:prefLabel "巴琉语"@zh ;
+	schema:name "巴琉语"@zh ;
+	rdfs:label "Língua bolyu"@pt ;
+	skos:prefLabel "Língua bolyu"@pt ;
+	schema:name "Língua bolyu"@pt ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue austroasiatique"@fr,
+		"pagsasao idiay Tsina"@ilo,
+		"Austroasiatic language"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Bolyu language"@en,
+		"Paliu"@en,
+		"Palyu"@en,
+		"Lai"@en .
+
+wd:Q12953404 owl:sameAs wd:Q3361723 .

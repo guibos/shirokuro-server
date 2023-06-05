@@ -1,0 +1,148 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7395896 a schema:Dataset ;
+	schema:about wd:Q7395896 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1681914835"^^xsd:integer ;
+	schema:dateModified "2022-07-19T07:31:20Z"^^xsd:dateTime .
+
+wd:Q7395896 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Sabaot> a schema:Article ;
+	schema:about wd:Q7395896 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Sabaot"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Sabaot> a schema:Article ;
+	schema:about wd:Q7395896 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Sabaot"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisabaot> a schema:Article ;
+	schema:about wd:Q7395896 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisabaot"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sabaot_language> a schema:Article ;
+	schema:about wd:Q7395896 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sabaot language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Sabaoteg> a schema:Article ;
+	schema:about wd:Q7395896 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Sabaoteg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7395896 wdt:P220 "spy" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/spy> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P305 "spy" ;
+	wdt:P244 "sh93002530" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh93002530> ;
+	wdt:P268 "14466954h" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb14466954h#about> ;
+	wdt:P279 wd:Q5360091 ;
+	wdt:P1394 "saba1262" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/saba1262> ;
+	wdt:P2355 "95" ;
+	wdt:P910 wd:Q36165256 ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P1627 "spy" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q114 ;
+	wdt:P2341 wd:Q2928204,
+		wd:Q328493,
+		wd:Q1278653 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SPY> ;
+	wdt:P646 "/m/02hx4by" ;
+	wdt:P8189 "987007556364705171" ;
+	rdfs:label "Sabaot"@en ;
+	skos:prefLabel "Sabaot"@en ;
+	schema:name "Sabaot"@en ;
+	rdfs:label "Lenga Sabaot"@pms ;
+	skos:prefLabel "Lenga Sabaot"@pms ;
+	schema:name "Lenga Sabaot"@pms ;
+	rdfs:label "Kisabaot"@sw ;
+	skos:prefLabel "Kisabaot"@sw ;
+	schema:name "Kisabaot"@sw ;
+	rdfs:label "Sabaot"@de-at ;
+	skos:prefLabel "Sabaot"@de-at ;
+	schema:name "Sabaot"@de-at ;
+	rdfs:label "Sabaot"@de ;
+	skos:prefLabel "Sabaot"@de ;
+	schema:name "Sabaot"@de ;
+	rdfs:label "sabaot"@fr ;
+	skos:prefLabel "sabaot"@fr ;
+	schema:name "sabaot"@fr ;
+	rdfs:label "sabaoteg"@br ;
+	skos:prefLabel "sabaoteg"@br ;
+	schema:name "sabaoteg"@br ;
+	rdfs:label "Sabaot"@en-gb ;
+	skos:prefLabel "Sabaot"@en-gb ;
+	schema:name "Sabaot"@en-gb ;
+	rdfs:label "サバオット語"@ja ;
+	skos:prefLabel "サバオット語"@ja ;
+	schema:name "サバオット語"@ja ;
+	rdfs:label "сабаот"@be-tarask ;
+	skos:prefLabel "сабаот"@be-tarask ;
+	schema:name "сабаот"@be-tarask ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue nilotique"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"мова"@be-tarask ;
+	skos:altLabel "Sabaot language"@en,
+		"サバオト語"@ja,
+		"сабаоцкая мова"@be-tarask .

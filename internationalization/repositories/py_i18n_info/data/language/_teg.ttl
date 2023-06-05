@@ -1,0 +1,145 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36478 a schema:Dataset ;
+	schema:about wd:Q36478 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961186584"^^xsd:integer ;
+	schema:dateModified "2023-08-25T20:20:33Z"^^xsd:dateTime .
+
+wd:Q36478 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Latege> a schema:Article ;
+	schema:about wd:Q36478 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Latege"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Teke-Tege> a schema:Article ;
+	schema:about wd:Q36478 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Teke-Tege"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiteke-Kaskazini> a schema:Article ;
+	schema:about wd:Q36478 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiteke-Kaskazini"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/North_Teke_language> a schema:Article ;
+	schema:about wd:Q36478 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "North Teke language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Tegemeg> a schema:Article ;
+	schema:about wd:Q36478 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Tegemeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Teke-Tege> a schema:Article ;
+	schema:about wd:Q36478 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Teke-Tege"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36478 wdt:P220 "teg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/teg> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "teke1275" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/teke1275> ;
+	wdt:P4132 wd:Q651641 ;
+	wdt:P305 "teg" ;
+	wdt:P1627 "teg" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q971,
+		wd:Q1000 ;
+	wdt:P2341 wd:Q765370,
+		wd:Q125711,
+		wd:Q780884,
+		wd:Q654438 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TEG> ;
+	wdt:P646 "/m/02hxjzt" ;
+	rdfs:label "Kiteke-Kaskazini"@sw ;
+	skos:prefLabel "Kiteke-Kaskazini"@sw ;
+	schema:name "Kiteke-Kaskazini"@sw ;
+	rdfs:label "Lenga Teke-Tege"@pms ;
+	skos:prefLabel "Lenga Teke-Tege"@pms ;
+	schema:name "Lenga Teke-Tege"@pms ;
+	rdfs:label "Teke-Tege"@de ;
+	skos:prefLabel "Teke-Tege"@de ;
+	schema:name "Teke-Tege"@de ;
+	rdfs:label "North Teke"@en ;
+	skos:prefLabel "North Teke"@en ;
+	schema:name "North Teke"@en ;
+	rdfs:label "tegemeg"@br ;
+	skos:prefLabel "tegemeg"@br ;
+	schema:name "tegemeg"@br ;
+	rdfs:label "北部特克語"@zh ;
+	skos:prefLabel "北部特克語"@zh ;
+	schema:name "北部特克語"@zh ;
+	rdfs:label "latege"@fr ;
+	skos:prefLabel "latege"@fr ;
+	schema:name "latege"@fr ;
+	rdfs:label "Wikang Hilagang Teke"@tl ;
+	skos:prefLabel "Wikang Hilagang Teke"@tl ;
+	schema:name "Wikang Hilagang Teke"@tl ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kiteke-Tege"@sw,
+		"Teke-Tege"@en,
+		"North Teke language"@en .
+
+wd:Q61093273 owl:sameAs wd:Q36478 .

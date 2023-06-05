@@ -1,0 +1,128 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12952751 a schema:Dataset ;
+	schema:about wd:Q12952751 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1524338206"^^xsd:integer ;
+	schema:dateModified "2021-11-08T18:49:51Z"^^xsd:dateTime .
+
+wd:Q12952751 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Machame> a schema:Article ;
+	schema:about wd:Q12952751 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Machame"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimachame> a schema:Article ;
+	schema:about wd:Q12952751 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimachame"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%81%E3%83%A3%E3%83%A1%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q12952751 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "マチャメ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Machame> a schema:Article ;
+	schema:about wd:Q12952751 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Machame"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12952751 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "jmc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/jmc> ;
+	wdt:P1394 "mach1266" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mach1266> ;
+	wdt:P279 wd:Q7985624 ;
+	wdt:P2161 "E.621B" ;
+	wdt:P305 "jmc" ;
+	wdt:P1627 "jmc" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q924 ;
+	wdt:P2341 wd:Q329261,
+		wd:Q328922,
+		wd:Q331117 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/JMC> ;
+	wdt:P910 wd:Q33666895 ;
+	wdt:P646 "/m/02hxm7k" ;
+	wdt:P9060 "jmc" ;
+	rdfs:label "Lenga Machame"@pms ;
+	skos:prefLabel "Lenga Machame"@pms ;
+	schema:name "Lenga Machame"@pms ;
+	rdfs:label "Machame"@fi ;
+	skos:prefLabel "Machame"@fi ;
+	schema:name "Machame"@fi ;
+	rdfs:label "Kimachame"@sw ;
+	skos:prefLabel "Kimachame"@sw ;
+	schema:name "Kimachame"@sw ;
+	rdfs:label "マチャメ語"@ja ;
+	skos:prefLabel "マチャメ語"@ja ;
+	schema:name "マチャメ語"@ja ;
+	rdfs:label "Machame"@en ;
+	skos:prefLabel "Machame"@en ;
+	schema:name "Machame"@en ;
+	rdfs:label "Machame"@en-gb ;
+	skos:prefLabel "Machame"@en-gb ;
+	schema:name "Machame"@en-gb ;
+	rdfs:label "machame"@fr ;
+	skos:prefLabel "machame"@fr ;
+	schema:name "machame"@fr ;
+	rdfs:label "Machame"@de ;
+	skos:prefLabel "Machame"@de ;
+	schema:name "Machame"@de ;
+	rdfs:label "Machame"@nl ;
+	skos:prefLabel "Machame"@nl ;
+	schema:name "Machame"@nl ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue bantoue"@fr,
+		"yezh"@br,
+		"Bantu-Sprache"@de,
+		"Bantu language"@en,
+		"lengua"@es,
+		"lingua"@it,
+		"iaith"@cy,
+		"lingua"@la .

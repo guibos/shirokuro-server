@@ -1,0 +1,347 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q14916905 a schema:Dataset ;
+	schema:about wd:Q14916905 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960503756"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:14:04Z"^^xsd:dateTime .
+
+wd:Q14916905 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Serua> a schema:Article ;
+	schema:about wd:Q14916905 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Serua"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Serua> a schema:Article ;
+	schema:about wd:Q14916905 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Serua"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiserua> a schema:Article ;
+	schema:about wd:Q14916905 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiserua"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Serua_language> a schema:Article ;
+	schema:about wd:Q14916905 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Serua language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_serua> a schema:Article ;
+	schema:about wd:Q14916905 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język serua"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q14916905 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "seru1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/seru1245> ;
+	wdt:P1098 "+1013"^^xsd:decimal ;
+	wdt:P279 wd:Q7806987 ;
+	wdt:P276 wd:Q24388651 ;
+	wdt:P2341 wd:Q24388902,
+		wd:Q5093 ;
+	wdt:P220 "srw" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/srw> ;
+	wdt:P2590 "0778 2" ;
+	wdt:P1705 "bahasa Serua"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P305 "srw" ;
+	wdt:P1627 "srw" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SRW> ;
+	wdt:P646 "/m/02hxqp7" ;
+	rdfs:label "Serua"@en ;
+	skos:prefLabel "Serua"@en ;
+	schema:name "Serua"@en ;
+	rdfs:label "Lenga Serua"@pms ;
+	skos:prefLabel "Lenga Serua"@pms ;
+	schema:name "Lenga Serua"@pms ;
+	rdfs:label "Kiserua"@sw ;
+	skos:prefLabel "Kiserua"@sw ;
+	schema:name "Kiserua"@sw ;
+	rdfs:label "Serua"@id ;
+	skos:prefLabel "Serua"@id ;
+	schema:name "Serua"@id ;
+	rdfs:label "Serua"@ace ;
+	skos:prefLabel "Serua"@ace ;
+	schema:name "Serua"@ace ;
+	rdfs:label "Serua"@af ;
+	skos:prefLabel "Serua"@af ;
+	schema:name "Serua"@af ;
+	rdfs:label "Serua"@an ;
+	skos:prefLabel "Serua"@an ;
+	schema:name "Serua"@an ;
+	rdfs:label "Serua"@ast ;
+	skos:prefLabel "Serua"@ast ;
+	schema:name "Serua"@ast ;
+	rdfs:label "Serua"@bar ;
+	skos:prefLabel "Serua"@bar ;
+	schema:name "Serua"@bar ;
+	rdfs:label "serua"@br ;
+	skos:prefLabel "serua"@br ;
+	schema:name "serua"@br ;
+	rdfs:label "serua"@ca ;
+	skos:prefLabel "serua"@ca ;
+	schema:name "serua"@ca ;
+	rdfs:label "Serua"@co ;
+	skos:prefLabel "Serua"@co ;
+	schema:name "Serua"@co ;
+	rdfs:label "Serua"@cs ;
+	skos:prefLabel "Serua"@cs ;
+	schema:name "Serua"@cs ;
+	rdfs:label "Serua"@cy ;
+	skos:prefLabel "Serua"@cy ;
+	schema:name "Serua"@cy ;
+	rdfs:label "Serua"@da ;
+	skos:prefLabel "Serua"@da ;
+	schema:name "Serua"@da ;
+	rdfs:label "Serua"@de ;
+	skos:prefLabel "Serua"@de ;
+	schema:name "Serua"@de ;
+	rdfs:label "Serua"@de-at ;
+	skos:prefLabel "Serua"@de-at ;
+	schema:name "Serua"@de-at ;
+	rdfs:label "Serua"@de-ch ;
+	skos:prefLabel "Serua"@de-ch ;
+	schema:name "Serua"@de-ch ;
+	rdfs:label "Serua"@en-ca ;
+	skos:prefLabel "Serua"@en-ca ;
+	schema:name "Serua"@en-ca ;
+	rdfs:label "Serua"@en-gb ;
+	skos:prefLabel "Serua"@en-gb ;
+	schema:name "Serua"@en-gb ;
+	rdfs:label "Serua"@eo ;
+	skos:prefLabel "Serua"@eo ;
+	schema:name "Serua"@eo ;
+	rdfs:label "Serua"@es ;
+	skos:prefLabel "Serua"@es ;
+	schema:name "Serua"@es ;
+	rdfs:label "Serua"@et ;
+	skos:prefLabel "Serua"@et ;
+	schema:name "Serua"@et ;
+	rdfs:label "Serua"@eu ;
+	skos:prefLabel "Serua"@eu ;
+	schema:name "Serua"@eu ;
+	rdfs:label "Serua"@fi ;
+	skos:prefLabel "Serua"@fi ;
+	schema:name "Serua"@fi ;
+	rdfs:label "serua"@fr ;
+	skos:prefLabel "serua"@fr ;
+	schema:name "serua"@fr ;
+	rdfs:label "Serua"@frp ;
+	skos:prefLabel "Serua"@frp ;
+	schema:name "Serua"@frp ;
+	rdfs:label "Serua"@fur ;
+	skos:prefLabel "Serua"@fur ;
+	schema:name "Serua"@fur ;
+	rdfs:label "Serua"@ga ;
+	skos:prefLabel "Serua"@ga ;
+	schema:name "Serua"@ga ;
+	rdfs:label "Serua"@gd ;
+	skos:prefLabel "Serua"@gd ;
+	schema:name "Serua"@gd ;
+	rdfs:label "Serua"@gl ;
+	skos:prefLabel "Serua"@gl ;
+	schema:name "Serua"@gl ;
+	rdfs:label "Serua"@gsw ;
+	skos:prefLabel "Serua"@gsw ;
+	schema:name "Serua"@gsw ;
+	rdfs:label "Serua"@hr ;
+	skos:prefLabel "Serua"@hr ;
+	schema:name "Serua"@hr ;
+	rdfs:label "Serua"@hu ;
+	skos:prefLabel "Serua"@hu ;
+	schema:name "Serua"@hu ;
+	rdfs:label "Serua"@ia ;
+	skos:prefLabel "Serua"@ia ;
+	schema:name "Serua"@ia ;
+	rdfs:label "Serua"@ie ;
+	skos:prefLabel "Serua"@ie ;
+	schema:name "Serua"@ie ;
+	rdfs:label "Serua"@io ;
+	skos:prefLabel "Serua"@io ;
+	schema:name "Serua"@io ;
+	rdfs:label "Serua"@is ;
+	skos:prefLabel "Serua"@is ;
+	schema:name "Serua"@is ;
+	rdfs:label "serua"@it ;
+	skos:prefLabel "serua"@it ;
+	schema:name "serua"@it ;
+	rdfs:label "Serua"@jv ;
+	skos:prefLabel "Serua"@jv ;
+	schema:name "Serua"@jv ;
+	rdfs:label "Serua"@kg ;
+	skos:prefLabel "Serua"@kg ;
+	schema:name "Serua"@kg ;
+	rdfs:label "Serua"@lb ;
+	skos:prefLabel "Serua"@lb ;
+	schema:name "Serua"@lb ;
+	rdfs:label "Serua"@li ;
+	skos:prefLabel "Serua"@li ;
+	schema:name "Serua"@li ;
+	rdfs:label "Serua"@lij ;
+	skos:prefLabel "Serua"@lij ;
+	schema:name "Serua"@lij ;
+	rdfs:label "Serua"@mg ;
+	skos:prefLabel "Serua"@mg ;
+	schema:name "Serua"@mg ;
+	rdfs:label "Serua"@min ;
+	skos:prefLabel "Serua"@min ;
+	schema:name "Serua"@min ;
+	rdfs:label "Serua"@ms ;
+	skos:prefLabel "Serua"@ms ;
+	schema:name "Serua"@ms ;
+	rdfs:label "Serua"@nap ;
+	skos:prefLabel "Serua"@nap ;
+	schema:name "Serua"@nap ;
+	rdfs:label "Serua"@nb ;
+	skos:prefLabel "Serua"@nb ;
+	schema:name "Serua"@nb ;
+	rdfs:label "Serua"@nds ;
+	skos:prefLabel "Serua"@nds ;
+	schema:name "Serua"@nds ;
+	rdfs:label "Serua"@nds-nl ;
+	skos:prefLabel "Serua"@nds-nl ;
+	schema:name "Serua"@nds-nl ;
+	rdfs:label "Serua"@nl ;
+	skos:prefLabel "Serua"@nl ;
+	schema:name "Serua"@nl ;
+	rdfs:label "Serua"@nn ;
+	skos:prefLabel "Serua"@nn ;
+	schema:name "Serua"@nn ;
+	rdfs:label "Serua"@nrm ;
+	skos:prefLabel "Serua"@nrm ;
+	schema:name "Serua"@nrm ;
+	rdfs:label "Serua"@oc ;
+	skos:prefLabel "Serua"@oc ;
+	schema:name "Serua"@oc ;
+	rdfs:label "Serua"@pcd ;
+	skos:prefLabel "Serua"@pcd ;
+	schema:name "Serua"@pcd ;
+	rdfs:label "język serua"@pl ;
+	skos:prefLabel "język serua"@pl ;
+	schema:name "język serua"@pl ;
+	rdfs:label "Serua"@pt ;
+	skos:prefLabel "Serua"@pt ;
+	schema:name "Serua"@pt ;
+	rdfs:label "Serua"@pt-br ;
+	skos:prefLabel "Serua"@pt-br ;
+	schema:name "Serua"@pt-br ;
+	rdfs:label "Serua"@rm ;
+	skos:prefLabel "Serua"@rm ;
+	schema:name "Serua"@rm ;
+	rdfs:label "Serua"@ro ;
+	skos:prefLabel "Serua"@ro ;
+	schema:name "Serua"@ro ;
+	rdfs:label "Serua"@sc ;
+	skos:prefLabel "Serua"@sc ;
+	schema:name "Serua"@sc ;
+	rdfs:label "Serua"@scn ;
+	skos:prefLabel "Serua"@scn ;
+	schema:name "Serua"@scn ;
+	rdfs:label "Serua"@sco ;
+	skos:prefLabel "Serua"@sco ;
+	schema:name "Serua"@sco ;
+	rdfs:label "Serua"@sk ;
+	skos:prefLabel "Serua"@sk ;
+	schema:name "Serua"@sk ;
+	rdfs:label "Serua"@sl ;
+	skos:prefLabel "Serua"@sl ;
+	schema:name "Serua"@sl ;
+	rdfs:label "Serua"@sr-el ;
+	skos:prefLabel "Serua"@sr-el ;
+	schema:name "Serua"@sr-el ;
+	rdfs:label "Serua"@su ;
+	skos:prefLabel "Serua"@su ;
+	schema:name "Serua"@su ;
+	rdfs:label "Serua"@sv ;
+	skos:prefLabel "Serua"@sv ;
+	schema:name "Serua"@sv ;
+	rdfs:label "Serua"@vec ;
+	skos:prefLabel "Serua"@vec ;
+	schema:name "Serua"@vec ;
+	rdfs:label "Serua"@vi ;
+	skos:prefLabel "Serua"@vi ;
+	schema:name "Serua"@vi ;
+	rdfs:label "Serua"@vls ;
+	skos:prefLabel "Serua"@vls ;
+	schema:name "Serua"@vls ;
+	rdfs:label "Serua"@vo ;
+	skos:prefLabel "Serua"@vo ;
+	schema:name "Serua"@vo ;
+	rdfs:label "Serua"@wa ;
+	skos:prefLabel "Serua"@wa ;
+	schema:name "Serua"@wa ;
+	rdfs:label "Serua"@wo ;
+	skos:prefLabel "Serua"@wo ;
+	schema:name "Serua"@wo ;
+	rdfs:label "Serua"@zu ;
+	skos:prefLabel "Serua"@zu ;
+	schema:name "Serua"@zu ;
+	rdfs:label "Serua"@ilo ;
+	skos:prefLabel "Serua"@ilo ;
+	schema:name "Serua"@ilo ;
+	schema:description "bahasa Austronesia di Maluku"@id,
+		"awanen a pagsasao idiay Indonesia"@ilo,
+		"langue timorique"@fr,
+		"extinct Austronesian language of Serua Island, Indonesia"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"iaith"@cy,
+		"lingua"@la,
+		"język austronezyjski"@pl ;
+	skos:altLabel "bahasa Serua"@id,
+		"Serua language"@en .
+
+wd:Q25894252 owl:sameAs wd:Q14916905 .

@@ -1,0 +1,136 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7365672 a schema:Dataset ;
+	schema:about wd:Q7365672 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961429914"^^xsd:integer ;
+	schema:dateModified "2023-08-26T03:05:49Z"^^xsd:dateTime .
+
+wd:Q7365672 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Rongpo> a schema:Article ;
+	schema:about wd:Q7365672 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Rongpo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kirongpo> a schema:Article ;
+	schema:about wd:Q7365672 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kirongpo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Rongpo_language> a schema:Article ;
+	schema:about wd:Q7365672 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Rongpo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Rongpo_jezik> a schema:Article ;
+	schema:about wd:Q7365672 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Rongpo jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%B0%E0%A5%8B%E0%A4%82%E0%A4%97%E0%A5%8D%E0%A4%AA%E0%A5%8B_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE> a schema:Article ;
+	schema:about wd:Q7365672 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "रोंग्पो भाषा"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7365672 wdt:P220 "rnp" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/rnp> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "rong1264" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/rong1264> ;
+	wdt:P2355 "1182" ;
+	wdt:P1466 "mrc" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_mrc> ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P305 "rnp" ;
+	wdt:P279 wd:Q2301695 ;
+	wdt:P910 wd:Q36165184 ;
+	wdt:P2192 "5685" ;
+	wdt:P1627 "rnp" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1499 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/RNP> ;
+	wdt:P646 "/m/0h94vss" ;
+	rdfs:label "Rongpo"@en ;
+	skos:prefLabel "Rongpo"@en ;
+	schema:name "Rongpo"@en ;
+	rdfs:label "Kirongpo"@sw ;
+	skos:prefLabel "Kirongpo"@sw ;
+	schema:name "Kirongpo"@sw ;
+	rdfs:label "Lenga Rongpo"@pms ;
+	skos:prefLabel "Lenga Rongpo"@pms ;
+	schema:name "Lenga Rongpo"@pms ;
+	rdfs:label "Rongpo jezik"@hr ;
+	skos:prefLabel "Rongpo jezik"@hr ;
+	schema:name "Rongpo jezik"@hr ;
+	rdfs:label "Rongpo"@en-gb ;
+	skos:prefLabel "Rongpo"@en-gb ;
+	schema:name "Rongpo"@en-gb ;
+	rdfs:label "rongpo"@fr ;
+	skos:prefLabel "rongpo"@fr ;
+	schema:name "rongpo"@fr ;
+	rdfs:label "रोंग्पो भाषा"@hi ;
+	skos:prefLabel "रोंग्पो भाषा"@hi ;
+	schema:name "रोंग्पो भाषा"@hi ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue bodique"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Rongpo language"@en .
+
+wd:Q12641386 owl:sameAs wd:Q7365672 .
+
+wd:Q31326600 owl:sameAs wd:Q7365672 .

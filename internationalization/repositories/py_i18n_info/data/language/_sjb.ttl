@@ -1,0 +1,132 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4684353 a schema:Dataset ;
+	schema:about wd:Q4684353 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960503342"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:13:39Z"^^xsd:dateTime .
+
+wd:Q4684353 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_sajau_basap> a schema:Article ;
+	schema:about wd:Q4684353 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga sajau basap"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Sajau_Basap> a schema:Article ;
+	schema:about wd:Q4684353 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Sajau Basap"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisajau-Basap> a schema:Article ;
+	schema:about wd:Q4684353 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisajau-Basap"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sajau_Basap_language> a schema:Article ;
+	schema:about wd:Q4684353 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sajau Basap language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bcl.wikipedia.org/wiki/Tataramon_na_Sajau_Basap> a schema:Article ;
+	schema:about wd:Q4684353 ;
+	schema:inLanguage "bcl" ;
+	schema:isPartOf <https://bcl.wikipedia.org/> ;
+	schema:name "Tataramon na Sajau Basap"@bcl .
+
+<https://bcl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4684353 wdt:P220 "sjb" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/sjb> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "saja1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/saja1241> ;
+	wdt:P1014 "300389187" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389187> ;
+	wdt:P305 "sjb" ;
+	wdt:P1627 "sjb" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2341 wd:Q3795,
+		wd:Q3899 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SJB> ;
+	wdt:P1889 wd:Q3504208 ;
+	wdt:P646 "/m/02hx297" ;
+	rdfs:label "Lenga sajau basap"@pms ;
+	skos:prefLabel "Lenga sajau basap"@pms ;
+	schema:name "Lenga sajau basap"@pms ;
+	rdfs:label "Sajau Basap"@en ;
+	skos:prefLabel "Sajau Basap"@en ;
+	schema:name "Sajau Basap"@en ;
+	rdfs:label "Kisajau-Basap"@sw ;
+	skos:prefLabel "Kisajau-Basap"@sw ;
+	schema:name "Kisajau-Basap"@sw ;
+	rdfs:label "Sajau Basap"@ilo ;
+	skos:prefLabel "Sajau Basap"@ilo ;
+	schema:name "Sajau Basap"@ilo ;
+	rdfs:label "Sajau Basap"@en-gb ;
+	skos:prefLabel "Sajau Basap"@en-gb ;
+	schema:name "Sajau Basap"@en-gb ;
+	rdfs:label "Wikang Sajau Basap"@tl ;
+	skos:prefLabel "Wikang Sajau Basap"@tl ;
+	schema:name "Wikang Sajau Basap"@tl ;
+	rdfs:label "Tataramon na Sajau Basap"@bcl ;
+	skos:prefLabel "Tataramon na Sajau Basap"@bcl ;
+	schema:name "Tataramon na Sajau Basap"@bcl ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Indonesia"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Sajau Basap language"@en .
+
+wd:Q31441572 owl:sameAs wd:Q4684353 .

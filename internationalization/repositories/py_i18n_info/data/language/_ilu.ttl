@@ -1,0 +1,340 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12632888 a schema:Dataset ;
+	schema:about wd:Q12632888 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1112911024"^^xsd:integer ;
+	schema:dateModified "2020-02-10T21:30:23Z"^^xsd:dateTime .
+
+wd:Q12632888 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Ili%27uun> a schema:Article ;
+	schema:about wd:Q12632888 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Ili'uun"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiili%27uun> a schema:Article ;
+	schema:about wd:Q12632888 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiili'uun"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Ili%E2%80%99uun_jezik> a schema:Article ;
+	schema:about wd:Q12632888 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Ili’uun jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12632888 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "ilu" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ilu> ;
+	wdt:P1098 "+842"^^xsd:decimal ;
+	wdt:P276 wd:Q24340558,
+		wd:Q24340563,
+		wd:Q24340565,
+		wd:Q24340566 ;
+	wdt:P2341 wd:Q24340572,
+		wd:Q5093 ;
+	wdt:P1394 "iliu1237" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/iliu1237> ;
+	wdt:P279 wd:Q36872 ;
+	wdt:P305 "ilu" ;
+	wdt:P1627 "ilu" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/ILU> ;
+	wdt:P4913 wd:Q24340567,
+		wd:Q12953035,
+		wd:Q12473343,
+		wd:Q24340570 ;
+	rdfs:label "Ili’uun jezik"@hr ;
+	skos:prefLabel "Ili’uun jezik"@hr ;
+	schema:name "Ili’uun jezik"@hr ;
+	rdfs:label "Lenga Ili'uun"@pms ;
+	skos:prefLabel "Lenga Ili'uun"@pms ;
+	schema:name "Lenga Ili'uun"@pms ;
+	rdfs:label "Kiili'uun"@sw ;
+	skos:prefLabel "Kiili'uun"@sw ;
+	schema:name "Kiili'uun"@sw ;
+	rdfs:label "Illiun"@id ;
+	skos:prefLabel "Illiun"@id ;
+	schema:name "Illiun"@id ;
+	rdfs:label "Illiun"@ace ;
+	skos:prefLabel "Illiun"@ace ;
+	schema:name "Illiun"@ace ;
+	rdfs:label "Illiun"@af ;
+	skos:prefLabel "Illiun"@af ;
+	schema:name "Illiun"@af ;
+	rdfs:label "Illiun"@an ;
+	skos:prefLabel "Illiun"@an ;
+	schema:name "Illiun"@an ;
+	rdfs:label "Illiun"@ast ;
+	skos:prefLabel "Illiun"@ast ;
+	schema:name "Illiun"@ast ;
+	rdfs:label "Illiun"@bar ;
+	skos:prefLabel "Illiun"@bar ;
+	schema:name "Illiun"@bar ;
+	rdfs:label "illiun"@br ;
+	skos:prefLabel "illiun"@br ;
+	schema:name "illiun"@br ;
+	rdfs:label "illiun"@ca ;
+	skos:prefLabel "illiun"@ca ;
+	schema:name "illiun"@ca ;
+	rdfs:label "Illiun"@co ;
+	skos:prefLabel "Illiun"@co ;
+	schema:name "Illiun"@co ;
+	rdfs:label "Illiun"@cs ;
+	skos:prefLabel "Illiun"@cs ;
+	schema:name "Illiun"@cs ;
+	rdfs:label "Illiun"@cy ;
+	skos:prefLabel "Illiun"@cy ;
+	schema:name "Illiun"@cy ;
+	rdfs:label "Illiun"@da ;
+	skos:prefLabel "Illiun"@da ;
+	schema:name "Illiun"@da ;
+	rdfs:label "Illiun"@de ;
+	skos:prefLabel "Illiun"@de ;
+	schema:name "Illiun"@de ;
+	rdfs:label "Illiun"@de-at ;
+	skos:prefLabel "Illiun"@de-at ;
+	schema:name "Illiun"@de-at ;
+	rdfs:label "Illiun"@de-ch ;
+	skos:prefLabel "Illiun"@de-ch ;
+	schema:name "Illiun"@de-ch ;
+	rdfs:label "Ili'uun"@en ;
+	skos:prefLabel "Ili'uun"@en ;
+	schema:name "Ili'uun"@en ;
+	rdfs:label "Illiun"@en-ca ;
+	skos:prefLabel "Illiun"@en-ca ;
+	schema:name "Illiun"@en-ca ;
+	rdfs:label "Illiun"@en-gb ;
+	skos:prefLabel "Illiun"@en-gb ;
+	schema:name "Illiun"@en-gb ;
+	rdfs:label "Illiun"@eo ;
+	skos:prefLabel "Illiun"@eo ;
+	schema:name "Illiun"@eo ;
+	rdfs:label "Illiun"@es ;
+	skos:prefLabel "Illiun"@es ;
+	schema:name "Illiun"@es ;
+	rdfs:label "Illiun"@et ;
+	skos:prefLabel "Illiun"@et ;
+	schema:name "Illiun"@et ;
+	rdfs:label "Illiun"@eu ;
+	skos:prefLabel "Illiun"@eu ;
+	schema:name "Illiun"@eu ;
+	rdfs:label "Illiun"@fi ;
+	skos:prefLabel "Illiun"@fi ;
+	schema:name "Illiun"@fi ;
+	rdfs:label "ili'uun"@fr ;
+	skos:prefLabel "ili'uun"@fr ;
+	schema:name "ili'uun"@fr ;
+	rdfs:label "Illiun"@frp ;
+	skos:prefLabel "Illiun"@frp ;
+	schema:name "Illiun"@frp ;
+	rdfs:label "Illiun"@fur ;
+	skos:prefLabel "Illiun"@fur ;
+	schema:name "Illiun"@fur ;
+	rdfs:label "Illiun"@ga ;
+	skos:prefLabel "Illiun"@ga ;
+	schema:name "Illiun"@ga ;
+	rdfs:label "Illiun"@gd ;
+	skos:prefLabel "Illiun"@gd ;
+	schema:name "Illiun"@gd ;
+	rdfs:label "Illiun"@gl ;
+	skos:prefLabel "Illiun"@gl ;
+	schema:name "Illiun"@gl ;
+	rdfs:label "Illiun"@gsw ;
+	skos:prefLabel "Illiun"@gsw ;
+	schema:name "Illiun"@gsw ;
+	rdfs:label "Illiun"@hu ;
+	skos:prefLabel "Illiun"@hu ;
+	schema:name "Illiun"@hu ;
+	rdfs:label "Illiun"@ia ;
+	skos:prefLabel "Illiun"@ia ;
+	schema:name "Illiun"@ia ;
+	rdfs:label "Illiun"@ie ;
+	skos:prefLabel "Illiun"@ie ;
+	schema:name "Illiun"@ie ;
+	rdfs:label "Illiun"@io ;
+	skos:prefLabel "Illiun"@io ;
+	schema:name "Illiun"@io ;
+	rdfs:label "Illiun"@is ;
+	skos:prefLabel "Illiun"@is ;
+	schema:name "Illiun"@is ;
+	rdfs:label "illiun"@it ;
+	skos:prefLabel "illiun"@it ;
+	schema:name "illiun"@it ;
+	rdfs:label "Illiun"@jv ;
+	skos:prefLabel "Illiun"@jv ;
+	schema:name "Illiun"@jv ;
+	rdfs:label "Illiun"@kg ;
+	skos:prefLabel "Illiun"@kg ;
+	schema:name "Illiun"@kg ;
+	rdfs:label "Illiun"@lb ;
+	skos:prefLabel "Illiun"@lb ;
+	schema:name "Illiun"@lb ;
+	rdfs:label "Illiun"@li ;
+	skos:prefLabel "Illiun"@li ;
+	schema:name "Illiun"@li ;
+	rdfs:label "Illiun"@lij ;
+	skos:prefLabel "Illiun"@lij ;
+	schema:name "Illiun"@lij ;
+	rdfs:label "Illiun"@mg ;
+	skos:prefLabel "Illiun"@mg ;
+	schema:name "Illiun"@mg ;
+	rdfs:label "Illiun"@min ;
+	skos:prefLabel "Illiun"@min ;
+	schema:name "Illiun"@min ;
+	rdfs:label "Illiun"@ms ;
+	skos:prefLabel "Illiun"@ms ;
+	schema:name "Illiun"@ms ;
+	rdfs:label "Illiun"@nap ;
+	skos:prefLabel "Illiun"@nap ;
+	schema:name "Illiun"@nap ;
+	rdfs:label "Illiun"@nb ;
+	skos:prefLabel "Illiun"@nb ;
+	schema:name "Illiun"@nb ;
+	rdfs:label "Illiun"@nds ;
+	skos:prefLabel "Illiun"@nds ;
+	schema:name "Illiun"@nds ;
+	rdfs:label "Illiun"@nds-nl ;
+	skos:prefLabel "Illiun"@nds-nl ;
+	schema:name "Illiun"@nds-nl ;
+	rdfs:label "Illiun"@nl ;
+	skos:prefLabel "Illiun"@nl ;
+	schema:name "Illiun"@nl ;
+	rdfs:label "Illiun"@nn ;
+	skos:prefLabel "Illiun"@nn ;
+	schema:name "Illiun"@nn ;
+	rdfs:label "Illiun"@nrm ;
+	skos:prefLabel "Illiun"@nrm ;
+	schema:name "Illiun"@nrm ;
+	rdfs:label "Illiun"@oc ;
+	skos:prefLabel "Illiun"@oc ;
+	schema:name "Illiun"@oc ;
+	rdfs:label "Illiun"@pcd ;
+	skos:prefLabel "Illiun"@pcd ;
+	schema:name "Illiun"@pcd ;
+	rdfs:label "Illiun"@pl ;
+	skos:prefLabel "Illiun"@pl ;
+	schema:name "Illiun"@pl ;
+	rdfs:label "Illiun"@pt ;
+	skos:prefLabel "Illiun"@pt ;
+	schema:name "Illiun"@pt ;
+	rdfs:label "Illiun"@pt-br ;
+	skos:prefLabel "Illiun"@pt-br ;
+	schema:name "Illiun"@pt-br ;
+	rdfs:label "Illiun"@rm ;
+	skos:prefLabel "Illiun"@rm ;
+	schema:name "Illiun"@rm ;
+	rdfs:label "Illiun"@ro ;
+	skos:prefLabel "Illiun"@ro ;
+	schema:name "Illiun"@ro ;
+	rdfs:label "Illiun"@sc ;
+	skos:prefLabel "Illiun"@sc ;
+	schema:name "Illiun"@sc ;
+	rdfs:label "Illiun"@scn ;
+	skos:prefLabel "Illiun"@scn ;
+	schema:name "Illiun"@scn ;
+	rdfs:label "Illiun"@sco ;
+	skos:prefLabel "Illiun"@sco ;
+	schema:name "Illiun"@sco ;
+	rdfs:label "Illiun"@sk ;
+	skos:prefLabel "Illiun"@sk ;
+	schema:name "Illiun"@sk ;
+	rdfs:label "Illiun"@sl ;
+	skos:prefLabel "Illiun"@sl ;
+	schema:name "Illiun"@sl ;
+	rdfs:label "Illiun"@sr-el ;
+	skos:prefLabel "Illiun"@sr-el ;
+	schema:name "Illiun"@sr-el ;
+	rdfs:label "Illiun"@su ;
+	skos:prefLabel "Illiun"@su ;
+	schema:name "Illiun"@su ;
+	rdfs:label "Illiun"@sv ;
+	skos:prefLabel "Illiun"@sv ;
+	schema:name "Illiun"@sv ;
+	rdfs:label "Illiun"@vec ;
+	skos:prefLabel "Illiun"@vec ;
+	schema:name "Illiun"@vec ;
+	rdfs:label "Illiun"@vi ;
+	skos:prefLabel "Illiun"@vi ;
+	schema:name "Illiun"@vi ;
+	rdfs:label "Illiun"@vls ;
+	skos:prefLabel "Illiun"@vls ;
+	schema:name "Illiun"@vls ;
+	rdfs:label "Illiun"@vo ;
+	skos:prefLabel "Illiun"@vo ;
+	schema:name "Illiun"@vo ;
+	rdfs:label "Illiun"@wa ;
+	skos:prefLabel "Illiun"@wa ;
+	schema:name "Illiun"@wa ;
+	rdfs:label "Illiun"@wo ;
+	skos:prefLabel "Illiun"@wo ;
+	schema:name "Illiun"@wo ;
+	rdfs:label "Illiun"@zu ;
+	skos:prefLabel "Illiun"@zu ;
+	schema:name "Illiun"@zu ;
+	schema:description "bahasa di Maluku"@id,
+		"taal"@nl,
+		"שפה"@he,
+		"langue malayo-polynésienne"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Illiun"@hr,
+		"Illiun"@pms,
+		"Illiun"@sw,
+		"bahasa Illiun"@id,
+		"Il'iiuun"@id,
+		"bahasa Il'iiuun"@id,
+		"Ili’uun"@id,
+		"bahasa Ili’uun"@id,
+		"Illiun"@en,
+		"Ili'uun"@nl .
+
+wd:Q12952516 owl:sameAs wd:Q12632888 .
+
+wd:Q24265456 owl:sameAs wd:Q12632888 .

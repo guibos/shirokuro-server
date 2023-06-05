@@ -1,0 +1,144 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6666374 a schema:Dataset ;
+	schema:about wd:Q6666374 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1843926565"^^xsd:integer ;
+	schema:dateModified "2023-03-02T06:51:49Z"^^xsd:dateTime .
+
+wd:Q6666374 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_lodhi> a schema:Article ;
+	schema:about wd:Q6666374 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga lodhi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Lodhi> a schema:Article ;
+	schema:about wd:Q6666374 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Lodhi"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilodhi> a schema:Article ;
+	schema:about wd:Q6666374 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilodhi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Lodhi_language> a schema:Article ;
+	schema:about wd:Q6666374 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Lodhi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sat.wikipedia.org/wiki/%E1%B1%9E%E1%B1%B3%E1%B1%AB%E1%B1%B7%E1%B1%A4_%E1%B1%AF%E1%B1%9F%E1%B1%B9%E1%B1%A8%E1%B1%A5%E1%B1%A4> a schema:Article ;
+	schema:about wd:Q6666374 ;
+	schema:inLanguage "sat" ;
+	schema:isPartOf <https://sat.wikipedia.org/> ;
+	schema:name "ᱞᱳᱫᱷᱤ ᱯᱟᱹᱨᱥᱤ"@sat .
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E7%BD%97%E5%9C%B0%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q6666374 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "罗地语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6666374 wdt:P220 "lbm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lbm> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "lodh1246" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lodh1246> ;
+	wdt:P305 "lbm" ;
+	wdt:P1627 "lbm" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P2341 wd:Q1184,
+		wd:Q22048,
+		wd:Q1356 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LBM> ;
+	wdt:P646 "/m/02hx218" ;
+	rdfs:label "Lodhi"@en ;
+	skos:prefLabel "Lodhi"@en ;
+	schema:name "Lodhi"@en ;
+	rdfs:label "Lenga lodhi"@pms ;
+	skos:prefLabel "Lenga lodhi"@pms ;
+	schema:name "Lenga lodhi"@pms ;
+	rdfs:label "Kilodhi"@sw ;
+	skos:prefLabel "Kilodhi"@sw ;
+	schema:name "Kilodhi"@sw ;
+	rdfs:label "Lodhi"@en-gb ;
+	skos:prefLabel "Lodhi"@en-gb ;
+	schema:name "Lodhi"@en-gb ;
+	rdfs:label "Lodhi"@ilo ;
+	skos:prefLabel "Lodhi"@ilo ;
+	schema:name "Lodhi"@ilo ;
+	rdfs:label "ਲੋਧੀ"@pa ;
+	skos:prefLabel "ਲੋਧੀ"@pa ;
+	schema:name "ਲੋਧੀ"@pa ;
+	rdfs:label "ᱞᱳᱫᱷᱤ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	skos:prefLabel "ᱞᱳᱫᱷᱤ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	schema:name "ᱞᱳᱫᱷᱤ ᱯᱟᱹᱨᱥᱤ"@sat ;
+	rdfs:label "罗地语"@zh ;
+	skos:prefLabel "罗地语"@zh ;
+	schema:name "罗地语"@zh ;
+	rdfs:label "lodhi"@hi ;
+	skos:prefLabel "lodhi"@hi ;
+	schema:name "lodhi"@hi ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ভারতের ভাষা"@bn,
+		"ਭਾਸ਼ਾ"@pa ;
+	skos:altLabel "Lodhi language"@en,
+		"ਲੋਧੀ ਭਾਸ਼ਾ"@pa .

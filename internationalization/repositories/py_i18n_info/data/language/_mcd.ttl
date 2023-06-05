@@ -1,0 +1,101 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953881 a schema:Dataset ;
+	schema:about wd:Q12953881 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1616013009"^^xsd:integer ;
+	schema:dateModified "2022-04-10T14:08:17Z"^^xsd:dateTime .
+
+wd:Q12953881 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Sharanahua> a schema:Article ;
+	schema:about wd:Q12953881 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Sharanahua"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_sharanahua> a schema:Article ;
+	schema:about wd:Q12953881 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga sharanahua"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953881 wdt:P31 wd:Q33384,
+		wd:Q9614,
+		wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "mcd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mcd> ;
+	wdt:P279 wd:Q12645357 ;
+	wdt:P2355 "750" ;
+	wdt:P1394 "shar1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/shar1245> ;
+	wdt:P1466 "shh" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_shh> ;
+	wdt:P305 "mcd" ;
+	wdt:P1627 "mcd" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q419 ;
+	wdt:P2341 wd:Q210896,
+		wd:Q207424 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/MCD> ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P910 wd:Q105714736 ;
+	wdt:P2671 "/g/11csrgpqyq" ;
+	wdtn:P2671 <http://g.co/kg/g/11csrgpqyq> ;
+	rdfs:label "Lenga sharanahua"@pms ;
+	skos:prefLabel "Lenga sharanahua"@pms ;
+	schema:name "Lenga sharanahua"@pms ;
+	rdfs:label "Sharanahua"@en ;
+	skos:prefLabel "Sharanahua"@en ;
+	schema:name "Sharanahua"@en ;
+	rdfs:label "Sharanahua"@en-gb ;
+	skos:prefLabel "Sharanahua"@en-gb ;
+	schema:name "Sharanahua"@en-gb ;
+	rdfs:label "sharanahua"@fr ;
+	skos:prefLabel "sharanahua"@fr ;
+	schema:name "sharanahua"@fr ;
+	rdfs:label "sharanahua"@ca ;
+	skos:prefLabel "sharanahua"@ca ;
+	schema:name "sharanahua"@ca ;
+	rdfs:label "sharanahua"@es ;
+	skos:prefLabel "sharanahua"@es ;
+	schema:name "sharanahua"@es ;
+	schema:description "langue panoane"@fr ;
+	skos:altLabel "Sharanahua language"@en .
+
+wd:Q29042600 owl:sameAs wd:Q12953881 .

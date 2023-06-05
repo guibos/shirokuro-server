@@ -1,0 +1,125 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q17006600 a schema:Dataset ;
+	schema:about wd:Q17006600 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1759906073"^^xsd:integer ;
+	schema:dateModified "2022-10-28T14:11:22Z"^^xsd:dateTime .
+
+wd:Q17006600 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Old_Burmese> a schema:Article ;
+	schema:about wd:Q17006600 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Old Burmese"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://my.wikipedia.org/wiki/%E1%80%9B%E1%80%BE%E1%80%B1%E1%80%B8%E1%80%9F%E1%80%B1%E1%80%AC%E1%80%84%E1%80%BA%E1%80%B8%E1%80%99%E1%80%BC%E1%80%94%E1%80%BA%E1%80%99%E1%80%AC%E1%80%98%E1%80%AC%E1%80%9E%E1%80%AC%E1%80%85%E1%80%80%E1%80%AC%E1%80%B8> a schema:Article ;
+	schema:about wd:Q17006600 ;
+	schema:inLanguage "my" ;
+	schema:isPartOf <https://my.wikipedia.org/> ;
+	schema:name "ရှေးဟောင်းမြန်မာဘာသာစကား"@my .
+
+<https://my.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Ancien_birman> a schema:Article ;
+	schema:about wd:Q17006600 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Ancien birman"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Altbirmanisch> a schema:Article ;
+	schema:about wd:Q17006600 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Altbirmanisch"@de ;
+	wikibase:badge wd:Q70894304 .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q17006600 wdt:P31 wd:Q45762,
+		wd:Q2315359 ;
+	wdt:P1394 "oldb1235" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/oldb1235> ;
+	wdt:P156 wd:Q17006588 ;
+	wdt:P220 "obr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/obr> ;
+	wdt:P1232 "obr" ;
+	wdt:P2341 wd:Q29317 ;
+	wdt:P279 wd:Q865713 ;
+	wdt:P361 wd:Q45961,
+		wd:Q1635712 ;
+	wdt:P282 wd:Q854968 ;
+	wdt:P305 "obr" ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Myazedi-Inscription-Burmese-cropped.png> ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/OBR> ;
+	wdt:P646 "/m/05sx6l3" ;
+	wdt:P910 wd:Q105714200 ;
+	rdfs:label "Old Burmese"@en ;
+	skos:prefLabel "Old Burmese"@en ;
+	schema:name "Old Burmese"@en ;
+	rdfs:label "古ビルマ語"@ja ;
+	skos:prefLabel "古ビルマ語"@ja ;
+	schema:name "古ビルマ語"@ja ;
+	rdfs:label "ancien birman"@fr ;
+	skos:prefLabel "ancien birman"@fr ;
+	schema:name "ancien birman"@fr ;
+	rdfs:label "birmano antiguo"@es ;
+	skos:prefLabel "birmano antiguo"@es ;
+	schema:name "birmano antiguo"@es ;
+	rdfs:label "ရှေးဟောင်းမြန်မာဘာသာစကား"@my ;
+	skos:prefLabel "ရှေးဟောင်းမြန်မာဘာသာစကား"@my ;
+	schema:name "ရှေးဟောင်းမြန်မာဘာသာစကား"@my ;
+	rdfs:label "古缅语"@zh ;
+	skos:prefLabel "古缅语"@zh ;
+	schema:name "古缅语"@zh ;
+	rdfs:label "Altbirmanisch"@de ;
+	skos:prefLabel "Altbirmanisch"@de ;
+	schema:name "Altbirmanisch"@de ;
+	schema:description "forme du birman parlée entre les 12e et 16e siècles"@fr,
+		"early form of the Burmese language"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"taal"@nl,
+		"iaith"@cy,
+		"lingua"@la,
+		"မြန်မာဘာသာစကား၏အစောဆုံးသောပုံစံ"@my ;
+	skos:altLabel "vieux birman"@fr,
+		"antiguo birmano"@es,
+		"ရှေးခေတ်မြန်မာဘာသာစကား"@my .

@@ -1,0 +1,164 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3441672 a schema:Dataset ;
+	schema:about wd:Q3441672 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960503301"^^xsd:integer ;
+	schema:dateModified "2023-08-24T22:13:34Z"^^xsd:dateTime .
+
+wd:Q3441672 a wikibase:Item .
+
+<https://id.wikipedia.org/wiki/Bahasa_Sentani> a schema:Article ;
+	schema:about wd:Q3441672 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Sentani"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Sentani_language> a schema:Article ;
+	schema:about wd:Q3441672 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Sentani language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Sentani_jezik> a schema:Article ;
+	schema:about wd:Q3441672 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Sentani jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Sentani> a schema:Article ;
+	schema:about wd:Q3441672 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Sentani"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%BD%D1%82%D0%B0%D0%BD%D0%B8> a schema:Article ;
+	schema:about wd:Q3441672 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Сентани"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kisentani> a schema:Article ;
+	schema:about wd:Q3441672 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisentani"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Sentani> a schema:Article ;
+	schema:about wd:Q3441672 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Sentani"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_sentani> a schema:Article ;
+	schema:about wd:Q3441672 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język sentani"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3441672 wdt:P220 "set" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/set> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0dfb2q" ;
+	wdt:P1394 "nucl1632" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nucl1632> ;
+	wdt:P1466 "snt" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_snt> ;
+	wdt:P279 wd:Q17044584 ;
+	wdt:P910 wd:Q33077069 ;
+	wdt:P305 "set" ;
+	wdt:P1627 "set" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q252 ;
+	rdfs:label "Bahasa Sentani"@id ;
+	skos:prefLabel "Bahasa Sentani"@id ;
+	schema:name "Bahasa Sentani"@id ;
+	rdfs:label "język sentani"@pl ;
+	skos:prefLabel "język sentani"@pl ;
+	schema:name "język sentani"@pl ;
+	rdfs:label "Sentani"@en ;
+	skos:prefLabel "Sentani"@en ;
+	schema:name "Sentani"@en ;
+	rdfs:label "Sentani jezik"@hr ;
+	skos:prefLabel "Sentani jezik"@hr ;
+	schema:name "Sentani jezik"@hr ;
+	rdfs:label "Lenga Sentani"@pms ;
+	skos:prefLabel "Lenga Sentani"@pms ;
+	schema:name "Lenga Sentani"@pms ;
+	rdfs:label "Сентани"@ru ;
+	skos:prefLabel "Сентани"@ru ;
+	schema:name "Сентани"@ru ;
+	rdfs:label "Kisentani"@sw ;
+	skos:prefLabel "Kisentani"@sw ;
+	schema:name "Kisentani"@sw ;
+	rdfs:label "Sentani"@ilo ;
+	skos:prefLabel "Sentani"@ilo ;
+	schema:name "Sentani"@ilo ;
+	rdfs:label "Sentani"@en-gb ;
+	skos:prefLabel "Sentani"@en-gb ;
+	schema:name "Sentani"@en-gb ;
+	rdfs:label "sentani"@fr ;
+	skos:prefLabel "sentani"@fr ;
+	schema:name "sentani"@fr ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"pagsasao idiay Indonesia"@ilo,
+		"langue sentani"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"Язык"@ru,
+		"bagian dari rumpun bahasa Papua"@id,
+		"język papuaski"@pl ;
+	skos:altLabel "Sentani language"@en .

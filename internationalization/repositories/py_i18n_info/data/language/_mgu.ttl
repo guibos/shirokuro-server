@@ -1,0 +1,136 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3278246 a schema:Dataset ;
+	schema:about wd:Q3278246 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1556056090"^^xsd:integer ;
+	schema:dateModified "2022-01-04T15:48:04Z"^^xsd:dateTime .
+
+wd:Q3278246 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Mailu> a schema:Article ;
+	schema:about wd:Q3278246 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Mailu"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Mailu_language> a schema:Article ;
+	schema:about wd:Q3278246 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Mailu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Mailu> a schema:Article ;
+	schema:about wd:Q3278246 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Mailu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kimailu> a schema:Article ;
+	schema:about wd:Q3278246 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kimailu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Mailu> a schema:Article ;
+	schema:about wd:Q3278246 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Mailu"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3278246 wdt:P305 "mgu" ;
+	wdt:P220 "mgu" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/mgu> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "mail1248" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/mail1248> ;
+	wdt:P1466 "mgi" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_mgi> ;
+	wdt:P910 wd:Q33669959 ;
+	wdt:P279 wd:Q6735839 ;
+	wdt:P1627 "mgu" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q874942,
+		wd:Q874962 ;
+	wdt:P646 "/m/0df9gc" ;
+	rdfs:label "mailu"@fr ;
+	skos:prefLabel "mailu"@fr ;
+	schema:name "mailu"@fr ;
+	rdfs:label "Mailu"@en ;
+	skos:prefLabel "Mailu"@en ;
+	schema:name "Mailu"@en ;
+	rdfs:label "Lenga Mailu"@pms ;
+	skos:prefLabel "Lenga Mailu"@pms ;
+	schema:name "Lenga Mailu"@pms ;
+	rdfs:label "Kimailu"@sw ;
+	skos:prefLabel "Kimailu"@sw ;
+	schema:name "Kimailu"@sw ;
+	rdfs:label "Mailu"@ilo ;
+	skos:prefLabel "Mailu"@ilo ;
+	schema:name "Mailu"@ilo ;
+	rdfs:label "Mailu"@en-gb ;
+	skos:prefLabel "Mailu"@en-gb ;
+	schema:name "Mailu"@en-gb ;
+	rdfs:label "Język magi"@pl ;
+	skos:prefLabel "Język magi"@pl ;
+	schema:name "Język magi"@pl ;
+	rdfs:label "邁魯"@zh ;
+	skos:prefLabel "邁魯"@zh ;
+	schema:name "邁魯"@zh ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"language of Papua New Guinea"@en,
+		"langue mailuane"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Magi"@fr,
+		"Mailu language"@en .
+
+wd:Q11732394 owl:sameAs wd:Q3278246 .

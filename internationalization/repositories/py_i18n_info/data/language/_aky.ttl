@@ -1,0 +1,178 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3436784 a schema:Dataset ;
+	schema:about wd:Q3436784 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1909491658"^^xsd:integer ;
+	schema:dateModified "2023-06-06T10:53:44Z"^^xsd:dateTime .
+
+wd:Q3436784 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_aka-kol> a schema:Article ;
+	schema:about wd:Q3436784 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga aka-kol"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Aka-Kol_language> a schema:Article ;
+	schema:about wd:Q3436784 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Aka-Kol language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Aka-Kol_jezik> a schema:Article ;
+	schema:about wd:Q3436784 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Aka-Kol jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lmo.wikipedia.org/wiki/L%C3%A8ngua_Aka-Kol> a schema:Article ;
+	schema:about wd:Q3436784 ;
+	schema:inLanguage "lmo" ;
+	schema:isPartOf <https://lmo.wikipedia.org/> ;
+	schema:name "Lèngua Aka-Kol"@lmo .
+
+<https://lmo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Kol> a schema:Article ;
+	schema:about wd:Q3436784 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Kol"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Llengua_kol> a schema:Article ;
+	schema:about wd:Q3436784 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Llengua kol"@ca ;
+	wikibase:badge wd:Q70893996 .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_kol_(Islas_Andam%C3%A1n)> a schema:Article ;
+	schema:about wd:Q3436784 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma kol (Islas Andamán)"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiaka-Kol> a schema:Article ;
+	schema:about wd:Q3436784 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiaka-Kol"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3436784 wdt:P220 "aky" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/aky> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P279 wd:Q3515103 ;
+	wdt:P1394 "akak1253" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/akak1253> ;
+	wdt:P4132 wd:Q171263 ;
+	wdt:P305 "aky" ;
+	wdt:P1627 "aky" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P17 wd:Q668 ;
+	wdt:P646 "/m/0411ykn" ;
+	rdfs:label "Lenga aka-kol"@pms ;
+	skos:prefLabel "Lenga aka-kol"@pms ;
+	schema:name "Lenga aka-kol"@pms ;
+	rdfs:label "Aka-Kol"@en ;
+	skos:prefLabel "Aka-Kol"@en ;
+	schema:name "Aka-Kol"@en ;
+	rdfs:label "Aka-Kol jezik"@hr ;
+	skos:prefLabel "Aka-Kol jezik"@hr ;
+	schema:name "Aka-Kol jezik"@hr ;
+	rdfs:label "Lèngua Aka-Kol"@lmo ;
+	skos:prefLabel "Lèngua Aka-Kol"@lmo ;
+	schema:name "Lèngua Aka-Kol"@lmo ;
+	rdfs:label "Kol"@fi ;
+	skos:prefLabel "Kol"@fi ;
+	schema:name "Kol"@fi ;
+	rdfs:label "Idioma kol"@es ;
+	skos:prefLabel "Idioma kol"@es ;
+	schema:name "Idioma kol"@es ;
+	rdfs:label "aka-kol"@ca ;
+	skos:prefLabel "aka-kol"@ca ;
+	schema:name "aka-kol"@ca ;
+	rdfs:label "Kiaka-Kol"@sw ;
+	skos:prefLabel "Kiaka-Kol"@sw ;
+	schema:name "Kiaka-Kol"@sw ;
+	rdfs:label "Aka-Kol"@en-gb ;
+	skos:prefLabel "Aka-Kol"@en-gb ;
+	schema:name "Aka-Kol"@en-gb ;
+	rdfs:label "Język aka-kol"@pl ;
+	skos:prefLabel "Język aka-kol"@pl ;
+	schema:name "Język aka-kol"@pl ;
+	rdfs:label "ਏਕਾ-ਕੋਲ"@pa ;
+	skos:prefLabel "ਏਕਾ-ਕੋਲ"@pa ;
+	schema:name "ਏਕਾ-ਕੋਲ"@pa ;
+	rdfs:label "koli keel"@et ;
+	skos:prefLabel "koli keel"@et ;
+	schema:name "koli keel"@et ;
+	rdfs:label "אקה־קול"@he ;
+	skos:prefLabel "אקה־קול"@he ;
+	schema:name "אקה־קול"@he ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua extinguida de las islas Andamán"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"ভারতীয় ভাষা"@bn ;
+	skos:altLabel "Aka-Kol"@lmo,
+		"Kol"@lmo,
+		"Aka-Kol language"@en,
+		"ਆਕਾ-ਕੋਲ ਭਾਸ਼ਾ"@pa,
+		"aka-koli keel"@et .
+
+wd:Q11732018 owl:sameAs wd:Q3436784 .
+
+wd:Q5908652 owl:sameAs wd:Q3436784 .

@@ -1,0 +1,192 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q20829 a schema:Dataset ;
+	schema:about wd:Q20829 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1550204588"^^xsd:integer ;
+	schema:dateModified "2021-12-25T23:30:47Z"^^xsd:dateTime .
+
+wd:Q20829 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Tsetsaut> a schema:Article ;
+	schema:about wd:Q20829 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Tsetsaut"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_tsetsaut> a schema:Article ;
+	schema:about wd:Q20829 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga tsetsaut"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Tsetsaut_spriak> a schema:Article ;
+	schema:about wd:Q20829 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Tsetsaut spriak"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_tsetsaut> a schema:Article ;
+	schema:about wd:Q20829 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma tsetsaut"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Tsetsaut_language> a schema:Article ;
+	schema:about wd:Q20829 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Tsetsaut language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_tsetsaut> a schema:Article ;
+	schema:about wd:Q20829 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma tsetsaut"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Tsetsaut%C3%A7a> a schema:Article ;
+	schema:about wd:Q20829 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Tsetsautça"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Tsetsaut_(langue)> a schema:Article ;
+	schema:about wd:Q20829 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Tsetsaut (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Tsetsaut> a schema:Article ;
+	schema:about wd:Q20829 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Tsetsaut"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q20829 wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P220 "txc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/txc> ;
+	wdt:P1394 "tset1236" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tset1236> ;
+	wdt:P2355 "2400" ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P305 "txc" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TXC> ;
+	wdt:P279 wd:Q20738 ;
+	wdt:P646 "/m/0bdkvc" ;
+	rdfs:label "Lenga tsetsaut"@pms ;
+	skos:prefLabel "Lenga tsetsaut"@pms ;
+	schema:name "Lenga tsetsaut"@pms ;
+	rdfs:label "Tsetsaut"@de ;
+	skos:prefLabel "Tsetsaut"@de ;
+	schema:name "Tsetsaut"@de ;
+	rdfs:label "Tsetsaut"@en ;
+	skos:prefLabel "Tsetsaut"@en ;
+	schema:name "Tsetsaut"@en ;
+	rdfs:label "Tsetsautça"@tr ;
+	skos:prefLabel "Tsetsautça"@tr ;
+	schema:name "Tsetsautça"@tr ;
+	rdfs:label "Tsetsault"@nds ;
+	skos:prefLabel "Tsetsault"@nds ;
+	schema:name "Tsetsault"@nds ;
+	rdfs:label "Tsetsaut spriak"@frr ;
+	skos:prefLabel "Tsetsaut spriak"@frr ;
+	schema:name "Tsetsaut spriak"@frr ;
+	rdfs:label "Tsetsaut"@en-ca ;
+	skos:prefLabel "Tsetsaut"@en-ca ;
+	schema:name "Tsetsaut"@en-ca ;
+	rdfs:label "Tsetsaut"@en-gb ;
+	skos:prefLabel "Tsetsaut"@en-gb ;
+	schema:name "Tsetsaut"@en-gb ;
+	rdfs:label "tsetsaut"@es ;
+	skos:prefLabel "tsetsaut"@es ;
+	schema:name "tsetsaut"@es ;
+	rdfs:label "tsetsaut"@fr ;
+	skos:prefLabel "tsetsaut"@fr ;
+	schema:name "tsetsaut"@fr ;
+	rdfs:label "tsetsaut"@ca ;
+	skos:prefLabel "tsetsaut"@ca ;
+	schema:name "tsetsaut"@ca ;
+	rdfs:label "Tsetsaut"@oc ;
+	skos:prefLabel "Tsetsaut"@oc ;
+	schema:name "Tsetsaut"@oc ;
+	rdfs:label "lingua tsetsaut"@it ;
+	skos:prefLabel "lingua tsetsaut"@it ;
+	schema:name "lingua tsetsaut"@it ;
+	rdfs:label "tsetsauti keel"@et ;
+	skos:prefLabel "tsetsauti keel"@et ;
+	schema:name "tsetsauti keel"@et ;
+	rdfs:label "Idioma tsetsaut"@ast ;
+	skos:prefLabel "Idioma tsetsaut"@ast ;
+	schema:name "Idioma tsetsaut"@ast ;
+	rdfs:label "Tsetsaut"@nb ;
+	skos:prefLabel "Tsetsaut"@nb ;
+	schema:name "Tsetsaut"@nb ;
+	rdfs:label "tsetsaut"@vec ;
+	skos:prefLabel "tsetsaut"@vec ;
+	schema:name "tsetsaut"@vec ;
+	schema:description "extinct Athabascan language"@en,
+		"lengua atabascana septentrional extinta"@es,
+		"ausgestorbene athapaskische Sprache"@de,
+		"lingua nativo americana"@it,
+		"שפה"@he,
+		"väljasurnud keel"@et,
+		"yezh"@br,
+		"langue"@fr,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "T'set'sa'ut"@de,
+		"Jits'aawit"@de,
+		"ISO 639:txc"@en,
+		"Tsetsaut language"@en,
+		"idioma tsetsaut"@es .

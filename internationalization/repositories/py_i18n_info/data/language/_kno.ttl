@@ -1,0 +1,185 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35675 a schema:Dataset ;
+	schema:about wd:Q35675 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1888925802"^^xsd:integer ;
+	schema:dateModified "2023-05-04T12:03:29Z"^^xsd:dateTime .
+
+wd:Q35675 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Kono_(langue_de_Sierra_Leone)> a schema:Article ;
+	schema:about wd:Q35675 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kono (langue de Sierra Leone)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kono,_Sierra_Leon> a schema:Article ;
+	schema:about wd:Q35675 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kono, Sierra Leon"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikono_(Sierra_Leone)> a schema:Article ;
+	schema:about wd:Q35675 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikono (Sierra Leone)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kono_language_(Sierra_Leone)> a schema:Article ;
+	schema:about wd:Q35675 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kono language (Sierra Leone)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Kono_(Sprache)> a schema:Article ;
+	schema:about wd:Q35675 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Kono (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Kono> a schema:Article ;
+	schema:about wd:Q35675 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Kono"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Konon_kieli> a schema:Article ;
+	schema:about wd:Q35675 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Konon kieli"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Kono_(Sierra_Leone)> a schema:Article ;
+	schema:about wd:Q35675 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Kono (Sierra Leone)"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35675 wdt:P220 "kno" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kno> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0brdnr" ;
+	wdt:P305 "kno" ;
+	wdt:P279 wd:Q16113831 ;
+	wdt:P1394 "kono1268" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kono1268> ;
+	wdt:P3417 "KONO" ;
+	wdt:P910 wd:Q36159340 ;
+	wdt:P1627 "kno" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q1044 ;
+	wdt:P2341 wd:Q1050497,
+		wd:Q912359 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KNO> ;
+	rdfs:label "Kikono"@sw ;
+	skos:prefLabel "Kikono"@sw ;
+	schema:name "Kikono"@sw ;
+	rdfs:label "Kono"@de ;
+	skos:prefLabel "Kono"@de ;
+	schema:name "Kono"@de ;
+	rdfs:label "Lenga Kono, Sierra Leon"@pms ;
+	skos:prefLabel "Lenga Kono, Sierra Leon"@pms ;
+	schema:name "Lenga Kono, Sierra Leon"@pms ;
+	rdfs:label "kono"@fr ;
+	skos:prefLabel "kono"@fr ;
+	schema:name "kono"@fr ;
+	rdfs:label "Коно"@ru ;
+	skos:prefLabel "Коно"@ru ;
+	schema:name "Коно"@ru ;
+	rdfs:label "Kono"@en ;
+	skos:prefLabel "Kono"@en ;
+	schema:name "Kono"@en ;
+	rdfs:label "Коно"@uk ;
+	skos:prefLabel "Коно"@uk ;
+	schema:name "Коно"@uk ;
+	rdfs:label "kono"@es ;
+	skos:prefLabel "kono"@es ;
+	schema:name "kono"@es ;
+	rdfs:label "kono keel"@et ;
+	skos:prefLabel "kono keel"@et ;
+	schema:name "kono keel"@et ;
+	rdfs:label "コノ語"@ja ;
+	skos:prefLabel "コノ語"@ja ;
+	schema:name "コノ語"@ja ;
+	rdfs:label "Kono"@oc ;
+	skos:prefLabel "Kono"@oc ;
+	schema:name "Kono"@oc ;
+	rdfs:label "kono"@fi ;
+	skos:prefLabel "kono"@fi ;
+	schema:name "kono"@fi ;
+	rdfs:label "ခဝ်နဝ်"@mnw ;
+	skos:prefLabel "ခဝ်နဝ်"@mnw ;
+	schema:name "ခဝ်နဝ်"@mnw ;
+	rdfs:label "Kono"@ig ;
+	skos:prefLabel "Kono"@ig ;
+	schema:name "Kono"@ig ;
+	schema:description "lengua humana."@es,
+		"Sprache, die in Sierra Leone vom Volk der Kono gesprochen wird"@de,
+		"language spoken in Sierra Leone by the Kono people"@en,
+		"langue mandée parlée en Sierra Leone"@fr,
+		"язык одноимённого народа в Сьерра-Леоне"@ru,
+		"שפה"@he,
+		"Sierra Leones räägitav mande keelte Mandingo rühma kuuluv keel"@et,
+		"yezh"@br,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"အရေဝ်ဘာသာမဟီုဂးနကဵုဂကူခဝ်နဝ်ပ္ဍဲဍုၚ်သဲယျာရာလဳယျေန်နဳ"@mnw,
+		"asụsụ ndị Kono na-asụ na Sierra Leone"@ig ;
+	skos:altLabel "Kɔnɔ"@de,
+		"Kono (Sierra Leone)"@en,
+		"Kono language"@en,
+		"konon kieli"@fi,
+		"ဘာသာခဝ်နဝ် (သဲယျာရာ လဳယျေန်နဳ)"@mnw,
+		"ဘာသာခဝ်နဝ်"@mnw,
+		"Kono (Sierra Leone)"@ig,
+		"Kono language"@ig .

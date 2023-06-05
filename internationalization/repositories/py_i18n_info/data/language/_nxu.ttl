@@ -1,0 +1,140 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6965452 a schema:Dataset ;
+	schema:about wd:Q6965452 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1835615503"^^xsd:integer ;
+	schema:dateModified "2023-02-17T09:41:48Z"^^xsd:dateTime .
+
+wd:Q6965452 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Narau_language> a schema:Article ;
+	schema:about wd:Q6965452 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Narau language"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Narau> a schema:Article ;
+	schema:about wd:Q6965452 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Narau"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Narau> a schema:Article ;
+	schema:about wd:Q6965452 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Narau"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinarau> a schema:Article ;
+	schema:about wd:Q6965452 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinarau"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Narau_jezik> a schema:Article ;
+	schema:about wd:Q6965452 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Narau jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6965452 wdt:P220 "nxu" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/nxu> ;
+	wdt:P31 wd:Q34770,
+		wd:Q38058796 ;
+	wdt:P279 wd:Q12634336 ;
+	wdt:P2590 "1084 4" ;
+	wdt:P1705 "bahasa Narau"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P2355 "2558" ;
+	wdt:P1394 "nara1265" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nara1265> ;
+	wdt:P910 wd:Q36163085 ;
+	wdt:P1999 wd:Q20672089 ;
+	wdt:P2192 "2721" ;
+	wdt:P305 "nxu" ;
+	wdt:P1627 "nxu" ;
+	wdt:P3823 wd:Q63671741 ;
+	wdt:P2671 "/g/11bcck4tht" ;
+	wdtn:P2671 <http://g.co/kg/g/11bcck4tht> ;
+	rdfs:label "Narau"@en ;
+	skos:prefLabel "Narau"@en ;
+	schema:name "Narau"@en ;
+	rdfs:label "Lenga Narau"@pms ;
+	skos:prefLabel "Lenga Narau"@pms ;
+	schema:name "Lenga Narau"@pms ;
+	rdfs:label "narau"@fr ;
+	skos:prefLabel "narau"@fr ;
+	schema:name "narau"@fr ;
+	rdfs:label "Kinarau"@sw ;
+	skos:prefLabel "Kinarau"@sw ;
+	schema:name "Kinarau"@sw ;
+	rdfs:label "Język narau"@pl ;
+	skos:prefLabel "Język narau"@pl ;
+	schema:name "Język narau"@pl ;
+	rdfs:label "Narau"@id ;
+	skos:prefLabel "Narau"@id ;
+	schema:name "Narau"@id ;
+	rdfs:label "Narau jezik"@hr ;
+	skos:prefLabel "Narau jezik"@hr ;
+	schema:name "Narau jezik"@hr ;
+	rdfs:label "Narau"@en-gb ;
+	skos:prefLabel "Narau"@en-gb ;
+	schema:name "Narau"@en-gb ;
+	schema:description "Sprache"@de,
+		"bahasa di Indonesia"@id,
+		"language in Indonesia"@en,
+		"שפה"@he,
+		"langue papoue parlée en Indonésie dans la province de Papouasie"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Narau language"@en .
+
+wd:Q11732504 owl:sameAs wd:Q6965452 .
+
+wd:Q12638080 owl:sameAs wd:Q6965452 .

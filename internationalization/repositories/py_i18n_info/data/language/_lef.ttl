@@ -1,0 +1,183 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q35585 a schema:Dataset ;
+	schema:about wd:Q35585 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1839332972"^^xsd:integer ;
+	schema:dateModified "2023-02-22T16:36:08Z"^^xsd:dateTime .
+
+wd:Q35585 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Lelemi> a schema:Article ;
+	schema:about wd:Q35585 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Lelemi"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Lelemi> a schema:Article ;
+	schema:about wd:Q35585 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Lelemi"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Lelemi> a schema:Article ;
+	schema:about wd:Q35585 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Lelemi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilelemi> a schema:Article ;
+	schema:about wd:Q35585 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilelemi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Lelemi_language> a schema:Article ;
+	schema:about wd:Q35585 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Lelemi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Lelemi_(Sprache)> a schema:Article ;
+	schema:about wd:Q35585 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Lelemi (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Lelemi_jezik> a schema:Article ;
+	schema:about wd:Q35585 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Lelemi jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Lelemi> a schema:Article ;
+	schema:about wd:Q35585 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Lelemi"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Asusu_Lelemi> a schema:Article ;
+	schema:about wd:Q35585 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asusu Lelemi"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q35585 wdt:P220 "lef" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/lef> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0h67sc7" ;
+	wdt:P1394 "lele1264" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lele1264> ;
+	wdt:P279 wd:Q12635405 ;
+	wdt:P1466 "llm" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_llm> ;
+	wdt:P910 wd:Q36161253 ;
+	wdt:P305 "lef" ;
+	wdt:P1627 "lef" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q117 ;
+	wdt:P2341 wd:Q712832 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/LEF> ;
+	rdfs:label "Kilelemi"@sw ;
+	skos:prefLabel "Kilelemi"@sw ;
+	schema:name "Kilelemi"@sw ;
+	rdfs:label "Lelemi"@de ;
+	skos:prefLabel "Lelemi"@de ;
+	schema:name "Lelemi"@de ;
+	rdfs:label "Lenga Lelemi"@pms ;
+	skos:prefLabel "Lenga Lelemi"@pms ;
+	schema:name "Lenga Lelemi"@pms ;
+	rdfs:label "Lelemi"@en ;
+	skos:prefLabel "Lelemi"@en ;
+	schema:name "Lelemi"@en ;
+	rdfs:label "Lelemi jezici"@hr ;
+	skos:prefLabel "Lelemi jezici"@hr ;
+	schema:name "Lelemi jezici"@hr ;
+	rdfs:label "lelemi"@es ;
+	skos:prefLabel "lelemi"@es ;
+	schema:name "lelemi"@es ;
+	rdfs:label "lelemi"@ca ;
+	skos:prefLabel "lelemi"@ca ;
+	schema:name "lelemi"@ca ;
+	rdfs:label "lelemi"@fr ;
+	skos:prefLabel "lelemi"@fr ;
+	schema:name "lelemi"@fr ;
+	rdfs:label "Lelemi"@en-gb ;
+	skos:prefLabel "Lelemi"@en-gb ;
+	schema:name "Lelemi"@en-gb ;
+	rdfs:label "Wikang Lelemi"@tl ;
+	skos:prefLabel "Wikang Lelemi"@tl ;
+	schema:name "Wikang Lelemi"@tl ;
+	rdfs:label "レレミ語"@ja ;
+	skos:prefLabel "レレミ語"@ja ;
+	schema:name "レレミ語"@ja ;
+	rdfs:label "Lelemi"@oc ;
+	skos:prefLabel "Lelemi"@oc ;
+	schema:name "Lelemi"@oc ;
+	schema:description "afrikanische Sprache"@de,
+		"idioma humano"@es,
+		"language"@en,
+		"שפה"@he,
+		"taal"@nl,
+		"langue kwa"@fr,
+		"yezh"@br,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Buem"@de,
+		"Lefana"@de,
+		"Lafana"@de,
+		"Lefana"@en,
+		"Lelemi language"@en,
+		"Lelemi jezik"@hr .
+
+wd:Q12635403 owl:sameAs wd:Q35585 .

@@ -1,0 +1,153 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7877677 a schema:Dataset ;
+	schema:about wd:Q7877677 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961114605"^^xsd:integer ;
+	schema:dateModified "2023-08-25T18:03:28Z"^^xsd:dateTime .
+
+wd:Q7877677 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Langue_des_signes_ougandaise> a schema:Article ;
+	schema:about wd:Q7877677 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Langue des signes ougandaise"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_dij_segn_ugand%C3%A8isa> a schema:Article ;
+	schema:about wd:Q7877677 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga dij segn ugandèisa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ugandan_Sign_Language> a schema:Article ;
+	schema:about wd:Q7877677 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ugandan Sign Language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://scn.wikipedia.org/wiki/Lingua_d%C3%AE_Signa_Uganna> a schema:Article ;
+	schema:about wd:Q7877677 ;
+	schema:inLanguage "scn" ;
+	schema:isPartOf <https://scn.wikipedia.org/> ;
+	schema:name "Lingua dî Signa Uganna"@scn .
+
+<https://scn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%A7%D8%B4%D8%A7%D8%B1%D9%87_%D8%A7%D9%88%DA%AF%D8%A7%D9%86%D8%AF%D8%A7%DB%8C%DB%8C> a schema:Article ;
+	schema:about wd:Q7877677 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان اشاره اوگاندایی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_de_sinais_de_Uganda> a schema:Article ;
+	schema:about wd:Q7877677 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua de sinais de Uganda"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7877677 wdt:P220 "ugn" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ugn> ;
+	wdt:P31 wd:Q34228,
+		wd:Q1288568 ;
+	wdt:P305 "ugn" ;
+	wdt:P1394 "ugan1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ugan1238> ;
+	wdt:P3417 "Ugandan-Sign-Language" ;
+	wdt:P1466 "ugs" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ugs> ;
+	wdt:P17 wd:Q1036 ;
+	wdt:P1627 "ugn" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P625 "Point(32.5 1)"^^geo:wktLiteral ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/UGN> ;
+	wdt:P646 "/m/02hx191" ;
+	wdt:P910 wd:Q105715263 ;
+	wdt:P1813 "USL"@en ;
+	rdfs:label "Ugandan Sign Language"@en ;
+	skos:prefLabel "Ugandan Sign Language"@en ;
+	schema:name "Ugandan Sign Language"@en ;
+	rdfs:label "langue des signes ougandaise"@fr ;
+	skos:prefLabel "langue des signes ougandaise"@fr ;
+	schema:name "langue des signes ougandaise"@fr ;
+	rdfs:label "Lenga dij segn ugandèisa"@pms ;
+	skos:prefLabel "Lenga dij segn ugandèisa"@pms ;
+	schema:name "Lenga dij segn ugandèisa"@pms ;
+	rdfs:label "Ugandese gebarentaal"@nl ;
+	skos:prefLabel "Ugandese gebarentaal"@nl ;
+	schema:name "Ugandese gebarentaal"@nl ;
+	rdfs:label "Lingua dî Signa Uganna"@scn ;
+	skos:prefLabel "Lingua dî Signa Uganna"@scn ;
+	schema:name "Lingua dî Signa Uganna"@scn ;
+	rdfs:label "uganda signolingvo"@eo ;
+	skos:prefLabel "uganda signolingvo"@eo ;
+	schema:name "uganda signolingvo"@eo ;
+	rdfs:label "Ugandan Sign Language"@en-gb ;
+	skos:prefLabel "Ugandan Sign Language"@en-gb ;
+	schema:name "Ugandan Sign Language"@en-gb ;
+	rdfs:label "Língua de Sinais do Uganda"@pt ;
+	skos:prefLabel "Língua de Sinais do Uganda"@pt ;
+	schema:name "Língua de Sinais do Uganda"@pt ;
+	rdfs:label "lingua de sinia ugandan"@lfn ;
+	skos:prefLabel "lingua de sinia ugandan"@lfn ;
+	schema:name "lingua de sinia ugandan"@lfn ;
+	rdfs:label "Ugandische Gebärdensprache"@de ;
+	skos:prefLabel "Ugandische Gebärdensprache"@de ;
+	schema:name "Ugandische Gebärdensprache"@de ;
+	rdfs:label "ウガンダ手話"@ja ;
+	skos:prefLabel "ウガンダ手話"@ja ;
+	schema:name "ウガンダ手話"@ja ;
+	rdfs:label "زبان اشاره اوگاندایی"@fa ;
+	skos:prefLabel "زبان اشاره اوگاندایی"@fa ;
+	schema:name "زبان اشاره اوگاندایی"@fa ;
+	rdfs:label "toki luka Ukanta"@tok ;
+	skos:prefLabel "toki luka Ukanta"@tok ;
+	schema:name "toki luka Ukanta"@tok ;
+	schema:description "زبان اشاره"@fa,
+		"deaf sign language of Uganda"@en,
+		"toki luka pi ma Ukanta"@tok ;
+	skos:altLabel "Língua Gestual do Uganda"@pt .
+
+wd:Q10322101 owl:sameAs wd:Q7877677 .
+
+wd:Q12953506 owl:sameAs wd:Q7877677 .

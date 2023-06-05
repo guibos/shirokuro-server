@@ -1,0 +1,162 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q11732326 a schema:Dataset ;
+	schema:about wd:Q11732326 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1904313370"^^xsd:integer ;
+	schema:dateModified "2023-05-29T04:11:19Z"^^xsd:dateTime .
+
+wd:Q11732326 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Kobon_language> a schema:Article ;
+	schema:about wd:Q11732326 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kobon language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%9F%AF%E6%9C%AC%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q11732326 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "柯本語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kobon> a schema:Article ;
+	schema:about wd:Q11732326 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kobon"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikobon> a schema:Article ;
+	schema:about wd:Q11732326 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikobon"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Kobon> a schema:Article ;
+	schema:about wd:Q11732326 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Kobon"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_kobon> a schema:Article ;
+	schema:about wd:Q11732326 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua kobon"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_kobon> a schema:Article ;
+	schema:about wd:Q11732326 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język kobon"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q11732326 wdt:P220 "kpw" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kpw> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kobo1249" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kobo1249> ;
+	wdt:P4132 wd:Q539808 ;
+	wdt:P1466 "kob" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_kob> ;
+	wdt:P305 "kpw" ;
+	wdt:P1627 "kpw" ;
+	wdt:P3823 wd:Q29051550 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q326254,
+		wd:Q849807,
+		wd:Q849790 ;
+	wdt:P646 "/m/05d460" ;
+	wdt:P910 wd:Q33658793 ;
+	rdfs:label "Kobon"@en ;
+	skos:prefLabel "Kobon"@en ;
+	schema:name "Kobon"@en ;
+	rdfs:label "Język kobon"@pl ;
+	skos:prefLabel "Język kobon"@pl ;
+	schema:name "Język kobon"@pl ;
+	rdfs:label "柯本語"@zh ;
+	skos:prefLabel "柯本語"@zh ;
+	schema:name "柯本語"@zh ;
+	rdfs:label "Lenga Kobon"@pms ;
+	skos:prefLabel "Lenga Kobon"@pms ;
+	schema:name "Lenga Kobon"@pms ;
+	rdfs:label "Kikobon"@sw ;
+	skos:prefLabel "Kikobon"@sw ;
+	schema:name "Kikobon"@sw ;
+	rdfs:label "Kobon"@ilo ;
+	skos:prefLabel "Kobon"@ilo ;
+	schema:name "Kobon"@ilo ;
+	rdfs:label "Kobon"@en-gb ;
+	skos:prefLabel "Kobon"@en-gb ;
+	schema:name "Kobon"@en-gb ;
+	rdfs:label "koboni keel"@et ;
+	skos:prefLabel "koboni keel"@et ;
+	schema:name "koboni keel"@et ;
+	rdfs:label "Tiếng Kobon"@vi ;
+	skos:prefLabel "Tiếng Kobon"@vi ;
+	schema:name "Tiếng Kobon"@vi ;
+	rdfs:label "Língua kobon"@pt ;
+	skos:prefLabel "Língua kobon"@pt ;
+	schema:name "Língua kobon"@pt ;
+	rdfs:label "コボン語"@ja ;
+	skos:prefLabel "コボン語"@ja ;
+	schema:name "コボン語"@ja ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"Paapua keel"@et,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Language of Papua New Guinea"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Kobon language"@en .
+
+wd:Q12952638 owl:sameAs wd:Q11732326 .

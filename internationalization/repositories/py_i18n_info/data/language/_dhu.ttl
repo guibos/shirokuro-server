@@ -1,0 +1,137 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q1285318 a schema:Dataset ;
+	schema:about wd:Q1285318 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1872055376"^^xsd:integer ;
+	schema:dateModified "2023-04-10T15:57:54Z"^^xsd:dateTime .
+
+wd:Q1285318 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_dhurga> a schema:Article ;
+	schema:about wd:Q1285318 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga dhurga"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Dhurga> a schema:Article ;
+	schema:about wd:Q1285318 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Dhurga"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kidhurga> a schema:Article ;
+	schema:about wd:Q1285318 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kidhurga"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Dhurga_language> a schema:Article ;
+	schema:about wd:Q1285318 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Dhurga language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_dhurga> a schema:Article ;
+	schema:about wd:Q1285318 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma dhurga"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q1285318 wdt:P220 "dhu" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/dhu> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "dhur1239" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/dhur1239> ;
+	wdt:P2355 "2075" ;
+	wdt:P1466 "dhu" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_dhu> ;
+	wdt:P1999 wd:Q20672090 ;
+	wdt:P1252 "S53" ;
+	wdt:P279 wd:Q3833021 ;
+	wdt:P910 wd:Q36155727 ;
+	wdt:P2192 "6659" ;
+	wdt:P305 "dhu" ;
+	wdt:P1627 "dhu" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3224 ;
+	wdt:P6915 "Dhurga" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/DHU> ;
+	wdt:P131 wd:Q3224 ;
+	wdt:P646 "/m/02hxrkq" ;
+	rdfs:label "Lenga dhurga"@pms ;
+	skos:prefLabel "Lenga dhurga"@pms ;
+	schema:name "Lenga dhurga"@pms ;
+	rdfs:label "Dhurga"@en ;
+	skos:prefLabel "Dhurga"@en ;
+	schema:name "Dhurga"@en ;
+	rdfs:label "Dhurga"@sv ;
+	skos:prefLabel "Dhurga"@sv ;
+	schema:name "Dhurga"@sv ;
+	rdfs:label "Dhurga"@en-gb ;
+	skos:prefLabel "Dhurga"@en-gb ;
+	schema:name "Dhurga"@en-gb ;
+	rdfs:label "Kidhurga"@sw ;
+	skos:prefLabel "Kidhurga"@sw ;
+	schema:name "Kidhurga"@sw ;
+	rdfs:label "dhurga"@fr ;
+	skos:prefLabel "dhurga"@fr ;
+	schema:name "dhurga"@fr ;
+	rdfs:label "Idioma dhurga"@es ;
+	skos:prefLabel "Idioma dhurga"@es ;
+	schema:name "Idioma dhurga"@es ;
+	schema:description "Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue pama-nyungan"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"utdött australiskt språk"@sv ;
+	skos:altLabel "Dhurga language"@en .

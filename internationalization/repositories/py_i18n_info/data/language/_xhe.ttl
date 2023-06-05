@@ -1,0 +1,172 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2614111 a schema:Dataset ;
+	schema:about wd:Q2614111 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961436046"^^xsd:integer ;
+	schema:dateModified "2023-08-26T03:25:55Z"^^xsd:dateTime .
+
+wd:Q2614111 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_khetrani> a schema:Article ;
+	schema:about wd:Q2614111 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga khetrani"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D1%85%D0%B5%D1%82%D1%80%D0%B0%D0%BD%D0%B8> a schema:Article ;
+	schema:about wd:Q2614111 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Кхетрани"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikhetrani> a schema:Article ;
+	schema:about wd:Q2614111 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikhetrani"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Khetrani_language> a schema:Article ;
+	schema:about wd:Q2614111 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Khetrani language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%DA%A9%DA%BE%DB%8C%D8%AA%D8%B1%D8%A7%D9%86%DB%8C_%D8%B2%D8%A8%D8%A7%D9%86> a schema:Article ;
+	schema:about wd:Q2614111 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "کھیترانی زبان"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://simple.wikipedia.org/wiki/Khetrani_language> a schema:Article ;
+	schema:about wd:Q2614111 ;
+	schema:inLanguage "en-simple" ;
+	schema:isPartOf <https://simple.wikipedia.org/> ;
+	schema:name "Khetrani language"@en-simple .
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Khetrani> a schema:Article ;
+	schema:about wd:Q2614111 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Khetrani"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%DA%A9%DA%BE%DB%8C%D8%AA%D8%B1%D8%A7%D9%86%DB%8C> a schema:Article ;
+	schema:about wd:Q2614111 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "کھیترانی"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2614111 wdt:P31 wd:Q34770,
+		wd:Q1288568,
+		wd:Q33384 ;
+	wdt:P220 "xhe" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xhe> ;
+	wdt:P279 wd:Q33902 ;
+	wdt:P1394 "khet1238" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/khet1238> ;
+	wdt:P282 wd:Q8196 ;
+	wdt:P17 wd:Q843 ;
+	wdt:P131 wd:Q181103 ;
+	wdt:P1098 "+4000"^^xsd:decimal ;
+	wdt:P305 "xhe" ;
+	wdt:P1627 "xhe" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P2341 wd:Q163239 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XHE> ;
+	wdt:P646 "/m/02hwwv6" ;
+	wdt:P910 wd:Q105714711 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/%DA%A9%DA%BE%DB%8C%D8%AA%D8%B1%D8%A7%D9%86%DB%8C.svg> ;
+	wdt:P4913 wd:Q33902 ;
+	wdt:P8703 "L.khet." ;
+	wdt:P244 "sh99013999" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh99013999> ;
+	wdt:P2163 "987161" ;
+	wdtn:P2163 <http://id.worldcat.org/fast/987161> ;
+	wdt:P8189 "987007558999505171" ;
+	rdfs:label "lingua Khetrani"@la ;
+	skos:prefLabel "lingua Khetrani"@la ;
+	schema:name "lingua Khetrani"@la ;
+	rdfs:label "Khetrani"@en ;
+	skos:prefLabel "Khetrani"@en ;
+	schema:name "Khetrani"@en ;
+	rdfs:label "Кхетрани"@ru ;
+	skos:prefLabel "Кхетрани"@ru ;
+	schema:name "Кхетрани"@ru ;
+	rdfs:label "کھیترانی"@pnb ;
+	skos:prefLabel "کھیترانی"@pnb ;
+	schema:name "کھیترانی"@pnb ;
+	rdfs:label "khetrani"@fr ;
+	skos:prefLabel "khetrani"@fr ;
+	schema:name "khetrani"@fr ;
+	rdfs:label "Lenga khetrani"@pms ;
+	skos:prefLabel "Lenga khetrani"@pms ;
+	schema:name "Lenga khetrani"@pms ;
+	rdfs:label "Kikhetrani"@sw ;
+	skos:prefLabel "Kikhetrani"@sw ;
+	schema:name "Kikhetrani"@sw ;
+	rdfs:label "Khetrani"@en-gb ;
+	skos:prefLabel "Khetrani"@en-gb ;
+	schema:name "Khetrani"@en-gb ;
+	rdfs:label "کھیترانی زبان"@ur ;
+	skos:prefLabel "کھیترانی زبان"@ur ;
+	schema:name "کھیترانی زبان"@ur ;
+	rdfs:label "赫特兰语"@zh ;
+	skos:prefLabel "赫特兰语"@zh ;
+	schema:name "赫特兰语"@zh ;
+	schema:description "langue parlée au Pakistan"@fr,
+		"indogermanische Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Khetrani language"@en .

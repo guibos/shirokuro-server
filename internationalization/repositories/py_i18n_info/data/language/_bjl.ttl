@@ -1,0 +1,158 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q4997162 a schema:Dataset ;
+	schema:about wd:Q4997162 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1761493242"^^xsd:integer ;
+	schema:dateModified "2022-10-31T02:22:38Z"^^xsd:dateTime .
+
+wd:Q4997162 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Bulu,_Papua> a schema:Article ;
+	schema:about wd:Q4997162 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Bulu, Papua"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Bulu_(Oceaniko)> a schema:Article ;
+	schema:about wd:Q4997162 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Bulu (Oceaniko)"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%91%D1%83%D0%BB%D1%83%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q4997162 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Булуански јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kibulu_(Papua)> a schema:Article ;
+	schema:about wd:Q4997162 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kibulu (Papua)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Bulu_language_(Oceanic)> a schema:Article ;
+	schema:about wd:Q4997162 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Bulu language (Oceanic)"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Bulu_(oceanijski_jezik)> a schema:Article ;
+	schema:about wd:Q4997162 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Bulu (oceanijski jezik)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/Bulu_language_(Oceanic)> a schema:Article ;
+	schema:about wd:Q4997162 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Bulu language (Oceanic)"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q4997162 wdt:P220 "bjl" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/bjl> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "bulu1253" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/bulu1253> ;
+	wdt:P2192 "3924" ;
+	wdt:P279 wd:Q3399025 ;
+	wdt:P305 "bjl" ;
+	wdt:P1627 "bjl" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q667468 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/BJL> ;
+	wdt:P646 "/m/02hxxkh" ;
+	rdfs:label "Bulu"@en ;
+	skos:prefLabel "Bulu"@en ;
+	schema:name "Bulu"@en ;
+	rdfs:label "Булуански јазик"@mk ;
+	skos:prefLabel "Булуански јазик"@mk ;
+	schema:name "Булуански јазик"@mk ;
+	rdfs:label "Bulu"@hr ;
+	skos:prefLabel "Bulu"@hr ;
+	schema:name "Bulu"@hr ;
+	rdfs:label "Lenga Bulu, Papua"@pms ;
+	skos:prefLabel "Lenga Bulu, Papua"@pms ;
+	schema:name "Lenga Bulu, Papua"@pms ;
+	rdfs:label "Kibulu"@sw ;
+	skos:prefLabel "Kibulu"@sw ;
+	schema:name "Kibulu"@sw ;
+	rdfs:label "ブル語"@ja ;
+	skos:prefLabel "ブル語"@ja ;
+	schema:name "ブル語"@ja ;
+	rdfs:label "Bulu"@ilo ;
+	skos:prefLabel "Bulu"@ilo ;
+	schema:name "Bulu"@ilo ;
+	rdfs:label "bulu"@fr ;
+	skos:prefLabel "bulu"@fr ;
+	schema:name "bulu"@fr ;
+	rdfs:label "Bulu"@de ;
+	skos:prefLabel "Bulu"@de ;
+	schema:name "Bulu"@de ;
+	rdfs:label "Bulu language (Oceanic)"@ig ;
+	skos:prefLabel "Bulu language (Oceanic)"@ig ;
+	schema:name "Bulu language (Oceanic)"@ig ;
+	schema:description "in Papua-Neuguinea gesprochene Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"language spoken in Papua New Guinea"@en,
+		"langue océanienne parlée en Papouasie-Nouvelle-Guinée"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"パプアニューギニアで話される言語"@ja,
+		"oceanijski jezik"@hr ;
+	skos:altLabel "Bulu (Papua New Guinea)"@en,
+		"Bulu language"@en .
+
+wd:Q50927254 owl:sameAs wd:Q4997162 .

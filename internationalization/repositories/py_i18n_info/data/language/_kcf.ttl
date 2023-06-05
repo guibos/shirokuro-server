@@ -1,0 +1,166 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36651 a schema:Dataset ;
+	schema:about wd:Q36651 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1916840471"^^xsd:integer ;
+	schema:dateModified "2023-06-16T21:01:16Z"^^xsd:dateTime .
+
+wd:Q36651 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Ukaan> a schema:Article ;
+	schema:about wd:Q36651 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Ukaan"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiukaan> a schema:Article ;
+	schema:about wd:Q36651 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiukaan"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ukaan_language> a schema:Article ;
+	schema:about wd:Q36651 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ukaan language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Oukaneg> a schema:Article ;
+	schema:about wd:Q36651 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Oukaneg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Ukaan> a schema:Article ;
+	schema:about wd:Q36651 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Ukaan"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Ukaan_(jezik)> a schema:Article ;
+	schema:about wd:Q36651 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Ukaan (jezik)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Ukaan> a schema:Article ;
+	schema:about wd:Q36651 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Ukaan"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_ukaan> a schema:Article ;
+	schema:about wd:Q36651 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma ukaan"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36651 wdt:P220 "kcf" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/kcf> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/05q4zgk" ;
+	wdt:P1394 "ukaa1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ukaa1243> ;
+	wdt:P305 "kcf" ;
+	wdt:P1627 "kcf" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q1033 ;
+	wdt:P2341 wd:Q682704,
+		wd:Q534917,
+		wd:Q509300,
+		wd:Q387745 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/KCF> ;
+	wdt:P1417 "topic/Ukaan-Akpes-languages" ;
+	rdfs:label "Kiukaan"@sw ;
+	skos:prefLabel "Kiukaan"@sw ;
+	schema:name "Kiukaan"@sw ;
+	rdfs:label "Lenga Ukaan"@pms ;
+	skos:prefLabel "Lenga Ukaan"@pms ;
+	schema:name "Lenga Ukaan"@pms ;
+	rdfs:label "Ukaan"@de ;
+	skos:prefLabel "Ukaan"@de ;
+	schema:name "Ukaan"@de ;
+	rdfs:label "oukaneg"@br ;
+	skos:prefLabel "oukaneg"@br ;
+	schema:name "oukaneg"@br ;
+	rdfs:label "Ukaan"@en ;
+	skos:prefLabel "Ukaan"@en ;
+	schema:name "Ukaan"@en ;
+	rdfs:label "Ukaan"@hr ;
+	skos:prefLabel "Ukaan"@hr ;
+	schema:name "Ukaan"@hr ;
+	rdfs:label "ウカーン語"@ja ;
+	skos:prefLabel "ウカーン語"@ja ;
+	schema:name "ウカーン語"@ja ;
+	rdfs:label "Ukaan"@en-gb ;
+	skos:prefLabel "Ukaan"@en-gb ;
+	schema:name "Ukaan"@en-gb ;
+	rdfs:label "Wikang Ukaan"@tl ;
+	skos:prefLabel "Wikang Ukaan"@tl ;
+	schema:name "Wikang Ukaan"@tl ;
+	rdfs:label "Ukaan"@oc ;
+	skos:prefLabel "Ukaan"@oc ;
+	schema:name "Ukaan"@oc ;
+	rdfs:label "Idioma ukaan"@es ;
+	skos:prefLabel "Idioma ukaan"@es ;
+	schema:name "Idioma ukaan"@es ;
+	schema:description "afrikanische Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"Wikang sinasalita sa Nigeria"@tl ;
+	skos:altLabel "Ukaan language"@en .

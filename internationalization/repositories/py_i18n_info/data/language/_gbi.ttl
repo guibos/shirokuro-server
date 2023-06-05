@@ -1,0 +1,403 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3094570 a schema:Dataset ;
+	schema:about wd:Q3094570 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1912067641"^^xsd:integer ;
+	schema:dateModified "2023-06-10T09:02:36Z"^^xsd:dateTime .
+
+wd:Q3094570 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Galela> a schema:Article ;
+	schema:about wd:Q3094570 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Galela"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Galela> a schema:Article ;
+	schema:about wd:Q3094570 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Galela"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Galela> a schema:Article ;
+	schema:about wd:Q3094570 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Galela"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D0%BB%D0%B5%D0%BB%D0%B0_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q3094570 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Галела (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_galela> a schema:Article ;
+	schema:about wd:Q3094570 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język galela"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigalela> a schema:Article ;
+	schema:about wd:Q3094570 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigalela"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Galela_language> a schema:Article ;
+	schema:about wd:Q3094570 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Galela language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Galeleg> a schema:Article ;
+	schema:about wd:Q3094570 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Galeleg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Galela> a schema:Article ;
+	schema:about wd:Q3094570 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Galela"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3094570 wdt:P220 "gbi" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/gbi> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0gl06v7" ;
+	wdt:P305 "gbi" ;
+	wdt:P1394 "gale1259" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gale1259> ;
+	wdt:P276 wd:Q24287192,
+		wd:Q24287209,
+		wd:Q24287218,
+		wd:Q24287221,
+		wd:Q24287223,
+		wd:Q24287227 ;
+	wdt:P2341 wd:Q24287236,
+		wd:Q5093,
+		wd:Q5094,
+		wd:Q24287245 ;
+	wdt:P2590 "0685 0" ;
+	wdt:P1705 "bahasa Galela"@id ;
+	wdt:P17 wd:Q252 ;
+	wdt:P282 wd:Q8229 ;
+	wdt:P1466 "gll" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_gll> ;
+	wdt:P279 wd:Q4412613 ;
+	wdt:P1627 "gbi" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/GBI> ;
+	wdt:P910 wd:Q33036115 ;
+	rdfs:label "galela"@fr ;
+	skos:prefLabel "galela"@fr ;
+	schema:name "galela"@fr ;
+	rdfs:label "Galela"@en ;
+	skos:prefLabel "Galela"@en ;
+	schema:name "Galela"@en ;
+	rdfs:label "Galela"@id ;
+	skos:prefLabel "Galela"@id ;
+	schema:name "Galela"@id ;
+	rdfs:label "galeleg"@br ;
+	skos:prefLabel "galeleg"@br ;
+	schema:name "galeleg"@br ;
+	rdfs:label "Galela"@sv ;
+	skos:prefLabel "Galela"@sv ;
+	schema:name "Galela"@sv ;
+	rdfs:label "Galela"@ceb ;
+	skos:prefLabel "Galela"@ceb ;
+	schema:name "Galela"@ceb ;
+	rdfs:label "Galela"@war ;
+	skos:prefLabel "Galela"@war ;
+	schema:name "Galela"@war ;
+	rdfs:label "Lenga Galela"@pms ;
+	skos:prefLabel "Lenga Galela"@pms ;
+	schema:name "Lenga Galela"@pms ;
+	rdfs:label "Galela"@de ;
+	skos:prefLabel "Galela"@de ;
+	schema:name "Galela"@de ;
+	rdfs:label "Галела"@ru ;
+	skos:prefLabel "Галела"@ru ;
+	schema:name "Галела"@ru ;
+	rdfs:label "galela"@it ;
+	skos:prefLabel "galela"@it ;
+	schema:name "galela"@it ;
+	rdfs:label "Galela"@es ;
+	skos:prefLabel "Galela"@es ;
+	schema:name "Galela"@es ;
+	rdfs:label "galela"@ca ;
+	skos:prefLabel "galela"@ca ;
+	schema:name "galela"@ca ;
+	rdfs:label "Galela"@ace ;
+	skos:prefLabel "Galela"@ace ;
+	schema:name "Galela"@ace ;
+	rdfs:label "Galela"@af ;
+	skos:prefLabel "Galela"@af ;
+	schema:name "Galela"@af ;
+	rdfs:label "Galela"@an ;
+	skos:prefLabel "Galela"@an ;
+	schema:name "Galela"@an ;
+	rdfs:label "Galela"@ast ;
+	skos:prefLabel "Galela"@ast ;
+	schema:name "Galela"@ast ;
+	rdfs:label "Galela"@bar ;
+	skos:prefLabel "Galela"@bar ;
+	schema:name "Galela"@bar ;
+	rdfs:label "Galela"@co ;
+	skos:prefLabel "Galela"@co ;
+	schema:name "Galela"@co ;
+	rdfs:label "Galela"@cs ;
+	skos:prefLabel "Galela"@cs ;
+	schema:name "Galela"@cs ;
+	rdfs:label "Galela"@cy ;
+	skos:prefLabel "Galela"@cy ;
+	schema:name "Galela"@cy ;
+	rdfs:label "Galela"@da ;
+	skos:prefLabel "Galela"@da ;
+	schema:name "Galela"@da ;
+	rdfs:label "Galela"@de-at ;
+	skos:prefLabel "Galela"@de-at ;
+	schema:name "Galela"@de-at ;
+	rdfs:label "Galela"@de-ch ;
+	skos:prefLabel "Galela"@de-ch ;
+	schema:name "Galela"@de-ch ;
+	rdfs:label "Galela"@en-ca ;
+	skos:prefLabel "Galela"@en-ca ;
+	schema:name "Galela"@en-ca ;
+	rdfs:label "Galela"@en-gb ;
+	skos:prefLabel "Galela"@en-gb ;
+	schema:name "Galela"@en-gb ;
+	rdfs:label "Galela"@eo ;
+	skos:prefLabel "Galela"@eo ;
+	schema:name "Galela"@eo ;
+	rdfs:label "Galela"@et ;
+	skos:prefLabel "Galela"@et ;
+	schema:name "Galela"@et ;
+	rdfs:label "Galela"@eu ;
+	skos:prefLabel "Galela"@eu ;
+	schema:name "Galela"@eu ;
+	rdfs:label "Galela"@fi ;
+	skos:prefLabel "Galela"@fi ;
+	schema:name "Galela"@fi ;
+	rdfs:label "Galela"@frp ;
+	skos:prefLabel "Galela"@frp ;
+	schema:name "Galela"@frp ;
+	rdfs:label "Galela"@fur ;
+	skos:prefLabel "Galela"@fur ;
+	schema:name "Galela"@fur ;
+	rdfs:label "Galela"@ga ;
+	skos:prefLabel "Galela"@ga ;
+	schema:name "Galela"@ga ;
+	rdfs:label "Galela"@gd ;
+	skos:prefLabel "Galela"@gd ;
+	schema:name "Galela"@gd ;
+	rdfs:label "Galela"@gl ;
+	skos:prefLabel "Galela"@gl ;
+	schema:name "Galela"@gl ;
+	rdfs:label "Galela"@gsw ;
+	skos:prefLabel "Galela"@gsw ;
+	schema:name "Galela"@gsw ;
+	rdfs:label "Galela"@hr ;
+	skos:prefLabel "Galela"@hr ;
+	schema:name "Galela"@hr ;
+	rdfs:label "Galela"@hu ;
+	skos:prefLabel "Galela"@hu ;
+	schema:name "Galela"@hu ;
+	rdfs:label "Galela"@ia ;
+	skos:prefLabel "Galela"@ia ;
+	schema:name "Galela"@ia ;
+	rdfs:label "Galela"@ie ;
+	skos:prefLabel "Galela"@ie ;
+	schema:name "Galela"@ie ;
+	rdfs:label "Galela"@io ;
+	skos:prefLabel "Galela"@io ;
+	schema:name "Galela"@io ;
+	rdfs:label "Galela"@is ;
+	skos:prefLabel "Galela"@is ;
+	schema:name "Galela"@is ;
+	rdfs:label "Galela"@jv ;
+	skos:prefLabel "Galela"@jv ;
+	schema:name "Galela"@jv ;
+	rdfs:label "Galela"@kg ;
+	skos:prefLabel "Galela"@kg ;
+	schema:name "Galela"@kg ;
+	rdfs:label "Galela"@lb ;
+	skos:prefLabel "Galela"@lb ;
+	schema:name "Galela"@lb ;
+	rdfs:label "Galela"@li ;
+	skos:prefLabel "Galela"@li ;
+	schema:name "Galela"@li ;
+	rdfs:label "Galela"@lij ;
+	skos:prefLabel "Galela"@lij ;
+	schema:name "Galela"@lij ;
+	rdfs:label "Galela"@mg ;
+	skos:prefLabel "Galela"@mg ;
+	schema:name "Galela"@mg ;
+	rdfs:label "Galela"@min ;
+	skos:prefLabel "Galela"@min ;
+	schema:name "Galela"@min ;
+	rdfs:label "Galela"@ms ;
+	skos:prefLabel "Galela"@ms ;
+	schema:name "Galela"@ms ;
+	rdfs:label "Galela"@nap ;
+	skos:prefLabel "Galela"@nap ;
+	schema:name "Galela"@nap ;
+	rdfs:label "Galela"@nb ;
+	skos:prefLabel "Galela"@nb ;
+	schema:name "Galela"@nb ;
+	rdfs:label "Galela"@nds ;
+	skos:prefLabel "Galela"@nds ;
+	schema:name "Galela"@nds ;
+	rdfs:label "Galela"@nds-nl ;
+	skos:prefLabel "Galela"@nds-nl ;
+	schema:name "Galela"@nds-nl ;
+	rdfs:label "Galela"@nl ;
+	skos:prefLabel "Galela"@nl ;
+	schema:name "Galela"@nl ;
+	rdfs:label "Galela"@nn ;
+	skos:prefLabel "Galela"@nn ;
+	schema:name "Galela"@nn ;
+	rdfs:label "Galela"@nrm ;
+	skos:prefLabel "Galela"@nrm ;
+	schema:name "Galela"@nrm ;
+	rdfs:label "Galela"@oc ;
+	skos:prefLabel "Galela"@oc ;
+	schema:name "Galela"@oc ;
+	rdfs:label "Galela"@pcd ;
+	skos:prefLabel "Galela"@pcd ;
+	schema:name "Galela"@pcd ;
+	rdfs:label "język galela"@pl ;
+	skos:prefLabel "język galela"@pl ;
+	schema:name "język galela"@pl ;
+	rdfs:label "Galela"@pt ;
+	skos:prefLabel "Galela"@pt ;
+	schema:name "Galela"@pt ;
+	rdfs:label "Galela"@pt-br ;
+	skos:prefLabel "Galela"@pt-br ;
+	schema:name "Galela"@pt-br ;
+	rdfs:label "Galela"@rm ;
+	skos:prefLabel "Galela"@rm ;
+	schema:name "Galela"@rm ;
+	rdfs:label "Galela"@ro ;
+	skos:prefLabel "Galela"@ro ;
+	schema:name "Galela"@ro ;
+	rdfs:label "Galela"@sc ;
+	skos:prefLabel "Galela"@sc ;
+	schema:name "Galela"@sc ;
+	rdfs:label "Galela"@scn ;
+	skos:prefLabel "Galela"@scn ;
+	schema:name "Galela"@scn ;
+	rdfs:label "Galela"@sco ;
+	skos:prefLabel "Galela"@sco ;
+	schema:name "Galela"@sco ;
+	rdfs:label "Galela"@sk ;
+	skos:prefLabel "Galela"@sk ;
+	schema:name "Galela"@sk ;
+	rdfs:label "Galela"@sl ;
+	skos:prefLabel "Galela"@sl ;
+	schema:name "Galela"@sl ;
+	rdfs:label "Galela"@sr-el ;
+	skos:prefLabel "Galela"@sr-el ;
+	schema:name "Galela"@sr-el ;
+	rdfs:label "Galela"@su ;
+	skos:prefLabel "Galela"@su ;
+	schema:name "Galela"@su ;
+	rdfs:label "Galela"@sw ;
+	skos:prefLabel "Galela"@sw ;
+	schema:name "Galela"@sw ;
+	rdfs:label "Galela"@vec ;
+	skos:prefLabel "Galela"@vec ;
+	schema:name "Galela"@vec ;
+	rdfs:label "Galela"@vi ;
+	skos:prefLabel "Galela"@vi ;
+	schema:name "Galela"@vi ;
+	rdfs:label "Galela"@vls ;
+	skos:prefLabel "Galela"@vls ;
+	schema:name "Galela"@vls ;
+	rdfs:label "Galela"@vo ;
+	skos:prefLabel "Galela"@vo ;
+	schema:name "Galela"@vo ;
+	rdfs:label "Galela"@wa ;
+	skos:prefLabel "Galela"@wa ;
+	schema:name "Galela"@wa ;
+	rdfs:label "Galela"@wo ;
+	skos:prefLabel "Galela"@wo ;
+	schema:name "Galela"@wo ;
+	rdfs:label "Galela"@zu ;
+	skos:prefLabel "Galela"@zu ;
+	schema:name "Galela"@zu ;
+	rdfs:label "ガレラ語"@ja ;
+	skos:prefLabel "ガレラ語"@ja ;
+	schema:name "ガレラ語"@ja ;
+	rdfs:label "Galela"@ilo ;
+	skos:prefLabel "Galela"@ilo ;
+	schema:name "Galela"@ilo ;
+	schema:description "Sprache"@de,
+		"lenguaje"@es,
+		"bagian dari rumpun bahasa Papua"@id,
+		"שפה"@he,
+		"pagsasao idiay Indonesia"@ilo,
+		"langue halmahera du Nord"@fr,
+		"yezh"@br,
+		"lingua"@it,
+		"Papuan language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"język z grupy zachodniopapuaskiej"@pl ;
+	skos:altLabel "Bahasa Galela"@id,
+		"Galela language"@en,
+		"Język galela"@pl,
+		"Galelarees"@nl .
+
+wd:Q11732197 owl:sameAs wd:Q3094570 .

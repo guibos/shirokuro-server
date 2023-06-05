@@ -1,0 +1,122 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7689206 a schema:Dataset ;
+	schema:about wd:Q7689206 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960455325"^^xsd:integer ;
+	schema:dateModified "2023-08-24T21:05:33Z"^^xsd:dateTime .
+
+wd:Q7689206 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Tawala> a schema:Article ;
+	schema:about wd:Q7689206 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Tawala"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Tawala> a schema:Article ;
+	schema:about wd:Q7689206 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Tawala"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitawala> a schema:Article ;
+	schema:about wd:Q7689206 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitawala"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Tawala_language> a schema:Article ;
+	schema:about wd:Q7689206 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Tawala language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7689206 wdt:P220 "tbo" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tbo> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "tawa1275" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tawa1275> ;
+	wdt:P1466 "taw" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_taw> ;
+	wdt:P305 "tbo" ;
+	wdt:P1627 "tbo" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q874962 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TBO> ;
+	wdt:P910 wd:Q33675148 ;
+	wdt:P646 "/m/02hw_zf" ;
+	rdfs:label "Tawala"@en ;
+	skos:prefLabel "Tawala"@en ;
+	schema:name "Tawala"@en ;
+	rdfs:label "Lenga Tawala"@pms ;
+	skos:prefLabel "Lenga Tawala"@pms ;
+	schema:name "Lenga Tawala"@pms ;
+	rdfs:label "Kitawala"@sw ;
+	skos:prefLabel "Kitawala"@sw ;
+	schema:name "Kitawala"@sw ;
+	rdfs:label "Tawala"@ilo ;
+	skos:prefLabel "Tawala"@ilo ;
+	schema:name "Tawala"@ilo ;
+	rdfs:label "Tawala"@en-gb ;
+	skos:prefLabel "Tawala"@en-gb ;
+	schema:name "Tawala"@en-gb ;
+	rdfs:label "tavala keel"@et ;
+	skos:prefLabel "tavala keel"@et ;
+	schema:name "tavala keel"@et ;
+	rdfs:label "タワラ語"@ja ;
+	skos:prefLabel "タワラ語"@ja ;
+	schema:name "タワラ語"@ja ;
+	schema:description "Sprache"@de,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"keel"@et ;
+	skos:altLabel "Tawala language"@en .

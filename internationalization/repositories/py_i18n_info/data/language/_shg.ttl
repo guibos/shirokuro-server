@@ -1,0 +1,140 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3501092 a schema:Dataset ;
+	schema:about wd:Q3501092 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961135189"^^xsd:integer ;
+	schema:dateModified "2023-08-25T18:44:13Z"^^xsd:dateTime .
+
+wd:Q3501092 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Shua> a schema:Article ;
+	schema:about wd:Q3501092 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Shua"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Shua_language> a schema:Article ;
+	schema:about wd:Q3501092 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Shua language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Shua_jezik> a schema:Article ;
+	schema:about wd:Q3501092 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Shua jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_shua> a schema:Article ;
+	schema:about wd:Q3501092 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua shua"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3501092 wdt:P220 "shg" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/shg> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/035j5g" ;
+	wdt:P1014 "300389265" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300389265> ;
+	wdt:P1394 "shua1254" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/shua1254> ;
+	wdt:P279 wd:Q2736449 ;
+	wdt:P4132 wd:Q539808 ;
+	wdt:P1466 "det" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_det> ;
+	wdt:P910 wd:Q36165687 ;
+	wdt:P2192 "600" ;
+	wdt:P305 "shg" ;
+	wdt:P1627 "shg" ;
+	wdt:P3823 wd:Q29051555 ;
+	wdt:P17 wd:Q963 ;
+	wdt:P2341 wd:Q57525 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SHG> ;
+	rdfs:label "Shua"@en ;
+	skos:prefLabel "Shua"@en ;
+	schema:name "Shua"@en ;
+	rdfs:label "Shua jezik"@hr ;
+	skos:prefLabel "Shua jezik"@hr ;
+	schema:name "Shua jezik"@hr ;
+	rdfs:label "lingua shua"@it ;
+	skos:prefLabel "lingua shua"@it ;
+	schema:name "lingua shua"@it ;
+	rdfs:label "Lenga Shua"@pms ;
+	skos:prefLabel "Lenga Shua"@pms ;
+	schema:name "Lenga Shua"@pms ;
+	rdfs:label "Shua"@en-gb ;
+	skos:prefLabel "Shua"@en-gb ;
+	schema:name "Shua"@en-gb ;
+	rdfs:label "Wikang Shua"@tl ;
+	skos:prefLabel "Wikang Shua"@tl ;
+	schema:name "Wikang Shua"@tl ;
+	rdfs:label "šua keel"@et ;
+	skos:prefLabel "šua keel"@et ;
+	schema:name "šua keel"@et ;
+	rdfs:label "shua"@fr ;
+	skos:prefLabel "shua"@fr ;
+	schema:name "shua"@fr ;
+	rdfs:label "シュア語"@ja ;
+	skos:prefLabel "シュア語"@ja ;
+	schema:name "シュア語"@ja ;
+	rdfs:label "shua"@vec ;
+	skos:prefLabel "shua"@vec ;
+	schema:name "shua"@vec ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"khoisani keel"@et,
+		"langue khoe"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Shwa"@it,
+		"Shua"@it,
+		"Lingua shwa"@it,
+		"Shua language"@en .
+
+wd:Q31443308 owl:sameAs wd:Q3501092 .

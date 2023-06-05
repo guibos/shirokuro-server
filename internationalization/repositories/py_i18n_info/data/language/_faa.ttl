@@ -1,0 +1,180 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3446687 a schema:Dataset ;
+	schema:about wd:Q3446687 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1556057390"^^xsd:integer ;
+	schema:dateModified "2022-01-04T15:50:03Z"^^xsd:dateTime .
+
+wd:Q3446687 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Fasu_language> a schema:Article ;
+	schema:about wd:Q3446687 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Fasu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Fasu> a schema:Article ;
+	schema:about wd:Q3446687 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Fasu"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_fasu> a schema:Article ;
+	schema:about wd:Q3446687 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma fasu"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_fasu> a schema:Article ;
+	schema:about wd:Q3446687 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma fasu"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Fasu_(jezik)> a schema:Article ;
+	schema:about wd:Q3446687 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Fasu (jezik)"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Fasu> a schema:Article ;
+	schema:about wd:Q3446687 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Fasu"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Fasu> a schema:Article ;
+	schema:about wd:Q3446687 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Fasu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kifasu> a schema:Article ;
+	schema:about wd:Q3446687 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kifasu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://el.wikipedia.org/wiki/%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1_%CE%A6%CE%AC%CF%83%CE%BF%CF%85> a schema:Article ;
+	schema:about wd:Q3446687 ;
+	schema:inLanguage "el" ;
+	schema:isPartOf <https://el.wikipedia.org/> ;
+	schema:name "Γλώσσα Φάσου"@el .
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3446687 wdt:P220 "faa" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/faa> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/05c6290" ;
+	wdt:P305 "faa" ;
+	wdt:P1394 "fasu1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/fasu1242> ;
+	wdt:P4132 wd:Q33648 ;
+	wdt:P1466 "fas" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_fas> ;
+	wdt:P2192 "10734" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P910 wd:Q33672835 ;
+	wdt:P1627 "faa" ;
+	wdt:P2341 wd:Q874980,
+		wd:Q849801,
+		wd:Q849790 ;
+	rdfs:label "Lenga Fasu"@pms ;
+	skos:prefLabel "Lenga Fasu"@pms ;
+	schema:name "Lenga Fasu"@pms ;
+	rdfs:label "język fasu"@pl ;
+	skos:prefLabel "język fasu"@pl ;
+	schema:name "język fasu"@pl ;
+	rdfs:label "Fasu"@en ;
+	skos:prefLabel "Fasu"@en ;
+	schema:name "Fasu"@en ;
+	rdfs:label "Fasu"@hr ;
+	skos:prefLabel "Fasu"@hr ;
+	schema:name "Fasu"@hr ;
+	rdfs:label "Idioma fasu"@es ;
+	skos:prefLabel "Idioma fasu"@es ;
+	schema:name "Idioma fasu"@es ;
+	rdfs:label "fasu"@fr ;
+	skos:prefLabel "fasu"@fr ;
+	schema:name "fasu"@fr ;
+	rdfs:label "Kifasu"@sw ;
+	skos:prefLabel "Kifasu"@sw ;
+	schema:name "Kifasu"@sw ;
+	rdfs:label "Fasu"@ilo ;
+	skos:prefLabel "Fasu"@ilo ;
+	schema:name "Fasu"@ilo ;
+	rdfs:label "Fasu"@en-gb ;
+	skos:prefLabel "Fasu"@en-gb ;
+	schema:name "Fasu"@en-gb ;
+	rdfs:label "Idioma fasu"@ast ;
+	skos:prefLabel "Idioma fasu"@ast ;
+	schema:name "Idioma fasu"@ast ;
+	rdfs:label "Γλώσσα Φάσου"@el ;
+	skos:prefLabel "Γλώσσα Φάσου"@el ;
+	schema:name "Γλώσσα Φάσου"@el ;
+	rdfs:label "Fasu"@en-ca ;
+	skos:prefLabel "Fasu"@en-ca ;
+	schema:name "Fasu"@en-ca ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"langue isolée parlée en Papouasie-Nouvelle-Guinée"@fr,
+		"yezh"@br,
+		"familia lingüística"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Fasu language"@en,
+		"Φάσου"@el .

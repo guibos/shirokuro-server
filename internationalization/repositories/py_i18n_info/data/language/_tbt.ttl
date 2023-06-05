@@ -1,0 +1,114 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q13123561 a schema:Dataset ;
+	schema:about wd:Q13123561 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961368958"^^xsd:integer ;
+	schema:dateModified "2023-08-26T00:49:31Z"^^xsd:dateTime .
+
+wd:Q13123561 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Tembo_(langue)> a schema:Article ;
+	schema:about wd:Q13123561 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Tembo (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Tembo> a schema:Article ;
+	schema:about wd:Q13123561 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Tembo"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kitembo-Nyabungu_(lugha)> a schema:Article ;
+	schema:about wd:Q13123561 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kitembo-Nyabungu (lugha)"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Tembo_(Kitembo)_language> a schema:Article ;
+	schema:about wd:Q13123561 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Tembo (Kitembo) language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q13123561 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "tbt" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/tbt> ;
+	wdt:P279 wd:Q33146 ;
+	wdt:P269 "028729013" ;
+	wdtn:P269 <http://www.idref.fr/028729013/id> ;
+	wdt:P1394 "temb1270" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/temb1270> ;
+	wdt:P305 "tbt" ;
+	wdt:P1627 "tbt" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q974 ;
+	wdt:P2341 wd:Q130625,
+		wd:Q488326 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/TBT> ;
+	wdt:P282 wd:Q8229 ;
+	rdfs:label "Kitembo-Nyabungu (lugha)"@sw ;
+	skos:prefLabel "Kitembo-Nyabungu (lugha)"@sw ;
+	schema:name "Kitembo-Nyabungu (lugha)"@sw ;
+	rdfs:label "Lenga Tembo"@pms ;
+	skos:prefLabel "Lenga Tembo"@pms ;
+	schema:name "Lenga Tembo"@pms ;
+	rdfs:label "tembo"@fr ;
+	skos:prefLabel "tembo"@fr ;
+	schema:name "tembo"@fr ;
+	rdfs:label "Tembo (Kitembo)"@en ;
+	skos:prefLabel "Tembo (Kitembo)"@en ;
+	schema:name "Tembo (Kitembo)"@en ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Kitembo-Nyabungu"@sw .
+
+wd:Q14623181 owl:sameAs wd:Q13123561 .

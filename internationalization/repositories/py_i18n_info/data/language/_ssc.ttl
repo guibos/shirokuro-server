@@ -1,0 +1,128 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7630687 a schema:Dataset ;
+	schema:about wd:Q7630687 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961116845"^^xsd:integer ;
+	schema:dateModified "2023-08-25T18:07:41Z"^^xsd:dateTime .
+
+wd:Q7630687 a wikibase:Item .
+
+<https://sw.wikipedia.org/wiki/Kisimbiti> a schema:Article ;
+	schema:about wd:Q7630687 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kisimbiti"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Suba-Simbiti_language> a schema:Article ;
+	schema:about wd:Q7630687 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Suba-Simbiti language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ig.wikipedia.org/wiki/As%E1%BB%A5s%E1%BB%A5_Suba-Simbiti> a schema:Article ;
+	schema:about wd:Q7630687 ;
+	schema:inLanguage "ig" ;
+	schema:isPartOf <https://ig.wikipedia.org/> ;
+	schema:name "Asụsụ Suba-Simbiti"@ig .
+
+<https://ig.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sn.wikipedia.org/wiki/Kisimbiti> a schema:Article ;
+	schema:about wd:Q7630687 ;
+	schema:inLanguage "sn" ;
+	schema:isPartOf <https://sn.wikipedia.org/> ;
+	schema:name "Kisimbiti"@sn .
+
+<https://sn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7630687 wdt:P220 "ssc" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ssc> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "suba1252" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/suba1252> ;
+	wdt:P279 wd:Q41347250 ;
+	wdt:P305 "ssc" ;
+	wdt:P1627 "ssc" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q924 ;
+	wdt:P2341 wd:Q458406 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SSC> ;
+	wdt:P646 "/m/0jt0v34" ;
+	wdt:P910 wd:Q33673723 ;
+	wdt:P268 "161720781" ;
+	wdtn:P268 <http://data.bnf.fr/ark:/12148/cb161720781#about> ;
+	rdfs:label "Suba-Simbiti"@en ;
+	skos:prefLabel "Suba-Simbiti"@en ;
+	schema:name "Suba-Simbiti"@en ;
+	rdfs:label "Kisimbiti"@sw ;
+	skos:prefLabel "Kisimbiti"@sw ;
+	schema:name "Kisimbiti"@sw ;
+	rdfs:label "Suba-Simbiti"@en-gb ;
+	skos:prefLabel "Suba-Simbiti"@en-gb ;
+	schema:name "Suba-Simbiti"@en-gb ;
+	rdfs:label "suba-simbiti"@fr ;
+	skos:prefLabel "suba-simbiti"@fr ;
+	schema:name "suba-simbiti"@fr ;
+	rdfs:label "Wikang Suba-Simbiti"@tl ;
+	skos:prefLabel "Wikang Suba-Simbiti"@tl ;
+	schema:name "Wikang Suba-Simbiti"@tl ;
+	rdfs:label "Suba-Simbiti"@ig ;
+	skos:prefLabel "Suba-Simbiti"@ig ;
+	schema:name "Suba-Simbiti"@ig ;
+	rdfs:label "Kisimbiti"@sn ;
+	skos:prefLabel "Kisimbiti"@sn ;
+	schema:name "Kisimbiti"@sn ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue bantoue"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"asụsụ"@ig ;
+	skos:altLabel "Suba-Simbiti language"@en,
+		"Simbiti dialect"@en,
+		"asụsụ Suba-Simbiti"@ig,
+		"simbiti"@fr,
+		"dialecte simbiti"@fr .
+
+wd:Q116790392 owl:sameAs wd:Q7630687 .

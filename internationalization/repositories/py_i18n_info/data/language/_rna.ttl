@@ -1,0 +1,98 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7379610 a schema:Dataset ;
+	schema:about wd:Q7379610 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1839753270"^^xsd:integer ;
+	schema:dateModified "2023-02-23T10:42:31Z"^^xsd:dateTime .
+
+wd:Q7379610 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Runa_language> a schema:Article ;
+	schema:about wd:Q7379610 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Runa language"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_runa> a schema:Article ;
+	schema:about wd:Q7379610 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga runa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Rouneg> a schema:Article ;
+	schema:about wd:Q7379610 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Rouneg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D0%BD%D0%B0_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q7379610 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Руна (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7379610 wdt:P220 "rna" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/rna> ;
+	wdt:P31 wd:Q5015649 ;
+	wdt:P1394 "runa1235" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/runa1235> ;
+	wdt:P305 "rna" ;
+	rdfs:label "Runa"@en ;
+	skos:prefLabel "Runa"@en ;
+	schema:name "Runa"@en ;
+	rdfs:label "Lenga runa"@pms ;
+	skos:prefLabel "Lenga runa"@pms ;
+	schema:name "Lenga runa"@pms ;
+	rdfs:label "Rouneg"@br ;
+	skos:prefLabel "Rouneg"@br ;
+	schema:name "Rouneg"@br ;
+	rdfs:label "Руна"@ru ;
+	skos:prefLabel "Руна"@ru ;
+	schema:name "Руна"@ru ;
+	rdfs:label "runa"@fr ;
+	skos:prefLabel "runa"@fr ;
+	schema:name "runa"@fr ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"langue non attestée"@fr ;
+	skos:altLabel "Runa language"@en .

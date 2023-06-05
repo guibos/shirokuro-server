@@ -1,0 +1,179 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36304 a schema:Dataset ;
+	schema:about wd:Q36304 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961133784"^^xsd:integer ;
+	schema:dateModified "2023-08-25T18:41:24Z"^^xsd:dateTime .
+
+wd:Q36304 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Noon_(langue)> a schema:Article ;
+	schema:about wd:Q36304 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Noon (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Noon> a schema:Article ;
+	schema:about wd:Q36304 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Noon"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%BE%D0%BD_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q36304 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Ноон (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kinoon> a schema:Article ;
+	schema:about wd:Q36304 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kinoon"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Noon_language> a schema:Article ;
+	schema:about wd:Q36304 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Noon language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Nouneg> a schema:Article ;
+	schema:about wd:Q36304 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Nouneg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Noon_(Sprache)> a schema:Article ;
+	schema:about wd:Q36304 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Noon (Sprache)"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Noon_jezik> a schema:Article ;
+	schema:about wd:Q36304 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Noon jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36304 wdt:P220 "snf" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/snf> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/0h649vs" ;
+	wdt:P305 "snf" ;
+	wdt:P269 "099556405" ;
+	wdtn:P269 <http://www.idref.fr/099556405/id> ;
+	wdt:P279 wd:Q1033184 ;
+	wdt:P1394 "noon1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/noon1242> ;
+	wdt:P2355 "1296" ;
+	wdt:P4132 wd:Q651641 ;
+	wdt:P1466 "noo" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_noo> ;
+	wdt:P5198 "294928960" ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P2192 "1754" ;
+	wdt:P1627 "snf" ;
+	wdt:P17 wd:Q1041 ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P2341 wd:Q847682 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/SNF> ;
+	wdt:P910 wd:Q33664359 ;
+	rdfs:label "Kinoon"@sw ;
+	skos:prefLabel "Kinoon"@sw ;
+	schema:name "Kinoon"@sw ;
+	rdfs:label "Noon"@de ;
+	skos:prefLabel "Noon"@de ;
+	schema:name "Noon"@de ;
+	rdfs:label "Lenga Noon"@pms ;
+	skos:prefLabel "Lenga Noon"@pms ;
+	schema:name "Lenga Noon"@pms ;
+	rdfs:label "nouneg"@br ;
+	skos:prefLabel "nouneg"@br ;
+	schema:name "nouneg"@br ;
+	rdfs:label "sérère-Noon"@fr ;
+	skos:prefLabel "sérère-Noon"@fr ;
+	schema:name "sérère-Noon"@fr ;
+	rdfs:label "Noon"@en ;
+	skos:prefLabel "Noon"@en ;
+	schema:name "Noon"@en ;
+	rdfs:label "Noon jezik"@hr ;
+	skos:prefLabel "Noon jezik"@hr ;
+	schema:name "Noon jezik"@hr ;
+	rdfs:label "ノーン語"@ja ;
+	skos:prefLabel "ノーン語"@ja ;
+	schema:name "ノーン語"@ja ;
+	rdfs:label "Noon"@en-gb ;
+	skos:prefLabel "Noon"@en-gb ;
+	schema:name "Noon"@en-gb ;
+	rdfs:label "Wikang Noon"@tl ;
+	skos:prefLabel "Wikang Noon"@tl ;
+	schema:name "Wikang Noon"@tl ;
+	rdfs:label "Ноон"@ru ;
+	skos:prefLabel "Ноон"@ru ;
+	schema:name "Ноон"@ru ;
+	rdfs:label "Noon"@nl ;
+	skos:prefLabel "Noon"@nl ;
+	schema:name "Noon"@nl ;
+	rdfs:label "怒恩語"@zh ;
+	skos:prefLabel "怒恩語"@zh ;
+	schema:name "怒恩語"@zh ;
+	schema:description "idioma humano"@es,
+		"Sprache"@de,
+		"language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Noon"@fr,
+		"Noon language"@en .

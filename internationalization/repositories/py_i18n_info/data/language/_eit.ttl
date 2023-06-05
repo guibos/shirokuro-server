@@ -1,0 +1,121 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5350030 a schema:Dataset ;
+	schema:about wd:Q5350030 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1349571271"^^xsd:integer ;
+	schema:dateModified "2021-01-28T00:02:11Z"^^xsd:dateTime .
+
+wd:Q5350030 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Eitiep_language> a schema:Article ;
+	schema:about wd:Q5350030 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Eitiep language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_eitiep> a schema:Article ;
+	schema:about wd:Q5350030 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga eitiep"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kieitiep> a schema:Article ;
+	schema:about wd:Q5350030 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kieitiep"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_nga_Eitiep> a schema:Article ;
+	schema:about wd:Q5350030 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao nga Eitiep"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5350030 wdt:P220 "eit" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/eit> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "eiti1240" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/eiti1240> ;
+	wdt:P279 wd:Q1333831 ;
+	wdt:P910 wd:Q36156100 ;
+	wdt:P2192 "4120" ;
+	wdt:P305 "eit" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P1627 "eit" ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q690880,
+		wd:Q753689 ;
+	wdt:P646 "/m/0j628pp" ;
+	rdfs:label "Eitiep"@en ;
+	skos:prefLabel "Eitiep"@en ;
+	schema:name "Eitiep"@en ;
+	rdfs:label "Lenga eitiep"@pms ;
+	skos:prefLabel "Lenga eitiep"@pms ;
+	schema:name "Lenga eitiep"@pms ;
+	rdfs:label "Język eitiep"@pl ;
+	skos:prefLabel "Język eitiep"@pl ;
+	schema:name "Język eitiep"@pl ;
+	rdfs:label "Kieitiep"@sw ;
+	skos:prefLabel "Kieitiep"@sw ;
+	schema:name "Kieitiep"@sw ;
+	rdfs:label "Eitiep"@ilo ;
+	skos:prefLabel "Eitiep"@ilo ;
+	schema:name "Eitiep"@ilo ;
+	rdfs:label "Eitiep"@en-gb ;
+	skos:prefLabel "Eitiep"@en-gb ;
+	schema:name "Eitiep"@en-gb ;
+	rdfs:label "eitiep"@fr ;
+	skos:prefLabel "eitiep"@fr ;
+	schema:name "eitiep"@fr ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"yezh"@br,
+		"langue torricelli"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Eitiep language"@en .
