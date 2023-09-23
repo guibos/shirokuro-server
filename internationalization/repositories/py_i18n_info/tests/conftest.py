@@ -24,10 +24,17 @@ class BCP47Mock(BCP47Interface):
 
         script_latin = BCP47Script(description=['Latin'],
                                    added=datetime(2005, 10, 16, 0, 0),
-                                   deprecated=None,
                                    updated_at=datetime(2023, 8, 2, 0, 0),
                                    subtag='Latn',
                                    comments=None)
+
+        script_inherit = BCP47Script(
+            description=['Code for inherited script'],
+            added=datetime(2009, 4, 3, 0, 0),
+            updated_at=datetime(2023, 8, 2, 0, 0),
+            subtag='Zinh',
+            comments='Not intended for use as a language subtag',
+        )
 
         language_english = BCP47Language(description=['English'],
                                          added=datetime(2005, 10, 16, 0, 0),
@@ -126,7 +133,7 @@ class BCP47Mock(BCP47Interface):
             preferred_value=None,
         )
 
-        self._scripts: List[BCP47Script] = [script_latin]
+        self._scripts: List[BCP47Script] = [script_latin, script_inherit]
         self._languages_scopes: List[BCP47LanguageScope] = [language_scope]
         self._languages: List[BCP47Language] = [
             language_english,

@@ -1,3 +1,4 @@
+from datetime import datetime
 from typing import Optional
 
 from pydantic import BaseModel
@@ -16,3 +17,4 @@ class BCP47RegionPreferredValue(BaseModel):
 class BCP47Region(BCP47Subtag, PreferredValueValidator):
     comments: Optional[str] = None
     preferred_value: Optional[BCP47RegionPreferredValue] = None
+    deprecated: Optional[datetime] = None

@@ -1,3 +1,4 @@
+from datetime import datetime
 from typing import Optional
 
 from pydantic import BaseModel
@@ -21,3 +22,4 @@ class BCP47Language(BCP47Subtag, PreferredValueValidator):
     comments: Optional[str] = None
     suppress_script: Optional[BCP47Script] = None
     preferred_value: Optional[BCP47LanguagePreferredValue] = None
+    deprecated: Optional[datetime] = None

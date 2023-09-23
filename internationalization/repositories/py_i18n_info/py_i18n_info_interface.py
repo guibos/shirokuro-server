@@ -40,10 +40,6 @@ class Pyi18nInfoInterface:
             SubtagDataFinder(self.get_variant_by_subtag, BCP47Type.VARIANT)
         ]
 
-    @abc.abstractmethod
-    def tag_or_subtag_parser(self, tag_or_subtag: str, case_sensitive: bool = False) -> Pyi18nInfoSubtags:
-        pass
-
     @property
     @abc.abstractmethod
     def languages(self) -> List[Pyi18nInfoLanguage]:
@@ -60,7 +56,7 @@ class Pyi18nInfoInterface:
     def languages_scopes(self) -> Iterable[Pyi18nInfoLanguageScope]:
         pass
 
-    def get_language_scope_by_name(self, name: str):
+    def get_language_scope_by_name(self, name: str) -> Pyi18nInfoLanguageScope:
         try:
             langauge_scope_enum = LanguageScopeEnum(name)
         except ValueError as e:
@@ -172,3 +168,11 @@ class Pyi18nInfoInterface:
                     i += 1
                     continue
         return tag_or_subtag_data
+
+    @staticmethod
+    def _get_tag_or_subtag(model: TagsOrSubtags) -> str:
+        if str_tag_or_subtag := getattr(model, 'subtag', ''):
+            return str_tag_or_subtag
+        elif str_tag_or_subtag := getattr(model, 'tag', ''):
+            return str_tag_or_subtag
+        raise RuntimeError("Tag or subtag not found.")

@@ -1,3 +1,4 @@
+from datetime import datetime
 from typing import List, Optional
 
 from pydantic import BaseModel, field_validator
@@ -29,6 +30,7 @@ class BCP47ExtLang(BCP47Subtag):
     preferred_value: BCP47ExtLangPreferredValue
     prefix: List[BCP47ExtLangPrefix] = []
     macro_language: Optional[BCP47Language] = None
+    deprecated: Optional[datetime] = None
 
     @field_validator('preferred_value')
     def preferred_value_subtag_validator(cls, value: BCP47Language, validation_info: ValidationInfo):

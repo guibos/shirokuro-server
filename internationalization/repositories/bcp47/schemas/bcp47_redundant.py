@@ -1,3 +1,4 @@
+from datetime import datetime
 from typing import Optional
 
 from pydantic import BaseModel
@@ -18,3 +19,4 @@ class BCP47RedundantPreferredValue(BaseModel):
 
 class BCP47Redundant(BCP47Tag, PreferredValueValidator):
     preferred_value: Optional[BCP47RedundantPreferredValue] = None
+    deprecated: Optional[datetime] = None

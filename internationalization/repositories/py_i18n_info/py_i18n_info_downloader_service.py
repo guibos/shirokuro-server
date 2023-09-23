@@ -57,7 +57,7 @@ class Pyi18nInfoDownloaderService(Pyi18nInfoBase):
         ORDER BY ?un_m_49 ?iso_3166_1_alpha2
     """
 
-    _TEST_MODE_ITERATIONS = 2
+    TEST_MODE_ITERATIONS = 2
 
     def download(self, *, replace_semantic_data: bool, test_mode: bool = False):
         g = rdflib.Graph()
@@ -77,7 +77,7 @@ class Pyi18nInfoDownloaderService(Pyi18nInfoBase):
                 self._download_result_result_row(result_row, data_dir, replace_semantic_data)
 
                 i += 1
-                if test_mode and self._TEST_MODE_ITERATIONS <= i:
+                if test_mode and self.TEST_MODE_ITERATIONS <= i:
                     break
 
     def _download_result_result_row(self, result_row: ResultRow, data_dir: str, replace_semantic_data: bool):

@@ -1,3 +1,4 @@
+from datetime import datetime
 from typing import Optional, List
 
 from pydantic import BaseModel
@@ -26,3 +27,4 @@ class BCP47Grandfathered(BCP47Tag, PreferredValueValidator):
     prefix: List['BCP47GrandfatheredPrefix'] = []
     comments: Optional[str] = None
     preferred_value: Optional['BCP47GrandfatheredPreferredValue'] = None
+    deprecated: Optional[datetime] = None

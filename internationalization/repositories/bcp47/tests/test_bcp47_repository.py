@@ -1,6 +1,3 @@
-import pytest
-
-from internationalization.repositories.bcp47.bcp47_interface import BCP47Interface
 from internationalization.repositories.bcp47.bcp47_repository import BCP47Repository
 
 

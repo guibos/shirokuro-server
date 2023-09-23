@@ -197,7 +197,6 @@ class Pyi18nInfoRepository(Pyi18nInfoInterface, Pyi18nInfoBase):
                                 subtag=script.subtag,
                                 description=script.description,
                                 added=script.added,
-                                deprecated=script.deprecated,
                                 updated_at=script.updated_at)
 
     def _load_language_scopes(self, bcp47_repository: BCP47Interface):
@@ -484,14 +483,6 @@ class Pyi18nInfoRepository(Pyi18nInfoInterface, Pyi18nInfoBase):
                 value_dict[attribute_name] = func(self._get_tag_or_subtag(attribute))
         return value_dict
 
-    @staticmethod
-    def _get_tag_or_subtag(model: TagsOrSubtags) -> str:
-        if str_tag_or_subtag := getattr(model, 'subtag', ''):
-            return str_tag_or_subtag
-        elif str_tag_or_subtag := getattr(model, 'tag', ''):
-            return str_tag_or_subtag
-        raise RuntimeError("Tag or subtag not found.")
-
     def _get_i18n_data(self, bcp47_type: BCP47Type, tag_or_subtag: str, source_data: AnyUrl,
                        semantic_data_dir: str) -> Dict[Pyi18nInfoSubtags, Pyi18nInfoTranslation]:
         graph = self._get_graph(bcp47_type, tag_or_subtag, data_dir=semantic_data_dir)
@@ -503,6 +494,7 @@ class Pyi18nInfoRepository(Pyi18nInfoInterface, Pyi18nInfoBase):
 
         for subject, predicate, tri_object in graph.triples((None, None, None)):
             if predicate == self._PREDICATE_PREFERRED_LABEL:
+                tri_object: rdflib.Literal
                 try:
                     internationalization_tag_or_subtag = self.tag_or_subtag_parser(tri_object.language)
                 except TagOrSubtagNotFoundError:
@@ -510,6 +502,7 @@ class Pyi18nInfoRepository(Pyi18nInfoInterface, Pyi18nInfoBase):
                     continue
                 i18n_info_dict[internationalization_tag_or_subtag]['name'] = tri_object.value
             elif predicate == self._PREDICATE_DESCRIPTION:
+                tri_object: rdflib.Literal
                 try:
                     internationalization_tag_or_subtag = self.tag_or_subtag_parser(tri_object.language)
                 except TagOrSubtagNotFoundError:
