@@ -3,9 +3,10 @@ from datetime import datetime
 import pytest
 from pydantic_core import Url
 
-from internationalization.repositories.bcp47.exceptions.script_subtag_not_found_error import ScriptSubtagNotFoundError
+from internationalization.repositories.py_i18n_info.exceptions.py_i18n_info_script_subtag_not_found_error import \
+    Pyi18nInfoScriptSubtagNotFoundError
 from internationalization.repositories.py_i18n_info.py_i18n_info_interface import Pyi18nInfoInterface
-from internationalization.repositories.py_i18n_info.schemas.py_i18n_info_language import Pyi18nInfoLanguage
+from internationalization.repositories.py_i18n_info.schemas.py_i18n_info_script import Pyi18nInfoScript
 from internationalization.repositories.py_i18n_info.schemas.py_i18n_info_subtags import Pyi18nInfoSubtags
 
 
@@ -13,7 +14,7 @@ def test_py_i18n_info_repository_script_list(py_i18n_info_repository_mock: Pyi18
     assert py_i18n_info_repository_mock.scripts
 
     for script in py_i18n_info_repository_mock.scripts:
-        assert type(script) == Pyi18nInfoLanguage
+        assert type(script) == Pyi18nInfoScript
 
 
 def test_py_i18n_info_repository_script_get_by_subtag_case_insensitive(
@@ -26,12 +27,12 @@ def test_py_i18n_info_repository_script_get_by_subtag_case_insensitive(
 
 
 def test_py_i18n_info_repository_script_get_by_subtag_not_found(py_i18n_info_repository_mock: Pyi18nInfoInterface):
-    with pytest.raises(ScriptSubtagNotFoundError):
+    with pytest.raises(Pyi18nInfoScriptSubtagNotFoundError):
         py_i18n_info_repository_mock.get_script_by_subtag('Err')
 
 
 def test_py_i18n_info_repository_script_get_by_subtag_case_sensitive(py_i18n_info_repository_mock: Pyi18nInfoInterface):
-    with pytest.raises(ScriptSubtagNotFoundError):
+    with pytest.raises(Pyi18nInfoScriptSubtagNotFoundError):
         py_i18n_info_repository_mock.get_script_by_subtag('latn', case_sensitive=True)
 
     latin = py_i18n_info_repository_mock.get_script_by_subtag('Latn', case_sensitive=True)

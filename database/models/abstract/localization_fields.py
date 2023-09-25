@@ -1,8 +1,8 @@
 from django.db import models
-from internationalization.models.region import Region
 
 from database.models.abstract.common_fields import CommonFields
 from internationalization.models.language import Language
+from internationalization.models.region import Region
 from internationalization.models.script import Script
 
 

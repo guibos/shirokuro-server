@@ -1,7 +1,7 @@
 from django.db import models
 
-from internationalization.models.language import Language
 from internationalization.models.abstract.subtag import Subtag
+from internationalization.models.language import Language
 
 
 class Region(Subtag):

@@ -1,7 +1,13 @@
 from datetime import datetime
 
 from internationalization.repositories.py_i18n_info.py_i18n_info_interface import Pyi18nInfoInterface
+from internationalization.repositories.py_i18n_info.schemas.py_i18n_info_language import Pyi18nInfoLanguage
 from internationalization.repositories.py_i18n_info.schemas.py_i18n_info_subtags import Pyi18nInfoSubtags
+
+
+def test_py_i18n_info_repository_language_list(py_i18n_info_repository_mock: Pyi18nInfoInterface):
+    for language_scope in py_i18n_info_repository_mock.languages_scopes:
+        assert type(language_scope) == Pyi18nInfoLanguage
 
 
 def test_py_i18n_info_repository_language_get_by_tag_insensitive(py_i18n_info_repository_mock: Pyi18nInfoInterface):

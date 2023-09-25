@@ -3,19 +3,25 @@ from typing import List, Iterable, Dict, Union
 
 from internationalization.enums.bcp47_type import BCP47Type
 from internationalization.enums.language_scope import LanguageScopeEnum
-from internationalization.repositories.bcp47.exceptions.ext_lang_subtag_not_found_error import \
-    ExtLangSubtagNotFoundError
-from internationalization.repositories.bcp47.exceptions.grandfathered_tag_not_found_error import \
-    GrandfatheredTagNotFoundError
-from internationalization.repositories.bcp47.exceptions.language_scope_not_found_error import LanguageScopeNotFoundError
-from internationalization.repositories.bcp47.exceptions.language_subtag_not_found_error import \
-    LanguageSubtagNotFoundError
-from internationalization.repositories.bcp47.exceptions.redundant_tag_not_found_error import RedundantTagNotFoundError
-from internationalization.repositories.bcp47.exceptions.region_subtag_not_found_error import RegionSubtagNotFoundError
-from internationalization.repositories.bcp47.exceptions.script_subtag_not_found_error import ScriptSubtagNotFoundError
-from internationalization.repositories.bcp47.exceptions.tag_or_subtag_not_found_error import TagOrSubtagNotFoundError
-from internationalization.repositories.bcp47.exceptions.variant_subtag_not_found_error import VariantSubtagNotFoundError
 from internationalization.repositories.bcp47.schemas.abstract.subtag_data_finder import SubtagDataFinder
+from internationalization.repositories.py_i18n_info.exceptions.py_i18n_info_ext_lang_subtag_not_found_error import \
+    Pyi18nInfoExtLangSubtagNotFoundError
+from internationalization.repositories.py_i18n_info.exceptions.py_i18n_info_grandfathered_tag_not_found_error import \
+    Pyi18nInfoGrandfatheredTagNotFoundError
+from internationalization.repositories.py_i18n_info.exceptions.py_i18n_info_language_scope_not_found_error import \
+    Pyi18nInfoLanguageScopeNotFoundError
+from internationalization.repositories.py_i18n_info.exceptions.py_i18n_info_language_subtag_not_found_error import \
+    Pyi18nInfoLanguageSubtagNotFoundError
+from internationalization.repositories.py_i18n_info.exceptions.py_i18n_info_redundant_tag_not_found_error import \
+    Pyi18nInfoRedundantTagNotFoundError
+from internationalization.repositories.py_i18n_info.exceptions.py_i18n_info_region_subtag_not_found_error import \
+    Pyi18nInfoRegionSubtagNotFoundError
+from internationalization.repositories.py_i18n_info.exceptions.py_i18n_info_script_subtag_not_found_error import \
+    Pyi18nInfoScriptSubtagNotFoundError
+from internationalization.repositories.py_i18n_info.exceptions.py_i18n_info_tag_or_subtag_not_found_error import \
+    Pyi18nInfoTagOrSubtagNotFoundError
+from internationalization.repositories.py_i18n_info.exceptions.py_i18n_info_variant_subtag_not_found_error import \
+    Pyi18nInfoVariantSubtagNotFoundError
 from internationalization.repositories.py_i18n_info.schemas.py_i18n_info_ext_lang import Pyi18nInfoExtLang
 from internationalization.repositories.py_i18n_info.schemas.py_i18n_info_grandfathered import Pyi18nInfoGrandfathered
 from internationalization.repositories.py_i18n_info.schemas.py_i18n_info_language import Pyi18nInfoLanguage
@@ -48,8 +54,8 @@ class Pyi18nInfoInterface:
     def get_language_by_subtag(self, subtag: str, case_sensitive: bool = False) -> Pyi18nInfoLanguage:
         try:
             return self._tag_or_subtag_filter(subtag, self.languages, case_sensitive)
-        except TagOrSubtagNotFoundError as e:
-            raise LanguageSubtagNotFoundError(subtag) from e
+        except Pyi18nInfoTagOrSubtagNotFoundError as e:
+            raise Pyi18nInfoLanguageSubtagNotFoundError(subtag) from e
 
     @property
     @abc.abstractmethod
@@ -60,7 +66,7 @@ class Pyi18nInfoInterface:
         try:
             langauge_scope_enum = LanguageScopeEnum(name)
         except ValueError as e:
-            raise LanguageScopeNotFoundError(name) from e
+            raise Pyi18nInfoLanguageScopeNotFoundError(name) from e
         for bcp47_language_scope in self.languages_scopes:
             if langauge_scope_enum == bcp47_language_scope.scope:
                 return bcp47_language_scope
@@ -75,8 +81,8 @@ class Pyi18nInfoInterface:
     def get_ext_lang_by_subtag(self, subtag: str, case_sensitive: bool = False) -> Pyi18nInfoExtLang:
         try:
             return self._tag_or_subtag_filter(subtag, self.ext_langs, case_sensitive)
-        except TagOrSubtagNotFoundError as e:
-            raise ExtLangSubtagNotFoundError(subtag) from e
+        except Pyi18nInfoTagOrSubtagNotFoundError as e:
+            raise Pyi18nInfoExtLangSubtagNotFoundError(subtag) from e
 
     @property
     @abc.abstractmethod
@@ -86,8 +92,8 @@ class Pyi18nInfoInterface:
     def get_script_by_subtag(self, subtag: str, case_sensitive: bool = False) -> Pyi18nInfoScript:
         try:
             return self._tag_or_subtag_filter(subtag, self.scripts, case_sensitive)
-        except TagOrSubtagNotFoundError as e:
-            raise ScriptSubtagNotFoundError(subtag) from e
+        except Pyi18nInfoTagOrSubtagNotFoundError as e:
+            raise Pyi18nInfoScriptSubtagNotFoundError(subtag) from e
 
     @property
     @abc.abstractmethod
@@ -97,8 +103,8 @@ class Pyi18nInfoInterface:
     def get_region_by_subtag(self, subtag: str, case_sensitive: bool = False) -> Pyi18nInfoRegion:
         try:
             return self._tag_or_subtag_filter(subtag, self.regions, case_sensitive)
-        except TagOrSubtagNotFoundError as e:
-            raise RegionSubtagNotFoundError(subtag) from e
+        except Pyi18nInfoTagOrSubtagNotFoundError as e:
+            raise Pyi18nInfoRegionSubtagNotFoundError(subtag) from e
 
     @property
     @abc.abstractmethod
@@ -108,8 +114,8 @@ class Pyi18nInfoInterface:
     def get_variant_by_subtag(self, subtag: str, case_sensitive: bool = False) -> Pyi18nInfoVariant:
         try:
             return self._tag_or_subtag_filter(subtag, self.variants, case_sensitive)
-        except TagOrSubtagNotFoundError as e:
-            raise VariantSubtagNotFoundError(subtag) from e
+        except Pyi18nInfoTagOrSubtagNotFoundError as e:
+            raise Pyi18nInfoVariantSubtagNotFoundError(subtag) from e
 
     @property
     @abc.abstractmethod
@@ -119,8 +125,8 @@ class Pyi18nInfoInterface:
     def get_grandfathered_by_tag(self, tag: str, case_sensitive: bool = False) -> Pyi18nInfoGrandfathered:
         try:
             return self._tag_or_subtag_filter(tag, self.variants, case_sensitive)
-        except TagOrSubtagNotFoundError as e:
-            raise GrandfatheredTagNotFoundError(tag) from e
+        except Pyi18nInfoTagOrSubtagNotFoundError as e:
+            raise Pyi18nInfoGrandfatheredTagNotFoundError(tag) from e
 
     @property
     @abc.abstractmethod
@@ -130,8 +136,8 @@ class Pyi18nInfoInterface:
     def get_redundant_by_tag(self, tag: str, case_sensitive: bool = False) -> Pyi18nInfoRedundant:
         try:
             return self._tag_or_subtag_filter(tag, self.variants, case_sensitive)
-        except TagOrSubtagNotFoundError as e:
-            raise RedundantTagNotFoundError(tag) from e
+        except Pyi18nInfoTagOrSubtagNotFoundError as e:
+            raise Pyi18nInfoRedundantTagNotFoundError(tag) from e
 
     def _tag_or_subtag_filter(self, subtag_str: str, tag_or_subtag_list: List[TagsOrSubtags],
                               case_sensitive: bool) -> TagsOrSubtags:
@@ -143,7 +149,7 @@ class Pyi18nInfoInterface:
                 tag_or_subtag_str = tag_or_subtag_str.lower()
             if subtag_str == tag_or_subtag_str:
                 return subtag
-        raise TagOrSubtagNotFoundError(subtag_str)
+        raise Pyi18nInfoTagOrSubtagNotFoundError(subtag_str)
 
     def tag_or_subtag_parser(self, tag_or_subtag: str, case_sensitive=False) -> Pyi18nInfoSubtags:
         return Pyi18nInfoSubtags(**self._tag_or_subtag_parser(tag_or_subtag, case_sensitive))
@@ -157,12 +163,12 @@ class Pyi18nInfoInterface:
         for subtag in tag_or_subtag.split('-'):
             while True:
                 if i >= len(self._TAG_OR_SUBTAG_DATA_FINDER):
-                    raise TagOrSubtagNotFoundError(f"Subtag {subtag} of {tag_or_subtag} is not found.")
+                    raise Pyi18nInfoTagOrSubtagNotFoundError(f"Subtag {subtag} of {tag_or_subtag} is not found.")
                 try:
                     tag_or_subtag_data[self._TAG_OR_SUBTAG_DATA_FINDER[i].data_dict_key.
                                        value] = self._TAG_OR_SUBTAG_DATA_FINDER[i].callable(subtag, case_sensitive)
                     break
-                except TagOrSubtagNotFoundError:
+                except Pyi18nInfoTagOrSubtagNotFoundError:
                     i += 1
                     continue
         return tag_or_subtag_data

@@ -1,6 +1,5 @@
 import pytest
 
-from internationalization.repositories.bcp47.bcp47_interface import BCP47Interface
 from internationalization.repositories.py_i18n_info.py_i18n_info_interface import Pyi18nInfoInterface
 from internationalization.repositories.py_i18n_info.py_i18n_info_repository import Pyi18nInfoRepository
 

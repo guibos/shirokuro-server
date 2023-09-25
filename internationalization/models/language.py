@@ -1,8 +1,8 @@
 from django.db import models
 
-from internationalization.models.script import Script
 from internationalization.models.abstract.subtag import Subtag
 from internationalization.models.language_scope import LanguageScope
+from internationalization.models.script import Script
 
 
 class Language(Subtag):

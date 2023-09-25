@@ -11,9 +11,6 @@ from rdflib import URIRef, BNode
 
 from internationalization.enums.bcp47_type import BCP47Type
 from internationalization.repositories.bcp47.bcp47_interface import BCP47Interface
-from internationalization.repositories.bcp47.exceptions.language_subtag_not_found_error import \
-    LanguageSubtagNotFoundError
-from internationalization.repositories.bcp47.exceptions.tag_or_subtag_not_found_error import TagOrSubtagNotFoundError
 from internationalization.repositories.bcp47.schemas.abstract.subtag_data_finder import SubtagDataFinder
 from internationalization.repositories.bcp47.schemas.bcp47_ext_lang import BCP47ExtLang
 from internationalization.repositories.bcp47.schemas.bcp47_grandfathered import BCP47Grandfathered
@@ -24,6 +21,10 @@ from internationalization.repositories.bcp47.schemas.bcp47_script import BCP47Sc
 from internationalization.repositories.bcp47.schemas.bcp47_variant import BCP47Variant
 from internationalization.repositories.bcp47.type_aliases import BCP47PrefixesType, BCP47PreferredValuesType
 from internationalization.repositories.py_i18n_info._py_i18n_info_base import Pyi18nInfoBase
+from internationalization.repositories.py_i18n_info.exceptions.py_i18n_info_language_subtag_not_found_error import \
+    Pyi18nInfoLanguageSubtagNotFoundError
+from internationalization.repositories.py_i18n_info.exceptions.py_i18n_info_tag_or_subtag_not_found_error import \
+    Pyi18nInfoTagOrSubtagNotFoundError
 from internationalization.repositories.py_i18n_info.py_i18n_info_interface import \
     Pyi18nInfoInterface
 from internationalization.repositories.py_i18n_info.schemas.abstract.py_i18n_info_translation import \
@@ -114,8 +115,8 @@ class Pyi18nInfoRepository(Pyi18nInfoInterface, Pyi18nInfoBase):
     def get_language_by_source_data(self, uri: str) -> Pyi18nInfoLanguage:
         try:
             return self._source_data_filter(uri, self.languages)
-        except TagOrSubtagNotFoundError as e:
-            raise LanguageSubtagNotFoundError(uri) from e
+        except Pyi18nInfoTagOrSubtagNotFoundError as e:
+            raise Pyi18nInfoLanguageSubtagNotFoundError(uri) from e
 
     @property
     def ext_langs(self) -> List[Pyi18nInfoExtLang]:
@@ -148,7 +149,7 @@ class Pyi18nInfoRepository(Pyi18nInfoInterface, Pyi18nInfoBase):
         for subtag in subtag_list:
             if source_data == subtag.source_data:
                 return subtag
-        raise TagOrSubtagNotFoundError(source_data)
+        raise Pyi18nInfoTagOrSubtagNotFoundError(source_data)
 
     def _load_data(self, bcp47_repository: BCP47Interface):
         self._load_scripts(bcp47_repository)
@@ -336,12 +337,12 @@ class Pyi18nInfoRepository(Pyi18nInfoInterface, Pyi18nInfoBase):
                 elif predicate == self._PREDICATE_OFFICIAL_LANGUAGE:
                     try:
                         official_languages.append(self.get_language_by_source_data(tri_object))
-                    except LanguageSubtagNotFoundError:
+                    except Pyi18nInfoLanguageSubtagNotFoundError:
                         logging.warning('Language data_source "%": not found.')
                 elif predicate == self._PREDICATE_LANGUAGE_USED:
                     try:
                         used_languages.append(self.get_language_by_source_data(tri_object))
-                    except LanguageSubtagNotFoundError:
+                    except Pyi18nInfoLanguageSubtagNotFoundError:
                         logging.warning('Language data_source "%": not found.')
 
         else:
@@ -497,7 +498,7 @@ class Pyi18nInfoRepository(Pyi18nInfoInterface, Pyi18nInfoBase):
                 tri_object: rdflib.Literal
                 try:
                     internationalization_tag_or_subtag = self.tag_or_subtag_parser(tri_object.language)
-                except TagOrSubtagNotFoundError:
+                except Pyi18nInfoTagOrSubtagNotFoundError:
                     logging.exception("Not possible to load a internationalization due a previous error.")
                     continue
                 i18n_info_dict[internationalization_tag_or_subtag]['name'] = tri_object.value
@@ -505,7 +506,7 @@ class Pyi18nInfoRepository(Pyi18nInfoInterface, Pyi18nInfoBase):
                 tri_object: rdflib.Literal
                 try:
                     internationalization_tag_or_subtag = self.tag_or_subtag_parser(tri_object.language)
-                except TagOrSubtagNotFoundError:
+                except Pyi18nInfoTagOrSubtagNotFoundError:
                     logging.exception("Not possible to load a internationalization due a previous error.")
                     continue
                 i18n_info_dict[internationalization_tag_or_subtag]['description'] = tri_object.value

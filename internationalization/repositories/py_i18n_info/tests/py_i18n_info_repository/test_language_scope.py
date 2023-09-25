@@ -1,8 +1,15 @@
 import pytest
 
 from internationalization.enums.language_scope import LanguageScopeEnum
-from internationalization.repositories.bcp47.exceptions.language_scope_not_found_error import LanguageScopeNotFoundError
+from internationalization.repositories.py_i18n_info.exceptions.py_i18n_info_language_scope_not_found_error import \
+    Pyi18nInfoLanguageScopeNotFoundError
 from internationalization.repositories.py_i18n_info.py_i18n_info_interface import Pyi18nInfoInterface
+from internationalization.repositories.py_i18n_info.schemas.py_i18n_info_language_scope import Pyi18nInfoLanguageScope
+
+
+def test_py_i18n_info_repository_language_scope_list(py_i18n_info_repository_mock: Pyi18nInfoInterface):
+    for language_scope in py_i18n_info_repository_mock.languages_scopes:
+        assert type(language_scope) == Pyi18nInfoLanguageScope
 
 
 def test_py_i18n_info_repository_language_scope_get_by_name(py_i18n_info_repository_mock: Pyi18nInfoInterface):
@@ -11,7 +18,7 @@ def test_py_i18n_info_repository_language_scope_get_by_name(py_i18n_info_reposit
 
 def test_py_i18n_info_repository_language_scope_get_by_name_not_found(
         py_i18n_info_repository_mock: Pyi18nInfoInterface):
-    with pytest.raises(LanguageScopeNotFoundError):
+    with pytest.raises(Pyi18nInfoLanguageScopeNotFoundError):
         assert py_i18n_info_repository_mock.get_language_scope_by_name('err')
 
 
