@@ -61,13 +61,11 @@ class Pyi18nInfoInterface:
             langauge_scope_enum = LanguageScopeEnum(name)
         except ValueError as e:
             raise LanguageScopeNotFoundError(name) from e
-        try:
-            for bcp47_language_scope in self.languages_scopes:
-                if langauge_scope_enum == bcp47_language_scope.scope:
-                    return bcp47_language_scope
-        except Exception as e:
-            raise Exception
-        raise RuntimeError('Unexpected workflow error to find a language scope.')
+        for bcp47_language_scope in self.languages_scopes:
+            if langauge_scope_enum == bcp47_language_scope.scope:
+                return bcp47_language_scope
+
+        raise RuntimeError(f'Unexpected workflow error to find a language scope: "{name}"')
 
     @property
     @abc.abstractmethod

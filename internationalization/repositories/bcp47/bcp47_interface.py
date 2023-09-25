@@ -58,7 +58,7 @@ class BCP47Interface(abc.ABC):
     def languages_scopes(self) -> Iterable[BCP47LanguageScope]:
         pass
 
-    def get_language_scope_by_name(self, name: str):
+    def get_language_scope_by_name(self, name: str) -> BCP47LanguageScope:
         try:
             langauge_scope_enum = LanguageScopeEnum(name)
         except ValueError as e:
@@ -67,14 +67,14 @@ class BCP47Interface(abc.ABC):
         for bcp47_language_scope in self.languages_scopes:
             if langauge_scope_enum == bcp47_language_scope.scope:
                 return bcp47_language_scope
-        raise RuntimeError('Unexpected workflow error to find a language scope.')
+        raise RuntimeError(f'Unexpected workflow error to find a language scope: "{name}"')
 
     @property
     @abc.abstractmethod
     def ext_langs(self) -> List[BCP47ExtLang]:
         pass
 
-    def get_ext_lang_by_subtag(self, subtag: str, case_sensitive: bool = False):
+    def get_ext_lang_by_subtag(self, subtag: str, case_sensitive: bool = False) -> BCP47ExtLang:
         try:
             return self._tag_or_subtag_filter(subtag, self.ext_langs, case_sensitive)
         except TagOrSubtagNotFoundError as e:
@@ -85,7 +85,7 @@ class BCP47Interface(abc.ABC):
     def scripts(self) -> List[BCP47Script]:
         pass
 
-    def get_script_by_subtag(self, subtag: str, case_sensitive: bool = False):
+    def get_script_by_subtag(self, subtag: str, case_sensitive: bool = False) -> BCP47Script:
         try:
             return self._tag_or_subtag_filter(subtag, self.scripts, case_sensitive)
         except TagOrSubtagNotFoundError as e:
@@ -96,7 +96,7 @@ class BCP47Interface(abc.ABC):
     def regions(self) -> List[BCP47Region]:
         pass
 
-    def get_region_by_subtag(self, subtag: str, case_sensitive: bool = False):
+    def get_region_by_subtag(self, subtag: str, case_sensitive: bool = False) -> BCP47Region:
         try:
             return self._tag_or_subtag_filter(subtag, self.regions, case_sensitive)
         except TagOrSubtagNotFoundError as e:
@@ -107,7 +107,7 @@ class BCP47Interface(abc.ABC):
     def variants(self) -> List[BCP47Variant]:
         pass
 
-    def get_variant_by_subtag(self, subtag: str, case_sensitive: bool = False):
+    def get_variant_by_subtag(self, subtag: str, case_sensitive: bool = False) -> BCP47Variant:
         try:
             return self._tag_or_subtag_filter(subtag, self.variants, case_sensitive)
         except TagOrSubtagNotFoundError as e:
