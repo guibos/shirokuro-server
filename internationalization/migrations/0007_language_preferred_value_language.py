@@ -5,7 +5,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ('internationalization', '0006_rename_preferred_value_script_preferred_value_script_and_more'),
     ]

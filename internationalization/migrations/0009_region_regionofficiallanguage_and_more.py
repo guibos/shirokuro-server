@@ -7,7 +7,6 @@ import internationalization.models.abstract.main_fields
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ('internationalization', '0008_language_comments'),
     ]

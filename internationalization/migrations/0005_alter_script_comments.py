@@ -4,7 +4,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ('internationalization', '0004_alter_language_iso_639_1_alter_language_iso_639_2_and_more'),
     ]
