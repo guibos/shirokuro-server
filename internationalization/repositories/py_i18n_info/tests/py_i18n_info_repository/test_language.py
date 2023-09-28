@@ -159,4 +159,3 @@ def test_py_i18n_info_repository_language_suppressed_script(py_i18n_info_reposit
 def test_py_i18n_info_repository_language_updated_date(py_i18n_info_repository_mock: Pyi18nInfoInterface):
     for language in py_i18n_info_repository_mock.languages:
         assert type(language.updated_at) == datetime
-

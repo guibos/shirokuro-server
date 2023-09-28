@@ -73,26 +73,26 @@ class BCP47Mock(BCP47Interface):
                                       preferred_value=BCP47LanguagePreferredValue(language=language_english),
                                       deprecated=datetime(2023, 8, 2, 0, 0))
 
-        ext_lang_1 = BCP47ExtLang(
-            description=['Ext lang 1'],
-            added=datetime(2009, 7, 29, 0, 0),
-            deprecated=None,
-            updated_at=datetime(2023, 8, 2, 0, 0),
-            subtag='bfi',
-            preferred_value=BCP47ExtLangPreferredValue(language=language_english),
-            prefix=[],
-            macro_language=None)
+        ext_lang_1 = BCP47ExtLang(description=['Ext lang 1'],
+                                  added=datetime(2009, 7, 29, 0, 0),
+                                  deprecated=None,
+                                  updated_at=datetime(2023, 8, 2, 0, 0),
+                                  subtag='bfi',
+                                  preferred_value=BCP47ExtLangPreferredValue(language=language_english),
+                                  prefix=[],
+                                  macro_language=None)
 
-        ext_lang_2 = BCP47ExtLang(
-            description=['Ext lang 2', '2'],
-            added=datetime(2009, 7, 29, 0, 0),
-            deprecated=datetime(2009, 7, 29, 0, 0),
-            updated_at=datetime(2023, 8, 2, 0, 0),
-            subtag='bfi',
-            preferred_value=BCP47ExtLangPreferredValue(language=language_english),
-            prefix=[BCP47ExtLangPrefix(language=language_fake),
-                    BCP47ExtLangPrefix(language=language_fake_macro_language)],
-            macro_language=None)
+        ext_lang_2 = BCP47ExtLang(description=['Ext lang 2', '2'],
+                                  added=datetime(2009, 7, 29, 0, 0),
+                                  deprecated=datetime(2009, 7, 29, 0, 0),
+                                  updated_at=datetime(2023, 8, 2, 0, 0),
+                                  subtag='bfi',
+                                  preferred_value=BCP47ExtLangPreferredValue(language=language_english),
+                                  prefix=[
+                                      BCP47ExtLangPrefix(language=language_fake),
+                                      BCP47ExtLangPrefix(language=language_fake_macro_language)
+                                  ],
+                                  macro_language=None)
 
         #
         # ext_lang_british_sign_language = BCP47ExtLang(
@@ -162,7 +162,9 @@ class BCP47Mock(BCP47Interface):
         self._scripts: List[BCP47Script] = [script_latin, script_fake]
         self._languages_scopes: List[BCP47LanguageScope] = [language_scope_macro_language, language_scope_collection]
         self._languages: List[BCP47Language] = [
-            language_english, language_austro_asiatic, language_fake,
+            language_english,
+            language_austro_asiatic,
+            language_fake,
         ]
         self._ext_langs: List[BCP47ExtLang] = []
         self._regions: List[BCP47Region] = [
