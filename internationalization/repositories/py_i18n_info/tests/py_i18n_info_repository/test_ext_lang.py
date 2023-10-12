@@ -3,8 +3,6 @@ from datetime import datetime
 import pytest
 from pydantic_core import Url
 
-from internationalization.repositories.bcp47.schemas.bcp47_ext_lang import BCP47ExtLangPreferredValue, \
-    BCP47ExtLangPrefix
 from internationalization.repositories.py_i18n_info.exceptions.py_i18n_info_ext_lang_subtag_not_found_error import \
     Pyi18nInfoExtLangSubtagNotFoundError
 from internationalization.repositories.py_i18n_info.py_i18n_info_interface import Pyi18nInfoInterface
@@ -37,18 +35,18 @@ def test_py_i18n_info_repository_ext_lang_id(py_i18n_info_repository_mock: Pyi18
 
 def test_py_i18n_info_repository_ext_lang_description(py_i18n_info_repository_mock: Pyi18nInfoInterface):
     english = py_i18n_info_repository_mock.get_ext_lang_by_subtag('en')
-    aav = py_i18n_info_repository_mock.get_ext_lang_by_subtag('aav')
+    f1 = py_i18n_info_repository_mock.get_ext_lang_by_subtag('f1')
 
     assert english.description == ['Ext lang 1']
-    assert aav.description == ['Ext lang 2', '2']
+    assert f1.description == ['Ext lang 2', '2']
 
 
 def test_py_i18n_info_repository_ext_lang_deprecated(py_i18n_info_repository_mock: Pyi18nInfoInterface):
     english = py_i18n_info_repository_mock.get_ext_lang_by_subtag('en')
-    aav = py_i18n_info_repository_mock.get_ext_lang_by_subtag('aav')
+    f1 = py_i18n_info_repository_mock.get_ext_lang_by_subtag('f1')
 
     assert english.deprecated is None
-    assert aav.deprecated == datetime(2010, 7, 29, 0, 0)
+    assert f1.deprecated == datetime(2010, 7, 29, 0, 0)
 
 
 def test_py_i18n_info_repository_ext_lang_updated_at(py_i18n_info_repository_mock: Pyi18nInfoInterface):
@@ -72,25 +70,27 @@ def test_py_i18n_info_repository_ext_lang_prefix(py_i18n_info_repository_mock: P
     lang_fake = py_i18n_info_repository_mock.get_language_by_subtag('f1')
     language_austro_asiatic = py_i18n_info_repository_mock.get_language_by_subtag('aav')
     english = py_i18n_info_repository_mock.get_ext_lang_by_subtag('en')
-    aav = py_i18n_info_repository_mock.get_ext_lang_by_subtag('aav')
+    f1 = py_i18n_info_repository_mock.get_ext_lang_by_subtag('f1')
 
     assert english.prefix == []
-    assert aav.prefix == [Pyi18nInfoExtLangPrefix(language=lang_fake), Pyi18nInfoExtLangPrefix(language=language_austro_asiatic)]
+    assert f1.prefix == [Pyi18nInfoExtLangPrefix(language=lang_fake), Pyi18nInfoExtLangPrefix(language=language_austro_asiatic)]
 
 
 def test_py_i18n_info_repository_ext_lang_macro_language(py_i18n_info_repository_mock: Pyi18nInfoInterface):
     language_austro_asiatic = py_i18n_info_repository_mock.get_language_by_subtag('aav')
     english = py_i18n_info_repository_mock.get_ext_lang_by_subtag('en')
-    aav = py_i18n_info_repository_mock.get_ext_lang_by_subtag('aav')
+    f1 = py_i18n_info_repository_mock.get_ext_lang_by_subtag('f1')
 
     assert english.macro_language is None
-    assert aav.macro_language == language_austro_asiatic
+    assert f1.macro_language == language_austro_asiatic
 
 
 def test_py_i18n_info_repository_ext_lang_source_data(py_i18n_info_repository_mock: Pyi18nInfoInterface):
     english = py_i18n_info_repository_mock.get_ext_lang_by_subtag('en')
+    f1 = py_i18n_info_repository_mock.get_ext_lang_by_subtag('f1')
 
     assert english.source_data == Url('http://www.wikidata.org/entity/Q1860')
+    assert f1.source_data is None
     # Note: I not possible to provide any case for source_data is None, there are too many restriction.
 
 
@@ -100,6 +100,10 @@ def test_py_i18n_info_repository_ext_lang_i18n(py_i18n_info_repository_mock: Pyi
     tag_english = Pyi18nInfoSubtags(language=english_lang, )
     united_kingdom = py_i18n_info_repository_mock.get_region_by_subtag('GB')
     tag_english_uk = Pyi18nInfoSubtags(language=english_lang, region=united_kingdom)
+
+    f1 = py_i18n_info_repository_mock.get_ext_lang_by_subtag('f1')
+
+    assert len(f1.i18n_info) == 0
 
     assert len(english.i18n_info) == 2
     assert english.i18n_info[tag_english].name == 'English'

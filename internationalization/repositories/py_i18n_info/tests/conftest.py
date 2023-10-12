@@ -87,8 +87,8 @@ class BCP47Mock(BCP47Interface):
             added=datetime(2009, 7, 29, 0, 0),
             deprecated=datetime(2010, 7, 29, 0, 0),
             updated_at=datetime(2023, 8, 2, 0, 0),
-            subtag='aav',
-            preferred_value=BCP47ExtLangPreferredValue(language=language_austro_asiatic),
+            subtag='f1',
+            preferred_value=BCP47ExtLangPreferredValue(language=language_fake),
             prefix=[BCP47ExtLangPrefix(language=language_fake),
                     BCP47ExtLangPrefix(language=language_austro_asiatic)],
             macro_language=language_austro_asiatic)
