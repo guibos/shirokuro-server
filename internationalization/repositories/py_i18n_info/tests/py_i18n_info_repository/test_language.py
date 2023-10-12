@@ -13,6 +13,8 @@ from internationalization.repositories.py_i18n_info.schemas.py_i18n_info_subtags
 
 
 def test_py_i18n_info_repository_language_list(py_i18n_info_repository_mock: Pyi18nInfoInterface):
+    assert py_i18n_info_repository_mock.languages
+
     for language_scope in py_i18n_info_repository_mock.languages:
         assert type(language_scope) == Pyi18nInfoLanguage
 

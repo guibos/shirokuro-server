@@ -242,6 +242,7 @@ class Pyi18nInfoRepository(Pyi18nInfoInterface, Pyi18nInfoBase):
                     iso_639_3 = tri_object.value
                 elif predicate == self._PREDICATE_ISO_639_5:
                     iso_639_5 = tri_object.value
+
         else:
             logging.warning('Not i18n information found for language subtag: "%s"', language.subtag)
 
