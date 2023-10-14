@@ -73,7 +73,10 @@ def test_py_i18n_info_repository_ext_lang_prefix(py_i18n_info_repository_mock: P
     f1 = py_i18n_info_repository_mock.get_ext_lang_by_subtag('f1')
 
     assert english.prefix == []
-    assert f1.prefix == [Pyi18nInfoExtLangPrefix(language=lang_fake), Pyi18nInfoExtLangPrefix(language=language_austro_asiatic)]
+    assert f1.prefix == [
+        Pyi18nInfoExtLangPrefix(language=lang_fake),
+        Pyi18nInfoExtLangPrefix(language=language_austro_asiatic)
+    ]
 
 
 def test_py_i18n_info_repository_ext_lang_macro_language(py_i18n_info_repository_mock: Pyi18nInfoInterface):

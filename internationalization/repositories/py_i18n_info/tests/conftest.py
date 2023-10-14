@@ -11,9 +11,9 @@ from internationalization.repositories.bcp47.schemas.bcp47_grandfathered import 
 from internationalization.repositories.bcp47.schemas.bcp47_language import BCP47LanguagePreferredValue, BCP47Language
 from internationalization.repositories.bcp47.schemas.bcp47_language_scope import BCP47LanguageScope
 from internationalization.repositories.bcp47.schemas.bcp47_redundant import BCP47Redundant
-from internationalization.repositories.bcp47.schemas.bcp47_region import BCP47Region
+from internationalization.repositories.bcp47.schemas.bcp47_region import BCP47Region, BCP47RegionPreferredValue
 from internationalization.repositories.bcp47.schemas.bcp47_script import BCP47Script
-from internationalization.repositories.bcp47.schemas.bcp47_variant import BCP47Variant
+from internationalization.repositories.bcp47.schemas.bcp47_variant import BCP47Variant, BCP47VariantPrefix
 from internationalization.repositories.py_i18n_info.py_i18n_info_interface import Pyi18nInfoInterface
 from internationalization.repositories.py_i18n_info.py_i18n_info_repository import Pyi18nInfoRepository
 
@@ -93,29 +93,38 @@ class BCP47Mock(BCP47Interface):
                     BCP47ExtLangPrefix(language=language_austro_asiatic)],
             macro_language=language_austro_asiatic)
 
-        region_united_kingdom = BCP47Region(
-            description=['United Kingdom'],
+        region_united_kingdom = BCP47Region(description=['United Kingdom'],
+                                            added=datetime(2005, 10, 16, 0, 0),
+                                            deprecated=None,
+                                            updated_at=datetime(2023, 8, 2, 0, 0),
+                                            subtag='GB',
+                                            comments='as of 2006-03-29 GB no longer includes the Channel Islands and Isle of Man; see GG, JE, IM',
+                                            preferred_value=None)
+
+        region_fake_united_kingdom = BCP47Region(
+            description=['Fake 1', 'Fake Plus'],
             added=datetime(2005, 10, 16, 0, 0),
-            deprecated=None,
+            deprecated=datetime(2021, 8, 2, 0, 0),
             updated_at=datetime(2023, 8, 2, 0, 0),
-            subtag='GB',
-            comments='as of 2006-03-29 GB no longer includes the Channel Islands and Isle of Man; see GG, JE, IM',
-            preferred_value=None)
-        #
-        # variant_english_oxford = BCP47Variant(description=['Oxford English Dictionary spelling'],
-        #                                       added=datetime(2015, 4, 17, 0, 0),
-        #                                       deprecated=None,
-        #                                       updated_at=datetime(2023, 8, 2, 0, 0),
-        #                                       subtag='oxendict',
-        #                                       prefix=[
-        #                                           BCP47VariantPrefix(language=language_english,
-        #                                                              ext_lang=None,
-        #                                                              script=None,
-        #                                                              region=None,
-        #                                                              variant=None)
-        #                                       ],
-        #                                       comments=None,
-        #                                       preferred_value=None)
+            subtag='GB1',
+            comments=None,
+            preferred_value=BCP47RegionPreferredValue(region=region_united_kingdom))
+
+
+        variant_english_oxford = BCP47Variant(description=['Oxford English Dictionary spelling'],
+                                              added=datetime(2015, 4, 17, 0, 0),
+                                              deprecated=None,
+                                              updated_at=datetime(2023, 8, 2, 0, 0),
+                                              subtag='oxendict',
+                                              prefix=[
+                                                  BCP47VariantPrefix(language=language_english,
+                                                                     ext_lang=None,
+                                                                     script=None,
+                                                                     region=None,
+                                                                     variant=None)
+                                              ],
+                                              comments=None,
+                                              preferred_value=None)
         #
         # grandfathered_english_oxford = BCP47Grandfathered(description=['English, Oxford English Dictionary spelling'],
         #                                                   added=datetime(2003, 7, 9, 0, 0),
@@ -154,9 +163,7 @@ class BCP47Mock(BCP47Interface):
             language_fake,
         ]
         self._ext_langs: List[BCP47ExtLang] = [ext_lang_1, ext_lang_2]
-        self._regions: List[BCP47Region] = [
-            region_united_kingdom,
-        ]
+        self._regions: List[BCP47Region] = [region_united_kingdom, region_fake_united_kingdom]
         self._variants: List[BCP47Variant] = []
         self._grandfathered: List[BCP47Grandfathered] = []
         self._redundant: List[BCP47Redundant] = []

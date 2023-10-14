@@ -8,7 +8,6 @@ from internationalization.repositories.py_i18n_info.exceptions.py_i18n_info_lang
 from internationalization.repositories.py_i18n_info.py_i18n_info_interface import Pyi18nInfoInterface
 from internationalization.repositories.py_i18n_info.schemas.py_i18n_info_language import Pyi18nInfoLanguage, \
     Pyi18nInfoLanguagePreferredValue
-from internationalization.repositories.py_i18n_info.schemas.py_i18n_info_language_scope import Pyi18nInfoLanguageScope
 from internationalization.repositories.py_i18n_info.schemas.py_i18n_info_subtags import Pyi18nInfoSubtags
 
 

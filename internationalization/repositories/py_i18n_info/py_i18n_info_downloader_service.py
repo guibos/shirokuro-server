@@ -1,9 +1,9 @@
 import os
-import time
 import urllib.request
 from urllib.error import HTTPError
 
 import rdflib
+import time
 from rdflib.query import ResultRow
 
 from internationalization.repositories.py_i18n_info._py_i18n_info_base import Pyi18nInfoBase
