@@ -85,7 +85,7 @@ class Pyi18nInfoRepository(Pyi18nInfoInterface, Pyi18nInfoBase):
         ]
         self._MAPPING_GETTER_WITH_KEY = {
             'language': self.get_language_by_subtag,
-            'extlang': self.get_ext_lang_by_subtag,
+            'ext_lang': self.get_ext_lang_by_subtag,
             'script': self.get_script_by_subtag,
             'region': self.get_region_by_subtag,
             'variant': self.get_variant_by_subtag,

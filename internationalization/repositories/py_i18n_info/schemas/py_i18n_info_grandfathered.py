@@ -1,6 +1,6 @@
 from typing import List, Optional
 
-from pydantic import BaseModel
+from pydantic import ConfigDict, BaseModel
 
 from internationalization.repositories.bcp47.schemas.bcp47_grandfathered import BCP47Grandfathered
 from internationalization.repositories.py_i18n_info.schemas.abstract.py_i18n_info_internationalization import \
@@ -15,9 +15,7 @@ class Pyi18nInfoGrandfatheredPreferredValue(BaseModel):
     language: Pyi18nInfoLanguage
     region: Optional[Pyi18nInfoRegion] = None
     variant: Optional[Pyi18nInfoVariant] = None
-
-    class Config:
-        extra = 'forbid'
+    model_config = ConfigDict(extra='forbid')
 
 
 class Pyi18nInfoGrandfatheredPrefix(Pyi18nInfoVariantPrefix):

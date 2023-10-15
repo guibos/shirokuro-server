@@ -1,6 +1,6 @@
 from typing import Optional, List
 
-from pydantic import BaseModel
+from pydantic import ConfigDict, BaseModel
 
 from internationalization.repositories.bcp47.schemas.bcp47_variant import BCP47Variant
 from internationalization.repositories.py_i18n_info.schemas.abstract.py_i18n_info_internationalization import \
@@ -13,9 +13,7 @@ from internationalization.repositories.py_i18n_info.schemas.py_i18n_info_script 
 
 class Pyi18nInfoVariantPreferredValue(BaseModel):
     variant: 'BCP47Variant'
-
-    class Config:
-        extra = 'forbid'
+    model_config = ConfigDict(extra='forbid')
 
 
 class Pyi18nInfoVariantPrefix(Pyi18nInfoExtLangPrefix):

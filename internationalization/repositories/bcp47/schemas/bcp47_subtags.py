@@ -1,6 +1,6 @@
 from typing import Optional
 
-from pydantic import BaseModel
+from pydantic import ConfigDict, BaseModel
 
 from internationalization.repositories.bcp47.schemas.bcp47_ext_lang import BCP47ExtLang
 from internationalization.repositories.bcp47.schemas.bcp47_language import BCP47Language
@@ -27,6 +27,4 @@ class BCP47Subtags(BaseModel):
 
     def __eq__(self, other):
         return self.tag == other.tag
-
-    class Config:
-        extra = 'forbid'
+    model_config = ConfigDict(extra='forbid')

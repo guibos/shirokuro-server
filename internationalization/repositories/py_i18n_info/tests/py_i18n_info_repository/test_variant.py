@@ -1,5 +1,5 @@
 from internationalization.repositories.py_i18n_info.py_i18n_info_interface import Pyi18nInfoInterface
 
 
-def test_py_i18n_info_repository_script_list(py_i18n_info_repository_mock: Pyi18nInfoInterface):
+def test_py_i18n_info_repository_variant(py_i18n_info_repository_mock: Pyi18nInfoInterface):
     py_i18n_info_repository_mock

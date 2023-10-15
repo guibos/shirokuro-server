@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import List, Optional
 
-from pydantic import BaseModel, field_validator
+from pydantic import ConfigDict, BaseModel, field_validator
 from pydantic_core.core_schema import ValidationInfo
 
 from internationalization.repositories.bcp47.schemas.abstract.bcp47_subtag import BCP47Subtag
@@ -10,9 +10,7 @@ from internationalization.repositories.bcp47.schemas.bcp47_language import BCP47
 
 class BCP47ExtLangPreferredValue(BaseModel):
     language: Optional[BCP47Language] = None
-
-    class Config:
-        extra = 'forbid'
+    model_config = ConfigDict(extra='forbid')
 
 
 class BCP47ExtLangPrefix(BaseModel):
@@ -21,9 +19,7 @@ class BCP47ExtLangPrefix(BaseModel):
     @property
     def tag(self) -> str:
         return self.language.subtag
-
-    class Config:
-        extra = 'forbid'
+    model_config = ConfigDict(extra='forbid')
 
 
 class BCP47ExtLang(BCP47Subtag):

@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import List
 
-from pydantic import BaseModel
+from pydantic import ConfigDict, BaseModel
 
 
 class BCP47Base(BaseModel):
@@ -9,5 +9,4 @@ class BCP47Base(BaseModel):
     added: datetime
     updated_at: datetime
 
-    class Config:
-        extra = 'forbid'
+    model_config = ConfigDict(extra='forbid')

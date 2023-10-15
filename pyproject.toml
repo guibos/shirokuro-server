@@ -12,15 +12,15 @@ authors = ["guibos <22233599+guibos@users.noreply.github.com>"]
 python = ">=3.8.1,<4.0"
 daphne = "^4.0.0"
 Django = "^4.2.2"
-django-storages = "^1.14"
-pydantic = "^2.3.0"
+django-storages = "^1.14.2"
+pydantic = "^2.4.2"
 rdflib = "^7.0.0"
-platformdirs = "^3.10.0"
-strawberry-graphql = "^0.209.0"
-strawberry-graphql-django = "0.17.3"
+platformdirs = "^3.11.0"
+strawberry-graphql = "^0.209.7"
+strawberry-graphql-django = "0.21.0"
 
 [tool.poetry.dev-dependencies]
-mypy = "^1.5.1"
+mypy = "^1.6.0"
 pytest-cov = "^4.1.0"
 pytest-django = "^4.5.2"
 pytest-xdist = "^3.3.1"
@@ -37,6 +37,11 @@ update-pyi18n-info = "internationalization.repositories.py_i18n_info.py_i18n_inf
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "shirokuro.settings"
 python_files = "tests.py test_*.py *_tests.py"
+markers = [
+    "download: download data from external resources.",
+    "non_mocked: parse full data without mocking."
+]
+addopts = "--strict-markers"
 #addopts = "--cov --cov-append" #"--yapf --yapfdiff"
 
 [tool.yapf]

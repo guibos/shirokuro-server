@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import List, Optional
 
-from pydantic import BaseModel
+from pydantic import ConfigDict, BaseModel
 
 from internationalization.repositories.bcp47.schemas.abstract.bcp47_subtag import BCP47Subtag
 from internationalization.repositories.bcp47.schemas.abstract.preferred_value_validator import PreferredValueValidator
@@ -12,9 +12,7 @@ from internationalization.repositories.bcp47.schemas.bcp47_script import BCP47Sc
 
 class BCP47VariantPreferredValue(BaseModel):
     variant: 'BCP47Variant'
-
-    class Config:
-        extra = 'forbid'
+    model_config = ConfigDict(extra='forbid')
 
 
 class BCP47VariantPrefix(BCP47ExtLangPrefix):

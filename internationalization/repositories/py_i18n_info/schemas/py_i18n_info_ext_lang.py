@@ -1,6 +1,6 @@
 from typing import Optional, List
 
-from pydantic import BaseModel, field_validator
+from pydantic import ConfigDict, BaseModel, field_validator
 from pydantic_core.core_schema import ValidationInfo
 
 from internationalization.repositories.bcp47.schemas.bcp47_ext_lang import BCP47ExtLang
@@ -11,9 +11,7 @@ from internationalization.repositories.py_i18n_info.schemas.py_i18n_info_languag
 
 class Pyi18nInfoExtLangPreferredValue(BaseModel):
     language: Optional[Pyi18nInfoLanguage] = None
-
-    class Config:
-        extra = 'forbid'
+    model_config = ConfigDict(extra='forbid')
 
 
 class Pyi18nInfoExtLangPrefix(BaseModel):
@@ -22,9 +20,7 @@ class Pyi18nInfoExtLangPrefix(BaseModel):
     @property
     def tag(self) -> str:
         return self.language.subtag
-
-    class Config:
-        extra = 'forbid'
+    model_config = ConfigDict(extra='forbid')
 
 
 class Pyi18nInfoExtLang(BCP47ExtLang, Pyi18nInfoInternationalization):
