@@ -113,7 +113,7 @@ class BCP47Mock(BCP47Interface):
             preferred_value=BCP47RegionPreferredValue(region=region_united_kingdom))
 
         variant_fake = BCP47Variant(description=['Variant test 1', 'Variant test 2'],
-                                    added=datetime(2015, 4, 17, 0, 0),
+                                    added=datetime(2005, 4, 17, 0, 0),
                                     deprecated=None,
                                     updated_at=datetime(2023, 8, 2, 0, 0),
                                     subtag='fake1',
