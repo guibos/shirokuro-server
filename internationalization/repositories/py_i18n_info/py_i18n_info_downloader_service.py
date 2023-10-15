@@ -57,13 +57,28 @@ class Pyi18nInfoDownloaderService(Pyi18nInfoBase):
         ORDER BY ?un_m_49 ?iso_3166_1_alpha2
     """
 
+    _SPARQL_QUERY_BCP47_VARIANT = """
+        PREFIX wdt: <http://www.wikidata.org/prop/direct/>        
+
+        SELECT DISTINCT 
+            ?item 
+            ?bcp47 
+        WHERE {
+            SERVICE <https://query.wikidata.org/sparql> {
+                ?item wdt:P506 ?bcp47.
+            }
+        }
+        ORDER BY ?bcp47
+    """
+
     TEST_MODE_ITERATIONS = 2
 
     def download(self, *, replace_semantic_data: bool, test_mode: bool = False):
         g = rdflib.Graph()
         for query, data_dir in [[self._SPARQL_QUERY_BCP47_REGION, self._SEMANTIC_REGION_DATA_DIR],
                                 [self._SPARQL_QUERY_BCP47_SCRIPT, self._SEMANTIC_SCRIPT_DATA_DIR],
-                                [self._SPARQL_QUERY_BCP47_LANGUAGE, self._SEMANTIC_LANGUAGE_DATA_DIR]]:
+                                [self._SPARQL_QUERY_BCP47_LANGUAGE, self._SEMANTIC_LANGUAGE_DATA_DIR],
+                                [self._SPARQL_QUERY_BCP47_VARIANT, self._SEMANTIC_VARIANT_DATA_DIR]]:
             # TODO: It is required to download variants subtags. Problems:
             #   - ISO 639-6 not match with bcp47 subtag
             #   - ISO 639-6 is withdraw
