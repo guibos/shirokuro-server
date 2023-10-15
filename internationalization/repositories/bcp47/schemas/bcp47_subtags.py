@@ -27,4 +27,5 @@ class BCP47Subtags(BaseModel):
 
     def __eq__(self, other):
         return self.tag == other.tag
+
     model_config = ConfigDict(extra='forbid')

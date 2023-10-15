@@ -19,6 +19,7 @@ def test_py_i18n_info_repository_region_list(py_i18n_info_repository_mock: Pyi18
     for regions in py_i18n_info_repository_mock.regions:
         assert isinstance(regions, Pyi18nInfoRegion)
 
+
 def test_py_i18n_info_repository_region_get_by_tag_insensitive(py_i18n_info_repository_mock: Pyi18nInfoInterface):
     assert py_i18n_info_repository_mock.get_region_by_subtag('GB')
     assert py_i18n_info_repository_mock.get_region_by_subtag('gb')

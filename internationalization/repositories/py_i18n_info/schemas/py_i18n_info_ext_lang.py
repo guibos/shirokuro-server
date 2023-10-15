@@ -20,6 +20,7 @@ class Pyi18nInfoExtLangPrefix(BaseModel):
     @property
     def tag(self) -> str:
         return self.language.subtag
+
     model_config = ConfigDict(extra='forbid')
 
 

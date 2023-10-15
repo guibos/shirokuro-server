@@ -11,79 +11,28 @@ from internationalization.repositories.py_i18n_info._py_i18n_info_base import Py
 
 class Pyi18nInfoDownloaderService(Pyi18nInfoBase):
     _WIKIDATA_ENDPOINT = 'https://www.wikidata.org/wiki/Special:EntityData/{id}.ttl?flavor=simple'
-    _SPARQL_QUERY_BCP47_LANGUAGE = """
-        PREFIX wdt: <http://www.wikidata.org/prop/direct/>        
-
-        SELECT DISTINCT 
-            ?item 
-            ?bcp47
-        WHERE {
-            SERVICE <https://query.wikidata.org/sparql> {
-                ?item wdt:P305 ?bcp47.                
-                OPTIONAL { ?item wdt:P218 ?iso_639_1. }
-                OPTIONAL { ?item wdt:P220 ?iso_639_3. }
-                OPTIONAL { ?item wdt:P1798 ?iso_639_5. }
-                FILTER ( ?iso_639_1 || ?iso_639_3 || ?iso_639_5 ) 
-            }
-        }
-        ORDER BY ?bcp47
-    """
-    _SPARQL_QUERY_BCP47_SCRIPT = """
-        PREFIX wdt: <http://www.wikidata.org/prop/direct/>        
-
-        SELECT DISTINCT 
-            ?item 
-            ?bcp47 
-        WHERE {
-            SERVICE <https://query.wikidata.org/sparql> {
-                ?item wdt:P506 ?bcp47.
-            }
-        }
-        ORDER BY ?bcp47
-    """
-    _SPARQL_QUERY_BCP47_REGION = """
-        PREFIX wdt: <http://www.wikidata.org/prop/direct/>        
-
-        SELECT DISTINCT 
-            ?item 
-            (coalesce (?iso_3166_1_alpha2, ?un_m_49) as ?bcp47)
-        WHERE {
-            SERVICE <https://query.wikidata.org/sparql> {
-                OPTIONAL { ?item wdt:P297 ?iso_3166_1_alpha2. }
-                OPTIONAL { ?item wdt:P2082 ?un_m_49. }
-                FILTER ( ?iso_3166_1_alpha2 || ?un_m_49 ) 
-            }
-        }
-        ORDER BY ?un_m_49 ?iso_3166_1_alpha2
-    """
-
-    _SPARQL_QUERY_BCP47_VARIANT = """
-        PREFIX wdt: <http://www.wikidata.org/prop/direct/>        
-
-        SELECT DISTINCT 
-            ?item 
-            ?bcp47 
-        WHERE {
-            SERVICE <https://query.wikidata.org/sparql> {
-                ?item wdt:P506 ?bcp47.
-            }
-        }
-        ORDER BY ?bcp47
-    """
+    _SPARQL_QUERY_BCP47_LANGUAGE = "internationalization/repositories/py_i18n_info/queries/"\
+                                   "get_languages_resources_urls.rq"
+    _SPARQL_QUERY_BCP47_SCRIPT = "internationalization/repositories/py_i18n_info/queries/get_scripts_resources_urls.rq"
+    _SPARQL_QUERY_BCP47_REGION = "internationalization/repositories/py_i18n_info/queries/get_regions_resources_urls.rq"
+    _SPARQL_QUERY_BCP47_VARIANT = "internationalization/repositories/py_i18n_info/queries/get_variant_resources_urls.rq"
 
     TEST_MODE_ITERATIONS = 2
 
     def download(self, *, replace_semantic_data: bool, test_mode: bool = False):
         g = rdflib.Graph()
-        for query, data_dir in [[self._SPARQL_QUERY_BCP47_REGION, self._SEMANTIC_REGION_DATA_DIR],
-                                [self._SPARQL_QUERY_BCP47_SCRIPT, self._SEMANTIC_SCRIPT_DATA_DIR],
-                                [self._SPARQL_QUERY_BCP47_LANGUAGE, self._SEMANTIC_LANGUAGE_DATA_DIR],
-                                [self._SPARQL_QUERY_BCP47_VARIANT, self._SEMANTIC_VARIANT_DATA_DIR]]:
+        for query_file, data_dir in [
+            [self._SPARQL_QUERY_BCP47_REGION, self._SEMANTIC_REGION_DATA_DIR],
+            [self._SPARQL_QUERY_BCP47_SCRIPT, self._SEMANTIC_SCRIPT_DATA_DIR],
+            [self._SPARQL_QUERY_BCP47_LANGUAGE, self._SEMANTIC_LANGUAGE_DATA_DIR],
+                # [self._SPARQL_QUERY_BCP47_VARIANT, self._SEMANTIC_VARIANT_DATA_DIR]
+        ]:
             # TODO: It is required to download variants subtags. Problems:
             #   - ISO 639-6 not match with bcp47 subtag
             #   - ISO 639-6 is withdraw
             #   - Wikidata BCP47 field could (or not) include language subtag.
-
+            with open(query_file, 'r') as f:
+                query = f.read()
             sparql_result = g.query(query)
 
             i = 0

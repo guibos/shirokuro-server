@@ -29,7 +29,8 @@ def test_py_i18n_info_repository_variant_get_by_subtag_not_found(py_i18n_info_re
         py_i18n_info_repository_mock.get_variant_by_subtag('Err')
 
 
-def test_py_i18n_info_repository_variant_get_by_subtag_case_sensitive(py_i18n_info_repository_mock: Pyi18nInfoInterface):
+def test_py_i18n_info_repository_variant_get_by_subtag_case_sensitive(
+        py_i18n_info_repository_mock: Pyi18nInfoInterface):
     with pytest.raises(Pyi18nInfoVariantSubtagNotFoundError):
         py_i18n_info_repository_mock.get_variant_by_subtag('Oxendict', case_sensitive=True)
 
