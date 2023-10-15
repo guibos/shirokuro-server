@@ -8,9 +8,16 @@ from internationalization.repositories.py_i18n_info.exceptions.py_i18n_info_regi
 from internationalization.repositories.py_i18n_info.py_i18n_info_interface import Pyi18nInfoInterface
 from internationalization.repositories.py_i18n_info.schemas.abstract.py_i18n_info_translation import \
     Pyi18nInfoTranslation
-from internationalization.repositories.py_i18n_info.schemas.py_i18n_info_region import Pyi18nInfoRegionPreferredValue
+from internationalization.repositories.py_i18n_info.schemas.py_i18n_info_region import Pyi18nInfoRegionPreferredValue, \
+    Pyi18nInfoRegion
 from internationalization.repositories.py_i18n_info.schemas.py_i18n_info_subtags import Pyi18nInfoSubtags
 
+
+def test_py_i18n_info_repository_region_list(py_i18n_info_repository_mock: Pyi18nInfoInterface):
+    assert py_i18n_info_repository_mock.regions
+
+    for regions in py_i18n_info_repository_mock.regions:
+        assert isinstance(regions, Pyi18nInfoRegion)
 
 def test_py_i18n_info_repository_region_get_by_tag_insensitive(py_i18n_info_repository_mock: Pyi18nInfoInterface):
     assert py_i18n_info_repository_mock.get_region_by_subtag('GB')

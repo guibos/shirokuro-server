@@ -15,7 +15,7 @@ def test_py_i18n_info_repository_language_list(py_i18n_info_repository_mock: Pyi
     assert py_i18n_info_repository_mock.languages
 
     for language_scope in py_i18n_info_repository_mock.languages:
-        assert type(language_scope) == Pyi18nInfoLanguage
+        assert isinstance(language_scope, Pyi18nInfoLanguage)
 
 
 def test_py_i18n_info_repository_language_get_by_tag_insensitive(py_i18n_info_repository_mock: Pyi18nInfoInterface):

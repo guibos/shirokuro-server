@@ -15,7 +15,7 @@ def test_py_i18n_info_repository_ext_lang_list(py_i18n_info_repository_mock: Pyi
     assert py_i18n_info_repository_mock.ext_langs
 
     for ext_lang in py_i18n_info_repository_mock.ext_langs:
-        assert type(ext_lang) == Pyi18nInfoExtLang
+        assert isinstance(ext_lang, Pyi18nInfoExtLang)
 
 
 def test_py_i18n_info_repository_ext_lang_get_by_tag_insensitive(py_i18n_info_repository_mock: Pyi18nInfoInterface):

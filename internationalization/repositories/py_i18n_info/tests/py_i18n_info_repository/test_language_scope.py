@@ -9,7 +9,7 @@ from internationalization.repositories.py_i18n_info.schemas.py_i18n_info_languag
 
 def test_py_i18n_info_repository_language_scope_list(py_i18n_info_repository_mock: Pyi18nInfoInterface):
     for language_scope in py_i18n_info_repository_mock.languages_scopes:
-        assert type(language_scope) == Pyi18nInfoLanguageScope
+        assert isinstance(language_scope, Pyi18nInfoLanguageScope)
 
 
 def test_py_i18n_info_repository_language_scope_get_by_name(py_i18n_info_repository_mock: Pyi18nInfoInterface):

@@ -14,7 +14,7 @@ def test_py_i18n_info_repository_script_list(py_i18n_info_repository_mock: Pyi18
     assert py_i18n_info_repository_mock.scripts
 
     for script in py_i18n_info_repository_mock.scripts:
-        assert type(script) == Pyi18nInfoScript
+        assert isinstance(script, Pyi18nInfoScript)
 
 
 def test_py_i18n_info_repository_script_get_by_subtag_case_insensitive(
