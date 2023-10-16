@@ -1,0 +1,102 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q8053879 a schema:Dataset ;
+	schema:about wd:Q8053879 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1958510350"^^xsd:integer ;
+	schema:dateModified "2023-08-22T01:35:15Z"^^xsd:dateTime .
+
+wd:Q8053879 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Yitha_Yitha_language> a schema:Article ;
+	schema:about wd:Q8053879 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Yitha Yitha language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_yitha-yitha> a schema:Article ;
+	schema:about wd:Q8053879 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma yitha-yitha"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q8053879 wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "yith1234" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/yith1234> ;
+	wdt:P1394 "lowe1403" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lowe1403> ;
+	wdt:P1252 "D7" ;
+	wdt:P220 "xth" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xth> ;
+	wdt:P279 wd:Q6693644 ;
+	wdt:P2192 "6747" ;
+	wdt:P305 "xth" ;
+	wdt:P1627 "xth" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3224,
+		wd:Q35715 ;
+	wdt:P6915 "Yitha-Yitha" ;
+	wdt:P646 "/m/0h1hjx6" ;
+	rdfs:label "Yitha Yitha"@en ;
+	skos:prefLabel "Yitha Yitha"@en ;
+	schema:name "Yitha Yitha"@en ;
+	rdfs:label "yitha yitha"@fr ;
+	skos:prefLabel "yitha yitha"@fr ;
+	schema:name "yitha yitha"@fr ;
+	rdfs:label "イタイタ語"@ja ;
+	skos:prefLabel "イタイタ語"@ja ;
+	schema:name "イタイタ語"@ja ;
+	rdfs:label "Idioma yitha-yitha"@es ;
+	skos:prefLabel "Idioma yitha-yitha"@es ;
+	schema:name "Idioma yitha-yitha"@es ;
+	schema:description "langue pama-nyungan"@fr,
+		"language"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Yitha-Yitha"@en,
+		"Yitha Yitha language"@en,
+		"ダディダディ語"@ja .
+
+wd:Q50924997 owl:sameAs wd:Q8053879 .

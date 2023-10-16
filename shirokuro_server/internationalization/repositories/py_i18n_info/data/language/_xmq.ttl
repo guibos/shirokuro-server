@@ -1,0 +1,110 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10549851 a schema:Dataset ;
+	schema:about wd:Q10549851 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1958509577"^^xsd:integer ;
+	schema:dateModified "2023-08-22T01:33:45Z"^^xsd:dateTime .
+
+wd:Q10549851 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_kuku-mangk> a schema:Article ;
+	schema:about wd:Q10549851 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kuku-mangk"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Kuku-mangk> a schema:Article ;
+	schema:about wd:Q10549851 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Kuku-mangk"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikuku-Mangk> a schema:Article ;
+	schema:about wd:Q10549851 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikuku-Mangk"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10549851 wdt:P31 wd:Q5015649,
+		wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P220 "xmq" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xmq> ;
+	wdt:P1394 "kuku1279" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kuku1279> ;
+	wdt:P1252 "Y174" ;
+	wdt:P2192 "3240" ;
+	wdt:P305 "xmq" ;
+	wdt:P1627 "xmq" ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q36074 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XMQ> ;
+	wdt:P910 wd:Q105715412 ;
+	rdfs:label "Kuku-mangk"@sv ;
+	skos:prefLabel "Kuku-mangk"@sv ;
+	schema:name "Kuku-mangk"@sv ;
+	rdfs:label "Lenga kuku-mangk"@pms ;
+	skos:prefLabel "Lenga kuku-mangk"@pms ;
+	schema:name "Lenga kuku-mangk"@pms ;
+	rdfs:label "Kuku-Mangk"@en ;
+	skos:prefLabel "Kuku-Mangk"@en ;
+	schema:name "Kuku-Mangk"@en ;
+	rdfs:label "Kuku-Mangk"@en-gb ;
+	skos:prefLabel "Kuku-Mangk"@en-gb ;
+	schema:name "Kuku-Mangk"@en-gb ;
+	rdfs:label "Kikuku-Mangk"@sw ;
+	skos:prefLabel "Kikuku-Mangk"@sw ;
+	schema:name "Kikuku-Mangk"@sw ;
+	rdfs:label "kuku-mangk"@fr ;
+	skos:prefLabel "kuku-mangk"@fr ;
+	schema:name "kuku-mangk"@fr ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"lugha ya asili ya Australia iliyotoweka"@sw,
+		"yezh"@br,
+		"langue non attestée"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"utdött australiskt språk"@sv .

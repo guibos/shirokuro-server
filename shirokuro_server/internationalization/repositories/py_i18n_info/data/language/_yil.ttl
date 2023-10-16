@@ -1,0 +1,131 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q10723541 a schema:Dataset ;
+	schema:about wd:Q10723541 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1958511544"^^xsd:integer ;
+	schema:dateModified "2023-08-22T01:36:58Z"^^xsd:dateTime .
+
+wd:Q10723541 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_yindjilandji> a schema:Article ;
+	schema:about wd:Q10723541 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga yindjilandji"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Yindjilandji> a schema:Article ;
+	schema:about wd:Q10723541 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Yindjilandji"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiyindjilandji> a schema:Article ;
+	schema:about wd:Q10723541 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiyindjilandji"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Yindjilandji> a schema:Article ;
+	schema:about wd:Q10723541 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Yindjilandji"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q10723541 wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P220 "yil" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/yil> ;
+	wdt:P1394 "yind1248" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/yind1248> ;
+	wdt:P279 wd:Q7022081 ;
+	wdt:P1252 "G14" ;
+	wdt:P305 "yil" ;
+	wdt:P1627 "yil" ;
+	wdt:P910 wd:Q33669732 ;
+	wdt:P2192 "3192" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3235 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/YIL> ;
+	wdt:P6915 "Indjilandji" ;
+	wdt:P2671 "/g/11dykq0z6" ;
+	wdtn:P2671 <http://g.co/kg/g/11dykq0z6> ;
+	rdfs:label "Yindjilandji"@sv ;
+	skos:prefLabel "Yindjilandji"@sv ;
+	schema:name "Yindjilandji"@sv ;
+	rdfs:label "Lenga yindjilandji"@pms ;
+	skos:prefLabel "Lenga yindjilandji"@pms ;
+	schema:name "Lenga yindjilandji"@pms ;
+	rdfs:label "Yindjilandji"@en ;
+	skos:prefLabel "Yindjilandji"@en ;
+	schema:name "Yindjilandji"@en ;
+	rdfs:label "Yindjilandji"@en-gb ;
+	skos:prefLabel "Yindjilandji"@en-gb ;
+	schema:name "Yindjilandji"@en-gb ;
+	rdfs:label "yindjilandji"@fr ;
+	skos:prefLabel "yindjilandji"@fr ;
+	schema:name "yindjilandji"@fr ;
+	rdfs:label "Kiyindjilandji"@sw ;
+	skos:prefLabel "Kiyindjilandji"@sw ;
+	schema:name "Kiyindjilandji"@sw ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"langue pama–nyungan"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language of Indigenous people of the Northern Territory in Australia"@en,
+		"lingua"@la,
+		"iaith"@cy,
+		"utdött australiskt språk"@sv ;
+	skos:altLabel "Bularnu"@en,
+		"Dhidhanu"@en,
+		"Inchalachee"@en,
+		"Inchalanchee"@en,
+		"Indjilandji"@en,
+		"Indjilindji"@en,
+		"Indjurandji"@en,
+		"Indkilindji"@en,
+		"Injilinji"@en,
+		"Intjilatja"@en .

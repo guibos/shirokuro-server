@@ -1,0 +1,73 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q65455881 a schema:Dataset ;
+	schema:about wd:Q65455881 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1990622366"^^xsd:integer ;
+	schema:dateModified "2023-10-13T00:33:35Z"^^xsd:dateTime .
+
+wd:Q65455881 a wikibase:Item .
+
+<https://de.wikipedia.org/wiki/Altmarathi> a schema:Article ;
+	schema:about wd:Q65455881 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Altmarathi"@de ;
+	wikibase:badge wd:Q70894304 .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Old_Marathi_language> a schema:Article ;
+	schema:about wd:Q65455881 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Old Marathi language"@en ;
+	wikibase:badge wd:Q70894304 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q65455881 wdt:P220 "omr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/omr> ;
+	wdt:P31 wd:Q34770 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/OMR> ;
+	wdt:P910 wd:Q104993754 ;
+	wdt:P1394 "oldm1244" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/oldm1244> ;
+	wdt:P305 "omr" ;
+	rdfs:label "Old Marathi"@en ;
+	skos:prefLabel "Old Marathi"@en ;
+	schema:name "Old Marathi"@en ;
+	rdfs:label "Altmarathi"@de ;
+	skos:prefLabel "Altmarathi"@de ;
+	schema:name "Altmarathi"@de ;
+	schema:description "language"@en .

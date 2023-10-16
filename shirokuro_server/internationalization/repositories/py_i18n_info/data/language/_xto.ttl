@@ -1,0 +1,136 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2827041 a schema:Dataset ;
+	schema:about wd:Q2827041 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1988499185"^^xsd:integer ;
+	schema:dateModified "2023-10-08T09:56:36Z"^^xsd:dateTime .
+
+wd:Q2827041 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Agn%C3%A9en> a schema:Article ;
+	schema:about wd:Q2827041 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Agnéen"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Tokaari_A> a schema:Article ;
+	schema:about wd:Q2827041 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Tokaari A"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_tocharski_A> a schema:Article ;
+	schema:about wd:Q2827041 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język tocharski A"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2827041 wdt:P220 "xto" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xto> ;
+	wdt:P31 wd:Q45762,
+		wd:Q34770,
+		wd:Q436240 ;
+	wdt:P305 "xto" ;
+	wdt:P279 wd:Q37029 ;
+	wdt:P1394 "tokh1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/tokh1242> ;
+	wdt:P4132 wd:Q318917 ;
+	wdt:P910 wd:Q31726916 ;
+	wdt:P1417 "topic/Tocharian-A" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XTO> ;
+	wdt:P2671 "/g/1215vgry" ;
+	wdtn:P2671 <http://g.co/kg/g/1215vgry> ;
+	wdt:P2671 "/g/11fvwzn8s4" ;
+	wdtn:P2671 <http://g.co/kg/g/11fvwzn8s4> ;
+	wdt:P17 wd:Q148 ;
+	rdfs:label "agnéen"@fr ;
+	skos:prefLabel "agnéen"@fr ;
+	schema:name "agnéen"@fr ;
+	rdfs:label "Tocharian A"@en ;
+	skos:prefLabel "Tocharian A"@en ;
+	schema:name "Tocharian A"@en ;
+	rdfs:label "Tokharian A"@en-gb ;
+	skos:prefLabel "Tokharian A"@en-gb ;
+	schema:name "Tokharian A"@en-gb ;
+	rdfs:label "tohhaari A keel"@et ;
+	skos:prefLabel "tohhaari A keel"@et ;
+	schema:name "tohhaari A keel"@et ;
+	rdfs:label "トカラ語A"@ja ;
+	skos:prefLabel "トカラ語A"@ja ;
+	schema:name "トカラ語A"@ja ;
+	rdfs:label "Oost-Tochaars"@nl ;
+	skos:prefLabel "Oost-Tochaars"@nl ;
+	schema:name "Oost-Tochaars"@nl ;
+	rdfs:label "tokaari A"@fi ;
+	skos:prefLabel "tokaari A"@fi ;
+	schema:name "tokaari A"@fi ;
+	rdfs:label "tokhár A"@hu ;
+	skos:prefLabel "tokhár A"@hu ;
+	schema:name "tokhár A"@hu ;
+	rdfs:label "Język tocharski A"@pl ;
+	skos:prefLabel "Język tocharski A"@pl ;
+	schema:name "Język tocharski A"@pl ;
+	schema:description "indogermanische Sprache"@de,
+		"langue tokharienne"@fr,
+		"extinct Indo-European language"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"lingua"@la,
+		"iaith"@cy,
+		"tokaarilaisiin kieliin kuulunut kuollut kieli"@fi,
+		"wymarły język indoeuropejski"@pl ;
+	skos:altLabel "tokharien A"@fr,
+		"tourfanien"@fr,
+		"Tokharian A"@en,
+		"Turfanian"@en,
+		"Agnean"@en,
+		"East Tocharian"@en,
+		"tokhár–A"@hu,
+		"tokhár-A"@hu,
+		"agne"@fi,
+		"turfan"@fi,
+		"itä-tokaari"@fi .
+
+wd:Q23304787 owl:sameAs wd:Q2827041 .
+
+wd:Q97179207 owl:sameAs wd:Q2827041 .

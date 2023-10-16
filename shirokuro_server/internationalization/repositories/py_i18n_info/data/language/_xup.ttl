@@ -1,0 +1,149 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q20607 a schema:Dataset ;
+	schema:about wd:Q20607 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961853756"^^xsd:integer ;
+	schema:dateModified "2023-08-26T20:15:41Z"^^xsd:dateTime .
+
+wd:Q20607 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Alt_umpqua> a schema:Article ;
+	schema:about wd:Q20607 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Alt umpqua"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Umpqua_spriak> a schema:Article ;
+	schema:about wd:Q20607 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Umpqua spriak"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Upper_Umpqua_language> a schema:Article ;
+	schema:about wd:Q20607 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Upper Umpqua language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Upper_Umpqua> a schema:Article ;
+	schema:about wd:Q20607 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Upper Umpqua"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/%C3%98vre_umpqua> a schema:Article ;
+	schema:about wd:Q20607 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Øvre umpqua"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q20607 wdt:P31 wd:Q34770,
+		wd:Q38058796 ;
+	wdt:P220 "xup" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xup> ;
+	wdt:P1394 "uppe1436" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/uppe1436> ;
+	wdt:P2355 "777" ;
+	wdt:P305 "xup" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XUP> ;
+	wdt:P1999 wd:Q20672091 ;
+	wdt:P279 wd:Q20654 ;
+	wdt:P646 "/m/02hwf6y" ;
+	wdt:P17 wd:Q30 ;
+	rdfs:label "Upper Umpqua"@en ;
+	skos:prefLabel "Upper Umpqua"@en ;
+	schema:name "Upper Umpqua"@en ;
+	rdfs:label "Umpqua spriak"@frr ;
+	skos:prefLabel "Umpqua spriak"@frr ;
+	schema:name "Umpqua spriak"@frr ;
+	rdfs:label "Upper Umpqua"@en-ca ;
+	skos:prefLabel "Upper Umpqua"@en-ca ;
+	schema:name "Upper Umpqua"@en-ca ;
+	rdfs:label "Upper Umpqua"@en-gb ;
+	skos:prefLabel "Upper Umpqua"@en-gb ;
+	schema:name "Upper Umpqua"@en-gb ;
+	rdfs:label "Umpqua"@de ;
+	skos:prefLabel "Umpqua"@de ;
+	schema:name "Umpqua"@de ;
+	rdfs:label "alto Umpqua"@es ;
+	skos:prefLabel "alto Umpqua"@es ;
+	schema:name "alto Umpqua"@es ;
+	rdfs:label "Upper Umpqua"@nl ;
+	skos:prefLabel "Upper Umpqua"@nl ;
+	schema:name "Upper Umpqua"@nl ;
+	rdfs:label "lingua upper umpqua"@it ;
+	skos:prefLabel "lingua upper umpqua"@it ;
+	schema:name "lingua upper umpqua"@it ;
+	rdfs:label "alt umpqua"@ca ;
+	skos:prefLabel "alt umpqua"@ca ;
+	schema:name "alt umpqua"@ca ;
+	rdfs:label "upper Umpqua"@fr ;
+	skos:prefLabel "upper Umpqua"@fr ;
+	schema:name "upper Umpqua"@fr ;
+	rdfs:label "Wikang Mataas na Umpqua"@tl ;
+	skos:prefLabel "Wikang Mataas na Umpqua"@tl ;
+	schema:name "Wikang Mataas na Umpqua"@tl ;
+	rdfs:label "Øvre umpqua"@nb ;
+	skos:prefLabel "Øvre umpqua"@nb ;
+	schema:name "Øvre umpqua"@nb ;
+	rdfs:label "upper umpqua"@vec ;
+	skos:prefLabel "upper umpqua"@vec ;
+	schema:name "upper umpqua"@vec ;
+	schema:description "type of language"@en,
+		"lengua extinta"@es,
+		"ausgestrobene athapaskische Sprache"@de,
+		"lingua"@it,
+		"taal"@nl,
+		"langue"@fr,
+		"שפה"@he,
+		"yezh"@br,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Umpqua language"@en,
+		"ISO 639:xup"@en,
+		"Upper Umpqua language"@en,
+		"Boower-Umpqua spriak"@frr,
+		"Umpqua"@es .
+
+wd:Q65307988 owl:sameAs wd:Q20607 .

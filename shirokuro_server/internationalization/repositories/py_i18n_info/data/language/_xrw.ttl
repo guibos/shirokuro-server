@@ -1,0 +1,171 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6368857 a schema:Dataset ;
+	schema:about wd:Q6368857 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960459032"^^xsd:integer ;
+	schema:dateModified "2023-08-24T21:11:05Z"^^xsd:dateTime .
+
+wd:Q6368857 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Karawa_language> a schema:Article ;
+	schema:about wd:Q6368857 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Karawa language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Karawa> a schema:Article ;
+	schema:about wd:Q6368857 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Karawa"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Karawaeg> a schema:Article ;
+	schema:about wd:Q6368857 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Karawaeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikarawa> a schema:Article ;
+	schema:about wd:Q6368857 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikarawa"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Karawa> a schema:Article ;
+	schema:about wd:Q6368857 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Karawa"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Karawa_(langue)> a schema:Article ;
+	schema:about wd:Q6368857 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Karawa (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ilo.wikipedia.org/wiki/Pagsasao_a_Karawa> a schema:Article ;
+	schema:about wd:Q6368857 ;
+	schema:inLanguage "ilo" ;
+	schema:isPartOf <https://ilo.wikipedia.org/> ;
+	schema:name "Pagsasao a Karawa"@ilo .
+
+<https://ilo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://diq.wikipedia.org/wiki/Karawaki> a schema:Article ;
+	schema:about wd:Q6368857 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Karawaki"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6368857 wdt:P220 "xrw" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xrw> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P279 wd:Q7288619 ;
+	wdt:P1394 "kara1495" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kara1495> ;
+	wdt:P2581 "02860892n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s02860892n> ;
+	wdt:P910 wd:Q33673245 ;
+	wdt:P2192 "3231" ;
+	wdt:P305 "xrw" ;
+	wdt:P1627 "xrw" ;
+	wdt:P3823 wd:Q29051558 ;
+	wdt:P17 wd:Q691 ;
+	wdt:P2341 wd:Q753689 ;
+	wdt:P646 "/m/02hxvhz" ;
+	wdt:P625 "Point(142.014408 -3.665801)"^^geo:wktLiteral ;
+	rdfs:label "Karawa"@en ;
+	skos:prefLabel "Karawa"@en ;
+	schema:name "Karawa"@en ;
+	rdfs:label "Karawa"@en-ca ;
+	skos:prefLabel "Karawa"@en-ca ;
+	schema:name "Karawa"@en-ca ;
+	rdfs:label "Karawa"@en-gb ;
+	skos:prefLabel "Karawa"@en-gb ;
+	schema:name "Karawa"@en-gb ;
+	rdfs:label "Karawa"@fi ;
+	skos:prefLabel "Karawa"@fi ;
+	schema:name "Karawa"@fi ;
+	rdfs:label "karawaeg"@br ;
+	skos:prefLabel "karawaeg"@br ;
+	schema:name "karawaeg"@br ;
+	rdfs:label "Lenga Karawa"@pms ;
+	skos:prefLabel "Lenga Karawa"@pms ;
+	schema:name "Lenga Karawa"@pms ;
+	rdfs:label "Kikarawa"@sw ;
+	skos:prefLabel "Kikarawa"@sw ;
+	schema:name "Kikarawa"@sw ;
+	rdfs:label "karawa"@fr ;
+	skos:prefLabel "karawa"@fr ;
+	schema:name "karawa"@fr ;
+	rdfs:label "Język karawa"@pl ;
+	skos:prefLabel "Język karawa"@pl ;
+	schema:name "Język karawa"@pl ;
+	rdfs:label "Karawa"@ilo ;
+	skos:prefLabel "Karawa"@ilo ;
+	schema:name "Karawa"@ilo ;
+	rdfs:label "Karawaki"@diq ;
+	skos:prefLabel "Karawaki"@diq ;
+	schema:name "Karawaki"@diq ;
+	schema:description "Sprache"@de,
+		"langue sepik"@fr,
+		"שפה"@he,
+		"pagsasao idiay Papua Baro a Guinea"@ilo,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Karawa language"@en .
+
+wd:Q11732284 owl:sameAs wd:Q6368857 .
+
+wd:Q12952576 owl:sameAs wd:Q6368857 .

@@ -1,0 +1,137 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2474492 a schema:Dataset ;
+	schema:about wd:Q2474492 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961853588"^^xsd:integer ;
+	schema:dateModified "2023-08-26T20:15:28Z"^^xsd:dateTime .
+
+wd:Q2474492 a wikibase:Item .
+
+<https://ca.wikipedia.org/wiki/Solano> a schema:Article ;
+	schema:about wd:Q2474492 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Solano"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Solano_(langue)> a schema:Article ;
+	schema:about wd:Q2474492 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Solano (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BB%D0%B0%D0%BD%D0%BE_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q2474492 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Солано (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BB%D0%B0%D0%BD%D0%BE%D1%81%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q2474492 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Соланоски јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Solano_language> a schema:Article ;
+	schema:about wd:Q2474492 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Solano language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_solano> a schema:Article ;
+	schema:about wd:Q2474492 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma solano"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2474492 wdt:P220 "xso" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xso> ;
+	wdt:P31 wd:Q34770,
+		wd:Q38058796,
+		wd:Q4085712 ;
+	wdt:P646 "/m/02hw_nr" ;
+	wdt:P305 "xso" ;
+	wdt:P279 wd:Q51739 ;
+	wdt:P1394 "sanf1266" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/sanf1266> ;
+	wdt:P4132 wd:Q33648 ;
+	a wdno:P282 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XSO> ;
+	wdt:P17 wd:Q30 ;
+	rdfs:label "solano"@fr ;
+	skos:prefLabel "solano"@fr ;
+	schema:name "solano"@fr ;
+	rdfs:label "Солано"@ru ;
+	skos:prefLabel "Солано"@ru ;
+	schema:name "Солано"@ru ;
+	rdfs:label "Idioma solano"@es ;
+	skos:prefLabel "Idioma solano"@es ;
+	schema:name "Idioma solano"@es ;
+	rdfs:label "Solano"@en ;
+	skos:prefLabel "Solano"@en ;
+	schema:name "Solano"@en ;
+	rdfs:label "Соланоски јазик"@mk ;
+	skos:prefLabel "Соланоски јазик"@mk ;
+	schema:name "Соланоски јазик"@mk ;
+	rdfs:label "solano"@ca ;
+	skos:prefLabel "solano"@ca ;
+	schema:name "solano"@ca ;
+	rdfs:label "Solano"@en-gb ;
+	skos:prefLabel "Solano"@en-gb ;
+	schema:name "Solano"@en-gb ;
+	rdfs:label "סולאנו"@he ;
+	skos:prefLabel "סולאנו"@he ;
+	schema:name "סולאנו"@he ;
+	schema:description "Sprache"@de,
+		"extinct language"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Solano language"@en .

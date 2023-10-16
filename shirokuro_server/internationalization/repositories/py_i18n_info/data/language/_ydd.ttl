@@ -1,0 +1,155 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953980 a schema:Dataset ;
+	schema:about wd:Q12953980 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1988039661"^^xsd:integer ;
+	schema:dateModified "2023-10-07T18:12:19Z"^^xsd:dateTime .
+
+wd:Q12953980 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_yiddish_oriental> a schema:Article ;
+	schema:about wd:Q12953980 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga yiddish oriental"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nds.wikipedia.org/wiki/Oostjiddisch> a schema:Article ;
+	schema:about wd:Q12953980 ;
+	schema:inLanguage "nds" ;
+	schema:isPartOf <https://nds.wikipedia.org/> ;
+	schema:name "Oostjiddisch"@nds .
+
+<https://nds.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Ostjiddische_Dialekte> a schema:Article ;
+	schema:about wd:Q12953980 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Ostjiddische Dialekte"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953980 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "ydd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ydd> ;
+	wdt:P279 wd:Q8641 ;
+	wdt:P1394 "east2295" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/east2295> ;
+	wdt:P2192 "3211" ;
+	wdt:P305 "ydd" ;
+	wdt:P1627 "ydd" ;
+	wdt:P3823 wd:Q29051550 ;
+	wdt:P17 wd:Q212 ;
+	wdt:P2341 wd:Q212 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/YDD> ;
+	wdt:P1417 "topic/Eastern-Yiddish-language" ;
+	wdt:P2671 "/g/1pz2ttt22" ;
+	wdtn:P2671 <http://g.co/kg/g/1pz2ttt22> ;
+	wdt:P5008 wd:Q10780973 ;
+	rdfs:label "Lenga yiddish oriental"@pms ;
+	skos:prefLabel "Lenga yiddish oriental"@pms ;
+	schema:name "Lenga yiddish oriental"@pms ;
+	rdfs:label "yiddish oriental"@fr ;
+	skos:prefLabel "yiddish oriental"@fr ;
+	schema:name "yiddish oriental"@fr ;
+	rdfs:label "Eastern Yiddish"@en ;
+	skos:prefLabel "Eastern Yiddish"@en ;
+	schema:name "Eastern Yiddish"@en ;
+	rdfs:label "Ostjiddisch"@de ;
+	skos:prefLabel "Ostjiddisch"@de ;
+	schema:name "Ostjiddisch"@de ;
+	rdfs:label "מזרח יידיש"@yi ;
+	skos:prefLabel "מזרח יידיש"@yi ;
+	schema:name "מזרח יידיש"@yi ;
+	rdfs:label "יידיש במזרח"@he ;
+	skos:prefLabel "יידיש במזרח"@he ;
+	schema:name "יידיש במזרח"@he ;
+	rdfs:label "Oostjiddisch"@nds ;
+	skos:prefLabel "Oostjiddisch"@nds ;
+	schema:name "Oostjiddisch"@nds ;
+	rdfs:label "восточноидишский диалект"@ru ;
+	skos:prefLabel "восточноидишский диалект"@ru ;
+	schema:name "восточноидишский диалект"@ru ;
+	rdfs:label "yidis oriental"@es ;
+	skos:prefLabel "yidis oriental"@es ;
+	schema:name "yidis oriental"@es ;
+	rdfs:label "orientjida lingvo"@eo ;
+	skos:prefLabel "orientjida lingvo"@eo ;
+	schema:name "orientjida lingvo"@eo ;
+	rdfs:label "Eastern Yiddish"@en-gb ;
+	skos:prefLabel "Eastern Yiddish"@en-gb ;
+	schema:name "Eastern Yiddish"@en-gb ;
+	rdfs:label "yiddish orientale"@it ;
+	skos:prefLabel "yiddish orientale"@it ;
+	schema:name "yiddish orientale"@it ;
+	rdfs:label "Iddew-Almaeneg Dwyreiniol"@cy ;
+	skos:prefLabel "Iddew-Almaeneg Dwyreiniol"@cy ;
+	schema:name "Iddew-Almaeneg Dwyreiniol"@cy ;
+	rdfs:label "yiddish orientałe"@vec ;
+	skos:prefLabel "yiddish orientałe"@vec ;
+	schema:name "yiddish orientałe"@vec ;
+	rdfs:label "vzhodni jidiš"@sl ;
+	skos:prefLabel "vzhodni jidiš"@sl ;
+	schema:name "vzhodni jidiš"@sl ;
+	rdfs:label "Oost-Jiddisch"@nl ;
+	skos:prefLabel "Oost-Jiddisch"@nl ;
+	schema:name "Oost-Jiddisch"@nl ;
+	rdfs:label "東イディッシュ語"@ja ;
+	skos:prefLabel "東イディッシュ語"@ja ;
+	schema:name "東イディッシュ語"@ja ;
+	schema:description "indogermanische Sprache"@de,
+		"диалект идиша"@ru,
+		"idioma"@es,
+		"taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lingua"@it,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Lenga Yiddish oriental"@pms,
+		"ostjiddische Dialekte"@de,
+		"מזרח ייִדיש דייאַלעקץ"@yi,
+		"East Yiddish dialects"@en,
+		"ניבים ביידיש מזרח"@he,
+		"восточноидишский"@ru,
+		"восточный идиш"@ru,
+		"yiddish oriental"@es,
+		"yidish oriental"@es,
+		"lingua yiddish orientale"@it,
+		"vzhodnojidiška narečja"@sl .

@@ -1,0 +1,122 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7022712 a schema:Dataset ;
+	schema:about wd:Q7022712 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1958510418"^^xsd:integer ;
+	schema:dateModified "2023-08-22T01:35:24Z"^^xsd:dateTime .
+
+wd:Q7022712 a wikibase:Item .
+
+<https://sw.wikipedia.org/wiki/Kingunawal> a schema:Article ;
+	schema:about wd:Q7022712 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kingunawal"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Burragorang> a schema:Article ;
+	schema:about wd:Q7022712 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Burragorang"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Ngunnawal_language> a schema:Article ;
+	schema:about wd:Q7022712 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Ngunnawal language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_ngunnawal> a schema:Article ;
+	schema:about wd:Q7022712 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma ngunnawal"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7022712 wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1252 "D3" ;
+	wdt:P1394 "ngun1277" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/ngun1277> ;
+	wdt:P1394 "nort2760" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nort2760> ;
+	wdt:P220 "xul" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xul> ;
+	wdt:P279 wd:Q3833021 ;
+	wdt:P305 "xul" ;
+	wdt:P2192 "6682",
+		"6681" ;
+	wdt:P1627 "xul" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3224 ;
+	wdt:P6915 "Ngunawal" ;
+	wdt:P1232 "xul" ;
+	wdt:P646 "/m/0817gs" ;
+	wdt:P910 wd:Q105714206 ;
+	rdfs:label "Ngunnawal"@en ;
+	skos:prefLabel "Ngunnawal"@en ;
+	schema:name "Ngunnawal"@en ;
+	rdfs:label "Kingunawal"@sw ;
+	skos:prefLabel "Kingunawal"@sw ;
+	schema:name "Kingunawal"@sw ;
+	rdfs:label "ngunawal"@fr ;
+	skos:prefLabel "ngunawal"@fr ;
+	schema:name "ngunawal"@fr ;
+	rdfs:label "Burragorang"@cs ;
+	skos:prefLabel "Burragorang"@cs ;
+	schema:name "Burragorang"@cs ;
+	rdfs:label "Idioma ngunnawal"@es ;
+	skos:prefLabel "Idioma ngunnawal"@es ;
+	schema:name "Idioma ngunnawal"@es ;
+	schema:description "indigenous Australian language"@en,
+		"lugha ya asili ya Australia iliyotoweka"@sw,
+		"langue pama-nyungan"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Ngunawal language"@en,
+		"Nunukul language"@en,
+		"Ngunnawal language"@en .

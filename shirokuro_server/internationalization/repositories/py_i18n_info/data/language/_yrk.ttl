@@ -1,0 +1,876 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q36452 a schema:Dataset ;
+	schema:about wd:Q36452 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1989216639"^^xsd:integer ;
+	schema:dateModified "2023-10-09T13:30:23Z"^^xsd:dateTime .
+
+wd:Q36452 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Nenets> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Nenets"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BD%D0%B5%D1%86%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Ненецька мова"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cv.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BD%D0%B5%D1%86_%D1%87%C4%95%D0%BB%D1%85%D0%B8> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "cv" ;
+	schema:isPartOf <https://cv.wikipedia.org/> ;
+	schema:name "Ненец чĕлхи"@cv .
+
+<https://cv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://se.wikipedia.org/wiki/Nenetsagiella> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "se" ;
+	schema:isPartOf <https://se.wikipedia.org/> ;
+	schema:name "Nenetsagiella"@se .
+
+<https://se.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Nenetsisk> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Nenetsisk"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vep.wikipedia.org/wiki/Nencan_kel%27> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "vep" ;
+	schema:isPartOf <https://vep.wikipedia.org/> ;
+	schema:name "Nencan kel'"@vep .
+
+<https://vep.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bat-smg.wikipedia.org/wiki/Nencu_kalba> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "sgs" ;
+	schema:isPartOf <https://bat-smg.wikipedia.org/> ;
+	schema:name "Nencu kalba"@sgs .
+
+<https://bat-smg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://koi.wikipedia.org/wiki/%D0%AF%D1%80%D0%B0%D0%BD_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "koi" ;
+	schema:isPartOf <https://koi.wikipedia.org/> ;
+	schema:name "Яран кыв"@koi .
+
+<https://koi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lfn.wikipedia.org/wiki/Nenets_(lingua)> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "lfn" ;
+	schema:isPartOf <https://lfn.wikipedia.org/> ;
+	schema:name "Nenets (lingua)"@lfn .
+
+<https://lfn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%8D%E3%83%8D%E3%83%84%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ネネツ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mhr.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BD%D0%B5%D1%86_%D0%B9%D1%8B%D0%BB%D0%BC%D0%B5> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "mhr" ;
+	schema:isPartOf <https://mhr.wikipedia.org/> ;
+	schema:name "Ненец йылме"@mhr .
+
+<https://mhr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Nenes_dili> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Nenes dili"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hu.wikipedia.org/wiki/Nyenyec_nyelv> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "hu" ;
+	schema:isPartOf <https://hu.wikipedia.org/> ;
+	schema:name "Nyenyec nyelv"@hu .
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ka.wikipedia.org/wiki/%E1%83%9C%E1%83%94%E1%83%9C%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%94%E1%83%9C%E1%83%90> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "ნენური ენა"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ce.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BD%D1%86%D0%BE%D0%B9%D0%BD_%D0%BC%D0%BE%D1%82%D1%82> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "ce" ;
+	schema:isPartOf <https://ce.wikipedia.org/> ;
+	schema:name "Ненцойн мотт"@ce .
+
+<https://ce.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_nenezo> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma nenezo"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Neenetsi_keel> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Neenetsi keel"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Nenets> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Nenets"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ro.wikipedia.org/wiki/Limba_nene%C8%9B> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "ro" ;
+	schema:isPartOf <https://ro.wikipedia.org/> ;
+	schema:name "Limba neneț"@ro .
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ng%E1%BB%AF_chi_Nenets> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Ngữ chi Nenets"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Nenetseg> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Nenetseg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_nenezo> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma nenezo"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hif.wikipedia.org/wiki/Nenets_language> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "hif" ;
+	schema:isPartOf <https://hif.wikipedia.org/> ;
+	schema:name "Nenets language"@hif .
+
+<https://hif.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tt.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BD%D0%B5%D1%86_%D1%82%D0%B5%D0%BB%D0%B5> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "tt" ;
+	schema:isPartOf <https://tt.wikipedia.org/> ;
+	schema:name "Ненец теле"@tt .
+
+<https://tt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uz.wikipedia.org/wiki/Nenets_tili> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "uz" ;
+	schema:isPartOf <https://uz.wikipedia.org/> ;
+	schema:name "Nenets tili"@uz .
+
+<https://uz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BD%D0%B5%D1%86%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Ненецкий язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Nenets_languages> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Nenets languages"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://als.wikipedia.org/wiki/Nenzische_Sprache> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "gsw" ;
+	schema:isPartOf <https://als.wikipedia.org/> ;
+	schema:name "Nenzische Sprache"@gsw .
+
+<https://als.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mk.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BD%D0%B5%D1%86%D0%BA%D0%B8_%D1%98%D0%B0%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "mk" ;
+	schema:isPartOf <https://mk.wikipedia.org/> ;
+	schema:name "Ненецки јазик"@mk .
+
+<https://mk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kv.wikipedia.org/wiki/%D0%AF%D1%80%D0%B0%D0%BD_%D0%BA%D1%8B%D0%B2> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "kv" ;
+	schema:isPartOf <https://kv.wikipedia.org/> ;
+	schema:name "Яран кыв"@kv .
+
+<https://kv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Nenzische_Sprache> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Nenzische Sprache"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ga.wikipedia.org/wiki/Nein%C3%A9itsis> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "ga" ;
+	schema:isPartOf <https://ga.wikipedia.org/> ;
+	schema:name "Neinéitsis"@ga .
+
+<https://ga.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/N%C4%9Bne%C4%8Dtina> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Něnečtina"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Nenc%C5%B3_kalba> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Nencų kalba"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Nenets%C3%A7e> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Nenetsçe"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9D%D0%B5%D0%BD%D0%B5%D1%86%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikinews.org/> ;
+	schema:name "Категория:Ненецкий язык"@ru .
+
+<https://ru.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+<https://sv.wikipedia.org/wiki/Nentsiska> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Nentsiska"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Nenetsera> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Nenetsera"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://os.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BD%D0%BD%D0%B0%D0%B3_%C3%A6%D0%B2%D0%B7%D0%B0%D0%B3> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "os" ;
+	schema:isPartOf <https://os.wikipedia.org/> ;
+	schema:name "Неннаг æвзаг"@os .
+
+<https://os.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyk_nieniecki> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Język nieniecki"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gv.wikipedia.org/wiki/Nenetsish> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "gv" ;
+	schema:isPartOf <https://gv.wikipedia.org/> ;
+	schema:name "Nenetsish"@gv .
+
+<https://gv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bg.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BD%D0%B5%D1%86%D0%BA%D0%B8_%D0%B5%D0%B7%D0%B8%D0%BA> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "bg" ;
+	schema:isPartOf <https://bg.wikipedia.org/> ;
+	schema:name "Ненецки език"@bg .
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be-tarask.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BD%D0%B5%D1%86%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "be-tarask" ;
+	schema:isPartOf <https://be-tarask.wikipedia.org/> ;
+	schema:name "Ненецкая мова"@be-tarask .
+
+<https://be-tarask.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Iurac> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Iurac"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/N%C3%A9n%C3%A8tse> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Nénètse"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BD%D0%B5%D1%86%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B2%D0%B0> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "Ненецкая мова"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ab.wikipedia.org/wiki/%D0%90%D0%BD%D0%B5%D0%BD_%D0%B1%D1%8B%D0%B7%D1%88%D3%99%D0%B0> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "ab" ;
+	schema:isPartOf <https://ab.wikipedia.org/> ;
+	schema:name "Анен бызшәа"@ab .
+
+<https://ab.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Neneca_lingvo> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Neneca lingvo"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D9%86%D9%86%D8%AA%D8%B3%DB%8C> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان ننتسی"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Nenetsisk> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Nenetsisk"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://bn.wikipedia.org/wiki/%E0%A6%A8%E0%A7%87%E0%A6%A8%E0%A7%87%E0%A7%8E%E0%A6%B8_%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%BE%E0%A6%B8%E0%A6%AE%E0%A7%82%E0%A6%B9> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "bn" ;
+	schema:isPartOf <https://bn.wikipedia.org/> ;
+	schema:name "নেনেৎস ভাষাসমূহ"@bn .
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Lingua_Nenetica> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Lingua Nenetica"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Nenetsi> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Nenetsi"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EB%84%A4%EB%84%A4%EC%B8%A0%EC%96%B4> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "네네츠어"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E6%B6%85%E6%B6%85%E8%8C%A8%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "涅涅茨語"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingua_nenec> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingua nenec"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://wuu.wikipedia.org/wiki/%E6%B6%85%E6%B6%85%E8%8C%A8%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "wuu" ;
+	schema:isPartOf <https://wuu.wikipedia.org/> ;
+	schema:name "涅涅茨语"@wuu .
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%84%D8%BA%D8%A7%D8%AA_%D8%A7%D9%84%D9%86%D9%8A%D9%86%D9%8A%D8%AA%D8%B3> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "لغات النينيتس"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://smn.wikipedia.org/wiki/Neeneeckiel%C3%A2> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "smn" ;
+	schema:isPartOf <https://smn.wikipedia.org/> ;
+	schema:name "Neeneeckielâ"@smn .
+
+<https://smn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Nentsisk_spriak> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Nentsisk spriak"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/%C5%85encu_valoda> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Ņencu valoda"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fiu-vro.wikipedia.org/wiki/Neenedsi_kiil> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "vro" ;
+	schema:isPartOf <https://fiu-vro.wikipedia.org/> ;
+	schema:name "Neenedsi kiil"@vro .
+
+<https://fiu-vro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://olo.wikipedia.org/wiki/Nenetsan_kieli> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "olo" ;
+	schema:isPartOf <https://olo.wikipedia.org/> ;
+	schema:name "Nenetsan kieli"@olo .
+
+<https://olo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Rumpun_bahasa_Nenets> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Rumpun bahasa Nenets"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://io.wikipedia.org/wiki/Neneca_linguo> a schema:Article ;
+	schema:about wd:Q36452 ;
+	schema:inLanguage "io" ;
+	schema:isPartOf <https://io.wikipedia.org/> ;
+	schema:name "Neneca linguo"@io .
+
+<https://io.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q36452 wdt:P220 "yrk" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/yrk> ;
+	wdt:P910 wd:Q8671360 ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P646 "/m/04m15x" ;
+	wdt:P1245 "831835" ;
+	wdt:P227 "4120275-2" ;
+	wdtn:P227 <https://d-nb.info/gnd/4120275-2> ;
+	wdt:P305 "yrk" ;
+	wdt:P279 wd:Q118483976 ;
+	wdt:P1098 "+21926"^^xsd:decimal,
+		"+24000"^^xsd:decimal ;
+	wdt:P282 wd:Q8209,
+		wd:Q19604693 ;
+	wdt:P278 "нен 482" ;
+	wdt:P1394 "nene1251" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/nene1251> ;
+	wdt:P1417 "topic/Nenets-language" ;
+	wdt:P1466 "nen" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_nen> ;
+	wdt:P1466 "ntu" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_ntu> ;
+	wdt:P424 "yrk" ;
+	wdt:P2924 "2259136" ;
+	wdt:P1846 <http://commons.wikimedia.org/wiki/Special:FilePath/Verspreiding-Nenetsen.png> ;
+	wdt:P1627 "yrk" ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q159 ;
+	wdt:P2341 wd:Q1875,
+		wd:Q2073,
+		wd:Q6563,
+		wd:Q2164,
+		wd:Q5237,
+		wd:Q6407 ;
+	wdt:P131 wd:Q2164,
+		wd:Q6407,
+		wd:Q302113,
+		wd:Q2073,
+		wd:Q1759 ;
+	wdt:P1999 wd:Q20672088 ;
+	wdt:P1296 "0189783",
+		"0240644" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/YRK> ;
+	wdt:P2347 "13783" ;
+	wdtn:P2347 <http://www.yso.fi/onto/yso/p13783> ;
+	wdt:P1889 wd:Q29942 ;
+	wdt:P8408 "NenetsLanguage" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/NenetsLanguage> ;
+	wdt:P6293 "Y110717" ;
+	wdtn:P6293 <http://www.yso.fi/onto/ysa/Y110717> ;
+	wdt:P9498 "71c6" ;
+	wdt:P1368 "000287854" ;
+	wdt:P691 "ph123539" ;
+	wdt:P8814 "06972528-n" ;
+	wdtn:P8814 <http://wordnet-rdf.princeton.edu/rdf/id/06972528-n> ;
+	rdfs:label "涅涅茨語"@zh ;
+	skos:prefLabel "涅涅茨語"@zh ;
+	schema:name "涅涅茨語"@zh ;
+	rdfs:label "Lenga Nenets"@pms ;
+	skos:prefLabel "Lenga Nenets"@pms ;
+	schema:name "Lenga Nenets"@pms ;
+	rdfs:label "nenzischi Sproch"@gsw ;
+	skos:prefLabel "nenzischi Sproch"@gsw ;
+	schema:name "nenzischi Sproch"@gsw ;
+	rdfs:label "język nieniecki"@pl ;
+	skos:prefLabel "język nieniecki"@pl ;
+	schema:name "język nieniecki"@pl ;
+	rdfs:label "nénètse"@fr ;
+	skos:prefLabel "nénètse"@fr ;
+	schema:name "nénètse"@fr ;
+	rdfs:label "네네츠어"@ko ;
+	skos:prefLabel "네네츠어"@ko ;
+	schema:name "네네츠어"@ko ;
+	rdfs:label "nenezo"@es ;
+	skos:prefLabel "nenezo"@es ;
+	schema:name "nenezo"@es ;
+	rdfs:label "nyenyec"@hu ;
+	skos:prefLabel "nyenyec"@hu ;
+	schema:name "nyenyec"@hu ;
+	rdfs:label "lingua neneziana"@it ;
+	skos:prefLabel "lingua neneziana"@it ;
+	schema:name "lingua neneziana"@it ;
+	rdfs:label "neenetsi keel"@et ;
+	skos:prefLabel "neenetsi keel"@et ;
+	schema:name "neenetsi keel"@et ;
+	rdfs:label "Nenzisch"@de ;
+	skos:prefLabel "Nenzisch"@de ;
+	schema:name "Nenzisch"@de ;
+	rdfs:label "nenetseg"@br ;
+	skos:prefLabel "nenetseg"@br ;
+	schema:name "nenetseg"@br ;
+	rdfs:label "Яран кыв"@koi ;
+	skos:prefLabel "Яран кыв"@koi ;
+	schema:name "Яран кыв"@koi ;
+	rdfs:label "Neinéitsis"@ga ;
+	skos:prefLabel "Neinéitsis"@ga ;
+	schema:name "Neinéitsis"@ga ;
+	rdfs:label "Nenets"@nl ;
+	skos:prefLabel "Nenets"@nl ;
+	schema:name "Nenets"@nl ;
+	rdfs:label "nentsiska"@sv ;
+	skos:prefLabel "nentsiska"@sv ;
+	schema:name "nentsiska"@sv ;
+	rdfs:label "ненецкий язык"@ru ;
+	skos:prefLabel "ненецкий язык"@ru ;
+	schema:name "ненецкий язык"@ru ;
+	rdfs:label "Nenets"@en ;
+	skos:prefLabel "Nenets"@en ;
+	schema:name "Nenets"@en ;
+	rdfs:label "nenetsagiella"@se ;
+	skos:prefLabel "nenetsagiella"@se ;
+	schema:name "nenetsagiella"@se ;
+	rdfs:label "limba neneț"@ro ;
+	skos:prefLabel "limba neneț"@ro ;
+	schema:name "limba neneț"@ro ;
+	rdfs:label "iurac"@ca ;
+	skos:prefLabel "iurac"@ca ;
+	schema:name "iurac"@ca ;
+	rdfs:label "Ненецки јазик"@mk ;
+	skos:prefLabel "Ненецки јазик"@mk ;
+	schema:name "Ненецки јазик"@mk ;
+	rdfs:label "nenetsi"@fi ;
+	skos:prefLabel "nenetsi"@fi ;
+	schema:name "nenetsi"@fi ;
+	rdfs:label "ненецька мова"@uk ;
+	skos:prefLabel "ненецька мова"@uk ;
+	schema:name "ненецька мова"@uk ;
+	rdfs:label "nenetsisk"@nn ;
+	skos:prefLabel "nenetsisk"@nn ;
+	schema:name "nenetsisk"@nn ;
+	rdfs:label "Неннаг æвзаг"@os ;
+	skos:prefLabel "Неннаг æвзаг"@os ;
+	schema:name "Неннаг æвзаг"@os ;
+	rdfs:label "Nencu kalba"@sgs ;
+	skos:prefLabel "Nencu kalba"@sgs ;
+	schema:name "Nencu kalba"@sgs ;
+	rdfs:label "ненец йылме"@mhr ;
+	skos:prefLabel "ненец йылме"@mhr ;
+	schema:name "ненец йылме"@mhr ;
+	rdfs:label "Ненецки език"@bg ;
+	skos:prefLabel "Ненецки език"@bg ;
+	schema:name "Ненецки език"@bg ;
+	rdfs:label "Яран кыв"@kv ;
+	skos:prefLabel "Яран кыв"@kv ;
+	schema:name "Яран кыв"@kv ;
+	rdfs:label "nencų kalba"@lt ;
+	skos:prefLabel "nencų kalba"@lt ;
+	schema:name "nencų kalba"@lt ;
+	rdfs:label "Nenetsish"@gv ;
+	skos:prefLabel "Nenetsish"@gv ;
+	schema:name "Nenetsish"@gv ;
+	rdfs:label "ネネツ語"@ja ;
+	skos:prefLabel "ネネツ語"@ja ;
+	schema:name "ネネツ語"@ja ;
+	rdfs:label "Ненецкая мова"@be ;
+	skos:prefLabel "Ненецкая мова"@be ;
+	schema:name "Ненецкая мова"@be ;
+	rdfs:label "Nenecan kel'"@vep ;
+	skos:prefLabel "Nenecan kel'"@vep ;
+	schema:name "Nenecan kel'"@vep ;
+	rdfs:label "nenetsera"@eu ;
+	skos:prefLabel "nenetsera"@eu ;
+	schema:name "nenetsera"@eu ;
+	rdfs:label "nenetsisk"@nb ;
+	skos:prefLabel "nenetsisk"@nb ;
+	schema:name "nenetsisk"@nb ;
+	rdfs:label "ненецкая мова"@be-tarask ;
+	skos:prefLabel "ненецкая мова"@be-tarask ;
+	schema:name "ненецкая мова"@be-tarask ;
+	rdfs:label "Nenets tili"@uz ;
+	skos:prefLabel "Nenets tili"@uz ;
+	schema:name "Nenets tili"@uz ;
+	rdfs:label "Nenes dili"@az ;
+	skos:prefLabel "Nenes dili"@az ;
+	schema:name "Nenes dili"@az ;
+	rdfs:label "ненец теле"@tt ;
+	skos:prefLabel "ненец теле"@tt ;
+	schema:name "ненец теле"@tt ;
+	rdfs:label "Ненцойн мотт"@ce ;
+	skos:prefLabel "Ненцойн мотт"@ce ;
+	schema:name "Ненцойн мотт"@ce ;
+	rdfs:label "neneca lingvo"@eo ;
+	skos:prefLabel "neneca lingvo"@eo ;
+	schema:name "neneca lingvo"@eo ;
+	rdfs:label "Bahasa-bahasa Nenets"@id ;
+	skos:prefLabel "Bahasa-bahasa Nenets"@id ;
+	schema:name "Bahasa-bahasa Nenets"@id ;
+	rdfs:label "Ненец чĕлхи"@cv ;
+	skos:prefLabel "Ненец чĕлхи"@cv ;
+	schema:name "Ненец чĕлхи"@cv ;
+	rdfs:label "něnečtina"@cs ;
+	skos:prefLabel "něnečtina"@cs ;
+	schema:name "něnečtina"@cs ;
+	rdfs:label "Nenets language"@hif ;
+	skos:prefLabel "Nenets language"@hif ;
+	schema:name "Nenets language"@hif ;
+	rdfs:label "Nenets"@en-gb ;
+	skos:prefLabel "Nenets"@en-gb ;
+	schema:name "Nenets"@en-gb ;
+	rdfs:label "ננצית"@he ;
+	skos:prefLabel "ננצית"@he ;
+	schema:name "ננצית"@he ;
+	rdfs:label "Анен бызшәа"@ab ;
+	skos:prefLabel "Анен бызшәа"@ab ;
+	schema:name "Анен бызшәа"@ab ;
+	rdfs:label "lingua Nenetica"@la ;
+	skos:prefLabel "lingua Nenetica"@la ;
+	schema:name "lingua Nenetica"@la ;
+	rdfs:label "Ngữ chi Nenets"@vi ;
+	skos:prefLabel "Ngữ chi Nenets"@vi ;
+	schema:name "Ngữ chi Nenets"@vi ;
+	rdfs:label "Nenets"@lfn ;
+	skos:prefLabel "Nenets"@lfn ;
+	schema:name "Nenets"@lfn ;
+	rdfs:label "Nenetsçe"@tr ;
+	skos:prefLabel "Nenetsçe"@tr ;
+	schema:name "Nenetsçe"@tr ;
+	rdfs:label "زبان ننتسی"@fa ;
+	skos:prefLabel "زبان ننتسی"@fa ;
+	schema:name "زبان ننتسی"@fa ;
+	rdfs:label "ნენური ენა"@ka ;
+	skos:prefLabel "ნენური ენა"@ka ;
+	schema:name "ნენური ენა"@ka ;
+	rdfs:label "নেনেৎস ভাষাসমূহ"@bn ;
+	skos:prefLabel "নেনেৎস ভাষাসমূহ"@bn ;
+	schema:name "নেনেৎস ভাষাসমূহ"@bn ;
+	rdfs:label "Idioma nenezo"@ast ;
+	skos:prefLabel "Idioma nenezo"@ast ;
+	schema:name "Idioma nenezo"@ast ;
+	rdfs:label "neeneeckielâ"@smn ;
+	skos:prefLabel "neeneeckielâ"@smn ;
+	schema:name "neeneeckielâ"@smn ;
+	rdfs:label "لغات النينيتس"@ar ;
+	skos:prefLabel "لغات النينيتس"@ar ;
+	schema:name "لغات النينيتس"@ar ;
+	rdfs:label "涅涅茨语"@wuu ;
+	skos:prefLabel "涅涅茨语"@wuu ;
+	schema:name "涅涅茨语"@wuu ;
+	rdfs:label "Nentsisk spriak"@frr ;
+	skos:prefLabel "Nentsisk spriak"@frr ;
+	schema:name "Nentsisk spriak"@frr ;
+	rdfs:label "Ņencu valoda"@lv ;
+	skos:prefLabel "Ņencu valoda"@lv ;
+	schema:name "Ņencu valoda"@lv ;
+	rdfs:label "Neenedsi kiil"@vro ;
+	skos:prefLabel "Neenedsi kiil"@vro ;
+	schema:name "Neenedsi kiil"@vro ;
+	rdfs:label "Nenetsan kieli"@olo ;
+	skos:prefLabel "Nenetsan kieli"@olo ;
+	schema:name "Nenetsan kieli"@olo ;
+	rdfs:label "яран кӣлл"@sjd ;
+	skos:prefLabel "яран кӣлл"@sjd ;
+	schema:name "яран кӣлл"@sjd ;
+	rdfs:label "nenezo"@vec ;
+	skos:prefLabel "nenezo"@vec ;
+	schema:name "nenezo"@vec ;
+	rdfs:label "Nenec linguo"@io ;
+	skos:prefLabel "Nenec linguo"@io ;
+	schema:name "Nenec linguo"@io ;
+	rdfs:label "涅涅茨语"@zh-hans ;
+	skos:prefLabel "涅涅茨语"@zh-hans ;
+	schema:name "涅涅茨语"@zh-hans ;
+	rdfs:label "涅涅茨語"@zh-hant ;
+	skos:prefLabel "涅涅茨語"@zh-hant ;
+	schema:name "涅涅茨語"@zh-hant ;
+	schema:description "idioma humano"@es,
+		"Sprache"@de,
+		"lingua samoieda parlata in Russia"@it,
+		"Samoyedic pair of languages"@en,
+		"taal"@nl,
+		"שפה"@he,
+		"langue samoyède"@fr,
+		"yezh"@br,
+		"সামোয়েদীয় ভাষাপরিবারের ভাষাগোষ্ঠি"@bn,
+		"lingua"@la,
+		"iaith"@cy,
+		"язык уральской языковой семьи, относящийся к самодийским языкам"@ru,
+		"idioma samoièdic"@ca,
+		"乌拉尔语系萨莫耶德语族中的语言"@zh,
+		"zagrożony język z rodziny uralskiej używany głównie w Rosji"@pl,
+		"Jazyk"@cs ;
+	skos:altLabel "Język juracki"@pl,
+		"Nénetse"@fr,
+		"Nenezo"@es,
+		"Idioma nenets"@es,
+		"Neneziano"@it,
+		"Lingua nenec"@it,
+		"nenzische Sprache"@de,
+		"Neneitsis"@ga,
+		"Juraksamojediska"@sv,
+		"Nenetsiska"@sv,
+		"Jurakiska"@sv,
+		"Ненецкий"@ru,
+		"Юрако-Самоедский язык"@ru,
+		"Ненецкий тундровый язык"@ru,
+		"Limba neneţ"@ro,
+		"Limba nenets"@ro,
+		"Llengua nenets"@ca,
+		"nenets"@ca,
+		"nenetsin kieli"@fi,
+		"Nenetsisk språk"@nn,
+		"ユラク語"@ja,
+		"Yurak"@en,
+		"yrk"@en,
+		"Nenets languages"@en,
+		"Nenetsisk språk"@nb,
+		"নেনেৎস ভাষা"@bn,
+		"নেনেৎস ভাষাগোষ্ঠি"@bn,
+		"ইউরাক ভাষা"@bn,
+		"尤拉克语"@zh,
+		"nyenyec nyelv"@hu,
+		"нен теле"@tt,
+		"юрак теле"@tt .
+
+wd:Q25645515 owl:sameAs wd:Q36452 .

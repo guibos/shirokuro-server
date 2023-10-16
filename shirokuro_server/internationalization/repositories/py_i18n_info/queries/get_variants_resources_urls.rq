@@ -1,0 +1,14 @@
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+SELECT DISTINCT
+    ?item
+    ?bcp47
+WHERE {
+    SERVICE <https://query.wikidata.org/sparql> {
+        ?item wdt:P305 ?bcp47.
+        FILTER(
+            %s
+        )
+    }
+}
+ORDER BY ?bcp47

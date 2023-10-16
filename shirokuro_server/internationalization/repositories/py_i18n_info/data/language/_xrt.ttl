@@ -1,0 +1,105 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2859505 a schema:Dataset ;
+	schema:about wd:Q2859505 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961853606"^^xsd:integer ;
+	schema:dateModified "2023-08-26T20:15:31Z"^^xsd:dateTime .
+
+wd:Q2859505 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Aranama_(langue)> a schema:Article ;
+	schema:about wd:Q2859505 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Aranama (langue)"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Aranama_language> a schema:Article ;
+	schema:about wd:Q2859505 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Aranama language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_aranama-tamique> a schema:Article ;
+	schema:about wd:Q2859505 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma aranama-tamique"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2859505 wdt:P220 "xrt" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xrt> ;
+	wdt:P31 wd:Q34770,
+		wd:Q38058796 ;
+	wdt:P279 wd:Q51739 ;
+	wdt:P1394 "aran1265" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/aran1265> ;
+	wdt:P4132 wd:Q33648 ;
+	wdt:P305 "xrt" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XRT> ;
+	wdt:P646 "/m/0gmbmnw" ;
+	wdt:P4839 "Entity[\"Language\", \"AranamaTamique::9q8z5\"]",
+		"Entity[\"Language\", \"AranamaTamique\"]" ;
+	wdt:P17 wd:Q30 ;
+	rdfs:label "aranama"@fr ;
+	skos:prefLabel "aranama"@fr ;
+	schema:name "aranama"@fr ;
+	rdfs:label "Aranama"@en ;
+	skos:prefLabel "Aranama"@en ;
+	schema:name "Aranama"@en ;
+	rdfs:label "Idioma aranama-tamique"@es ;
+	skos:prefLabel "Idioma aranama-tamique"@es ;
+	schema:name "Idioma aranama-tamique"@es ;
+	rdfs:label "ארנאמה"@he ;
+	skos:prefLabel "ארנאמה"@he ;
+	schema:name "ארנאמה"@he ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Aranama-Tamique"@en,
+		"Aranama language"@en,
+		"Araname"@en .
+
+wd:Q5908508 owl:sameAs wd:Q2859505 .

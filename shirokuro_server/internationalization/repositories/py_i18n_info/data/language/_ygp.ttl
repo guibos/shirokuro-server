@@ -1,0 +1,115 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q5548692 a schema:Dataset ;
+	schema:about wd:Q5548692 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1956369560"^^xsd:integer ;
+	schema:dateModified "2023-08-19T05:00:27Z"^^xsd:dateTime .
+
+wd:Q5548692 a wikibase:Item .
+
+<https://tl.wikipedia.org/wiki/Wikang_Gepo> a schema:Article ;
+	schema:about wd:Q5548692 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Gepo"@tl ;
+	wikibase:badge wd:Q70893996 .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kigepo> a schema:Article ;
+	schema:about wd:Q5548692 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kigepo"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Gepo_language> a schema:Article ;
+	schema:about wd:Q5548692 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Gepo language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%B3%A8%E9%A2%87%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q5548692 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "峨颇语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q5548692 wdt:P220 "ygp" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ygp> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "gepo1234" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/gepo1234> ;
+	wdt:P305 "ygp" ;
+	wdt:P1627 "ygp" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q43194 ;
+	wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Gepo%20Language.png> ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/YGP> ;
+	wdt:P646 "/m/05sx7z7" ;
+	rdfs:label "Gepo"@en ;
+	skos:prefLabel "Gepo"@en ;
+	schema:name "Gepo"@en ;
+	rdfs:label "Kigepo"@sw ;
+	skos:prefLabel "Kigepo"@sw ;
+	schema:name "Kigepo"@sw ;
+	rdfs:label "Gepo"@en-gb ;
+	skos:prefLabel "Gepo"@en-gb ;
+	schema:name "Gepo"@en-gb ;
+	rdfs:label "Wikang Gepo"@tl ;
+	skos:prefLabel "Wikang Gepo"@tl ;
+	schema:name "Wikang Gepo"@tl ;
+	rdfs:label "峨颇语"@zh ;
+	skos:prefLabel "峨颇语"@zh ;
+	schema:name "峨颇语"@zh ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Gepo language"@en .
+
+wd:Q31442504 owl:sameAs wd:Q5548692 .

@@ -1,0 +1,130 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q12953327 a schema:Dataset ;
+	schema:about wd:Q12953327 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1956369705"^^xsd:integer ;
+	schema:dateModified "2023-08-19T05:00:52Z"^^xsd:dateTime .
+
+wd:Q12953327 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_Yi,_Limi> a schema:Article ;
+	schema:about wd:Q12953327 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Yi, Limi"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tl.wikipedia.org/wiki/Wikang_Limi> a schema:Article ;
+	schema:about wd:Q12953327 ;
+	schema:inLanguage "tl" ;
+	schema:isPartOf <https://tl.wikipedia.org/> ;
+	schema:name "Wikang Limi"@tl ;
+	wikibase:badge wd:Q70893996 .
+
+<https://tl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kilimi> a schema:Article ;
+	schema:about wd:Q12953327 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kilimi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Limi_language> a schema:Article ;
+	schema:about wd:Q12953327 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Limi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E7%95%99%E7%B1%B3%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q12953327 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "留米语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q12953327 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "limi1243" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/limi1243> ;
+	wdt:P220 "ylm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/ylm> ;
+	wdt:P305 "ylm" ;
+	wdt:P1627 "ylm" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q43194 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/YLM> ;
+	wdt:P646 "/m/05sxbm3" ;
+	rdfs:label "Lenga Yi, Limi"@pms ;
+	skos:prefLabel "Lenga Yi, Limi"@pms ;
+	schema:name "Lenga Yi, Limi"@pms ;
+	rdfs:label "Limi"@en ;
+	skos:prefLabel "Limi"@en ;
+	schema:name "Limi"@en ;
+	rdfs:label "Kilimi"@sw ;
+	skos:prefLabel "Kilimi"@sw ;
+	schema:name "Kilimi"@sw ;
+	rdfs:label "Limi"@en-gb ;
+	skos:prefLabel "Limi"@en-gb ;
+	schema:name "Limi"@en-gb ;
+	rdfs:label "Wikang Limi"@tl ;
+	skos:prefLabel "Wikang Limi"@tl ;
+	schema:name "Wikang Limi"@tl ;
+	rdfs:label "留米语"@zh ;
+	skos:prefLabel "留米语"@zh ;
+	schema:name "留米语"@zh ;
+	rdfs:label "留米語"@ja ;
+	skos:prefLabel "留米語"@ja ;
+	schema:name "留米語"@ja ;
+	schema:description "taal"@nl,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"iaith"@cy,
+		"lingua"@la ;
+	skos:altLabel "Limi language"@en .
+
+wd:Q19572647 owl:sameAs wd:Q12953327 .
+
+wd:Q31442434 owl:sameAs wd:Q12953327 .

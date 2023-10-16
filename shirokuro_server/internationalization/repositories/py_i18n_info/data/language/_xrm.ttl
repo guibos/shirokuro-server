@@ -1,0 +1,114 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7599646 a schema:Dataset ;
+	schema:about wd:Q7599646 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1727761581"^^xsd:integer ;
+	schema:dateModified "2022-09-13T10:22:31Z"^^xsd:dateTime .
+
+wd:Q7599646 a wikibase:Item .
+
+<https://ka.wikipedia.org/wiki/%E1%83%90%E1%83%A0%E1%83%9B%E1%83%90%E1%83%96%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%93%E1%83%90%E1%83%9B%E1%83%AC%E1%83%94%E1%83%A0%E1%83%9A%E1%83%9D%E1%83%91%E1%83%90> a schema:Article ;
+	schema:about wd:Q7599646 ;
+	schema:inLanguage "ka" ;
+	schema:isPartOf <https://ka.wikipedia.org/> ;
+	schema:name "არმაზული დამწერლობა"@ka .
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Armazic_language> a schema:Article ;
+	schema:about wd:Q7599646 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Armazic language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Armasische_Schrift> a schema:Article ;
+	schema:about wd:Q7599646 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Armasische Schrift"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Armazijski_jezik> a schema:Article ;
+	schema:about wd:Q7599646 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Armazijski jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7599646 wdt:P220 "xrm" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xrm> ;
+	wdt:P31 wd:Q38058796,
+		wd:Q436240 ;
+	wdt:P1232 "xrm" ;
+	wdt:P279 wd:Q28602 ;
+	a wdno:P1394 ;
+	wdt:P305 "xrm" ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XRM> ;
+	wdt:P2341 wd:Q1280770 ;
+	wdt:P646 "/m/0r8mkr_" ;
+	wdt:P4839 "Entity[\"Language\", \"Armazic::8g3rf\"]",
+		"Entity[\"Language\", \"Armazic\"]" ;
+	rdfs:label "Armazic"@en ;
+	skos:prefLabel "Armazic"@en ;
+	schema:name "Armazic"@en ;
+	rdfs:label "Armazijski jezik"@hr ;
+	skos:prefLabel "Armazijski jezik"@hr ;
+	schema:name "Armazijski jezik"@hr ;
+	rdfs:label "არმაზული დამწერლობა"@ka ;
+	skos:prefLabel "არმაზული დამწერლობა"@ka ;
+	schema:name "არმაზული დამწერლობა"@ka ;
+	rdfs:label "Armasisch"@de ;
+	skos:prefLabel "Armasisch"@de ;
+	schema:name "Armasisch"@de ;
+	rdfs:label "Armazic"@en-gb ;
+	skos:prefLabel "Armazic"@en-gb ;
+	schema:name "Armazic"@en-gb ;
+	rdfs:label "armazique"@fr ;
+	skos:prefLabel "armazique"@fr ;
+	schema:name "armazique"@fr ;
+	rdfs:label "armázico"@es ;
+	skos:prefLabel "armázico"@es ;
+	schema:name "armázico"@es ;
+	schema:description "Ableitung aus der aramäischen Schrift"@de,
+		"שפה"@he,
+		"langue araméenne morte"@fr,
+		"extinct written Aramaic language"@en ;
+	skos:altLabel "Armazic language"@en,
+		"Armasische Schrift"@de .
+
+wd:Q679275 owl:sameAs wd:Q7599646 .

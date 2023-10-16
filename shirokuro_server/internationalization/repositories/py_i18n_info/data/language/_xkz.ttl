@@ -1,0 +1,168 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q3695193 a schema:Dataset ;
+	schema:about wd:Q3695193 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960539453"^^xsd:integer ;
+	schema:dateModified "2023-08-24T23:00:29Z"^^xsd:dateTime .
+
+wd:Q3695193 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/Kurt%C3%B6p> a schema:Article ;
+	schema:about wd:Q3695193 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Kurtöp"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_Kurtokha> a schema:Article ;
+	schema:about wd:Q3695193 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga Kurtokha"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kurt%C3%B6p_language> a schema:Article ;
+	schema:about wd:Q3695193 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kurtöp language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AB%E3%83%86%E3%83%97%E8%AA%9E> a schema:Article ;
+	schema:about wd:Q3695193 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "クルテプ語"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Koutokeg> a schema:Article ;
+	schema:about wd:Q3695193 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Koutokeg"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pnb.wikipedia.org/wiki/%DA%A9%D8%B1%D8%AA%D9%88%D9%BE_%D8%A8%D9%88%D9%84%DB%8C> a schema:Article ;
+	schema:about wd:Q3695193 ;
+	schema:inLanguage "pnb" ;
+	schema:isPartOf <https://pnb.wikipedia.org/> ;
+	schema:name "کرتوپ بولی"@pnb .
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D1%80%D1%82%D0%BE-%D0%BA%D1%85%D0%B0> a schema:Article ;
+	schema:about wd:Q3695193 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Курто-кха"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q3695193 wdt:P220 "xkz" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xkz> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "kurt1248" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kurt1248> ;
+	wdt:P2355 "1246" ;
+	wdt:P1999 wd:Q20672087 ;
+	wdt:P305 "xkz" ;
+	wdt:P279 wd:Q56402 ;
+	wdt:P910 wd:Q33139565 ;
+	wdt:P2192 "5655" ;
+	wdt:P1627 "xkz" ;
+	wdt:P244 "sh2017003044" ;
+	wdtn:P244 <http://id.loc.gov/authorities/names/sh2017003044> ;
+	wdt:P3823 wd:Q29051554 ;
+	wdt:P17 wd:Q917 ;
+	wdt:P2341 wd:Q598793 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XKZ> ;
+	wdt:P646 "/m/02hx1pw" ;
+	wdt:P8189 "987007403937205171" ;
+	wdt:P1098 "+15000"^^xsd:decimal ;
+	wdt:P8313 "kurtöp" ;
+	rdfs:label "Lenga Kurtokha"@pms ;
+	skos:prefLabel "Lenga Kurtokha"@pms ;
+	schema:name "Lenga Kurtokha"@pms ;
+	rdfs:label "koutokeg"@br ;
+	skos:prefLabel "koutokeg"@br ;
+	schema:name "koutokeg"@br ;
+	rdfs:label "Kurtöp"@en ;
+	skos:prefLabel "Kurtöp"@en ;
+	schema:name "Kurtöp"@en ;
+	rdfs:label "کرتوپ بولی"@pnb ;
+	skos:prefLabel "کرتوپ بولی"@pnb ;
+	schema:name "کرتوپ بولی"@pnb ;
+	rdfs:label "kurtöp"@fr ;
+	skos:prefLabel "kurtöp"@fr ;
+	schema:name "kurtöp"@fr ;
+	rdfs:label "クルトプ語"@ja ;
+	skos:prefLabel "クルトプ語"@ja ;
+	schema:name "クルトプ語"@ja ;
+	rdfs:label "Wikang Kurtöp"@tl ;
+	skos:prefLabel "Wikang Kurtöp"@tl ;
+	schema:name "Wikang Kurtöp"@tl ;
+	rdfs:label "Курто-кха"@ru ;
+	skos:prefLabel "Курто-кха"@ru ;
+	schema:name "Курто-кха"@ru ;
+	rdfs:label "ཀུར་ཏོ་པ་ཁ"@dz ;
+	skos:prefLabel "ཀུར་ཏོ་པ་ཁ"@dz ;
+	schema:name "ཀུར་ཏོ་པ་ཁ"@dz ;
+	rdfs:label "kurtöp"@da ;
+	skos:prefLabel "kurtöp"@da ;
+	schema:name "kurtöp"@da ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue bodique"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"bodisk sprog"@da ;
+	skos:altLabel "Kurtokha"@en,
+		"Kurtöp language"@en,
+		"Kurtop"@en,
+		"Kurtö"@en,
+		"Zhâke"@en,
+		"kurtokha"@fr .
+
+wd:Q31442327 owl:sameAs wd:Q3695193 .

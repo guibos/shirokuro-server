@@ -1,0 +1,137 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6359779 a schema:Dataset ;
+	schema:about wd:Q6359779 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1958509601"^^xsd:integer ;
+	schema:dateModified "2023-08-22T01:33:50Z"^^xsd:dateTime .
+
+wd:Q6359779 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_kamu> a schema:Article ;
+	schema:about wd:Q6359779 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga kamu"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Kamu> a schema:Article ;
+	schema:about wd:Q6359779 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Kamu"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kikamu> a schema:Article ;
+	schema:about wd:Q6359779 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kikamu"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Kamu_language> a schema:Article ;
+	schema:about wd:Q6359779 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Kamu language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://id.wikipedia.org/wiki/Bahasa_Kamu> a schema:Article ;
+	schema:about wd:Q6359779 ;
+	schema:inLanguage "id" ;
+	schema:isPartOf <https://id.wikipedia.org/> ;
+	schema:name "Bahasa Kamu"@id .
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6359779 wdt:P220 "xmu" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xmu> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "kamu1258" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/kamu1258> ;
+	wdt:P1466 "kmw" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_kmw> ;
+	wdt:P279 wd:Q19873081 ;
+	wdt:P2192 "3239" ;
+	wdt:P305 "xmu" ;
+	wdt:P1627 "xmu" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P1252 "N33" ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3235 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XMU> ;
+	wdt:P6915 "Kamu" ;
+	wdt:P646 "/m/02hxnm1" ;
+	rdfs:label "Kamu"@en ;
+	skos:prefLabel "Kamu"@en ;
+	schema:name "Kamu"@en ;
+	rdfs:label "Kamu"@sv ;
+	skos:prefLabel "Kamu"@sv ;
+	schema:name "Kamu"@sv ;
+	rdfs:label "Lenga kamu"@pms ;
+	skos:prefLabel "Lenga kamu"@pms ;
+	schema:name "Lenga kamu"@pms ;
+	rdfs:label "Kamu"@en-gb ;
+	skos:prefLabel "Kamu"@en-gb ;
+	schema:name "Kamu"@en-gb ;
+	rdfs:label "Kikamu"@sw ;
+	skos:prefLabel "Kikamu"@sw ;
+	schema:name "Kikamu"@sw ;
+	rdfs:label "kamu"@fr ;
+	skos:prefLabel "kamu"@fr ;
+	schema:name "kamu"@fr ;
+	rdfs:label "Bahasa Kamu"@id ;
+	skos:prefLabel "Bahasa Kamu"@id ;
+	schema:name "Bahasa Kamu"@id ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"lugha ya asili ya Australia iliyotoweka"@sw,
+		"langue parlée en Austrlie"@fr,
+		"language spoken in Australia"@en,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"utdött australiskt språk"@sv,
+		"bagian dari rumpun bahasa Indo-Eropa"@id ;
+	skos:altLabel "Kamu language"@en .
+
+wd:Q12953607 owl:sameAs wd:Q6359779 .

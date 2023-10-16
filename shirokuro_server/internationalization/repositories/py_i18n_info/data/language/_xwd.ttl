@@ -1,0 +1,121 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q7959249 a schema:Dataset ;
+	schema:about wd:Q7959249 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1958510736"^^xsd:integer ;
+	schema:dateModified "2023-08-22T01:35:43Z"^^xsd:dateTime .
+
+wd:Q7959249 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Wadi_Wadi_language> a schema:Article ;
+	schema:about wd:Q7959249 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Wadi Wadi language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sw.wikipedia.org/wiki/Kiwadi-Wadi> a schema:Article ;
+	schema:about wd:Q7959249 ;
+	schema:inLanguage "sw" ;
+	schema:isPartOf <https://sw.wikipedia.org/> ;
+	schema:name "Kiwadi-Wadi"@sw .
+
+<https://sw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_wadi-wadi> a schema:Article ;
+	schema:about wd:Q7959249 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma wadi-wadi"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_wadi-wadi> a schema:Article ;
+	schema:about wd:Q7959249 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua wadi-wadi"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q7959249 wdt:P220 "xwd" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xwd> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P1394 "wadi1260" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/wadi1260> ;
+	wdt:P1252 "D4",
+		"D67" ;
+	wdt:P279 wd:Q6443011 ;
+	wdt:P2192 "6800" ;
+	wdt:P305 "xwd" ;
+	wdt:P1627 "xwd" ;
+	wdt:P3823 wd:Q29051560 ;
+	wdt:P17 wd:Q408 ;
+	wdt:P2341 wd:Q3224,
+		wd:Q36687 ;
+	wdt:P6915 "Wadi-Wadi" ;
+	wdt:P646 "/m/0jt56b9" ;
+	rdfs:label "Wadi Wadi"@en ;
+	skos:prefLabel "Wadi Wadi"@en ;
+	schema:name "Wadi Wadi"@en ;
+	rdfs:label "Wadi Wadi"@en-gb ;
+	skos:prefLabel "Wadi Wadi"@en-gb ;
+	schema:name "Wadi Wadi"@en-gb ;
+	rdfs:label "Kiwadi-Wadi"@sw ;
+	skos:prefLabel "Kiwadi-Wadi"@sw ;
+	schema:name "Kiwadi-Wadi"@sw ;
+	rdfs:label "wadi wadi"@fr ;
+	skos:prefLabel "wadi wadi"@fr ;
+	schema:name "wadi wadi"@fr ;
+	rdfs:label "Idioma wadi-wadi"@es ;
+	skos:prefLabel "Idioma wadi-wadi"@es ;
+	schema:name "Idioma wadi-wadi"@es ;
+	rdfs:label "Língua wadi-wadi"@pt ;
+	skos:prefLabel "Língua wadi-wadi"@pt ;
+	schema:name "Língua wadi-wadi"@pt ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"lugha ya asili ya Australia iliyotoweka"@sw,
+		"langue pama-nyungan"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Wadi Wadi language"@en .

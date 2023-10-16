@@ -1,0 +1,113 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6432560 a schema:Dataset ;
+	schema:about wd:Q6432560 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1964211907"^^xsd:integer ;
+	schema:dateModified "2023-08-29T23:06:19Z"^^xsd:dateTime .
+
+wd:Q6432560 a wikibase:Item .
+
+<https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%BE%D0%BF%D0%BE> a schema:Article ;
+	schema:about wd:Q6432560 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Коропо"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Korop%C3%B3_language> a schema:Article ;
+	schema:about wd:Q6432560 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Koropó language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_corop%C3%B3> a schema:Article ;
+	schema:about wd:Q6432560 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua coropó"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6432560 wdt:P220 "xxr" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xxr> ;
+	wdt:P31 wd:Q34770,
+		wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P279 wd:Q5684712 ;
+	wdt:P17 wd:Q155 ;
+	wdt:P1098 "+0"^^xsd:decimal ;
+	wdt:P1394 "coro1248" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/coro1248> ;
+	wdt:P305 "xxr" ;
+	wdt:P1627 "xxr" ;
+	wdt:P3823 wd:Q29051561 ;
+	wdt:P2341 wd:Q43233,
+		wd:Q39109 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XXR> ;
+	wdt:P646 "/m/05sx9xt" ;
+	rdfs:label "Koropó"@en ;
+	skos:prefLabel "Koropó"@en ;
+	schema:name "Koropó"@en ;
+	rdfs:label "Коропо"@ru ;
+	skos:prefLabel "Коропо"@ru ;
+	schema:name "Коропо"@ru ;
+	rdfs:label "Koropó"@en-gb ;
+	skos:prefLabel "Koropó"@en-gb ;
+	schema:name "Koropó"@en-gb ;
+	rdfs:label "Língua koropó"@pt ;
+	skos:prefLabel "Língua koropó"@pt ;
+	schema:name "Língua koropó"@pt ;
+	rdfs:label "koropščina"@sl ;
+	skos:prefLabel "koropščina"@sl ;
+	schema:name "koropščina"@sl ;
+	schema:description "Sprache"@de,
+		"extinct language of Brazil"@en,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy,
+		"izumrl jezik v Braziliji"@sl ;
+	skos:altLabel "Coropó"@en,
+		"Koropo"@en,
+		"Coropo"@en,
+		"koropó"@sl .
+
+wd:Q97169446 owl:sameAs wd:Q6432560 .

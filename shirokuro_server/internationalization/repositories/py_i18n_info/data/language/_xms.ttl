@@ -1,0 +1,133 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6913107 a schema:Dataset ;
+	schema:about wd:Q6913107 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1961111495"^^xsd:integer ;
+	schema:dateModified "2023-08-25T17:56:51Z"^^xsd:dateTime .
+
+wd:Q6913107 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Moroccan_Sign_Language> a schema:Article ;
+	schema:about wd:Q6913107 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Moroccan Sign Language"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Langue_des_signes_marocaine> a schema:Article ;
+	schema:about wd:Q6913107 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Langue des signes marocaine"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%80%D0%BE%D0%BA%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%B6%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q6913107 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Марокканский жестовый язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_dij_segn_d%C3%ABl_Mar%C3%B2ch> a schema:Article ;
+	schema:about wd:Q6913107 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga dij segn dël Maròch"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADngua_de_sinais_marroquina> a schema:Article ;
+	schema:about wd:Q6913107 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Língua de sinais marroquina"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6913107 wdt:P220 "xms" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xms> ;
+	wdt:P31 wd:Q34228,
+		wd:Q1288568 ;
+	wdt:P305 "xms" ;
+	wdt:P1394 "moro1242" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/moro1242> ;
+	wdt:P279 wd:Q5501921 ;
+	wdt:P17 wd:Q1028 ;
+	wdt:P1627 "xms" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P646 "/m/02hwg_2" ;
+	wdt:P910 wd:Q105715490 ;
+	wdt:P1232 "xms" ;
+	rdfs:label "Moroccan Sign Language"@en ;
+	skos:prefLabel "Moroccan Sign Language"@en ;
+	schema:name "Moroccan Sign Language"@en ;
+	rdfs:label "langue des signes marocaine"@fr ;
+	skos:prefLabel "langue des signes marocaine"@fr ;
+	schema:name "langue des signes marocaine"@fr ;
+	rdfs:label "Lenga dij segn dël Maròch"@pms ;
+	skos:prefLabel "Lenga dij segn dël Maròch"@pms ;
+	schema:name "Lenga dij segn dël Maròch"@pms ;
+	rdfs:label "Марокканский жестовый язык"@ru ;
+	skos:prefLabel "Марокканский жестовый язык"@ru ;
+	schema:name "Марокканский жестовый язык"@ru ;
+	rdfs:label "maroka signolingvo"@eo ;
+	skos:prefLabel "maroka signolingvo"@eo ;
+	schema:name "maroka signolingvo"@eo ;
+	rdfs:label "Moroccan Sign Language"@en-gb ;
+	skos:prefLabel "Moroccan Sign Language"@en-gb ;
+	schema:name "Moroccan Sign Language"@en-gb ;
+	rdfs:label "Língua de Sinais Marroquina"@pt ;
+	skos:prefLabel "Língua de Sinais Marroquina"@pt ;
+	schema:name "Língua de Sinais Marroquina"@pt ;
+	rdfs:label "lingua de sinia magribi"@lfn ;
+	skos:prefLabel "lingua de sinia magribi"@lfn ;
+	schema:name "lingua de sinia magribi"@lfn ;
+	rdfs:label "Marokkanische Gebärdensprache"@de ;
+	skos:prefLabel "Marokkanische Gebärdensprache"@de ;
+	schema:name "Marokkanische Gebärdensprache"@de ;
+	rdfs:label "モロッコ手話"@ja ;
+	skos:prefLabel "モロッコ手話"@ja ;
+	schema:name "モロッコ手話"@ja ;
+	rdfs:label "toki luka Malipe"@tok ;
+	skos:prefLabel "toki luka Malipe"@tok ;
+	schema:name "toki luka Malipe"@tok ;
+	schema:description "toki luka pi ma Malipe"@tok ;
+	skos:altLabel "Língua Gestual Marroquina"@pt,
+		"lingua de sinia marocan"@lfn .
+
+wd:Q10322081 owl:sameAs wd:Q6913107 .

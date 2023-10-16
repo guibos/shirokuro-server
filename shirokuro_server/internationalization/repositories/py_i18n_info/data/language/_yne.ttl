@@ -1,0 +1,93 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q6485577 a schema:Dataset ;
+	schema:about wd:Q6485577 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1956369789"^^xsd:integer ;
+	schema:dateModified "2023-08-19T05:01:11Z"^^xsd:dateTime .
+
+wd:Q6485577 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Lang%27e_language> a schema:Article ;
+	schema:about wd:Q6485577 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Lang'e language"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E5%B4%80%E5%B3%A8%E8%AF%AD> a schema:Article ;
+	schema:about wd:Q6485577 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "崀峨语"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q6485577 wdt:P220 "yne" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/yne> ;
+	wdt:P31 wd:Q34770,
+		wd:Q5015649,
+		wd:Q1288568 ;
+	wdt:P1394 "lang1333" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/lang1333> ;
+	wdt:P305 "yne" ;
+	wdt:P1627 "yne" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q148 ;
+	wdt:P2341 wd:Q43194 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/YNE> ;
+	wdt:P646 "/m/05sxbf2" ;
+	rdfs:label "Lang'e"@en ;
+	skos:prefLabel "Lang'e"@en ;
+	schema:name "Lang'e"@en ;
+	rdfs:label "Lang'e"@en-gb ;
+	skos:prefLabel "Lang'e"@en-gb ;
+	schema:name "Lang'e"@en-gb ;
+	rdfs:label "lang'e"@fr ;
+	skos:prefLabel "lang'e"@fr ;
+	schema:name "lang'e"@fr ;
+	rdfs:label "崀峨语"@zh ;
+	skos:prefLabel "崀峨语"@zh ;
+	schema:name "崀峨语"@zh ;
+	schema:description "Sprache"@de,
+		"שפה"@he,
+		"yezh"@br,
+		"langue"@fr,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"taal"@nl,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Lang'e language"@en .

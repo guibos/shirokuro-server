@@ -1,0 +1,72 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q2377158 a schema:Dataset ;
+	schema:about wd:Q2377158 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1850223092"^^xsd:integer ;
+	schema:dateModified "2023-03-12T06:24:35Z"^^xsd:dateTime .
+
+wd:Q2377158 a wikibase:Item .
+
+<https://fr.wikipedia.org/wiki/O%C3%AFrate_litt%C3%A9raire> a schema:Article ;
+	schema:about wd:Q2377158 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Oïrate littéraire"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q2377158 wdt:P31 wd:Q45762,
+		wd:Q38058796 ;
+	wdt:P220 "xwo" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xwo> ;
+	wdt:P305 "xwo" ;
+	wdt:P279 wd:Q56959 ;
+	a wdno:P1394 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XWO> ;
+	wdt:P2671 "/g/122nc3td" ;
+	wdtn:P2671 <http://g.co/kg/g/122nc3td> ;
+	wdt:P910 wd:Q32829162 ;
+	rdfs:label "oïrate littéraire"@fr ;
+	skos:prefLabel "oïrate littéraire"@fr ;
+	schema:name "oïrate littéraire"@fr ;
+	rdfs:label "Written Oirat"@en ;
+	skos:prefLabel "Written Oirat"@en ;
+	schema:name "Written Oirat"@en ;
+	rdfs:label "Written Oirat"@en-gb ;
+	skos:prefLabel "Written Oirat"@en-gb ;
+	schema:name "Written Oirat"@en-gb ;
+	schema:description "langue mongole écrite utilisée depuis le XVIIe siècle"@fr ;
+	skos:altLabel "Literary Oirat"@en,
+		"Written Eleuth"@en,
+		"Written Elut"@en .

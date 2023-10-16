@@ -1,0 +1,114 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q8054817 a schema:Dataset ;
+	schema:about wd:Q8054817 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1960944158"^^xsd:integer ;
+	schema:dateModified "2023-08-25T12:37:55Z"^^xsd:dateTime .
+
+wd:Q8054817 a wikibase:Item .
+
+<https://pms.wikipedia.org/wiki/Lenga_mixtec,_yoloxochitl> a schema:Article ;
+	schema:about wd:Q8054817 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga mixtec, yoloxochitl"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%99%D0%BE%D0%BB%D0%BE%D1%85%D0%BE%D1%87%D0%B8%D1%82%D0%BB%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%B8%D1%88%D1%82%D0%B5%D0%BA%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA> a schema:Article ;
+	schema:about wd:Q8054817 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Йолохочитлский миштекский язык"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://en.wikipedia.org/wiki/Yolox%C3%B3chitl_Mixtec> a schema:Article ;
+	schema:about wd:Q8054817 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Yoloxóchitl Mixtec"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Mikstekeg_Yoloxochitl> a schema:Article ;
+	schema:about wd:Q8054817 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Mikstekeg Yoloxochitl"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q8054817 wdt:P220 "xty" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xty> ;
+	wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P1394 "yolo1241" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/yolo1241> ;
+	wdt:P279 wd:Q53481357 ;
+	wdt:P305 "xty" ;
+	wdt:P1627 "xty" ;
+	wdt:P3823 wd:Q29051552 ;
+	wdt:P17 wd:Q96 ;
+	wdt:P2341 wd:Q60158 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XTY> ;
+	wdt:P646 "/m/02hwyt8" ;
+	rdfs:label "Yoloxóchitl Mixtec"@en ;
+	skos:prefLabel "Yoloxóchitl Mixtec"@en ;
+	schema:name "Yoloxóchitl Mixtec"@en ;
+	rdfs:label "Йолохочитлский миштекский язык"@ru ;
+	skos:prefLabel "Йолохочитлский миштекский язык"@ru ;
+	schema:name "Йолохочитлский миштекский язык"@ru ;
+	rdfs:label "mikstekeg Yoloxochitl"@br ;
+	skos:prefLabel "mikstekeg Yoloxochitl"@br ;
+	schema:name "mikstekeg Yoloxochitl"@br ;
+	rdfs:label "Lenga mixtec, yoloxochitl"@pms ;
+	skos:prefLabel "Lenga mixtec, yoloxochitl"@pms ;
+	schema:name "Lenga mixtec, yoloxochitl"@pms ;
+	rdfs:label "mixtèque de Yoloxóchitl"@fr ;
+	skos:prefLabel "mixtèque de Yoloxóchitl"@fr ;
+	schema:name "mixtèque de Yoloxóchitl"@fr ;
+	schema:description "Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue mixtèque"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"language"@en,
+		"lingua"@la,
+		"iaith"@cy ;
+	skos:altLabel "Yoloxochitl Mixtec"@en .
+
+wd:Q12953743 owl:sameAs wd:Q8054817 .

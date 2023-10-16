@@ -1,0 +1,121 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q8049616 a schema:Dataset ;
+	schema:about wd:Q8049616 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1840549877"^^xsd:integer ;
+	schema:dateModified "2023-02-24T13:01:39Z"^^xsd:dateTime .
+
+wd:Q8049616 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Yar%C3%AD_language> a schema:Article ;
+	schema:about wd:Q8049616 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Yarí language"@en ;
+	wikibase:badge wd:Q70893996 .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Idioma_yar%C3%AD> a schema:Article ;
+	schema:about wd:Q8049616 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Idioma yarí"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%AF%D1%80%D0%B8_(%D1%8F%D0%B7%D1%8B%D0%BA)> a schema:Article ;
+	schema:about wd:Q8049616 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Яри (язык)"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Idioma_yar%C3%AD> a schema:Article ;
+	schema:about wd:Q8049616 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Idioma yarí"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenga_yar%C3%AD> a schema:Article ;
+	schema:about wd:Q8049616 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenga yarí"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q8049616 wdt:P31 wd:Q5015649 ;
+	wdt:P220 "yri" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/yri> ;
+	wdt:P1394 "yari1235" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/yari1235> ;
+	wdt:P305 "yri" ;
+	wdt:P646 "/m/02hxzm2" ;
+	rdfs:label "Yarí"@en ;
+	skos:prefLabel "Yarí"@en ;
+	schema:name "Yarí"@en ;
+	rdfs:label "yarí"@es ;
+	skos:prefLabel "yarí"@es ;
+	schema:name "yarí"@es ;
+	rdfs:label "Lenga yarí"@pms ;
+	skos:prefLabel "Lenga yarí"@pms ;
+	schema:name "Lenga yarí"@pms ;
+	rdfs:label "Яри"@ru ;
+	skos:prefLabel "Яри"@ru ;
+	schema:name "Яри"@ru ;
+	rdfs:label "yarí"@fr ;
+	skos:prefLabel "yarí"@fr ;
+	schema:name "yarí"@fr ;
+	rdfs:label "Idioma yarí"@ast ;
+	skos:prefLabel "Idioma yarí"@ast ;
+	schema:name "Idioma yarí"@ast ;
+	schema:description "lengua indígena amazónica"@es,
+		"Sprache"@de,
+		"taal"@nl,
+		"שפה"@he,
+		"langue non attestée"@fr,
+		"spurious language"@en ;
+	skos:altLabel "idioma yarí"@es,
+		"yari"@es,
+		"idioma yari"@es,
+		"Yari language"@en,
+		"Yari"@en,
+		"Yarí language"@en,
+		"yari"@fr .
+
+wd:Q12953977 owl:sameAs wd:Q8049616 .

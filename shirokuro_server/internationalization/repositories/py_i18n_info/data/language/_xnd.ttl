@@ -1,0 +1,820 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q26986 a schema:Dataset ;
+	schema:about wd:Q26986 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1991049805"^^xsd:integer ;
+	schema:dateModified "2023-10-13T23:33:23Z"^^xsd:dateTime .
+
+wd:Q26986 a wikibase:Item .
+
+<https://en.wikipedia.org/wiki/Na-Dene_languages> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://en.wikipedia.org/> ;
+	schema:name "Na-Dene languages"@en .
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://de.wikipedia.org/wiki/Na-Den%C3%A9-Sprachen> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "de" ;
+	schema:isPartOf <https://de.wikipedia.org/> ;
+	schema:name "Na-Dené-Sprachen"@de .
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fr.wikipedia.org/wiki/Langues_na-den%C3%A9> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "fr" ;
+	schema:isPartOf <https://fr.wikipedia.org/> ;
+	schema:name "Langues na-dené"@fr .
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://es.wikipedia.org/wiki/Lenguas_na-den%C3%A9> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "es" ;
+	schema:isPartOf <https://es.wikipedia.org/> ;
+	schema:name "Lenguas na-dené"@es .
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ru.wikipedia.org/wiki/%D0%AF%D0%B7%D1%8B%D0%BA%D0%B8_%D0%BD%D0%B0-%D0%B4%D0%B5%D0%BD%D0%B5> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "ru" ;
+	schema:isPartOf <https://ru.wikipedia.org/> ;
+	schema:name "Языки на-дене"@ru .
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://it.wikipedia.org/wiki/Lingue_na-dene> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "it" ;
+	schema:isPartOf <https://it.wikipedia.org/> ;
+	schema:name "Lingue na-dene"@it .
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ja.wikipedia.org/wiki/%E3%83%8A%E3%83%BB%E3%83%87%E3%83%8D%E8%AA%9E%E6%97%8F> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "ja" ;
+	schema:isPartOf <https://ja.wikipedia.org/> ;
+	schema:name "ナ・デネ語族"@ja .
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nl.wikipedia.org/wiki/Na-Den%C3%A9talen> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "nl" ;
+	schema:isPartOf <https://nl.wikipedia.org/> ;
+	schema:name "Na-Denétalen"@nl .
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pl.wikipedia.org/wiki/J%C4%99zyki_na-dene> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "pl" ;
+	schema:isPartOf <https://pl.wikipedia.org/> ;
+	schema:name "Języki na-dene"@pl .
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pt.wikipedia.org/wiki/L%C3%ADnguas_na-dene> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "pt" ;
+	schema:isPartOf <https://pt.wikipedia.org/> ;
+	schema:name "Línguas na-dene"@pt .
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sv.wikipedia.org/wiki/Na-dene> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "sv" ;
+	schema:isPartOf <https://sv.wikipedia.org/> ;
+	schema:name "Na-dene"@sv .
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://tr.wikipedia.org/wiki/Na-Dene_dilleri> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "tr" ;
+	schema:isPartOf <https://tr.wikipedia.org/> ;
+	schema:name "Na-Dene dilleri"@tr .
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fi.wikipedia.org/wiki/Na-den%C3%A9-kielet> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "fi" ;
+	schema:isPartOf <https://fi.wikipedia.org/> ;
+	schema:name "Na-dené-kielet"@fi .
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://vi.wikipedia.org/wiki/Ng%E1%BB%AF_h%E1%BB%87_Na-Den%C3%A9> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "vi" ;
+	schema:isPartOf <https://vi.wikipedia.org/> ;
+	schema:name "Ngữ hệ Na-Dené"@vi .
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://no.wikipedia.org/wiki/Na-den%C3%A9-spr%C3%A5k> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "nb" ;
+	schema:isPartOf <https://no.wikipedia.org/> ;
+	schema:name "Na-dené-språk"@nb .
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ca.wikipedia.org/wiki/Na-den%C3%A9> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "ca" ;
+	schema:isPartOf <https://ca.wikipedia.org/> ;
+	schema:name "Na-dené"@ca .
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://cs.wikipedia.org/wiki/Jazyky_na-den%C3%A9> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "cs" ;
+	schema:isPartOf <https://cs.wikipedia.org/> ;
+	schema:name "Jazyky na-dené"@cs .
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://sr.wikipedia.org/wiki/%D0%9D%D0%B0-%D0%B4%D0%B5%D0%BD%D0%B5_%D1%98%D0%B5%D0%B7%D0%B8%D1%86%D0%B8> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "sr" ;
+	schema:isPartOf <https://sr.wikipedia.org/> ;
+	schema:name "На-дене језици"@sr .
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://an.wikipedia.org/wiki/Luengas_na-dene> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "an" ;
+	schema:isPartOf <https://an.wikipedia.org/> ;
+	schema:name "Luengas na-dene"@an .
+
+<https://an.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ast.wikipedia.org/wiki/Lling%C3%BCes_na-den%C3%A9> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "ast" ;
+	schema:isPartOf <https://ast.wikipedia.org/> ;
+	schema:name "Llingües na-dené"@ast .
+
+<https://ast.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://azb.wikipedia.org/wiki/%D9%86%D8%A7-%D8%AF%D9%86%D9%87_%D8%AF%DB%8C%D9%84%D9%84%D8%B1%DB%8C> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "azb" ;
+	schema:isPartOf <https://azb.wikipedia.org/> ;
+	schema:name "نا-دنه دیللری"@azb .
+
+<https://azb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://be.wikipedia.org/wiki/%D0%9D%D0%B0-%D0%B4%D1%8D%D0%BD%D0%B5> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "be" ;
+	schema:isPartOf <https://be.wikipedia.org/> ;
+	schema:name "На-дэне"@be .
+
+<https://be.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://br.wikipedia.org/wiki/Yezho%C3%B9_na-dene> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "br" ;
+	schema:isPartOf <https://br.wikipedia.org/> ;
+	schema:name "Yezhoù na-dene"@br .
+
+<https://br.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://diq.wikipedia.org/wiki/Z%C4%B1wan%C3%AA_Na-Dene> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "diq" ;
+	schema:isPartOf <https://diq.wikipedia.org/> ;
+	schema:name "Zıwanê Na-Dene"@diq .
+
+<https://diq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eo.wikipedia.org/wiki/Na-denea_lingvaro> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "eo" ;
+	schema:isPartOf <https://eo.wikipedia.org/> ;
+	schema:name "Na-denea lingvaro"@eo .
+
+<https://eo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://et.wikipedia.org/wiki/Naa-dene_keeled> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "et" ;
+	schema:isPartOf <https://et.wikipedia.org/> ;
+	schema:name "Naa-dene keeled"@et .
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://eu.wikipedia.org/wiki/Na-dene_hizkuntzak> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "eu" ;
+	schema:isPartOf <https://eu.wikipedia.org/> ;
+	schema:name "Na-dene hizkuntzak"@eu .
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://frr.wikipedia.org/wiki/Na-Dene_spriaken> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "frr" ;
+	schema:isPartOf <https://frr.wikipedia.org/> ;
+	schema:name "Na-Dene spriaken"@frr .
+
+<https://frr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fy.wikipedia.org/wiki/Na-Den%C3%A9-talen> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "fy" ;
+	schema:isPartOf <https://fy.wikipedia.org/> ;
+	schema:name "Na-Dené-talen"@fy .
+
+<https://fy.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://gl.wikipedia.org/wiki/Linguas_na-den%C3%A9> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "gl" ;
+	schema:isPartOf <https://gl.wikipedia.org/> ;
+	schema:name "Linguas na-dené"@gl .
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hi.wikipedia.org/wiki/%E0%A4%A8%E0%A4%BE-%E0%A4%A1%E0%A4%BF%E0%A4%A8%E0%A5%87_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE%E0%A4%8F%E0%A4%81> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "hi" ;
+	schema:isPartOf <https://hi.wikipedia.org/> ;
+	schema:name "ना-डिने भाषाएँ"@hi .
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://hr.wikipedia.org/wiki/Na-D%C3%A9n%C3%A9> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Na-Déné"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://kn.wikipedia.org/wiki/%E0%B2%A8%E0%B2%BE-%E0%B2%A6%E0%B3%86%E0%B2%A8%E0%B3%86_%E0%B2%AD%E0%B2%BE%E0%B2%B7%E0%B3%86%E0%B2%97%E0%B2%B3%E0%B3%81> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "kn" ;
+	schema:isPartOf <https://kn.wikipedia.org/> ;
+	schema:name "ನಾ-ದೆನೆ ಭಾಷೆಗಳು"@kn .
+
+<https://kn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://la.wikipedia.org/wiki/Linguae_Na-Dene> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "la" ;
+	schema:isPartOf <https://la.wikipedia.org/> ;
+	schema:name "Linguae Na-Dene"@la .
+
+<https://la.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lez.wikipedia.org/wiki/%D0%9D%D0%B0-%D0%B4%D0%B5%D0%BD%D0%B5_%D1%87%D3%80%D0%B0%D0%BB%D0%B0%D1%80> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "lez" ;
+	schema:isPartOf <https://lez.wikipedia.org/> ;
+	schema:name "На-дене чӀалар"@lez .
+
+<https://lez.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lt.wikipedia.org/wiki/Na-dene_kalbos> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "lt" ;
+	schema:isPartOf <https://lt.wikipedia.org/> ;
+	schema:name "Na-dene kalbos"@lt .
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lv.wikipedia.org/wiki/Na-dene_valodas> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "lv" ;
+	schema:isPartOf <https://lv.wikipedia.org/> ;
+	schema:name "Na-dene valodas"@lv .
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mrj.wikipedia.org/wiki/%D0%9D%D0%B0-%D0%B4%D0%B5%D0%BD%D0%B5_%D0%B9%D3%B9%D0%BB%D0%BC%D3%B9%D0%B2%D0%BB%D3%93> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "mrj" ;
+	schema:isPartOf <https://mrj.wikipedia.org/> ;
+	schema:name "На-дене йӹлмӹвлӓ"@mrj .
+
+<https://mrj.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nn.wikipedia.org/wiki/Na-den%C3%A9-spr%C3%A5k> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "nn" ;
+	schema:isPartOf <https://nn.wikipedia.org/> ;
+	schema:name "Na-dené-språk"@nn .
+
+<https://nn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://oc.wikipedia.org/wiki/Lengas_na-den%C3%A9> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "oc" ;
+	schema:isPartOf <https://oc.wikipedia.org/> ;
+	schema:name "Lengas na-dené"@oc .
+
+<https://oc.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://pms.wikipedia.org/wiki/Lenghe_na-dene> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "pms" ;
+	schema:isPartOf <https://pms.wikipedia.org/> ;
+	schema:name "Lenghe na-dene"@pms .
+
+<https://pms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://qu.wikipedia.org/wiki/Na_din%C3%A9_rimaykuna> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "qu" ;
+	schema:isPartOf <https://qu.wikipedia.org/> ;
+	schema:name "Na diné rimaykuna"@qu .
+
+<https://qu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ur.wikipedia.org/wiki/%D9%86%D8%A7%D8%AF%DB%8C%D9%86%DB%8C_%D8%B2%D8%A8%D8%A7%D9%86%DB%8C%DA%BA> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "ur" ;
+	schema:isPartOf <https://ur.wikipedia.org/> ;
+	schema:name "نادینی زبانیں"@ur .
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zea.wikipedia.org/wiki/Na-Den%C3%A9taelen> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "zea" ;
+	schema:isPartOf <https://zea.wikipedia.org/> ;
+	schema:name "Na-Denétaelen"@zea .
+
+<https://zea.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://lfn.wikipedia.org/wiki/Linguas_na-dene> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "lfn" ;
+	schema:isPartOf <https://lfn.wikipedia.org/> ;
+	schema:name "Linguas na-dene"@lfn .
+
+<https://lfn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ia.wikipedia.org/wiki/Na-Den%C3%A9> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "ia" ;
+	schema:isPartOf <https://ia.wikipedia.org/> ;
+	schema:name "Na-Dené"@ia .
+
+<https://ia.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ko.wikipedia.org/wiki/%EB%82%98%EB%8D%B0%EB%84%A4%EC%96%B4%EC%A1%B1> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "ko" ;
+	schema:isPartOf <https://ko.wikipedia.org/> ;
+	schema:name "나데네어족"@ko .
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://uk.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B2%D0%B8_%D0%BD%D0%B0-%D0%B4%D0%B5%D0%BD%D0%B5> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "uk" ;
+	schema:isPartOf <https://uk.wikipedia.org/> ;
+	schema:name "Мови на-дене"@uk .
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://mg.wikipedia.org/wiki/Fianakaviam-piteny_na-dene> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "mg" ;
+	schema:isPartOf <https://mg.wikipedia.org/> ;
+	schema:name "Fianakaviam-piteny na-dene"@mg .
+
+<https://mg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://nds-nl.wikipedia.org/wiki/Na-Den%C3%A9talen> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "nds-NL" ;
+	schema:isPartOf <https://nds-nl.wikipedia.org/> ;
+	schema:name "Na-Denétalen"@nds-NL .
+
+<https://nds-nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://af.wikipedia.org/wiki/Na-Den%C3%A9-tale> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "af" ;
+	schema:isPartOf <https://af.wikipedia.org/> ;
+	schema:name "Na-Dené-tale"@af .
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86%E2%80%8C%D9%87%D8%A7%DB%8C_%D9%86%D8%A7-%D8%AF%D9%86%D9%87> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "fa" ;
+	schema:isPartOf <https://fa.wikipedia.org/> ;
+	schema:name "زبان‌های نا-دنه"@fa .
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ar.wikipedia.org/wiki/%D9%84%D8%BA%D8%A7%D8%AA_%D9%86%D8%A7-%D8%AF%D9%8A%D9%86%D9%8A> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "ar" ;
+	schema:isPartOf <https://ar.wikipedia.org/> ;
+	schema:name "لغات نا-ديني"@ar .
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://is.wikipedia.org/wiki/Na-Dene_m%C3%A1l> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "is" ;
+	schema:isPartOf <https://is.wikipedia.org/> ;
+	schema:name "Na-Dene mál"@is .
+
+<https://is.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://ms.wikipedia.org/wiki/Bahasa-bahasa_Na-Dene> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "ms" ;
+	schema:isPartOf <https://ms.wikipedia.org/> ;
+	schema:name "Bahasa-bahasa Na-Dene"@ms .
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://zh.wikipedia.org/wiki/%E7%B4%8D-%E5%BE%B7%E5%85%A7%E8%AA%9E%E7%B3%BB> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://zh.wikipedia.org/> ;
+	schema:name "納-德內語系"@zh .
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+<https://az.wikipedia.org/wiki/Na-Dene_dill%C9%99ri> a schema:Article ;
+	schema:about wd:Q26986 ;
+	schema:inLanguage "az" ;
+	schema:isPartOf <https://az.wikipedia.org/> ;
+	schema:name "Na-Dene dilləri"@az .
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q26986 wdt:P279 wd:Q51739 ;
+	wdt:P305 "xnd" ;
+	wdt:P31 wd:Q25295 ;
+	wdt:P910 wd:Q9034858 ;
+	wdt:P646 "/m/02297_" ;
+	wdt:P1798 "xnd" ;
+	wdt:P1014 "300388929" ;
+	wdtn:P1014 <http://vocab.getty.edu/aat/300388929> ;
+	wdt:P227 "4120270-3" ;
+	wdtn:P227 <https://d-nb.info/gnd/4120270-3> ;
+	wdt:P1394 "atha1245" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/atha1245> ;
+	wdt:P2924 "2244373" ;
+	wdt:P1417 "topic/Na-Dene-languages" ;
+	wdt:P2581 "00056691n" ;
+	wdtn:P2581 <http://babelnet.org/rdf/s00056691n> ;
+	wdt:P8408 "NadeneLanguageFamily" ;
+	wdtn:P8408 <http://kbpedia.org/kko/rc/NadeneLanguageFamily> ;
+	wdt:P1846 <http://commons.wikimedia.org/wiki/Special:FilePath/Na-Dene%20langs.png> ;
+	wdt:P5008 wd:Q6173448 ;
+	rdfs:label "納－德內語系"@zh ;
+	skos:prefLabel "納－德內語系"@zh ;
+	schema:name "納－德內語系"@zh ;
+	rdfs:label "Lenghe na-dene"@pms ;
+	skos:prefLabel "Lenghe na-dene"@pms ;
+	schema:name "Lenghe na-dene"@pms ;
+	rdfs:label "języki na-dene"@pl ;
+	skos:prefLabel "języki na-dene"@pl ;
+	schema:name "języki na-dene"@pl ;
+	rdfs:label "Na diné rimaykuna"@qu ;
+	skos:prefLabel "Na diné rimaykuna"@qu ;
+	schema:name "Na diné rimaykuna"@qu ;
+	rdfs:label "На-дене чӀалар"@lez ;
+	skos:prefLabel "На-дене чӀалар"@lez ;
+	schema:name "На-дене чӀалар"@lez ;
+	rdfs:label "langues na-dené"@fr ;
+	skos:prefLabel "langues na-dené"@fr ;
+	schema:name "langues na-dené"@fr ;
+	rdfs:label "lenguas na-dené"@es ;
+	skos:prefLabel "lenguas na-dené"@es ;
+	schema:name "lenguas na-dené"@es ;
+	rdfs:label "Na-Dene spriaken"@frr ;
+	skos:prefLabel "Na-Dene spriaken"@frr ;
+	schema:name "Na-Dene spriaken"@frr ;
+	rdfs:label "Lengas na-dené"@oc ;
+	skos:prefLabel "Lengas na-dené"@oc ;
+	schema:name "Lengas na-dené"@oc ;
+	rdfs:label "Na-dene valodas"@lv ;
+	skos:prefLabel "Na-dene valodas"@lv ;
+	schema:name "Na-dene valodas"@lv ;
+	rdfs:label "lingue na-dene"@it ;
+	skos:prefLabel "lingue na-dene"@it ;
+	schema:name "lingue na-dene"@it ;
+	rdfs:label "Linguas na-dené"@gl ;
+	skos:prefLabel "Linguas na-dené"@gl ;
+	schema:name "Linguas na-dené"@gl ;
+	rdfs:label "Naa-dene keeled"@et ;
+	skos:prefLabel "Naa-dene keeled"@et ;
+	schema:name "Naa-dene keeled"@et ;
+	rdfs:label "Na-Dené-Sprachen"@de ;
+	skos:prefLabel "Na-Dené-Sprachen"@de ;
+	schema:name "Na-Dené-Sprachen"@de ;
+	rdfs:label "ナ・デネ語族"@ja ;
+	skos:prefLabel "ナ・デネ語族"@ja ;
+	schema:name "ナ・デネ語族"@ja ;
+	rdfs:label "На-дене йӹлмӹвлӓ"@mrj ;
+	skos:prefLabel "На-дене йӹлмӹвлӓ"@mrj ;
+	schema:name "На-дене йӹлмӹвлӓ"@mrj ;
+	rdfs:label "yezhoù na-dene"@br ;
+	skos:prefLabel "yezhoù na-dene"@br ;
+	schema:name "yezhoù na-dene"@br ;
+	rdfs:label "Na-Denétalen"@nl ;
+	skos:prefLabel "Na-Denétalen"@nl ;
+	schema:name "Na-Denétalen"@nl ;
+	rdfs:label "na-dené"@sv ;
+	skos:prefLabel "na-dené"@sv ;
+	schema:name "na-dené"@sv ;
+	rdfs:label "Línguas na-dene"@pt ;
+	skos:prefLabel "Línguas na-dene"@pt ;
+	schema:name "Línguas na-dene"@pt ;
+	rdfs:label "Na-denea lingvaro"@eo ;
+	skos:prefLabel "Na-denea lingvaro"@eo ;
+	schema:name "Na-denea lingvaro"@eo ;
+	rdfs:label "языки на-дене"@ru ;
+	skos:prefLabel "языки на-дене"@ru ;
+	schema:name "языки на-дене"@ru ;
+	rdfs:label "ನಾ-ದೆನೆ ಭಾಷೆಗಳು"@kn ;
+	skos:prefLabel "ನಾ-ದೆನೆ ಭಾಷೆಗಳು"@kn ;
+	schema:name "ನಾ-ದೆನೆ ಭಾಷೆಗಳು"@kn ;
+	rdfs:label "Na-Dene"@en ;
+	skos:prefLabel "Na-Dene"@en ;
+	schema:name "Na-Dene"@en ;
+	rdfs:label "на-дене језици"@sr ;
+	skos:prefLabel "на-дене језици"@sr ;
+	schema:name "на-дене језици"@sr ;
+	rdfs:label "Na-Dene dilleri"@tr ;
+	skos:prefLabel "Na-Dene dilleri"@tr ;
+	schema:name "Na-Dene dilleri"@tr ;
+	rdfs:label "llengües na-dené"@ca ;
+	skos:prefLabel "llengües na-dené"@ca ;
+	schema:name "llengües na-dené"@ca ;
+	rdfs:label "Na-dené-kielet"@fi ;
+	skos:prefLabel "Na-dené-kielet"@fi ;
+	schema:name "Na-dené-kielet"@fi ;
+	rdfs:label "мови на-дене"@uk ;
+	skos:prefLabel "мови на-дене"@uk ;
+	schema:name "мови на-дене"@uk ;
+	rdfs:label "Linguae Na-Dene"@la ;
+	skos:prefLabel "Linguae Na-Dene"@la ;
+	schema:name "Linguae Na-Dene"@la ;
+	rdfs:label "na-dené-språk"@nn ;
+	skos:prefLabel "na-dené-språk"@nn ;
+	schema:name "na-dené-språk"@nn ;
+	rdfs:label "Jazyky na-dené"@cs ;
+	skos:prefLabel "Jazyky na-dené"@cs ;
+	schema:name "Jazyky na-dené"@cs ;
+	rdfs:label "Na-Denétaelen"@zea ;
+	skos:prefLabel "Na-Denétaelen"@zea ;
+	schema:name "Na-Denétaelen"@zea ;
+	rdfs:label "Na-Déné"@hr ;
+	skos:prefLabel "Na-Déné"@hr ;
+	schema:name "Na-Déné"@hr ;
+	rdfs:label "Na-dene kalbos"@lt ;
+	skos:prefLabel "Na-dene kalbos"@lt ;
+	schema:name "Na-dene kalbos"@lt ;
+	rdfs:label "Luengas na-dene"@an ;
+	skos:prefLabel "Luengas na-dene"@an ;
+	schema:name "Luengas na-dene"@an ;
+	rdfs:label "ना-डिने भाषाएँ"@hi ;
+	skos:prefLabel "ना-डिने भाषाएँ"@hi ;
+	schema:name "ना-डिने भाषाएँ"@hi ;
+	rdfs:label "na-dené-språk"@nb ;
+	skos:prefLabel "na-dené-språk"@nb ;
+	schema:name "na-dené-språk"@nb ;
+	rdfs:label "نادینی زبانیں"@ur ;
+	skos:prefLabel "نادینی زبانیں"@ur ;
+	schema:name "نادینی زبانیں"@ur ;
+	rdfs:label "Na-Dené-talen"@fy ;
+	skos:prefLabel "Na-Dené-talen"@fy ;
+	schema:name "Na-Dené-talen"@fy ;
+	rdfs:label "на-дене језици"@sr-ec ;
+	skos:prefLabel "на-дене језици"@sr-ec ;
+	schema:name "на-дене језици"@sr-ec ;
+	rdfs:label "na-dene jezici"@sr-el ;
+	skos:prefLabel "na-dene jezici"@sr-el ;
+	schema:name "na-dene jezici"@sr-el ;
+	rdfs:label "на-дене јазици"@mk ;
+	skos:prefLabel "на-дене јазици"@mk ;
+	schema:name "на-дене јазици"@mk ;
+	rdfs:label "На-дэне"@be ;
+	skos:prefLabel "На-дэне"@be ;
+	schema:name "На-дэне"@be ;
+	rdfs:label "Hệ ngôn ngữ Na-Dené"@vi ;
+	skos:prefLabel "Hệ ngôn ngữ Na-Dené"@vi ;
+	schema:name "Hệ ngôn ngữ Na-Dené"@vi ;
+	rdfs:label "纳－德内语系"@zh-hans ;
+	skos:prefLabel "纳－德内语系"@zh-hans ;
+	schema:name "纳－德内语系"@zh-hans ;
+	rdfs:label "納－德內語系"@zh-hant ;
+	skos:prefLabel "納－德內語系"@zh-hant ;
+	schema:name "納－德內語系"@zh-hant ;
+	rdfs:label "納－德內語系"@zh-hk ;
+	skos:prefLabel "納－德內語系"@zh-hk ;
+	schema:name "納－德內語系"@zh-hk ;
+	rdfs:label "Zıwanê Na-Dene"@diq ;
+	skos:prefLabel "Zıwanê Na-Dene"@diq ;
+	schema:name "Zıwanê Na-Dene"@diq ;
+	rdfs:label "Llingües na-dené"@ast ;
+	skos:prefLabel "Llingües na-dené"@ast ;
+	schema:name "Llingües na-dené"@ast ;
+	rdfs:label "نا-دنه دیللری"@azb ;
+	skos:prefLabel "نا-دنه دیللری"@azb ;
+	schema:name "نا-دنه دیللری"@azb ;
+	rdfs:label "Na-dene hizkuntzak"@eu ;
+	skos:prefLabel "Na-dene hizkuntzak"@eu ;
+	schema:name "Na-dene hizkuntzak"@eu ;
+	rdfs:label "linguas nadene"@lfn ;
+	skos:prefLabel "linguas nadene"@lfn ;
+	schema:name "linguas nadene"@lfn ;
+	rdfs:label "Na-Dené"@ia ;
+	skos:prefLabel "Na-Dené"@ia ;
+	schema:name "Na-Dené"@ia ;
+	rdfs:label "나데네어족"@ko ;
+	skos:prefLabel "나데네어족"@ko ;
+	schema:name "나데네어족"@ko ;
+	rdfs:label "納－德內語系"@zh-tw ;
+	skos:prefLabel "納－德內語系"@zh-tw ;
+	schema:name "納－德內語系"@zh-tw ;
+	rdfs:label "Fianakaviam-piteny na-dene"@mg ;
+	skos:prefLabel "Fianakaviam-piteny na-dene"@mg ;
+	schema:name "Fianakaviam-piteny na-dene"@mg ;
+	rdfs:label "на-дэнэ"@be-tarask ;
+	skos:prefLabel "на-дэнэ"@be-tarask ;
+	schema:name "на-дэнэ"@be-tarask ;
+	rdfs:label "Na-Denétalen"@nds-nl ;
+	skos:prefLabel "Na-Denétalen"@nds-nl ;
+	schema:name "Na-Denétalen"@nds-nl ;
+	rdfs:label "Na-Dené-tale"@af ;
+	skos:prefLabel "Na-Dené-tale"@af ;
+	schema:name "Na-Dené-tale"@af ;
+	rdfs:label "زبان‌های نا-دنه"@fa ;
+	skos:prefLabel "زبان‌های نا-دنه"@fa ;
+	schema:name "زبان‌های نا-دنه"@fa ;
+	rdfs:label "نا-ديني (لغة)"@ar ;
+	skos:prefLabel "نا-ديني (لغة)"@ar ;
+	schema:name "نا-ديني (لغة)"@ar ;
+	rdfs:label "שפות נה-דנה"@he ;
+	skos:prefLabel "שפות נה-דנה"@he ;
+	schema:name "שפות נה-דנה"@he ;
+	rdfs:label "łéngue na-dené"@vec ;
+	skos:prefLabel "łéngue na-dené"@vec ;
+	schema:name "łéngue na-dené"@vec ;
+	rdfs:label "Na-Dene mál"@is ;
+	skos:prefLabel "Na-Dene mál"@is ;
+	schema:name "Na-Dene mál"@is ;
+	rdfs:label "на-дене"@bg ;
+	skos:prefLabel "на-дене"@bg ;
+	schema:name "на-дене"@bg ;
+	rdfs:label "Na-Dene"@ms ;
+	skos:prefLabel "Na-Dene"@ms ;
+	schema:name "Na-Dene"@ms ;
+	rdfs:label "Na-Dene dilləri"@az ;
+	skos:prefLabel "Na-Dene dilləri"@az ;
+	schema:name "Na-Dene dilləri"@az ;
+	rdfs:label "nadenski jeziki"@sl ;
+	skos:prefLabel "nadenski jeziki"@sl ;
+	schema:name "nadenski jeziki"@sl ;
+	schema:description "Native American language family"@en,
+		"Familia lingüística de América del Norte y Siberia"@es,
+		"एक अमेरिकी आदिवासी भाषा परिवार"@hi,
+		"Bezeichnung für eine Gruppe nordamerikanischer Sprachen"@de,
+		"famiglia linguistica"@it,
+		"famille de langues"@fr,
+		"семья индейских языков Северной Америки"@ru,
+		"família lingüística"@ca,
+		"familh yezhoù"@br,
+		"북아메리카 원주민 어족"@ko,
+		"сім'я індіанських мов Північної Америки"@uk,
+		"сямейства індзейскіх моваў Паўночнай Амэрыкі"@be-tarask,
+		"خانواده زبانی بومی آمریکا"@fa,
+		"språkfamilj i Nordamerika"@sv,
+		"taalfamilie"@nl,
+		"rodzina rdzennych języków Ameryki Północnej"@pl,
+		"езиково семейство"@bg,
+		"keluarga bahasa peribumi Amerika Utara"@ms,
+		"družina ameriških staroselskih jezikov"@sl ;
+	skos:altLabel "納-德內語門"@zh,
+		"納-達尼語系"@zh,
+		"纳-迪内语系"@zh,
+		"納－達尼語系"@zh,
+		"納-德內語系"@zh,
+		"納-達內語系"@zh,
+		"na-dene"@pl,
+		"Na-diné rimaykuna"@qu,
+		"Na dine rimaykuna"@qu,
+		"Na-dine rimaykuna"@qu,
+		"Na dené rimaykuna"@qu,
+		"Na-dené rimaykuna"@qu,
+		"Na-Déné"@fr,
+		"Langues na-dene"@fr,
+		"Na-dénés"@fr,
+		"Lenguas na dene"@es,
+		"Na-dené"@es,
+		"Lenguas na-dene"@es,
+		"Lenguas na dené"@es,
+		"Na-dene"@es,
+		"Na-dené"@oc,
+		"Lengas na-denés"@oc,
+		"Na-dene"@it,
+		"Lingue na dene"@it,
+		"Nadenè"@it,
+		"Lingue Na-Dené"@it,
+		"Linguas na-dene"@gl,
+		"Tlingit-Eyak-Athapaskisch"@de,
+		"Na-Dené"@de,
+		"Na-Dene"@de,
+		"Na-Dene-Sprachfamilie"@de,
+		"Na-Dene-Sprachen"@de,
+		"ナデネ語族"@ja,
+		"ナ・デネ"@ja,
+		"ナデネ"@ja,
+		"Na-Denetalen"@nl,
+		"Na-Dené"@nl,
+		"Na Denetalen"@nl,
+		"Na-Dené-talen"@nl,
+		"Na Dene talen"@nl,
+		"Na-Dene"@nl,
+		"Na Denétalen"@nl,
+		"Na-Dene-talen"@nl,
+		"Na-Dené"@sv,
+		"Nà-Dene"@sv,
+		"Na-Dené-språk"@sv,
+		"Na-Denespråk"@sv,
+		"Na-dene-språk"@sv,
+		"athabaskan-eyak-tlingit-språk"@sv,
+		"Na-Dené"@pt,
+		"Língua na-dene"@pt,
+		"Na-Denea Familio"@eo,
+		"Na-deneaj lingvoj"@eo,
+		"Језици На-Дене"@sr,
+		"Llengües na-dené"@ca,
+		"Athabaskan-Eyak-Tlingit"@fi,
+		"Na-dené"@fi,
+		"Na-dene"@fi,
+		"Nadene"@fi,
+		"Nadene-kielet"@fi,
+		"Na-dene-kielet"@fi,
+		"Na-dené"@cs,
+		"Jazyky na-dané"@cs,
+		"आथाबास्की-एयक-त्लिंगित"@hi,
+		"त्लिंगित-डिने"@hi,
+		"na-dene-språk"@nb,
+		"納德內語系"@zh-tw,
+		"на-дене"@uk,
+		"мовы на-дэнэ"@be-tarask,
+		"Na-Dene languages"@en,
+		"Na-Dené"@en,
+		"Nadene"@en,
+		"Athabaskan–Eyak–Tlingit"@en,
+		"Tlina–Dene"@en,
+		"Athabaska–Eyak–Tlingit"@ms,
+		"bahasa-bahasa Na-Dene"@ms .
+
+wd:Q31749341 owl:sameAs wd:Q26986 .

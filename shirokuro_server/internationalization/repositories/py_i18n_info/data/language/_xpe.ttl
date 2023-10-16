@@ -1,0 +1,90 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+
+data:Q20527226 a schema:Dataset ;
+	schema:about wd:Q20527226 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "1975329902"^^xsd:integer ;
+	schema:dateModified "2023-09-16T03:59:48Z"^^xsd:dateTime .
+
+wd:Q20527226 a wikibase:Item .
+
+<https://hr.wikipedia.org/wiki/Liberijski_kpelle_jezik> a schema:Article ;
+	schema:about wd:Q20527226 ;
+	schema:inLanguage "hr" ;
+	schema:isPartOf <https://hr.wikipedia.org/> ;
+	schema:name "Liberijski kpelle jezik"@hr .
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+wd:Q20527226 wdt:P31 wd:Q34770,
+		wd:Q1288568 ;
+	wdt:P220 "xpe" ;
+	wdtn:P220 <http://lexvo.org/id/iso639-3/xpe> ;
+	wdt:P1394 "libe1247" ;
+	wdtn:P1394 <http://glottolog.org/resource/languoid/id/libe1247> ;
+	wdt:P279 wd:Q35673 ;
+	wdt:P910 wd:Q36159436 ;
+	wdt:P1466 "kpe" ;
+	wdtn:P1466 <https://wals.info/languoid/lect/wals_code_kpe> ;
+	wdt:P305 "xpe" ;
+	wdt:P1627 "xpe" ;
+	wdt:P3823 wd:Q29051551 ;
+	wdt:P17 wd:Q1014 ;
+	wdt:P2341 wd:Q1014 ;
+	wdt:P2888 <http://publications.europa.eu/resource/authority/language/XPE> ;
+	wdt:P6104 wd:Q112898263 ;
+	rdfs:label "Liberijski kpelle jezik"@hr ;
+	skos:prefLabel "Liberijski kpelle jezik"@hr ;
+	schema:name "Liberijski kpelle jezik"@hr ;
+	rdfs:label "Liberia Kpelle"@en ;
+	skos:prefLabel "Liberia Kpelle"@en ;
+	schema:name "Liberia Kpelle"@en ;
+	rdfs:label "Liberia Kpelle"@en-gb ;
+	skos:prefLabel "Liberia Kpelle"@en-gb ;
+	schema:name "Liberia Kpelle"@en-gb ;
+	rdfs:label "kpellé du Liberia"@fr ;
+	skos:prefLabel "kpellé du Liberia"@fr ;
+	schema:name "kpellé du Liberia"@fr ;
+	rdfs:label "リベリア・クペレ語"@ja ;
+	skos:prefLabel "リベリア・クペレ語"@ja ;
+	schema:name "リベリア・クペレ語"@ja ;
+	schema:description "שפה"@he,
+		"langue mandée"@fr,
+		"yezh"@br,
+		"lengua"@es,
+		"lingua"@it,
+		"Sprache"@de,
+		"language"@en,
+		"taal"@nl,
+		"iaith"@cy,
+		"lingua"@la .
